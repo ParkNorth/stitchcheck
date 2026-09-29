@@ -13,6 +13,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 import { brands, brandSlugFor, seriesHubs } from "../src/lib/brands";
+import ogManifest from "../src/lib/og-manifest.json";
 import { comparisons } from "../src/lib/comparisons";
 import { guides } from "../src/lib/guides";
 import { hubs, allHubEntries } from "../src/lib/hubs";
@@ -211,6 +212,22 @@ for (const p of products) {
   }
 }
 if (seriesHubs().length === 0) warn("series-hub", "brands", "no series hubs registered");
+
+// Open Graph cards: every registry page should have a rendered card (npm run build:og).
+{
+  const og = ogManifest as Record<string, string>;
+  const want = [
+    ...products.map((p) => `/reviews/${p.slug}`),
+    ...hubs.map((h) => `/${h.slug}`),
+    ...guides.map((g) => `/guides/${g.slug}`),
+    ...comparisons.map((c) => `/compare/${c.slug}`),
+    ...brands.map((b) => `/brands/${b.slug}`),
+  ];
+  for (const w of want) {
+    if (!og[w]) warn("og-card", w, "no Open Graph card in og-manifest.json; run npm run build:og");
+    else if (!fs.existsSync(path.join(ROOT, "public", og[w]))) fail("og-card", w, `manifest points at ${og[w]} but the file is missing`);
+  }
+}
 
 // ------------------------------------------------------------------ routes
 const mustExist = [

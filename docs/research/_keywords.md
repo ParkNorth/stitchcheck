@@ -51,21 +51,21 @@ Note on `/best-heavy-duty-sewing-machines`: "heavy duty sewing machine" (6,000) 
 | babylock-vibrant | babylock vibrant | 250 | 0 | 400 | baby lock vibrant serger (500) |
 | janome-coverpro-2000cpx | janome coverpro 2000cpx | 80 | 0 | 40 | janome cover pro 1000cpx (50) as the discontinued predecessor |
 | juki-tl-18qvp | juki tl18qvp | 350 | 0 | 400 | juki tl-18qvp (250), juki tl18 (350) |
-| juki-hzl-f600 (backlog) | juki hzl-f600 | 500 | 0 | 250 | juki f600 (500), juki hzl f600 (200), juki hzl-f600 review (80) |
-| juki-hzl-f300 (backlog) | juki hzl-f300 | 800 | 0 | 100 | juki f300 (500, TP 500) |
-| janome-hd9 (backlog) | janome hd9 | 1,400 | 0 | 600 | straight-stitch heavy duty, direct TL-2010Q rival |
-| janome-hd1000 (backlog) | janome hd1000 | 1,300 | 0 | 500 | |
-| janome-hd5000 (backlog) | janome hd5000 | 700 | 0 | 300 | |
-| singer-hd6600c (backlog) | singer heavy duty 6600c sewing machine | 1,500 | 0 | 900 | singer heavy duty 6600c (150, TP 800) |
-| singer-hd6700c (backlog) | singer heavy duty 6700c sewing machine | 900 | 0 | 300 | |
-| singer-4411 (backlog) | singer heavy duty 4411 sewing machine | 800 | 0 | 350 | singer 4411 heavy duty sewing machine (400, TP 800) |
-| juki-dnu-1541s (backlog) | juki 1541 | 700 | 0 | 350 | juki 1541s (500, TP 600), juki dnu-1541s (450); walking-foot industrial for upholstery |
-| janome-8002d (backlog) | janome 8002d serger | 500 | 0 | 150 | |
-| singer-14cg754 (backlog) | singer profinish serger | 500 | 0 | 350 | singer pro finish serger (200) |
-| babylock-imagine (backlog) | babylock imagine serger | 200 | 0 | 2,500 | |
-| brother-1634d (backlog) | brother 1634d serger | 200 | 0 | 150 | |
-| handi-quilter-amara (backlog) | handi quilter amara | 300 | 1 | 200 | |
-| bernina-1008 (backlog) | bernina 1008 | 1,300 | 0 | 700 | mechanical, discontinued in some markets: check |
+| juki-hzl-f600 (built 2026-09-29, verification pending) | juki hzl-f600 | 500 | 0 | 250 | juki f600 (500), juki hzl f600 (200), juki hzl-f600 review (80) |
+| juki-hzl-f300 (built 2026-09-29, verification pending) | juki hzl-f300 | 800 | 0 | 100 | juki f300 (500, TP 500) |
+| janome-hd9 (built 2026-09-29, verification pending) | janome hd9 | 1,400 | 0 | 600 | straight-stitch heavy duty, direct TL-2010Q rival |
+| janome-hd1000 (built 2026-09-29, verification pending) | janome hd1000 | 1,300 | 0 | 500 | |
+| janome-hd5000 (built 2026-09-29, verification pending) | janome hd5000 | 700 | 0 | 300 | |
+| singer-hd6600c (built 2026-09-29, verification pending) | singer heavy duty 6600c sewing machine | 1,500 | 0 | 900 | singer heavy duty 6600c (150, TP 800) |
+| singer-hd6700c (built 2026-09-29, verification pending) | singer heavy duty 6700c sewing machine | 900 | 0 | 300 | |
+| singer-4411 (built 2026-09-29, verification pending) | singer heavy duty 4411 sewing machine | 800 | 0 | 350 | singer 4411 heavy duty sewing machine (400, TP 800) |
+| juki-dnu-1541s (built 2026-09-29, verification pending) | juki 1541 | 700 | 0 | 350 | juki 1541s (500, TP 600), juki dnu-1541s (450); walking-foot industrial for upholstery |
+| janome-8002d (built 2026-09-29, verification pending) | janome 8002d serger | 500 | 0 | 150 | |
+| singer-14cg754 (built 2026-09-29, verification pending) | singer profinish serger | 500 | 0 | 350 | singer pro finish serger (200) |
+| babylock-imagine (built 2026-09-29, verification pending) | babylock imagine serger | 200 | 0 | 2,500 | |
+| brother-1634d (built 2026-09-29, verification pending) | brother 1634d serger | 200 | 0 | 150 | |
+| handi-quilter-amara (built 2026-09-29, verification pending) | handi quilter amara | 300 | 1 | 200 | |
+| bernina-1008 (built 2026-09-29, verification pending) | bernina 1008 | 1,300 | 0 | 700 | mechanical, discontinued in some markets: check |
 
 ## Compare pages (`/compare/[slug]`)
 

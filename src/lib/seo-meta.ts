@@ -2,6 +2,15 @@ import type { Metadata } from "next";
 import type { Product } from "./products";
 import { MACHINE_TYPE_LABEL } from "./products";
 import { site } from "./site";
+import ogManifest from "./og-manifest.json";
+
+const OG_BY_PATH: Record<string, string> = ogManifest;
+
+/** The rendered card for a path (scripts/build-og.ts), or the shared default. */
+export function ogImageFor(path: string, alt: string) {
+  const url = OG_BY_PATH[path];
+  return url ? { url, width: 1200, height: 630, alt } : defaultOgImage;
+}
 
 /** Shared OG image. Child `openGraph` objects replace the layout object, so pages must re-include this. */
 export const defaultOgImage = {
@@ -27,7 +36,7 @@ export function pageOpenGraph(opts: {
     title: opts.title,
     description: opts.description,
     url: opts.url,
-    images: opts.images ?? [defaultOgImage],
+    images: opts.images ?? [ogImageFor(opts.url, opts.title)],
     ...(opts.publishedTime ? { publishedTime: opts.publishedTime } : {}),
     ...(opts.modifiedTime ? { modifiedTime: opts.modifiedTime } : {}),
   };

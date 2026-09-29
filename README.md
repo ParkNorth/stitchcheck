@@ -13,6 +13,7 @@ npm run build:catalog  # data/specs/*.json -> src/lib/catalog-data.ts
 npm run check:catalog  # validator: provenance, linking, copy rules
 npm run typecheck && npm run lint && npm run build
 npm run screenshots -- --serve /reviews/juki-tl-2010q /best-sergers
+npm run build:og       # Open Graph cards -> public/og, src/lib/og-manifest.json
 ```
 
 ## Deploy
