@@ -37,11 +37,11 @@
     "brand": "Bernina",
     "model": "1008",
     "pageUrl": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008",
-    "imageUrl": "https://www.bernina.com/Bernina/media/products/Sewing,%20Quilting%20and%20Embroidery/BERNINA%20Classic%20Series/Headerbilder/Vordergrund/B1008-Header.png",
+    "imageUrl": "https://www.bernina.com/de/Resources-de/bernina-products/machines/classic-series/classicseries_teaser_big_bernina1008.jpg",
     "pickedBy": "hand pick via browser",
     "credit": "Photo: Bernina",
     "fetchedAt": "2026-09-29",
-    "note": "Discontinued model; the bernina.com product page is still live. bernina.com answers plain fetches with a Cloudflare challenge (HTTP 403); photo read from the page in a real Chromium session (og:image). The header image is 586 px wide and the page has no gallery, so the canvas is 800x600."
+    "note": "Discontinued model; the bernina.com product page is still live. bernina.com answers plain fetches with a Cloudflare challenge (HTTP 403); photo downloaded from bernina.com in a real Chromium session. It is the Classic Series teaser photo of the 1008 (1920x1280, machine only on white), byte-identical to the Wayback Machine copy at https://web.archive.org/web/20160731184431id_/https://www.bernina.com/de/Resources-de/bernina-products/machines/classic-series/classicseries_teaser_big_bernina1008.jpg. It replaces the 586 px og:image header (B1008-Header.png) from the product page, which has no gallery. Re-running the fetch script for this row needs the same browser step."
   },
   {
     "slug": "bernina-570-qe",
@@ -191,11 +191,11 @@
     "brand": "Handi Quilter",
     "model": "Sweet Sixteen",
     "pageUrl": "https://handiquilter.com/product-tag/hq-sweet-sixteen/",
-    "imageUrl": "https://handiquilter.com/wp-content/uploads/2022/10/Sweet-Sixteen-w-InSight-Table-Quilt-Clipped-scaled-1.jpg",
+    "imageUrl": "https://handiquilter.com/wp-content/uploads/2017/11/HQSweetSixteen.jpg",
     "pickedBy": "hand pick via browser",
     "credit": "Photo: Handi Quilter",
     "fetchedAt": "2026-09-29",
-    "note": "Handi Quilter retired the Sweet Sixteen product page (https://handiquilter.com/product/hq-sweet-sixteen/ returns 404; pageUrl is the accessory tag page). Gallery image names were read from the Wayback Machine snapshot https://web.archive.org/web/20231224155557/https://handiquilter.com/product/hq-sweet-sixteen/ and the file itself was downloaded from the live handiquilter.com uploads folder in a real Chromium session (2073 px cutout on white). Handi Quilter pictures the machine in its InSight table with a quilt under the needle; the only machine-only shot it published (2017/11/HQSweetSixteen.jpg) is 500 px wide."
+    "note": "Handi Quilter retired the Sweet Sixteen product page (https://handiquilter.com/product/hq-sweet-sixteen/ returns 404; pageUrl is the accessory tag page). handiquilter.com answers plain fetches with a Cloudflare challenge (HTTP 403); the file was downloaded from the live handiquilter.com uploads folder in a real Chromium session. This is the only machine-only shot Handi Quilter published and it is 500x270, so the canvas is 800x600 and the photo is soft. A sharper lifestyle shot exists on the manufacturer site (https://handiquilter.com/wp-content/uploads/2022/10/Sweet-Sixteen-w-InSight-Table-Quilt-Clipped-scaled-1.jpg, 2073 px, machine in its InSight table with a quilt under the needle, file name read from the Wayback Machine snapshot https://web.archive.org/web/20231224155557/https://handiquilter.com/product/hq-sweet-sixteen/). It breaks the no-fabric rule in docs/07-images.md; use it if that rule is relaxed later."
   },
   {
     "slug": "janome-8002d",

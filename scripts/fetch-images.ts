@@ -145,8 +145,8 @@ export function candidates(html: string, pageUrl: string, model: string): { url:
 /**
  * Trim the maker's white margins, then fit the machine on a white 4:3 canvas
  * with an 8 percent margin. Canvas is 1600x1200 when the source is big enough,
- * otherwise 4:3 at the source's width (never below 800) so small renditions are
- * not upscaled into mush.
+ * otherwise 4:3 at the size the trimmed source fills (never below 800) so small
+ * renditions are not upscaled into mush.
  */
 export async function fitToCanvas(input: Buffer | string, file: string) {
   const base = sharp(input).rotate().flatten({ background: "#ffffff" });
@@ -160,8 +160,11 @@ export async function fitToCanvas(input: Buffer | string, file: string) {
   const tw = tm.width ?? 0;
   const th = tm.height ?? 0;
   if (tw < 40 || th < 40) trimmed = await base.clone().toBuffer(); // trim ate the picture: not a white-background shot
-  const srcW = (await sharp(trimmed).metadata()).width ?? 800;
-  const canvasW = Math.min(1600, Math.max(800, Math.round(srcW / 0.84)));
+  const sm = await sharp(trimmed).metadata();
+  const srcW = sm.width ?? 800;
+  const srcH = sm.height ?? 600;
+  // Size the canvas from whichever side limits the fit, so a tall source is not shrunk and --refit keeps its size.
+  const canvasW = Math.min(1600, Math.max(800, Math.round(Math.max(srcW, (srcH * 4) / 3) / 0.84)));
   const canvasH = Math.round((canvasW * 3) / 4);
   const inner = await sharp(trimmed)
     .resize(Math.round(canvasW * 0.84), Math.round(canvasH * 0.84), { fit: "inside", withoutEnlargement: false })
