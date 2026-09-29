@@ -81,7 +81,7 @@ export function CompareTableMobile({
           </span>
         </div>
       )}
-      <div className="card overflow-x-auto no-scrollbar">
+      <div className="card relative overflow-x-auto no-scrollbar">
         <div style={{ width: total, minWidth: "100%" }}>
           <div
             className="grid border-b-[1.5px] border-graphite"

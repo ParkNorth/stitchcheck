@@ -155,7 +155,7 @@ export function HubPage({ hub }: { hub: Hub }) {
             <h2 id="side-by-side" className="d m-0 text-[28px] md:text-[32px]">
               Side by side
             </h2>
-            <div className="overflow-x-auto no-scrollbar w-full max-w-[calc(100vw-40px)] md:max-w-none">
+            <div className="relative overflow-x-auto no-scrollbar w-full max-w-[calc(100vw-40px)] md:max-w-none">
               <table className="spec-table min-w-[900px]">
                 <caption className="sr-only">{hub.h1} compared</caption>
                 <thead>

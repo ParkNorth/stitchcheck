@@ -17,7 +17,7 @@ export function SpecTable({ product: p, compact = false }: { product: Product; c
   );
   return (
     <div className="flex flex-col gap-3">
-      <div className="overflow-x-auto no-scrollbar">
+      <div className="relative overflow-x-auto no-scrollbar">
         <table className="spec-table">
           <caption className="sr-only">{p.name} specifications</caption>
           <tbody>

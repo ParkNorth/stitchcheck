@@ -50,7 +50,7 @@ export function SizeDiagram({ product: p }: { product: Product }) {
   ];
   return (
     <div className="card p-4 md:p-6 flex flex-col gap-4 overflow-hidden">
-      <div className="overflow-x-auto no-scrollbar">
+      <div className="relative overflow-x-auto no-scrollbar">
         <div className="grid grid-cols-[150px_minmax(560px,1fr)] md:grid-cols-[200px_600px] gap-x-5 items-center">
           <span />
           <div className="relative h-[22px]">
