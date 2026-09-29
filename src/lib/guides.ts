@@ -616,6 +616,186 @@ export const guides: Guide[] = [
     updated: "2026-09-29",
     status: "published",
   },
+  {
+    slug: "industrial-sewing-machine-for-home",
+    title: "Industrial Sewing Machine for Home Use",
+    h1: "Industrial sewing machine for home use: what you are actually buying",
+    standfirst:
+      "An industrial is a head. The table, the motor and the floor space are the rest of the purchase, and they decide whether one belongs in your house.",
+    metaTitle: "Industrial Sewing Machine for Home Use: Head, Table, Motor, Footprint (2026)",
+    description:
+      "What an industrial sewing machine is, how it differs from a domestic heavy duty and a semi-industrial straight stitch, clutch vs servo motors, the table footprint, needle systems, and which Juki head fits which work. Spec-checked, no field test.",
+    feeds: "heavy-duty",
+    blocks: [
+      { type: "h2", id: "short-answer", text: "The short answer" },
+      {
+        type: "p",
+        html: "An industrial sewing machine is sold as a bare head that bolts into a table with a separate motor underneath. It does one stitch, usually straight only, at up to 5,500 spm, and it does not go back in a closet. Dealer bundles with table and servo motor start around $900 to $1,300 for a Juki DDL-8700 or DDL-5550N, and around $2,500 for the walking-foot DNU-1541S that upholstery and leather workers buy first.",
+      },
+      {
+        type: "definition",
+        term: "Industrial head",
+        body: "The sewing mechanism alone: cast body, hook, feed and needle bar, built for continuous running. No motor, no table, no light. Everything else is bought with it or around it.",
+      },
+      { type: "h2", id: "tiers", text: "Domestic heavy duty, semi-industrial, industrial" },
+      {
+        type: "p",
+        html: "Three different machines share the words heavy duty and industrial in listings. The numbers separate them.",
+      },
+      {
+        type: "table",
+        head: ["Tier", "Example", "Max speed", "Stitches", "Where it lives"],
+        labelCol: true,
+        rows: [
+          ["Domestic heavy duty", "Singer Heavy Duty 4452, Janome HD3000", "860 to 1,100 spm", "18 to 32", "Portable, any table"],
+          ["Semi-industrial straight stitch", "Juki TL-2010Q, Brother PQ1600S, Janome HD9", "1,500 to 1,600 spm", "Straight only", "Portable at 24 to 32 lb, table optional"],
+          ["Industrial lockstitch", "Juki DDL-8700, DDL-5550N", "5,500 spm", "Straight only", "Bolted into a table with a motor"],
+          ["Industrial walking foot", "Juki DNU-1541S", "2,500 spm", "Straight only", "Bolted into a table with a motor"],
+        ],
+      },
+      {
+        type: "p",
+        html: "\"Heavy Duty\" is a Singer series name and \"industrial-quality\" is Juki marketing for the TL line; neither is a rating. The tier is set by whether the head needs a table and by the needle system it takes.",
+      },
+      { type: "h2", id: "motor", text: "Clutch or servo motor" },
+      {
+        type: "p",
+        html: "Juki sells the head without a motor. Dealer bundles ship one of two kinds. A clutch motor runs at full speed all the time and you feather a clutch with the pedal; it is cheap, loud and hard to run slowly. A servo motor turns only when you press the pedal and has a speed dial under the table, so a 5,500 spm head can be turned down to a crawl. Owners on PatternReview and the upholstery forums credit the servo for making slow, precise work possible on the DDL-8700 and DNU-1541S. Motor wattage and brand vary by bundle and are rarely published in the listing; ask before you buy.",
+      },
+      { type: "h2", id: "table", text: "The table and the footprint" },
+      {
+        type: "ul",
+        items: [
+          "A standard industrial table is about 48 by 20 in with an adjustable stand, 26 to 32 in high, per one dealer's DDL-5550N bundle. It is furniture, not an appliance.",
+          "The DDL-8700 head alone weighs 28 kg, about 62 lb, per Juki. Table and motor weights are not published; budget two people and a ground-floor room.",
+          "\"Table Comes Assembled\" is a dealer claim on some Sewing Machines Plus listings. Marketplace bundles at lower prices usually ship the table flat for you to assemble and to mount and belt the motor.",
+          "The head sits in an oil pan. Industrials use Juki New Defrix Oil No. 1 and drip if moved carelessly.",
+        ],
+      },
+      { type: "h2", id: "needles", text: "Straight stitch only, and a different needle" },
+      {
+        type: "p",
+        html: "Every industrial in our catalog does one straight stitch with reverse; no zigzag, no buttonhole. Needle systems change too: the DDL heads take DBx1 (16x231) in sizes 9 to 18, the DNU-1541S takes 135x17 and 135x16 for leather. Domestic needles (130/705H) do not fit. Bobbins, feet and folders are industrial-standard and cheap, but they are a different shelf at the store.",
+      },
+      { type: "h2", id: "which", text: "Which industrial for which work" },
+      {
+        type: "table",
+        head: ["Work", "Head", "Why", "Watch for"],
+        labelCol: true,
+        rows: [
+          ["Garments, bags, canvas, flat seams", "Juki DDL-8700", "The budget industrial straight stitch; 13 mm foot lift, 5 mm stitch", "The -7 suffix adds a trimmer; -H is the heavy setup"],
+          ["Same work, made in Japan", "Juki DDL-5550N", "Same class as the 8700, sold as the 5550N today", "5,500 spm is the medium setup; light and heavy setups run 4,000"],
+          ["Upholstery, leather, vinyl, webbing", "Juki DNU-1541S", "Unison feed walking foot, 9 mm stitch, 16 mm knee lift", "The S safety clutch can trip on bulky seams; the plain 1541 has none"],
+        ],
+      },
+      { type: "h2", id: "costs", text: "Costs beyond the head" },
+      {
+        type: "ul",
+        items: [
+          "Table, stand and motor: bundled by dealers, or bought separately for a used head.",
+          "Servo motor upgrade if the bundle ships a clutch motor.",
+          "Industrial needles, bobbins and feet in the right system.",
+          "Oil, a lamp, and delivery for a crate that does not go through a standard door on its own.",
+          "A needle positioner, optional on the DNU-1541S, if you do a lot of pivoting.",
+        ],
+      },
+      { type: "short", text: "Buy an industrial when the work is one stitch, every day, and you have the floor. Buy a semi-industrial straight stitch when you want the speed without the furniture." },
+    ],
+    ctaTitle: "The industrials we spec-checked",
+    ctaSlugs: ["juki-ddl-8700", "juki-dnu-1541s", "juki-tl-2010q"],
+    ctaMore: { label: "Best heavy-duty sewing machines", href: "/best-heavy-duty-sewing-machines" },
+    faqs: [
+      { q: "Can I use an industrial sewing machine at home?", a: "Yes, if you have a permanent spot for a table about 48 by 20 in and a normal wall outlet; the servo motors in home bundles run on household power. It is not portable." },
+      { q: "Does an industrial come with a table and motor?", a: "Not from Juki. Dealers sell bundles with table, stand, motor and lamp. Check whether the table ships assembled and whether the motor is a servo." },
+      { q: "Servo or clutch motor?", a: "Servo for home use. It is quiet, starts only when you press the pedal and has a speed dial. A clutch motor runs constantly and is harder to control at low speed." },
+      { q: "Can an industrial do zigzag or buttonholes?", a: "Not these. Industrial zigzag and buttonhole machines exist as separate heads. Every industrial in our catalog is straight stitch only." },
+      { q: "What is a semi-industrial sewing machine?", a: "Retail shorthand for a portable straight-stitch machine at 1,500 to 1,600 spm, such as the Juki TL-2010Q, Brother PQ1600S or Janome HD9. Domestic needles, domestic power, no table required." },
+      { q: "How much does an industrial sewing machine cost?", a: "Dealer bundles with table and servo were seen at $900 to $1,300 for the DDL-8700 and DDL-5550N and about $2,500 for the DNU-1541S on 2026-09-29. Prices vary by dealer and by whether the table ships assembled." },
+    ],
+    published: "2026-09-29",
+    updated: "2026-09-29",
+    status: "published",
+  },
+  {
+    slug: "brother-vs-singer-sewing-machine",
+    title: "Brother vs Singer Sewing Machines",
+    h1: "Brother vs Singer: which brand for which job",
+    standfirst:
+      "Neither brand is better. Singer sells the cheapest metal-frame mechanical; Brother sells the best budget sergers and the cheapest computerized machine worth owning. Model for model, with the warranty terms that actually differ.",
+    metaTitle: "Brother vs Singer Sewing Machines: Which Brand Wins Each Job (2026)",
+    description:
+      "Brother and Singer compared by job, model for model: Heavy Duty 4452 vs ST371HD, 6700C vs CS7000X, ProFinish vs 1034D, plus who owns each brand and how the 25-year warranties differ. Spec-checked.",
+    awareness: true,
+    feeds: "beginner",
+    blocks: [
+      { type: "h2", id: "short-answer", text: "The short answer" },
+      {
+        type: "p",
+        html: "Pick the job, then the brand. On the spec sheets we checked, Singer wins the cheapest metal-frame mechanical and the only sub-$700 serger-plus-coverstitch combo. Brother wins budget sergers, dedicated coverstitch, a 1,500 spm straight-stitch quilter and computerized machines under $300. Both publish a 25-year warranty; the parts-and-labor window underneath it is 90 days at Singer and one year at Brother.",
+      },
+      {
+        type: "table",
+        head: ["Job", "Winner", "Model", "Why"],
+        labelCol: true,
+        rows: [
+          ["Cheapest mechanical you will not outgrow", "Singer", "Heavy Duty 4452", "1,100 spm, 32 stitches, metal interior frame, walking foot in the box"],
+          ["Mechanical for leather and vinyl", "Brother", "ST371HD", "37 stitches, nonstick foot included; slower at 800 spm"],
+          ["Computerized under $300", "Brother", "CS7000X", "70 stitches, 7 one-step buttonholes, 10 feet, wide table"],
+          ["Computerized with a heavy-duty frame", "Singer", "Heavy Duty 6700C", "1,100 spm, metal frame, walking foot, speed slider"],
+          ["First serger", "Brother", "1034D", "3/4 thread, 1,300 spm, the value pick in our serger hub"],
+          ["Serger and coverstitch in one", "Singer", "Professional 5 14T968DC", "2/3/4/5 thread with coverstitch conversion"],
+          ["Straight-stitch quilting speed", "Brother", "PQ1600S", "1,500 spm, wide table; Singer has no equivalent in our set"],
+        ],
+      },
+      { type: "h2", id: "who-owns-them", text: "Who makes them" },
+      {
+        type: "p",
+        html: "Brother sewing machines come from Brother Industries of Japan through its US subsidiary. Singer is a brand of SVP Worldwide in Nashville, which also owns Husqvarna Viking and Pfaff and has been controlled by the private equity firm Platinum Equity since 2021. Both sell direct and through mass retail, and both have models at Sewing Machines Plus, the retailer we link.",
+      },
+      { type: "h2", id: "model-for-model", text: "Model for model" },
+      {
+        type: "table",
+        caption: "Closest pairs in our catalog, from the published specs",
+        head: ["Pair", "Singer", "Brother", "Difference that matters"],
+        labelCol: true,
+        rows: [
+          ["Mechanical heavy duty", "Heavy Duty 4452: 1,100 spm, 32 stitches, walking foot", "ST371HD: 800 spm, 37 stitches, nonstick foot, 14.3 lb", "Singer is faster; Brother includes the foot for sticky fabrics"],
+          ["Computerized", "Heavy Duty 6700C: 1,100 spm, metal frame, 10 feet incl. walking foot, 15.4 lb", "CS7000X: 750 spm, 70 stitches, 10 feet, wide table, 10.5 lb", "Singer for speed and frame; Brother for stitches and the table"],
+          ["Serger", "ProFinish 14CG754: 2/3/4 thread, 1,300 spm, 13.5 lb", "1034D: 3/4 thread, 1,300 spm, 13.9 lb", "Singer adds 2-thread stitches; Brother has the larger owner base and parts supply"],
+          ["Entry mechanical", "Heavy Duty 4411: 1,100 spm, 11 stitches, 4-step buttonhole", "None under the ST line in our set", "Only buy the 4411 on a real price gap to the 4423"],
+        ],
+      },
+      { type: "h2", id: "warranty", text: "What the 25-year warranties actually cover" },
+      {
+        type: "p",
+        html: "Singer's statement: 25 years against defective materials and workmanship on the head, 2 years on motors, light, wiring, switches, speed control and electrical components, 90 days parts and labor. Brother's statement: 25 years on the chassis casting, electrical components covered for 2 years on most machines (some Brother documents say 5 years for sergers), 1 year on parts, labor and accessories. The 25 is the same; the labor window is the difference: three months at Singer, one year at Brother. Either way, the warranty depends on buying from an authorized dealer.",
+      },
+      { type: "h2", id: "names", text: "Where the names mislead" },
+      {
+        type: "ul",
+        items: [
+          "\"Heavy Duty\" is a Singer series name covering the 4411, 4423, 4432, 4452 and the computerized 6600C to 6800C. Same 1,100 spm motor across the mechanical family; stitch count and accessory pack are the differences.",
+          "\"Strong & Tough\" (ST) is Brother's series name. The ST371HD runs at 800 spm, slower than the Singers it is compared with.",
+          "Brother's 1034D, 1034DX and 1634D are one serger platform in different bundles and retail channels. Buy whichever is cheapest on the day.",
+          "Singer's ProFinish is the budget serger line; the Professional 5 is the 5-thread combo. Similar names, different machines.",
+        ],
+      },
+      { type: "short", text: "Singer for the cheapest solid mechanical and the combo serger. Brother for sergers, coverstitch, budget computerized and straight-stitch speed. Loyalty to either costs you a better machine somewhere." },
+    ],
+    ctaTitle: "The machines behind the comparison",
+    ctaSlugs: ["singer-4452", "brother-st371hd", "brother-1034d"],
+    ctaMore: { label: "Best sewing machines for beginners", href: "/best-sewing-machines-for-beginners" },
+    faqs: [
+      { q: "Is Brother or Singer better for beginners?", a: "For a first mechanical machine, the Singer Heavy Duty 4452 is faster and heavier-framed for the money. For a first computerized machine under $300, the Brother CS7000X gives more for the price. Our beginner hub ranks both against Janome and Juki." },
+      { q: "Which brand has the better warranty?", a: "Both say 25 years. Brother covers parts and labor for a year; Singer covers them for 90 days. Electrical coverage is 2 years at both on most models." },
+      { q: "Is Singer still made by Singer?", a: "Singer is a brand of SVP Worldwide, owned by Platinum Equity since 2021. Machines are made in Asia, as Brother's home machines are." },
+      { q: "Brother or Singer for a serger?", a: "Brother. The 1034D is the value pick in our serger hub and has the largest owner community. Singer's exception is the 14T968DC, the only 5-thread serger with coverstitch under $700 in our catalog." },
+      { q: "Brother or Singer for quilting?", a: "Brother, for the PQ1600S straight-stitch quilter at 1,500 spm. Neither brand's computerized quilters match a Janome Memory Craft or Juki HZL on throat and frame." },
+    ],
+    published: "2026-09-29",
+    updated: "2026-09-29",
+    status: "published",
+  },
 ];
 
 export const guidesBySlug: Record<string, Guide> = Object.fromEntries(guides.map((g) => [g.slug, g]));

@@ -105,7 +105,7 @@ export const hubs: Hub[] = [
         ],
       },
     ],
-    relatedGuides: ["sewing-machine-for-thick-fabric", "mechanical-vs-computerized", "sewing-machine-brands-ranked"],
+    relatedGuides: ["sewing-machine-for-thick-fabric", "industrial-sewing-machine-for-home", "mechanical-vs-computerized", "sewing-machine-brands-ranked"],
     headToHeads: ["singer-4423-vs-4432-vs-4452", "juki-tl-2010q-vs-tl-2000qi"],
     otherJobs: ["serger", "quilting"],
     faqs: [
@@ -277,7 +277,7 @@ export const hubs: Hub[] = [
       { slug: "brother-cs7000x", alsoBudget: "Denim needles" },
       { slug: "brother-1034d", alsoBudget: "Four thread cones" },
     ],
-    relatedGuides: ["mechanical-vs-computerized", "serger-vs-sewing-machine", "sewing-machine-brands-ranked"],
+    relatedGuides: ["mechanical-vs-computerized", "brother-vs-singer-sewing-machine", "serger-vs-sewing-machine", "sewing-machine-brands-ranked"],
     headToHeads: ["singer-4423-vs-4432-vs-4452"],
     otherJobs: ["heavy-duty", "serger", "quilting"],
     faqs: [

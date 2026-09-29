@@ -75,7 +75,7 @@ Note on `/best-heavy-duty-sewing-machines`: "heavy duty sewing machine" (6,000) 
 | brother-1034d-vs-1034dx | brother 1034d vs 1034dx | 250 | 0 | 250 | Clean head-to-head query. |
 | juki-tl-2010q-vs-tl-2000qi | juki tl-2010q vs tl-2000qi | 0 (10 to 20 est.) | n/a | n/a | Low volume but high CPC ($0.70) and it is the decision every TL buyer makes. Feeds both reviews. |
 | brother-1034d-vs-juki-mo-654de | brother 1034d vs juki mo654de | 0 | n/a | n/a | Cross-brand value vs quality split; the home page value pick links here. |
-| brother-vs-singer-sewing-machine (backlog, brand compare) | brother vs singer sewing machine | 400 | 0 | 500 | singer vs brother sewing machine (200). Brand-level compare, needs a format decision. |
+| brother-vs-singer-sewing-machine (built as a guide) | brother vs singer sewing machine | 400 | 0 | 500 | singer vs brother sewing machine (200), brother or singer sewing machine (150, TP 600). Decision 2026-09-29: brand-level compare built with guide blocks at `/guides/brother-vs-singer-sewing-machine`; no new page type. |
 | serger-vs-overlock (fold into guide) | serger vs overlock | 300 | 0 | 90 | overlock vs serger (250). Same thing, answer inside `/guides/what-is-a-serger`. |
 
 ## Guides (`/guides/[slug]`)
@@ -90,7 +90,7 @@ Note on `/best-heavy-duty-sewing-machines`: "heavy duty sewing machine" (6,000) 
 | how-much-does-a-long-arm-cost | how much is a long arm quilting machine | 150 | 0 | 900 | $0.30 | explainer | Also how much does a long arm quilting machine cost (60, TP 800), long arm quilting machine for sale (350), used long arm quilting machines for sale (350). |
 | sewing-machine-brands-ranked | best sewing machine brands | 500 | 3 | 700 | $0.30 | listicle, Reddit | Also sewing machine brands ranked (70, TP 1,200). |
 | sewing-machine-for-thick-fabric | sewing machine for thick fabric | 200 | 0 | 300 | $0.30 | explainer | Also sewing machine for leather (800, TP 1,400), sewing machine for denim (300, TP 600), sewing machine for upholstery (100), what is a walking foot sewing machine (500), walking foot for sewing machine (350, TP 700). |
-| industrial-sewing-machine-for-home (backlog) | industrial sewing machine | 6,200 | 2 | 1,800 | $0.25 | mixed retail | industrial sewing machine for home use (20), semi industrial sewing machine (300), industrial sewing machine table (200), used industrial sewing machine (150). Section of hub 1 first; own guide later if hub ranks. |
+| industrial-sewing-machine-for-home (backlog) | industrial sewing machine | 6,200 | 2 | 1,800 | $0.25 | mixed retail | industrial sewing machine for home use (20), semi industrial sewing machine (300), industrial sewing machine table (200), used industrial sewing machine (150). Built 2026-09-29 as `/guides/industrial-sewing-machine-for-home` (also semi industrial sewing machine 300, servo motor sewing machine 150, industrial sewing machine table 200). Compare candidates checked and rejected the same day: janome hd9 vs juki tl2010q 10/mo, brother 1034d vs janome 8002d 0/mo. |
 | what-is-a-walking-foot (backlog) | walking foot sewing machine | 2,900 | 0 | 10 | $0.20 | product/retail | Parent is Consew CP206RL, a product SERP. Fold into thick-fabric guide unless demand proves out. |
 
 ## Questions worth answering on-page (FAQ blocks)
