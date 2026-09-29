@@ -15,6 +15,7 @@
  *   npm run fetch:images -- --only juki-tl-2010q,singer-4452
  *   npm run fetch:images -- --pick juki-tl-2010q=https://.../tl2010q.jpg   # hand-pick
  *   npm run fetch:images -- --force      # re-download rows that already have a file
+ *   npm run fetch:images -- --refit      # re-trim and re-fit files already on disk, no network
  *
  * Needs outbound access to the brand sites. Run it locally or in a session whose
  * network policy allows them. Every pick is recorded with its source URL so it
@@ -141,6 +142,36 @@ export function candidates(html: string, pageUrl: string, model: string): { url:
   return out.sort((a, b) => b.score - a.score);
 }
 
+/**
+ * Trim the maker's white margins, then fit the machine on a white 4:3 canvas
+ * with an 8 percent margin. Canvas is 1600x1200 when the source is big enough,
+ * otherwise 4:3 at the source's width (never below 800) so small renditions are
+ * not upscaled into mush.
+ */
+export async function fitToCanvas(input: Buffer | string, file: string) {
+  const base = sharp(input).rotate().flatten({ background: "#ffffff" });
+  let trimmed: Buffer;
+  try {
+    trimmed = await base.clone().trim({ background: "#ffffff", threshold: 12 }).toBuffer();
+  } catch {
+    trimmed = await base.clone().toBuffer();
+  }
+  const tm = await sharp(trimmed).metadata();
+  const tw = tm.width ?? 0;
+  const th = tm.height ?? 0;
+  if (tw < 40 || th < 40) trimmed = await base.clone().toBuffer(); // trim ate the picture: not a white-background shot
+  const srcW = (await sharp(trimmed).metadata()).width ?? 800;
+  const canvasW = Math.min(1600, Math.max(800, Math.round(srcW / 0.84)));
+  const canvasH = Math.round((canvasW * 3) / 4);
+  const inner = await sharp(trimmed)
+    .resize(Math.round(canvasW * 0.84), Math.round(canvasH * 0.84), { fit: "inside", withoutEnlargement: false })
+    .toBuffer();
+  await sharp({ create: { width: canvasW, height: canvasH, channels: 3, background: "#ffffff" } })
+    .composite([{ input: inner, gravity: "centre" }])
+    .jpeg({ quality: 82, mozjpeg: true })
+    .toFile(file);
+}
+
 async function handleRow(row: Row, manifest: Record<string, ManifestEntry>) {
   const file = path.join(OUT_DIR, `${row.slug}.jpg`);
   if (!FORCE && fs.existsSync(file) && manifest[row.slug]) return "kept";
@@ -166,13 +197,7 @@ async function handleRow(row: Row, manifest: Record<string, ManifestEntry>) {
   const buf = Buffer.from(await (await get(imageUrl)).arrayBuffer());
   const meta = await sharp(buf).metadata();
   if (!meta.width || !meta.height || meta.width < 300) throw new Error(`image too small or unreadable (${meta.width}x${meta.height})`);
-  await sharp(buf)
-    .rotate()
-    .flatten({ background: "#ffffff" })
-    .resize(1600, 1200, { fit: "contain", background: "#ffffff", withoutEnlargement: true })
-    .extend({ background: "#ffffff" })
-    .jpeg({ quality: 82, mozjpeg: true })
-    .toFile(file);
+  await fitToCanvas(buf, file);
   const outMeta = await sharp(file).metadata();
   row.imageUrl = imageUrl;
   row.pickedBy = pickedBy;
@@ -192,6 +217,23 @@ async function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const rows: Row[] = JSON.parse(fs.readFileSync(WORKLIST, "utf8"));
   const manifest: Record<string, ManifestEntry> = fs.existsSync(MANIFEST) ? JSON.parse(fs.readFileSync(MANIFEST, "utf8")) : {};
+  if (flag("--refit")) {
+    // Re-run the trim and fit on files already on disk (no network). Useful after a fit change.
+    for (const row of rows) {
+      if (ONLY.size && !ONLY.has(row.slug)) continue;
+      const file = path.join(OUT_DIR, `${row.slug}.jpg`);
+      if (!fs.existsSync(file) || !manifest[row.slug]) continue;
+      const tmp = `${file}.tmp.jpg`;
+      await fitToCanvas(file, tmp);
+      fs.renameSync(tmp, file);
+      const m = await sharp(file).metadata();
+      manifest[row.slug].width = m.width ?? manifest[row.slug].width;
+      manifest[row.slug].height = m.height ?? manifest[row.slug].height;
+      console.log(`${row.slug}: refit ${m.width}x${m.height}`);
+    }
+    fs.writeFileSync(MANIFEST, `${JSON.stringify(manifest, null, 2)}\n`);
+    return;
+  }
   let ok = 0;
   let failed = 0;
   for (const row of rows) {
