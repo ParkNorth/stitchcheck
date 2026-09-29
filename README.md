@@ -17,7 +17,9 @@ npm run screenshots -- --serve /reviews/juki-tl-2010q /best-sergers
 
 ## Deploy
 
-Push to `main` deploys to Cloudflare Workers via `.github/workflows/deploy-cloudflare.yml`. Secrets: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`. Variables: `GA_MEASUREMENT_ID`. Affiliate env (set when the program is approved): `NEXT_PUBLIC_AFFILIATE_NETWORK` (`shareasale` or `awin`), `SHAREASALE_MERCHANT_ID`, `SHAREASALE_AFFILIATE_ID` or `AWIN_MERCHANT_ID`, `AWIN_PUBLISHER_ID`.
+Every push to the repository's default branch deploys to the Cloudflare Worker `stitchcheck` (custom domains `stitchcheck.com` and `www`) via `.github/workflows/deploy-cloudflare.yml`. Other branches run CI only. One-time setup, token permissions and rollback are in `docs/06-deploy.md`.
+
+Secrets (GitHub Actions): `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`. Variables: `GA_MEASUREMENT_ID`; affiliate env once approved: `AFFILIATE_NETWORK` (`shareasale` or `awin`), `SHAREASALE_MERCHANT_ID`, `SHAREASALE_AFFILIATE_ID` or `AWIN_MERCHANT_ID`, `AWIN_PUBLISHER_ID`.
 
 ## Where things live
 

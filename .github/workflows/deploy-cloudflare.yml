@@ -1,8 +1,13 @@
 name: Deploy Cloudflare Worker
 
+# Deploys on every push to the repository's default branch (today
+# `claude/pensive-goodall-ren1mc`; `main` once that exists), and on demand
+# from any branch via "Run workflow". Requires two repository secrets:
+# CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID (see docs/06-deploy.md).
+
 on:
   push:
-    branches: [main]
+    branches: ["**"]
   workflow_dispatch:
 
 concurrency:
@@ -11,9 +16,13 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name == 'workflow_dispatch' || github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
     permissions:
       contents: read
+    environment:
+      name: production
+      url: https://stitchcheck.com
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,6 +35,13 @@ jobs:
 
       - name: Install
         run: npm ci
+
+      - name: Check secrets are present
+        run: |
+          if [ -z "${{ secrets.CLOUDFLARE_API_TOKEN }}" ] || [ -z "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}" ]; then
+            echo "::error::Add CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID under Settings > Secrets and variables > Actions. See docs/06-deploy.md."
+            exit 1
+          fi
 
       - name: Validate catalog
         run: npm run check:catalog
@@ -40,3 +56,17 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           NEXT_PUBLIC_SITE_URL: https://stitchcheck.com
           NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ vars.GA_MEASUREMENT_ID }}
+          NEXT_PUBLIC_AFFILIATE_NETWORK: ${{ vars.AFFILIATE_NETWORK }}
+          SHAREASALE_MERCHANT_ID: ${{ vars.SHAREASALE_MERCHANT_ID }}
+          SHAREASALE_AFFILIATE_ID: ${{ vars.SHAREASALE_AFFILIATE_ID }}
+          AWIN_MERCHANT_ID: ${{ vars.AWIN_MERCHANT_ID }}
+          AWIN_PUBLISHER_ID: ${{ vars.AWIN_PUBLISHER_ID }}
+
+      - name: Smoke test
+        run: |
+          sleep 15
+          for path in / /best-heavy-duty-sewing-machines /reviews/juki-tl-2010q /sitemap.xml /robots.txt; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" -L "https://stitchcheck.com$path")
+            echo "$code $path"
+            [ "$code" = "200" ] || exit 1
+          done

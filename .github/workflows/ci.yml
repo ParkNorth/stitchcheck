@@ -1,12 +1,16 @@
 name: CI
 
+# Gates on pull requests and on pushes to non-default branches.
+# The default branch runs the same gates inside the deploy workflow.
+
 on:
   pull_request:
   push:
-    branches-ignore: [main]
+    branches: ["**"]
 
 jobs:
   check:
+    if: github.event_name == 'pull_request' || github.ref_name != github.event.repository.default_branch
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
