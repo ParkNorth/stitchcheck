@@ -30,6 +30,7 @@ const JOBS = [
     types: "Mechanical · Industrial",
     cta: "Best heavy-duty",
     photo: "Photo · heavy-duty machine, denim under foot",
+    slug: "juki-tl-2010q",
   },
   {
     hub: "best-sergers",
@@ -39,6 +40,7 @@ const JOBS = [
     types: "Serger · Coverstitch",
     cta: "Best sergers",
     photo: "Photo · serger, four cones",
+    slug: "juki-mo-654de",
   },
   {
     hub: "best-quilting-machines",
@@ -48,6 +50,7 @@ const JOBS = [
     types: "Mechanical · Long-arm",
     cta: "Best quilting",
     photo: "Photo · long-arm on frame",
+    slug: "grace-qnique-19x",
   },
 ];
 
@@ -88,7 +91,13 @@ export default function HomePage() {
           <section className="grid grid-cols-1 md:grid-cols-3 gap-6" aria-label="Job paths">
             {JOBS.map((j) => (
               <Link key={j.hub} href={`/${j.hub}`} className="card no-underline text-graphite flex flex-col hover:border-enamel">
-                <PhotoWell alt={j.photo} caption={j.photo} className="h-[180px] md:h-[220px] rounded-b-none" />
+                <PhotoWell
+                  src={getProduct(j.slug)?.image}
+                  alt={getProduct(j.slug)?.imageAlt ?? j.photo}
+                  caption={j.photo}
+                  className="h-[180px] md:h-[220px] rounded-b-none"
+                  sizes="(max-width: 768px) 100vw, 400px"
+                />
                 <div className="p-5 md:p-6 flex flex-col gap-3 grow">
                   <div className="cap text-steel">Job {j.n}</div>
                   <div className="d text-[28px] md:text-[30px]">{j.title}</div>
