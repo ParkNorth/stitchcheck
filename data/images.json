@@ -290,11 +290,11 @@
     "brand": "Juki",
     "model": "DDL-8700",
     "pageUrl": "https://juki.com/ddl-8700",
-    "imageUrl": "https://www.goldstartool.com/picts/products/07.webp",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0766/0136/0605/files/juki_ddl-8700_ddl-8700.jpg?v=1785911168",
     "pickedBy": "hand pick, retailer",
-    "credit": "Photo: GoldStar Tool",
+    "credit": "Photo: Sewing Machines Plus",
     "fetchedAt": "2026-09-29",
-    "note": "Retailer listing: https://www.goldstartool.com/juki-ddl-8700-high-speed-single-needle-straight-lockstitch-industrial-sewing-machine-with-table-and-servo-motor.htm. Juki publishes only a 260 px image and the Sewing Machines Plus listing photo is 600 px, so the photo comes from GoldStar Tool, which states it is an authorized Juki dealer. Source is 4567x3189, head on table, badge reads DDL-8700. It shows a work lamp, thread cones and a fabric strip under the foot on a grey paper backdrop. GoldStar's full-unit gallery photo (6.jpg) was rejected because its badge reads DDL-8100e."
+    "note": "Retailer listing: https://sewingmachinesplus.com/products/sewing-machines-industrial-juki-ddl8700. Source is 600x600, head only on white, badge reads DDL-8700, so the canvas is 800x600 and the photo is a little soft. It replaces the GoldStar Tool dealer snapshot (https://www.goldstartool.com/picts/products/07.webp, 4567x3189), which showed a work lamp, thread cones and a fabric strip under the foot on a grey backdrop. Checked and rejected on 2026-09-29: the other Sewing Machines Plus gallery images (200 px feature tiles), Cutsew (warehouse row of machines), Juki Junkies (1800x1800 but carries a Juki Junkies watermark on the bed and a banner strip), GoldStar Tool's other gallery images (same grey backdrop set, a 497 px catalog shot on blue, and 6.jpg whose badge reads DDL-8100e), AllBrands (300 px), juki.com (450 px at most). sewingmachineshop.com answered HTTP 403 even in Chromium and jukiamerica.com refused the connection."
   },
   {
     "slug": "juki-dnu-1541s",
