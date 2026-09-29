@@ -13,6 +13,12 @@ Product photos come from the manufacturers' own product pages. Each one is chose
 5. `npm run build:og` after images change, so the review cards carry the photo.
 6. Commit the JPEGs, the worklist and the manifest. The deploy runner does not fetch.
 
+## Source order
+
+1. The manufacturer's product page or press kit. Credit "Photo: {Brand}".
+2. When the manufacturer publishes nothing usable (no image, or only a rendition under 300 px), the retailer we link, Sewing Machines Plus, or another authorized dealer's listing of the same model. Credit "Photo: Sewing Machines Plus" (or the dealer's name) and record the listing URL in the row. Decision 2026-09-29: retailer photos are allowed when needed.
+3. Never a marketplace seller photo, a review site, or a stock library.
+
 ## Where to run it
 
 The fetcher needs outbound access to the brand sites: jukihome.com, jukiquilting.com, juki.com, janome.com, brother-usa.com, singer.com, babylock.com, bernina.com, handiquilter.com, graceframe.com, and whatever image CDN each one serves from. Run it on a laptop, or in a Claude Code cloud session whose environment network access allows those hosts.
