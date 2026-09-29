@@ -1,0 +1,183 @@
+{
+  "slug": "brother-st371hd",
+  "brand": "Brother",
+  "model": "ST371HD Strong & Tough",
+  "series": "Strong & Tough",
+  "type": "mechanical",
+  "industrial": false,
+  "jobs": [
+    "heavy-duty",
+    "beginner"
+  ],
+  "manufacturerUrl": "https://www.brother-usa.com/products/st371hd",
+  "retailerUrl": null,
+  "priceUsdSeen": 229.99,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "Michaels (search snippet; no Sewing Machines Plus listing appeared in results)",
+  "specs": {
+    "stitchTypes": {
+      "value": "37 utility and decorative stitches including blind hem, stretch and buttonhole",
+      "source": "https://www.brother-usa.com/products/st371hd"
+    },
+    "stitchCount": {
+      "value": 37,
+      "source": "https://www.brother-usa.com/products/st371hd"
+    },
+    "maxSpm": {
+      "value": 800,
+      "source": "https://bobbinhub.com/singer-4423-vs-brother-st371hd/"
+    },
+    "threads": {
+      "value": null,
+      "source": null
+    },
+    "differentialFeed": {
+      "value": null,
+      "source": null
+    },
+    "throatIn": {
+      "value": null,
+      "source": null
+    },
+    "needleSystem": {
+      "value": null,
+      "source": null
+    },
+    "presserFootLift": {
+      "value": "Fixed presser foot pressure (third-party comparison); lift height not published in snippet",
+      "source": "https://bobbinhub.com/singer-4423-vs-brother-st371hd/"
+    },
+    "threadTrimmer": {
+      "value": null,
+      "source": null
+    },
+    "feedSystem": {
+      "value": "Drop feed for free motion; metal needle plate; Quick-Set drop-in top bobbin",
+      "source": "https://www.brother-usa.com/products/st371hd"
+    },
+    "buttonhole": {
+      "value": "One-step buttonhole (buttonhole foot included)",
+      "source": "https://www.brother-usa.com/products/st371hd"
+    },
+    "motor": {
+      "value": null,
+      "source": null
+    },
+    "frame": {
+      "value": null,
+      "source": null
+    },
+    "weightLb": {
+      "value": 14.3,
+      "source": "https://www.sewingmachinedirectory.com/sewing-machine/brother-st371hd/"
+    },
+    "dimensionsIn": {
+      "value": "16.1 x 7.9 x 12.2 (48.9 x 20 x 31 cm)",
+      "source": "https://www.sewingmachinedirectory.com/sewing-machine/brother-st371hd/"
+    },
+    "includedFeet": {
+      "value": "6 feet: spring action zigzag, nonstick, blind stitch, zipper, buttonhole, button sewing; heavyweight needles included",
+      "source": "https://www.brother-usa.com/products/st371hd"
+    },
+    "warrantyUs": {
+      "value": null,
+      "source": null
+    }
+  },
+  "claims": [
+    "\"Strong & Tough\" (Brother series name, product page; a model line, not a rating)",
+    "\"everyday sewing and mending on everything from durable outdoor fabrics to lightweight elegant silks\" (manufacturer claim, brother-usa.com)",
+    "\"jam-resistant Quick-Set drop-in top bobbin\" (manufacturer claim, brother-usa.com)",
+    "\"Heavy Duty Sewing Machine\" (brother-usa.com page title)"
+  ],
+  "conflicts": [
+    "Max speed: 800 spm comes from a third-party comparison, not from a Brother snippet. Catalog marks it [verify] until the Brother spec sheet is read.",
+    "Price: $229.99 (Michaels) vs $199 (comparison site, undated). Catalog will use $229.99.",
+    "Frame material, warranty term and needle system were not in accessible snippets; Brother's support page was blocked. Left null."
+  ],
+  "ownerThemes": [
+    {
+      "theme": "A comparison review sewing four layers of denim and five layers of duck cloth found the ST371HD completed the hems but needed slower feeding at thick seams because presser foot pressure is fixed and the motor is slower than Singer's 4423.",
+      "tone": "mixed",
+      "source": "https://bobbinhub.com/singer-4423-vs-brother-st371hd/"
+    },
+    {
+      "theme": "An independent review calls it a tough little machine for everyday mending and light heavy fabric work, praising the nonstick foot and drop-in bobbin.",
+      "tone": "positive",
+      "source": "https://sewnstudio.com/brother-st371hd-review/"
+    }
+  ],
+  "evidence": "positioning",
+  "buyerQuestions": [
+    "Is the Brother ST371HD really heavy duty?",
+    "Brother ST371HD vs Singer 4423: which is better for denim?",
+    "Can the Brother ST371HD sew leather or vinyl?",
+    "How fast is the Brother ST371HD?",
+    "Does the Brother ST371HD have adjustable presser foot pressure?",
+    "Does the Brother ST371HD have a walking foot?",
+    "What is the Brother ST371HD warranty?",
+    "Is the Brother ST371HD good for beginners?",
+    "Does the Brother ST371HD have a free arm?"
+  ],
+  "crossShop": [
+    {
+      "slug": "singer-4423",
+      "why": "The direct rival: faster, adjustable pressure, fewer stitches, more owner complaints."
+    },
+    {
+      "slug": "singer-4452",
+      "why": "For buyers who like the ST371HD's nonstick foot but also want a walking foot in the box."
+    },
+    {
+      "slug": "janome-hd3000",
+      "why": "Aluminum-bodied mechanical alternative for buyers prioritizing build over stitch count."
+    }
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "editorial": {
+    "verdict": "A beginner mechanical with six feet, a nonstick foot and a metal needle plate that handles denim hems if you slow down at the thick spots.",
+    "whoFor": "New sewists and menders who want a forgiving drop-in bobbin machine with more stitches than the Singer and a free arm for cuffs.",
+    "skipIf": "You sew layered canvas or heavy denim weekly and want adjustable presser foot pressure and a faster motor.",
+    "keySpec": "800 spm [verify] · 37 stitches · 6 feet incl. nonstick · 14.3 lb",
+    "strengths": [
+      "Brother lists six feet in the box, including nonstick and button sewing feet.",
+      "Metal needle plate, drop feed and free arm are published features.",
+      "Lightest machine in this set at 14.3 lb."
+    ],
+    "weaknesses": [
+      "Presser foot pressure is fixed per third-party testing.",
+      "Slower motor than the Singer 44-series.",
+      "Frame material, warranty and speed were not confirmed from Brother in accessible sources."
+    ],
+    "checks": [
+      {
+        "title": "Confirm speed and warranty",
+        "body": "Brother's spec sheet was not reachable. Ask the dealer for the printed spm and warranty card before comparing to the Singer 4423."
+      },
+      {
+        "title": "Model variants",
+        "body": "Listings mix the ST371HD with the GX37 and XR3774, which share the 37-stitch count but not the heavyweight needles and nonstick foot. Check the model code."
+      },
+      {
+        "title": "Walking foot is extra",
+        "body": "Six feet are included but none is a walking foot. Budget for one if you quilt or sew slippery layers."
+      }
+    ],
+    "realCost": [
+      "Walking foot",
+      "Denim needles size 16 beyond the included heavyweight pack",
+      "Extra SA156 style drop-in bobbins"
+    ]
+  },
+  "sources": [
+    "https://www.brother-usa.com/products/st371hd",
+    "https://www.brother-usa.com/p/sewing-embroidery/ST371HD",
+    "https://www.sewingmachinedirectory.com/sewing-machine/brother-st371hd/",
+    "https://bobbinhub.com/singer-4423-vs-brother-st371hd/",
+    "https://www.michaels.com/brother-st371hd-strong-and-tough-sewing-machine/D033839S.html",
+    "https://sewnstudio.com/brother-st371hd-review/",
+    "https://www.brother-usa.com/support/st371hd",
+    "https://www.walmart.com/ip/Brother-Strong-and-Tough-Sewing-Machine-MFR-ST371HD/51254722"
+  ]
+}

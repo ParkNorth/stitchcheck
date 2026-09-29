@@ -1,0 +1,208 @@
+{
+  "slug": "brother-2340cv",
+  "brand": "Brother",
+  "model": "2340CV",
+  "series": "Pacesetter",
+  "type": "coverstitch",
+  "industrial": false,
+  "jobs": [
+    "serger"
+  ],
+  "manufacturerUrl": "https://www.brother-usa.com/products/2340cv",
+  "retailerUrl": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+  "priceUsdSeen": 579.99,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "Walmart (search snippet; listing URL not captured)",
+  "specs": {
+    "stitchTypes": {
+      "value": "Cover stitch narrow 3 mm, cover stitch wide 6 mm, triple cover stitch, 2-thread chain stitch",
+      "source": "https://www.brother-usa.com/products/2340cv"
+    },
+    "stitchCount": {
+      "value": null,
+      "source": null
+    },
+    "maxSpm": {
+      "value": 1100,
+      "source": "https://www.brother-usa.com/products/2340cv"
+    },
+    "threads": {
+      "value": "1, 2 or 3 needles plus 1 looper (2, 3 or 4 threads)",
+      "source": "https://www.brother-usa.com/products/2340cv"
+    },
+    "differentialFeed": {
+      "value": "0.7 to 2.0",
+      "source": "https://www.officedepot.com/a/products/6067742/Brother-2340CV-Cover-Stitch/"
+    },
+    "throatIn": {
+      "value": null,
+      "source": null
+    },
+    "needleSystem": {
+      "value": "SCHMETZ 130/705H 90/14; 130/705H SUK ball point recommended for knits",
+      "source": "https://www.manualslib.com/manual/22076/Brother-2340cv.html"
+    },
+    "presserFootLift": {
+      "value": "About 5 to 6 mm",
+      "source": "https://www.sewingmachinefun.com/brother-2340cv-review/"
+    },
+    "threadTrimmer": {
+      "value": null,
+      "source": null
+    },
+    "feedSystem": {
+      "value": "Differential feed; no knife",
+      "source": "https://www.brother-usa.com/products/2340cv"
+    },
+    "buttonhole": {
+      "value": null,
+      "source": null
+    },
+    "motor": {
+      "value": null,
+      "source": null
+    },
+    "frame": {
+      "value": "Metal frame",
+      "source": "https://www.officedepot.com/a/products/6067742/Brother-2340CV-Cover-Stitch/"
+    },
+    "weightLb": {
+      "value": 16.7,
+      "source": "https://www.officedepot.com/a/products/6067742/Brother-2340CV-Cover-Stitch/"
+    },
+    "dimensionsIn": {
+      "value": null,
+      "source": null
+    },
+    "includedFeet": {
+      "value": "Standard foot and hem sewing foot; accessory bag: needle set, 4 thread nets, tweezers, 4 spool caps, 4 spool mats, cleaning brush, hex wrench, soft cover, manual",
+      "source": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch"
+    },
+    "warrantyUs": {
+      "value": "25 yr chassis casting, 6 yr electronic components and PCBs, 2 yr parts, labor and accessories",
+      "source": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch"
+    },
+    "stitchWidthMm": {
+      "value": "3 or 6 (cover stitch)",
+      "source": "https://www.brother-usa.com/products/2340cv"
+    },
+    "stitchLengthMm": {
+      "value": "2.0 to 4.0",
+      "source": "https://www.officedepot.com/a/products/6067742/Brother-2340CV-Cover-Stitch/"
+    },
+    "threadingSystem": {
+      "value": "Color-coded lay-in threading; looper threading lever",
+      "source": "https://www.brother-usa.com/products/2340cv"
+    },
+    "chainStitch": {
+      "value": "Yes, 1 needle, 2 thread",
+      "source": "https://www.brother-usa.com/products/2340cv"
+    },
+    "freeArm": {
+      "value": null,
+      "source": null
+    }
+  },
+  "claims": [
+    "\"Professional hems, chain stitch and decorative stitching\" (manufacturer claim, product page)",
+    "\"Sturdy metal frame\" (retailer listing title)",
+    "Listed as 'Coverstitch Serger' in some retailer titles; it has no knife and does not overlock"
+  ],
+  "conflicts": [
+    "Price: Walmart and eBay listings show $579.99; the Sewing Machines Plus page returned no price in snippets. Catalog will use $579.99 flagged as marketplace.",
+    "Stitch length: retailer copy '2.0 to 4.0 mm'; Brother page value not captured. Catalog will use retailer figure flagged [verify].",
+    "Retailer titles call it a 'serger'; it is a coverstitch and chain stitch machine only."
+  ],
+  "ownerThemes": [
+    {
+      "theme": "One owner who replaced a Baby Lock coverstitch says it has never skipped a stitch; others say it is finicky and skips until needles are fresh and matched to the fabric.",
+      "tone": "mixed",
+      "source": "https://sewing.patternreview.com/review/machine/5678"
+    },
+    {
+      "theme": "Long discussion thread ranges from 'greatest machine ever' to 'want to throw it out the window'; the split tracks with setup, needle choice and stabilizer on thin knits.",
+      "tone": "mixed",
+      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/21953"
+    },
+    {
+      "theme": "No automatic tension release; owners describe pulling fabric out and unpicking as the weakest part of the design.",
+      "tone": "negative",
+      "source": "https://growyourownclothes.com/2017/07/27/brother-2340cv-cover-stitch-machine-survival-guide/"
+    }
+  ],
+  "evidence": "owner",
+  "buyerQuestions": [
+    "Can the Brother 2340CV do a chain stitch?",
+    "Can the 2340CV serge or overlock?",
+    "How do you unpick a coverstitch from the 2340CV?",
+    "What needles does the 2340CV use?",
+    "Does the 2340CV have a free arm?",
+    "Why does the 2340CV skip stitches on knits?",
+    "How does the 2340CV compare with the Janome CoverPro 2000CPX?",
+    "What feet come with the 2340CV?",
+    "Is the 2340CV worth it for hemming t-shirts?"
+  ],
+  "crossShop": [
+    {
+      "slug": "janome-coverpro-2000cpx",
+      "why": "The other mainstream dedicated coverstitch; wider bed, free arm and a tension release lever for a few hundred more."
+    },
+    {
+      "slug": "singer-14t968dc",
+      "why": "A serger and coverstitch combo at a similar price for buyers who cannot fit two machines."
+    },
+    {
+      "slug": "brother-1034d",
+      "why": "Owners typically pair the 2340CV with a 1034D as a two-machine setup."
+    }
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "sources": [
+    "https://www.brother-usa.com/products/2340cv",
+    "https://www.brother-usa.com/p/sewing-embroidery/2340CV",
+    "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+    "https://www.manualslib.com/manual/22076/Brother-2340cv.html",
+    "https://www.officedepot.com/a/products/6067742/Brother-2340CV-Cover-Stitch/",
+    "https://www.sewingmachinefun.com/brother-2340cv-review/",
+    "https://sewing.patternreview.com/review/machine/5678",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/21953",
+    "https://growyourownclothes.com/2017/07/27/brother-2340cv-cover-stitch-machine-survival-guide/"
+  ],
+  "editorial": {
+    "verdict": "The 2340CV is the lowest-priced dedicated coverstitch from a major brand: 3-needle, 3 or 6 mm cover stitch plus chain stitch at 1,100 spm.",
+    "whoFor": "A knit sewist who owns a serger and wants ready-to-wear style hems without buying a combo machine.",
+    "skipIf": "You need a free arm, a tension release lever, or a wider bed; the Janome CoverPro 2000CPX has those.",
+    "keySpec": "1/2/3 needle · 3 or 6 mm cover · chain stitch · 1,100 spm",
+    "strengths": [
+      "Standard 130/705H household needles, so ball points for knits are easy to source.",
+      "Differential feed 0.7 to 2.0 and stitch length 2 to 4 mm published.",
+      "Brother's warranty covers the chassis 25 years and electronics 6 years."
+    ],
+    "weaknesses": [
+      "No automatic tension release, a frequent owner complaint when removing work.",
+      "Free arm and dimensions are not published in results captured.",
+      "Owner reports on skipped stitches are sharply split."
+    ],
+    "checks": [
+      {
+        "title": "Needles for knits",
+        "body": "The manual names SCHMETZ 130/705H 90/14 and recommends SUK ball point for knits. Buy ball points before the first project."
+      },
+      {
+        "title": "Two feet in the box",
+        "body": "Standard foot and a hem foot. Binders, clear feet and belt loop folders are add-ons, often bundled by dealers."
+      },
+      {
+        "title": "It is not a serger",
+        "body": "Retail titles say 'coverstitch serger'. It has no knife and no overlock stitch. You still need a serger or a sewing machine for seams."
+      }
+    ],
+    "realCost": [
+      "3 to 4 cones of thread; a wooly nylon for the looper is optional",
+      "SCHMETZ 130/705H SUK ball point needles, 90/14",
+      "Wash-away or tissue stabilizer for very light jersey",
+      "Serger oil"
+    ]
+  }
+}

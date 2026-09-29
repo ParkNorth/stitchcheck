@@ -1,0 +1,212 @@
+{
+  "slug": "babylock-vibrant",
+  "brand": "Baby Lock",
+  "model": "Vibrant (BL460B)",
+  "series": "Genuine Collection",
+  "type": "serger",
+  "industrial": false,
+  "jobs": [
+    "serger",
+    "beginner"
+  ],
+  "manufacturerUrl": "https://babylock.com/machines/serger/vibrant",
+  "retailerUrl": "https://www.sewingmachinesplus.com/bl460b.php",
+  "priceUsdSeen": 499.0,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "Baby Lock dealer listings (regular price shown in snippets, incl. Sewing Machines Plus listing)",
+  "specs": {
+    "stitchTypes": {
+      "value": "4, 3 and 2-thread serging; rolled hem",
+      "source": "https://babylock.com/machines/serger/vibrant"
+    },
+    "stitchCount": {
+      "value": null,
+      "source": null
+    },
+    "maxSpm": {
+      "value": 1500,
+      "source": "https://meissnersewing.com/products/babylock-vibrant-serger"
+    },
+    "threads": {
+      "value": "2, 3 or 4 thread, 2 needles",
+      "source": "https://babylock.com/machines/serger/vibrant"
+    },
+    "differentialFeed": {
+      "value": "Yes, dial; ratio not published in results captured",
+      "source": "https://babylock.com/machines/serger/vibrant"
+    },
+    "throatIn": {
+      "value": null,
+      "source": null
+    },
+    "needleSystem": {
+      "value": null,
+      "source": null
+    },
+    "presserFootLift": {
+      "value": null,
+      "source": null
+    },
+    "threadTrimmer": {
+      "value": "Retractable thread cutter with push lever",
+      "source": "https://babylock.com/machines/serger/vibrant"
+    },
+    "feedSystem": {
+      "value": "Differential feed; trim bin",
+      "source": "https://babylock.com/machines/serger/vibrant"
+    },
+    "buttonhole": {
+      "value": null,
+      "source": null
+    },
+    "motor": {
+      "value": null,
+      "source": null
+    },
+    "frame": {
+      "value": null,
+      "source": null
+    },
+    "weightLb": {
+      "value": 19.84,
+      "source": "https://www.sewingpartsonline.com/baby-lock-bl460b-vibrant-serger.aspx"
+    },
+    "dimensionsIn": {
+      "value": "12.6 x 12.6 x 11",
+      "source": "https://meissnersewing.com/products/babylock-vibrant-serger"
+    },
+    "includedFeet": {
+      "value": "Snap-on presser foot type; standard foot; full accessory list not published in results",
+      "source": "https://babylock.com/machines/serger/vibrant"
+    },
+    "warrantyUs": {
+      "value": "25-year limited; 10 yr parts, 2 yr electrical, 1 yr labor (dealer statement)",
+      "source": "https://meissnersewing.com/products/babylock-vibrant-serger"
+    },
+    "stitchWidthMm": {
+      "value": "Up to 7",
+      "source": "https://meissnersewing.com/products/babylock-vibrant-serger"
+    },
+    "stitchLengthMm": {
+      "value": "Up to 4",
+      "source": "https://meissnersewing.com/products/babylock-vibrant-serger"
+    },
+    "threadingSystem": {
+      "value": "Manual, color-coded threading chart; manual tension dials",
+      "source": "https://babylock.com/machines/serger/vibrant"
+    },
+    "rolledHem": {
+      "value": "Yes",
+      "source": "https://babylock.com/machines/serger/vibrant"
+    },
+    "freeArm": {
+      "value": null,
+      "source": null
+    },
+    "lighting": {
+      "value": "LED",
+      "source": "https://meissnersewing.com/products/babylock-vibrant-serger"
+    }
+  },
+  "claims": [
+    "\"Perfect overlocker machine for beginners\" (dealer claim, listing)",
+    "\"Easy color-coded threading chart\" (manufacturer claim, product page)",
+    "Dealers describe it as mechanically related to Husqvarna H Class 200 and 250S sergers; not confirmed by Baby Lock"
+  ],
+  "conflicts": [
+    "Model number: the task named this 'Vibrant BLS1'. Baby Lock's Vibrant is model BL460B; BLS1 is the Celebrate (jet air threading, 16 lb). Catalog will list BL460B and note the mix-up.",
+    "Price: $499 regular at most dealers; some dealers show $799 regular. Baby Lock does not publish a price. Catalog will use $499 flagged as dealer-set.",
+    "Speed: one early snippet placed 1,300 spm against the Vibrant; dealer spec sheets say 1,500 spm. Catalog will use 1,500 spm flagged [verify against Baby Lock page]."
+  ],
+  "ownerThemes": [
+    {
+      "theme": "Owners praise simple operation and a front that opens for threading and cleaning, with consistent stitches.",
+      "tone": "positive",
+      "source": "https://sewing.patternreview.com/review/machine/7052"
+    },
+    {
+      "theme": "A 2026 review reported the upper looper scraping across and denting the needles, requiring service.",
+      "tone": "negative",
+      "source": "https://sewing.patternreview.com/review/machine/7653"
+    },
+    {
+      "theme": "Buyers stepping up from older manual sergers say the mix of tension dials is confusing and many end up wanting air threading, which is the Celebrate.",
+      "tone": "mixed",
+      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/120366"
+    }
+  ],
+  "evidence": "owner",
+  "buyerQuestions": [
+    "How much does the Baby Lock Vibrant cost?",
+    "Is the Vibrant good for beginners?",
+    "Does the Vibrant have air threading?",
+    "What is the difference between the Vibrant and the Celebrate?",
+    "Is the Vibrant BL460B or BLS1?",
+    "Does the Vibrant do 2-thread stitches?",
+    "How heavy is the Vibrant?",
+    "Can you buy the Vibrant online or only from a dealer?"
+  ],
+  "crossShop": [
+    {
+      "slug": "brother-1034d",
+      "why": "Half the price for a 3/4-thread machine sold everywhere; the Vibrant adds 2-thread and dealer support."
+    },
+    {
+      "slug": "juki-mo-654de",
+      "why": "Same 2/3/4 thread and 1,500 spm at a similar or lower price, sold online."
+    },
+    {
+      "slug": "brother-1034dx",
+      "why": "Another entry serger with LED lighting and a trim trap, usually cheaper."
+    }
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "sources": [
+    "https://babylock.com/machines/serger/vibrant",
+    "https://babylock.com/vibrant",
+    "https://www.sewingmachinesplus.com/bl460b.php",
+    "https://meissnersewing.com/products/babylock-vibrant-serger",
+    "https://www.sewingpartsonline.com/baby-lock-bl460b-vibrant-serger.aspx",
+    "https://sewing.patternreview.com/review/machine/7052",
+    "https://sewing.patternreview.com/review/machine/7653",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/120366",
+    "https://babylock.com/serging-comparison-charts"
+  ],
+  "editorial": {
+    "verdict": "The Vibrant is Baby Lock's manual-threading entry serger: 2/3/4 thread and 1,500 spm at a dealer price near $499, with the air-threading Celebrate one step above it.",
+    "whoFor": "A beginner who wants a dealer relationship and in-store lessons with a 2/3/4-thread machine.",
+    "skipIf": "You want air threading, or you are comfortable buying a comparable Juki or Brother online for less.",
+    "keySpec": "2/3/4 thread · 1,500 spm · 7 mm width · 19.8 lb",
+    "strengths": [
+      "2-thread capability, which the Brother 1034D and 1034DX lack.",
+      "Retractable thread cutter and LED light, per Baby Lock and dealer sheets.",
+      "25-year limited warranty with 10-year parts coverage stated by dealers."
+    ],
+    "weaknesses": [
+      "Manual threading and manual tension dials; the Celebrate adds jet air for more money.",
+      "Baby Lock does not publish a price, differential ratio, or needle system on the page captured.",
+      "At about 19.8 lb it is heavier than the 13 to 15 lb Brother and Juki entries."
+    ],
+    "checks": [
+      {
+        "title": "Confirm the model number",
+        "body": "Vibrant is BL460B. BLS1 is the Celebrate. Dealer bundles and used listings mix them up; the Celebrate costs more and threads with air."
+      },
+      {
+        "title": "Dealer bundle contents",
+        "body": "Sewing Machines Plus and others advertise free bundles such as needle tins. The base machine accessory list was not published in results; ask for it."
+      },
+      {
+        "title": "Price is dealer-set",
+        "body": "Most dealers show $499 regular; some show $799. Baby Lock sells through dealers only, so quotes vary by store and promotion."
+      }
+    ],
+    "realCost": [
+      "4 cones of serger thread",
+      "Serger needles once the system is confirmed from the manual",
+      "Serger oil",
+      "Tweezers if not in the bundle"
+    ]
+  }
+}

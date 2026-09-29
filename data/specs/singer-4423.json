@@ -1,0 +1,191 @@
+{
+  "slug": "singer-4423",
+  "brand": "Singer",
+  "model": "Heavy Duty 4423",
+  "series": "Heavy Duty",
+  "type": "mechanical",
+  "industrial": false,
+  "jobs": [
+    "heavy-duty",
+    "beginner"
+  ],
+  "manufacturerUrl": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine",
+  "retailerUrl": "https://www.sewingmachinesplus.com/singer4423.php",
+  "priceUsdSeen": 289.99,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "Sewing Machines Plus (regular price in search snippet; open box listed at $179)",
+  "specs": {
+    "stitchTypes": {
+      "value": "23 built-in stitches: 6 basic, 4 stretch, 12 decorative, 1 one-step buttonhole",
+      "source": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
+    },
+    "stitchCount": {
+      "value": 23,
+      "source": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
+    },
+    "maxSpm": {
+      "value": 1100,
+      "source": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
+    },
+    "threads": {
+      "value": null,
+      "source": null
+    },
+    "differentialFeed": {
+      "value": null,
+      "source": null
+    },
+    "throatIn": {
+      "value": null,
+      "source": null
+    },
+    "needleSystem": {
+      "value": null,
+      "source": null
+    },
+    "presserFootLift": {
+      "value": "Adjustable presser foot pressure; lift height not published in snippet",
+      "source": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
+    },
+    "threadTrimmer": {
+      "value": null,
+      "source": null
+    },
+    "feedSystem": {
+      "value": "Drop feed",
+      "source": "https://www.singerco.co.uk/4423.html"
+    },
+    "buttonhole": {
+      "value": "1-step automatic buttonhole",
+      "source": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
+    },
+    "motor": {
+      "value": "Singer describes the motor as stronger than a standard machine motor; wattage not published",
+      "source": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
+    },
+    "frame": {
+      "value": "Heavy-duty metal interior frame, stainless steel bedplate",
+      "source": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
+    },
+    "weightLb": {
+      "value": 14.6,
+      "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-4423-mechanical-sewing-machine"
+    },
+    "dimensionsIn": {
+      "value": "18.1 x 8.8 x 13.9 (W x D x H)",
+      "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-4423-mechanical-sewing-machine"
+    },
+    "includedFeet": {
+      "value": "All-purpose foot, zipper foot, buttonhole foot, button sewing foot, seam ripper and lint brush, quilting guide, needles, bobbins, screwdriver, auxiliary spool pin, spool pin felt, soft dust cover; 4 snap-on feet",
+      "source": "https://www.singerco.co.uk/4423.html"
+    },
+    "warrantyUs": {
+      "value": "25 yr limited on machine head, 2 yr on motor, light, wiring, switches, speed control and electronics, 90 days on adjustments, belts, rings, bulbs and attachments",
+      "source": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+    }
+  },
+  "claims": [
+    "\"Heavy Duty\" (Singer series name, product page; it is a model line, not a duty rating)",
+    "\"powerful motor\" with \"extra high sewing speed\" (manufacturer claim, singer.com product page)",
+    "\"heavy-duty metal frame ensures stability\" (manufacturer claim, singer.com product page)",
+    "\"50% more power\" or \"60% stronger\" motor than a standard machine (retailer copy repeating Singer marketing; baseline not defined)"
+  ],
+  "conflicts": [
+    "Price: $289.99 regular (Sewing Machines Plus) vs $229.99 (Michaels, Walmart). Catalog will show the SMP figure as the retailer of record and note the $60 spread.",
+    "Stitch count: Singer says 23 built-in stitches; retail titles say '97 stitch applications' or '44-stitch'. Catalog uses 23.",
+    "Weight: 14.6 lb (Sewing Parts Online) is the only machine weight found; Singer.com weight not in snippet."
+  ],
+  "ownerThemes": [
+    {
+      "theme": "PatternReview members comparing the 4423, 4432 and 4452 describe them as the same machine with different stitch counts and accessory packs, and suggest buying on price.",
+      "tone": "mixed",
+      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/111789"
+    },
+    {
+      "theme": "A troubleshooting roundup that pooled 50 plus owner complaints from Reddit and PatternReview finds the recurring 4423 issues are bobbin case trouble, tension looping and skipped stitches, most traced to threading errors; owners also hand-crank the wheel through very thick seams rather than risk breaking a needle.",
+      "tone": "negative",
+      "source": "https://threadedmachines.com/brands/singer/4423-review/problems/"
+    },
+    {
+      "theme": "A PatternReview thread weighing the 4423 against the Janome HD1000 and HD3000 calls the Janome quieter and smoother but says the Singer is the value pick at its price.",
+      "tone": "mixed",
+      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/117318"
+    }
+  ],
+  "evidence": "mixed",
+  "buyerQuestions": [
+    "Is the Singer 4423 really heavy duty?",
+    "Can the Singer 4423 sew leather?",
+    "Can the Singer 4423 sew through multiple layers of denim?",
+    "What is the difference between the Singer 4423 and 4432?",
+    "Is the Singer 4423 good for beginners?",
+    "Does the Singer 4423 have a walking foot?",
+    "What needles does the Singer 4423 use?",
+    "Why does my Singer 4423 keep jamming or looping thread?",
+    "How heavy is the Singer 4423?",
+    "Can the Singer 4423 do free motion quilting?"
+  ],
+  "crossShop": [
+    {
+      "slug": "singer-4432",
+      "why": "Nine more stitches for a small price step; otherwise the same machine."
+    },
+    {
+      "slug": "janome-hd3000",
+      "why": "The usual alternative for buyers who want a quieter mechanical with adjustable pressure and a longer dealer support history."
+    },
+    {
+      "slug": "brother-st371hd",
+      "why": "Brother's entry heavy fabric machine with more stitches and a nonstick foot in the box at a similar price."
+    }
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "editorial": {
+    "verdict": "An entry-level mechanical with a fast motor and a metal frame that handles denim hems and canvas totes but is not a substitute for an industrial.",
+    "whoFor": "Beginners and occasional sewists who want a cheap, fast utility machine with a one-step buttonhole and enough punch for jeans hems.",
+    "skipIf": "You sew leather, upholstery or webbing regularly, or you expect the 'Heavy Duty' name to mean industrial construction.",
+    "keySpec": "1,100 spm · 23 stitches · 1-step buttonhole · 14.6 lb",
+    "strengths": [
+      "Singer publishes 1,100 spm, high for this price class.",
+      "Metal interior frame and stainless bedplate are listed by Singer.",
+      "Adjustable presser foot pressure lets it handle sheers as well as thick seams."
+    ],
+    "weaknesses": [
+      "Owner troubleshooting threads cluster around bobbin, tension and skipped stitches.",
+      "No walking foot in the box; the 4452 adds one.",
+      "Presser foot lift height, needle system and throat space are not published by Singer."
+    ],
+    "checks": [
+      {
+        "title": "Bundle vs bare box",
+        "body": "Amazon bundles add presser feet kits and bobbin winders. The standard box has four feet. Compare the bare machine price first."
+      },
+      {
+        "title": "Open box pricing",
+        "body": "SMP lists an open box unit around $179 against $289.99 new. Ask what warranty applies to open box units."
+      },
+      {
+        "title": "Needle plan for thick work",
+        "body": "Singer ships universal needles. Buy size 16 or 18 denim needles before the first heavy project; owners report broken needles when forcing thick seams."
+      }
+    ],
+    "realCost": [
+      "Denim or jeans needles size 16 to 18",
+      "Extra Class 15 bobbins",
+      "Walking foot if you quilt or sew slippery layers"
+    ]
+  },
+  "sources": [
+    "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine",
+    "https://www.sewingmachinesplus.com/singer4423.php",
+    "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage",
+    "https://www.singerco.co.uk/4423.html",
+    "https://www.sewingpartsonline.com/products/singer-heavy-duty-4423-mechanical-sewing-machine",
+    "https://www.sewingpartsonline.com/products/singer-heavy-duty-4423-mechanical-sewing-machine",
+    "https://www.sewingmachinesplus.com/singer4423.php",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/111789",
+    "https://threadedmachines.com/brands/singer/4423-review/problems/",
+    "https://sewways.com/brands/singer-heavy-duty-comparison/"
+  ]
+}

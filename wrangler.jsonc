@@ -1,0 +1,31 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "stitchcheck",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-08-14",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "services": [
+    {
+      // Self-reference for OpenNext caching
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "stitchcheck"
+    }
+  ],
+  "images": {
+    "binding": "IMAGES"
+  },
+  "observability": {
+    "enabled": true
+  },
+  // Keep on. Preview is useful; `src/middleware.ts` noindexes `*.workers.dev`.
+  "workers_dev": true,
+  "preview_urls": true,
+  "routes": [
+    { "pattern": "stitchcheck.com", "custom_domain": true },
+    { "pattern": "www.stitchcheck.com", "custom_domain": true }
+  ]
+}

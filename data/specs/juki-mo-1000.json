@@ -1,0 +1,208 @@
+{
+  "slug": "juki-mo-1000",
+  "brand": "Juki",
+  "model": "MO-1000",
+  "series": "MO",
+  "type": "serger",
+  "industrial": false,
+  "jobs": [
+    "serger"
+  ],
+  "manufacturerUrl": "https://www.jukihome.com/products/serging/mo-1000.html",
+  "retailerUrl": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+  "priceUsdSeen": 1499.0,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "Sewing Machines Plus",
+  "specs": {
+    "stitchTypes": {
+      "value": "2, 3 and 4-thread overlock stitches, rolled hem; 2-needle, 4-thread maximum",
+      "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+    },
+    "stitchCount": {
+      "value": null,
+      "source": null
+    },
+    "maxSpm": {
+      "value": 1500,
+      "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+    },
+    "threads": {
+      "value": "2, 3 or 4 thread, 2 needles",
+      "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+    },
+    "differentialFeed": {
+      "value": "Knob-adjustable; ratio not published in results captured",
+      "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+    },
+    "throatIn": {
+      "value": "Throat height 72.4 mm (2.85 in)",
+      "source": "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_brochure_web.pdf"
+    },
+    "needleSystem": {
+      "value": null,
+      "source": null
+    },
+    "presserFootLift": {
+      "value": "Adjustable presser foot pressure; lift height not published",
+      "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+    },
+    "threadTrimmer": {
+      "value": null,
+      "source": null
+    },
+    "feedSystem": {
+      "value": "Differential feed; knife can be disengaged mid-seam",
+      "source": "https://www.quiltersreview.com/juki-mo-1000/"
+    },
+    "buttonhole": {
+      "value": null,
+      "source": null
+    },
+    "motor": {
+      "value": null,
+      "source": null
+    },
+    "frame": {
+      "value": null,
+      "source": null
+    },
+    "weightLb": {
+      "value": null,
+      "source": null
+    },
+    "dimensionsIn": {
+      "value": null,
+      "source": null
+    },
+    "includedFeet": {
+      "value": "Standard foot; accessory list: instructional DVD, thread nets, oiler, needle set, tweezers, scrap catcher, looper threader, spool caps, screwdriver, brush/needle inserter, dust cover, electronic foot control, foam thread pad, cone holders",
+      "source": "https://www.quiltersreview.com/juki-mo-1000/"
+    },
+    "warrantyUs": {
+      "value": null,
+      "source": null
+    },
+    "stitchWidthMm": {
+      "value": "Overlock width up to 9 (0.4 in); right needle 3 to 7, left needle 5 to 9 per reviews",
+      "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+    },
+    "stitchLengthMm": {
+      "value": "1 to 4 (max 0.2 in)",
+      "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+    },
+    "threadingSystem": {
+      "value": "Jet air looper threading (push button, upper and lower loopers, any order); automatic needle threader; upper looper 2/3-thread converter",
+      "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+    },
+    "rolledHem": {
+      "value": "Yes",
+      "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+    },
+    "freeArm": {
+      "value": null,
+      "source": null
+    }
+  },
+  "claims": [
+    "\"Threads itself at the push of a button using only a burst of air\" (manufacturer claim, product page)",
+    "\"Designed to reduce vibration while sewing\" (manufacturer claim, product page)",
+    "\"You do not need to thread in order\" (manufacturer claim, product page)"
+  ],
+  "conflicts": [
+    "Weight: 20 lb (Walmart/dealer listing) vs 23 lb (sergerpro review) vs 25.4 lb (one review). Juki page value not captured. Left null; catalog renders [verify].",
+    "Dimensions: 15.4 x 15.2 x 16.3 in appears in a review and reads as carton size. Not recorded.",
+    "Warranty: one dealer states '1 year service warranty'; Juki's standard household terms (5 yr mechanical, 2 yr electrical) were not confirmed for this model in results. Left null."
+  ],
+  "ownerThemes": [
+    {
+      "theme": "Air threading and auto tension are the reasons owners buy it; several say looper threading takes seconds and the vacuum-style port needs less thread fed in than bellows systems.",
+      "tone": "positive",
+      "source": "https://sewing.patternreview.com/review/machine/5344"
+    },
+    {
+      "theme": "Tying on new thread and pulling through can leave a looper thread sitting outside its tension disk; owners recommend rethreading fully with the air system instead.",
+      "tone": "mixed",
+      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/82262"
+    },
+    {
+      "theme": "Some buyers weigh dealer availability for service against the price, and note the air threader is good but not as refined as higher-priced brands.",
+      "tone": "mixed",
+      "source": "https://clothhabit.com/choosing-a-new-serger/"
+    }
+  ],
+  "evidence": "owner",
+  "buyerQuestions": [
+    "Does the Juki MO-1000 thread the needles automatically too?",
+    "Can you thread the MO-1000 by hand if the air system fails?",
+    "Is the MO-1000 loud?",
+    "What comes in the box with the MO-1000?",
+    "Is air threading worth the price jump from the MO-654DE?",
+    "How much does the MO-1000 weigh?",
+    "What is the MO-1000 warranty?",
+    "Does the MO-1000 have a free arm?",
+    "Can the MO-1000 do a 2-thread stitch?"
+  ],
+  "crossShop": [
+    {
+      "slug": "juki-mo-654de",
+      "why": "Same brand, same 1,500 spm and 2/3/4 thread, manual threading, at a fraction of the price."
+    },
+    {
+      "slug": "babylock-vibrant",
+      "why": "Buyers deciding between a dealer brand and Juki often compare Baby Lock's entry serger on the way to the air-threading Celebrate."
+    },
+    {
+      "slug": "brother-1034d",
+      "why": "The budget anchor; the MO-1000 buyer is paying mostly for threading convenience over this machine."
+    }
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "sources": [
+    "https://www.jukihome.com/products/serging/mo-1000.html",
+    "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_brochure_web.pdf",
+    "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+    "https://www.quiltersreview.com/juki-mo-1000/",
+    "https://sergerpro.com/juki-mo-1000-review/",
+    "https://sewing.patternreview.com/review/machine/5344",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/82262",
+    "https://clothhabit.com/choosing-a-new-serger/",
+    "https://sewcanshe.com/2016-10-3-product-review-juki-mo-1000-serger-with-jet-air/"
+  ],
+  "editorial": {
+    "verdict": "The MO-1000 is the affordable route to jet air looper threading, with the same 1,500 spm and 2/3/4 thread range as Juki's manual-threading models.",
+    "whoFor": "A sewist who changes thread colors often, or who has given up on manual looper threading, and can spend around $1,500.",
+    "skipIf": "You thread once and sew for weeks; the MO-654DE gives the same stitches for far less.",
+    "keySpec": "2/3/4 thread · jet air loopers · 1,500 spm · 72.4 mm throat height",
+    "strengths": [
+      "Push-button air threading for both loopers, in any order, plus an automatic needle threader.",
+      "Overlock width to 9 mm and stitch length 1 to 4 mm, per Juki.",
+      "72.4 mm throat height published by Juki, more room than typical compact sergers."
+    ],
+    "weaknesses": [
+      "Weight is unpublished on the Juki page captured, and dealer figures range from 20 to 25.4 lb.",
+      "Warranty terms for this model were not confirmed in results.",
+      "Differential feed ratio is not published, only 'knob-adjustable'."
+    ],
+    "checks": [
+      {
+        "title": "Air system maintenance",
+        "body": "Owners report tie-on thread changes can leave a looper thread out of its tension disk. Plan to rethread with the air button rather than pulling through."
+      },
+      {
+        "title": "Box contents versus dealer kit",
+        "body": "Juki's list runs from DVD and thread nets to a scrap catcher and foot control. Sewing Machines Plus also sells a kit listing; confirm which one is priced at $1,499."
+      },
+      {
+        "title": "Warranty and service",
+        "body": "Confirm the seller is an authorized Juki dealer and get the warranty terms in writing; one dealer quoted a one-year service warranty."
+      }
+    ],
+    "realCost": [
+      "4 cones of serger thread",
+      "Household needles once the system is confirmed from the manual",
+      "Serger oil",
+      "Compressed-air can or brush for keeping air ports clear of lint"
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "slug": "janome-hd3000",
+  "brand": "Janome",
+  "model": "HD3000",
+  "series": "HD",
+  "type": "mechanical",
+  "industrial": false,
+  "jobs": [
+    "heavy-duty",
+    "beginner"
+  ],
+  "manufacturerUrl": "https://www.janome.com/product/hd-3000/",
+  "retailerUrl": "https://sewingmachinesplus.com/products/janome-hd3000",
+  "priceUsdSeen": null,
+  "priceSeenDate": null,
+  "priceSeenAt": null,
+  "specs": {
+    "stitchTypes": {
+      "value": "18 built-in stitches including a one-step buttonhole; zigzag up to 6.5 mm wide, stitch length up to 4 mm",
+      "source": "https://www.poconosewandvac.com/products/janome/machines/hd3000"
+    },
+    "stitchCount": {
+      "value": 18,
+      "source": "https://www.poconosewandvac.com/products/janome/machines/hd3000"
+    },
+    "maxSpm": {
+      "value": 860,
+      "source": "https://www.janome.com/introducing-the-hd1000-and-hd3000/"
+    },
+    "threads": {
+      "value": null,
+      "source": null
+    },
+    "differentialFeed": {
+      "value": null,
+      "source": null
+    },
+    "throatIn": {
+      "value": null,
+      "source": null
+    },
+    "needleSystem": {
+      "value": null,
+      "source": null
+    },
+    "presserFootLift": {
+      "value": "Adjustable presser foot pressure (third-party comparison); lift height not published in snippet",
+      "source": "https://threadedmachines.com/compare/singer-4423-vs-janome-hd3000/"
+    },
+    "threadTrimmer": {
+      "value": null,
+      "source": null
+    },
+    "feedSystem": {
+      "value": "7-piece feed dog, drop feed; horizontal full rotary hook",
+      "source": "https://www.janome.com/introducing-the-hd1000-and-hd3000/"
+    },
+    "buttonhole": {
+      "value": "One-step buttonhole",
+      "source": "https://www.janome.com/product/hd-3000/"
+    },
+    "motor": {
+      "value": null,
+      "source": null
+    },
+    "frame": {
+      "value": "Rigid aluminum body (Janome: 'all-metal body made of special, lightweight aluminum')",
+      "source": "https://www.janome.com/introducing-the-hd1000-and-hd3000/"
+    },
+    "weightLb": {
+      "value": 18.7,
+      "source": "https://www.poconosewandvac.com/products/janome/machines/hd3000"
+    },
+    "dimensionsIn": {
+      "value": "16 x 7 x 11 (W x D x H)",
+      "source": "https://www.poconosewandvac.com/products/janome/machines/hd3000"
+    },
+    "includedFeet": {
+      "value": "Hard cover, blind hem foot G, buttonhole foot R (automatic), 2 mm hemmer foot D, overedge foot; zigzag foot on machine",
+      "source": "https://sewingmachinesplus.com/products/janome-hd3000"
+    },
+    "warrantyUs": {
+      "value": "25 yr limited on defective materials and workmanship, 5 yr on electrical components, 1 yr labor (dealer statement; verify against Janome)",
+      "source": "https://janomejunkies.com/product/janome-hd-3000/"
+    }
+  },
+  "claims": [
+    "\"quiet, vibration-free sewing\" (manufacturer claim, janome.com blog)",
+    "\"Heavy Duty\" (Janome HD series name, product page; a model line, not a rating)",
+    "\"7-piece feed dog is perfectly synchronized with the needle\" (manufacturer claim, janome.com blog)",
+    "\"for Denim & Canvas\" (dealer copy, Janome Junkies listing title)"
+  ],
+  "conflicts": [
+    "Stitch count: 18 (janome.com product page and dealers) vs 19 (janome.com HD1000/HD3000 launch blog). Catalog will use 18 because the current product page and the info sheet use it.",
+    "Warranty: a dealer states 25 yr / 5 yr electrical / 1 yr labor. Janome's commonly stated US terms are 25 yr mechanical, 2 yr electrical and electronic, 1 yr labor. Catalog marks the electrical term [verify].",
+    "Price: no price appeared in accessible snippets from Sewing Machines Plus or other dealers. Left null."
+  ],
+  "ownerThemes": [
+    {
+      "theme": "A PatternReview thread comparing the Singer 4423, Janome HD1000 and HD3000 says the HD3000 is the smoother, quieter machine but not dramatically better than the HD1000, and that the Singer is the value buy.",
+      "tone": "mixed",
+      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/117318"
+    },
+    {
+      "theme": "Comparison sites position the HD3000 as the pick for buyers who value mechanical smoothness and adjustable presser foot pressure over the Singer's higher 1,100 spm speed and lower price.",
+      "tone": "positive",
+      "source": "https://threadedmachines.com/compare/singer-4423-vs-janome-hd3000/"
+    }
+  ],
+  "evidence": "mixed",
+  "buyerQuestions": [
+    "Is the Janome HD3000 better than the Singer 4423?",
+    "Can the Janome HD3000 sew leather?",
+    "Is the Janome HD3000 good for beginners?",
+    "How many stitches does the Janome HD3000 have, 18 or 19?",
+    "What is the difference between the Janome HD3000 and HD1000?",
+    "Does the Janome HD3000 have a walking foot?",
+    "How much does the Janome HD3000 weigh?",
+    "Is the Janome HD3000 good for quilting?",
+    "What is the Janome HD3000 Black Edition?"
+  ],
+  "crossShop": [
+    {
+      "slug": "singer-4423",
+      "why": "The default price comparison: faster and cheaper, with more stitches, but louder and with more owner complaints."
+    },
+    {
+      "slug": "brother-st371hd",
+      "why": "Similar stitch count class and price bracket with a nonstick foot included."
+    },
+    {
+      "slug": "janome-mc6650",
+      "why": "Janome buyers who want a 10 in arm, thread cutter and computerized stitches step up here."
+    }
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "editorial": {
+    "verdict": "A conservative aluminum-bodied mechanical that trades speed and stitch count for smoothness, adjustable pressure and a long dealer track record.",
+    "whoFor": "Beginners and mending-focused sewists who want a quiet, simple machine that handles denim and canvas hems without fuss.",
+    "skipIf": "You want the fastest machine at the price, need many decorative stitches, or plan to sew leather or webbing regularly.",
+    "keySpec": "860 spm · 18 stitches · 6.5 mm zigzag · 18.7 lb aluminum body",
+    "strengths": [
+      "Janome publishes an all-aluminum body and 7-piece feed dog.",
+      "Adjustable presser foot pressure and a 6.5 mm zigzag width are wider than Singer's 44-series.",
+      "Hard cover ships in the box per the SMP listing."
+    ],
+    "weaknesses": [
+      "860 spm is slower than the Singer and Brother competitors.",
+      "18 stitches, fewer than any rival in this set.",
+      "No walking foot in the standard box; price was not visible in accessible listings."
+    ],
+    "checks": [
+      {
+        "title": "Standard vs Black Edition",
+        "body": "The HD3000 Black Edition is a separate SKU with its own price and bundle. Confirm which one the listing is and whether the hard cover is included."
+      },
+      {
+        "title": "Bonus kits",
+        "body": "Retail bundles add an Ultra Glide foot, leather needles and bobbins. The plain box has five feet. Price the bare machine first."
+      },
+      {
+        "title": "Warranty wording",
+        "body": "Dealers quote different electrical warranty terms (2 yr vs 5 yr). Ask for Janome's printed warranty card."
+      }
+    ],
+    "realCost": [
+      "Walking foot for quilting or layered denim",
+      "Denim and leather needles size 16 to 18",
+      "Extra Class 15 bobbins"
+    ]
+  },
+  "sources": [
+    "https://www.janome.com/product/hd-3000/",
+    "https://www.janome.com/wp-content/uploads/2019/11/hd3000-info-sheet.pdf",
+    "https://www.janome.com/introducing-the-hd1000-and-hd3000/",
+    "https://www.poconosewandvac.com/products/janome/machines/hd3000",
+    "https://sewingmachinesplus.com/products/janome-hd3000",
+    "https://janomejunkies.com/product/janome-hd-3000/",
+    "https://threadedmachines.com/compare/singer-4423-vs-janome-hd3000/",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/117318",
+    "https://www.qualitysewing.com/products/janome-hd3000-heavy-duty-sewing-machine"
+  ]
+}

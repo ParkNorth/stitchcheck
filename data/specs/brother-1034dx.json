@@ -1,0 +1,205 @@
+{
+  "slug": "brother-1034dx",
+  "brand": "Brother",
+  "model": "1034DX",
+  "series": "1034",
+  "type": "serger",
+  "industrial": false,
+  "jobs": [
+    "serger",
+    "beginner"
+  ],
+  "manufacturerUrl": "https://www.brother-usa.com/products/1034dx",
+  "retailerUrl": null,
+  "priceUsdSeen": 235.0,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "Walmart",
+  "specs": {
+    "stitchTypes": {
+      "value": "4-thread overlock, 3-thread overlock, ribbon lock, rolled hem and related functions",
+      "source": "https://www.brother-usa.com/products/1034dx"
+    },
+    "stitchCount": {
+      "value": 22,
+      "source": "https://www.brother-usa.com/products/1034dx"
+    },
+    "maxSpm": {
+      "value": 1300,
+      "source": "https://www.brother-usa.com/products/1034dx"
+    },
+    "threads": {
+      "value": "3 or 4 thread, 2 needles",
+      "source": "https://www.brother-usa.com/products/1034dx"
+    },
+    "differentialFeed": {
+      "value": "0.7 to 2.0",
+      "source": "https://www.brother-usa.com/products/1034dx"
+    },
+    "throatIn": {
+      "value": null,
+      "source": null
+    },
+    "needleSystem": {
+      "value": null,
+      "source": null
+    },
+    "presserFootLift": {
+      "value": null,
+      "source": null
+    },
+    "threadTrimmer": {
+      "value": null,
+      "source": null
+    },
+    "feedSystem": {
+      "value": "Differential feed; removable trim trap; free arm",
+      "source": "https://www.sewingmachinefun.com/brother-1034d-vs-1034dx/"
+    },
+    "buttonhole": {
+      "value": null,
+      "source": null
+    },
+    "motor": {
+      "value": null,
+      "source": null
+    },
+    "frame": {
+      "value": "Metal frame",
+      "source": "https://www.brother-usa.com/products/1034dx"
+    },
+    "weightLb": {
+      "value": 13.5,
+      "source": "https://www.sewingmachinefun.com/brother-1034d-vs-1034dx/"
+    },
+    "dimensionsIn": {
+      "value": null,
+      "source": null
+    },
+    "includedFeet": {
+      "value": "3 snap-on feet (standard, blind stitch, gathering); soft cover; instructional DVD; needle set; trim trap; 4 thread spools",
+      "source": "https://www.amazon.com/Brother-1034DX-Differential-Capability-Color-Coded/dp/B06Y4NWHN8"
+    },
+    "warrantyUs": {
+      "value": "25-year limited with free phone support for the life of the machine",
+      "source": "https://www.brother-usa.com/products/1034dx"
+    },
+    "stitchWidthMm": {
+      "value": null,
+      "source": null
+    },
+    "stitchLengthMm": {
+      "value": "2 to 4",
+      "source": "https://www.sewingmachinefun.com/brother-1034d-vs-1034dx/"
+    },
+    "threadingSystem": {
+      "value": "Lay-in, color-coded thread guides printed on the machine",
+      "source": "https://www.brother-usa.com/products/1034dx"
+    },
+    "rolledHem": {
+      "value": "Yes, built-in",
+      "source": "https://www.brother-usa.com/products/1034dx"
+    },
+    "freeArm": {
+      "value": "Yes",
+      "source": "https://www.sewingmachinefun.com/brother-1034d-vs-1034dx/"
+    },
+    "lighting": {
+      "value": "LED",
+      "source": "https://www.sewingmachinefun.com/brother-1034d-vs-1034dx/"
+    }
+  },
+  "claims": [
+    "\"Durable metal frame\" (manufacturer claim, product page)",
+    "\"Easy-to-use\" (Walmart listing title)",
+    "\"Heavy-duty overlock\" (Amazon renewed listing title; a listing word, not a rating)"
+  ],
+  "conflicts": [
+    "Weight: 13.5 lb (comparison blog) vs 16.4 lb (Amazon listing, likely shipping weight). Brother page value not captured. Catalog will use 13.5 lb flagged [verify].",
+    "Dimensions: Amazon lists 13 x 15.25 x 14.5 in, which reads as package size. Not recorded as machine size.",
+    "Stitch length: comparison blog says the DX lacks the 1034D's 1 to 2 mm narrow and 1 mm roll settings; Brother page does not state this. Listed, not resolved."
+  ],
+  "ownerThemes": [
+    {
+      "theme": "Reviewers describe the DX as the same machine as the 1034D with a brighter LED, a deeper trim trap and dials moved to the right side; opinions on whether that is worth the extra cost are split.",
+      "tone": "mixed",
+      "source": "https://www.sewingmachinefun.com/brother-1034d-vs-1034dx/"
+    },
+    {
+      "theme": "Threading order and the lower looper path are the main hurdle for new owners; walkthroughs say route the lower looper thread left and under the foot.",
+      "tone": "mixed",
+      "source": "https://embroideryhoopstore.com/blogs/articles/easiest-way-to-thread-brother-1034dx-serger"
+    }
+  ],
+  "evidence": "positioning",
+  "buyerQuestions": [
+    "Is the 1034DX worth more than the 1034D?",
+    "Does the 1034DX have a free arm?",
+    "How do you thread the lower looper on the 1034DX?",
+    "Can the 1034DX do a rolled hem?",
+    "Does the 1034DX have an LED light?",
+    "What comes in the box with the 1034DX?",
+    "What is the 1034DX warranty?",
+    "Is the 1034DX good for beginners?"
+  ],
+  "crossShop": [
+    {
+      "slug": "brother-1034d",
+      "why": "Nearly identical specs; the D is usually cheaper and has a longer track record."
+    },
+    {
+      "slug": "juki-mo-654de",
+      "why": "Adds 2-thread stitches, 1,500 spm and a heavier build for a modest premium."
+    },
+    {
+      "slug": "babylock-vibrant",
+      "why": "Dealer-sold entry serger with 2/3/4 thread and 1,500 spm at around $499."
+    }
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "sources": [
+    "https://www.brother-usa.com/products/1034dx",
+    "https://www.brother-usa.com/p/sergers-coverstitch/1034DX",
+    "https://www.amazon.com/Brother-1034DX-Differential-Capability-Color-Coded/dp/B06Y4NWHN8",
+    "https://www.walmart.com/ip/Brother-1034DX-Easy-to-Use-3-or-4-Thread-Serger-with-Color-Coded-Thread-Guides/55684596",
+    "https://www.sewingmachinefun.com/brother-1034d-vs-1034dx/",
+    "https://sergerpro.com/brother-1034dx-review/",
+    "https://embroideryhoopstore.com/blogs/articles/easiest-way-to-thread-brother-1034dx-serger"
+  ],
+  "editorial": {
+    "verdict": "The 1034DX is the 1034D with an LED light, a larger trim trap and right-side dials; buy on price, because the stitch specs are the same.",
+    "whoFor": "A first serger buyer who finds the DX at or near the 1034D price and wants the brighter light and tidier trim catch.",
+    "skipIf": "The DX costs meaningfully more than the 1034D where you shop, or you want 2-thread or air threading.",
+    "keySpec": "3/4 thread · 22 stitch functions · 1,300 spm · LED",
+    "strengths": [
+      "Same 1,300 spm and 0.7 to 2.0 differential feed as the 1034D.",
+      "LED light and a deeper removable trim trap, per comparison reviews.",
+      "25-year limited warranty with lifetime phone support, per Brother."
+    ],
+    "weaknesses": [
+      "No 2-thread capability.",
+      "Brother does not publish weight or dimensions on the page captured; dealer figures disagree.",
+      "Manual lay-in threading; the lower looper path trips up new owners."
+    ],
+    "checks": [
+      {
+        "title": "Compare against the 1034D price the same day",
+        "body": "The two machines share stitch specs. If the DX is more than about $50 higher, the extras are an LED, a trim trap and dial placement."
+      },
+      {
+        "title": "Bundle contents",
+        "body": "The Amazon listing includes three feet, a cover, a DVD, a needle set, a trim trap and four spools. Other sellers may drop the spools or feet."
+      },
+      {
+        "title": "Needle type",
+        "body": "Brother's page does not name the needle system in the snippet captured. Confirm it takes 130/705H household needles like the 1034D before stocking up."
+      }
+    ],
+    "realCost": [
+      "4 cones of serger thread",
+      "Spare household needles once the type is confirmed",
+      "Serger oil",
+      "A second set of thread nets for slippery cones"
+    ]
+  }
+}

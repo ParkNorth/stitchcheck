@@ -1,0 +1,120 @@
+{
+  "slug": "handi-quilter-moxie",
+  "brand": "Handi Quilter",
+  "model": "Moxie",
+  "series": "Moxie",
+  "type": "long-arm",
+  "industrial": false,
+  "jobs": ["quilting"],
+  "manufacturerUrl": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/",
+  "retailerUrl": "https://www.sewingmachinesplus.com/hq-moxie.php",
+  "priceUsdSeen": 5995,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "Village Sewing (MSRP; dealer sale price $4,495 shown on the same listing)",
+  "specs": {
+    "stitchTypes": {"value": "Straight stitch only; stitch regulation modes Precision, Cruise, Manual", "source": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"},
+    "stitchCount": {"value": 1, "source": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"},
+    "maxSpm": {"value": 1800, "source": "https://www.qualitysewing.com/products/moxie-quilting-machine-handi-quilter"},
+    "threads": {"value": null, "source": null},
+    "differentialFeed": {"value": null, "source": null},
+    "throatIn": {"value": 15, "source": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"},
+    "throatHeightIn": {"value": null, "source": null},
+    "stitchRegulation": {"value": "Built in (Precision and Cruise modes); not an add-on", "source": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"},
+    "stitchesPerInch": {"value": "4 to 18 spi", "source": "https://www.qualitysewing.com/products/moxie-quilting-machine-handi-quilter"},
+    "needleSystem": {"value": "134 (round shank), sizes 12 to 20", "source": "https://support.handiquilter.com/hc/en-us/articles/360049689372-Handi-Quilter-Quilting-Machine-Needles"},
+    "bobbin": {"value": "M class, high speed rotary hook", "source": "https://www.qualitysewing.com/products/moxie-quilting-machine-handi-quilter"},
+    "lighting": {"value": "Built in LED lighting; optional Handi Light", "source": "https://www.qualitysewing.com/products/moxie-quilting-machine-handi-quilter"},
+    "display": {"value": "Full color display", "source": "https://www.qualitysewing.com/products/moxie-quilting-machine-handi-quilter"},
+    "presserFootLift": {"value": null, "source": null},
+    "threadTrimmer": {"value": null, "source": null},
+    "feedSystem": {"value": "Frame mounted free motion (no feed dogs)", "source": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"},
+    "buttonhole": {"value": null, "source": null},
+    "motor": {"value": null, "source": null},
+    "frame": {"value": "8 ft HQ Loft Frame included in the standard bundle; 2 ft extension kit upgrades to 10 ft; compatible with 5 ft HQ Little Foot Frame", "source": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"},
+    "frameHeightAdjustIn": {"value": "33 to 44", "source": "https://handiquilter.com/space-moxie-needs/"},
+    "weightLb": {"value": null, "source": null},
+    "dimensionsIn": {"value": null, "source": null},
+    "includedFeet": {"value": "20 needles included; optional Pro-Stitcher Lite, Quilt from the Back Kit, Table Top Kit, Groovy Board adaptor and stylus, Steady-Fit Ruler Base, Handi Feet, horizontal spool pin, Handi Light", "source": "https://www.mkquilts.com/moxie.html"},
+    "warrantyUs": {"value": "10 yr casting, 5 yr mechanical, 5 yr electronic, 90 day full parts and labor", "source": "https://www.mkquilts.com/moxie.html"}
+  },
+  "claims": [
+    "\"Designed by a Quilter, for Quilters\" (manufacturer claim, Moxie manual cover)",
+    "\"Precision mode matches stitch length to your hand speed for detailed work\" (dealer copy repeating manufacturer language, mkquilts.com)",
+    "\"Press play on precision quilting and perfect stitches\" (manufacturer claim about Pro-Stitcher Lite, handiquilter.com)"
+  ],
+  "conflicts": [
+    "Price: Village Sewing lists the Moxie with 8 ft Loft at regular $5,995 (sale $4,495) and the Moxie with 10 ft Loft also at regular $5,995 (sale $5,095). Handi Quilter says the 10 ft length is an added 2 ft extension kit, so the two regular prices should differ. Catalog will use $5,995 as MSRP for the 8 ft bundle and flag the 10 ft price as [verify].",
+    "Speed: 1,800 spm max (dealers) vs 50 to 800 spm cruise speed range (manual excerpt, sewingmachinesplus.com PDF). These are different figures (mechanical max vs regulated cruise range), not a conflict, but both should be shown.",
+    "Weight: not published on any page found. Render as [verify]."
+  ],
+  "ownerThemes": [
+    {"theme": "After a year an owner still calls it a brilliant small machine but notes tension changes take a moment to settle and that moving the head after stitching can snap the top thread and force a rethread.", "tone": "mixed", "source": "https://www.stringandstory.com/blog/handiquiltermoxiereview2"},
+    {"theme": "Tension, thread breaking and fabric bunching are the recurring troubleshooting topics; the fix path is bobbin winding and threading checks first, and retiming by a Handi Quilter retailer if shredding persists.", "tone": "negative", "source": "https://quiltinginfo.com/handi-quilter-moxie-troubleshooting/"},
+    {"theme": "Handi Quilter's own support pages treat tension and thread shredding as expected setup problems with a defined checklist, which suggests they are common enough to document.", "tone": "mixed", "source": "https://support.handiquilter.com/hc/en-us/articles/115001348752-Thread-shredding-or-breaking"}
+  ],
+  "evidence": "mixed",
+  "buyerQuestions": [
+    "Does the Moxie price include a frame?",
+    "Is stitch regulation built into the Moxie or an add-on?",
+    "How much room does a Moxie on the 8 ft Loft frame need?",
+    "Can the Moxie quilt a king size quilt?",
+    "What is the difference between the Moxie and the Moxie XL?",
+    "Does the Moxie use M class or L class bobbins?",
+    "What needle does the Moxie take?",
+    "Can you add Pro-Stitcher to a Moxie?",
+    "How does the Moxie compare with the Grace Q'nique 15R?",
+    "What is the Moxie warranty?"
+  ],
+  "crossShop": [
+    {"slug": "grace-qnique-15r", "why": "Same 15 in throat and 1,800 spm, both stitch regulated; the Grace is sold machine only or with cheaper hoop style frames while the Moxie bundles a Loft frame"},
+    {"slug": "juki-tl-18qvp", "why": "Buyers deciding whether a 15 in frame longarm is worth roughly three times the price of a domestic straight stitch quilter"},
+    {"slug": "bernina-570-qe", "why": "Similar all in spend: a dealer supported domestic quilting machine with BSR versus an entry longarm on a frame"},
+    {"slug": "juki-tl-2010q", "why": "The most common lower cost alternative for quilters who will keep quilting on a table rather than a frame"}
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "editorial": {
+    "verdict": "The Moxie is the lowest priced stand up longarm from a major brand that ships with stitch regulation and a frame in the box. The 15 in throat is the compromise: it is enough for pantographs and medium blocks, and it is the smallest frame longarm Handi Quilter sells.",
+    "whoFor": "A home quilter with an 8 by 12 ft space who wants to quilt their own tops on a frame, wants regulated stitches from day one, and is not planning a quilting business.",
+    "skipIf": "You want to quilt for others or do large custom work (look at 20 in and up), you have no room for a frame (sit down machines), or you only quilt lap size and smaller on a domestic.",
+    "keySpec": "15 in throat · 1,800 spm · 8 ft Loft frame included · stitch regulation built in",
+    "strengths": [
+      "Stitch regulation (Precision and Cruise) is standard, not an add-on",
+      "Standard bundle includes an 8 ft Loft frame, so the sticker price is closer to the real price than machine only listings",
+      "M class bobbin and 134 needle system are the same consumables used across Handi Quilter's larger machines"
+    ],
+    "weaknesses": [
+      "15 in throat is the smallest in Handi Quilter's frame lineup; usable quilting depth per pass will be less than 15 in once take up rollers and clamps are accounted for",
+      "Machine weight, throat height and Loft frame standalone price are not published on pages found",
+      "Tension and thread breakage dominate owner troubleshooting topics; retiming requires a dealer"
+    ],
+    "checks": [
+      {"title": "Confirm which frame is in the box", "body": "Handi Quilter says the 8 ft Loft is standard and 10 ft is an extension kit. Some dealer pages list 8 ft and 10 ft bundles at the same regular price. Get the exact bundle in writing."},
+      {"title": "Measure the room, not the frame", "body": "Handi Quilter's own guidance is roughly 12 to 13 ft by 7.5 to 8 ft for a 10 ft frame. The 8 ft Loft needs about 2 ft of walking room on every side."},
+      {"title": "Ask about Pro-Stitcher Lite compatibility", "body": "Pro-Stitcher Lite is limited to the Moxie and Simply Sixteen on the Loft or Little Foot frames. If you might automate later, the frame choice now matters."}
+    ],
+    "realCost": [
+      {"item": "Frame", "note": "8 ft Loft frame included at $5,995 MSRP; 2 ft extension to 10 ft is extra and its price was not published on pages found"},
+      {"item": "Stitch regulator", "note": "Included; no add-on cost"},
+      {"item": "Robotics", "note": "Pro-Stitcher Lite is the compatible automation; price not published on pages found. Full Pro-Stitcher is listed at $10,995 by an authorized dealer but is not the Moxie's option"},
+      {"item": "Delivery and setup", "note": "Not published; dealers bundle freight and setup differently. Bundles with Pro-Stitcher Lite on dealer sites were seen from $8,495 upward"},
+      {"item": "Bobbins and needles", "note": "M class bobbins and 134 system needles, both widely stocked"}
+    ]
+  },
+  "sources": [
+    "https://handiquilter.com/product/hq-moxie-15-quilt-machine/",
+    "https://handiquilter.com/space-moxie-needs/",
+    "https://handiquilter.com/how-much-space-do-i-need-for-my-new-longarm/",
+    "https://www.qualitysewing.com/products/moxie-quilting-machine-handi-quilter",
+    "https://www.mkquilts.com/moxie.html",
+    "https://support.handiquilter.com/hc/en-us/articles/360049689372-Handi-Quilter-Quilting-Machine-Needles",
+    "https://villagesewing.com/products/handi-quilter-moxie-longarm-quilting-machine",
+    "https://villagesewing.com/products/hands-quilter-moxie-w-10-loft-frame",
+    "https://www.sewingmachinesplus.com/hq-moxie.php",
+    "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf",
+    "https://www.stringandstory.com/blog/handiquiltermoxiereview2",
+    "https://quiltinginfo.com/handi-quilter-moxie-troubleshooting/",
+    "https://support.handiquilter.com/hc/en-us/articles/115001348752-Thread-shredding-or-breaking",
+    "https://www.nebraskaquiltcompany.com/products/handi-quilter-moxie-xl-with-8-loft-frame"
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "slug": "singer-14t968dc",
+  "brand": "Singer",
+  "model": "Professional 5 14T968DC",
+  "series": "Professional 5",
+  "type": "serger",
+  "industrial": false,
+  "jobs": [
+    "serger"
+  ],
+  "manufacturerUrl": "https://www.singer.com/products/singer-professional-5-14t968dc-serger",
+  "retailerUrl": "https://sewingmachinesplus.com/products/pro_5",
+  "priceUsdSeen": 626.18,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "Sewing Machines Plus (via its Walmart marketplace listing)",
+  "specs": {
+    "stitchTypes": {
+      "value": "14 built-in stitches: 2/3/4/5-thread overlock, chain stitch, flatlock, rolled hem, narrow, wide and triple cover stitch",
+      "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+    },
+    "stitchCount": {
+      "value": 14,
+      "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+    },
+    "maxSpm": {
+      "value": 1300,
+      "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+    },
+    "threads": {
+      "value": "2, 3, 4 or 5 thread; serger and coverstitch combination",
+      "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+    },
+    "differentialFeed": {
+      "value": "1:0.6 to 1:2",
+      "source": "https://www.sewingpartsonline.com/products/singer-14t968dc-professional-5-serger"
+    },
+    "throatIn": {
+      "value": null,
+      "source": null
+    },
+    "needleSystem": {
+      "value": "Singer 2022, sizes 14/90 (supplied) and 11/80 only",
+      "source": "https://www.manualslib.com/manual/610497/Singer-14t968dc.html"
+    },
+    "presserFootLift": {
+      "value": "Extra-high presser foot lift; presser foot rise 4.5 mm (manual)",
+      "source": "https://www.manualslib.com/manual/610497/Singer-14t968dc.html"
+    },
+    "threadTrimmer": {
+      "value": null,
+      "source": null
+    },
+    "feedSystem": {
+      "value": "Differential feed; knife; removable trim trap",
+      "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+    },
+    "buttonhole": {
+      "value": null,
+      "source": null
+    },
+    "motor": {
+      "value": null,
+      "source": null
+    },
+    "frame": {
+      "value": "Metal frame",
+      "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+    },
+    "weightLb": {
+      "value": 19.84,
+      "source": "https://www.sewingpartsonline.com/products/singer-14t968dc-professional-5-serger"
+    },
+    "dimensionsIn": {
+      "value": "Width 11.5 (other dimensions not published in results)",
+      "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+    },
+    "includedFeet": {
+      "value": "General purpose foot; spreader; spare knife; screwdrivers; spool caps; thread nets; oiler and brush; tweezers; needles; cone adapters; soft dust cover",
+      "source": "https://www.amazon.com/SINGER-Professional-14T968DC-Capability-Including/dp/B002PDZTT2"
+    },
+    "warrantyUs": {
+      "value": "25 yr frame, 2 yr electronic and electrical, 90 days mechanical parts and adjustments",
+      "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+    },
+    "stitchWidthMm": {
+      "value": "3.0 to 9.8",
+      "source": "https://www.sewingpartsonline.com/products/singer-14t968dc-professional-5-serger"
+    },
+    "stitchLengthMm": {
+      "value": null,
+      "source": null
+    },
+    "threadingSystem": {
+      "value": "Manual, color-coded; 'self-adjusting' tension system",
+      "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+    },
+    "rolledHem": {
+      "value": "Yes",
+      "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+    },
+    "chainStitch": {
+      "value": "Yes",
+      "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+    },
+    "freeArm": {
+      "value": null,
+      "source": null
+    }
+  },
+  "claims": [
+    "\"Self-adjusting tension system\" that sets tension automatically (manufacturer claim, product page)",
+    "\"Heavy-duty\" and \"professional\" (Singer series naming and Amazon listing title; not a rating)",
+    "\"Designed for both home and professional use\" (manufacturer claim, product page)"
+  ],
+  "conflicts": [
+    "Weight: 19.84 lb (dealer listing) vs 18.6 lb (another dealer). Singer page value not captured. Catalog will use 19.84 lb flagged [verify].",
+    "Price: Sewing Machines Plus via Walmart $626.18 vs Best Buy $649.99 vs GoldStar Tool $699.00. Catalog will use $626.18 and label the channel.",
+    "Type: sold as a serger; it is a serger and coverstitch combo requiring a manual conversion (blade, plate, needles, clutch). Recorded as 'serger' with the combo noted."
+  ],
+  "ownerThemes": [
+    {
+      "theme": "Owners like getting a 5-thread serger and coverstitch in one box for roughly $450 to $650 and report clean stitches once set up.",
+      "tone": "positive",
+      "source": "https://sewing.patternreview.com/review/machine/6636"
+    },
+    {
+      "theme": "In coverstitch mode there is little room under the foot; pressing the lifter bar further down helps slide fabric in. Some report the right needle skipping and the triple cover never forming.",
+      "tone": "negative",
+      "source": "https://sewing.patternreview.com/review/machine/6861"
+    },
+    {
+      "theme": "Singer 2022 needles are required and hard to find, especially size 11; threading is described as difficult until learned.",
+      "tone": "negative",
+      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/79706"
+    }
+  ],
+  "evidence": "owner",
+  "buyerQuestions": [
+    "How long does it take to convert the 14T968DC from serger to coverstitch?",
+    "Is a serger and coverstitch combo worth it?",
+    "What needles does the Singer 14T968DC use?",
+    "Can the 14T968DC do a 5-thread safety stitch?",
+    "Does the 14T968DC have a free arm?",
+    "Why does the 14T968DC skip stitches in coverstitch mode?",
+    "How heavy is the 14T968DC?",
+    "What is the 14T968DC warranty?",
+    "Is the self-adjusting tension really automatic?"
+  ],
+  "crossShop": [
+    {
+      "slug": "brother-2340cv",
+      "why": "A 1034D plus a 2340CV costs about the same as this combo and avoids converting between modes."
+    },
+    {
+      "slug": "janome-coverpro-2000cpx",
+      "why": "Buyers who mainly want coverstitch compare a dedicated machine against this combo."
+    },
+    {
+      "slug": "brother-1034d",
+      "why": "The serger half of the two-machine alternative."
+    }
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "sources": [
+    "https://www.singer.com/products/singer-professional-5-14t968dc-serger",
+    "https://www.singer.com/Professional-5-14T968DC-Serger",
+    "https://sewingmachinesplus.com/products/pro_5",
+    "https://www.walmart.com/ip/Singer-14T968DC-cl-Singer-Professional-5-14T968DC-Serger/25478272",
+    "https://www.sewingpartsonline.com/products/singer-14t968dc-professional-5-serger",
+    "https://www.manualslib.com/manual/610497/Singer-14t968dc.html",
+    "https://www.amazon.com/SINGER-Professional-14T968DC-Capability-Including/dp/B002PDZTT2",
+    "https://sewing.patternreview.com/review/machine/6861",
+    "https://sewing.patternreview.com/review/machine/6636",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/79706",
+    "https://sewingreviewmaster.com/product/singer-14t968dc-review/"
+  ],
+  "editorial": {
+    "verdict": "The Professional 5 is the one-box answer for serging and coverstitch: 2/3/4/5 thread, 1,300 spm, 14 stitches, with a manual conversion between modes.",
+    "whoFor": "A sewist short on space or budget who wants a 5-thread safety stitch and coverstitch and accepts a several-minute changeover.",
+    "skipIf": "You switch between seaming and hemming many times per project; two dedicated machines will be faster.",
+    "keySpec": "2/3/4/5 thread · serger + coverstitch · 1,300 spm · 3.0 to 9.8 mm width",
+    "strengths": [
+      "Only machine in this set with 5-thread safety stitch and coverstitch in one unit.",
+      "Stitch width 3.0 to 9.8 mm and differential feed 0.6 to 2.0 published by dealers.",
+      "Singer's 25-year frame warranty with 2 years on electrical parts."
+    ],
+    "weaknesses": [
+      "Requires Singer 2022 needles, which owners report are hard to find.",
+      "Coverstitch mode has limited clearance under the foot and reviewers report right-needle skips.",
+      "Mechanical parts and adjustments are covered for only 90 days."
+    ],
+    "checks": [
+      {
+        "title": "Conversion steps",
+        "body": "Switching modes means moving the blade, changing the plate, shifting needles and flipping the clutch. Reviewers time it at about seven minutes once learned."
+      },
+      {
+        "title": "Needle stock",
+        "body": "Singer 2022 in 14/90 ships with it; the manual allows 11/80 too. Order spares with the machine rather than hunting locally."
+      },
+      {
+        "title": "Which channel you buy from",
+        "body": "Prices seen ranged from $626 (Sewing Machines Plus on Walmart) to $699. Confirm the seller is authorized so the Singer warranty applies."
+      }
+    ],
+    "realCost": [
+      "5 cones of serger thread for the safety stitch",
+      "Singer 2022 needles in 14/90 and 11/80",
+      "Serger oil (oiler included)",
+      "Spare knife (one included)"
+    ]
+  }
+}
