@@ -22,7 +22,7 @@ export function PhotoWell({
   priority?: boolean;
 }) {
   return (
-    <div className={`ph ${className}`} style={style} role={src ? undefined : "img"} aria-label={src ? undefined : alt}>
+    <div className={`ph ${className}`} style={src ? { background: "#ffffff", ...style } : style} role={src ? undefined : "img"} aria-label={src ? undefined : alt}>
       {src ? (
         <Image src={src} alt={alt} fill sizes={sizes} priority={priority} style={{ objectFit: "contain" }} />
       ) : (

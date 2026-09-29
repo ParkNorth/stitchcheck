@@ -109,7 +109,10 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
                 </span>
               </div>
             </div>
-            <PhotoWell src={p.image} alt={p.imageAlt} caption={`Photo · ${p.name}, 3/4 view`} className="h-[220px] md:h-[300px]" priority sizes="(max-width: 1024px) 100vw, 440px" />
+            <div className="flex flex-col gap-1.5">
+              <PhotoWell src={p.image} alt={p.imageAlt} caption={`Photo · ${p.name}, 3/4 view`} className="h-[220px] md:h-[300px]" priority sizes="(max-width: 1024px) 100vw, 440px" />
+              {p.imageCredit && <span className="m text-[12px] text-steel">{p.imageCredit}</span>}
+            </div>
           </div>
 
           <DiscontinuedBanner product={p} />

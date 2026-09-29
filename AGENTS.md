@@ -48,6 +48,7 @@ Read first: `docs/00-foundations.md` (scope, money), `docs/02-ia-and-linking.md`
 - Validator: `scripts/verify-catalog.ts` (`npm run check:catalog`).
 - Catalog compiler: `scripts/build-catalog.ts` (`npm run build:catalog`).
 - Screenshots: `npm run screenshots -- --serve /route ...` (390 and 1280 into `.screenshots/`).
+- Product images: `scripts/fetch-images.ts` (`npm run fetch:images`) fills `public/images/products/` and `src/lib/images-manifest.json` from `data/images.json`; process and rights in `docs/07-images.md`.
 - Open Graph cards: `scripts/build-og.ts` (`npm run build:og`) renders `public/og/*.png` and `src/lib/og-manifest.json`; re-run after adding a page or changing a title. Commit the PNGs; the deploy runner has no browser.
 - Research template: `docs/research/_template.md`; JSON schema: `docs/research/_spec-json-schema.md`.
 - Keyword data: `docs/research/_keywords.md` (Ahrefs, re-pull monthly).

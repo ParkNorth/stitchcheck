@@ -1,5 +1,9 @@
 import { catalogData, type CatalogEntry } from "./catalog-data";
 import { bandForPrice, type PriceBand } from "./price-bands";
+import imagesManifest from "./images-manifest.json";
+
+type ImageEntry = { src: string; width: number; height: number; credit: string; sourceUrl: string; pageUrl: string | null };
+const IMAGES: Record<string, ImageEntry> = imagesManifest;
 
 /**
  * The catalog. One entry per model page.
@@ -280,6 +284,8 @@ export interface Product {
   replacedBy: string | null;
   imageAlt: string;
   image: string | null;
+  /** "Photo: Juki" when the image is a manufacturer shot from scripts/fetch-images.ts. */
+  imageCredit: string | null;
   /** ISO date the specs were checked against a live manufacturer page. null = pending. */
   specsVerified: string | null;
   lastUpdated: string;
@@ -1035,7 +1041,8 @@ function buildProduct(c: CatalogEntry, f: SiteFields): Product {
     discontinued: c.discontinued,
     replacedBy: c.replacedBy,
     imageAlt: f.imageAlt,
-    image: f.image ?? null,
+    image: f.image ?? IMAGES[c.slug]?.src ?? null,
+    imageCredit: f.image ? null : (IMAGES[c.slug]?.credit ?? null),
     specsVerified: f.specsVerified ?? null,
     lastUpdated: f.lastUpdated,
   };

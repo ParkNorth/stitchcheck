@@ -18,6 +18,9 @@ import { comparisons } from "../src/lib/comparisons";
 import { brands, seriesHubs } from "../src/lib/brands";
 import { bandLabel } from "../src/lib/price-bands";
 import { monthYear, site } from "../src/lib/site";
+import imagesManifest from "../src/lib/images-manifest.json";
+
+const IMAGES: Record<string, { src: string }> = imagesManifest;
 
 const ROOT = path.resolve(__dirname, "..");
 const OUT = path.join(ROOT, "public", "og");
@@ -33,6 +36,7 @@ type Card = {
   badge?: string; // e.g. "8.6 /10"
   badgeTone?: "enamel" | "brass";
   meta?: string;
+  photo?: string; // absolute file path of a product photo
 };
 
 const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -50,14 +54,16 @@ html,body{width:1200px;height:630px;background:#F2F0EA;color:#16181A;font-family
 .top{height:44px;background:#16181A;color:#F2F0EA;display:flex;align-items:center;justify-content:space-between;padding:0 56px;font-family:PlexMono,monospace;font-size:15px;letter-spacing:.08em;text-transform:uppercase}
 .body{padding:44px 56px 0;display:flex;flex-direction:column;height:586px}
 .eyebrow{font-family:PlexMono,monospace;font-weight:600;font-size:18px;letter-spacing:.1em;text-transform:uppercase;color:#5E6368}
-.title{font-family:Archivo,sans-serif;font-weight:800;font-stretch:115%;letter-spacing:-.01em;line-height:.98;margin-top:18px;font-size:${titleSize}px;max-width:1000px}
-.sub{font-family:PlexMono,monospace;font-weight:500;font-size:22px;color:#16181A;margin-top:26px;max-width:960px;line-height:1.4}
+.title{font-family:Archivo,sans-serif;font-weight:800;font-stretch:115%;letter-spacing:-.01em;line-height:.98;margin-top:18px;font-size:${c.photo ? Math.min(titleSize, 64) : titleSize}px;max-width:${c.photo ? (c.badge ? 440 : 620) : 1000}px}
+.sub{font-family:PlexMono,monospace;font-weight:500;font-size:22px;color:#16181A;margin-top:26px;max-width:${c.photo ? 620 : 960}px;line-height:1.4}
 .seam{margin-top:auto;height:0;border-top:2px dashed #16181A;opacity:.9}
 .foot{display:flex;align-items:center;justify-content:space-between;padding:22px 0 30px}
 .mark{display:flex;align-items:center;gap:14px}
 .word{font-family:Archivo,sans-serif;font-weight:800;font-stretch:125%;letter-spacing:.02em;font-size:26px}
 .meta{font-family:PlexMono,monospace;font-size:16px;color:#5E6368;letter-spacing:.04em}
-.badge{position:absolute;right:56px;top:96px;width:168px;height:168px;border:2px solid #16181A;background:#FBFAF7;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:PlexMono,monospace}
+.photo{position:absolute;right:56px;top:84px;width:420px;height:315px;background:#fff;border:2px solid #16181A;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:contain}
+.badge{position:absolute;right:${c.photo ? "496px" : "56px"};top:96px;width:168px;height:168px;border:2px solid #16181A;background:#FBFAF7;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:PlexMono,monospace}
 .badge b{font-family:Archivo,sans-serif;font-weight:800;font-stretch:115%;font-size:64px;line-height:1;color:${c.badgeTone === "brass" ? "#C98A2B" : "#1F4A3A"}}
 .badge span{font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:#5E6368;margin-top:8px}
 </style></head><body>
@@ -75,6 +81,7 @@ html,body{width:1200px;height:630px;background:#F2F0EA;color:#16181A;font-family
     <div class="meta">${esc(c.meta ?? "Spec-checked, not field-tested")}</div>
   </div>
 </div>
+${c.photo ? `<div class="photo"><img src="file://${c.photo}"></div>` : ""}
 ${c.badge ? `<div class="badge"><b>${esc(c.badge)}</b><span>our score</span></div>` : ""}
 </body></html>`;
 }
@@ -100,6 +107,7 @@ function cards(): Card[] {
       badge: p.score.toFixed(1),
       badgeTone: "enamel",
       meta: `Specs checked ${monthYear(p.lastUpdated)}`,
+      photo: IMAGES[p.slug] ? path.join(ROOT, "public", IMAGES[p.slug].src) : undefined,
     });
   }
   for (const h of hubs) {
