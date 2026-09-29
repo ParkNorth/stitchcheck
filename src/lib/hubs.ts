@@ -57,7 +57,7 @@ export const hubs: Hub[] = [
     h1: "Best heavy-duty sewing machines",
     metaTitle: "Best Heavy-Duty Sewing Machines (2026): Denim, Canvas, Leather, Upholstery",
     metaDescription:
-      "Five heavy-duty and industrial-for-home sewing machines, ranked for thick fabric, not stitch count. Specs checked against Juki, Janome and Singer data. Who each one is for and who should skip it.",
+      "Ten heavy-duty and industrial-for-home sewing machines, ranked for thick fabric, not stitch count. Specs checked against Juki, Janome and Singer data. Who each one is for and who should skip it.",
     scope: "Includes industrial-for-home · leather · denim · canvas · upholstery",
     intro: [
       "Heavy duty is a job, not a badge. We rank on motor, presser-foot lift, feed and needle system.",
@@ -80,16 +80,30 @@ export const hubs: Hub[] = [
       {
         label: "Go industrial",
         tone: "ink",
-        slug: "juki-ddl-8700",
-        sentence: "a real factory lockstitch, if you have a table and floor space.",
+        slug: "juki-dnu-1541s",
+        sentence: "the walking-foot industrial for upholstery and leather, if you have a table and floor space.",
       },
     ],
     ranked: [
       { slug: "juki-tl-2010q", pick: "our-pick", alsoBudget: "TL feet, solid table" },
+      { slug: "janome-hd9", alsoBudget: "Jumbo bobbins" },
       { slug: "janome-hd3000", alsoBudget: "Nothing extra" },
-      { slug: "juki-ddl-8700", alsoBudget: "Table + servo motor" },
+      { slug: "juki-hzl-f600", alsoBudget: "Nothing extra" },
+      { slug: "janome-hd5000", alsoBudget: "Nothing extra" },
       { slug: "janome-mc6650", alsoBudget: "Nothing extra" },
       { slug: "singer-4452", pick: "value-pick", alsoBudget: "Nothing extra" },
+    ],
+    sections: [
+      {
+        title: "Industrial for home",
+        intro:
+          "Factory heads sold to home sewists. Each needs a table, a servo motor and a permanent spot, and each does one stitch faster and harder than anything above. Buy the walking foot if your work is upholstery or leather; buy drop feed for flat seams.",
+        entries: [
+          { slug: "juki-dnu-1541s", alsoBudget: "Table + servo motor" },
+          { slug: "juki-ddl-8700", alsoBudget: "Table + servo motor" },
+          { slug: "juki-ddl-5550", alsoBudget: "Table + servo motor" },
+        ],
+      },
     ],
     relatedGuides: ["sewing-machine-for-thick-fabric", "mechanical-vs-computerized", "sewing-machine-brands-ranked"],
     headToHeads: ["singer-4423-vs-4432-vs-4452", "juki-tl-2010q-vs-tl-2000qi"],
@@ -105,7 +119,7 @@ export const hubs: Hub[] = [
       },
       {
         q: "Is an industrial machine practical at home?",
-        a: "If you have a permanent spot for a table, yes. The Juki DDL-8700 is straight stitch only and runs quietly on a servo motor. It is a piece of furniture, not an appliance you put away.",
+        a: "If you have a permanent spot for a table, yes. The Juki DDL-8700 and DDL-5550 are straight stitch only and run quietly on a servo motor; the DNU-1541S adds a walking foot for upholstery. Each is a piece of furniture, not an appliance you put away.",
       },
       {
         q: "Do I need a walking foot?",
@@ -121,7 +135,7 @@ export const hubs: Hub[] = [
     h1: "Best sergers",
     metaTitle: "Best Sergers (2026): Overlockers and Coverstitch Machines, Spec-Checked",
     metaDescription:
-      "The sergers we would buy from $300 up, ranked on differential feed, threading and stitch options. Coverstitch machines get their own section. Specs checked against Brother and Juki data.",
+      "Eight sergers from $200 up, ranked on differential feed, threading and stitch options, plus coverstitch machines in their own section. Specs checked against Brother, Juki, Janome, Singer and Bernina data.",
     scope: "Overlockers first · coverstitch as its own section · knits, seam finishing, stretch hems",
     intro: [
       "A serger seams, trims and wraps the edge in one pass. It does not replace your sewing machine.",
@@ -136,8 +150,12 @@ export const hubs: Hub[] = [
     ranked: [
       { slug: "juki-mo-654de", pick: "our-pick", alsoBudget: "Four thread cones" },
       { slug: "juki-mo-1000", alsoBudget: "Four thread cones" },
+      { slug: "bernina-l-850", alsoBudget: "Four thread cones, dealer setup" },
+      { slug: "juki-mo-644d", alsoBudget: "Four thread cones, 2-thread converter" },
+      { slug: "janome-8002d", alsoBudget: "Four thread cones" },
       { slug: "brother-1034dx", alsoBudget: "Four thread cones" },
       { slug: "brother-1034d", pick: "value-pick", alsoBudget: "Four thread cones" },
+      { slug: "singer-14cg754", alsoBudget: "Four thread cones" },
     ],
     sections: [
       {
@@ -180,7 +198,7 @@ export const hubs: Hub[] = [
     h1: "Best quilting machines",
     metaTitle: "Best Quilting Machines (2026): Domestic, Mid-Arm and Long-Arm by Throat Space",
     metaDescription:
-      "Quilting machines from the Juki TL tier to a long-arm on a frame, ranked on throat space and stitch quality at speed. Specs checked against Juki, Janome and Handi Quilter data.",
+      "Eight quilting machines from the Juki TL tier to a 20 in long-arm on a frame, ranked on throat space and stitch quality at speed. Specs checked against Juki, Janome, Handi Quilter and Grace data.",
     scope: "Domestic straight-stitch quilters · mid-arm · long-arm on a frame",
     intro: [
       "Throat space decides which tier you need. Decorative stitches do not.",
@@ -195,8 +213,21 @@ export const hubs: Hub[] = [
     ranked: [
       { slug: "juki-tl-2010q", pick: "our-pick", alsoBudget: "TL feet, solid table" },
       { slug: "janome-mc6650", alsoBudget: "Quilting feet if not bundled" },
+      { slug: "juki-hzl-f600", alsoBudget: "Nothing extra" },
       { slug: "juki-tl-2000qi", pick: "value-pick", alsoBudget: "TL feet, solid table" },
-      { slug: "handi-quilter-moxie", alsoBudget: "Frame, regulator, delivery" },
+      { slug: "juki-hzl-f300", alsoBudget: "Walking foot" },
+    ],
+    sections: [
+      {
+        title: "Mid-arm and long-arm on a frame",
+        intro:
+          "From here the machine moves and the quilt stays still. Budget the frame, delivery and a room with a clear wall before the head. Throat is needle-to-body; 15 in heads are entry long-arms, 18 in and up is the real thing.",
+        entries: [
+          { slug: "handi-quilter-moxie", alsoBudget: "Frame, delivery" },
+          { slug: "grace-qnique-19x", alsoBudget: "Grace frame, delivery" },
+          { slug: "handi-quilter-amara", alsoBudget: "Studio3 frame, delivery, Pro-Stitcher" },
+        ],
+      },
     ],
     relatedGuides: ["how-to-choose-a-quilting-machine", "how-much-does-a-long-arm-cost", "mechanical-vs-computerized"],
     headToHeads: ["juki-tl-2010q-vs-tl-2000qi"],
@@ -238,8 +269,12 @@ export const hubs: Hub[] = [
     ],
     ranked: [
       { slug: "janome-hd3000", pick: "our-pick", alsoBudget: "Denim needles" },
+      { slug: "juki-hzl-f300", alsoBudget: "Nothing extra" },
       { slug: "singer-4452", pick: "value-pick", alsoBudget: "Denim needles" },
+      { slug: "singer-hd6700c", alsoBudget: "Nothing extra" },
       { slug: "singer-4423", alsoBudget: "Denim needles" },
+      { slug: "janome-hd1000", alsoBudget: "Denim needles" },
+      { slug: "brother-cs7000x", alsoBudget: "Denim needles" },
       { slug: "brother-1034d", alsoBudget: "Four thread cones" },
     ],
     relatedGuides: ["mechanical-vs-computerized", "serger-vs-sewing-machine", "sewing-machine-brands-ranked"],
