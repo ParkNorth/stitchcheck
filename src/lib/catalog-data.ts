@@ -196,7 +196,7 @@ export const catalogData: Record<string, CatalogEntry> = {
       }
     ],
     "discontinued": true,
-    "replacedBy": null,
+    "replacedBy": "babylock-victory",
     "editorial": {
       "verdict": "The Imagine was Baby Lock's 3 and 4 thread serger with Jet-Air looper threading and no tension dials; it is discontinued and replaced by the Victory, so the live question is whether a used Imagine at $500 to $900 beats a new air threading Juki MO-1000 or a new Victory from a dealer.",
       "whoFor": "A sewist who hates threading and tension fiddling, is buying used or from a dealer's remaining stock, and does not need 2 thread stitches or coverstitch.",
@@ -486,6 +486,280 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/review/machine/7653",
       "https://sewing.patternreview.com/SewingDiscussions/topic/120366",
       "https://babylock.com/serging-comparison-charts"
+    ]
+  },
+  "babylock-victory": {
+    "slug": "babylock-victory",
+    "brand": "Baby Lock",
+    "model": "Victory (BLS3)",
+    "series": "Sergers",
+    "type": "serger",
+    "industrial": false,
+    "jobs": [
+      "serger"
+    ],
+    "manufacturerUrl": "https://babylock.com/machines/serger/victory",
+    "retailerUrl": "https://sewingmachinesplus.com/products/bl-victory",
+    "priceUsdSeen": 1899,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Sewing Machines Plus",
+    "priceNote": "Sewing Machines Plus (sale price in search snippet; regular price shown $2,599)",
+    "specs": {
+      "stitchTypes": {
+        "value": "4 thread and 3 thread overlock; 3 thread rolled hem and 3 thread narrow hem; 2 thread and 3 thread flatlock; 2 thread overlock",
+        "source": "https://babylock.com/amfile/file/download/file/3171/product/594/"
+      },
+      "stitchCount": {
+        "value": null,
+        "source": null
+      },
+      "maxSpm": {
+        "value": 1500,
+        "source": "https://sewingmachineshop.com/product/baby-lock-victory/"
+      },
+      "threads": {
+        "value": "4, 3 or 2 thread; 2 needles",
+        "source": "https://quiltedjoy.com/products/baby-lock-victory-serger-machine"
+      },
+      "differentialFeed": {
+        "value": "Yes; dealer copy states 2 to 1 for gathering and 3 to 4 for stretching; single unit feed dog",
+        "source": "https://www.bsewinn.com/products/baby-lock-victory-4-3-2-thread-serger-with-revolutionair%E2%84%A2-threading-system"
+      },
+      "throatIn": {
+        "value": null,
+        "source": null
+      },
+      "needleSystem": {
+        "value": "Household HAx1SP, ELx705CF or ELx705 (dealer needle page)",
+        "source": "https://www.poconosewandvac.com/products/baby-lock/machines/baby-lock-victory?associated=needles"
+      },
+      "presserFootLift": {
+        "value": "Presser foot height 6 mm",
+        "source": "https://babylock.com/machines/serger/victory"
+      },
+      "threadTrimmer": {
+        "value": null,
+        "source": null
+      },
+      "feedSystem": {
+        "value": "Differential feed with single unit feed dog mechanism; Jet-Air looper threading; Automatic Thread Delivery (no tension dials)",
+        "source": "https://babylock.com/machines/serger/victory"
+      },
+      "buttonhole": {
+        "value": null,
+        "source": null
+      },
+      "motor": {
+        "value": null,
+        "source": null
+      },
+      "frame": {
+        "value": null,
+        "source": null
+      },
+      "weightLb": {
+        "value": 16,
+        "source": "https://quiltedjoy.com/products/baby-lock-victory-serger-machine"
+      },
+      "dimensionsIn": {
+        "value": "12.5 x 11 x 11.5 (machine only)",
+        "source": "https://quiltedjoy.com/products/baby-lock-victory-serger-machine"
+      },
+      "includedFeet": {
+        "value": null,
+        "source": null
+      },
+      "warrantyUs": {
+        "value": "25 yr limited; 10 yr parts, 5 yr electrical, 1 yr labor (dealer statement)",
+        "source": "https://meissnersewing.com/products/babylock-victory-serger"
+      }
+    },
+    "claims": [
+      "\"Jet-Air Threading threads the lower loopers with the touch of a lever\" (manufacturer feature name, babylock.com product page)",
+      "\"Automatic Thread Delivery to thread in any order\" (manufacturer feature name, babylock.com product page)",
+      "\"A 6mm height that makes serging on thicker fabrics a breeze\" (manufacturer claim, babylock.com product page)",
+      "\"Solid internal frame\" and \"powerful, smooth performance\" (dealer copy; frame material and motor rating not published)",
+      "\"Stronger feeding as well as consistent gathering on all fabrics\" (manufacturer claim for the single unit feed dog)",
+      "\"Best serger for beginners\" (dealer blog headline, sewandvac.com, not a manufacturer claim)"
+    ],
+    "conflicts": [
+      "Price: Baby Lock does not publish prices. Sewing Machines Plus shows $1,899 sale against a $2,599 regular price and an open box unit at $1,709.10; Meissner shows a used unit at $1,799 against $2,499; one search summary quoted $1,499 without a page; PatternReview owners reported paying $1,200 and $1,500 in earlier years and one shopper was quoted close to $2,000 new. Catalog will use the $1,899 SMP figure in the Last seen line only.",
+      "Retailer: SMP lists the Victory, but Baby Lock is a dealer only brand under AGENTS.md rule 15 (no buy button, dealer locator link only). retailerUrl is recorded here as data for the editor; the page must not render a buy button.",
+      "Differential feed: dealer pages state 2 to 1 gathering and 3 to 4 stretching; babylock.com copy describes a single unit feed dog without a ratio. The 0.6 to 2.0 style ratio published for the Imagine was not found for the Victory.",
+      "Speed and stitch dimensions (1,500 spm, 1.5 to 7.5 mm width, 0.75 to 4 mm length) come from dealer pages; the babylock.com spec sheet could not be opened. Weight of 16 lb and 12.5 x 11 x 11.5 in are dealer machine only figures.",
+      "Needle system: a dealer needle page lists HAx1SP, ELx705CF and ELx705 for the Victory; the manual was not opened. Verify before quoting a single system.",
+      "Included accessories: dealer listings advertise bonus kits (a $189 pick your kit at Ken's, a Victory Bundle at The Sewing Studio) but no snippet listed the Baby Lock box contents. Left null.",
+      "Frame and motor: dealer copy says solid internal frame; no material or motor rating appeared. Both null."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "A PatternReview owner who paid about $1,200 reports consistent stitching straight out of the box and credits the air threading and automatic tension.",
+        "tone": "positive",
+        "source": "https://sewing.patternreview.com/review/machine/7374"
+      },
+      {
+        "theme": "A second PatternReview owner who paid $1,500 three years earlier still recommends the machine; one minor complaint is that the machine opens only on the right, so the needle threader must be held with the left hand.",
+        "tone": "positive",
+        "source": "https://sewing.patternreview.com/review/machine/7531"
+      },
+      {
+        "theme": "A PatternReview thread weighing a used Imagine near $1,100 against a new Victory near $2,000 describes the Victory as an updated Imagine with LED lighting and a higher presser foot lift; a 2003 Imagine owner would buy either again.",
+        "tone": "mixed",
+        "source": "https://sewing.patternreview.com/SewingDiscussions/topic/117409"
+      },
+      {
+        "theme": "In a Celebrate vs Victory thread, one poster preferred the Celebrate for slow speed control on curves and found the Victory harder to feather, while noting the Victory removes tension adjustment entirely.",
+        "tone": "mixed",
+        "source": "https://sewing.patternreview.com/SewingDiscussions/topic/128523"
+      },
+      {
+        "theme": "A general Victory thread has an owner reporting no trouble at all after buying on a shop owner's recommendation, and others estimating the price above $1,500 depending on dealer.",
+        "tone": "positive",
+        "source": "https://sewing.patternreview.com/SewingDiscussions/topic/114042"
+      }
+    ],
+    "evidence": "owner",
+    "buyerQuestions": [
+      "How much does the Baby Lock Victory cost?",
+      "Did the Victory replace the Imagine?",
+      "What is the difference between the Victory and the Imagine?",
+      "Does the Victory have tension dials?",
+      "Does the Victory do 2 thread stitches?",
+      "Does the Victory do coverstitch?",
+      "Victory vs Celebrate: which one?",
+      "Victory vs Acclaim or Accolade: is the step up worth it?",
+      "What needles does the Victory use?",
+      "Can I buy the Victory online?",
+      "What is the Victory warranty?"
+    ],
+    "crossShop": [
+      {
+        "slug": "babylock-imagine",
+        "why": "The model the Victory replaced; used Imagines sell near half the Victory's price with the same threading system"
+      },
+      {
+        "slug": "juki-mo-1000",
+        "why": "The air threading serger sold online with a buy button, at a lower price and with tension dials"
+      },
+      {
+        "slug": "babylock-vibrant",
+        "why": "Same dealer network for a fraction of the price, with manual threading and tension dials"
+      },
+      {
+        "slug": "brother-1034d",
+        "why": "What most Victory shoppers are upgrading from"
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "editorial": {
+      "verdict": "The Victory is Baby Lock's current 4/3/2 thread air threading serger with no tension dials, a 6 mm presser foot lift and two LEDs, and at a dealer price near $1,900 it is the machine you buy when threading, not stitch count, is the problem you want to pay to remove.",
+      "whoFor": "A sewist who wants the Jet-Air and Automatic Thread Delivery experience on a current model with a fresh dealer warranty and does not need coverstitch or a wave stitch.",
+      "skipIf": "You want a buy button and a lower price (Juki MO-1000), you are happy with tension dials and lay in threading (Baby Lock Vibrant, Juki MO-654DE), or you need coverstitch, which Baby Lock puts on its combo machines.",
+      "keySpec": "4/3/2 thread · 1,500 spm · Jet-Air looper threading · Automatic Thread Delivery · 6 mm foot lift · 16 lb",
+      "strengths": [
+        "Jet-Air looper threading and Automatic Thread Delivery: no looper threading by hand and no tension dials, the two steps owners on PatternReview single out",
+        "Adds 2 thread stitches, a 6 mm presser foot lift and two LEDs over the Imagine it replaced",
+        "Baby Lock's 25 year limited warranty with 10 years on parts as stated by dealers"
+      ],
+      "weaknesses": [
+        "Dealer only pricing near $1,900 to $2,600 with no published MSRP, roughly double an air threading Juki",
+        "No coverstitch and no chain stitch; the Baby Lock combos or a separate coverstitch machine cover hems",
+        "Frame, motor, box contents and needle system are not confirmed from Baby Lock's own pages in accessible sources"
+      ],
+      "checks": [
+        {
+          "title": "Price the dealer bundle, not the sticker",
+          "body": "Dealers list the Victory anywhere from $1,499 to $2,599 and pad the gap with bonus kits. Ask for the machine only price and compare it to a used Imagine near $1,100 and a new Juki MO-1000."
+        },
+        {
+          "title": "Confirm BLS3 and current warranty terms",
+          "body": "The Victory is model BLS3. Open box and used units appear at $1,700 to $1,800; ask what portion of the 25 year, 10 year parts, 5 year electrical and 1 year labor warranty transfers."
+        },
+        {
+          "title": "Decide whether you need coverstitch",
+          "body": "The Victory is overlock only. If you hem knits often, price a Baby Lock combo or a Victory plus a separate coverstitch machine before committing."
+        }
+      ],
+      "realCost": [
+        "4 cones of serger thread",
+        "ELx705 or HAx1SP needles once the system is confirmed from the manual",
+        "Serger oil and a lint brush",
+        "Optional Baby Lock serger feet, sold separately by the dealer",
+        "Dealer service out of warranty; Baby Lock has no online parts channel"
+      ],
+      "faqs": [
+        {
+          "q": "How much does the Baby Lock Victory cost?",
+          "a": "Baby Lock does not publish a price. Sewing Machines Plus showed $1,899 on sale against a $2,599 regular price; other dealers quote from about $1,500 to $2,000. Owners on PatternReview reported paying $1,200 and $1,500 in earlier years."
+        },
+        {
+          "q": "Did the Victory replace the Imagine?",
+          "a": "Yes. Dealer copy describes the Victory as the replacement for the discontinued Imagine, and PatternReview posters call it an updated Imagine with LED lights and a higher presser foot."
+        },
+        {
+          "q": "What is the difference between the Victory and the Imagine?",
+          "a": "Same Jet-Air threading and Automatic Thread Delivery. The Victory adds 2 thread stitches, two LED lights and a 6 mm presser foot height per Baby Lock's copy."
+        },
+        {
+          "q": "Does the Victory have tension dials?",
+          "a": "No. Automatic Thread Delivery sets tension without dials and lets you thread in any order."
+        },
+        {
+          "q": "Does the Victory do 2 thread stitches?",
+          "a": "Yes. Baby Lock's Victory guide lists 2 thread overlock and 2 thread flatlock using the subsidiary looper, plus 3 thread rolled and narrow hems and 3 and 4 thread overlock."
+        },
+        {
+          "q": "Does the Victory do coverstitch?",
+          "a": "No. It is an overlock only machine. Coverstitch is on Baby Lock's combo machines."
+        },
+        {
+          "q": "How fast is the Victory?",
+          "a": "Dealer listings state 1,500 stitches per minute. The Baby Lock spec sheet could not be opened to confirm."
+        },
+        {
+          "q": "How heavy is the Victory?",
+          "a": "Dealer machine only figures give 16 lb and 12.5 x 11 x 11.5 in."
+        },
+        {
+          "q": "What needles does the Victory use?",
+          "a": "A dealer needle page lists household HAx1SP, ELx705CF and ELx705 needles for the Victory. Check the manual before buying a box."
+        },
+        {
+          "q": "Can I buy the Victory online?",
+          "a": "Baby Lock sells through dealers. Some dealers, including Sewing Machines Plus, list it online, but Stitch Check has no affiliate relationship with Baby Lock and links to the dealer locator only."
+        },
+        {
+          "q": "What is the Victory warranty?",
+          "a": "Dealers state Baby Lock's 25 year limited warranty with 10 years parts, 5 years electrical and 1 year labor."
+        }
+      ]
+    },
+    "sources": [
+      "https://babylock.com/machines/serger/victory",
+      "https://babylock.com/victory",
+      "https://babylock.com/amfile/file/download/file/3171/product/594/",
+      "https://babylock.com/getting-to-know-your-baby-lock-victory-serger",
+      "https://babylock.com/serging-comparison-charts",
+      "https://sewingmachinesplus.com/products/bl-victory",
+      "https://sewingmachinesplus.com/products/open-box-model-bl-victory",
+      "https://sewingmachineshop.com/product/baby-lock-victory/",
+      "https://kingdomsewing.com/products/baby-lock-victory-bls3",
+      "https://quiltedjoy.com/products/baby-lock-victory-serger-machine",
+      "https://www.bsewinn.com/products/baby-lock-victory-4-3-2-thread-serger-with-revolutionair%E2%84%A2-threading-system",
+      "https://www.poconosewandvac.com/products/baby-lock/machines/baby-lock-victory?associated=needles",
+      "https://meissnersewing.com/products/babylock-victory-serger",
+      "https://meissnersewing.com/products/used-baby-lock-victory-serger",
+      "https://www.kenssewingcenter.com/baby-lock-victory-4-thread-serger-with-jet-air-threading.html",
+      "https://sewing.net/products/babylock-victory-serger-bls3",
+      "https://www.mosew.com/uploads/b/d72d62d0-36f7-11ee-abd7-5915d15fc2e0/Baby-Lock-Victory-Stitch-Chart.pdf",
+      "https://sewandvac.com/blogs/news/baby-lock-victory-review-best-serger-for-beginners",
+      "https://sewing.patternreview.com/review/machine/7374",
+      "https://sewing.patternreview.com/review/machine/7531",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/117409",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/128523",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/114042",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/110590"
     ]
   },
   "bernina-1008": {
@@ -7856,6 +8130,269 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/review/machine/3143",
       "https://sewing.patternreview.com/review/machine/5369",
       "https://sewing.patternreview.com/SewingDiscussions/topic/23518",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/114880"
+    ]
+  },
+  "singer-14hd854": {
+    "slug": "singer-14hd854",
+    "brand": "Singer",
+    "model": "Heavy Duty 14HD854",
+    "series": "Sergers",
+    "type": "serger",
+    "industrial": false,
+    "jobs": [
+      "serger"
+    ],
+    "manufacturerUrl": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger",
+    "retailerUrl": "https://www.sewingmachinesplus.com/singer-14hd854-serger.php",
+    "priceUsdSeen": 350,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Sewing Machines Plus",
+    "priceNote": "Sewing Machines Plus (sale price in search snippet; regular price shown $449.99)",
+    "specs": {
+      "stitchTypes": {
+        "value": "6 stitch types with 2, 3 or 4 threads: 2, 3 and 4 thread overlock, 2 thread rolled hem, 3 thread flatlock, 3 and 4 thread stretch mock safety; blind hem",
+        "source": "https://www.amazon.com/Singer-14HD854-Heavy-Duty-Serger/dp/B00EF1ICNC"
+      },
+      "stitchCount": {
+        "value": 6,
+        "source": "https://www.amazon.com/Singer-14HD854-Heavy-Duty-Serger/dp/B00EF1ICNC"
+      },
+      "maxSpm": {
+        "value": 1300,
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "threads": {
+        "value": "2, 3 or 4 thread",
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "differentialFeed": {
+        "value": "Yes, adjustable; ratio range not published in results found",
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "throatIn": {
+        "value": null,
+        "source": null
+      },
+      "needleSystem": {
+        "value": "Singer 2022 (ELx705) serger needles",
+        "source": "https://www.poconosewandvac.com/products/singer/machines/singer-14hd854?associated=needles"
+      },
+      "presserFootLift": {
+        "value": null,
+        "source": null
+      },
+      "threadTrimmer": {
+        "value": null,
+        "source": null
+      },
+      "feedSystem": {
+        "value": "Differential feed; built in upper knife trims the edge and can be moved aside to sew without cutting; free arm behind the removable storage compartment",
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "buttonhole": {
+        "value": null,
+        "source": null
+      },
+      "motor": {
+        "value": null,
+        "source": null
+      },
+      "frame": {
+        "value": "Metal frame (Singer copy: heavy duty metal frame; alloy not published)",
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "weightLb": {
+        "value": 13.5,
+        "source": "https://www.amazon.com/Singer-14HD854-Heavy-Duty-Serger/dp/B00EF1ICNC"
+      },
+      "dimensionsIn": {
+        "value": "14 x 11 x 11.5",
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "includedFeet": {
+        "value": "All purpose foot, tweezers, spreader (2 thread converter), needles, screwdriver, 4 thread spools, spare lower knife, scrap bag, lint brush",
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "warrantyUs": {
+        "value": "25 yr limited on machine head, 2 yr on motor, light, wiring, switches, speed control and electronics, 90 days on adjustments, belts, rings, bulbs and attachments",
+        "source": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+      }
+    },
+    "claims": [
+      "\"Heavy Duty\" (Singer series name, product page; it is a household serger, not a rating)",
+      "\"60% larger cutting knife than other Singer Sergers cuts thick fabrics easily\" (manufacturer claim, product page; the comparison base is Singer's own smaller sergers)",
+      "\"Heavy duty metal frame makes it more durable and keeps the machine steady for skip-free sewing\" (manufacturer claim, product page)",
+      "\"High performance motor\" (manufacturer claim, product page; no rating published)",
+      "\"From lightweight silks to heavy denim and upholstery\" (manufacturer claim, product page)",
+      "\"Twice the light of other Singer sergers\" (manufacturer claim for the two LEDs)"
+    ],
+    "conflicts": [
+      "Stitch count: Singer and Amazon say 6 stitch types; Sewing Machines Plus copy says 10 sewing programs; a Walmart snippet says 8 built in stitches; a PatternReview thread says six built in stitches and four rolled hems. Catalog will use 6 flagged [verify].",
+      "Weight: 13.5 lb (Amazon B00EF1ICNC, 6.12 kg) vs 7.38 kg (about 16.3 lb, second listing, likely shipping weight) vs 13,500 g on manua.ls (a units error). Catalog will use 13.5 lb.",
+      "Price: $349.95 sale against $449.99 regular (Sewing Machines Plus) vs $319.99 (Michaels) vs $336.99 (GoldStar Tool) vs $309.99 (eBay). singer.com price did not appear in snippets. Catalog will use the SMP figure in the Last seen line and a band in chrome.",
+      "Motor: a snippet gave 110 W without a clearly attributable page. Left null.",
+      "Differential feed ratio: Singer copy says fully adjustable; no numeric range appeared. Left as a yes with the range unpublished.",
+      "Successor status: AllBrands lists the 14HD854 as the replacement for the ProFinish 14CG754 and a PatternReview thread treats it as the heavier duty sibling, but singer.com keeps live product pages for both and no Singer statement of replacement appeared. Catalog will describe the 14HD854 as the current heavier duty model and note the dealer statement only."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "A PatternReview owner says the machine does everything Singer claims but found threading time consuming and reports shuddering, shaking and a lot of noise in use.",
+        "tone": "negative",
+        "source": "https://sewing.patternreview.com/review/machine/7035"
+      },
+      {
+        "theme": "A second PatternReview review is blunt that the serger is not worth the time or money; the same site's model page and a Heavy Duty vs ProFinish thread carry mixed experiences.",
+        "tone": "negative",
+        "source": "https://sewing.patternreview.com/review/machine/6676"
+      },
+      {
+        "theme": "In the Singer Heavy Duty vs ProFinish thread posters describe the 14HD854 as the model to pick for denim and fleece because of its larger knife and stronger motor, with threading and stitches otherwise the same as the 14CG754.",
+        "tone": "mixed",
+        "source": "https://sewing.patternreview.com/SewingDiscussions/topic/114880"
+      },
+      {
+        "theme": "Walmart reviewers split: one experienced sewist reports it feeding through four layers with stronger feed than her older Singer serger if oiled and brushed out, another made a dress and five aprons without trouble, others call it loud and prone to jamming and hard to thread at the lower looper.",
+        "tone": "mixed",
+        "source": "https://www.walmart.com/reviews/product/318390453"
+      }
+    ],
+    "evidence": "owner",
+    "buyerQuestions": [
+      "Does the Singer 14HD854 replace the 14CG754?",
+      "What is the difference between the Singer 14HD854 and the 14CG754?",
+      "Is the Singer 14HD854 really heavy duty?",
+      "Is the Singer 14HD854 hard to thread?",
+      "Is the Singer 14HD854 loud?",
+      "Can the Singer 14HD854 do a rolled hem?",
+      "Does the Singer 14HD854 have a free arm?",
+      "What needles does the Singer 14HD854 use?",
+      "How much does the Singer 14HD854 weigh?",
+      "Singer 14HD854 vs Brother 1034D: which one?"
+    ],
+    "crossShop": [
+      {
+        "slug": "singer-14cg754",
+        "why": "The ProFinish sibling it is said to replace; same threading, smaller knife, lower price"
+      },
+      {
+        "slug": "brother-1034d",
+        "why": "The other sub $350 3/4 thread serger buyers compare on threading and lighting"
+      },
+      {
+        "slug": "brother-1034dx",
+        "why": "Brother's current budget serger at a similar price"
+      },
+      {
+        "slug": "juki-mo-654de",
+        "why": "The step up 2/3/4 thread serger with a 1,500 spm motor and a longer mechanical warranty"
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "editorial": {
+      "verdict": "The 14HD854 is Singer's 2/3/4 thread serger with differential feed, a free arm, two LEDs and a knife Singer calls 60 percent larger than its other sergers, and it is the ProFinish 14CG754 with a heavier cutter and better light for about $100 more, not an industrial machine.",
+      "whoFor": "A first or second serger buyer who wants 2 thread capability, a free arm and a brighter work light at a chain store price, and who will sew denim and fleece more than silk.",
+      "skipIf": "You want quiet running and easy looper threading (owners on PatternReview report noise and fiddly threading), you can find the 14CG754 at a real discount, or you can stretch to a Juki MO-654DE.",
+      "keySpec": "2/3/4 thread · 1,300 spm · differential feed · free arm · 2 LEDs · 13.5 lb",
+      "strengths": [
+        "2 thread stitches via the included spreader, plus a built in rolled hem and free arm",
+        "Two LED lights and a larger upper knife address the two complaints owners level at the 14CG754",
+        "Uses the common Singer 2022 (ELx705) serger needle and carries Singer's 25 year head warranty"
+      ],
+      "weaknesses": [
+        "Owner reports on PatternReview and Walmart repeat noise, vibration and slow lower looper threading",
+        "Heavy Duty is a series name; frame alloy, motor rating and differential ratio are not published",
+        "Stitch count is quoted as 6, 8 or 10 depending on the retailer"
+      ],
+      "checks": [
+        {
+          "title": "Price it against the 14CG754",
+          "body": "Singer sells both. If the 14CG754 sits $80 or more below the 14HD854, decide whether the larger knife and two LEDs are worth the gap; threading and stitch types are otherwise the same."
+        },
+        {
+          "title": "Read the stitch count in the manual, not the listing",
+          "body": "Retailers quote 6, 8 or 10 stitches for the same machine. Singer's own page says 6 stitch types; the manual is the tie breaker."
+        },
+        {
+          "title": "Plan for noise",
+          "body": "Several owners describe the machine as loud and shaky at speed. A rubber mat and a solid table help; if you sew in a shared space, compare against the Brother 1034D and Juki MO-654DE first."
+        }
+      ],
+      "realCost": [
+        "4 cones of serger thread beyond the starter spools",
+        "Singer 2022 (ELx705) needles beyond the included set",
+        "Serger oil and a lint brush",
+        "A non slip mat to damp vibration",
+        "Replacement upper knife once the spare lower knife is used"
+      ],
+      "faqs": [
+        {
+          "q": "Does the Singer 14HD854 replace the 14CG754?",
+          "a": "Not per Singer. AllBrands lists the 14HD854 as the replacement for the ProFinish 14CG754, but singer.com keeps both product pages live and publishes no replacement statement. Treat it as the heavier duty sibling."
+        },
+        {
+          "q": "What is the difference between the 14HD854 and the 14CG754?",
+          "a": "Both are 2/3/4 thread 1,300 spm sergers with differential feed, rolled hem and a free arm. Singer gives the 14HD854 a 60 percent larger knife, a stronger motor and two LED lights."
+        },
+        {
+          "q": "Is the 14HD854 really heavy duty?",
+          "a": "Heavy Duty is Singer's series name. It is a household serger with a metal frame; Singer's claim is that it handles multiple layers up to denim and upholstery weight. No motor rating is published."
+        },
+        {
+          "q": "Is the 14HD854 hard to thread?",
+          "a": "Threading is manual lay in with a color coded diagram on the machine. Owners disagree: some call it easy with a video, others find the lower looper slow and fiddly."
+        },
+        {
+          "q": "Is the 14HD854 loud?",
+          "a": "Several owners on PatternReview and Walmart describe it as loud and shaky at speed. Others report no trouble. A solid table helps."
+        },
+        {
+          "q": "Can it do a rolled hem?",
+          "a": "Yes, a built in 2 thread rolled hem per Singer's stitch list."
+        },
+        {
+          "q": "Does it have a free arm?",
+          "a": "Yes. The storage compartment removes to expose the free arm for cuffs and hems."
+        },
+        {
+          "q": "What needles does it use?",
+          "a": "Singer 2022 serger needles, equivalent to ELx705, in sizes 80/12 and 90/14."
+        },
+        {
+          "q": "How much does it weigh?",
+          "a": "13.5 lb per the Amazon listing, 14 x 11 x 11.5 in per Singer. One listing gives 7.38 kg, likely a shipping weight."
+        },
+        {
+          "q": "What is the warranty?",
+          "a": "Singer's warranty page states 25 years on the head, 2 years on motor and electrical parts and 90 days on adjustments and attachments."
+        }
+      ]
+    },
+    "sources": [
+      "https://www.singer.com/products/singer-14hd854-heavy-duty-serger",
+      "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage",
+      "https://www.singer.com/products/singer-profinish-14cg754-serger",
+      "https://www.sewingmachinesplus.com/singer-14hd854-serger.php",
+      "https://sewingmachinesplus.com/products/singer-14hd854-serger",
+      "https://www.amazon.com/Singer-14HD854-Heavy-Duty-Serger/dp/B00EF1ICNC",
+      "https://www.amazon.com/Singer-14HD854-Thread-Serger-Differential/dp/B00IXPWNNG",
+      "https://sewingmachine.com/products/singer-14hd854-heavy-duty-serger-sewing-machine",
+      "https://www.qualitysewing.com/products/singer-overlocker-heavy-duty-14hd854",
+      "https://www.michaels.com/product/singer-14hd854-heavy-duty-serger-machine-355370244130914324",
+      "https://www.goldstartool.com/singer-14hd854-heavy-duty-serger.htm",
+      "https://www.walmart.com/ip/Singer-14HD854-Heavy-Duty-Serger/318390453",
+      "https://www.walmart.com/reviews/product/318390453",
+      "https://www.allbrands.com/products/96889-singer-14hd854-heavy-duty-serger-2-3-4-threads-6-s",
+      "https://www.poconosewandvac.com/products/singer/machines/singer-14hd854?associated=needles",
+      "https://www.sewingpartsonline.com/products/singer-2022-serger-needles",
+      "https://www.manualslib.com/manual/562108/Singer-14hd854.html",
+      "https://www.manua.ls/singer/14hd854/manual",
+      "https://sergerpro.com/singer-14hd854-overlock/",
+      "https://yousewandsew.com/best-serger-reviews/singer-14hd854-2/",
+      "https://sewing.patternreview.com/review/machine/7035",
+      "https://sewing.patternreview.com/review/machine/6676",
+      "https://sewing.patternreview.com/SewingMachine/1931",
       "https://sewing.patternreview.com/SewingDiscussions/topic/114880"
     ]
   },

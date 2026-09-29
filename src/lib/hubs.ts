@@ -150,7 +150,7 @@ export const hubs: Hub[] = [
     ranked: [
       { slug: "juki-mo-654de", pick: "our-pick", alsoBudget: "Four thread cones" },
       { slug: "juki-mo-1000", alsoBudget: "Four thread cones" },
-      { slug: "bernina-l-850", alsoBudget: "Four thread cones, dealer setup" },
+      { slug: "babylock-victory", alsoBudget: "Four thread cones, dealer setup" },
       { slug: "juki-mo-644d", alsoBudget: "Four thread cones, 2-thread converter" },
       { slug: "janome-8002d", alsoBudget: "Four thread cones" },
       { slug: "brother-1034dx", alsoBudget: "Four thread cones" },

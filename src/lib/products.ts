@@ -886,7 +886,7 @@ const siteFields: Record<string, SiteFields> = {
     context: "Air-threading overlocker · in Sergers hub",
     alternatives: [
       { slug: "juki-mo-1000", label: "Cheaper air", note: "Juki's air threader for a third of the money." },
-      { slug: "babylock-imagine", label: "Dealer rival", note: "Baby Lock's air-threading entry." },
+      { slug: "babylock-victory", label: "Dealer rival", note: "Baby Lock's air-threading entry." },
       { slug: "juki-mo-654de", label: "Manual", note: "Our pick if you thread by hand." },
     ],
     imageAlt: "Bernina L 850 air-threading serger",
@@ -943,6 +943,32 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "bernina-l-850", label: "Dealer rival", note: "Air threading with a knee lift." },
     ],
     imageAlt: "Baby Lock Imagine air-threading serger",
+    lastUpdated: "2026-09-29",
+  },
+  "babylock-victory": {
+    score: 8.4,
+    scoredFor: "serger",
+    reason: "Baby Lock's air-threading entry; the Imagine's replacement, dealer priced.",
+    context: "Air-threading overlocker · in Sergers hub",
+    alternatives: [
+      { slug: "juki-mo-1000", label: "Cheaper air", note: "Juki's air threader, sold online." },
+      { slug: "babylock-vibrant", label: "Same dealer", note: "Manual threading, far less money." },
+      { slug: "bernina-l-850", label: "Dealer rival", note: "Air threading with a knee lift." },
+    ],
+    imageAlt: "Baby Lock Victory air-threading serger",
+    lastUpdated: "2026-09-29",
+  },
+  "singer-14hd854": {
+    score: 7.3,
+    scoredFor: "serger",
+    reason: "The ProFinish with a Heavy Duty badge; buy on price against the 14CG754.",
+    context: "Overlocker · Singer Heavy Duty serger",
+    alternatives: [
+      { slug: "singer-14cg754", label: "Sibling", note: "Same class, ProFinish name." },
+      { slug: "brother-1034d", label: "Value pick", note: "The cheapest serger we'd recommend." },
+      { slug: "juki-mo-654de", label: "Steadier", note: "Our pick for weekly serging." },
+    ],
+    imageAlt: "Singer Heavy Duty 14HD854 serger",
     lastUpdated: "2026-09-29",
   },
 };
