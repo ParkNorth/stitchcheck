@@ -4,21 +4,21 @@
     "brand": "Baby Lock",
     "model": "Imagine (BLE1AT-2)",
     "pageUrl": "https://babylock.com/imagine-ble1at-2-spec-sheet",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://babylock.com/imagine-ble1at-2-spec-sheet",
+    "pickedBy": "hand pick",
     "credit": "Photo: Baby Lock",
-    "fetchedAt": null,
-    "note": null
+    "fetchedAt": "2026-09-29",
+    "note": "Discontinued model with no product page on babylock.com. Photo is the product image embedded on page 2 of the Baby Lock spec sheet PDF (LBSP-BLE1AT2) at pageUrl, extracted by hand; the fetch script cannot read a PDF, so re-running it for this row needs the same manual step."
   },
   {
     "slug": "babylock-vibrant",
     "brand": "Baby Lock",
     "model": "Vibrant (BL460B)",
     "pageUrl": "https://babylock.com/machines/serger/vibrant",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://s3.amazonaws.com/mediastore.babylock.com/media/catalog/product/v/i/vibrant_main_1_1.png",
+    "pickedBy": "hand pick",
     "credit": "Photo: Baby Lock",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -26,10 +26,10 @@
     "brand": "Baby Lock",
     "model": "Victory (BLS3)",
     "pageUrl": "https://babylock.com/machines/serger/victory",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://s3.amazonaws.com/mediastore.babylock.com/media/catalog/product/v/i/victory_main_1.png",
+    "pickedBy": "hand pick",
     "credit": "Photo: Baby Lock",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -41,17 +41,17 @@
     "pickedBy": null,
     "credit": "Photo: Bernina",
     "fetchedAt": null,
-    "note": null
+    "note": "bernina.com blocked by a Cloudflare browser challenge (HTTP 403) on 2026-09-29 for both the page and the rest of the site; no image fetched. Retry from a normal browser session or ask the brand for a press image."
   },
   {
     "slug": "bernina-570-qe",
     "brand": "Bernina",
     "model": "570 QE",
     "pageUrl": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.bernina.com/Bernina/media/products/Sewing,%20Quilting%20and%20Embroidery/NEW%20BERNINA%205%20Series/Headerbilder/Vordergrund/570QE-Header.png",
+    "pickedBy": "og:image",
     "credit": "Photo: Bernina",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -59,10 +59,10 @@
     "brand": "Bernina",
     "model": "L 850",
     "pageUrl": "https://www.bernina.com/en-US/Machines-US/Overlocker/Serger/BERNINA-L-850",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.bernina.com/Bernina/media/products/Overlocker/Headerbilder/Hintergrund/BL850-Header.png",
+    "pickedBy": "og:image",
     "credit": "Photo: Bernina",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -70,10 +70,10 @@
     "brand": "Brother",
     "model": "1034D",
     "pageUrl": "https://www.brother-usa.com/products/1034d",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://assets.brother.com/transform/36876837-4e8d-467a-8762-35a6f2d81030/3466_1034D_front-png?io=transform:fit,width:1360",
+    "pickedBy": "ld+json Product",
     "credit": "Photo: Brother",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -81,10 +81,10 @@
     "brand": "Brother",
     "model": "1034DX",
     "pageUrl": "https://www.brother-usa.com/products/1034dx",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://assets.brother.com/transform/99be9ee5-cba2-46a5-adfe-833d5cdc9698/13530_1034DX_REF-png?io=transform:fit,width:1360",
+    "pickedBy": "ld+json Product",
     "credit": "Photo: Brother",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -92,10 +92,10 @@
     "brand": "Brother",
     "model": "1634D",
     "pageUrl": "https://www.brother-usa.com/products/1634d",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://assets.brother.com/transform/c736f774-d133-4776-87d7-96614d12f1ad/3507_1634D_front-png?io=transform:fit,width:1360",
+    "pickedBy": "ld+json Product",
     "credit": "Photo: Brother",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -103,10 +103,10 @@
     "brand": "Brother",
     "model": "2340CV",
     "pageUrl": "https://www.brother-usa.com/products/2340cv",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://assets.brother.com/transform/0cc0f5f1-1e2e-44b1-85fd-73acd3a8e8c3/3613_2340CV_left-png?io=transform:fit,width:1360",
+    "pickedBy": "ld+json Product",
     "credit": "Photo: Brother",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -114,10 +114,10 @@
     "brand": "Brother",
     "model": "CS7000X",
     "pageUrl": "https://www.brother-usa.com/p/sewing/CS7000X",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://assets.brother.com/transform/ba532861-089b-41b7-ae0d-3216081d3a15/13524_CS7000X_WT_FRONT_1128x846-png?io=transform:fit,width:1360",
+    "pickedBy": "ld+json Product",
     "credit": "Photo: Brother",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -125,10 +125,10 @@
     "brand": "Brother",
     "model": "PQ1600S",
     "pageUrl": "https://www.brother-usa.com/products/pq1600s",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://assets.brother.com/transform/0c1b4356-58f1-4e3b-b125-22566edef0bb/19552_14773w-jpg?io=transform:fit,width:1360",
+    "pickedBy": "ld+json Product",
     "credit": "Photo: Brother",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -136,10 +136,10 @@
     "brand": "Brother",
     "model": "ST371HD Strong & Tough",
     "pageUrl": "https://www.brother-usa.com/products/st371hd",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://assets.brother.com/transform/cd5a4cbc-a222-4747-acdf-04fa4baff824/15369_ST371HD_front-min-png?io=transform:fit,width:1360",
+    "pickedBy": "ld+json Product",
     "credit": "Photo: Brother",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -147,22 +147,22 @@
     "brand": "Grace Company",
     "model": "Q'nique 15R",
     "pageUrl": "https://graceframe.com/en/sewing-machines/grace-15r",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://graceframe.com/frontend/images/qnique/15r-intro.jpg",
+    "pickedBy": "hand pick",
     "credit": "Photo: Grace Company",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
     "slug": "grace-qnique-19x",
     "brand": "Grace Company",
     "model": "Q'nique 19X",
-    "pageUrl": "https://graceframe.com/en/product/grace-19x-quilting-machine",
-    "imageUrl": null,
-    "pickedBy": null,
+    "pageUrl": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine",
+    "imageUrl": "https://graceframe.com/uploads/products/6c287ef75f00c872e72f1c6c820783da.jpg",
+    "pickedBy": "hand pick",
     "credit": "Photo: Grace Company",
-    "fetchedAt": null,
-    "note": null
+    "fetchedAt": "2026-09-29",
+    "note": "Grace retired the standalone 19X page (old URL redirects to the home page); photo taken from the Grace recertified 19X product page. Grace now names the machine Grace 19X."
   },
   {
     "slug": "handi-quilter-amara",
@@ -173,7 +173,7 @@
     "pickedBy": null,
     "credit": "Photo: Handi Quilter",
     "fetchedAt": null,
-    "note": null
+    "note": "handiquilter.com blocked by a Cloudflare browser challenge (HTTP 403) on 2026-09-29 for both the page and the rest of the site; no image fetched. Retry from a normal browser session or ask the brand for a press image."
   },
   {
     "slug": "handi-quilter-moxie",
@@ -184,7 +184,7 @@
     "pickedBy": null,
     "credit": "Photo: Handi Quilter",
     "fetchedAt": null,
-    "note": null
+    "note": "handiquilter.com blocked by a Cloudflare browser challenge (HTTP 403) on 2026-09-29 for both the page and the rest of the site; no image fetched. Retry from a normal browser session or ask the brand for a press image."
   },
   {
     "slug": "handi-quilter-sweet-sixteen",
@@ -195,17 +195,17 @@
     "pickedBy": null,
     "credit": "Photo: Handi Quilter",
     "fetchedAt": null,
-    "note": null
+    "note": "handiquilter.com blocked by a Cloudflare browser challenge (HTTP 403) on 2026-09-29 for both the page and the rest of the site; no image fetched. Retry from a normal browser session or ask the brand for a press image."
   },
   {
     "slug": "janome-8002d",
     "brand": "Janome",
     "model": "8002D",
     "pageUrl": "https://www.janome.com/product/8002d/",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.janome.com/wp-content/uploads/2024/11/8002d-feature-3.jpg",
+    "pickedBy": "img (model match)",
     "credit": "Photo: Janome",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -213,10 +213,10 @@
     "brand": "Janome",
     "model": "CoverPro 2000CPX",
     "pageUrl": "https://www.janome.com/product/coverpro-2000cpx/",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.janome.com/wp-content/uploads/2024/11/2000cpx-front-angle.jpg",
+    "pickedBy": "hand pick",
     "credit": "Photo: Janome",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -224,10 +224,10 @@
     "brand": "Janome",
     "model": "HD1000",
     "pageUrl": "https://www.janome.com/product/hd-1000/",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.janome.com/wp-content/uploads/2024/11/hd1000-fr-left-2048x2048.jpg",
+    "pickedBy": "img (model match)",
     "credit": "Photo: Janome",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -235,10 +235,10 @@
     "brand": "Janome",
     "model": "HD3000",
     "pageUrl": "https://www.janome.com/product/hd-3000/",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.janome.com/wp-content/uploads/2019/11/Heavy-Duty-3000.png",
+    "pickedBy": "hand pick",
     "credit": "Photo: Janome",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -246,10 +246,10 @@
     "brand": "Janome",
     "model": "HD5000",
     "pageUrl": "https://www.janome.com/product/hd-5000/",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.janome.com/wp-content/uploads/2024/11/hd5000-left.jpg",
+    "pickedBy": "hand pick",
     "credit": "Photo: Janome",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -257,10 +257,10 @@
     "brand": "Janome",
     "model": "HD9 Professional",
     "pageUrl": "https://www.janome.com/product/hd9-professional/",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.janome.com/wp-content/uploads/2024/11/hd9-features.jpg",
+    "pickedBy": "img (model match)",
     "credit": "Photo: Janome",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -268,22 +268,22 @@
     "brand": "Janome",
     "model": "Memory Craft 6650",
     "pageUrl": "https://www.janome.com/product/memory-craft-6650/",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.janome.com/wp-content/uploads/2019/04/Memory-Craft-6650.png",
+    "pickedBy": "og:image",
     "credit": "Photo: Janome",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
     "slug": "juki-ddl-5550",
     "brand": "Juki",
     "model": "DDL-5550",
-    "pageUrl": "https://pdf.directindustry.com/pdf/juki-industrial-sewing-machine/ddl-5550n-series/173840-711982.html",
-    "imageUrl": null,
-    "pickedBy": null,
+    "pageUrl": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E",
+    "imageUrl": "https://www.juki.co.jp/industrial_e/admin/pdata/productphoto/20210119_045208_01.jpg",
+    "pickedBy": "hand pick",
     "credit": "Photo: Juki",
-    "fetchedAt": null,
-    "note": null
+    "fetchedAt": "2026-09-29",
+    "note": "Previous pageUrl was a third-party catalog host. Juki global page covers DDL-5550N and DDL-5550N-7; its photo shows the 5550N-7 head (thread trimmer, control panel) on a table."
   },
   {
     "slug": "juki-ddl-8700",
@@ -294,28 +294,28 @@
     "pickedBy": null,
     "credit": "Photo: Juki",
     "fetchedAt": null,
-    "note": null
+    "note": "No usable image on 2026-09-29: juki.com publishes the DDL-8700 photo at 260 px wide (under the 300 px floor) and the Juki global page only has a two-machine composite with the DDL-8700-7."
   },
   {
     "slug": "juki-dnu-1541s",
     "brand": "Juki",
     "model": "DNU-1541S",
-    "pageUrl": "https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541",
-    "imageUrl": null,
-    "pickedBy": null,
+    "pageUrl": "https://www.juki.co.jp/industrial_e/products_e/lether_e/flatbed_e/detail.php?cd=DNU-1541_E",
+    "imageUrl": "https://www.juki.co.jp/industrial_e/admin/pdata/productphoto/20210128_054238_01.jpg",
+    "pickedBy": "hand pick",
     "credit": "Photo: Juki",
-    "fetchedAt": null,
-    "note": null
+    "fetchedAt": "2026-09-29",
+    "note": "juki.com page (https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541) only offers a 265 px cached image; photo taken from the Juki global DNU-1541 series page. Juki pictures the series with the DNU-1541-7 head (control panel)."
   },
   {
     "slug": "juki-hzl-f300",
     "brand": "Juki",
     "model": "HZL-F300",
     "pageUrl": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.jukihome.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/e/x/exceed_f300_white_background_2.jpg",
+    "pickedBy": "img (model match)",
     "credit": "Photo: Juki",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -323,10 +323,10 @@
     "brand": "Juki",
     "model": "HZL-F600",
     "pageUrl": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.jukihome.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/6/0/600lightblue02.jpg",
+    "pickedBy": "hand pick",
     "credit": "Photo: Juki",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -334,10 +334,10 @@
     "brand": "Juki",
     "model": "MO-1000",
     "pageUrl": "https://www.jukihome.com/products/serging/mo-1000.html",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.jukihome.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/o/mo-1000_web.jpg",
+    "pickedBy": "img (model match)",
     "credit": "Photo: Juki",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -345,10 +345,10 @@
     "brand": "Juki",
     "model": "MO-644D",
     "pageUrl": "https://www.jukihome.com/products/serging/mo-644d.html",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.jukihome.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/o/mo644d_white_background.jpg",
+    "pickedBy": "img (model match)",
     "credit": "Photo: Juki",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -356,10 +356,10 @@
     "brand": "Juki",
     "model": "MO-654DE",
     "pageUrl": "https://www.jukihome.com/products/serging/mo-654de.html",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.jukihome.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/o/mo654de_white_background.jpg",
+    "pickedBy": "img (model match)",
     "credit": "Photo: Juki",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -367,10 +367,10 @@
     "brand": "Juki",
     "model": "TL-18QVP",
     "pageUrl": "https://jukiquilting.com/products/haruka-tl-18qvp.html",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://jukiquilting.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/l/tl-18qvp_sewing_machine_1.jpg",
+    "pickedBy": "img (model match)",
     "credit": "Photo: Juki",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -378,10 +378,10 @@
     "brand": "Juki",
     "model": "TL-2000Qi",
     "pageUrl": "https://www.jukihome.com/products/tl-2000qi.html",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.jukihome.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/l/tl-2000qi_web.jpg",
+    "pickedBy": "img (model match)",
     "credit": "Photo: Juki",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -389,10 +389,10 @@
     "brand": "Juki",
     "model": "TL-2010Q",
     "pageUrl": "https://www.jukihome.com/products/tl-2010q.html",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.jukihome.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/l/tl-2010q_web.jpg",
+    "pickedBy": "img (model match)",
     "credit": "Photo: Juki",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -400,10 +400,10 @@
     "brand": "Singer",
     "model": "ProFinish 14CG754",
     "pageUrl": "https://www.singer.com/products/singer-profinish-14cg754-serger",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.singer.com/cdn/shop/files/8346_14CG754_front_1800x1800_0e2435fb-fa49-458c-8df8-1dba6a3ae777.jpg?v=1756292279&width=1920",
+    "pickedBy": "ld+json Product",
     "credit": "Photo: Singer",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -411,10 +411,10 @@
     "brand": "Singer",
     "model": "Heavy Duty 14HD854",
     "pageUrl": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.singer.com/cdn/shop/files/HD-8352_14HD854_free-arm_Updated_1800x1800_e47fb903-3c48-4679-a637-9e8f88213831.jpg?v=1762441398&width=1920",
+    "pickedBy": "ld+json Product",
     "credit": "Photo: Singer",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -422,10 +422,10 @@
     "brand": "Singer",
     "model": "Professional 5 14T968DC",
     "pageUrl": "https://www.singer.com/products/singer-professional-5-14t968dc-serger",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.singer.com/cdn/shop/files/535b4df9bedeb9ecd2f2c8753c6b05e7af34ebc2_704608f5-4165-45e9-8f29-4d5f068924f0.jpg?v=1762441434&width=1920",
+    "pickedBy": "ld+json Product",
     "credit": "Photo: Singer",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -433,10 +433,10 @@
     "brand": "Singer",
     "model": "Heavy Duty 4411",
     "pageUrl": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.singer.com/cdn/shop/files/HD-HD4411---1-1800x1800-7_3af86044-2ba1-4e59-87c5-c54c61b99db0.jpg?v=1756292268&width=1920",
+    "pickedBy": "ld+json Product",
     "credit": "Photo: Singer",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -444,10 +444,10 @@
     "brand": "Singer",
     "model": "Heavy Duty 4423",
     "pageUrl": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.singer.com/cdn/shop/files/HD-30637_HD4423_FrontAngle_b1a7f526-610c-42ed-85f9-5203e83804a2.jpg?v=1756292424&width=1920",
+    "pickedBy": "hand pick",
     "credit": "Photo: Singer",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -455,10 +455,10 @@
     "brand": "Singer",
     "model": "Heavy Duty 4432",
     "pageUrl": "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.singer.com/cdn/shop/files/HD-4432-01__1153_fe2143e3-5789-4cbe-b06c-e7e5ad9ba6a4.jpg?v=1772461332&width=1920",
+    "pickedBy": "ld+json Product",
     "credit": "Photo: Singer",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
@@ -466,32 +466,32 @@
     "brand": "Singer",
     "model": "Heavy Duty 4452",
     "pageUrl": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.singer.com/cdn/shop/files/HD-1_4452_Beauty__1166_no_HD_logo_f004630a-086a-4083-a1dd-683d1247a94c.jpg?v=1758814045&width=1920",
+    "pickedBy": "hand pick",
     "credit": "Photo: Singer",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   },
   {
     "slug": "singer-hd6600c",
     "brand": "Singer",
     "model": "Heavy Duty 6600C",
-    "pageUrl": "https://www.singer.com/products/singer-heavy-duty-6600c-sewing-machine",
-    "imageUrl": null,
-    "pickedBy": null,
+    "pageUrl": "https://www.singer.com/products/singer-heavy-duty-6600c-sterling-sewing-machine",
+    "imageUrl": "https://www.singer.com/cdn/shop/files/Singer-SterlingHD6600C-Angle-27062024-1800x1800_afef415c-92eb-444b-bbe2-4cd04349a91d.jpg?v=1756292469&width=1920",
+    "pickedBy": "hand pick",
     "credit": "Photo: Singer",
-    "fetchedAt": null,
-    "note": null
+    "fetchedAt": "2026-09-29",
+    "note": "Plain 6600C page returns 404; singer.com now lists the machine as the Heavy Duty 6600C Sterling (black colourway). Photo shows the Sterling."
   },
   {
     "slug": "singer-hd6700c",
     "brand": "Singer",
     "model": "Heavy Duty 6700C",
     "pageUrl": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.singer.com/cdn/shop/files/HD-Heavy_Duty_6700C_Beauty__674_2e124f18-0258-428d-bc0b-11ea6d8a2cde.jpg?v=1756292272&width=1920",
+    "pickedBy": "ld+json Product",
     "credit": "Photo: Singer",
-    "fetchedAt": null,
+    "fetchedAt": "2026-09-29",
     "note": null
   }
 ]

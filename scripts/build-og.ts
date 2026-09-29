@@ -40,7 +40,9 @@ type Card = {
 };
 
 const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-const fontUrl = (f: string) => `file://${path.join(FONTS, f)}`;
+// Inline assets as data URIs: a setContent page is about:blank, and Chromium will not load file:// from it.
+const dataUri = (file: string, mime: string) => `data:${mime};base64,${fs.readFileSync(file).toString("base64")}`;
+const fontUrl = (f: string) => dataUri(path.join(FONTS, f), "font/woff2");
 
 function html(c: Card): string {
   const titleSize = c.title.length > 44 ? 64 : c.title.length > 30 ? 76 : 88;
@@ -55,7 +57,7 @@ html,body{width:1200px;height:630px;background:#F2F0EA;color:#16181A;font-family
 .body{padding:44px 56px 0;display:flex;flex-direction:column;height:586px}
 .eyebrow{font-family:PlexMono,monospace;font-weight:600;font-size:18px;letter-spacing:.1em;text-transform:uppercase;color:#5E6368}
 .title{font-family:Archivo,sans-serif;font-weight:800;font-stretch:115%;letter-spacing:-.01em;line-height:.98;margin-top:18px;font-size:${c.photo ? Math.min(titleSize, 64) : titleSize}px;max-width:${c.photo ? (c.badge ? 440 : 620) : 1000}px}
-.sub{font-family:PlexMono,monospace;font-weight:500;font-size:22px;color:#16181A;margin-top:26px;max-width:${c.photo ? 620 : 960}px;line-height:1.4}
+.sub{font-family:PlexMono,monospace;font-weight:500;font-size:22px;color:#16181A;margin-top:26px;max-width:${c.photo ? (c.badge ? 440 : 620) : 960}px;line-height:1.4}
 .seam{margin-top:auto;height:0;border-top:2px dashed #16181A;opacity:.9}
 .foot{display:flex;align-items:center;justify-content:space-between;padding:22px 0 30px}
 .mark{display:flex;align-items:center;gap:14px}
@@ -81,7 +83,7 @@ html,body{width:1200px;height:630px;background:#F2F0EA;color:#16181A;font-family
     <div class="meta">${esc(c.meta ?? "Spec-checked, not field-tested")}</div>
   </div>
 </div>
-${c.photo ? `<div class="photo"><img src="file://${c.photo}"></div>` : ""}
+${c.photo ? `<div class="photo"><img src="${dataUri(c.photo, "image/jpeg")}"></div>` : ""}
 ${c.badge ? `<div class="badge"><b>${esc(c.badge)}</b><span>our score</span></div>` : ""}
 </body></html>`;
 }
