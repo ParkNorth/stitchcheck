@@ -724,7 +724,7 @@ function buildProduct(c: CatalogEntry, f: SiteFields): Product {
     conflicts: c.conflicts,
     ownerThemes: c.ownerThemes,
     evidence: (c.evidence as Evidence) ?? "positioning",
-    faqs: f.faqs ?? [],
+    faqs: f.faqs ?? c.editorial.faqs ?? [],
     buy: f.buy ?? defaultBuy(c),
     manufacturerUrl: c.manufacturerUrl,
     sources: c.sources,

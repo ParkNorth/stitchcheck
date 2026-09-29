@@ -36,6 +36,7 @@ export interface CatalogEntry {
     weaknesses: string[];
     checks: { title: string; body: string }[];
     realCost: string[];
+    faqs: { q: string; a: string }[];
   };
   sources: string[];
 }
@@ -218,7 +219,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Serger needles once the system is confirmed from the manual",
         "Serger oil",
         "Tweezers if not in the bundle"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://babylock.com/machines/serger/vibrant",
@@ -407,7 +409,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Embroidery module: 570 QE E configuration; older generation pricing showed $5,599 with module vs $4,399 without",
         "Extension table: Not listed as included on pages found; ask the dealer",
         "Bobbins: Bernina jumbo bobbin, proprietary; buy from a dealer"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE",
@@ -602,7 +605,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Spare 130/705H needles, size 80/12 and 90/14",
         "Tweezers and a small brush if the bundle does not include them",
         "Serger oil for occasional lubrication"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.brother-usa.com/products/1034d",
@@ -787,7 +791,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Spare household needles once the type is confirmed",
         "Serger oil",
         "A second set of thread nets for slippery cones"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.brother-usa.com/products/1034dx",
@@ -974,7 +979,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "SCHMETZ 130/705H SUK ball point needles, 90/14",
         "Wash-away or tissue stabilizer for very light jersey",
         "Serger oil"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.brother-usa.com/products/2340cv",
@@ -1167,7 +1173,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Stitch regulator: Not available for this machine",
         "Frame: Optional third party frame; the machine is not sold as a frame system",
         "Needles and bobbins: Standard domestic consumables; confirm needle system with Brother before bulk buying"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.brother-usa.com/products/pq1600s",
@@ -1353,7 +1360,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Walking foot",
         "Denim needles size 16 beyond the included heavyweight pack",
         "Extra SA156 style drop-in bobbins"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.brother-usa.com/products/st371hd",
@@ -1546,7 +1554,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Stitch regulator: Built in on the 15R; the 15M is the manual only version",
         "Robotics: Quilter's Creative Touch: QCT5 was listed $2,294 to $3,654 and is discontinued in favor of QCT6; QCT6 price not found",
         "Delivery and setup: Some online dealers ship free; frames arrive flat packed for owner assembly"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://graceframe.com/en/sewing-machines/grace-15r",
@@ -1746,7 +1755,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Robotics: Pro-Stitcher Lite is the compatible automation; price not published on pages found. Full Pro-Stitcher is listed at $10,995 by an authorized dealer but is not the Moxie's option",
         "Delivery and setup: Not published; dealers bundle freight and setup differently. Bundles with Pro-Stitcher Lite on dealer sites were seen from $8,495 upward",
         "Bobbins and needles: M class bobbins and 134 system needles, both widely stocked"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://handiquilter.com/product/hq-moxie-15-quilt-machine/",
@@ -1936,7 +1946,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "ELx705 needles, 90/14",
         "Sewing machine oil for the points Janome specifies",
         "Stabilizer tape for light knits"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.janome.com/product/coverpro-2000cpx/",
@@ -2121,7 +2132,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Walking foot for quilting or layered denim",
         "Denim and leather needles size 16 to 18",
         "Extra Class 15 bobbins"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.janome.com/product/hd-3000/",
@@ -2310,7 +2322,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Walking foot (about $59 per owner report)",
         "Extra bobbins and cone nets for large spools",
         "Quilting needles size 90/14"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.janome.com/product/memory-craft-6650/",
@@ -2505,7 +2518,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Juki New Defrix No. 1 oil for the oil pan",
         "DBx1 needles in sizes 14 to 18 and industrial bobbins",
         "A second machine for zigzag and buttonholes"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://juki.com/ddl-8700",
@@ -2697,7 +2711,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Household needles once the system is confirmed from the manual",
         "Serger oil",
         "Compressed-air can or brush for keeping air ports clear of lint"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.jukihome.com/products/serging/mo-1000.html",
@@ -2885,7 +2900,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Household needles once the system is confirmed from the manual",
         "Serger oil",
         "Spare lower knife (one comes in the box)"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.jukihome.com/products/serging/mo-654de.html",
@@ -3073,7 +3089,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Stitch regulator: Not available for this machine; no add-on path",
         "Frame: Optional; Juki QVP frames are dealer priced and were not published on pages found",
         "Bobbins: Standard TL class aluminum bobbins, widely available"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://jukiquilting.com/products/haruka-tl-18qvp.html",
@@ -3264,7 +3281,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Free motion quilting foot (not included)",
         "Sewing machine oil",
         "Extra Class L bobbins"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.jukihome.com/products/tl-2000qi.html",
@@ -3457,7 +3475,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Sewing machine oil (Juki specifies user oiling)",
         "Class L bobbins in quantity if you piece or quilt in volume",
         "Heavier needles (size 16 to 18) for denim and canvas"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.jukihome.com/products/tl-2010q.html",
@@ -3647,7 +3666,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Singer 2022 needles in 14/90 and 11/80",
         "Serger oil (oiler included)",
         "Spare knife (one included)"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.singer.com/products/singer-professional-5-14t968dc-serger",
@@ -3840,7 +3860,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Denim or jeans needles size 16 to 18",
         "Extra Class 15 bobbins",
         "Walking foot if you quilt or sew slippery layers"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine",
@@ -4030,7 +4051,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Walking foot",
         "Denim needles size 16 to 18",
         "Extra Class 15 bobbins"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine",
@@ -4219,7 +4241,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Denim needles size 16 to 18 beyond the included packs",
         "Extra Class 15 bobbins",
         "Leather or vinyl needles if using the nonstick foot on those materials"
-      ]
+      ],
+      "faqs": []
     },
     "sources": [
       "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine",

@@ -71,6 +71,7 @@ type Raw = {
     weaknesses: string[];
     checks: { title: string; body: string }[];
     realCost: string[];
+    faqs?: { q: string; a: string }[];
   };
   sources?: string[];
 };
@@ -120,6 +121,7 @@ function normalizeEditorial(e: Raw["editorial"] | undefined): Raw["editorial"] |
     weaknesses: (ed.weaknesses ?? []).map(String),
     checks: (ed.checks ?? []).map((c) => ({ title: String(c.title), body: String(c.body) })),
     realCost: (ed.realCost ?? []).map((r: RealCostIn) => (typeof r === "string" ? r : r.note ? `${r.item}: ${r.note}` : r.item)),
+    faqs: (ed.faqs ?? []).map((f) => ({ q: String(f.q), a: String(f.a) })),
   };
 }
 
@@ -177,6 +179,7 @@ for (const f of files) {
         weaknesses: [],
         checks: [],
         realCost: [],
+        faqs: [],
       },
     ),
     sources: raw.sources ?? [],
@@ -222,6 +225,7 @@ export interface CatalogEntry {
     weaknesses: string[];
     checks: { title: string; body: string }[];
     realCost: string[];
+    faqs: { q: string; a: string }[];
   };
   sources: string[];
 }
