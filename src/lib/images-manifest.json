@@ -23,6 +23,14 @@
     "sourceUrl": "https://s3.amazonaws.com/mediastore.babylock.com/media/catalog/product/v/i/victory_main_1.png",
     "pageUrl": "https://babylock.com/machines/serger/victory"
   },
+  "bernina-1008": {
+    "src": "/images/products/bernina-1008.jpg",
+    "width": 800,
+    "height": 600,
+    "credit": "Photo: Bernina",
+    "sourceUrl": "https://www.bernina.com/Bernina/media/products/Sewing,%20Quilting%20and%20Embroidery/BERNINA%20Classic%20Series/Headerbilder/Vordergrund/B1008-Header.png",
+    "pageUrl": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008"
+  },
   "bernina-570-qe": {
     "src": "/images/products/bernina-570-qe.jpg",
     "width": 879,
@@ -110,6 +118,30 @@
     "credit": "Photo: Grace Company",
     "sourceUrl": "https://graceframe.com/uploads/products/6c287ef75f00c872e72f1c6c820783da.jpg",
     "pageUrl": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+  },
+  "handi-quilter-amara": {
+    "src": "/images/products/handi-quilter-amara.jpg",
+    "width": 981,
+    "height": 736,
+    "credit": "Photo: Handi Quilter",
+    "sourceUrl": "https://handiquilter.com/wp-content/uploads/2022/11/Amara20-main-1000x1000-1.jpg",
+    "pageUrl": "https://handiquilter.com/product/hq-amara-20/"
+  },
+  "handi-quilter-moxie": {
+    "src": "/images/products/handi-quilter-moxie.jpg",
+    "width": 1190,
+    "height": 893,
+    "credit": "Photo: Handi Quilter",
+    "sourceUrl": "https://handiquilter.com/wp-content/uploads/2020/10/Moxie-Sideview.png",
+    "pageUrl": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"
+  },
+  "handi-quilter-sweet-sixteen": {
+    "src": "/images/products/handi-quilter-sweet-sixteen.jpg",
+    "width": 1600,
+    "height": 1200,
+    "credit": "Photo: Handi Quilter",
+    "sourceUrl": "https://handiquilter.com/wp-content/uploads/2022/10/Sweet-Sixteen-w-InSight-Table-Quilt-Clipped-scaled-1.jpg",
+    "pageUrl": "https://handiquilter.com/product-tag/hq-sweet-sixteen/"
   },
   "janome-8002d": {
     "src": "/images/products/janome-8002d.jpg",

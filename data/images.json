@@ -37,11 +37,11 @@
     "brand": "Bernina",
     "model": "1008",
     "pageUrl": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://www.bernina.com/Bernina/media/products/Sewing,%20Quilting%20and%20Embroidery/BERNINA%20Classic%20Series/Headerbilder/Vordergrund/B1008-Header.png",
+    "pickedBy": "hand pick via browser",
     "credit": "Photo: Bernina",
-    "fetchedAt": null,
-    "note": "bernina.com blocked by a Cloudflare browser challenge (HTTP 403) on 2026-09-29 for both the page and the rest of the site; no image fetched. Retry from a normal browser session or ask the brand for a press image."
+    "fetchedAt": "2026-09-29",
+    "note": "Discontinued model; the bernina.com product page is still live. bernina.com answers plain fetches with a Cloudflare challenge (HTTP 403); photo read from the page in a real Chromium session (og:image). The header image is 586 px wide and the page has no gallery, so the canvas is 800x600."
   },
   {
     "slug": "bernina-570-qe",
@@ -169,33 +169,33 @@
     "brand": "Handi Quilter",
     "model": "Amara 20",
     "pageUrl": "https://handiquilter.com/product/hq-amara-20/",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://handiquilter.com/wp-content/uploads/2022/11/Amara20-main-1000x1000-1.jpg",
+    "pickedBy": "hand pick via browser",
     "credit": "Photo: Handi Quilter",
-    "fetchedAt": null,
-    "note": "handiquilter.com blocked by a Cloudflare browser challenge (HTTP 403) on 2026-09-29 for both the page and the rest of the site; no image fetched. Retry from a normal browser session or ask the brand for a press image."
+    "fetchedAt": "2026-09-29",
+    "note": "handiquilter.com answers plain fetches with a Cloudflare challenge (HTTP 403); photo read from the product page in a real Chromium session (og:image, 1000 px). Re-running the fetch script for this row needs the same browser step."
   },
   {
     "slug": "handi-quilter-moxie",
     "brand": "Handi Quilter",
     "model": "Moxie",
     "pageUrl": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://handiquilter.com/wp-content/uploads/2020/10/Moxie-Sideview.png",
+    "pickedBy": "hand pick via browser",
     "credit": "Photo: Handi Quilter",
-    "fetchedAt": null,
-    "note": "handiquilter.com blocked by a Cloudflare browser challenge (HTTP 403) on 2026-09-29 for both the page and the rest of the site; no image fetched. Retry from a normal browser session or ask the brand for a press image."
+    "fetchedAt": "2026-09-29",
+    "note": "handiquilter.com answers plain fetches with a Cloudflare challenge (HTTP 403); photo read from the product page in a real Chromium session (og:image, largest srcset entry, 1000 px). Re-running the fetch script for this row needs the same browser step."
   },
   {
     "slug": "handi-quilter-sweet-sixteen",
     "brand": "Handi Quilter",
     "model": "Sweet Sixteen",
     "pageUrl": "https://handiquilter.com/product-tag/hq-sweet-sixteen/",
-    "imageUrl": null,
-    "pickedBy": null,
+    "imageUrl": "https://handiquilter.com/wp-content/uploads/2022/10/Sweet-Sixteen-w-InSight-Table-Quilt-Clipped-scaled-1.jpg",
+    "pickedBy": "hand pick via browser",
     "credit": "Photo: Handi Quilter",
-    "fetchedAt": null,
-    "note": "handiquilter.com blocked by a Cloudflare browser challenge (HTTP 403) on 2026-09-29 for both the page and the rest of the site; no image fetched. Retry from a normal browser session or ask the brand for a press image."
+    "fetchedAt": "2026-09-29",
+    "note": "Handi Quilter retired the Sweet Sixteen product page (https://handiquilter.com/product/hq-sweet-sixteen/ returns 404; pageUrl is the accessory tag page). Gallery image names were read from the Wayback Machine snapshot https://web.archive.org/web/20231224155557/https://handiquilter.com/product/hq-sweet-sixteen/ and the file itself was downloaded from the live handiquilter.com uploads folder in a real Chromium session (2073 px cutout on white). Handi Quilter pictures the machine in its InSight table with a quilt under the needle; the only machine-only shot it published (2017/11/HQSweetSixteen.jpg) is 500 px wide."
   },
   {
     "slug": "janome-8002d",
@@ -294,7 +294,7 @@
     "pickedBy": null,
     "credit": "Photo: Juki",
     "fetchedAt": null,
-    "note": "No usable image on 2026-09-29: juki.com publishes the DDL-8700 photo at 260 px wide (under the 300 px floor) and the Juki global page only has a two-machine composite with the DDL-8700-7."
+    "note": "No usable image on 2026-09-29, rechecked in a real browser session: juki.com publishes the whole-machine DDL-8700 photo at 260 px wide (its 700 px cache rendition is that file padded) and its other gallery files are 450 px close-ups of the needle area; the Juki global page only has a 574 px two-machine composite with the DDL-8700-7; the Juki America and Juki global catalog PDFs embed nothing over 533 px and no whole-machine photo. Row left empty."
   },
   {
     "slug": "juki-dnu-1541s",
