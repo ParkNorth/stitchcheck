@@ -1,0 +1,249 @@
+{
+  "slug": "singer-4411",
+  "brand": "Singer",
+  "model": "Heavy Duty 4411",
+  "series": "HD",
+  "type": "mechanical",
+  "industrial": false,
+  "jobs": [
+    "heavy-duty",
+    "beginner"
+  ],
+  "manufacturerUrl": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine",
+  "retailerUrl": "https://www.sewingmachinesplus.com/singer4411.php",
+  "priceUsdSeen": 209.99,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "Sewing Machines Plus (sale price in search snippet; regular price $269.99)",
+  "specs": {
+    "stitchTypes": {
+      "value": "11 built-in stitches: 6 basic, 4 decorative, 1 four-step buttonhole; adjustable length and width; marketed as 69 stitch applications",
+      "source": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine"
+    },
+    "stitchCount": {
+      "value": 11,
+      "source": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine"
+    },
+    "maxSpm": {
+      "value": 1100,
+      "source": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine"
+    },
+    "threads": {
+      "value": null,
+      "source": null
+    },
+    "differentialFeed": {
+      "value": null,
+      "source": null
+    },
+    "throatIn": {
+      "value": 6.25,
+      "source": "https://leahday.com/products/singer-heavy-duty-4411"
+    },
+    "needleSystem": {
+      "value": null,
+      "source": null
+    },
+    "presserFootLift": {
+      "value": null,
+      "source": null
+    },
+    "threadTrimmer": {
+      "value": null,
+      "source": null
+    },
+    "feedSystem": {
+      "value": null,
+      "source": null
+    },
+    "buttonhole": {
+      "value": "4-step buttonhole",
+      "source": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine"
+    },
+    "motor": {
+      "value": "Singer describes the motor as 60 percent stronger than a standard sewing machine motor; wattage not published",
+      "source": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine"
+    },
+    "frame": {
+      "value": "Metal interior frame, stainless steel bedplate",
+      "source": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine"
+    },
+    "weightLb": {
+      "value": 14.0,
+      "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-4411-mechanical-sewing-machine"
+    },
+    "dimensionsIn": {
+      "value": "15.5 x 6.2 x 12 (39.4 x 15.7 x 30.5 cm, third-party directory)",
+      "source": "https://www.sewingmachinedirectory.com/sewing-machine/singer-4411/"
+    },
+    "includedFeet": {
+      "value": "All purpose foot, zipper foot, buttonhole foot, button sewing foot, quilting guide, pack of needles, bobbins, spool caps, large and small spool holders, auxiliary spool pin, spool pin felt, screwdrivers, seam ripper and lint brush, soft dust cover",
+      "source": "https://www.amazon.com/Accessory-Enhanced-Piercing-Applications-Buttonhole/dp/B003VWXZKG"
+    },
+    "warrantyUs": {
+      "value": "25 yr limited on machine head, 2 yr on motor, light, wiring, switches, speed control and electronics, 90 days on adjustments, belts, rings, bulbs and attachments",
+      "source": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+    },
+    "needleThreader": {
+      "value": "Manual (no automatic needle threader; the 4423 adds one)",
+      "source": "https://www.seworbit.com/singer-4411-vs-singer-4423/"
+    },
+    "bobbinSystem": {
+      "value": "Top drop-in bobbin with clear cover",
+      "source": "https://www.sewingmachinesplus.com/singer4411.php"
+    },
+    "presserFootPressure": {
+      "value": "Adjustable",
+      "source": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine"
+    },
+    "freeArm": {
+      "value": "Yes; storage compartment slides off",
+      "source": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine"
+    }
+  },
+  "claims": [
+    "\"Heavy Duty\" (Singer series name, product page; it is a model line, not a duty rating)",
+    "\"60% stronger\" motor than a standard sewing machine motor (manufacturer claim, singer.com product page; baseline not defined)",
+    "\"50% more power for denim and canvas\" (Amazon listing title; a different figure from the same maker)",
+    "\"built to handle tough fabrics like denim, canvas, and leather\" (retailer copy, Michaels listing)",
+    "\"69 stitch applications\" (manufacturer count of techniques from 11 stitches)"
+  ],
+  "conflicts": [
+    "Weight: 14 lb (parts dealer) vs 14.5 lb / 6.6 kg (third-party directory). Catalog will use 14 lb and flag [verify].",
+    "Motor claim: '60% stronger' on singer.com vs '50% more power' in the Amazon title. Both are claims; neither defines the baseline.",
+    "Throat: 6.25 in comes from a dealer describing the harp as measured from the motor side to the needle. Singer does not publish a throat figure for the 4411. Flag [verify].",
+    "Price: $209.99 sale at Sewing Machines Plus vs a $179.99 Amazon deal post and a $90 clearance mentioned in a forum. Catalog will use the SMP figure."
+  ],
+  "ownerThemes": [
+    {
+      "theme": "A PatternReview owner describes the 4411 as a genuinely heavy machine that plows through more layers than most current domestics.",
+      "tone": "positive",
+      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/53758"
+    },
+    {
+      "theme": "Quiltingboard members asked about the 4411 for jeans and jacket repairs reply that they have not heard good things, and one owner reports a warranty refusal inside 12 months.",
+      "tone": "negative",
+      "source": "https://www.quiltingboard.com/main-f1/singer-heavy-duty-t201481.html"
+    },
+    {
+      "theme": "Buyer reviews on marketplace listings praise six layers of canvas and simple setup, while critics cite the 4-step buttonhole, short pedal cable and needing to hand-start the wheel on leather.",
+      "tone": "mixed",
+      "source": "https://ebay.com/itm/154447978095"
+    }
+  ],
+  "evidence": "owner",
+  "buyerQuestions": [
+    "What is the difference between the Singer 4411 and 4423?",
+    "Does the Singer 4411 have an automatic needle threader?",
+    "Is the Singer 4411 buttonhole 1-step or 4-step?",
+    "Can the Singer 4411 sew leather?",
+    "How much does the Singer 4411 weigh?",
+    "Is the Singer 4411 good for beginners?",
+    "What is the throat space on the Singer 4411?",
+    "Does the Singer 4411 have a free arm?",
+    "Is the Singer 4411 worth it or should I buy the 4423?"
+  ],
+  "crossShop": [
+    {
+      "slug": "singer-4423",
+      "why": "Same head with 23 stitches, an automatic needle threader and a 1-step buttonhole for a few dollars more."
+    },
+    {
+      "slug": "singer-4432",
+      "why": "32 stitches and a nonstick foot on the same frame; the 4411 is the stripped version."
+    },
+    {
+      "slug": "brother-st371hd",
+      "why": "Brother's entry heavy fabric mechanical with 37 stitches and a nonstick foot at a similar price."
+    }
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "editorial": {
+    "verdict": "The 4411 is the base Heavy Duty head: 1,100 spm and a metal frame with 11 stitches, a 4-step buttonhole and no needle threader, so it only wins on a real price gap to the 4423.",
+    "whoFor": "A buyer who wants the 44-series frame and speed for hems, repairs and canvas and does not care about decorative stitches or a one-step buttonhole.",
+    "skipIf": "The 4423 is within $20; its automatic needle threader and 1-step buttonhole cost nothing in capability elsewhere.",
+    "keySpec": "1,100 spm · 11 stitches · 4-step buttonhole · 14 lb",
+    "strengths": [
+      "Same 1,100 spm and metal interior frame Singer publishes for the whole 44 series.",
+      "Weight and dimensions are published, unlike the 4452.",
+      "Adjustable presser foot pressure and a free arm are listed by Singer."
+    ],
+    "weaknesses": [
+      "4-step buttonhole and manual needle threading; both are upgraded on the 4423.",
+      "Only 4 presser feet; no walking or nonstick foot.",
+      "Forum owners report warranty friction and a decline in Singer build quality."
+    ],
+    "checks": [
+      {
+        "title": "Price gap to the 4423",
+        "body": "The two share a frame and motor. If the 4423 is within about $20, the needle threader and 1-step buttonhole are worth it. The 4411 only makes sense on a deep sale."
+      },
+      {
+        "title": "Refurbished stock",
+        "body": "Singer sells a refurbished 4411 on its own site and SMP has listed factory-serviced 44-series units. Ask for the warranty term on refurbished stock before choosing."
+      },
+      {
+        "title": "Throat figure is a dealer measurement",
+        "body": "The 6.25 in harp comes from a dealer, not Singer. If you plan to quilt, confirm the measurement needle-to-body on the listing before buying."
+      }
+    ],
+    "realCost": [
+      "Denim needles size 16 to 18 beyond the included pack",
+      "Extra Class 15 bobbins",
+      "Walking foot for layered projects, not included",
+      "Nonstick foot if sewing vinyl or leather"
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between the Singer 4411 and 4423?",
+        "a": "Same frame and 1,100 spm motor. The 4423 has 23 stitches, an automatic needle threader and a 1-step buttonhole; the 4411 has 11 stitches, a manual threader and a 4-step buttonhole."
+      },
+      {
+        "q": "Is the 4411 buttonhole 1-step or 4-step?",
+        "a": "4-step, per Singer's product page."
+      },
+      {
+        "q": "Does the 4411 have an automatic needle threader?",
+        "a": "No. Comparison sites and Singer's feature list for the 4423 confirm the threader is what separates the two models."
+      },
+      {
+        "q": "How much does the Singer 4411 weigh?",
+        "a": "14 lb per the parts dealer; a third-party directory lists 14.5 lb (6.6 kg)."
+      },
+      {
+        "q": "What is the throat space on the 4411?",
+        "a": "Singer does not publish it. A dealer measures about 6.25 in from the machine body to the needle."
+      },
+      {
+        "q": "Can the 4411 sew leather?",
+        "a": "Singer's copy names denim and canvas; retailer copy adds leather. One owner review says the motor needed a hand start on leather. Treat leather as an occasional job, not the machine's purpose."
+      },
+      {
+        "q": "Is the 4411 good for beginners?",
+        "a": "It is simple to set up with a top drop-in bobbin and dials, but the 4-step buttonhole and manual threading make the 4423 the easier first machine at a small premium."
+      },
+      {
+        "q": "What is the warranty?",
+        "a": "25 years on the head, 2 years on motor and electronics, 90 days on adjustments and attachments, per Singer's warranty page."
+      },
+      {
+        "q": "Does the 4411 have a free arm?",
+        "a": "Yes. The removable storage compartment slides off to expose the free arm for cuffs and hems."
+      }
+    ]
+  },
+  "sources": [
+    "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine",
+    "https://www.sewingmachinesplus.com/singer4411.php",
+    "https://www.sewingpartsonline.com/products/singer-heavy-duty-4411-mechanical-sewing-machine",
+    "https://www.sewingmachinedirectory.com/sewing-machine/singer-4411/",
+    "https://leahday.com/products/singer-heavy-duty-4411",
+    "https://www.amazon.com/Accessory-Enhanced-Piercing-Applications-Buttonhole/dp/B003VWXZKG",
+    "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage",
+    "https://www.seworbit.com/singer-4411-vs-singer-4423/",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/53758",
+    "https://www.quiltingboard.com/main-f1/singer-heavy-duty-t201481.html",
+    "https://ebay.com/itm/154447978095",
+    "https://slickdeals.net/f/19114468-singer-heavy-duty-4411-high-speed-sewing-machine-179-99-free-shipping-w-prime"
+  ]
+}

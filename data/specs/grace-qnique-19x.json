@@ -1,0 +1,143 @@
+{
+  "slug": "grace-qnique-19x",
+  "brand": "Grace Company",
+  "model": "Q'nique 19X",
+  "series": "Qnique",
+  "type": "long-arm",
+  "industrial": false,
+  "jobs": ["quilting"],
+  "manufacturerUrl": "https://graceframe.com/en/product/grace-19x-quilting-machine",
+  "retailerUrl": "https://www.sewingmachinesplus.com/16034.php",
+  "priceUsdSeen": 5499,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "Rocky Mountain Sewing and Vacuum (range $5,499 to $7,599 by frame option; low end shown)",
+  "specs": {
+    "stitchTypes": {"value": "Straight stitch only; built in stitch regulator plus manual speed mode", "source": "https://www.sewingpartsonline.com/products/qnique-19x-longarm-quilting-machine-grace-company"},
+    "stitchCount": {"value": 1, "source": "https://graceframe.com/en/product/grace-19x-quilting-machine"},
+    "maxSpm": {"value": 2000, "source": "https://www.sewingpartsonline.com/products/qnique-19x-longarm-quilting-machine-grace-company"},
+    "threads": {"value": null, "source": null},
+    "differentialFeed": {"value": null, "source": null},
+    "throatIn": {"value": 19, "source": "https://graceframe.com/en/product/grace-19x-quilting-machine"},
+    "throatHeightIn": {"value": null, "source": null},
+    "stitchRegulation": {"value": "Built in; encoders read carriage movement and set motor speed", "source": "https://www.sewingpartsonline.com/products/qnique-19x-longarm-quilting-machine-grace-company"},
+    "needleSystem": {"value": null, "source": null},
+    "needlesIncluded": {"value": "10 size 18 and 10 size 16 needles", "source": "https://meissnersewing.com/products/grace-19x-long-arm-machine"},
+    "bobbin": {"value": "M class", "source": "https://www.sewingpartsonline.com/products/qnique-19x-longarm-quilting-machine-grace-company"},
+    "display": {"value": "Full color OLED touchscreen (19X); 7 in touchscreen on the 19X Elite", "source": "https://www.sewingpartsonline.com/products/qnique-19x-elite-longarm-quilting-machine-grace-company"},
+    "handleControls": {"value": "Two buttons per handle: start/stop, needle up/down, speed up/down; single stitch button", "source": "https://meissnersewing.com/products/grace-19x-long-arm-machine"},
+    "presserFootLift": {"value": null, "source": null},
+    "threadTrimmer": {"value": null, "source": null},
+    "feedSystem": {"value": "Frame mounted free motion (no feed dogs); needle up/down and single stitch from handle buttons", "source": "https://meissnersewing.com/products/grace-19x-long-arm-machine"},
+    "buttonhole": {"value": null, "source": null},
+    "motor": {"value": null, "source": null},
+    "frame": {"value": "Sold machine only or bundled; fits all Grace frames including Cutie, Q-Zone Hoop, Q-Zone Queen and Continuum", "source": "https://www.sewingpartsonline.com/products/qnique-19x-longarm-quilting-machine-grace-company"},
+    "weightLb": {"value": null, "source": null},
+    "dimensionsIn": {"value": null, "source": null},
+    "includedFeet": {"value": "Hopping foot; 20 needles; dealer bonus kits vary and are not manufacturer box contents", "source": "https://meissnersewing.com/products/grace-19x-long-arm-machine"},
+    "warrantyUs": {"value": "5 yr cast body, 2 yr mechanical parts, 1 yr electrical parts, original owner (dealer statement of Grace warranty)", "source": "https://leahday.com/pages/warranty"}
+  },
+  "claims": [
+    "\"A level of quality in precision stitching, user-friendly features, and designed engineering never available before in such an affordable package\" (manufacturer claim, graceframe.com)",
+    "\"Quilt up to 2000 stitches in just 60 seconds\" (dealer copy repeating manufacturer language, meissnersewing.com)",
+    "\"For quilters who want to transition from a shortarm or midarm machine but are concerned about the weight, size, and complexity of longarm machines\" (retailer positioning, sewingmachinesplus.com, about the 19X Elite)"
+  ],
+  "conflicts": [
+    "Model naming: Grace's current product pages call the machine the Grace 19X and Grace 19X Elite, while dealers and Sewing Machines Plus still list it as Q'nique 19X. Same machine; the catalog keeps Q'nique in the model name and notes the rename.",
+    "Speed: 2,000 spm for the 19X vs 2,600 spm for the 19X Elite (sewingpartsonline.com). This entry covers the 19X; the Elite adds the faster motor, 7 in touchscreen, dimmable LEDs and a built in bobbin winder and must not be mixed into the 19X spec table.",
+    "Price: Rocky Mountain Sewing shows $5,499 to $7,599 for the 19X depending on frame option; another dealer range of $6,988 to $8,499.95 appeared in a snippet without a page attribution. 19X Elite ranges $7,999.95 to $10,499.95 at Rocky Mountain, and Ken's Sewing Center listed the Elite with a Q-Zone Hoop frame at $6,359.20. Catalog will use $5,499 as machine-side low and flag frame bundles as [verify].",
+    "Needle system: dealers list included needle sizes (16 and 18) but not the system. The Q'nique 15R manual lists 135x5 / DPx5 with 134 as equivalent; the 19X system is not confirmed in results and is left null.",
+    "Weight, dimensions, throat height and motor rating: not published on any page found. Render as [verify]."
+  ],
+  "ownerThemes": [
+    {"theme": "A Quiltingboard owner who had just set up a 19X Elite on a 12 ft frame found it lighter to move for feathers and circles than expected; another poster reports that in the Quilting with Grace owner group the 19 owners seem happier than the non-Pro 15 owners.", "tone": "positive", "source": "https://www.quiltingboard.com/main-f1/qnique-19-long-arm-machine-t310290.html"},
+    {"theme": "A Missouri Star forum owner three years in still loves the machine and says Grace's technicians are helpful by phone when problems come up.", "tone": "positive", "source": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/76114-grace-q-nique-long-arm"},
+    {"theme": "A Quiltingboard thread on a Q'nique reports the automatic thread cutter engaging on its own every few seconds while moving the machine and breaking needles; the fix path was encoder and regulator diagnostics with Grace support.", "tone": "negative", "source": "https://www.quiltingboard.com/main-f1/having-problems-stitch-regulator-thread-cutter-t298173.html"},
+    {"theme": "A quilting blogger's Q'nique troubleshooting guide says moving the carriage too fast causes thread breaks and skipped stitches, and walks through tension checks before calling Grace.", "tone": "mixed", "source": "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm/"}
+  ],
+  "evidence": "owner",
+  "buyerQuestions": [
+    "Is the Q'nique 19X the same as the Grace 19X?",
+    "What is the difference between the Q'nique 19X and the 19X Elite?",
+    "Does the 19X price include a frame?",
+    "Which Grace frames fit the 19X?",
+    "Does the 19X have a built in stitch regulator?",
+    "What bobbin does the Q'nique 19X take?",
+    "How does the 19X compare with the Handi Quilter Moxie and Amara?",
+    "Can you add computerized quilting (QCT) to the 19X?",
+    "What is the Grace warranty?",
+    "How much does the 19X weigh?"
+  ],
+  "crossShop": [
+    {"slug": "handi-quilter-moxie", "why": "The Moxie is 15 in with an 8 ft frame in the price; the 19X adds 4 in of throat and 200 spm but the frame is a separate line item at most dealers"},
+    {"slug": "grace-qnique-15r", "why": "Same brand and frames; the 15R is the cheaper 15 in, 1,800 spm sibling for quilters who will stay on a hoop frame"},
+    {"slug": "handi-quilter-amara", "why": "The step up to a true 20 in system with a heavy frame included, at roughly double the price"},
+    {"slug": "juki-tl-18qvp", "why": "For buyers still deciding whether to leave a domestic straight stitch machine and table for a frame at all"}
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "editorial": {
+    "verdict": "The Q'nique 19X (now sold as the Grace 19X) gives the most throat per dollar in the entry frame class, 19 in and 2,000 spm with regulation built in from about $5,499, provided you price the Grace frame separately and accept a shorter warranty than Handi Quilter's.",
+    "whoFor": "A home quilter who wants nearly long-arm throat on a hoop or rail frame that fits a spare room, and who is comfortable with phone support and self assembly rather than a dealer install.",
+    "skipIf": "You want the frame, delivery and setup in one dealer price, you need a 24 in or wider throat for customer work, or the Elite's faster motor and bigger screen matter enough to justify its higher price.",
+    "keySpec": "19 in throat · 2,000 spm · M class bobbin · fits all Grace frames · regulation built in",
+    "strengths": [
+      "19 in of throat is 4 in more than the Moxie and Q'nique 15R at a similar machine price",
+      "Stitch regulator, OLED touchscreen and M class bobbin are standard on the base 19X, not reserved for the Elite",
+      "Works on every current Grace frame from the 54 in Q-Zone Hoop to 8 to 12 ft Continuum rails, so the frame can grow with the room"
+    ],
+    "weaknesses": [
+      "Grace's warranty is 5 yr casting, 2 yr mechanical, 1 yr electrical, against Handi Quilter's 10, 5 and 5",
+      "Weight, dimensions, throat height, needle system and motor rating are not published on pages found",
+      "Dealer bundle pricing runs from $5,499 to over $8,000 for the same head depending on the frame, and the Elite is often quoted in the same breath"
+    ],
+    "checks": [
+      {"title": "Confirm 19X versus 19X Elite on the quote", "body": "Same body, different motor (2,000 vs 2,600 spm), screen (OLED vs 7 in) and extras (dimmable LEDs, built in bobbin winder on the Elite). Dealers list both and recertified units of each; make sure the price matches the model."},
+      {"title": "Price the frame as a separate line", "body": "Rocky Mountain shows $5,499 to $7,599 depending on frame option. The Q-Zone Hoop was seen at $1,399 and the Q-Zone Queen at $1,899; the Continuum II price was not visible. Ask which frame is in the bundle and what it costs alone."},
+      {"title": "Ask what Grace publishes for weight and needle system", "body": "No dealer page found lists head weight, throat height or the needle system, only included sizes 16 and 18. Get these from the manual before buying rulers, needles or a lift frame."}
+    ],
+    "realCost": [
+      "Frame: not included at the machine only price; Q-Zone Hoop $1,399, Q-Zone Queen $1,899 to $2,199.95, Continuum II price not published",
+      "Stitch regulator: included; no add-on cost",
+      "Robotics: Quilter's Creative Touch; QCT5 was seen at $2,294.15 to $3,654.15 and is discontinued in favor of QCT6, whose price was not published",
+      "Delivery and setup: frames ship flat for owner assembly; some online dealers advertise free shipping on bundles",
+      "Consumables: M class bobbins; needles in sizes 16 and 18 are included, system to be confirmed from the manual",
+      "Warranty gap: 1 yr electrical and 2 yr mechanical coverage means a service plan or dealer relationship may be worth pricing"
+    ],
+    "faqs": [
+      {"q": "Is the Q'nique 19X the same machine as the Grace 19X?", "a": "Yes. Grace's current product pages call it the Grace 19X and Grace 19X Elite; dealers and Sewing Machines Plus still list it as the Q'nique 19X. The specs quoted are the same."},
+      {"q": "What is the difference between the 19X and the 19X Elite?", "a": "The Elite has a stronger motor rated to 2,600 spm against 2,000 on the 19X, a 7 in touchscreen instead of the OLED screen, dimmable LED needle lights and a built in M class bobbin winder. Throat is 19 in on both."},
+      {"q": "Does the 19X price include a frame?", "a": "Usually not. Dealer prices from $5,499 to $7,599 differ by frame option. The 19X fits all Grace frames including the Cutie, Q-Zone Hoop, Q-Zone Queen and Continuum."},
+      {"q": "Does the 19X have a built in stitch regulator?", "a": "Yes. Encoders on the carriage read your movement and set the motor speed for even stitches. There is also a manual speed mode."},
+      {"q": "How big is the 19X throat?", "a": "Grace states 19 in of throat space, needle to body. Throat height is not published in results found."},
+      {"q": "What bobbin and needles does the 19X use?", "a": "M class bobbins. Dealers list 10 size 18 and 10 size 16 needles in the box; the needle system itself is not published in results found."},
+      {"q": "How much does the 19X weigh?", "a": "Not published on any page found."},
+      {"q": "What is the Grace warranty?", "a": "A Grace dealer states 5 years on the cast body, 2 years on mechanical parts and 1 year on electrical parts for the original owner."},
+      {"q": "Can I add computerized quilting to the 19X?", "a": "Yes, Grace's Quilter's Creative Touch robotics fit Q'nique machines. QCT5 was seen at $2,294.15 to $3,654.15 and has been replaced by QCT6, whose price was not published."},
+      {"q": "How does the 19X compare with the Handi Quilter Moxie?", "a": "The 19X has 4 in more throat and 200 spm more, but the Moxie's $5,995 MSRP includes an 8 ft Loft frame and a longer warranty. Compare bundle to bundle, not head to head."}
+    ]
+  },
+  "sources": [
+    "https://graceframe.com/en/product/grace-19x-quilting-machine",
+    "https://graceframe.com/en/product/grace-19x-elite-quilting-machine",
+    "https://graceframe.com/en/sewing-machines/qnique19xelite",
+    "https://www.sewingpartsonline.com/products/qnique-19x-longarm-quilting-machine-grace-company",
+    "https://www.sewingpartsonline.com/products/qnique-19x-elite-longarm-quilting-machine-grace-company",
+    "https://meissnersewing.com/products/grace-19x-long-arm-machine",
+    "https://www.sewingmachinesplus.com/16034.php",
+    "https://www.sewingmachinesplus.com/16075.php",
+    "https://www.sewingmachinesplus.com/recert-qnique-19x.php",
+    "https://rockymountainsewing.com/products/grace-qnique-19x-longarm/",
+    "https://rockymountainsewing.com/products/grace-qnique-19x-elite-longarm/",
+    "https://www.kenssewingcenter.com/grace-qnique-19-x-quilting-machine.html",
+    "https://leahday.com/pages/warranty",
+    "https://leahday.com/products/qnique-19x-elite-longarm",
+    "https://www.sewingpartsonline.com/products/q-zone-hoop-frame-grace-company",
+    "https://www.qualitysewing.com/products/grace-q-zone-queen-frame",
+    "https://rockymountainsewing.com/products/grace-company-quiltmotion-qct5/",
+    "https://www.quiltingboard.com/main-f1/qnique-19-long-arm-machine-t310290.html",
+    "https://www.quiltingboard.com/main-f1/help-advice-longarm-machine-t321795.html",
+    "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/76114-grace-q-nique-long-arm",
+    "https://www.quiltingboard.com/main-f1/having-problems-stitch-regulator-thread-cutter-t298173.html",
+    "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm/"
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "slug": "janome-8002d",
+  "brand": "Janome",
+  "model": "8002D",
+  "series": "Sergers",
+  "type": "serger",
+  "industrial": false,
+  "jobs": [
+    "serger"
+  ],
+  "manufacturerUrl": "https://www.janome.com/product/8002d/",
+  "retailerUrl": "https://www.sewingmachinesplus.com/Janome-8002D.php",
+  "priceUsdSeen": 360.0,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "Sewing Machines Plus",
+  "specs": {
+    "stitchTypes": {
+      "value": "3-thread and 4-thread overlock, flatlock, rolled hem, blind hem (dealer and review copy)",
+      "source": "https://sergerpro.com/janome-8002d-review/"
+    },
+    "stitchCount": {
+      "value": null,
+      "source": null
+    },
+    "maxSpm": {
+      "value": 1300,
+      "source": "https://www.janome.com/product/8002d/"
+    },
+    "threads": {
+      "value": "3 or 4 thread, convertible",
+      "source": "https://www.janome.com/product/8002d/"
+    },
+    "differentialFeed": {
+      "value": "0.5 to 2.25",
+      "source": "https://www.janome.com/product/8002d/"
+    },
+    "throatIn": {
+      "value": null,
+      "source": null
+    },
+    "needleSystem": {
+      "value": "HAx1SP, sizes 11 and 14 (instruction manual)",
+      "source": "https://www.manualslib.com/manual/3289929/Janome-8002d.html"
+    },
+    "presserFootLift": {
+      "value": "Adjustable presser foot pressure; snap-on feet; lift height not published",
+      "source": "https://www.sewingmachinesplus.com/Janome-8002D.php"
+    },
+    "threadTrimmer": {
+      "value": null,
+      "source": null
+    },
+    "feedSystem": {
+      "value": "Differential feed; retractable upper knife; rolled hem via needle plate setting knob at R, no plate change",
+      "source": "https://www.janome.com/product/8002d/"
+    },
+    "buttonhole": {
+      "value": null,
+      "source": null
+    },
+    "motor": {
+      "value": null,
+      "source": null
+    },
+    "frame": {
+      "value": null,
+      "source": null
+    },
+    "weightLb": {
+      "value": 13.4,
+      "source": "https://www.amazon.com/Janome-8002D-Serger/dp/B008L5FN4E"
+    },
+    "dimensionsIn": {
+      "value": "15 x 13.5 x 14.5 (Amazon listing; may be packaged size)",
+      "source": "https://www.amazon.com/Janome-8002D-Serger/dp/B008L5FN4E"
+    },
+    "includedFeet": {
+      "value": "Standard serger foot, needles, screwdrivers, tweezers, foot control and power cord, instruction book and video (dealer copy)",
+      "source": "https://www.kenssewingcenter.com/janome-8002d-serger.html"
+    },
+    "warrantyUs": {
+      "value": "25 yr materials and workmanship, 5 yr electrical components, 1 yr labor (Janome America statement)",
+      "source": "https://www.janome.com/support/warranty/"
+    },
+    "cuttingWidthMm": {
+      "value": "3.1 to 7.3",
+      "source": "https://www.janome.com/product/8002d/"
+    },
+    "stitchLengthMm": {
+      "value": "1.0 to 4.0",
+      "source": "https://www.amazon.com/Janome-8002D-Serger/dp/B008L5FN4E"
+    },
+    "threadingSystem": {
+      "value": "Manual, color-coded thread guides with threading chart",
+      "source": "https://www.janome.com/product/8002d/"
+    },
+    "rolledHem": {
+      "value": "Yes, built-in changeover via needle plate knob",
+      "source": "https://www.janome.com/product/8002d/"
+    },
+    "freeArm": {
+      "value": null,
+      "source": null
+    }
+  },
+  "claims": [
+    "\"Affordable and fast\" and \"sturdy and economical\" (manufacturer claim, product page)",
+    "\"Extra-smooth seams\" (Amazon listing title)",
+    "\"Professional\" appears in Walmart listing titles, not on Janome's page"
+  ],
+  "conflicts": [
+    "Dimensions: 15 x 13.5 x 14.5 in on Amazon reads like a box size; no Janome dimension captured. Flagged [verify].",
+    "Weight: 13.4 lb (Amazon listing); no Janome figure captured. Flagged [verify].",
+    "Price: Sewing Machines Plus shows $399.00 regular and $360.00 sale on a page whose title advertises a sale that expired 8/25/2025. Catalog uses $360 labelled dealer-variable.",
+    "Naming: owners say the 8002D is virtually identical to the Magnolia 7034D; a separate 8002DX exists in a PatternReview needle thread. Neither is a Janome statement of replacement."
+  ],
+  "ownerThemes": [
+    {
+      "theme": "A new owner reports a clean 4-thread stitch straight out of the box that held after several rethreadings.",
+      "tone": "positive",
+      "source": "https://sewing.patternreview.com/review/machine/2920/"
+    },
+    {
+      "theme": "A long-term owner describes it as reliable on knits including narrow rolled lettuce hems, and calls it near-identical to the Magnolia 7034D.",
+      "tone": "positive",
+      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/128654"
+    },
+    {
+      "theme": "Owners asking about needles for the 8002D and 8002DX are pointed to HAx1SP or standard 130/705H household needles.",
+      "tone": "mixed",
+      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/103660"
+    }
+  ],
+  "evidence": "owner",
+  "buyerQuestions": [
+    "Is the Janome 8002D good for beginners?",
+    "Does the Janome 8002D do a rolled hem?",
+    "What needles does the Janome 8002D use?",
+    "Janome 8002D vs Brother 1034D, which is better?",
+    "Does the Janome 8002D do 2-thread stitches?",
+    "How fast is the Janome 8002D?",
+    "Is the Janome 8002D the same as the Magnolia 7034D?",
+    "Does the Janome 8002D have a free arm?"
+  ],
+  "crossShop": [
+    {
+      "slug": "brother-1034d",
+      "why": "The default budget 3/4-thread serger with the same 1,300 spm and a free arm, usually cheaper."
+    },
+    {
+      "slug": "brother-1034dx",
+      "why": "Brother's refreshed version with right-side dials and a heavier body at a similar price."
+    },
+    {
+      "slug": "juki-mo-654de",
+      "why": "Step up to 2/3/4 thread and 1,500 spm for a little more money."
+    }
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "sources": [
+    "https://www.janome.com/product/8002d/",
+    "https://www.sewingmachinesplus.com/Janome-8002D.php",
+    "https://www.sewingmachinesplus.com/refurbished-janome-8002d.php",
+    "https://www.amazon.com/Janome-8002D-Serger/dp/B008L5FN4E",
+    "https://www.amazon.com/Janome-8002D-Serger-Bonus-Accessories/dp/B01600ASNC",
+    "https://www.kenssewingcenter.com/janome-8002d-serger.html",
+    "https://www.manualslib.com/manual/3289929/Janome-8002d.html",
+    "https://sergerpro.com/janome-8002d-review/",
+    "https://www.premierstitching.com/janome-8002d-serger/",
+    "https://www.worldweidner.com/products/janome-8002d-overlock-serger-machine-plus-deluxe-bonus-kit_8002d",
+    "https://sewing.patternreview.com/review/machine/2920/",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/128654",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/103660",
+    "https://www.janome.com/support/warranty/"
+  ],
+  "editorial": {
+    "verdict": "The 8002D is Janome's budget 3/4-thread serger: 1,300 spm, differential feed and a knob-set rolled hem for about the price of a Brother 1034D.",
+    "whoFor": "A first-serger buyer who wants a Janome dealer and 25-year warranty behind a basic manual-threading 3/4-thread machine.",
+    "skipIf": "You want 2-thread stitches, a free arm you can confirm, or air threading.",
+    "keySpec": "3/4 thread · 1,300 spm · differential 0.5 to 2.25 · 13.4 lb",
+    "strengths": [
+      "Rolled hem set by a needle plate knob, no plate swap.",
+      "Differential feed range 0.5 to 2.25, wider than the Brother 1034D's published 0.7 to 2.0.",
+      "Uses HAx1SP household-style needles per the manual."
+    ],
+    "weaknesses": [
+      "3 and 4 thread only, no 2-thread overcast.",
+      "Janome publishes no weight or dimensions in the results captured; Amazon's figures may be box size.",
+      "Owners describe it as near-identical to the older Magnolia 7034D, so the design is dated."
+    ],
+    "checks": [
+      {
+        "title": "Sale price or regular",
+        "body": "Sewing Machines Plus shows $399 regular and $360 sale under an expired-sale title. Confirm the live price and whether the bonus kit is still attached."
+      },
+      {
+        "title": "Free arm",
+        "body": "No source captured says whether the 8002D has a free arm. If you serge cuffs and sleeves, ask the dealer before buying."
+      },
+      {
+        "title": "8002D vs 8002DX",
+        "body": "A separate 8002DX exists in owner threads. Confirm the exact model on the box; parts and manuals differ by suffix."
+      }
+    ],
+    "realCost": [
+      "4 cones of serger thread",
+      "HAx1SP or 130/705H needles size 11 and 14",
+      "Serger oil and a spare lower knife"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Janome 8002D good for beginners?",
+        "a": "It is Janome's entry serger with color-coded thread guides, a threading chart and a rolled hem set by a knob. Owners on PatternReview report a clean 4-thread stitch out of the box."
+      },
+      {
+        "q": "Does the 8002D do a rolled hem?",
+        "a": "Yes. Janome says you slide the needle plate setting knob to R, with no plate change."
+      },
+      {
+        "q": "What needles does the 8002D use?",
+        "a": "The instruction manual specifies HAx1SP needles in sizes 11 and 14. Owners also use standard 130/705H household needles."
+      },
+      {
+        "q": "Can the 8002D sew 2-thread stitches?",
+        "a": "No. It is a 3 and 4 thread convertible serger."
+      },
+      {
+        "q": "How fast is the 8002D?",
+        "a": "Up to 1,300 stitches per minute per Janome."
+      },
+      {
+        "q": "What is the differential feed range?",
+        "a": "0.5 to 2.25 per Janome's page."
+      },
+      {
+        "q": "Does the 8002D have a free arm?",
+        "a": "Not published in any source captured. Ask the dealer."
+      },
+      {
+        "q": "Is the 8002D the same as the Magnolia 7034D?",
+        "a": "Owners describe the two as virtually identical. Janome does not publish a statement on the relationship."
+      },
+      {
+        "q": "How much does the 8002D weigh?",
+        "a": "Amazon lists 13.4 lb. Janome's page does not publish a weight in the results captured."
+      }
+    ]
+  }
+}

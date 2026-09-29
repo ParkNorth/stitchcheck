@@ -1,0 +1,259 @@
+{
+  "slug": "singer-14cg754",
+  "brand": "Singer",
+  "model": "ProFinish 14CG754",
+  "series": "Sergers",
+  "type": "serger",
+  "industrial": false,
+  "jobs": [
+    "serger"
+  ],
+  "manufacturerUrl": "https://www.singer.com/products/singer-profinish-14cg754-serger",
+  "retailerUrl": "https://www.sewingmachinesplus.com/sewing-machines-sergers-singer-14cg754.php",
+  "priceUsdSeen": 239.26,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "Walmart (listing shown out of stock in search snippet; previous price $179.99)",
+  "specs": {
+    "stitchTypes": {
+      "value": "6 stitch types with 2, 3 or 4 threads: overlock, mock stretch and mock stretch safety, flatlock, blind hem and rolled hems",
+      "source": "https://www.officedepot.com/a/products/9820615/Singer-Commercial-Grade-14CG754-Electric-Sewing/"
+    },
+    "stitchCount": {
+      "value": 6,
+      "source": "https://www.officedepot.com/a/products/9820615/Singer-Commercial-Grade-14CG754-Electric-Sewing/"
+    },
+    "maxSpm": {
+      "value": 1300,
+      "source": "https://www.sewingmachinesplus.com/sewing-machines-sergers-singer-14cg754.php"
+    },
+    "threads": {
+      "value": "2, 3 or 4 thread",
+      "source": "https://www.amazon.com/SINGER-Capability-Overlock-Flatlocking-Creations/dp/B003H3J50S"
+    },
+    "differentialFeed": {
+      "value": "0.7 to 2.0",
+      "source": "https://www.amazon.com/SINGER-Capability-Overlock-Flatlocking-Creations/dp/B003H3J50S"
+    },
+    "throatIn": {
+      "value": null,
+      "source": null
+    },
+    "needleSystem": {
+      "value": "Singer 2022 (ELx705) serger needles",
+      "source": "https://www.sewingpartsonline.com/products/singer-2022-serger-needles"
+    },
+    "presserFootLift": {
+      "value": null,
+      "source": null
+    },
+    "threadTrimmer": {
+      "value": null,
+      "source": null
+    },
+    "feedSystem": {
+      "value": "Differential feed; built-in knife trims the edge as it sews; free arm",
+      "source": "https://www.sewingmachinesplus.com/sewing-machines-sergers-singer-14cg754.php"
+    },
+    "buttonhole": {
+      "value": null,
+      "source": null
+    },
+    "motor": {
+      "value": null,
+      "source": null
+    },
+    "frame": {
+      "value": null,
+      "source": null
+    },
+    "weightLb": {
+      "value": 13.5,
+      "source": "https://www.amazon.com/SINGER-Capability-Overlock-Flatlocking-Creations/dp/B003H3J50S"
+    },
+    "dimensionsIn": {
+      "value": "14 x 11 x 11.5 (17 high with the thread stand extended)",
+      "source": "https://www.amazon.com/SINGER-Capability-Overlock-Flatlocking-Creations/dp/B003H3J50S"
+    },
+    "includedFeet": {
+      "value": "All purpose foot, needle set, tweezers, spreader (2-thread converter), small screwdriver, thread nets, lint brush, foot control, power cord, instruction manual with stitch guide, machine intro DVD",
+      "source": "https://sewingtrip.com/singer-14cg754/"
+    },
+    "warrantyUs": {
+      "value": "25 yr limited on machine head, 2 yr on motor, light, wiring, switches, speed control and electronics, 90 days on adjustments, belts, rings, bulbs and attachments",
+      "source": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+    },
+    "stitchLengthMm": {
+      "value": "2.0 to 4.0",
+      "source": "https://www.amazon.com/SINGER-Capability-Overlock-Flatlocking-Creations/dp/B003H3J50S"
+    },
+    "cuttingWidthMm": {
+      "value": "3.0 to 6.7",
+      "source": "https://www.amazon.com/SINGER-Capability-Overlock-Flatlocking-Creations/dp/B003H3J50S"
+    },
+    "threadingSystem": {
+      "value": "Color-coded lay-in threading with automatic tension release; manual looper threading",
+      "source": "https://www.sewingmachinesplus.com/sewing-machines-sergers-singer-14cg754.php"
+    },
+    "rolledHem": {
+      "value": "Yes, built-in",
+      "source": "https://www.amazon.com/SINGER-Capability-Overlock-Flatlocking-Creations/dp/B003H3J50S"
+    },
+    "freeArm": {
+      "value": "Yes, built-in",
+      "source": "https://www.amazon.com/SINGER-Capability-Overlock-Flatlocking-Creations/dp/B003H3J50S"
+    }
+  },
+  "claims": [
+    "\"Commercial Grade\" (Singer marketing name used on the Sewing Machines Plus and Office Depot listings; it is a household serger)",
+    "\"ProFinish\" (Singer series name, product page)",
+    "\"heavy duty metal frame\" (third-party review copy; frame material not captured from Singer's page)",
+    "\"professional results every time\" (manufacturer claim, retailer copy)"
+  ],
+  "conflicts": [
+    "Price: $239.26 (Walmart, out of stock, previously $179.99) vs $199.99 (GoldStar Tool, sold out) vs $159.95 (Quality Sewing, recorded in the brand briefing). Sewing Machines Plus lists the machine but no price appeared in snippets. Catalog will use $239.26 flagged as an out-of-stock listing price.",
+    "Status: an AllBrands listing says the Heavy Duty 14HD854 replaces the 14CG754, while singer.com still has a live product page and Walmart, SMP and GoldStar keep listings. Catalog will mark it current and note the successor.",
+    "Stitch types: retailer copy says 6 stitch types, but one review lists mock stretch, mock stretch safety, overlock, flatlock and four rolled hems, which is more than 6. Catalog will use 6 flagged [verify].",
+    "Frame: reviews call it a heavy duty metal frame; Singer's spec was not captured. Left null."
+  ],
+  "ownerThemes": [
+    {
+      "theme": "A PatternReview owner who paid $199 recommends it and says threading is fast and easy once the diagram is followed.",
+      "tone": "positive",
+      "source": "https://sewing.patternreview.com/review/machine/2271"
+    },
+    {
+      "theme": "Other PatternReview owners praise stitch quality, speed and the strong motor for the price, with dim lighting the common complaint.",
+      "tone": "positive",
+      "source": "https://sewing.patternreview.com/review/machine/3143"
+    },
+    {
+      "theme": "One PatternReview owner found it very hard to thread and could not get a rolled hem, and a discussion thread has shoppers hesitating over bad reviews.",
+      "tone": "negative",
+      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/23518"
+    }
+  ],
+  "evidence": "owner",
+  "buyerQuestions": [
+    "Is the Singer 14CG754 discontinued?",
+    "What is the difference between the Singer 14CG754 and 14HD854?",
+    "Is the Singer 14CG754 hard to thread?",
+    "Can the Singer 14CG754 do a rolled hem?",
+    "Does the Singer 14CG754 have a free arm?",
+    "What needles does the Singer 14CG754 use?",
+    "Is the Singer 14CG754 good for beginners?",
+    "How much does the Singer 14CG754 weigh?",
+    "Is the Singer 14CG754 better than the Brother 1034D?"
+  ],
+  "crossShop": [
+    {
+      "slug": "brother-1034d",
+      "why": "The other sub-$300 3/4-thread serger with differential feed; buyers compare threading and lighting."
+    },
+    {
+      "slug": "singer-14t968dc",
+      "why": "Singer's 5-thread serger with coverstitch, for buyers who want one machine for hems too."
+    },
+    {
+      "slug": "juki-mo-654de",
+      "why": "The step-up 2/3/4 serger with a 1,500 spm motor and a 5-year mechanical warranty."
+    }
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "editorial": {
+    "verdict": "The 14CG754 is the budget 2/3/4-thread serger with differential feed, rolled hem and a free arm, sold under a \"Commercial Grade\" label that describes the marketing, not the machine.",
+    "whoFor": "A first serger buyer who wants 2-thread capability, differential feed and a free arm at the lowest price with a 25-year Singer head warranty.",
+    "skipIf": "You want a brighter light, easier looper access, or a current model; the 14HD854 is Singer's own successor at a small premium.",
+    "keySpec": "2/3/4 thread · differential feed 0.7 to 2.0 · 1,300 spm · 13.5 lb",
+    "strengths": [
+      "2-thread stitches via the included spreader, which the Brother 1034D lacks.",
+      "Free arm, differential feed and built-in rolled hem at an entry price.",
+      "Uses the common Singer 2022 (ELx705) serger needle."
+    ],
+    "weaknesses": [
+      "A dealer lists it as replaced by the 14HD854; stock is thin and prices swing by $80.",
+      "Dim work light is the repeated owner complaint.",
+      "Frame material and motor are not published in accessible sources."
+    ],
+    "checks": [
+      {
+        "title": "Successor at a similar price",
+        "body": "The 14HD854 has a larger knife, brighter light and stronger motor per Singer, for about $20 more on singer.com. Confirm the 14CG754 price is a real discount before buying the older model."
+      },
+      {
+        "title": "Combo listings",
+        "body": "SMP sells the 14CG754 mostly in combos with a Singer sewing machine. Price the serger alone; the free DVD is not worth a bundle premium."
+      },
+      {
+        "title": "Stock status",
+        "body": "Walmart and GoldStar showed the machine out of stock at the time of research. Check availability and return policy before ordering from a marketplace seller."
+      }
+    ],
+    "realCost": [
+      "4 cones of serger thread",
+      "Singer 2022 (ELx705) needles beyond the included set",
+      "Serger oil",
+      "A clip-on light if the built-in bulb is too dim"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Singer 14CG754 discontinued?",
+        "a": "Not officially. Singer's page is still live and retailers list it, but one dealer says the Heavy Duty 14HD854 replaces it and several listings show out of stock."
+      },
+      {
+        "q": "What is the difference between the 14CG754 and the 14HD854?",
+        "a": "Both are 2/3/4-thread 1,300 spm sergers. Singer gives the 14HD854 a larger cutting knife, a stronger motor and a brighter light, and the price difference on singer.com is about $20."
+      },
+      {
+        "q": "Is the 14CG754 hard to thread?",
+        "a": "Owners disagree. Several PatternReview owners call it easy once the color-coded diagram is followed; one found it very hard. Threading is manual lay-in with no air system."
+      },
+      {
+        "q": "Can it do a rolled hem?",
+        "a": "Yes, the rolled hem is built in. One owner reported not being able to get it to work."
+      },
+      {
+        "q": "Does it have a free arm?",
+        "a": "Yes, a built-in free arm for cuffs and sleeves."
+      },
+      {
+        "q": "What needles does it use?",
+        "a": "Singer 2022 serger needles, equivalent to ELx705, in sizes 80/12 and 90/14."
+      },
+      {
+        "q": "How much does it weigh?",
+        "a": "13.5 lb per the Amazon listing; 14 x 11 x 11.5 in with the thread stand down."
+      },
+      {
+        "q": "What is the differential feed range?",
+        "a": "0.7 to 2.0 per the Amazon listing. Stitch length is 2.0 to 4.0 mm and cutting width 3.0 to 6.7 mm."
+      },
+      {
+        "q": "Is it better than the Brother 1034D?",
+        "a": "It adds 2-thread stitches and a free arm; the Brother is praised for a brighter light and easier threading. Both run 1,300 spm with differential feed."
+      },
+      {
+        "q": "What is the warranty?",
+        "a": "Singer's warranty page states 25 years on the head, 2 years on motor and electrical parts and 90 days on adjustments and attachments."
+      }
+    ]
+  },
+  "sources": [
+    "https://www.singer.com/products/singer-profinish-14cg754-serger",
+    "https://www.sewingmachinesplus.com/sewing-machines-sergers-singer-14cg754.php",
+    "https://www.amazon.com/SINGER-Capability-Overlock-Flatlocking-Creations/dp/B003H3J50S",
+    "https://www.officedepot.com/a/products/9820615/Singer-Commercial-Grade-14CG754-Electric-Sewing/",
+    "https://www.walmart.com/ip/SINGER-ProFinish-14CG754-Serger/24459013",
+    "https://www.goldstartool.com/singer-profinish-serger-14cg754.htm",
+    "https://www.sewingpartsonline.com/products/singer-2022-serger-needles",
+    "https://sewingtrip.com/singer-14cg754/",
+    "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage",
+    "https://www.allbrands.com/products/96889-singer-14hd854-heavy-duty-serger-2-3-4-threads-6-s",
+    "https://yousewandsew.com/best-serger-reviews/singer-14hd854-2/",
+    "https://sewing.patternreview.com/review/machine/2271",
+    "https://sewing.patternreview.com/review/machine/3143",
+    "https://sewing.patternreview.com/review/machine/5369",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/23518",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/114880"
+  ]
+}

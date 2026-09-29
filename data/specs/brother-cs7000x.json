@@ -1,0 +1,128 @@
+{
+  "slug": "brother-cs7000x",
+  "brand": "Brother",
+  "model": "CS7000X",
+  "series": "CS",
+  "type": "computerized",
+  "industrial": false,
+  "jobs": ["beginner", "quilting"],
+  "manufacturerUrl": "https://www.brother-usa.com/p/sewing/CS7000X",
+  "retailerUrl": "https://www.sewingmachinesplus.com/CS7000X.php",
+  "priceUsdSeen": 279.99,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "Amazon third-party new price as tracked by camelcamelcamel on 2026-09-18; Sewing Machines Plus price not visible in results",
+  "specs": {
+    "stitchTypes": {"value": "70 built-in stitches: utility, decorative, quilting and heirloom, plus 7 one-step auto-size buttonholes", "source": "https://www.brother-usa.com/p/sewing/CS7000X"},
+    "stitchCount": {"value": 70, "source": "https://www.brother-usa.com/p/sewing/CS7000X"},
+    "maxSpm": {"value": 750, "source": "https://www.sewingpartsonline.com/products/brother-cs7000x-computerized-sewing-machine"},
+    "threads": {"value": null, "source": null},
+    "differentialFeed": {"value": null, "source": null},
+    "throatIn": {"value": null, "source": null},
+    "needleSystem": {"value": "130/705H household (flat shank)", "source": "https://www.manualslib.com/manual/2672485/Brother-Cs7000x.html"},
+    "presserFootLift": {"value": null, "source": null},
+    "threadTrimmer": {"value": null, "source": null},
+    "feedSystem": {"value": "Drop feed (feed dogs lower for free motion quilting)", "source": "https://www.sewingmachinefun.com/brother-cs7000x-review/"},
+    "buttonhole": {"value": "7 one-step, auto-size", "source": "https://www.brother-usa.com/p/sewing/CS7000X"},
+    "motor": {"value": null, "source": null},
+    "frame": {"value": null, "source": null},
+    "weightLb": {"value": 10.5, "source": "https://www.sewingpartsonline.com/products/brother-cs7000x-computerized-sewing-machine"},
+    "dimensionsIn": {"value": "12.2 x 6.65 x 16.25", "source": "https://www.sewingpartsonline.com/products/brother-cs7000x-computerized-sewing-machine"},
+    "includedFeet": {"value": "10 presser feet; detachable wide table; hard protective case", "source": "https://www.sewingmachinesplus.com/CS7000X.php"},
+    "warrantyUs": {"value": "25 yr chassis casting, 2 yr electronic components and PCBs (replacement labor excluded), 1 yr parts, labor and accessories", "source": "https://www.sewingmachinesplus.com/CS7000X.php"},
+    "maxStitchWidthMm": {"value": 7, "source": "https://www.sewingpartsonline.com/products/brother-cs7000x-computerized-sewing-machine"},
+    "maxStitchLengthMm": {"value": 5, "source": "https://www.sewingpartsonline.com/products/brother-cs7000x-computerized-sewing-machine"},
+    "bobbin": {"value": "Top drop-in, quick-set", "source": "https://www.qualitysewing.com/products/brother-cs7000x-computerized-sewing-and-quilting-machine"},
+    "needleThreader": {"value": "Automatic", "source": "https://www.brother-usa.com/p/sewing/CS7000X"},
+    "speedControl": {"value": "Slider speed control; start/stop button with pedal removed; needle up/down", "source": "https://www.sewingmachinefun.com/brother-cs7000x-review/"},
+    "freeArm": {"value": "Yes, accessory compartment removes", "source": "https://www.sewingmachinefun.com/brother-cs7000x-review/"}
+  },
+  "claims": [
+    "\"Large needle-to-arm workspace\" (manufacturer claim, product page); no inch figure published",
+    "\"Durable Metal Frame\" appears in Walmart listing titles (listing claim); Brother page wording not captured",
+    "\"Perfect for beginners and experienced sewists alike\" (retailer claim, qualitysewing.com)",
+    "\"Sewed through eight layers of 12-ounce denim\" (review-site test claim, techgearlab.com); not our test"
+  ],
+  "conflicts": [
+    "Throat space: Brother says large needle-to-arm workspace; one review says only slightly larger than standard. No inch figure in any snippet, so throatIn is null and renders [verify].",
+    "Price: $279.99 Amazon third-party (camelcamelcamel, 2026-09-18) vs $302.49 comparable value (Best Buy) vs $219 seen by a PatternReview member vs about $280 in review blogs. Catalog will show $279.99 and the low $200s band.",
+    "Frame: metal frame appears in Walmart titles only. Kept as a listing claim, frame spec null.",
+    "Model naming: CS7000X replaced the CS7000i; both are 70 stitch machines and used listings mix them. Specs above are for the X."
+  ],
+  "ownerThemes": [
+    {"theme": "A sewing blogger's first impressions: easy threading, the automatic needle threader takes practice, and the wide table and drop feed make it workable for lap and baby quilts.", "tone": "positive", "source": "https://sewcanshe.com/first-impressions-of-my-new-brother-cs7000x-sewing-machine/"},
+    {"theme": "PatternReview members list the CS7000X around $219 as a second or first machine, and ask whether it is enough for bag making against the NQ900.", "tone": "mixed", "source": "https://sewing.patternreview.com/SewingDiscussions/topic/130683"}
+  ],
+  "evidence": "mixed",
+  "buyerQuestions": [
+    "Is the Brother CS7000X good for quilting?",
+    "What is the throat space on the Brother CS7000X?",
+    "What is the difference between the CS7000X and CS7000i?",
+    "How fast does the Brother CS7000X sew?",
+    "Can the Brother CS7000X sew denim or canvas?",
+    "What feet come with the CS7000X?",
+    "Does the CS7000X have a metal frame?",
+    "What is the Brother warranty on the CS7000X?"
+  ],
+  "crossShop": [
+    {"slug": "brother-st371hd", "why": "Brother's mechanical alternative at a similar price; buyers weigh 70 computerized stitches against a simpler machine marketed for thick fabric."},
+    {"slug": "singer-4423", "why": "The mechanical metal-frame competitor at a lower price with 1,100 spm."},
+    {"slug": "janome-hd3000", "why": "A heavier mechanical for buyers who want build over stitch count."},
+    {"slug": "janome-mc6650", "why": "The step up for quilters who need a published 10 in throat and 1,000 spm."}
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "sources": [
+    "https://www.brother-usa.com/p/sewing/CS7000X",
+    "https://www.sewingmachinesplus.com/CS7000X.php",
+    "https://www.sewingpartsonline.com/products/brother-cs7000x-computerized-sewing-machine",
+    "https://www.qualitysewing.com/products/brother-cs7000x-computerized-sewing-and-quilting-machine",
+    "https://www.manualslib.com/manual/2672485/Brother-Cs7000x.html",
+    "https://www.sewingmachinefun.com/brother-cs7000x-review/",
+    "https://www.techgearlab.com/reviews/electronics/sewing-machine/brother-cs7000x",
+    "https://cozystitchery.com/reviews/brother-cs7000x-review/",
+    "https://sewcanshe.com/first-impressions-of-my-new-brother-cs7000x-sewing-machine/",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/130683",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/125800",
+    "https://camelcamelcamel.com/product/B08BH5GTNC",
+    "https://www.bestbuy.com/product/brother-cs7000x-computerized-sewing-and-quilting-machine/J7CJ38ZXQX",
+    "https://business.walmart.com/ip/Brother-CS7000X-Durable-Metal-Frame-Computerized-Sewing-Machine-with-Wide-Table-for-Quilting/325410476"
+  ],
+  "editorial": {
+    "verdict": "The CS7000X is the budget computerized package: 70 stitches, 7 one-step buttonholes, 10 feet, a wide table and a hard case for under $300, with a 750 spm ceiling and an unpublished throat that cap its quilting ambitions.",
+    "whoFor": "A first machine buyer who wants computerized stitch selection, needle up/down and a wide table for piecing and lap quilts at the lowest price.",
+    "skipIf": "You need speed above 750 spm, a published throat wider than a standard domestic, or a heavier machine for regular canvas and denim work.",
+    "keySpec": "70 stitches · 750 spm · 7 mm width · 10 feet and wide table · 10.5 lb",
+    "strengths": [
+      "Complete kit: 10 feet, wide table and hard case included at a sub-$300 price.",
+      "7 one-step auto-size buttonholes, needle up/down and start/stop button.",
+      "Brother 25 yr chassis warranty with 2 yr on electronics."
+    ],
+    "weaknesses": [
+      "750 spm is slow for piecing volume; the Juki TL-2010Q and Janome MC6650 run 1,500 and 1,000.",
+      "Throat space is not published in inches; Brother says only large needle-to-arm workspace.",
+      "At 10.5 lb it is light, which owners of heavy fabrics read as a build ceiling."
+    ],
+    "checks": [
+      {"title": "Measure the throat before you plan a quilt", "body": "No inch figure is published. If you quilt anything beyond lap size, compare against a machine with a stated 8.5 to 10 in throat."},
+      {"title": "CS7000X, not CS7000i", "body": "The older CS7000i shares the 70 stitch count and is still sold used. Check the model label if the price looks too good."},
+      {"title": "Count what is in the bundle", "body": "Amazon and Walmart sell case, thread and bobbin bundles at different prices. The base machine already includes the hard case and wide table."}
+    ],
+    "realCost": [
+      "Spare 130/705H needles in 80/12 and 90/14",
+      "Class 15 style drop-in bobbins",
+      "A walking foot if not in your bundle's 10 feet",
+      "Quilting gloves for free motion with the drop feed"
+    ],
+    "faqs": [
+      {"q": "Is the Brother CS7000X good for quilting?", "a": "It has a drop feed for free motion, a detachable wide table and quilting stitches. Its throat is not published in inches and top speed is 750 spm, so it suits lap quilts more than bed quilts."},
+      {"q": "What is the throat space on the CS7000X?", "a": "Not published. Brother describes a large needle-to-arm workspace without a measurement."},
+      {"q": "What is the difference between the CS7000X and the CS7000i?", "a": "The X is the current model; both list 70 stitches. Published differences were not captured in search results, so check the label when buying used."},
+      {"q": "How fast does the CS7000X sew?", "a": "Up to 750 stitches per minute per dealer listings."},
+      {"q": "Can the CS7000X sew denim?", "a": "One review site reports sewing multiple layers of denim. We have not tested it; the machine is a 10.5 lb domestic and Brother makes no thick-fabric claim on the page found."},
+      {"q": "What feet come with the CS7000X?", "a": "Ten presser feet plus a wide table and hard case, per dealer listings. The exact foot list was not captured."},
+      {"q": "Does the CS7000X have a metal frame?", "a": "Walmart listing titles say Durable Metal Frame. Brother's own page wording was not captured, so it is recorded as a listing claim."},
+      {"q": "What is the warranty on the CS7000X?", "a": "25 years on the chassis casting, 2 years on electronic components and circuit boards, 1 year on parts, labor and accessories, per the Sewing Machines Plus listing."},
+      {"q": "How much does the Brother CS7000X cost?", "a": "About $280 new; $279.99 was the Amazon third-party price tracked on 2026-09-18, and Best Buy quotes $302.49 comparable value."}
+    ]
+  }
+}

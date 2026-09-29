@@ -1,0 +1,236 @@
+{
+  "slug": "janome-hd5000",
+  "brand": "Janome",
+  "model": "HD5000",
+  "series": "HD",
+  "type": "mechanical",
+  "industrial": false,
+  "jobs": [
+    "heavy-duty",
+    "beginner"
+  ],
+  "manufacturerUrl": "https://www.janome.com/product/hd-5000/",
+  "retailerUrl": null,
+  "priceUsdSeen": null,
+  "priceSeenDate": null,
+  "priceSeenAt": null,
+  "specs": {
+    "stitchTypes": {
+      "value": "18 built-in stitches including one-step buttonhole; max width 7 mm, max length 4 mm",
+      "source": "https://www.janome.com/product/hd-5000/"
+    },
+    "stitchCount": {
+      "value": 18,
+      "source": "https://www.janome.com/product/hd-5000/"
+    },
+    "maxSpm": {
+      "value": 860,
+      "source": "https://www.kenssewingcenter.com/janome-hd5000-heavy-duty-sewing-machine.html"
+    },
+    "threads": {
+      "value": null,
+      "source": null
+    },
+    "differentialFeed": {
+      "value": null,
+      "source": null
+    },
+    "throatIn": {
+      "value": null,
+      "source": null
+    },
+    "needleSystem": {
+      "value": null,
+      "source": null
+    },
+    "presserFootLift": {
+      "value": "Extra-high presser foot lift (dealer copy); lift height not published",
+      "source": "https://www.amazon.com/Janome-HD5000-Heavy-Sewing-Machine/dp/B084M81BC6"
+    },
+    "threadTrimmer": {
+      "value": null,
+      "source": null
+    },
+    "feedSystem": {
+      "value": "7-piece feed dog; drop feed lever for free motion; horizontal full rotary hook; free arm",
+      "source": "https://www.janome.com/product/hd-5000/"
+    },
+    "buttonhole": {
+      "value": "One-step",
+      "source": "https://www.janome.com/product/hd-5000/"
+    },
+    "motor": {
+      "value": null,
+      "source": null
+    },
+    "frame": {
+      "value": "Single-cast aluminum frame",
+      "source": "https://www.sewingpartsonline.com/products/janome-hd-5000-heavy-duty-sewing-machine"
+    },
+    "weightLb": {
+      "value": 18.7,
+      "source": "https://www.kenssewingcenter.com/janome-hd5000-heavy-duty-sewing-machine.html"
+    },
+    "dimensionsIn": {
+      "value": "16 x 7 x 11",
+      "source": "https://www.kenssewingcenter.com/janome-hd5000-heavy-duty-sewing-machine.html"
+    },
+    "includedFeet": {
+      "value": "7 accessory feet (Janome); dealer copy names automatic buttonhole foot, blind hem foot, overedge foot, quilting attachment kit and quilting guide bar",
+      "source": "https://www.janome.com/product/hd-5000/"
+    },
+    "warrantyUs": {
+      "value": "25 yr materials and workmanship, 5 yr electrical components, 1 yr labor (Janome America statement)",
+      "source": "https://www.janome.com/support/warranty/"
+    },
+    "needleThreader": {
+      "value": "Built-in one-hand needle threader",
+      "source": "https://www.janome.com/product/hd-5000/"
+    }
+  },
+  "claims": [
+    "\"Heavy Duty\" is the HD series name, not a capacity rating (manufacturer series name)",
+    "\"Heavy-duty mechanical workhorse\" (manufacturer claim, product page)",
+    "\"Seven-piece feed dog feeds fabric smoothly while maintaining a taut surface\" (manufacturer claim, product page)",
+    "\"Sews 12 layers of denim\" (dealer title, Linda's Quilt Shoppe)"
+  ],
+  "conflicts": [
+    "Stitch count: 18 (janome.com, Amazon Black Edition) vs 19 (Ken's spec block) vs 27 (one comparison blog). Catalog uses 18 from Janome.",
+    "Stitch width: 7 mm (janome.com) vs 6.5 mm (Ken's spec block). Catalog uses 7 mm from Janome.",
+    "Feed dog: 7-piece (janome.com) vs 5-piece (Amazon listing). Catalog uses Janome.",
+    "Price: no dealer price appeared in snippets this session. A PatternReview owner cites about $499 and a comparison blog $529; earlier brand research saw $499 at Ken's. Left null.",
+    "Retailer: no Sewing Machines Plus HD5000 page surfaced in search; Ken's, Amazon, Target and Best Buy did. retailerUrl null."
+  ],
+  "ownerThemes": [
+    {
+      "theme": "An owner of ten months calls it a great basic garment machine bought for about $400 and would recommend it.",
+      "tone": "positive",
+      "source": "https://sewing.patternreview.com/review/machine/7293"
+    },
+    {
+      "theme": "A forum thread on upgrading within Janome praises the HD5000 at about $499, noting the extra presser foot notch for thick fabric and that it is mechanical with 18 stitches.",
+      "tone": "positive",
+      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/126098"
+    },
+    {
+      "theme": "HD series buyers ask which of the HD1000, HD3000 and HD5000 is worth it; replies frame the HD5000 as the same core machine with more stitches, wider zigzag and a quilting kit.",
+      "tone": "mixed",
+      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/112978"
+    }
+  ],
+  "evidence": "owner",
+  "buyerQuestions": [
+    "What is the difference between the Janome HD5000 and HD3000?",
+    "How many stitches does the Janome HD5000 have, 18 or 19?",
+    "Is the Janome HD5000 good for quilting?",
+    "Can the Janome HD5000 sew denim and canvas?",
+    "Does the Janome HD5000 have a needle threader?",
+    "Is the Janome HD5000 good for beginners?",
+    "What is the Janome HD5000 Black Edition?",
+    "How much does the Janome HD5000 weigh?"
+  ],
+  "crossShop": [
+    {
+      "slug": "janome-hd3000",
+      "why": "Same body for about $100 less with 6.5 mm zigzag and no quilting kit."
+    },
+    {
+      "slug": "singer-4452",
+      "why": "The Singer heavy-duty flagship: faster, more stitches, cheaper, lighter build."
+    },
+    {
+      "slug": "brother-st371hd",
+      "why": "Brother's 37-stitch metal-frame rival at a lower price."
+    }
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "sources": [
+    "https://www.janome.com/product/hd-5000/",
+    "https://www.janome.com/product/hd5000be/",
+    "https://www.kenssewingcenter.com/janome-hd5000-heavy-duty-sewing-machine.html",
+    "https://www.amazon.com/Janome-HD5000-Heavy-Sewing-Machine/dp/B084M81BC6",
+    "https://www.sewingpartsonline.com/products/janome-hd-5000-heavy-duty-sewing-machine",
+    "https://www.amazon.com/Janome-Heavy-Duty-Aluminum-Stitches-Threader/dp/B09MDLYYPC",
+    "https://www.poconosewandvac.com/products/janome/machines/janome-hd5000",
+    "https://shop.lindasquiltshoppe.com/products/janome-hd5000-heavy-duty-sewing-machine",
+    "https://bobbinhub.com/janome-hd5000-vs-hd3000/",
+    "https://sewing.patternreview.com/review/machine/7293",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/126098",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/112978",
+    "https://www.janome.com/support/warranty/"
+  ],
+  "editorial": {
+    "verdict": "The HD5000 is the top mechanical HD: the HD3000 body with a 7 mm zigzag, one-hand needle threader and seven feet including a quilting kit.",
+    "whoFor": "A beginner or garment sewist who wants Janome's aluminum body and is willing to pay about $100 over the HD3000 for the wider stitch and the quilting accessories.",
+    "skipIf": "You want speed (860 spm is the ceiling), a computerized stitch panel, or you sew straight seams only and would not use the extra width.",
+    "keySpec": "860 spm · 18 stitches · 7 mm zigzag · 18.7 lb aluminum body",
+    "strengths": [
+      "7 mm maximum stitch width, wider than the HD3000 and the Singer 44-series.",
+      "Seven feet in the box including a quilting attachment kit and guide bar.",
+      "Horizontal full rotary hook, 7-piece feed dog and a one-hand needle threader per Janome."
+    ],
+    "weaknesses": [
+      "860 spm, the slowest of the heavy-duty rivals.",
+      "Sources disagree on stitch count (18 vs 19) and width (7 vs 6.5 mm).",
+      "No dealer price was visible in accessible listings."
+    ],
+    "checks": [
+      {
+        "title": "18 or 19 stitches",
+        "body": "Janome's page says 18 including the one-step buttonhole; some dealers count 19. It is a counting difference, not a different machine."
+      },
+      {
+        "title": "White, Black Edition or school trade-in",
+        "body": "Ken's lists new, Black Edition, classroom and school trade-in units under similar titles. Confirm condition and bundle before comparing prices."
+      },
+      {
+        "title": "Is the HD3000 enough",
+        "body": "The two share body, speed and feed. The HD5000 adds 0.5 mm of zigzag, a needle threader and quilting feet. Straight-seam sewists can save the difference."
+      }
+    ],
+    "realCost": [
+      "Walking foot if the quilting kit in your bundle does not include one",
+      "Denim and leather needles size 16 to 18",
+      "Extra bobbins"
+    ],
+    "faqs": [
+      {
+        "q": "How many stitches does the HD5000 have?",
+        "a": "Janome's page lists 18 including a one-step buttonhole. Some dealer spec blocks count 19."
+      },
+      {
+        "q": "What is the difference between the HD5000 and HD3000?",
+        "a": "Same body and 860 spm. The HD5000 has a 7 mm maximum stitch width versus 6.5 mm, a one-hand needle threader and seven feet including a quilting kit. Comparison sites put the gap at about $100."
+      },
+      {
+        "q": "Is the HD5000 good for quilting?",
+        "a": "It has a drop feed lever for free motion and ships with a quilting attachment kit and guide bar. Throat space is not published, so it is a small-project quilter."
+      },
+      {
+        "q": "Can the HD5000 sew denim?",
+        "a": "Dealer copy claims multiple denim layers and an extra-high presser foot lift. Janome does not publish a layer count, so treat it as a claim."
+      },
+      {
+        "q": "How fast is the HD5000?",
+        "a": "860 stitches per minute per dealer spec copy."
+      },
+      {
+        "q": "How much does the HD5000 weigh?",
+        "a": "18.7 lb per Ken's Sewing Center spec block; dimensions W 16 x H 11 x D 7 in."
+      },
+      {
+        "q": "Does the HD5000 have a needle threader?",
+        "a": "Yes, Janome lists a built-in one-hand needle threader."
+      },
+      {
+        "q": "What does the HD5000 cost?",
+        "a": "No dealer price appeared in the results captured. Owners cite about $499. Confirm at an authorized Janome dealer."
+      },
+      {
+        "q": "What is the HD5000 warranty?",
+        "a": "Janome America states 25 years materials and workmanship, 5 years electrical, 1 year labor."
+      }
+    ]
+  }
+}

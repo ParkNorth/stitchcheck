@@ -1,0 +1,133 @@
+{
+  "slug": "bernina-l-850",
+  "brand": "Bernina",
+  "model": "L 850",
+  "series": "L",
+  "type": "serger",
+  "industrial": false,
+  "jobs": ["serger"],
+  "manufacturerUrl": "https://www.bernina.com/en-US/Machines-US/Overlocker/Serger/BERNINA-L-850",
+  "retailerUrl": "https://www.sewingmachinesplus.com/bernina-L850.php",
+  "priceUsdSeen": 3999,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "MSRP quoted on dealer listings (qualitysewing.com; berninaomaha.com discounts off MSRP); Bernina is dealer only",
+  "specs": {
+    "stitchTypes": {"value": "18 stitch variations: 1 four-thread overlock, 8 three-thread (overlock wide and narrow, super-stretch, flatlock wide and narrow, rolled hem), 8 two-thread (overlock, flatlock, rolled hem)", "source": "https://www.qualitysewing.com/products/bernina-l-850"},
+    "stitchCount": {"value": 18, "source": "https://www.qualitysewing.com/products/bernina-l-850"},
+    "maxSpm": {"value": 1500, "source": "https://www.bernina.com/en-US/Machines-US/Overlocker/Serger/BERNINA-L-850"},
+    "threads": {"value": "2, 3 or 4 thread, 2 needles", "source": "https://www.qualitysewing.com/products/bernina-l-850"},
+    "differentialFeed": {"value": "Adjustable; ratio not published on pages found", "source": "https://meissnersewing.com/products/bernina-l850-overlock"},
+    "throatIn": {"value": 5.625, "source": "https://shopify.35thavesewandvac.com/products/bernina-l850-overlocker-serger"},
+    "needleSystem": {"value": "ELx705, sizes 70 to 90", "source": "https://www.qualitysewing.com/products/bernina-l-850"},
+    "presserFootLift": {"value": "2-step presser foot lifter with front-foot lift; swing-out foot with auto swing back; knee lifter (Free Hand System); 6-step presser foot pressure", "source": "https://www.bernina.com/Bernina/media/products/Overlocker/L%20850/BERNINA_L850_Flyer_EN-US_v3_low-res.pdf"},
+    "threadTrimmer": {"value": null, "source": null},
+    "feedSystem": {"value": "Differential feed; Micro Thread Control (mtc) adjustable while sewing; automatic needle stop up", "source": "https://www.bernina.com/Bernina/media/products/Overlocker/L%20850/BERNINA_L850_Flyer_EN-US_v3_low-res.pdf"},
+    "buttonhole": {"value": null, "source": null},
+    "motor": {"value": null, "source": null},
+    "frame": {"value": null, "source": null},
+    "weightLb": {"value": 27.1, "source": "https://shopify.35thavesewandvac.com/products/bernina-l850-overlocker-serger"},
+    "dimensionsIn": {"value": "18 x 13 x 16", "source": "https://shopify.35thavesewandvac.com/products/bernina-l850-overlocker-serger"},
+    "includedFeet": {"value": "Standard overlock foot; easy on/off extension table included; accessory box extension optional on L 850 (standard on L 860 and L 890)", "source": "https://www.bernina.com/en-US/Accessories-US/Overlocker-Accessories/Standard-Accessories-Overlocker/Standard-accessories-BERNINA-L-850"},
+    "warrantyUs": {"value": "Bernina US: 20 yr mechanical parts, 5 yr printed circuit boards, 2 yr electrical parts; labor not covered", "source": "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty"},
+    "threadingSystem": {"value": "One-Step Air Threader for both loopers via foot control; built-in needle threader", "source": "https://www.bernina.com/Bernina/media/products/Overlocker/L%20850/BERNINA_L850_Flyer_EN-US_v3_low-res.pdf"},
+    "workspaceHeightIn": {"value": 3.375, "source": "https://shopify.35thavesewandvac.com/products/bernina-l850-overlocker-serger"},
+    "stitchWidthMm": {"value": "3 to 9", "source": "https://rockymountainsewing.com/product/bernina-l850-serger"},
+    "freeArm": {"value": "Yes", "source": "https://sewing.patternreview.com/review/machine/7332"}
+  },
+  "claims": [
+    "\"The ultimate overlocker\" (manufacturer flyer, bernina.com)",
+    "\"For professional overlock seams\" (manufacturer tagline, bernina.com)",
+    "\"Threads like magic\" style wording about the air threader (dealer copy, sewingmachinesales.co.uk)",
+    "\"Low price guarantee\" (dealer claim, meissnersewing.com); MSRP is set by Bernina and dealer prices vary"
+  ],
+  "conflicts": [
+    "Price: $3,999 MSRP (qualitysewing.com, berninaomaha.com) vs $2,499 paid during a promotion (PatternReview owner). Catalog will show $3,999 [verify] and note that dealer promotions run well below MSRP.",
+    "Weight and dimensions: 27.1 lb and 18 x 13 x 16 in from a dealer listing; Bernina's own page value not captured. Catalog will show them flagged [verify].",
+    "Differential feed and presser foot lift height: described as adjustable and 2-step but no numeric range or mm figure in any snippet. Values stay descriptive.",
+    "Warranty: Bernina's general 20/5/2 warranty vs a dealer listing saying all machines include a 1 year service warranty. These are different things (parts vs dealer labor). Catalog will cite Bernina.",
+    "Stitch width: 3 to 9 mm appears on a dealer page (rockymountainsewing.com); the flyer figure was not captured."
+  ],
+  "ownerThemes": [
+    {"theme": "An owner who replaced a 20-year-old Bernina 800DL calls the L 850 substantial and steady at top speed, bought it at $2,499 on promotion, and could not justify the $1,500 step to the L 860.", "tone": "positive", "source": "https://sewing.patternreview.com/review/machine/7332"},
+    {"theme": "One unit arrived with a misaligned needle so the 4-thread stitch would not form until adjusted; the same owner notes a chirp alert when the knee lift and pedal are used together, and traced a tension problem to lifting the foot mid-seam.", "tone": "mixed", "source": "https://sewing.patternreview.com/review/machine/7238"},
+    {"theme": "Buyers cross-shopping the L 850 against the Baby Lock Acclaim weigh Bernina's set-once tension against Baby Lock's continuous automatic tension.", "tone": "mixed", "source": "https://sewing.patternreview.com/SewingDiscussions/topic/121627"}
+  ],
+  "evidence": "owner",
+  "buyerQuestions": [
+    "How much does the Bernina L 850 cost?",
+    "What is the difference between the Bernina L 850 and L 860?",
+    "Bernina L 850 or Baby Lock Acclaim?",
+    "Does the Bernina L 850 have air threading?",
+    "Does the Bernina L 850 do coverstitch?",
+    "What needles does the Bernina L 850 use?",
+    "How heavy is the Bernina L 850?",
+    "Does the L 850 have a free arm?",
+    "What is the Bernina serger warranty?"
+  ],
+  "crossShop": [
+    {"slug": "juki-mo-1000", "why": "The other air-threading 2/3/4 serger at 1,500 spm, at well under half the Bernina MSRP."},
+    {"slug": "babylock-vibrant", "why": "The entry Baby Lock; buyers step up the Baby Lock ladder to the Acclaim, the L 850's usual dealer rival."},
+    {"slug": "juki-mo-654de", "why": "The value 2/3/4 thread manual-threading serger that shows what the air threader and knee lift premium buys."},
+    {"slug": "brother-1034d", "why": "The reference budget serger; the L 850 costs more than ten of them, so it frames the decision."}
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "sources": [
+    "https://www.bernina.com/en-US/Machines-US/Overlocker/Serger/BERNINA-L-850",
+    "https://www.bernina.com/Bernina/media/products/Overlocker/L%20850/BERNINA_L850_Flyer_EN-US_v3_low-res.pdf",
+    "https://www.bernina.com/en-US/Accessories-US/Overlocker-Accessories/Standard-Accessories-Overlocker/Standard-accessories-BERNINA-L-850",
+    "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty",
+    "https://shop.berninausa.com/overlocker/L-series/BERNINA-L-850",
+    "https://www.sewingmachinesplus.com/bernina-L850.php",
+    "https://www.qualitysewing.com/products/bernina-l-850",
+    "https://meissnersewing.com/products/bernina-l850-overlock",
+    "https://shopify.35thavesewandvac.com/products/bernina-l850-overlocker-serger",
+    "https://rockymountainsewing.com/product/bernina-l850-serger",
+    "https://www.berninaomaha.com/shop/c/p/BERNINA-L850-SergerOverlocker-x51090714.htm",
+    "https://www.sewingmachinesales.co.uk/overlocker/bernina/l850-bernina.html",
+    "https://sewingmachineguide.co.uk/comparison-bernina-l-850-vs-bernina-l-860/",
+    "https://sewing.patternreview.com/review/machine/7332",
+    "https://sewing.patternreview.com/review/machine/7238",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/121627",
+    "https://www.manualslib.com/manual/2082687/Bernina-L-850.html"
+  ],
+  "editorial": {
+    "verdict": "The L 850 is a dealer-only 2/3/4 thread air-threading serger with a knee lift, 1,500 spm and 18 stitches, whose $3,999 MSRP buys mechanical refinement rather than the touchscreen or coverstitch of its L 860 and L 890 siblings.",
+    "whoFor": "A garment sewer who serges often, wants one-step air threading, a knee lifter and Bernina dealer support, and is buying on a dealer promotion rather than at MSRP.",
+    "skipIf": "You want a coverstitch in the same machine (L 890), continuous auto tension (Baby Lock), or you are not prepared to pay several times the price of a Juki MO-1000 for similar thread counts.",
+    "keySpec": "2/3/4 thread · 1,500 spm · 18 stitches · air threading · knee lift · 27.1 lb",
+    "strengths": [
+      "One-step air threading of both loopers plus a built-in needle threader.",
+      "Free Hand System knee lifter and Micro Thread Control adjustable while sewing, rare on sergers.",
+      "27.1 lb build that owners describe as steady at full speed, with a 20 yr mechanical warranty."
+    ],
+    "weaknesses": [
+      "$3,999 MSRP; the same thread counts and air threading cost far less from Juki, and dealer promotions make the real price hard to pin down.",
+      "No coverstitch or chainstitch; those live in the L 890.",
+      "Differential feed range, foot lift height and Bernina's own weight figure are not published on pages found."
+    ],
+    "checks": [
+      {"title": "Ask for the promotion price, not MSRP", "body": "One owner paid $2,499 during a dealer promotion against a $3,999 list. Bernina sets MSRP and dealers discount; get a written quote."},
+      {"title": "Test the 4-thread stitch before leaving the dealer", "body": "One owner's unit shipped with a misaligned needle so the 4-thread overlock would not form. Have the dealer sew a chain on all four threads."},
+      {"title": "Decide on the L 860 screen first", "body": "The L 860 adds a color touchscreen with guided setup for about $1,500 more per an owner; stitch capability is the same class."}
+    ],
+    "realCost": [
+      {"item": "Accessory box extension", "note": "Optional on the L 850, standard on L 860 and L 890; dealer price not published on pages found"},
+      {"item": "Specialty feet", "note": "Bernina L series feet such as the gathering foot are dealer items; price not captured"},
+      {"item": "ELx705 needles", "note": "Serger-specific needle system, sizes 70 to 90; not the household 130/705H"},
+      {"item": "Dealer new owner class", "note": "Usually included with a Bernina dealer purchase; confirm"}
+    ],
+    "faqs": [
+      {"q": "How much does the Bernina L 850 cost?", "a": "Dealer listings quote a $3,999 MSRP. One owner paid $2,499 during a promotion. Bernina is dealer only, so the price is set at the counter."},
+      {"q": "What is the difference between the L 850 and L 860?", "a": "The L 860 adds a color touchscreen with guided and expert modes that preset tension, stitch length and differential feed. An owner put the gap at about $1,500."},
+      {"q": "Bernina L 850 or Baby Lock Acclaim?", "a": "Both air-thread. Forum members note the Bernina sets an initial tension per stitch while Baby Lock adjusts tension continuously as you sew. Neither has a public price."},
+      {"q": "Does the L 850 have air threading?", "a": "Yes. Bernina's One-Step Air Threader threads both loopers via the foot control, and there is a built-in needle threader."},
+      {"q": "Does the Bernina L 850 do coverstitch?", "a": "No. Coverstitch and chainstitch are on the L 890."},
+      {"q": "What needles does the Bernina L 850 use?", "a": "ELx705 serger needles in sizes 70 to 90, per dealer listings."},
+      {"q": "How heavy is the L 850?", "a": "27.1 lb, about 12.3 kg, per a dealer listing; Bernina's own figure was not captured."},
+      {"q": "What is the throat space on the L 850?", "a": "5 5/8 in to the right of the needle and 3 3/8 in high, per a dealer listing."},
+      {"q": "Does the L 850 have a free arm?", "a": "Yes, owners single out the free arm as a feature few serger brands offer."},
+      {"q": "What is the Bernina warranty on the L 850?", "a": "Bernina's US warranty is 20 years on mechanical parts, 5 on circuit boards and 2 on electrical parts; labor is not covered."}
+    ]
+  }
+}

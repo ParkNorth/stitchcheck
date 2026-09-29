@@ -1,0 +1,259 @@
+{
+  "slug": "juki-ddl-5550",
+  "brand": "Juki",
+  "model": "DDL-5550",
+  "series": "DDL",
+  "type": "mechanical",
+  "industrial": true,
+  "jobs": [
+    "heavy-duty"
+  ],
+  "manufacturerUrl": "https://pdf.directindustry.com/pdf/juki-industrial-sewing-machine/ddl-5550n-series/173840-711982.html",
+  "retailerUrl": null,
+  "priceUsdSeen": 1265.99,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "Walmart marketplace listing, head with table, servo motor and lamp, assembly required (search snippet; Sewing Machines Plus shows only a parts page for this model)",
+  "specs": {
+    "stitchTypes": {
+      "value": "Straight stitch only, single needle lockstitch, with reverse",
+      "source": "https://www.goldstartool.com/juki-ddl-5550n-high-speed-single-needle-lockstitch-industrial-sewing-machine-with-table-and-servo-motor.htm"
+    },
+    "stitchCount": {
+      "value": 1,
+      "source": "https://www.goldstartool.com/juki-ddl-5550n-high-speed-single-needle-lockstitch-industrial-sewing-machine-with-table-and-servo-motor.htm"
+    },
+    "maxSpm": {
+      "value": 5500,
+      "source": "https://www.goldstartool.com/juki-ddl-5550n-high-speed-single-needle-lockstitch-industrial-sewing-machine-with-table-and-servo-motor.htm"
+    },
+    "threads": {
+      "value": null,
+      "source": null
+    },
+    "differentialFeed": {
+      "value": null,
+      "source": null
+    },
+    "throatIn": {
+      "value": null,
+      "source": null
+    },
+    "needleSystem": {
+      "value": "DBx1, size 14 at delivery, range 9 to 18",
+      "source": "https://www.goldstartool.com/juki-ddl-5550n-high-speed-single-needle-lockstitch-industrial-sewing-machine-with-table-and-servo-motor.htm"
+    },
+    "presserFootLift": {
+      "value": "5.5 mm by hand, 13 mm by knee (knee lifter on stand)",
+      "source": "https://www.goldstartool.com/juki-ddl-5550n-high-speed-single-needle-lockstitch-industrial-sewing-machine-with-table-and-servo-motor.htm"
+    },
+    "threadTrimmer": {
+      "value": "None on DDL-5550 and DDL-5550N; automatic trimmer is the DDL-5550N-7 variant",
+      "source": "https://www.amazon.com/ask/questions/TxWL36Z3HDS0KS/"
+    },
+    "feedSystem": {
+      "value": "Drop feed; max stitch length 5 mm; needle bar stroke 30.7 mm",
+      "source": "https://www.manualslib.com/manual/826493/Juki-Ddl-5550n.html?page=3"
+    },
+    "buttonhole": {
+      "value": null,
+      "source": null
+    },
+    "motor": {
+      "value": "Not built in. Sold as a head; dealer bundles add a table, stand and a servo or clutch motor",
+      "source": "https://carolinaforestvacuum.com/product/juki-ddl-5550-machine-with-table-stand-motor/"
+    },
+    "frame": {
+      "value": "Cast industrial head; automatic lubricating full rotary hook; automatic lubrication with Juki New Defrix Oil No. 1",
+      "source": "https://www.manualslib.com/manual/826493/Juki-Ddl-5550n.html?page=3"
+    },
+    "weightLb": {
+      "value": null,
+      "source": null
+    },
+    "dimensionsIn": {
+      "value": null,
+      "source": null
+    },
+    "includedFeet": {
+      "value": "Dealer complete set: head, 48 x 20 in table with adjustable height (about 26 to 32 in), stand, servo motor, drawer, lamp, belt, tools, manual",
+      "source": "https://carolinaforestvacuum.com/product/juki-ddl-5550-machine-with-table-stand-motor/"
+    },
+    "warrantyUs": {
+      "value": null,
+      "source": null
+    },
+    "stitchLengthMm": {
+      "value": 5,
+      "source": "https://www.goldstartool.com/juki-ddl-5550n-high-speed-single-needle-lockstitch-industrial-sewing-machine-with-table-and-servo-motor.htm"
+    },
+    "needleBarStrokeMm": {
+      "value": 30.7,
+      "source": "https://www.manualslib.com/manual/826493/Juki-Ddl-5550n.html?page=3"
+    },
+    "lubrication": {
+      "value": "Automatic, oil pan; Juki New Defrix Oil No. 1 (ISO VG7 equivalent)",
+      "source": "https://www.manualslib.com/manual/826493/Juki-Ddl-5550n.html?page=3"
+    },
+    "countryOfManufacture": {
+      "value": "Japan (per Juki correspondence quoted in an Amazon Q&A; dealer listings say Made in Japan)",
+      "source": "https://www.amazon.com/ask/questions/TxWL36Z3HDS0KS/"
+    }
+  },
+  "claims": [
+    "\"High-speed, 1-needle lockstitch machine\" (manufacturer description, catalog PDF)",
+    "\"Suitable for light to medium-heavy materials\" (dealer copy, GoldStar Tool)",
+    "\"Table Comes Assembled\" and \"fully assembled 48 x 20 in table\" (dealer claims, Westchester Sewing Machine, Carolina Forest Vac and Sew)",
+    "\"Runs quieter than traditional clutch motors\" (dealer claim about the bundled servo motor, GoldStar Tool)"
+  ],
+  "conflicts": [
+    "Model name: the DDL-5550 is sold today as the DDL-5550N; listings mix the two names. Sub-variants: 5550NA (light materials), 5550NH (heavy materials, size 21 needle, 13 mm knee lift), 5550N-7 (automatic thread trimmer). Catalog treats DDL-5550 and DDL-5550N as one entry and says so.",
+    "Speed: 5,500 spm is the medium-weight figure; the Juki catalog lists 4,000 spm for light and heavy-weight setups. Catalog will use 5,500 with a note.",
+    "Head weight: one dealer snippet states 75 lb (about 34 kg) but the snippet could not be tied to a single page; the Juki catalog field 'Total weight' was not captured. Left null pending a live catalog check.",
+    "Price: $1,265.99 (Walmart, DIY servo bundle) vs $1,200 to $1,425 (Sewing Gold, options) vs a $706.15 total at one dealer that may be head only. Catalog will use $1,265.99 flagged dealer-variable.",
+    "Arm space: no needle-to-arm figure in any snippet; a review site quotes about 11 in for the DDL-8700, a different machine. Left null."
+  ],
+  "ownerThemes": [
+    {
+      "theme": "Owners who moved from a domestic machine say the oil pan means no oiling routine and the stitch is balanced and consistent; one paid about $900 for a complete set.",
+      "tone": "positive",
+      "source": "https://sewing.patternreview.com/review/machine/6638"
+    },
+    {
+      "theme": "First-industrial buyers report they rarely touch the domestic machine afterward and wish they had bought sooner.",
+      "tone": "positive",
+      "source": "https://sewing.patternreview.com/review/machine/2563"
+    },
+    {
+      "theme": "New owners ask about servo motor setup, speed control and bobbin winding while sewing; the long production run means parts and advice are easy to find.",
+      "tone": "mixed",
+      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/107545"
+    },
+    {
+      "theme": "DIY table bundles draw complaints about poor or missing assembly instructions; others found the included instructions adequate.",
+      "tone": "mixed",
+      "source": "https://www.walmart.com/ip/1044018959"
+    }
+  ],
+  "evidence": "owner",
+  "buyerQuestions": [
+    "What is the difference between the Juki DDL-5550 and DDL-5550N?",
+    "Is the DDL-5550 a walking foot machine?",
+    "Can I use the DDL-5550 at home on a regular outlet?",
+    "How much does the DDL-5550 weigh with the table?",
+    "Does the DDL-5550 come with a servo motor or a clutch motor?",
+    "Does the DDL-5550 sew leather or denim?",
+    "How wide is the space to the right of the needle?",
+    "Is the DDL-5550 made in Japan?",
+    "Does the DDL-5550 have a thread trimmer?"
+  ],
+  "crossShop": [
+    {
+      "slug": "juki-ddl-8700",
+      "why": "The other Juki single-needle lockstitch sold to home shops; same 5,500 spm class, usually a little cheaper and not marketed as made in Japan."
+    },
+    {
+      "slug": "juki-dnu-1541s",
+      "why": "Buyers sewing leather, vinyl or canvas find the drop-feed DDL is the wrong tool and step up to the walking foot machine."
+    },
+    {
+      "slug": "juki-tl-2010q",
+      "why": "The portable straight-stitch alternative for anyone without floor space for a 48 in industrial table."
+    }
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "sources": [
+    "https://pdf.directindustry.com/pdf/juki-industrial-sewing-machine/ddl-5550n-series/173840-711982.html",
+    "https://www.goldstartool.com/juki-ddl-5550n-high-speed-single-needle-lockstitch-industrial-sewing-machine-with-table-and-servo-motor.htm",
+    "https://www.manualslib.com/manual/826493/Juki-Ddl-5550n.html?page=3",
+    "https://www.manualslib.com/manual/1581420/Juki-Ddl-5550n.html?page=35",
+    "https://carolinaforestvacuum.com/product/juki-ddl-5550-machine-with-table-stand-motor/",
+    "https://carolinaforestvacuum.com/product/juki-ddl-5550-industrial-sewing-machine/",
+    "https://www.walmart.com/ip/1044018959",
+    "https://www.amazon.com/ask/questions/TxWL36Z3HDS0KS/",
+    "https://sewinggold.com/product/juki-ddl-5550n/",
+    "https://westchestersewingmachine.com/Juki-DDL-5550N-High-speed-Single-Needle-Straight-Lockstitch-Industrial-Sewing-Machine-MADE-IN-JAPAN-with-Table-and-Servo-Motor-Table-Comes-Assembled-p572548805",
+    "https://www.sewingmachinesplus.com/juki-ddl-5550n-parts-accessories.php",
+    "https://sewing.patternreview.com/review/machine/6638",
+    "https://sewing.patternreview.com/review/machine/6314",
+    "https://sewing.patternreview.com/review/machine/6316",
+    "https://sewing.patternreview.com/review/machine/2563",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/107545",
+    "https://sewingtrip.com/reviewsjuki-ddl-5550/"
+  ],
+  "editorial": {
+    "verdict": "The DDL-5550 is a made-in-Japan industrial straight stitch head that does one thing at 5,500 spm and needs a table, a motor and floor space to do it.",
+    "whoFor": "A home shop sewing garments, bags or quilts in volume who wants an industrial lockstitch with a long parts history and is willing to give up zigzag entirely.",
+    "skipIf": "You sew leather, vinyl or thick canvas (that is a walking foot job), or you have no room for a 48 by 20 in table.",
+    "keySpec": "5,500 spm · 5 mm stitch length · 13 mm knee lift · DBx1 needle",
+    "strengths": [
+      "Automatic lubrication with an oil pan, so there is no per-session oiling routine.",
+      "13 mm knee lift and a 5 mm maximum stitch length, both beyond any domestic machine.",
+      "Made in Japan per Juki, on a model that has been in production long enough that parts and advice are easy to find."
+    ],
+    "weaknesses": [
+      "Straight stitch only; no zigzag, no buttonhole, no free arm.",
+      "Sold as a head; the table, stand and motor come from the dealer and DIY bundles ship unassembled with thin instructions.",
+      "Juki's published head weight and arm space did not surface in results, so two size rows read [verify]."
+    ],
+    "checks": [
+      {
+        "title": "5550 or 5550N, and which suffix",
+        "body": "Today's stock is the DDL-5550N. NA is set up for light fabric, NH for heavy fabric with a size 21 needle, and N-7 adds an automatic thread trimmer at a higher price. Confirm which one the listing ships."
+      },
+      {
+        "title": "Servo or clutch motor",
+        "body": "Most current bundles include a servo motor with a speed dial, which is what a home shop wants. Older or cheaper bundles may ship a clutch motor that runs at one speed and is loud at idle."
+      },
+      {
+        "title": "Assembled or DIY table",
+        "body": "Some dealers ship the table assembled with the head mounted. Marketplace bundles ship a flat-pack table, motor and head separately and expect you to mount and belt them."
+      }
+    ],
+    "realCost": [
+      "Table, stand and servo motor if bought as a head only",
+      "DBx1 industrial needles",
+      "Juki New Defrix Oil No. 1 for the oil pan",
+      "Industrial bobbins and bobbin cases",
+      "Freight or pickup for a table that ships on a pallet"
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between the Juki DDL-5550 and DDL-5550N?",
+        "a": "They are the same machine under the current name. Juki now sells it as the DDL-5550N; variants add a letter for light (NA) or heavy (NH) material setups, and N-7 adds an automatic thread trimmer."
+      },
+      {
+        "q": "Is the DDL-5550 a walking foot machine?",
+        "a": "No. It is a drop-feed single-needle lockstitch for light to medium-heavy materials. For leather, vinyl or heavy canvas Juki's walking foot model is the DNU-1541S."
+      },
+      {
+        "q": "How fast does the DDL-5550 sew?",
+        "a": "Juki lists 5,500 stitches per minute for medium-weight material and 4,000 spm for light and heavy-weight setups. A servo motor lets you dial it far lower."
+      },
+      {
+        "q": "Does the DDL-5550 come with a motor?",
+        "a": "Not from Juki. It is sold as a head. Dealers bundle a table, stand and a servo motor; check the listing for which motor is included."
+      },
+      {
+        "q": "How much does the DDL-5550 weigh?",
+        "a": "Not published in the results captured. One dealer snippet says about 75 lb for the head alone; the table and motor add more. Treat the figure as unverified."
+      },
+      {
+        "q": "How much room is there to the right of the needle?",
+        "a": "Not published in the results captured. Juki describes the arm space as wide enough for easy handling but gives no inch figure in the snippets found."
+      },
+      {
+        "q": "What needles does the DDL-5550 use?",
+        "a": "DBx1 industrial needles. Juki ships it with a size 14 and lists sizes 9 to 18."
+      },
+      {
+        "q": "Does the DDL-5550 have an automatic thread trimmer?",
+        "a": "Not on the base model. The DDL-5550N-7 variant adds automatic trimming and costs more."
+      },
+      {
+        "q": "Is the DDL-5550 made in Japan?",
+        "a": "Juki correspondence quoted by a seller says the DDL-5550N is made in Japan, and dealer titles say so. The DDL-8700 is not marketed that way."
+      }
+    ]
+  }
+}

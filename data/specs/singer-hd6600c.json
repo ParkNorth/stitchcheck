@@ -1,0 +1,244 @@
+{
+  "slug": "singer-hd6600c",
+  "brand": "Singer",
+  "model": "Heavy Duty 6600C",
+  "series": "HD",
+  "type": "computerized",
+  "industrial": false,
+  "jobs": [
+    "heavy-duty",
+    "beginner"
+  ],
+  "manufacturerUrl": "https://www.singer.com/products/singer-heavy-duty-6600c-sewing-machine",
+  "retailerUrl": "https://www.sewingmachinesplus.com/230254112.php",
+  "priceUsdSeen": 299.99,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "Sewing Machines Plus (sale price in search snippet; regular price $379.99)",
+  "specs": {
+    "stitchTypes": {
+      "value": "100 built-in stitches (basic, stretch, decorative and one-step buttonholes) marketed as 215 stitch applications; LCD shows stitch, length and width; 13 needle positions",
+      "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine"
+    },
+    "stitchCount": {
+      "value": 100,
+      "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine"
+    },
+    "maxSpm": {
+      "value": 1100,
+      "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine"
+    },
+    "threads": {
+      "value": null,
+      "source": null
+    },
+    "differentialFeed": {
+      "value": null,
+      "source": null
+    },
+    "throatIn": {
+      "value": 6.4,
+      "source": "https://www.sewingmachinesplus.com/230254112.php"
+    },
+    "needleSystem": {
+      "value": null,
+      "source": null
+    },
+    "presserFootLift": {
+      "value": null,
+      "source": null
+    },
+    "threadTrimmer": {
+      "value": "None; the automatic thread cutter is listed as a 6800C exclusive in the HD computerized line",
+      "source": "https://bobbinhub.com/singer-6600c-vs-6800c/"
+    },
+    "feedSystem": {
+      "value": null,
+      "source": null
+    },
+    "buttonhole": {
+      "value": "1-step automatic buttonhole; number of buttonhole styles not consistent across sources",
+      "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine"
+    },
+    "motor": {
+      "value": "Singer describes the motor as 60 percent stronger than a standard sewing machine motor; wattage not published",
+      "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine"
+    },
+    "frame": {
+      "value": "Heavy-duty metal interior frame, stainless steel bedplate",
+      "source": "https://www.sewingmachinesplus.com/230254112.php"
+    },
+    "weightLb": {
+      "value": 15.4,
+      "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine"
+    },
+    "dimensionsIn": {
+      "value": "17.3 x 7.5 x 10.9 (listed as depth x width x height by the parts dealer)",
+      "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine"
+    },
+    "includedFeet": {
+      "value": "All purpose foot, zipper foot, buttonhole foot, blind hem foot, satin stitch foot, 4 Class 15 transparent bobbins, large and small spool holders, spool pin felt, auxiliary spool pin, L screwdriver, brush and seam ripper, soft cover, pack of needles",
+      "source": "https://www.amazon.com/SINGER-Sterling-Accessory-Applications-Buttonhole/dp/B0F1TD3LYG"
+    },
+    "warrantyUs": {
+      "value": "25 yr limited on machine head; electrical and electronic coverage quoted as 2 yr on Singer's warranty page and 1 yr on some 6600C retailer copy; 90 days on adjustments, belts, rings, bulbs and attachments",
+      "source": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+    },
+    "needleThreader": {
+      "value": "Built-in needle threader",
+      "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine"
+    },
+    "bobbinSystem": {
+      "value": "Top drop-in, Class 15 transparent bobbins",
+      "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine"
+    },
+    "presserFootPressure": {
+      "value": "Adjustable",
+      "source": "https://www.quiltingboard.com/main-f1/any-experience-singer-heavy-duty-machine-t323094.html"
+    }
+  },
+  "claims": [
+    "\"Heavy Duty\" (Singer series name, product page; it is a model line, not a duty rating)",
+    "\"60% stronger\" motor than a standard sewing machine motor (manufacturer claim repeated in retailer copy; baseline not defined)",
+    "\"designed with your heavy duty projects in mind, from denim to canvas\" (manufacturer claim, singer.com product page)",
+    "\"215 stitch applications\" (manufacturer count of techniques, not of built-in stitch patterns)",
+    "\"$100 in accessories\" included (retailer copy; value not audited)"
+  ],
+  "conflicts": [
+    "Stitch count: 100 built-in stitches (parts dealer and Amazon title) vs 200 built-in stitches (bobbinhub comparison). Singer's own headline number is 215 applications. Catalog will use 100 built-in and flag [verify].",
+    "Buttonhole styles: 6 one-step buttonholes (Amazon title) vs 8 one-step buttonholes (bobbinhub). Catalog will state 1-step only.",
+    "Warranty: 25 yr head with 2 yr electrical (singer.com warranty page) vs 25/1 year wording on a 6600C retailer page. Catalog will use Singer's page.",
+    "Name: singer.com now lists the machine as Heavy Duty 6600C Sterling at $309.99 alongside the plain 6600C listing; specs in snippets are identical. Treated as a colorway or refresh, not a new model.",
+    "Dimensions: 17.3 x 7.5 x 10.9 in is listed as depth x width x height by the parts dealer; order of axes not confirmed on Singer's page."
+  ],
+  "ownerThemes": [
+    {
+      "theme": "A PatternReview thread describes a 6600C that slows and stops under the pedal intermittently; replies point to the foot control, its cable, or the control board rather than the mechanics.",
+      "tone": "negative",
+      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/130165"
+    },
+    {
+      "theme": "Walmart owner reviews split between daily users who call the stitches neat and the body sturdy, and a minority reporting bobbin winding faults, pedal unresponsiveness, and machines that stopped after a week.",
+      "tone": "mixed",
+      "source": "https://www.walmart.com/reviews/product/678334291"
+    },
+    {
+      "theme": "A quilting forum asking about Singer Heavy Duty machines gets replies from happy 6600C owners on denim and canvas, while other members warn that modern Singers are not the machines of the past.",
+      "tone": "mixed",
+      "source": "https://www.quiltingboard.com/main-f1/any-experience-singer-heavy-duty-machine-t323094.html"
+    }
+  ],
+  "evidence": "mixed",
+  "buyerQuestions": [
+    "What is the difference between the Singer 6600C and 6700C?",
+    "How many stitches does the Singer 6600C really have?",
+    "Does the Singer 6600C have an automatic thread cutter?",
+    "Is the Singer 6600C good for beginners?",
+    "Can the Singer 6600C sew denim and canvas?",
+    "What is the throat space on the Singer 6600C?",
+    "How much does the Singer 6600C weigh?",
+    "What is the Singer 6600C Sterling?",
+    "What presser feet come with the Singer 6600C?"
+  ],
+  "crossShop": [
+    {
+      "slug": "singer-4452",
+      "why": "Same 1,100 spm metal-frame line in mechanical form, with a walking foot in the box instead of an LCD."
+    },
+    {
+      "slug": "singer-hd6700c",
+      "why": "The next step in the HD computerized line adds lettering, a speed slider and 10 feet for about $30 more."
+    },
+    {
+      "slug": "janome-hd3000",
+      "why": "A mechanical heavy fabric rival with a published weight and a longer labor warranty."
+    }
+  ],
+  "discontinued": false,
+  "replacedBy": null,
+  "editorial": {
+    "verdict": "The 6600C is the cheapest way into Singer's computerized Heavy Duty line: 1,100 spm, metal frame and LCD stitch selection, without the thread cutter or extra feet of its siblings.",
+    "whoFor": "A beginner who wants push-button stitch selection and a one-step buttonhole on the same 1,100 spm head as the mechanical 44 series.",
+    "skipIf": "You want an automatic thread cutter, a walking foot in the box, or a machine whose stitch count is stated the same way on every listing.",
+    "keySpec": "1,100 spm · 100 built-in stitches · 6.4 in throat · 15.4 lb",
+    "strengths": [
+      "Singer publishes a 6.4 in throat and 1,100 spm, matching the mechanical Heavy Duty line.",
+      "Weight and dimensions are published by a parts dealer, unlike most of the 44 series.",
+      "LCD display shows stitch, length and width settings with 13 needle positions."
+    ],
+    "weaknesses": [
+      "Stitch count is marketed three different ways (100, 200, 215) across listings.",
+      "No automatic thread cutter, needle up/down button or speed slider; those sit on the 6800C.",
+      "Owner threads report foot control and bobbin winder faults on a minority of units."
+    ],
+    "checks": [
+      {
+        "title": "Sterling or standard",
+        "body": "Singer's site lists a 6600C Sterling at $309.99 and a plain 6600C. Snippets show identical specs. Confirm which one the retailer ships and whether the accessory kit matches."
+      },
+      {
+        "title": "Count the buttonholes",
+        "body": "Listings claim 6 or 8 one-step buttonhole styles. If buttonhole variety matters, check the stitch chart in the manual before buying."
+      },
+      {
+        "title": "Warranty term on electronics",
+        "body": "Some 6600C copy says 25/1 year; Singer's warranty page says 2 years on electronics. Keep the receipt and confirm the term with the seller."
+      }
+    ],
+    "realCost": [
+      "Extra Class 15 transparent bobbins beyond the 4 included",
+      "Denim needles size 16 to 18 for heavy fabric",
+      "Walking foot, which is not in the 6600C box",
+      "Hard case if you move the machine; only a soft cover is included"
+    ],
+    "faqs": [
+      {
+        "q": "How many stitches does the Singer 6600C have?",
+        "a": "Retailer and parts-dealer copy lists 100 built-in stitches; Singer markets 215 stitch applications, which counts techniques rather than patterns. One comparison site says 200. Treat 100 as the built-in figure until Singer's page is checked."
+      },
+      {
+        "q": "What is the throat space on the 6600C?",
+        "a": "6.4 in (163 mm) from the needle to the tower, per the Sewing Machines Plus listing."
+      },
+      {
+        "q": "Does the 6600C have an automatic thread cutter?",
+        "a": "No. In Singer's computerized Heavy Duty line the automatic thread cutter is listed as a 6800C feature."
+      },
+      {
+        "q": "How much does the Singer 6600C weigh?",
+        "a": "15.4 lb (7 kg) per the parts dealer listing. Singer's own page value was not captured."
+      },
+      {
+        "q": "What presser feet come with the 6600C?",
+        "a": "All purpose, zipper, buttonhole, blind hem and satin stitch feet. No walking foot is listed."
+      },
+      {
+        "q": "Is the 6600C good for beginners?",
+        "a": "It is sold into that market: push-button stitch selection, LCD readout, top drop-in bobbin and a built-in needle threader. Owner reports of pedal and bobbin winder faults are the main caution."
+      },
+      {
+        "q": "What is the difference between the 6600C and the 6700C?",
+        "a": "Same 1,100 spm head, metal frame and 6.4 in throat. The 6700C adds lettering fonts, a speed control slider, a tie-off button and 10 feet including a walking foot, for about $30 more at the same dealer."
+      },
+      {
+        "q": "What is the warranty?",
+        "a": "Singer's warranty page states 25 years on the head, 2 years on electrical and electronic parts and 90 days on adjustments. Some 6600C retailer copy shortens the electrical term to 1 year, so confirm with the seller."
+      },
+      {
+        "q": "Is the 6600C Sterling a different machine?",
+        "a": "Not published. Singer lists a 6600C Sterling with the same 100 stitches, 1,100 spm and metal frame as the plain 6600C. It appears to be a finish or refresh rather than a new model."
+      }
+    ]
+  },
+  "sources": [
+    "https://www.singer.com/products/singer-heavy-duty-6600c-sewing-machine",
+    "https://www.singer.com/products/singer-heavy-duty-6600c-sterling-sewing-machine",
+    "https://www.sewingmachinesplus.com/230254112.php",
+    "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine",
+    "https://www.amazon.com/SINGER-Sterling-Accessory-Applications-Buttonhole/dp/B0F1TD3LYG",
+    "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage",
+    "https://bobbinhub.com/singer-6600c-vs-6800c/",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/130165",
+    "https://www.walmart.com/reviews/product/678334291",
+    "https://www.quiltingboard.com/main-f1/any-experience-singer-heavy-duty-machine-t323094.html"
+  ]
+}

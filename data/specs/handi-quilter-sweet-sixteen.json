@@ -1,0 +1,139 @@
+{
+  "slug": "handi-quilter-sweet-sixteen",
+  "brand": "Handi Quilter",
+  "model": "Sweet Sixteen",
+  "series": "Sweet Sixteen",
+  "type": "long-arm",
+  "industrial": false,
+  "jobs": ["quilting"],
+  "manufacturerUrl": "https://handiquilter.com/product-tag/hq-sweet-sixteen/",
+  "retailerUrl": "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php",
+  "priceUsdSeen": 6495,
+  "priceSeenDate": "2026-09-29",
+  "priceSeenAt": "Fig Leaf Quilting (dealer listing for the Sweet Sixteen with table; the model is discontinued, so this is remaining dealer stock)",
+  "specs": {
+    "stitchTypes": {"value": "Straight stitch only; manual speed control, with optional TruStitch or InSight table stitch regulation", "source": "https://www.sewingmachinesplus.com/hq-trustitch-regulator.php"},
+    "stitchCount": {"value": 1, "source": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"},
+    "maxSpm": {"value": 1500, "source": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"},
+    "threads": {"value": null, "source": null},
+    "differentialFeed": {"value": null, "source": null},
+    "throatIn": {"value": 16, "source": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"},
+    "throatHeightIn": {"value": 8.25, "source": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"},
+    "stitchRegulation": {"value": "Not built in; optional TruStitch regulator or InSight table with built in regulation", "source": "https://www.sewingmachinesplus.com/hq-trustitch-regulator.php"},
+    "needleSystem": {"value": "134 (135x7), sizes 12/80 to 20/125", "source": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"},
+    "bobbin": {"value": "M class, aluminum bobbin case, rotary vertical hook", "source": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"},
+    "hoppingFootLiftMm": {"value": 5, "source": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"},
+    "lighting": {"value": "LED, 2.25 W", "source": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"},
+    "presserFootLift": {"value": null, "source": null},
+    "threadTrimmer": {"value": null, "source": null},
+    "feedSystem": {"value": "Sit down free motion (no feed dogs); quilt moves by hand on a table", "source": "https://rockymountainsewing.com/products/handi-quilter-sweet-sixteen/"},
+    "buttonhole": {"value": null, "source": null},
+    "motor": {"value": "Brushless DC with up/down tie-off stitch; 90 to 264 VAC, 300 W peak", "source": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"},
+    "frame": {"value": "No frame; height adjustable table 36 x 30 in, 26 to 42 in (dealer) included in the package", "source": "https://rockymountainsewing.com/products/handi-quilter-sweet-sixteen/"},
+    "weightLb": {"value": null, "source": null},
+    "dimensionsIn": {"value": null, "source": null},
+    "includedFeet": {"value": "Hopping foot; table with insert; full accessory list not published in results", "source": "https://rockymountainsewing.com/products/handi-quilter-sweet-sixteen/"},
+    "warrantyUs": {"value": "10 yr casting, 5 yr electrical, 5 yr mechanical (Handi Quilter longarm warranty)", "source": "https://handiquilter.com/warranty/"}
+  },
+  "claims": [
+    "\"The most technologically advanced sit down free motion quilter\" (retailer copy, sewingmachinesplus.com)",
+    "\"Powerful motor handles quilting with ease\" (dealer copy repeating manufacturer language, rockymountainsewing.com)",
+    "\"Designed by a Quilter, for Quilters\" (manufacturer tagline, user manual)"
+  ],
+  "conflicts": [
+    "Speed: 1,500 spm maximum quilting speed (Handi Quilter user manual) vs up to 1,800 spm (rockymountainsewing.com dealer page). Catalog will use 1,500 from the manual and show the dealer figure as a conflict.",
+    "Table height range: 26 to 42 in (rockymountainsewing.com) vs 27 to 40 in (Sewing Machines Plus table listing). Catalog will show the manual's figure if found; otherwise both.",
+    "Status: Rocky Mountain Sewing states the Sweet Sixteen has been discontinued and recommends the Moxie ST; Handi Quilter's Capri page describes the Capri as combining the Sweet Sixteen's footprint with frame machine technology, and the Capri itself has been retired. Sewing Machines Plus still lists a Sweet Sixteen page. Catalog will mark discontinued with the Moxie ST and Amara ST as the current sit down machines.",
+    "Price: $6,495 (Fig Leaf Quilting dealer listing) for remaining new stock; used listings range from $1,425 (eBay) to $2,195 to $3,000 (longarmmachines.com, quiltingboard, APQS forum). Catalog will show $6,495 as the last seen dealer price and note the used range.",
+    "Weight and head dimensions: not published on any page found. Render as [verify]."
+  ],
+  "ownerThemes": [
+    {"theme": "Owners of the sit down machine say they chose it because a frame longarm strains their back and they prefer moving fabric rather than the machine; several report no service needed after dealer setup.", "tone": "positive", "source": "https://www.quiltingboard.com/main-f1/sit-down-sweet-16-experiences-thoughts-t299737.html"},
+    {"theme": "Prewound bobbins are blamed for tension trouble, and shop technicians agree they often do not work well on this machine; owners say learning to adjust tension yourself takes practice.", "tone": "mixed", "source": "https://www.quiltingboard.com/main-f1/opinions-handi-quilter-sweet-16-sit-down-machine-t138579-2.html"},
+    {"theme": "A long term owner blog calls it a joy to use but warns that large quilts around 60 by 80 in create real drag and gravity problems on a sit down table, and that owners unwilling to adjust for battings and threads will be unhappy.", "tone": "mixed", "source": "https://www.savoreverystitch.com/2017/01/handi-quilter-sweet-16-review.html"},
+    {"theme": "A Missouri Star forum owner six months in reports it works great and is easy to use; another notes the stitch counter helps with billing for a small quilting business.", "tone": "positive", "source": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/16023-hq-sweet-sixteen-reviews"}
+  ],
+  "evidence": "owner",
+  "buyerQuestions": [
+    "Is the Handi Quilter Sweet Sixteen discontinued?",
+    "What replaced the Sweet Sixteen?",
+    "Does the Sweet Sixteen have a stitch regulator?",
+    "Is the Sweet Sixteen a longarm or a midarm?",
+    "How big is the Sweet Sixteen throat?",
+    "How fast does the Sweet Sixteen sew?",
+    "Can you put a Sweet Sixteen on a frame?",
+    "What is a used Sweet Sixteen worth?",
+    "What bobbin and needle does the Sweet Sixteen use?",
+    "How does the Sweet Sixteen compare with the Juki Miyabi or a Juki TL?"
+  ],
+  "crossShop": [
+    {"slug": "handi-quilter-moxie", "why": "Same brand and price band; the Moxie is 15 in on an 8 ft frame with regulation built in, the Sweet Sixteen is 16 in on a table with regulation optional"},
+    {"slug": "juki-tl-18qvp", "why": "The domestic straight stitch quilter many Sweet Sixteen shoppers already own; a third of the price with about half the throat"},
+    {"slug": "bernina-570-qe", "why": "Similar dealer supported spend for a domestic with BSR regulation versus a dedicated sit down mid-arm"},
+    {"slug": "handi-quilter-amara", "why": "For quilters who decide the drag of a big quilt on a table is worse than the room a 20 in frame system takes"}
+  ],
+  "discontinued": true,
+  "replacedBy": null,
+  "editorial": {
+    "verdict": "The Sweet Sixteen was Handi Quilter's sit down 16 in mid-arm with no frame and no built in regulation, and now that it is discontinued the decision is whether remaining dealer stock at about $6,495 beats a used unit near $2,500 or the current Moxie ST.",
+    "whoFor": "A quilter who wants more throat than a domestic without giving a room to a frame, who is comfortable adjusting tension, and who mostly quilts lap to queen size.",
+    "skipIf": "You want stitch regulation in the price (it is an add-on here), you plan to quilt king size tops regularly (drag on a table is the standing complaint), or you would rather buy a current model with full dealer support.",
+    "keySpec": "16 x 8.25 in throat · 1,500 spm · sit down, table included · regulation optional",
+    "strengths": [
+      "16 in wide by 8.25 in high throat, roughly double a Juki TL class domestic, in a table footprint of 36 x 30 in",
+      "134 needle and M class bobbin are shared with Handi Quilter's frame machines, so consumables stay available after discontinuation",
+      "Long owner track record on forums since about 2010, with tension habits and fixes well documented"
+    ],
+    "weaknesses": [
+      "No built in stitch regulation; TruStitch or the InSight table are extra and the TruStitch is itself an older add-on",
+      "Discontinued: Handi Quilter now points sit down buyers to the Moxie ST and Amara ST, so new stock and promotions are dealer dependent",
+      "Weight and head dimensions are not published; dealer speed copy (1,800 spm) disagrees with the manual (1,500 spm)"
+    ],
+    "checks": [
+      {"title": "Confirm new stock versus demo or used", "body": "Dealer pages mix new, floor model and used Sweet Sixteens. Used asking prices run $1,425 to $3,000; new remaining stock was seen at $6,495. Ask for the serial date and warranty start."},
+      {"title": "Ask which table and which regulator", "body": "The basic sit down table is 36 x 30 in and height adjustable. The InSight table adds built in regulation; the TruStitch is a separate regulator. Neither is in the base machine price."},
+      {"title": "Check the manual speed, not the dealer copy", "body": "The user manual gives 1,500 spm maximum; some dealers say 1,800. On a sit down machine your hand speed sets stitch length, so the regulator question matters more than the top speed."}
+    ],
+    "realCost": [
+      "Table: included in the sit down package at most dealers; the basic Sweet Sixteen table alone was seen at $495 sale, $695 regular, at Sewing Machines Plus",
+      "Stitch regulation: optional TruStitch regulator or InSight table; prices not published in results",
+      "Lift table: Handi Quilter sells a separate lift table for the Sweet Sixteen; price not published in results",
+      "Consumables: M class bobbins and 134 system needles; owners advise against prewound bobbins",
+      "Service: discontinued machines depend on dealer parts stock; confirm the dealer still services it"
+    ],
+    "faqs": [
+      {"q": "Is the Handi Quilter Sweet Sixteen discontinued?", "a": "Yes. Dealer pages state it has been discontinued, and Handi Quilter now offers the Moxie ST and Amara ST as its sit down machines. Some dealers still list remaining stock."},
+      {"q": "What replaced the Sweet Sixteen?", "a": "Handi Quilter has not named a direct replacement in results found. The Capri 18 was positioned as combining the Sweet Sixteen's footprint with frame machine technology and has itself been retired; dealers now recommend the Moxie ST."},
+      {"q": "Does the Sweet Sixteen have a stitch regulator?", "a": "Not built in. Handi Quilter sold an optional TruStitch regulator and an InSight table with built in regulation. The base machine runs at a set speed you control."},
+      {"q": "How big is the Sweet Sixteen throat?", "a": "The user manual gives throat dimensions of 8.25 x 16 in (245 x 610 mm), measured needle to body."},
+      {"q": "How fast does the Sweet Sixteen sew?", "a": "The user manual lists a maximum of 1,500 stitches per minute. Some dealer copy says 1,800; the catalog uses the manual figure."},
+      {"q": "Is the Sweet Sixteen a longarm?", "a": "By throat it is a mid-arm (16 in sits in the published 12 to 17 in mid-arm band) and it is a sit down machine, not frame mounted. Handi Quilter and dealers market it as a sit down longarm."},
+      {"q": "What bobbin and needle does the Sweet Sixteen use?", "a": "M class bobbins in an aluminum case with a rotary vertical hook, and 134 (135x7) needles in sizes 12/80 to 20/125."},
+      {"q": "How much does a Sweet Sixteen weigh?", "a": "Not published on any page found."},
+      {"q": "What is a used Sweet Sixteen worth?", "a": "Forum and marketplace listings seen ran from $1,425 on eBay to $2,195 to $3,000 on quilting marketplaces and forums, depending on table and regulator."},
+      {"q": "Can the Sweet Sixteen go on a frame?", "a": "The Sweet Sixteen is the sit down version of Handi Quilter's 16 in head; the frame version was sold as the HQ Sixteen and Simply Sixteen. Handi Quilter's table listing notes the table can also convert an HQ Sixteen to sit down use."}
+    ]
+  },
+  "sources": [
+    "https://handiquilter.com/product-tag/hq-sweet-sixteen/",
+    "https://handiquilter.com/product/lift-table-for-sweet-sixteen/",
+    "https://handiquilter.com/hq-capri/",
+    "https://handiquilter.com/warranty/",
+    "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf",
+    "https://cdn.poconosewandvac.com/web/products/instruction-manuals/pdfs/handi-quilter/sweet-16/Handi-Quilter-Sweet-Sixteen-Manual-3.1.pdf",
+    "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php",
+    "https://www.sewingmachinesplus.com/hq-qt09724.php",
+    "https://www.sewingmachinesplus.com/hq-trustitch-regulator.php",
+    "https://rockymountainsewing.com/products/handi-quilter-sweet-sixteen/",
+    "https://www.thefigleafquilting.com/shop/Sewing-Machines/Handi-Quilter-Machines.htm",
+    "https://longarmmachines.com/hq-handi-quilter-longarms",
+    "https://www.ebay.com/itm/188320281844",
+    "https://www.quiltingboard.com/main-f1/hq-sweet-sixteen-pricing-used-t314974.html",
+    "https://forum.apqs.com/topic/46514-hq-sweet-sixteen-sit-down-machine-with-table-2200-shipped/",
+    "https://www.quiltingboard.com/main-f1/sit-down-sweet-16-experiences-thoughts-t299737.html",
+    "https://www.quiltingboard.com/main-f1/opinions-handi-quilter-sweet-16-sit-down-machine-t138579-2.html",
+    "https://www.savoreverystitch.com/2017/01/handi-quilter-sweet-16-review.html",
+    "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/16023-hq-sweet-sixteen-reviews",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/111801"
+  ]
+}
