@@ -9,18 +9,18 @@
   },
   "babylock-vibrant": {
     "src": "/images/products/babylock-vibrant.jpg",
-    "width": 800,
-    "height": 600,
-    "credit": "Photo: Baby Lock",
-    "sourceUrl": "https://s3.amazonaws.com/mediastore.babylock.com/media/catalog/product/v/i/vibrant_main_1_1.png",
+    "width": 1565,
+    "height": 1174,
+    "credit": "Photo: Sewing Parts Online",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/8105/7055/files/babylock-bl460b.jpg",
     "pageUrl": "https://babylock.com/machines/serger/vibrant"
   },
   "babylock-victory": {
     "src": "/images/products/babylock-victory.jpg",
-    "width": 800,
-    "height": 600,
-    "credit": "Photo: Baby Lock",
-    "sourceUrl": "https://s3.amazonaws.com/mediastore.babylock.com/media/catalog/product/v/i/victory_main_1.png",
+    "width": 1600,
+    "height": 1200,
+    "credit": "Photo: Sewing Parts Online",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0812/8105/7055/files/BLS3-Babylock-Victory-Serger-Sewing-Machine-1.jpg",
     "pageUrl": "https://babylock.com/machines/serger/victory"
   },
   "bernina-1008": {
@@ -41,10 +41,10 @@
   },
   "bernina-l-850": {
     "src": "/images/products/bernina-l-850.jpg",
-    "width": 800,
-    "height": 600,
-    "credit": "Photo: Bernina",
-    "sourceUrl": "https://www.bernina.com/Bernina/media/products/Overlocker/Headerbilder/Hintergrund/BL850-Header.png",
+    "width": 1600,
+    "height": 1200,
+    "credit": "Photo: Quality Sewing & Vacuum",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0667/3042/6603/files/bernina-l-850-air-threading-serger-sewing-serger-embroidery-machines-177072.jpg",
     "pageUrl": "https://www.bernina.com/en-US/Machines-US/Overlocker/Serger/BERNINA-L-850"
   },
   "brother-1034d": {
@@ -153,10 +153,10 @@
   },
   "janome-coverpro-2000cpx": {
     "src": "/images/products/janome-coverpro-2000cpx.jpg",
-    "width": 800,
-    "height": 600,
-    "credit": "Photo: Janome",
-    "sourceUrl": "https://www.janome.com/wp-content/uploads/2024/11/2000cpx-front-angle.jpg",
+    "width": 1481,
+    "height": 1111,
+    "credit": "Photo: Sewing Machines Plus",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0766/0136/0605/files/2000CPX-Print-CMYK.jpg",
     "pageUrl": "https://www.janome.com/product/coverpro-2000cpx/"
   },
   "janome-hd1000": {
@@ -207,12 +207,20 @@
     "sourceUrl": "https://www.juki.co.jp/industrial_e/admin/pdata/productphoto/20210119_045208_01.jpg",
     "pageUrl": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
   },
+  "juki-ddl-8700": {
+    "src": "/images/products/juki-ddl-8700.jpg",
+    "width": 1600,
+    "height": 1200,
+    "credit": "Photo: GoldStar Tool",
+    "sourceUrl": "https://www.goldstartool.com/picts/products/07.webp",
+    "pageUrl": "https://juki.com/ddl-8700"
+  },
   "juki-dnu-1541s": {
     "src": "/images/products/juki-dnu-1541s.jpg",
-    "width": 800,
-    "height": 600,
-    "credit": "Photo: Juki",
-    "sourceUrl": "https://www.juki.co.jp/industrial_e/admin/pdata/productphoto/20210128_054238_01.jpg",
+    "width": 1190,
+    "height": 893,
+    "credit": "Photo: Sewing Machines Plus",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0766/0136/0605/files/Janome_SMP-494805006_1a.png",
     "pageUrl": "https://www.juki.co.jp/industrial_e/products_e/lether_e/flatbed_e/detail.php?cd=DNU-1541_E"
   },
   "juki-hzl-f300": {

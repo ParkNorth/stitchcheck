@@ -15,22 +15,22 @@
     "brand": "Baby Lock",
     "model": "Vibrant (BL460B)",
     "pageUrl": "https://babylock.com/machines/serger/vibrant",
-    "imageUrl": "https://s3.amazonaws.com/mediastore.babylock.com/media/catalog/product/v/i/vibrant_main_1_1.png",
-    "pickedBy": "hand pick",
-    "credit": "Photo: Baby Lock",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0812/8105/7055/files/babylock-bl460b.jpg",
+    "pickedBy": "hand pick, retailer",
+    "credit": "Photo: Sewing Parts Online",
     "fetchedAt": "2026-09-29",
-    "note": null
+    "note": "Retailer listing: https://www.sewingpartsonline.com/products/baby-lock-vibrant-serger-bl460b. Replaces the Baby Lock rendition, which was under 700 px. Sewing Parts Online states it is an authorized Baby Lock retailer. Source is 1000x1000. The Sewing Machines Plus photo carries a gift certificate overlay."
   },
   {
     "slug": "babylock-victory",
     "brand": "Baby Lock",
     "model": "Victory (BLS3)",
     "pageUrl": "https://babylock.com/machines/serger/victory",
-    "imageUrl": "https://s3.amazonaws.com/mediastore.babylock.com/media/catalog/product/v/i/victory_main_1.png",
-    "pickedBy": "hand pick",
-    "credit": "Photo: Baby Lock",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0812/8105/7055/files/BLS3-Babylock-Victory-Serger-Sewing-Machine-1.jpg",
+    "pickedBy": "hand pick, retailer",
+    "credit": "Photo: Sewing Parts Online",
     "fetchedAt": "2026-09-29",
-    "note": null
+    "note": "Retailer listing: https://www.sewingpartsonline.com/products/baby-lock-victory-serger. Replaces the Baby Lock rendition, which was under 700 px. Sewing Parts Online states it is an authorized Baby Lock retailer. Source is 4700x4700. The Sewing Machines Plus photo carries a gift certificate overlay."
   },
   {
     "slug": "bernina-1008",
@@ -59,11 +59,11 @@
     "brand": "Bernina",
     "model": "L 850",
     "pageUrl": "https://www.bernina.com/en-US/Machines-US/Overlocker/Serger/BERNINA-L-850",
-    "imageUrl": "https://www.bernina.com/Bernina/media/products/Overlocker/Headerbilder/Hintergrund/BL850-Header.png",
-    "pickedBy": "og:image",
-    "credit": "Photo: Bernina",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0667/3042/6603/files/bernina-l-850-air-threading-serger-sewing-serger-embroidery-machines-177072.jpg",
+    "pickedBy": "hand pick, retailer",
+    "credit": "Photo: Quality Sewing & Vacuum",
     "fetchedAt": "2026-09-29",
-    "note": null
+    "note": "Retailer listing: https://www.qualitysewing.com/products/bernina-l-850. Replaces the Bernina header rendition, which was under 700 px. Quality Sewing states it is an authorized Bernina dealer. Source is 1760x1200 on a plain light grey background."
   },
   {
     "slug": "brother-1034d",
@@ -213,11 +213,11 @@
     "brand": "Janome",
     "model": "CoverPro 2000CPX",
     "pageUrl": "https://www.janome.com/product/coverpro-2000cpx/",
-    "imageUrl": "https://www.janome.com/wp-content/uploads/2024/11/2000cpx-front-angle.jpg",
-    "pickedBy": "hand pick",
-    "credit": "Photo: Janome",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0766/0136/0605/files/2000CPX-Print-CMYK.jpg",
+    "pickedBy": "hand pick, retailer",
+    "credit": "Photo: Sewing Machines Plus",
     "fetchedAt": "2026-09-29",
-    "note": null
+    "note": "Retailer listing: https://sewingmachinesplus.com/products/janome-2000cpx. Replaces the Janome rendition, which was under 700 px. Source is 1000x1000."
   },
   {
     "slug": "janome-hd1000",
@@ -290,22 +290,22 @@
     "brand": "Juki",
     "model": "DDL-8700",
     "pageUrl": "https://juki.com/ddl-8700",
-    "imageUrl": null,
-    "pickedBy": null,
-    "credit": "Photo: Juki",
-    "fetchedAt": null,
-    "note": "No usable image on 2026-09-29, rechecked in a real browser session: juki.com publishes the whole-machine DDL-8700 photo at 260 px wide (its 700 px cache rendition is that file padded) and its other gallery files are 450 px close-ups of the needle area; the Juki global page only has a 574 px two-machine composite with the DDL-8700-7; the Juki America and Juki global catalog PDFs embed nothing over 533 px and no whole-machine photo. Row left empty."
+    "imageUrl": "https://www.goldstartool.com/picts/products/07.webp",
+    "pickedBy": "hand pick, retailer",
+    "credit": "Photo: GoldStar Tool",
+    "fetchedAt": "2026-09-29",
+    "note": "Retailer listing: https://www.goldstartool.com/juki-ddl-8700-high-speed-single-needle-straight-lockstitch-industrial-sewing-machine-with-table-and-servo-motor.htm. Juki publishes only a 260 px image and the Sewing Machines Plus listing photo is 600 px, so the photo comes from GoldStar Tool, which states it is an authorized Juki dealer. Source is 4567x3189, head on table, badge reads DDL-8700. It shows a work lamp, thread cones and a fabric strip under the foot on a grey paper backdrop. GoldStar's full-unit gallery photo (6.jpg) was rejected because its badge reads DDL-8100e."
   },
   {
     "slug": "juki-dnu-1541s",
     "brand": "Juki",
     "model": "DNU-1541S",
     "pageUrl": "https://www.juki.co.jp/industrial_e/products_e/lether_e/flatbed_e/detail.php?cd=DNU-1541_E",
-    "imageUrl": "https://www.juki.co.jp/industrial_e/admin/pdata/productphoto/20210128_054238_01.jpg",
-    "pickedBy": "hand pick",
-    "credit": "Photo: Juki",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0766/0136/0605/files/Janome_SMP-494805006_1a.png",
+    "pickedBy": "hand pick, retailer",
+    "credit": "Photo: Sewing Machines Plus",
     "fetchedAt": "2026-09-29",
-    "note": "juki.com page (https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541) only offers a 265 px cached image; photo taken from the Juki global DNU-1541 series page. Juki pictures the series with the DNU-1541-7 head (control panel)."
+    "note": "Retailer listing: https://sewingmachinesplus.com/products/juki-1541s. Replaces the Juki global series photo, which was under 700 px and showed the DNU-1541-7 head. Source is 1000x502 and the badge reads DNU-1541S."
   },
   {
     "slug": "juki-hzl-f300",
