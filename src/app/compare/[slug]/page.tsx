@@ -14,9 +14,9 @@ import { JsonLd } from "@/components/schema/JsonLd";
 import { comparisons, getComparison, resolveRows } from "@/lib/comparisons";
 import { getGuide } from "@/lib/guides";
 import { getProduct, type Product } from "@/lib/products";
-import { articleSchema, breadcrumbSchema } from "@/lib/schema";
+import { articleSchema, breadcrumbSchema, itemListSchema } from "@/lib/schema";
 import { pageMeta } from "@/lib/seo-meta";
-import { monthYear, site } from "@/lib/site";
+import { monthYear } from "@/lib/site";
 
 export const dynamicParams = false;
 
@@ -197,15 +197,8 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
       </main>
       <StickyBuyBar product={stickyPick} eyebrow={c.picks?.[stickyPick.slug] === "value-pick" ? "Value pick" : c.picks?.[stickyPick.slug] === "our-pick" ? "Our pick" : undefined} />
       <JsonLd data={breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Compare", path: "/compare" }, { name: c.title, path: `/compare/${c.slug}` }])} />
-      <JsonLd data={articleSchema({ headline: c.title, description: c.description, url: `/compare/${c.slug}`, datePublished: c.lastUpdated, dateModified: latest })} />
-      <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "ItemList",
-          name: c.title,
-          itemListElement: prods.map((p, i) => ({ "@type": "ListItem", position: i + 1, name: p.name, url: `${site.url}/reviews/${p.slug}` })),
-        }}
-      />
+      <JsonLd data={articleSchema({ headline: c.title, description: c.description, url: `/compare/${c.slug}`, datePublished: c.published, dateModified: latest })} />
+      <JsonLd data={itemListSchema({ name: c.title, items: prods.map((p) => ({ name: p.name, url: `/reviews/${p.slug}` })) })} />
     </>
   );
 }

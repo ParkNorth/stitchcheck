@@ -58,7 +58,6 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
   const hub = hubForJob(p.scoredFor);
   const compares = comparisonsForProduct(p.slug);
   const faqs = p.faqs.length ? p.faqs : buildFaqs(p);
-  const description = reviewMetaDescription(p);
 
   const crumbs = [
     { label: "Home", href: "/" },
@@ -249,9 +248,10 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
         </Container>
       </main>
       <StickyBuyBar product={p} />
-      <JsonLd data={reviewSchema(p, { description, dateModified: p.lastUpdated })} />
+      <JsonLd data={reviewSchema(p, { description: p.verdict, body: `${p.verdict} ${p.whoFor} Skip it if: ${p.skipIf}`, dateModified: p.lastUpdated })} />
       <JsonLd data={breadcrumbSchema(crumbs.filter((c) => c.href).map((c) => ({ name: c.label, path: c.href! })).concat([{ name: p.model, path: `/reviews/${p.slug}` }]))} />
-      {faqs.length > 0 && <JsonLd data={faqSchema(faqs)} />}
+      {/* Schema only for hand-written FAQs. The generated fallback is templated across pages. */}
+      {p.faqs.length > 0 && <JsonLd data={faqSchema(p.faqs)} />}
     </>
   );
 }

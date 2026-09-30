@@ -1,6 +1,6 @@
 # SEO rules
 
-last_updated: 2026-09-29
+last_updated: 2026-09-30
 status: living
 
 The on-page, technical and content-quality rules every URL follows. Written to Google's helpful-content and E-E-A-T guidance and to what the SERP research (`docs/research/_seo-serp-notes.md`) says the top results already do. The "SEO brain" reference the brief points to was not accessible from this session; this file states the standard we apply and should be reconciled with that document when it is available.
@@ -28,13 +28,16 @@ The on-page, technical and content-quality rules every URL follows. Written to G
 
 ## Structured data
 
-- Every page: `BreadcrumbList`, `Organization` and `WebSite` in the root layout.
-- Review: `Review` with `itemReviewed: Product` (brand, description, `AggregateOffer` with the price band range, no availability claim) and `reviewRating` 0 to 10. `FAQPage` when FAQs render.
-- Hub and index pages: `ItemList` of the ranked or listed URLs. Hubs add `FAQPage`.
-- Compare: `Article` + `ItemList` of the compared products.
-- Guide: `Article` + `FAQPage`.
-- About: `AboutPage`. Brand: `Brand`.
-- All JSON-LD comes from `src/lib/schema.ts`; visible content and schema must agree.
+- Every page: `BreadcrumbList`, `Organization` and `WebSite` in the root layout. The Organization carries `@id` `{site}/#organization`; publisher nodes reuse that `@id`.
+- Review: `Review` with `itemReviewed: Product` (name, model, brand, image) and a numeric `reviewRating` 0 to 10. No `offers`: we publish price bands, never a price, and an offer without a price is invalid. `reviewBody` is the visible verdict text, never the clipped meta description. `FAQPage` only when the briefing has a hand-written FAQ set; the generated fallback FAQs render on the page but carry no schema.
+- Hub: `CollectionPage` (with `dateModified` from the hub's `lastUpdated`) whose `mainEntity` is the ranked `ItemList`, plus `FAQPage`.
+- Brand and series hubs: `CollectionPage` about the `Brand` (series pages are `isPartOf` the brand hub). No date, because these pages have no content date.
+- Index pages: `ItemList` of the listed URLs.
+- Compare: `Article` + `ItemList` of the compared products. Guide: `Article` + `FAQPage`. `Article.image` is the page's own OG card, never a shared image.
+- About: `AboutPage`, which is the only place the editorial team bio appears. Byline nodes on Article and Review carry name, url and `@id` only.
+- Dates: `datePublished` is the first publish date and never moves; `dateModified` is `lastUpdated`. Never invent a date to make pages look staggered.
+- No en-dashes or em-dashes in schema strings (same rule as copy).
+- All JSON-LD comes from `src/lib/schema.ts`; visible content and schema must agree. No inline JSON-LD objects in page files.
 
 ## Technical
 

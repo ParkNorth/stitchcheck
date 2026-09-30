@@ -7,7 +7,7 @@ import { SeriesFilter } from "./SeriesFilter";
 import { JsonLd } from "@/components/schema/JsonLd";
 import type { BrandInfo, Series } from "@/lib/brands";
 import { productsForBrand, type Product } from "@/lib/products";
-import { breadcrumbSchema, itemListSchema } from "@/lib/schema";
+import { breadcrumbSchema, collectionPageSchema } from "@/lib/schema";
 import { site } from "@/lib/site";
 
 export function BrandPage({ brand, series }: { brand: BrandInfo; series?: Series }) {
@@ -130,15 +130,15 @@ export function BrandPage({ brand, series }: { brand: BrandInfo; series?: Series
         </Container>
       </main>
       <JsonLd data={breadcrumbSchema(crumbs.filter((c) => c.href).map((c) => ({ name: c.label, path: c.href! })).concat([{ name: crumbs.at(-1)!.label, path }]))} />
-      <JsonLd data={itemListSchema({ name: `${h1} models`, items: models.map((p) => ({ name: p.name, url: `/reviews/${p.slug}` })) })} />
       <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "Brand",
-          name: brand.name,
-          url: brand.manufacturerUrl,
-          description: brand.intro,
-        }}
+        data={collectionPageSchema({
+          name: `${h1} models`,
+          description: series ? series.description : brand.intro,
+          path,
+          about: { name: brand.name, url: brand.manufacturerUrl },
+          partOf: series ? { name: brand.name, path: `/brands/${brand.slug}` } : undefined,
+          items: models.map((p) => ({ name: p.name, url: `/reviews/${p.slug}` })),
+        })}
       />
     </>
   );

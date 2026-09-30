@@ -35,7 +35,7 @@ Read first: `docs/00-foundations.md` (scope, money), `docs/02-ia-and-linking.md`
 18. **Reviews, compares, guides, hubs and brand pages are data-driven.** Add to the registry (`products.ts`, `comparisons.ts`, `guides.ts`, `hubs.ts`, `brands.ts`); do not hand-write a page file. Reason: sitemap, llms.txt, internal links and schema pick registries up automatically.
 19. **Internal-linking rules (docs/02):** every review links its brand hub and every job hub it sits in; every compare links both reviews and one guide; guides end with 2 or 3 product CTAs and never open with one; hubs link related guides, head-to-heads and the other jobs. Reason: the hub-and-spoke model is how the site ranks.
 20. **Last-modified discipline.** When a page's copy, specs or schema change, set its date stamp to today (`lastUpdated`, `specsVerified`, guide `updated`, compare `lastUpdated`). Never `new Date()` in the sitemap; never a future date; `/out/` never enters the sitemap. Reason: lastmod is a trust signal only if it is true.
-21. **Schema and metadata come from the shared helpers** (`src/lib/schema.ts`, `src/lib/seo-meta.ts`) so JSON-LD, OG and the visible page agree. Reason: one place to fix.
+21. **Schema and metadata come from the shared helpers** (`src/lib/schema.ts`, `src/lib/seo-meta.ts`) so JSON-LD, OG and the visible page agree. No offers or prices in schema, no FAQ schema on generated fallback FAQs, no bio or other boilerplate repeated per page, no invented dates. Reason: one place to fix.
 
 ## Loop conduct
 

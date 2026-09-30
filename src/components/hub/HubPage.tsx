@@ -10,7 +10,7 @@ import { getGuide } from "@/lib/guides";
 import { allHubEntries, hubForJob, type Hub } from "@/lib/hubs";
 import { bandLabel } from "@/lib/price-bands";
 import { formatSpec, getProduct, stitchSummary, typeLabel, type Product } from "@/lib/products";
-import { breadcrumbSchema, faqSchema, itemListSchema } from "@/lib/schema";
+import { breadcrumbSchema, collectionPageSchema, faqSchema } from "@/lib/schema";
 import { monthYear } from "@/lib/site";
 
 const TONE: Record<Hub["shortAnswer"][number]["tone"], string> = {
@@ -214,7 +214,7 @@ export function HubPage({ hub }: { hub: Hub }) {
         </Container>
       </main>
       <JsonLd data={breadcrumbSchema([{ name: "Home", path: "/" }, { name: hub.label, path: `/${hub.slug}` }])} />
-      <JsonLd data={itemListSchema({ name: hub.h1, description: hub.metaDescription, items: resolved.map((r) => ({ name: r.product.name, url: `/reviews/${r.product.slug}` })) })} />
+      <JsonLd data={collectionPageSchema({ name: hub.h1, description: hub.metaDescription, path: `/${hub.slug}`, dateModified: hub.lastUpdated, items: resolved.map((r) => ({ name: r.product.name, url: `/reviews/${r.product.slug}` })) })} />
       {hub.faqs.length > 0 && <JsonLd data={faqSchema(hub.faqs)} />}
     </>
   );

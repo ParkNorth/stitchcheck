@@ -29,6 +29,8 @@ export interface Comparison {
   relatedGuide: string;
   /** Breadcrumb label when the compare is a family, e.g. "Singer Heavy Duty family". */
   crumb?: string;
+  /** First publish date. Never moves; `lastUpdated` does. */
+  published: string;
   lastUpdated: string;
 }
 
@@ -67,6 +69,7 @@ export const comparisons: Comparison[] = [
       },
     ],
     relatedGuide: "how-to-choose-a-quilting-machine",
+    published: "2026-09-29",
     lastUpdated: "2026-09-29",
   },
   {
@@ -92,6 +95,7 @@ export const comparisons: Comparison[] = [
       { slug: "brother-1034dx", text: "The bundle lists a foot you would have bought anyway, or it is the one on sale." },
     ],
     relatedGuide: "what-is-a-serger",
+    published: "2026-09-29",
     lastUpdated: "2026-09-29",
   },
   {
@@ -118,6 +122,7 @@ export const comparisons: Comparison[] = [
       { slug: "singer-4452", text: "You would buy the extra presser feet anyway. The bundle is the whole difference." },
     ],
     relatedGuide: "sewing-machine-for-thick-fabric",
+    published: "2026-09-29",
     lastUpdated: "2026-09-29",
   },
   {
@@ -142,6 +147,7 @@ export const comparisons: Comparison[] = [
       { slug: "juki-mo-654de", text: "You serge every week and want a machine that holds tension and adds a 2-thread option." },
     ],
     relatedGuide: "serger-vs-sewing-machine",
+    published: "2026-09-29",
     lastUpdated: "2026-09-29",
   },
 ];
