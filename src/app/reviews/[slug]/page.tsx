@@ -239,7 +239,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
                   </span>
                 </div>
               </div>
-              <BuyButton product={p} size="lg" className="w-full !min-h-[56px]" label="Check price" />
+              <BuyButton product={p} size="lg" className="w-full !min-h-[56px]" label="Check lowest price" />
               <div className="seam my-1" />
               <TableOfContents items={toc} />
             </aside>

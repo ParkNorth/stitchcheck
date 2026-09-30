@@ -1091,7 +1091,7 @@ export function stitchSummary(p: Product): string {
   return p.specs.stitchCount.value === null ? "[verify]" : String(p.specs.stitchCount.value);
 }
 
-/** True when the product has a real "Check price" button. */
+/** True when the product has a real "Check lowest price" button. */
 export function hasBuyButton(p: Product): boolean {
   return p.buy.kind === "retailer";
 }

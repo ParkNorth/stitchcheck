@@ -46,7 +46,7 @@ export function BuyButton({
       </a>
     );
   }
-  const text = label ?? (size === "lg" ? `Check price at ${site.retailer.name}` : "Check price");
+  const text = label ?? "Check lowest price";
   if (size === "lg") {
     return (
       <a

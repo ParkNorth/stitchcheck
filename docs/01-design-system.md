@@ -107,7 +107,7 @@ Graphite panel, 4px radius, brass `.cap` eyebrow ("Summary verdict", "Short answ
 Card with graphite left cell "The short answer" and three rows `200px | 1fr | 160px`: label (`.cap` enamel "Best overall", brass-ink "Honest value", ink-soft "Go industrial"), sentence with bold model name, right "Jump to #N" link.
 
 ### Mobile sticky buy bar
-Fixed bottom, card surface, 1.5px top border, padding 12/16/14 (22 bottom for safe area): 48px photo well, name 700/15, mono "8.6/10 · $$$ 1–2k", compact buy button "Check price"; second line right-aligned mono 13 steel "Affiliate link to Sewing Machines Plus". Appears after the verdict box scrolls off. Review and compare pages only. On desktop it becomes the sticky right-rail summary card (72px photo, name, score line, large buy, seam, "On this page" TOC).
+Fixed bottom, card surface, 1.5px top border, padding 12/16/14 (22 bottom for safe area): 48px photo well, name 700/15, mono "8.6/10 · $$$ 1–2k", compact buy button "Check lowest price"; second line right-aligned mono 13 steel "Affiliate link to Sewing Machines Plus". Appears after the verdict box scrolls off. Review and compare pages only. On desktop it becomes the sticky right-rail summary card (72px photo, name, score line, large buy, seam, "On this page" TOC).
 
 ### Size diagram (throat space to scale)
 Card, rows of `200 to 240px label | bar`. Scale ruler 0 / 6 / 12 / 18 / 24 in (22 to 30px per inch, same scale on every page). Current machine bar in graphite, category ranges in `rule-soft` with hatched extension for the range top. Rows: Typical beginner machine (about 6 in), current machine, Mid-arm 16–18 in, Long-arm on a frame 18–26 in. Caption: "Throat space is the distance from the needle to the machine body: how much rolled quilt fits through."

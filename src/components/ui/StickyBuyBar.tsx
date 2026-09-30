@@ -56,7 +56,7 @@ export function StickyBuyBar({
             </div>
           )}
         </div>
-        <BuyButton product={p} size="sm" className="!min-h-[48px] !text-[15px]" label="Check price" />
+        <BuyButton product={p} size="sm" className="!min-h-[48px] !text-[15px]" label="Check lowest price" />
       </div>
       <div className="m text-[13px] text-steel text-right">Affiliate link to {site.retailer.name}</div>
     </div>
