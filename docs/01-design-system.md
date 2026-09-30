@@ -77,7 +77,7 @@ Fonts load via `next/font/google` (Archivo with `axes: ["wdth"]`, IBM Plex Sans,
 - **Discontinued / Replaced by [model]**: `.type` in steel fill.
 
 ### Buy button (`.buy`)
-Enamel fill, white 15/600, 48px min height (60 in verdict box and review rail, 44 in tables and grid cards), 4px radius, padding 0 18, `justify-content: space-between`. Label and arrow only; the compact variant carries the `.aff` chip ("AFFILIATE", 11px mono, 1px white .6 border) only while `SHOW_AFFILIATE_LABEL` is true (an affiliate network is configured); with no program live there is no chip. Every buy link routes through `/out/[slug]` with `rel="sponsored nofollow noopener"` and `target="_blank"`. Trailing 16px external-link arrow on the large variant.
+Enamel fill, white 15/600, 48px min height (60 in verdict box and review rail, 44 in tables and grid cards), 4px radius, padding 0 18, `justify-content: space-between`. Label and arrow only; the compact variant carries the `.aff` chip ("AFFILIATE", 11px mono, 1px white .6 border) only while `SHOW_AFFILIATE_LABEL` is true (hard switch in `src/lib/affiliates.ts`, false until an affiliate program launches); with no program live there is no chip. Every buy link routes through `/out/[slug]` with `rel="sponsored nofollow noopener"` and `target="_blank"`. Trailing 16px external-link arrow on the large variant.
 
 ### Secondary button (`.sec`)
 Outlined 1.5px graphite, 44px, 15/600. "Read review", "vs Juki TL-2000Qi".

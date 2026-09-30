@@ -34,11 +34,11 @@ export const AFFILIATE_ACTIVE =
 
 /**
  * The design rule: while a program is live the word "affiliate" is never dropped
- * from a buy button. Keyed on the public network setting (not the server-only
- * IDs) so server and client renders agree. With "direct" there is no program,
- * so no chip and no claim.
+ * from a buy button. No program is live today, so the chip and the sticky-bar
+ * line are off site wide. This is a hard switch, deliberately not derived from
+ * env vars: flip it to true in the same commit that switches the network on.
  */
-export const SHOW_AFFILIATE_LABEL = NETWORK !== "direct";
+export const SHOW_AFFILIATE_LABEL = false;
 
 export type BuyTarget =
   | { kind: "retailer"; url: string }
