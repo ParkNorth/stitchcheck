@@ -37,7 +37,15 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: { default: `${site.name} | ${site.tagline}`, template: `%s | ${site.name}` },
   description: site.description,
-  icons: { icon: [{ url: "/icon.svg", type: "image/svg+xml" }] },
+  // Google wants a crawlable <link rel="icon"> at a stable URL, square, in a multiple of 48px.
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/icon.svg", type: "image/svg+xml", sizes: "any" },
+      { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
   openGraph: { type: "website", siteName: site.name, locale: "en_US", images: [defaultOgImage] },
   twitter: { card: "summary_large_image" },
 };
