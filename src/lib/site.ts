@@ -19,7 +19,6 @@ export const site = {
     "Stitch Check is reader-supported. Buy buttons link to Sewing Machines Plus through an affiliate network. If you buy, we earn a commission at no cost to you. Every buy button says affiliate. Editorial decisions are our own: commission never sets the rank, and we recommend the fit for the job even when it earns nothing.",
   topBar: {
     left: "Independent buying guide · every spec checked against the manufacturer",
-    right: "We earn a commission when you buy through our links",
   },
   footerBlurb:
     "Independent buying guide for heavy-duty, serger and quilting machines. Buy links go to Sewing Machines Plus, which pays us a commission.",

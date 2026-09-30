@@ -56,7 +56,7 @@ Fonts load via `next/font/google` (Archivo with `axes: ["wdth"]`, IBM Plex Sans,
 - Spacing scale: 4, 8, 16, 24, 40, 64. Section gap on home 88, elsewhere 48 to 64.
 - Radius 4px on cards, buttons, panels; 3px on badges; 2px on the inline "Affiliate" chip.
 - Borders 1.5px graphite on cards, buttons, tables. 1px rule for interior hairlines.
-- Top bar: graphite band, 13px mono, left "Independent buying guide · every spec checked against the manufacturer", right "We earn a commission when you buy through our links". Hidden on 404.
+- Top bar: graphite band, 13px mono, left "Independent buying guide · every spec checked against the manufacturer". Hidden on 404.
 - Header: 76px, bottom border 1.5px, logo (30px stitched-check mark + STITCH CHECK wordmark at 20px, stretch 125%), nav Heavy duty / Sergers / Quilting / Brands / Compare / Guides, active item gets `inset 0 -2px 0 enamel` underline, 44px search button (outlined). Mobile header 60px with hamburger.
 - Footer: graphite, 56/64/36 padding, 5-column grid (2fr 1fr 1fr 1fr 1fr): brand blurb, Jobs, Brands, Guides, Site. Dashed seam in `#D9D5CB` at .3, then © line and "Specs change. Check the manufacturer before you buy."
 

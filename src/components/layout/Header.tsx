@@ -7,7 +7,6 @@ export function TopBar() {
   return (
     <div className="m bg-graphite text-footer-text text-[13px] px-5 md:px-16 py-2 flex justify-between gap-4">
       <span className="truncate">{site.topBar.left}</span>
-      <span className="hidden md:inline whitespace-nowrap">{site.topBar.right}</span>
     </div>
   );
 }
