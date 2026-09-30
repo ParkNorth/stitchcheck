@@ -258,7 +258,7 @@ const sitemapSrc = read(path.join(ROOT, "src", "app", "sitemap.ts"));
 if (/entry\(\s*[`"']\/out/.test(sitemapSrc)) fail("sitemap", "sitemap.ts", "/out/ must never enter the sitemap");
 if (/new Date\(\)/.test(sitemapSrc)) fail("sitemap", "sitemap.ts", "never stamp lastmod as now");
 
-// Buy buttons: every anchor with data-affiliate must render the word affiliate. Static check on the component.
+// Buy buttons: when an affiliate program is live (SHOW_AFFILIATE_LABEL) every button renders the word affiliate. Static check on the component.
 const buySrc = read(path.join(ROOT, "src", "components", "ui", "BuyButton.tsx"));
 if (!/Affiliate/.test(buySrc)) fail("affiliate-label", "BuyButton.tsx", "buy button must carry the word affiliate");
 if (!/sponsored nofollow noopener/.test(read(path.join(ROOT, "src", "lib", "affiliates.ts")))) fail("affiliate-rel", "affiliates.ts", "retailer links need rel=sponsored nofollow noopener");

@@ -77,7 +77,7 @@ Fonts load via `next/font/google` (Archivo with `axes: ["wdth"]`, IBM Plex Sans,
 - **Discontinued / Replaced by [model]**: `.type` in steel fill.
 
 ### Buy button (`.buy`)
-Enamel fill, white 15/600, 48px min height (60 in verdict box and review rail, 44 in tables and grid cards), 4px radius, padding 0 18, `justify-content: space-between`. Always labelled as an affiliate link: large variant is the label and arrow only; compact variant carries the `.aff` chip ("AFFILIATE", 11px mono, 1px white .6 border). Every buy link routes through `/out/[slug]` with `rel="sponsored nofollow noopener"` and `target="_blank"`. The word "affiliate" is never dropped, even at the smallest size. Trailing 16px external-link arrow on the large variant.
+Enamel fill, white 15/600, 48px min height (60 in verdict box and review rail, 44 in tables and grid cards), 4px radius, padding 0 18, `justify-content: space-between`. Label and arrow only; the compact variant carries the `.aff` chip ("AFFILIATE", 11px mono, 1px white .6 border) only while `SHOW_AFFILIATE_LABEL` is true (an affiliate network is configured); with no program live there is no chip. Every buy link routes through `/out/[slug]` with `rel="sponsored nofollow noopener"` and `target="_blank"`. Trailing 16px external-link arrow on the large variant.
 
 ### Secondary button (`.sec`)
 Outlined 1.5px graphite, 44px, 15/600. "Read review", "vs Juki TL-2000Qi".
@@ -107,7 +107,7 @@ Graphite panel, 4px radius, brass `.cap` eyebrow ("Summary verdict", "Short answ
 Card with graphite left cell "The short answer" and three rows `200px | 1fr | 160px`: label (`.cap` enamel "Best overall", brass-ink "Honest value", ink-soft "Go industrial"), sentence with bold model name, right "Jump to #N" link.
 
 ### Mobile sticky buy bar
-Fixed bottom, card surface, 1.5px top border, padding 12/16/14 (22 bottom for safe area): 48px photo well, name 700/15, mono "8.6/10 · $$$ 1–2k", compact buy button "Check lowest price"; second line right-aligned mono 13 steel "Affiliate link to Sewing Machines Plus". Appears after the verdict box scrolls off. Review and compare pages only. On desktop it becomes the sticky right-rail summary card (72px photo, name, score line, large buy, seam, "On this page" TOC).
+Fixed bottom, card surface, 1.5px top border, padding 12/16/14 (22 bottom for safe area): 48px photo well, name 700/15, mono "8.6/10 · $$$ 1–2k", compact buy button "Check lowest price"; while `SHOW_AFFILIATE_LABEL` is true a second line, right-aligned mono 13 steel, reads "Affiliate link to Sewing Machines Plus". Appears after the verdict box scrolls off. Review and compare pages only. On desktop it becomes the sticky right-rail summary card (72px photo, name, score line, large buy, seam, "On this page" TOC).
 
 ### Size diagram (throat space to scale)
 Card, rows of `200 to 240px label | bar`. Scale ruler 0 / 6 / 12 / 18 / 24 in (22 to 30px per inch, same scale on every page). Current machine bar in graphite, category ranges in `rule-soft` with hatched extension for the range top. Rows: Typical beginner machine (about 6 in), current machine, Mid-arm 16–18 in, Long-arm on a frame 18–26 in. Caption: "Throat space is the distance from the needle to the machine body: how much rolled quilt fits through."

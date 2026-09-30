@@ -32,8 +32,13 @@ export const AFFILIATE_ACTIVE =
   (NETWORK === "awin" && Boolean(AWIN_MERCHANT_ID && AWIN_PUBLISHER_ID)) ||
   (NETWORK === "shareasale" && Boolean(SAS_MERCHANT_ID && SAS_AFFILIATE_ID));
 
-/** The design rule: the word "affiliate" is never dropped from a buy button. */
-export const SHOW_AFFILIATE_LABEL = true;
+/**
+ * The design rule: while a program is live the word "affiliate" is never dropped
+ * from a buy button. Keyed on the public network setting (not the server-only
+ * IDs) so server and client renders agree. With "direct" there is no program,
+ * so no chip and no claim.
+ */
+export const SHOW_AFFILIATE_LABEL = NETWORK !== "direct";
 
 export type BuyTarget =
   | { kind: "retailer"; url: string }

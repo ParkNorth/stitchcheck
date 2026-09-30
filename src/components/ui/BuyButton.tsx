@@ -1,4 +1,4 @@
-import { outboundLinkProps } from "@/lib/affiliates";
+import { SHOW_AFFILIATE_LABEL, outboundLinkProps } from "@/lib/affiliates";
 import { hasBuyButton, type Product } from "@/lib/products";
 import { site } from "@/lib/site";
 import { formatUsd } from "@/lib/price-bands";
@@ -72,7 +72,7 @@ export function BuyButton({
       data-slug={product.slug}
     >
       <span>{text}</span>
-      <span className="aff">Affiliate</span>
+      {SHOW_AFFILIATE_LABEL && <span className="aff">Affiliate</span>}
     </a>
   );
 }

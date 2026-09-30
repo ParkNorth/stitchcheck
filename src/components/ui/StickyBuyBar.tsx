@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { SHOW_AFFILIATE_LABEL } from "@/lib/affiliates";
 import { bandLabel } from "@/lib/price-bands";
 import type { Product } from "@/lib/products";
 import { site } from "@/lib/site";
@@ -58,7 +59,9 @@ export function StickyBuyBar({
         </div>
         <BuyButton product={p} size="sm" className="!min-h-[48px] !text-[15px]" label="Check lowest price" />
       </div>
-      <div className="m text-[13px] text-steel text-right">Affiliate link to {site.retailer.name}</div>
+      {SHOW_AFFILIATE_LABEL && (
+        <div className="m text-[13px] text-steel text-right">Affiliate link to {site.retailer.name}</div>
+      )}
     </div>
   );
 }

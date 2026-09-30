@@ -25,7 +25,7 @@ Read first: `docs/00-foundations.md` (scope, money), `docs/02-ia-and-linking.md`
 ## Affiliate policy
 
 13. **One retailer, one mask.** Every buy link goes through `/out/{slug}` via `BuyButton` with `rel="sponsored nofollow noopener"`. Never hand-write an outbound purchase anchor. Reason: FTC compliance and one place to audit.
-14. **The word "affiliate" is never dropped from a buy button**, even at the smallest size. Reason: the design rule and the disclosure.
+14. **While an affiliate program is live (`SHOW_AFFILIATE_LABEL`, true when a network is configured), the word "affiliate" is never dropped from a buy button**, even at the smallest size; with no program live, buy buttons carry no affiliate chip or line and the disclosure copy must not claim one. Reason: the label must match reality in both directions.
 15. **Dealer-only brands (Baby Lock, Bernina) get no buy button and no affiliate relationship**; they link to the maker's dealer locator with `rel="nofollow"`. Never fake a hop. Reason: honesty, and the program does not exist.
 16. **Commission never sets the rank.** The value pick is chosen for fit and labelled in brass, one per page. Reason: the About page promises it.
 

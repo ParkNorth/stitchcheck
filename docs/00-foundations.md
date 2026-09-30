@@ -72,7 +72,7 @@ One retailer: **Sewing Machines Plus** (sewingmachinesplus.com). Research (`docs
 | Handi Quilter, Grace Company | `/out/{slug}` where SMP lists the model | SMP lists Moxie and Q'nique; confirm stock before flipping to retailer. |
 | Baby Lock, Bernina | Dealer locator, `rel="nofollow noopener external"` | Dealer-only pricing. No buy button, no affiliate relationship, honest copy. SMP research says it carries both; revisit if SMP sells them online with a price. |
 
-Rules: only `BuyButton` renders a purchase link; the word "affiliate" is never dropped; the FTC disclosure stays in the footer, About and Terms; commission never sets the rank; the value pick is chosen for fit and there is one per page.
+Rules: only `BuyButton` renders a purchase link; the word "affiliate" is never dropped from a buy button while a program is live (and never claimed while none is); the FTC disclosure stays in the footer, About and Terms; commission never sets the rank; the value pick is chosen for fit and there is one per page.
 
 ## Success funnel (directional)
 
