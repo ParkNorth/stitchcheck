@@ -57,10 +57,7 @@ export function BuyButton({
         data-affiliate="true"
         data-slug={product.slug}
       >
-        <span className="flex flex-col gap-0.5 text-left">
-          <span className="text-[16px]">{text}</span>
-          <span className="m text-[13px] font-medium opacity-85">Affiliate link · opens new tab</span>
-        </span>
+        <span className="text-[16px] text-left">{text}</span>
         <ExternalArrow />
       </a>
     );
