@@ -50,5 +50,6 @@ Read first: `docs/00-foundations.md` (scope, money), `docs/02-ia-and-linking.md`
 - Screenshots: `npm run screenshots -- --serve /route ...` (390 and 1280 into `.screenshots/`).
 - Product images: `scripts/fetch-images.ts` (`npm run fetch:images`) fills `public/images/products/` and `src/lib/images-manifest.json` from `data/images.json`; process and rights in `docs/07-images.md`.
 - Open Graph cards: `scripts/build-og.ts` (`npm run build:og`) renders `public/og/*.png` and `src/lib/og-manifest.json`; re-run after adding a page or changing a title. Commit the PNGs; the deploy runner has no browser.
+- Favicons: `public/icon.svg` is the source (full-bleed tile, mark inside the centre circle, since Google crops to a circle); `scripts/build-icons.ts` (`npm run build:icons`) renders `favicon.ico`, `icon-192.png` and `apple-touch-icon.png`. Commit the output; the deploy runner has no browser.
 - Research template: `docs/research/_template.md`; JSON schema: `docs/research/_spec-json-schema.md`.
 - Keyword data: `docs/research/_keywords.md` (Ahrefs, re-pull monthly).
