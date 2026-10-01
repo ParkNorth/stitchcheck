@@ -1,0 +1,40 @@
+{
+  "slug": "janome-mc6650",
+  "generated": "2026-10-01T18:25:19.249Z",
+  "counts": {
+    "error": 0,
+    "warn": 2
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: of 32 sampled reviews, 3 name this model, 0 name a sibling only, 29 name neither"
+    },
+    {
+      "level": "warn",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: only 3 of 32 reviews name this model while siblings exist; confirm the listing is not pooled"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 104, this 85, sibling 10, unclear 9"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "28 Reddit threads, 10 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"throatIn\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 49 voices (34 first-hand), 30 sources, status draft"
+    }
+  ]
+}

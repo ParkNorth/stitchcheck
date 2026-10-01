@@ -1,0 +1,714 @@
+{
+  "slug": "janome-mc6650",
+  "today": "2026-10-01",
+  "rules": "AGENTS.md rules 1 to 12 apply: spec-check not field-test, owner evidence labelled, paraphrase and attribute, no em or en dashes, never invent a spec, claims quoted not asserted, every spec sourced, model name is not a spec, conflicts listed, price bands not live prices.",
+  "spec": {
+    "slug": "janome-mc6650",
+    "brand": "Janome",
+    "model": "Memory Craft 6650",
+    "series": "Memory Craft",
+    "type": "computerized",
+    "industrial": false,
+    "jobs": [
+      "heavy-duty",
+      "quilting"
+    ],
+    "manufacturerUrl": "https://www.janome.com/product/memory-craft-6650/",
+    "retailerUrl": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+    "priceUsdSeen": null,
+    "priceSeenDate": null,
+    "priceSeenAt": null,
+    "specs": {
+      "stitchTypes": {
+        "value": "170 built-in stitches and 2 alphabets, including 9 one-step buttonholes",
+        "source": "https://www.qualitysewing.com/products/janome-memory-craft-6650-sewing-quilting-machine"
+      },
+      "stitchCount": {
+        "value": 170,
+        "source": "https://www.qualitysewing.com/products/janome-memory-craft-6650-sewing-quilting-machine"
+      },
+      "maxSpm": {
+        "value": 1000,
+        "source": "https://www.qualitysewing.com/products/janome-memory-craft-6650-sewing-quilting-machine"
+      },
+      "threads": {
+        "value": null,
+        "source": null
+      },
+      "differentialFeed": {
+        "value": null,
+        "source": null
+      },
+      "throatIn": {
+        "value": 10,
+        "source": "https://www.qualitysewing.com/products/janome-memory-craft-6650-sewing-quilting-machine"
+      },
+      "needleSystem": {
+        "value": null,
+        "source": null
+      },
+      "presserFootLift": {
+        "value": null,
+        "source": null
+      },
+      "threadTrimmer": {
+        "value": "Automatic thread cutter",
+        "source": "https://www.qualitysewing.com/products/janome-memory-craft-6650-sewing-quilting-machine"
+      },
+      "feedSystem": {
+        "value": "Top-loading full rotary hook; one-push needle plate conversion with 2 plates included",
+        "source": "https://www.qualitysewing.com/products/janome-memory-craft-6650-sewing-quilting-machine"
+      },
+      "buttonhole": {
+        "value": "9 one-step buttonhole styles",
+        "source": "https://www.qualitysewing.com/products/janome-memory-craft-6650-sewing-quilting-machine"
+      },
+      "motor": {
+        "value": null,
+        "source": null
+      },
+      "frame": {
+        "value": "10 in all-metal flatbed; no free arm",
+        "source": "https://mariasew.com/blog/janome-mc6650-review/"
+      },
+      "weightLb": {
+        "value": null,
+        "source": null
+      },
+      "dimensionsIn": {
+        "value": null,
+        "source": null
+      },
+      "includedFeet": {
+        "value": "Zigzag foot (on machine), blind hem foot, overcast foot, satin stitch foot, rolled hem foot, zipper foot, darning foot, free motion quilting set (closed toe, open toe, zigzag), automatic buttonhole foot; also lint brush, seam ripper, 6 bobbins, spool caps, buttonhole stabilizer plate, quilting guide, screwdriver, needles, 2 cone nets, 2 spool rests",
+        "source": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine"
+      },
+      "warrantyUs": {
+        "value": null,
+        "source": null
+      }
+    },
+    "claims": [
+      "\"professional-grade\" sewing and quilting machine (dealer copy repeating Janome positioning)",
+      "\"Heavy Duty Sewing and Quilting Machine\" (Walmart listing title; Janome does not put it in the HD series)",
+      "\"3.6 inch bright LCD screen\" (manufacturer feature list via dealer page)"
+    ],
+    "conflicts": [
+      "Weight, dimensions, warranty, needle system and presser foot lift did not appear in any accessible snippet. All left null; the janome.com product page could not be fetched.",
+      "Walking foot: the SMP accessory list does not include a walking or AcuFeed foot; an owner review confirms buying a $59 walking foot separately. Some retail bundles add one.",
+      "Price: not visible in accessible snippets. SMP shows only add-on packages ($99 sewing, $149 quilting). Left null."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "A quilter's long-form owner review calls it fast and smooth with a wide throat that changes how quilts handle, but says the experience was poor until she bought the walking foot that is not in the box.",
+        "tone": "mixed",
+        "source": "https://payattentiontomyart.com/posts/janome-mc6650-review"
+      },
+      {
+        "theme": "Review roundups flag that the default stitch length is long for piecing and that seam ends unravel unless shortened, and that the lack of a free arm limits cuffs and sleeves.",
+        "tone": "mixed",
+        "source": "https://mariasew.com/blog/janome-mc6650-review/"
+      },
+      {
+        "theme": "A PatternReview thread weighing the Skyline S5 against the MC6650 frames the choice as free arm and convenience features versus the 6650's longer flatbed and higher speed.",
+        "tone": "mixed",
+        "source": "https://sewing.patternreview.com/SewingDiscussions/topic/116259"
+      }
+    ],
+    "evidence": "owner",
+    "buyerQuestions": [
+      "Does the Janome MC6650 have a free arm?",
+      "Does the Janome MC6650 come with a walking foot?",
+      "How much throat space does the Janome MC6650 have?",
+      "Is the Janome MC6650 good for quilting?",
+      "Is the Janome MC6650 heavy duty enough for denim?",
+      "What is the difference between the Janome MC6650 and the Skyline S5?",
+      "Does the MC6650 have a knee lifter?",
+      "How much does the Janome MC6650 weigh?",
+      "Does the Janome MC6650 have AcuFeed?"
+    ],
+    "crossShop": [
+      {
+        "slug": "juki-tl-2010q",
+        "why": "The straight-stitch alternative with more speed and a 9 in arm for quilters who do not need utility stitches."
+      },
+      {
+        "slug": "janome-hd3000",
+        "why": "Janome buyers deciding whether a simple mechanical covers their heavy fabric work at a fraction of the price."
+      },
+      {
+        "slug": "juki-tl-2000qi",
+        "why": "Lower-cost Juki straight-stitch head for the same quilting jobs."
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "editorial": {
+      "verdict": "A 10 in computerized flatbed with 170 stitches and a thread cutter for quilters who want one machine that pieces, quilts and still sews garments.",
+      "whoFor": "Quilters and home sewists who want a long arm space and automated features without giving up zigzag, buttonholes and alphabets.",
+      "skipIf": "You need a free arm for cuffs and sleeves, or you sew heavy canvas and leather often enough that a mechanical or industrial is the better tool.",
+      "keySpec": "1,000 spm · 170 stitches · 10 in arm · auto thread cutter",
+      "strengths": [
+        "Dealers list a 10 in all-metal flatbed and 1,000 spm.",
+        "Automatic thread cutter and one-push needle plate change with two plates in the box.",
+        "Nine one-step buttonhole styles and two alphabets cover garment work a straight-stitch machine cannot."
+      ],
+      "weaknesses": [
+        "No free arm.",
+        "No walking foot in the standard accessory list; owners buy one.",
+        "Weight, warranty and dimensions were not published in accessible sources."
+      ],
+      "checks": [
+        {
+          "title": "Walking or AcuFeed foot",
+          "body": "Confirm whether the bundle includes a walking foot. The standard SMP list does not, and one owner rated the machine poorly until she added one."
+        },
+        {
+          "title": "Free arm need",
+          "body": "This is a flatbed. If you hem jeans and sleeves weekly, a free arm machine as a second unit may be needed."
+        },
+        {
+          "title": "Package pricing",
+          "body": "SMP sells a $99 sewing package and a $149 quilting package on top of the machine. Check what is already in the box before adding either."
+        }
+      ],
+      "realCost": [
+        "Walking foot (about $59 per owner report)",
+        "Extra bobbins and cone nets for large spools",
+        "Quilting needles size 90/14"
+      ]
+    },
+    "sources": [
+      "https://www.janome.com/product/memory-craft-6650/",
+      "https://www.qualitysewing.com/products/janome-memory-craft-6650-sewing-quilting-machine",
+      "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+      "https://payattentiontomyart.com/posts/janome-mc6650-review",
+      "https://mariasew.com/blog/janome-mc6650-review/",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/116259",
+      "https://www.walmart.com/ip/Janome-MC6650-Computerized-Quilting-Sewing-Machine/583892796",
+      "https://sewinginsight.com/reviews/janome-memory-craft-6650-review-sewing-and-quilting-machine/"
+    ]
+  },
+  "manufacturer": {
+    "documents": [
+      {
+        "id": "janome-page",
+        "url": "https://www.janome.com/product/memory-craft-6650/",
+        "type": "product page",
+        "fetched": "2026-10-01",
+        "note": "Specifications, features, MSRP"
+      },
+      {
+        "id": "janome-brochure",
+        "url": "https://www.janome.com/wp-content/uploads/2019/04/mc6650-feature_sheet.pdf",
+        "type": "feature sheet (PDF, 2 pages)",
+        "fetched": "2026-10-01",
+        "note": "Differs from the page on stitch count, LEDs and rolled hem foot width"
+      },
+      {
+        "id": "janome-manual",
+        "url": "https://www.janome.com/wp-content/uploads/2019/04/866d_mc6650_866-800-408_eng_revised-compressed.pdf",
+        "type": "instruction book (PDF, 108 pages)",
+        "fetched": "2026-10-01",
+        "note": "Foot lift, needle kit, bobbin type"
+      },
+      {
+        "id": "janome-warranty",
+        "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+        "type": "25-year warranty (image PDF, OCR)",
+        "fetched": "2026-10-01",
+        "note": "OCR text; confirm wording against the PDF"
+      },
+      {
+        "id": "janome-6700p",
+        "url": "https://www.janome.com/product/memory-craft-6700p/",
+        "type": "product page (comparison, MC6700P)",
+        "fetched": "2026-10-01",
+        "note": "Used for sibling differences"
+      }
+    ],
+    "facts": [
+      {
+        "field": "maxSpm",
+        "value": "1,000 stitches per minute",
+        "source": "janome-page",
+        "vs_spec": "confirms",
+        "spec_value": 1000,
+        "site": {
+          "label": "Speed",
+          "juki": "1,000 stitches per minute.",
+          "others": "Matches our spec.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Janome source",
+              "url": "https://www.janome.com/product/memory-craft-6650/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "stitchCount",
+        "value": "170 built-in stitches (page) vs 172 (brochure); manual refers to stitch 172",
+        "source": "janome-page",
+        "vs_spec": "confirms",
+        "spec_value": 170,
+        "note": "Janome's own page and brochure disagree by two stitches; list under conflicts.",
+        "site": {
+          "label": "Stitches",
+          "juki": "Page says 170, brochure says 172.",
+          "others": "Dealers quote 170.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Janome source",
+              "url": "https://www.janome.com/product/memory-craft-6650/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "weightLb",
+        "value": "24.25 lb",
+        "source": "janome-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null.",
+        "site": {
+          "label": "Weight",
+          "juki": "24.25 lb.",
+          "others": "Not checked at dealers.",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Janome source",
+              "url": "https://www.janome.com/product/memory-craft-6650/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "dimensionsIn",
+        "value": "W 20.3 x H 11.8 x D 8.6 in",
+        "source": "janome-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null."
+      },
+      {
+        "field": "throatIn",
+        "value": "Janome gives 'Workspace W 10 in x H 4.7 in' and '10 in all-metal seamless flatbed'; no needle-to-arm figure",
+        "source": "janome-page",
+        "vs_spec": "contradicts",
+        "spec_value": 10,
+        "note": "Our 10 in throat has no maker source for needle-to-body. Janome's 10 in is workspace width, so under rule 11 the throat is not confirmed.",
+        "site": {
+          "label": "Throat space",
+          "juki": "Janome states a 10 in workspace width and 4.7 in height, not a needle-to-arm distance.",
+          "others": "Dealers and owners call it a 10 in throat.",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Janome source",
+              "url": "https://www.janome.com/product/memory-craft-6650/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "stitchWidthMm",
+        "value": "9 mm maximum",
+        "source": "janome-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null."
+      },
+      {
+        "field": "stitchLengthMm",
+        "value": "5 mm maximum",
+        "source": "janome-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null."
+      },
+      {
+        "field": "presserFootLift",
+        "value": "Extra high lift; manual says about 7 mm (1/4 in) above the normal raised position",
+        "source": "janome-manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null."
+      },
+      {
+        "field": "feedSystem",
+        "value": "Superior Feed System Plus (SFS+), 7-piece feed dog; no built-in AcuFeed",
+        "source": "janome-page",
+        "vs_spec": "adds",
+        "spec_value": "Top-loading full rotary hook; one-push needle plate conversion",
+        "note": "AcuFeed is an optional accessory on the 6650; the 6700P has it built in."
+      },
+      {
+        "field": "buttonhole",
+        "value": "9 one-step buttonhole styles",
+        "source": "janome-page",
+        "vs_spec": "confirms",
+        "spec_value": "9 one-step buttonhole styles"
+      },
+      {
+        "field": "threadTrimmer",
+        "value": "Automatic thread cutter; remote cutter port is an optional accessory",
+        "source": "janome-page",
+        "vs_spec": "confirms",
+        "spec_value": "Automatic thread cutter"
+      },
+      {
+        "field": "needleSystem",
+        "value": "Not stated on the page or brochure; manual needle kit lists #11/75 and #14/90 needles and a twin needle",
+        "source": "janome-manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null. No system designation published."
+      },
+      {
+        "field": "motor",
+        "value": "Independent bobbin winding motor only; main motor type and wattage not published",
+        "source": "janome-page",
+        "vs_spec": "confirms",
+        "spec_value": null
+      },
+      {
+        "field": "includedFeet",
+        "value": "12 included accessory feet per the page; brochure lists zigzag A, overcast M, 3 mm rolled hem, zipper E, satin F, blind hem G, darning PD-H, buttonhole R and a convertible foot",
+        "source": "janome-brochure",
+        "vs_spec": "confirms",
+        "spec_value": "Zigzag foot, blind hem, overcast, satin stitch, rolled hem, zipper, darning, free motion quilting set, automatic buttonhole foot",
+        "note": "The page rolled hem foot is 2 mm and the brochure says 3 mm."
+      },
+      {
+        "field": "warrantyUs",
+        "value": "25 year limited; electronic components 5 years, labor 1 year (OCR of Janome's warranty PDF); Amazon listing says 25 Year Limited Warranty",
+        "source": "janome-warranty",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null. Component split is from OCR text, so verify against the PDF before quoting. Per the OCR text the warranty is void if the machine is not bought from an authorized Janome dealer in the United States, and commercial use is limited to 1 year. Check whether an Amazon or Costco listing is an authorized sale.",
+        "site": {
+          "label": "Warranty",
+          "juki": "25 years limited per Janome's warranty document; the OCR text gives electronics 5 years and labor 1 year.",
+          "others": "Amazon and dealers repeat 25 years.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Janome source",
+              "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "msrp",
+        "value": "$2,999 MSRP; contact dealer for pricing",
+        "source": "janome-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Amazon showed $2,099."
+      },
+      {
+        "field": "lighting",
+        "value": "6 LEDs in 3 locations (page); 3 high-powered LED lights (brochure)",
+        "source": "janome-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Page and brochure disagree."
+      },
+      {
+        "field": "vsMC6700P",
+        "value": "6700P: 200 stitches plus 5 alphabets, 1,200 spm, built-in AcuFeed, 3 needle plates, 17 feet, extension table, knee lift, $3,999; same size, weight and 10 in flatbed as the 6650",
+        "source": "janome-6700p",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Sibling difference from Janome's own pages."
+      },
+      {
+        "field": "claims",
+        "value": "'Janome is bringing professional power into the project makers home'; '10 in all-metal seamless flatbed'; 'high caliber construction for superior durability, ball bearing design'",
+        "source": "janome-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Marketing wording; claims only."
+      }
+    ]
+  },
+  "rollup": {
+    "status": "draft",
+    "method": {
+      "sources": 30,
+      "itemsCollected": 781,
+      "statements": 85,
+      "voices": 49,
+      "ownerVoices": 34,
+      "dateRange": [
+        2019,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 2,
+          "items": 43
+        },
+        "reddit": {
+          "sources": 28,
+          "items": 738
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+        "pageRating": 4.47,
+        "pageCount": 32,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 0,
+          "2": 2,
+          "3": 4,
+          "4": 3,
+          "5": 23
+        },
+        "lowRated": 6,
+        "sampled": null
+      },
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B07RRJDQ75",
+        "pageRating": 4.6,
+        "pageCount": 312,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 9
+        },
+        "lowRated": 0,
+        "sampled": "11 top reviews (8 US, 3 other countries) of 312 ratings"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Throat and workspace",
+        "voices": 17,
+        "ownerVoices": 13,
+        "sources": 9,
+        "polarity": {
+          "positive": 16,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "retailer": 5,
+          "reddit": 12
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "positive",
+            "claim": "Owner praises the very wide throat.",
+            "url": "https://www.reddit.com/r/quilting/comments/1g7ln94/janome_elna_or_bernina/lstuqg8/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Three-year owner who made quilts up to king size praises the throat space.",
+            "url": "https://www.reddit.com/r/quilting/comments/1indzen/want_to_upgrade_my_machine/mcaaumc/"
+          }
+        ]
+      },
+      {
+        "label": "Reliability and defects",
+        "voices": 11,
+        "ownerVoices": 10,
+        "sources": 7,
+        "polarity": {
+          "positive": 4,
+          "negative": 7,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 8
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner says a thread spool spindle broke off, which they blame on poor shipping packaging.",
+            "url": "https://www.amazon.com/dp/B07RRJDQ75"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Only fault in three years was a broken foot pedal replaced for about 30 dollars.",
+            "url": "https://www.reddit.com/r/quilting/comments/1indzen/want_to_upgrade_my_machine/mcaaumc/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner says the machine runs smoothly.",
+            "url": "https://www.reddit.com/r/quilting/comments/qtse61/does_anyone_have_the_janome_6650_memory_craft/hklr9j6/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner made a wall hanging and quilt coat with no issues.",
+            "url": "https://www.reddit.com/r/quilting/comments/1indzen/want_to_upgrade_my_machine/mcbqukj/"
+          }
+        ]
+      },
+      {
+        "label": "Threading and loopers",
+        "voices": 6,
+        "ownerVoices": 6,
+        "sources": 3,
+        "polarity": {
+          "positive": 2,
+          "negative": 4,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "classVoices": {
+          "retailer": 5,
+          "reddit": 1
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner says the needle threader did not always work.",
+            "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner of several months reports the needle threader moved with the needle during sewing and then stuck in the down position.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/16f25i3/janome_memory_craft_6650_needle_threader_stuck/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner finds the machine easy to thread and use.",
+            "url": "https://www.amazon.com/dp/B07RRJDQ75"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner finds the auto needle threader splits synthetic thread but works fine with cotton.",
+            "url": "https://www.amazon.com/dp/B07RRJDQ75"
+          }
+        ]
+      },
+      {
+        "label": "Thread trimmer",
+        "voices": 6,
+        "ownerVoices": 6,
+        "sources": 3,
+        "polarity": {
+          "positive": 4,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "classVoices": {
+          "retailer": 4,
+          "reddit": 2
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner says the automatic cutter does not always cut.",
+            "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner likes the automatic thread cutting.",
+            "url": "https://www.reddit.com/r/quilting/comments/qtse61/does_anyone_have_the_janome_6650_memory_craft/hkro6a5/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner likes the automatic thread cutter.",
+            "url": "https://www.amazon.com/dp/B07RRJDQ75"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "The automatic thread cutter only works if the bobbin is threaded a specific way described in the manual.",
+            "url": "https://www.reddit.com/r/quilting/comments/qtse61/does_anyone_have_the_janome_6650_memory_craft/hkpz3l0/"
+          }
+        ]
+      }
+    ],
+    "siblings": [
+      {
+        "label": "Janome Memory Craft 6700P",
+        "rows": [
+          {
+            "feature": "Stitches",
+            "summary": "Janome lists the 6700P with 200 stitches plus 5 alphabets against the 6650's 170 plus 2.",
+            "check": "Janome product pages, 2026-10-01"
+          },
+          {
+            "feature": "Speed",
+            "summary": "1,200 spm on the 6700P against 1,000 on the 6650.",
+            "check": "Janome product pages, 2026-10-01"
+          },
+          {
+            "feature": "Feed system",
+            "summary": "The 6700P has AcuFeed built in; on the 6650 it is an optional accessory.",
+            "check": "Janome product pages, 2026-10-01"
+          },
+          {
+            "feature": "Price",
+            "summary": "MSRP $3,999 for the 6700P against $2,999 for the 6650.",
+            "check": "Janome product pages, 2026-10-01"
+          },
+          {
+            "feature": "Size and weight",
+            "summary": "Same size, weight and 10 in flatbed.",
+            "check": "Janome product pages, 2026-10-01"
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "checks": [
+    {
+      "level": "warn",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: only 3 of 32 reviews name this model while siblings exist; confirm the listing is not pooled"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"throatIn\" but the spec's conflicts do not mention it"
+    }
+  ],
+  "editorNotes": {
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction."
+  },
+  "siteFieldsNow": "  \"janome-mc6650\": {\n    series: \"MC\",\n    score: 8.1,\n    scoredFor: \"quilting\",\n    priceBand: 3,\n    reason: \"The heavy-duty pick for people who also want a computerized all-rounder.\",\n    context: \"Computerized quilter · in Heavy duty and Quilting hubs\",\n    verdict: \"The heavy-duty pick for people who also want a computerized all-rounder.\",\n    keySpec: \"1,000 spm · 10 in throat · full stitch set\",\n    alternatives: [\n      { slug: \"juki-tl-2010q\", label: \"Faster\", note: \"Straight stitch only.\" },\n      { slug: \"janome-hd3000\", label: \"Cheaper\", note: \"Mechanical, smaller throat.\" },\n      { slug: \"bernina-570-qe\", label: \"Dealer route\", note: \"The Bernina it is cross-shopped with.\" },\n    ],\n    imageAlt: \"Janome Memory Craft 6650 computerized sewing and quilting machine\",\n    lastUpdated: \"2026-09-29\",\n  },",
+  "comparesNow": []
+}
