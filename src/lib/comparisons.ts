@@ -98,11 +98,11 @@ export const comparisons: Comparison[] = [
     slug: "singer-4423-vs-4432-vs-4452",
     title: "Singer 4423 vs 4432 vs 4452",
     description:
-      "The Singer Heavy Duty family compared as people search it: forum and roundup reports of one head, three stitch counts and three bundles.",
+      "The Singer Heavy Duty family compared as people search it: Singer's own pages list 23, 32 and 32 stitches and three bundles.",
     productSlugs: ["singer-4423", "singer-4432", "singer-4452"],
     picks: { "singer-4452": "value-pick" },
     summary:
-      "Forum and roundup reports describe one head across the three. Buy the 4452 if you'd use the extra presser feet, the 4423 if you won't. The 4432 is hard to justify between them.",
+      "Singer's pages list 23 stitches for the 4423 and the same 32 for the 4432 and 4452, with the 4452 adding a walking foot, non-stick foot, clearance plate and heavy duty needles. Buy the 4452 if you would use the extra feet, the 4423 if you will not. The 4432 is hard to justify between them.",
     crumb: "Singer Heavy Duty family",
     rows: [
       { label: "Price band", key: "priceBand", rule: "lower" },
@@ -113,9 +113,9 @@ export const comparisons: Comparison[] = [
       { label: "Our score", key: "score", rule: "higher" },
     ],
     buyIf: [
-      { slug: "singer-4423", text: "You want the family motor and speed at the lowest price and will not use the extra feet." },
-      { slug: "singer-4432", text: "It is on sale below the 4423. Otherwise skip it." },
-      { slug: "singer-4452", text: "You would buy the extra presser feet anyway. The bundle is the whole difference, per third-party reports." },
+      { slug: "singer-4423", text: "You want the lowest price and will not use the extra feet or the extra stitches." },
+      { slug: "singer-4432", text: "It is on sale below the 4452 and you want 32 stitches without the extra feet. Otherwise skip it." },
+      { slug: "singer-4452", text: "You would buy the extra presser feet anyway. Singer lists the same 32 stitches as the 4432; the bundle is the difference." },
     ],
     relatedGuide: "sewing-machine-for-thick-fabric",
     lastUpdated: "2026-10-01",

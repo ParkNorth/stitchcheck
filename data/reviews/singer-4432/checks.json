@@ -1,0 +1,40 @@
+{
+  "slug": "singer-4432",
+  "generated": "2026-10-01T23:55:00.069Z",
+  "counts": {
+    "error": 0,
+    "warn": 2
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: of 36 sampled reviews, 2 name this model, 0 name a sibling only, 34 name neither"
+    },
+    {
+      "level": "warn",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: only 2 of 36 reviews name this model while siblings exist; confirm the listing is not pooled"
+    },
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 3 ASINs (B0C6W8XT6C, B00JJ6L6PY, B0DGLBM72T); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 192, this 158, sibling 7, unclear 27"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "60 Reddit threads, 60 with the model in the title"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 122 voices (95 first-hand), 62 sources, status draft"
+    }
+  ]
+}
