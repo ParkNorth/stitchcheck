@@ -26,7 +26,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 
 const a = process.argv.slice(2);
-const val = (n: string) => a[a.indexOf(n) + 1];
+const val = (n: string) => (a.includes(n) ? a[a.indexOf(n) + 1] : undefined);
 const slug = val("--slug");
 if (!slug) throw new Error("usage: reviews-amazon.ts --slug <slug> [--asin B..|--search-only|--from-file f] [--from-claude-config]");
 const ROOT = path.resolve(__dirname, "..");

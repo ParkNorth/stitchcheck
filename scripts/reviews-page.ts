@@ -22,7 +22,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 
 const a = process.argv.slice(2);
-const val = (n: string) => a[a.indexOf(n) + 1];
+const val = (n: string) => (a.includes(n) ? a[a.indexOf(n) + 1] : undefined);
 const urls = [...a.flatMap((x, i) => (x === "--url" ? [a[i + 1]] : []))];
 const slug = val("--slug");
 const kind = val("--kind") ?? "review";

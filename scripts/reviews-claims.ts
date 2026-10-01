@@ -25,7 +25,7 @@ import path from "node:path";
 
 const a = process.argv.slice(2);
 const mode = a[0];
-const val = (n: string) => a[a.indexOf(n) + 1];
+const val = (n: string) => (a.includes(n) ? a[a.indexOf(n) + 1] : undefined);
 const slug = val("--slug");
 const CHUNK = Number(val("--chunk") ?? 40);
 if (!slug || !["prep", "merge"].includes(mode)) throw new Error("usage: reviews-claims.ts prep|merge --slug X");

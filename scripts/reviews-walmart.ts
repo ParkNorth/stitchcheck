@@ -18,7 +18,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 
 const a = process.argv.slice(2);
-const val = (n: string) => a[a.indexOf(n) + 1];
+const val = (n: string) => (a.includes(n) ? a[a.indexOf(n) + 1] : undefined);
 const slug = val("--slug");
 const product = val("--product");
 const dir = val("--dir");
