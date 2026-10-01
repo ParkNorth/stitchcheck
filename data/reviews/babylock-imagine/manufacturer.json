@@ -1,0 +1,190 @@
+{
+  "slug": "babylock-imagine",
+  "collected": "2026-10-01",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/babylock-imagine.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "maker-spec-sheet",
+      "url": "https://babylock.com/imagine-ble1at-2-spec-sheet",
+      "type": "spec sheet (PDF, 6 pages)",
+      "fetched": "2026-10-01",
+      "note": "Features and Specifications section; manual and warranty PDFs not yet fetched"
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1500 stitches per minute",
+      "source": "maker-spec-sheet",
+      "vs_spec": "confirms",
+      "spec_value": 1500,
+      "site": {
+        "label": "Speed",
+        "juki": "1,500 stitches per minute.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Imagine spec sheet",
+            "url": "https://babylock.com/imagine-ble1at-2-spec-sheet"
+          }
+        ]
+      }
+    },
+    {
+      "field": "weightLb",
+      "value": "16 pounds",
+      "source": "maker-spec-sheet",
+      "vs_spec": "contradicts",
+      "spec_value": 17.2,
+      "note": "Spec had 17.2 lb from a non-maker source; the spec sheet says 16 lb. Unconfirmed whether either is shipping weight.",
+      "site": {
+        "label": "Weight",
+        "juki": "16 lb on the Baby Lock spec sheet.",
+        "others": "Our earlier figure was 17.2 lb from a secondary source.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Baby Lock Imagine spec sheet",
+            "url": "https://babylock.com/imagine-ble1at-2-spec-sheet"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchWidthMm",
+      "value": "1.5 to 7.5 mm dial adjustable",
+      "source": "maker-spec-sheet",
+      "vs_spec": "contradicts",
+      "spec_value": "5.5 to 7.5 (4 thread); 3.0 to 7.5 (3 thread)",
+      "note": "Maker gives one dial range; our spec splits by thread count. Verify against the manual before changing.",
+      "site": {
+        "label": "Stitch width",
+        "juki": "1.5 to 7.5 mm, dial adjustable.",
+        "others": "Our spec splits the range by 4 thread and 3 thread.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Baby Lock Imagine spec sheet",
+            "url": "https://babylock.com/imagine-ble1at-2-spec-sheet"
+          }
+        ]
+      }
+    },
+    {
+      "field": "seamAllowanceMm",
+      "value": "stitch length 0.75 to 4 mm",
+      "source": "maker-spec-sheet",
+      "vs_spec": "confirms",
+      "spec_value": "0.75 to 4",
+      "site": {
+        "label": "Stitch length",
+        "juki": "0.75 to 4 mm, dial adjustable, with an automatic rolled hem setting.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Imagine spec sheet",
+            "url": "https://babylock.com/imagine-ble1at-2-spec-sheet"
+          }
+        ]
+      }
+    },
+    {
+      "field": "differentialFeed",
+      "value": "2 to 1 ratio gathering; 3 to 4 ratio stretching",
+      "source": "maker-spec-sheet",
+      "vs_spec": "contradicts",
+      "spec_value": "Yes, ratio 0.6 to 2.0",
+      "note": "Maker writes ratios as 2:1 and 3:4 (0.75). Our 0.6 lower bound is not on the spec sheet.",
+      "site": {
+        "label": "Differential feed",
+        "juki": "Full-featured single-unit differential feed: 2 to 1 gathering, 3 to 4 stretching.",
+        "others": "Our earlier range was 0.6 to 2.0.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Baby Lock Imagine spec sheet",
+            "url": "https://babylock.com/imagine-ble1at-2-spec-sheet"
+          }
+        ]
+      }
+    },
+    {
+      "field": "threads",
+      "value": "4/3/2 thread serging; rolled hem and flatlock with 2 or 3 threads",
+      "source": "maker-spec-sheet",
+      "vs_spec": "adds",
+      "spec_value": "3 or 4 thread; 2 needles",
+      "note": "Spec sheet lists 2-thread stitches, which our spec omits."
+    },
+    {
+      "field": "needleSystem",
+      "value": "Household needle system: HAx1SP, 130/705H, ELx705CF",
+      "source": "maker-spec-sheet",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec had null.",
+      "site": {
+        "label": "Needle system",
+        "juki": "HAx1SP, 130/705H and ELx705CF.",
+        "others": "No dealer figure found yet.",
+        "status": "added",
+        "links": [
+          {
+            "label": "Baby Lock Imagine spec sheet",
+            "url": "https://babylock.com/imagine-ble1at-2-spec-sheet"
+          }
+        ]
+      }
+    },
+    {
+      "field": "warrantyUs",
+      "value": "25 yrs limited, 10 yrs parts, 5 yrs electrical, 1 yr labor",
+      "source": "maker-spec-sheet",
+      "vs_spec": "confirms",
+      "spec_value": "25 yr limited; 10 yr parts, 5 yr electrical, 1 yr labor (dealer statement)",
+      "note": "Now confirmed by the maker document.",
+      "site": {
+        "label": "Warranty",
+        "juki": "25 years limited; 10 years parts, 5 years electrical, 1 year labor.",
+        "others": "Dealers state the same.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Imagine spec sheet",
+            "url": "https://babylock.com/imagine-ble1at-2-spec-sheet"
+          }
+        ]
+      }
+    },
+    {
+      "field": "threadingSystem",
+      "value": "Jet-Air threading of lower loopers by lever; Automatic Thread Delivery; built-in needle threader",
+      "source": "maker-spec-sheet",
+      "vs_spec": "confirms",
+      "spec_value": "Jet-Air looper threading by lever; Automatic Thread Delivery tension system, threads in any order",
+      "note": "Maker marketing claims; quote as claims, not fact. Needle threader is a spec addition.",
+      "site": {
+        "label": "Threading",
+        "juki": "Claims Jet-Air threading of the lower loopers, Automatic Thread Delivery, and a built-in needle threader.",
+        "others": "Owner evidence not yet collected.",
+        "status": "claim",
+        "links": [
+          {
+            "label": "Baby Lock Imagine spec sheet",
+            "url": "https://babylock.com/imagine-ble1at-2-spec-sheet"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "not published on the spec sheet",
+      "source": "maker-spec-sheet",
+      "vs_spec": "adds",
+      "spec_value": "13.4 x 11 x 11.4 (340 x 280 x 290 mm)",
+      "note": "Dimensions come from a non-maker source; keep sourced separately."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "Victory",
+      "label": "Baby Lock Victory",
+      "pattern": "victory(?![a-z0-9])|bls3(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "mo[\\s-]*1000(?![a-z0-9])",
+      "Juki MO-1000"
+    ],
+    [
+      "vibrant(?![a-z0-9])|bl460b(?![a-z0-9])",
+      "Baby Lock Vibrant"
+    ],
+    [
+      "mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])",
+      "Juki MO-654DE"
+    ],
+    [
+      "1034d(?![a-z0-9])",
+      "Brother 1034D"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "victory(?![a-z0-9])|bls3(?![a-z0-9])|mo[\\s-]*1000(?![a-z0-9])|vibrant(?![a-z0-9])|bl460b(?![a-z0-9])|mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])|1034d(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {}
+}
