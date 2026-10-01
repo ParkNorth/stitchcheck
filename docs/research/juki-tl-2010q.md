@@ -1,10 +1,10 @@
 # Research briefing: `juki-tl-2010q`
 
-last_updated: 2026-09-29
+last_updated: 2026-09-30
 manufacturer_url: https://www.jukihome.com/products/tl-2010q.html
 retailer_url: https://www.sewingmachinesplus.com/juki-2010q-machine.php
 status: draft
-evidence: mixed
+evidence: owner
 
 <!--
 Rules (see AGENTS.md):
@@ -103,3 +103,63 @@ For quilters and bag makers deciding whether a straight-stitch-only portable at 
 - [x] Claims attributed; conflicts listed; unit check written
 - [x] FAQ (6 to 12), verdict, whoFor, skipIf, strengths (3), weaknesses (3), checks (3), realCost, alternatives (in data/specs/juki-tl-2010q.json)
 - [x] No hands-on claims ("we tested", "in our hands")
+
+## Reviews collected
+
+Pilot run of the `collect-reviews` skill, 2026-09-30. Ledger: `data/reviews/juki-tl-2010q/` (`queries.json`, `sources.json`, `items.jsonl`). Collection only: no scoring, no rollup. Not yet used to change `evidence: mixed` or any site copy.
+
+| Source class | Sources | Items | Status |
+|---|---|---|---|
+| Reddit (API) | 66 threads | 1,842 posts and comments, 2015-04 to 2026-09 | ok. Mostly r/quilting (45 threads), r/sewing (11) |
+| Editorial blogs | 5 | 32 (author plus reader comments) | ok |
+| Forums | 4 read, 2 blocked | 29 | ok. Missouri Star forum, Quilting Board, 2 PatternReview threads |
+| Retailer | 3 | 251 | ok. Sewing Machines Plus 221 (page rating 4.81; 194 five-star, 19 four, 3 three, 4 two, 1 one), Juki Junkies 25 (page rating 5.0), Rocky Mountain Sewing review page 5 (lossy) |
+| YouTube | 1 | 0 | title only; comments and transcripts not collected |
+| Facebook groups | 0 of 2 | 0 | blocked (Firecrawl does not support the site) |
+
+Gaps: no Amazon or eBay review blocks yet; Facebook and YouTube comments missing; 3 of the 4 named forum domains hit (sewingmachineforum.com not searched); Ahrefs `serp-overview` not run.
+
+Conflicts between sources (listed, not resolved; rule 12):
+- Walking foot: one owner blog (matantequilting.com/juki-review) reports persistent bunching and a replacement foot that did not help; a reader comment on the same page and other owners report good straight-line quilting with it.
+- Tension: a reader comment on Ma Tante and lossy extraction hints from Quilting Wemple and Seasoned Homemaker comments mention adjusting tension; the Ma Tante author reports never having had a tension issue. A Reddit thread titled "Inconsistent Tension Juki tl-2010q" is in the ledger but not yet read.
+- Throat and feet claims in dealer copy vs owner posts are unchanged from the conflicts above.
+
+Collection caveats found in the pilot:
+- Reddit comments rarely repeat the model name (134 of 1,842 items do); relevance is decided per thread, and 25 items name the TL-2000Qi, so sibling mixing (rule 9) must be handled at classification.
+- Retailer product-page reviews are verbatim and complete (fetched counts match each page's stated count). Retailer sample skews positive and is self-selected; the page ratings are dealer-collected and must not feed `AggregateRating` schema.
+- Forum and blog units were extracted with Firecrawl's JSON mode and are lossy (generic paraphrases, unreliable author_type). They carry `extraction: firecrawl-json-lossy` and are hints only. The classification stage should read the page markdown instead.
+
+## Manufacturer cross-check (2026-09-30)
+
+Source: `data/reviews/juki-tl-2010q/manufacturer.json` (Juki product page, 44-page manual pp.11, 12, 36; brochure is image-only and unread). The Juki page was fetchable on this run; the method note at the top of this file is out of date for it. Nothing below has been copied into `data/specs/` yet; the editor or next spec pass decides.
+
+- Confirmed by Juki: 1,500 spm (slider 200 to 1,500), 6 mm max stitch length, 25.4 lb (11.5 kg), aluminum die-cast frame, drop feed, knee lifter to 12 mm, trim button plus foot controller trimming. Needle is HA x 1 (130/705H), which settles the "not confirmed" note in the spec.
+- Presser foot lift: hand lever 7 or 9 mm, knee lifter 12 mm (manual p.11).
+- Dimensions: manual says 45.2 W x 35.0 H x 21.9 L cm (17.8 x 13.8 x 8.6 in), matching the spec. The Juki web page says 17.75 W x 9 H x 8.5 D in; Rocky Mountain Sewing repeats the 9 in height. Height 9 vs 13.8 in is listed as a conflict; the manual is preferred.
+- Auxiliary table: manual 59 x 27.7 cm (23.2 x 10.9 in) vs web page 23 x 13 in (335 mm deep). Juki's "work area up to 23 inches" claim uses the width.
+- Included feet: the manual p.12 standard list has a zipper attaching foot, an upper feed (even feed) foot and a 1/4 in quilting foot. The 1/5 in quilting foot is listed under Optional accessories (web page) and marked "Option" in the manual. Juki's own feature bullet names "1/4 Inch and 1/5 Inch Quilting Feet", which is ambiguous. This contradicts the spec's includedFeet and the earlier "MSQC forum posters say both ship" note.
+- Throat: Juki publishes no needle-to-arm figure in either document. The 8.5 in throat is dealer copy ("8.5 x 6"), and 8.5 in is also Juki's machine depth (8.6 in in the manual). It may be a depth figure reused as throat. Keep [verify] (rules 9 and 11).
+- Maintenance: manual says oil once a day if used every day, with the supplied oil (New Defrix Oil No.1). This backs the owner theme.
+- MSRP $2,169 on the Juki page; dealer sale price $1,239 (Sewing Machines Plus, Weidner, 2026-09-30). Warranty terms are not in either Juki document.
+
+## Claims from collected sources (2026-09-30)
+
+Built by `npm run reviews:claims` from 2,148 items: 720 validated claims (583 spec claims, 91 comparisons, 46 sibling differences; 4 rows rejected). Every claim carries a quote of 15 words or fewer that was checked against the source text. Counts are counts of claims, not votes or scores. Each claim is attributed in `data/reviews/juki-tl-2010q/claims.jsonl` by item and URL. Extraction was done by a model and only the quotes are machine-verified, so the stance and scope tags need editor review before use.
+
+Spec claims (515 scoped to this model, 27 to siblings, 40 unclear): 165 confirm a published value, 14 contradict one, 404 add experience no spec covers. Most frequent fields: included feet (62), reliability (61), motor and power (59), thread trimmer (51), tension (48), maintenance (46), stitch types (38), noise (33), throat (33).
+
+Where sources disagree with the published specs or each other (rule 12):
+- 1/5 in quilting foot: at least four pages (ahsaws, Kathy Quilts, Shannon Fraser, Rocky Mountain Sewing) say it ships with the 2010Q; Juki lists it as optional. One Sewing Machines Plus reviewer says feet listed in the manual did not arrive. The ahsaws page also says the 2000Qi ships with a 1/5 in foot, which conflicts with its own comparison.
+- Throat: about 9 in is stated by three Reddit comments and one editorial table; dealers say 8.5 x 6 in (Weidner's chart gives 8.5 x 6.0 for every TL model).
+- Hook: a dealer spec block says horizontal-axis full-rotary hook; Weidner's chart says vertical hook rotary bobbin. Not resolved.
+- Power draw (dealer spec block): 120 V, 1.4 A, 100 W. Single source, not from Juki.
+
+Claimed differences from siblings (by number of independent pages):
+- TL-2000Qi: the 2010Q adds the front speed slider (stated by most sources, including Weidner's chart), a sub-tension unit (Weidner, ahsaws, Sewing Machines Plus, Missouri Star forum, Shannon Fraser), and per some dealers the 1/4 and 1/5 in feet (Kathy Quilts, ahsaws, Shannon Fraser; conflicts with Juki's lists above). Price gap about $300 (Reddit; Weidner shows $899 vs $1,239).
+- TL-18QVP: adds micro-lift/float (Weidner chart, Rocky Mountain Sewing says adjustable 0 to 2 mm), attachment mounting plate, 4-step LED brightness vs on/off, more feet (Quilting Board poster says 8 vs 4), weight 24.5 vs 25.4 lb (one dealer). Throat and frame are the same. A Reddit commenter calls the two "nearly identical".
+- TL-15 and other TL models: same head; the Weidner comparison chart lists identical throat, weight and stitch length for the TL-2000Qi, TL-2010Q, TL-15 and TL-18QVP.
+- Single-source differences stay unverified until a second independent source or a Juki document agrees.
+
+Comparisons with other machines (91 claims, 8 to 16 per rival; not a verdict): Janome HD9 comes up most. Claims favoring the HD9 mostly concern local dealer support and heavy-fabric power; price claims favor the Juki. Bernina, Brother and Sailrite comparisons mostly favor the Juki on straight stitch quality, throat room and noise, from owners who moved from those machines. The Baby Lock Jazz II is credited with more throat space; the Brother PQ1500SL with lower price. See `claims.jsonl` (type `comparison`).
+
+Rollup: `data/reviews/juki-tl-2010q/rollup.json` (approved 2026-09-30 by an AI editor pass; human review recommended) feeds the review page. Not yet done: the brochure (needs OCR), Amazon and eBay review blocks, YouTube comments, and a human second-reader check of the claim tags.

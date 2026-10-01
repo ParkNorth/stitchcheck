@@ -20,3 +20,9 @@ next-env.d.ts
 cloudflare-env.d.ts
 # screenshots
 .screenshots/
+
+# review collection raw text (rights; regenerate with collect:reddit)
+/data/reviews/*/raw.jsonl
+/data/reviews/*/cache/
+/data/reviews/*/reviews.jsonl
+/data/reviews/*/claims-work/

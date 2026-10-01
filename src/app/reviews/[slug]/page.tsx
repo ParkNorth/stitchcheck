@@ -10,6 +10,7 @@ import { VerdictBox } from "@/components/ui/VerdictBox";
 import { SpecTable, Verify } from "@/components/ui/SpecTable";
 import { SizeDiagram } from "@/components/ui/SizeDiagram";
 import { Alternatives, CheckBeforeYouBuy, DiscontinuedBanner, HeadToHeads, ProsCons, RetailerBlock } from "@/components/ui/ReviewBlocks";
+import { DocumentChecks, MethodologyBox, OwnerSignals, RivalSignals, SiblingDifferences } from "@/components/ui/RollupBlocks";
 import { StickyBuyBar } from "@/components/ui/StickyBuyBar";
 import { TableOfContents } from "@/components/ui/TableOfContents";
 import { FAQ } from "@/components/ui/FAQ";
@@ -19,6 +20,7 @@ import { comparisonsForProduct } from "@/lib/comparisons";
 import { hubForJob } from "@/lib/hubs";
 import { bandLabel } from "@/lib/price-bands";
 import { formatSpec, getProduct, products, JOB_LABEL } from "@/lib/products";
+import { getRollup } from "@/lib/rollups";
 import { breadcrumbSchema, faqSchema, reviewSchema } from "@/lib/schema";
 import { pageOpenGraph, reviewMetaDescription, reviewMetaTitle } from "@/lib/seo-meta";
 import { site } from "@/lib/site";
@@ -57,6 +59,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
   const series = brandSlug ? seriesForProduct(brandSlug, p.series) : undefined;
   const hub = hubForJob(p.scoredFor);
   const compares = comparisonsForProduct(p.slug);
+  const rollup = getRollup(p.slug);
   const faqs = p.faqs.length ? p.faqs : buildFaqs(p);
   const description = reviewMetaDescription(p);
 
@@ -75,7 +78,8 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
     { id: "strengths", text: "Strengths and weaknesses" },
     { id: "check", text: "Check before you buy" },
     ...(p.buy.kind === "retailer" ? [{ id: "retailer", text: `Buying from ${site.retailer.shortName}` }] : []),
-    ...(p.ownerThemes.length ? [{ id: "owners", text: p.evidence === "positioning" ? "Buyer signals" : "What owners say" }] : []),
+    ...(p.ownerThemes.length || rollup ? [{ id: "owners", text: p.evidence === "positioning" ? "Buyer signals" : "What owners say" }] : []),
+    ...(rollup && (rollup.siblings.some((s) => s.rows.length) || rollup.rivals.length) ? [{ id: "compared", text: "Siblings and rivals" }] : []),
     ...(faqs.length ? [{ id: "faq", text: "Questions" }] : []),
     { id: "alternatives", text: "Alternatives" },
   ];
@@ -131,6 +135,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
                   </span>
                 </div>
                 <SpecTable product={p} />
+                {rollup && <DocumentChecks checks={rollup.documentChecks} brand={p.brand} />}
                 {p.conflicts.length > 0 && (
                   <div className="card p-4 md:p-5 flex flex-col gap-2">
                     <div className="cap text-brass-ink">Where sources disagree</div>
@@ -192,7 +197,33 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
               <CheckBeforeYouBuy checks={p.checks} />
               {p.buy.kind === "retailer" && <RetailerBlock product={p} />}
 
-              {p.ownerThemes.length > 0 && (
+              {rollup && (
+                <section id="owners" className="flex flex-col gap-4 scroll-mt-24" aria-labelledby="owners-title">
+                  <div className="flex justify-between items-baseline gap-4 flex-wrap">
+                    <h2 id="owners-title" className="d m-0 text-[28px] md:text-[32px]">
+                      {p.evidence === "positioning" ? "Buyer signals" : p.evidence === "mixed" ? "Owner and buyer signals" : "What owners say"}
+                    </h2>
+                    <span className="m text-[14px] text-steel">Counted from {rollup.method.voices} voices. Paraphrased, attributed. We did not operate this machine.</span>
+                  </div>
+                  <OwnerSignals rollup={rollup} />
+                  <MethodologyBox rollup={rollup} />
+                </section>
+              )}
+
+              {rollup && (rollup.siblings.some((x) => x.rows.length) || rollup.rivals.length > 0) && (
+                <section id="compared" className="flex flex-col gap-4 scroll-mt-24" aria-labelledby="compared-title">
+                  <div className="flex justify-between items-baseline gap-4 flex-wrap">
+                    <h2 id="compared-title" className="d m-0 text-[28px] md:text-[32px]">
+                      Siblings and rivals
+                    </h2>
+                    <span className="m text-[14px] text-steel">What sources claim, counted by independent pages</span>
+                  </div>
+                  <SiblingDifferences rollup={rollup} modelName={p.model} />
+                  <RivalSignals rollup={rollup} modelName={p.model} />
+                </section>
+              )}
+
+              {!rollup && p.ownerThemes.length > 0 && (
                 <section id="owners" className="flex flex-col gap-4 scroll-mt-24" aria-labelledby="owners-title">
                   <div className="flex justify-between items-baseline gap-4 flex-wrap">
                     <h2 id="owners-title" className="d m-0 text-[28px] md:text-[32px]">

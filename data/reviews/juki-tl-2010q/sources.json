@@ -1,0 +1,1792 @@
+[
+  {
+    "id": "reddit:1vabc1l",
+    "url": "https://www.reddit.com/r/sewing/comments/1vabc1l/my_first_self_drafted_lined_zipped_pocketed/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "my first self drafted, lined, zipped, pocket-ed, shoulder padded, jacket",
+    "subreddit": "sewing",
+    "thread_id": "1vabc1l",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1785691897,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "r/sewing:Juki TL-2010Q",
+      "all:Juki 2010Q",
+      "r/sewing:Juki 2010Q"
+    ],
+    "content_hash": "ce681e54a42a13a6"
+  },
+  {
+    "id": "reddit:1wa11cb",
+    "url": "https://www.reddit.com/r/sewing/comments/1wa11cb/school_backpack_one_week_late_but_done/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "School Backpack: one week late, but DONE!",
+    "subreddit": "sewing",
+    "thread_id": "1wa11cb",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1789263374,
+    "discovered_by": [
+      "all:Juki TL2010Q",
+      "r/sewing:Juki TL2010Q"
+    ],
+    "content_hash": "ca24547cd2be1516"
+  },
+  {
+    "id": "reddit:1f633tl",
+    "url": "https://www.reddit.com/r/quilting/comments/1f633tl/a_tale_of_two_quilts/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "A tale of TWO quilts",
+    "subreddit": "quilting",
+    "thread_id": "1f633tl",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1725253133,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "r/quilting:Juki TL-2010Q",
+      "r/quilting:Juki 2010Q"
+    ],
+    "content_hash": "aa59f47e6404d06b"
+  },
+  {
+    "id": "reddit:1dmthp9",
+    "url": "https://www.reddit.com/r/quilting/comments/1dmthp9/so_much_fun_glowing_lone_star_for_my_grandson/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "So much fun! Glowing Lone Star for my grandson.",
+    "subreddit": "quilting",
+    "thread_id": "1dmthp9",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1720799775,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "r/quilting:Juki TL-2010Q",
+      "all:Juki 2010Q",
+      "r/quilting:Juki 2010Q"
+    ],
+    "content_hash": "78e54b3620419946"
+  },
+  {
+    "id": "reddit:jphawo",
+    "url": "https://www.reddit.com/r/quilting/comments/jphawo/i_upgraded_ive_been_struggling_on_a_little_singer/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "I upgraded! I’ve been struggling on a little Singer that doesn’t want to make quilts. After a lot of research I landed on the Juki TL 2010Q. I’m so excited to start learning how this beauty works!",
+    "subreddit": "quilting",
+    "thread_id": "jphawo",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1605787582,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "r/quilting:Juki TL-2010Q",
+      "all:Juki 2010Q",
+      "r/quilting:Juki 2010Q"
+    ],
+    "content_hash": "9f6f5b9b24f1bec2"
+  },
+  {
+    "id": "reddit:1lemsp5",
+    "url": "https://www.reddit.com/r/quilting/comments/1lemsp5/legendary_quilt/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Legendary Quilt 👣🪡",
+    "subreddit": "quilting",
+    "thread_id": "1lemsp5",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1750329326,
+    "discovered_by": [
+      "r/quilting:Juki TL-2010Q",
+      "r/quilting:Juki 2010Q"
+    ],
+    "content_hash": "928af83eab6e81c3"
+  },
+  {
+    "id": "reddit:1eelkrz",
+    "url": "https://www.reddit.com/r/quilting/comments/1eelkrz/latest_finish_and_a_lot_of_firsts/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Latest finish and a lot of firsts!",
+    "subreddit": "quilting",
+    "thread_id": "1eelkrz",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1722379443,
+    "discovered_by": [
+      "all:Juki TL2010Q",
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "12fd6b25f35d622e"
+  },
+  {
+    "id": "reddit:1wa1gqg",
+    "url": "https://www.reddit.com/r/BagLab/comments/1wa1gqg/school_backpack_one_week_late_but_done/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "School Backpack: one week late, but DONE!",
+    "subreddit": "BagLab",
+    "thread_id": "1wa1gqg",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1789003359,
+    "discovered_by": [
+      "all:Juki TL2010Q"
+    ],
+    "content_hash": "29327436ffa2a947"
+  },
+  {
+    "id": "reddit:1bzrsce",
+    "url": "https://www.reddit.com/r/quilting/comments/1bzrsce/longing_for_a_longarm_talk_me_out_of_it/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Longing for a longarm - talk me out of it!",
+    "subreddit": "quilting",
+    "thread_id": "1bzrsce",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1712880813,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "r/quilting:Juki TL-2010Q",
+      "r/quilting:Juki 2010Q"
+    ],
+    "content_hash": "2a7d38aacea2b0de"
+  },
+  {
+    "id": "reddit:1d4f45e",
+    "url": "https://www.reddit.com/r/quilting/comments/1d4f45e/first_quilt_very_thick_seams_help_with_quilting/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "First quilt. Very thick seams. Help with quilting? ",
+    "subreddit": "quilting",
+    "thread_id": "1d4f45e",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1717297336,
+    "discovered_by": [
+      "all:Juki TL2010Q",
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "9a2ad3b5b9c4d5e2"
+  },
+  {
+    "id": "reddit:17ngabf",
+    "url": "https://www.reddit.com/r/quilting/comments/17ngabf/have_you_named_your_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Have you named your sewing machine?",
+    "subreddit": "quilting",
+    "thread_id": "17ngabf",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1709099428,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "r/quilting:Juki TL-2010Q",
+      "r/quilting:Juki 2010Q"
+    ],
+    "content_hash": "4048470aa42d118e"
+  },
+  {
+    "id": "reddit:1lxfac7",
+    "url": "https://www.reddit.com/r/sewing/comments/1lxfac7/speed_sewing_by_request/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Speed Sewing by Request",
+    "subreddit": "sewing",
+    "thread_id": "1lxfac7",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1752320587,
+    "discovered_by": [
+      "r/sewing:Juki TL-2010Q",
+      "r/sewing:Juki 2010Q"
+    ],
+    "content_hash": "bf43dec074de3f20"
+  },
+  {
+    "id": "reddit:t1bcga",
+    "url": "https://www.reddit.com/r/quilting/comments/t1bcga/update_on_the_juki_tl2010q_it_is_now_running/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Update on the Juki TL2010Q! It is now running straight. To clarify, I don't run my fabric through without guiding it when I am sewing. I filmed these videos to show how much the machine was pulling the fabric to the right. Slight pulls seem to be normal but not strong pulls caused by the feed dogs.",
+    "subreddit": "quilting",
+    "thread_id": "t1bcga",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1645919523,
+    "discovered_by": [
+      "all:Juki TL2010Q",
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "afae9ac932c1f88c"
+  },
+  {
+    "id": "reddit:1b04uz0",
+    "url": "https://www.reddit.com/r/Quilt/comments/1b04uz0/toothless_quilt_again_i_know/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Toothless quilt (again I know)",
+    "subreddit": "Quilt",
+    "thread_id": "1b04uz0",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1718049641,
+    "discovered_by": [
+      "all:Juki TL2010Q"
+    ],
+    "content_hash": "7e45222df6f56ab9"
+  },
+  {
+    "id": "reddit:a00h00",
+    "url": "https://www.reddit.com/r/quilting/comments/a00h00/eeek_new_juki_on_the_way/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Eeek - new Juki on the way!",
+    "subreddit": "quilting",
+    "thread_id": "a00h00",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1543162813,
+    "discovered_by": [
+      "r/quilting:Juki TL-2010Q"
+    ],
+    "content_hash": "de5873dab70dd2f7"
+  },
+  {
+    "id": "reddit:1j45i1j",
+    "url": "https://www.reddit.com/r/sewing/comments/1j45i1j/gifted_myself_a_juki_after_losing_nearly_40_lbs/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Gifted myself a Juki after losing nearly 40 lbs. I'd love some tips!",
+    "subreddit": "sewing",
+    "thread_id": "1j45i1j",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1741211844,
+    "discovered_by": [
+      "r/sewing:Juki TL-2010Q",
+      "r/sewing:Juki 2010Q"
+    ],
+    "content_hash": "69e770acb37075be"
+  },
+  {
+    "id": "reddit:1e9rjvd",
+    "url": "https://www.reddit.com/r/quilting/comments/1e9rjvd/his_hers_throw_quilts/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "His &amp; Hers throw quilts ",
+    "subreddit": "quilting",
+    "thread_id": "1e9rjvd",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1721748158,
+    "discovered_by": [
+      "all:Juki TL2010Q",
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "9003897b47840e84"
+  },
+  {
+    "id": "reddit:1nak0vi",
+    "url": "https://www.reddit.com/r/quilting/comments/1nak0vi/just_brought_home_a_juki/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Just brought home a Juki!",
+    "subreddit": "quilting",
+    "thread_id": "1nak0vi",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1757304967,
+    "discovered_by": [
+      "all:Juki TL2010Q",
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "746562aeec3b520a"
+  },
+  {
+    "id": "reddit:1c044n4",
+    "url": "https://www.reddit.com/r/quilting/comments/1c044n4/dragging_her_back_from_the_depths/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Dragging her back from the depths",
+    "subreddit": "quilting",
+    "thread_id": "1c044n4",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1712761830,
+    "discovered_by": [
+      "all:Juki TL2010Q",
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "da8fd370a867a752"
+  },
+  {
+    "id": "reddit:1qmvckw",
+    "url": "https://www.reddit.com/r/quilting/comments/1qmvckw/getting_stuff_done/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Getting stuff done…",
+    "subreddit": "quilting",
+    "thread_id": "1qmvckw",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1769378249,
+    "discovered_by": [
+      "all:Juki TL2010Q",
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "7ebf1d761a403ee3"
+  },
+  {
+    "id": "reddit:1ho8231",
+    "url": "https://www.reddit.com/r/sewing/comments/1ho8231/a_helpful_tension_tip/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "A helpful tension tip",
+    "subreddit": "sewing",
+    "thread_id": "1ho8231",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1735506206,
+    "discovered_by": [
+      "r/sewing:Juki TL-2010Q",
+      "r/sewing:Juki 2010Q"
+    ],
+    "content_hash": "5a99ba5ee728d869"
+  },
+  {
+    "id": "reddit:1dk7fip",
+    "url": "https://www.reddit.com/r/quilting/comments/1dk7fip/looking_for_enablers_lol/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Looking for enablers lol",
+    "subreddit": "quilting",
+    "thread_id": "1dk7fip",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1719013353,
+    "discovered_by": [
+      "all:Juki TL2010Q",
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "11a381e22537cf06"
+  },
+  {
+    "id": "reddit:17ku24z",
+    "url": "https://www.reddit.com/r/quilting/comments/17ku24z/finally_picking_up_a_juki_tl2010q/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Finally picking up a Juki TL-2010Q.",
+    "subreddit": "quilting",
+    "thread_id": "17ku24z",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1704919839,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "r/quilting:Juki TL-2010Q",
+      "all:Juki 2010Q",
+      "r/quilting:Juki 2010Q"
+    ],
+    "content_hash": "4e34e7a63a9911b8"
+  },
+  {
+    "id": "reddit:1qh2rlo",
+    "url": "https://www.reddit.com/r/quilting/comments/1qh2rlo/highland_coos_on_their_way_to_me/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Highland Coos on their way to me!",
+    "subreddit": "quilting",
+    "thread_id": "1qh2rlo",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1769020448,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "r/quilting:Juki TL-2010Q",
+      "r/quilting:Juki 2010Q"
+    ],
+    "content_hash": "97fd3969e0087a82"
+  },
+  {
+    "id": "reddit:1u24qxo",
+    "url": "https://www.reddit.com/r/myog/comments/1u24qxo/slow_sewing/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Slow Sewing",
+    "subreddit": "myog",
+    "thread_id": "1u24qxo",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1781391564,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "all:Juki 2010Q"
+    ],
+    "content_hash": "00dd79c4e7db19a6"
+  },
+  {
+    "id": "reddit:8k8vu2",
+    "url": "https://www.reddit.com/r/quilting/comments/8k8vu2/machine_advice/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Machine advice",
+    "subreddit": "quilting",
+    "thread_id": "8k8vu2",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1526991513,
+    "discovered_by": [
+      "r/quilting:Juki TL-2010Q"
+    ],
+    "content_hash": "46c8a789a7847000"
+  },
+  {
+    "id": "reddit:15q56n9",
+    "url": "https://www.reddit.com/r/quilting/comments/15q56n9/im_getting_my_first_quilting_machine_and_am/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "I’m getting my first quilting machine and am equally excited and nervous!",
+    "subreddit": "quilting",
+    "thread_id": "15q56n9",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1692230780,
+    "discovered_by": [
+      "r/quilting:Juki TL-2010Q"
+    ],
+    "content_hash": "4384a6407f3c5f4a"
+  },
+  {
+    "id": "reddit:161gfqd",
+    "url": "https://www.reddit.com/r/sewing/comments/161gfqd/repair_or_replace_is_my_logic_flawed/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Repair or replace? Is my logic flawed?",
+    "subreddit": "sewing",
+    "thread_id": "161gfqd",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1693263922,
+    "discovered_by": [
+      "r/sewing:Juki TL-2010Q",
+      "r/sewing:Juki 2010Q"
+    ],
+    "content_hash": "30fef38ff500bd74"
+  },
+  {
+    "id": "reddit:1kwbvu6",
+    "url": "https://www.reddit.com/r/quilting/comments/1kwbvu6/juki_tl2010q/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki TL2010q",
+    "subreddit": "quilting",
+    "thread_id": "1kwbvu6",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1748366112,
+    "discovered_by": [
+      "all:Juki TL2010Q",
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "bf76febb61449f5c"
+  },
+  {
+    "id": "reddit:1dn3m1a",
+    "url": "https://www.reddit.com/r/myog/comments/1dn3m1a/sailrite_ultrafeed_lslsz_or_juki_tl2010q_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sailrite Ultrafeed LS/LSZ or Juki TL-2010Q? (Help! Before the Sailrite sale ends!)",
+    "subreddit": "myog",
+    "thread_id": "1dn3m1a",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1773593179,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "all:Juki 2010Q"
+    ],
+    "content_hash": "2863d445cc348a38"
+  },
+  {
+    "id": "reddit:1n5agno",
+    "url": "https://www.reddit.com/r/quilting/comments/1n5agno/favorite_people_on_the_internet_my_juki_14_foot/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Favorite people on the internet, my Juki 1/4 foot pissing me off",
+    "subreddit": "quilting",
+    "thread_id": "1n5agno",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1756874296,
+    "discovered_by": [
+      "all:Juki TL2010Q",
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "f78f73383bbe6811"
+  },
+  {
+    "id": "reddit:12k654u",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/12k654u/have_minimal_sewing_experience_looking_to/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Have minimal sewing experience. Looking to purchase a Juki TL-2010Q as first sewing machine. Too much too soon?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "12k654u",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1783690355,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "all:Juki 2010Q"
+    ],
+    "content_hash": "93878de80bad143d"
+  },
+  {
+    "id": "reddit:1dc4z88",
+    "url": "https://www.reddit.com/r/quilting/comments/1dc4z88/i_need_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "I need help",
+    "subreddit": "quilting",
+    "thread_id": "1dc4z88",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1718044088,
+    "discovered_by": [
+      "all:Juki TL2010Q",
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "638444f26563fe17"
+  },
+  {
+    "id": "reddit:1u250u0",
+    "url": "https://www.reddit.com/r/VintageSewingMachines/comments/1u250u0/slow_heavy_duty_sewing_machine_recommendation/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Slow Heavy Duty Sewing Machine Recommendation",
+    "subreddit": "VintageSewingMachines",
+    "thread_id": "1u250u0",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1782587286,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "all:Juki 2010Q"
+    ],
+    "content_hash": "fc61c839960f87f9"
+  },
+  {
+    "id": "reddit:1pmwcrr",
+    "url": "https://www.reddit.com/r/Bernina/comments/1pmwcrr/bernina_880_new_to_the_fam_need_tips_tricks/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Bernina 880 - New to the fam, need tips tricks",
+    "subreddit": "Bernina",
+    "thread_id": "1pmwcrr",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1776306539,
+    "discovered_by": [
+      "all:Juki TL2010Q"
+    ],
+    "content_hash": "f9a98c25959828cf"
+  },
+  {
+    "id": "reddit:ng5sb5",
+    "url": "https://www.reddit.com/r/quilting/comments/ng5sb5/sewing_machine_upgrade/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing Machine upgrade",
+    "subreddit": "quilting",
+    "thread_id": "ng5sb5",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1621537436,
+    "discovered_by": [
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "e174c90e74a931d6"
+  },
+  {
+    "id": "reddit:nxmcb5",
+    "url": "https://www.reddit.com/r/quilting/comments/nxmcb5/new_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "New Sewing machine",
+    "subreddit": "quilting",
+    "thread_id": "nxmcb5",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1623470488,
+    "discovered_by": [
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "852a3d19b441c1bf"
+  },
+  {
+    "id": "reddit:3ypch0",
+    "url": "https://www.reddit.com/r/quilting/comments/3ypch0/machine_upgrade_help_wanted/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Machine Upgrade Help Wanted",
+    "subreddit": "quilting",
+    "thread_id": "3ypch0",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1452357669,
+    "discovered_by": [
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "ae6ce747eae504a1"
+  },
+  {
+    "id": "reddit:3391lw",
+    "url": "https://www.reddit.com/r/quilting/comments/3391lw/deciding_on_a_9_quilting_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Deciding on a 9\" quilting machine",
+    "subreddit": "quilting",
+    "thread_id": "3391lw",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1431110945,
+    "discovered_by": [
+      "all:TL-2010Q review",
+      "r/quilting:TL-2010Q review"
+    ],
+    "content_hash": "be3d12750c1c598f"
+  },
+  {
+    "id": "reddit:j1jb5k",
+    "url": "https://www.reddit.com/r/quilting/comments/j1jb5k/help_me_decide_on_an_upgraded_machine_juki/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help me decide on an upgraded machine - Juki TL-2010Q, TL-2000QI, or something else?",
+    "subreddit": "quilting",
+    "thread_id": "j1jb5k",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T20:28:24.510Z",
+    "status": "ok",
+    "cursor_utc": 1616014412,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "r/quilting:Juki TL-2010Q",
+      "r/quilting:Juki TL2010Q",
+      "all:Juki 2010Q",
+      "r/quilting:Juki 2010Q",
+      "manual-thread"
+    ],
+    "content_hash": "2f263040f6dffcbc"
+  },
+  {
+    "id": "reddit:1o2l2p0",
+    "url": "https://www.reddit.com/r/sewing/comments/1o2l2p0/needle_type_for_hockey_bag_heavy_duty_vinyl/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Needle type for hockey bag (heavy duty vinyl)",
+    "subreddit": "sewing",
+    "thread_id": "1o2l2p0",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1760064021,
+    "discovered_by": [
+      "r/sewing:Juki TL-2010Q",
+      "r/sewing:Juki 2010Q"
+    ],
+    "content_hash": "be2635b3f501c018"
+  },
+  {
+    "id": "reddit:1p11f8k",
+    "url": "https://www.reddit.com/r/quilting/comments/1p11f8k/juki_sl_300_ex_vs_juki_2010q/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki SL 300 EX Vs Juki 2010Q",
+    "subreddit": "quilting",
+    "thread_id": "1p11f8k",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1763780493,
+    "discovered_by": [
+      "r/quilting:Juki TL-2010Q",
+      "all:Juki TL2010Q",
+      "r/quilting:Juki TL2010Q",
+      "all:Juki 2010Q",
+      "r/quilting:Juki 2010Q"
+    ],
+    "content_hash": "8326dad577ece2b2"
+  },
+  {
+    "id": "reddit:1q03m0n",
+    "url": "https://www.reddit.com/r/quilting/comments/1q03m0n/what_happened_and_better_free_motion_stencils/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "What happened (and better free motion stencils recommendations)",
+    "subreddit": "quilting",
+    "thread_id": "1q03m0n",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1767291991,
+    "discovered_by": [
+      "all:Juki TL2010Q",
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "b2773ceeade52b30"
+  },
+  {
+    "id": "reddit:1dpvtj7",
+    "url": "https://www.reddit.com/r/quilting/comments/1dpvtj7/advice_on_deciding_between_a_juki_and_a_babylock/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Advice on Deciding Between a Juki and a Babylock",
+    "subreddit": "quilting",
+    "thread_id": "1dpvtj7",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1735055339,
+    "discovered_by": [
+      "all:Juki TL2010Q",
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "2ef8c37d44f701c0"
+  },
+  {
+    "id": "reddit:1h6nw6y",
+    "url": "https://www.reddit.com/r/quilting/comments/1h6nw6y/juki_tl2010q_vs_baby_lock_jazz_ii/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki TL-2010Q vs Baby Lock Jazz II",
+    "subreddit": "quilting",
+    "thread_id": "1h6nw6y",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1747485748,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "r/quilting:Juki TL-2010Q",
+      "all:Juki 2010Q",
+      "r/quilting:Juki 2010Q",
+      "all:TL-2010Q review",
+      "r/quilting:TL-2010Q review"
+    ],
+    "content_hash": "0d9fb79f0cf18182"
+  },
+  {
+    "id": "reddit:1i7h039",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1i7h039/juki_tl2010q_not_responding_to_foot_pedal/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki TL-2010Q not responding to foot pedal",
+    "subreddit": "sewhelp",
+    "thread_id": "1i7h039",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1750122846,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "all:Juki 2010Q"
+    ],
+    "content_hash": "432f348fa49fd968"
+  },
+  {
+    "id": "reddit:frkk52",
+    "url": "https://www.reddit.com/r/quilting/comments/frkk52/sewing_machine_shopping_juki_tl2000qi_vs_2010q_vs/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing Machine Shopping - Juki TL-2000Qi vs -2010Q vs Brother PQ1500SL",
+    "subreddit": "quilting",
+    "thread_id": "frkk52",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T20:28:24.510Z",
+    "status": "ok",
+    "cursor_utc": 1589180982,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "r/quilting:Juki TL-2010Q",
+      "all:Juki 2010Q",
+      "r/quilting:Juki 2010Q",
+      "all:TL-2010Q review",
+      "r/quilting:TL-2010Q review",
+      "manual-thread"
+    ],
+    "content_hash": "b339f25845403cc5"
+  },
+  {
+    "id": "reddit:1u24zdd",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1u24zdd/slow_heavy_duty_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Slow Heavy Duty Sewing Machine",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1u24zdd",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:27:56.719Z",
+    "status": "ok",
+    "cursor_utc": 1781321432,
+    "discovered_by": [
+      "all:Juki TL-2010Q"
+    ],
+    "content_hash": "4cd522097a798466"
+  },
+  {
+    "id": "reddit:1jov54j",
+    "url": "https://www.reddit.com/r/quilting/comments/1jov54j/juki_or_janome_an_average_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki or Janome - an average sewing machine recommendation question",
+    "subreddit": "quilting",
+    "thread_id": "1jov54j",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1750736559,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "r/quilting:Juki TL-2010Q",
+      "r/quilting:Juki 2010Q"
+    ],
+    "content_hash": "ab88a7fc2a513406"
+  },
+  {
+    "id": "reddit:1hbc5tj",
+    "url": "https://www.reddit.com/r/sewing/comments/1hbc5tj/best_500_heavy_duty_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Best $500 Heavy Duty Sewing Machine",
+    "subreddit": "sewing",
+    "thread_id": "1hbc5tj",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1733960155,
+    "discovered_by": [
+      "r/sewing:Juki TL-2010Q",
+      "r/sewing:Juki 2010Q"
+    ],
+    "content_hash": "903b435b6d8effa4"
+  },
+  {
+    "id": "reddit:1j82pxm",
+    "url": "https://www.reddit.com/r/quilting/comments/1j82pxm/best_quilting_machine_for_1200_or_less/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Best Quilting Machine for $1200 or Less",
+    "subreddit": "quilting",
+    "thread_id": "1j82pxm",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:27:56.719Z",
+    "status": "ok",
+    "cursor_utc": 1748308392,
+    "discovered_by": [
+      "r/quilting:Juki TL-2010Q",
+      "r/quilting:Juki 2010Q",
+      "all:TL-2010Q review",
+      "r/quilting:TL-2010Q review"
+    ],
+    "content_hash": "ee152b553027bbc9"
+  },
+  {
+    "id": "reddit:ajf7x9",
+    "url": "https://www.reddit.com/r/quilting/comments/ajf7x9/sewing_machine_what_and_how_to_buy/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing machine -- what and how to buy",
+    "subreddit": "quilting",
+    "thread_id": "ajf7x9",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:27:56.719Z",
+    "status": "ok",
+    "cursor_utc": 1548435796,
+    "discovered_by": [
+      "r/quilting:Juki TL-2010Q"
+    ],
+    "content_hash": "e7dc8859314ca936"
+  },
+  {
+    "id": "reddit:1tocxeh",
+    "url": "https://www.reddit.com/r/quilting/comments/1tocxeh/those_with_a_juki_tl2010q_how_quiet_is_it/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Those with a Juki TL2010Q - how quiet is it?",
+    "subreddit": "quilting",
+    "thread_id": "1tocxeh",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:27:56.719Z",
+    "status": "ok",
+    "cursor_utc": 1779864428,
+    "discovered_by": [
+      "all:Juki TL2010Q",
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "da7b3a7321160d82"
+  },
+  {
+    "id": "reddit:1l3nuid",
+    "url": "https://www.reddit.com/r/SewingMachinePorn/comments/1l3nuid/anyone_using_the_juki_tl2010q_looking_for/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Anyone using the Juki TL-2010Q? Looking for feedback on power, stitch options, and overall experience",
+    "subreddit": "SewingMachinePorn",
+    "thread_id": "1l3nuid",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1776113420,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "all:Juki 2010Q"
+    ],
+    "content_hash": "89cdc7f6d4961aa0"
+  },
+  {
+    "id": "reddit:1k7lqca",
+    "url": "https://www.reddit.com/r/quilting/comments/1k7lqca/juki_tl2010q_or_juki_hzldx5/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki TL-2010Q or Juki HZL-DX5",
+    "subreddit": "quilting",
+    "thread_id": "1k7lqca",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1745632483,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "r/quilting:Juki TL-2010Q",
+      "all:Juki 2010Q",
+      "r/quilting:Juki 2010Q",
+      "all:TL-2010Q review",
+      "r/quilting:TL-2010Q review"
+    ],
+    "content_hash": "658066a8ebba3660"
+  },
+  {
+    "id": "reddit:1bdb0f1",
+    "url": "https://www.reddit.com/r/sewing/comments/1bdb0f1/cant_figure_out_this_tension_issue_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Can’t figure out this tension issue! Help!",
+    "subreddit": "sewing",
+    "thread_id": "1bdb0f1",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1710358392,
+    "discovered_by": [
+      "r/sewing:Juki TL-2010Q",
+      "r/sewing:Juki 2010Q"
+    ],
+    "content_hash": "e010ffc90660bb40"
+  },
+  {
+    "id": "reddit:1fecgq9",
+    "url": "https://www.reddit.com/r/quilting/comments/1fecgq9/jellyroll_strip_math_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Jellyroll strip math help!",
+    "subreddit": "quilting",
+    "thread_id": "1fecgq9",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1726179374,
+    "discovered_by": [
+      "r/quilting:Juki TL-2010Q"
+    ],
+    "content_hash": "c1da7b9a76bbffa4"
+  },
+  {
+    "id": "reddit:14kq7md",
+    "url": "https://www.reddit.com/r/quilting/comments/14kq7md/cant_choose_next_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Can’t choose next machine!",
+    "subreddit": "quilting",
+    "thread_id": "14kq7md",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:27:56.719Z",
+    "status": "ok",
+    "cursor_utc": 1688171760,
+    "discovered_by": [
+      "r/quilting:Juki TL-2010Q"
+    ],
+    "content_hash": "77da609afe61b7a5"
+  },
+  {
+    "id": "reddit:10ch2z7",
+    "url": "https://www.reddit.com/r/quilting/comments/10ch2z7/bobbin_winder_question/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Bobbin winder question",
+    "subreddit": "quilting",
+    "thread_id": "10ch2z7",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:27:56.719Z",
+    "status": "ok",
+    "cursor_utc": 1673821187,
+    "discovered_by": [
+      "r/quilting:Juki TL-2010Q"
+    ],
+    "content_hash": "47b8747b8508bec3"
+  },
+  {
+    "id": "reddit:99gdjr",
+    "url": "https://www.reddit.com/r/quilting/comments/99gdjr/juki_tl2010q_owners_and_other_models_that_are/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki TL2010Q owners (and other models that are equivalent), where did you purchase your ruler foot?",
+    "subreddit": "quilting",
+    "thread_id": "99gdjr",
+    "first_seen": "2026-09-30T15:27:56.719Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1535305610,
+    "discovered_by": [
+      "all:Juki TL2010Q",
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "695a87f429f9ceb5"
+  },
+  {
+    "id": "reddit:5zlopc",
+    "url": "https://www.reddit.com/r/quilting/comments/5zlopc/sewing_machine_purchase/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing Machine purchase",
+    "subreddit": "quilting",
+    "thread_id": "5zlopc",
+    "first_seen": "2026-09-30T15:29:40.585Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1489889905,
+    "discovered_by": [
+      "r/quilting:Juki TL2010Q"
+    ],
+    "content_hash": "954cff03c9a8cac5"
+  },
+  {
+    "id": "reddit:10m5ad2",
+    "url": "https://www.reddit.com/r/quilting/comments/10m5ad2/fmq_on_a_juki_tl2010q/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "FMQ on a Juki TL-2010Q",
+    "subreddit": "quilting",
+    "thread_id": "10m5ad2",
+    "first_seen": "2026-09-30T15:29:40.585Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1674928923,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "r/quilting:Juki TL-2010Q",
+      "all:Juki 2010Q",
+      "r/quilting:Juki 2010Q"
+    ],
+    "content_hash": "431cb7b0d43b0f5e"
+  },
+  {
+    "id": "reddit:1v4j68h",
+    "url": "https://www.reddit.com/r/sewing/comments/1v4j68h/is_this_a_good_deal/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Is this a good deal?",
+    "subreddit": "sewing",
+    "thread_id": "1v4j68h",
+    "first_seen": "2026-09-30T15:29:40.585Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1785167792,
+    "discovered_by": [
+      "all:Juki TL-2010Q",
+      "r/sewing:Juki TL-2010Q",
+      "r/sewing:Juki 2010Q"
+    ],
+    "content_hash": "a2f6fe9ca30bc828"
+  },
+  {
+    "id": "reddit:1m8mjnz",
+    "url": "https://www.reddit.com/r/sewing/comments/1m8mjnz/felling_foot_for_juki_tl_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Felling foot for Juki TL machine",
+    "subreddit": "sewing",
+    "thread_id": "1m8mjnz",
+    "first_seen": "2026-09-30T15:29:40.585Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1753474025,
+    "discovered_by": [
+      "r/sewing:Juki TL-2010Q",
+      "r/sewing:Juki 2010Q"
+    ],
+    "content_hash": "1a86263f968616b5"
+  },
+  {
+    "id": "reddit:1km3lr9",
+    "url": "https://www.reddit.com/r/quilting/comments/1km3lr9/new_juki_feed_dog_question/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "New Juki! Feed dog question…",
+    "subreddit": "quilting",
+    "thread_id": "1km3lr9",
+    "first_seen": "2026-09-30T15:29:40.585Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1747215834,
+    "discovered_by": [
+      "r/quilting:Juki TL-2010Q"
+    ],
+    "content_hash": "38fadf6be7901cc0"
+  },
+  {
+    "id": "reddit:1k6c5m5",
+    "url": "https://www.reddit.com/r/quilting/comments/1k6c5m5/off_brand_accessories/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Off brand accessories?",
+    "subreddit": "quilting",
+    "thread_id": "1k6c5m5",
+    "first_seen": "2026-09-30T15:29:40.585Z",
+    "last_fetched": "2026-09-30T15:29:40.585Z",
+    "status": "ok",
+    "cursor_utc": 1745526024,
+    "discovered_by": [
+      "r/quilting:Juki TL-2010Q"
+    ],
+    "content_hash": "c67e4d08ec849677"
+  },
+  {
+    "id": "web:d3c5ce8038bdc67e",
+    "url": "https://shannonfraserdesigns.ca/2018/06/06/juki-tl-2010q-review-good-bad-and-quilty",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "Juki TL-2010Q Review – The good, the bad and the quilty! - SHANNON FRASER DESIGNS",
+    "first_seen": "2026-09-30T15:31:29.901Z",
+    "last_fetched": "2026-09-30T20:27:54.340Z",
+    "status": "ok",
+    "content_hash": "ab1a7e7f97e8a40d",
+    "discovered_by": [
+      "Juki TL-2010Q review"
+    ],
+    "chars": 24360,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:279c4a501cba4e0f",
+    "url": "https://matantequilting.com/juki-review",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "Review of the Juki TL-2010Q - The good and bad! - Ma Tante Quilting",
+    "first_seen": "2026-09-30T15:31:29.901Z",
+    "last_fetched": "2026-09-30T20:27:55.161Z",
+    "status": "ok",
+    "content_hash": "ca59995847435009",
+    "discovered_by": [
+      "Juki TL-2010Q review"
+    ],
+    "chars": 18047,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:dbe9b190f5beaa6a",
+    "url": "https://quiltingwemple.com/sewing-machine-for-quilting-juki-review",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "The Only Sewing Machine for Quilting You'll Need - Juki Review - Quilting Wemple",
+    "first_seen": "2026-09-30T15:31:29.901Z",
+    "last_fetched": "2026-09-30T20:27:59.256Z",
+    "status": "ok",
+    "content_hash": "00c8bc222e630a21",
+    "discovered_by": [
+      "Juki TL-2010Q review"
+    ],
+    "chars": 13490,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:bd509aaafaaae9f4",
+    "url": "https://www.seasonedhomemaker.com/review-new-juki-tl-2010q",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "Review of the Juki TL-2010Q - The Seasoned Homemaker®",
+    "first_seen": "2026-09-30T15:31:29.901Z",
+    "last_fetched": "2026-09-30T20:28:01.124Z",
+    "status": "ok",
+    "content_hash": "cabe71b8b71bef58",
+    "discovered_by": [
+      "Juki TL-2010Q review"
+    ],
+    "chars": 23911,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:ec4a86f61e47bda0",
+    "url": "https://stitchobsessed.com/juki-tl2010q-review",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "The Ultimate Juki TL2010Q Review",
+    "first_seen": "2026-09-30T15:31:29.901Z",
+    "last_fetched": "2026-09-30T20:28:02.325Z",
+    "status": "ok",
+    "content_hash": "36d95092327920e0",
+    "discovered_by": [
+      "Juki TL-2010Q review"
+    ],
+    "chars": 12745,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:8deaa5dc585b36c0",
+    "url": "https://rockymountainsewing.com/juki-tl-2010q-review",
+    "class": "retailer",
+    "method": "http-page",
+    "title": "Juki TL-2010Q Review For Quilters And Sewists",
+    "first_seen": "2026-09-30T15:31:29.901Z",
+    "last_fetched": "2026-09-30T20:28:05.571Z",
+    "status": "ok",
+    "content_hash": "18bd69de7de6670d",
+    "discovered_by": [
+      "Juki TL-2010Q review"
+    ],
+    "chars": 13369,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:55a6985746dbe542",
+    "url": "https://sewing.patternreview.com/SewingDiscussions/topic/106516",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Juki TL-2010Q vs. Brother PQ1500SL sewing discussion topic @ PatternReview.com",
+    "first_seen": "2026-09-30T15:31:29.901Z",
+    "last_fetched": "2026-09-30T20:28:15.079Z",
+    "status": "ok",
+    "content_hash": "c464ab8aaeefc393",
+    "discovered_by": [
+      "Juki TL-2010Q review"
+    ],
+    "chars": 14240,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:f465031eae3f3195",
+    "url": "https://www.youtube.com/watch?v=2VW5V303eco",
+    "class": "youtube",
+    "method": "firecrawl",
+    "title": "Juki TL-2010Q Review and Comparison",
+    "first_seen": "2026-09-30T15:31:29.901Z",
+    "last_fetched": "2026-09-30T19:31:52.732399Z",
+    "status": "ok",
+    "content_hash": null,
+    "discovered_by": [
+      "Juki TL-2010Q review"
+    ],
+    "note": "metadata only; comments and transcript not collected"
+  },
+  {
+    "id": "web:347662e636dcff2a",
+    "url": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/76390-do-you-have-a-juki-tl-2010q",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Do you have a Juki TL-2010Q? - The Quilting Forum - Missouri Star's Quilt Community",
+    "first_seen": "2026-09-30T15:31:30.140Z",
+    "last_fetched": "2026-09-30T20:28:16.092Z",
+    "status": "ok",
+    "content_hash": "2c5e1f7fd634d274",
+    "discovered_by": [
+      "Juki TL-2010Q owner review problems forum"
+    ],
+    "chars": 9507,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:cee4d69f42e255a9",
+    "url": "https://www.quiltingboard.com/main-f1/question-juki-tl-owners-t324265.html",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Question for Juki TL owners.... - Quiltingboard Forums",
+    "first_seen": "2026-09-30T15:31:30.140Z",
+    "last_fetched": "2026-09-30T20:28:08.335Z",
+    "status": "ok",
+    "content_hash": "bd10c96e1c6d88f2",
+    "discovered_by": [
+      "Juki TL-2010Q owner review problems forum"
+    ],
+    "chars": 8183,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:1300fa9e3a004d9b",
+    "url": "https://sewing.patternreview.com/SewingDiscussions/topic/124114",
+    "class": "forum",
+    "method": "http-page",
+    "title": "A question for Juki TL-18 and Juki TL-2010 owners re: Microlift feature sewing discussion topic @ PatternReview.com",
+    "first_seen": "2026-09-30T15:31:30.140Z",
+    "last_fetched": "2026-09-30T20:28:15.585Z",
+    "status": "ok",
+    "content_hash": "e68cfae1306fc119",
+    "discovered_by": [
+      "Juki TL-2010Q owner review problems forum"
+    ],
+    "chars": 12205,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:9a9d5c2f7a2c2ba2",
+    "url": "https://www.facebook.com/groups/MyHobbyIsQuilting/posts/298326397352824",
+    "class": "forum",
+    "method": "firecrawl",
+    "title": "Facebook: Experiences with Juki 2010q",
+    "first_seen": "2026-09-30T15:31:30.140Z",
+    "last_fetched": "2026-09-30T19:31:52.732399Z",
+    "status": "blocked",
+    "content_hash": null,
+    "discovered_by": [
+      "Juki TL-2010Q owner review problems forum"
+    ],
+    "note": "Firecrawl: site unsupported"
+  },
+  {
+    "id": "web:3614724dda26e7b2",
+    "url": "https://www.facebook.com/groups/quiltingwithgrace/posts/30701439376168906",
+    "class": "forum",
+    "method": "firecrawl",
+    "title": "Facebook: troubleshoot TL2010Q on Grace frame",
+    "first_seen": "2026-09-30T15:31:30.140Z",
+    "last_fetched": "2026-09-30T19:31:52.732399Z",
+    "status": "blocked",
+    "content_hash": null,
+    "discovered_by": [
+      "Juki TL-2010Q owner review problems forum"
+    ],
+    "note": "Firecrawl: site unsupported (same domain, not retried)"
+  },
+  {
+    "id": "web:a4a068210d924062",
+    "url": "https://sewingmachinesplus.com/products/juki-2010q-machine",
+    "class": "retailer",
+    "title": "sewingmachinesplus.com product reviews",
+    "first_seen": "2026-09-30T20:22:01.220Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-09-30T20:22:33.395Z",
+    "status": "ok",
+    "site_rating": 4.81,
+    "site_review_count": 221,
+    "content_hash": "e67e5156b5174c64"
+  },
+  {
+    "id": "web:e629cc2c90d446ab",
+    "url": "https://jukijunkies.com/juki-tl-2010q-high-speed-sewing-and-quilting-machine",
+    "class": "retailer",
+    "title": "jukijunkies.com product reviews",
+    "first_seen": "2026-09-30T20:22:04.072Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-bigcommerce",
+    "last_fetched": "2026-09-30T20:22:04.072Z",
+    "status": "ok",
+    "site_rating": 5,
+    "site_review_count": 25,
+    "content_hash": "b99ae0e76771d060"
+  },
+  {
+    "id": "web:c15ecebf1e577025",
+    "url": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/76583-juki-tl2000qi-vs-juki-tl-2010q",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Juki TL2000QI vs Juki TL-2010Q - The Quilting Forum - Missouri Star's Quilt Community",
+    "first_seen": "2026-09-30T20:26:31.798Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:27:39.822Z",
+    "note": "http-page: 403",
+    "content_hash": "0cd4532c6f76c3ab",
+    "chars": 9000,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:8ffe4a032df4dae6",
+    "url": "https://www.worldweidner.com/pages/juki-tl-series-comparison-chart",
+    "class": "retailer",
+    "method": "http-page",
+    "title": "JUKI TL Series Comparison Chart\n &ndash; World Weidner",
+    "first_seen": "2026-09-30T20:26:32.429Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:26:32.429Z",
+    "content_hash": "88a22c44d7a36c09",
+    "chars": 17384,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:32cf799a93ca9fd5",
+    "url": "https://sewingreviewmaster.com/sewing-machines/straight-stitch/comparisons/juki-tl-18qvp-vs-tl-2010q",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "Juki TL-18QVP vs TL-2010Q: Is Micro-Lift Worth It?",
+    "first_seen": "2026-09-30T20:26:33.542Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:26:33.542Z",
+    "content_hash": "b3db7174a3232168",
+    "chars": 14763,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:704da5848317998f",
+    "url": "https://meissnersewing.com/blogs/revive-the-stitch/janome-hd9-vs-juki-tl2010q-semi-industrial-sewing-machine-review",
+    "class": "retailer",
+    "method": "http-page",
+    "title": "Janome HD9 vs Juki TL2010Q: Semi-Industrial Sewing Machine Review",
+    "first_seen": "2026-09-30T20:26:36.252Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:26:36.252Z",
+    "content_hash": "8dd997e4a96747ce",
+    "chars": 13322,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:cbd3102e80311809",
+    "url": "https://www.janomesewingcentre.com.au/janome-hd9-vs-juki-tl2010q",
+    "class": "retailer",
+    "method": "http-page",
+    "title": "Product Comparison: Janome HD9 vs Juki TL2010Q - Feature Comparison",
+    "first_seen": "2026-09-30T20:26:37.280Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:27:40.833Z",
+    "note": "http-page: 403",
+    "content_hash": "33cf270dc389651e",
+    "chars": 4096,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:250da80dc8c7b5a0",
+    "url": "https://sewing.patternreview.com/SewingDiscussions/topic/113356",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Juki 2019q vs 2200 mini vs Brother 1500- either one. sewing discussion topic @ PatternReview.com",
+    "first_seen": "2026-09-30T20:26:37.912Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:27:38.307Z",
+    "note": "http-page: 403",
+    "content_hash": "cadf5e08644d94d8",
+    "chars": 7875,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:b277df7d772e6a89",
+    "url": "https://sewing.patternreview.com/SewingDiscussions/topic/131405",
+    "class": "forum",
+    "method": "http-page",
+    "title": "JUKI DDL-8700 and TL models sewing discussion topic @ PatternReview.com",
+    "first_seen": "2026-09-30T20:26:38.504Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:27:38.811Z",
+    "note": "http-page: 403",
+    "content_hash": "5e91a1bb36115caa",
+    "chars": 5188,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:fd582cd925d2719d",
+    "url": "https://sewing.patternreview.com/SewingDiscussions/topic/128720",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Straight stitch only sewing discussion topic @ PatternReview.com",
+    "first_seen": "2026-09-30T20:26:39.070Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:27:39.316Z",
+    "note": "http-page: 403",
+    "content_hash": "0129cbe151bc2e38",
+    "chars": 10358,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:bfda4a3b7af4d687",
+    "url": "https://www.quiltingboard.com/main-f1/new-juki-tl-18-qvp-t300876-2.html",
+    "class": "forum",
+    "method": "http-page",
+    "title": "New juki tl-18 QVP - Page 2 - Quiltingboard Forums",
+    "first_seen": "2026-09-30T20:26:39.646Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:26:39.646Z",
+    "content_hash": "a8c736099b95d6f9",
+    "chars": 7490,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:a693b7a38075efe4",
+    "url": "https://www.quiltingboard.com/main-f1/straight-stitch-machines-t319159-2.html",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Straight Stitch Machines - Page 2 - Quiltingboard Forums",
+    "first_seen": "2026-09-30T20:26:40.387Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:26:40.387Z",
+    "content_hash": "4b274a82e4798d2b",
+    "chars": 9213,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:046fa0842201061c",
+    "url": "https://www.quiltingboard.com/introduce-yourself-f3/juki-2010q-2010qi-t298682.html",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Juki 2010Q OR 2010QI - Quiltingboard Forums",
+    "first_seen": "2026-09-30T20:26:41.060Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:26:41.060Z",
+    "content_hash": "c3b2104da9cd67d4",
+    "chars": 4389,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:2f2f01bb05a42bbd",
+    "url": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/80656-juki-tl-2010q",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Juki TL-2010Q - The Quilting Forum - Missouri Star's Quilt Community",
+    "first_seen": "2026-09-30T20:26:41.715Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:27:40.328Z",
+    "note": "http-page: 403",
+    "content_hash": "cb2acc924e0c60a6",
+    "chars": 7801,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:cfb2e2622bf15af7",
+    "url": "https://www.applegreencottage.com/best-heavy-duty-sewing-machines",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "Best Heavy Duty Sewing Machines - And Must-Know Features!",
+    "first_seen": "2026-09-30T20:26:42.286Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:26:42.286Z",
+    "content_hash": "8ccb0b9796b31b9a",
+    "chars": 31518,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:c432cc22d2b3e16f",
+    "url": "http://ahsaws.com/juki-tl-2010q-vs-tl-2000qi-review",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "Juki TL-2010Q vs TL-2000Qi Review - Table Saw Reviews",
+    "first_seen": "2026-09-30T20:26:43.043Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:26:43.043Z",
+    "content_hash": "845a26dc3e253c9b",
+    "chars": 4944,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:5ec90026574e98c9",
+    "url": "http://kathyquiltsblog.blogspot.com/2011/03/juki-tl-2000qi-and-tl-2010q-compared.html",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "Quilt Something Exciting!!!: Juki TL-2000Qi and TL-2010Q compared.",
+    "first_seen": "2026-09-30T20:26:45.563Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:26:45.563Z",
+    "content_hash": "ce69dfbbf98b7717",
+    "chars": 5143,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:1ac0e768d5c93c65",
+    "url": "https://sewing.patternreview.com/SewingDiscussions/topic/70727",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Juki tl2010q vs. industrial machine sewing discussion topic @ PatternReview.com",
+    "first_seen": "2026-09-30T20:26:47.305Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:27:41.655Z",
+    "note": "http-page: 403",
+    "content_hash": "26596dc83b34bee3",
+    "chars": 10364,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:33ca492c6b13bd64",
+    "url": "https://jukijunkies.com/juki-sewing-machine-comparisons",
+    "class": "retailer",
+    "method": "http-page",
+    "title": "",
+    "first_seen": "2026-09-30T20:26:47.887Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "thin",
+    "last_fetched": "2026-09-30T20:26:47.887Z",
+    "note": "http-page: thin"
+  },
+  {
+    "id": "web:dda15edbca07351d",
+    "url": "https://blog.quiltedtwins.com/new-blog/2018/july/template-znn53-8snfp-n6lpm-lp282-sywlk-wj2js-hsja4-d2we4-pja2s-352nd-h949z-ft9s2-jp4w6-n2s94-s5p5j-trebl-7hpt2-dbb4d-7fsen-gnssj-wnrfc-c2kjk-gwdb9-nxbg3-pfen5-57ds5-a8nzj-ffbxh-l47bp-rr5m4-dhd5a-trf84-k7ef8-8x5r3-y7ezr",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "Compare/Contrast the Juki 8700 to my other machines &mdash; Quilted Twins",
+    "first_seen": "2026-09-30T20:26:49.039Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-09-30T20:26:49.039Z",
+    "content_hash": "5d207628fb251f6b",
+    "chars": 14566,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "reddit:1ez38t3",
+    "url": "https://www.reddit.com/r/myog/comments/1ez38t3/juki_tl2000qi_vs_industrial_option_ddl8700/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "juki tl-2000qi vs industrial option, ddl-8700",
+    "subreddit": "myog",
+    "thread_id": "1ez38t3",
+    "first_seen": "2026-09-30T20:28:24.510Z",
+    "last_fetched": "2026-09-30T20:28:24.510Z",
+    "status": "ok",
+    "cursor_utc": 1775587858,
+    "discovered_by": [
+      "manual-thread"
+    ],
+    "content_hash": "b7ee37cb895a2975"
+  },
+  {
+    "id": "reddit:18kzcgc",
+    "url": "https://www.reddit.com/r/sewing/comments/18kzcgc/juki_2010q_f600_or_janome_hd9_bernina_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki 2010Q, F600, or Janome HD9, Bernina? Help choosing a second machine",
+    "subreddit": "sewing",
+    "thread_id": "18kzcgc",
+    "first_seen": "2026-09-30T20:28:24.510Z",
+    "last_fetched": "2026-09-30T20:28:24.510Z",
+    "status": "ok",
+    "cursor_utc": 1704065087,
+    "discovered_by": [
+      "manual-thread"
+    ],
+    "content_hash": "bdf6d9d7e9c10f14"
+  },
+  {
+    "id": "reddit:1lf3gp8",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1lf3gp8/choosing_between_two_sewing_machines_need_real/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "“Choosing Between Two Sewing Machines – Need Real User Input!”",
+    "subreddit": "sewhelp",
+    "thread_id": "1lf3gp8",
+    "first_seen": "2026-09-30T20:28:24.510Z",
+    "last_fetched": "2026-09-30T20:28:24.510Z",
+    "status": "ok",
+    "cursor_utc": 1750335854,
+    "discovered_by": [
+      "manual-thread"
+    ],
+    "content_hash": "e7084525b4632e17"
+  }
+]

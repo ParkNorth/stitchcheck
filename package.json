@@ -16,7 +16,14 @@
     "build:catalog": "tsx scripts/build-catalog.ts",
     "build:og": "tsx scripts/build-og.ts",
     "build:icons": "tsx scripts/build-icons.ts",
-    "fetch:images": "tsx scripts/fetch-images.ts"
+    "fetch:images": "tsx scripts/fetch-images.ts",
+    "collect:reddit": "tsx scripts/reddit-collect.ts",
+    "reviews:register": "tsx scripts/reviews-register.ts",
+    "reviews:fetch": "tsx scripts/reviews-fetch.ts",
+    "reviews:export": "tsx scripts/reviews-export.ts",
+    "reviews:page": "tsx scripts/reviews-page.ts",
+    "reviews:claims": "tsx scripts/reviews-claims.ts",
+    "reviews:rollup": "tsx scripts/reviews-rollup.ts"
   },
   "dependencies": {
     "@opennextjs/cloudflare": "^1.20.2",

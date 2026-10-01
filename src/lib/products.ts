@@ -360,7 +360,8 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "juki-ddl-8700", label: "Go industrial", note: "Needs a table and floor space." },
     ],
     imageAlt: "Juki TL-2010Q straight-stitch sewing and quilting machine, three-quarter view",
-    lastUpdated: "2026-09-29",
+    specsVerified: "2026-09-30",
+    lastUpdated: "2026-09-30",
   },
   "juki-tl-2000qi": {
     score: 8.3,
