@@ -46,6 +46,7 @@
     "Retailer reviews are seller-collected and skew positive; Reddit and forum posts are self-selected. Two Facebook group posts could not be read, and Amazon, eBay and YouTube comments are not yet collected.",
     "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
   ],
+  "ownerNote": null,
   "themes": [
     {
       "theme": "feet_accessories",
@@ -60,6 +61,12 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 21,
+        "retailer": 11,
+        "forum": 2,
+        "editorial": 7
+      },
       "polarity": {
         "positive": 12,
         "negative": 14,
@@ -194,6 +201,12 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 22,
+        "retailer": 6,
+        "editorial": 8,
+        "forum": 4
+      },
       "polarity": {
         "positive": 22,
         "negative": 2,
@@ -298,6 +311,12 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 18,
+        "retailer": 11,
+        "forum": 5,
+        "editorial": 3
+      },
       "polarity": {
         "positive": 19,
         "negative": 11,
@@ -420,6 +439,12 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 15,
+        "retailer": 13,
+        "editorial": 7,
+        "forum": 2
+      },
       "polarity": {
         "positive": 13,
         "negative": 11,
@@ -529,6 +554,12 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 20,
+        "retailer": 8,
+        "forum": 3,
+        "editorial": 4
+      },
       "polarity": {
         "positive": 13,
         "negative": 5,
@@ -638,6 +669,12 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 10,
+        "retailer": 11,
+        "editorial": 9,
+        "forum": 1
+      },
       "polarity": {
         "positive": 13,
         "negative": 9,
@@ -755,6 +792,12 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 11,
+        "retailer": 10,
+        "editorial": 6,
+        "forum": 2
+      },
       "polarity": {
         "positive": 20,
         "negative": 2,
@@ -855,6 +898,12 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 10,
+        "retailer": 10,
+        "editorial": 3,
+        "forum": 1
+      },
       "polarity": {
         "positive": 15,
         "negative": 4,
@@ -950,6 +999,12 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 18,
+        "retailer": 1,
+        "editorial": 2,
+        "forum": 1
+      },
       "polarity": {
         "positive": 5,
         "negative": 14,
@@ -1041,6 +1096,12 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 12,
+        "retailer": 2,
+        "editorial": 3,
+        "forum": 5
+      },
       "polarity": {
         "positive": 20,
         "negative": 2,
@@ -1134,6 +1195,10 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 8,
+        "retailer": 12
+      },
       "polarity": {
         "positive": 1,
         "negative": 14,
@@ -1222,6 +1287,11 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 8,
+        "retailer": 6,
+        "editorial": 3
+      },
       "polarity": {
         "positive": 15,
         "negative": 0,
@@ -1284,6 +1354,11 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 4,
+        "retailer": 5,
+        "editorial": 3
+      },
       "polarity": {
         "positive": 5,
         "negative": 2,
@@ -1374,6 +1449,12 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 3,
+        "editorial": 6,
+        "forum": 2,
+        "retailer": 1
+      },
       "polarity": {
         "positive": 2,
         "negative": 4,
@@ -1448,6 +1529,12 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 1,
+        "retailer": 4,
+        "editorial": 3,
+        "forum": 1
+      },
       "polarity": {
         "positive": 2,
         "negative": 1,
@@ -1512,6 +1599,12 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 1,
+        "forum": 1,
+        "editorial": 2,
+        "retailer": 1
+      },
       "polarity": {
         "positive": 0,
         "negative": 1,
@@ -1553,6 +1646,11 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "retailer": 1,
+        "forum": 1,
+        "reddit": 1
+      },
       "polarity": {
         "positive": 0,
         "negative": 0,
@@ -1599,6 +1697,10 @@
         "reddit",
         "retailer"
       ],
+      "classVoices": {
+        "reddit": 1,
+        "retailer": 1
+      },
       "polarity": {
         "positive": 2,
         "negative": 0,
@@ -1643,6 +1745,9 @@
       "sourceClasses": [
         "reddit"
       ],
+      "classVoices": {
+        "reddit": 1
+      },
       "polarity": {
         "positive": 0,
         "negative": 1,
@@ -1683,7 +1788,8 @@
         "4": 19,
         "5": 194
       },
-      "lowRated": 8
+      "lowRated": 8,
+      "sampled": null
     },
     {
       "retailer": "jukijunkies.com",
@@ -1698,7 +1804,8 @@
         "4": 0,
         "5": 25
       },
-      "lowRated": 0
+      "lowRated": 0,
+      "sampled": null
     }
   ],
   "documentChecks": [
@@ -1816,6 +1923,7 @@
   "siblings": [
     {
       "model": "TL-2000Qi",
+      "label": "Juki TL-2000Qi",
       "rows": [
         {
           "feature": "Speed slider",
@@ -1970,6 +2078,7 @@
     },
     {
       "model": "TL-18QVP",
+      "label": "Juki TL-18QVP",
       "rows": [
         {
           "feature": "Micro-lift (float)",
@@ -2166,6 +2275,7 @@
     },
     {
       "model": "TL-15",
+      "label": "Juki TL-15",
       "rows": []
     }
   ],

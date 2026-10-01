@@ -23,7 +23,8 @@
     "reviews:export": "tsx scripts/reviews-export.ts",
     "reviews:page": "tsx scripts/reviews-page.ts",
     "reviews:claims": "tsx scripts/reviews-claims.ts",
-    "reviews:rollup": "tsx scripts/reviews-rollup.ts"
+    "reviews:rollup": "tsx scripts/reviews-rollup.ts",
+    "reviews:walmart": "tsx scripts/reviews-walmart.ts"
   },
   "dependencies": {
     "@opennextjs/cloudflare": "^1.20.2",

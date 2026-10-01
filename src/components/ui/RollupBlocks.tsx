@@ -13,6 +13,8 @@ const CLASS_LABEL: Record<string, string> = {
   youtube: "YouTube",
 };
 
+const CLASS_SHORT: Record<string, string> = { reddit: "Reddit", forum: "forums", editorial: "blogs", retailer: "retail", youtube: "YouTube" };
+
 function SourceLink({ url }: { url: string }) {
   return (
     <a href={url} rel="nofollow noopener external" target="_blank" className="m text-[13px] text-steel no-underline hover:text-enamel break-all">
@@ -65,7 +67,16 @@ export function OwnerSignals({ rollup }: { rollup: Rollup }) {
               <span className="m text-[13px] text-steel leading-[1.5]">
                 {t.polarity.positive} positive · {t.polarity.mixed} mixed · {t.polarity.negative} negative
                 <br />
-                {t.voices} voices · {t.sources} threads or pages · {t.sourceClasses.length} source types
+                {t.voices} voices · {t.sources} threads or pages
+                {t.classVoices && (
+                  <>
+                    <br />
+                    {Object.entries(t.classVoices)
+                      .sort((x, y) => y[1] - x[1])
+                      .map(([k, n]) => `${CLASS_SHORT[k] ?? k} ${n}`)
+                      .join(" · ")}
+                  </>
+                )}
               </span>
             </div>
             <div className="flex flex-col gap-2.5">
@@ -178,14 +189,14 @@ export function SiblingDifferences({ rollup, modelName }: { rollup: Rollup; mode
   return (
     <div className="flex flex-col gap-4">
       {sibs.map((s) => (
-        <HeaderCard key={s.model} title={`${modelName} vs Juki ${s.model}`} caption="claimed differences" as="div">
+        <HeaderCard key={s.model} title={`${modelName} vs ${s.label}`} caption="claimed differences" as="div">
           <div className="flex flex-col">
             {s.rows.map((r, i) => (
               <div key={r.feature} className={`px-5 py-3.5 md:px-6 grid grid-cols-1 md:grid-cols-[170px_minmax(0,1fr)_150px] gap-1.5 md:gap-5 ${i < s.rows.length - 1 ? "border-b border-rule" : ""}`}>
                 <strong className="text-[15px]">{r.feature}</strong>
                 <span className="text-[15px] leading-[1.5] text-ink-soft">{r.summary}</span>
                 <span className="m text-[13px] text-steel leading-[1.5] md:text-right">
-                  {r.urls} {r.urls === 1 ? "page" : "pages"}
+                  {r.urls === 0 ? "maker documents" : `${r.urls} ${r.urls === 1 ? "page" : "pages"}`}
                   <br />
                   {r.check}
                 </span>

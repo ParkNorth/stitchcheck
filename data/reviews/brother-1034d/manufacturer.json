@@ -1,0 +1,228 @@
+{
+  "slug": "brother-1034d",
+  "collected": "2026-10-01",
+  "purpose": "First-party facts from Brother's product page, limited warranty and handbook, compared against data/specs/brother-1034d.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "brother-page",
+      "url": "https://www.brother-usa.com/products/1034d",
+      "type": "product page",
+      "fetched": "2026-10-01",
+      "note": "Specs table, in-the-box list, price, accessory feet"
+    },
+    {
+      "id": "brother-warranty",
+      "url": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf",
+      "type": "Brother Limited Warranty (Serger), 1 page",
+      "fetched": "2026-10-01",
+      "note": "Text layer present"
+    },
+    {
+      "id": "brother-handbook",
+      "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf",
+      "type": "Handbook for Compact Overlock Machine, 68 pages, EN/ES, form 884-345",
+      "fetched": "2026-10-01",
+      "note": "Image-only PDF, read by OCR. A family handbook: it covers one-needle and two-needle models and never names the 1034D, so values for the family may not match this model"
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1,300 spm",
+      "source": "brother-page; brother-handbook p.59",
+      "vs_spec": "confirms",
+      "spec_value": 1300,
+      "site": {
+        "label": "Speed",
+        "juki": "1,300 stitches per minute.",
+        "others": "Dealers and owners agree.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034d"
+          }
+        ]
+      }
+    },
+    {
+      "field": "weightLb",
+      "value": "Product page 13.45 lb; handbook 7.0 kg (15.4 lb)",
+      "source": "brother-page Specifications; brother-handbook p.59",
+      "vs_spec": "contradicts",
+      "spec_value": 13.88,
+      "note": "Spec has 13.88 lb (a dealer) flagged verify. Brother's page says 13.45 lb. The handbook says 7.0 kg net, which is 15.4 lb, but it is a family handbook. Use the Brother page.",
+      "site": {
+        "label": "Weight",
+        "juki": "Product page: 13.45 lb. The family handbook says 7.0 kg (15.4 lb).",
+        "others": "Dealers and blogs quote 13.5 to 13.88 lb; two blogs say about 15 and 16 lb.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034d"
+          },
+          {
+            "label": "Brother handbook p.59",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "11.73 x 10.98 x 13.19 in; carton 13 x 16 x 14 in",
+      "source": "brother-page Specifications",
+      "vs_spec": "adds",
+      "spec_value": "11.73 x 13.19 (two dimensions only)",
+      "note": "Page gives three machine dimensions; width, depth and height order not labelled."
+    },
+    {
+      "field": "threads",
+      "value": "3 or 4 thread, two needles. '2/3/4 thread change: No' (no 2-thread stitch)",
+      "source": "brother-page Features and Specifications; brother-handbook p.59 ('Three/Four threads convertible')",
+      "vs_spec": "confirms",
+      "spec_value": "3 or 4 thread, 2 needles",
+      "site": {
+        "label": "Thread counts",
+        "juki": "3 or 4 thread, two needles. Brother lists 2/3/4 thread change as No, so no 2-thread stitches.",
+        "others": "Juki MO-654DE comparisons say it adds 2-thread stitches.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034d"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchWidthMm",
+      "value": "Page feature: 3.00 to 7.00 mm. Page spec: overlock seam width 5.0 to 7.0 mm. Handbook: 2.3 to 7 mm (two-needle), 3.0 to 3.5 mm (one-needle)",
+      "source": "brother-page; brother-handbook p.59",
+      "vs_spec": "contradicts",
+      "spec_value": "2.3 to 7 (two-needle); 3.0 to 3.5 (one-needle) per manual",
+      "note": "Three Brother figures. The 3.0 to 3.5 mm range is for one-needle models in the handbook, so the page's 3.00 to 7.00 mm may merge both families.",
+      "site": {
+        "label": "Stitch width",
+        "juki": "Brother's page gives 3.0 to 7.0 mm in one place and 5.0 to 7.0 mm in another. The family handbook says 2.3 to 7 mm for two-needle models.",
+        "others": "Retail copy says 5 to 7 mm.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034d"
+          },
+          {
+            "label": "Brother handbook p.59",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "2 to 4 mm",
+      "source": "brother-handbook p.59",
+      "vs_spec": "confirms",
+      "spec_value": "2 to 4"
+    },
+    {
+      "field": "presserFootLift",
+      "value": "5 to 6 mm",
+      "source": "brother-handbook p.59",
+      "vs_spec": "confirms",
+      "spec_value": "5 to 6 mm, manual lever"
+    },
+    {
+      "field": "needleSystem",
+      "value": "SCHMETZ 130/705H; set supplied is #80 (2) and #90 (2)",
+      "source": "brother-handbook p.59",
+      "vs_spec": "confirms",
+      "spec_value": "SCHMETZ 130/705H"
+    },
+    {
+      "field": "lighting",
+      "value": "Bulb (page); replace with 15 W bulb (handbook p.2)",
+      "source": "brother-page Basic Features; brother-handbook p.2",
+      "vs_spec": "adds",
+      "note": "Not LED. A buyer wanting LED should compare the 1034DX; check that page before claiming it."
+    },
+    {
+      "field": "includedFeet",
+      "value": "Standard foot, blindstitch foot, gathering foot. In the box: 4 large spools of serger thread, soft cover, needle set, thread nets, spool caps, tweezers, cleaning brush, hex driver, trim trap, foot controller, manual",
+      "source": "brother-page Specifications and In the Box",
+      "vs_spec": "confirms",
+      "spec_value": "3 snap-on accessory feet",
+      "site": {
+        "label": "Feet and box contents",
+        "juki": "Standard, blindstitch and gathering feet, plus 4 spools, soft cover, tweezers, brush, hex driver and trim trap.",
+        "others": "Dealers list the same three feet.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034d"
+          }
+        ]
+      }
+    },
+    {
+      "field": "warrantyUs",
+      "value": "1 year parts, labor and accessories; 5 years electronic components and circuit boards (replacement labor excluded); 25 years chassis casting. Original end-user only; machines from non-authorized sellers or used or refurbished by others may not be covered",
+      "source": "brother-warranty",
+      "vs_spec": "contradicts",
+      "spec_value": "25-year limited (Brother)",
+      "note": "The 25 years covers only the chassis casting. The spec and many blogs say 25-year warranty without this limit.",
+      "site": {
+        "label": "Warranty",
+        "juki": "1 year parts and labor, 5 years electronics (labor excluded), 25 years chassis casting only. Original buyer from an authorized seller.",
+        "others": "Dealers and blogs say '25-year limited warranty'.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother warranty PDF",
+            "url": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "maintenance",
+      "value": "Oil once or twice a month for normal use, once a week if used more often; clean lint first",
+      "source": "brother-handbook p.58",
+      "vs_spec": "adds",
+      "site": {
+        "label": "Oiling",
+        "juki": "Once or twice a month for normal use, weekly for heavier use, after cleaning lint.",
+        "others": "Only a few owners mention oiling at all; those who do treat it as routine upkeep.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother handbook p.58",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "USD 319.99 new on brother-usa.com 2026-10-01; 1034DX listed at 289.99; refurbished option offered",
+      "source": "brother-page",
+      "vs_spec": "adds",
+      "note": "At Brother USA the 1034DX is listed below the 1034D, the reverse of the usual 'DX costs more' claim.",
+      "site": {
+        "label": "Price",
+        "juki": "$319.99 new at Brother USA on 2026-10-01. The 1034DX is $289.99 there.",
+        "others": "Sewing Machines Plus snippets showed bundles from $249.99 to $579.99.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034d"
+          }
+        ]
+      }
+    }
+  ]
+}

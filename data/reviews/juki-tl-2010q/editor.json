@@ -50,5 +50,105 @@
         "check": "not checked against a Juki document"
       }
     }
-  }
+  },
+  "siblings": [
+    {
+      "model": "TL-18QVP",
+      "label": "Juki TL-18QVP",
+      "pattern": "18\\s*-?\\s*q?v?p|haruka|qvp|tl-?18"
+    },
+    {
+      "model": "TL-2000Qi",
+      "label": "Juki TL-2000Qi",
+      "pattern": "2000"
+    },
+    {
+      "model": "TL-15",
+      "label": "Juki TL-15",
+      "pattern": "tl-?15\\b"
+    }
+  ],
+  "features": [
+    [
+      "float|micro",
+      "Micro-lift (float)"
+    ],
+    [
+      "led|light",
+      "LED lighting"
+    ],
+    [
+      "mount|attach",
+      "Mounting plate"
+    ],
+    [
+      "sub.?tension|pre.?tension|tension disc|tension knob|tensioner",
+      "Sub-tension unit"
+    ],
+    [
+      "speed",
+      "Speed slider"
+    ],
+    [
+      "feet|foot|hemm|zipper",
+      "Included feet"
+    ],
+    [
+      "price|\\$|cost",
+      "Price"
+    ],
+    [
+      "weight|lbs",
+      "Weight"
+    ],
+    [
+      "throat",
+      "Throat space"
+    ]
+  ],
+  "rivals": [
+    [
+      "hd-?9",
+      "Janome HD9"
+    ],
+    [
+      "pq-?1[56]00",
+      "Brother PQ1500SL"
+    ],
+    [
+      "bernina|bernette",
+      "Bernina"
+    ],
+    [
+      "sailrite|ultrafeed",
+      "Sailrite Ultrafeed"
+    ],
+    [
+      "jazz",
+      "Baby Lock Jazz II"
+    ],
+    [
+      "pfaff",
+      "Pfaff"
+    ],
+    [
+      "brother",
+      "Brother (other models)"
+    ],
+    [
+      "singer",
+      "Singer"
+    ],
+    [
+      "8700|ddl",
+      "Juki DDL-8700"
+    ]
+  ],
+  "themeRemap": [
+    {
+      "pattern": "threader",
+      "theme": "needle_threader"
+    }
+  ],
+  "others": "2000 ?q?i?|tl-?18|18 ?qvp|haruka|tl-?15|hd ?-?9|hzl|f-?[36]00|8700|5550|ddl|mc ?6[67]00|pq ?1[56]00|1500 ?sl|jazz|allegro|accomplish|ultrafeed|sl ?300|dx5|1541"
 }

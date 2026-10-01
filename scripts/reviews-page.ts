@@ -61,7 +61,7 @@ function visibleText(html: string) {
 const title = (html: string) => decode(html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]?.trim() ?? "");
 
 const read = (f: string): any[] => (fs.existsSync(f) ? fs.readFileSync(f, "utf8").split("\n").filter(Boolean).map((l) => JSON.parse(l)) : []);
-const sources: any[] = JSON.parse(fs.readFileSync(path.join(DIR, "sources.json"), "utf8"));
+const sources: any[] = fs.existsSync(path.join(DIR, "sources.json")) ? JSON.parse(fs.readFileSync(path.join(DIR, "sources.json"), "utf8")) : [];
 let items = read(path.join(DIR, "items.jsonl"));
 let raws = read(path.join(DIR, "raw.jsonl"));
 

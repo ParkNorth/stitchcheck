@@ -131,13 +131,18 @@ async function api(p: string): Promise<any> {
 const sha = (s: string) => crypto.createHash("sha256").update(s).digest("hex").slice(0, 16);
 const now = new Date().toISOString();
 
-// Model tokens a thread must mention to count (guards against sibling models, rule 9).
+// A thread must name this exact model (rule 9). Names come from the spec model plus `model_names` in
+// queries.json. Each is matched on a word boundary with a suffix guard, so "1034D" does not match
+// "1034DX" and "TL-2010Q" does not match "TL-2010Qi".
 const spec = readJson<{ model: string }>(path.join(ROOT, "data", "specs", `${slug}.json`), { model: "" });
-const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
-const modelKey = norm(spec.model);
-const mentionsModel = (t: string) => norm(t).includes(modelKey);
+const esc = (t: string) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const namePatterns = [...new Set([spec.model, ...((queries as any).model_names ?? [])])]
+  .filter(Boolean)
+  .map((n) => n.toLowerCase().split(/[\s-]+/).filter(Boolean).map(esc).join("[\\s-]*"))
+  .map((body) => new RegExp(`(^|[^a-z0-9])${body}(?![a-z0-9])`, "i"));
+const mentionsModel = (t: string) => namePatterns.some((re) => re.test(t));
 
-type Found = { id: string; permalink: string; title: string; subreddit: string; selftext: string; created_utc: number; score: number; by: string };
+type Found = { id: string; comments?: number; permalink: string; title: string; subreddit: string; selftext: string; created_utc: number; score: number; by: string };
 async function discover(): Promise<Map<string, Found>> {
   const found = new Map<string, Found>();
   if (THREADS.length) {
@@ -162,7 +167,7 @@ async function discover(): Promise<Map<string, Found>> {
       if (!mentionsModel(`${d.title} ${d.selftext}`)) continue;
       const f = found.get(d.id);
       if (f) f.by += `; ${j.by}`;
-      else found.set(d.id, { id: d.id, permalink: d.permalink, title: d.title, subreddit: d.subreddit, selftext: d.selftext ?? "", created_utc: d.created_utc, score: d.score, by: j.by });
+      else found.set(d.id, { comments: d.num_comments, id: d.id, permalink: d.permalink, title: d.title, subreddit: d.subreddit, selftext: d.selftext ?? "", created_utc: d.created_utc, score: d.score, by: j.by });
     }
   }
   return found;
@@ -180,10 +185,13 @@ function flatten(children: any[], out: any[] = []) {
 
 async function main() {
   const found = await discover();
-  const threads = [...found.values()].sort((a, b) => b.score - a.score).slice(0, MAX_THREADS);
+  // Rank by evidence value, not popularity: model in the title first, then discussion size. Viral project
+  // posts that only mention the machine in passing have a high score but few relevant comments.
+  const inTitle = (t: Found) => (mentionsModel(t.title) ? 1 : 0);
+  const threads = [...found.values()].filter((t) => (t.comments ?? 0) >= 2 || inTitle(t)).sort((a, b) => inTitle(b) - inTitle(a) || (b.comments ?? 0) - (a.comments ?? 0)).slice(0, MAX_THREADS);
   console.log(`threads mentioning ${spec.model}: ${found.size} found, taking ${threads.length}`);
   if (DRY) {
-    for (const t of threads) console.log(`  ${t.score}\tr/${t.subreddit}\t${t.title}\thttps://www.reddit.com${t.permalink}`);
+    for (const t of threads) console.log(`  ${t.comments}c\t${inTitle(t)}\tr/${t.subreddit}\t${t.title.slice(0, 90)}`);
     return;
   }
   let newItems = 0;

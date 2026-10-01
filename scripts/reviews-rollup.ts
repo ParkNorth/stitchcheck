@@ -17,9 +17,13 @@
  * Re-running `build` keeps an existing approval only if the counts did not change; otherwise it drops
  * back to draft.
  *
- * Deterministic remap: any statement whose claim or quote contains "threader" is moved to the theme
- * `needle_threader` after tagging (the tagger taxonomy had no slot for it and scattered these across
- * feet, reliability and trimmer). The tags file itself is not changed.
+ * Deterministic remap: editor.json `themeRemap` ([{pattern, theme}]) moves statements whose claim or quote
+ * matches to another theme after tagging (TL-2010Q: "threader" -> needle_threader, which the tagger
+ * taxonomy had no slot for). The tags file itself is not changed.
+ *
+ * Per-model config lives in data/reviews/{slug}/editor.json (hand-written, committed):
+ *   notes, siblingSummaries, themeRemap, siblings [{model,label,pattern}], features [[pattern,label]],
+ *   rivals [[pattern,label]], others (extra regex for the claims prep).
  *
  * Definitions:
  *   statement  one accepted spec_claim with scope "this" (the tagged writer is describing this model)
@@ -40,7 +44,7 @@ const ROOT = path.resolve(__dirname, "..");
 const DIR = path.join(ROOT, "data", "reviews", slug);
 const WORK = path.join(DIR, "claims-work");
 const read = (f: string): any[] => (fs.existsSync(f) ? fs.readFileSync(f, "utf8").split("\n").filter(Boolean).map((l) => JSON.parse(l)) : []);
-const THEMES = ["stitch_quality", "build_quality", "speed", "power_heavy_fabric", "thread_trimmer", "tension", "oiling_maintenance", "reliability_defects", "noise_vibration", "throat_workspace", "feet_accessories", "walking_foot", "free_motion", "lighting", "value_price", "support_service", "weight_portability", "learning_curve", "other"];
+const THEMES = ["stitch_quality", "build_quality", "speed", "power_heavy_fabric", "thread_trimmer", "tension", "oiling_maintenance", "reliability_defects", "noise_vibration", "throat_workspace", "feet_accessories", "walking_foot", "free_motion", "lighting", "value_price", "support_service", "weight_portability", "learning_curve", "threading", "differential_feed", "rolled_hem", "cutting_trimming", "fabric_handling", "other"];
 const POLARITY = ["positive", "negative", "neutral", "mixed"];
 const THEME_LABEL: Record<string, string> = {
   stitch_quality: "Stitch quality",
@@ -62,6 +66,11 @@ const THEME_LABEL: Record<string, string> = {
   weight_portability: "Weight and portability",
   learning_curve: "Learning curve",
   needle_threader: "Automatic needle threader",
+  threading: "Threading and loopers",
+  differential_feed: "Differential feed",
+  rolled_hem: "Rolled hem",
+  cutting_trimming: "Cutting and trimming",
+  fabric_handling: "Fabric handling (knits, wovens)",
   other: "Other",
 };
 const srcOf = (itemId: string) => itemId.replace(/:[^:]+$/, "");
@@ -115,7 +124,7 @@ if (mode === "build") {
   const byTheme = new Map<string, Acc>();
   for (const c of stmts) {
     const t = { ...tags.get(c.claim_id) };
-    if (/threader/i.test(`${c.claim} ${c.quote}`)) t.theme = "needle_threader";
+    for (const r of editor.themeRemap ?? []) if (new RegExp(r.pattern, "i").test(`${c.claim} ${c.quote}`)) t.theme = r.theme;
     const acc: Acc = byTheme.get(t.theme) ?? { claims: [], voices: new Map() };
     acc.claims.push({ ...c, ...t });
     const v = acc.voices.get(c.item_id) ?? { item_id: c.item_id, first_hand: false, pol: {} as Record<string, number> };
@@ -139,6 +148,12 @@ if (mode === "build") {
       const pol = { positive: 0, negative: 0, mixed: 0, neutral: 0 } as Record<string, number>;
       for (const v of voices) pol[voicePolarity(v)]++;
       const firstHand = voices.filter((v) => v.first_hand).length;
+      // Voices by source class, so the page can show where a theme's counts come from.
+      const classVoices: Record<string, number> = {};
+      for (const v of voices) {
+        const cls = acc.claims.find((c) => c.item_id === v.item_id)?.source_class ?? "unknown";
+        classVoices[cls] = (classVoices[cls] ?? 0) + 1;
+      }
       const label = voices.length >= 5 && srcs.size >= 3 && classes.size >= 2 ? "recurring" : voices.length >= 2 && srcs.size >= 2 ? "reported" : "one-off";
       // Exemplars: shortest quotes first, preferring first-hand, one per source, up to 2 per polarity.
       const ex: any[] = [];
@@ -159,6 +174,7 @@ if (mode === "build") {
         ownerVoices: firstHand,
         sources: srcs.size,
         sourceClasses: [...classes].sort(),
+        classVoices,
         polarity: pol,
         years: yrs.length ? [Math.min(...yrs), Math.max(...yrs)] : null,
         recurrence: label,
@@ -187,28 +203,19 @@ if (mode === "build") {
     .filter((s) => s.site_review_count)
     .map((s) => {
       const rs = [...items.values()].filter((i) => i.source_id === s.id && i.rating);
-      const dist: Record<string, number> = { "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 };
-      rs.forEach((r) => dist[String(r.rating)]++);
-      return { retailer: new URL(s.url).hostname.replace(/^www\./, ""), url: s.url, pageRating: s.site_rating, pageCount: s.site_review_count, fetched: new Date(s.last_fetched).toLocaleDateString("en-CA"), distribution: dist, lowRated: dist["1"] + dist["2"] + dist["3"] };
+      // Sampled sources (Walmart) carry the page's own distribution; others are counted from every review fetched.
+      const dist: Record<string, number> = s.site_distribution ? { ...s.site_distribution } : { "1": 0, "2": 0, "3": 0, "4": 0, "5": 0 };
+      if (!s.site_distribution) rs.forEach((r) => dist[String(r.rating)]++);
+      return { retailer: new URL(s.url).hostname.replace(/^www\./, ""), url: s.url, pageRating: s.site_rating, pageCount: s.site_review_count, fetched: new Date(s.last_fetched).toLocaleDateString("en-CA"), distribution: dist, lowRated: dist["1"] + dist["2"] + dist["3"], sampled: s.sampled ?? null };
     });
 
   // ---- sibling differences
-  const SIB: [RegExp, string][] = [[/18\s*-?\s*q?v?p|haruka|qvp|tl-?18/i, "TL-18QVP"], [/2000/i, "TL-2000Qi"], [/tl-?15\b/i, "TL-15"]];
-  const FEATURE: [RegExp, string][] = [
-    [/float|micro/i, "Micro-lift (float)"],
-    [/led|light/i, "LED lighting"],
-    [/mount|attach/i, "Mounting plate"],
-    [/sub.?tension|pre.?tension|tension disc|tension knob|tensioner/i, "Sub-tension unit"],
-    [/speed/i, "Speed slider"],
-    [/feet|foot|hemm|zipper/i, "Included feet"],
-    [/price|\$|cost/i, "Price"],
-    [/weight|lbs/i, "Weight"],
-    [/throat/i, "Throat space"],
-  ];
+  const SIB: { re: RegExp; model: string; label: string }[] = (editor.siblings ?? []).map((x: any) => ({ re: new RegExp(x.pattern, "i"), model: x.model, label: x.label }));
+  const FEATURE: [RegExp, string][] = (editor.features ?? []).map(([re, f]: [string, string]) => [new RegExp(re, "i"), f]);
   const diffs = claims.filter((c) => c.type === "difference");
   const sib = new Map<string, Map<string, any[]>>();
   for (const d of diffs) {
-    const other = SIB.find(([re]) => re.test(`${d.model_a} ${d.model_b}`) && !/2010/i.test(String(d.model_b).replace(/.*vs.*/, "")))?.[1] ?? SIB.find(([re]) => re.test(String(d.model_b)))?.[1];
+    const other = SIB.find((x) => x.re.test(String(d.model_b)))?.model ?? SIB.find((x) => x.re.test(`${d.model_a} ${d.model_b}`))?.model;
     if (!other) continue;
     const text = `${d.field}`;
     const feats = FEATURE.filter(([re]) => re.test(text)).map(([, f]) => f);
@@ -220,6 +227,7 @@ if (mode === "build") {
   }
   const siblings = [...sib.entries()].map(([model, m]) => ({
     model,
+    label: SIB.find((x) => x.model === model)?.label ?? model,
     rows: [...m.entries()]
       .filter(([f]) => f !== "Other" && editor.siblingSummaries?.[model]?.[f])
       .map(([feature, rows]) => ({
@@ -234,8 +242,18 @@ if (mode === "build") {
       .sort((x, y) => y.urls - x.urls),
   }));
 
+  // Rows backed by the maker's own documents rather than reviewer claims (editor.json siblingExtras).
+  for (const [model, extras] of Object.entries<any[]>(editor.siblingExtras ?? {})) {
+    let sib = siblings.find((x) => x.model === model);
+    if (!sib) siblings.push((sib = { model, label: SIB.find((x) => x.model === model)?.label ?? model, rows: [] }));
+    for (const ex of extras) {
+      if (sib.rows.some((r: any) => r.feature === ex.feature)) continue;
+      sib.rows.push({ feature: ex.feature, urls: 0, classes: [], summary: ex.summary, check: ex.check, examples: [], claimIds: [] });
+    }
+  }
+
   // ---- rivals (comparison claims)
-  const RIV: [RegExp, string][] = [[/hd-?9/i, "Janome HD9"], [/pq-?1[56]00/i, "Brother PQ1500SL"], [/bernina|bernette/i, "Bernina"], [/sailrite|ultrafeed/i, "Sailrite Ultrafeed"], [/jazz/i, "Baby Lock Jazz II"], [/pfaff/i, "Pfaff"], [/brother/i, "Brother (other models)"], [/singer/i, "Singer"], [/8700|ddl/i, "Juki DDL-8700"]];
+  const RIV: [RegExp, string][] = (editor.rivals ?? []).map(([re, l]: [string, string]) => [new RegExp(re, "i"), l]);
   const cmp = claims.filter((c) => c.type === "comparison");
   const rv = new Map<string, any[]>();
   for (const c of cmp) {
@@ -284,6 +302,7 @@ if (mode === "build") {
       thresholds: "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes",
     },
     notes: editor.notes,
+    ownerNote: editor.ownerNote ?? null,
     themes,
     ratings,
     documentChecks,

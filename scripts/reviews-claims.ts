@@ -51,11 +51,20 @@ const FIELDS: Record<string, RegExp> = {
   tension: /\b(tension|sub.?tension|pre.?tension|bobbin|thread nest|loop)/i,
   stitchTypes: /\b(zig ?zag|button ?hole|straight stitch only|decorative|stretch|serge|overcast)/i,
   lighting: /\b(led|light(s|ing)?|lamp|shadow)\b/i,
+  threads: /\b(4.?thread|3.?thread|2.?thread|four thread|three thread|2\/3\/4|overlock|safety stitch|spools?|cones?)\b/i,
+  threading: /\b(thread(ing|ed)?|lay.?in|looper|self.?threading|color.?coded|tweezers|retread|nightmare|knot)\b/i,
+  differentialFeed: /\b(differential|feed ratio|gathering|stretch(y)?|knits?|ruffl|puckering|wavy|waving|lettuce)\b/i,
+  cutting: /\b(blade|knife|trim(ming)?|cutting width|trim trap|cut(s|ting)? (the )?(fabric|seam|edge))\b/i,
+  rolledHem: /\b(rolled hem|narrow hem|roll hem|rolled-hem|converter)\b/i,
   noise: /\b(noise|noisy|loud|quiet|hum|purr)\b/i,
   reliability: /\b(break|broke|fail|stopp?ed|froze|freeze|died|defect|lemon|reliab|no (issues|problems)|problem|issue)/i,
 };
-const OTHERS =
-  /\b(2000 ?q?i?|tl-?18|18 ?qvp|haruka|tl-?15|hd ?-?9|hzl|f-?[36]00|8700|5550|ddl|mc ?6[67]00|pq ?1[56]00|1500 ?sl|jazz|allegro|accomplish|bernina|sailrite|ultrafeed|singer|pfaff|janome|brother|baby ?lock|bernette|sl ?300|dx5|1541|industrial|vs\.?|versus|compared?|instead of|rather than|upgrade)\b/i;
+// Mentions of other machines or brands, plus comparison words. Model-specific names go in editor.json `others`.
+const GENERIC_OTHERS =
+  /\b(juki|janome|singer|brother|baby ?lock|bernina|bernette|pfaff|elna|husqvarna|viking|tacsew|consew|sailrite|vs\.?|versus|compared?|instead of|rather than|upgrade|better than|worse than|switched|replaced|industrial)\b/i;
+const editorFile = path.join(DIR, "editor.json");
+const extraOthers: RegExp | null = fs.existsSync(editorFile) && JSON.parse(fs.readFileSync(editorFile, "utf8")).others ? new RegExp(JSON.parse(fs.readFileSync(editorFile, "utf8")).others, "i") : null;
+const OTHERS = { test: (t: string) => GENERIC_OTHERS.test(t) || Boolean(extraOthers?.test(t)) };
 
 function loadAll() {
   const items = read(path.join(DIR, "items.jsonl"));
@@ -67,6 +76,7 @@ function loadAll() {
 if (mode === "prep") {
   const { items, raw, sources } = loadAll();
   const spec = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "specs", `${slug}.json`), "utf8"));
+  const queries = fs.existsSync(path.join(DIR, "queries.json")) ? JSON.parse(fs.readFileSync(path.join(DIR, "queries.json"), "utf8")) : {};
   const manufacturer = fs.existsSync(path.join(DIR, "manufacturer.json")) ? JSON.parse(fs.readFileSync(path.join(DIR, "manufacturer.json"), "utf8")) : null;
   fs.rmSync(WORK, { recursive: true, force: true });
   fs.mkdirSync(WORK, { recursive: true });
@@ -99,7 +109,7 @@ if (mode === "prep") {
   }
   const n = Math.ceil(segs.length / CHUNK);
   for (let i = 0; i < n; i++) fs.writeFileSync(path.join(WORK, `in-${i + 1}.jsonl`), segs.slice(i * CHUNK, (i + 1) * CHUNK).map((s) => JSON.stringify(s)).join("\n") + "\n");
-  fs.writeFileSync(path.join(WORK, "ref.json"), JSON.stringify({ model: spec.model, specs: Object.fromEntries(Object.entries(spec.specs).map(([k, v]: any) => [k, v.value])), manufacturer, fields: Object.keys(FIELDS), cross_shop: spec.crossShop }, null, 2));
+  fs.writeFileSync(path.join(WORK, "ref.json"), JSON.stringify({ model: spec.model, specs: Object.fromEntries(Object.entries(spec.specs).map(([k, v]: any) => [k, v.value])), manufacturer, fields: Object.keys(FIELDS), cross_shop: spec.crossShop, model_names: queries.model_names ?? [spec.model], confusable_siblings: queries.confusable_siblings ?? [] }, null, 2));
   console.log(`${segs.length} segments from ${items.length} items -> ${n} chunks of ${CHUNK} in ${path.relative(ROOT, WORK)}`);
 }
 
