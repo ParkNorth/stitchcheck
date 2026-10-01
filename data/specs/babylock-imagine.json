@@ -15,8 +15,8 @@
   "priceSeenAt": null,
   "specs": {
     "stitchTypes": {
-      "value": "4 thread and 3 thread overlock; rolled hem",
-      "source": "https://www.amazon.com/Babylock-Machine-4-thread-Automatic-Tension/dp/B015BLN1WG"
+      "value": "4, 3 and 2 thread serging; rolled hem and flatlock with 2 or 3 threads",
+      "source": "https://babylock.com/imagine-ble1at-2-spec-sheet"
     },
     "stitchCount": {
       "value": null,
@@ -27,20 +27,20 @@
       "source": "https://www.amazon.com/Babylock-Machine-4-thread-Automatic-Tension/dp/B015BLN1WG"
     },
     "threads": {
-      "value": "3 or 4 thread; 2 needles",
-      "source": "https://www.amazon.com/Babylock-Machine-4-thread-Automatic-Tension/dp/B015BLN1WG"
+      "value": "4/3/2 thread serging; 2 needles on the 4 thread stitch",
+      "source": "https://babylock.com/imagine-ble1at-2-spec-sheet"
     },
     "differentialFeed": {
-      "value": "Yes, ratio 0.6 to 2.0",
-      "source": "https://www.amazon.com/Babylock-Machine-4-thread-Automatic-Tension/dp/B015BLN1WG"
+      "value": "Single-unit differential feed: 2:1 ratio for gathering, 3:4 (0.75) for stretching",
+      "source": "https://babylock.com/imagine-ble1at-2-spec-sheet"
     },
     "throatIn": {
       "value": null,
       "source": null
     },
     "needleSystem": {
-      "value": null,
-      "source": null
+      "value": "Household needle system: HAx1SP, 130/705H, ELx705CF",
+      "source": "https://babylock.com/imagine-ble1at-2-spec-sheet"
     },
     "presserFootLift": {
       "value": null,
@@ -67,8 +67,8 @@
       "source": null
     },
     "weightLb": {
-      "value": 17.2,
-      "source": "https://www.amazon.com/Babylock-Machine-4-thread-Automatic-Tension/dp/B015BLN1WG"
+      "value": 16,
+      "source": "https://babylock.com/imagine-ble1at-2-spec-sheet"
     },
     "dimensionsIn": {
       "value": "13.4 x 11 x 11.4 (340 x 280 x 290 mm)",
@@ -79,12 +79,12 @@
       "source": "https://www.moores-sew.com/shop/baby-lock-imagine-serger/"
     },
     "warrantyUs": {
-      "value": "25 yr limited; 10 yr parts, 5 yr electrical, 1 yr labor (dealer statement)",
-      "source": "https://www.moores-sew.com/shop/baby-lock-imagine-serger/"
+      "value": "25 yr limited; 10 yr parts, 5 yr electrical, 1 yr labor (Baby Lock spec sheet; manual and warranty PDFs not fetched)",
+      "source": "https://babylock.com/imagine-ble1at-2-spec-sheet"
     },
     "stitchWidthMm": {
-      "value": "5.5 to 7.5 (4 thread); 3.0 to 7.5 (3 thread)",
-      "source": "https://www.amazon.com/Babylock-Machine-4-thread-Automatic-Tension/dp/B015BLN1WG"
+      "value": "1.5 to 7.5, dial adjustable (maker gives one range, not split by thread count)",
+      "source": "https://babylock.com/imagine-ble1at-2-spec-sheet"
     },
     "seamAllowanceMm": {
       "value": "0.75 to 4",
@@ -104,16 +104,19 @@
     }
   },
   "claims": [
-    "\"Can you imagine how easy serging would be if you didn't have to thread the loopers\" (manufacturer brochure headline, babylock.com resource download)",
-    "\"Automatic Thread Delivery System - no tensions\" (manufacturer feature name, brochure)",
-    "\"Best serger on the market\" (owner comment on a PatternReview review, not a manufacturer claim)"
+    "\"Jet-Air Threading\" of the lower loopers by lever (Baby Lock marketing name, spec sheet and brochure)",
+    "\"Automatic Thread Delivery\" and \"no tension adjustments\" (Baby Lock marketing, spec sheet and brochure)",
+    "\"Baby Lock's most popular serger\" (Baby Lock marketing, not verified by us)",
+    "\"Can you imagine how easy serging would be if you didn't have to thread the loopers\" (Baby Lock brochure headline)"
   ],
   "conflicts": [
-    "Status: the Imagine BLE1AT-2 is listed by Baby Lock under previous model accessories and a PatternReview thread on the new Baby Lock lineup states the Victory replaced the Imagine, the Celebrate replaced the Eclipse and the Acclaim replaced the Enlighten. Dealer pages still show Imagine listings. Catalog will mark discontinued, replaced by the Victory.",
-    "Price: Baby Lock does not publish prices and no current new dealer price appeared in results. Owners on PatternReview reported paying $950 and $1,800 new in earlier years; a used unit sold on eBay near $550. Catalog shows no price band and marks [verify].",
-    "Spec attribution: the 1,500 spm, stitch width, differential ratio, 7.8 kg weight and 280 x 340 x 290 mm dimensions appeared in a search snippet for a Japan model parallel import Amazon listing of the BLE1AT-2, not the Baby Lock US spec sheet (babylock.com/imagine-ble1at-2-spec-sheet), which could not be opened. Weight is converted from 7.8 kg. Verify against the US spec sheet.",
-    "Needle system: a dealer snippet listed HAx1SP, 130/705H and ELx705CF household needles for Baby Lock sergers without tying the list to the Imagine, and a PatternReview thread on Imagine needles points to standard universal needles. Left null pending the manual.",
-    "Model numbers: BLE1AT (original Imagine) and BLE1AT-2 (later Imagine) are different revisions; the Imagine Wave (BLE3ATW) is a separate wave stitch model. Reviews for all three are mixed together on PatternReview."
+    "Weight: the Baby Lock spec sheet says 16 lb and a non-maker Amazon listing snippet gave 7.8 kg (17.2 lb); 16 lb is used and it is unconfirmed whether either figure is a shipping weight.",
+    "Stitch width: the Baby Lock spec sheet gives one dial range of 1.5 to 7.5 mm, while our earlier spec from a non-maker listing split it into 5.5 to 7.5 mm (4 thread) and 3.0 to 7.5 mm (3 thread); the maker range is used and the thread-count split is unverified until the manual is read.",
+    "Differential feed: the Baby Lock spec sheet gives 2:1 for gathering and 3:4 (0.75) for stretching, while our earlier spec from a non-maker listing said 0.6 to 2.0; the 0.6 lower bound is not on the spec sheet, so maker wording is used.",
+    "Threads: the spec sheet lists 2 thread stitches (rolled hem and flatlock with 2 or 3 threads), which our earlier spec and FAQ omitted; coverstitch is not listed on the spec sheet.",
+    "Model revisions: the spec sheet is for the BLE1AT-2; the original BLE1AT is an older version, and PatternReview and Reddit sources mix BLE1AT, BLE1AT-2 and the Imagine Wave (BLE3ATW), so owner evidence below is not all BLE1AT-2.",
+    "Dimensions: the 13.4 x 11 x 11.4 in figure is from a non-maker listing; the Baby Lock spec sheet does not publish dimensions.",
+    "Price: Baby Lock publishes no price and no current new dealer price was found; owners on PatternReview reported paying $950 and $1,800 new in earlier years and one Reddit comment put the Imagine near $2,000, so the catalog shows [verify]."
   ],
   "ownerThemes": [
     {
@@ -171,81 +174,84 @@
   "discontinued": true,
   "replacedBy": "babylock-victory",
   "editorial": {
-    "verdict": "The Imagine was Baby Lock's 3 and 4 thread serger with Jet-Air looper threading and no tension dials; it is discontinued and replaced by the Victory, so the live question is whether a used Imagine at $500 to $900 beats a new air threading Juki MO-1000 or a new Victory from a dealer.",
-    "whoFor": "A sewist who hates threading and tension fiddling, is buying used or from a dealer's remaining stock, and does not need 2 thread stitches or coverstitch.",
-    "skipIf": "You want a current model with a fresh warranty (the Victory), you need 2 thread or coverstitch capability, or you can buy a new air threading Juki for the price of a used Imagine.",
-    "keySpec": "3/4 thread · 1,500 spm · Jet-Air looper threading · Automatic Thread Delivery · 17.2 lb",
+    "verdict": "A Baby Lock 4/3/2 thread serger that one dealer lists as discontinued; Jet-Air threading and Automatic Thread Delivery are maker claims that owners mostly, not always, bear out.",
+    "whoFor": "A sewist who wants air threading and no tension dials, is buying used or from a dealer's remaining stock, and can live without a published coverstitch.",
+    "skipIf": "You want a current model with a fresh warranty, need coverstitch, or can buy a new air-threading Juki online instead.",
+    "keySpec": "4/3/2 thread · 1,500 spm · 1.5 to 7.5 mm width · 2:1 and 3:4 differential · 16 lb",
     "strengths": [
-      "Jet-Air looper threading and Automatic Thread Delivery remove the two steps beginners struggle with most",
-      "Owner reports on PatternReview span 1998 to recent years with the same praise: quiet, smooth, no tension problems",
-      "Baby Lock's 25 year limited warranty with 10 year parts as stated by dealers, if bought new from remaining stock"
+      "The maker lists 4, 3 and 2 thread serging with rolled hem and flatlock, so it covers more than the 3/4 thread machines it is often grouped with",
+      "Owners report threading as easy and the machine as reliable, with some units still in use after six years or more, though the evidence mixes BLE1AT, BLE1AT-2 and older units",
+      "Baby Lock states a 25 year limited warranty with 10 year parts, 5 year electrical and 1 year labor on its spec sheet"
     ],
     "weaknesses": [
-      "Discontinued; Baby Lock lists it under previous models and the Victory has taken its slot",
-      "3 and 4 thread only, no 2 thread and no coverstitch; the Wave and the combo machines cover those",
-      "No published price, and the automatic tension springs are a documented wear item with a dealer only repair"
+      "Discontinued: Baby Lock lists the Imagine under previous models, and a PatternReview thread says the Victory replaced it",
+      "Owners report tension trouble on stretchy or mismatched fabrics, and some find manual tensioning is still the real annoyance; the maker's no-tension wording is a claim",
+      "Some owners report air-threader and looper-thread problems (a broken lower thread, an unthreaded looper, thread cone fit), and one reports worn tension springs with a costly repair"
     ],
     "checks": [
       {
         "title": "Confirm BLE1AT-2, not BLE1AT or Imagine Wave",
-        "body": "Three Imagine models share the name. BLE1AT-2 is the later 3/4 thread revision; the Wave (BLE3ATW) adds a wave stitch. Used listings and dealer bundles mix them up."
+        "body": "The spec sheet here is for the BLE1AT-2. The original BLE1AT is an older version and the Wave (BLE3ATW) is a separate wave stitch model, and used listings and reviews mix them. One Reddit buyer of a used BLE1AT-1 reported a dead air threader."
       },
       {
-        "title": "Ask whether the warranty transfers",
-        "body": "Baby Lock's 25 year limited warranty is stated by dealers for the original purchaser. On a used or demo unit ask the dealer what coverage remains and what a tension spring repair costs."
+        "title": "Ask what the warranty covers on a used unit",
+        "body": "The 25 year limited, 10 year parts, 5 year electrical and 1 year labor terms come from the spec sheet; the warranty PDF was not fetched. On a used or demo unit ask the dealer what coverage remains."
       },
       {
-        "title": "Compare against the Victory and the Juki MO-1000",
-        "body": "Baby Lock's Victory replaced the Imagine at a dealer price near $2,089. Juki's MO-1000 offers air threading online. Price all three before paying near new money for an Imagine."
+        "title": "Price the Victory and the Juki MO-1000 first",
+        "body": "A PatternReview thread says the Victory replaced the Imagine, and Juki's MO-1000 is the air-threading serger sold online. Baby Lock publishes no price, so get dealer quotes before paying near new money for a used Imagine."
       }
     ],
     "realCost": [
-      "4 cones of serger thread",
-      "Needles once the system is confirmed from the manual",
-      "Serger oil and a lint brush",
-      "Optional Imagine and Enlighten accessory feet kit, sold separately by Baby Lock",
-      "Tension spring service out of warranty, reported by one owner as not cheap"
+      "Serger thread: owners report taller cones can cause feed problems and Maxi-Loc cones worked better for one",
+      "Household needles in HAx1SP, 130/705H or ELx705CF per the spec sheet",
+      "Serger oil and a lint brush; owners mention an occasional service",
+      "Tension spring service out of warranty, reported by one PatternReview owner as not cheap"
     ],
     "faqs": [
       {
         "q": "Is the Baby Lock Imagine discontinued?",
-        "a": "Yes. Baby Lock lists the Imagine under previous model accessories, and dealers and PatternReview posters state the Victory replaced it in the current lineup."
+        "a": "Yes. Baby Lock lists the Imagine under previous model accessories, and a PatternReview thread on the new lineup says the Victory replaced it, though dealer pages still show Imagine listings."
       },
       {
         "q": "What replaced the Imagine?",
-        "a": "The Baby Lock Victory, which keeps Jet-Air threading and automatic tension. Dealer pricing for the Victory was seen near $2,089."
+        "a": "A PatternReview thread says the Victory replaced it. One Reddit commenter put the Imagine near $2,000 and the Victory near $3,500; Baby Lock publishes dealer pricing only, so treat that as a belief."
       },
       {
         "q": "How much does the Imagine cost?",
-        "a": "Baby Lock does not publish prices and no current new price appeared in results. Owners reported paying $950 and $1,800 new in earlier years; a used unit sold on eBay near $550."
+        "a": "Baby Lock does not publish prices and no current new price was found, so it shows [verify]. Owners reported paying $950 and $1,800 new in earlier years, and a used unit sold on eBay near $550."
       },
       {
         "q": "Does the Imagine have tension dials?",
-        "a": "No. It uses Baby Lock's Automatic Thread Delivery system, which sets tension without dials and lets you thread in any order."
+        "a": "Baby Lock markets Automatic Thread Delivery and no tension adjustments, which are its claims. Owner reports are mixed: some report no tension issues in about six years, others report tension trouble on stretchy fabrics."
       },
       {
         "q": "How fast is the Imagine?",
-        "a": "A listing snippet gives 1,500 stitches per minute. The Baby Lock US spec sheet could not be opened to confirm."
+        "a": "The Baby Lock BLE1AT-2 spec sheet gives 1,500 stitches per minute."
       },
       {
         "q": "Does the Imagine do 2 thread stitches or coverstitch?",
-        "a": "No. The Imagine BLE1AT-2 is a 2 needle 4 thread and 1 needle 3 thread overlock with rolled hem. Coverstitch is on Baby Lock's combo machines."
+        "a": "The spec sheet lists 4, 3 and 2 thread serging, with rolled hem and flatlock using 2 or 3 threads. It does not list coverstitch."
       },
       {
         "q": "What is the difference between BLE1AT and BLE1AT-2?",
-        "a": "Both are Imagines; the -2 is the later revision. PatternReview posters describe the differences as minor, and Baby Lock's manual and spec sheet carry the BLE1AT-2 number."
+        "a": "The BLE1AT is the older version and the BLE1AT-2 the later one. A PatternReview thread describes the difference as minor, but our spec sheet is for the BLE1AT-2 only and we did not compare the two documents."
       },
       {
         "q": "How heavy is the Imagine?",
-        "a": "A listing snippet gives 7.8 kg, about 17.2 lb, with dimensions of 340 x 280 x 290 mm. Verify against the Baby Lock spec sheet."
+        "a": "The Baby Lock spec sheet says 16 lb. An Amazon listing snippet gave 7.8 kg (17.2 lb); the maker figure is used here."
       },
       {
         "q": "What needles does the Imagine take?",
-        "a": "Not confirmed in results found. A PatternReview thread points to standard universal needles; check the manual before buying."
+        "a": "The Baby Lock spec sheet lists the household needle system HAx1SP, 130/705H and ELx705CF. The manual was not fetched."
       },
       {
         "q": "What is the Imagine warranty?",
-        "a": "Dealers state Baby Lock's 25 year limited warranty with 10 years parts, 5 years electrical and 1 year labor for the original purchaser."
+        "a": "The spec sheet states 25 years limited, 10 years parts, 5 years electrical and 1 year labor. The warranty PDF was not fetched, so check transfer terms with the dealer."
+      },
+      {
+        "q": "Is the Imagine the same as the Imagine Wave?",
+        "a": "No. The Imagine Wave (BLE3ATW) is a separate wave stitch model, and its reviews are mixed in with the Imagine on PatternReview."
       }
     ]
   },
