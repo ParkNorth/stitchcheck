@@ -95,7 +95,7 @@ function stages(slug: string) {
   const checks = readJson(path.join(d, "checks.json"), null);
   return {
     maker: Boolean(man && (man.facts?.length ?? 0) >= 4 && man.documents?.some((x: any) => x.fetched)),
-    marketplaces: src.some((s) => s.class === "retailer" && s.site_review_count),
+    marketplaces: src.some((s) => s.class === "retailer" && s.site_review_count) || (DEALER_ONLY.some((b) => slug.startsWith(b)) && /no marketplace listing, dealer-only/.test(fs.existsSync(path.join(d, "run-log.md")) ? fs.readFileSync(path.join(d, "run-log.md"), "utf8") : "")),
     collected: lines(path.join(d, "items.jsonl")) > 0 && (src.filter((s) => s.class === "reddit" && s.status === "ok").length >= 10 || src.filter((s) => s.class !== "reddit" && s.status === "ok").length >= 5),
     claims: lines(path.join(d, "claims.jsonl")) > 0,
     tags: lines(path.join(d, "tags.jsonl")) > 0,
@@ -108,6 +108,7 @@ function stages(slug: string) {
   };
 }
 
+const DEALER_ONLY = ["babylock-", "bernina-"];
 const plan = readJson(PLAN, null) ?? { signoffs: {} };
 
 if (cmd === "init") {
