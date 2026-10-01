@@ -5899,8 +5899,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://juki.com/ddl-8700"
       },
       "presserFootLift": {
-        "value": "13 mm max foot lift (knee lift on stand)",
-        "source": "https://juki.com/ddl-8700"
+        "value": "13 mm maximum by knee lifter, 10 mm standard",
+        "source": "https://juki.com/pub/media/wysiwyg/products/DDL-8700_manual.pdf"
       },
       "threadTrimmer": {
         "value": "None on base DDL-8700; automatic trimmer is the DDL-8700-7 variant",
@@ -5923,8 +5923,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://juki.com/ddl-8700"
       },
       "weightLb": {
-        "value": 61.7,
-        "source": "https://juki.com/ddl-8700"
+        "value": null,
+        "source": null
       },
       "dimensionsIn": {
         "value": null,
@@ -5941,14 +5941,16 @@ export const catalogData: Record<string, CatalogEntry> = {
     },
     "claims": [
       "\"High-speed, 1-needle, Lockstitch Machine\" (manufacturer description, juki.com)",
+      "\"medium-weight\" for the base DDL-8700, \"light-weight\" for the DDL-8700A and \"heavy-weight\" for the DDL-8700H (Juki product page variant table)",
       "\"Fully Assembled Ready To Sew\" (dealer claim, Cut Sew listing title)",
       "\"incredible punching power\" (review-site copy, not manufacturer)"
     ],
     "conflicts": [
-      "Head weight: Juki lists 28 kg for the head; 61.7 lb is a conversion, not a published lb figure. Table and motor add substantially and are not published in snippets.",
-      "Arm space: a review site states about 11 in from needle to arm; not found on juki.com in accessible snippets. Left null pending Juki PDF check.",
-      "Price: $999 (Walmart, servo + table, DIY assembly) vs $899.99 (second Walmart listing) vs $1,004.40 (DDL-8700-H variant). SMP listing exists with assembled table but no price in snippet.",
-      "Thread trimmer: base 8700 has none; -7 suffix adds automatic trimming and lifting. Listings often mix the two."
+      "Speed: Juki's page gives 5,500 stitches per minute for the base DDL-8700 and 4,000 for the DDL-8700A and DDL-8700H; marketplace listings pool the variants under similar titles, so a quoted speed may belong to a different variant.",
+      "Arm space: a review site states about 11 in from needle to arm; not found on juki.com in accessible snippets. Left null pending a Juki PDF check.",
+      "Price: $999 (Walmart, servo and table, DIY assembly) vs $899.99 (second Walmart listing) vs $1,004.40 (DDL-8700-H variant). The Sewing Machines Plus listing has an assembled table but no price in the snippet.",
+      "Thread trimmer: Juki's page names none on the base DDL-8700; dealer and owner sources name the DDL-8700-7 as the trimmer variant, and listings often mix the two.",
+      "Weight: Juki's product page and manual do not publish a weight, so it shows as [verify]. A 61.7 lb figure circulates in non-maker sources and is not used."
     ],
     "ownerThemes": [
       {
@@ -6002,32 +6004,32 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "A genuine industrial lockstitch head for light to medium fabric that only makes sense once you have the floor space, a servo motor and a plan for a second machine.",
+      "verdict": "Straight-stitch industrial head that Juki classes as medium-weight: owners praise the build, but it needs a table, a motor and floor space, and heavy leather is -H territory.",
       "whoFor": "Bag makers, gear sewers and small production shops who sew straight seams all day and want speed, a knee lift and an oil-bath hook.",
-      "skipIf": "You need a portable machine, any stitch besides straight, or you expect it to sew heavy leather; Juki positions the -H variant for heavy weight.",
-      "keySpec": "5,500 spm · straight stitch · DBx1 needle · table + motor required",
+      "skipIf": "You need a portable machine, any stitch besides straight, or you expect it to sew heavy leather; Juki positions the DDL-8700H variant for heavy weight.",
+      "keySpec": "5,500 spm (base) · straight stitch · DBx1 needle · table + motor required",
       "strengths": [
-        "Juki publishes 5,500 spm, 5 mm stitch length and 13 mm foot lift for the head.",
-        "Automatic lubrication with a sealed oil pan is standard on the head.",
-        "Uses DBx1 industrial needles and standard high shank feet, both widely available."
+        "Owners report solid build and smooth running, with 6 of 7 build-quality voices positive.",
+        "Retailer reviewers often call it quiet; Juki's manual gives 83.5 dB(A) at 5,000 sti/min, a maker figure on paper.",
+        "Owners report standard feet, bobbins and DBx1 needles are easy to buy, and a free-motion foot worked for one owner."
       ],
       "weaknesses": [
-        "Head weighs 28 kg and does nothing without a table, stand and motor.",
-        "Base model has no thread trimmer; that is the -7 variant at a higher price.",
-        "Juki lists it for light to medium materials, not the leather many buyers intend."
+        "Owners report recurring tension trouble, such as top thread showing underneath, though many of these are help-seeking Reddit threads.",
+        "Owners report setup and defect problems, such as a motor that ran backward at first and a bobbin that bunched when the needle did not stop up.",
+        "Owners report limits on thick or slippery work: one gets two layers of heavy waxed denim but thread snaps at three, and another could not sew split leather."
       ],
       "checks": [
         {
           "title": "Which motor is in the bundle",
-          "body": "Clutch motors are loud and run at one speed. Servo motors add a speed dial and are the common recommendation from owners. Confirm the motor type and wattage in writing."
+          "body": "Owners on Quiltingboard and Backpacking Light favour a servo motor for slow, controllable sewing, and one Reddit owner with a clutch motor wants to swap. Confirm the motor type in writing."
         },
         {
           "title": "Assembled or knock-down",
-          "body": "SMP ships the table assembled. Walmart and Amazon listings are DIY kits that need two people and a few hours. Factor freight and assembly."
+          "body": "Sewing Machines Plus lists the table shipped assembled. The Walmart listings are DIY kits with assembly required. Factor freight and assembly."
         },
         {
           "title": "Suffix matters",
-          "body": "DDL-8700 (standard), -7 (auto trimmer and foot lift) and -H (heavy weight) are different machines at different prices. Match the suffix to your fabric before ordering."
+          "body": "Juki's page lists the base DDL-8700 as medium-weight at 5,500 spm, the DDL-8700A as light-weight and the DDL-8700H as heavy-weight, both at 4,000 spm, with different needle systems. The DDL-8700-7 is the automatic trimmer variant per dealer sources. Match the suffix to your fabric before ordering."
         }
       ],
       "realCost": [
@@ -6036,7 +6038,44 @@ export const catalogData: Record<string, CatalogEntry> = {
         "DBx1 needles in sizes 14 to 18 and industrial bobbins",
         "A second machine for zigzag and buttonholes"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "Does the Juki DDL-8700 come with a table and motor?",
+          "a": "Not from the maker: it is sold as a head only. Dealer bundles add a table, stand and a clutch or servo motor, so check what a listing includes."
+        },
+        {
+          "q": "Should I get a servo motor or a clutch motor?",
+          "a": "Owners on Quiltingboard and Backpacking Light recommend a servo for slow, controllable sewing, and the servo has a speed dial under the table."
+        },
+        {
+          "q": "Can the Juki DDL-8700 sew leather?",
+          "a": "Owner reports are mixed: a tailor sewed vegetable-tanned leather to suede on the base machine, while another owner could not sew split leather. Juki positions the DDL-8700H as the heavy-weight variant."
+        },
+        {
+          "q": "How fast is it and can it be slowed down?",
+          "a": "Juki lists 5,500 stitches per minute for the base DDL-8700; the DDL-8700A and DDL-8700H are 4,000. Slow control depends on the motor, and owners point to a servo."
+        },
+        {
+          "q": "What needles does the base DDL-8700 use?",
+          "a": "Juki's page lists DB x 1 in sizes 9 to 18, with 14 as standard. The DDL-8700A uses DA x 1 and the DDL-8700H uses DB x 1 in sizes 19 to 23."
+        },
+        {
+          "q": "Is it self oiling?",
+          "a": "Juki describes automatic lubrication of the hook with a sealed oil pan, and its manual names Juki New Defrix Oil No. 1."
+        },
+        {
+          "q": "What is the difference between the DDL-8700, -7 and -H?",
+          "a": "Per Juki's page the base is medium-weight at 5,500 spm and the H is heavy-weight at 4,000 spm. The -7 is the trimmer variant per dealer sources, and listings often mix them up."
+        },
+        {
+          "q": "Does it use home sewing machine feet?",
+          "a": "Quiltingboard members say the head takes standard high shank feet, and one Reddit owner reports a $30 free-motion foot worked very well."
+        },
+        {
+          "q": "How heavy is it?",
+          "a": "Juki does not publish a weight in its page or manual, so we show [verify]. A table and motor add to the head weight."
+        }
+      ]
     },
     "sources": [
       "https://juki.com/ddl-8700",
@@ -6050,7 +6089,8 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/SewingDiscussions/topic/47594",
       "https://www.quiltingboard.com/main-f1/has-anyone-used-juki-ddl8700-t215960.html",
       "https://backpackinglight.com/forums/topic/juki-ddl-8700-motor-upgrade-help/",
-      "https://jukijunkies.com/product/juki-ddl-8000a-single-needle-straight-lockstitch-sewing-machine/"
+      "https://jukijunkies.com/product/juki-ddl-8000a-single-needle-straight-lockstitch-sewing-machine/",
+      "https://juki.com/pub/media/wysiwyg/products/DDL-8700_manual.pdf"
     ]
   },
   "juki-dnu-1541s": {

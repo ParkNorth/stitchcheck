@@ -1,0 +1,144 @@
+{
+  "slug": "juki-ddl-8700",
+  "collected": "2026-10-01",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/juki-ddl-8700.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "juki-page",
+      "url": "https://juki.com/ddl-8700",
+      "type": "product page",
+      "fetched": "2026-10-01",
+      "note": "Variant table (DDL-8700, 8700A, 8700H), feature copy; no weight, price or warranty"
+    },
+    {
+      "id": "juki-manual",
+      "url": "https://juki.com/pub/media/wysiwyg/products/DDL-8700_manual.pdf",
+      "type": "instruction manual (PDF, 14 pages)",
+      "fetched": "2026-10-01",
+      "note": "Specifications, noise level, motor pulley table; also lists DDL-8700L (heavy, 7 mm)"
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "DDL-8700: max 5,500 sti/min; DDL-8700A and 8700H: 4,000",
+      "source": "juki-page",
+      "vs_spec": "confirms",
+      "spec_value": 5500,
+      "note": "The 5,500 figure is the base DDL-8700 only; -A and -H are 4,000.",
+      "site": {
+        "label": "Speed",
+        "juki": "5,500 stitches per minute on the base DDL-8700; the A and H variants top out at 4,000.",
+        "others": "Dealers quote 5,500.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki DDL-8700 page",
+            "url": "https://juki.com/ddl-8700"
+          }
+        ]
+      }
+    },
+    {
+      "field": "needleSystem",
+      "value": "DB x 1 #9 to #18 (page lists #14 standard); -A uses DA x 1, -H uses DB x 1 #19 to #23",
+      "source": "juki-page",
+      "vs_spec": "confirms",
+      "spec_value": "DBx1 (16x231), sizes 9 to 18",
+      "note": "Variants use different needles; do not mix them up."
+    },
+    {
+      "field": "stitchLength",
+      "value": "Max 5 mm (-A: 4 mm, -H: 5 mm; manual -L: 7 mm)",
+      "source": "juki-page",
+      "vs_spec": "confirms",
+      "spec_value": "max stitch length 5 mm"
+    },
+    {
+      "field": "presserFootLift",
+      "value": "Knee lift: 10 mm standard, 13 mm maximum (manual); page says 13 mm",
+      "source": "juki-manual",
+      "vs_spec": "confirms",
+      "spec_value": "13 mm max foot lift (knee lift on stand)",
+      "note": "Page and manual agree on the 13 mm max; the standard setting is 10 mm.",
+      "site": {
+        "label": "Presser foot lift",
+        "juki": "13 mm maximum by knee lifter, 10 mm standard.",
+        "others": "Dealers quote 13 mm.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki DDL-8700 page",
+            "url": "https://juki.com/ddl-8700"
+          }
+        ]
+      }
+    },
+    {
+      "field": "noise",
+      "value": "LpA 83.5 dB(A) at 5,000 sti/min; LWA 88.0 dB(A)",
+      "source": "juki-manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Maker-measured noise per ISO 10821. A figure on paper, not our measurement.",
+      "site": {
+        "label": "Noise",
+        "juki": "83.5 dB(A) at the workstation at 5,000 sti/min (manual).",
+        "others": "Owners describe noise and vibration; see the rollup.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki DDL-8700 page",
+            "url": "https://juki.com/ddl-8700"
+          }
+        ]
+      }
+    },
+    {
+      "field": "lubrication",
+      "value": "JUKI New Defrix Oil No. 1",
+      "source": "juki-manual",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "variants",
+      "value": "DDL-8700 medium-weight (5,500 spm), DDL-8700A light-weight (4,000), DDL-8700H heavy-weight (4,000); manual also covers DDL-8700L heavy (4,000, 7 mm)",
+      "source": "juki-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketplace listings pool these under similar titles. Model name is not a spec (rule 9)."
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "not on the base DDL-8700 page; -7 is the trimmer variant",
+      "source": "juki-page",
+      "vs_spec": "confirms",
+      "spec_value": "None on base DDL-8700; automatic trimmer is the DDL-8700-7 variant",
+      "note": "Page does not name the -7; dealer and owner sources do."
+    },
+    {
+      "field": "weightLb",
+      "value": "not published on the page or in the manual",
+      "source": "juki-manual",
+      "vs_spec": "adds",
+      "spec_value": 61.7,
+      "note": "Spec's 61.7 lb has a non-maker source. Keep [verify] unless a Juki document is found."
+    },
+    {
+      "field": "msrp",
+      "value": "not published (page shows price 0)",
+      "source": "juki-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Dealer-only pricing."
+    },
+    {
+      "field": "warrantyUs",
+      "value": "not published on the page or in the manual",
+      "source": "juki-manual",
+      "vs_spec": "adds",
+      "spec_value": null
+    }
+  ]
+}
