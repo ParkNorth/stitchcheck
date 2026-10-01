@@ -2558,6 +2558,586 @@ export const rollupData: Record<string, Rollup> = {
       }
     ]
   },
+  "juki-mo-654de": {
+    "slug": "juki-mo-654de",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-01",
+    "generated": "2026-10-01",
+    "method": {
+      "sources": 35,
+      "itemsCollected": 356,
+      "statements": 48,
+      "voices": 42,
+      "ownerVoices": 42,
+      "dateRange": [
+        2014,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 2,
+          "items": 104
+        },
+        "reddit": {
+          "sources": 33,
+          "items": 250
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 16,
+        "voices": 16,
+        "ownerVoices": 16,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 11,
+          "reddit": 5
+        },
+        "polarity": {
+          "positive": 11,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2014,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c1a8b1f02",
+            "polarity": "negative",
+            "claim": "Owner finds threading a bit of a pain but typical for non-air-threaded sergers.",
+            "quote": "Threading is sort of a pain",
+            "url": "https://www.reddit.com/r/sewing/comments/v3jawc/buying_my_first_serger_is_juki_mo654de_a_good/iayn0df/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c322c519a",
+            "polarity": "negative",
+            "claim": "Owner finds threading a major annoyance even though stitching is good.",
+            "quote": "it is a royal pain to thread",
+            "url": "https://www.sewingmachinesplus.com/juki-MO-654DE.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c446ea9a8",
+            "polarity": "positive",
+            "claim": "Owner says the machine is color coded and videos helped with threading.",
+            "quote": "it’s all color coded",
+            "url": "https://www.sewingmachinesplus.com/juki-MO-654DE.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c2f4f5554",
+            "polarity": "positive",
+            "claim": "Owner finds it fairly easy to thread.",
+            "quote": "it is pretty easy to thread",
+            "url": "https://www.reddit.com/r/sewing/comments/v3jawc/buying_my_first_serger_is_juki_mo654de_a_good/iaynf69/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ce1c4c11e",
+            "polarity": "mixed",
+            "claim": "Owner needed a little while to learn threading, then became confident.",
+            "quote": "It took me a little while to figure out how to thread it",
+            "url": "https://www.sewingmachinesplus.com/juki-MO-654DE.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 10,
+        "voices": 10,
+        "ownerVoices": 10,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 10
+        },
+        "polarity": {
+          "positive": 8,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2017,
+          2023
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c1eb370f2",
+            "polarity": "negative",
+            "claim": "Owner says it is very noisy, the one drawback.",
+            "quote": "it is very noisy",
+            "url": "https://www.sewingmachinesplus.com/juki-MO-654DE.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c832ec82e",
+            "polarity": "positive",
+            "claim": "Owner calls it quiet.",
+            "quote": "It's quiet",
+            "url": "https://www.sewingmachinesplus.com/juki-MO-654DE.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 8,
+        "voices": 8,
+        "ownerVoices": 8,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 4,
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 6,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2017,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c55f01c75",
+            "polarity": "negative",
+            "claim": "Owner's MO-654DE lower looper kept snapping, and a repair shop sanded a burr without fixing it.",
+            "quote": "The lower looper keeps snapping, repair guy sanded a burr",
+            "url": "https://www.reddit.com/r/sewing/comments/1c1z0u9/new_juki_serger_recommendedations/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cc6f29aca",
+            "polarity": "negative",
+            "claim": "Owner traced a no-serge fault to machine timing and wrong-sized needles.",
+            "quote": "I had two issues. Machine timing and the wrong sized needles",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1nxvy3r/my_juki_mo654de_isnt_creating_a_serge_all_four/numpx0g/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c3d61d8e7",
+            "polarity": "positive",
+            "claim": "Owner of several years reports no problems with the MO 654DE, with thread issues being user error.",
+            "quote": "No issues whatsoever",
+            "url": "https://www.reddit.com/r/sewing/comments/a9kabh/serger_suggestions_please/eck9t16/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cd3efb833",
+            "polarity": "positive",
+            "claim": "Tailoring shop owner calls it the most reliable serger they know and owns another for the shop.",
+            "quote": "This is the most reliable serger I know of.",
+            "url": "https://www.sewingmachinesplus.com/juki-MO-654DE.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2019,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c97f0cb73",
+            "polarity": "negative",
+            "claim": "Owner of an MO-654DE reports a persistent tension problem after three idle years, even after cleaning, new needles and rethreading.",
+            "quote": "has some kind of tension issue persisting",
+            "url": "https://www.reddit.com/r/sewing/comments/1jc60yp/juki_serger_issues/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c717a9f84",
+            "polarity": "negative",
+            "claim": "MO-654DE owner could not get tension right after changing threads and rethreading made it worse.",
+            "quote": "i just changed the threads though and i cannot get the tension right",
+            "url": "https://www.reddit.com/r/sewing/comments/ztf4l9/overlocker_tension_help/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c81f7e9db",
+            "polarity": "positive",
+            "claim": "Owner got good seams without adjusting tension.",
+            "quote": "No fiddling with tension needed",
+            "url": "https://www.sewingmachinesplus.com/juki-MO-654DE.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c9d54ef09",
+            "polarity": "positive",
+            "claim": "Owner never had to adjust the tension on the MO-654DE.",
+            "quote": "I never had to mess with the tension",
+            "url": "https://www.reddit.com/r/sewing/comments/1vfry4u/industrial_or_home_serger/p1shgry/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2018,
+          2023
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c91e982a1",
+            "polarity": "positive",
+            "claim": "Owner says suction cup feet help keep it stable.",
+            "quote": "has suction cup feet that help with stability",
+            "url": "https://www.sewingmachinesplus.com/juki-MO-654DE.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c993aa0ff",
+            "polarity": "positive",
+            "claim": "Owner calls the 654 a workhorse and high quality for its price.",
+            "quote": "The 654 is a work horse and such a high quality machine for the price.",
+            "url": "https://www.reddit.com/r/sewing/comments/12z8xhl/recommend_serger_machines_for_costume_making/jhr8ogx/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2017,
+          2022
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c52305daf",
+            "polarity": "positive",
+            "claim": "Owner says it handled five heavy layers of fleece without trouble.",
+            "quote": "This serger plows through 5 heavy layers of fleece without a hiccup",
+            "url": "https://www.sewingmachinesplus.com/juki-MO-654DE.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cd17146b9",
+            "polarity": "positive",
+            "claim": "Owner says it goes through multiple layers of heavy canvas and denim confidently.",
+            "quote": "It confidently goes through multiple layers of heavier canvas and denim.",
+            "url": "https://www.reddit.com/r/sewing/comments/v3jawc/buying_my_first_serger_is_juki_mo654de_a_good/iayn0df/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2019,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2019,
+          2019
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "ca7f04279",
+            "polarity": "negative",
+            "claim": "Buyer finds the included Juki warranty short compared with other brands and notes extended coverage is optional.",
+            "quote": "the warranty on the Juki machine that comes with it is only a few years",
+            "url": "https://www.sewingmachinesplus.com/juki-MO-654DE.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "cutting_trimming",
+        "label": "Cutting and trimming",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2019,
+          2019
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c6a3b8667",
+            "polarity": "positive",
+            "claim": "Buyer says the knife cut through thick fabric easily.",
+            "quote": "it can cut through thick fabric with ease",
+            "url": "https://www.sewingmachinesplus.com/juki-MO-654DE.php",
+            "source_class": "retailer"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B00VGU9F7C",
+        "pageRating": 4.5,
+        "pageCount": 51,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "lowRated": 0,
+        "sampled": "0 top reviews (0 US, 0 other countries) of 51 ratings"
+      },
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/juki-MO-654DE.php",
+        "pageRating": 4.75,
+        "pageCount": 104,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 3,
+          "2": 0,
+          "3": 3,
+          "4": 8,
+          "5": 90
+        },
+        "lowRated": 6,
+        "sampled": null
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "juki": "1,500 stitches per minute (page and manual).",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-654de.html"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "juki-page"
+      },
+      {
+        "label": "Differential feed",
+        "juki": "0.7 to 2.0 ratio, dial on the right.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-654de.html"
+          }
+        ],
+        "field": "differentialFeed",
+        "source": "juki-page"
+      },
+      {
+        "label": "Weight",
+        "juki": "15.5 lb on Juki's page; the manual says 7.0 kg (15.4 lb).",
+        "others": "Dealer copy said just over 15 pounds.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-654de.html"
+          }
+        ],
+        "field": "weightLb",
+        "source": "juki-page"
+      },
+      {
+        "label": "Size",
+        "juki": "Juki's page: 12.5 x 13.5 x 7.7 in. Manual: 270 x 345 x 295 mm.",
+        "others": "Not checked at dealers.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-654de.html"
+          }
+        ],
+        "field": "dimensionsIn",
+        "source": "juki-page"
+      },
+      {
+        "label": "Price",
+        "juki": "Suggested retail $1,399; contact a dealer for pricing.",
+        "others": "Amazon showed $599 for a Pearl Line bundle; Michaels $399.99 to $499.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-654de.html"
+          }
+        ],
+        "field": "msrp",
+        "source": "juki-page"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "W654 Mirai",
+        "label": "Juki W654 Mirai",
+        "rows": []
+      },
+      {
+        "model": "MO-654DEN",
+        "label": "Juki MO-654DEN",
+        "rows": []
+      }
+    ],
+    "rivals": []
+  },
   "juki-tl-2010q": {
     "slug": "juki-tl-2010q",
     "status": "approved",

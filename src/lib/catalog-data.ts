@@ -7245,12 +7245,12 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "needleSystem": {
-        "value": null,
-        "source": null
+        "value": "Household HAx1 #11 to 14 (page); 130/705H (manual)",
+        "source": "https://www.jukihome.com/products/serging/mo-654de.html"
       },
       "presserFootLift": {
-        "value": null,
-        "source": null
+        "value": "5 mm (0.2 in)",
+        "source": "https://www.jukihome.com/products/serging/mo-654de.html"
       },
       "threadTrimmer": {
         "value": null,
@@ -7273,15 +7273,15 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "weightLb": {
-        "value": 15,
-        "source": "https://www.premierstitching.com/juki-mo-654de-pearl-series-serger/"
+        "value": 15.5,
+        "source": "https://www.jukihome.com/products/serging/mo-654de.html"
       },
       "dimensionsIn": {
-        "value": null,
-        "source": null
+        "value": "12.5 W x 13.5 H x 7.7 D in (Juki page); manual lists 270 W x 345 D x 295 H mm",
+        "source": "https://www.jukihome.com/products/serging/mo-654de.html"
       },
       "includedFeet": {
-        "value": "Multipurpose presser foot (standard); spare lower knife; 4 spool caps",
+        "value": "Standard presser foot, foot controller, lower knife, 2/3 thread converter, nets, spool caps, needle threader, tools, oiler, dust cover",
         "source": "https://www.jukihome.com/products/serging/mo-654de.html"
       },
       "warrantyUs": {
@@ -7291,12 +7291,14 @@ export const catalogData: Record<string, CatalogEntry> = {
     },
     "claims": [
       "\"Performs all the popular overlock and flatlock variations\" (manufacturer claim, product page)",
+      "Threading described as a \"breeze\" and \"super easy\" (manufacturer marketing wording, product page)",
       "\"Industrial-strength\" wording appears in blog comparisons, not on the Juki page"
     ],
     "conflicts": [
-      "Price: Michaels shows $399.99 on one listing and $499.00 on another. Sewing Machines Plus lists the machine but no price appeared in snippets. Catalog will use $399.99 flagged as a dealer-variable price.",
-      "Weight: dealer copy says 'just over 15 pounds'; Juki page value not captured. Catalog will use 15.0 lb flagged [verify].",
-      "One search snippet listed a '5-thread safety stitch' for this model; a 2-needle, 4-thread machine cannot form it. Treated as a snippet error."
+      "Weight: Juki's page says 15.5 lb, the manual says 7.0 kg (15.4 lb), and dealer copy said just over 15 pounds; we use Juki's page figure.",
+      "Dimensions: Juki's page gives 12.5 W x 13.5 H x 7.7 D in, while the manual gives 270 W x 345 D x 295 H mm (10.6 x 13.6 x 11.6 in); the depth and height figures do not agree, so treat size as soft.",
+      "Price: Juki's page lists a suggested retail price of $1,399, while Michaels showed $399.99 to $499 and Amazon showed $599 for a Pearl Line bundle; price is a band, not a figure.",
+      "Needle system: Juki's page names HAx1 and the manual names 130/705H; both are household flat-shank needles, so the difference is naming only."
     ],
     "ownerThemes": [
       {
@@ -7344,41 +7346,78 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The MO-654DE is the step-up serger: 2/3/4 thread, 1,500 spm and a Juki 5-year mechanical warranty for a few hundred dollars.",
+      "verdict": "A 2/3/4 thread serger at 1,500 spm that owners rate well, with manual threading and no free arm.",
       "whoFor": "A sewist who wants 2-thread stitches and a heavier machine than the Brother 1034D without paying for air threading.",
       "skipIf": "You need a free arm, or you want the loopers threaded for you.",
       "keySpec": "2/3/4 thread · differential feed 0.7 to 2.0 · 1,500 spm",
       "strengths": [
-        "2-thread overcast and rolled hem in addition to 3 and 4-thread stitches.",
-        "1,500 spm, faster than the 1,300 spm Brother and Singer entries.",
-        "Differential feed and stitch length dials sit outside the machine on the right side."
+        "Stitch range covers 2-thread overcast and rolled hem as well as 3 and 4-thread overlock, with a built-in 2-thread converter, per Juki's page.",
+        "Owners report that the color-coded threading guides and the front cover that opens for looper access make threading manageable once learned.",
+        "Owners report few tension problems in normal use, with several saying they never had to adjust it."
       ],
       "weaknesses": [
-        "No free arm.",
-        "Juki's page does not publish weight, dimensions, stitch width or needle system in the results captured.",
-        "Price varies by dealer; two listings at the same retailer differed by about $100."
+        "No free arm, and threading is manual lay-in; owners report it as a chore, typical of sergers without air threading.",
+        "Some Reddit owners report tension trouble or a snapping lower looper that needed more than a cleaning; these threads skew toward people asking for help.",
+        "Size is soft: Juki's page and manual disagree on dimensions, and the retail price spread is wide."
       ],
       "checks": [
         {
-          "title": "Base machine or bonus bundle",
-          "body": "Many listings add feet kits, cones and needles. The Juki box lists a multipurpose foot, a spare lower knife and four spool caps. Price the base unit first."
+          "title": "Base machine or bundle",
+          "body": "Listings vary widely, from Michaels at $399.99 to $499 and an Amazon Pearl Line bundle at $599, against Juki's $1,399 suggested retail. Price the base unit first."
         },
         {
-          "title": "Manual lay-in threading",
-          "body": "Color-coded guides and a front door that opens. No air threading. If that is a dealbreaker, the MO-1000 is the same brand with jet air."
+          "title": "Needle size",
+          "body": "Owners report a no-serge fault traced to wrong-sized needles. Juki lists household HAx1 #11 to 14, so confirm the needle against the manual."
         },
         {
-          "title": "Warranty seller",
-          "body": "Dealer copy quotes 5 years mechanical, 2 years electrical, 90 days labor. Confirm the seller is an authorized Juki dealer so the warranty applies."
+          "title": "Authorized seller",
+          "body": "Dealer copy quotes 5 years mechanical, 2 years electrical and 90 days labor. Confirm the seller is an authorized Juki dealer so the warranty applies."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Is the Juki MO-654DE good for beginners?",
+          "a": "Owners are split on threading: color-coded guides help, but several call it a chore. It suits a beginner willing to learn manual threading from the manual or videos."
+        },
+        {
+          "q": "Can the MO-654DE do a rolled hem?",
+          "a": "Yes. Juki lists a built-in rolled hem, in 3-thread and 2-thread forms, with a 2 mm rolled hem needle position in the manual."
+        },
+        {
+          "q": "Does the MO-654DE have a free arm?",
+          "a": "No. The machine has no free arm."
+        },
+        {
+          "q": "What needles does the MO-654DE take?",
+          "a": "Juki's page lists household HAx1 #11 to 14 and the manual lists 130/705H. These are the same household flat-shank family."
+        },
+        {
+          "q": "Does the MO-654DE include a 2-thread converter?",
+          "a": "Yes. Juki's page lists the 2/3 thread converter as a standard accessory, and the machine also has a built-in 2-thread converter per our spec sources."
+        },
+        {
+          "q": "What is the difference between the MO-654DE and MO-644D?",
+          "a": "Owners on PatternReview say the 654DE moves the differential and length dials outside the door and handles thicker layers. We have not verified this against a 644D spec sheet."
+        },
+        {
+          "q": "Is the MO-654DE worth the extra money over the Brother 1034D?",
+          "a": "Owners who have used both say the Juki is sturdier and easier to service yourself, at a higher price. It also adds 2-thread stitches."
+        },
+        {
+          "q": "How loud is the MO-654DE?",
+          "a": "Owner reports conflict: one retailer's reviewers split between calling it quiet and very noisy. Juki publishes no noise figure we could source."
+        },
+        {
+          "q": "How fast is the MO-654DE?",
+          "a": "Juki lists a maximum of 1,500 stitches per minute in both the product page and the manual."
         }
       ],
       "realCost": [
         "4 cones of serger thread",
-        "Household needles once the system is confirmed from the manual",
+        "Household needles (HAx1 or 130/705H)",
         "Serger oil",
         "Spare lower knife (one comes in the box)"
-      ],
-      "faqs": []
+      ]
     },
     "sources": [
       "https://www.jukihome.com/products/serging/mo-654de.html",
@@ -7388,7 +7427,8 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://blog.closetcorepatterns.com/serger-review-the-juki-mo654de/",
       "https://sewing.patternreview.com/SewingDiscussions/topic/118297",
       "https://sewing.patternreview.com/SewingDiscussions/topic/95466",
-      "https://sergerpro.com/juki-mo654de-review/"
+      "https://sergerpro.com/juki-mo654de-review/",
+      "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_unlocked_1.pdf"
     ]
   },
   "juki-tl-18qvp": {

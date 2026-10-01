@@ -1,0 +1,2 @@
+
+2026-10-01 Tier 1 (supervised): amazon 4.5/51 (B00VGU9F7C, Pearl Line bundle, 0 top reviews returned), SMP 4.75/104 fetched, 33 Reddit threads (18 with model in title; some off-topic comments, scope handled). Claims 64 accepted, 2 rejected; tags 50. Pooled-listing warn on SMP reviewed: reviews on the product's own page rarely name the model, no other model dominates (MO-644D once), not pooled. Siblings added after claims showed DEN and W654 Mirai confusion. Gaps: Walmart, Michaels, Brother-style warranty card not fetched; maker warranty terms not on page or manual.
