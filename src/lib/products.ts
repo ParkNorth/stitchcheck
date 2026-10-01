@@ -770,7 +770,7 @@ const siteFields: Record<string, SiteFields> = {
   "janome-hd1000": {
     score: 7.0,
     scoredFor: "beginner",
-    reason: "The entry HD: a solid first machine, not a heavy-fabric tool.",
+    reason: "The entry HD: a first machine with an aluminum frame, not a heavy-fabric tool.",
     context: "Mechanical · in First serious machine hub",
     alternatives: [
       { slug: "janome-hd3000", label: "Step up", note: "18 stitches and a one-step buttonhole." },
@@ -778,7 +778,9 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "janome-hd5000", label: "Top HD", note: "7 mm zigzag and seven feet." },
     ],
     imageAlt: "Janome HD1000 mechanical sewing machine",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-01",
+    verdict: "The HD1000 is a household-only, aluminum-framed 14-stitch mechanical that owners treat as a first machine, not a heavy-fabric tool.",
+    specsVerified: "2026-10-01",
   },
   "janome-hd5000": {
     score: 8.0,
