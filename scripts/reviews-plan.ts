@@ -6,6 +6,7 @@
  *   npm run reviews:plan -- init                       # (re)write data/reviews/_plan.json tiers, families, waves
  *   npm run reviews:plan -- status [--tier N]          # one row per model: stages, complete, signoff, published
  *   npm run reviews:plan -- next --tier N [--count K]  # the next K models with an unfinished stage, and the stage
+ *   npm run reviews:plan -- tickets [--json]          # per Linear ticket: its models and their real state
  *   npm run reviews:plan -- signoff --slug X --by NAME # human sign-off after reading the review sheet
  *
  * Stages (derived from files, never typed by hand):
@@ -16,7 +17,7 @@
  *   tags         tags.jsonl
  *   rollup       rollup.json exists
  *   checks       checks.json with no errors (run reviews:checks)
- *   page         rollup approved by the editor pass AND data/specs editorial reviewed (rollup.reviewedOn set)
+ *   drafted      draft-page/{spec,site}.json exist and reviews:draft check passes (or the rollup is already approved, i.e. applied)
  * complete = every stage true. publishable = complete AND a human sign-off recorded here.
  * published = the rollup is in src/lib/rollup-data.ts on the default branch.
  *
@@ -30,7 +31,7 @@ import { execSync } from "node:child_process";
 
 const a = process.argv.slice(2);
 const cmd = a[0];
-const val = (n: string) => a[a.indexOf(n) + 1];
+const val = (n: string) => (a.includes(n) ? a[a.indexOf(n) + 1] : undefined);
 const ROOT = path.resolve(__dirname, "..");
 const PLAN = path.join(ROOT, "data", "reviews", "_plan.json");
 const specs: Record<string, any> = Object.fromEntries(
@@ -100,7 +101,10 @@ function stages(slug: string) {
     tags: lines(path.join(d, "tags.jsonl")) > 0,
     rollup: Boolean(roll),
     checks: Boolean(checks && !checks.items?.some((i: any) => i.level === "error")),
-    page: Boolean(roll?.status === "approved" && roll?.reviewedOn),
+    drafted: Boolean(
+      (roll?.status === "approved" && roll?.reviewedOn) ||
+        (fs.existsSync(path.join(d, "draft-page", "spec.json")) && fs.existsSync(path.join(d, "draft-page", "site.json")) && (() => { const c = readJson(path.join(d, "draft-page", "check.json"), null); return Boolean(c && !c.counts?.error); })()),
+    ),
   };
 }
 
@@ -135,16 +139,36 @@ if (cmd === "status") {
   const t = val("--tier");
   const r = rows().filter((x) => t === undefined || String(x.tier) === t);
   const mark = (b: boolean) => (b ? "x" : ".");
-  console.log("slug".padEnd(28), "tier fam".padEnd(22), "maker mkts coll clms tags roll chk page  complete signoff published");
-  for (const x of r) console.log(x.slug.padEnd(28), `${String(x.tier).padEnd(5)}${(x.family ?? "-").padEnd(16)}`, [x.maker, x.marketplaces, x.collected, x.claims, x.tags, x.rollup, x.checks, x.page].map((b) => mark(b).padEnd(5)).join(""), mark(x.complete).padEnd(9), mark(Boolean(x.signoff)).padEnd(8), mark(x.published));
+  console.log("slug".padEnd(28), "tier fam".padEnd(22), "maker mkts coll clms tags roll chk drft  complete signoff published");
+  for (const x of r) console.log(x.slug.padEnd(28), `${String(x.tier).padEnd(5)}${(x.family ?? "-").padEnd(16)}`, [x.maker, x.marketplaces, x.collected, x.claims, x.tags, x.rollup, x.checks, x.drafted].map((b) => mark(b).padEnd(5)).join(""), mark(x.complete).padEnd(9), mark(Boolean(x.signoff)).padEnd(8), mark(x.published));
   console.log(`\n${r.filter((x) => x.complete).length}/${r.length} complete, ${r.filter((x) => x.publishable).length} publishable, ${r.filter((x) => x.published).length} published`);
+}
+
+if (cmd === "tickets") {
+  const by: Record<string, any[]> = {};
+  for (const r of rows()) {
+    const t = plan.models[r.slug].linear ?? "none";
+    (by[t] ??= []).push(r);
+  }
+  const STAGES = ["maker", "marketplaces", "collected", "claims", "tags", "rollup", "checks", "drafted"];
+  const out = Object.entries(by).map(([ticket, ms]) => ({
+    ticket,
+    models: ms.map((m) => ({ slug: m.slug, tier: m.tier, done: STAGES.filter((k) => (m as any)[k]), missing: STAGES.filter((k) => !(m as any)[k]), complete: m.complete, signoff: m.signoff, published: m.published })),
+    allPublished: ms.every((m) => m.published),
+    allComplete: ms.every((m) => m.complete),
+  }));
+  if (a.includes("--json")) console.log(JSON.stringify(out, null, 2));
+  else for (const t of out) {
+    console.log(`${t.ticket}  ${t.allPublished ? "ALL PUBLISHED" : t.allComplete ? "all complete, awaiting sign-off/publish" : "in progress"}`);
+    for (const m of t.models) console.log(`    ${m.slug.padEnd(26)} tier ${m.tier}  ${m.published ? "published" : m.complete ? "complete" : `${m.done.length}/8, next: ${m.missing[0]}`}`);
+  }
 }
 
 if (cmd === "next") {
   const tier = val("--tier");
   const count = Number(val("--count") ?? 1);
   const order = (tier === "0" ? plan.tiers["0"] : tier === "1" ? plan.tiers["1"] : tier === "2" ? plan.tiers["2"] : Object.keys(plan.models).filter((s) => plan.models[s].tier === 3)) as string[];
-  const stageOrder = tier === "0" ? ["maker", "marketplaces"] : ["maker", "marketplaces", "collected", "claims", "tags", "rollup", "checks", "page"];
+  const stageOrder = tier === "0" ? ["maker", "marketplaces"] : ["maker", "marketplaces", "collected", "claims", "tags", "rollup", "checks", "drafted"];
   const todo: any[] = [];
   for (const slug of order) {
     const st: any = stages(slug);

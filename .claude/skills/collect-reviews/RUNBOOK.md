@@ -39,13 +39,19 @@ Each model has a ticket in `_plan.json` (`models.{slug}.linear`, project "Stitch
 
 ## Tier 1 and 2: full machine pipeline (stops before editor work)
 
-After Tier 0 for the model: `collect:reddit` (use `--dry` first and read the thread list), `reviews:page` for the discovery results (SearchAPI queries from `queries.json`, comparison pages for each sibling), `reviews:export`, `reviews:claims -- prep`, extraction agents (4 chunks each, sonnet, `claims-prompt.md`), `reviews:claims -- merge`, `reviews:rollup -- tag-prep`, tagging agents (`tag-prompt.md`), `tag-merge`, fill `editor.json` (siblingSummaries from the difference claims, siblingExtras from `manufacturer.json`, `scopeRules` for any pooled listing, `ownerNote`), `reviews:rollup -- build` (leaves status `draft`), `reviews:checks`, `reviews:sheet -- --slug X`. Tier 2 models run the claims pipeline only if `claims-work/in-*.jsonl` holds at least 150 segments; otherwise stop after Tier 0 and say so in `run-log.md`.
+After Tier 0 for the model: `collect:reddit` (use `--dry` first and read the thread list), `reviews:page` for the discovery results (SearchAPI queries from `queries.json`, comparison pages for each sibling), `reviews:export`, `reviews:claims -- prep`, extraction agents (4 chunks each, sonnet, `claims-prompt.md`), `reviews:claims -- merge`, `reviews:rollup -- tag-prep`, tagging agents (`tag-prompt.md`), `tag-merge`, fill `editor.json` (siblingSummaries from the difference claims, siblingExtras from `manufacturer.json`, `scopeRules` for any pooled listing, `ownerNote`), `reviews:rollup -- build` (leaves status `draft`), `reviews:checks`, `reviews:sheet -- --slug X`. Then the drafting step: `reviews:draft -- prep --slug X`, one sonnet agent following `draft-prompt.md` (writes only `draft-page/spec.json`, `site.json`, `compares.json`), `reviews:draft -- check --slug X` (fix errors; leave warnings noted in `run-log.md`). Drafts are never applied by unattended runs. Tier 2 models run the claims pipeline only if `claims-work/in-*.jsonl` holds at least 150 segments; otherwise stop after Tier 0 and say so in `run-log.md`.
 
 Do not approve the rollup. Leave `status: "draft"`.
 
 ## What "complete" means
 
-All eight stages true in `reviews:plan -- status` (maker, marketplaces, collected, claims, tags, rollup, checks, page), where `page` means an editor approved the rollup and edited the spec, copy and compare pages. Unattended runs end at `checks`. Then a human reads `reports/review-sheet.md`, `reviews:plan -- signoff` records it, and an interactive session opens the publish PR.
+All eight stages true in `reviews:plan -- status` (maker, marketplaces, collected, claims, tags, rollup, checks, drafted), where `drafted` means `draft-page/` holds a spec, site fields and compare edits that pass `reviews:draft -- check`. Unattended runs end at `drafted`. Then a human reads `reports/review-sheet.md` and the draft diff (`git diff` after a `--dry` read of `draft-page/`), `reviews:plan -- signoff` records it, and an interactive session runs `reviews:draft -- apply`, which also approves the rollup, then opens the publish PR. `apply` refuses without a sign-off.
+
+## Publish-time Linear cleanup (interactive only)
+For each ticket touched: post a final summary comment (what shipped, counts, known gaps). Move status only when every model sharing the ticket is live (WEB-127, 128, 129 and similar shared tickets stay open until the last model ships). Rewrite stale ticket descriptions. Status changes need the user's yes.
+
+## Weekly Linear sync
+The `reviews-linear-sync` task runs `reviews:plan -- tickets --json`, comments each ticket's real state (models, stage counts, next stage, any blocker), and lists proposed status changes in its final message. It never changes a status and never touches tickets without a comment-worthy change since its last comment.
 
 ## Refresh (monthly, published models only)
 

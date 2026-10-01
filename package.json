@@ -29,7 +29,8 @@
     "reviews:plan": "tsx scripts/reviews-plan.ts",
     "reviews:checks": "tsx scripts/reviews-checks.ts",
     "reviews:amazon": "tsx scripts/reviews-amazon.ts",
-    "reviews:sheet": "tsx scripts/reviews-sheet.ts"
+    "reviews:sheet": "tsx scripts/reviews-sheet.ts",
+    "reviews:draft": "tsx scripts/reviews-draft.ts"
   },
   "dependencies": {
     "@opennextjs/cloudflare": "^1.20.2",
