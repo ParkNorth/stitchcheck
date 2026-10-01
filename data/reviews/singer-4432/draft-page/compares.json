@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "singer-4423-vs-4432-vs-4452",
+    "description": "The Singer Heavy Duty family compared as people search it: Singer's own pages list 23, 32 and 32 stitches and three bundles.",
+    "summary": "Singer's pages list 23 stitches for the 4423 and the same 32 for the 4432 and 4452, with the 4452 adding a walking foot, non-stick foot, clearance plate and heavy duty needles. Buy the 4452 if you would use the extra feet, the 4423 if you will not. The 4432 is hard to justify between them.",
+    "buyIf": {
+      "singer-4423": "You want the lowest price and will not use the extra feet or the extra stitches.",
+      "singer-4432": "It is on sale below the 4452 and you want 32 stitches without the extra feet. Otherwise skip it.",
+      "singer-4452": "You would buy the extra presser feet anyway. Singer lists the same 32 stitches as the 4432; the bundle is the difference."
+    },
+    "lastUpdated": "2026-10-01"
+  }
+]

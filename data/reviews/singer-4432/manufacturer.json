@@ -1,0 +1,218 @@
+{
+  "slug": "singer-4432",
+  "collected": "2026-10-01",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/singer-4432.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "singer-page",
+      "url": "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine",
+      "type": "product page",
+      "fetched": "2026-10-01",
+      "note": "Highlights, specifications, accessories, MSRP; page text says the 4532 'adds speed control'"
+    },
+    {
+      "id": "singer-manual",
+      "url": "https://svpworldwide.widen.net/content/v55jhrxiok/pdf/IM_4432Q60DSTEN140718.pdf",
+      "type": "instruction manual (PDF, 35 pages)",
+      "fetched": "2026-10-01",
+      "note": "No specification page; needle table is a graphic"
+    },
+    {
+      "id": "singer-warranty",
+      "url": "https://help.singer.com/en-US/singers-warranty-coverage-395288",
+      "type": "warranty coverage page",
+      "fetched": "2026-10-01",
+      "note": "Lists 4432 Heavy Duty under Limited 25/2/90 Day; component split is in a PDF not fetched"
+    },
+    {
+      "id": "singer-4423",
+      "url": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine",
+      "type": "product page (sibling)",
+      "fetched": "2026-10-01",
+      "note": "comparison"
+    },
+    {
+      "id": "singer-4411",
+      "url": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine",
+      "type": "product page (sibling)",
+      "fetched": "2026-10-01",
+      "note": "comparison"
+    },
+    {
+      "id": "singer-4452",
+      "url": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine",
+      "type": "product page (sibling)",
+      "fetched": "2026-10-01",
+      "note": "comparison"
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1,100 stitches per minute",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": 1100,
+      "site": {
+        "label": "Speed",
+        "juki": "1,100 stitches per minute.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Singer source",
+            "url": "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchCount",
+      "value": "32 built-in stitches; 110 stitch applications",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": 32,
+      "note": "Singer separates stitches (32) from applications (110): a marketing count, not a stitch count."
+    },
+    {
+      "field": "weightLb",
+      "value": "14.6 lb",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null.",
+      "site": {
+        "label": "Weight",
+        "juki": "14.6 lb.",
+        "others": "Not checked at dealers.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Singer source",
+            "url": "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "15.5 x 6.25 x 12 in",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "throatIn",
+      "value": "6.25 in 'needle to tower'; 4.25 in height",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null. Singer's wording is needle to tower, not needle to body (rule 11)."
+    },
+    {
+      "field": "stitchWidthMm",
+      "value": "6 mm maximum",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "motor",
+      "value": "84 W, 0.7 A, 120 V, 60 Hz; '60% stronger than a standard sewing machine motor'",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": "Singer describes the motor as stronger than a standard machine motor; wattage not published",
+      "note": "Wattage is now published. '60% stronger' (spec list) and '50% more power' (highlight) are Singer claims, and they differ."
+    },
+    {
+      "field": "presserFootLift",
+      "value": "Extra high presser foot lifter; manual: two-step lifter; no height published",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "buttonhole",
+      "value": "One-step buttonhole",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": "1-step automatic buttonhole"
+    },
+    {
+      "field": "includedFeet",
+      "value": "General purpose, zipper, buttonhole, button sewing feet and edge/quilting guide; no walking foot (an even feed foot is optional per the manual)",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": "General purpose foot, zipper foot, buttonhole foot, button sewing foot, edge and quilting guide, pack of needles, Class 15 transparent bobbins, spool caps, auxiliary spool pin",
+      "note": "The 4452's extra feet are a bundle difference."
+    },
+    {
+      "field": "bobbin",
+      "value": "Class 15 transparent, top drop-in",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "Manual side cutter (parts list item 5); no automatic cutter",
+      "source": "singer-manual",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "speedControl",
+      "value": "Not stated; the 4432 page says the 4532 'adds speed control'",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Implies no speed control slider on the 4432."
+    },
+    {
+      "field": "frame",
+      "value": "'Heavy Duty Metal Frame': the interior frame is metal; stainless steel bed plate",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": "Heavy-duty metal interior frame, stainless steel bedplate",
+      "note": "'Heavy Duty Metal Frame' is Singer's wording; claim only (rule 7)."
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Listed under Limited 25/2/90 Day Warranty; product page shows '90 day / 2yr / 24yr'",
+      "source": "singer-warranty",
+      "vs_spec": "confirms",
+      "spec_value": "25 yr limited on machine head, 2 yr on motor, light, wiring, switches, speed control and electronics, 90 days on adjustments, belts, rings, bulbs and attachments",
+      "note": "The product page says 24 years and the warranty page 25.",
+      "site": {
+        "label": "Warranty",
+        "juki": "Limited 25/2/90 Day warranty; the product page lists 90 day, 2 yr and 24 yr.",
+        "others": "Our spec lists 25 years head, 2 years electronics, 90 days adjustments.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer source",
+            "url": "https://help.singer.com/en-US/singers-warranty-coverage-395288"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "MSRP $299.99; Singer price $239.99 on 2026-10-01",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Singer's strike-through MSRP is a comparison price, not a selling price."
+    },
+    {
+      "field": "claims",
+      "value": "'50% more power for thick fabrics'; 'Heavy Duty Metal Frame'; 'high-performance motor ... 60% stronger'; 'designed with your heavy duty projects in mind, from denim to canvas'",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketing wording; claims only."
+    }
+  ]
+}

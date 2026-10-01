@@ -1,7 +1,7 @@
 {
   "slug": "singer-4452",
   "status": "approved",
-  "reviewedBy": "Claude editor pass, sibling rows refreshed after human sign-off by Jeremy",
+  "reviewedBy": "Claude editor pass, sibling row corrected after human sign-off by Jeremy",
   "reviewedOn": "2026-10-01",
   "generated": "2026-10-01",
   "method": {
@@ -1264,8 +1264,8 @@
           "classes": [
             "reddit"
           ],
-          "summary": "Commenters describe the 4432 as the same machine without the 4452's extra decorative stitches.",
-          "check": "Reddit comments; no 4432 maker document in hand",
+          "summary": "Commenters describe the 4432 as the same machine without the 4452's extra decorative stitches. Singer's own pages list the same 32 built-in stitches and 110 stitch applications for both; the 4452 differs by its accessory bundle.",
+          "check": "Reddit comments contradicted by Singer product pages, 2026-10-01",
           "examples": [
             {
               "claim_id": "cade88203",
