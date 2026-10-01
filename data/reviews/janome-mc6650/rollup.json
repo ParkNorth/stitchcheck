@@ -1,0 +1,1101 @@
+{
+  "slug": "janome-mc6650",
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+  "reviewedOn": "2026-10-01",
+  "generated": "2026-10-01",
+  "method": {
+    "sources": 30,
+    "itemsCollected": 781,
+    "statements": 85,
+    "voices": 49,
+    "ownerVoices": 34,
+    "dateRange": [
+      2019,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 2,
+        "items": 43
+      },
+      "reddit": {
+        "sources": 28,
+        "items": 738
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 18,
+      "voices": 17,
+      "ownerVoices": 13,
+      "sources": 9,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 5,
+        "reddit": 12
+      },
+      "polarity": {
+        "positive": 16,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c1651277b",
+          "polarity": "positive",
+          "claim": "Owner praises the very wide throat.",
+          "quote": "super wide throat",
+          "url": "https://www.reddit.com/r/quilting/comments/1g7ln94/janome_elna_or_bernina/lstuqg8/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c4d267c9f",
+          "polarity": "positive",
+          "claim": "Three-year owner who made quilts up to king size praises the throat space.",
+          "quote": "Great throat space",
+          "url": "https://www.reddit.com/r/quilting/comments/1indzen/want_to_upgrade_my_machine/mcaaumc/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c7d6e7e9b",
+        "cc3bf3456",
+        "c516c135b",
+        "cecd7e759",
+        "ced64c43f",
+        "c7626fea5",
+        "c5d47bfb0",
+        "c6fe877ff",
+        "ce15f3477",
+        "c988a1864",
+        "c64c63788",
+        "c90d0eff6",
+        "c88ad8b2e",
+        "c1651277b",
+        "c4e563f73",
+        "c246ef981",
+        "c4d267c9f",
+        "ccfffe0b8"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 11,
+      "voices": 11,
+      "ownerVoices": 10,
+      "sources": 7,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 8
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 7,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cb1ec98e2",
+          "polarity": "negative",
+          "claim": "Owner says a thread spool spindle broke off, which they blame on poor shipping packaging.",
+          "quote": "thread spool spindles to break off",
+          "url": "https://www.amazon.com/dp/B07RRJDQ75",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c8f8d558d",
+          "polarity": "negative",
+          "claim": "Only fault in three years was a broken foot pedal replaced for about 30 dollars.",
+          "quote": "the pedal broke and I had to replace it",
+          "url": "https://www.reddit.com/r/quilting/comments/1indzen/want_to_upgrade_my_machine/mcaaumc/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cff3fdda3",
+          "polarity": "positive",
+          "claim": "Owner says the machine runs smoothly.",
+          "quote": "Machine runs smoothly.",
+          "url": "https://www.reddit.com/r/quilting/comments/qtse61/does_anyone_have_the_janome_6650_memory_craft/hklr9j6/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c310a9413",
+          "polarity": "positive",
+          "claim": "Owner made a wall hanging and quilt coat with no issues.",
+          "quote": "a quilt coat with it and had zero issues",
+          "url": "https://www.reddit.com/r/quilting/comments/1indzen/want_to_upgrade_my_machine/mcbqukj/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c5356ef7d",
+        "ca11b5419",
+        "cb1ec98e2",
+        "cff3fdda3",
+        "c6f3cf2c5",
+        "c359b5045",
+        "c30d65020",
+        "c1ef3a99b",
+        "cf2d689b5",
+        "c8f8d558d",
+        "c310a9413"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 7,
+      "voices": 6,
+      "ownerVoices": 6,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 5,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 4,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c99d4d308",
+          "polarity": "negative",
+          "claim": "Owner says the needle threader did not always work.",
+          "quote": "Threader didn’t always work.",
+          "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c5b9f3495",
+          "polarity": "negative",
+          "claim": "Owner of several months reports the needle threader moved with the needle during sewing and then stuck in the down position.",
+          "quote": "it gets stuck in the down position",
+          "url": "https://www.reddit.com/r/sewhelp/comments/16f25i3/janome_memory_craft_6650_needle_threader_stuck/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c7efddaac",
+          "polarity": "positive",
+          "claim": "Owner finds the machine easy to thread and use.",
+          "quote": "is easy to thread and use",
+          "url": "https://www.amazon.com/dp/B07RRJDQ75",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cd6ea8010",
+          "polarity": "mixed",
+          "claim": "Owner finds the auto needle threader splits synthetic thread but works fine with cotton.",
+          "quote": "auto needle threader doesn't work as well with all synthetic thread",
+          "url": "https://www.amazon.com/dp/B07RRJDQ75",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "ca5d4bf1a",
+        "c99d4d308",
+        "cbb338adc",
+        "cd6ea8010",
+        "ca5f7ab74",
+        "c7efddaac",
+        "c5b9f3495"
+      ]
+    },
+    {
+      "theme": "thread_trimmer",
+      "label": "Thread trimmer",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 6,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 4,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 1,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cab9483cf",
+          "polarity": "negative",
+          "claim": "Owner says the automatic cutter does not always cut.",
+          "quote": "My cutter don’t always cut.",
+          "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c28dc2c01",
+          "polarity": "positive",
+          "claim": "Owner likes the automatic thread cutting.",
+          "quote": "the automatic thread cutting",
+          "url": "https://www.reddit.com/r/quilting/comments/qtse61/does_anyone_have_the_janome_6650_memory_craft/hkro6a5/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cc30e80a5",
+          "polarity": "positive",
+          "claim": "Owner likes the automatic thread cutter.",
+          "quote": "Auto thread cut is nice as is the auto threader",
+          "url": "https://www.amazon.com/dp/B07RRJDQ75",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c9334b658",
+          "polarity": "mixed",
+          "claim": "The automatic thread cutter only works if the bobbin is threaded a specific way described in the manual.",
+          "quote": "you need to have your bobbin threaded a specific way",
+          "url": "https://www.reddit.com/r/quilting/comments/qtse61/does_anyone_have_the_janome_6650_memory_craft/hkpz3l0/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c705419a2",
+        "cab9483cf",
+        "cc30e80a5",
+        "c61546656",
+        "c9334b658",
+        "c28dc2c01"
+      ]
+    },
+    {
+      "theme": "walking_foot",
+      "label": "Walking foot",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 1,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2020,
+        2023
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c0b1e169a",
+          "polarity": "negative",
+          "claim": "Owner notes no even feed (walking) foot came with the machine and wishes it had.",
+          "quote": "Wish the even feed foot had also been included",
+          "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c0b1e169a",
+        "cda900a7f",
+        "c14bdd419",
+        "cd090e50c"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 5,
+      "voices": 4,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2021,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c32651fed",
+          "polarity": "positive",
+          "claim": "Owner says the presser foot raises to two levels for extra room under thick layers.",
+          "quote": "The presserfoot can be raised to two different levels",
+          "url": "https://www.amazon.com/dp/B07RRJDQ75",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c32651fed",
+        "c1d594605",
+        "c8ba34910",
+        "c9677e6f9",
+        "cb1afe4b5"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c6293c26f",
+          "polarity": "negative",
+          "claim": "Owner reports occasional odd noises while free-motion quilting, with stitch problems on the bobbin side.",
+          "quote": "my machine would occasionally make weird noises",
+          "url": "https://www.reddit.com/r/quilting/comments/1q8r9x7/what_is_going_on_is_this_a_tension_thing/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c48e200a4",
+          "polarity": "negative",
+          "claim": "Owner reports strange sounds at the start of sewing that stop after an inch or two.",
+          "quote": "on start off sewing my machine makes very strange sounds",
+          "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "ce0de9b75",
+          "polarity": "positive",
+          "claim": "Owner describes the machine as quiet and smooth.",
+          "quote": "It's quiet, smooth, and stitches are beautiful.",
+          "url": "https://www.amazon.com/dp/B07RRJDQ75",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c48e200a4",
+        "ce0de9b75",
+        "c6293c26f"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cad46e70b",
+          "polarity": "positive",
+          "claim": "Semi-professional rug maker sewing 18 to 20 hours a week says it never skips stitches.",
+          "quote": "it never misses a stitch.",
+          "url": "https://www.amazon.com/dp/B07RRJDQ75",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cbdf01a77",
+          "polarity": "positive",
+          "claim": "Owner likes the dedicated needle plate for straight stitching.",
+          "quote": "the specific needle plate for straight stitching",
+          "url": "https://www.reddit.com/r/quilting/comments/qtse61/does_anyone_have_the_janome_6650_memory_craft/hkro6a5/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cad46e70b",
+        "cbdf01a77",
+        "c5d6dc618"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2023,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c341f45ff",
+          "polarity": "negative",
+          "claim": "Owner had thread breaking and tension trouble after mixing in non-Janome bobbins, fixed with Janome bobbins.",
+          "quote": "thread breaking and some tension issues",
+          "url": "https://www.reddit.com/r/quilting/comments/1g7ln94/janome_elna_or_bernina/lstuqg8/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c97f8a45b",
+        "c341f45ff",
+        "c5aab944d"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c8b6db060",
+          "polarity": "negative",
+          "claim": "Owner reports the machine struggles when quilt top seams stack three or more deep.",
+          "quote": "It also does not like 3 or more seams when making a quilt top.",
+          "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c9699f63b",
+          "polarity": "positive",
+          "claim": "Owner with limited use found fabric easy to control and feed, not feeding too quickly.",
+          "quote": "I found the fabric easy to control and feed",
+          "url": "https://www.reddit.com/r/quilting/comments/qtse61/does_anyone_have_the_janome_6650_memory_craft/hkpy0sc/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c8b6db060",
+        "c9699f63b"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2022
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cfc1f85ee",
+          "polarity": "positive",
+          "claim": "Owner sewed four layers of heavy denim plus two layers of interfacing without trouble.",
+          "quote": "It walked right thru 4 layers of heavy denim with 2 layers of interfacing",
+          "url": "https://www.amazon.com/dp/B07RRJDQ75",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cfc1f85ee",
+        "c7769e477"
+      ]
+    },
+    {
+      "theme": "free_motion",
+      "label": "Free-motion quilting",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ce2131161",
+          "polarity": "positive",
+          "claim": "Owner finds swapping to the low-tension free motion bobbin case easy because the needle plate needs no screws removed.",
+          "quote": "there are no screws to remove the needle plate",
+          "url": "https://www.reddit.com/r/quilting/comments/1g7ln94/janome_elna_or_bernina/lsu0c6u/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c10efbfd8",
+        "ce2131161"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ce7130410",
+          "polarity": "negative",
+          "claim": "The replacement foot pedal was not covered under warranty.",
+          "quote": "It wasn’t covered under warranty",
+          "url": "https://www.reddit.com/r/quilting/comments/1g7ln94/janome_elna_or_bernina/lstuqg8/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ce7130410",
+        "c4da64119"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cf59a9eab",
+          "polarity": "positive",
+          "claim": "Owner says the three LED lights help when sewing.",
+          "quote": "The 3 LEDs really help.",
+          "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cf59a9eab"
+      ]
+    },
+    {
+      "theme": "value_price",
+      "label": "Value and price",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2020
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "ce3ff6bee",
+          "polarity": "positive",
+          "claim": "Owner calls it the best mid-arm deal, sewing straight stitch well.",
+          "quote": "I think it's the best mid-arm deal out there!",
+          "url": "https://www.reddit.com/r/quilting/comments/fcw465/just_a_heads_up_costco_has_the_janome_memory/fjdm5po/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ce3ff6bee"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c1cbc7d68",
+          "polarity": "positive",
+          "claim": "Owner values the machine weight for quilting stability compared with a small Brother.",
+          "quote": "I also appreciate the weight because quilting on my tiny brother",
+          "url": "https://www.reddit.com/r/quilting/comments/1g7ln94/janome_elna_or_bernina/lsu0c6u/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c1cbc7d68"
+      ]
+    },
+    {
+      "theme": "learning_curve",
+      "label": "Learning curve",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c12202b7b",
+          "polarity": "positive",
+          "claim": "Owner finds threading and tension management easy.",
+          "quote": "easy to thread and manage tension",
+          "url": "https://www.reddit.com/r/quilting/comments/1indzen/want_to_upgrade_my_machine/mcaaumc/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c12202b7b"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "ca8a39e77",
+          "polarity": "positive",
+          "claim": "Owner values the all-metal base.",
+          "quote": "The all metal base",
+          "url": "https://www.reddit.com/r/quilting/comments/1indzen/want_to_upgrade_my_machine/mcbqukj/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ca8a39e77"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c1b174fd3"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+      "pageRating": 4.47,
+      "pageCount": 32,
+      "fetched": "2026-10-01",
+      "distribution": {
+        "1": 0,
+        "2": 2,
+        "3": 4,
+        "4": 3,
+        "5": 23
+      },
+      "lowRated": 6,
+      "sampled": null
+    },
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B07RRJDQ75",
+      "pageRating": 4.6,
+      "pageCount": 312,
+      "fetched": "2026-10-01",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 9
+      },
+      "lowRated": 0,
+      "sampled": "11 top reviews (8 US, 3 other countries) of 312 ratings"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "1,000 stitches per minute.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome source",
+          "url": "https://www.janome.com/product/memory-craft-6650/"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "janome-page"
+    },
+    {
+      "label": "Stitches",
+      "juki": "Page says 170, brochure says 172.",
+      "others": "Dealers quote 170.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome source",
+          "url": "https://www.janome.com/product/memory-craft-6650/"
+        }
+      ],
+      "field": "stitchCount",
+      "source": "janome-page"
+    },
+    {
+      "label": "Weight",
+      "juki": "24.25 lb.",
+      "others": "Not checked at dealers.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Janome source",
+          "url": "https://www.janome.com/product/memory-craft-6650/"
+        }
+      ],
+      "field": "weightLb",
+      "source": "janome-page"
+    },
+    {
+      "label": "Throat space",
+      "juki": "Janome states a 10 in workspace width and 4.7 in height, not a needle-to-arm distance.",
+      "others": "Dealers and owners call it a 10 in throat.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Janome source",
+          "url": "https://www.janome.com/product/memory-craft-6650/"
+        }
+      ],
+      "field": "throatIn",
+      "source": "janome-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "25 years limited per Janome's warranty document; the OCR text gives electronics 5 years and labor 1 year.",
+      "others": "Amazon and dealers repeat 25 years.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome source",
+          "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "janome-warranty"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "MC6700P",
+      "label": "Janome Memory Craft 6700P",
+      "rows": [
+        {
+          "feature": "Stitches",
+          "urls": 0,
+          "classes": [],
+          "summary": "Janome lists the 6700P with 200 stitches plus 5 alphabets against the 6650's 170 plus 2.",
+          "check": "Janome product pages, 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Speed",
+          "urls": 0,
+          "classes": [],
+          "summary": "1,200 spm on the 6700P against 1,000 on the 6650.",
+          "check": "Janome product pages, 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Feed system",
+          "urls": 0,
+          "classes": [],
+          "summary": "The 6700P has AcuFeed built in; on the 6650 it is an optional accessory.",
+          "check": "Janome product pages, 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Price",
+          "urls": 0,
+          "classes": [],
+          "summary": "MSRP $3,999 for the 6700P against $2,999 for the 6650.",
+          "check": "Janome product pages, 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Size and weight",
+          "urls": 0,
+          "classes": [],
+          "summary": "Same size, weight and 10 in flatbed.",
+          "check": "Janome product pages, 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}
