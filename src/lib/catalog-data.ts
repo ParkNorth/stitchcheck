@@ -9335,13 +9335,13 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "manufacturerUrl": "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine",
     "retailerUrl": "https://sewingmachinesplus.com/smp-7464374432.php",
-    "priceUsdSeen": null,
-    "priceSeenDate": null,
-    "priceSeenAt": "Sewing Machines Plus",
-    "priceNote": null,
+    "priceUsdSeen": 200,
+    "priceSeenDate": "2026-10-01",
+    "priceSeenAt": "another dealer",
+    "priceNote": "Amazon, grey listing (the black and Sterling listings showed $239.99; Singer's own price $239.99, MSRP $299.99)",
     "specs": {
       "stitchTypes": {
-        "value": "32 built-in stitches including basic, stretch and decorative, 1 one-step buttonhole",
+        "value": "32 built-in stitches including basic, stretch and decorative, 1 one-step buttonhole; Singer also lists 110 stitch applications, a marketing count",
         "source": "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine"
       },
       "stitchCount": {
@@ -9369,12 +9369,12 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "presserFootLift": {
-        "value": null,
-        "source": null
+        "value": "Extra high presser foot lifter (manual: two-step lifter); no height published",
+        "source": "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine"
       },
       "threadTrimmer": {
-        "value": null,
-        "source": null
+        "value": "Manual side cutter; no automatic cutter",
+        "source": "https://svpworldwide.widen.net/content/v55jhrxiok/pdf/IM_4432Q60DSTEN140718.pdf"
       },
       "feedSystem": {
         "value": "Drop feed",
@@ -9385,7 +9385,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine"
       },
       "motor": {
-        "value": "Singer describes the motor as stronger than a standard machine motor; wattage not published",
+        "value": "84 W, 0.7 A, 120 V, 60 Hz; Singer claims '60% stronger than a standard sewing machine motor'",
         "source": "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine"
       },
       "frame": {
@@ -9393,32 +9393,37 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine"
       },
       "weightLb": {
-        "value": null,
-        "source": null
+        "value": 14.6,
+        "source": "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine"
       },
       "dimensionsIn": {
-        "value": null,
-        "source": null
+        "value": "15.5 x 6.25 x 12",
+        "source": "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine"
       },
       "includedFeet": {
-        "value": "General purpose foot, zipper foot, buttonhole foot, button sewing foot, edge and quilting guide, pack of needles, Class 15 transparent bobbins, spool caps, auxiliary spool pin",
-        "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-4432-mechanical-sewing-machine"
+        "value": "General purpose foot, zipper foot, buttonhole foot, button sewing foot, edge and quilting guide, pack of needles, Class 15 transparent bobbins, spool caps, auxiliary spool pin; no walking foot (an even feed foot is optional per the manual)",
+        "source": "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine"
       },
       "warrantyUs": {
         "value": "25 yr limited on machine head, 2 yr on motor, light, wiring, switches, speed control and electronics, 90 days on adjustments, belts, rings, bulbs and attachments",
-        "source": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+        "source": "https://help.singer.com/en-US/singers-warranty-coverage-395288"
       }
     },
     "claims": [
       "\"Heavy Duty\" (Singer series name, product page; it is a model line, not a duty rating)",
-      "\"powerful motor\" with \"extra high sewing speed\" (manufacturer claim, singer.com product page)",
-      "\"heavy-duty metal frame ensures stability\" (manufacturer claim, singer.com product page)",
-      "\"50% more power\" or \"60% stronger\" motor than a standard machine (retailer copy repeating Singer marketing; baseline not defined)"
+      "\"Heavy Duty Metal Frame\" (Singer wording; Singer describes the interior frame as metal with a stainless steel bed plate)",
+      "\"50% more power for thick fabrics\" (Singer highlight; baseline not defined)",
+      "\"high-performance motor ... 60% stronger\" than a standard sewing machine motor (Singer specification list; a different figure from the 50% claim, baseline not defined)",
+      "\"designed with your heavy duty projects in mind, from denim to canvas\" (Singer product page)"
     ],
     "conflicts": [
-      "Weight: 17.42 lb appears in an Amazon-derived snippet and is likely a shipping weight; no machine weight from Singer found. Left null.",
-      "Dimensions: 15.2 x 12 x 6.2 in appears in the same snippet and does not match the 4423 body (18.1 x 8.8 x 13.9). Left null pending Singer page check.",
-      "Price: no price for the 4432 appeared in any accessible snippet, including Sewing Machines Plus. Left null."
+      "Motor claims: Singer's highlights say '50% more power' while its specification list says 'high-performance motor ... 60% stronger'; both are Singer marketing claims, neither names a baseline, and they do not agree with each other.",
+      "Throat: Singer gives 6.25 in as 'needle to tower', not needle to body, so it is not comparable to our throat figures and throatIn stays [verify].",
+      "Warranty: Singer's coverage page lists the 4432 Heavy Duty under Limited 25/2/90 Day, while the product page shows 90 day, 2 yr and 24 yr; 24 years against 25 is unresolved.",
+      "Weight: Singer's product page gives 14.6 lb, while an earlier Amazon-derived snippet showed 17.42 lb, likely a shipping weight; we use Singer's figure.",
+      "Dimensions: Singer's product page gives 15.5 x 6.25 x 12 in, while an earlier Amazon-derived snippet showed 15.2 x 12 x 6.2 in; we use Singer's figure.",
+      "Price: on 2026-10-01 Amazon showed $199.99 on the grey listing and $239.99 on the black (Sterling) listing, Singer's own price was $239.99 and its MSRP $299.99; the strike-through MSRP is a comparison price, not a selling price.",
+      "Stitch count: some forum commenters say the 4452 has more stitches than the 4432, but Singer's own pages list the same 32 built-in stitches and 110 applications for both; the 4452 differs by bundle."
     ],
     "ownerThemes": [
       {
@@ -9437,7 +9442,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://threadedmachines.com/brands/singer/4423-review/problems/"
       }
     ],
-    "evidence": "mixed",
+    "evidence": "owner",
     "buyerQuestions": [
       "What is the difference between the Singer 4432 and 4452?",
       "Is the Singer 4432 better than the 4423?",
@@ -9465,40 +9470,85 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The middle Singer Heavy Duty: the 4423's head with 32 stitches, and the 4452's head without the accessory pack.",
-      "whoFor": "Beginners who want more stretch and decorative stitches than the 4423 and do not need the 4452's walking foot right away.",
-      "skipIf": "You already know you want a walking foot, in which case the 4452 pack is usually cheaper than buying one separately.",
-      "keySpec": "1,100 spm · 32 stitches · 1-step buttonhole · Class 15 bobbin",
+      "verdict": "Singer's 32-stitch mechanical with a metal interior frame; owner reports on thick fabric and early defects are split, so buy it on price.",
+      "whoFor": "Beginners who want more stretch and decorative stitches than the 4423's 23 and a one-step buttonhole, and who will mostly sew light to medium fabrics.",
+      "skipIf": "You already know you want a walking foot or need to slow the machine down: the box has no walking foot and Singer's page says the 4532 adds speed control.",
+      "keySpec": "1,100 spm · 32 stitches · 1-step buttonhole · Class 15 top drop-in bobbin",
       "strengths": [
-        "Singer lists 1,100 spm and a metal interior frame.",
-        "32 stitches cover stretch and decorative work the 4423 lacks.",
-        "Class 15 bobbins and snap-on feet are cheap and everywhere."
+        "Singer lists 1,100 spm, a metal interior frame, a stainless steel bed plate and a needle threader.",
+        "Owners report the metal frame holds up for the price, and several report it sewing multiple layers of canvas or denim.",
+        "Owners praise the one-step buttonhole and the range of utility stitches, and Class 15 bobbins are standard."
       ],
       "weaknesses": [
-        "Machine weight and dimensions were not published in accessible sources.",
-        "Four basic feet in the box; no walking or nonstick foot.",
-        "Shares the 44-series bobbin and tension complaints."
+        "Owners report defects and setup problems often: bobbin winder, stitch selection stuck on straight stitch, buttonhole lever, though help threads over-represent problems.",
+        "Owners report tension and top-thread seating problems, and some re-thread before each use.",
+        "Owners report the machine runs fast with a touchy pedal, and Singer's page implies no speed control on the 4432 (it says the 4532 adds one)."
       ],
       "checks": [
         {
+          "title": "Which listing you are buying",
+          "body": "Amazon showed $199.99 on the grey listing and $239.99 on the black (Sterling) listing on 2026-10-01, and Singer's own price was $239.99 against an MSRP of $299.99. Amazon's 4.4 from about 11,960 ratings pools the grey, black and Sterling listings, so it is not specific to one."
+        },
+        {
           "title": "Price it against the 4452",
-          "body": "If the 4452 is within $20 to $30, its walking foot and nonstick foot alone cover the difference."
+          "body": "Singer lists the same 32 stitches for both. The 4452 adds a walking foot, non-stick foot, clearance plate and heavy duty needles for an MSRP $20 higher, so check the street gap before choosing the 4432."
         },
         {
-          "title": "Color and edition listings",
-          "body": "Singer sells black and special edition 4432 variants at different prices. Confirm the stitch count is 32 and the head is the same before paying for a color."
-        },
-        {
-          "title": "Confirm weight for portability",
-          "body": "Some listings show 17.4 lb, which appears to be shipping weight. Ask the dealer for machine weight if you carry it to class."
+          "title": "Test the basics on arrival",
+          "body": "Owners report stitch selection, buttonhole lever and bobbin winder faults on new units. Check the stitch dial, buttonhole and bobbin winding in the return window."
         }
       ],
       "realCost": [
-        "Walking foot",
-        "Denim needles size 16 to 18",
+        "Walking foot: not in the box; the manual lists an even feed foot as optional, and the 4452 bundle includes a walking foot",
+        "Heavy duty needles for denim and canvas: the 4432 box has a pack of needles, and the 4452 bundle adds heavy duty needles",
         "Extra Class 15 bobbins"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "How many stitches does the Singer 4432 have?",
+          "a": "Singer lists 32 built-in stitches and 110 stitch applications. The applications figure is a marketing count, not a stitch count."
+        },
+        {
+          "q": "What is the difference between the Singer 4432 and 4452?",
+          "a": "Singer's own pages list the same 32 stitches and 110 applications for both. The 4452 differs by bundle: it adds a walking foot, non-stick foot, clearance plate and heavy duty needles, at an MSRP of $319.99 against $299.99. Forum commenters who say the 4452 has more stitches are not supported by Singer's pages."
+        },
+        {
+          "q": "Is the Singer 4432 better than the 4423?",
+          "a": "It has more stitches on paper: Singer lists 32 against 23 for the 4423, and an MSRP of $299.99 against $289.99. Whether that is worth it depends on the street price gap."
+        },
+        {
+          "q": "How does the 4432 compare with the 4411?",
+          "a": "Singer lists the 4411 with 11 stitches and a four-step buttonhole, and no built-in needle threader. The 4432 has 32 stitches, a one-step buttonhole and a needle threader."
+        },
+        {
+          "q": "Does the Singer 4432 come with a walking foot?",
+          "a": "No. The box has a general purpose, zipper, buttonhole and button sewing foot plus an edge and quilting guide. An even feed foot is listed as optional in the manual."
+        },
+        {
+          "q": "Can the Singer 4432 sew leather or canvas?",
+          "a": "Singer markets it for projects 'from denim to canvas' and claims a motor '60% stronger' than standard, but those are its claims, and its highlights say '50% more power', a different figure with no baseline. Owner reports are split: some say it handles thick fabric and leather, others hand-turn the wheel through thick layers."
+        },
+        {
+          "q": "How much does the Singer 4432 weigh and how big is it?",
+          "a": "Singer lists 14.6 lb and 15.5 x 6.25 x 12 in. An earlier Amazon-derived figure of 17.42 lb is likely a shipping weight."
+        },
+        {
+          "q": "What is the throat space of the Singer 4432?",
+          "a": "Singer gives 6.25 in as 'needle to tower', not needle to body, so we do not list a throat figure and it shows as [verify]."
+        },
+        {
+          "q": "What bobbins does the Singer 4432 use?",
+          "a": "Class 15 transparent bobbins, loaded top drop-in."
+        },
+        {
+          "q": "Does the Singer 4432 have a speed control?",
+          "a": "Singer does not state one for the 4432, and its page says the 4532 adds speed control. Owners report the machine running fast, with a touchy pedal."
+        },
+        {
+          "q": "What warranty does the Singer 4432 have?",
+          "a": "Singer's coverage page lists it under Limited 25/2/90 Day, while its product page shows 90 day, 2 yr and 24 yr. The 24 against 25 years is a Singer discrepancy."
+        }
+      ]
     },
     "sources": [
       "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine",
@@ -9507,7 +9557,13 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://www.sewingpartsonline.com/products/singer-heavy-duty-4432-mechanical-sewing-machine",
       "https://sewing.patternreview.com/SewingDiscussions/topic/111789",
       "https://threadedmachines.com/brands/singer/4423-review/problems/",
-      "https://sewways.com/brands/singer-heavy-duty-comparison/"
+      "https://sewways.com/brands/singer-heavy-duty-comparison/",
+      "https://svpworldwide.widen.net/content/v55jhrxiok/pdf/IM_4432Q60DSTEN140718.pdf",
+      "https://help.singer.com/en-US/singers-warranty-coverage-395288",
+      "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine",
+      "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine",
+      "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine",
+      "https://www.amazon.com/dp/B00JJ6L6PY"
     ]
   },
   "singer-4452": {
