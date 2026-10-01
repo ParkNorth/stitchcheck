@@ -4,6 +4,1554 @@
 import type { Rollup } from "./rollups";
 
 export const rollupData: Record<string, Rollup> = {
+  "brother-1034d": {
+    "slug": "brother-1034d",
+    "status": "approved",
+    "reviewedBy": "Claude (editor pass: exemplars, contradictions, sibling extras checked against Brother pages and sources). Human review still recommended.",
+    "reviewedOn": "2026-10-01",
+    "generated": "2026-10-01",
+    "method": {
+      "sources": 127,
+      "itemsCollected": 1851,
+      "statements": 384,
+      "voices": 256,
+      "ownerVoices": 227,
+      "dateRange": [
+        2008,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 111,
+          "items": 1656
+        },
+        "editorial": {
+          "sources": 10,
+          "items": 10
+        },
+        "forum": {
+          "sources": 4,
+          "items": 4
+        },
+        "retailer": {
+          "sources": 2,
+          "items": 172
+        }
+      },
+      "blocked": 0,
+      "evidence": "strong",
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Walmart's 1,723 ratings are sampled here: every 1 to 3 star review page we could load plus the top relevance pages, so negative reviews are over-represented in the Walmart rows; the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and Reddit troubleshooting threads are a large share of the owner voices, so problems are over-represented compared with silent satisfied owners. Amazon, Brother USA's own reviews, Michaels and YouTube comments are not yet collected.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, and Walmart's low-star reviews were sampled on purpose, so problems are over-represented. The better gauge of overall satisfaction is the retailers' own ratings under 'How we collected this': 4.6 of 5 across 1,723 Walmart ratings (78% five-star) and 4.45 of 5 across 55 at Sewing Machines Plus.",
+    "themes": [
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 116,
+        "voices": 111,
+        "ownerVoices": 105,
+        "sources": 62,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 72,
+          "editorial": 5,
+          "forum": 3,
+          "retailer": 31
+        },
+        "polarity": {
+          "positive": 21,
+          "negative": 87,
+          "mixed": 3,
+          "neutral": 0
+        },
+        "years": [
+          2008,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ce67b3bc1",
+            "polarity": "negative",
+            "claim": "Timing failed after six months of ownership and the machine went to the shop.",
+            "quote": "the timing went out",
+            "url": "https://www.sewingmachinesplus.com/brother-1034d-sergermachine.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c83573eaa",
+            "polarity": "negative",
+            "claim": "Commenter put their own 1034D out of timing by sewing fabric too thick.",
+            "quote": "how I messed mine up",
+            "url": "https://www.reddit.com/r/sewhelp/comments/13h2o2j/repairadjustment_manual_for_brother_1034d_serger/jk58c3j/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c2521ecdc",
+            "polarity": "positive",
+            "claim": "Owner of 4 years calls it a workhorse.",
+            "quote": "It's a workhorse",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cb08f049e",
+            "polarity": "positive",
+            "claim": "Owner of about four years uses it often and finds it very reliable.",
+            "quote": "its been very reliable",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1vez7q1/is_it_worth_using_amazon_points_toward_a_brother/p1l6xr8/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c1b3d56e3",
+            "polarity": "mixed",
+            "claim": "Owner broke a needle pin on the needle plate after almost two years of heavy faux fur use, the first real problem.",
+            "quote": "this is the first real issue I've had with the machine",
+            "url": "https://www.reddit.com/r/sewhelp/comments/2ziidx/help_broke_a_needle_on_the_needle_plate_of_my/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c86bded66",
+            "polarity": "mixed",
+            "claim": "Secondhand machine ran fairly smoothly but skipped some stitches.",
+            "quote": "it was running relatively smoothly except for some skipped stitches",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1etbp52/brother_1034d_needles_hitting_and_going_behind/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 87,
+        "voices": 81,
+        "ownerVoices": 74,
+        "sources": 26,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 32,
+          "editorial": 5,
+          "forum": 3,
+          "retailer": 41
+        },
+        "polarity": {
+          "positive": 35,
+          "negative": 33,
+          "mixed": 6,
+          "neutral": 7
+        },
+        "years": [
+          2009,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c6eb6a649",
+            "polarity": "negative",
+            "claim": "Owner says threading is still a pain, similar to the other serger.",
+            "quote": "It's still a pain",
+            "url": "https://www.reddit.com/r/sewing/comments/1hbjane/want_to_buy_my_wife_some_xmas_gifts_but_i_have_no/m1h8gm2/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c66186817",
+            "polarity": "negative",
+            "claim": "Buyer found the machine nearly impossible to thread.",
+            "quote": "Nearly impossible to thread",
+            "url": "https://www.sewingmachinesplus.com/brother-1034d-sergermachine.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c0fc632f5",
+            "polarity": "positive",
+            "claim": "Easy to thread.",
+            "quote": "it's easy to thread",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c3a037ae0",
+            "polarity": "positive",
+            "claim": "Easy to thread.",
+            "quote": "it is easy to thread",
+            "url": "https://www.sewingmachinesplus.com/brother-1034d-sergermachine.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cc942c40d",
+            "polarity": "mixed",
+            "claim": "Owner found threading and using the machine pretty easy, though the knot trick rarely works.",
+            "quote": "I found threading and using it to be pretty easy",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1t3wr00/my_serger_sat_in_a_box_for_8_months/ojzwn0l/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c3e0098d8",
+            "polarity": "mixed",
+            "claim": "Color-coded guides help, but threading order must be learned.",
+            "quote": "the color-coded thread guides make a real difference",
+            "url": "https://sewingsociety.com/brother-1034d-serger-review",
+            "source_class": "editorial"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 36,
+        "voices": 33,
+        "ownerVoices": 32,
+        "sources": 15,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 9,
+          "editorial": 5,
+          "forum": 1,
+          "retailer": 18
+        },
+        "polarity": {
+          "positive": 5,
+          "negative": 25,
+          "mixed": 3,
+          "neutral": 0
+        },
+        "years": [
+          2009,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cdd918571",
+            "polarity": "negative",
+            "claim": "Owner finds it somewhat loud compared with a sewing machine.",
+            "quote": "a little loud",
+            "url": "https://www.quiltingboard.com/main-f1/does-anyone-have-brother-1034d-serger-t262379.html",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "ca0f33eaf",
+            "polarity": "negative",
+            "claim": "Describes it as noisy.",
+            "quote": "It's also noisy.",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c333b5c6a",
+            "polarity": "positive",
+            "claim": "Owner finds it runs very quietly.",
+            "quote": "it runs very quiet",
+            "url": "https://www.sewingmachinesplus.com/brother-1034d-sergermachine.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c8c85e1e7",
+            "polarity": "positive",
+            "claim": "Steady on the table and does not vibrate much.",
+            "quote": "it doesn’t vibrate much",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "ce824ab27",
+            "polarity": "mixed",
+            "claim": "Owner likes it apart from the noise.",
+            "quote": "Other than being noisy",
+            "url": "https://www.sewingmachinesplus.com/brother-1034d-sergermachine.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c23784b68",
+            "polarity": "mixed",
+            "claim": "Louder than a regular sewing machine but tolerable.",
+            "quote": "It is louder than a regular machine",
+            "url": "https://seamwhisperer.com/brother-1034d-review",
+            "source_class": "editorial"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 18,
+        "voices": 18,
+        "ownerVoices": 15,
+        "sources": 12,
+        "sourceClasses": [
+          "editorial",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 12,
+          "editorial": 2,
+          "retailer": 4
+        },
+        "polarity": {
+          "positive": 6,
+          "negative": 6,
+          "mixed": 0,
+          "neutral": 6
+        },
+        "years": [
+          2009,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c73ef7a62",
+            "polarity": "negative",
+            "claim": "User reports the number 1 and 3 threads keep snapping because the spool sticks and adds tension.",
+            "quote": "the #1 and #3 threads keep snapping",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1govy4d/brother_1034d_serger_snapping_due_to_spool_tension/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c7849440a",
+            "polarity": "negative",
+            "claim": "Has trouble adjusting tension.",
+            "quote": "i have problems adjusting the tension",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c43de7112",
+            "polarity": "positive",
+            "claim": "After about five garments the owner reports no tension problems.",
+            "quote": "No tension problems",
+            "url": "https://truebias.com/blogs/blog/review-brother-1034d-serger",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c8203918c",
+            "polarity": "positive",
+            "claim": "Tension dials are colour coded to the thread they control, which makes finding the cause of a bad stitch easier.",
+            "quote": "thread tension dials are color coded",
+            "url": "https://thefloramodiste.com/blogs/tfm/a-step-by-step-sewing-machine-review-brother-1034d-serger",
+            "source_class": "editorial"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 15,
+        "voices": 15,
+        "ownerVoices": 13,
+        "sources": 8,
+        "sourceClasses": [
+          "editorial",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 5,
+          "editorial": 2,
+          "retailer": 8
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 10,
+          "mixed": 3,
+          "neutral": 0
+        },
+        "years": [
+          2009,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cd91cda26",
+            "polarity": "negative",
+            "claim": "Owner suspects mostly plastic construction and feels it is less sturdy than a Bernina.",
+            "quote": "I doubt that it has many metal parts",
+            "url": "https://truebias.com/blogs/blog/review-brother-1034d-serger",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "cece7242b",
+            "polarity": "negative",
+            "claim": "Reviewer judged the body cheaply made from low-grade plastic.",
+            "quote": "very cheaply made of low-grade plastic",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cdfabe607",
+            "polarity": "positive",
+            "claim": "Metal frame and solid build at an entry price.",
+            "quote": "getting a metal frame and solid build quality",
+            "url": "https://sewingsociety.com/brother-1034d-serger-review",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "ceffe1f15",
+            "polarity": "positive",
+            "claim": "Heavy weight, not plasticky or cheap.",
+            "quote": "Its a heavy weight machine NOT PLASTICY and cheap at all.",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c382c2547",
+            "polarity": "mixed",
+            "claim": "Former owner of three years found it a decent starter machine but not especially solid.",
+            "quote": "I wouldn’t say it’s solid but it’s a pretty decent starter",
+            "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1vez713/is_it_worth_using_amazon_points_toward_a_brother/p1n3x79/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c37b15e9b",
+            "polarity": "mixed",
+            "claim": "Plastic body and parts feel flimsy but work.",
+            "quote": "Plastic body and parts seem flimsy but it all seems to work.",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "rolled_hem",
+        "label": "Rolled hem",
+        "statements": 16,
+        "voices": 14,
+        "ownerVoices": 12,
+        "sources": 11,
+        "sourceClasses": [
+          "forum",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 7,
+          "forum": 3,
+          "retailer": 4
+        },
+        "polarity": {
+          "positive": 6,
+          "negative": 5,
+          "mixed": 1,
+          "neutral": 2
+        },
+        "years": [
+          2008,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ccfd575e0",
+            "polarity": "negative",
+            "claim": "Owner could not get the machine to sew after converting to rolled hem by removing the left needle and a finger.",
+            "quote": "It's just not sewing.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1hsxwuz/brother_surger_1034d_rolled_hem_set_up_not_sewing/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c9b182300",
+            "polarity": "negative",
+            "claim": "On rolled hem the lower looper thread keeps breaking after about an inch.",
+            "quote": "my lowerlooper/blue thread keeps breaking",
+            "url": "https://www.reddit.com/r/sewing/comments/lm1f2o/help_troubleshooting_rolled_hem_on_brother_1034d/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c2188a1eb",
+            "polarity": "positive",
+            "claim": "Former owner got a beautiful rolled hem using manual settings.",
+            "quote": "the rolled hem was beautiful",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/110669",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "c9bdfa781",
+            "polarity": "positive",
+            "claim": "The machine can make a rolled hem.",
+            "quote": "It also will make a rolled hem",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/114179",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "cutting_trimming",
+        "label": "Cutting and trimming",
+        "statements": 13,
+        "voices": 12,
+        "ownerVoices": 10,
+        "sources": 9,
+        "sourceClasses": [
+          "editorial",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 8,
+          "editorial": 2,
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 6,
+          "mixed": 0,
+          "neutral": 4
+        },
+        "years": [
+          2011,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c8c108a15",
+            "polarity": "negative",
+            "claim": "After cleaning and rethreading, the owner's knife stopped moving.",
+            "quote": "now the knife won’t move",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1pp1qe3/brother_1034d_knife_wont_move/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c14da7852",
+            "polarity": "negative",
+            "claim": "Upper knife broke off on second use and needed a $23 replacement.",
+            "quote": "the upper knife broke off",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c61ecdd04",
+            "polarity": "positive",
+            "claim": "Knife is easy to disable.",
+            "quote": "Easy to disable the knife",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c94aff734",
+            "polarity": "positive",
+            "claim": "The original knife has lasted five years of regular use without replacement.",
+            "quote": "I have never replaced the knife even once",
+            "url": "https://seamwhisperer.com/brother-1034d-review",
+            "source_class": "editorial"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 9,
+        "voices": 9,
+        "ownerVoices": 8,
+        "sources": 7,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 9
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 6
+        },
+        "years": [
+          2020,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c2603f100",
+            "polarity": "negative",
+            "claim": "Owner says the machine needs oiling in more places than the manual mentions.",
+            "quote": "in more places than the manual bothers to mention",
+            "url": "https://www.reddit.com/r/sewing/comments/k1l7tq/brother_1034d_serger_both_upper_looper_and_lower/gdqrd2i/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cd24f8a6a",
+            "polarity": "negative",
+            "claim": "Owner says the machine needs regular oiling in more places than the manual lists.",
+            "quote": "oiled regularly, and in more places than the manual indicates",
+            "url": "https://www.reddit.com/r/sewing/comments/hrnbt6/experience_with_brother_1034d_serger/fy59wn7/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c96a1d341",
+            "polarity": "positive",
+            "claim": "After sitting uncovered and unserviced for almost a decade, the machine needed only a little oil to run well.",
+            "quote": "It only needed a bit of oil to get it working well",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1vez7q1/is_it_worth_using_amazon_points_toward_a_brother/p1nnjob/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 8,
+        "voices": 8,
+        "ownerVoices": 6,
+        "sources": 5,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "editorial": 2,
+          "forum": 1,
+          "retailer": 4,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 5
+        },
+        "years": [
+          2008,
+          2019
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c4de9a688",
+            "polarity": "negative",
+            "claim": "Box has four small spools of thread, not large cones as pictured.",
+            "quote": "It has four small spools of color-coded thread",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "ceca1e86a",
+            "polarity": "positive",
+            "claim": "Owner uses and likes the gathering foot.",
+            "quote": "I love the gathering foot",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "differential_feed",
+        "label": "Differential feed",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 4,
+        "sourceClasses": [
+          "editorial",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 2,
+          "editorial": 1,
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 4,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2009,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cb79d6ac5",
+            "polarity": "positive",
+            "claim": "Owner has never adjusted the differential feed lever and finds results fine.",
+            "quote": "all of my projects have turned out just fine",
+            "url": "https://thefloramodiste.com/blogs/tfm/a-step-by-step-sewing-machine-review-brother-1034d-serger",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c5e824350",
+            "polarity": "positive",
+            "claim": "Owner says differential feed is what keeps knits from going wavy.",
+            "quote": "It's what stops knit fabrics from going wavy.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1t3wr00/my_serger_sat_in_a_box_for_8_months/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 2,
+        "sources": 4,
+        "sourceClasses": [
+          "editorial",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "editorial": 2,
+          "retailer": 2,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "years": [
+          2011,
+          2023
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c8b3255ef",
+            "polarity": "negative",
+            "claim": "Owner says Brother covered it for only 90 days, against the 1 year parts and labor in the warranty document.",
+            "quote": "Brother only covers for 90 days",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 3,
+        "sources": 4,
+        "sourceClasses": [
+          "editorial",
+          "reddit"
+        ],
+        "classVoices": {
+          "editorial": 3,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2016,
+          2016
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cf44cabe9",
+            "polarity": "negative",
+            "claim": "The carry handle on the back is small, making the machine awkward to move without things coming loose.",
+            "quote": "It has a dinky handle on the back",
+            "url": "https://truebias.com/blogs/blog/review-brother-1034d-serger",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c9ec02546",
+            "polarity": "positive",
+            "claim": "Owner likes that the machine feels heavy.",
+            "quote": "I like how heavy it is",
+            "url": "https://www.reddit.com/r/sewing/comments/5fmrut/early_christmas_from_the_husband_brother_1034d_so/dalsp11/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 5,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 3,
+        "sourceClasses": [
+          "editorial",
+          "retailer"
+        ],
+        "classVoices": {
+          "editorial": 2,
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2009,
+          2016
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cde829b94",
+            "polarity": "negative",
+            "claim": "The light is a bulb rather than an LED, and the reviewer finds bulb changes annoying.",
+            "quote": "Light Bulb, not LED light",
+            "url": "https://seamwhisperer.com/brother-1034d-review",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c3400e3a8",
+            "polarity": "negative",
+            "claim": "The 1034D lamp gets quite warm and its bulb will need replacing.",
+            "quote": "the lamp does get quite warm",
+            "url": "http://abisden.blogspot.com/2017/08/brother-overlocker-serger-1034d-vs-434d.html",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c0ca7eef1",
+            "polarity": "positive",
+            "claim": "Owner finds the lighting good.",
+            "quote": "has good lighting",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 4,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "editorial": 1,
+          "forum": 1,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c0340a2f6",
+            "polarity": "negative",
+            "claim": "Owner had jams and needle breakage serging a waistband of thick fabric and elastic, and swapped the machine.",
+            "quote": "not serge a waistband with 2 layers of thick fabric and thick elastic next time",
+            "url": "https://www.reddit.com/r/sewing/comments/1adhvt0/brother_1034d_serger_yellow_thread_upper_looper/kk6w5s4/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c5d67b573",
+            "polarity": "positive",
+            "claim": "Serged two layers of canvas over six layers of batting without trouble.",
+            "quote": "serged over 2 layers of canvas with 6 layers of batting in between",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/114179",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "cc9eac36c",
+            "polarity": "positive",
+            "claim": "Semi-professional home seamstress says it handles everything from tulle to jeans.",
+            "quote": "This machine has been able to handle everything I have thrown at it",
+            "url": "https://seamwhisperer.com/brother-1034d-review",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "cac56a5e5",
+            "polarity": "mixed",
+            "claim": "Owner says the machine handles almost anything, though they slow down and hand-turn on thick material.",
+            "quote": "It's been able to handle almost anything I throw at it",
+            "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1vez713/is_it_worth_using_amazon_points_toward_a_brother/p1rwtqm/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 3,
+        "sourceClasses": [
+          "editorial",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "editorial": 1,
+          "retailer": 1,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2018,
+          2022
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ca3bdbe2a",
+            "polarity": "negative",
+            "claim": "Feed dog caught and gouged the fabric.",
+            "quote": "The feed dog caught the fabric and gouged the fabric",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c9ea3a80f",
+            "polarity": "negative",
+            "claim": "Owner reports medium weight interlock getting caught on the upper looper and jamming the machine.",
+            "quote": "caught up on the upper looper and it jams the machine",
+            "url": "https://community.babycenter.com/post/a30896573/problem_fixed_serger_problem_brother_1034d",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c8cbaa992",
+            "polarity": "positive",
+            "claim": "Owner says their 1034D sews knits well with topstitch needles rather than ball point.",
+            "quote": "my brother 1034d does knits great with topstitch needles",
+            "url": "https://www.reddit.com/r/sewhelp/comments/thnexz/serger_help_needed_my_brother_1034d_works/i19nru1/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c9ff43f96",
+            "polarity": "mixed",
+            "claim": "Owner gets good results on woven fabric but poor results on knits despite many tension adjustments.",
+            "quote": "works perfectly on woven fabrics (bottom) but not at all on knits (top)",
+            "url": "https://www.reddit.com/r/sewhelp/comments/thnexz/serger_help_needed_my_brother_1034d_works/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 2,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2018,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c178c81d7",
+            "polarity": "negative",
+            "claim": "Four-thread setup breaks or gathers under the foot.",
+            "quote": "It will break or gather under the foot",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c32707c7b",
+            "polarity": "positive",
+            "claim": "Owner reports the machine produces a three-thread stitch well.",
+            "quote": "It does a three stitch beautifully",
+            "url": "https://www.reddit.com/r/sewing/comments/1r9ovuc/brother_1034d_isnt_chaining_would_love_some_help/o6h6gcd/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cc7b91d15",
+            "polarity": "positive",
+            "claim": "Owner says the 4 thread overlock has always worked well.",
+            "quote": "it's always been great for 4 thread overlock stitch",
+            "url": "https://www.reddit.com/r/sewing/comments/lm1f2o/help_troubleshooting_rolled_hem_on_brother_1034d/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 1,
+        "sources": 3,
+        "sourceClasses": [
+          "editorial",
+          "retailer"
+        ],
+        "classVoices": {
+          "editorial": 2,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2017,
+          2017
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c1a730c64",
+            "polarity": "positive",
+            "claim": "Cites speed of up to 1300 stitches per minute.",
+            "quote": "great speed of up to 1300 stitches per minute",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "retailer"
+        ],
+        "classVoices": {
+          "editorial": 1,
+          "forum": 1,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2017,
+          2017
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c9fdb7173",
+            "polarity": "negative",
+            "claim": "The bed is small, so large or heavy projects can pull off the table.",
+            "quote": "the bed of the machine is really small",
+            "url": "https://pandce.proboards.com/thread/587428/brother-1034d-serger-review",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c944b30da",
+            "polarity": "negative",
+            "claim": "Owner says this machine lacks a free arm.",
+            "quote": "has a totally free arm for tight spots, this one does not",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c6844f917",
+            "polarity": "positive",
+            "claim": "Built-in free arm, which the owner notes is uncommon on sergers.",
+            "quote": "the free arm (not on most sergers)",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/114179",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "thread_trimmer",
+        "label": "Thread trimmer",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c4a41eec1",
+            "polarity": "negative",
+            "claim": "Neither the 1034D nor the 434D has a thread cutter.",
+            "quote": "Neither of the machines have a thread cutter.",
+            "url": "http://abisden.blogspot.com/2017/08/brother-overlocker-serger-1034d-vs-434d.html",
+            "source_class": "editorial"
+          }
+        ]
+      },
+      {
+        "theme": "value_price",
+        "label": "Value and price",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2016,
+          2016
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cf98b6697",
+            "polarity": "positive",
+            "claim": "Owner finds price and reliability amazing.",
+            "quote": "The price and reliability are amazing.",
+            "url": "https://www.walmart.com/reviews/product/1723621",
+            "source_class": "retailer"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/brother-1034d-sergermachine.php",
+        "pageRating": 4.45,
+        "pageCount": 55,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 2,
+          "2": 3,
+          "3": 2,
+          "4": 9,
+          "5": 39
+        },
+        "lowRated": 7,
+        "sampled": null
+      },
+      {
+        "retailer": "walmart.com",
+        "url": "https://www.walmart.com/reviews/product/1723621",
+        "pageRating": 4.6,
+        "pageCount": 1723,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 53,
+          "2": 22,
+          "3": 42,
+          "4": 263,
+          "5": 1343
+        },
+        "lowRated": 117,
+        "sampled": "117 of 1723 reviews: every 1 to 3 star page plus the top relevance pages (16 pages read)"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "juki": "1,300 stitches per minute.",
+        "others": "Dealers and owners agree.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034d"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "brother-page; brother-handbook p.59"
+      },
+      {
+        "label": "Weight",
+        "juki": "Product page: 13.45 lb. The family handbook says 7.0 kg (15.4 lb).",
+        "others": "Dealers and blogs quote 13.5 to 13.88 lb; two blogs say about 15 and 16 lb.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034d"
+          },
+          {
+            "label": "Brother handbook p.59",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ],
+        "field": "weightLb",
+        "source": "brother-page Specifications; brother-handbook p.59"
+      },
+      {
+        "label": "Thread counts",
+        "juki": "3 or 4 thread, two needles. Brother lists 2/3/4 thread change as No, so no 2-thread stitches.",
+        "others": "Juki MO-654DE comparisons say it adds 2-thread stitches.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034d"
+          }
+        ],
+        "field": "threads",
+        "source": "brother-page Features and Specifications; brother-handbook p.59 ('Three/Four threads convertible')"
+      },
+      {
+        "label": "Stitch width",
+        "juki": "Brother's page gives 3.0 to 7.0 mm in one place and 5.0 to 7.0 mm in another. The family handbook says 2.3 to 7 mm for two-needle models.",
+        "others": "Retail copy says 5 to 7 mm.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034d"
+          },
+          {
+            "label": "Brother handbook p.59",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ],
+        "field": "stitchWidthMm",
+        "source": "brother-page; brother-handbook p.59"
+      },
+      {
+        "label": "Feet and box contents",
+        "juki": "Standard, blindstitch and gathering feet, plus 4 spools, soft cover, tweezers, brush, hex driver and trim trap.",
+        "others": "Dealers list the same three feet.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034d"
+          }
+        ],
+        "field": "includedFeet",
+        "source": "brother-page Specifications and In the Box"
+      },
+      {
+        "label": "Warranty",
+        "juki": "1 year parts and labor, 5 years electronics (labor excluded), 25 years chassis casting only. Original buyer from an authorized seller.",
+        "others": "Dealers and blogs say '25-year limited warranty'.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother warranty PDF",
+            "url": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "brother-warranty"
+      },
+      {
+        "label": "Oiling",
+        "juki": "Once or twice a month for normal use, weekly for heavier use, after cleaning lint.",
+        "others": "Only a few owners mention oiling at all; those who do treat it as routine upkeep.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother handbook p.58",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ],
+        "field": "maintenance",
+        "source": "brother-handbook p.58"
+      },
+      {
+        "label": "Price",
+        "juki": "$319.99 new at Brother USA on 2026-10-01. The 1034DX is $289.99 there.",
+        "others": "Sewing Machines Plus snippets showed bundles from $249.99 to $579.99.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034d"
+          }
+        ],
+        "field": "msrp",
+        "source": "brother-page"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "1034DX",
+        "label": "Brother 1034DX",
+        "rows": [
+          {
+            "feature": "Work light",
+            "urls": 2,
+            "classes": [
+              "editorial",
+              "forum"
+            ],
+            "summary": "The 1034DX has an LED work light; the 1034D has a bulb (15 W per Brother's handbook).",
+            "check": "Brother pages confirm both",
+            "examples": [
+              {
+                "claim_id": "c6344183a",
+                "claim": "Poster says the updated 1034DX adds LED lighting and moves some dials to the other side.",
+                "quote": "It has LED lighting and some of the setting dials",
+                "url": "https://sewing.patternreview.com/SewingDiscussions/topic/114179"
+              },
+              {
+                "claim_id": "ce785adc9",
+                "claim": "Answerer says the 1034DX needle clamp assembly is fully interchangeable with the 1034D one.",
+                "quote": "Indeed, that component is completely interchangeable.",
+                "url": "https://www.justanswer.com/small-engine/f508e-need-ask-question-brother-1034dx-serger.html"
+              },
+              {
+                "claim_id": "ca08c5414",
+                "claim": "AI-generated summary says the clamps are not fully interchangeable because of slight design differences, contradicting the answer above.",
+                "quote": "not fully interchangeable with the 1034D model due to slight design differences",
+                "url": "https://www.justanswer.com/small-engine/f508e-need-ask-question-brother-1034dx-serger.html"
+              }
+            ]
+          },
+          {
+            "feature": "Price",
+            "urls": 0,
+            "classes": [],
+            "summary": "Brother USA lists the 1034DX at $289.99 and the 1034D at $319.99, so the DX costs less there.",
+            "check": "Brother product pages, 2026-10-01",
+            "examples": []
+          },
+          {
+            "feature": "Weight",
+            "urls": 0,
+            "classes": [],
+            "summary": "The 1034DX is lighter: 12.57 lb against 13.45 lb for the 1034D.",
+            "check": "Brother product pages, 2026-10-01",
+            "examples": []
+          },
+          {
+            "feature": "Accessory storage",
+            "urls": 0,
+            "classes": [],
+            "summary": "The 1034D lists an accessory storage compartment; the 1034DX lists none.",
+            "check": "Brother product pages, 2026-10-01",
+            "examples": []
+          },
+          {
+            "feature": "Thread conversion",
+            "urls": 0,
+            "classes": [],
+            "summary": "Brother's DX spec table says 2/3/4 thread change: Yes while the DX copy says 3 or 4 threads; the D row says No. Unresolved.",
+            "check": "Brother product pages, 2026-10-01",
+            "examples": []
+          },
+          {
+            "feature": "Feet",
+            "urls": 0,
+            "classes": [],
+            "summary": "The same three feet on both: standard, blindstitch and gathering.",
+            "check": "Brother product pages, 2026-10-01",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "434D",
+        "label": "Brother 434D",
+        "rows": [
+          {
+            "feature": "Work light",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "One blog says the 434D has a daylight lamp while the 1034D has a warmer bulb.",
+            "check": "single source, not checked against Brother",
+            "examples": [
+              {
+                "claim_id": "c81454b37",
+                "claim": "The 1034D bulb light reaches further than the 434D daylight lamp.",
+                "quote": "the warm glow of the 1034D reaches further than the daylight lamp",
+                "url": "http://abisden.blogspot.com/2017/08/brother-overlocker-serger-1034d-vs-434d.html"
+              }
+            ]
+          },
+          {
+            "feature": "Accessories and box contents",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "One blog says the 1034D ships three extra feet and the 434D none.",
+            "check": "single source, not checked against Brother",
+            "examples": [
+              {
+                "claim_id": "cec981654",
+                "claim": "Reviewer would choose the 434D if it came with the extra feet the 1034D includes.",
+                "quote": "if the extra feet were supplied",
+                "url": "http://abisden.blogspot.com/2017/08/brother-overlocker-serger-1034d-vs-434d.html"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rivals": [
+      {
+        "model": "Juki MO-654DE",
+        "claims": 6,
+        "sources": 5,
+        "favors": {
+          "this": 0,
+          "other": 6,
+          "mixed": 0
+        },
+        "dimensions": {
+          "this": [],
+          "other": [
+            {
+              "dimension": "build toughness",
+              "n": 1
+            },
+            {
+              "dimension": "noise",
+              "n": 1
+            },
+            {
+              "dimension": "thread options",
+              "n": 1
+            },
+            {
+              "dimension": "noise and smoothness",
+              "n": 1
+            }
+          ]
+        },
+        "examples": [
+          {
+            "claim_id": "ca68da949",
+            "dimension": "noise",
+            "favors": "other",
+            "claim": "Commenter who used both found the Brother more rattly than the Juki, which stays planted.",
+            "quote": "the brother is more rattly in use",
+            "url": "https://www.reddit.com/r/sewing/comments/1rkubr3/just_received_a_second_rusted_serger_from_amazon/o8ne50b/"
+          }
+        ]
+      },
+      {
+        "model": "Janome",
+        "claims": 4,
+        "sources": 3,
+        "favors": {
+          "this": 1,
+          "other": 3,
+          "mixed": 0
+        },
+        "dimensions": {
+          "this": [
+            {
+              "dimension": "ease of threading",
+              "n": 1
+            }
+          ],
+          "other": [
+            {
+              "dimension": "overall",
+              "n": 1
+            },
+            {
+              "dimension": "overall performance",
+              "n": 1
+            },
+            {
+              "dimension": "overall quality",
+              "n": 1
+            }
+          ]
+        },
+        "examples": [
+          {
+            "claim_id": "cb4a426d8",
+            "dimension": "overall",
+            "favors": "other",
+            "claim": "Owner returned it and bought a Janome instead.",
+            "quote": "purchasing a janome",
+            "url": "https://www.walmart.com/reviews/product/1723621"
+          },
+          {
+            "claim_id": "ccfa4548e",
+            "dimension": "ease of threading",
+            "favors": "this",
+            "claim": "Owner finds the 1034D much easier to thread than an older Janome serger.",
+            "quote": "the Brother is so much easier to thread than the old-style Janome I had",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/114179"
+          }
+        ]
+      }
+    ]
+  },
   "juki-tl-2010q": {
     "slug": "juki-tl-2010q",
     "status": "approved",
@@ -52,6 +1600,7 @@ export const rollupData: Record<string, Rollup> = {
       "Retailer reviews are seller-collected and skew positive; Reddit and forum posts are self-selected. Two Facebook group posts could not be read, and Amazon, eBay and YouTube comments are not yet collected.",
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
+    "ownerNote": null,
     "themes": [
       {
         "theme": "feet_accessories",
@@ -66,6 +1615,12 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 21,
+          "retailer": 11,
+          "forum": 2,
+          "editorial": 7
+        },
         "polarity": {
           "positive": 12,
           "negative": 14,
@@ -141,6 +1696,12 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 22,
+          "retailer": 6,
+          "editorial": 8,
+          "forum": 4
+        },
         "polarity": {
           "positive": 22,
           "negative": 2,
@@ -192,6 +1753,12 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 18,
+          "retailer": 11,
+          "forum": 5,
+          "editorial": 3
+        },
         "polarity": {
           "positive": 19,
           "negative": 11,
@@ -267,6 +1834,12 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 15,
+          "retailer": 13,
+          "editorial": 7,
+          "forum": 2
+        },
         "polarity": {
           "positive": 13,
           "negative": 11,
@@ -334,6 +1907,12 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 20,
+          "retailer": 8,
+          "forum": 3,
+          "editorial": 4
+        },
         "polarity": {
           "positive": 13,
           "negative": 5,
@@ -401,6 +1980,12 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 10,
+          "retailer": 11,
+          "editorial": 9,
+          "forum": 1
+        },
         "polarity": {
           "positive": 13,
           "negative": 9,
@@ -476,6 +2061,12 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 11,
+          "retailer": 10,
+          "editorial": 6,
+          "forum": 2
+        },
         "polarity": {
           "positive": 20,
           "negative": 2,
@@ -543,6 +2134,12 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 10,
+          "retailer": 10,
+          "editorial": 3,
+          "forum": 1
+        },
         "polarity": {
           "positive": 15,
           "negative": 4,
@@ -610,6 +2207,12 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 18,
+          "retailer": 1,
+          "editorial": 2,
+          "forum": 1
+        },
         "polarity": {
           "positive": 5,
           "negative": 14,
@@ -677,6 +2280,12 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 12,
+          "retailer": 2,
+          "editorial": 3,
+          "forum": 5
+        },
         "polarity": {
           "positive": 20,
           "negative": 2,
@@ -742,6 +2351,10 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 8,
+          "retailer": 12
+        },
         "polarity": {
           "positive": 1,
           "negative": 14,
@@ -808,6 +2421,11 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 8,
+          "retailer": 6,
+          "editorial": 3
+        },
         "polarity": {
           "positive": 15,
           "negative": 0,
@@ -850,6 +2468,11 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 4,
+          "retailer": 5,
+          "editorial": 3
+        },
         "polarity": {
           "positive": 5,
           "negative": 2,
@@ -925,6 +2548,12 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 3,
+          "editorial": 6,
+          "forum": 2,
+          "retailer": 1
+        },
         "polarity": {
           "positive": 2,
           "negative": 4,
@@ -984,6 +2613,12 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 1,
+          "retailer": 4,
+          "editorial": 3,
+          "forum": 1
+        },
         "polarity": {
           "positive": 2,
           "negative": 1,
@@ -1035,6 +2670,12 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 1,
+          "forum": 1,
+          "editorial": 2,
+          "retailer": 1
+        },
         "polarity": {
           "positive": 0,
           "negative": 1,
@@ -1069,6 +2710,11 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "retailer": 1,
+          "forum": 1,
+          "reddit": 1
+        },
         "polarity": {
           "positive": 0,
           "negative": 0,
@@ -1110,6 +2756,10 @@ export const rollupData: Record<string, Rollup> = {
           "reddit",
           "retailer"
         ],
+        "classVoices": {
+          "reddit": 1,
+          "retailer": 1
+        },
         "polarity": {
           "positive": 2,
           "negative": 0,
@@ -1150,6 +2800,9 @@ export const rollupData: Record<string, Rollup> = {
         "sourceClasses": [
           "reddit"
         ],
+        "classVoices": {
+          "reddit": 1
+        },
         "polarity": {
           "positive": 0,
           "negative": 1,
@@ -1187,7 +2840,8 @@ export const rollupData: Record<string, Rollup> = {
           "4": 19,
           "5": 194
         },
-        "lowRated": 8
+        "lowRated": 8,
+        "sampled": null
       },
       {
         "retailer": "jukijunkies.com",
@@ -1202,7 +2856,8 @@ export const rollupData: Record<string, Rollup> = {
           "4": 0,
           "5": 25
         },
-        "lowRated": 0
+        "lowRated": 0,
+        "sampled": null
       }
     ],
     "documentChecks": [
@@ -1320,6 +2975,7 @@ export const rollupData: Record<string, Rollup> = {
     "siblings": [
       {
         "model": "TL-2000Qi",
+        "label": "Juki TL-2000Qi",
         "rows": [
           {
             "feature": "Speed slider",
@@ -1441,6 +3097,7 @@ export const rollupData: Record<string, Rollup> = {
       },
       {
         "model": "TL-18QVP",
+        "label": "Juki TL-18QVP",
         "rows": [
           {
             "feature": "Micro-lift (float)",
@@ -1603,6 +3260,7 @@ export const rollupData: Record<string, Rollup> = {
       },
       {
         "model": "TL-15",
+        "label": "Juki TL-15",
         "rows": []
       }
     ],

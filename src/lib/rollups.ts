@@ -24,6 +24,7 @@ export interface RollupTheme {
   ownerVoices: number;
   sources: number;
   sourceClasses: string[];
+  classVoices?: Record<string, number>;
   polarity: { positive: number; negative: number; mixed: number; neutral: number };
   years: [number, number] | null;
   recurrence: "recurring" | "reported" | "one-off";
@@ -38,6 +39,7 @@ export interface RollupRating {
   fetched: string;
   distribution: Record<string, number>;
   lowRated: number;
+  sampled?: string | null;
 }
 
 export interface RollupDocumentCheck {
@@ -75,6 +77,7 @@ export interface Rollup {
   reviewedOn: string | null;
   generated: string;
   notes?: string[];
+  ownerNote?: string | null;
   method: {
     sources: number;
     itemsCollected: number;
@@ -90,7 +93,7 @@ export interface Rollup {
   themes: RollupTheme[];
   ratings: RollupRating[];
   documentChecks: RollupDocumentCheck[];
-  siblings: { model: string; rows: RollupSiblingRow[] }[];
+  siblings: { model: string; label: string; rows: RollupSiblingRow[] }[];
   rivals: RollupRival[];
 }
 

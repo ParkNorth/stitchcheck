@@ -123,7 +123,7 @@ async function main() {
   const now = new Date().toISOString();
 
   const srcFile = path.join(DIR, "sources.json");
-  const sources: any[] = JSON.parse(fs.readFileSync(srcFile, "utf8"));
+  const sources: any[] = fs.existsSync(srcFile) ? JSON.parse(fs.readFileSync(srcFile, "utf8")) : [];
   let row = sources.find((s) => s.id === sid);
   if (!row) sources.push((row = { id: sid, url, class: "retailer", title: "", first_seen: now, discovered_by: ["user-supplied"] }));
   Object.assign(row, {

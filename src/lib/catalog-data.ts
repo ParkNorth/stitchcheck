@@ -1471,10 +1471,10 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "manufacturerUrl": "https://www.brother-usa.com/products/1034d",
     "retailerUrl": "https://www.sewingmachinesplus.com/brother-1034d-sergermachine.php",
-    "priceUsdSeen": null,
-    "priceSeenDate": null,
-    "priceSeenAt": "Sewing Machines Plus",
-    "priceNote": null,
+    "priceUsdSeen": 320,
+    "priceSeenDate": "2026-10-01",
+    "priceSeenAt": "another dealer",
+    "priceNote": "Brother USA (brother-usa.com)",
     "specs": {
       "stitchTypes": {
         "value": "4-thread overlock, 3-thread overlock, narrow hem, rolled hem, ribbon lock",
@@ -1501,12 +1501,12 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "needleSystem": {
-        "value": "SCHMETZ 130/705H (standard household needle)",
-        "source": "https://www.manualowl.com/m/Brother%20International/1034D/Manual/255306"
+        "value": "SCHMETZ 130/705H; #80 and #90 supplied",
+        "source": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
       },
       "presserFootLift": {
         "value": "5 to 6 mm, manual lever",
-        "source": "https://www.manualowl.com/m/Brother%20International/1034D/Manual/255306"
+        "source": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
       },
       "threadTrimmer": {
         "value": null,
@@ -1529,20 +1529,20 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "weightLb": {
-        "value": 13.88,
-        "source": "https://www.sewingpartsonline.com/products/brother-1034d-serger"
+        "value": 13.45,
+        "source": "https://www.brother-usa.com/products/1034d"
       },
       "dimensionsIn": {
-        "value": "11.73 x 13.19 (two dimensions only as published in listing)",
-        "source": "https://www.sewingpartsonline.com/products/brother-1034d-serger"
+        "value": "11.73 x 10.98 x 13.19",
+        "source": "https://www.brother-usa.com/products/1034d"
       },
       "includedFeet": {
-        "value": "3 snap-on accessory feet (Brother: 'three accessory feet'; dealers list standard, blind stitch, gathering)",
+        "value": "Standard foot (on the machine), blindstitch foot and gathering foot. In the box: 4 spools of thread, soft cover, needle set, tweezers, brush, hex driver and trim trap",
         "source": "https://www.brother-usa.com/products/1034d"
       },
       "warrantyUs": {
-        "value": "25-year limited (Brother)",
-        "source": "https://www.brother-usa.com/products/1034d"
+        "value": "1 year parts, labor and accessories; 5 years electronics and circuit boards (labor excluded); 25 years chassis casting only. Original buyer from an authorized seller",
+        "source": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf"
       }
     },
     "claims": [
@@ -1551,9 +1551,12 @@ export const catalogData: Record<string, CatalogEntry> = {
       "\"Heavy-duty\" appears in Amazon listing titles for the refurbished unit; it is a listing word, not a rating"
     ],
     "conflicts": [
-      "Weight: 13.88 lb (dealer listing, sewingpartsonline) vs 13.5 lb (comparison blogs). Brother page value not captured. Catalog will use 13.88 lb flagged [verify].",
-      "Stitch width: manual gives 2.3 to 7 mm (two-needle); retailer copy says '5 mm to 7 mm'. Catalog will use the manual.",
-      "Price: Sewing Machines Plus search snippets returned several prices for 1034D listings ($249.99, $319.99, $349.00, $579.99), likely bundles and a refurbished unit ($199.00). No single price recorded."
+      "Warranty: blogs and dealers say 25-year limited. Brother's warranty PDF gives 1 year parts, labor and accessories, 5 years electronics (labor excluded) and 25 years for the chassis casting only, to the original buyer from an authorized seller. We use Brother's terms.",
+      "Weight: Brother's page says 13.45 lb; the family handbook says 7.0 kg (15.4 lb); dealers say 13.5 to 13.88 lb. We use the Brother page.",
+      "Stitch width: Brother's page gives 3.0 to 7.0 mm and, in its spec table, 5.0 to 7.0 mm; the family handbook says 2.3 to 7 mm for two-needle models. The handbook never names the 1034D.",
+      "Thread conversion: Brother's page lists 2/3/4 thread change as No for the 1034D (3 or 4 thread only). Its 1034DX page lists the same row as Yes while its copy says 3 or 4 threads, so the DX row may be a data error.",
+      "Light: Brother lists a bulb (15 W in the handbook), not LED. The 1034DX has an LED.",
+      "Price: Brother USA lists the 1034D at $319.99 and the 1034DX at $289.99 on 2026-10-01, so the DX costs less there. Dealer bundles ran from $249.99 to $579.99."
     ],
     "ownerThemes": [
       {
@@ -1602,32 +1605,32 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The 1034D is the reference-point budget serger: 3/4 thread, differential feed and a 25-year limited warranty at a price most other sergers do not touch.",
-      "whoFor": "A first serger for someone finishing seams and hemming knits who wants the lowest entry price with a differential feed.",
-      "skipIf": "You want 2-thread stitches, air threading, or a coverstitch, none of which this machine offers.",
-      "keySpec": "3/4 thread · differential feed 0.7 to 2.0 · 1,300 spm",
+      "verdict": "The reference-point budget serger: 3/4 thread, differential feed and three snap-on feet at Brother's $319.99, with threading as its known weak point.",
+      "whoFor": "A first serger for someone finishing seams and hemming knits who wants the lowest entry price with a differential feed and will watch threading videos.",
+      "skipIf": "You want 2-thread stitches, a quiet machine or a coverstitch, none of which this machine offers.",
+      "keySpec": "3/4 thread · differential feed · 1,300 spm",
       "strengths": [
-        "Differential feed with a published 0.7 to 2.0 range at an entry price.",
+        "Differential feed, a built-in rolled hem and three snap-on feet at an entry price (Brother lists $319.99).",
         "Standard 130/705H household needles, so needles are cheap and available anywhere.",
-        "Built-in free arm and a 25-year limited Brother warranty."
+        "Long-term owners often call it a workhorse, and retailer ratings are high: 4.6 of 5 across 1,723 Walmart ratings."
       ],
       "weaknesses": [
-        "No 2-thread mode; the Juki MO-654DE and Baby Lock Vibrant both offer one.",
-        "Manual lay-in threading of the lower looper is the most common owner complaint.",
-        "Weight and dimensions are not clearly published by Brother; dealer figures disagree."
+        "Threading is the most repeated owner complaint. Brother calls it lay-in, but several buyers say the lower looper is hard and the name is misleading.",
+        "No 2-thread stitches: Brother lists 2/3/4 thread change as No, while the Juki MO-654DE offers them.",
+        "Many owners call it loud, and some find the body plastic and flimsy."
       ],
       "checks": [
         {
-          "title": "Confirm which feet are in the box",
-          "body": "Brother says three accessory feet. Dealer copy lists standard, blind stitch and gathering. Check the listing you buy from, since bundles vary."
+          "title": "Know what the 25-year warranty covers",
+          "body": "Brother's 25 years covers the chassis casting only. Parts, labor and accessories are covered for 1 year and electronics for 5 years, to the original buyer from an authorized seller. A used machine or one from an unauthorized seller may have no cover."
         },
         {
-          "title": "Threading is lay-in, not air",
-          "body": "Color-coded guides and a lower looper lever help, but you still thread by hand in a fixed order. Budget an afternoon with the manual."
+          "title": "Inspect the box on arrival",
+          "body": "Several buyers report tangled pre-threaded spools, a used or damaged unit, or missing small parts. Open it and check before the return window closes."
         },
         {
-          "title": "Watch the listing price",
-          "body": "Search results for the same dealer showed prices from about $250 to $580 across bundles and a refurbished unit. Compare the base machine price before adding a kit."
+          "title": "Plan for the lower looper",
+          "body": "Watch a threading video before you start. Many help threads are about stitches not forming or chaining after a rethread; check the thread path and tensions before blaming the machine."
         }
       ],
       "realCost": [
@@ -1636,7 +1639,40 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Tweezers and a small brush if the bundle does not include them",
         "Serger oil for occasional lubrication"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "Is the Brother 1034D good for beginners?",
+          "a": "It is the entry serger many people start with, and Brother's color-coded lay-in guides help. Threading, especially the lower looper, is still the most common owner complaint, so budget time for videos before your first project."
+        },
+        {
+          "q": "How fast is the Brother 1034D?",
+          "a": "Brother publishes a top speed of 1,300 stitches per minute. That is the spec, not a promise of finished quality at that speed on thick or stretchy fabric."
+        },
+        {
+          "q": "Does the 1034D do 2-thread stitches or a rolled hem?",
+          "a": "It sews 3 or 4 threads only: Brother lists 2/3/4 thread change as No. A rolled hem is built in, and Brother lists the rolled-hem change as Yes."
+        },
+        {
+          "q": "What is the difference between the 1034D and the 1034DX?",
+          "a": "Brother lists the 1034DX at $289.99 against $319.99 for the 1034D. The DX is lighter (12.57 lb against 13.45 lb) and has an LED work light where the D has a bulb, but it lists no accessory storage. Both are 3/4 thread at 1,300 spm with the same three feet. See the sibling table on this page."
+        },
+        {
+          "q": "What is the Brother 1034D warranty?",
+          "a": "Brother's limited warranty is 1 year for parts, labor and accessories, 5 years for electronic components and circuit boards (labor excluded) and 25 years for the chassis casting only. It covers the original buyer from an authorized seller."
+        },
+        {
+          "q": "How often does the 1034D need oiling?",
+          "a": "Brother's handbook says to oil it once or twice a month for normal use and weekly if it is used more often, after cleaning off lint."
+        },
+        {
+          "q": "What needles does the 1034D use?",
+          "a": "SCHMETZ 130/705H household needles. Brother supplies sizes 80 and 90."
+        },
+        {
+          "q": "Who should skip the 1034D?",
+          "a": "Anyone who wants 2-thread stitches, a quiet machine or a coverstitch."
+        }
+      ]
     },
     "sources": [
       "https://www.brother-usa.com/products/1034d",
@@ -1648,7 +1684,9 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://www.quiltingboard.com/main-f1/brand-new-brother-lock-1034d-noise-t210735.html",
       "https://www.justanswer.com/small-appliance/ofjfq-its-brother-1034d-serger-rethreaded-25.html",
       "https://seamwhisperer.com/brother-1034d-review/",
-      "https://sewing.patternreview.com/SewingDiscussions/topic/127602"
+      "https://sewing.patternreview.com/SewingDiscussions/topic/127602",
+      "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf",
+      "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
     ]
   },
   "brother-1034dx": {

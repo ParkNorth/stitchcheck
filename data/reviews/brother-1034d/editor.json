@@ -1,0 +1,138 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Walmart's 1,723 ratings are sampled here: every 1 to 3 star review page we could load plus the top relevance pages, so negative reviews are over-represented in the Walmart rows; the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and Reddit troubleshooting threads are a large share of the owner voices, so problems are over-represented compared with silent satisfied owners. Amazon, Brother USA's own reviews, Michaels and YouTube comments are not yet collected.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "siblings": [
+    {
+      "model": "1034DX",
+      "label": "Brother 1034DX",
+      "pattern": "1034\\s*-?dx|\\bdx\\b"
+    },
+    {
+      "model": "434D",
+      "label": "Brother 434D",
+      "pattern": "434\\s*-?d"
+    }
+  ],
+  "features": [
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "2/3/4|2.?thread|thread change|convert|three.?four|3.?4 thread",
+      "Thread conversion"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "storage|trim trap|catcher|cover|dvd|\\bcd\\b|spool|accessor|bundle|feet|foot",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy",
+      "Build"
+    ],
+    [
+      "size|dimension|footprint|portab",
+      "Size"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "mo-?654|654 ?de|mo ?600|mo-?600|mo ?644|mo-?644",
+      "Juki MO-654DE"
+    ],
+    [
+      "baby ?lock",
+      "Baby Lock"
+    ],
+    [
+      "singer",
+      "Singer"
+    ],
+    [
+      "janome",
+      "Janome"
+    ],
+    [
+      "juki",
+      "Juki (other models)"
+    ],
+    [
+      "1634|st4031",
+      "Brother 1634DX and ST4031HD"
+    ],
+    [
+      "industrial|consew|tacsew|yamata",
+      "Industrial sergers"
+    ],
+    [
+      "cover ?stitch|2340|cover ?pro|1034d.{0,20}cover",
+      "Coverstitch machines"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "1034 ?dx|1134|1634|434 ?d|st4031|654|mo-?600|mo-?644|babylock|imagine|lauren|elna|cover ?stitch|2340|cover ?pro|industrial",
+  "siblingSummaries": {
+    "1034DX": {
+      "Work light": {
+        "summary": "The 1034DX has an LED work light; the 1034D has a bulb (15 W per Brother's handbook).",
+        "check": "Brother pages confirm both"
+      }
+    },
+    "434D": {
+      "Work light": {
+        "summary": "One blog says the 434D has a daylight lamp while the 1034D has a warmer bulb.",
+        "check": "single source, not checked against Brother"
+      },
+      "Accessories and box contents": {
+        "summary": "One blog says the 1034D ships three extra feet and the 434D none.",
+        "check": "single source, not checked against Brother"
+      }
+    }
+  },
+  "siblingExtras": {
+    "1034DX": [
+      {
+        "feature": "Price",
+        "summary": "Brother USA lists the 1034DX at $289.99 and the 1034D at $319.99, so the DX costs less there.",
+        "check": "Brother product pages, 2026-10-01"
+      },
+      {
+        "feature": "Weight",
+        "summary": "The 1034DX is lighter: 12.57 lb against 13.45 lb for the 1034D.",
+        "check": "Brother product pages, 2026-10-01"
+      },
+      {
+        "feature": "Accessory storage",
+        "summary": "The 1034D lists an accessory storage compartment; the 1034DX lists none.",
+        "check": "Brother product pages, 2026-10-01"
+      },
+      {
+        "feature": "Thread conversion",
+        "summary": "Brother's DX spec table says 2/3/4 thread change: Yes while the DX copy says 3 or 4 threads; the D row says No. Unresolved.",
+        "check": "Brother product pages, 2026-10-01"
+      },
+      {
+        "feature": "Feet",
+        "summary": "The same three feet on both: standard, blindstitch and gathering.",
+        "check": "Brother product pages, 2026-10-01"
+      }
+    ]
+  },
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, and Walmart's low-star reviews were sampled on purpose, so problems are over-represented. The better gauge of overall satisfaction is the retailers' own ratings under 'How we collected this': 4.6 of 5 across 1,723 Walmart ratings (78% five-star) and 4.45 of 5 across 55 at Sewing Machines Plus."
+}

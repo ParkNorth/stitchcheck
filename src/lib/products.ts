@@ -444,15 +444,16 @@ const siteFields: Record<string, SiteFields> = {
     reason: "The cheapest serger we'd tell a friend to buy.",
     context: "Overlocker · value pick in Sergers hub",
     verdict:
-      "Not the smoothest serger we checked. It is the cheapest one we'd tell a friend to buy, and the lay-in threading guides are clear.",
+      "The cheapest serger we would tell a friend to buy. Threading is its weak point: the lay-in guides help, but the lower looper is what owners complain about most.",
     keySpec: "3/4 thread · differential feed",
     alternatives: [
       { slug: "juki-mo-654de", label: "Steadier", note: "Our pick for weekly serging." },
-      { slug: "brother-1034dx", label: "Sibling", note: "Same machine, different bundle." },
+      { slug: "brother-1034dx", label: "Sibling", note: "Lighter, with an LED, and listed cheaper at Brother." },
       { slug: "singer-14t968dc", label: "Combo", note: "Serger plus coverstitch in one." },
     ],
     imageAlt: "Brother 1034D serger with four thread cones",
-    lastUpdated: "2026-09-29",
+    specsVerified: "2026-10-01",
+    lastUpdated: "2026-10-01",
   },
   "brother-1034dx": {
     score: 7.8,

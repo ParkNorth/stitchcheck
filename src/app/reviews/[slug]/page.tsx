@@ -205,6 +205,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
                     </h2>
                     <span className="m text-[14px] text-steel">Counted from {rollup.method.voices} voices. Paraphrased, attributed. We did not operate this machine.</span>
                   </div>
+                  {rollup.ownerNote && <p className="m-0 text-[15px] leading-[1.55] text-ink-soft">{rollup.ownerNote}</p>}
                   <OwnerSignals rollup={rollup} />
                   <MethodologyBox rollup={rollup} />
                 </section>
