@@ -1,0 +1,9 @@
+# babylock-imagine run log
+
+2026-10-01 (supervised Tier 0, interactive)
+- bootstrap: queries.json, editor.json, manufacturer.json. Sibling detected: Victory. Needs a check for BLE1AT vs BLE1AT-2: search results mix both (PatternReview page 61 is the BLE1AT; the maker spec sheet is BLE1AT-2). Add a sibling row or scopeRule before collecting reviews.
+- maker: spec sheet fetched (Firecrawl, 6 credits). 10 facts. Contradicts our spec: weight (16 lb vs 17.2), stitch width (1.5 to 7.5 dial range vs split by thread count), differential feed (2 to 1 / 3 to 4 vs 0.6 to 2.0). Adds: needle system, 2-thread stitches. Manual and warranty PDFs not fetched yet.
+- marketplaces: NOT done. Baby Lock is dealer-only (AGENTS rule 15): no Amazon or Walmart listing. Pocono Sew & Vac lists BLE1AT-2 as discontinued with no reviews. PatternReview (a review site, class not retailer) shows ratings for the BLE1AT, not the -2. Plan stage `marketplaces` cannot be satisfied for dealer-only brands as defined.
+- 2026-10-01: no marketplace listing, dealer-only (Baby Lock). Reddit: bare alias 'Imagine' is an ordinary word; queries.json now model_names_only with Baby Lock-qualified names and BLE1AT/BLE1AT-2 (original and -2 are both collected; claims should note which generation when stated).
+
+2026-10-01 Tier 1 (supervised): Reddit 27 threads (9 with model in title), PatternReview SewingMachine/61 and discussion topic 99012 via Firecrawl rawHtml (403 on plain fetch), The Last Stitch review article; YouTube 'thin' (no transcript). Claims 68 accepted, 1 rejected (55 spec: this 52, unclear 3); tags 55; 34 voices (23 first-hand), 3 source classes (reddit, forum, editorial). Marketplaces: none (dealer-only). Sibling rows Vibrant and Victory (Reddit beliefs only). Gaps: manual and warranty PDFs not fetched; PatternReview ratings are for the BLE1AT not the -2; original vs -2 mixed in owner voices.
