@@ -1,0 +1,132 @@
+{
+  "specs": {
+    "weightLb": {
+      "value": 14.6,
+      "source": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
+    },
+    "dimensionsIn": {
+      "value": "15.5 x 6.25 x 12",
+      "source": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
+    },
+    "stitchWidthMm": {
+      "value": "6 maximum",
+      "source": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
+    },
+    "motor": {
+      "value": "84 W, 0.7 A, 120 V, 60 Hz",
+      "source": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
+    },
+    "warrantyUs": {
+      "value": "Limited 25/2/90 Day warranty (4452 listed); the product page shows 90 day, 2 yr and 24 yr; which period covers which part is not confirmed",
+      "source": "https://help.singer.com/en-US/singers-warranty-coverage-395288"
+    }
+  },
+  "conflicts": [
+    "Throat: Singer gives 6.25 in measured needle to tower, not needle to body (rule 11), so throat space stays [verify] and the figure is not used as a throat spec.",
+    "Warranty: Singer's warranty page says 25 years while the product page says 24 years; the split of periods by component is not confirmed.",
+    "Price: $299.00 (Sewing Machines Plus) vs $309.99 (singer.com, reported second hand) vs $219.99 on Singer's page against a $319.99 strike-through MSRP; price is a band, not a figure.",
+    "Accessory pack: Singer's spec sheet lists an even feed foot, non-stick foot and clearance plate as the 4452 extras; one comparison site says the difference is a satin stitch foot. Catalog uses Singer's list.",
+    "Dimensions: a third-party directory gave 39 x 16 x 30 cm; Singer's page gives 15.5 x 6.25 x 12 in, which is within rounding, so Singer's figure is used.",
+    "Stitch count: one commenter cites 52 stitches while Singer lists 32; Singer's 32 stands, and its 110 stitch applications is a marketing count."
+  ],
+  "claims": [
+    "\"Heavy Duty\" (Singer series name, product page; it is a model line, not a duty rating)",
+    "\"powerful motor\" with \"extra high sewing speed\" (manufacturer claim, singer.com product page)",
+    "\"heavy-duty metal frame ensures stability\" (manufacturer claim, singer.com product page)",
+    "\"50% more power for thick fabrics\" and a \"60% stronger\" motor (Singer marketing wording; the baseline is not defined and neither is a measured capability)",
+    "\"110 stitch applications\" (Singer marketing count; the machine has 32 built-in stitches)"
+  ],
+  "evidence": "owner",
+  "sources": [
+    "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine",
+    "https://help.singer.com/en-US/singers-warranty-coverage-395288",
+    "https://www.sewingmachinesplus.com/4452.php",
+    "https://images.thdstatic.com/catalog/pdfImages/5a/5a5da577-9fe7-4e0c-9ad8-a35912af2e44.pdf",
+    "https://www.sewingmachinedirectory.com/sewing-machine/singer-4452/",
+    "https://www.amazon.com/dp/B09ZGKJVZB",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/111789",
+    "https://bobbinhub.com/singer-4432-vs-4452/",
+    "https://arlingtonsew.com/singer-4452-heavy-duty-sewing-machine-review/"
+  ],
+  "editorial": {
+    "verdict": "A 1,100 spm, 32 stitch mechanical machine with a walking foot and nonstick foot in the box; owners report mixed reliability.",
+    "whoFor": "Beginners planning to sew denim, vinyl or layered totes who want the walking foot and nonstick foot in the box.",
+    "skipIf": "You already own a walking foot, you need to sew thick strap stacks or leather, or you want a machine with a published needle-to-body throat figure.",
+    "keySpec": "1,100 spm · 32 stitches · walking + nonstick foot · 84 W motor",
+    "strengths": [
+      "Singer publishes 1,100 spm, 32 stitches, an 84 W motor and a metal frame, with an even feed (walking) foot and nonstick foot on its own accessory list.",
+      "Owners report sewing denim, duck and canvas, with a walking foot, and say the machine slows over thick seams rather than stalling.",
+      "Retailer ratings are positive, at 4.51 from 59 reviews at Sewing Machines Plus and 4.3 from 1122 ratings on Amazon, though seller pages skew positive."
+    ],
+    "weaknesses": [
+      "Reddit owners report defects such as timing going out within a month and a needle that would not move, though help threads over-represent problems.",
+      "Owners report struggling with interfaced straps and bag strap connectors, so thick stacks are the limit.",
+      "Owners report threader failures, birdnesting and top tension that cannot reach enough, and some call the buttonhole erratic."
+    ],
+    "checks": [
+      {
+        "title": "Factory serviced units",
+        "body": "Sewing Machines Plus lists a factory serviced 4452 well below the new price. Ask for the warranty term on refurbished stock before choosing."
+      },
+      {
+        "title": "Warranty terms",
+        "body": "Singer's warranty page lists a Limited 25/2/90 Day warranty and the product page shows 90 day, 2 yr and 24 yr. The split by component is not confirmed, so read the PDF before relying on any one period."
+      },
+      {
+        "title": "Pooled retailer reviews",
+        "body": "Only 5 of 59 Sewing Machines Plus reviews name the 4452 while siblings exist, so treat that rating as family evidence. Check the box contents too: Singer lists even feed and nonstick feet plus a clearance plate."
+      }
+    ],
+    "realCost": [
+      "Denim needles size 16 to 18 beyond the two packs in the box",
+      "Extra Class 15 bobbins",
+      "A hump jumper, which one owner reports using for duck and canvas seams"
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between the Singer 4452 and 4432?",
+        "a": "PatternReview members and a review roundup describe the two as the same head, with the 4452 adding the walking foot, nonstick foot and clearance plate that Singer lists. These are third-party reports, not a Singer document."
+      },
+      {
+        "q": "Does the Singer 4452 come with a walking foot?",
+        "a": "Yes. Singer's accessory list includes an even feed (walking) foot, a nonstick foot and a clearance plate."
+      },
+      {
+        "q": "Can the Singer 4452 sew leather and vinyl?",
+        "a": "Singer publishes no leather rating we could source, and it ships a nonstick foot. Owners report sewing denim, duck and canvas but struggling with interfaced straps and strap connectors."
+      },
+      {
+        "q": "Is the Singer 4452 good for quilting?",
+        "a": "Singer gives 6.25 in measured needle to tower, not needle to body, so the throat space stays [verify] here. That is far from mid-arm size, which starts at 16 in."
+      },
+      {
+        "q": "How much does the Singer 4452 weigh?",
+        "a": "Singer's product page lists 14.6 lb. Dealers were not checked for a second figure."
+      },
+      {
+        "q": "Is the Singer 4452 good for beginners?",
+        "a": "Owners are split. Some like numbered threading and the drop-in bobbin, while others report a needle threader that never worked and tension loops. Reddit help threads skew toward problems."
+      },
+      {
+        "q": "What is the clearance plate for on the Singer 4452?",
+        "a": "Singer lists a clearance plate in the box, but our sources do not explain its use. Check the manual."
+      },
+      {
+        "q": "Is the Singer 4452 worth the extra money over the 4423?",
+        "a": "PatternReview members suggest buying on price, and roundups say the walking and nonstick feet are the reason to pick the 4452. These are third-party reports."
+      },
+      {
+        "q": "What needles does the Singer 4452 use?",
+        "a": "Singer's sheet lists two packs of needles in the box, but the needle system is not published in our sources, so it stays [verify]."
+      },
+      {
+        "q": "Is the Singer 4452 motor really 60% stronger?",
+        "a": "That is Singer's marketing wording, alongside \"50% more power for thick fabrics\", with no defined baseline. The published figure is 84 W, and owners report it slows over thick seams."
+      },
+      {
+        "q": "What warranty does the Singer 4452 have?",
+        "a": "Singer lists a Limited 25/2/90 Day warranty, while its product page shows 90 day, 2 yr and 24 yr. Which period covers which part is not confirmed."
+      }
+    ]
+  }
+}

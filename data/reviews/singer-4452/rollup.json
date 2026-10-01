@@ -1,0 +1,1118 @@
+{
+  "slug": "singer-4452",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-01",
+  "method": {
+    "sources": 58,
+    "itemsCollected": 554,
+    "statements": 129,
+    "voices": 97,
+    "ownerVoices": 72,
+    "dateRange": [
+      2018,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 2,
+        "items": 59
+      },
+      "reddit": {
+        "sources": 56,
+        "items": 491
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 34,
+      "voices": 34,
+      "ownerVoices": 31,
+      "sources": 27,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 32
+      },
+      "polarity": {
+        "positive": 5,
+        "negative": 29,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2019,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c21fc199d",
+          "polarity": "negative",
+          "claim": "Owner reports the needle will not move left after reinstalling it.",
+          "quote": "Needle also wont move left",
+          "url": "https://www.reddit.com/r/SewingWorld/comments/1k9j3hy/singer_4452_needle_placement/mpfge6c/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c7c84d651",
+          "polarity": "negative",
+          "claim": "Owner says timing went out within the first month after sewing denim and faux fur.",
+          "quote": "the timing gets thrown off",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1l8czzi/singer_4452_is_a_nightmare/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cceae84b5",
+          "polarity": "positive",
+          "claim": "4452 owner reports no issues and chose it for the many stitch options.",
+          "quote": "I haven't had any issue with it",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ttfwsd/first_sewing_machinesinger_4411_limited_edition/op48grx/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ca7916685",
+          "polarity": "positive",
+          "claim": "A 4452 from the good quality control batch is a reliable domestic machine.",
+          "quote": "it's a reliable domestic machine",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1qzb5vr/juki_hzl_355z_vs_singer_4452/o4a6gmd/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c1822f8c3",
+        "c0fc1863c",
+        "c88fd3fa9",
+        "c4061f76e",
+        "c252ff3c2",
+        "c7194a9f2",
+        "cff039906",
+        "cff0288a4",
+        "cbdb5bc1f",
+        "c61ea89c6",
+        "cbb67922b",
+        "ce4d36ff0",
+        "c7c9330b0",
+        "cceae84b5",
+        "c9df9ffc5",
+        "cfe6c9476",
+        "ca7916685",
+        "c02ee5be0",
+        "cc505876e",
+        "c6ab55149",
+        "c01258835",
+        "cce9fec99",
+        "c9158cbdf",
+        "c21fc199d",
+        "c295a8b27",
+        "c6ccfecbd",
+        "c5038a03a",
+        "cd1e0f166",
+        "c5361b881",
+        "c3fced53d",
+        "c7c84d651",
+        "cd4e52a70",
+        "cf61c6828",
+        "c377fe490"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 21,
+      "voices": 18,
+      "ownerVoices": 11,
+      "sources": 13,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 16
+      },
+      "polarity": {
+        "positive": 6,
+        "negative": 7,
+        "mixed": 3,
+        "neutral": 2
+      },
+      "years": [
+        2018,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cda9f8708",
+          "polarity": "negative",
+          "claim": "4452 owner says it could not handle interfaced straps on quilted bags with nice stitches.",
+          "quote": "the 4452 couldn't handle that",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ttfwsd/first_sewing_machinesinger_4411_limited_edition/op3y8ea/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c57cd87d0",
+          "polarity": "negative",
+          "claim": "Owner found bag strap connectors a struggle on the 4452.",
+          "quote": "it does not like the strap connectors",
+          "url": "https://www.reddit.com/r/sewing/comments/hkyrwr/swoon_patterns_brooklyn_handbag_rockin_tula_pink/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cd1da671c",
+          "polarity": "positive",
+          "claim": "Owner reports a powerful audible motor and confidence sewing through layers.",
+          "quote": "you can hear the powerful motor",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cff5b9e89",
+          "polarity": "positive",
+          "claim": "Owner has sewn heavy duck and canvas on the 4452 many times, with a hump jumper and walking foot.",
+          "quote": "You CAN do it on the Singer HD 4452",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1qzb5vr/juki_hzl_355z_vs_singer_4452/o4a6gmd/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c915405d5",
+          "polarity": "mixed",
+          "claim": "Motor has enough power for the work but slows over thick spots.",
+          "quote": "motor has sufficient oomph to do this work",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1qzb5vr/juki_hzl_355z_vs_singer_4452/o4a6gmd/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c6857dfaf",
+          "polarity": "mixed",
+          "claim": "Needle seems to hit when sewing four or more layers for masks; owner slows down.",
+          "quote": "sewing through 4 or more layers of fabric when making masks",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c6857dfaf",
+        "cd1da671c",
+        "c15ac2cf4",
+        "c39fc7268",
+        "cc3f0976d",
+        "ccb06cd15",
+        "cda9f8708",
+        "c31b0dec2",
+        "c58692c69",
+        "c2219fdb7",
+        "cff5b9e89",
+        "c915405d5",
+        "c77089fc8",
+        "c579725ca",
+        "c57cd87d0",
+        "c2c99b531",
+        "ce65662fc",
+        "c3db6c5c0",
+        "cce09dd40",
+        "cb68ea792",
+        "ce81576bd"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 12,
+      "voices": 12,
+      "ownerVoices": 10,
+      "sources": 8,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 9
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 7,
+        "mixed": 2,
+        "neutral": 2
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c1ef1d499",
+          "polarity": "negative",
+          "claim": "Owner says the needle threader never worked and arrived defective.",
+          "quote": "Its needle-threader never worked.",
+          "url": "https://www.reddit.com/r/myog/comments/190zxa4/singer_4411_or_4452/kgslytr/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c734e0306",
+          "polarity": "negative",
+          "claim": "Reviewer found threading the needle extremely awkward.",
+          "quote": "Extremely awkward to thread the needle.",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c6e95b58e",
+          "polarity": "positive",
+          "claim": "Threading is numbered and quick.",
+          "quote": "Threading itself is numbered and quick",
+          "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wqsese/eight_layers_of_upholstery_fabric_on_the_singer/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c215c1ca7",
+          "polarity": "mixed",
+          "claim": "Owner likes the drop-in bobbin and finds the needle threader helpful after a learning period.",
+          "quote": "the threader for the needle took some getting used to",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cb8e15dec",
+          "polarity": "mixed",
+          "claim": "Looping stitches on the 4452 were fixed by rethreading the bobbin and changing the needle.",
+          "quote": "I did a bobbin rethread and changed the needle and it is much happier now.",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1i55fdq/singer_heavy_duty_4452_what_is_this_thing/m83f5ni/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c65694288",
+        "c215c1ca7",
+        "c734e0306",
+        "cd2903e21",
+        "c6e95b58e",
+        "ca3116f94",
+        "cb2766bb6",
+        "cbc71048c",
+        "cb8e15dec",
+        "c1ef1d499",
+        "ca891787a",
+        "cdc3bd8e9"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 12,
+      "voices": 11,
+      "ownerVoices": 6,
+      "sources": 8,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 8
+      },
+      "polarity": {
+        "positive": 5,
+        "negative": 6,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cde37768a",
+          "polarity": "negative",
+          "claim": "Long-time Singer buyer says the machine has too many plastic parts.",
+          "quote": "Too many plastic parts.",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c8fb37d4f",
+          "polarity": "positive",
+          "claim": "New owner says the machine feels solid.",
+          "quote": "solid feel",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c85893a93",
+          "polarity": "positive",
+          "claim": "Owner of 2 to 3 years calls it sturdy and un-fussy.",
+          "quote": "Sturdy and un-fussy.",
+          "url": "https://www.reddit.com/r/myog/comments/190zxa4/singer_4411_or_4452/kgslytr/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c89b0066f",
+        "c8fb37d4f",
+        "cde37768a",
+        "cd3d1a0bc",
+        "c84d8ae48",
+        "c6bb996b5",
+        "c9d2cf308",
+        "c85893a93",
+        "c3e203d61",
+        "ce9233aa5",
+        "cb05f3d58",
+        "cdb11058a"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 9,
+      "voices": 9,
+      "ownerVoices": 7,
+      "sources": 7,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 9
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 7,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2018,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c2a2c93cc",
+          "polarity": "negative",
+          "claim": "With high tension the thread clears but a constant clicking noise appears.",
+          "quote": "i'll hear a constant clicking noise when it does",
+          "url": "https://www.reddit.com/r/fixit/comments/1tfgp83/singer_heavy_duty_4452_bobbin_case_issue/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c4d283e96",
+          "polarity": "negative",
+          "claim": "At full speed vibration travels through the floor to the unit below.",
+          "quote": "full speed carries through the floor to the housemate below",
+          "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wqsese/eight_layers_of_upholstery_fabric_on_the_singer/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c097412a6",
+          "polarity": "positive",
+          "claim": "Owner of 2.5 years says it is fast, quiet and stays put.",
+          "quote": "It’s fast and quiet and doesn’t bounce around.",
+          "url": "https://www.reddit.com/r/sewing/comments/8rrjca/review_request_singer_heavy_duty_machine_4452/e0un9jf/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c92c77bd9",
+          "polarity": "mixed",
+          "claim": "Owner of two years describes low vibration and middling noise.",
+          "quote": "Low vibration, not super quiet, but it's not super loud either.",
+          "url": "https://www.reddit.com/r/sewing/comments/8rrjca/review_request_singer_heavy_duty_machine_4452/e0ukipx/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c92c77bd9",
+        "c097412a6",
+        "c4d283e96",
+        "c2a2c93cc",
+        "ce5b7f50b",
+        "cf82f78c7",
+        "c0a7ec885",
+        "c4dbd1f00",
+        "c0bffc608"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 5,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 4,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c0ea6fd8c",
+          "polarity": "negative",
+          "claim": "Owner had a lot of thread birdnesting that took research to solve.",
+          "quote": "trouble with it \"birdnesting\"",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cb00e8a8d",
+          "polarity": "negative",
+          "claim": "Near new machine cannot reach enough top tension and leaves loops on the back.",
+          "quote": "I can’t seem to get the top tension tight enough",
+          "url": "https://www.reddit.com/r/sewhelp/comments/oicwj3/singer_4452_loops_on_back/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c6f8d681f",
+          "polarity": "positive",
+          "claim": "Tension needed no change for cotton and canvas and only a small adjustment for slippery lining.",
+          "quote": "only wanted a nudge for a slippery lining",
+          "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wqsese/eight_layers_of_upholstery_fabric_on_the_singer/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c2a8d7b47",
+        "c0ea6fd8c",
+        "cb00e8a8d",
+        "c6f8d681f",
+        "c53c86c93",
+        "cf4c2e144"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 5,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 5
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c5d5ec629",
+          "polarity": "negative",
+          "claim": "Owner says a second new unit sews noticeably slower than their first.",
+          "quote": "The stitch speed is substantially slower.",
+          "url": "https://www.reddit.com/r/sewing/comments/16m0enz/new_singer_heavy_duty_4452_stitch_speed_is_slower/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c04f9fa58",
+          "polarity": "negative",
+          "claim": "Owner says a second new unit sews noticeably slower than their first at full speed.",
+          "quote": "The stitch speed is substantially slower.",
+          "url": "https://www.reddit.com/r/sewhelp/comments/16m0heu/new_singer_heavy_duty_4452_stitch_speed_is_slower/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c9150f3e4",
+          "polarity": "positive",
+          "claim": "Owner says the machine has power for quick sewing.",
+          "quote": "It has power for quick sewing",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cb392ca7d",
+          "polarity": "mixed",
+          "claim": "Writer says the 1100 stitch per minute top speed needs a light foot on the pedal.",
+          "quote": "1100 stitches a minute takes a light foot until you learn where the pedal bites",
+          "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wqsese/eight_layers_of_upholstery_fabric_on_the_singer/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c9150f3e4",
+        "cb392ca7d",
+        "c5d5ec629",
+        "c4a865103",
+        "c04f9fa58",
+        "cf585bb7c"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 4,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c59dc587e",
+          "polarity": "negative",
+          "claim": "Reviewer has some trouble with reverse stitches bunching thread, possibly user issue.",
+          "quote": "reverse stitches bunching thread",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cca7da522",
+          "polarity": "negative",
+          "claim": "Owner calls the one-step buttonholer devastatingly erratic.",
+          "quote": "its buttonholer, which is devastatingly erratic",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1qzb5vr/juki_hzl_355z_vs_singer_4452/o4a6gmd/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cb957cbdf",
+          "polarity": "positive",
+          "claim": "Owner reports clean precise stitches and no thread tangling.",
+          "quote": "It has clean precise stitches and doesn’t get tied up",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c59dc587e",
+        "cb957cbdf",
+        "c934a2d13",
+        "c396e958d",
+        "cca7da522",
+        "c0a8125d6"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2020,
+        2021
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c0f345d96",
+          "polarity": "negative",
+          "claim": "Reviewer found the supplied power cord too short.",
+          "quote": "The power cord is to short",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c2f74bf2e",
+          "polarity": "positive",
+          "claim": "The 4452 is described as coming with bonus extra feet, which the retailer included.",
+          "quote": "They did include the additional Feet that would have come as a bonus",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c0f345d96",
+        "c823346c0",
+        "c2f74bf2e",
+        "c41e0d99f"
+      ]
+    },
+    {
+      "theme": "walking_foot",
+      "label": "Walking foot",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 3,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c0f27ae39",
+          "polarity": "negative",
+          "claim": "Owner reports the feed dogs and walking foot stopped feeding fabric.",
+          "quote": "my feed dogs/ walking foot isn’t feeding my fabric",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1l8czzi/singer_4452_is_a_nightmare/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cdf9f46e4",
+          "polarity": "positive",
+          "claim": "Owner says a heavy duty walking foot is included and works well.",
+          "quote": "It also comes with a heavy duty walking foot which works well.",
+          "url": "https://www.reddit.com/r/sewing/comments/lqsh9v/opinions_on_singer_heavy_duty_4452_sewing_machine/gojhytq/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c6e22853a",
+        "cbac8b6a5",
+        "cdf9f46e4",
+        "c0f27ae39"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2018,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c7e1a91bc",
+          "polarity": "positive",
+          "claim": "Buyer wanting a heavy duty machine for outdoor fabrics and denim says it sews all kinds of fabrics.",
+          "quote": "sews all kinds of fabrics",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c50d76dca",
+          "polarity": "positive",
+          "claim": "New owner says it performed well on knits with no hiccups.",
+          "quote": "it has performed well without any hiccups at all.",
+          "url": "https://www.reddit.com/r/sewing/comments/8rrjca/review_request_singer_heavy_duty_machine_4452/e0ugd22/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c7e1a91bc",
+        "c50d76dca",
+        "c3092ef69"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c7a49042d",
+          "polarity": "negative",
+          "claim": "Reviewer complains of limited clearance between the machine head underside and the needle plate cover.",
+          "quote": "Limited distance from underneath the",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c94baf691",
+          "polarity": "negative",
+          "claim": "Owner says large-panel projects call for more throat space than this machine offers.",
+          "quote": "you will probably want a machine with more throat space",
+          "url": "https://www.reddit.com/r/myog/comments/190zxa4/singer_4411_or_4452/kgslytr/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c9418508e",
+          "polarity": "positive",
+          "claim": "Owner says the machine has a table-like platform giving more room for fabric.",
+          "quote": "This machine has a table like platform that gives you more space to work",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c9418508e",
+        "c7a49042d",
+        "c94baf691"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c34267955",
+          "polarity": "negative",
+          "claim": "Writer finds the machine heavy to carry.",
+          "quote": "It is heavy to carry, yeah, no way around that",
+          "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wqsese/eight_layers_of_upholstery_fabric_on_the_singer/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c3ceb4a5c",
+          "polarity": "positive",
+          "claim": "Reviewer describes the machine as compact.",
+          "quote": "Compact and works great",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c3ceb4a5c",
+        "c34267955",
+        "c8e85068a"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ca168401d",
+          "polarity": "positive",
+          "claim": "Owner does most maintenance themselves.",
+          "quote": "I can do most maintenance myself.",
+          "url": "https://www.reddit.com/r/myog/comments/190zxa4/singer_4411_or_4452/kgslytr/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ca168401d",
+        "c4ab64cc6"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2020
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cccfb0293",
+          "polarity": "negative",
+          "claim": "Light sits far left and lights the needle only, leaving the rest of the work area dark.",
+          "quote": "lights the needle ok but the rest of the area is dark",
+          "url": "https://www.sewingmachinesplus.com/4452.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cccfb0293"
+      ]
+    },
+    {
+      "theme": "free_motion",
+      "label": "Free-motion quilting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "ce41fe78f",
+          "polarity": "positive",
+          "claim": "Owner says feed dogs can be dropped for use with presser feet, suiting basic quilting and darning.",
+          "quote": "You can drop the feed dogs and use all the snazzy presser feet",
+          "url": "https://www.reddit.com/r/myog/comments/190zxa4/singer_4411_or_4452/kgslytr/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ce41fe78f"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://www.sewingmachinesplus.com/4452.php",
+      "pageRating": 4.51,
+      "pageCount": 59,
+      "fetched": "2026-10-01",
+      "distribution": {
+        "1": 3,
+        "2": 1,
+        "3": 4,
+        "4": 6,
+        "5": 45
+      },
+      "lowRated": 8,
+      "sampled": null
+    },
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B09ZGKJVZB",
+      "pageRating": 4.3,
+      "pageCount": 1122,
+      "fetched": "2026-10-01",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "lowRated": 0,
+      "sampled": "0 top reviews (0 US, 0 other countries) of 1122 ratings"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "1,100 stitches per minute.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "singer-page"
+    },
+    {
+      "label": "Weight",
+      "juki": "14.6 lb.",
+      "others": "Not checked at dealers.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
+        }
+      ],
+      "field": "weightLb",
+      "source": "singer-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "Limited 25/2/90 Day warranty; the product page lists 90 day, 2 yr and 24 yr.",
+      "others": "Component terms are in a PDF not yet fetched.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Singer warranty page",
+          "url": "https://help.singer.com/en-US/singers-warranty-coverage-395288"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "singer-warranty"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "Heavy Duty 4411",
+      "label": "Singer Heavy Duty 4411",
+      "rows": []
+    },
+    {
+      "model": "Heavy Duty 4423",
+      "label": "Singer Heavy Duty 4423",
+      "rows": []
+    },
+    {
+      "model": "Heavy Duty 4432",
+      "label": "Singer Heavy Duty 4432",
+      "rows": []
+    }
+  ],
+  "rivals": []
+}

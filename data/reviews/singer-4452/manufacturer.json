@@ -1,0 +1,152 @@
+{
+  "slug": "singer-4452",
+  "collected": "2026-10-01",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/singer-4452.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "singer-page",
+      "url": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine",
+      "type": "product page",
+      "fetched": "2026-10-01",
+      "note": "Specifications, features, price; manual PDF link returned an HTML wrapper and could not be parsed"
+    },
+    {
+      "id": "singer-warranty",
+      "url": "https://help.singer.com/en-US/singers-warranty-coverage-395288",
+      "type": "warranty coverage page",
+      "fetched": "2026-10-01",
+      "note": "Lists 4452 Heavy Duty under Limited 25/2/90 Day; component split is in a PDF not fetched"
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1,100 stitches per minute",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": 1100,
+      "site": {
+        "label": "Speed",
+        "juki": "1,100 stitches per minute.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchCount",
+      "value": "32 built-in stitches; 110 stitch applications",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": 32,
+      "note": "Singer separates stitches (32) from applications (110): a marketing count, not a stitch count."
+    },
+    {
+      "field": "weightLb",
+      "value": "14.6 (machine weight)",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null.",
+      "site": {
+        "label": "Weight",
+        "juki": "14.6 lb.",
+        "others": "Not checked at dealers.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "15.5 x 6.25 x 12 in",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": "15.4 x 6.3 x 11.8 (converted)",
+      "note": "Singer gives inches; our spec was converted from cm and is within rounding."
+    },
+    {
+      "field": "throatIn",
+      "value": "6.25 in (needle to tower)",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null. Singer's own figure: needle to tower. Check against rule 11 (needle to body)."
+    },
+    {
+      "field": "stitchWidthMm",
+      "value": "6 mm maximum",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "motor",
+      "value": "84 W, 0.7 A, 120 V, 60 Hz",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": "Singer describes the motor as stronger than a standard machine motor; wattage not published",
+      "note": "Wattage is now published on the page. Marketing claim: '60% stronger' motor, and '50% more power for thick fabrics' in another line; quote as claims."
+    },
+    {
+      "field": "includedFeet",
+      "value": "All purpose, zipper, buttonhole, button sewing, non-stick, even feed (walking) foot and more",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": "All purpose foot, zipper foot, buttonhole foot, button sewing foot, non-stick foot, even feed (walking) foot, clearance plate, 2 packs of needles"
+    },
+    {
+      "field": "bobbin",
+      "value": "Class 15 transparent, top drop-in",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Limited 25/2/90 Day Warranty (4452 Heavy Duty listed); product page shows '90 day / 2yr / 24yr'",
+      "source": "singer-warranty",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The product page says 24 years and the warranty page says 25. Component split not fetched; do not state which part each period covers.",
+      "site": {
+        "label": "Warranty",
+        "juki": "Limited 25/2/90 Day warranty; the product page lists 90 day, 2 yr and 24 yr.",
+        "others": "Component terms are in a PDF not yet fetched.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Singer warranty page",
+            "url": "https://help.singer.com/en-US/singers-warranty-coverage-395288"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "MSRP $319.99; Singer sells it for $219.99",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Singer's strike-through MSRP is a comparison price, not a selling price. Amazon showed $273.53 for a holiday bundle."
+    },
+    {
+      "field": "claims",
+      "value": "50% more power for thick fabrics; 60% stronger motor; extra high sewing speed",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketing wording; state as Singer's claims only, never as measured capability."
+    }
+  ]
+}
