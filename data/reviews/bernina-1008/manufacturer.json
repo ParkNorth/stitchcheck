@@ -1,0 +1,201 @@
+{
+  "slug": "bernina-1008",
+  "collected": "2026-10-01",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/bernina-1008.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "bernina-product",
+      "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008",
+      "type": "product page",
+      "fetched": "2026-10-01",
+      "note": "Page says 'This product is no longer available'; no price or technical data table"
+    },
+    {
+      "id": "bernina-support",
+      "url": "https://www.bernina.com/en-US/Support-US/Machines/BERNINA-Classic-Series/BERNINA-1008",
+      "type": "support page",
+      "fetched": "2026-10-01",
+      "note": "Lists the English manual, published 2018-05-29"
+    },
+    {
+      "id": "bernina-manual",
+      "url": "https://www.bernina.com/Bernina/media/Support/Sewing_Quilting_Embroidery/classic/1008/Documents/EN/B1008_EN.pdf",
+      "type": "instruction manual (PDF, 42 pages, image-only, OCR)",
+      "fetched": "2026-10-01",
+      "note": "OCR quality is rough; verify quoted figures against the PDF"
+    },
+    {
+      "id": "bernina-warranty",
+      "url": "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty",
+      "type": "US warranty page (search excerpt, not a full scrape)",
+      "fetched": "2026-10-01",
+      "note": "Warranty is by BERNINA International AG"
+    }
+  ],
+  "facts": [
+    {
+      "field": "stitchCount",
+      "value": "17 stitches including a buttonhole and two decorative stitches",
+      "source": "bernina-product",
+      "vs_spec": "confirms",
+      "spec_value": 17,
+      "site": {
+        "label": "Stitches",
+        "juki": "17, including a buttonhole and two decorative.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008"
+          }
+        ]
+      }
+    },
+    {
+      "field": "needleSystem",
+      "value": "Needle system 130/705 H; sizes 70 to 120",
+      "source": "bernina-manual",
+      "vs_spec": "confirms",
+      "spec_value": "130/705 H household"
+    },
+    {
+      "field": "stitchWidthMm",
+      "value": "Manual: infinitely variable up to 5 mm (OCR); product page: five steps by control dial",
+      "source": "bernina-manual",
+      "vs_spec": "contradicts",
+      "spec_value": 5.5,
+      "note": "Our 5.5 mm has no maker source. Bernina's own page and manual disagree on stepless versus five steps.",
+      "site": {
+        "label": "Stitch width",
+        "juki": "Manual: up to 5 mm, infinitely variable. Product page: five steps.",
+        "others": "Our earlier figure was 5.5 mm.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/Bernina/media/Support/Sewing_Quilting_Embroidery/classic/1008/Documents/EN/B1008_EN.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "Infinitely variable by its own control; no mm range published",
+      "source": "bernina-product",
+      "vs_spec": "adds",
+      "spec_value": 5,
+      "note": "Our 5 mm maximum has no maker figure."
+    },
+    {
+      "field": "maxSpm",
+      "value": "not published on the page or in the manual",
+      "source": "bernina-manual",
+      "vs_spec": "adds",
+      "spec_value": 900,
+      "note": "Our 900 spm has no maker source."
+    },
+    {
+      "field": "weightLb",
+      "value": "not published on the page or in the manual",
+      "source": "bernina-manual",
+      "vs_spec": "adds",
+      "spec_value": 20.9,
+      "note": "Our 20.9 lb has a non-maker source; keep [verify] unless a Bernina document is found."
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "Thread cutter on the machine (manual item 31)",
+      "source": "bernina-manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "includedFeet",
+      "value": "Reverse pattern, overlock (2 and 2A), buttonhole, zipper and blind stitch feet; 4 bobbins",
+      "source": "bernina-product",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "hookSystem",
+      "value": "Patented CB hook",
+      "source": "bernina-product",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketing wording: 'patented'. Claim only."
+    },
+    {
+      "field": "buttonhole",
+      "value": "One buttonhole stitch with a buttonhole knob and sole",
+      "source": "bernina-product",
+      "vs_spec": "confirms",
+      "spec_value": "Manual multi-step buttonhole",
+      "note": "Maker does not say 4-step; our spec says 4-step from a dealer."
+    },
+    {
+      "field": "motor",
+      "value": "No wattage published; 15 W sewing light; foot control YC-423A",
+      "source": "bernina-manual",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "warrantyUs",
+      "value": "2 years electrical parts, 5 years printed circuit boards, 20 years mechanical parts; liability limited to the cost of the affected part",
+      "source": "bernina-warranty",
+      "vs_spec": "confirms",
+      "spec_value": "Bernina US: 20 yr mechanical parts, 5 yr printed circuit boards, 2 yr electrical parts; labor not covered",
+      "note": "Excerpt only; registration and private-use conditions were reported by the fetch and should be verified on the page.",
+      "site": {
+        "label": "Warranty",
+        "juki": "2 years electrical, 5 years circuit boards, 20 years mechanical parts; part cost only.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "dealer pricing only; the product page says 'This product is no longer available'",
+      "source": "bernina-product",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Do not claim discontinued beyond Bernina's own page wording.",
+      "site": {
+        "label": "Availability",
+        "juki": "Bernina's US page says the product is no longer available and points to local Bernina stores.",
+        "others": "Used machines are sold through dealers and marketplaces.",
+        "status": "dealer only",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008"
+          }
+        ]
+      }
+    },
+    {
+      "field": "use",
+      "value": "This sewing machine is intended for household use only",
+      "source": "bernina-manual",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "claims",
+      "value": "'simply brilliant, brilliantly simple'; 'state-of-the-art solid construction'; 'robust sewing machine'",
+      "source": "bernina-product",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketing wording; claims only."
+    }
+  ]
+}

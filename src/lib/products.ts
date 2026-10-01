@@ -808,7 +808,7 @@ const siteFields: Record<string, SiteFields> = {
   "singer-hd6600c": {
     score: 7.2,
     scoredFor: "beginner",
-    reason: "The cheapest computerized Heavy Duty; no thread cutter, few feet.",
+    reason: "Computerized Singer Heavy Duty; no thread cutter, few feet, mixed owner reports.",
     context: "Computerized · Singer Heavy Duty family",
     alternatives: [
       { slug: "singer-4452", label: "Mechanical", note: "Same speed, fewer stitches, the value pick." },
@@ -816,7 +816,9 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "janome-hd3000", label: "Built heavier", note: "Our beginner pick, mechanical." },
     ],
     imageAlt: "Singer Heavy Duty 6600C computerized sewing machine",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-01",
+    verdict: "A computerized Singer Heavy Duty with LCD stitch selection; owner reports on build and reliability are mixed.",
+    specsVerified: "2026-10-01",
   },
   "singer-hd6700c": {
     score: 7.4,
@@ -888,15 +890,17 @@ const siteFields: Record<string, SiteFields> = {
     score: 7.9,
     scoredFor: "heavy-duty",
     priceBand: 3,
-    reason: "Bernina's last all-mechanical machine; a used-market buy since 2020.",
+    reason: "Bernina's US page says it is no longer available; owners report a sturdy mechanical, so buy through a dealer or used.",
     context: "Mechanical, discontinued · used market via Bernina dealers",
     alternatives: [
-      { slug: "janome-hd3000", label: "In production", note: "The mechanical we'd buy new instead." },
+      { slug: "janome-hd3000", label: "In production", note: "The all-mechanical alternative buyers name when the 1008 is unavailable." },
       { slug: "bernina-570-qe", label: "Same dealer", note: "Bernina's computerized quilter." },
       { slug: "brother-st371hd", label: "Budget", note: "A cheap new mechanical." },
     ],
     imageAlt: "Bernina 1008 mechanical sewing machine",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-01",
+    verdict: "Bernina's US page says the 1008 is no longer available; owners praise a sturdy mechanical, so it is a dealer or used-market buy to check unit by unit.",
+    specsVerified: "2026-10-01",
   },
   "bernina-l-850": {
     score: 8.5,

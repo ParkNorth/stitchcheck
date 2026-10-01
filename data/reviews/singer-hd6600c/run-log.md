@@ -1,0 +1,3 @@
+
+2026-10-01 Tier 1 (supervised): maker via subagent (bundle page, manual PDF, warranty page; standalone Singer page redirects to homepage). Amazon B0F1TD3LYG 4.4/158 (Sterling), 13 reviews; SMP page has 0 reviews; 20 Reddit threads (7 with model in title). Claims 96 accepted, 2 rejected (79 spec: this 52, sibling 5, unclear 22); tags 79. Evidence thin: 17 first-hand voices. Draft fixes by editor: price key priceSeen (agent wrote priceUsdSeen), removed unsourced 'cheapest computerized Heavy Duty' from verdict and reason.
+Pipeline note: apply merges d.price blindly; check should validate price keys.
