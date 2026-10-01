@@ -129,7 +129,7 @@
         "label": "Needle system",
         "juki": "HAx1SP, 130/705H and ELx705CF.",
         "others": "No dealer figure found yet.",
-        "status": "added",
+        "status": "unverified",
         "links": [
           {
             "label": "Baby Lock Imagine spec sheet",
@@ -169,7 +169,7 @@
         "label": "Threading",
         "juki": "Claims Jet-Air threading of the lower loopers, Automatic Thread Delivery, and a built-in needle threader.",
         "others": "Owner evidence not yet collected.",
-        "status": "claim",
+        "status": "unverified",
         "links": [
           {
             "label": "Baby Lock Imagine spec sheet",
