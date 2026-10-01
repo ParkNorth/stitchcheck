@@ -1,0 +1,754 @@
+[
+  {
+    "id": "web:de5cd22d85b462f8",
+    "url": "https://www.amazon.com/dp/B00VGU9F7C",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-01T14:18:25.897Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-01T14:18:25.897Z",
+    "status": "ok",
+    "site_rating": 4.5,
+    "site_review_count": 51,
+    "asin": "B00VGU9F7C",
+    "parent_asin": null,
+    "product_asins": [],
+    "pooled_variations": false,
+    "sampled": "0 top reviews (0 US, 0 other countries) of 51 ratings",
+    "listing": {
+      "title": "Juki Pearl Line MO-654DE 2/3/4 Thread Overlock Serger with Bonus Items: Electronic Workbook CD and Instructional DVD Video",
+      "price_usd": 599,
+      "best_sellers_rank": "#104,483 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #19 in Sergers & Overlock Machines",
+      "details": {
+        "Model Number": "MO-654DE",
+        "Manufacturer": "Usongs Trading INC",
+        "Part Number": "43231-177264",
+        "Color": "white",
+        "Material": "Metal",
+        "Item Weight": "19.8 pounds"
+      }
+    }
+  },
+  {
+    "id": "web:d45bb5818fe127fb",
+    "url": "https://www.sewingmachinesplus.com/juki-MO-654DE.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-01T14:19:32.311Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-01T14:19:32.311Z",
+    "status": "ok",
+    "site_rating": 4.75,
+    "site_review_count": 104,
+    "content_hash": "44902914d167a0cd"
+  },
+  {
+    "id": "reddit:1tg6jk6",
+    "url": "https://www.reddit.com/r/sewing/comments/1tg6jk6/juki_sergermo654debottom_looped_keeps_breakinghelp/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki serger(mo-654DE)bottom looped keeps breaking…HELP!",
+    "subreddit": "sewing",
+    "thread_id": "1tg6jk6",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1779070894,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "c2b6719392ed6dc0"
+  },
+  {
+    "id": "reddit:wccxjg",
+    "url": "https://www.reddit.com/r/sewing/comments/wccxjg/serger_question_juki_mo654de/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger question Juki Mo-654de",
+    "subreddit": "sewing",
+    "thread_id": "wccxjg",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1659368213,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "3dd9dc5be1820a3f"
+  },
+  {
+    "id": "reddit:v3jawc",
+    "url": "https://www.reddit.com/r/sewing/comments/v3jawc/buying_my_first_serger_is_juki_mo654de_a_good/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Buying my first serger, is Juki mo-654de a good choice?",
+    "subreddit": "sewing",
+    "thread_id": "v3jawc",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1654270783,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE",
+      "all:MO-654DE review",
+      "r/sewing:MO-654DE review"
+    ],
+    "content_hash": "948f5c9b0e62af43"
+  },
+  {
+    "id": "reddit:1nxvy3r",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1nxvy3r/my_juki_mo654de_isnt_creating_a_serge_all_four/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "My Juki mo-654DE isn’t creating a serge. All four threads remain separate.",
+    "subreddit": "sewhelp",
+    "thread_id": "1nxvy3r",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1766029460,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewhelp:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewhelp:MO-654DE"
+    ],
+    "content_hash": "ee13aea60fafc034"
+  },
+  {
+    "id": "reddit:1bdf1wp",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1bdf1wp/juki_mo654de_locked_up_after_running_over_a_pin/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki MO-654DE locked up after running over a pin",
+    "subreddit": "sewhelp",
+    "thread_id": "1bdf1wp",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1710384575,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewhelp:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewhelp:MO-654DE"
+    ],
+    "content_hash": "9f4268ccf7db85f7"
+  },
+  {
+    "id": "reddit:t0r21p",
+    "url": "https://www.reddit.com/r/sewing/comments/t0r21p/why_is_my_juki_mo654de_doing_this/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Why is my Juki MO-654DE doing this?",
+    "subreddit": "sewing",
+    "thread_id": "t0r21p",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1645989488,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "6432e73956cc43fa"
+  },
+  {
+    "id": "reddit:1vonrss",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1vonrss/looking_to_buy_juki_mo654de_secondhand/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Looking to buy Juki MO-654DE secondhand",
+    "subreddit": "sewhelp",
+    "thread_id": "1vonrss",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1786755602,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewhelp:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewhelp:MO-654DE"
+    ],
+    "content_hash": "44578e54c3ee6a2d"
+  },
+  {
+    "id": "reddit:1d5xoep",
+    "url": "https://www.reddit.com/r/sewing/comments/1d5xoep/juki_mo654de_tension_issues/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki mo-654de tension issues?",
+    "subreddit": "sewing",
+    "thread_id": "1d5xoep",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1717551354,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "b87eefbb392011db"
+  },
+  {
+    "id": "reddit:atqi1q",
+    "url": "https://www.reddit.com/r/sewing/comments/atqi1q/serger_blade_this_piece_of_metal_came_wrapped_in/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger blade? This piece of metal came wrapped in paper in the service kit with my Juki MO-654DE but it's not shaped like the installed blade and has no hole for the anchoring screw. Is it for something else?",
+    "subreddit": "sewing",
+    "thread_id": "atqi1q",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1550893675,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "64a090b68e6d6d66"
+  },
+  {
+    "id": "reddit:1es5inm",
+    "url": "https://www.reddit.com/r/sewing/comments/1es5inm/difference_between_juki_sergers_juki_mo654de_vs/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Difference between Juki sergers  -Juki MO-654DE   Vs. Juki W654 Mirai Serger",
+    "subreddit": "sewing",
+    "thread_id": "1es5inm",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1723738552,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE",
+      "all:MO-654DE vs",
+      "r/sewing:MO-654DE vs"
+    ],
+    "content_hash": "72a64eaf34bee167"
+  },
+  {
+    "id": "reddit:1d1t7tz",
+    "url": "https://www.reddit.com/r/sewing/comments/1d1t7tz/juki_is_still_making_the_mo654de_serger_right/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki is still making the mo-654de serger right?",
+    "subreddit": "sewing",
+    "thread_id": "1d1t7tz",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1716823722,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "a690e0315e607d3e"
+  },
+  {
+    "id": "reddit:j460r6",
+    "url": "https://www.reddit.com/r/sewing/comments/j460r6/i_cant_figure_my_juki_mo654de_serger_tension/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "I can’t figure my JUKI MO-654DE Serger tension :( Someone help please🥺",
+    "subreddit": "sewing",
+    "thread_id": "j460r6",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1601714391,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "b267d61a6cb94bea"
+  },
+  {
+    "id": "reddit:1tf3t31",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1tf3t31/juki_mo654de_left_needle_creating_lone_top_stitch/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki MO-654DE - left needle creating lone top stitch.",
+    "subreddit": "sewhelp",
+    "thread_id": "1tf3t31",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1778986905,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewhelp:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewhelp:MO-654DE"
+    ],
+    "content_hash": "b08249001be3e912"
+  },
+  {
+    "id": "reddit:1lfwith",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1lfwith/juki_mo654de_rolled_hem_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki MO-654DE rolled hem help",
+    "subreddit": "sewhelp",
+    "thread_id": "1lfwith",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1750446044,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewhelp:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewhelp:MO-654DE"
+    ],
+    "content_hash": "ee74e2fbb0a42231"
+  },
+  {
+    "id": "reddit:1ehfe5x",
+    "url": "https://www.reddit.com/r/sewing/comments/1ehfe5x/juki_mo654de_vs_mo654den/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki MO-654DE vs MO-654DEN?",
+    "subreddit": "sewing",
+    "thread_id": "1ehfe5x",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1722519083,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE",
+      "all:MO-654DE vs",
+      "r/sewing:MO-654DE vs"
+    ],
+    "content_hash": "01c8c73f923ba77a"
+  },
+  {
+    "id": "reddit:jki40a",
+    "url": "https://www.reddit.com/r/sewing/comments/jki40a/some_recent_makes_using_patterns_for_pirates_pdf/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Some recent makes using Patterns for Pirates PDF patterns. These patterns are so easy to use, and man do I love my new juki mo-654de serger. It’s glorious! Patterns used are cocoon cardigan, peg legs, and sporty Piko",
+    "subreddit": "sewing",
+    "thread_id": "jki40a",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1604084960,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "cb8aa7db97a4590a"
+  },
+  {
+    "id": "reddit:1s82pbk",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1s82pbk/juki_mo_654de_turns_on_without_foot_pedal/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki MO 654DE turns on without Foot Pedal Controller?",
+    "subreddit": "sewhelp",
+    "thread_id": "1s82pbk",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1774908638,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewhelp:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewhelp:MO-654DE"
+    ],
+    "content_hash": "9e8237784fa82af6"
+  },
+  {
+    "id": "reddit:1deboo8",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1deboo8/which_serger_should_i_buy_juki_mo654de_or_bernina/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Which serger should I buy? Juki MO-654DE or Bernina L460",
+    "subreddit": "sewhelp",
+    "thread_id": "1deboo8",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1718331276,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewhelp:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewhelp:MO-654DE",
+      "all:MO-654DE review",
+      "r/sewhelp:MO-654DE review"
+    ],
+    "content_hash": "d4cabeeaa57aa1dc"
+  },
+  {
+    "id": "reddit:1vtkplp",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1vtkplp/trying_to_find_a_juki_mo654de_mo654den_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Trying to find a Juki MO-654DE / MO-654DEN serger from a trusted seller",
+    "subreddit": "sewhelp",
+    "thread_id": "1vtkplp",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "thin",
+    "cursor_utc": 1787235276,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewhelp:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewhelp:MO-654DE"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:zdz2pa",
+    "url": "https://www.reddit.com/r/embroiderypro/comments/zdz2pa/test_and_review_of_the_juki_mo654de_overlocker/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Test and review of the Juki MO-654DE overlocker",
+    "subreddit": "embroiderypro",
+    "thread_id": "zdz2pa",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "thin",
+    "cursor_utc": 1670311107,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "all:MO-654DE",
+      "all:MO-654DE review"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1kjhhje",
+    "url": "https://www.reddit.com/r/cableadvice/comments/1kjhhje/how_do_i_get_this_to_work_in_the_uk/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "How do I get this to work in the UK? 🇬🇧",
+    "subreddit": "cableadvice",
+    "thread_id": "1kjhhje",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1747184812,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "all:MO-654DE"
+    ],
+    "content_hash": "7793a6628130dca9"
+  },
+  {
+    "id": "reddit:1vfry4u",
+    "url": "https://www.reddit.com/r/sewing/comments/1vfry4u/industrial_or_home_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Industrial or Home Serger",
+    "subreddit": "sewing",
+    "thread_id": "1vfry4u",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1786336757,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "8aa484882f83f269"
+  },
+  {
+    "id": "reddit:1jc60yp",
+    "url": "https://www.reddit.com/r/sewing/comments/1jc60yp/juki_serger_issues/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki serger issues",
+    "subreddit": "sewing",
+    "thread_id": "1jc60yp",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1742141513,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "d3ee9de7a594d464"
+  },
+  {
+    "id": "reddit:bmog4w",
+    "url": "https://www.reddit.com/r/sewing/comments/bmog4w/new_serger_threading_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "New serger threading help",
+    "subreddit": "sewing",
+    "thread_id": "bmog4w",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1557510316,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "ecccee2c80cdea5e"
+  },
+  {
+    "id": "reddit:ztf4l9",
+    "url": "https://www.reddit.com/r/sewing/comments/ztf4l9/overlocker_tension_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Overlocker tension help",
+    "subreddit": "sewing",
+    "thread_id": "ztf4l9",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1671840027,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "ed2f797ccc8170ed"
+  },
+  {
+    "id": "reddit:a9kabh",
+    "url": "https://www.reddit.com/r/sewing/comments/a9kabh/serger_suggestions_please/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger suggestions, please.",
+    "subreddit": "sewing",
+    "thread_id": "a9kabh",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1545970218,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "d58631a3be489b9a"
+  },
+  {
+    "id": "reddit:1c1z0u9",
+    "url": "https://www.reddit.com/r/sewing/comments/1c1z0u9/new_juki_serger_recommendedations/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "New Juki (?) serger recommendedations",
+    "subreddit": "sewing",
+    "thread_id": "1c1z0u9",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1712912036,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "b7b3e12d5aa87f84"
+  },
+  {
+    "id": "reddit:12z8xhl",
+    "url": "https://www.reddit.com/r/sewing/comments/12z8xhl/recommend_serger_machines_for_costume_making/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Recommend Serger Machines for Costume Making",
+    "subreddit": "sewing",
+    "thread_id": "12z8xhl",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1682558907,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "29f26f2c9844165c"
+  },
+  {
+    "id": "reddit:yzwkpl",
+    "url": "https://www.reddit.com/r/sewing/comments/yzwkpl/serger_purchase_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger purchase help",
+    "subreddit": "sewing",
+    "thread_id": "yzwkpl",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1668959332,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "e7b417c2d7be98b0"
+  },
+  {
+    "id": "reddit:7zi577",
+    "url": "https://www.reddit.com/r/sewing/comments/7zi577/wifes_birthday_is_coming_up/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Wife's birthday is coming up!",
+    "subreddit": "sewing",
+    "thread_id": "7zi577",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1519438346,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "e87911fc4c0b26de"
+  },
+  {
+    "id": "reddit:1cetinb",
+    "url": "https://www.reddit.com/r/sewing/comments/1cetinb/just_got_a_babylock_evolution_what_do_i_do_to_get/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Just got a Babylock Evolution! What do I do to get used to so many option?",
+    "subreddit": "sewing",
+    "thread_id": "1cetinb",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1714270727,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewing:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewing:MO-654DE"
+    ],
+    "content_hash": "7307fc051cd6bfc7"
+  },
+  {
+    "id": "reddit:usfyvk",
+    "url": "https://www.reddit.com/r/myog/comments/usfyvk/sewing_machine_advice/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing machine advice",
+    "subreddit": "myog",
+    "thread_id": "usfyvk",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1652915496,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/myog:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/myog:MO-654DE"
+    ],
+    "content_hash": "6247f06e421f2361"
+  },
+  {
+    "id": "reddit:1vr1hvh",
+    "url": "https://www.reddit.com/r/VintageSewingMachines/comments/1vr1hvh/advice_on_making_the_most_of_my_kenmore_1581247/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Advice on making the most of my Kenmore 158.1247",
+    "subreddit": "VintageSewingMachines",
+    "thread_id": "1vr1hvh",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1787090965,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "all:MO-654DE"
+    ],
+    "content_hash": "932dde274acc7949"
+  },
+  {
+    "id": "reddit:1qz5sad",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1qz5sad/my_first_overlocker_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "My first overlocker machine✨️",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1qz5sad",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1770581062,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/SewingForBeginners:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/SewingForBeginners:MO-654DE"
+    ],
+    "content_hash": "4e8bb6297189539c"
+  },
+  {
+    "id": "reddit:mkqgqo",
+    "url": "https://www.reddit.com/r/sewhelp/comments/mkqgqo/walking_foot_for_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Walking foot for serger?",
+    "subreddit": "sewhelp",
+    "thread_id": "mkqgqo",
+    "first_seen": "2026-10-01T14:19:35.722Z",
+    "last_fetched": "2026-10-01T14:19:35.722Z",
+    "status": "ok",
+    "cursor_utc": 1617657577,
+    "discovered_by": [
+      "all:Juki MO-654DE",
+      "r/sewhelp:Juki MO-654DE",
+      "all:MO-654DE",
+      "r/sewhelp:MO-654DE"
+    ],
+    "content_hash": "83bfe043fd1f483b"
+  }
+]

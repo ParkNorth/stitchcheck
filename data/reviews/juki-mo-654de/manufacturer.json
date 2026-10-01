@@ -1,0 +1,175 @@
+{
+  "slug": "juki-mo-654de",
+  "collected": "2026-10-01",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/juki-mo-654de.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "juki-page",
+      "url": "https://www.jukihome.com/products/serging/mo-654de.html",
+      "type": "product page",
+      "fetched": "2026-10-01",
+      "note": "Specifications, accessories, suggested retail price"
+    },
+    {
+      "id": "juki-manual",
+      "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_unlocked_1.pdf",
+      "type": "instruction manual (PDF, 36 pages, 220-240V edition)",
+      "fetched": "2026-10-01",
+      "note": "Specifications on p33 (printed) / p34 of PDF; no warranty terms in the manual, which refers to a separate warranty card"
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "Max. 1,500 spm",
+      "source": "juki-page",
+      "vs_spec": "confirms",
+      "spec_value": 1500,
+      "site": {
+        "label": "Speed",
+        "juki": "1,500 stitches per minute (page and manual).",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-654de.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "threads",
+      "value": "2/3/4 threads",
+      "source": "juki-page",
+      "vs_spec": "confirms",
+      "spec_value": "2, 3 or 4 thread; 2 needles"
+    },
+    {
+      "field": "differentialFeed",
+      "value": "0.7 to 2.0 ratio",
+      "source": "juki-page",
+      "vs_spec": "confirms",
+      "spec_value": "0.7 to 2.0, external dial on right side",
+      "site": {
+        "label": "Differential feed",
+        "juki": "0.7 to 2.0 ratio, dial on the right.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-654de.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "weightLb",
+      "value": "15.5 lb (page); 7.0 kg = 15.4 lb (manual)",
+      "source": "juki-page",
+      "vs_spec": "contradicts",
+      "spec_value": 15.0,
+      "note": "Our 15.0 lb was flagged [verify]; Juki's page says 15.5 lb and the manual 7.0 kg.",
+      "site": {
+        "label": "Weight",
+        "juki": "15.5 lb on Juki's page; the manual says 7.0 kg (15.4 lb).",
+        "others": "Dealer copy said just over 15 pounds.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-654de.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "12.5 W x 13.5 H x 7.7 D in (page); 270 W x 345 D x 295 H mm = 10.6 x 13.6 x 11.6 in (manual)",
+      "source": "juki-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null. Juki's own page and manual disagree: the page depth is 7.7 in, the manual 345 mm D (13.6 in) with a 295 mm height. Treat as soft and list in conflicts.",
+      "site": {
+        "label": "Size",
+        "juki": "Juki's page: 12.5 x 13.5 x 7.7 in. Manual: 270 x 345 x 295 mm.",
+        "others": "Not checked at dealers.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-654de.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchWidthMm",
+      "value": "Max overlock width 6 mm (page); needles 6 mm left, 4 mm right, 2 mm rolled hem (manual)",
+      "source": "juki-manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "Max 4 mm (page); 1 to 4 mm, standard 2.5 mm (manual)",
+      "source": "juki-manual",
+      "vs_spec": "confirms",
+      "spec_value": "Up to 4 (0.2 in)"
+    },
+    {
+      "field": "presserFootLift",
+      "value": "5 mm (0.2 in)",
+      "source": "juki-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "needleSystem",
+      "value": "Household HAx1 #11 to 14 (page); 130/705H (manual)",
+      "source": "juki-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null. HAx1 and 130/705H are the same household flat-shank family."
+    },
+    {
+      "field": "includedFeet",
+      "value": "Standard presser foot, foot controller, lower knife, 2/3 thread converter, nets, spool caps, needle threader, tools, oiler, dust cover",
+      "source": "juki-page",
+      "vs_spec": "adds",
+      "spec_value": "Multipurpose presser foot (standard); spare lower knife; 4 spool caps",
+      "note": "Page also lists a needle threader and the 2/3 thread converter as standard."
+    },
+    {
+      "field": "msrp",
+      "value": "Suggested retail price $1,399.00 USD",
+      "source": "juki-page",
+      "vs_spec": "contradicts",
+      "spec_value": "399.99 (dealer variable, Michaels)",
+      "note": "Juki publishes $1,399 MSRP and directs buyers to dealers; Amazon lists $599 (Pearl Line bundle) and Michaels $399.99 to $499. Price is a band, not a figure.",
+      "site": {
+        "label": "Price",
+        "juki": "Suggested retail $1,399; contact a dealer for pricing.",
+        "others": "Amazon showed $599 for a Pearl Line bundle; Michaels $399.99 to $499.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-654de.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "threadingSystem",
+      "value": "Color-coded threading guides; lower looper threader that disengages; 1-rotation tension dials",
+      "source": "juki-page",
+      "vs_spec": "confirms",
+      "spec_value": "Manual lay-in with color-coded guides; front cover opens for looper access; built-in 2-thread converter",
+      "note": "Marketing wording ('breeze', 'super easy') is a claim; quote, do not state as fact."
+    }
+  ]
+}

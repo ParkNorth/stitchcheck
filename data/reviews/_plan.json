@@ -382,5 +382,10 @@
       "tier": 2
     }
   },
-  "signoffs": {}
+  "signoffs": {
+    "juki-mo-654de": {
+      "by": "Jeremy",
+      "on": "2026-10-01"
+    }
+  }
 }
