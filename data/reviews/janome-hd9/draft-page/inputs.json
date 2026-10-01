@@ -1,0 +1,679 @@
+{
+  "slug": "janome-hd9",
+  "today": "2026-10-01",
+  "rules": "AGENTS.md rules 1 to 12 apply: spec-check not field-test, owner evidence labelled, paraphrase and attribute, no em or en dashes, never invent a spec, claims quoted not asserted, every spec sourced, model name is not a spec, conflicts listed, price bands not live prices.",
+  "spec": {
+    "slug": "janome-hd9",
+    "brand": "Janome",
+    "model": "HD9 Professional",
+    "series": "HD",
+    "type": "mechanical",
+    "industrial": false,
+    "jobs": [
+      "heavy-duty",
+      "quilting"
+    ],
+    "manufacturerUrl": "https://www.janome.com/product/hd9-professional/",
+    "retailerUrl": "https://www.sewingmachinesplus.com/HD9-2.php",
+    "priceUsdSeen": 2099,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Village Sewing",
+    "specs": {
+      "stitchTypes": {
+        "value": "Straight stitch only, single needle lockstitch",
+        "source": "https://www.janome.com/product/hd9-professional/"
+      },
+      "stitchCount": {
+        "value": 1,
+        "source": "https://www.janome.com/product/hd9-professional/"
+      },
+      "maxSpm": {
+        "value": 1600,
+        "source": "https://www.janome.com/product/hd9-professional/"
+      },
+      "threads": {
+        "value": null,
+        "source": null
+      },
+      "differentialFeed": {
+        "value": null,
+        "source": null
+      },
+      "throatIn": {
+        "value": null,
+        "source": null
+      },
+      "needleSystem": {
+        "value": "HLx5 (flat shank), per dealer copy",
+        "source": "https://www.janomesewingcentre.com.au/shop/sewing-machines/specialty-machines/hd9-qc-professional/"
+      },
+      "presserFootLift": {
+        "value": "Knee lifter included; presser foot pressure adjustable up to 11 lb",
+        "source": "https://www.janome.com/product/hd9-professional/"
+      },
+      "threadTrimmer": {
+        "value": null,
+        "source": null
+      },
+      "feedSystem": {
+        "value": null,
+        "source": null
+      },
+      "buttonhole": {
+        "value": null,
+        "source": null
+      },
+      "motor": {
+        "value": null,
+        "source": null
+      },
+      "frame": {
+        "value": null,
+        "source": null
+      },
+      "weightLb": {
+        "value": 32,
+        "source": "https://www.janome.co.uk/model-hd9"
+      },
+      "dimensionsIn": {
+        "value": "19.6 x 8.6 x 13.3 (from 498 x 218 x 338 mm)",
+        "source": "https://www.janome.co.uk/model-hd9"
+      },
+      "includedFeet": {
+        "value": "Hemmer foot, cloth guide, knee lifter, jumbo bobbins, spool cap and holder, screwdrivers, lint brush, needles, accessory box, instruction book",
+        "source": "https://www.manualslib.com/manual/2743859/Janome-Hd9.html"
+      },
+      "warrantyUs": {
+        "value": "25 yr materials and workmanship, 5 yr electrical components, 1 yr labor (Janome America statement)",
+        "source": "https://www.janome.com/support/warranty/"
+      },
+      "bobbin": {
+        "value": "Side-loading jumbo bobbin, stated to hold 1.4x a standard bobbin; V2 uses a different bobbin from V1",
+        "source": "https://www.janome.com/product/hd9-professional/"
+      },
+      "workspaceIn": {
+        "value": "Nearly 9 x 6 in to the right of the needle (manufacturer wording)",
+        "source": "https://www.janome.com/product/hd9-professional/"
+      },
+      "bearings": {
+        "value": "Eight enclosed ball bearings in the main shaft",
+        "source": "https://www.janome.com/product/hd9-professional/"
+      }
+    },
+    "claims": [
+      "\"Professional\" is the model name suffix, not a rating (manufacturer product name)",
+      "\"Side-loading jumbo bobbin holds 1.4X more thread than a standard bobbin\" (manufacturer claim, product page)",
+      "\"Up to 11lbs of presser foot pressure\" (manufacturer claim, product page)",
+      "\"Sews effortlessly through multiple layers of leather and vinyl\" (dealer copy)",
+      "\"THE home machine for bag making\" (owner review wording, not a Janome claim)"
+    ],
+    "conflicts": [
+      "Throat: Janome writes 'nearly 9 x 6 in to the right of the needle'. 'Nearly' is not a figure and the 6 in is height, so throatIn is null and the wording sits in workspaceIn.",
+      "Weight: 14.5 kg on the Janome UK model page converts to 32.0 lb; no US-page figure captured. Catalog uses 32.0 lb flagged [verify].",
+      "Version: the original HD9 Professional (V1) is described by dealers as discontinued; the current SKU is HD9 V2 (and a Black Edition) with a different, smaller proprietary bobbin. V1 and V2 bobbins and bobbin cases are not interchangeable.",
+      "Price: Village Sewing $2,099 sale ($2,499 regular) vs Janome Junkies $2,399 vs PatternReview owners reporting $1,388 (2020) and $1,499 (2020). Catalog uses $2,099 as the current dealer figure.",
+      "Needle system: HLx5 appears only in dealer and owner copy, not in a captured Janome US snippet. Flagged [verify]."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "Owners describe the straight stitch as clean and consistent and buy the machine for thick layers such as jeans and bag hardware seams, calling it one step below an industrial.",
+        "tone": "positive",
+        "source": "https://sewing.patternreview.com/review/machine/6724"
+      },
+      {
+        "theme": "A 2022 owner review says the base machine needs several hundred dollars of Janome kits to match what a Brother comes with out of the box, and calls the kits overpriced.",
+        "tone": "negative",
+        "source": "https://sewing.patternreview.com/review/machine/7134"
+      },
+      {
+        "theme": "Buyers ask the forum how much dealer support matters for the HD9 and whether to buy online; replies stress the V1 vs V2 bobbin split when buying used.",
+        "tone": "mixed",
+        "source": "https://sewing.patternreview.com/SewingDiscussions/topic/110451"
+      },
+      {
+        "theme": "A bag-making blog with about a year of use reports the machine handles layered vinyl and foam and prefers it for topstitching with heavy thread.",
+        "tone": "positive",
+        "source": "https://www.applegreencottage.com/janome-hd9-sewing-machine-review/"
+      }
+    ],
+    "evidence": "owner",
+    "buyerQuestions": [
+      "Is the Janome HD9 an industrial sewing machine?",
+      "What is the difference between the Janome HD9 V1 and V2?",
+      "Does the Janome HD9 do zigzag?",
+      "What needles does the Janome HD9 use?",
+      "How much throat space does the Janome HD9 have?",
+      "Is the Janome HD9 good for quilting?",
+      "Janome HD9 vs Juki TL-2010Q, which is better?",
+      "Does the HD9 come with a walking foot?",
+      "How heavy is the Janome HD9?"
+    ],
+    "crossShop": [
+      {
+        "slug": "juki-tl-2010q",
+        "why": "The direct rival: 1,500 spm straight stitch with knee lifter and thread trimmer at a lower typical price."
+      },
+      {
+        "slug": "brother-pq1600s",
+        "why": "Another 1,500 spm straight-stitch quilting head, usually the cheapest of the three."
+      },
+      {
+        "slug": "juki-tl-2000qi",
+        "why": "Entry Juki straight stitch for buyers who want the class without the HD9 price."
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "sources": [
+      "https://www.janome.com/product/hd9-professional/",
+      "https://www.janome.com/product/hd9/",
+      "https://www.janome.co.uk/model-hd9",
+      "https://www.sewingmachinesplus.com/HD9-2.php",
+      "https://villagesewing.com/products/janome-hd9-professional",
+      "https://janomejunkies.com/product/janome-hd9-professional/",
+      "https://www.qualitysewing.com/products/janome-hd9-professional-sewing-and-quilting-machine",
+      "https://www.janomesewingcentre.com.au/janome-hd9-qc-professional-vs-hd9-v2/",
+      "https://www.janomesewingcentre.com.au/shop/sewing-machines/specialty-machines/hd9-qc-professional/",
+      "https://www.janome.com/product/bobbin-hd9-v2/",
+      "https://www.manualslib.com/manual/2743859/Janome-Hd9.html",
+      "https://sewing.patternreview.com/review/machine/6724",
+      "https://sewing.patternreview.com/review/machine/6855",
+      "https://sewing.patternreview.com/review/machine/7134",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/110451",
+      "https://www.applegreencottage.com/janome-hd9-sewing-machine-review/",
+      "https://janomelife.wpcomstaging.com/2019/03/20/machine-model-of-the-month-janome-professional-hd9/",
+      "https://www.janome.com/support/warranty/"
+    ],
+    "editorial": {
+      "verdict": "The HD9 Professional is Janome's answer to the Juki TL: a 1,600 spm straight-stitch head with a knee lifter and jumbo bobbin, priced several hundred dollars above the Juki.",
+      "whoFor": "Bag makers, quilters and heavy-fabric sewists who want one fast straight-stitch machine with dealer support and Janome's 25-year warranty.",
+      "skipIf": "You need zigzag or a buttonhole, you want the cheapest 1,500 spm class machine, or you are buying used without knowing whether it is a V1 or V2.",
+      "keySpec": "1,600 spm · straight stitch only · 11 lb foot pressure · 32 lb",
+      "strengths": [
+        "1,600 spm, the fastest published speed in the home straight-stitch class.",
+        "Knee lifter and a side-loading jumbo bobbin ship in the box.",
+        "Janome publishes 11 lb of presser foot pressure and eight enclosed main-shaft ball bearings."
+      ],
+      "weaknesses": [
+        "Straight stitch only, no zigzag or buttonhole.",
+        "Owners report the base box needs extra Janome kits, sold at several hundred dollars, for zipper and quilting work.",
+        "Janome's US page states the workspace as 'nearly 9 x 6 in', not a measured throat figure."
+      ],
+      "checks": [
+        {
+          "title": "V1 or V2",
+          "body": "The current machine is the HD9 V2 with a smaller proprietary jumbo bobbin and full bobbin case. V1 parts do not fit. Confirm which version the listing is before buying bobbins or a used unit."
+        },
+        {
+          "title": "What the box holds",
+          "body": "Standard accessories are a hemmer foot, cloth guide, knee lifter, bobbins and tools. Zipper, quilting and garment feet come in separately sold HD9 kits. Price the kit you need with the machine."
+        },
+        {
+          "title": "The Juki question",
+          "body": "The Juki TL-2010Q publishes 1,500 spm, a knee lifter and an automatic thread trimmer for less money. Decide whether the HD9's extra 100 spm and dealer support are worth the gap."
+        }
+      ],
+      "realCost": [
+        "HD9 quilting or garment accessory kit if you need feet beyond the hemmer",
+        "HLx5 needles once the system is confirmed from the manual",
+        "Extra V2 jumbo bobbins (V1 bobbins do not fit)",
+        "Extension table if the dealer bundle does not include one"
+      ],
+      "faqs": [
+        {
+          "q": "Is the Janome HD9 an industrial machine?",
+          "a": "No. Janome sells it as a home machine and owners describe it as one step below an industrial. It runs on a household plug with a portable foot control, not a table-mounted clutch or servo motor."
+        },
+        {
+          "q": "What is the difference between the HD9 V1 and V2?",
+          "a": "Dealers describe the V2 as the current version with a smaller proprietary jumbo bobbin and a full bobbin case; V1 used a larger MB-style bobbin with a half-moon case. The two bobbin systems are not interchangeable and the V1 is described as discontinued."
+        },
+        {
+          "q": "Does the HD9 sew zigzag or buttonholes?",
+          "a": "No. It is a straight-stitch-only lockstitch machine."
+        },
+        {
+          "q": "How much throat space does the HD9 have?",
+          "a": "Janome describes the workspace as nearly 9 x 6 in to the right of the needle. A measured needle-to-body figure is not published, so the catalog leaves it as verify."
+        },
+        {
+          "q": "How heavy is the HD9?",
+          "a": "Janome UK lists 14.5 kg, about 32 lb. The US page does not publish a weight in the results captured."
+        },
+        {
+          "q": "What needles does the HD9 take?",
+          "a": "Dealer and owner sources say HLx5 flat-shank needles. Confirm in the instruction book before buying."
+        },
+        {
+          "q": "Does the HD9 come with a walking foot?",
+          "a": "Not in the standard accessory list, which names a hemmer foot, cloth guide and knee lifter. Janome sells HD9 accessory kits separately."
+        },
+        {
+          "q": "How fast is the HD9?",
+          "a": "Janome publishes up to 1,600 stitches per minute."
+        },
+        {
+          "q": "What is the HD9 warranty?",
+          "a": "Janome America states 25 years on materials and workmanship, 5 years on electrical components and 1 year labor for home use."
+        }
+      ]
+    }
+  },
+  "manufacturer": {
+    "documents": [
+      {
+        "id": "janome-page",
+        "url": "https://www.janome.com/product/hd9-professional/",
+        "type": "product page (specifications)",
+        "fetched": "2026-10-01",
+        "note": "MSRP, specifications table"
+      },
+      {
+        "id": "janome-features",
+        "url": "https://www.janome.com/hd9-professional/",
+        "type": "feature page",
+        "fetched": "2026-10-01",
+        "note": "Marketing features; carries a noindex tag; disagrees with the product page on foot pressure and workspace"
+      },
+      {
+        "id": "janome-manual",
+        "url": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-hd9.pdf",
+        "type": "instruction manual (PDF, 52 pages)",
+        "fetched": "2026-10-01",
+        "note": "No specification table located in extractable text"
+      },
+      {
+        "id": "janome-warranty",
+        "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+        "type": "25-year warranty (generic PDF, OCR)",
+        "fetched": "2026-10-01",
+        "note": "OCR text; household use only; verify against the PDF"
+      }
+    ],
+    "facts": [
+      {
+        "field": "maxSpm",
+        "value": "Up to 1,600 stitches per minute",
+        "source": "janome-page",
+        "vs_spec": "confirms",
+        "spec_value": 1600,
+        "note": "'The fastest home-use machine on the market' is Janome's claim.",
+        "site": {
+          "label": "Speed",
+          "juki": "1,600 stitches per minute.",
+          "others": "Matches our spec.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Janome source",
+              "url": "https://www.janome.com/product/hd9-professional/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "stitchTypes",
+        "value": "Straight stitch only",
+        "source": "janome-page",
+        "vs_spec": "confirms",
+        "spec_value": "Straight stitch only, single needle lockstitch"
+      },
+      {
+        "field": "stitchLengthMm",
+        "value": "Maximum 6 mm (manual: 0 to 6 mm by dial)",
+        "source": "janome-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null."
+      },
+      {
+        "field": "weightLb",
+        "value": "32 lb (14.5 kg)",
+        "source": "janome-page",
+        "vs_spec": "confirms",
+        "spec_value": 32,
+        "site": {
+          "label": "Weight",
+          "juki": "32 lb (14.5 kg).",
+          "others": "Matches our spec.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Janome source",
+              "url": "https://www.janome.com/product/hd9-professional/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "dimensionsIn",
+        "value": "W 19.6 x D 7.2 x H 12.7 in",
+        "source": "janome-page",
+        "vs_spec": "contradicts",
+        "spec_value": "19.6 x 8.6 x 13.3 (from 498 x 218 x 338 mm)",
+        "note": "Janome's depth and height are smaller than our figures, which came from a non-maker source."
+      },
+      {
+        "field": "workspaceIn",
+        "value": "Product page table: W 8 in x H 5.5 in; feature page: nearly 9 x 6 in to the right of the needle",
+        "source": "janome-page",
+        "vs_spec": "contradicts",
+        "spec_value": "Nearly 9 x 6 in to the right of the needle (manufacturer wording)",
+        "note": "Janome's own pages disagree. Neither is a needle-to-arm throat figure (rule 11).",
+        "site": {
+          "label": "Workspace",
+          "juki": "Product page: 8 x 5.5 in. Feature page: nearly 9 x 6 in. Janome gives no needle-to-arm figure.",
+          "others": "Dealers repeat nearly 9 x 6 in.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Janome source",
+              "url": "https://www.janome.com/product/hd9-professional/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "presserFootPressure",
+        "value": "Product page: up to 11 lb with dial and indicator; feature page: up to 5 pounds",
+        "source": "janome-page",
+        "vs_spec": "contradicts",
+        "spec_value": "presser foot pressure adjustable up to 11 lb",
+        "note": "Janome's pages disagree."
+      },
+      {
+        "field": "presserFootLift",
+        "value": "Extra high presser foot lift; adjustable knee lift included; no height published",
+        "source": "janome-page",
+        "vs_spec": "adds",
+        "spec_value": "Knee lifter included"
+      },
+      {
+        "field": "needleSystem",
+        "value": "Industrial HLx5; manual chart sizes #14 (medium) and #14 to 18 (denim)",
+        "source": "janome-page",
+        "vs_spec": "confirms",
+        "spec_value": "HLx5 (flat shank), per dealer copy",
+        "note": "'Industrial' is Janome's wording for the needle."
+      },
+      {
+        "field": "feedSystem",
+        "value": "3-piece feed dog; no drop feed",
+        "source": "janome-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null."
+      },
+      {
+        "field": "threadTrimmer",
+        "value": "Automatic thread cutter with button and remote cutter socket",
+        "source": "janome-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null."
+      },
+      {
+        "field": "needleThreader",
+        "value": "Built-in",
+        "source": "janome-page",
+        "vs_spec": "adds",
+        "spec_value": null
+      },
+      {
+        "field": "bobbin",
+        "value": "Side-loading full rotary hook; jumbo bobbin, stated to hold 40% more thread (also written 1.4x)",
+        "source": "janome-page",
+        "vs_spec": "confirms",
+        "spec_value": "Side-loading jumbo bobbin, stated to hold 1.4x a standard bobbin"
+      },
+      {
+        "field": "motor",
+        "value": "No main motor wattage or type published; eight enclosed ball bearings in the main shaft; independent bobbin winder motor",
+        "source": "janome-page",
+        "vs_spec": "confirms",
+        "spec_value": null
+      },
+      {
+        "field": "frame",
+        "value": "'Heavy-duty, powder-coated, all-metal flatbed'",
+        "source": "janome-features",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Marketing wording; claim only."
+      },
+      {
+        "field": "lubrication",
+        "value": "Manual: oil with MO-70 sewing machine oil, daily if used often; feature page says closed bed design needs no lubrication holes",
+        "source": "janome-manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Maker pages differ in tone; follow the manual."
+      },
+      {
+        "field": "warrantyUs",
+        "value": "25 years limited, household use only; electronics 5 years, labor 1 year, 1 year if used commercially; void if not bought from an authorized US dealer (generic Janome PDF, OCR)",
+        "source": "janome-warranty",
+        "vs_spec": "confirms",
+        "spec_value": "25 yr materials and workmanship, 5 yr electrical components, 1 yr labor (Janome America statement)",
+        "note": "Generic Janome warranty, not HD9-specific. Household use only matters for a machine marketed for bags and leather.",
+        "site": {
+          "label": "Warranty",
+          "juki": "25 years limited for household use; 5 years electronics, 1 year labor; 1 year if used commercially; void if not bought from an authorized Janome dealer.",
+          "others": "Amazon listing repeats 25/2/1.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Janome source",
+              "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "msrp",
+        "value": "MSRP $2,499; see dealer for pricing",
+        "source": "janome-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Amazon showed $1,599."
+      },
+      {
+        "field": "variants",
+        "value": "HD9BE Black Edition (limited release, with extension table); an 'HD9 V2' bobbin accessory page exists but no V2 machine page; a retailer labels the base machine 'HD9 Professional V1'",
+        "source": "janome-features",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Amazon listings pool HD9, V2, V3 and HD8 under one rating."
+      },
+      {
+        "field": "claims",
+        "value": "'perfect blend of industrial strength and speed'; 'industrial pretension threading'; 'industrial hook bobbin'; 'sewing like a profession...'",
+        "source": "janome-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Marketing wording; claims only."
+      }
+    ]
+  },
+  "rollup": {
+    "status": "draft",
+    "method": {
+      "sources": 36,
+      "itemsCollected": 438,
+      "statements": 45,
+      "voices": 37,
+      "ownerVoices": 19,
+      "dateRange": [
+        2018,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 1,
+          "items": 0
+        },
+        "reddit": {
+          "sources": 35,
+          "items": 435
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.1 from 31 ratings is shared by six listings under one parent (HD9 white and black editions, V2, V3 and the HD8), so it is not specific to one variant."
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B0CMFY8VYY",
+        "pageRating": 4.1,
+        "pageCount": 31,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "lowRated": 0,
+        "sampled": "0 top reviews (0 US, 0 other countries) of 31 ratings"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Power on heavy fabric",
+        "voices": 12,
+        "ownerVoices": 6,
+        "sources": 9,
+        "polarity": {
+          "positive": 6,
+          "negative": 5,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "reddit": 12
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner of a second-hand HD9 used it for car seat upholstery and had to cap thread at Tex 90, wanting something thicker.",
+            "url": "https://www.reddit.com/r/sewing/comments/150b74h/recovering_car_seats/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner says Janome states the machine can use Tex 100 thread.",
+            "url": "https://www.reddit.com/r/sewing/comments/1jll2v7/needle_out_of_alignment_on_new_sewing_machine/mk4ochq/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "New owner shows a video of the HD9 sewing about ten layers of 15oz raw denim at the lowest speed range.",
+            "url": "https://www.reddit.com/r/sewing/comments/spi06j/new_machine_day_the_janome_hd9_is_a_domestic/hwfbsdd/"
+          }
+        ]
+      },
+      {
+        "label": "Feet and accessories",
+        "voices": 10,
+        "ownerVoices": 3,
+        "sources": 7,
+        "polarity": {
+          "positive": 4,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 3
+        },
+        "classVoices": {
+          "reddit": 10
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "positive",
+            "claim": "Owner uses both needle types on the HD9 and has never bent or broken an HLx5.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1kusrj2/question_about_needles_with_janome_hd9/ngogezw/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner says high shank buttonhole attachments can be used on the HD9.",
+            "url": "https://www.reddit.com/r/sewing/comments/1etti06/from_bags_to_clothes/lifl6ay/"
+          }
+        ]
+      },
+      {
+        "label": "Reliability and defects",
+        "voices": 8,
+        "ownerVoices": 6,
+        "sources": 7,
+        "polarity": {
+          "positive": 2,
+          "negative": 6,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "classVoices": {
+          "reddit": 8
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner reports the bobbin locking up once or twice per bobbin.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1wknv8d/hd9_bobbin_case_tension_problem/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "New owner reports the needle on a brand new HD9 sits off center relative to the presser foot and needle plate, rubbing thick thread.",
+            "url": "https://www.reddit.com/r/sewing/comments/1jll2v7/needle_out_of_alignment_on_new_sewing_machine/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner used the HD9 for garment and backpack repairs and zipper replacement and is happy with it.",
+            "url": "https://www.reddit.com/r/myog/comments/1lczu1t/seeking_experience_reports_semiindustrial/my4miun/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner says the HD9 keeps stitching through demanding work without struggling.",
+            "url": "https://www.reddit.com/r/sewing/comments/186266i/sewing_machine_advice/kb5cepk/"
+          }
+        ]
+      }
+    ],
+    "siblings": [],
+    "rivals": []
+  },
+  "checks": [
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 6 ASINs (B0H9RJ5YY5, B0CMFY8VYY, B0GP35VXFS, B09PRQS9YR, B0H9RJJH2J, B006K5TGY0); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"presserFootPressure\" but the spec's conflicts do not mention it"
+    }
+  ],
+  "editorNotes": {
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.1 from 31 ratings is shared by six listings under one parent (HD9 white and black editions, V2, V3 and the HD8), so it is not specific to one variant."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction."
+  },
+  "siteFieldsNow": "  \"janome-hd9\": {\n    score: 8.4,\n    scoredFor: \"heavy-duty\",\n    reason: \"Janome's answer to the Juki TL, at a higher price.\",\n    context: \"Straight-stitch head · in Heavy duty and Quilting hubs\",\n    alternatives: [\n      { slug: \"juki-tl-2010q\", label: \"Cheaper\", note: \"Same job, 1,500 spm, our pick.\" },\n      { slug: \"brother-pq1600s\", label: \"Budget\", note: \"1,500 spm straight stitch for far less.\" },\n      { slug: \"juki-tl-2000qi\", label: \"Value\", note: \"The TL without the trimmer button.\" },\n    ],\n    imageAlt: \"Janome HD9 Professional straight-stitch sewing machine\",\n    lastUpdated: \"2026-09-29\",\n  },",
+  "comparesNow": []
+}

@@ -755,7 +755,7 @@ const siteFields: Record<string, SiteFields> = {
   "janome-hd9": {
     score: 8.4,
     scoredFor: "heavy-duty",
-    reason: "Janome's answer to the Juki TL, at a higher price.",
+    reason: "Janome's straight-stitch-only head for heavy layers, sold through authorized dealers and Amazon.",
     context: "Straight-stitch head · in Heavy duty and Quilting hubs",
     alternatives: [
       { slug: "juki-tl-2010q", label: "Cheaper", note: "Same job, 1,500 spm, our pick." },
@@ -763,7 +763,9 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "juki-tl-2000qi", label: "Value", note: "The TL without the trimmer button." },
     ],
     imageAlt: "Janome HD9 Professional straight-stitch sewing machine",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-01",
+    verdict: "A 1,600 spm straight-stitch head with knee lift and thread cutter, with a household-use warranty to check against your job.",
+    specsVerified: "2026-10-01",
   },
   "janome-hd1000": {
     score: 7.0,
