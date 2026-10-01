@@ -1,0 +1,35 @@
+{
+  "slug": "juki-mo-654de",
+  "generated": "2026-10-01T14:23:38.880Z",
+  "counts": {
+    "error": 0,
+    "warn": 1
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: of 104 sampled reviews, 3 name this model, 1 name a sibling only, 100 name neither"
+    },
+    {
+      "level": "warn",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: only 3 of 104 reviews name this model while siblings exist; confirm the listing is not pooled"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 50, this 48, sibling 0, unclear 2"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "33 Reddit threads, 18 with the model in the title"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 42 voices (42 first-hand), 35 sources, status draft"
+    }
+  ]
+}
