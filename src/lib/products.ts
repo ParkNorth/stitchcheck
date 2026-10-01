@@ -400,16 +400,17 @@ const siteFields: Record<string, SiteFields> = {
   "juki-ddl-8700": {
     score: 8.4,
     scoredFor: "heavy-duty",
-    reason: "True industrial lockstitch for a home workshop, if you have the floor space.",
+    reason: "True industrial lockstitch for a home workshop, medium-weight on Juki's own variant list.",
     context: "Industrial lockstitch · in Heavy duty hub",
-    verdict: "A real factory lockstitch for a home workshop, if you have a table, a motor and the floor space.",
+    verdict: "A real factory lockstitch for a home workshop, if you have a table, a motor and the floor space; Juki classes the base model as medium-weight.",
     keySpec: "5,500 spm · industrial lockstitch · table-mounted",
     alternatives: [
       { slug: "juki-tl-2010q", label: "Portable", note: "Fast straight stitch that lives on a table." },
       { slug: "janome-hd3000", label: "Needs zigzag", note: "Domestic, full stitch set." },
     ],
     imageAlt: "Juki DDL-8700 industrial lockstitch sewing machine head",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-01",
+    specsVerified: "2026-10-01",
   },
   // ---------------------------------------------------------------- Juki MO
   "juki-mo-654de": {

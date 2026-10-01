@@ -1,6 +1,6 @@
 {
   "slug": "juki-ddl-8700",
-  "generated": "2026-10-01T14:35:37.806Z",
+  "generated": "2026-10-01T14:38:34.961Z",
   "counts": {
     "error": 0,
     "warn": 1
@@ -9,12 +9,12 @@
     {
       "level": "info",
       "id": "pooled-listing",
-      "message": "sewingmachinesplus.com: of 62 sampled reviews, 4 name this model, 0 name a sibling only, 58 name neither"
+      "message": "sewingmachinesplus.com: of 62 sampled reviews, 0 name this model, 0 name a sibling only, 62 name neither"
     },
     {
       "level": "warn",
       "id": "pooled-listing",
-      "message": "sewingmachinesplus.com: only 4 of 62 reviews name this model while siblings exist; confirm the listing is not pooled"
+      "message": "sewingmachinesplus.com: only 0 of 62 reviews name this model while siblings exist; confirm the listing is not pooled"
     },
     {
       "level": "info",
@@ -29,7 +29,7 @@
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 100 voices (68 first-hand), 62 sources, status draft"
+      "message": "evidence moderate, 100 voices (68 first-hand), 62 sources, status approved"
     }
   ]
 }

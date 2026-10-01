@@ -1,8 +1,8 @@
 {
   "slug": "juki-ddl-8700",
-  "status": "draft",
-  "reviewedBy": null,
-  "reviewedOn": null,
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+  "reviewedOn": "2026-10-01",
   "generated": "2026-10-01",
   "method": {
     "sources": 62,
@@ -969,7 +969,7 @@
       "label": "Noise",
       "juki": "83.5 dB(A) at the workstation at 5,000 sti/min (manual).",
       "others": "Owners describe noise and vibration; see the rollup.",
-      "status": "added",
+      "status": "unverified",
       "links": [
         {
           "label": "Juki DDL-8700 page",

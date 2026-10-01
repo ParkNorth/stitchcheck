@@ -3,14 +3,18 @@
     "presserFootLift": {
       "value": "13 mm maximum by knee lifter, 10 mm standard",
       "source": "https://juki.com/pub/media/wysiwyg/products/DDL-8700_manual.pdf"
+    },
+    "weightLb": {
+      "value": null,
+      "source": null
     }
   },
   "conflicts": [
-    "Weight: the spec holds 61.7 lb with a juki.com source, but Juki's product page and manual do not publish a weight, so treat 61.7 lb as a non-maker figure and [verify]. Table and motor add to it and are not published either.",
     "Speed: Juki's page gives 5,500 stitches per minute for the base DDL-8700 and 4,000 for the DDL-8700A and DDL-8700H; marketplace listings pool the variants under similar titles, so a quoted speed may belong to a different variant.",
     "Arm space: a review site states about 11 in from needle to arm; not found on juki.com in accessible snippets. Left null pending a Juki PDF check.",
     "Price: $999 (Walmart, servo and table, DIY assembly) vs $899.99 (second Walmart listing) vs $1,004.40 (DDL-8700-H variant). The Sewing Machines Plus listing has an assembled table but no price in the snippet.",
-    "Thread trimmer: Juki's page names none on the base DDL-8700; dealer and owner sources name the DDL-8700-7 as the trimmer variant, and listings often mix the two."
+    "Thread trimmer: Juki's page names none on the base DDL-8700; dealer and owner sources name the DDL-8700-7 as the trimmer variant, and listings often mix the two.",
+    "Weight: Juki's product page and manual do not publish a weight, so it shows as [verify]. A 61.7 lb figure circulates in non-maker sources and is not used."
   ],
   "claims": [
     "\"High-speed, 1-needle, Lockstitch Machine\" (manufacturer description, juki.com)",
@@ -43,7 +47,7 @@
     "verdict": "Straight-stitch industrial head that Juki classes as medium-weight: owners praise the build, but it needs a table, a motor and floor space, and heavy leather is -H territory.",
     "whoFor": "Bag makers, gear sewers and small production shops who sew straight seams all day and want speed, a knee lift and an oil-bath hook.",
     "skipIf": "You need a portable machine, any stitch besides straight, or you expect it to sew heavy leather; Juki positions the DDL-8700H variant for heavy weight.",
-    "keySpec": "5,500 spm (base) · straight stitch · DBx1 needle · table + motor required",
+    "keySpec": "5,500 spm (base) \u00b7 straight stitch \u00b7 DBx1 needle \u00b7 table + motor required",
     "strengths": [
       "Owners report solid build and smooth running, with 6 of 7 build-quality voices positive.",
       "Retailer reviewers often call it quiet; Juki's manual gives 83.5 dB(A) at 5,000 sti/min, a maker figure on paper.",

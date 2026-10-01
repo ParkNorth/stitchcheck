@@ -124,6 +124,7 @@ function check(slug: string) {
   if (roll) {
     const total = Object.values<any>(roll.method?.byClass ?? {}).reduce((x: number, v: any) => x + v.items, 0) || 1;
     const redditShare = (roll.method?.byClass?.reddit?.items ?? 0) / total;
+    for (const f of man?.facts ?? []) if (f.site && !["confirmed", "differs", "unverified", "dealer only"].includes(f.site.status)) add("error", "config", `manufacturer fact ${f.field}: site.status "${f.site.status}" is not one of confirmed, differs, unverified, dealer only`);
     if (redditShare > 0.8 && !roll.ownerNote) add("error", "owner-note", `${Math.round(redditShare * 100)}% of items are Reddit and rollup has no ownerNote (editor.json ownerNote)`);
     if (roll.ratings?.some((r: any) => r.sampled) && !(roll.notes ?? []).some((n: string) => /sampled/i.test(n))) add("warn", "owner-note", "a retailer source is sampled but notes do not say so");
     add("info", "evidence", `evidence ${roll.method?.evidence}, ${roll.method?.voices} voices (${roll.method?.ownerVoices} first-hand), ${roll.method?.sources} sources, status ${roll.status}`);
