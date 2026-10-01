@@ -26,3 +26,4 @@ cloudflare-env.d.ts
 /data/reviews/*/cache/
 /data/reviews/*/reviews.jsonl
 /data/reviews/*/claims-work/
+/reports/

@@ -24,7 +24,12 @@
     "reviews:page": "tsx scripts/reviews-page.ts",
     "reviews:claims": "tsx scripts/reviews-claims.ts",
     "reviews:rollup": "tsx scripts/reviews-rollup.ts",
-    "reviews:walmart": "tsx scripts/reviews-walmart.ts"
+    "reviews:walmart": "tsx scripts/reviews-walmart.ts",
+    "reviews:bootstrap": "tsx scripts/reviews-bootstrap.ts",
+    "reviews:plan": "tsx scripts/reviews-plan.ts",
+    "reviews:checks": "tsx scripts/reviews-checks.ts",
+    "reviews:amazon": "tsx scripts/reviews-amazon.ts",
+    "reviews:sheet": "tsx scripts/reviews-sheet.ts"
   },
   "dependencies": {
     "@opennextjs/cloudflare": "^1.20.2",

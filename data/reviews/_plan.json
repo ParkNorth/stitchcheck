@@ -1,0 +1,341 @@
+{
+  "generated": "2026-10-01",
+  "note": "Tier and wave assignments from traffic potential in docs/research/_keywords.md. Edit by hand; `init` keeps signoffs.",
+  "families": {
+    "juki-sergers": [
+      "juki-mo-654de",
+      "juki-mo-644d",
+      "juki-mo-1000"
+    ],
+    "juki-industrial": [
+      "juki-ddl-8700",
+      "juki-ddl-5550",
+      "juki-dnu-1541s"
+    ],
+    "singer-hd": [
+      "singer-4452",
+      "singer-4432",
+      "singer-4423",
+      "singer-4411",
+      "singer-hd6600c",
+      "singer-hd6700c"
+    ],
+    "janome-hd": [
+      "janome-hd9",
+      "janome-hd1000",
+      "janome-hd3000",
+      "janome-hd5000"
+    ],
+    "janome-other": [
+      "janome-mc6650",
+      "janome-8002d",
+      "janome-coverpro-2000cpx"
+    ],
+    "juki-tl": [
+      "juki-tl-2010q",
+      "juki-tl-2000qi",
+      "juki-tl-18qvp"
+    ],
+    "brother": [
+      "brother-1034d",
+      "brother-1034dx",
+      "brother-st371hd",
+      "brother-1634d",
+      "brother-2340cv",
+      "brother-pq1600s",
+      "brother-cs7000x"
+    ],
+    "babylock": [
+      "babylock-imagine",
+      "babylock-vibrant",
+      "babylock-victory"
+    ],
+    "bernina": [
+      "bernina-1008",
+      "bernina-570-qe",
+      "bernina-l-850"
+    ],
+    "longarm": [
+      "handi-quilter-moxie",
+      "handi-quilter-amara",
+      "handi-quilter-sweet-sixteen",
+      "grace-qnique-15r",
+      "grace-qnique-19x"
+    ],
+    "singer-sergers": [
+      "singer-14cg754",
+      "singer-14hd854",
+      "singer-14t968dc"
+    ],
+    "juki-computerized": [
+      "juki-hzl-f600",
+      "juki-hzl-f300"
+    ]
+  },
+  "tiers": {
+    "0": [
+      "babylock-imagine",
+      "babylock-vibrant",
+      "babylock-victory",
+      "bernina-1008",
+      "bernina-570-qe",
+      "bernina-l-850",
+      "brother-1634d",
+      "brother-2340cv",
+      "brother-cs7000x",
+      "brother-pq1600s",
+      "brother-st371hd",
+      "grace-qnique-15r",
+      "grace-qnique-19x",
+      "handi-quilter-amara",
+      "handi-quilter-moxie",
+      "handi-quilter-sweet-sixteen",
+      "janome-8002d",
+      "janome-coverpro-2000cpx",
+      "janome-hd1000",
+      "janome-hd3000",
+      "janome-hd5000",
+      "janome-hd9",
+      "janome-mc6650",
+      "juki-ddl-5550",
+      "juki-ddl-8700",
+      "juki-dnu-1541s",
+      "juki-hzl-f300",
+      "juki-hzl-f600",
+      "juki-mo-1000",
+      "juki-mo-644d",
+      "juki-mo-654de",
+      "juki-tl-18qvp",
+      "juki-tl-2000qi",
+      "singer-14cg754",
+      "singer-14hd854",
+      "singer-14t968dc",
+      "singer-4411",
+      "singer-4423",
+      "singer-4432",
+      "singer-4452",
+      "singer-hd6600c",
+      "singer-hd6700c"
+    ],
+    "1": [
+      "juki-mo-654de",
+      "juki-ddl-8700",
+      "singer-4452",
+      "singer-hd6600c",
+      "janome-mc6650",
+      "bernina-1008",
+      "janome-hd9",
+      "babylock-imagine",
+      "janome-hd1000",
+      "singer-4432",
+      "babylock-vibrant",
+      "juki-tl-18qvp"
+    ],
+    "2": [
+      "juki-tl-2000qi",
+      "juki-dnu-1541s",
+      "singer-14cg754",
+      "singer-4411",
+      "handi-quilter-moxie",
+      "janome-hd3000",
+      "janome-hd5000",
+      "singer-hd6700c",
+      "juki-hzl-f600",
+      "singer-4423",
+      "brother-st371hd",
+      "handi-quilter-amara",
+      "brother-1634d",
+      "janome-8002d",
+      "juki-mo-1000",
+      "juki-hzl-f300"
+    ],
+    "done": [
+      "juki-tl-2010q",
+      "brother-1034d",
+      "brother-1034dx"
+    ]
+  },
+  "models": {
+    "babylock-imagine": {
+      "family": "babylock",
+      "tier": 1
+    },
+    "babylock-vibrant": {
+      "family": "babylock",
+      "tier": 1
+    },
+    "babylock-victory": {
+      "family": "babylock",
+      "tier": 3
+    },
+    "bernina-1008": {
+      "family": "bernina",
+      "tier": 1
+    },
+    "bernina-570-qe": {
+      "family": "bernina",
+      "tier": 3
+    },
+    "bernina-l-850": {
+      "family": "bernina",
+      "tier": 3
+    },
+    "brother-1034d": {
+      "family": "brother",
+      "tier": "done"
+    },
+    "brother-1034dx": {
+      "family": "brother",
+      "tier": "done"
+    },
+    "brother-1634d": {
+      "family": "brother",
+      "tier": 2
+    },
+    "brother-2340cv": {
+      "family": "brother",
+      "tier": 3
+    },
+    "brother-cs7000x": {
+      "family": "brother",
+      "tier": 3
+    },
+    "brother-pq1600s": {
+      "family": "brother",
+      "tier": 3
+    },
+    "brother-st371hd": {
+      "family": "brother",
+      "tier": 2
+    },
+    "grace-qnique-15r": {
+      "family": "longarm",
+      "tier": 3
+    },
+    "grace-qnique-19x": {
+      "family": "longarm",
+      "tier": 3
+    },
+    "handi-quilter-amara": {
+      "family": "longarm",
+      "tier": 2
+    },
+    "handi-quilter-moxie": {
+      "family": "longarm",
+      "tier": 2
+    },
+    "handi-quilter-sweet-sixteen": {
+      "family": "longarm",
+      "tier": 3
+    },
+    "janome-8002d": {
+      "family": "janome-other",
+      "tier": 2
+    },
+    "janome-coverpro-2000cpx": {
+      "family": "janome-other",
+      "tier": 3
+    },
+    "janome-hd1000": {
+      "family": "janome-hd",
+      "tier": 1
+    },
+    "janome-hd3000": {
+      "family": "janome-hd",
+      "tier": 2
+    },
+    "janome-hd5000": {
+      "family": "janome-hd",
+      "tier": 2
+    },
+    "janome-hd9": {
+      "family": "janome-hd",
+      "tier": 1
+    },
+    "janome-mc6650": {
+      "family": "janome-other",
+      "tier": 1
+    },
+    "juki-ddl-5550": {
+      "family": "juki-industrial",
+      "tier": 3
+    },
+    "juki-ddl-8700": {
+      "family": "juki-industrial",
+      "tier": 1
+    },
+    "juki-dnu-1541s": {
+      "family": "juki-industrial",
+      "tier": 2
+    },
+    "juki-hzl-f300": {
+      "family": "juki-computerized",
+      "tier": 2
+    },
+    "juki-hzl-f600": {
+      "family": "juki-computerized",
+      "tier": 2
+    },
+    "juki-mo-1000": {
+      "family": "juki-sergers",
+      "tier": 2
+    },
+    "juki-mo-644d": {
+      "family": "juki-sergers",
+      "tier": 3
+    },
+    "juki-mo-654de": {
+      "family": "juki-sergers",
+      "tier": 1
+    },
+    "juki-tl-18qvp": {
+      "family": "juki-tl",
+      "tier": 1
+    },
+    "juki-tl-2000qi": {
+      "family": "juki-tl",
+      "tier": 2
+    },
+    "juki-tl-2010q": {
+      "family": "juki-tl",
+      "tier": "done"
+    },
+    "singer-14cg754": {
+      "family": "singer-sergers",
+      "tier": 2
+    },
+    "singer-14hd854": {
+      "family": "singer-sergers",
+      "tier": 3
+    },
+    "singer-14t968dc": {
+      "family": "singer-sergers",
+      "tier": 3
+    },
+    "singer-4411": {
+      "family": "singer-hd",
+      "tier": 2
+    },
+    "singer-4423": {
+      "family": "singer-hd",
+      "tier": 2
+    },
+    "singer-4432": {
+      "family": "singer-hd",
+      "tier": 1
+    },
+    "singer-4452": {
+      "family": "singer-hd",
+      "tier": 1
+    },
+    "singer-hd6600c": {
+      "family": "singer-hd",
+      "tier": 1
+    },
+    "singer-hd6700c": {
+      "family": "singer-hd",
+      "tier": 2
+    }
+  },
+  "signoffs": {}
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "brother-1034dx",
+  "generated": "2026-10-01T13:40:04.321Z",
+  "counts": {
+    "error": 0,
+    "warn": 0
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "walmart.com: of 132 sampled reviews, 5 name this model, 8 name a sibling only, 119 name neither"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 270, this 169, sibling 38, unclear 63"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "84 Reddit threads, 32 with the model in the title"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 88 voices (75 first-hand), 88 sources, status approved"
+    }
+  ]
+}

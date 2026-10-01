@@ -1,0 +1,40 @@
+{
+  "slug": "brother-1034d",
+  "generated": "2026-10-01T13:40:04.313Z",
+  "counts": {
+    "error": 1,
+    "warn": 0
+  },
+  "items": [
+    {
+      "level": "error",
+      "id": "config",
+      "message": "editor.json missing \"scopeRules\""
+    },
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: of 55 sampled reviews, 6 name this model, 0 name a sibling only, 49 name neither"
+    },
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "walmart.com: of 117 sampled reviews, 18 name this model, 0 name a sibling only, 99 name neither"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 399, this 384, sibling 2, unclear 13"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "111 Reddit threads, 105 with the model in the title"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence strong, 256 voices (227 first-hand), 127 sources, status approved"
+    }
+  ]
+}

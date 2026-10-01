@@ -260,7 +260,12 @@ console.log(`Wrote ${path.relative(ROOT, OUT)} with ${files.length} entries.`);
       const f = path.join(REVIEWS_DIR, slug, "rollup.json");
       if (!fs.existsSync(f)) continue;
       const r = JSON.parse(fs.readFileSync(f, "utf8"));
-      if (r.status === "approved") rollups[slug] = cleanDeep(slim(r));
+      // Publication gate (data/reviews/_plan.json): an approved rollup ships only with a human sign-off, or when the
+      // model was published before the gate existed (plan.tiers.done). Unsigned work can sit on a branch safely.
+      const plan = fs.existsSync(path.join(REVIEWS_DIR, "_plan.json")) ? JSON.parse(fs.readFileSync(path.join(REVIEWS_DIR, "_plan.json"), "utf8")) : null;
+      const cleared = !plan || plan.signoffs?.[slug] || plan.tiers?.done?.includes(slug);
+      if (r.status === "approved" && cleared) rollups[slug] = cleanDeep(slim(r));
+      else if (r.status === "approved") console.log(`rollup ${slug}: approved but no sign-off in data/reviews/_plan.json, not compiled`);
     }
   }
   fs.writeFileSync(
