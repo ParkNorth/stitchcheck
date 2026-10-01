@@ -1,0 +1,2 @@
+
+2026-10-01 Tier 1 (supervised): Singer page + warranty page fetched (manual PDF link returned HTML, not parsed); Amazon B09ZGKJVZB 4.3/1122 (holiday bundle listing, 0 reviews returned); SMP 4.51/59; 56 Reddit threads. Claims 221 accepted, 4 rejected (177 spec: this 129, sibling 7, unclear 41); tags 177. SMP pooled warn reviewed: own product page, reviews rarely name the model. Gaps: Singer manual and warranty component PDFs not parsed; no Walmart/Michaels/Target reviews; sibling points are Reddit only.
