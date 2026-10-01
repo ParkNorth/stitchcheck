@@ -1,0 +1,750 @@
+[
+  {
+    "id": "web:12d4924ff2d5fdcc",
+    "url": "https://www.sewingmachinesplus.com/HD9-2.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-01T20:32:12.079Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-01T20:32:12.079Z",
+    "status": "thin",
+    "site_rating": null,
+    "site_review_count": 0,
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "web:6eb44f17d13752e0",
+    "url": "https://www.amazon.com/dp/B0CMFY8VYY",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-01T20:33:31.553Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-01T20:33:31.553Z",
+    "status": "ok",
+    "site_rating": 4.1,
+    "site_review_count": 31,
+    "asin": "B0CMFY8VYY",
+    "parent_asin": "B0HBCY6474",
+    "product_asins": [
+      "B0H9RJ5YY5",
+      "B0CMFY8VYY",
+      "B0GP35VXFS",
+      "B09PRQS9YR",
+      "B0H9RJJH2J",
+      "B006K5TGY0"
+    ],
+    "pooled_variations": true,
+    "sampled": "0 top reviews (0 US, 0 other countries) of 31 ratings",
+    "listing": {
+      "title": "Janome HD9 White: Sewing Machine",
+      "price_usd": 1599,
+      "best_sellers_rank": "#391,506 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #986 in Sewing Machines",
+      "details": {
+        "Model Number": "HD9",
+        "Warranty Description": "25 year limited warranty mechanical parts, 2 year limited warranty electrical parts, 1 year limited labor.",
+        "Included Components": "Standard Sewing foot, Hemmer Foot, Five Bobbins, Lint Brush, Spool cap, Thread Net, Spool Holder, Large Screwdriver, Small Screwdriver, Cloth Guide, Needles (HL x 5 - 14), Accessory Box, Oil, Knee Lifter, Instruction Book, Power Cord, Foot Controller, HD9 Sewing Machine",
+        "Manufacturer": "Janome",
+        "Part Number": "HD9",
+        "Color": "White",
+        "Material": "Metal",
+        "Item Dimensions D x W x H": "8.5\"D x 18.5\"W x 13.47\"H",
+        "Item Weight": "21 pounds"
+      }
+    }
+  },
+  {
+    "id": "reddit:18kzcgc",
+    "url": "https://www.reddit.com/r/sewing/comments/18kzcgc/juki_2010q_f600_or_janome_hd9_bernina_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki 2010Q, F600, or Janome HD9, Bernina? Help choosing a second machine",
+    "subreddit": "sewing",
+    "thread_id": "18kzcgc",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1704065087,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/sewing:Janome HD9 Professional"
+    ],
+    "content_hash": "bdf6d9d7e9c10f14"
+  },
+  {
+    "id": "reddit:spi06j",
+    "url": "https://www.reddit.com/r/sewing/comments/spi06j/new_machine_day_the_janome_hd9_is_a_domestic/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "New machine day! The Janome HD9 is a domestic monster. Video in comments.",
+    "subreddit": "sewing",
+    "thread_id": "spi06j",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1644699518,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/sewing:Janome HD9 Professional"
+    ],
+    "content_hash": "27f49a7771e3f303"
+  },
+  {
+    "id": "reddit:1nh8k0p",
+    "url": "https://www.reddit.com/r/myog/comments/1nh8k0p/machine_advice_janome_hd9_or_juki_1541/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Machine advice: Janome HD9 or JUKI 1541",
+    "subreddit": "myog",
+    "thread_id": "1nh8k0p",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1759094948,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/myog:Janome HD9 Professional"
+    ],
+    "content_hash": "bdeca4a1e3b7d797"
+  },
+  {
+    "id": "reddit:1mwkgso",
+    "url": "https://www.reddit.com/r/myog/comments/1mwkgso/semi_industrial_sewing_machine_for_bagmaking/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Semi industrial sewing machine for bagmaking - Brother PQ1600S or Janome HD9 ?",
+    "subreddit": "myog",
+    "thread_id": "1mwkgso",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1789010331,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/myog:Janome HD9 Professional"
+    ],
+    "content_hash": "110a839bc90f12f1"
+  },
+  {
+    "id": "reddit:1m4xbf8",
+    "url": "https://www.reddit.com/r/myog/comments/1m4xbf8/sewing_waxed_canvas_a_bit_of_leather_janome_hd9/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing waxed canvas + a bit of leather : Janome HD9 or Juki TL-2300 (which is a 2010q with a presser foot height adjuster)?",
+    "subreddit": "myog",
+    "thread_id": "1m4xbf8",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1760289554,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/myog:Janome HD9 Professional"
+    ],
+    "content_hash": "308ee12af8c2cecc"
+  },
+  {
+    "id": "reddit:1p1dp1z",
+    "url": "https://www.reddit.com/r/quilting/comments/1p1dp1z/janome_hd9_owners/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Janome hd9 owners",
+    "subreddit": "quilting",
+    "thread_id": "1p1dp1z",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1763638929,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/quilting:Janome HD9 Professional",
+      "r/quilting:HD9 Professional review"
+    ],
+    "content_hash": "b2829ee9769a6840"
+  },
+  {
+    "id": "reddit:1maaxp1",
+    "url": "https://www.reddit.com/r/sewing/comments/1maaxp1/janome_hd9_be_please_tell_me_its_a_good_idea/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "janome hd9 BE - please tell me it's a good idea",
+    "subreddit": "sewing",
+    "thread_id": "1maaxp1",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1753769415,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/sewing:Janome HD9 Professional"
+    ],
+    "content_hash": "88cd5dc5399b5336"
+  },
+  {
+    "id": "reddit:1kusrj2",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1kusrj2/question_about_needles_with_janome_hd9/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Question about needles with Janome HD9.",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1kusrj2",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1759079123,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/SewingForBeginners:Janome HD9 Professional"
+    ],
+    "content_hash": "58ebb30619475c29"
+  },
+  {
+    "id": "reddit:1mx6m0r",
+    "url": "https://www.reddit.com/r/BagMaking/comments/1mx6m0r/semi_industrial_machine_janome_hd9_or_brother/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Semi industrial machine - Janome HD9 or Brother PQ1600s ?",
+    "subreddit": "BagMaking",
+    "thread_id": "1mx6m0r",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1756056772,
+    "discovered_by": [
+      "all:Janome HD9 Professional"
+    ],
+    "content_hash": "4dd31782b8e64bdf"
+  },
+  {
+    "id": "reddit:1b9e7q3",
+    "url": "https://www.reddit.com/r/Helldivers/comments/1b9e7q3/if_you_gotta_attack_the_devs_because_you_cant_win/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "If you gotta attack the devs because you can't win on HD9....",
+    "subreddit": "Helldivers",
+    "thread_id": "1b9e7q3",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1709898211,
+    "discovered_by": [
+      "all:HD9 Professional"
+    ],
+    "content_hash": "799923cf94c35f39"
+  },
+  {
+    "id": "reddit:1o4auhh",
+    "url": "https://www.reddit.com/r/myog/comments/1o4auhh/sailrite_lsz1_or_janome_hd9/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sailrite LSZ-1 or Janome HD9",
+    "subreddit": "myog",
+    "thread_id": "1o4auhh",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1760391979,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/myog:Janome HD9 Professional"
+    ],
+    "content_hash": "91b38760d7c2bdbe"
+  },
+  {
+    "id": "reddit:1jpfnr8",
+    "url": "https://www.reddit.com/r/sewing/comments/1jpfnr8/update_on_new_janome_hd9_with_need_out_of/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Update on New Janome HD9 with Need Out Of Alignment",
+    "subreddit": "sewing",
+    "thread_id": "1jpfnr8",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1743818955,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/sewing:Janome HD9 Professional"
+    ],
+    "content_hash": "59ed389ab5ecf54e"
+  },
+  {
+    "id": "reddit:1m4s7vx",
+    "url": "https://www.reddit.com/r/sewing/comments/1m4s7vx/janome_hd9_vs_juki_tl2300_presser_foot_height/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Janome HD9 vs Juki TL-2300 (presser foot height adjuster) for sewing waxed canvas + a bit of leather",
+    "subreddit": "sewing",
+    "thread_id": "1m4s7vx",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1753038284,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/sewing:Janome HD9 Professional",
+      "r/sewing:HD9 Professional vs"
+    ],
+    "content_hash": "a966921568fc00e8"
+  },
+  {
+    "id": "reddit:r41xcw",
+    "url": "https://www.reddit.com/r/sewing/comments/r41xcw/help_this_cord_has_appeared_from_inside_my_janome/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help! This cord has appeared from inside my Janome hd9. Does anyone know how or why?",
+    "subreddit": "sewing",
+    "thread_id": "r41xcw",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1638099391,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/sewing:Janome HD9 Professional"
+    ],
+    "content_hash": "58ec66c6d9be230d"
+  },
+  {
+    "id": "reddit:1mx6p3h",
+    "url": "https://www.reddit.com/r/quilting/comments/1mx6p3h/semi_industrial_machine_for_bag_making_janome_hd9/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Semi industrial machine for bag making - Janome HD9 or Brother PQ1600s ?",
+    "subreddit": "quilting",
+    "thread_id": "1mx6p3h",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1755924124,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/quilting:Janome HD9 Professional"
+    ],
+    "content_hash": "471be3d94f56a870"
+  },
+  {
+    "id": "reddit:1wknv8d",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1wknv8d/hd9_bobbin_case_tension_problem/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "HD9 Bobbin Case Tension Problem?",
+    "subreddit": "sewhelp",
+    "thread_id": "1wknv8d",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1789829249,
+    "discovered_by": [
+      "r/sewhelp:HD9 Professional problems"
+    ],
+    "content_hash": "51d646962fcf1be1"
+  },
+  {
+    "id": "reddit:1p49ozr",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1p49ozr/janome_hd9_professional_v2_or_juki_tl18/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Janome HD9 Professional V2 or Juki TL18",
+    "subreddit": "sewhelp",
+    "thread_id": "1p49ozr",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "thin",
+    "cursor_utc": 1763860428,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/sewhelp:Janome HD9 Professional",
+      "all:HD9 Professional",
+      "r/sewhelp:HD9 Professional",
+      "r/sewhelp:HD9 Professional review",
+      "r/sewhelp:HD9 Professional problems",
+      "r/sewhelp:HD9 Professional vs"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:g7y0w1",
+    "url": "https://www.reddit.com/r/myog/comments/g7y0w1/anyone_have_experience_with_the_janome_hd9/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Anyone have experience with the Janome HD9 Professional?",
+    "subreddit": "myog",
+    "thread_id": "g7y0w1",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "thin",
+    "cursor_utc": 1587837565,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/myog:Janome HD9 Professional",
+      "all:HD9 Professional",
+      "r/myog:HD9 Professional review",
+      "r/myog:HD9 Professional problems",
+      "r/myog:HD9 Professional vs"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1mx6mxn",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1mx6mxn/semi_industrial_machine_janome_hd9_or_brother/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Semi industrial machine - Janome HD9 or Brother PQ1600s ?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1mx6mxn",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "thin",
+    "cursor_utc": 1755869549,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/SewingForBeginners:Janome HD9 Professional"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1u3yxtk",
+    "url": "https://www.reddit.com/r/myog/comments/1u3yxtk/would_a_new_machine_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Would a new machine help?",
+    "subreddit": "myog",
+    "thread_id": "1u3yxtk",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1781548889,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/myog:Janome HD9 Professional",
+      "r/myog:HD9 Professional problems",
+      "r/myog:HD9 Professional vs"
+    ],
+    "content_hash": "3e1dcbb69476abf4"
+  },
+  {
+    "id": "reddit:1f0zkbv",
+    "url": "https://www.reddit.com/r/sewing/comments/1f0zkbv/i_am_upgrading_my_sewing_room_what_do_you_value/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "I am upgrading my sewing room - what do you value most?",
+    "subreddit": "sewing",
+    "thread_id": "1f0zkbv",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1724700582,
+    "discovered_by": [
+      "r/sewing:Janome HD9 Professional"
+    ],
+    "content_hash": "3605e3285be898ed"
+  },
+  {
+    "id": "reddit:150b74h",
+    "url": "https://www.reddit.com/r/sewing/comments/150b74h/recovering_car_seats/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Re-covering car seats",
+    "subreddit": "sewing",
+    "thread_id": "150b74h",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1689484845,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/sewing:Janome HD9 Professional"
+    ],
+    "content_hash": "0fc1e3a4d1142905"
+  },
+  {
+    "id": "reddit:1mwqf0x",
+    "url": "https://www.reddit.com/r/sewing/comments/1mwqf0x/straight_stitch_sewing_machine_metal_body/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Straight stitch sewing machine metal body",
+    "subreddit": "sewing",
+    "thread_id": "1mwqf0x",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1756212807,
+    "discovered_by": [
+      "r/sewing:Janome HD9 Professional"
+    ],
+    "content_hash": "bb8f83fd773cbff0"
+  },
+  {
+    "id": "reddit:11hzhg7",
+    "url": "https://www.reddit.com/r/quilting/comments/11hzhg7/juki_vs_janome/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki vs janome",
+    "subreddit": "quilting",
+    "thread_id": "11hzhg7",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1693184872,
+    "discovered_by": [
+      "r/quilting:Janome HD9 Professional",
+      "r/quilting:HD9 Professional vs"
+    ],
+    "content_hash": "544eb68190d7e54b"
+  },
+  {
+    "id": "reddit:1d0zdkn",
+    "url": "https://www.reddit.com/r/myogtacticalgear/comments/1d0zdkn/looking_for_a_new_bag_pouch_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Looking for a new bag &amp; pouch sewing machine ",
+    "subreddit": "myogtacticalgear",
+    "thread_id": "1d0zdkn",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1749564847,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "all:HD9 Professional"
+    ],
+    "content_hash": "3a118ef24279a4d7"
+  },
+  {
+    "id": "reddit:1to80hr",
+    "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1to80hr/taking_advantage/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Taking advantage?",
+    "subreddit": "SewingMachineEdu",
+    "thread_id": "1to80hr",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1779847301,
+    "discovered_by": [
+      "all:Janome HD9 Professional"
+    ],
+    "content_hash": "ec218b4da645f4d1"
+  },
+  {
+    "id": "reddit:1463u45",
+    "url": "https://www.reddit.com/r/ukraine/comments/1463u45/helppeople_update_10_june_pm_69_june_277_people/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Helppeople Update 10 June PM | 6-9 June 277 people evacuated 41 children",
+    "subreddit": "ukraine",
+    "thread_id": "1463u45",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1686424768,
+    "discovered_by": [
+      "all:HD9 Professional"
+    ],
+    "content_hash": "73e1fa9fe90f70a6"
+  },
+  {
+    "id": "reddit:1r7gg5d",
+    "url": "https://www.reddit.com/r/sewing/comments/1r7gg5d/juki_a4_questions/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki a4 questions",
+    "subreddit": "sewing",
+    "thread_id": "1r7gg5d",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1771638014,
+    "discovered_by": [
+      "r/sewing:Janome HD9 Professional"
+    ],
+    "content_hash": "39f7d807ee53fb54"
+  },
+  {
+    "id": "reddit:1jll2v7",
+    "url": "https://www.reddit.com/r/sewing/comments/1jll2v7/needle_out_of_alignment_on_new_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Needle out of Alignment on New Sewing Machine (Janome HD 9)",
+    "subreddit": "sewing",
+    "thread_id": "1jll2v7",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1743165693,
+    "discovered_by": [
+      "r/sewing:Janome HD9 Professional",
+      "r/sewing:HD9 Professional problems"
+    ],
+    "content_hash": "94d4ddb4e3d9645d"
+  },
+  {
+    "id": "reddit:1etti06",
+    "url": "https://www.reddit.com/r/sewing/comments/1etti06/from_bags_to_clothes/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "From Bags to Clothes ",
+    "subreddit": "sewing",
+    "thread_id": "1etti06",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1723874181,
+    "discovered_by": [
+      "r/sewing:Janome HD9 Professional"
+    ],
+    "content_hash": "e1f2bb7a4efbd5b2"
+  },
+  {
+    "id": "reddit:1lczu1t",
+    "url": "https://www.reddit.com/r/myog/comments/1lczu1t/seeking_experience_reports_semiindustrial/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Seeking experience reports: semi-industrial straight stitch machines",
+    "subreddit": "myog",
+    "thread_id": "1lczu1t",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1750186936,
+    "discovered_by": [
+      "r/myog:Janome HD9 Professional",
+      "r/myog:HD9 Professional review"
+    ],
+    "content_hash": "feb6600050f9d206"
+  },
+  {
+    "id": "reddit:15rcck9",
+    "url": "https://www.reddit.com/r/Boots/comments/15rcck9/what_sewing_machine_do_you_need_to_make_boots/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "What Sewing Machine Do You Need To make Boots?",
+    "subreddit": "Boots",
+    "thread_id": "15rcck9",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1692201862,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "all:HD9 Professional"
+    ],
+    "content_hash": "8ab4a23f72491deb"
+  },
+  {
+    "id": "reddit:186266i",
+    "url": "https://www.reddit.com/r/sewing/comments/186266i/sewing_machine_advice/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing Machine Advice",
+    "subreddit": "sewing",
+    "thread_id": "186266i",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1701293353,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/sewing:Janome HD9 Professional",
+      "all:HD9 Professional",
+      "r/sewing:HD9 Professional",
+      "r/sewing:HD9 Professional review",
+      "r/sewing:HD9 Professional problems",
+      "r/sewing:HD9 Professional vs"
+    ],
+    "content_hash": "349fbb70f20a0971"
+  },
+  {
+    "id": "reddit:1rdrgqz",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1rdrgqz/straight_stitch_or_new_allround_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Straight stitch or new all-round machine?",
+    "subreddit": "sewhelp",
+    "thread_id": "1rdrgqz",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1772082916,
+    "discovered_by": [
+      "r/sewhelp:Janome HD9 Professional"
+    ],
+    "content_hash": "36e84a1200421d40"
+  },
+  {
+    "id": "reddit:p9hazq",
+    "url": "https://www.reddit.com/r/autism/comments/p9hazq/noiseisolating_headphones/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Noise-isolating headphones",
+    "subreddit": "autism",
+    "thread_id": "p9hazq",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1629756323,
+    "discovered_by": [
+      "all:HD9 Professional"
+    ],
+    "content_hash": "b11d57981ed5b5e9"
+  },
+  {
+    "id": "reddit:1wdqwts",
+    "url": "https://www.reddit.com/r/sewing/comments/1wdqwts/grocery_bag_redo_with_interfacing/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Grocery bag redo with interfacing",
+    "subreddit": "sewing",
+    "thread_id": "1wdqwts",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1789177848,
+    "discovered_by": [
+      "all:Janome HD9 Professional",
+      "r/sewing:Janome HD9 Professional"
+    ],
+    "content_hash": "babd1650598c14b5"
+  },
+  {
+    "id": "reddit:1l4mpa7",
+    "url": "https://www.reddit.com/r/sewing/comments/1l4mpa7/new_machine_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "New machine help",
+    "subreddit": "sewing",
+    "thread_id": "1l4mpa7",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1749292267,
+    "discovered_by": [
+      "r/sewing:Janome HD9 Professional"
+    ],
+    "content_hash": "2b5bb78a638faef4"
+  },
+  {
+    "id": "reddit:9o2irv",
+    "url": "https://www.reddit.com/r/HeadphoneAdvice/comments/9o2irv/help_finding_the_correct_closed_back_alternative/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help finding the correct Closed Back Alternative to ISK HF-2010",
+    "subreddit": "HeadphoneAdvice",
+    "thread_id": "9o2irv",
+    "first_seen": "2026-10-01T20:33:31.849Z",
+    "last_fetched": "2026-10-01T20:33:31.849Z",
+    "status": "ok",
+    "cursor_utc": 1539611377,
+    "discovered_by": [
+      "all:HD9 Professional"
+    ],
+    "content_hash": "258e093ccd49c5d2"
+  }
+]

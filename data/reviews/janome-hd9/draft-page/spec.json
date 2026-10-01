@@ -1,0 +1,146 @@
+{
+  "specs": {
+    "presserFootLift": {
+      "value": "Extra high presser foot lift (height not published); adjustable knee lift included; foot pressure dial up to 11 lb on the product page (the feature page says up to 5 lb)",
+      "source": "https://www.janome.com/product/hd9-professional/"
+    },
+    "threadTrimmer": {
+      "value": "Automatic thread cutter with button and remote cutter socket",
+      "source": "https://www.janome.com/product/hd9-professional/"
+    },
+    "feedSystem": {
+      "value": "3-piece feed dog; no drop feed",
+      "source": "https://www.janome.com/product/hd9-professional/"
+    },
+    "dimensionsIn": {
+      "value": "19.6 x 7.2 x 12.7 (W x D x H, Janome US product page)",
+      "source": "https://www.janome.com/product/hd9-professional/"
+    },
+    "weightLb": {
+      "value": 32,
+      "source": "https://www.janome.com/product/hd9-professional/"
+    },
+    "needleSystem": {
+      "value": "HLx5 (Janome calls it an industrial needle); manual chart lists #14 for medium fabric and #14 to 18 for denim",
+      "source": "https://www.janome.com/product/hd9-professional/"
+    },
+    "workspaceIn": {
+      "value": "Janome's wording, not a needle-to-arm figure: 8 x 5.5 in on the product page table; nearly 9 x 6 in to the right of the needle on the feature page",
+      "source": "https://www.janome.com/product/hd9-professional/"
+    },
+    "warrantyUs": {
+      "value": "25 yr limited, household use only; 5 yr electronics, 1 yr labor; 1 yr if used commercially; void if not bought from an authorized US Janome dealer (generic Janome PDF, OCR text)",
+      "source": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+    }
+  },
+  "conflicts": [
+    "Workspace: Janome's product page table gives 8 x 5.5 in and its feature page says nearly 9 x 6 in to the right of the needle; neither is a needle-to-arm throat figure, so throatIn stays null.",
+    "Presser foot pressure: Janome's product page says up to 11 lb with a dial and indicator and its feature page says up to 5 pounds; the 11 lb figure is shown here as the product page value.",
+    "Dimensions: Janome's US product page gives 19.6 x 7.2 x 12.7 in; our earlier 19.6 x 8.6 x 13.3 in came from the Janome UK page and a non-maker source and is superseded.",
+    "Version: dealers describe the original HD9 Professional as V1 and mention a V2 with a different bobbin; Janome shows an HD9 V2 bobbin accessory page but no V2 machine page, and the Black Edition (HD9BE) is a separate limited release, so what V2 changes beyond the bobbin is not established.",
+    "Price: Janome lists $2,499 MSRP, Village Sewing showed $2,099 on 2026-09-29, and Amazon showed $1,599 on 2026-10-01 for the HD9 listing; older PatternReview owner posts report lower prices from 2020.",
+    "Warranty: the Janome PDF gives 5 years on electronics and 1 year labor, while the Amazon listing repeats 25/2/1; the Janome PDF is used here.",
+    "Bobbin capacity: Janome writes both 40% more thread and 1.4x a standard bobbin for the jumbo bobbin."
+  ],
+  "claims": [
+    "\"Professional\" is the model name suffix, not a rating (Janome product name)",
+    "\"The fastest home-use machine on the market\" (Janome claim)",
+    "\"Perfect blend of industrial strength and speed\" (Janome claim)",
+    "\"Industrial\" pretension threading and \"industrial\" hook bobbin (Janome wording)",
+    "\"Heavy-duty, powder-coated, all-metal flatbed\" (Janome feature page claim)",
+    "\"Sewing like a profession\" (Janome claim)",
+    "Jumbo bobbin holds 40% more thread, also written 1.4x (Janome claim)",
+    "\"Sews effortlessly through multiple layers of leather and vinyl\" (dealer copy)"
+  ],
+  "evidence": "owner",
+  "price": {
+    "priceUsdSeen": 1599,
+    "priceSeenDate": "2026-10-01",
+    "priceSeenAt": "Amazon"
+  },
+  "sources": [
+    "https://www.janome.com/product/hd9-professional/",
+    "https://www.janome.com/hd9-professional/",
+    "https://www.janome.com/wp-content/uploads/2019/11/inst-book-hd9.pdf",
+    "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+    "https://www.amazon.com/dp/B0CMFY8VYY"
+  ],
+  "editorial": {
+    "verdict": "A 1,600 spm straight-stitch head with knee lift and thread cutter, sold through Janome dealers and Amazon; household warranty only, so check it against how you plan to use it.",
+    "whoFor": "Bag makers, quilters and heavy-fabric sewists who want a straight-stitch-only machine with a knee lifter, automatic thread cutter and a dealer network behind it.",
+    "skipIf": "You need zigzag or a buttonhole, you plan to sew for pay and need a commercial warranty, or you are buying used without knowing whether it is a V1 or V2.",
+    "keySpec": "1,600 spm · straight stitch only · 11 lb foot pressure (Janome product page) · 32 lb",
+    "strengths": [
+      "Janome publishes up to 1,600 stitches per minute, plus a knee lifter, automatic thread cutter and built-in needle threader.",
+      "Owners report it handling thick layers, with one new owner showing about ten layers of 15 oz raw denim at the lowest speed range.",
+      "Eight enclosed ball bearings in the main shaft and a 3-piece feed dog are published on Janome's product page."
+    ],
+    "weaknesses": [
+      "Straight stitch only, no zigzag or buttonhole.",
+      "Owners report problems such as bobbin lock-ups and a needle sitting off center on a new machine; these come mostly from help threads, so they over-represent problems.",
+      "Janome's own pages disagree on workspace and presser foot pressure, and no needle-to-arm throat figure is published."
+    ],
+    "checks": [
+      {
+        "title": "Household-use warranty",
+        "body": "Janome's generic PDF covers 25 years limited for household use, 5 years electronics and 1 year labor, dropping to 1 year if used commercially. It is void if the machine was not bought from an authorized US Janome dealer. The machine is marketed to bag makers and leather users, so confirm the warranty fits your use and your seller."
+      },
+      {
+        "title": "Which version",
+        "body": "Dealers describe a V1 and a V2 with different bobbins, and a Black Edition exists. Janome shows no V2 machine page, so confirm exactly which model and bobbin you are getting before buying bobbins or a used unit."
+      },
+      {
+        "title": "Read the Amazon rating with care",
+        "body": "Amazon's 4.1 from 31 ratings is pooled across six listings under one parent (HD9, V2, V3 and HD8), so it is not a rating for one variant. Check the listing and the seller before relying on it."
+      }
+    ],
+    "realCost": [
+      "Extra jumbo bobbins, since V1 and V2 bobbins are not interchangeable",
+      "HLx5 needles: Janome's manual chart lists #14 for medium fabric and #14 to 18 for denim",
+      "MO-70 sewing machine oil, which the manual says to apply daily if the machine is used often",
+      "Accessory kits: a 2022 PatternReview owner says matching the extras a Brother includes takes several hundred dollars of Janome kits"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Janome HD9 an industrial machine?",
+        "a": "Janome sells it as a home machine and uses words like industrial strength in its marketing; those are Janome claims, not a rating. Janome publishes no main motor wattage or type, and the machine runs from a household plug."
+      },
+      {
+        "q": "What is the difference between the HD9 V1 and V2?",
+        "a": "Dealers say the V2 uses a different bobbin from V1, and the two are not interchangeable. Janome shows an HD9 V2 bobbin page but no V2 machine page, so what else changes is not established here. A Black Edition (HD9BE) is a separate limited release."
+      },
+      {
+        "q": "Does the HD9 sew zigzag or buttonholes?",
+        "a": "No. Janome lists it as straight stitch only. One owner says high shank buttonhole attachments can be used, but the machine itself makes no buttonhole."
+      },
+      {
+        "q": "How much throat space does the HD9 have?",
+        "a": "Janome does not publish a needle-to-arm figure. Its product page table gives a workspace of 8 x 5.5 in and its feature page says nearly 9 x 6 in to the right of the needle. Those are Janome's wording for workspace, not throat space."
+      },
+      {
+        "q": "How big and heavy is the HD9?",
+        "a": "Janome's US product page lists 19.6 x 7.2 x 12.7 in (W x D x H) and 32 lb (14.5 kg)."
+      },
+      {
+        "q": "What needles does the HD9 take?",
+        "a": "Janome lists an HLx5 needle, which it calls industrial. The manual chart gives #14 for medium fabric and #14 to 18 for denim."
+      },
+      {
+        "q": "Can I use the HD9 for a business making bags or leather goods?",
+        "a": "Check the warranty first. Janome's generic 25-year PDF is for household use only and drops to 1 year if the machine is used commercially. Janome markets the HD9 for bags and layered materials, but that marketing does not change the warranty terms."
+      },
+      {
+        "q": "What is the HD9 warranty?",
+        "a": "Per Janome's generic PDF (OCR text): 25 years limited for household use, 5 years electronics, 1 year labor, and 1 year if used commercially. It is void if not bought from an authorized US Janome dealer. Verify against the PDF before buying."
+      },
+      {
+        "q": "How fast is the HD9, and what stitch length does it do?",
+        "a": "Janome publishes up to 1,600 stitches per minute and a stitch length up to 6 mm. Calling it the fastest home-use machine on the market is Janome's claim."
+      },
+      {
+        "q": "What thread weight can the HD9 use?",
+        "a": "One owner says Janome states the machine can use Tex 100 thread, while another capped thread at Tex 90 on a second-hand machine for car seat upholstery. Check the manual for your thread and needle."
+      }
+    ]
+  }
+}
