@@ -1,0 +1,696 @@
+{
+  "slug": "singer-hd6600c",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-01",
+  "method": {
+    "sources": 21,
+    "itemsCollected": 247,
+    "statements": 52,
+    "voices": 32,
+    "ownerVoices": 17,
+    "dateRange": [
+      2021,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 1,
+        "items": 13
+      },
+      "reddit": {
+        "sources": 20,
+        "items": 234
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 11,
+      "voices": 11,
+      "ownerVoices": 3,
+      "sources": 7,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 10
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 9,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cf1659414",
+          "polarity": "negative",
+          "claim": "Owner says the machine is not completely metal, against the published metal interior frame.",
+          "quote": "not completely metal",
+          "url": "https://www.amazon.com/dp/B0F1TD3LYG",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cf12ddfc6",
+          "polarity": "negative",
+          "claim": "Owner regrets buying this machine, citing poor build quality.",
+          "quote": "i forever regret getting this machine the quality is not there",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1dw92h0/just_got_my_singer_6600c_i_am_a_complete_beginner/lbti190/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cb55c37b4",
+          "polarity": "positive",
+          "claim": "Owner says the frame is full metal on their machine and only the cover is plastic.",
+          "quote": "it's actually full metal at least on mine",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ogc2o4/singer_heavy_duty_6600c/nlpgkwd/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cf1659414",
+        "cf12ddfc6",
+        "c29096e04",
+        "c5aac7d50",
+        "cc8ac29d8",
+        "c2f03611c",
+        "cb55c37b4",
+        "c0576c58d",
+        "ce46bcacf",
+        "c1dd6bd99",
+        "cf27f5e54"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 10,
+      "voices": 10,
+      "ownerVoices": 6,
+      "sources": 8,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 9
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 9,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c77fd04f9",
+          "polarity": "negative",
+          "claim": "Owner reports the needle sometimes grunts and sticks in the down position, even after a three week repair.",
+          "quote": "gets stuck in the down position",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1vwpyk0/sewing_machine_acting_weird/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cbae45755",
+          "polarity": "negative",
+          "claim": "Owner got an EL error while hemming curtains on day one, and the needle broke on thin scrap.",
+          "quote": "at the very end it threw an error code showing",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1q9jgxr/is_this_normal/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c55425b1e",
+        "c795f82d0",
+        "c317130b7",
+        "cf4ff5551",
+        "cbae45755",
+        "c7052e450",
+        "c61b5e054",
+        "ce9630ea0",
+        "ca896b93d",
+        "c77fd04f9"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 6,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cc7d867c3",
+          "polarity": "negative",
+          "claim": "6600C owner reports a very loud jackhammer noise and needle shaking at thick folded denim side seams.",
+          "quote": "the machine makes this horribly loud jackhammer noise.",
+          "url": "https://www.reddit.com/r/sewingmachinerepair/comments/164453l/my_new_sewing_machine_sounds_like_a_jackhammer/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c964a8d3a",
+          "polarity": "negative",
+          "claim": "During the error the machine made a jam noise while the needle vibrated.",
+          "quote": "it was making a jam noise and the needle was just vibrating",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1q9jgxr/is_this_normal/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ce183cf07",
+          "polarity": "positive",
+          "claim": "Owner says the machine is not overly noisy.",
+          "quote": "not overly noisy",
+          "url": "https://www.amazon.com/dp/B0F1TD3LYG",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cacd47579",
+          "polarity": "positive",
+          "claim": "New owner finds the 6600C quieter and smoother than their mother's old machine.",
+          "quote": "it was not nearly as loud and much smoother compared to her old machine",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ogc2o4/singer_heavy_duty_6600c/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ce183cf07",
+        "cf4633930",
+        "cacd47579",
+        "c7bc6c6aa",
+        "c964a8d3a",
+        "cc7d867c3"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2021,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c78860a28",
+          "polarity": "positive",
+          "claim": "Owner finds the Singer Heavy Duty much easier to thread than their vintage Kenmore and Bernina.",
+          "quote": "A lot easier to thread",
+          "url": "https://www.reddit.com/r/myog/comments/l11pi6/heavy_duty_sewing_machine/glooqzc/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cb2a31c33",
+          "polarity": "positive",
+          "claim": "Owner finds the machine easy to use and thread, and likes the top load bobbin.",
+          "quote": "Extremely easy to use and thread",
+          "url": "https://www.amazon.com/dp/B0F1TD3LYG",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cb8318d5a",
+        "cb2a31c33",
+        "c220760c0",
+        "c78860a28"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 6,
+      "voices": 4,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c50ca2298",
+          "polarity": "negative",
+          "claim": "Owner says the machine seizes up every time it meets thick fabric at the side seams.",
+          "quote": "the machine still has basically a seizure every time I come to thick fabric",
+          "url": "https://www.reddit.com/r/sewingmachinerepair/comments/164453l/my_new_sewing_machine_sounds_like_a_jackhammer/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c4deacb5a",
+          "polarity": "negative",
+          "claim": "Owner says sewing something too thick jammed the needle and snapped it.",
+          "quote": "tried sewing something too thick and the needle got jammed in it and snapped",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1vwpyk0/sewing_machine_acting_weird/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ced456e1c",
+          "polarity": "positive",
+          "claim": "Owner says it sews thicker fabrics better than their other machines.",
+          "quote": "actually a lot better at getting through thicker fabrics",
+          "url": "https://www.reddit.com/r/myog/comments/l11pi6/heavy_duty_sewing_machine/glooqzc/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c00f5d5c9",
+          "polarity": "mixed",
+          "claim": "Owner reports four layers of denim at the cuff sewed without issue, only the folded seams failed.",
+          "quote": "seeing 4 layers of denim with no issue",
+          "url": "https://www.reddit.com/r/sewingmachinerepair/comments/164453l/my_new_sewing_machine_sounds_like_a_jackhammer/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c7de108d7",
+        "ced456e1c",
+        "c1c45dea9",
+        "c50ca2298",
+        "c00f5d5c9",
+        "c4deacb5a"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2025,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "c2dfe170c",
+        "ce401a703"
+      ]
+    },
+    {
+      "theme": "thread_trimmer",
+      "label": "Thread trimmer",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2025,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cd3b47918",
+          "polarity": "positive",
+          "claim": "Owner praises a self cutting bobbin feature, which may refer to a thread cutter.",
+          "quote": "self cutting bobbin feature",
+          "url": "https://www.amazon.com/dp/B0F1TD3LYG",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cd3b47918",
+        "c2b0fd094"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2023,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c47cb761e",
+          "polarity": "negative",
+          "claim": "6600C owner says tension that used to be 7 now needs to be 1 to 2 after a needle change and still fails.",
+          "quote": "now even 1-2 is too high",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ple2py/singer_tension_help/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c1164234e",
+        "c47cb761e"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c87253ea1",
+          "polarity": "negative",
+          "claim": "New 6600C owner reports it would stop and start in bursts despite a steady pedal, then run steadily later.",
+          "quote": "it won’t go at a steady pace",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1q9jgxr/is_this_normal/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c30a162bf",
+        "c87253ea1"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "cfa302958"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "cac4ec106"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "cf2025054"
+      ]
+    },
+    {
+      "theme": "free_motion",
+      "label": "Free-motion quilting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c27bb7dd5"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B0F1TD3LYG",
+      "pageRating": 4.4,
+      "pageCount": 158,
+      "fetched": "2026-10-01",
+      "distribution": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 11
+      },
+      "lowRated": 1,
+      "sampled": "13 top reviews (8 US, 5 other countries) of 158 ratings"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "Manual: 1000 +/- 50 stitches per minute. A Singer Canada page excerpt says up to 1,100.",
+      "others": "Our earlier figure was 1,100.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Singer manual",
+          "url": "https://svpworldwide.widen.net/content/aeg9idv14w/pdf/HD6600C_Manual.pdf"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "singer-manual"
+    },
+    {
+      "label": "Stitches",
+      "juki": "Singer advertises 215 stitch applications and publishes no separate stitch count.",
+      "others": "Dealers and listings quote 100 stitches.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Singer bundle page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-6600c-sewing-machine-extension-table-bundle"
+        }
+      ],
+      "field": "stitchCount",
+      "source": "singer-bundle"
+    },
+    {
+      "label": "Throat space",
+      "juki": "6.4 in, Singer's wording on the bundle page.",
+      "others": "Not in the manual's specification table.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Singer bundle page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-6600c-sewing-machine-extension-table-bundle"
+        }
+      ],
+      "field": "throatIn",
+      "source": "singer-bundle"
+    },
+    {
+      "label": "Warranty",
+      "juki": "Limited 25/1 Year Warranty per Singer's coverage page.",
+      "others": "Some dealer copy says 2 years electrical.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Singer warranty page",
+          "url": "https://help.singer.com/en-US/singers-warranty-coverage-395288"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "singer-warranty"
+    }
+  ],
+  "siblings": [],
+  "rivals": []
+}

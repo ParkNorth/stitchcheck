@@ -1,0 +1,195 @@
+{
+  "slug": "singer-hd6600c",
+  "collected": "2026-10-01",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/singer-hd6600c.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "singer-bundle",
+      "url": "https://www.singer.com/products/singer-heavy-duty-6600c-sewing-machine-extension-table-bundle",
+      "type": "product page (bundle SKU 6600CTABLE)",
+      "fetched": "2026-10-01",
+      "note": "The standalone machine page redirects to the homepage (likely discontinued as a standalone); this live bundle page lists the 6600C"
+    },
+    {
+      "id": "singer-manual",
+      "url": "https://svpworldwide.widen.net/content/aeg9idv14w/pdf/HD6600C_Manual.pdf",
+      "type": "instruction manual (PDF, 38 pages)",
+      "fetched": "2026-10-01",
+      "note": "Technical specification on printed p.31; metric only"
+    },
+    {
+      "id": "singer-warranty",
+      "url": "https://help.singer.com/en-US/singers-warranty-coverage-395288",
+      "type": "warranty coverage page",
+      "fetched": "2026-10-01",
+      "note": "Lists 6600C Heavy Duty under Limited 25/1 Year"
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "Maximum 1000 +/- 50 rpm with straight stitch at default length (manual); Singer's Canada page excerpt says up to 1100",
+      "source": "singer-manual",
+      "vs_spec": "contradicts",
+      "spec_value": 1100,
+      "note": "Maker documents disagree with each other; the manual figure is the technical spec.",
+      "site": {
+        "label": "Speed",
+        "juki": "Manual: 1000 +/- 50 stitches per minute. A Singer Canada page excerpt says up to 1,100.",
+        "others": "Our earlier figure was 1,100.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer manual",
+            "url": "https://svpworldwide.widen.net/content/aeg9idv14w/pdf/HD6600C_Manual.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchCount",
+      "value": "215 stitch applications; no separate stitch count published",
+      "source": "singer-bundle",
+      "vs_spec": "contradicts",
+      "spec_value": 100,
+      "note": "Our 100 built-in stitches has no maker source in the documents read. Singer's 215 is an applications count, not stitches.",
+      "site": {
+        "label": "Stitches",
+        "juki": "Singer advertises 215 stitch applications and publishes no separate stitch count.",
+        "others": "Dealers and listings quote 100 stitches.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Singer bundle page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6600c-sewing-machine-extension-table-bundle"
+          }
+        ]
+      }
+    },
+    {
+      "field": "buttonhole",
+      "value": "6 one-step buttonhole styles",
+      "source": "singer-bundle",
+      "vs_spec": "confirms",
+      "spec_value": "1-step automatic buttonhole; number of styles not consistent across sources",
+      "note": "Singer states 6 styles, which settles the inconsistency."
+    },
+    {
+      "field": "throatIn",
+      "value": "6.4 in throat space (bundle copy only; not in the manual's spec table)",
+      "source": "singer-bundle",
+      "vs_spec": "confirms",
+      "spec_value": 6.4,
+      "note": "Singer's wording is 'throat space'; whether that is needle to body (rule 11) is not stated.",
+      "site": {
+        "label": "Throat space",
+        "juki": "6.4 in, Singer's wording on the bundle page.",
+        "others": "Not in the manual's specification table.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Singer bundle page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6600c-sewing-machine-extension-table-bundle"
+          }
+        ]
+      }
+    },
+    {
+      "field": "weightLb",
+      "value": "7 kg (manual, metric only) = 15.4 lb",
+      "source": "singer-manual",
+      "vs_spec": "confirms",
+      "spec_value": 15.4
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "about 440 L x 190 W x 280 H mm = 17.3 x 7.5 x 11.0 in (manual)",
+      "source": "singer-manual",
+      "vs_spec": "confirms",
+      "spec_value": "17.3 x 7.5 x 10.9 (listed as depth x width x height by the parts dealer)"
+    },
+    {
+      "field": "stitchWidthMm",
+      "value": "0 to 7.0 mm",
+      "source": "singer-manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "0 to 4.5 mm",
+      "source": "singer-manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "presserFootLift",
+      "value": "6 mm",
+      "source": "singer-manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "Manual lists a manual thread knife for trimming ends; no automatic cutter published",
+      "source": "singer-manual",
+      "vs_spec": "confirms",
+      "spec_value": "None; the automatic thread cutter is listed as a 6800C exclusive"
+    },
+    {
+      "field": "includedFeet",
+      "value": "All-purpose, zipper, buttonhole, blind hem and satin stitch feet; 4 class 15 bobbins and accessories",
+      "source": "singer-bundle",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Bundle includes accessories worth $100 per Singer."
+    },
+    {
+      "field": "motor",
+      "value": "Wattage and amperage not published; manual lists rated voltage only",
+      "source": "singer-manual",
+      "vs_spec": "confirms",
+      "spec_value": "Singer describes the motor as 60 percent stronger; wattage not published",
+      "note": "'60% stronger' is Singer's marketing claim."
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Listed under Limited 25/1 Year Warranty as 6600C Heavy Duty",
+      "source": "singer-warranty",
+      "vs_spec": "contradicts",
+      "spec_value": "25 yr limited on machine head; electrical 2 yr on Singer's page, 1 yr on retailer copy; 90 days on adjustments etc.",
+      "note": "Singer's warranty page places the 6600C under 25/1, so the '2 yr electrical' line in our spec does not match; the component split is in a PDF not fetched.",
+      "site": {
+        "label": "Warranty",
+        "juki": "Limited 25/1 Year Warranty per Singer's coverage page.",
+        "others": "Some dealer copy says 2 years electrical.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer warranty page",
+            "url": "https://help.singer.com/en-US/singers-warranty-coverage-395288"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "MSRP $448.98 for the extension-table bundle, shown at $319.99 on 2026-10-01",
+      "source": "singer-bundle",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Singer's strike-through MSRP is a comparison price, not a selling price."
+    },
+    {
+      "field": "claims",
+      "value": "motor 60% stronger than a standard machine motor; full metal frame; powerful motor delivers high-speed, heavy-duty sewing",
+      "source": "singer-bundle",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketing wording; claims only."
+    }
+  ]
+}
