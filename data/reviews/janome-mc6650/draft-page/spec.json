@@ -1,0 +1,146 @@
+{
+  "specs": {
+    "throatIn": {
+      "value": null,
+      "source": null
+    },
+    "weightLb": {
+      "value": 24.25,
+      "source": "https://www.janome.com/product/memory-craft-6650/"
+    },
+    "dimensionsIn": {
+      "value": "W 20.3 x H 11.8 x D 8.6 in",
+      "source": "https://www.janome.com/product/memory-craft-6650/"
+    },
+    "presserFootLift": {
+      "value": "Extra high lift; manual says about 7 mm (1/4 in) above the normal raised position",
+      "source": "https://www.janome.com/wp-content/uploads/2019/04/866d_mc6650_866-800-408_eng_revised-compressed.pdf"
+    },
+    "feedSystem": {
+      "value": "Superior Feed System Plus (SFS+), 7-piece feed dog; top-loading full rotary hook; one-push needle plate conversion with 2 plates included; no built-in AcuFeed (optional accessory)",
+      "source": "https://www.janome.com/product/memory-craft-6650/"
+    },
+    "frame": {
+      "value": "Janome lists a 10 in all-metal seamless flatbed with a 10 in wide by 4.7 in high workspace; no free arm. Needle-to-arm distance not published",
+      "source": "https://www.janome.com/product/memory-craft-6650/"
+    },
+    "warrantyUs": {
+      "value": "25 year limited; electronic components 5 years, labor 1 year (from OCR of Janome's warranty PDF, verify against the PDF before quoting); void if not bought from an authorized Janome dealer in the United States; commercial use limited to 1 year",
+      "source": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+    }
+  },
+  "conflicts": [
+    "Stitch count: Janome's product page says 170 built-in stitches and its feature sheet says 172; we keep 170 from the page.",
+    "Lighting: Janome's product page says 6 LEDs in 3 locations and its feature sheet says 3 high-powered LED lights.",
+    "Rolled hem foot: Janome's product page gives 2 mm and its feature sheet says 3 mm.",
+    "Throat: dealers and owners call it a 10 in throat, but Janome publishes a 10 in wide by 4.7 in high workspace and a 10 in flatbed, not a needle-to-arm distance. Under rule 11 throat is left as [verify]; read the 10 in as Janome's workspace wording.",
+    "Sibling size: one Reddit comment calls the 6700P 2 in bigger, but Janome's own pages give the 6700P the same size, weight and 10 in flatbed as the 6650.",
+    "Warranty: Amazon and dealers repeat 25 years, but the OCR of Janome's warranty PDF gives electronics 5 years and labor 1 year and voids it when the machine is not bought from an authorized US Janome dealer. Verify the wording against the PDF.",
+    "Price: Janome lists $2,999 MSRP and says to contact a dealer; Amazon showed $2,099."
+  ],
+  "claims": [
+    "\"Janome is bringing professional power into the project makers home\" (Janome product page)",
+    "\"10 in all-metal seamless flatbed\" (Janome product page)",
+    "\"high caliber construction for superior durability, ball bearing design\" (Janome product page)",
+    "\"Heavy Duty Sewing and Quilting Machine\" (Walmart listing title; Janome does not put it in the HD series)",
+    "\"3.6 inch bright LCD screen\" (manufacturer feature list via dealer page)"
+  ],
+  "evidence": "owner",
+  "price": {
+    "priceSeenDate": "2026-10-01",
+    "priceSeenAt": "Amazon listing (Janome MSRP $2,999)",
+    "priceUsdSeen": 2099
+  },
+  "sources": [
+    "https://www.janome.com/product/memory-craft-6650/",
+    "https://www.janome.com/wp-content/uploads/2019/04/mc6650-feature_sheet.pdf",
+    "https://www.janome.com/wp-content/uploads/2019/04/866d_mc6650_866-800-408_eng_revised-compressed.pdf",
+    "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+    "https://www.janome.com/product/memory-craft-6700p/",
+    "https://www.qualitysewing.com/products/janome-memory-craft-6650-sewing-quilting-machine",
+    "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+    "https://www.amazon.com/dp/B07RRJDQ75",
+    "https://payattentiontomyart.com/posts/janome-mc6650-review",
+    "https://mariasew.com/blog/janome-mc6650-review/",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/116259",
+    "https://www.walmart.com/ip/Janome-MC6650-Computerized-Quilting-Sewing-Machine/583892796"
+  ],
+  "editorial": {
+    "verdict": "A computerized flatbed with 170 stitches, 1,000 spm and a thread cutter for quilters who also sew garments; Janome's 10 in is workspace width, not a measured throat.",
+    "whoFor": "Quilters and home sewists who want a wide flatbed workspace and automated features without giving up zigzag, buttonholes and alphabets.",
+    "skipIf": "You need a free arm for cuffs and sleeves, or you sew heavy canvas and leather often enough that a mechanical or industrial is the better tool.",
+    "keySpec": "1,000 spm \u00b7 170 stitches \u00b7 10 in workspace \u00b7 auto thread cutter",
+    "strengths": [
+      "Owners report the wide workspace handles large quilts, with 13 owner voices across 17 comments on throat and workspace, none negative.",
+      "Janome lists 1,000 spm, an automatic thread cutter and a one-push needle plate change with two plates in the box.",
+      "Nine one-step buttonhole styles and two alphabets cover garment work a straight-stitch machine cannot."
+    ],
+    "weaknesses": [
+      "No free arm; Janome describes a flatbed only.",
+      "No walking or AcuFeed foot is built in; AcuFeed is an optional accessory and owners report buying a walking foot separately.",
+      "Owners report needle threader problems, and some report the automatic cutter does not always cut."
+    ],
+    "checks": [
+      {
+        "title": "Walking or AcuFeed foot",
+        "body": "Confirm whether the bundle includes a walking foot. Janome lists AcuFeed as optional on the 6650 and the standard dealer accessory list has none."
+      },
+      {
+        "title": "Warranty and where you buy",
+        "body": "Janome's 25 year limited warranty is, per OCR of its warranty PDF, void if the machine is not bought from an authorized Janome dealer in the United States. Check that an Amazon or Costco listing is an authorized sale, and verify the wording against the PDF."
+      },
+      {
+        "title": "What 10 in means",
+        "body": "Janome publishes a 10 in wide by 4.7 in high workspace, not a needle-to-arm distance. Do not read it as a 10 in throat when comparing quilting tiers."
+      }
+    ],
+    "realCost": [
+      "Walking foot (about $59 per one owner report)",
+      "AcuFeed foot if you want it, an optional accessory per Janome",
+      "Quilting needles and thread for the quilting jobs you plan; Janome's needle kit covers 75 and 90 sizes",
+      "Dealer package add-ons ($99 sewing, $149 quilting at Sewing Machines Plus); check what is already in the box"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Janome MC6650 have a free arm?",
+        "a": "No. Janome describes a 10 in all-metal seamless flatbed, and review roundups flag the lack of a free arm as a limit for cuffs and sleeves."
+      },
+      {
+        "q": "Does the Janome MC6650 come with a walking foot?",
+        "a": "Not as a standard accessory. Janome lists AcuFeed as optional on the 6650, and owners report buying a walking foot separately."
+      },
+      {
+        "q": "How much throat space does the Janome MC6650 have?",
+        "a": "Janome does not publish a needle-to-arm figure. It gives a 10 in wide by 4.7 in high workspace and a 10 in flatbed, so our throat spec shows [verify]."
+      },
+      {
+        "q": "Is the Janome MC6650 good for quilting?",
+        "a": "Owners report the wide workspace works for large quilts, and Janome lists 1,000 spm and a free motion quilting foot set. Treat the 10 in as workspace width, not a long-arm throat."
+      },
+      {
+        "q": "Is the Janome MC6650 heavy duty enough for denim?",
+        "a": "Janome does not put it in its HD series; the Heavy Duty title is a retailer listing claim. Main motor type and wattage are not published, so we cannot spec-check denim capability."
+      },
+      {
+        "q": "What is the difference between the Janome MC6650 and the MC6700P?",
+        "a": "Per Janome's pages, the 6700P adds 200 stitches and 5 alphabets, 1,200 spm, built-in AcuFeed and 17 feet, at $3,999 MSRP against $2,999. Janome gives it the same size, weight and 10 in flatbed."
+      },
+      {
+        "q": "Does the Janome MC6650 have a knee lifter?",
+        "a": "Janome lists a knee lift on the 6700P. For the 6650, Janome lists an extra high presser foot lift of about 7 mm above the normal raised position."
+      },
+      {
+        "q": "How much does the Janome MC6650 weigh?",
+        "a": "Janome lists 24.25 lb and W 20.3 x H 11.8 x D 8.6 in."
+      },
+      {
+        "q": "Does the Janome MC6650 have AcuFeed?",
+        "a": "Not built in. Janome lists AcuFeed as an optional accessory on the 6650 and as built in on the 6700P."
+      },
+      {
+        "q": "Is the warranty valid if I buy on Amazon or at Costco?",
+        "a": "Per OCR of Janome's warranty PDF, it is void if the machine is not bought from an authorized Janome dealer in the United States. Verify the wording against the PDF and confirm the seller is authorized."
+      }
+    ]
+  }
+}

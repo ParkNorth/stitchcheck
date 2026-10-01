@@ -76,7 +76,7 @@
   "price": {
     "priceSeenDate": "2026-10-01",
     "priceSeenAt": "singer.com extension-table bundle page (strike-through MSRP $448.98 is a comparison price, not a selling price)",
-    "priceSeen": 319.99
+    "priceUsdSeen": 319.99
   },
   "sources": [
     "https://www.singer.com/products/singer-heavy-duty-6600c-sewing-machine-extension-table-bundle",
