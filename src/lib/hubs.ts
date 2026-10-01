@@ -207,7 +207,7 @@ export const hubs: Hub[] = [
     ],
     shortAnswer: [
       { label: "Best overall", tone: "enamel", slug: "juki-tl-2010q", sentence: "the fastest domestic quilter, if you already own a zigzag machine." },
-      { label: "All-rounder", tone: "ink", slug: "janome-mc6650", sentence: "10 in of throat with a full computerized stitch set." },
+      { label: "All-rounder", tone: "ink", slug: "janome-mc6650", sentence: "10 in of workspace per Janome with a full computerized stitch set." },
       { label: "Long-arm entry", tone: "brass", slug: "handi-quilter-moxie", sentence: "15 in on a frame; budget the frame and the room." },
     ],
     ranked: [

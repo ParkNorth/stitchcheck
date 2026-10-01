@@ -11,9 +11,9 @@
   ],
   "manufacturerUrl": "https://www.janome.com/product/memory-craft-6650/",
   "retailerUrl": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
-  "priceUsdSeen": null,
-  "priceSeenDate": null,
-  "priceSeenAt": null,
+  "priceUsdSeen": 2099,
+  "priceSeenDate": "2026-10-01",
+  "priceSeenAt": "Amazon listing (Janome MSRP $2,999)",
   "specs": {
     "stitchTypes": {
       "value": "170 built-in stitches and 2 alphabets, including 9 one-step buttonholes",
@@ -36,24 +36,24 @@
       "source": null
     },
     "throatIn": {
-      "value": 10,
-      "source": "https://www.qualitysewing.com/products/janome-memory-craft-6650-sewing-quilting-machine"
+      "value": null,
+      "source": null
     },
     "needleSystem": {
       "value": null,
       "source": null
     },
     "presserFootLift": {
-      "value": null,
-      "source": null
+      "value": "Extra high lift; manual says about 7 mm (1/4 in) above the normal raised position",
+      "source": "https://www.janome.com/wp-content/uploads/2019/04/866d_mc6650_866-800-408_eng_revised-compressed.pdf"
     },
     "threadTrimmer": {
       "value": "Automatic thread cutter",
       "source": "https://www.qualitysewing.com/products/janome-memory-craft-6650-sewing-quilting-machine"
     },
     "feedSystem": {
-      "value": "Top-loading full rotary hook; one-push needle plate conversion with 2 plates included",
-      "source": "https://www.qualitysewing.com/products/janome-memory-craft-6650-sewing-quilting-machine"
+      "value": "Superior Feed System Plus (SFS+), 7-piece feed dog; top-loading full rotary hook; one-push needle plate conversion with 2 plates included; no built-in AcuFeed (optional accessory)",
+      "source": "https://www.janome.com/product/memory-craft-6650/"
     },
     "buttonhole": {
       "value": "9 one-step buttonhole styles",
@@ -64,35 +64,41 @@
       "source": null
     },
     "frame": {
-      "value": "10 in all-metal flatbed; no free arm",
-      "source": "https://mariasew.com/blog/janome-mc6650-review/"
+      "value": "Janome lists a 10 in all-metal seamless flatbed with a 10 in wide by 4.7 in high workspace; no free arm. Needle-to-arm distance not published",
+      "source": "https://www.janome.com/product/memory-craft-6650/"
     },
     "weightLb": {
-      "value": null,
-      "source": null
+      "value": 24.25,
+      "source": "https://www.janome.com/product/memory-craft-6650/"
     },
     "dimensionsIn": {
-      "value": null,
-      "source": null
+      "value": "W 20.3 x H 11.8 x D 8.6 in",
+      "source": "https://www.janome.com/product/memory-craft-6650/"
     },
     "includedFeet": {
       "value": "Zigzag foot (on machine), blind hem foot, overcast foot, satin stitch foot, rolled hem foot, zipper foot, darning foot, free motion quilting set (closed toe, open toe, zigzag), automatic buttonhole foot; also lint brush, seam ripper, 6 bobbins, spool caps, buttonhole stabilizer plate, quilting guide, screwdriver, needles, 2 cone nets, 2 spool rests",
       "source": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine"
     },
     "warrantyUs": {
-      "value": null,
-      "source": null
+      "value": "25 year limited; electronic components 5 years, labor 1 year (from OCR of Janome's warranty PDF, verify against the PDF before quoting); void if not bought from an authorized Janome dealer in the United States; commercial use limited to 1 year",
+      "source": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
     }
   },
   "claims": [
-    "\"professional-grade\" sewing and quilting machine (dealer copy repeating Janome positioning)",
+    "\"Janome is bringing professional power into the project makers home\" (Janome product page)",
+    "\"10 in all-metal seamless flatbed\" (Janome product page)",
+    "\"high caliber construction for superior durability, ball bearing design\" (Janome product page)",
     "\"Heavy Duty Sewing and Quilting Machine\" (Walmart listing title; Janome does not put it in the HD series)",
     "\"3.6 inch bright LCD screen\" (manufacturer feature list via dealer page)"
   ],
   "conflicts": [
-    "Weight, dimensions, warranty, needle system and presser foot lift did not appear in any accessible snippet. All left null; the janome.com product page could not be fetched.",
-    "Walking foot: the SMP accessory list does not include a walking or AcuFeed foot; an owner review confirms buying a $59 walking foot separately. Some retail bundles add one.",
-    "Price: not visible in accessible snippets. SMP shows only add-on packages ($99 sewing, $149 quilting). Left null."
+    "Stitch count: Janome's product page says 170 built-in stitches and its feature sheet says 172; we keep 170 from the page.",
+    "Lighting: Janome's product page says 6 LEDs in 3 locations and its feature sheet says 3 high-powered LED lights.",
+    "Rolled hem foot: Janome's product page gives 2 mm and its feature sheet says 3 mm.",
+    "Throat: dealers and owners call it a 10 in throat, but Janome publishes a 10 in wide by 4.7 in high workspace and a 10 in flatbed, not a needle-to-arm distance. Under rule 11 throat is left as [verify]; read the 10 in as Janome's workspace wording.",
+    "Sibling size: one Reddit comment calls the 6700P 2 in bigger, but Janome's own pages give the 6700P the same size, weight and 10 in flatbed as the 6650.",
+    "Warranty: Amazon and dealers repeat 25 years, but the OCR of Janome's warranty PDF gives electronics 5 years and labor 1 year and voids it when the machine is not bought from an authorized US Janome dealer. Verify the wording against the PDF.",
+    "Price: Janome lists $2,999 MSRP and says to contact a dealer; Amazon showed $2,099."
   ],
   "ownerThemes": [
     {
@@ -140,38 +146,81 @@
   "discontinued": false,
   "replacedBy": null,
   "editorial": {
-    "verdict": "A 10 in computerized flatbed with 170 stitches and a thread cutter for quilters who want one machine that pieces, quilts and still sews garments.",
-    "whoFor": "Quilters and home sewists who want a long arm space and automated features without giving up zigzag, buttonholes and alphabets.",
+    "verdict": "A computerized flatbed with 170 stitches, 1,000 spm and a thread cutter for quilters who also sew garments; Janome's 10 in is workspace width, not a measured throat.",
+    "whoFor": "Quilters and home sewists who want a wide flatbed workspace and automated features without giving up zigzag, buttonholes and alphabets.",
     "skipIf": "You need a free arm for cuffs and sleeves, or you sew heavy canvas and leather often enough that a mechanical or industrial is the better tool.",
-    "keySpec": "1,000 spm · 170 stitches · 10 in arm · auto thread cutter",
+    "keySpec": "1,000 spm · 170 stitches · 10 in workspace · auto thread cutter",
     "strengths": [
-      "Dealers list a 10 in all-metal flatbed and 1,000 spm.",
-      "Automatic thread cutter and one-push needle plate change with two plates in the box.",
+      "Owners report the wide workspace handles large quilts, with 13 owner voices across 17 comments on throat and workspace, none negative.",
+      "Janome lists 1,000 spm, an automatic thread cutter and a one-push needle plate change with two plates in the box.",
       "Nine one-step buttonhole styles and two alphabets cover garment work a straight-stitch machine cannot."
     ],
     "weaknesses": [
-      "No free arm.",
-      "No walking foot in the standard accessory list; owners buy one.",
-      "Weight, warranty and dimensions were not published in accessible sources."
+      "No free arm; Janome describes a flatbed only.",
+      "No walking or AcuFeed foot is built in; AcuFeed is an optional accessory and owners report buying a walking foot separately.",
+      "Owners report needle threader problems, and some report the automatic cutter does not always cut."
     ],
     "checks": [
       {
         "title": "Walking or AcuFeed foot",
-        "body": "Confirm whether the bundle includes a walking foot. The standard SMP list does not, and one owner rated the machine poorly until she added one."
+        "body": "Confirm whether the bundle includes a walking foot. Janome lists AcuFeed as optional on the 6650 and the standard dealer accessory list has none."
       },
       {
-        "title": "Free arm need",
-        "body": "This is a flatbed. If you hem jeans and sleeves weekly, a free arm machine as a second unit may be needed."
+        "title": "Warranty and where you buy",
+        "body": "Janome's 25 year limited warranty is, per OCR of its warranty PDF, void if the machine is not bought from an authorized Janome dealer in the United States. Check that an Amazon or Costco listing is an authorized sale, and verify the wording against the PDF."
       },
       {
-        "title": "Package pricing",
-        "body": "SMP sells a $99 sewing package and a $149 quilting package on top of the machine. Check what is already in the box before adding either."
+        "title": "What 10 in means",
+        "body": "Janome publishes a 10 in wide by 4.7 in high workspace, not a needle-to-arm distance. Do not read it as a 10 in throat when comparing quilting tiers."
       }
     ],
     "realCost": [
-      "Walking foot (about $59 per owner report)",
-      "Extra bobbins and cone nets for large spools",
-      "Quilting needles size 90/14"
+      "Walking foot (about $59 per one owner report)",
+      "AcuFeed foot if you want it, an optional accessory per Janome",
+      "Quilting needles and thread for the quilting jobs you plan; Janome's needle kit covers 75 and 90 sizes",
+      "Dealer package add-ons ($99 sewing, $149 quilting at Sewing Machines Plus); check what is already in the box"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Janome MC6650 have a free arm?",
+        "a": "No. Janome describes a 10 in all-metal seamless flatbed, and review roundups flag the lack of a free arm as a limit for cuffs and sleeves."
+      },
+      {
+        "q": "Does the Janome MC6650 come with a walking foot?",
+        "a": "Not as a standard accessory. Janome lists AcuFeed as optional on the 6650, and owners report buying a walking foot separately."
+      },
+      {
+        "q": "How much throat space does the Janome MC6650 have?",
+        "a": "Janome does not publish a needle-to-arm figure. It gives a 10 in wide by 4.7 in high workspace and a 10 in flatbed, so our throat spec shows [verify]."
+      },
+      {
+        "q": "Is the Janome MC6650 good for quilting?",
+        "a": "Owners report the wide workspace works for large quilts, and Janome lists 1,000 spm and a free motion quilting foot set. Treat the 10 in as workspace width, not a long-arm throat."
+      },
+      {
+        "q": "Is the Janome MC6650 heavy duty enough for denim?",
+        "a": "Janome does not put it in its HD series; the Heavy Duty title is a retailer listing claim. Main motor type and wattage are not published, so we cannot spec-check denim capability."
+      },
+      {
+        "q": "What is the difference between the Janome MC6650 and the MC6700P?",
+        "a": "Per Janome's pages, the 6700P adds 200 stitches and 5 alphabets, 1,200 spm, built-in AcuFeed and 17 feet, at $3,999 MSRP against $2,999. Janome gives it the same size, weight and 10 in flatbed."
+      },
+      {
+        "q": "Does the Janome MC6650 have a knee lifter?",
+        "a": "Janome lists a knee lift on the 6700P. For the 6650, Janome lists an extra high presser foot lift of about 7 mm above the normal raised position."
+      },
+      {
+        "q": "How much does the Janome MC6650 weigh?",
+        "a": "Janome lists 24.25 lb and W 20.3 x H 11.8 x D 8.6 in."
+      },
+      {
+        "q": "Does the Janome MC6650 have AcuFeed?",
+        "a": "Not built in. Janome lists AcuFeed as an optional accessory on the 6650 and as built in on the 6700P."
+      },
+      {
+        "q": "Is the warranty valid if I buy on Amazon or at Costco?",
+        "a": "Per OCR of Janome's warranty PDF, it is void if the machine is not bought from an authorized Janome dealer in the United States. Verify the wording against the PDF and confirm the seller is authorized."
+      }
     ]
   },
   "sources": [
@@ -182,6 +231,11 @@
     "https://mariasew.com/blog/janome-mc6650-review/",
     "https://sewing.patternreview.com/SewingDiscussions/topic/116259",
     "https://www.walmart.com/ip/Janome-MC6650-Computerized-Quilting-Sewing-Machine/583892796",
-    "https://sewinginsight.com/reviews/janome-memory-craft-6650-review-sewing-and-quilting-machine/"
+    "https://sewinginsight.com/reviews/janome-memory-craft-6650-review-sewing-and-quilting-machine/",
+    "https://www.janome.com/wp-content/uploads/2019/04/mc6650-feature_sheet.pdf",
+    "https://www.janome.com/wp-content/uploads/2019/04/866d_mc6650_866-800-408_eng_revised-compressed.pdf",
+    "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+    "https://www.janome.com/product/memory-craft-6700p/",
+    "https://www.amazon.com/dp/B07RRJDQ75"
   ]
 }

@@ -4,6 +4,766 @@
 import type { Rollup } from "./rollups";
 
 export const rollupData: Record<string, Rollup> = {
+  "bernina-1008": {
+    "slug": "bernina-1008",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-01",
+    "generated": "2026-10-01",
+    "method": {
+      "sources": 54,
+      "itemsCollected": 544,
+      "statements": 116,
+      "voices": 98,
+      "ownerVoices": 49,
+      "dateRange": [
+        2011,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 1,
+          "items": 1
+        },
+        "reddit": {
+          "sources": 53,
+          "items": 540
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 41,
+        "voices": 38,
+        "ownerVoices": 9,
+        "sources": 15,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 38
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 13,
+          "mixed": 0,
+          "neutral": 22
+        },
+        "years": [
+          2019,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cb82145a4",
+            "polarity": "negative",
+            "claim": "Owner says presser foot pressure cannot be adjusted on this old model.",
+            "quote": "I can’t adjust the pressure for the foot",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1dtwsu0/why_does_this_keep_happening/lbcph7b/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ce3469bd2",
+            "polarity": "negative",
+            "claim": "Owner says several Bernina feet supplied with the machine were all misaligned.",
+            "quote": "a few of the bernina feet that came with it",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1duwxes/how_do_i_realign_my_foot_pedal_myself/lbmx63x/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 29,
+        "voices": 28,
+        "ownerVoices": 20,
+        "sources": 19,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 28
+        },
+        "polarity": {
+          "positive": 11,
+          "negative": 16,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2014,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c7e4bea38",
+            "polarity": "negative",
+            "claim": "Owner of an eBay-bought 1008 found the feed dogs jammed and misaligned with the needle plate.",
+            "quote": "the feed dogs seemed jammed",
+            "url": "https://www.reddit.com/r/sewhelp/comments/b05wt7/bernina_1008_feed_dogs_dont_line_up_with_plate/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c53b55dfe",
+            "polarity": "negative",
+            "claim": "Owner's 1008 jammed several times on zigzag in denim.",
+            "quote": "that jammed up 3 or 4 times as well",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1dtwsu0/why_does_this_keep_happening/lbf6vtn/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c537f9ce4",
+            "polarity": "positive",
+            "claim": "Student uses 1008s in classes and says they work well.",
+            "quote": "since they work so well",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1kqiwx1/bernina_1008_on_fb_marketplace/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c70baf541",
+            "polarity": "positive",
+            "claim": "Owner of 20 plus years had it professionally serviced only a few times and it keeps running.",
+            "quote": "it is still going strong",
+            "url": "https://www.reddit.com/r/BuyItForLife/comments/1v66zk7/sewing_machine_bernina_1008_vc_janome_1522/ozyvwp7/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cddd6171c",
+            "polarity": "mixed",
+            "claim": "Owner says the 1008 handwheel is a bit harder to turn than other machines but not by much.",
+            "quote": "The handwheel is harder to turn than some of my other machines",
+            "url": "https://www.reddit.com/r/sewing/comments/13pkzlr/stiff_handwheel_on_bernina/jlborpp/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 14,
+        "voices": 14,
+        "ownerVoices": 7,
+        "sources": 9,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 14
+        },
+        "polarity": {
+          "positive": 6,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 5
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cd18a3520",
+            "polarity": "negative",
+            "claim": "1008 owner says it wants oil after every bobbin of sewing.",
+            "quote": "likes to be oiled after every bobbin full of sewing",
+            "url": "https://www.reddit.com/r/Bernina/comments/1jztq5s/bernina_1008_skipping_stitches/mnbam9f/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c30c00a9b",
+            "polarity": "positive",
+            "claim": "Owner says they never oil their 1008s.",
+            "quote": "I never oil my Bernina 1008s!",
+            "url": "https://www.reddit.com/r/sewing/comments/1n68ona/choosing_a_machine_between_bernina_and_janome/nbydmp3/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c254edfe0",
+            "polarity": "positive",
+            "claim": "Oiling a borrowed 1008 cured its skipped stitches.",
+            "quote": "it seems to have done the trick",
+            "url": "https://www.reddit.com/r/Bernina/comments/1jztq5s/bernina_1008_skipping_stitches/mo8esab/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 6,
+        "voices": 6,
+        "ownerVoices": 3,
+        "sources": 6,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 6
+        },
+        "polarity": {
+          "positive": 5,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cd4ed65b9",
+            "polarity": "positive",
+            "claim": "Home ec teacher says their school Berninas are easy to use workhorses that have lasted decades with students.",
+            "quote": "have made it through 2+ decades of teenagers",
+            "url": "https://www.reddit.com/r/BuyItForLife/comments/1v66zk7/sewing_machine_bernina_1008_vc_janome_1522/ozpuwuo/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cd7611600",
+            "polarity": "positive",
+            "claim": "Costume shop user using both 1000 and 1008 says Berninas are sturdy and either should last a while.",
+            "quote": "berninas are sturdy and either one should last you a while",
+            "url": "https://www.reddit.com/r/sewing/comments/1fpmzhb/which_would_you_choose/lozbv27/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 5
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 4,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2011,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c238339a9",
+            "polarity": "negative",
+            "claim": "On high lycra knits the owner's 1008 keeps cutting the thread despite many tried fixes, though the machine is in good condition.",
+            "quote": "My machine still slices the thread every few inches",
+            "url": "https://www.reddit.com/r/SewingChallenge/comments/1uxxxov/super_late_update_for_june_i_am_not_qualified_for/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c43f7461e",
+            "polarity": "negative",
+            "claim": "Owner finds the foot presses hard, stretching wovens on the bias and objecting to more than two fabric layers.",
+            "quote": "complains when there are more than 2 layers of fabric",
+            "url": "https://www.reddit.com/r/sewing/comments/13ouls8/where_is_the_presser_foot_pressure_adjust_bernina/jl9rx8j/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c72a30bdf",
+            "polarity": "positive",
+            "claim": "Fleece needle and thread trouble on the 1008 was solved by switching to a sharper needle.",
+            "quote": "I switched to a sharper needle and it seems to have solved everything",
+            "url": "https://www.reddit.com/r/Stitchy/comments/kgjdd/can_someone_help_me_out/c2k7krp/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 3,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 5
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c4a22df70",
+            "polarity": "negative",
+            "claim": "Owner sees skipped zigzag stitches on jersey with a jersey needle.",
+            "quote": "it seems my machine is skipping stitches",
+            "url": "https://www.reddit.com/r/sewing/comments/1tv0agc/help_sewing_jersey/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c8fa6efd7",
+            "polarity": "negative",
+            "claim": "Owner says the 1008 zigzag was never tight or clean, not suited to stretch athletic wear.",
+            "quote": "The zig-zags were never super tight or clean.",
+            "url": "https://www.reddit.com/r/sewing/comments/1aeuvh2/home_machine_just_lit_on_fire_need_purchasing/kkam1cy/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 3,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2019,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c52b9aa33",
+            "polarity": "negative",
+            "claim": "In Singapore the owner was told the discontinued 1008 will get no local support.",
+            "quote": "this model has been discontinued and NO LOCAL SUPPORT WILL EVER BE PROVIDED",
+            "url": "https://www.reddit.com/r/sewing/comments/14s8l3o/bernina_1008_needle_hits_front_of_zipper_foot/jr9oq0a/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c7867f0ef",
+            "polarity": "positive",
+            "claim": "Repair and cleaning of a newly bought 1008 were free under warranty.",
+            "quote": "under warrantee",
+            "url": "https://www.reddit.com/r/sewing/comments/bxbm2v/needle_is_hitting_the_presser_foot_and_cannot_sew/er7totu/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 2,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2020,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c11cc3f64",
+            "polarity": "negative",
+            "claim": "Advises holding the threads at the start of sewing because the needle kept unthreading.",
+            "quote": "I unthreaded my needle every time",
+            "url": "https://www.reddit.com/r/sewing/comments/1lysi4f/bernina_1008_tips/n2wy87f/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c85847c60",
+            "polarity": "negative",
+            "claim": "Owner's top thread pulls out of the needle when stitch width is turned to 5.",
+            "quote": "top thread keeps coming out of the needle when I turn my stitch width",
+            "url": "https://www.reddit.com/r/sewing/comments/13jhs97/bernina_1008_thread_coming_undone/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "walking_foot",
+        "label": "Walking foot",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c493611f9",
+            "polarity": "negative",
+            "claim": "The rubber glider of a used Bernina walking foot crumbled after use, on a school machine with wear.",
+            "quote": "on the right side just crumbled",
+            "url": "https://www.reddit.com/r/quilting/comments/1du39qq/walking_foot_falling_apart/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c75073041",
+            "polarity": "mixed",
+            "claim": "Owner calls the Bernina walking foot expensive but the best used, still working after about 10 years.",
+            "quote": "it's the best I've used",
+            "url": "https://www.reddit.com/r/quilting/comments/1du39qq/walking_foot_falling_apart/lbigi2a/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ccb187922",
+            "polarity": "positive",
+            "claim": "Owner sewed six layers of denim without trouble on the 1008.",
+            "quote": "6 layers of denim (oh yeah!)",
+            "url": "https://www.reddit.com/r/BuyItForLife/comments/1v66zk7/sewing_machine_bernina_1008_vc_janome_1522/ozyvwp7/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c5b32d229",
+            "polarity": "mixed",
+            "claim": "Owner finds the 1008 fine for fleece but weak on cap brims.",
+            "quote": "it struggles when it comes to sewing the brims of the caps",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1ip9t4n/is_it_worth_the_upgrade_from_bernina_1008_to_juki/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2024,
+          2024
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "value_price",
+        "label": "Value and price",
+        "statements": 2,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2023,
+          2023
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/bernina_1008.php",
+        "pageRating": 3,
+        "pageCount": 1,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 0
+        },
+        "lowRated": 1,
+        "sampled": null
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Stitches",
+        "juki": "17, including a buttonhole and two decorative.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008"
+          }
+        ],
+        "field": "stitchCount",
+        "source": "bernina-product"
+      },
+      {
+        "label": "Stitch width",
+        "juki": "Manual: up to 5 mm, infinitely variable. Product page: five steps.",
+        "others": "Our earlier figure was 5.5 mm.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/Bernina/media/Support/Sewing_Quilting_Embroidery/classic/1008/Documents/EN/B1008_EN.pdf"
+          }
+        ],
+        "field": "stitchWidthMm",
+        "source": "bernina-manual"
+      },
+      {
+        "label": "Warranty",
+        "juki": "2 years electrical, 5 years circuit boards, 20 years mechanical parts; part cost only.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "bernina-warranty"
+      },
+      {
+        "label": "Availability",
+        "juki": "Bernina's US page says the product is no longer available and points to local Bernina stores.",
+        "others": "Used machines are sold through dealers and marketplaces.",
+        "status": "dealer only",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008"
+          }
+        ],
+        "field": "msrp",
+        "source": "bernina-product"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "1000",
+        "label": "Bernina 1000",
+        "rows": [
+          {
+            "feature": "Stitches",
+            "urls": 1,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Reddit commenters say the 1000 has 7 stitches against the 1008's 17. Bernina's page confirms 17 for the 1008.",
+            "check": "Reddit comments; no Bernina 1000 document in hand",
+            "examples": [
+              {
+                "claim_id": "cd1e4d2da",
+                "claim": "The 1008 has 17 stitches including reverse feed stretch stitches; the 1000 has 7.",
+                "quote": "17 stitches on the 1008 vs. 7 on the 1000",
+                "url": "https://www.reddit.com/r/sewing/comments/1fpmzhb/which_would_you_choose/lozpi98/"
+              }
+            ]
+          },
+          {
+            "feature": "Hook",
+            "urls": 1,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Commenters say the 1000 has a rotary hook while the 1008 has Bernina's CB hook.",
+            "check": "Reddit comments; Bernina's page confirms the CB hook for the 1008 only",
+            "examples": [
+              {
+                "claim_id": "c3864c61c",
+                "claim": "The 1000 has a rotary hook while the 1008 has the Bernina CB hook.",
+                "quote": "The 1000 has a rotary hook, the 1008 has the well known Bernina",
+                "url": "https://www.reddit.com/r/sewing/comments/1fpmzhb/which_would_you_choose/lozpi98/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "model": "1001",
+        "label": "Bernina 1001",
+        "rows": [
+          {
+            "feature": "Overall design",
+            "urls": 2,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "A commenter says the 1001 is the same as the 1008 apart from a rotary hook, with the same stitch patterns.",
+            "check": "unverified, Reddit only",
+            "examples": [
+              {
+                "claim_id": "c4e1e2435",
+                "claim": "The 1001 has the same stitch patterns as the 1008.",
+                "quote": "the 1001 has the same stitch patterns as the 1008",
+                "url": "https://www.reddit.com/r/sewing/comments/1rghibi/reliable_heavy_duty_home_machine/o7xaqbw/"
+              },
+              {
+                "claim_id": "c0ee84c46",
+                "claim": "Writer says the 1001 is identical to the 1008 apart from the rotary hook.",
+                "quote": "the 1001 is identical to the 1008",
+                "url": "https://www.reddit.com/r/sewing/comments/1rghibi/reliable_heavy_duty_home_machine/o8o6g5z/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "model": "1010",
+        "label": "Bernina 1010",
+        "rows": [
+          {
+            "feature": "Overall design",
+            "urls": 1,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "A commenter describes the 1010 as the same machine as the 1008, but older.",
+            "check": "unverified, Reddit only",
+            "examples": [
+              {
+                "claim_id": "ca4466626",
+                "claim": "The 1010 is described as the same machine as the 1008 but older.",
+                "quote": "it's really the same machine as the 1008",
+                "url": "https://www.reddit.com/r/sewing/comments/1rghibi/reliable_heavy_duty_home_machine/o8o6g5z/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
   "brother-1034d": {
     "slug": "brother-1034d",
     "status": "approved",
@@ -2557,6 +3317,990 @@ export const rollupData: Record<string, Rollup> = {
         ]
       }
     ]
+  },
+  "janome-mc6650": {
+    "slug": "janome-mc6650",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-01",
+    "generated": "2026-10-01",
+    "method": {
+      "sources": 30,
+      "itemsCollected": 781,
+      "statements": 85,
+      "voices": 49,
+      "ownerVoices": 34,
+      "dateRange": [
+        2019,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 2,
+          "items": 43
+        },
+        "reddit": {
+          "sources": 28,
+          "items": 738
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 18,
+        "voices": 17,
+        "ownerVoices": 13,
+        "sources": 9,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 5,
+          "reddit": 12
+        },
+        "polarity": {
+          "positive": 16,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2020,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c1651277b",
+            "polarity": "positive",
+            "claim": "Owner praises the very wide throat.",
+            "quote": "super wide throat",
+            "url": "https://www.reddit.com/r/quilting/comments/1g7ln94/janome_elna_or_bernina/lstuqg8/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c4d267c9f",
+            "polarity": "positive",
+            "claim": "Three-year owner who made quilts up to king size praises the throat space.",
+            "quote": "Great throat space",
+            "url": "https://www.reddit.com/r/quilting/comments/1indzen/want_to_upgrade_my_machine/mcaaumc/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 11,
+        "voices": 11,
+        "ownerVoices": 10,
+        "sources": 7,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 8
+        },
+        "polarity": {
+          "positive": 4,
+          "negative": 7,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2020,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cb1ec98e2",
+            "polarity": "negative",
+            "claim": "Owner says a thread spool spindle broke off, which they blame on poor shipping packaging.",
+            "quote": "thread spool spindles to break off",
+            "url": "https://www.amazon.com/dp/B07RRJDQ75",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c8f8d558d",
+            "polarity": "negative",
+            "claim": "Only fault in three years was a broken foot pedal replaced for about 30 dollars.",
+            "quote": "the pedal broke and I had to replace it",
+            "url": "https://www.reddit.com/r/quilting/comments/1indzen/want_to_upgrade_my_machine/mcaaumc/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cff3fdda3",
+            "polarity": "positive",
+            "claim": "Owner says the machine runs smoothly.",
+            "quote": "Machine runs smoothly.",
+            "url": "https://www.reddit.com/r/quilting/comments/qtse61/does_anyone_have_the_janome_6650_memory_craft/hklr9j6/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c310a9413",
+            "polarity": "positive",
+            "claim": "Owner made a wall hanging and quilt coat with no issues.",
+            "quote": "a quilt coat with it and had zero issues",
+            "url": "https://www.reddit.com/r/quilting/comments/1indzen/want_to_upgrade_my_machine/mcbqukj/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 7,
+        "voices": 6,
+        "ownerVoices": 6,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 5,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 4,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2020,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c99d4d308",
+            "polarity": "negative",
+            "claim": "Owner says the needle threader did not always work.",
+            "quote": "Threader didn’t always work.",
+            "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c5b9f3495",
+            "polarity": "negative",
+            "claim": "Owner of several months reports the needle threader moved with the needle during sewing and then stuck in the down position.",
+            "quote": "it gets stuck in the down position",
+            "url": "https://www.reddit.com/r/sewhelp/comments/16f25i3/janome_memory_craft_6650_needle_threader_stuck/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c7efddaac",
+            "polarity": "positive",
+            "claim": "Owner finds the machine easy to thread and use.",
+            "quote": "is easy to thread and use",
+            "url": "https://www.amazon.com/dp/B07RRJDQ75",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cd6ea8010",
+            "polarity": "mixed",
+            "claim": "Owner finds the auto needle threader splits synthetic thread but works fine with cotton.",
+            "quote": "auto needle threader doesn't work as well with all synthetic thread",
+            "url": "https://www.amazon.com/dp/B07RRJDQ75",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "thread_trimmer",
+        "label": "Thread trimmer",
+        "statements": 6,
+        "voices": 6,
+        "ownerVoices": 6,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 4,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 4,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2020,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cab9483cf",
+            "polarity": "negative",
+            "claim": "Owner says the automatic cutter does not always cut.",
+            "quote": "My cutter don’t always cut.",
+            "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c28dc2c01",
+            "polarity": "positive",
+            "claim": "Owner likes the automatic thread cutting.",
+            "quote": "the automatic thread cutting",
+            "url": "https://www.reddit.com/r/quilting/comments/qtse61/does_anyone_have_the_janome_6650_memory_craft/hkro6a5/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cc30e80a5",
+            "polarity": "positive",
+            "claim": "Owner likes the automatic thread cutter.",
+            "quote": "Auto thread cut is nice as is the auto threader",
+            "url": "https://www.amazon.com/dp/B07RRJDQ75",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c9334b658",
+            "polarity": "mixed",
+            "claim": "The automatic thread cutter only works if the bobbin is threaded a specific way described in the manual.",
+            "quote": "you need to have your bobbin threaded a specific way",
+            "url": "https://www.reddit.com/r/quilting/comments/qtse61/does_anyone_have_the_janome_6650_memory_craft/hkpz3l0/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "walking_foot",
+        "label": "Walking foot",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 1,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2020,
+          2023
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c0b1e169a",
+            "polarity": "negative",
+            "claim": "Owner notes no even feed (walking) foot came with the machine and wishes it had.",
+            "quote": "Wish the even feed foot had also been included",
+            "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 5,
+        "voices": 4,
+        "ownerVoices": 2,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2021,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c32651fed",
+            "polarity": "positive",
+            "claim": "Owner says the presser foot raises to two levels for extra room under thick layers.",
+            "quote": "The presserfoot can be raised to two different levels",
+            "url": "https://www.amazon.com/dp/B07RRJDQ75",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2020,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c6293c26f",
+            "polarity": "negative",
+            "claim": "Owner reports occasional odd noises while free-motion quilting, with stitch problems on the bobbin side.",
+            "quote": "my machine would occasionally make weird noises",
+            "url": "https://www.reddit.com/r/quilting/comments/1q8r9x7/what_is_going_on_is_this_a_tension_thing/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c48e200a4",
+            "polarity": "negative",
+            "claim": "Owner reports strange sounds at the start of sewing that stop after an inch or two.",
+            "quote": "on start off sewing my machine makes very strange sounds",
+            "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "ce0de9b75",
+            "polarity": "positive",
+            "claim": "Owner describes the machine as quiet and smooth.",
+            "quote": "It's quiet, smooth, and stitches are beautiful.",
+            "url": "https://www.amazon.com/dp/B07RRJDQ75",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2020,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cad46e70b",
+            "polarity": "positive",
+            "claim": "Semi-professional rug maker sewing 18 to 20 hours a week says it never skips stitches.",
+            "quote": "it never misses a stitch.",
+            "url": "https://www.amazon.com/dp/B07RRJDQ75",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cbdf01a77",
+            "polarity": "positive",
+            "claim": "Owner likes the dedicated needle plate for straight stitching.",
+            "quote": "the specific needle plate for straight stitching",
+            "url": "https://www.reddit.com/r/quilting/comments/qtse61/does_anyone_have_the_janome_6650_memory_craft/hkro6a5/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2023,
+          2024
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c341f45ff",
+            "polarity": "negative",
+            "claim": "Owner had thread breaking and tension trouble after mixing in non-Janome bobbins, fixed with Janome bobbins.",
+            "quote": "thread breaking and some tension issues",
+            "url": "https://www.reddit.com/r/quilting/comments/1g7ln94/janome_elna_or_bernina/lstuqg8/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2021,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c8b6db060",
+            "polarity": "negative",
+            "claim": "Owner reports the machine struggles when quilt top seams stack three or more deep.",
+            "quote": "It also does not like 3 or more seams when making a quilt top.",
+            "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c9699f63b",
+            "polarity": "positive",
+            "claim": "Owner with limited use found fabric easy to control and feed, not feeding too quickly.",
+            "quote": "I found the fabric easy to control and feed",
+            "url": "https://www.reddit.com/r/quilting/comments/qtse61/does_anyone_have_the_janome_6650_memory_craft/hkpy0sc/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2020,
+          2022
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cfc1f85ee",
+            "polarity": "positive",
+            "claim": "Owner sewed four layers of heavy denim plus two layers of interfacing without trouble.",
+            "quote": "It walked right thru 4 layers of heavy denim with 2 layers of interfacing",
+            "url": "https://www.amazon.com/dp/B07RRJDQ75",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "free_motion",
+        "label": "Free-motion quilting",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2024
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ce2131161",
+            "polarity": "positive",
+            "claim": "Owner finds swapping to the low-tension free motion bobbin case easy because the needle plate needs no screws removed.",
+            "quote": "there are no screws to remove the needle plate",
+            "url": "https://www.reddit.com/r/quilting/comments/1g7ln94/janome_elna_or_bernina/lsu0c6u/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ce7130410",
+            "polarity": "negative",
+            "claim": "The replacement foot pedal was not covered under warranty.",
+            "quote": "It wasn’t covered under warranty",
+            "url": "https://www.reddit.com/r/quilting/comments/1g7ln94/janome_elna_or_bernina/lstuqg8/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2023
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cf59a9eab",
+            "polarity": "positive",
+            "claim": "Owner says the three LED lights help when sewing.",
+            "quote": "The 3 LEDs really help.",
+            "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "value_price",
+        "label": "Value and price",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2020,
+          2020
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "ce3ff6bee",
+            "polarity": "positive",
+            "claim": "Owner calls it the best mid-arm deal, sewing straight stitch well.",
+            "quote": "I think it's the best mid-arm deal out there!",
+            "url": "https://www.reddit.com/r/quilting/comments/fcw465/just_a_heads_up_costco_has_the_janome_memory/fjdm5po/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2024
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c1cbc7d68",
+            "polarity": "positive",
+            "claim": "Owner values the machine weight for quilting stability compared with a small Brother.",
+            "quote": "I also appreciate the weight because quilting on my tiny brother",
+            "url": "https://www.reddit.com/r/quilting/comments/1g7ln94/janome_elna_or_bernina/lsu0c6u/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "learning_curve",
+        "label": "Learning curve",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c12202b7b",
+            "polarity": "positive",
+            "claim": "Owner finds threading and tension management easy.",
+            "quote": "easy to thread and manage tension",
+            "url": "https://www.reddit.com/r/quilting/comments/1indzen/want_to_upgrade_my_machine/mcaaumc/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "ca8a39e77",
+            "polarity": "positive",
+            "claim": "Owner values the all-metal base.",
+            "quote": "The all metal base",
+            "url": "https://www.reddit.com/r/quilting/comments/1indzen/want_to_upgrade_my_machine/mcbqukj/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
+        "pageRating": 4.47,
+        "pageCount": 32,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 0,
+          "2": 2,
+          "3": 4,
+          "4": 3,
+          "5": 23
+        },
+        "lowRated": 6,
+        "sampled": null
+      },
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B07RRJDQ75",
+        "pageRating": 4.6,
+        "pageCount": 312,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 9
+        },
+        "lowRated": 0,
+        "sampled": "11 top reviews (8 US, 3 other countries) of 312 ratings"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "juki": "1,000 stitches per minute.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/memory-craft-6650/"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "janome-page"
+      },
+      {
+        "label": "Stitches",
+        "juki": "Page says 170, brochure says 172.",
+        "others": "Dealers quote 170.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/memory-craft-6650/"
+          }
+        ],
+        "field": "stitchCount",
+        "source": "janome-page"
+      },
+      {
+        "label": "Weight",
+        "juki": "24.25 lb.",
+        "others": "Not checked at dealers.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/memory-craft-6650/"
+          }
+        ],
+        "field": "weightLb",
+        "source": "janome-page"
+      },
+      {
+        "label": "Throat space",
+        "juki": "Janome states a 10 in workspace width and 4.7 in height, not a needle-to-arm distance.",
+        "others": "Dealers and owners call it a 10 in throat.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/memory-craft-6650/"
+          }
+        ],
+        "field": "throatIn",
+        "source": "janome-page"
+      },
+      {
+        "label": "Warranty",
+        "juki": "25 years limited per Janome's warranty document; the OCR text gives electronics 5 years and labor 1 year.",
+        "others": "Amazon and dealers repeat 25 years.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "janome-warranty"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "MC6700P",
+        "label": "Janome Memory Craft 6700P",
+        "rows": [
+          {
+            "feature": "Stitches",
+            "urls": 0,
+            "classes": [],
+            "summary": "Janome lists the 6700P with 200 stitches plus 5 alphabets against the 6650's 170 plus 2.",
+            "check": "Janome product pages, 2026-10-01",
+            "examples": []
+          },
+          {
+            "feature": "Speed",
+            "urls": 0,
+            "classes": [],
+            "summary": "1,200 spm on the 6700P against 1,000 on the 6650.",
+            "check": "Janome product pages, 2026-10-01",
+            "examples": []
+          },
+          {
+            "feature": "Feed system",
+            "urls": 0,
+            "classes": [],
+            "summary": "The 6700P has AcuFeed built in; on the 6650 it is an optional accessory.",
+            "check": "Janome product pages, 2026-10-01",
+            "examples": []
+          },
+          {
+            "feature": "Price",
+            "urls": 0,
+            "classes": [],
+            "summary": "MSRP $3,999 for the 6700P against $2,999 for the 6650.",
+            "check": "Janome product pages, 2026-10-01",
+            "examples": []
+          },
+          {
+            "feature": "Size and weight",
+            "urls": 0,
+            "classes": [],
+            "summary": "Same size, weight and 10 in flatbed.",
+            "check": "Janome product pages, 2026-10-01",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
   },
   "juki-ddl-8700": {
     "slug": "juki-ddl-8700",
@@ -7129,6 +8873,627 @@ export const rollupData: Record<string, Rollup> = {
         "rows": []
       }
     ],
+    "rivals": []
+  },
+  "singer-hd6600c": {
+    "slug": "singer-hd6600c",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-01",
+    "generated": "2026-10-01",
+    "method": {
+      "sources": 21,
+      "itemsCollected": 247,
+      "statements": 52,
+      "voices": 32,
+      "ownerVoices": 17,
+      "dateRange": [
+        2021,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 1,
+          "items": 13
+        },
+        "reddit": {
+          "sources": 20,
+          "items": 234
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 11,
+        "voices": 11,
+        "ownerVoices": 3,
+        "sources": 7,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 10
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 9,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cf1659414",
+            "polarity": "negative",
+            "claim": "Owner says the machine is not completely metal, against the published metal interior frame.",
+            "quote": "not completely metal",
+            "url": "https://www.amazon.com/dp/B0F1TD3LYG",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cf12ddfc6",
+            "polarity": "negative",
+            "claim": "Owner regrets buying this machine, citing poor build quality.",
+            "quote": "i forever regret getting this machine the quality is not there",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1dw92h0/just_got_my_singer_6600c_i_am_a_complete_beginner/lbti190/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cb55c37b4",
+            "polarity": "positive",
+            "claim": "Owner says the frame is full metal on their machine and only the cover is plastic.",
+            "quote": "it's actually full metal at least on mine",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ogc2o4/singer_heavy_duty_6600c/nlpgkwd/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 10,
+        "voices": 10,
+        "ownerVoices": 6,
+        "sources": 8,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 9
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 9,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c77fd04f9",
+            "polarity": "negative",
+            "claim": "Owner reports the needle sometimes grunts and sticks in the down position, even after a three week repair.",
+            "quote": "gets stuck in the down position",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1vwpyk0/sewing_machine_acting_weird/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cbae45755",
+            "polarity": "negative",
+            "claim": "Owner got an EL error while hemming curtains on day one, and the needle broke on thin scrap.",
+            "quote": "at the very end it threw an error code showing",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1q9jgxr/is_this_normal/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 6,
+        "voices": 6,
+        "ownerVoices": 6,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 4,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cc7d867c3",
+            "polarity": "negative",
+            "claim": "6600C owner reports a very loud jackhammer noise and needle shaking at thick folded denim side seams.",
+            "quote": "the machine makes this horribly loud jackhammer noise.",
+            "url": "https://www.reddit.com/r/sewingmachinerepair/comments/164453l/my_new_sewing_machine_sounds_like_a_jackhammer/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c964a8d3a",
+            "polarity": "negative",
+            "claim": "During the error the machine made a jam noise while the needle vibrated.",
+            "quote": "it was making a jam noise and the needle was just vibrating",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1q9jgxr/is_this_normal/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ce183cf07",
+            "polarity": "positive",
+            "claim": "Owner says the machine is not overly noisy.",
+            "quote": "not overly noisy",
+            "url": "https://www.amazon.com/dp/B0F1TD3LYG",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cacd47579",
+            "polarity": "positive",
+            "claim": "New owner finds the 6600C quieter and smoother than their mother's old machine.",
+            "quote": "it was not nearly as loud and much smoother compared to her old machine",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ogc2o4/singer_heavy_duty_6600c/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2021,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c78860a28",
+            "polarity": "positive",
+            "claim": "Owner finds the Singer Heavy Duty much easier to thread than their vintage Kenmore and Bernina.",
+            "quote": "A lot easier to thread",
+            "url": "https://www.reddit.com/r/myog/comments/l11pi6/heavy_duty_sewing_machine/glooqzc/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cb2a31c33",
+            "polarity": "positive",
+            "claim": "Owner finds the machine easy to use and thread, and likes the top load bobbin.",
+            "quote": "Extremely easy to use and thread",
+            "url": "https://www.amazon.com/dp/B0F1TD3LYG",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 6,
+        "voices": 4,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2021,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c50ca2298",
+            "polarity": "negative",
+            "claim": "Owner says the machine seizes up every time it meets thick fabric at the side seams.",
+            "quote": "the machine still has basically a seizure every time I come to thick fabric",
+            "url": "https://www.reddit.com/r/sewingmachinerepair/comments/164453l/my_new_sewing_machine_sounds_like_a_jackhammer/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c4deacb5a",
+            "polarity": "negative",
+            "claim": "Owner says sewing something too thick jammed the needle and snapped it.",
+            "quote": "tried sewing something too thick and the needle got jammed in it and snapped",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1vwpyk0/sewing_machine_acting_weird/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ced456e1c",
+            "polarity": "positive",
+            "claim": "Owner says it sews thicker fabrics better than their other machines.",
+            "quote": "actually a lot better at getting through thicker fabrics",
+            "url": "https://www.reddit.com/r/myog/comments/l11pi6/heavy_duty_sewing_machine/glooqzc/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c00f5d5c9",
+            "polarity": "mixed",
+            "claim": "Owner reports four layers of denim at the cuff sewed without issue, only the folded seams failed.",
+            "quote": "seeing 4 layers of denim with no issue",
+            "url": "https://www.reddit.com/r/sewingmachinerepair/comments/164453l/my_new_sewing_machine_sounds_like_a_jackhammer/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2025,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "thread_trimmer",
+        "label": "Thread trimmer",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2025,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cd3b47918",
+            "polarity": "positive",
+            "claim": "Owner praises a self cutting bobbin feature, which may refer to a thread cutter.",
+            "quote": "self cutting bobbin feature",
+            "url": "https://www.amazon.com/dp/B0F1TD3LYG",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2023,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c47cb761e",
+            "polarity": "negative",
+            "claim": "6600C owner says tension that used to be 7 now needs to be 1 to 2 after a needle change and still fails.",
+            "quote": "now even 1-2 is too high",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ple2py/singer_tension_help/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c87253ea1",
+            "polarity": "negative",
+            "claim": "New 6600C owner reports it would stop and start in bursts despite a steady pedal, then run steadily later.",
+            "quote": "it won’t go at a steady pace",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1q9jgxr/is_this_normal/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2024,
+          2024
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "free_motion",
+        "label": "Free-motion quilting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2024
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B0F1TD3LYG",
+        "pageRating": 4.4,
+        "pageCount": 158,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 11
+        },
+        "lowRated": 1,
+        "sampled": "13 top reviews (8 US, 5 other countries) of 158 ratings"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "juki": "Manual: 1000 +/- 50 stitches per minute. A Singer Canada page excerpt says up to 1,100.",
+        "others": "Our earlier figure was 1,100.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer manual",
+            "url": "https://svpworldwide.widen.net/content/aeg9idv14w/pdf/HD6600C_Manual.pdf"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "singer-manual"
+      },
+      {
+        "label": "Stitches",
+        "juki": "Singer advertises 215 stitch applications and publishes no separate stitch count.",
+        "others": "Dealers and listings quote 100 stitches.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Singer bundle page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6600c-sewing-machine-extension-table-bundle"
+          }
+        ],
+        "field": "stitchCount",
+        "source": "singer-bundle"
+      },
+      {
+        "label": "Throat space",
+        "juki": "6.4 in, Singer's wording on the bundle page.",
+        "others": "Not in the manual's specification table.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Singer bundle page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6600c-sewing-machine-extension-table-bundle"
+          }
+        ],
+        "field": "throatIn",
+        "source": "singer-bundle"
+      },
+      {
+        "label": "Warranty",
+        "juki": "Limited 25/1 Year Warranty per Singer's coverage page.",
+        "others": "Some dealer copy says 2 years electrical.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer warranty page",
+            "url": "https://help.singer.com/en-US/singers-warranty-coverage-395288"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "singer-warranty"
+      }
+    ],
+    "siblings": [],
     "rivals": []
   }
 };

@@ -781,12 +781,12 @@ export const catalogData: Record<string, CatalogEntry> = {
     "priceNote": null,
     "specs": {
       "stitchTypes": {
-        "value": "Utility and decorative stitches; straight, zigzag, stretch and blind hem; 4-step buttonhole",
-        "source": "https://www.magnetichoop.com/blogs/news/bernina-1008-owners-manual-your-complete-guide-to-setup-operation-and-troubleshooting"
+        "value": "17 stitches including a buttonhole and two decorative stitches (Bernina product page)",
+        "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008"
       },
       "stitchCount": {
         "value": 17,
-        "source": "https://www.magnetichoop.com/blogs/news/bernina-1008-owners-manual-your-complete-guide-to-setup-operation-and-troubleshooting"
+        "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008"
       },
       "maxSpm": {
         "value": 900,
@@ -805,24 +805,24 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "needleSystem": {
-        "value": "130/705 H household",
-        "source": "https://www.manualslib.com/manual/4069331/Bernina-1008.html"
+        "value": "130/705 H; sizes 70 to 120",
+        "source": "https://www.bernina.com/Bernina/media/Support/Sewing_Quilting_Embroidery/classic/1008/Documents/EN/B1008_EN.pdf"
       },
       "presserFootLift": {
-        "value": "Manual lever; adjustable presser foot pressure; knee lifter (Free Hand System) not listed on pages found",
+        "value": "Manual lever; whether presser foot pressure is adjustable is disputed (see conflicts); knee lifter not listed on pages found",
         "source": "https://www.manualslib.com/manual/4069331/Bernina-1008.html"
       },
       "threadTrimmer": {
-        "value": null,
-        "source": null
+        "value": "Thread cutter on the machine (manual item 31, OCR)",
+        "source": "https://www.bernina.com/Bernina/media/Support/Sewing_Quilting_Embroidery/classic/1008/Documents/EN/B1008_EN.pdf"
       },
       "feedSystem": {
         "value": "Drop feed",
         "source": "https://www.manualslib.com/manual/4069331/Bernina-1008.html"
       },
       "buttonhole": {
-        "value": "Manual multi-step buttonhole",
-        "source": "https://sewinginsight.com/reviews/bernina-1008-review/"
+        "value": "One buttonhole stitch with a buttonhole knob and sole (Bernina product page)",
+        "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008"
       },
       "motor": {
         "value": null,
@@ -841,8 +841,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "includedFeet": {
-        "value": null,
-        "source": null
+        "value": "Reverse pattern, overlock (2 and 2A), buttonhole, zipper and blind stitch feet; 4 bobbins",
+        "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008"
       },
       "warrantyUs": {
         "value": "Bernina US: 20 yr mechanical parts, 5 yr printed circuit boards, 2 yr electrical parts; labor not covered",
@@ -850,18 +850,24 @@ export const catalogData: Record<string, CatalogEntry> = {
       }
     },
     "claims": [
-      "\"The classic mechanical machine\" (manufacturer tagline, bernina.com)",
+      "\"The classic mechanical machine\" (Bernina tagline, bernina.com)",
+      "\"Simply brilliant, brilliantly simple\" (Bernina product page)",
+      "\"State-of-the-art solid construction\" and \"robust sewing machine\" (Bernina product page)",
+      "\"Patented CB hook\" (Bernina product page)",
       "\"Heavy Duty\" appears in used-dealer listing titles (heavydutyportable.com); it is a listing word, not a Bernina rating",
       "\"Nearly bullet proof\" (owner and school-user description, PatternReview)",
       "\"Swiss school system workhorse\" (dealer and forum lore, PatternReview 1008 vs 1008S thread)"
     ],
     "conflicts": [
-      "Max speed: 900 spm, not adjustable (magnetichoop.com manual guide; maplereviews.com) vs up to 1,050 spm (another review site in results). Catalog will use 900 and flag [verify].",
-      "Stitch count: 17 stitch patterns (magnetichoop.com) vs 16 for the 1008S (berninasewingshop.co.uk). The S is the portable variant with a handle; counts may differ by market. Catalog will use 17 for the 1008.",
-      "Weight: 9.5 kg (matri.eu) converts to 20.9 lb; no US pound figure captured from Bernina. Catalog will show 20.9 lb flagged [verify].",
-      "Stitch width: 5.5 mm (manual snippet) vs 5 mm max stitch length (magnetichoop); these are different axes, not a conflict, listed so nobody merges them.",
-      "Price history: dealer prices of $1,000 to $1,100 with sales near $950; one owner paid $649, another $700 with lessons (PatternReview topic 36945). New stock is gone; the Sewing Machines Plus 1008N listing reads out of stock. No current price recorded.",
-      "Status: discontinued in 2020 per sewcanshe.com; bernina.com still hosts a Classic Series 1008 page. Bernina names no successor; a dealer suggested the bernette 05 Academy to one PatternReview reviewer as the school-machine replacement."
+      "Stitch width: Bernina's manual says up to 5 mm, infinitely variable (OCR text); Bernina's product page says five steps by control dial. Our earlier 5.5 mm came from a manual snippet on manualslib.com and matches neither maker wording, so the page now uses the manual's 5 mm.",
+      "Max speed: 900 spm, not adjustable (magnetichoop.com and maplereviews.com, non-maker) vs up to 1050 spm (another review site). Bernina publishes no speed in the manual or on the product page, so treat 900 as a non-maker figure and [verify].",
+      "Weight: 9.5 kg, about 20.9 lb, comes from a European dealer listing (matri.eu, non-maker). Bernina publishes no weight in the manual or on the product page, so [verify].",
+      "Stitch length: our 5 mm maximum comes from magnetichoop.com (non-maker). Bernina says only that length is infinitely variable and publishes no mm range. This is a different axis from stitch width.",
+      "Buttonhole: a dealer-style source describes a 4-step buttonhole; Bernina's page lists one buttonhole stitch with a buttonhole knob and sole and does not say 4-step, so the 4-step wording is dropped.",
+      "Presser foot pressure: our earlier spec says adjustable, but one Reddit owner says it cannot be adjusted on this old model (r/SewingForBeginners thread). Verify against the manual PDF.",
+      "Stitch count: 17 for the 1008 on Bernina's page vs 16 quoted for the 1008S by a UK dealer (berninasewingshop.co.uk). The 1008S is a different listing; do not merge the two.",
+      "Availability: Bernina's US product page says 'This product is no longer available' and gives no price; sewcanshe.com says it was discontinued in 2020. Bernina's own page gives no date and Bernina still publishes the manual and warranty. No successor appears on the pages found.",
+      "Price history: forum reports of dealer prices of $1,000 to $1,100 with sales near $950, and owners who paid $649 and $700 (PatternReview topic 36945, undated). No dated current price is recorded."
     ],
     "ownerThemes": [
       {
@@ -918,76 +924,80 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": true,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The 1008 was Bernina's last all-mechanical machine, a 17 stitch, 900 spm, 9.5 kg school workhorse discontinued in 2020, so today it is a used-market buy with no direct Bernina successor.",
-      "whoFor": "A garment or utility sewer who wants a simple, all-metal mechanical with Bernina stitch quality and dealer service, and is willing to buy used or new-old-stock.",
-      "skipIf": "You want a new machine with a warranty start date, a needle threader, needle up/down or speed above 900 spm; the Janome HD3000 or a computerized Bernina answers those.",
-      "keySpec": "17 stitches · 900 spm · 5.5 mm width · 9.5 kg · discontinued 2020",
+      "verdict": "Bernina's US page says the 1008 is no longer available; owners praise a sturdy mechanical, so it is a dealer or used-market buy to check unit by unit.",
+      "whoFor": "A garment or utility sewer who wants a simple mechanical Bernina with a published parts warranty and is willing to buy through a dealer or on the used market.",
+      "skipIf": "You want a new machine bought at retail, a presser foot pressure dial you can count on, or needle up/down, which one PatternReview reviewer says it lacks.",
+      "keySpec": "17 stitches · up to 5 mm width (manual) · 130/705 H needle · dealer or used only",
       "strengths": [
-        "Decades of school and owner use with reports of stitch quality equal to computerized machines.",
-        "All-metal construction and Bernina dealer service network for parts and repair.",
-        "Simple mechanical controls with 5 needle positions and adjustable presser foot pressure."
+        "Owners, a home ec teacher and a costume shop user report school and workshop use that has lasted years or decades.",
+        "A 20 year owner reports only a few professional services, though Reddit reports on reliability are mixed.",
+        "Bernina publishes warranty terms: 20 years mechanical parts, 5 years circuit boards, 2 years electrical, part cost only."
       ],
       "weaknesses": [
-        "Discontinued in 2020; new units are gone and Bernina names no replacement in its own line.",
-        "No needle threader, needle up/down or stitch advisor, at a last dealer price of $1,000 or more.",
-        "Speed and stitch count figures online disagree (900 vs 1,050 spm; 16 vs 17 stitches)."
+        "Owners report foot trouble: one says presser foot pressure cannot be adjusted, another that the foot presses hard and stretches wovens.",
+        "Owners report knits and stretch fabric problems, including skipped zigzag stitches on jersey and thread cutting on high-stretch knits.",
+        "Oiling advice splits: one owner says it wants oil after every bobbin, another says they never oil theirs."
       ],
       "checks": [
         {
           "title": "Confirm 1008 or 1008S",
-          "body": "The S is the portable variant with a built-in handle and, per one UK listing, 16 stitches. Both are mechanical; check the label and the stitch dial."
+          "body": "A UK dealer lists the 1008S as a variant with 16 stitches against 17 for the 1008. Bernina US pages cover the 1008; check the label and the stitch dial before paying."
         },
         {
-          "title": "Ask about the warranty on used stock",
-          "body": "Bernina's warranty runs from original purchase and requires registration or a dealer countersigned card. A pre-owned unit may carry only the seller's service warranty."
+          "title": "Verify the figures Bernina does not publish",
+          "body": "Bernina publishes no speed or weight, and the manual is image-only, so figures read from OCR need checking against the PDF. Treat 900 spm and 20.9 lb as non-maker figures."
         },
         {
-          "title": "Price against a new mechanical",
-          "body": "Used 1008 asks often sit near what a new Janome HD3000 costs. Decide whether Bernina stitch quality and service are worth the age."
+          "title": "Ask about warranty and condition on used stock",
+          "body": "Bernina's warranty terms are published, but a used unit may carry only the seller's service warranty. Owners report jammed or misaligned feed dogs on a marketplace unit, so ask for a service record."
         }
       ],
       "realCost": [
-        "Dealer service: A used machine usually needs a clean, oil and timing check; ask the dealer for a quote",
-        "Presser feet: Bernina old-style feet; buy from a dealer, price not published on pages found",
-        "Needles: Standard 130/705 H, widely available",
-        "Extension table: Not listed on pages found; ask the dealer"
+        "Dealer service: Owners report skipped stitches and jams on used units; ask a Bernina dealer for a clean, oil and timing quote",
+        "Oil: Owner advice on oiling frequency varies from every bobbin to never; follow the manual",
+        "Needles: 130/705 H, sizes 70 to 120 per the manual; a sharper needle fixed one owner's fleece trouble",
+        "Feet: Bernina lists reverse pattern, overlock, buttonhole, zipper and blind stitch feet and 4 bobbins; extra feet through a dealer, price not published on pages found"
       ],
       "faqs": [
         {
           "q": "Is the Bernina 1008 discontinued?",
-          "a": "Yes. Sources report it was discontinued in 2020 as Bernina's last all-mechanical machine, although bernina.com still hosts a Classic Series page for it."
+          "a": "Bernina's US product page says 'This product is no longer available' and points to local Bernina stores. One third-party site says it was discontinued in 2020; Bernina's page gives no date."
         },
         {
           "q": "What replaced the Bernina 1008?",
-          "a": "Bernina names no successor. Its mechanical machines now sit under the bernette brand, and one dealer pointed a reviewer to the bernette 05 Academy for school use."
+          "a": "No successor appears on the pages found. One dealer pointed a PatternReview reviewer to the bernette 05 Academy as a school machine."
         },
         {
           "q": "How much did the Bernina 1008 cost new?",
-          "a": "Forum reports put dealer prices at $1,000 to $1,100 with sales near $950; some buyers paid $649 to $700. No current new price exists."
+          "a": "Bernina's page gives no price. Undated forum reports put dealer prices at $1,000 to $1,100 with sales near $950, and some buyers paid $649 to $700."
         },
         {
           "q": "Is the Bernina 1008 heavy duty?",
-          "a": "Bernina did not rate it that way. Heavy Duty appears in used-dealer listing titles. Owners describe an all-metal machine that survives school use."
+          "a": "Bernina does not rate it that way; Heavy Duty appears in used-dealer listing titles. Bernina's manual says it is intended for household use only. Owners describe a sturdy machine that has lasted in classes."
         },
         {
           "q": "What is the difference between the 1008 and 1008S?",
-          "a": "The S is described as the portable variant with a built-in handle; one UK listing gives it 16 stitches against 17 for the 1008. Accessories may also differ."
+          "a": "A UK dealer lists the 1008S with 16 stitches against 17 for the 1008 and describes it as the portable variant. Bernina US pages cover the 1008 only."
         },
         {
           "q": "How many stitches does the Bernina 1008 have?",
-          "a": "17 stitch patterns per a manual guide; 16 is quoted for the 1008S."
+          "a": "17, including a buttonhole and two decorative stitches, per Bernina's product page."
         },
         {
           "q": "How fast does the Bernina 1008 sew?",
-          "a": "900 stitches per minute per most sources; one review site says 1,050. Treat 900 as the working figure."
+          "a": "Bernina publishes no speed. Review sites quote 900 spm and one quotes 1050; treat both as non-maker figures to verify."
         },
         {
-          "q": "Does the Bernina 1008 have a needle threader?",
-          "a": "Not a built-in automatic one on pages found; owners mention threading by hand."
+          "q": "What is the maximum stitch width?",
+          "a": "Bernina's manual says up to 5 mm, infinitely variable, while its product page says five steps. The manual text is OCR, so check the PDF."
+        },
+        {
+          "q": "What does the Bernina warranty cover?",
+          "a": "Bernina's US page lists 2 years electrical parts, 5 years circuit boards and 20 years mechanical parts, with liability limited to the cost of the part. Verify the conditions on the page."
         },
         {
           "q": "How much does the Bernina 1008 weigh?",
-          "a": "9.5 kg, about 20.9 lb, per a European dealer listing. Bernina's US figure was not captured."
+          "a": "Bernina publishes no weight. A European dealer lists 9.5 kg, about 20.9 lb; verify before relying on it."
         }
       ]
     },
@@ -1015,7 +1025,9 @@ export const catalogData: Record<string, CatalogEntry> = {
       "http://www.blogforbettersewing.com/2012/06/my-bernina-1008-two-years-later.html",
       "https://www.ussewing.com/product/bernina-1008/",
       "https://heavydutyportable.com/bernina_1008_heavy_duty_sewing_machine_pre_owned_serviced_warranty.htm",
-      "https://www.bernette.com/en-US/models/bernette-05-academy"
+      "https://www.bernette.com/en-US/models/bernette-05-academy",
+      "https://www.bernina.com/en-US/Support-US/Machines/BERNINA-Classic-Series/BERNINA-1008",
+      "https://www.bernina.com/Bernina/media/Support/Sewing_Quilting_Embroidery/classic/1008/Documents/EN/B1008_EN.pdf"
     ]
   },
   "bernina-570-qe": {
@@ -5433,10 +5445,10 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "manufacturerUrl": "https://www.janome.com/product/memory-craft-6650/",
     "retailerUrl": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine",
-    "priceUsdSeen": null,
-    "priceSeenDate": null,
-    "priceSeenAt": "Sewing Machines Plus",
-    "priceNote": null,
+    "priceUsdSeen": 2099,
+    "priceSeenDate": "2026-10-01",
+    "priceSeenAt": "another dealer",
+    "priceNote": "Amazon listing (Janome MSRP $2,999)",
     "specs": {
       "stitchTypes": {
         "value": "170 built-in stitches and 2 alphabets, including 9 one-step buttonholes",
@@ -5459,24 +5471,24 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "throatIn": {
-        "value": 10,
-        "source": "https://www.qualitysewing.com/products/janome-memory-craft-6650-sewing-quilting-machine"
+        "value": null,
+        "source": null
       },
       "needleSystem": {
         "value": null,
         "source": null
       },
       "presserFootLift": {
-        "value": null,
-        "source": null
+        "value": "Extra high lift; manual says about 7 mm (1/4 in) above the normal raised position",
+        "source": "https://www.janome.com/wp-content/uploads/2019/04/866d_mc6650_866-800-408_eng_revised-compressed.pdf"
       },
       "threadTrimmer": {
         "value": "Automatic thread cutter",
         "source": "https://www.qualitysewing.com/products/janome-memory-craft-6650-sewing-quilting-machine"
       },
       "feedSystem": {
-        "value": "Top-loading full rotary hook; one-push needle plate conversion with 2 plates included",
-        "source": "https://www.qualitysewing.com/products/janome-memory-craft-6650-sewing-quilting-machine"
+        "value": "Superior Feed System Plus (SFS+), 7-piece feed dog; top-loading full rotary hook; one-push needle plate conversion with 2 plates included; no built-in AcuFeed (optional accessory)",
+        "source": "https://www.janome.com/product/memory-craft-6650/"
       },
       "buttonhole": {
         "value": "9 one-step buttonhole styles",
@@ -5487,35 +5499,41 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "frame": {
-        "value": "10 in all-metal flatbed; no free arm",
-        "source": "https://mariasew.com/blog/janome-mc6650-review/"
+        "value": "Janome lists a 10 in all-metal seamless flatbed with a 10 in wide by 4.7 in high workspace; no free arm. Needle-to-arm distance not published",
+        "source": "https://www.janome.com/product/memory-craft-6650/"
       },
       "weightLb": {
-        "value": null,
-        "source": null
+        "value": 24.25,
+        "source": "https://www.janome.com/product/memory-craft-6650/"
       },
       "dimensionsIn": {
-        "value": null,
-        "source": null
+        "value": "W 20.3 x H 11.8 x D 8.6 in",
+        "source": "https://www.janome.com/product/memory-craft-6650/"
       },
       "includedFeet": {
         "value": "Zigzag foot (on machine), blind hem foot, overcast foot, satin stitch foot, rolled hem foot, zipper foot, darning foot, free motion quilting set (closed toe, open toe, zigzag), automatic buttonhole foot; also lint brush, seam ripper, 6 bobbins, spool caps, buttonhole stabilizer plate, quilting guide, screwdriver, needles, 2 cone nets, 2 spool rests",
         "source": "https://sewingmachinesplus.com/products/janome-mc6650-sewing-quilting-machine"
       },
       "warrantyUs": {
-        "value": null,
-        "source": null
+        "value": "25 year limited; electronic components 5 years, labor 1 year (from OCR of Janome's warranty PDF, verify against the PDF before quoting); void if not bought from an authorized Janome dealer in the United States; commercial use limited to 1 year",
+        "source": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
       }
     },
     "claims": [
-      "\"professional-grade\" sewing and quilting machine (dealer copy repeating Janome positioning)",
+      "\"Janome is bringing professional power into the project makers home\" (Janome product page)",
+      "\"10 in all-metal seamless flatbed\" (Janome product page)",
+      "\"high caliber construction for superior durability, ball bearing design\" (Janome product page)",
       "\"Heavy Duty Sewing and Quilting Machine\" (Walmart listing title; Janome does not put it in the HD series)",
       "\"3.6 inch bright LCD screen\" (manufacturer feature list via dealer page)"
     ],
     "conflicts": [
-      "Weight, dimensions, warranty, needle system and presser foot lift did not appear in any accessible snippet. All left null; the janome.com product page could not be fetched.",
-      "Walking foot: the SMP accessory list does not include a walking or AcuFeed foot; an owner review confirms buying a $59 walking foot separately. Some retail bundles add one.",
-      "Price: not visible in accessible snippets. SMP shows only add-on packages ($99 sewing, $149 quilting). Left null."
+      "Stitch count: Janome's product page says 170 built-in stitches and its feature sheet says 172; we keep 170 from the page.",
+      "Lighting: Janome's product page says 6 LEDs in 3 locations and its feature sheet says 3 high-powered LED lights.",
+      "Rolled hem foot: Janome's product page gives 2 mm and its feature sheet says 3 mm.",
+      "Throat: dealers and owners call it a 10 in throat, but Janome publishes a 10 in wide by 4.7 in high workspace and a 10 in flatbed, not a needle-to-arm distance. Under rule 11 throat is left as [verify]; read the 10 in as Janome's workspace wording.",
+      "Sibling size: one Reddit comment calls the 6700P 2 in bigger, but Janome's own pages give the 6700P the same size, weight and 10 in flatbed as the 6650.",
+      "Warranty: Amazon and dealers repeat 25 years, but the OCR of Janome's warranty PDF gives electronics 5 years and labor 1 year and voids it when the machine is not bought from an authorized US Janome dealer. Verify the wording against the PDF.",
+      "Price: Janome lists $2,999 MSRP and says to contact a dealer; Amazon showed $2,099."
     ],
     "ownerThemes": [
       {
@@ -5563,40 +5581,82 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "A 10 in computerized flatbed with 170 stitches and a thread cutter for quilters who want one machine that pieces, quilts and still sews garments.",
-      "whoFor": "Quilters and home sewists who want a long arm space and automated features without giving up zigzag, buttonholes and alphabets.",
+      "verdict": "A computerized flatbed with 170 stitches, 1,000 spm and a thread cutter for quilters who also sew garments; Janome's 10 in is workspace width, not a measured throat.",
+      "whoFor": "Quilters and home sewists who want a wide flatbed workspace and automated features without giving up zigzag, buttonholes and alphabets.",
       "skipIf": "You need a free arm for cuffs and sleeves, or you sew heavy canvas and leather often enough that a mechanical or industrial is the better tool.",
-      "keySpec": "1,000 spm · 170 stitches · 10 in arm · auto thread cutter",
+      "keySpec": "1,000 spm · 170 stitches · 10 in workspace · auto thread cutter",
       "strengths": [
-        "Dealers list a 10 in all-metal flatbed and 1,000 spm.",
-        "Automatic thread cutter and one-push needle plate change with two plates in the box.",
+        "Owners report the wide workspace handles large quilts, with 13 owner voices across 17 comments on throat and workspace, none negative.",
+        "Janome lists 1,000 spm, an automatic thread cutter and a one-push needle plate change with two plates in the box.",
         "Nine one-step buttonhole styles and two alphabets cover garment work a straight-stitch machine cannot."
       ],
       "weaknesses": [
-        "No free arm.",
-        "No walking foot in the standard accessory list; owners buy one.",
-        "Weight, warranty and dimensions were not published in accessible sources."
+        "No free arm; Janome describes a flatbed only.",
+        "No walking or AcuFeed foot is built in; AcuFeed is an optional accessory and owners report buying a walking foot separately.",
+        "Owners report needle threader problems, and some report the automatic cutter does not always cut."
       ],
       "checks": [
         {
           "title": "Walking or AcuFeed foot",
-          "body": "Confirm whether the bundle includes a walking foot. The standard SMP list does not, and one owner rated the machine poorly until she added one."
+          "body": "Confirm whether the bundle includes a walking foot. Janome lists AcuFeed as optional on the 6650 and the standard dealer accessory list has none."
         },
         {
-          "title": "Free arm need",
-          "body": "This is a flatbed. If you hem jeans and sleeves weekly, a free arm machine as a second unit may be needed."
+          "title": "Warranty and where you buy",
+          "body": "Janome's 25 year limited warranty is, per OCR of its warranty PDF, void if the machine is not bought from an authorized Janome dealer in the United States. Check that an Amazon or Costco listing is an authorized sale, and verify the wording against the PDF."
         },
         {
-          "title": "Package pricing",
-          "body": "SMP sells a $99 sewing package and a $149 quilting package on top of the machine. Check what is already in the box before adding either."
+          "title": "What 10 in means",
+          "body": "Janome publishes a 10 in wide by 4.7 in high workspace, not a needle-to-arm distance. Do not read it as a 10 in throat when comparing quilting tiers."
         }
       ],
       "realCost": [
-        "Walking foot (about $59 per owner report)",
-        "Extra bobbins and cone nets for large spools",
-        "Quilting needles size 90/14"
+        "Walking foot (about $59 per one owner report)",
+        "AcuFeed foot if you want it, an optional accessory per Janome",
+        "Quilting needles and thread for the quilting jobs you plan; Janome's needle kit covers 75 and 90 sizes",
+        "Dealer package add-ons ($99 sewing, $149 quilting at Sewing Machines Plus); check what is already in the box"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "Does the Janome MC6650 have a free arm?",
+          "a": "No. Janome describes a 10 in all-metal seamless flatbed, and review roundups flag the lack of a free arm as a limit for cuffs and sleeves."
+        },
+        {
+          "q": "Does the Janome MC6650 come with a walking foot?",
+          "a": "Not as a standard accessory. Janome lists AcuFeed as optional on the 6650, and owners report buying a walking foot separately."
+        },
+        {
+          "q": "How much throat space does the Janome MC6650 have?",
+          "a": "Janome does not publish a needle-to-arm figure. It gives a 10 in wide by 4.7 in high workspace and a 10 in flatbed, so our throat spec shows [verify]."
+        },
+        {
+          "q": "Is the Janome MC6650 good for quilting?",
+          "a": "Owners report the wide workspace works for large quilts, and Janome lists 1,000 spm and a free motion quilting foot set. Treat the 10 in as workspace width, not a long-arm throat."
+        },
+        {
+          "q": "Is the Janome MC6650 heavy duty enough for denim?",
+          "a": "Janome does not put it in its HD series; the Heavy Duty title is a retailer listing claim. Main motor type and wattage are not published, so we cannot spec-check denim capability."
+        },
+        {
+          "q": "What is the difference between the Janome MC6650 and the MC6700P?",
+          "a": "Per Janome's pages, the 6700P adds 200 stitches and 5 alphabets, 1,200 spm, built-in AcuFeed and 17 feet, at $3,999 MSRP against $2,999. Janome gives it the same size, weight and 10 in flatbed."
+        },
+        {
+          "q": "Does the Janome MC6650 have a knee lifter?",
+          "a": "Janome lists a knee lift on the 6700P. For the 6650, Janome lists an extra high presser foot lift of about 7 mm above the normal raised position."
+        },
+        {
+          "q": "How much does the Janome MC6650 weigh?",
+          "a": "Janome lists 24.25 lb and W 20.3 x H 11.8 x D 8.6 in."
+        },
+        {
+          "q": "Does the Janome MC6650 have AcuFeed?",
+          "a": "Not built in. Janome lists AcuFeed as an optional accessory on the 6650 and as built in on the 6700P."
+        },
+        {
+          "q": "Is the warranty valid if I buy on Amazon or at Costco?",
+          "a": "Per OCR of Janome's warranty PDF, it is void if the machine is not bought from an authorized Janome dealer in the United States. Verify the wording against the PDF and confirm the seller is authorized."
+        }
+      ]
     },
     "sources": [
       "https://www.janome.com/product/memory-craft-6650/",
@@ -5606,7 +5666,12 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://mariasew.com/blog/janome-mc6650-review/",
       "https://sewing.patternreview.com/SewingDiscussions/topic/116259",
       "https://www.walmart.com/ip/Janome-MC6650-Computerized-Quilting-Sewing-Machine/583892796",
-      "https://sewinginsight.com/reviews/janome-memory-craft-6650-review-sewing-and-quilting-machine/"
+      "https://sewinginsight.com/reviews/janome-memory-craft-6650-review-sewing-and-quilting-machine/",
+      "https://www.janome.com/wp-content/uploads/2019/04/mc6650-feature_sheet.pdf",
+      "https://www.janome.com/wp-content/uploads/2019/04/866d_mc6650_866-800-408_eng_revised-compressed.pdf",
+      "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+      "https://www.janome.com/product/memory-craft-6700p/",
+      "https://www.amazon.com/dp/B07RRJDQ75"
     ]
   },
   "juki-ddl-5550": {
@@ -9673,22 +9738,22 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "manufacturerUrl": "https://www.singer.com/products/singer-heavy-duty-6600c-sewing-machine",
     "retailerUrl": "https://www.sewingmachinesplus.com/230254112.php",
-    "priceUsdSeen": 300,
-    "priceSeenDate": "2026-09-29",
-    "priceSeenAt": "Sewing Machines Plus",
-    "priceNote": "Sewing Machines Plus (sale price in search snippet; regular price $379.99)",
+    "priceUsdSeen": 320,
+    "priceSeenDate": "2026-10-01",
+    "priceSeenAt": "another dealer",
+    "priceNote": "singer.com extension-table bundle page (strike-through MSRP $448.98 is a comparison price, not a selling price)",
     "specs": {
       "stitchTypes": {
-        "value": "100 built-in stitches (basic, stretch, decorative and one-step buttonholes) marketed as 215 stitch applications; LCD shows stitch, length and width; 13 needle positions",
-        "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine"
+        "value": "Singer advertises 215 stitch applications and does not publish a separate stitch count; LCD shows stitch, length and width; 13 needle positions; 6 one-step buttonhole styles",
+        "source": "https://www.singer.com/products/singer-heavy-duty-6600c-sewing-machine-extension-table-bundle"
       },
       "stitchCount": {
-        "value": 100,
-        "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine"
+        "value": null,
+        "source": null
       },
       "maxSpm": {
-        "value": 1100,
-        "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine"
+        "value": 1000,
+        "source": "https://svpworldwide.widen.net/content/aeg9idv14w/pdf/HD6600C_Manual.pdf"
       },
       "threads": {
         "value": null,
@@ -9699,32 +9764,32 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "throatIn": {
-        "value": 6.4,
-        "source": "https://www.sewingmachinesplus.com/230254112.php"
+        "value": null,
+        "source": null
       },
       "needleSystem": {
         "value": null,
         "source": null
       },
       "presserFootLift": {
-        "value": null,
-        "source": null
+        "value": "6 mm",
+        "source": "https://svpworldwide.widen.net/content/aeg9idv14w/pdf/HD6600C_Manual.pdf"
       },
       "threadTrimmer": {
-        "value": "None; the automatic thread cutter is listed as a 6800C exclusive in the HD computerized line",
-        "source": "https://bobbinhub.com/singer-6600c-vs-6800c/"
+        "value": "No automatic cutter published; the manual lists a manual thread knife for trimming ends",
+        "source": "https://svpworldwide.widen.net/content/aeg9idv14w/pdf/HD6600C_Manual.pdf"
       },
       "feedSystem": {
         "value": null,
         "source": null
       },
       "buttonhole": {
-        "value": "1-step automatic buttonhole; number of buttonhole styles not consistent across sources",
-        "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine"
+        "value": "6 one-step buttonhole styles",
+        "source": "https://www.singer.com/products/singer-heavy-duty-6600c-sewing-machine-extension-table-bundle"
       },
       "motor": {
-        "value": "Singer describes the motor as 60 percent stronger than a standard sewing machine motor; wattage not published",
-        "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine"
+        "value": "Wattage and amperage not published; the manual lists rated voltage only",
+        "source": "https://svpworldwide.widen.net/content/aeg9idv14w/pdf/HD6600C_Manual.pdf"
       },
       "frame": {
         "value": "Heavy-duty metal interior frame, stainless steel bedplate",
@@ -9732,34 +9797,35 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "weightLb": {
         "value": 15.4,
-        "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine"
+        "source": "https://svpworldwide.widen.net/content/aeg9idv14w/pdf/HD6600C_Manual.pdf"
       },
       "dimensionsIn": {
-        "value": "17.3 x 7.5 x 10.9 (listed as depth x width x height by the parts dealer)",
-        "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-6600c-sewing-machine"
+        "value": "17.3 x 7.5 x 11.0 (length x width x height, converted from the manual's 440 x 190 x 280 mm)",
+        "source": "https://svpworldwide.widen.net/content/aeg9idv14w/pdf/HD6600C_Manual.pdf"
       },
       "includedFeet": {
-        "value": "All purpose foot, zipper foot, buttonhole foot, blind hem foot, satin stitch foot, 4 Class 15 transparent bobbins, large and small spool holders, spool pin felt, auxiliary spool pin, L screwdriver, brush and seam ripper, soft cover, pack of needles",
-        "source": "https://www.amazon.com/SINGER-Sterling-Accessory-Applications-Buttonhole/dp/B0F1TD3LYG"
+        "value": "All-purpose, zipper, buttonhole, blind hem and satin stitch feet; 4 Class 15 bobbins and accessories",
+        "source": "https://www.singer.com/products/singer-heavy-duty-6600c-sewing-machine-extension-table-bundle"
       },
       "warrantyUs": {
-        "value": "25 yr limited on machine head; electrical and electronic coverage quoted as 2 yr on Singer's warranty page and 1 yr on some 6600C retailer copy; 90 days on adjustments, belts, rings, bulbs and attachments",
-        "source": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+        "value": "Listed under Singer's Limited 25/1 Year Warranty as 6600C Heavy Duty; the split between components is in a PDF not read",
+        "source": "https://help.singer.com/en-US/singers-warranty-coverage-395288"
       }
     },
     "claims": [
-      "\"Heavy Duty\" (Singer series name, product page; it is a model line, not a duty rating)",
-      "\"60% stronger\" motor than a standard sewing machine motor (manufacturer claim repeated in retailer copy; baseline not defined)",
-      "\"designed with your heavy duty projects in mind, from denim to canvas\" (manufacturer claim, singer.com product page)",
-      "\"215 stitch applications\" (manufacturer count of techniques, not of built-in stitch patterns)",
-      "\"$100 in accessories\" included (retailer copy; value not audited)"
+      "\"Heavy Duty\" (Singer series name; it is a model line, not a duty rating)",
+      "\"60% stronger\" motor than a standard sewing machine motor (Singer claim; baseline not defined)",
+      "\"full metal frame\" and a motor that \"delivers high-speed, heavy-duty sewing\" (Singer marketing wording)",
+      "\"215 stitch applications\" (Singer count of techniques, not of built-in stitch patterns)",
+      "\"$100 in accessories\" included (Singer bundle copy; value not audited)"
     ],
     "conflicts": [
-      "Stitch count: 100 built-in stitches (parts dealer and Amazon title) vs 200 built-in stitches (bobbinhub comparison). Singer's own headline number is 215 applications. Catalog will use 100 built-in and flag [verify].",
-      "Buttonhole styles: 6 one-step buttonholes (Amazon title) vs 8 one-step buttonholes (bobbinhub). Catalog will state 1-step only.",
-      "Warranty: 25 yr head with 2 yr electrical (singer.com warranty page) vs 25/1 year wording on a 6600C retailer page. Catalog will use Singer's page.",
-      "Name: singer.com now lists the machine as Heavy Duty 6600C Sterling at $309.99 alongside the plain 6600C listing; specs in snippets are identical. Treated as a colorway or refresh, not a new model.",
-      "Dimensions: 17.3 x 7.5 x 10.9 in is listed as depth x width x height by the parts dealer; order of axes not confirmed on Singer's page."
+      "Speed: Singer's manual gives 1000 +/- 50 stitches per minute at default length (used here); a Singer Canada page excerpt and our earlier figure say 1,100.",
+      "Stitch count: Singer advertises 215 stitch applications and publishes no stitch count; dealers quote 100 and one comparison site 200. Our earlier 100 has no maker source, so the count is [verify].",
+      "Warranty: Singer's warranty page lists the 6600C under Limited 25/1 Year; some retailer copy quotes 2 years on electrical parts. The component split was not read, so the retailer term is not confirmed.",
+      "Throat space: Singer's bundle page says 6.4 in throat space and the manual's spec table does not list it. Singer does not say whether that is needle to body, so throat is [verify] here.",
+      "Buttonholes: Amazon's title says 6 and a comparison site says 8 one-step styles; Singer's bundle page states 6.",
+      "Singer page status: the standalone 6600C machine page on singer.com redirects to the homepage on 2026-10-01 while the extension-table bundle page (6600CTABLE) is live, so the machine is currently listed there as a bundle."
     ],
     "ownerThemes": [
       {
@@ -9778,7 +9844,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.quiltingboard.com/main-f1/any-experience-singer-heavy-duty-machine-t323094.html"
       }
     ],
-    "evidence": "mixed",
+    "evidence": "owner",
     "buyerQuestions": [
       "What is the difference between the Singer 6600C and 6700C?",
       "How many stitches does the Singer 6600C really have?",
@@ -9807,76 +9873,80 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The 6600C is the cheapest way into Singer's computerized Heavy Duty line: 1,100 spm, metal frame and LCD stitch selection, without the thread cutter or extra feet of its siblings.",
-      "whoFor": "A beginner who wants push-button stitch selection and a one-step buttonhole on the same 1,100 spm head as the mechanical 44 series.",
-      "skipIf": "You want an automatic thread cutter, a walking foot in the box, or a machine whose stitch count is stated the same way on every listing.",
-      "keySpec": "1,100 spm · 100 built-in stitches · 6.4 in throat · 15.4 lb",
+      "verdict": "A computerized Singer Heavy Duty with LCD stitch selection and a metal-frame claim; owner reports on build and reliability are mixed.",
+      "whoFor": "A beginner who wants push-button stitch selection, an LCD readout and six one-step buttonhole styles at the low end of the computerized Heavy Duty line.",
+      "skipIf": "You want an automatic thread cutter, a walking foot in the box, or a published stitch count; Singer gives 215 applications and no count.",
+      "keySpec": "1000 spm (manual) · 215 stitch applications (claim) · 15.4 lb · 6 mm foot lift",
       "strengths": [
-        "Singer publishes a 6.4 in throat and 1,100 spm, matching the mechanical Heavy Duty line.",
-        "Weight and dimensions are published by a parts dealer, unlike most of the 44 series.",
-        "LCD display shows stitch, length and width settings with 13 needle positions."
+        "Singer's manual publishes 0 to 7.0 mm stitch width, 0 to 4.5 mm length and a 6 mm presser foot lift.",
+        "Owners report the machine as quiet and smooth, one comparing it favourably with an older family machine.",
+        "Weight (15.4 lb) and dimensions (17.3 x 7.5 x 11.0 in) come from Singer's own manual."
       ],
       "weaknesses": [
-        "Stitch count is marketed three different ways (100, 200, 215) across listings.",
-        "No automatic thread cutter, needle up/down button or speed slider; those sit on the 6800C.",
-        "Owner threads report foot control and bobbin winder faults on a minority of units."
+        "Owners report build quality doubts, including one saying the machine is not fully metal despite the published metal interior frame.",
+        "Owners report defects such as an EL error on day one, a needle sticking in the down position and pedal faults (PatternReview, Walmart threads).",
+        "No automatic thread cutter and no walking foot in the box; Singer publishes no stitch count and a speed that differs between its own pages."
       ],
       "checks": [
         {
-          "title": "Sterling or standard",
-          "body": "Singer's site lists a 6600C Sterling at $309.99 and a plain 6600C. Snippets show identical specs. Confirm which one the retailer ships and whether the accessory kit matches."
+          "title": "Which speed you are buying",
+          "body": "Singer's manual says 1000 +/- 50 stitches per minute; a Singer Canada excerpt says up to 1,100. Treat 1000 as the manual figure."
         },
         {
-          "title": "Count the buttonholes",
-          "body": "Listings claim 6 or 8 one-step buttonhole styles. If buttonhole variety matters, check the stitch chart in the manual before buying."
+          "title": "Standalone page or bundle",
+          "body": "Singer's standalone 6600C page redirects to its homepage while the extension-table bundle page is live. Confirm which kit the seller ships and what is in the box."
         },
         {
-          "title": "Warranty term on electronics",
-          "body": "Some 6600C copy says 25/1 year; Singer's warranty page says 2 years on electronics. Keep the receipt and confirm the term with the seller."
+          "title": "Warranty term",
+          "body": "Singer lists the 6600C under Limited 25/1 Year; some retailer copy quotes 2 years on electrical parts. Keep the receipt and confirm the term in writing."
         }
       ],
       "realCost": [
         "Extra Class 15 transparent bobbins beyond the 4 included",
         "Denim needles size 16 to 18 for heavy fabric",
-        "Walking foot, which is not in the 6600C box",
-        "Hard case if you move the machine; only a soft cover is included"
+        "Walking foot, which is not in the listed feet",
+        "Hard case if you move the machine; the listing mentions a soft cover only"
       ],
       "faqs": [
         {
           "q": "How many stitches does the Singer 6600C have?",
-          "a": "Retailer and parts-dealer copy lists 100 built-in stitches; Singer markets 215 stitch applications, which counts techniques rather than patterns. One comparison site says 200. Treat 100 as the built-in figure until Singer's page is checked."
+          "a": "Singer advertises 215 stitch applications and publishes no separate stitch count, so the built-in figure is [verify]. Dealers quote 100 and one comparison site 200. Applications count techniques, not patterns."
         },
         {
           "q": "What is the throat space on the 6600C?",
-          "a": "6.4 in (163 mm) from the needle to the tower, per the Sewing Machines Plus listing."
+          "a": "Singer's bundle page says 6.4 in throat space and does not say whether that is needle to body, so we hold it as [verify]. It is not in the manual's spec table."
+        },
+        {
+          "q": "How fast does the Singer 6600C sew?",
+          "a": "Singer's manual gives 1000 +/- 50 stitches per minute at default length. A Singer Canada page excerpt says up to 1,100, so the two maker documents disagree."
         },
         {
           "q": "Does the 6600C have an automatic thread cutter?",
-          "a": "No. In Singer's computerized Heavy Duty line the automatic thread cutter is listed as a 6800C feature."
+          "a": "None is published. The manual lists a manual thread knife, and one comparison site lists the automatic cutter as a 6800C feature."
         },
         {
           "q": "How much does the Singer 6600C weigh?",
-          "a": "15.4 lb (7 kg) per the parts dealer listing. Singer's own page value was not captured."
+          "a": "15.4 lb, converted from the 7 kg in Singer's manual. Size is 17.3 x 7.5 x 11.0 in, converted from 440 x 190 x 280 mm."
         },
         {
           "q": "What presser feet come with the 6600C?",
-          "a": "All purpose, zipper, buttonhole, blind hem and satin stitch feet. No walking foot is listed."
+          "a": "Singer lists all-purpose, zipper, buttonhole, blind hem and satin stitch feet, plus 4 Class 15 bobbins. No walking foot is listed."
         },
         {
           "q": "Is the 6600C good for beginners?",
-          "a": "It is sold into that market: push-button stitch selection, LCD readout, top drop-in bobbin and a built-in needle threader. Owner reports of pedal and bobbin winder faults are the main caution."
+          "a": "It is sold into that market: LCD stitch selection, a top drop-in bobbin and a built-in needle threader. Owners report defects such as pedal, bobbin winding and error faults, so check the return terms."
         },
         {
-          "q": "What is the difference between the 6600C and the 6700C?",
-          "a": "Same 1,100 spm head, metal frame and 6.4 in throat. The 6700C adds lettering fonts, a speed control slider, a tie-off button and 10 feet including a walking foot, for about $30 more at the same dealer."
+          "q": "Can the 6600C sew denim and canvas?",
+          "a": "Singer's copy says it is designed with heavy duty projects in mind, from denim to canvas, which is a claim. One owner reports loud noise and needle shaking at thick folded denim seams."
         },
         {
           "q": "What is the warranty?",
-          "a": "Singer's warranty page states 25 years on the head, 2 years on electrical and electronic parts and 90 days on adjustments. Some 6600C retailer copy shortens the electrical term to 1 year, so confirm with the seller."
+          "a": "Singer's warranty page lists the 6600C Heavy Duty under Limited 25/1 Year. Some retailer copy quotes 2 years on electrical parts, so confirm the term with the seller."
         },
         {
-          "q": "Is the 6600C Sterling a different machine?",
-          "a": "Not published. Singer lists a 6600C Sterling with the same 100 stitches, 1,100 spm and metal frame as the plain 6600C. It appears to be a finish or refresh rather than a new model."
+          "q": "Is the 6600C discontinued?",
+          "a": "Singer's standalone 6600C page redirects to its homepage, but the extension-table bundle page (6600CTABLE) is live. That is a page status, not a stated end of production."
         }
       ]
     },
@@ -9890,7 +9960,10 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://bobbinhub.com/singer-6600c-vs-6800c/",
       "https://sewing.patternreview.com/SewingDiscussions/topic/130165",
       "https://www.walmart.com/reviews/product/678334291",
-      "https://www.quiltingboard.com/main-f1/any-experience-singer-heavy-duty-machine-t323094.html"
+      "https://www.quiltingboard.com/main-f1/any-experience-singer-heavy-duty-machine-t323094.html",
+      "https://www.singer.com/products/singer-heavy-duty-6600c-sewing-machine-extension-table-bundle",
+      "https://svpworldwide.widen.net/content/aeg9idv14w/pdf/HD6600C_Manual.pdf",
+      "https://help.singer.com/en-US/singers-warranty-coverage-395288"
     ]
   },
   "singer-hd6700c": {

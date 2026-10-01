@@ -5,55 +5,150 @@
   "series": "1008",
   "type": "mechanical",
   "industrial": false,
-  "jobs": ["heavy-duty", "beginner"],
+  "jobs": [
+    "heavy-duty",
+    "beginner"
+  ],
   "manufacturerUrl": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008",
   "retailerUrl": "https://www.sewingmachinesplus.com/bernina_1008.php",
   "priceUsdSeen": null,
   "priceSeenDate": null,
   "priceSeenAt": null,
   "specs": {
-    "stitchTypes": {"value": "Utility and decorative stitches; straight, zigzag, stretch and blind hem; 4-step buttonhole", "source": "https://www.magnetichoop.com/blogs/news/bernina-1008-owners-manual-your-complete-guide-to-setup-operation-and-troubleshooting"},
-    "stitchCount": {"value": 17, "source": "https://www.magnetichoop.com/blogs/news/bernina-1008-owners-manual-your-complete-guide-to-setup-operation-and-troubleshooting"},
-    "maxSpm": {"value": 900, "source": "https://www.magnetichoop.com/blogs/news/bernina-1008-owners-manual-your-complete-guide-to-setup-operation-and-troubleshooting"},
-    "threads": {"value": null, "source": null},
-    "differentialFeed": {"value": null, "source": null},
-    "throatIn": {"value": null, "source": null},
-    "needleSystem": {"value": "130/705 H household", "source": "https://www.manualslib.com/manual/4069331/Bernina-1008.html"},
-    "presserFootLift": {"value": "Manual lever; adjustable presser foot pressure; knee lifter (Free Hand System) not listed on pages found", "source": "https://www.manualslib.com/manual/4069331/Bernina-1008.html"},
-    "threadTrimmer": {"value": null, "source": null},
-    "feedSystem": {"value": "Drop feed", "source": "https://www.manualslib.com/manual/4069331/Bernina-1008.html"},
-    "buttonhole": {"value": "Manual multi-step buttonhole", "source": "https://sewinginsight.com/reviews/bernina-1008-review/"},
-    "motor": {"value": null, "source": null},
-    "frame": {"value": "All-metal construction (review-site description)", "source": "https://www.maplereviews.com/bernina-1008-review/"},
-    "weightLb": {"value": 20.9, "source": "https://en.matri.eu/sewingmachine-bernina-1008"},
-    "dimensionsIn": {"value": null, "source": null},
-    "includedFeet": {"value": null, "source": null},
-    "warrantyUs": {"value": "Bernina US: 20 yr mechanical parts, 5 yr printed circuit boards, 2 yr electrical parts; labor not covered", "source": "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty"},
-    "maxStitchWidthMm": {"value": 5.5, "source": "https://www.manualslib.com/manual/4069331/Bernina-1008.html"},
-    "maxStitchLengthMm": {"value": 5, "source": "https://www.magnetichoop.com/blogs/news/bernina-1008-owners-manual-your-complete-guide-to-setup-operation-and-troubleshooting"},
-    "needlePositions": {"value": 5, "source": "https://www.magnetichoop.com/blogs/news/bernina-1008-owners-manual-your-complete-guide-to-setup-operation-and-troubleshooting"},
-    "freeArm": {"value": "Yes (1008S listing describes the free arm)", "source": "https://berninasewingshop.co.uk/bernina-1008s-sewing-machine"},
-    "weightKg": {"value": 9.5, "source": "https://en.matri.eu/sewingmachine-bernina-1008"}
+    "stitchTypes": {
+      "value": "17 stitches including a buttonhole and two decorative stitches (Bernina product page)",
+      "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008"
+    },
+    "stitchCount": {
+      "value": 17,
+      "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008"
+    },
+    "maxSpm": {
+      "value": 900,
+      "source": "https://www.magnetichoop.com/blogs/news/bernina-1008-owners-manual-your-complete-guide-to-setup-operation-and-troubleshooting"
+    },
+    "threads": {
+      "value": null,
+      "source": null
+    },
+    "differentialFeed": {
+      "value": null,
+      "source": null
+    },
+    "throatIn": {
+      "value": null,
+      "source": null
+    },
+    "needleSystem": {
+      "value": "130/705 H; sizes 70 to 120",
+      "source": "https://www.bernina.com/Bernina/media/Support/Sewing_Quilting_Embroidery/classic/1008/Documents/EN/B1008_EN.pdf"
+    },
+    "presserFootLift": {
+      "value": "Manual lever; whether presser foot pressure is adjustable is disputed (see conflicts); knee lifter not listed on pages found",
+      "source": "https://www.manualslib.com/manual/4069331/Bernina-1008.html"
+    },
+    "threadTrimmer": {
+      "value": "Thread cutter on the machine (manual item 31, OCR)",
+      "source": "https://www.bernina.com/Bernina/media/Support/Sewing_Quilting_Embroidery/classic/1008/Documents/EN/B1008_EN.pdf"
+    },
+    "feedSystem": {
+      "value": "Drop feed",
+      "source": "https://www.manualslib.com/manual/4069331/Bernina-1008.html"
+    },
+    "buttonhole": {
+      "value": "One buttonhole stitch with a buttonhole knob and sole (Bernina product page)",
+      "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008"
+    },
+    "motor": {
+      "value": null,
+      "source": null
+    },
+    "frame": {
+      "value": "All-metal construction (review-site description)",
+      "source": "https://www.maplereviews.com/bernina-1008-review/"
+    },
+    "weightLb": {
+      "value": 20.9,
+      "source": "https://en.matri.eu/sewingmachine-bernina-1008"
+    },
+    "dimensionsIn": {
+      "value": null,
+      "source": null
+    },
+    "includedFeet": {
+      "value": "Reverse pattern, overlock (2 and 2A), buttonhole, zipper and blind stitch feet; 4 bobbins",
+      "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008"
+    },
+    "warrantyUs": {
+      "value": "Bernina US: 20 yr mechanical parts, 5 yr printed circuit boards, 2 yr electrical parts; labor not covered",
+      "source": "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty"
+    },
+    "maxStitchWidthMm": {
+      "value": 5.5,
+      "source": "https://www.manualslib.com/manual/4069331/Bernina-1008.html"
+    },
+    "maxStitchLengthMm": {
+      "value": 5,
+      "source": "https://www.magnetichoop.com/blogs/news/bernina-1008-owners-manual-your-complete-guide-to-setup-operation-and-troubleshooting"
+    },
+    "needlePositions": {
+      "value": 5,
+      "source": "https://www.magnetichoop.com/blogs/news/bernina-1008-owners-manual-your-complete-guide-to-setup-operation-and-troubleshooting"
+    },
+    "freeArm": {
+      "value": "Yes (1008S listing describes the free arm)",
+      "source": "https://berninasewingshop.co.uk/bernina-1008s-sewing-machine"
+    },
+    "weightKg": {
+      "value": 9.5,
+      "source": "https://en.matri.eu/sewingmachine-bernina-1008"
+    },
+    "stitchWidthMm": {
+      "value": 5,
+      "source": "https://www.bernina.com/Bernina/media/Support/Sewing_Quilting_Embroidery/classic/1008/Documents/EN/B1008_EN.pdf"
+    }
   },
   "claims": [
-    "\"The classic mechanical machine\" (manufacturer tagline, bernina.com)",
+    "\"The classic mechanical machine\" (Bernina tagline, bernina.com)",
+    "\"Simply brilliant, brilliantly simple\" (Bernina product page)",
+    "\"State-of-the-art solid construction\" and \"robust sewing machine\" (Bernina product page)",
+    "\"Patented CB hook\" (Bernina product page)",
     "\"Heavy Duty\" appears in used-dealer listing titles (heavydutyportable.com); it is a listing word, not a Bernina rating",
     "\"Nearly bullet proof\" (owner and school-user description, PatternReview)",
     "\"Swiss school system workhorse\" (dealer and forum lore, PatternReview 1008 vs 1008S thread)"
   ],
   "conflicts": [
-    "Max speed: 900 spm, not adjustable (magnetichoop.com manual guide; maplereviews.com) vs up to 1,050 spm (another review site in results). Catalog will use 900 and flag [verify].",
-    "Stitch count: 17 stitch patterns (magnetichoop.com) vs 16 for the 1008S (berninasewingshop.co.uk). The S is the portable variant with a handle; counts may differ by market. Catalog will use 17 for the 1008.",
-    "Weight: 9.5 kg (matri.eu) converts to 20.9 lb; no US pound figure captured from Bernina. Catalog will show 20.9 lb flagged [verify].",
-    "Stitch width: 5.5 mm (manual snippet) vs 5 mm max stitch length (magnetichoop); these are different axes, not a conflict, listed so nobody merges them.",
-    "Price history: dealer prices of $1,000 to $1,100 with sales near $950; one owner paid $649, another $700 with lessons (PatternReview topic 36945). New stock is gone; the Sewing Machines Plus 1008N listing reads out of stock. No current price recorded.",
-    "Status: discontinued in 2020 per sewcanshe.com; bernina.com still hosts a Classic Series 1008 page. Bernina names no successor; a dealer suggested the bernette 05 Academy to one PatternReview reviewer as the school-machine replacement."
+    "Stitch width: Bernina's manual says up to 5 mm, infinitely variable (OCR text); Bernina's product page says five steps by control dial. Our earlier 5.5 mm came from a manual snippet on manualslib.com and matches neither maker wording, so the page now uses the manual's 5 mm.",
+    "Max speed: 900 spm, not adjustable (magnetichoop.com and maplereviews.com, non-maker) vs up to 1050 spm (another review site). Bernina publishes no speed in the manual or on the product page, so treat 900 as a non-maker figure and [verify].",
+    "Weight: 9.5 kg, about 20.9 lb, comes from a European dealer listing (matri.eu, non-maker). Bernina publishes no weight in the manual or on the product page, so [verify].",
+    "Stitch length: our 5 mm maximum comes from magnetichoop.com (non-maker). Bernina says only that length is infinitely variable and publishes no mm range. This is a different axis from stitch width.",
+    "Buttonhole: a dealer-style source describes a 4-step buttonhole; Bernina's page lists one buttonhole stitch with a buttonhole knob and sole and does not say 4-step, so the 4-step wording is dropped.",
+    "Presser foot pressure: our earlier spec says adjustable, but one Reddit owner says it cannot be adjusted on this old model (r/SewingForBeginners thread). Verify against the manual PDF.",
+    "Stitch count: 17 for the 1008 on Bernina's page vs 16 quoted for the 1008S by a UK dealer (berninasewingshop.co.uk). The 1008S is a different listing; do not merge the two.",
+    "Availability: Bernina's US product page says 'This product is no longer available' and gives no price; sewcanshe.com says it was discontinued in 2020. Bernina's own page gives no date and Bernina still publishes the manual and warranty. No successor appears on the pages found.",
+    "Price history: forum reports of dealer prices of $1,000 to $1,100 with sales near $950, and owners who paid $649 and $700 (PatternReview topic 36945, undated). No dated current price is recorded."
   ],
   "ownerThemes": [
-    {"theme": "Long-term owners and school users report stitch quality equal to computerized machines and machines that survive years of student abuse with no major problems.", "tone": "positive", "source": "https://sewing.patternreview.com/review/machine/1525"},
-    {"theme": "The 1008 is a lower-tier mechanical: no separate bobbin winder motor, no needle up/down, no stitch advisor; some reviewers call it overpriced for the feature list.", "tone": "mixed", "source": "https://sewing.patternreview.com/review/machine/5735"},
-    {"theme": "Two years in, a garment sewing blogger still rated the 1008 as a dependable straight-stitch and buttonhole machine for clothing.", "tone": "positive", "source": "http://www.blogforbettersewing.com/2012/06/my-bernina-1008-two-years-later.html"},
-    {"theme": "Forum members discussed Bernina discontinuing the 1008 and lamented losing the last all-mechanical Bernina.", "tone": "negative", "source": "https://sewing.patternreview.com/SewingDiscussions/topic/113866"}
+    {
+      "theme": "Long-term owners and school users report stitch quality equal to computerized machines and machines that survive years of student abuse with no major problems.",
+      "tone": "positive",
+      "source": "https://sewing.patternreview.com/review/machine/1525"
+    },
+    {
+      "theme": "The 1008 is a lower-tier mechanical: no separate bobbin winder motor, no needle up/down, no stitch advisor; some reviewers call it overpriced for the feature list.",
+      "tone": "mixed",
+      "source": "https://sewing.patternreview.com/review/machine/5735"
+    },
+    {
+      "theme": "Two years in, a garment sewing blogger still rated the 1008 as a dependable straight-stitch and buttonhole machine for clothing.",
+      "tone": "positive",
+      "source": "http://www.blogforbettersewing.com/2012/06/my-bernina-1008-two-years-later.html"
+    },
+    {
+      "theme": "Forum members discussed Bernina discontinuing the 1008 and lamented losing the last all-mechanical Bernina.",
+      "tone": "negative",
+      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/113866"
+    }
   ],
   "evidence": "owner",
   "buyerQuestions": [
@@ -68,10 +163,22 @@
     "What is a used Bernina 1008 worth?"
   ],
   "crossShop": [
-    {"slug": "janome-hd3000", "why": "The current all-mechanical alternative buyers name when the 1008 is unavailable: metal frame, 18 stitches, similar weight."},
-    {"slug": "singer-4452", "why": "The budget mechanical with a faster 1,100 spm motor; the 1008 comparison is build and stitch quality versus price."},
-    {"slug": "brother-st371hd", "why": "Another mechanical marketed for thick fabric at a fraction of the 1008's last dealer price."},
-    {"slug": "bernina-570-qe", "why": "The Bernina buyer who wanted the 1008 is now pointed at the computerized range by dealers; this is the entry quilting model."}
+    {
+      "slug": "janome-hd3000",
+      "why": "The current all-mechanical alternative buyers name when the 1008 is unavailable: metal frame, 18 stitches, similar weight."
+    },
+    {
+      "slug": "singer-4452",
+      "why": "The budget mechanical with a faster 1,100 spm motor; the 1008 comparison is build and stitch quality versus price."
+    },
+    {
+      "slug": "brother-st371hd",
+      "why": "Another mechanical marketed for thick fabric at a fraction of the 1008's last dealer price."
+    },
+    {
+      "slug": "bernina-570-qe",
+      "why": "The Bernina buyer who wanted the 1008 is now pointed at the computerized range by dealers; this is the entry quilting model."
+    }
   ],
   "discontinued": true,
   "replacedBy": null,
@@ -99,44 +206,98 @@
     "http://www.blogforbettersewing.com/2012/06/my-bernina-1008-two-years-later.html",
     "https://www.ussewing.com/product/bernina-1008/",
     "https://heavydutyportable.com/bernina_1008_heavy_duty_sewing_machine_pre_owned_serviced_warranty.htm",
-    "https://www.bernette.com/en-US/models/bernette-05-academy"
+    "https://www.bernette.com/en-US/models/bernette-05-academy",
+    "https://www.bernina.com/en-US/Support-US/Machines/BERNINA-Classic-Series/BERNINA-1008",
+    "https://www.bernina.com/Bernina/media/Support/Sewing_Quilting_Embroidery/classic/1008/Documents/EN/B1008_EN.pdf"
   ],
   "editorial": {
-    "verdict": "The 1008 was Bernina's last all-mechanical machine, a 17 stitch, 900 spm, 9.5 kg school workhorse discontinued in 2020, so today it is a used-market buy with no direct Bernina successor.",
-    "whoFor": "A garment or utility sewer who wants a simple, all-metal mechanical with Bernina stitch quality and dealer service, and is willing to buy used or new-old-stock.",
-    "skipIf": "You want a new machine with a warranty start date, a needle threader, needle up/down or speed above 900 spm; the Janome HD3000 or a computerized Bernina answers those.",
-    "keySpec": "17 stitches · 900 spm · 5.5 mm width · 9.5 kg · discontinued 2020",
+    "verdict": "Bernina's US page says the 1008 is no longer available; owners praise a sturdy mechanical, so it is a dealer or used-market buy to check unit by unit.",
+    "whoFor": "A garment or utility sewer who wants a simple mechanical Bernina with a published parts warranty and is willing to buy through a dealer or on the used market.",
+    "skipIf": "You want a new machine bought at retail, a presser foot pressure dial you can count on, or needle up/down, which one PatternReview reviewer says it lacks.",
+    "keySpec": "17 stitches · up to 5 mm width (manual) · 130/705 H needle · dealer or used only",
     "strengths": [
-      "Decades of school and owner use with reports of stitch quality equal to computerized machines.",
-      "All-metal construction and Bernina dealer service network for parts and repair.",
-      "Simple mechanical controls with 5 needle positions and adjustable presser foot pressure."
+      "Owners, a home ec teacher and a costume shop user report school and workshop use that has lasted years or decades.",
+      "A 20 year owner reports only a few professional services, though Reddit reports on reliability are mixed.",
+      "Bernina publishes warranty terms: 20 years mechanical parts, 5 years circuit boards, 2 years electrical, part cost only."
     ],
     "weaknesses": [
-      "Discontinued in 2020; new units are gone and Bernina names no replacement in its own line.",
-      "No needle threader, needle up/down or stitch advisor, at a last dealer price of $1,000 or more.",
-      "Speed and stitch count figures online disagree (900 vs 1,050 spm; 16 vs 17 stitches)."
+      "Owners report foot trouble: one says presser foot pressure cannot be adjusted, another that the foot presses hard and stretches wovens.",
+      "Owners report knits and stretch fabric problems, including skipped zigzag stitches on jersey and thread cutting on high-stretch knits.",
+      "Oiling advice splits: one owner says it wants oil after every bobbin, another says they never oil theirs."
     ],
     "checks": [
-      {"title": "Confirm 1008 or 1008S", "body": "The S is the portable variant with a built-in handle and, per one UK listing, 16 stitches. Both are mechanical; check the label and the stitch dial."},
-      {"title": "Ask about the warranty on used stock", "body": "Bernina's warranty runs from original purchase and requires registration or a dealer countersigned card. A pre-owned unit may carry only the seller's service warranty."},
-      {"title": "Price against a new mechanical", "body": "Used 1008 asks often sit near what a new Janome HD3000 costs. Decide whether Bernina stitch quality and service are worth the age."}
+      {
+        "title": "Confirm 1008 or 1008S",
+        "body": "A UK dealer lists the 1008S as a variant with 16 stitches against 17 for the 1008. Bernina US pages cover the 1008; check the label and the stitch dial before paying."
+      },
+      {
+        "title": "Verify the figures Bernina does not publish",
+        "body": "Bernina publishes no speed or weight, and the manual is image-only, so figures read from OCR need checking against the PDF. Treat 900 spm and 20.9 lb as non-maker figures."
+      },
+      {
+        "title": "Ask about warranty and condition on used stock",
+        "body": "Bernina's warranty terms are published, but a used unit may carry only the seller's service warranty. Owners report jammed or misaligned feed dogs on a marketplace unit, so ask for a service record."
+      }
     ],
     "realCost": [
-      {"item": "Dealer service", "note": "A used machine usually needs a clean, oil and timing check; ask the dealer for a quote"},
-      {"item": "Presser feet", "note": "Bernina old-style feet; buy from a dealer, price not published on pages found"},
-      {"item": "Needles", "note": "Standard 130/705 H, widely available"},
-      {"item": "Extension table", "note": "Not listed on pages found; ask the dealer"}
+      {
+        "item": "Dealer service",
+        "note": "Owners report skipped stitches and jams on used units; ask a Bernina dealer for a clean, oil and timing quote"
+      },
+      {
+        "item": "Oil",
+        "note": "Owner advice on oiling frequency varies from every bobbin to never; follow the manual"
+      },
+      {
+        "item": "Needles",
+        "note": "130/705 H, sizes 70 to 120 per the manual; a sharper needle fixed one owner's fleece trouble"
+      },
+      {
+        "item": "Feet",
+        "note": "Bernina lists reverse pattern, overlock, buttonhole, zipper and blind stitch feet and 4 bobbins; extra feet through a dealer, price not published on pages found"
+      }
     ],
     "faqs": [
-      {"q": "Is the Bernina 1008 discontinued?", "a": "Yes. Sources report it was discontinued in 2020 as Bernina's last all-mechanical machine, although bernina.com still hosts a Classic Series page for it."},
-      {"q": "What replaced the Bernina 1008?", "a": "Bernina names no successor. Its mechanical machines now sit under the bernette brand, and one dealer pointed a reviewer to the bernette 05 Academy for school use."},
-      {"q": "How much did the Bernina 1008 cost new?", "a": "Forum reports put dealer prices at $1,000 to $1,100 with sales near $950; some buyers paid $649 to $700. No current new price exists."},
-      {"q": "Is the Bernina 1008 heavy duty?", "a": "Bernina did not rate it that way. Heavy Duty appears in used-dealer listing titles. Owners describe an all-metal machine that survives school use."},
-      {"q": "What is the difference between the 1008 and 1008S?", "a": "The S is described as the portable variant with a built-in handle; one UK listing gives it 16 stitches against 17 for the 1008. Accessories may also differ."},
-      {"q": "How many stitches does the Bernina 1008 have?", "a": "17 stitch patterns per a manual guide; 16 is quoted for the 1008S."},
-      {"q": "How fast does the Bernina 1008 sew?", "a": "900 stitches per minute per most sources; one review site says 1,050. Treat 900 as the working figure."},
-      {"q": "Does the Bernina 1008 have a needle threader?", "a": "Not a built-in automatic one on pages found; owners mention threading by hand."},
-      {"q": "How much does the Bernina 1008 weigh?", "a": "9.5 kg, about 20.9 lb, per a European dealer listing. Bernina's US figure was not captured."}
+      {
+        "q": "Is the Bernina 1008 discontinued?",
+        "a": "Bernina's US product page says 'This product is no longer available' and points to local Bernina stores. One third-party site says it was discontinued in 2020; Bernina's page gives no date."
+      },
+      {
+        "q": "What replaced the Bernina 1008?",
+        "a": "No successor appears on the pages found. One dealer pointed a PatternReview reviewer to the bernette 05 Academy as a school machine."
+      },
+      {
+        "q": "How much did the Bernina 1008 cost new?",
+        "a": "Bernina's page gives no price. Undated forum reports put dealer prices at $1,000 to $1,100 with sales near $950, and some buyers paid $649 to $700."
+      },
+      {
+        "q": "Is the Bernina 1008 heavy duty?",
+        "a": "Bernina does not rate it that way; Heavy Duty appears in used-dealer listing titles. Bernina's manual says it is intended for household use only. Owners describe a sturdy machine that has lasted in classes."
+      },
+      {
+        "q": "What is the difference between the 1008 and 1008S?",
+        "a": "A UK dealer lists the 1008S with 16 stitches against 17 for the 1008 and describes it as the portable variant. Bernina US pages cover the 1008 only."
+      },
+      {
+        "q": "How many stitches does the Bernina 1008 have?",
+        "a": "17, including a buttonhole and two decorative stitches, per Bernina's product page."
+      },
+      {
+        "q": "How fast does the Bernina 1008 sew?",
+        "a": "Bernina publishes no speed. Review sites quote 900 spm and one quotes 1050; treat both as non-maker figures to verify."
+      },
+      {
+        "q": "What is the maximum stitch width?",
+        "a": "Bernina's manual says up to 5 mm, infinitely variable, while its product page says five steps. The manual text is OCR, so check the PDF."
+      },
+      {
+        "q": "What does the Bernina warranty cover?",
+        "a": "Bernina's US page lists 2 years electrical parts, 5 years circuit boards and 20 years mechanical parts, with liability limited to the cost of the part. Verify the conditions on the page."
+      },
+      {
+        "q": "How much does the Bernina 1008 weigh?",
+        "a": "Bernina publishes no weight. A European dealer lists 9.5 kg, about 20.9 lb; verify before relying on it."
+      }
     ]
   }
 }
