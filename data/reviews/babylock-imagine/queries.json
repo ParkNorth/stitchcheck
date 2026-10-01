@@ -1,19 +1,24 @@
 {
   "slug": "babylock-imagine",
   "model_names": [
-    "Imagine",
-    "Baby Lock Imagine"
+    "Baby Lock Imagine",
+    "Babylock Imagine",
+    "BLE1AT-2",
+    "BLE1AT2",
+    "BLE1AT"
   ],
   "confusable_siblings": [
+    "Vibrant",
     "Victory"
   ],
   "reddit": {
     "searches": [
-      "Baby Lock Imagine (BLE1AT-2)",
-      "Imagine (BLE1AT-2)",
-      "Imagine (BLE1AT-2) review",
-      "Imagine (BLE1AT-2) problems",
-      "Imagine (BLE1AT-2) vs"
+      "Baby Lock Imagine serger",
+      "Babylock Imagine serger",
+      "Baby Lock Imagine review",
+      "Babylock Imagine problems",
+      "Baby Lock Imagine vs",
+      "BLE1AT"
     ],
     "subreddits": [
       "sewing",
@@ -46,5 +51,6 @@
   ],
   "youtube": [
     "Baby Lock Imagine (BLE1AT-2) review"
-  ]
+  ],
+  "model_names_only": true
 }

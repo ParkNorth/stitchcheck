@@ -1,0 +1,743 @@
+{
+  "slug": "babylock-imagine",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-01",
+  "method": {
+    "sources": 30,
+    "itemsCollected": 251,
+    "statements": 52,
+    "voices": 34,
+    "ownerVoices": 23,
+    "dateRange": [
+      2016,
+      2026
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 27,
+        "items": 248
+      },
+      "forum": {
+        "sources": 2,
+        "items": 2
+      },
+      "editorial": {
+        "sources": 1,
+        "items": 1
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 18,
+      "voices": 14,
+      "ownerVoices": 9,
+      "sources": 10,
+      "sourceClasses": [
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 12,
+        "forum": 2
+      },
+      "polarity": {
+        "positive": 7,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 4
+      },
+      "years": [
+        2020,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c294cd619",
+          "polarity": "negative",
+          "claim": "Buyer of a used BLE1AT-1 reports its air threading mechanism does not work.",
+          "quote": "the air threading mechanism isn't working",
+          "url": "https://www.reddit.com/r/sewing/comments/1lnhgm9/which_used_babylock_serger_should_i_settle_on/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cd8163e1e",
+          "polarity": "negative",
+          "claim": "Owner found a taller grey serger thread cone causes thread feed problems on the Imagine while white Maxi-Loc cones work better.",
+          "quote": "it creates an issue with the thread feeding through properly",
+          "url": "https://www.reddit.com/r/sewhelp/comments/ucykez/baby_lock_imagine_worth_it/i6fshpp/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c7d88ccd8",
+          "polarity": "positive",
+          "claim": "Owner of an inherited original BLE1AT (Air Thread) says it is very easy to thread.",
+          "quote": "Very easy to thread!",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1l8i1vv/baby_lock_purchase/mx526zb/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cf734424d",
+          "polarity": "positive",
+          "claim": "Reviewer of the original BLE1AT calls the threading system superb.",
+          "quote": "The treading system is superb.",
+          "url": "https://sewing.patternreview.com/SewingMachine/61",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c936c9f4c",
+        "ca264c0a9",
+        "ca36a9f6b",
+        "cd8163e1e",
+        "ca855777c",
+        "c88043f46",
+        "cd9933c03",
+        "c7bb76a57",
+        "c413b2af2",
+        "c7d88ccd8",
+        "c294cd619",
+        "c533c597a",
+        "c4fe8f22e",
+        "cf734424d",
+        "c28ad895a",
+        "c08944922",
+        "c16f96f5e",
+        "c62b2b8a1"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 13,
+      "voices": 12,
+      "ownerVoices": 11,
+      "sources": 8,
+      "sourceClasses": [
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 11,
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 8,
+        "negative": 4,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2018,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "ce96829bd",
+          "polarity": "negative",
+          "claim": "Imagine owner says sewing rubber elastic on spandex made the serger become unthreaded.",
+          "quote": "it caused the machine to become unthreaded",
+          "url": "https://www.reddit.com/r/Bernina/comments/1kxyqnm/best_feet_for_sewing_rubber_elastic_to_spandex/muv6uyg/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ce60fc6b5",
+          "polarity": "negative",
+          "claim": "Air-threader Imagine owner says one lower thread keeps breaking while the others sew fine.",
+          "quote": "One of the bottom thread will sew the suddenly break.",
+          "url": "https://www.reddit.com/r/sewing/comments/16kizf2/serger_thread_breaking/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c4d4a010c",
+          "polarity": "positive",
+          "claim": "Owner of about six years says the Imagine works like a charm.",
+          "quote": "It works like a charm",
+          "url": "https://www.reddit.com/r/sewing/comments/1hkxlnp/baby_lock_imagine_reviews/m45xe6e/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c8c8ec4a5",
+          "polarity": "positive",
+          "claim": "Owner says the Imagine rarely gives trouble, usually user error when it does.",
+          "quote": "It almost never gives me trouble",
+          "url": "https://sewing.patternreview.com/SewingDiscussions/topic/99012",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "cd48c903a",
+        "cb1aeff79",
+        "cfdd083c1",
+        "cfd9ed61c",
+        "c0b521af4",
+        "c4d4a010c",
+        "ce96829bd",
+        "c913da7d1",
+        "c0f41230f",
+        "ccc4397b2",
+        "ce60fc6b5",
+        "c6a9c2d14",
+        "c8c8ec4a5"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 7,
+      "voices": 7,
+      "ownerVoices": 5,
+      "sources": 6,
+      "sourceClasses": [
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 6,
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 4,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2019,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c5c9a0f59",
+          "polarity": "negative",
+          "claim": "Imagine owner cannot get tension right serging thin stretchy bamboo against thick minky despite stretch needles and thread.",
+          "quote": "I cannot seem to get the tension right no matter what I try.",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1lsw7ja/help_with_tension_issues_when_serging_stretchy/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c2ae542d3",
+          "polarity": "negative",
+          "claim": "Imagine buyer says manual tensioning is the real annoyance and air threading matters less.",
+          "quote": "Air threading is not a big deal, but messing with tension is.",
+          "url": "https://www.reddit.com/r/sewing/comments/c13wd2/alternatives_to_babylock_serger/erdb4z8/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cae7b1b01",
+          "polarity": "positive",
+          "claim": "Reviewer names automatic tension the best feature, ending long fiddling on tricky fabrics.",
+          "quote": "Auto tension is the best feature",
+          "url": "https://sewing.patternreview.com/SewingMachine/61",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "c6b0c2eb8",
+          "polarity": "positive",
+          "claim": "Owner reports no tension issues in about six years.",
+          "quote": "I never have any issues with threading or tension or anything",
+          "url": "https://www.reddit.com/r/sewing/comments/1hkxlnp/baby_lock_imagine_reviews/m45xe6e/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c2c00580c",
+        "cd5078e97",
+        "c6b0c2eb8",
+        "c5740ab00",
+        "c2ae542d3",
+        "c5c9a0f59",
+        "cae7b1b01"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 4,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 5
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2022,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ca37f80e0",
+          "polarity": "positive",
+          "claim": "Owner says the machine only needs an occasional service to keep running well.",
+          "quote": "Just give it the occasional service and it's good.",
+          "url": "https://www.reddit.com/r/sewhelp/comments/ucykez/baby_lock_imagine_worth_it/i6dkhop/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ca37f80e0",
+        "c9599082d",
+        "c007985bc",
+        "c3bca2ae1",
+        "c2a040050"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2022,
+        2022
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cf0316ae7",
+          "polarity": "positive",
+          "claim": "Reviewer of the original BLE1AT calls it unbeatable for overlocking edges and flatlocking seams.",
+          "quote": "this little gem cannot be beat",
+          "url": "https://sewing.patternreview.com/SewingMachine/61",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c1755d434",
+        "cf0316ae7"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c17e1af7e",
+        "c2dba97af"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2022
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "ccba937f5",
+          "polarity": "negative",
+          "claim": "New owner of a used Imagine finds it noisy, though unfamiliar with how a serger should sound.",
+          "quote": "I am not familiar with serger sound but it's noisy",
+          "url": "https://www.reddit.com/r/sewing/comments/y34f18/babylock_imagine_is_it_still_worth/isdcstu/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ccba937f5"
+      ]
+    },
+    {
+      "theme": "differential_feed",
+      "label": "Differential feed",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c168fdfa3",
+          "polarity": "negative",
+          "claim": "Imagine owner says raising differential feed on stretchy bamboo gathered the fabric more, and lower or N settings did not fix it.",
+          "quote": "it ends up gathering the fabric even worse",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1lsw7ja/help_with_tension_issues_when_serging_stretchy/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c168fdfa3"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c8be5b0c3",
+          "polarity": "negative",
+          "claim": "Owner says the machine's thread holder is slightly broken.",
+          "quote": "the thread holder is slightly broken",
+          "url": "https://www.reddit.com/r/sewing/comments/16kizf2/serger_thread_breaking/k0zie72/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c8be5b0c3"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c022fa995",
+          "polarity": "negative",
+          "claim": "Owner of an old Imagine used for big quilts says it has recently been struggling.",
+          "quote": "I have noticed it struggling recently.",
+          "url": "https://www.reddit.com/r/sewing/comments/1jm31n0/replacement_overlockserger_decision/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c022fa995"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c604109c4"
+      ]
+    }
+  ],
+  "ratings": [],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "1,500 stitches per minute.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock Imagine spec sheet",
+          "url": "https://babylock.com/imagine-ble1at-2-spec-sheet"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "maker-spec-sheet"
+    },
+    {
+      "label": "Weight",
+      "juki": "16 lb on the Baby Lock spec sheet.",
+      "others": "Our earlier figure was 17.2 lb from a secondary source.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Baby Lock Imagine spec sheet",
+          "url": "https://babylock.com/imagine-ble1at-2-spec-sheet"
+        }
+      ],
+      "field": "weightLb",
+      "source": "maker-spec-sheet"
+    },
+    {
+      "label": "Stitch width",
+      "juki": "1.5 to 7.5 mm, dial adjustable.",
+      "others": "Our spec splits the range by 4 thread and 3 thread.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Baby Lock Imagine spec sheet",
+          "url": "https://babylock.com/imagine-ble1at-2-spec-sheet"
+        }
+      ],
+      "field": "stitchWidthMm",
+      "source": "maker-spec-sheet"
+    },
+    {
+      "label": "Stitch length",
+      "juki": "0.75 to 4 mm, dial adjustable, with an automatic rolled hem setting.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock Imagine spec sheet",
+          "url": "https://babylock.com/imagine-ble1at-2-spec-sheet"
+        }
+      ],
+      "field": "seamAllowanceMm",
+      "source": "maker-spec-sheet"
+    },
+    {
+      "label": "Differential feed",
+      "juki": "Full-featured single-unit differential feed: 2 to 1 gathering, 3 to 4 stretching.",
+      "others": "Our earlier range was 0.6 to 2.0.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Baby Lock Imagine spec sheet",
+          "url": "https://babylock.com/imagine-ble1at-2-spec-sheet"
+        }
+      ],
+      "field": "differentialFeed",
+      "source": "maker-spec-sheet"
+    },
+    {
+      "label": "Needle system",
+      "juki": "HAx1SP, 130/705H and ELx705CF.",
+      "others": "No dealer figure found yet.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Baby Lock Imagine spec sheet",
+          "url": "https://babylock.com/imagine-ble1at-2-spec-sheet"
+        }
+      ],
+      "field": "needleSystem",
+      "source": "maker-spec-sheet"
+    },
+    {
+      "label": "Warranty",
+      "juki": "25 years limited; 10 years parts, 5 years electrical, 1 year labor.",
+      "others": "Dealers state the same.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock Imagine spec sheet",
+          "url": "https://babylock.com/imagine-ble1at-2-spec-sheet"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "maker-spec-sheet"
+    },
+    {
+      "label": "Threading",
+      "juki": "Claims Jet-Air threading of the lower loopers, Automatic Thread Delivery, and a built-in needle threader.",
+      "others": "Owner evidence not yet collected.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Baby Lock Imagine spec sheet",
+          "url": "https://babylock.com/imagine-ble1at-2-spec-sheet"
+        }
+      ],
+      "field": "threadingSystem",
+      "source": "maker-spec-sheet"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "Vibrant",
+      "label": "Baby Lock Vibrant",
+      "rows": [
+        {
+          "feature": "Threading and tension",
+          "urls": 2,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "A commenter believes the Vibrant lacks the Imagine's jet-air looper threading and auto tension. Stated as belief, not confirmed.",
+          "check": "one Reddit comment; unverified, no Vibrant maker document in hand",
+          "examples": [
+            {
+              "claim_id": "cd304663c",
+              "claim": "Poster says the Vibrant is the most basic current model and lacks the Imagine's jet-air threading.",
+              "quote": "also their most basic model so does not include these additional features",
+              "url": "https://www.reddit.com/r/sewhelp/comments/1egs8od/should_i_get_the_babylock_imagine_or_vibrant/"
+            },
+            {
+              "claim_id": "c54371f14",
+              "claim": "Commenter believes the Imagine has auto-tension and the Vibrant does not.",
+              "quote": "I don't think the Vibrant has auto-tension. I think the Imagine does!",
+              "url": "https://www.reddit.com/r/sewhelp/comments/1egs8od/should_i_get_the_babylock_imagine_or_vibrant/lfva6j6/"
+            }
+          ],
+          "claimIds": [
+            "cd304663c",
+            "c54371f14"
+          ]
+        }
+      ]
+    },
+    {
+      "model": "Victory",
+      "label": "Baby Lock Victory",
+      "rows": [
+        {
+          "feature": "Price",
+          "urls": 1,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "One commenter put the Imagine near $2,000 and the Victory near $3,500. Baby Lock publishes dealer pricing only.",
+          "check": "one Reddit comment; Baby Lock publishes no price",
+          "examples": [
+            {
+              "claim_id": "c2591531e",
+              "claim": "Poster says the Victory is an updated model with similar features at roughly $3,500 versus about $2,000 for the Imagine.",
+              "quote": "the Victory and it’s more like $3500USD",
+              "url": "https://www.reddit.com/r/sewing/comments/c13wd2/alternatives_to_babylock_serger/"
+            }
+          ],
+          "claimIds": [
+            "c2591531e"
+          ]
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

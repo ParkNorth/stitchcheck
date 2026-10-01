@@ -11,9 +11,23 @@
       "model": "Victory",
       "label": "Baby Lock Victory",
       "pattern": "victory(?![a-z0-9])|bls3(?![a-z0-9])"
+    },
+    {
+      "model": "Vibrant",
+      "label": "Baby Lock Vibrant",
+      "pattern": "vibrant(?![a-z0-9])"
+    },
+    {
+      "model": "Imagine Wave",
+      "label": "Baby Lock Imagine Wave",
+      "pattern": "imagine[\\s-]*wave"
     }
   ],
   "features": [
+    [
+      "threading|auto tension",
+      "Threading and tension"
+    ],
     [
       "price|\\$|cost|cheap|expens",
       "Price"
@@ -68,6 +82,19 @@
   "themeRemap": [],
   "others": "victory(?![a-z0-9])|bls3(?![a-z0-9])|mo[\\s-]*1000(?![a-z0-9])|vibrant(?![a-z0-9])|bl460b(?![a-z0-9])|mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])|1034d(?![a-z0-9])",
   "scopeRules": [],
-  "siblingSummaries": {},
+  "siblingSummaries": {
+    "Vibrant": {
+      "Threading and tension": {
+        "summary": "A commenter believes the Vibrant lacks the Imagine's jet-air looper threading and auto tension. Stated as belief, not confirmed.",
+        "check": "one Reddit comment; unverified, no Vibrant maker document in hand"
+      }
+    },
+    "Victory": {
+      "Price": {
+        "summary": "One commenter put the Imagine near $2,000 and the Victory near $3,500. Baby Lock publishes dealer pricing only.",
+        "check": "one Reddit comment; Baby Lock publishes no price"
+      }
+    }
+  },
   "siblingExtras": {}
 }
