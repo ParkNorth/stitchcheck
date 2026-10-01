@@ -9,7 +9,7 @@ Write three files in `data/reviews/{slug}/draft-page/`. Do not touch anything ou
 - `specs`: only fields to change. Where a maker document contradicts a spec (`vs_spec: contradicts`), use the maker value with the document URL as `source`, and list the disagreement in `conflicts` (one plain sentence each, both numbers, both sources). Where it adds a spec we hold as null, fill it. Never invent: null stays null.
 - `claims`: maker marketing words, quoted as claims, never as fact.
 - `evidence`: `owner` when the rollup has 15 or more first-hand voices, `mixed` for 5 to 14, `positioning` otherwise.
-- `editorial`: verdict (one sentence, under 200 characters), whoFor, skipIf, keySpec, exactly 3 strengths, 3 weaknesses, 3 checks, 6 to 12 faqs `{q, a}`. Strengths and weaknesses come from rollup themes with 5 or more voices, worded as "owners report", never "we found". Sibling and rival differences use the sibling rows, with maker-document rows labelled as such.
+- `editorial`: verdict (one sentence, under 200 characters), whoFor, skipIf, keySpec, realCost (2 to 4 short items the buyer also needs: thread, needles, oil, accessories; sourced from the inputs), exactly 3 strengths, 3 weaknesses, 3 checks, 6 to 12 faqs `{q, a}`. Strengths and weaknesses come from rollup themes with 5 or more voices, worded as "owners report", never "we found". Sibling and rival differences use the sibling rows, with maker-document rows labelled as such.
 - Do not copy review text. Paraphrase; attribute by source name when a point rests on one thread.
 
 ## site.json

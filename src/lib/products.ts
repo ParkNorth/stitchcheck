@@ -425,7 +425,9 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "babylock-vibrant", label: "Dealer route", note: "Baby Lock's entry serger." },
     ],
     imageAlt: "Juki MO-654DE serger",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-01",
+    verdict: "A 2/3/4 thread serger at 1,500 spm that owners rate well, with manual threading and no free arm.",
+    specsVerified: "2026-10-01",
   },
   "juki-mo-1000": {
     score: 8.7,

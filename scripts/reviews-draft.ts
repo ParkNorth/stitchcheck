@@ -109,6 +109,7 @@ if (cmd === "check") {
   if (spec && !ed) add("error", "spec.json has no editorial block");
   if (ed) {
     for (const k of ["verdict", "whoFor", "skipIf", "keySpec"]) if (!String(ed[k] ?? "").trim()) add("error", `editorial.${k} empty`);
+    if (!(ed.realCost ?? []).length) add("error", "editorial.realCost needs 1 to 4 items (what the buyer also needs to buy)");
     for (const k of ["strengths", "weaknesses", "checks"]) if ((ed[k] ?? []).length !== 3) add("error", `editorial.${k} needs exactly 3 entries (has ${(ed[k] ?? []).length})`);
     const nf = (ed.faqs ?? []).length;
     if (nf < 6 || nf > 12) add("error", `editorial.faqs needs 6 to 12 entries (has ${nf})`);
@@ -168,7 +169,7 @@ if (cmd === "apply") {
   if (d.price) Object.assign(spec, d.price);
   if (d.retailerUrl !== undefined) spec.retailerUrl = d.retailerUrl;
   for (const u of d.sources ?? []) if (!spec.sources.includes(u)) spec.sources.push(u);
-  if (d.editorial) spec.editorial = d.editorial;
+  if (d.editorial) spec.editorial = { ...(spec.editorial ?? {}), ...d.editorial };
   fs.writeFileSync(SPEC, JSON.stringify(spec, null, 2) + "\n");
 
   // src/lib/products.ts siteFields
