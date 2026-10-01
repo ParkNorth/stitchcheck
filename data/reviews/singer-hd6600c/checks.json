@@ -1,0 +1,30 @@
+{
+  "slug": "singer-hd6600c",
+  "generated": "2026-10-01T15:19:33.424Z",
+  "counts": {
+    "error": 0,
+    "warn": 1
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 79, this 52, sibling 5, unclear 22"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "20 Reddit threads, 7 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"maxSpm\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 32 voices (17 first-hand), 21 sources, status draft"
+    }
+  ]
+}
