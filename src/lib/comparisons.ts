@@ -98,11 +98,11 @@ export const comparisons: Comparison[] = [
     slug: "singer-4423-vs-4432-vs-4452",
     title: "Singer 4423 vs 4432 vs 4452",
     description:
-      "The Singer Heavy Duty family compared as people search it: one motor, one speed, three stitch counts and three bundles.",
+      "The Singer Heavy Duty family compared as people search it: forum and roundup reports of one head, three stitch counts and three bundles.",
     productSlugs: ["singer-4423", "singer-4432", "singer-4452"],
     picks: { "singer-4452": "value-pick" },
     summary:
-      "Same motor, same speed. Buy the 4452 if you'd use the extra presser feet, the 4423 if you won't. The 4432 is hard to justify between them.",
+      "Forum and roundup reports describe one head across the three. Buy the 4452 if you'd use the extra presser feet, the 4423 if you won't. The 4432 is hard to justify between them.",
     crumb: "Singer Heavy Duty family",
     rows: [
       { label: "Price band", key: "priceBand", rule: "lower" },
@@ -115,10 +115,10 @@ export const comparisons: Comparison[] = [
     buyIf: [
       { slug: "singer-4423", text: "You want the family motor and speed at the lowest price and will not use the extra feet." },
       { slug: "singer-4432", text: "It is on sale below the 4423. Otherwise skip it." },
-      { slug: "singer-4452", text: "You would buy the extra presser feet anyway. The bundle is the whole difference." },
+      { slug: "singer-4452", text: "You would buy the extra presser feet anyway. The bundle is the whole difference, per third-party reports." },
     ],
     relatedGuide: "sewing-machine-for-thick-fabric",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-01",
   },
   {
     slug: "brother-1034d-vs-juki-mo-654de",

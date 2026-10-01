@@ -1,72 +1,5 @@
 {
-  "slug": "singer-4452",
-  "brand": "Singer",
-  "model": "Heavy Duty 4452",
-  "series": "Heavy Duty",
-  "type": "mechanical",
-  "industrial": false,
-  "jobs": [
-    "heavy-duty",
-    "beginner"
-  ],
-  "manufacturerUrl": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine",
-  "retailerUrl": "https://www.sewingmachinesplus.com/4452.php",
-  "priceUsdSeen": 299,
-  "priceSeenDate": "2026-09-29",
-  "priceSeenAt": "Sewing Machines Plus (regular price in search snippet; factory serviced listed at $159.99)",
   "specs": {
-    "stitchTypes": {
-      "value": "32 built-in stitches including basic, stretch and decorative, 1 one-step buttonhole",
-      "source": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
-    },
-    "stitchCount": {
-      "value": 32,
-      "source": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
-    },
-    "maxSpm": {
-      "value": 1100,
-      "source": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
-    },
-    "threads": {
-      "value": null,
-      "source": null
-    },
-    "differentialFeed": {
-      "value": null,
-      "source": null
-    },
-    "throatIn": {
-      "value": null,
-      "source": null
-    },
-    "needleSystem": {
-      "value": null,
-      "source": null
-    },
-    "presserFootLift": {
-      "value": null,
-      "source": null
-    },
-    "threadTrimmer": {
-      "value": null,
-      "source": null
-    },
-    "feedSystem": {
-      "value": "Drop feed",
-      "source": "https://images.thdstatic.com/catalog/pdfImages/5a/5a5da577-9fe7-4e0c-9ad8-a35912af2e44.pdf"
-    },
-    "buttonhole": {
-      "value": "1-step automatic buttonhole",
-      "source": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
-    },
-    "motor": {
-      "value": "84 W, 0.7 A, 120 V, 60 Hz",
-      "source": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
-    },
-    "frame": {
-      "value": "Heavy-duty metal interior frame, stainless steel bedplate",
-      "source": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
-    },
     "weightLb": {
       "value": 14.6,
       "source": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
@@ -75,26 +8,19 @@
       "value": "15.5 x 6.25 x 12",
       "source": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
     },
-    "includedFeet": {
-      "value": "All purpose foot, zipper foot, buttonhole foot, button sewing foot, non-stick foot, even feed (walking) foot, clearance plate, 2 packs of needles, Class 15 transparent bobbins, edge and quilting guide, spool caps, large and small spool holders, auxiliary spool pin, spool pin felt, L screwdriver, seam ripper and lint brush, soft dust cover, foot control and power cord",
-      "source": "https://images.thdstatic.com/catalog/pdfImages/5a/5a5da577-9fe7-4e0c-9ad8-a35912af2e44.pdf"
+    "stitchWidthMm": {
+      "value": "6 maximum",
+      "source": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
+    },
+    "motor": {
+      "value": "84 W, 0.7 A, 120 V, 60 Hz",
+      "source": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
     },
     "warrantyUs": {
       "value": "Limited 25/2/90 Day warranty (4452 listed); the product page shows 90 day, 2 yr and 24 yr; which period covers which part is not confirmed",
       "source": "https://help.singer.com/en-US/singers-warranty-coverage-395288"
-    },
-    "stitchWidthMm": {
-      "value": "6 maximum",
-      "source": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine"
     }
   },
-  "claims": [
-    "\"Heavy Duty\" (Singer series name, product page; it is a model line, not a duty rating)",
-    "\"powerful motor\" with \"extra high sewing speed\" (manufacturer claim, singer.com product page)",
-    "\"heavy-duty metal frame ensures stability\" (manufacturer claim, singer.com product page)",
-    "\"50% more power for thick fabrics\" and a \"60% stronger\" motor (Singer marketing wording; the baseline is not defined and neither is a measured capability)",
-    "\"110 stitch applications\" (Singer marketing count; the machine has 32 built-in stitches)"
-  ],
   "conflicts": [
     "Throat: Singer gives 6.25 in measured needle to tower, not needle to body (rule 11), so throat space stays [verify] and the figure is not used as a throat spec.",
     "Warranty: Singer's warranty page says 25 years while the product page says 24 years; the split of periods by component is not confirmed.",
@@ -103,51 +29,25 @@
     "Dimensions: a third-party directory gave 39 x 16 x 30 cm; Singer's page gives 15.5 x 6.25 x 12 in, which is within rounding, so Singer's figure is used.",
     "Stitch count: one commenter cites 52 stitches while Singer lists 32; Singer's 32 stands, and its 110 stitch applications is a marketing count."
   ],
-  "ownerThemes": [
-    {
-      "theme": "PatternReview members comparing the 4423, 4432 and 4452 describe them as the same machine with different stitch counts and accessory packs, and suggest buying on price.",
-      "tone": "mixed",
-      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/111789"
-    },
-    {
-      "theme": "Review roundups say the 4452's walking foot and nonstick foot are the reason to pick it over the 4432, and that the head itself is identical.",
-      "tone": "positive",
-      "source": "https://bobbinhub.com/singer-4432-vs-4452/"
-    },
-    {
-      "theme": "Retailer review pages for the 4452 repeat the 44-series pattern: strong on denim hems, with tension and bobbin complaints from a minority of owners.",
-      "tone": "mixed",
-      "source": "https://arlingtonsew.com/singer-4452-heavy-duty-sewing-machine-review/"
-    }
+  "claims": [
+    "\"Heavy Duty\" (Singer series name, product page; it is a model line, not a duty rating)",
+    "\"powerful motor\" with \"extra high sewing speed\" (manufacturer claim, singer.com product page)",
+    "\"heavy-duty metal frame ensures stability\" (manufacturer claim, singer.com product page)",
+    "\"50% more power for thick fabrics\" and a \"60% stronger\" motor (Singer marketing wording; the baseline is not defined and neither is a measured capability)",
+    "\"110 stitch applications\" (Singer marketing count; the machine has 32 built-in stitches)"
   ],
   "evidence": "owner",
-  "buyerQuestions": [
-    "What is the difference between the Singer 4452 and 4432?",
-    "Does the Singer 4452 come with a walking foot?",
-    "Can the Singer 4452 sew leather and vinyl?",
-    "Is the Singer 4452 good for quilting?",
-    "How much does the Singer 4452 weigh?",
-    "Is the Singer 4452 good for beginners?",
-    "What is the clearance plate for on the Singer 4452?",
-    "Is the Singer 4452 worth the extra money over the 4423?",
-    "What needles does the Singer 4452 use?"
+  "sources": [
+    "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine",
+    "https://help.singer.com/en-US/singers-warranty-coverage-395288",
+    "https://www.sewingmachinesplus.com/4452.php",
+    "https://images.thdstatic.com/catalog/pdfImages/5a/5a5da577-9fe7-4e0c-9ad8-a35912af2e44.pdf",
+    "https://www.sewingmachinedirectory.com/sewing-machine/singer-4452/",
+    "https://www.amazon.com/dp/B09ZGKJVZB",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/111789",
+    "https://bobbinhub.com/singer-4432-vs-4452/",
+    "https://arlingtonsew.com/singer-4452-heavy-duty-sewing-machine-review/"
   ],
-  "crossShop": [
-    {
-      "slug": "singer-4432",
-      "why": "Identical head without the walking foot, nonstick foot and clearance plate."
-    },
-    {
-      "slug": "brother-st371hd",
-      "why": "Brother's competitor ships a nonstick foot too, with 37 stitches at a lower speed."
-    },
-    {
-      "slug": "juki-tl-2010q",
-      "why": "Buyers who outgrow the Singer on quilts or bags step up to a single-stitch Juki."
-    }
-  ],
-  "discontinued": false,
-  "replacedBy": null,
   "editorial": {
     "verdict": "A 1,100 spm, 32 stitch mechanical machine with a walking foot and nonstick foot in the box; owners report mixed reliability.",
     "whoFor": "Beginners planning to sew denim, vinyl or layered totes who want the walking foot and nonstick foot in the box.",
@@ -228,20 +128,5 @@
         "a": "Singer lists a Limited 25/2/90 Day warranty, while its product page shows 90 day, 2 yr and 24 yr. Which period covers which part is not confirmed."
       }
     ]
-  },
-  "sources": [
-    "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine",
-    "https://www.sewingmachinesplus.com/4452.php",
-    "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage",
-    "https://images.thdstatic.com/catalog/pdfImages/5a/5a5da577-9fe7-4e0c-9ad8-a35912af2e44.pdf",
-    "https://www.sewingmachinedirectory.com/sewing-machine/singer-4452/",
-    "https://www.sewingmachinesplus.com/4452.php",
-    "https://sewing.patternreview.com/SewingDiscussions/topic/111789",
-    "https://threadedmachines.com/brands/singer/4423-review/problems/",
-    "https://sewways.com/brands/singer-heavy-duty-comparison/",
-    "https://help.singer.com/en-US/singers-warranty-coverage-395288",
-    "https://www.amazon.com/dp/B09ZGKJVZB",
-    "https://bobbinhub.com/singer-4432-vs-4452/",
-    "https://arlingtonsew.com/singer-4452-heavy-duty-sewing-machine-review/"
-  ]
+  }
 }
