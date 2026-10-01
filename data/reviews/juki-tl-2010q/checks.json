@@ -1,0 +1,45 @@
+{
+  "slug": "juki-tl-2010q",
+  "generated": "2026-10-01T13:40:04.332Z",
+  "counts": {
+    "error": 2,
+    "warn": 0
+  },
+  "items": [
+    {
+      "level": "error",
+      "id": "config",
+      "message": "editor.json missing \"scopeRules\""
+    },
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: of 221 sampled reviews, 28 name this model, 2 name a sibling only, 191 name neither"
+    },
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "jukijunkies.com: of 25 sampled reviews, 13 name this model, 0 name a sibling only, 12 name neither"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 583, this 515, sibling 27, unclear 40"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "69 Reddit threads, 17 with the model in the title"
+    },
+    {
+      "level": "error",
+      "id": "owner-note",
+      "message": "87% of items are Reddit and rollup has no ownerNote (editor.json ownerNote)"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence strong, 234 voices (197 first-hand), 99 sources, status approved"
+    }
+  ]
+}
