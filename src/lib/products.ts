@@ -556,9 +556,9 @@ const siteFields: Record<string, SiteFields> = {
     series: "HD",
     score: 7.1,
     scoredFor: "heavy-duty",
-    reason: "Heavy duty in name. Fine for denim hems and canvas bags; out of its depth on upholstery.",
+    reason: "Heavy duty is Singer's line name. Fine for denim hems and canvas bags; out of its depth on thick strap stacks.",
     context: "Singer Heavy Duty family · value pick in Heavy duty hub",
-    verdict: "Heavy duty in name. Fine for denim hems and canvas bags; out of its depth on upholstery.",
+    verdict: "Heavy Duty is a Singer series name, not a rating. Owners report denim and canvas hems going well and thick strap stacks going badly.",
     keySpec: "1,100 spm · 32 stitches · metal frame",
     alternatives: [
       { slug: "singer-4423", label: "Cheaper", note: "Same motor, fewer feet." },
@@ -566,7 +566,8 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "brother-st371hd", label: "Cross-shop", note: "Brother's machine in the same class." },
     ],
     imageAlt: "Singer Heavy Duty 4452 sewing machine",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-01",
+    specsVerified: "2026-10-01",
   },
   "singer-14t968dc": {
     series: "Pro",
