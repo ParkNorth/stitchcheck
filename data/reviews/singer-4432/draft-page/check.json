@@ -1,0 +1,14 @@
+{
+  "slug": "singer-4432",
+  "generated": "2026-10-01T23:57:14.505Z",
+  "counts": {
+    "error": 0,
+    "warn": 1
+  },
+  "items": [
+    {
+      "level": "warn",
+      "message": "numbers in the copy that are not in the evidence bundle: 199.99"
+    }
+  ]
+}
