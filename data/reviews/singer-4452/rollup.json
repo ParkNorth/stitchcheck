@@ -1101,17 +1101,191 @@
     {
       "model": "Heavy Duty 4411",
       "label": "Singer Heavy Duty 4411",
-      "rows": []
+      "rows": [
+        {
+          "feature": "Stitches",
+          "urls": 5,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "Commenters say the 4411 has 11 stitches against many more on the 4452. Singer's page gives the 4452 32 built-in stitches (110 applications); one commenter said 52, which does not match.",
+          "check": "Reddit comments; Singer lists 32 for the 4452, no 4411 document in hand",
+          "examples": [
+            {
+              "claim_id": "ca2b068c8",
+              "claim": "Poster describes the 4452 as having more stitches and accessories than the 4411.",
+              "quote": "More stitches, more accessories",
+              "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ttfwsd/first_sewing_machinesinger_4411_limited_edition/"
+            },
+            {
+              "claim_id": "ccf0f097f",
+              "claim": "The pink 4411 has 11 stitches while the white 4452 has many more.",
+              "quote": "The pink one only has 11 stitch options, the white has a lot more",
+              "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ttfwsd/first_sewing_machinesinger_4411_limited_edition/op4vxp0/"
+            },
+            {
+              "claim_id": "c6d302c9d",
+              "claim": "The 4452 adds a back and forth triple straight stitch over the 4411.",
+              "quote": "The back and forth triple straight stitch on the 4452 is nice to have",
+              "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ttfwsd/first_sewing_machinesinger_4411_limited_edition/op2por3/"
+            }
+          ],
+          "claimIds": [
+            "ca2b068c8",
+            "ccf0f097f",
+            "c6d302c9d",
+            "cba1b14e2",
+            "ccd36ddd3"
+          ]
+        },
+        {
+          "feature": "Frame and motor",
+          "urls": 2,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "One commenter says the two share the same frame and motor, so they handle the same fabrics.",
+          "check": "unverified, Reddit only",
+          "examples": [
+            {
+              "claim_id": "cfd005582",
+              "claim": "Commenter says both machines share the same frame and motor, so handle the same fabrics.",
+              "quote": "They have the same frame and motor so they will handle the same fabrics",
+              "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ttfwsd/first_sewing_machinesinger_4411_limited_edition/op2por3/"
+            },
+            {
+              "claim_id": "cf3448e46",
+              "claim": "Commenter says the two are essentially the same machine under the plastic case.",
+              "quote": "They're essentially the same machine beneath the plastic case",
+              "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ttfwsd/first_sewing_machinesinger_4411_limited_edition/op5trfo/"
+            }
+          ],
+          "claimIds": [
+            "cfd005582",
+            "cf3448e46"
+          ]
+        },
+        {
+          "feature": "Buttonhole",
+          "urls": 2,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "Commenters say the 4452 has a one-step buttonhole and the 4411 a four-step one.",
+          "check": "Reddit comments; Singer confirms one-step for the 4452",
+          "examples": [
+            {
+              "claim_id": "cf4881d06",
+              "claim": "White 4452 owner says its buttonholer is very easy while the pink 4411's is more annoying.",
+              "quote": "I have the white one and the buttonholer is very easy to use",
+              "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ttfwsd/first_sewing_machinesinger_4411_limited_edition/op4xmzr/"
+            },
+            {
+              "claim_id": "cc813a7e9",
+              "claim": "The 4452 has a one-step buttonholer while the 4411 has a four-step one.",
+              "quote": "4452 has a one-step buttonholer (which is good), the 4411 has a four-step one",
+              "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ttfwsd/first_sewing_machinesinger_4411_limited_edition/op5trfo/"
+            }
+          ],
+          "claimIds": [
+            "cf4881d06",
+            "cc813a7e9"
+          ]
+        }
+      ]
     },
     {
       "model": "Heavy Duty 4423",
       "label": "Singer Heavy Duty 4423",
-      "rows": []
+      "rows": [
+        {
+          "feature": "Retailer rating",
+          "urls": 1,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "One commenter says the 4452 rates lower than the 4423 at the retailer; Amazon listings showed 4.3 from 1,122 for the 4452 bundle and 4.5 from over 21,000 for the 4423.",
+          "check": "Amazon listings, 2026-10-01",
+          "examples": [
+            {
+              "claim_id": "cdf138e04",
+              "claim": "Writer says the 4452 rates lower than the 4423 at the retailer.",
+              "quote": "Lower rated than the 4423, oddly, 4.4 from about 11400 against 4.5 from 21000 plus",
+              "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wqsese/eight_layers_of_upholstery_fabric_on_the_singer/"
+            }
+          ],
+          "claimIds": [
+            "cdf138e04"
+          ]
+        }
+      ]
     },
     {
       "model": "Heavy Duty 4432",
       "label": "Singer Heavy Duty 4432",
-      "rows": []
+      "rows": [
+        {
+          "feature": "Included accessories",
+          "urls": 3,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "Commenters say the 4452 adds a bonus accessory package, including a walking foot, over the 4432; one finds that little reason to pay more.",
+          "check": "Reddit comments; no 4432 maker document in hand",
+          "examples": [
+            {
+              "claim_id": "c1a7129fb",
+              "claim": "Commenter says the 4452 and 4432 are the same machine and the 4452 just adds a bonus accessory package.",
+              "quote": "the 4452 comes with a bonus accessory package, and the actual machines are identical",
+              "url": "https://www.reddit.com/r/sewing/comments/ovsodg/singer_heavy_duty_4432_vs_4452/h7bfv8y/"
+            },
+            {
+              "claim_id": "c325fe1c0",
+              "claim": "Poster understands the 4452 to be essentially a 4432 with the accessories kit including a walking foot.",
+              "quote": "essentially be a 4432 but with the accessories kit (walking foot!) included",
+              "url": "https://www.reddit.com/r/sewing/comments/o1g3cn/singer_4452_vs_64s/"
+            },
+            {
+              "claim_id": "c6f181483",
+              "claim": "Commenter says the 4452 adds extra decorative stitches and accessories over the 4432 and finds that little reason to buy it.",
+              "quote": "the 4452 for the extra decorative stitches and accessories",
+              "url": "https://www.reddit.com/r/sewing/comments/11381zh/is_the_singer_4452_heavy_duty_worth_buying/j8oqcbz/"
+            }
+          ],
+          "claimIds": [
+            "c1a7129fb",
+            "c325fe1c0",
+            "c6f181483"
+          ]
+        },
+        {
+          "feature": "Stitches",
+          "urls": 2,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "Commenters describe the 4432 as the same machine without the 4452's extra decorative stitches.",
+          "check": "Reddit comments; no 4432 maker document in hand",
+          "examples": [
+            {
+              "claim_id": "cade88203",
+              "claim": "Commenter says the 4432 is the same as the 4452 but without the extra decorative stitches.",
+              "quote": "4432 model; it\u2019s the same as 4452 just without the extra fancy stitches",
+              "url": "https://www.reddit.com/r/sewhelp/comments/qimrnv/help_im_new_to_sewing_and_my_bobbin_is_doing/himuzdt/"
+            },
+            {
+              "claim_id": "c6f181483",
+              "claim": "Commenter says the 4452 adds extra decorative stitches and accessories over the 4432 and finds that little reason to buy it.",
+              "quote": "the 4452 for the extra decorative stitches and accessories",
+              "url": "https://www.reddit.com/r/sewing/comments/11381zh/is_the_singer_4452_heavy_duty_worth_buying/j8oqcbz/"
+            }
+          ],
+          "claimIds": [
+            "cade88203",
+            "c6f181483"
+          ]
+        }
+      ]
     }
   ],
   "rivals": []
