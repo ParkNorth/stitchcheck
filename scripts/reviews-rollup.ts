@@ -37,7 +37,7 @@ import path from "node:path";
 
 const a = process.argv.slice(2);
 const mode = a[0];
-const val = (n: string) => a[a.indexOf(n) + 1];
+const val = (n: string) => (a.includes(n) ? a[a.indexOf(n) + 1] : undefined);
 const slug = val("--slug");
 const CHUNK = Number(val("--chunk") ?? 200);
 if (!slug || !["tag-prep", "tag-merge", "build", "check"].includes(mode)) throw new Error("usage: reviews-rollup.ts tag-prep|tag-merge|build|check --slug X");
