@@ -1,0 +1,89 @@
+{
+  "specs": {
+    "stitchTypes": {"value": "14 built-in stitches including a 4-step buttonhole; max width 5 mm, max length 4 mm", "source": "https://www.janome.com/product/hd-1000/"},
+    "maxSpm": {"value": 860, "source": "https://www.janome.com/product/hd-1000/"},
+    "throatIn": {"value": null, "source": null},
+    "presserFootLift": {"value": "Extra high lift about 1/4 in above the normal up position; no maximum height published", "source": "https://www.janome.com/wp-content/uploads/_pda/2024/11/inst-book-hd1000.pdf"},
+    "needleSystem": {"value": "Class not published; manual needle chart sizes 9/11 light, 11/14 medium, 14/16 heavy", "source": "https://www.janome.com/wp-content/uploads/_pda/2024/11/inst-book-hd1000.pdf"},
+    "threadTrimmer": {"value": "Manual side cutter on the machine; no automatic cutter", "source": "https://www.janome.com/wp-content/uploads/_pda/2024/11/inst-book-hd1000.pdf"},
+    "feedSystem": {"value": "3-piece feed dog; drop feed; free arm; front-loading vertical oscillating hook", "source": "https://www.janome.com/product/hd-1000/"},
+    "frame": {"value": "All-aluminum interior frame and body (Janome wording)", "source": "https://www.janome.com/product/hd-1000/"},
+    "weightLb": {"value": 16.8, "source": "https://www.janome.com/product/hd-1000/"},
+    "dimensionsIn": {"value": "15.6 x 6.3 x 12.4", "source": "https://www.janome.com/product/hd-1000/"},
+    "includedFeet": {"value": "Even feed (front loading), ultra glide, zig-zag, zipper (narrow), zipper E and hemmer feet; blind hem guide; hard case", "source": "https://www.janome.com/product/hd-1000/"},
+    "warrantyUs": {"value": "Janome pages for the HD1000 name no warranty. Assumed from Janome's generic 25-year household warranty: electronics 5 yr, labor 1 yr. Amazon lists 25/2/1.", "source": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"}
+  },
+  "conflicts": [
+    "Warranty: Janome's generic 25-year household warranty PDF lists electronics 5 years and labor 1 year, while Amazon's listing says 25 years mechanical, 2 years electrical and 1 year labor; Janome's HD1000 pages name no warranty, so applicability is assumed.",
+    "Throat: Janome gives a 'Workspace' of 6.4 x 4.7 in, which is not a needle-to-arm distance, so throat space stays [verify] and dealers and owners do not agree on a figure.",
+    "Price: Amazon showed $399 for the base HD1000 on 2026-10-01 against Janome MSRP $409; the earlier $403.83 Home Depot figure was the Black Edition (HD1000BE, MSRP $550), a separate SKU.",
+    "Presser foot pressure: owners say the HD1000 has no adjustment and Janome lists foot pressure adjustment for the HD3000 but not the HD1000; Janome states no HD1000 position either way, so the spec stays null.",
+    "Series wording: 'Heavy Duty' and 'metal' are series or dealer labels; Janome's HD1000 page says 'all-aluminum interior frame and body' and 'super sturdy construction'."
+  ],
+  "claims": [
+    "\"Super sturdy construction and easy-to-use features\" (Janome product page)",
+    "\"An excellent choice for the sewist looking to tackle a wide range of fabrics and sewing types\" (Janome product page)",
+    "\"Heavy Duty\" is the HD series name, not a capacity rating, and does not appear in Janome's page copy",
+    "\"Industrial Grade\" appears in Home Depot and eBay Black Edition titles, not on Janome's page",
+    "\"Great for new, rugged, and capable sewers\" (dealer copy, Sewing Machines Plus)"
+  ],
+  "evidence": "owner",
+  "price": {"priceUsdSeen": 399, "priceSeenDate": "2026-10-01", "priceSeenAt": "Amazon"},
+  "sources": [
+    "https://www.janome.com/product/hd-1000/",
+    "https://www.janome.com/product/hd-1000-black-edition/",
+    "https://www.janome.com/wp-content/uploads/_pda/2024/11/inst-book-hd1000.pdf",
+    "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+    "https://www.amazon.com/dp/B001I1IZ2K",
+    "https://sewingmachinesplus.com/products/janome-hd1000",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/66827",
+    "https://sewing.patternreview.com/review/machine/6614",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/117318"
+  ],
+  "editorial": {
+    "verdict": "The HD1000 is a household-only, aluminum-framed 14-stitch mechanical that owners treat as a first machine, not a heavy-fabric tool.",
+    "whoFor": "A first-machine buyer who wants Janome's aluminum body and will mostly sew garments, mending and the occasional denim hem.",
+    "skipIf": "You want a one-step buttonhole, listed foot pressure adjustment, or you plan to sew bags, webbing or leather regularly.",
+    "keySpec": "860 spm · 14 stitches · 5 mm zigzag · 16.8 lb aluminum body",
+    "strengths": [
+      "Owners report a solid, smooth feel, and Janome describes an all-aluminum interior frame and body.",
+      "Owners report oiling and cleaning as easy, and the manual lists an extra high presser foot lift that one owner used on layered cotton duck.",
+      "Free arm, drop feed, a built-in needle threader and a 3-piece feed dog per Janome's page."
+    ],
+    "weaknesses": [
+      "Owners report jams and defects at a high rate in help threads, and heavy-fabric power is split: some sew denim, leather and webbing, others report stops on Cordura and webbing layers.",
+      "Only 14 stitches and a 4-step buttonhole; Janome lists foot pressure adjustment for the HD3000 but not for the HD1000.",
+      "Owners report threading and bobbin-area snags, speed stutter and plastic parts inside, and the manual states household use only."
+    ],
+    "checks": [
+      {
+        "title": "White or Black Edition",
+        "body": "The HD1000BE has the same listed specs plus an accessories pack at $550 MSRP. Amazon's 4.1 from 565 ratings is the base listing; do not credit it to the Black Edition."
+      },
+      {
+        "title": "Warranty applicability",
+        "body": "Janome's HD1000 pages name no warranty. The generic 25-year household warranty lists electronics 5 yr and labor 1 yr, while Amazon says 25/2/1. Ask the seller which applies."
+      },
+      {
+        "title": "HD1000 or HD3000",
+        "body": "Janome lists the HD3000 with a 5-piece feed dog, foot pressure adjustment and a top-loading hook. Commenters call the gap real but small; owner points beyond Janome's pages are Reddit reports."
+      }
+    ],
+    "realCost": [
+      "Size 14/16 needles for heavy fabric (the manual's heavy chart)",
+      "Shorter thread spools: one reviewer could not fit taller spools under the thread guide",
+      "Black Edition accessories pack if you want it: MSRP $550 against $409 for the base"
+    ],
+    "faqs": [
+      {"q": "Is the Janome HD1000 good for beginners?", "a": "Owners on PatternReview describe it as a beginner machine with simple mechanical controls. Janome lists 14 stitches, a 4-step buttonhole and a built-in needle threader."},
+      {"q": "Can the HD1000 sew canvas or leather?", "a": "Owner reports split: one thread and a retailer reviewer report jeans, canvas, leather and nylon webbing sewn without problems, while other owners report stops on Cordura and webbing layers. Janome publishes no layer or thickness rating and its manual says household use only."},
+      {"q": "Is the HD1000 heavy duty or all metal?", "a": "Those are series and dealer labels, not Janome's page wording. Janome's HD1000 page says 'all-aluminum interior frame and body' and 'super sturdy construction'. Some owners note plastic parts inside."},
+      {"q": "What is the difference between the HD1000 and HD3000?", "a": "Janome's pages list the HD3000 with 18 stitches, a 5-piece feed dog, foot pressure adjustment and a top-loading hook, against 14 stitches, a 3-piece feed dog and a front-loading oscillating hook on the HD1000. Claims about bobbin loading ease and motor differences are Reddit reports that Janome does not confirm."},
+      {"q": "How fast does the HD1000 sew?", "a": "Janome lists 860 stitches per minute."},
+      {"q": "How much throat space does the HD1000 have?", "a": "Janome publishes a workspace of 6.4 x 4.7 in, which is not a needle-to-arm figure, so throat space is [verify]."},
+      {"q": "What is the HD1000 Black Edition?", "a": "HD1000BE is a separate SKU with the same listed specs plus a special accessories pack, MSRP $550. Amazon's 4.1 from 565 ratings is the base listing."},
+      {"q": "What warranty does the HD1000 carry?", "a": "Janome's HD1000 pages name none. Janome's generic 25-year household warranty lists electronics 5 years and labor 1 year, and Amazon says 25/2/1. We assume the generic terms apply, so confirm with the seller."},
+      {"q": "Can the HD1000 be used commercially?", "a": "Janome's manual says the machine is designed and manufactured for household use only."}
+    ]
+  }
+}

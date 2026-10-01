@@ -1,0 +1,248 @@
+{
+  "slug": "janome-hd1000",
+  "collected": "2026-10-01",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/janome-hd1000.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "janome-page",
+      "url": "https://www.janome.com/product/hd-1000/",
+      "type": "product page",
+      "fetched": "2026-10-01",
+      "note": "Specifications, MSRP; page does not name a warranty and does not use 'Heavy Duty' in its copy"
+    },
+    {
+      "id": "janome-be",
+      "url": "https://www.janome.com/product/hd-1000-black-edition/",
+      "type": "Black Edition product page",
+      "fetched": "2026-10-01",
+      "note": "Same listed specs; special accessories pack; MSRP $550"
+    },
+    {
+      "id": "janome-manual",
+      "url": "https://www.janome.com/wp-content/uploads/_pda/2024/11/inst-book-hd1000.pdf",
+      "type": "instruction book (PDF, 72 pages)",
+      "fetched": "2026-10-01",
+      "note": "No specification table; needle chart; household use only"
+    },
+    {
+      "id": "janome-warranty",
+      "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+      "type": "25-year warranty (generic PDF, OCR)",
+      "fetched": "2026-10-01",
+      "note": "Generic Janome America warranty; the HD1000 pages name no warranty, so applicability is assumed; household use only; verify OCR against the PDF"
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "860 stitches per minute",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": 860,
+      "site": {
+        "label": "Speed",
+        "juki": "860 stitches per minute.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/hd-1000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchCount",
+      "value": "14 stitches; 1 four-step buttonhole",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": 14
+    },
+    {
+      "field": "stitchWidthMm",
+      "value": "5 mm maximum",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": "max width 5 mm"
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "4 mm maximum",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": "max length 4 mm"
+    },
+    {
+      "field": "weightLb",
+      "value": "16.8 lb",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": 16.8,
+      "site": {
+        "label": "Weight",
+        "juki": "16.8 lb.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/hd-1000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "W 15.6 x H 12.4 x D 6.3 in",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": "15.6 x 6.3 x 12.4"
+    },
+    {
+      "field": "throatIn",
+      "value": "Janome gives 'Workspace W 6.4 in x H 4.7 in'; no needle-to-arm figure",
+      "source": "janome-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null. 6.4 in is workspace wording, not needle-to-body (rule 11).",
+      "site": {
+        "label": "Workspace",
+        "juki": "Janome states 6.4 x 4.7 in of workspace and no needle-to-arm distance.",
+        "others": "Dealers and owners do not agree on a throat figure.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/hd-1000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "presserFootLift",
+      "value": "Extra high lift: about 1/4 in above the normal up position (manual); no maximum height published",
+      "source": "janome-manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "needleSystem",
+      "value": "Class not published; manual chart sizes 9/11 light, 11/14 medium, 14/16 heavy",
+      "source": "janome-manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "buttonhole",
+      "value": "One four-step buttonhole",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": "4-step"
+    },
+    {
+      "field": "includedFeet",
+      "value": "Even feed (front loading), ultra glide, zig-zag, zipper (narrow), zipper E and hemmer feet; blind hem guide; hard case",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": "4 presser feet, hem guide, needles, maintenance tools, machine cover (Janome)",
+      "note": "Page lists more feet than our '4 presser feet' wording."
+    },
+    {
+      "field": "hook",
+      "value": "Front-loading vertical oscillating hook; push-pull bobbin winding",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": "front-loading vertical oscillating hook"
+    },
+    {
+      "field": "feedSystem",
+      "value": "3-piece feed dog; drop feed; free arm",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": "Drop feed; free arm"
+    },
+    {
+      "field": "frame",
+      "value": "'All-aluminum interior frame and body'",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": "Aluminum body and interior frame",
+      "note": "Janome says aluminum, not metal or heavy duty. 'Heavy Duty' appears only in an image file name."
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "Manual side cutter on the machine; no automatic cutter",
+      "source": "janome-manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "needleThreader",
+      "value": "Built-in",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": "Built-in"
+    },
+    {
+      "field": "motor",
+      "value": "Not published",
+      "source": "janome-manual",
+      "vs_spec": "confirms",
+      "spec_value": null
+    },
+    {
+      "field": "use",
+      "value": "This sewing machine is designed and manufactured for household use only",
+      "source": "janome-manual",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Generic Janome 25-year limited warranty for household use (OCR); electronics 5 years, labor 1 year; the HD1000 pages do not name a warranty",
+      "source": "janome-warranty",
+      "vs_spec": "confirms",
+      "spec_value": "25 yr materials and workmanship, 5 yr electrical components, 1 yr labor (Janome America statement)",
+      "note": "Applicability to the HD1000 is assumed from the generic document; Amazon's listing says 25/2/1.",
+      "site": {
+        "label": "Warranty",
+        "juki": "The HD1000 pages name no warranty; Janome's generic 25-year household warranty lists 5 years electronics and 1 year labor.",
+        "others": "Amazon's listing says 25 years mechanical, 2 years electrical, 1 year labor.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "MSRP $409 ('see dealer for pricing'); Black Edition $550",
+      "source": "janome-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Amazon showed $399 for the base and $389 for the Black Edition."
+    },
+    {
+      "field": "variants",
+      "value": "HD1000 Black Edition: identical listed specs, special accessories pack, MSRP $550",
+      "source": "janome-be",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "claims",
+      "value": "'super sturdy construction and easy-to-use features'; 'excellent choice for the sewist looking to tackle a wide range of fabrics and sewing types'",
+      "source": "janome-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketing wording; claims only."
+    }
+  ]
+}
