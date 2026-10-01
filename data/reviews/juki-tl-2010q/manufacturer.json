@@ -1,0 +1,263 @@
+{
+  "slug": "juki-tl-2010q",
+  "collected": "2026-09-30",
+  "purpose": "First-party facts from Juki documents, compared against data/specs/juki-tl-2010q.json. Research input for the editor; not a spec file. Values are as printed, with units.",
+  "documents": [
+    {
+      "id": "juki-page",
+      "url": "https://www.jukihome.com/products/tl-2010q.html",
+      "type": "product page",
+      "fetched": "2026-09-30",
+      "note": "Fetchable now; the earlier briefing said it was blocked"
+    },
+    {
+      "id": "juki-manual",
+      "url": "https://www.jukihome.com/media/catalog/product/t/l/tl-2010q_instructionmanual.pdf",
+      "type": "instruction manual, 44 pages, EN/ES/FR",
+      "fetched": "2026-09-30",
+      "note": "Text extracted; cached locally, not committed"
+    },
+    {
+      "id": "juki-brochure",
+      "url": "https://www.jukihome.com/media/catalog/product/t/l/tl-2010q_brochure_compressed.pdf",
+      "type": "brochure, 2 pages",
+      "fetched": "2026-09-30",
+      "note": "Image-only PDF, no text layer; not read. Needs OCR or a manual look."
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1,500 spm; slider 200 to 1,500",
+      "source": "juki-page Specifications and Features; juki-manual p.11",
+      "vs_spec": "confirms",
+      "spec_value": 1500,
+      "site": {
+        "label": "Speed and weight",
+        "juki": "1,500 spm, slider from 200 spm. 25.4 lb (11.5 kg).",
+        "others": "Dealers agree.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/tl-2010q.html"
+          },
+          {
+            "label": "Juki manual p.11",
+            "url": "https://www.jukihome.com/media/catalog/product/t/l/tl-2010q_instructionmanual.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchLength",
+      "value": "max 6 mm (0.2 in)",
+      "source": "juki-page; juki-manual p.11",
+      "vs_spec": "adds"
+    },
+    {
+      "field": "needleSystem",
+      "value": "HA x 1 (130/705H) #7 to #18 (HL x 5 #9 to #16)",
+      "source": "juki-page Specifications",
+      "vs_spec": "contradicts",
+      "spec_value": "130/705H equivalence not confirmed",
+      "note": "Juki page confirms 130/705H. The manual lists 'HAx1 or HLx5 #11, #14' (p.11), which reads as the supplied sizes, not the usable range.",
+      "site": {
+        "label": "Needle",
+        "juki": "HA x 1 (130/705H), sizes #7 to #18.",
+        "others": "Dealer copy says HA type needles supplied, 130/705H not stated.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/tl-2010q.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "presserFootLift",
+      "value": "Hand lever 7 mm or 9 mm; knee lifter 12 mm",
+      "source": "juki-manual p.11; juki-page says 'Manual' and 'as high as 12mm' by knee lifter",
+      "vs_spec": "confirms",
+      "note": "Spec records 12 mm by knee lifter; the hand-lever 7/9 mm figures are new."
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "Trim button and foot controller heel both trim needle and bobbin thread",
+      "source": "juki-page Features",
+      "vs_spec": "confirms"
+    },
+    {
+      "field": "feedSystem",
+      "value": "Feed dogs raised and lowered by a switch (drop feed)",
+      "source": "juki-page Features",
+      "vs_spec": "confirms"
+    },
+    {
+      "field": "frame",
+      "value": "Aluminum die-casting",
+      "source": "juki-page intro",
+      "vs_spec": "confirms"
+    },
+    {
+      "field": "weightLb",
+      "value": "25.4 lb (11.5 kg)",
+      "source": "juki-page; juki-manual p.11",
+      "vs_spec": "confirms",
+      "spec_value": 25.4
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "Manual: 45.2 W x 35.0 H x 21.9 L cm = 17.8 x 13.8 x 8.6 in",
+      "source": "juki-manual p.11",
+      "vs_spec": "confirms",
+      "spec_value": "17.8 x 8.6 x 13.8 (W x D x H)"
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "Juki page: 17.75 W x 9 H x 8.5 D in",
+      "source": "juki-page Specifications",
+      "vs_spec": "contradicts",
+      "note": "Height 9 in vs 13.8 in in the manual. The web page figure looks like a transcription error; prefer the manual.",
+      "site": {
+        "label": "Height",
+        "juki": "Manual: 35.0 cm tall (13.8 in). Juki's web page: 9 in.",
+        "others": "One dealer repeats 9 in. Juki's own manual contradicts the web page.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki manual p.11",
+            "url": "https://www.jukihome.com/media/catalog/product/t/l/tl-2010q_instructionmanual.pdf"
+          },
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/tl-2010q.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "bed",
+      "value": "Bed 43 W x 17.8 L cm (16.9 x 7.0 in); auxiliary table 59 x 27.7 cm (23.2 x 10.9 in)",
+      "source": "juki-manual p.11",
+      "vs_spec": "adds"
+    },
+    {
+      "field": "bed",
+      "value": "Auxiliary table 23 x 13 in (590 x 335 mm)",
+      "source": "juki-page Specifications",
+      "vs_spec": "contradicts",
+      "note": "Depth 13 in (335 mm) vs 10.9 in (277 mm) in the manual; a Kathy Quilts dealer post also says 590 x 277 mm. Juki's 'work area up to 23 inches' claim uses the width."
+    },
+    {
+      "field": "throatIn",
+      "value": "Not stated as a needle-to-arm figure in the Juki page or the manual",
+      "source": "juki-page; juki-manual p.11",
+      "vs_spec": "contradicts",
+      "spec_value": 8.5,
+      "note": "The 8.5 in throat comes from dealers ('8.5 x 6'). Juki's own depth figure is 8.6 in (21.9 cm) and the page lists 8.5 D, so the dealer throat number may be the machine depth. Not verified; keep [verify] per rules 9 and 11.",
+      "site": {
+        "label": "Throat space",
+        "juki": "No needle-to-arm figure published. Machine depth is 8.6 in.",
+        "others": "Dealers quote 8.5 x 6 in. Four sources say about 9 in.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki manual p.11",
+            "url": "https://www.jukihome.com/media/catalog/product/t/l/tl-2010q_instructionmanual.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "includedFeet",
+      "value": "Standard per manual p.12: zipper attaching foot, upper feed (even feed) presser foot, 1/4 in quilting foot. Also standard: foot controller, auxiliary table, 2 screwdrivers, brush, 4 bobbins, oiler, needles (HAx1), spool cap, cover, power cord, knee lifter.",
+      "source": "juki-manual p.12",
+      "vs_spec": "contradicts",
+      "spec_value": "includes 1/4 and 1/5 quilting feet",
+      "note": "The 1/5 in quilting foot appears only under Optional accessories on the Juki page, and the manual marks the 1/5 in foot 'Option'. The Juki feature bullet 'Juki 1/4 Inch and 1/5 Inch Quilting Feet' is ambiguous marketing. Dealer and forum claims that both ship are not supported by Juki's lists.",
+      "site": {
+        "label": "Feet in the box",
+        "juki": "Standard: zipper foot, even feed foot, 1/4 in quilting foot. The 1/5 in quilting foot is optional.",
+        "others": "Four review pages and several dealers say both quilting feet ship.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki manual p.12",
+            "url": "https://www.jukihome.com/media/catalog/product/t/l/tl-2010q_instructionmanual.pdf"
+          },
+          {
+            "label": "Juki accessories",
+            "url": "https://www.jukihome.com/products/tl-2010q.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "includedFeet",
+      "value": "Standard list on the page: standard presser foot, zipper attaching foot, 1/4 quilting foot, even feed foot, auxiliary table; the even feed foot also appears under Optional",
+      "source": "juki-page Accessories",
+      "vs_spec": "adds",
+      "note": "The manual's 15 item list does not include a separate standard presser foot."
+    },
+    {
+      "field": "maintenance",
+      "value": "Oil with New Defrix Oil No.1 (oiler supplied); lubricate once a day if used every day; test sew after",
+      "source": "juki-manual p.36",
+      "vs_spec": "adds",
+      "note": "Backs the owner theme that the machine needs regular oiling.",
+      "site": {
+        "label": "Oiling",
+        "juki": "Oil at each marked point once a day if used every day, then test sew.",
+        "others": "Owners describe oiling as a habit to learn.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki manual p.36",
+            "url": "https://www.jukihome.com/media/catalog/product/t/l/tl-2010q_instructionmanual.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "features",
+      "value": "Automatic needle threader, needle up/down button, adjustable presser foot pressure, high shank, L-style bobbin, LED light",
+      "source": "juki-page Features and Specifications",
+      "vs_spec": "adds"
+    },
+    {
+      "field": "msrp",
+      "value": "USD 2,169.00 suggested retail",
+      "source": "juki-page",
+      "vs_spec": "adds",
+      "note": "Matches the 'regular price' on Sewing Machines Plus. Dealer sale price seen 1,239 (2026-09-30). The earlier briefing's 2,099 regular price is older."
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Not stated on the Juki page or in the manual (manual says to keep it with the warranty card)",
+      "source": "juki-page; juki-manual p.1",
+      "vs_spec": "adds",
+      "note": "Warranty terms remain dealer-sourced.",
+      "site": {
+        "label": "Warranty",
+        "juki": "Terms not stated on Juki's page or in the manual.",
+        "others": "Dealers publish 5 years limited on parts and 2 years on electrical parts.",
+        "status": "dealer only",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/tl-2010q.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "claims",
+      "value": "'industrial-quality sewing', 'microcomputer controlled, speed control mechanism', 'industrial sub-tension system', 'Nothing Free Motion Quilts Better Than a Juki'",
+      "source": "juki-page",
+      "vs_spec": "adds",
+      "note": "Attribute as Juki claims, never as fact (rule 7)."
+    }
+  ]
+}

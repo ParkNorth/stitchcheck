@@ -41,7 +41,7 @@ export interface CatalogEntry {
   sources: string[];
 }
 
-export const CATALOG_BUILT = "2026-09-29";
+export const CATALOG_BUILT = "2026-10-01";
 
 export const catalogData: Record<string, CatalogEntry> = {
   "babylock-imagine": {
@@ -7713,10 +7713,10 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "manufacturerUrl": "https://www.jukihome.com/products/tl-2010q.html",
     "retailerUrl": "https://www.sewingmachinesplus.com/juki-2010q-machine.php",
-    "priceUsdSeen": 1199,
-    "priceSeenDate": "2026-09-29",
-    "priceSeenAt": "another dealer",
-    "priceNote": "Lowe's (search snippet; Sewing Machines Plus regular listing price not shown in snippet, SMP show model listed at $900)",
+    "priceUsdSeen": 1239,
+    "priceSeenDate": "2026-09-30",
+    "priceSeenAt": "Sewing Machines Plus",
+    "priceNote": null,
     "specs": {
       "stitchTypes": {
         "value": "Straight stitch only, single needle lockstitch",
@@ -7728,7 +7728,7 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "maxSpm": {
         "value": 1500,
-        "source": "https://www.sewingmachinesplus.com/juki-2010q-machine.php"
+        "source": "https://www.jukihome.com/products/tl-2010q.html"
       },
       "threads": {
         "value": null,
@@ -7743,15 +7743,15 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.sewingmachinesplus.com/juki-2010q-machine.php"
       },
       "needleSystem": {
-        "value": "HA type home needles supplied (dealer copy); 130/705H equivalence not confirmed in snippet",
-        "source": "https://www.premierstitching.com/juki-tl-2010q-high-speed-sewing-and-quilting-machine/"
-      },
-      "presserFootLift": {
-        "value": "Knee lifter lever included; presser foot lifts to 12 mm",
+        "value": "HA x 1 (130/705H) #7 to #18; HL x 5 #9 to #16",
         "source": "https://www.jukihome.com/products/tl-2010q.html"
       },
+      "presserFootLift": {
+        "value": "Hand lever 7 mm or 9 mm; knee lifter 12 mm",
+        "source": "https://www.jukihome.com/media/catalog/product/t/l/tl-2010q_instructionmanual.pdf"
+      },
       "threadTrimmer": {
-        "value": "Automatic thread trimmer",
+        "value": "Automatic, on a button and on the pedal heel",
         "source": "https://www.jukihome.com/products/tl-2010q.html"
       },
       "feedSystem": {
@@ -7763,8 +7763,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "motor": {
-        "value": "Variable speed control slider, 200 to 1,500 spm",
-        "source": "https://www.sewingmachinesplus.com/juki-2010q-machine.php"
+        "value": "Speed slider, 200 to 1,500 spm. Juki does not publish motor power",
+        "source": "https://www.jukihome.com/products/tl-2010q.html"
       },
       "frame": {
         "value": "Aluminum die-cast",
@@ -7772,15 +7772,15 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "weightLb": {
         "value": 25.4,
-        "source": "https://rockymountainsewing.com/products/juki-tl-2010q/"
+        "source": "https://www.jukihome.com/products/tl-2010q.html"
       },
       "dimensionsIn": {
         "value": "17.8 x 8.6 x 13.8",
-        "source": "https://rockymountainsewing.com/products/juki-tl-2010q/"
+        "source": "https://www.jukihome.com/media/catalog/product/t/l/tl-2010q_instructionmanual.pdf"
       },
       "includedFeet": {
-        "value": "Dealer lists: regular presser foot, adjustable zipper foot, walking (even feed) foot, free motion quilting foot, plus 1/4 in and 1/5 in quilting feet; auxiliary table and knee lifter",
-        "source": "https://www.sewmuchmoore.com/juki-tl-2010q-sewing-machine/"
+        "value": "Per Juki: zipper foot, even feed foot and 1/4 in quilting foot, plus auxiliary table and knee lifter. The 1/5 in quilting foot is listed as optional",
+        "source": "https://www.jukihome.com/media/catalog/product/t/l/tl-2010q_instructionmanual.pdf"
       },
       "warrantyUs": {
         "value": "5 yr limited on parts except electrical; 2 yr limited on motors, light, wiring, switches, circuit boards, speed control",
@@ -7791,31 +7791,52 @@ export const catalogData: Record<string, CatalogEntry> = {
       "\"industrial-quality sewing\" (manufacturer claim, jukihome.com product page)",
       "\"High Performance Sewing and Quilting Machine\" (manufacturer claim, jukihome.com page title)",
       "\"Long-Arm\" (retailer label, Sewing Machines Plus listing title; arm is 8.5 to 9 in)",
-      "\"industrial sub-tension system\" (manufacturer claim, jukihome.com product page)"
+      "\"industrial sub-tension system\" (manufacturer claim, jukihome.com product page)",
+      "\"microcomputer controlled, speed control mechanism\" (manufacturer claim, jukihome.com product page)",
+      "\"Nothing Free Motion Quilts Better Than a Juki\" (manufacturer claim, jukihome.com product page)"
     ],
     "conflicts": [
-      "Throat: 8.5 in (Sewing Machines Plus listing) vs 9 in x 6 in (Carolina Forest Vac and Sew, Tops Vacuum and Sewing dealer titles). Catalog will use 8.5 in until Juki PDF confirms; dealer 9 in figure may be rounded.",
-      "Price: $900 (SMP show model listing) vs $1,199 (Lowe's) vs a historical SMP 'regular price $2,099' in a liquidation page snippet that appears to be a frame bundle. Catalog will show $1,199 as a new-machine dealer price and flag SMP for direct check.",
-      "Included feet: dealer lists differ (Sew Much Moore lists 4 feet; SMP accessory pages add 1/4 and 1/5 quilting feet). Juki box contents not confirmed from jukihome.com snippet."
+      "Included feet: Juki's manual lists a zipper foot, an even feed foot and a 1/4 in quilting foot as standard and the 1/5 in quilting foot as optional. At least four review pages and dealers say both quilting feet ship with the machine. We follow Juki's list.",
+      "Throat: 8.5 in is dealer copy (Sewing Machines Plus, and 8.5 x 6 in on Weidner's TL chart). Juki publishes no needle-to-arm figure, and its machine depth is 8.6 in, so the dealer number may be the depth. Three Reddit comments and one editorial table say about 9 in. We show 8.5 in with this caveat.",
+      "Height: Juki's manual gives 35.0 cm (13.8 in); Juki's web page and one dealer listing say 9 in. We use the manual.",
+      "Auxiliary table depth: Juki's web page says 13 in (335 mm); its manual says 27.7 cm (10.9 in). We use the manual.",
+      "Needle sizes: Juki's web page gives #7 to #18; the manual lists #11 and #14, which reads as the sizes supplied.",
+      "Price: Juki's list price is $2,169. Dealers sold new units at $1,239 on 2026-09-30 (Sewing Machines Plus, Weidner). The $900 show model and $1,199 Lowe's figure seen earlier are different or older listings.",
+      "Hook type: one dealer spec block says horizontal-axis full-rotary hook; Weidner's TL chart says vertical hook rotary bobbin. The Juki documents we read do not say."
     ],
     "ownerThemes": [
       {
-        "theme": "Quilting forum members comparing TL-2010Q to TL-2000Qi say the 2010Q adds the front speed slider, a pre-tensioner disc and the 1/4 and 1/5 hopping feet, and is otherwise the same machine at a higher price.",
-        "tone": "mixed",
-        "source": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/76583-juki-tl2000qi-vs-juki-tl-2010q"
+        "theme": "The automatic needle threader is the most repeated complaint: owners say it is fiddly, stops working or goes unused in favor of threading by hand, while Juki lists it as a feature.",
+        "tone": "negative",
+        "source": "https://sewingmachinesplus.com/products/juki-2010q-machine"
       },
       {
-        "theme": "A PatternReview thread weighs the TL-2010Q against a true industrial for people who want straight-stitch speed without a table; the portable form factor is the deciding factor for home spaces.",
+        "theme": "The walking foot that comes with the machine draws more complaints than praise, though some owners report no problems and a few say it improved after a learning period.",
+        "tone": "mixed",
+        "source": "https://www.reddit.com/r/quilting/comments/1kwbvu6/juki_tl2010q/mugo8bm/"
+      },
+      {
+        "theme": "Owners describe tension as steady once set, but several needed to adjust it out of the box or when changing between piecing and quilting.",
+        "tone": "mixed",
+        "source": "https://www.reddit.com/r/quilting/comments/1jov54j/juki_or_janome_an_average_sewing_machine/ml02fkp/"
+      },
+      {
+        "theme": "Regular oiling is widely mentioned and mostly accepted as a habit; Juki's manual says daily if used daily, and one owner reports a burning-oil smell after over-oiling.",
+        "tone": "mixed",
+        "source": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/76390-do-you-have-a-juki-tl-2010q"
+      },
+      {
+        "theme": "Speed with a slider for control and power through thick layers are the most consistent praise across Reddit, forums, blogs and dealer reviews.",
         "tone": "positive",
-        "source": "https://sewing.patternreview.com/SewingDiscussions/topic/70727"
+        "source": "https://www.seasonedhomemaker.com/review-new-juki-tl-2010q"
       },
       {
-        "theme": "Marketplace owner reviews praise sturdiness, speed control and the thread cutter, while at least one owner reports persistent tension trouble and notes the machine must be oiled regularly by the user.",
-        "tone": "mixed",
-        "source": "https://www.ebay.com/itm/152121198975"
+        "theme": "Owners with years of use report few failures, with defects described as isolated cases such as a faulty foot pedal replaced by the seller.",
+        "tone": "positive",
+        "source": "https://jukijunkies.com/juki-tl-2010q-high-speed-sewing-and-quilting-machine"
       }
     ],
-    "evidence": "mixed",
+    "evidence": "owner",
     "buyerQuestions": [
       "Is the Juki TL-2010Q good for beginners?",
       "Is the Juki TL-2010Q an industrial machine?",
@@ -7850,19 +7871,19 @@ export const catalogData: Record<string, CatalogEntry> = {
       "skipIf": "You need buttonholes, zigzag or stretch stitches from your only machine, or you have no room to store a 25 lb machine plus its auxiliary table.",
       "keySpec": "1,500 spm · straight stitch only · auto trimmer · 8.5 in arm",
       "strengths": [
-        "Published top speed of 1,500 spm with a slider that drops it to 200 spm for control.",
-        "Aluminum die-cast body and knee lifter with 12 mm foot lift, both listed by Juki.",
-        "Automatic thread trimmer and drop feed for free motion are standard, not add-ons."
+        "Published top speed of 1,500 spm, with a slider that starts at 200 spm for control.",
+        "Aluminum die-cast frame and a knee lifter that raises the foot to 12 mm, both listed by Juki.",
+        "Automatic trimmer on a button and on the pedal heel, and drop feed for free motion, are standard."
       ],
       "weaknesses": [
         "One stitch. No zigzag, no buttonhole, no stretch stitch.",
-        "Arm is 8.5 to 9 in depending on the dealer, not the 20 in the model number can suggest.",
-        "Requires regular user oiling, which owner reviews note as a habit to learn."
+        "The automatic needle threader is the most repeated owner complaint; many thread by hand.",
+        "Juki's manual says to oil it once a day if you use it every day."
       ],
       "checks": [
         {
           "title": "Confirm the feet in the box",
-          "body": "Dealer listings disagree on whether the 1/4 in and 1/5 in quilting feet ship with the machine or are bundle extras. Ask for the packing list before paying for a bonus kit."
+          "body": "Juki lists a zipper foot, an even feed foot and a 1/4 in quilting foot as standard and the 1/5 in foot as optional. Several dealers and reviewers say both quilting feet ship, so ask for the packing list before paying for a bonus kit."
         },
         {
           "title": "Plan for a second machine",
@@ -7870,7 +7891,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         },
         {
           "title": "Verify the price channel",
-          "body": "SMP shows a $900 show model and other dealers show $1,199 for new. Check whether the listing is new, open box or a frame bundle before comparing."
+          "body": "Juki's list price is $2,169 and dealers sold new units around $1,239 on 2026-09-30. A much lower price is likely a show model, open box or bundle; check which before comparing."
         }
       ],
       "realCost": [
@@ -7878,7 +7899,40 @@ export const catalogData: Record<string, CatalogEntry> = {
         "Class L bobbins in quantity if you piece or quilt in volume",
         "Heavier needles (size 16 to 18) for denim and canvas"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "How fast is the Juki TL-2010Q?",
+          "a": "Juki publishes a top speed of 1,500 stitches per minute, with a slider that sets any speed from 200 spm. That is the spec, not a promise of finished quality at that speed; heavy layers want a slower setting."
+        },
+        {
+          "q": "What stitches does the TL-2010Q have?",
+          "a": "Straight stitch only, single needle lockstitch, up to 6 mm long. There is no zigzag or buttonhole; plan a second machine for those."
+        },
+        {
+          "q": "How much throat space does the TL-2010Q have?",
+          "a": "Dealers quote 8.5 in by 6 in from the needle to the body. Juki publishes no throat figure, and its machine depth is 8.6 in, so treat 8.5 in as a dealer number. About 6 in is a typical beginner machine; 16 in and up is mid-arm territory."
+        },
+        {
+          "q": "Does the TL-2010Q come with the 1/5 in quilting foot?",
+          "a": "Juki's manual lists a zipper foot, an even feed foot and a 1/4 in quilting foot as standard, and Juki's accessory list shows the 1/5 in quilting foot as optional. Several dealers and reviewers say both ship, so ask the seller for the packing list."
+        },
+        {
+          "q": "How often does the TL-2010Q need oiling?",
+          "a": "Juki's manual says to apply a few drops of the supplied oil at each marked point once a day if you use the machine every day, then test sew. Owners also describe oiling as a habit to learn."
+        },
+        {
+          "q": "What is the difference between the TL-2010Q and the TL-2000Qi?",
+          "a": "Sources agree that the 2010Q adds the front speed slider and a sub-tension unit, for roughly $300 more at dealers. Whether the 2010Q also ships with extra quilting feet is disputed; see the sibling table on this page and the head-to-head."
+        },
+        {
+          "q": "What is the TL-2010Q warranty?",
+          "a": "Dealers publish 5 years limited on parts except electrical and 2 years on motors, light, wiring, switches, circuit boards and speed control. Juki's product page and manual do not state terms, and service runs through authorized dealers, so confirm the seller's status before you buy."
+        },
+        {
+          "q": "Who should skip the TL-2010Q?",
+          "a": "Anyone for whom it would be the only machine. No zigzag, no buttonholes, no stretch stitch."
+        }
+      ]
     },
     "sources": [
       "https://www.jukihome.com/products/tl-2010q.html",
@@ -7890,7 +7944,11 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://www.lowes.com/pd/Juki-TL2010Q-HighSpeed-Mechanical-Sewing-and-Quilting-Machine/7709122",
       "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/76583-juki-tl2000qi-vs-juki-tl-2010q",
       "https://sewing.patternreview.com/SewingDiscussions/topic/70727",
-      "https://rockymountainsewing.com/juki-tl-2010q-review/"
+      "https://rockymountainsewing.com/juki-tl-2010q-review/",
+      "https://www.jukihome.com/media/catalog/product/t/l/tl-2010q_instructionmanual.pdf",
+      "https://www.worldweidner.com/pages/juki-tl-series-comparison-chart",
+      "https://jukijunkies.com/juki-tl-2010q-high-speed-sewing-and-quilting-machine/",
+      "https://sewingmachinesplus.com/products/juki-2010q-machine"
     ]
   },
   "singer-14cg754": {

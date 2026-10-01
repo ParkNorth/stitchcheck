@@ -1,0 +1,54 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Stitch quality praise was not a field we extracted, so it is under-counted here.",
+    "Retailer reviews are seller-collected and skew positive; Reddit and forum posts are self-selected. Two Facebook group posts could not be read, and Amazon, eBay and YouTube comments are not yet collected.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "siblingSummaries": {
+    "TL-2000Qi": {
+      "Speed slider": {
+        "summary": "The 2010Q has the front speed slider (200 to 1,500 spm); the 2000Qi does not.",
+        "check": "2010Q slider confirmed on Juki's page; 2000Qi not checked"
+      },
+      "Sub-tension unit": {
+        "summary": "The 2010Q has a sub-tension (pre-tension) unit; the 2000Qi does not.",
+        "check": "Juki names it on the 2010Q; 2000Qi not checked"
+      },
+      "Included feet": {
+        "summary": "Disputed. Some sources say the 2010Q adds the 1/4 and 1/5 in quilting feet; others say the 2000Qi ships a 1/5 in foot.",
+        "check": "Juki lists the 1/5 in foot as optional on the 2010Q"
+      },
+      "Price": {
+        "summary": "The 2010Q costs about $300 more at dealers (Weidner: from $1,239 vs from $899).",
+        "check": "dealer prices, not Juki documents"
+      }
+    },
+    "TL-18QVP": {
+      "Micro-lift (float)": {
+        "summary": "The 18QVP has micro-lift (float, adjustable 0 to 2 mm per one dealer); the 2010Q does not.",
+        "check": "not checked against a Juki document"
+      },
+      "Mounting plate": {
+        "summary": "The 18QVP has an attached mounting plate for frames; the 2010Q does not.",
+        "check": "Weidner's chart; not checked against a Juki document"
+      },
+      "LED lighting": {
+        "summary": "The 18QVP has adjustable LED brightness (4 steps per one dealer); the 2010Q light is on or off.",
+        "check": "not checked against a Juki document"
+      },
+      "Included feet": {
+        "summary": "The 18QVP ships with more feet (one forum poster says 8 vs 4).",
+        "check": "not checked against a Juki document"
+      },
+      "Throat space": {
+        "summary": "Same 8.5 x 6 in on both, per Weidner's chart.",
+        "check": "dealer figure, see throat note above"
+      },
+      "Weight": {
+        "summary": "25.4 lb (2010Q) vs 24.5 lb (18QVP), per one dealer.",
+        "check": "not checked against a Juki document"
+      }
+    }
+  }
+}
