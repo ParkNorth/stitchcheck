@@ -960,7 +960,7 @@ const siteFields: Record<string, SiteFields> = {
     score: 7.7,
     scoredFor: "serger",
     priceBand: 3,
-    reason: "Discontinued air-threading serger; a used-market buy, replaced by the Victory.",
+    reason: "Air-threading serger that one dealer lists as discontinued; mostly a used-market buy.",
     context: "Air-threading overlocker, discontinued · used market",
     alternatives: [
       { slug: "juki-mo-1000", label: "Buy new", note: "Air threading you can order today." },
@@ -968,7 +968,9 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "bernina-l-850", label: "Dealer rival", note: "Air threading with a knee lift." },
     ],
     imageAlt: "Baby Lock Imagine air-threading serger",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-01",
+    verdict: "A Baby Lock 4/3/2 thread serger that one dealer lists as discontinued; Jet-Air threading and Automatic Thread Delivery are maker claims that owners mostly, not always, bear out.",
+    specsVerified: "2026-10-01",
   },
   "babylock-victory": {
     score: 8.4,
