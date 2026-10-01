@@ -136,7 +136,10 @@ const now = new Date().toISOString();
 // "1034DX" and "TL-2010Q" does not match "TL-2010Qi".
 const spec = readJson<{ model: string }>(path.join(ROOT, "data", "specs", `${slug}.json`), { model: "" });
 const esc = (t: string) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-const namePatterns = [...new Set([spec.model, ...((queries as any).model_names ?? [])])]
+// Set `model_names_only: true` in queries.json when the bare model number is a common token (e.g. "1008"): then only
+// the listed names match, and the spec model is not added.
+const nameSources = (queries as any).model_names_only ? ((queries as any).model_names ?? []) : [spec.model, ...((queries as any).model_names ?? [])];
+const namePatterns = [...new Set<string>(nameSources)]
   .filter(Boolean)
   .map((n) => n.toLowerCase().split(/[\s-]+/).filter(Boolean).map(esc).join("[\\s-]*"))
   .map((body) => new RegExp(`(^|[^a-z0-9])${body}(?![a-z0-9])`, "i"));
