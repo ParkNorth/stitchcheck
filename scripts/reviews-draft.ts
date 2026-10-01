@@ -140,7 +140,7 @@ if (cmd === "check") {
     if (spec.evidence !== want) add("warn", `evidence label "${spec.evidence}" but ${owners} first-hand voices suggests "${want}" (rule 2)`);
   }
   for (const f of ["specsVerified", "lastUpdated"]) if (site?.[f] && (!/^\d{4}-\d{2}-\d{2}$/.test(site[f]) || site[f] > today)) add("error", `site.${f} must be a real date not in the future`);
-  for (const k of Object.keys(spec?.price ?? {})) if (!["priceSeen", "priceSeenDate", "priceSeenAt"].includes(k)) add("error", `spec.json price has unknown key "${k}" (use priceSeen, priceSeenDate, priceSeenAt)`);
+  for (const k of Object.keys(spec?.price ?? {})) if (!["priceUsdSeen", "priceSeenDate", "priceSeenAt"].includes(k)) add("error", `spec.json price has unknown key "${k}" (use priceUsdSeen, priceSeenDate, priceSeenAt)`);
   if (spec?.price?.priceSeenDate && spec.price.priceSeenDate > today) add("error", "priceSeenDate is in the future");
   const cmpSrc = fs.readFileSync(COMPARES, "utf8");
   for (const c of cmps) if (!cmpSrc.includes(`slug: "${c.slug}",`)) add("error", `comparison ${c.slug} does not exist`);

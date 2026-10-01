@@ -5,7 +5,7 @@ You are drafting, not publishing. Read `AGENTS.md` first (rules 1 to 12 are hard
 Write three files in `data/reviews/{slug}/draft-page/`. Do not touch anything outside that folder.
 
 ## spec.json
-`{ specs, conflicts, claims, evidence, price, sources, editorial }`, the same shapes as `data/specs/{slug}.json`.
+`{ specs, conflicts, claims, evidence, price, sources, editorial }`, the same shapes as `data/specs/{slug}.json`. The `price` block uses exactly `priceUsdSeen` (number), `priceSeenDate` and `priceSeenAt`; the check rejects other keys.
 - `specs`: only fields to change. Where a maker document contradicts a spec (`vs_spec: contradicts`), use the maker value with the document URL as `source`, and list the disagreement in `conflicts` (one plain sentence each, both numbers, both sources). Where it adds a spec we hold as null, fill it. Never invent: null stays null.
 - `claims`: maker marketing words, quoted as claims, never as fact.
 - `evidence`: `owner` when the rollup has 15 or more first-hand voices, `mixed` for 5 to 14, `positioning` otherwise.
