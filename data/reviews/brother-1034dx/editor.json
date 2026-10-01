@@ -1,0 +1,157 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Walmart's 1034DX listing pools reviews: of the 132 sampled, 118 name neither model and 9 name only the 1034D, with some dated before the DX existed, so only reviews that actually say 'DX' count toward the DX here. Walmart's own rating (4.5 of 5 across 1,914 ratings) covers that mixed pool, so treat it as a rating of the Brother 1034 family, not of the DX alone.",
+    "Reddit and forum posts are self-selected, and many are people asking for help. Fewer owners write about the 1034DX than the 1034D, and some threads cover both machines. Amazon, Brother USA's own reviews, Michaels, Sewing Machines Plus (which does not sell the DX) and YouTube comments are not collected.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, and there are far fewer owner reports for the DX than for the 1034D. Walmart's DX listing pools reviews that name the 1034D, so its star rating is shown under 'How we collected this' with that caveat and its generic reviews are not counted here.",
+  "siblings": [
+    {
+      "model": "1034D",
+      "label": "Brother 1034D",
+      "pattern": "1034\\s*-?d(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "motor|watt|amp",
+      "Motor power"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "dial|placement",
+      "Dial placement"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "2/3/4|2.?thread|thread change|convert|three.?four|3.?4 thread",
+      "Thread conversion"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "storage|trim trap|catcher|cover|dvd|\\bcd\\b|spool|accessor|bundle|feet|foot",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "size|dimension|footprint|portab",
+      "Size"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "mo-?654|654 ?de|mo ?600|mo-?600|mo ?644|mo-?644",
+      "Juki MO-654DE"
+    ],
+    [
+      "baby ?lock",
+      "Baby Lock"
+    ],
+    [
+      "singer",
+      "Singer"
+    ],
+    [
+      "janome",
+      "Janome"
+    ],
+    [
+      "juki",
+      "Juki (other models)"
+    ],
+    [
+      "1634|st4031",
+      "Brother 1634DX and ST4031HD"
+    ],
+    [
+      "airflow",
+      "Brother AirFlow"
+    ],
+    [
+      "industrial|consew|tacsew|yamata",
+      "Industrial sergers"
+    ],
+    [
+      "cover ?stitch|2340|cover ?pro",
+      "Coverstitch machines"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "1034 ?d(?![a-z0-9])|1134|1634|434 ?d|st4031|654|mo-?600|mo-?644|babylock|imagine|lauren|elna|cover ?stitch|2340|cover ?pro|airflow|industrial",
+  "siblingSummaries": {
+    "1034D": {
+      "Work light": {
+        "summary": "The 1034DX has an LED work light; the 1034D has a bulb.",
+        "check": "Brother pages confirm both"
+      },
+      "Motor power": {
+        "summary": "Two Reddit commenters give the 1034DX a 75 W (0.75 A) motor and the 1034D 100 to 110 W. Brother publishes no motor power for either.",
+        "check": "unverified, Reddit only"
+      },
+      "Parts compatibility": {
+        "summary": "Commenters say the needle plate, lower blade and some other parts differ between the two. One expert answer says the needle clamp is interchangeable, another block says it is not. Check the part number before buying.",
+        "check": "disputed between sources"
+      },
+      "Dial placement": {
+        "summary": "One forum poster says some setting dials sit on the other side of the 1034DX.",
+        "check": "single source"
+      }
+    }
+  },
+  "siblingExtras": {
+    "1034D": [
+      {
+        "feature": "Price",
+        "summary": "Brother USA lists the 1034DX at $289.99 and the 1034D at $319.99, so the DX costs less there.",
+        "check": "Brother product pages, 2026-10-01"
+      },
+      {
+        "feature": "Weight",
+        "summary": "The 1034DX is lighter: 12.57 lb against 13.45 lb for the 1034D.",
+        "check": "Brother product pages, 2026-10-01"
+      },
+      {
+        "feature": "Accessory storage",
+        "summary": "The 1034D lists an accessory storage compartment; the 1034DX lists none.",
+        "check": "Brother product pages, 2026-10-01"
+      },
+      {
+        "feature": "Thread conversion",
+        "summary": "Brother's DX spec table says 2/3/4 thread change: Yes while the DX copy says 3 or 4 threads; the D row says No. Unresolved.",
+        "check": "Brother product pages, 2026-10-01"
+      },
+      {
+        "feature": "Feet",
+        "summary": "The same three feet on both: standard, blindstitch and gathering.",
+        "check": "Brother product pages, 2026-10-01"
+      }
+    ]
+  },
+  "scopeRules": [
+    {
+      "sourceUrl": "walmart.com",
+      "requireText": "1034\\s*-?dx|\\bdx\\b"
+    }
+  ]
+}

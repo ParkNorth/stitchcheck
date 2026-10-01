@@ -1,5 +1,5 @@
 import { SHOW_AFFILIATE_LABEL, outboundLinkProps } from "@/lib/affiliates";
-import { hasBuyButton, type Product } from "@/lib/products";
+import { hasBuyButton, isDealerOnlyBrand, type Product } from "@/lib/products";
 import { site } from "@/lib/site";
 import { formatUsd } from "@/lib/price-bands";
 import { longDate } from "@/lib/site";
@@ -34,7 +34,7 @@ export function BuyButton({
   if (!link) {
     return (
       <span className={`sec cursor-default ${className}`} aria-disabled="true">
-        Not sold online
+        {isDealerOnlyBrand(product.brand) ? "Not sold online" : "No seller linked"}
       </span>
     );
   }
@@ -80,9 +80,24 @@ export function BuyButton({
 /** "Last seen $X on date at Sewing Machines Plus. Today's price is on their page." */
 export function LastSeen({ product }: { product: Product }) {
   if (!hasBuyButton(product)) {
+    if (isDealerOnlyBrand(product.brand)) {
+      return (
+        <div className="text-[14px] text-ink-soft leading-[1.45]">
+          {product.brand} publishes dealer pricing only. Ask a dealer for today&apos;s price.
+        </div>
+      );
+    }
     return (
       <div className="text-[14px] text-ink-soft leading-[1.45]">
-        {product.brand} publishes dealer pricing only. Ask a dealer for today&apos;s price.
+        {product.priceUsdSeen && product.priceSeenDate ? (
+          <>
+            <span className="m">
+              Last seen {formatUsd(product.priceUsdSeen)} on {longDate(product.priceSeenDate)}
+            </span>{" "}
+            at {product.priceSeenAt}.{" "}
+          </>
+        ) : null}
+        We do not link a seller for this model. Check the seller you trust for today&apos;s price.
       </div>
     );
   }

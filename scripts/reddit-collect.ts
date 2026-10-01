@@ -188,7 +188,7 @@ async function main() {
   // Rank by evidence value, not popularity: model in the title first, then discussion size. Viral project
   // posts that only mention the machine in passing have a high score but few relevant comments.
   const inTitle = (t: Found) => (mentionsModel(t.title) ? 1 : 0);
-  const threads = [...found.values()].filter((t) => (t.comments ?? 0) >= 2 || inTitle(t)).sort((a, b) => inTitle(b) - inTitle(a) || (b.comments ?? 0) - (a.comments ?? 0)).slice(0, MAX_THREADS);
+  const threads = [...found.values()].filter((t) => THREADS.length > 0 || (t.comments ?? 0) >= 2 || inTitle(t)).sort((a, b) => inTitle(b) - inTitle(a) || (b.comments ?? 0) - (a.comments ?? 0)).slice(0, MAX_THREADS);
   console.log(`threads mentioning ${spec.model}: ${found.size} found, taking ${threads.length}`);
   if (DRY) {
     for (const t of threads) console.log(`  ${t.comments}c\t${inTitle(t)}\tr/${t.subreddit}\t${t.title.slice(0, 90)}`);

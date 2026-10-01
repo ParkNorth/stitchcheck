@@ -321,6 +321,11 @@ interface SiteFields {
 
 const DEALER_ONLY_BRANDS = new Set<string>(["Baby Lock", "Bernina"]);
 
+/** Dealer-only brands sell through dealers; any other brand with no buy route simply has no seller linked yet. */
+export function isDealerOnlyBrand(brand: string): boolean {
+  return DEALER_ONLY_BRANDS.has(brand);
+}
+
 const DEALER_LOCATOR: Record<string, string> = {
   "Baby Lock": "https://babylock.com/find-a-retailer",
   Bernina: "https://www.bernina.com/en-US/Dealer-Locator",
@@ -458,16 +463,17 @@ const siteFields: Record<string, SiteFields> = {
   "brother-1034dx": {
     score: 7.8,
     scoredFor: "serger",
-    reason: "Same stitch set as the 1034D; pick on bundle and price.",
+    reason: "Same stitch set as the 1034D with an LED and less weight; pick on price.",
     context: "Overlocker · in Sergers hub",
     keySpec: "3/4 thread · differential feed",
-    buy: { kind: "retailer", url: "https://www.sewingmachinesplus.com/brother-1034dx.php" },
+    buy: { kind: "none" },
     alternatives: [
-      { slug: "brother-1034d", label: "Sibling", note: "Same machine, different bundle." },
+      { slug: "brother-1034d", label: "Sibling", note: "Bulb light, 0.9 lb heavier, listed $30 higher at Brother." },
       { slug: "juki-mo-654de", label: "Steadier", note: "Our pick for weekly serging." },
     ],
     imageAlt: "Brother 1034DX serger",
-    lastUpdated: "2026-09-29",
+    specsVerified: "2026-10-01",
+    lastUpdated: "2026-10-01",
   },
   "brother-2340cv": {
     series: "CV",

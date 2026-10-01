@@ -1552,6 +1552,1012 @@ export const rollupData: Record<string, Rollup> = {
       }
     ]
   },
+  "brother-1034dx": {
+    "slug": "brother-1034dx",
+    "status": "approved",
+    "reviewedBy": "Claude (editor pass: exemplars, pooled-listing exclusion, sibling extras checked against Brother pages and sources). Human review still recommended.",
+    "reviewedOn": "2026-10-01",
+    "generated": "2026-10-01",
+    "method": {
+      "sources": 88,
+      "itemsCollected": 991,
+      "statements": 100,
+      "voices": 88,
+      "ownerVoices": 75,
+      "dateRange": [
+        2014,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 84,
+          "items": 852
+        },
+        "retailer": {
+          "sources": 1,
+          "items": 132
+        },
+        "editorial": {
+          "sources": 2,
+          "items": 2
+        },
+        "forum": {
+          "sources": 1,
+          "items": 1
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 69,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Walmart's 1034DX listing pools reviews: of the 132 sampled, 118 name neither model and 9 name only the 1034D, with some dated before the DX existed, so only reviews that actually say 'DX' count toward the DX here. Walmart's own rating (4.5 of 5 across 1,914 ratings) covers that mixed pool, so treat it as a rating of the Brother 1034 family, not of the DX alone.",
+      "Reddit and forum posts are self-selected, and many are people asking for help. Fewer owners write about the 1034DX than the 1034D, and some threads cover both machines. Amazon, Brother USA's own reviews, Michaels, Sewing Machines Plus (which does not sell the DX) and YouTube comments are not collected.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, and there are far fewer owner reports for the DX than for the 1034D. Walmart's DX listing pools reviews that name the 1034D, so its star rating is shown under 'How we collected this' with that caveat and its generic reviews are not counted here.",
+    "themes": [
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 39,
+        "voices": 39,
+        "ownerVoices": 34,
+        "sources": 30,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 38,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 10,
+          "negative": 27,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2020,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ca2bb0a34",
+            "polarity": "negative",
+            "claim": "Machine worked until it suddenly chained thread normally but would not serge fabric, despite cleaning, rethreading and new needles.",
+            "quote": "it doesn’t serger the fabric",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1hcwf7n/hellp_brother_1034dx/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c806aca90",
+            "polarity": "negative",
+            "claim": "Owner's serger broke and a service quote of about $200 made repair not worth it.",
+            "quote": "I had the serger but it broke",
+            "url": "https://www.reddit.com/r/sewing/comments/1oj5o40/are_these_good_machines/nmt5g3r/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c0b76eb98",
+            "polarity": "positive",
+            "claim": "Owner reports no problems with the serger.",
+            "quote": "never had any problems with it",
+            "url": "https://www.reddit.com/r/sewing/comments/1oj5o40/are_these_good_machines/nm0wk3l/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c6c855475",
+            "polarity": "positive",
+            "claim": "Owner calls the same serger a workhorse they love, inherited and still in use.",
+            "quote": "It’s a workhorse and I love it.",
+            "url": "https://www.reddit.com/r/sewing/comments/1i745a6/i_broke_my_brother_1034dx_and_was_heartbroken/m8hppt7/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ca7cc02fc",
+            "polarity": "mixed",
+            "claim": "Owner had no problems with the machine until the polyester fabric issue.",
+            "quote": "I haven't had any problems with it until now tho.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1f1eh3b/my_brother_1034dx_serger_is_destroying_this/ljyqghs/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 15,
+        "voices": 15,
+        "ownerVoices": 14,
+        "sources": 9,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 13,
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 7,
+          "negative": 5,
+          "mixed": 1,
+          "neutral": 2
+        },
+        "years": [
+          2019,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c7de3b5c1",
+            "polarity": "negative",
+            "claim": "A 1034DX owner struggles to keep the upper looper thread in place when threading.",
+            "quote": "the upper looper thread never stays in place",
+            "url": "https://www.reddit.com/r/sewing/comments/c9ailb/anyone_with_the_brother_1034dx_have_problems_with/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c09af71df",
+            "polarity": "negative",
+            "claim": "Brand new owner of the same overlocker rethreaded about 25 times and still had extra threads or tangles.",
+            "quote": "I’m having the exact same issue on the same Overlocker",
+            "url": "https://www.reddit.com/r/sewing/comments/1gohm5q/serger_top_threads_doubling_up/m4stodm/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c10f9fd06",
+            "polarity": "positive",
+            "claim": "Owner says the serger is very easy to thread.",
+            "quote": "Super easy to thread",
+            "url": "https://www.reddit.com/r/sewing/comments/1oj5o40/are_these_good_machines/nm0wk3l/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c18e78e84",
+            "polarity": "positive",
+            "claim": "Owner of the Brother in question says it is really easy to thread.",
+            "quote": "it's really easy to thread",
+            "url": "https://www.reddit.com/r/sewing/comments/17fcn0f/thinking_about_buying_a_serger/k68wt3i/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c73c52503",
+            "polarity": "mixed",
+            "claim": "User of a 1034DX says threading is hard at first but gets easier.",
+            "quote": "Threading can be difficult on the first try but afterwards it gets easier",
+            "url": "https://www.reddit.com/r/sewing/comments/17fcn0f/thinking_about_buying_a_serger/k69wzsj/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 11,
+        "voices": 11,
+        "ownerVoices": 11,
+        "sources": 8,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 11
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 7,
+          "mixed": 0,
+          "neutral": 4
+        },
+        "years": [
+          2021,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c6022b5e3",
+            "polarity": "negative",
+            "claim": "A machine servicer friend judged the threading correct and blamed a bad tension disc.",
+            "quote": "He said the tension disc is bad.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1ulluur/brother_1034dx_issue/ovech78/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cc1968232",
+            "polarity": "negative",
+            "claim": "1034DX owner got loose, wobbly serged edges on a new machine with all tensions at 4 after careful rethreading.",
+            "quote": "it still came out all loose and wobbly looking",
+            "url": "https://www.reddit.com/r/sewhelp/comments/17xy8pf/should_i_adjust_my_serger_tension/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 8,
+        "voices": 8,
+        "ownerVoices": 8,
+        "sources": 6,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 8
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 4,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2019,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c39cba646",
+            "polarity": "negative",
+            "claim": "A shop could not repair the timing because the machine could not be taken apart.",
+            "quote": "even though they got the screws off, nothing comes apart",
+            "url": "https://www.reddit.com/r/sewing/comments/1i745a6/i_broke_my_brother_1034dx_and_was_heartbroken/m8hqsc5/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c02c6ebad",
+            "polarity": "negative",
+            "claim": "New 1034DX owner found the oiling instruction buried deep in the manual and no oil in the box.",
+            "quote": "that instruction isn't found until page 27 of the freaking manual",
+            "url": "https://www.reddit.com/r/sewing/comments/ahg2e7/brother_serger_1034dx_need_some_advice/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cb6880643",
+            "polarity": "positive",
+            "claim": "A broken needle-plate piece glued back with superglue has worked well since.",
+            "quote": "It's worked perfectly well since.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/iqvgdp/can_i_just_glue_this_tiny_needle_back_on_or/g71wai0/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "differential_feed",
+        "label": "Differential feed",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2024,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c39143538",
+            "polarity": "negative",
+            "claim": "With one polyester fabric the machine seemed to pull the fabric in periodically, though other stretch fabrics were fine.",
+            "quote": "It's like it is pulling the fabric in every 10 stitches.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1f1eh3b/my_brother_1034dx_serger_is_destroying_this/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c335fd03f",
+            "polarity": "positive",
+            "claim": "Owner fixed rippling knit seams with a simple serger adjustment, which is the differential feed.",
+            "quote": "you can fix that with a simple adjustment on the serger",
+            "url": "https://www.reddit.com/r/sewing/comments/1gzmljm/which_serger_for_beginners/lz0sg6d/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 4,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c5f4aa083",
+            "polarity": "negative",
+            "claim": "Owner finds the machine very loud and clattery even after oiling.",
+            "quote": "It’s super loud and clackety",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1qgwfn0/serger_help_please/o0h9xu7/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c3da8a7d5",
+            "polarity": "negative",
+            "claim": "Slightly noisy from vibration.",
+            "quote": "Little noisy from the vibration",
+            "url": "https://www.walmart.com/reviews/product/55684596",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c5446c1ad",
+            "polarity": "negative",
+            "claim": "Owner sewing thick tapestry fabric says the machine struggles even with one layer.",
+            "quote": "it struggles with one layer let alone two.",
+            "url": "https://www.reddit.com/r/sewing/comments/1fdxkwh/best_serger_for_thick_materials/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2022,
+          2024
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c4dc4a96e",
+            "polarity": "negative",
+            "claim": "Brother could not ship a replacement needle plate directly and referred the owner to local stores.",
+            "quote": "Called brother and they couldn’t find it to ship it directly",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1da1m9d/help_finding_replacement_piece_for_brother_1034dx/lbsag84/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c7247683a",
+            "polarity": "negative",
+            "claim": "Owner says Brother warranty service was only available at a few stores far from them.",
+            "quote": "Brother will only let me use the warranty in a handful of stores",
+            "url": "https://www.reddit.com/r/sewing/comments/th4ili/looking_to_replaceupgrade_my_serger_advice_please/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "rolled_hem",
+        "label": "Rolled hem",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2021,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c4ad7e03c",
+            "polarity": "negative",
+            "claim": "Machine rattles only on the one-needle rolled hem setting, with occasional birds nests or rough spots in the hem.",
+            "quote": "rattles” only on rolled hem 1 needle setting.",
+            "url": "https://www.reddit.com/r/sewing/comments/ombfxs/help_brother_1034dx_serger_rattles_only_on_rolled/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2024,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c49fc395d",
+            "polarity": "negative",
+            "claim": "New unit curls the fabric under and will not lay flat despite adjusting every setting.",
+            "quote": "the fabric is almost curling under and it won’t lay flat.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1d3jyfy/issue_with_serger_stitch_not_laying_flat_on_my/l67rf6a/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2025,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cbc8486c4",
+            "polarity": "negative",
+            "claim": "Reviewer attributes the vibration to plastic construction, against the listed metal frame.",
+            "quote": "due to it construction of plastic materials",
+            "url": "https://www.walmart.com/reviews/product/55684596",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c738f523b",
+            "polarity": "negative",
+            "claim": "On one polyester fabric the machine makes a faulty stitch and pulls fabric in, sometimes jamming, despite new needles and blade.",
+            "quote": "It makes a weird stitch and pulls the fabric in",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1f1eh3b/my_brother_1034dx_serger_is_destroying_this/lk1bsdm/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c9d2ec6d7",
+            "polarity": "negative",
+            "claim": "Owner finds it inconsistent and hard to use on four-way stretch fabrics.",
+            "quote": "The brother serger being so inconsistent and difficult to sew 4 way stretch fabrics on.",
+            "url": "https://www.reddit.com/r/sewing/comments/1i7ndvh/should_i_buy_used_pfaff_coverlock_4872/m8mmgrd/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2022,
+          2022
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2024,
+          2024
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "cutting_trimming",
+        "label": "Cutting and trimming",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "walmart.com",
+        "url": "https://www.walmart.com/reviews/product/55684596",
+        "pageRating": 4.5,
+        "pageCount": 1914,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 105,
+          "2": 43,
+          "3": 72,
+          "4": 205,
+          "5": 1489
+        },
+        "lowRated": 220,
+        "sampled": "132 of 1914 reviews: every 1 to 3 star page plus the top relevance pages (15 pages read)"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "juki": "1,300 stitches per minute.",
+        "others": "Dealers and owners agree.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034dx"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "brother-page"
+      },
+      {
+        "label": "Weight",
+        "juki": "12.57 lb on Brother's page, lighter than the 1034D at 13.45 lb.",
+        "others": "A comparison blog says 13.5 lb; an Amazon listing says 16.4 lb, likely shipping weight.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034dx"
+          }
+        ],
+        "field": "weightLb",
+        "source": "brother-page Specifications"
+      },
+      {
+        "label": "Work light",
+        "juki": "LED work area. The 1034D has a bulb.",
+        "others": "Owners and a forum poster say the same.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034dx"
+          }
+        ],
+        "field": "lighting",
+        "source": "brother-page"
+      },
+      {
+        "label": "Thread counts",
+        "juki": "The spec table says 2/3/4 thread change: Yes; the copy says 3 or 4 threads. The 1034D table says No.",
+        "others": "Reviews and comparison pages describe it as a 3/4 thread serger.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034dx"
+          }
+        ],
+        "field": "threads",
+        "source": "brother-page"
+      },
+      {
+        "label": "Feet and box contents",
+        "juki": "Standard, blindstitch and gathering feet, 4 mini spools, soft cover and an instructional CD.",
+        "others": "The same three feet as the 1034D.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034dx"
+          }
+        ],
+        "field": "includedFeet",
+        "source": "brother-page"
+      },
+      {
+        "label": "Warranty",
+        "juki": "1 year parts and labor, 5 years electronics, 25 years chassis casting only. Original buyer from an authorized seller.",
+        "others": "Dealers and blogs say '25-year warranty'.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother warranty PDF",
+            "url": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "brother-warranty; brother-page"
+      },
+      {
+        "label": "Price",
+        "juki": "$289.99 new at Brother USA on 2026-10-01. The 1034D is $319.99 there.",
+        "others": "Walmart lists the 1034DX; Sewing Machines Plus does not sell it.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034dx"
+          }
+        ],
+        "field": "msrp",
+        "source": "brother-page"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "1034D",
+        "label": "Brother 1034D",
+        "rows": [
+          {
+            "feature": "Parts compatibility",
+            "urls": 5,
+            "classes": [
+              "editorial",
+              "reddit",
+              "retailer"
+            ],
+            "summary": "Commenters say the needle plate, lower blade and some other parts differ between the two. One expert answer says the needle clamp is interchangeable, another block says it is not. Check the part number before buying.",
+            "check": "disputed between sources",
+            "examples": [
+              {
+                "claim_id": "ced14a7ed",
+                "claim": "Reviewer says the DX uses different parts than the 1034D and a needle plate that breaks and is hard to source.",
+                "quote": "Do not buy the 1034DX, it has different parts than the 1034D.",
+                "url": "https://www.walmart.com/reviews/product/55684596"
+              },
+              {
+                "claim_id": "ce785adc9",
+                "claim": "A JustAnswer responder says the needle clamp assembly is fully interchangeable between the two models.",
+                "quote": "Indeed, that component is completely interchangeable.",
+                "url": "https://www.justanswer.com/small-engine/f508e-need-ask-question-brother-1034dx-serger.html"
+              },
+              {
+                "claim_id": "ca08c5414",
+                "claim": "An AI-generated summary on the same page says the clamp is not fully interchangeable, contradicting the expert answer.",
+                "quote": "not fully interchangeable with the 1034D model due to slight design differences",
+                "url": "https://www.justanswer.com/small-engine/f508e-need-ask-question-brother-1034dx-serger.html"
+              }
+            ]
+          },
+          {
+            "feature": "Motor power",
+            "urls": 4,
+            "classes": [
+              "editorial",
+              "reddit"
+            ],
+            "summary": "Two Reddit commenters give the 1034DX a 75 W (0.75 A) motor and the 1034D 100 to 110 W. Brother publishes no motor power for either.",
+            "check": "unverified, Reddit only",
+            "examples": [
+              {
+                "claim_id": "c8bfa612c",
+                "claim": "Commenter states the DX motor is rated 75 watts and the D 110 watts.",
+                "quote": "1034dx doesn't have the same powerful motor as the 1034D (75 watts vs 110 watts)",
+                "url": "https://www.reddit.com/r/sewing/comments/1qeyplx/broken_serger_piece/o048oi9/"
+              },
+              {
+                "claim_id": "ce785adc9",
+                "claim": "A JustAnswer responder says the needle clamp assembly is fully interchangeable between the two models.",
+                "quote": "Indeed, that component is completely interchangeable.",
+                "url": "https://www.justanswer.com/small-engine/f508e-need-ask-question-brother-1034dx-serger.html"
+              },
+              {
+                "claim_id": "ca08c5414",
+                "claim": "An AI-generated summary on the same page says the clamp is not fully interchangeable, contradicting the expert answer.",
+                "quote": "not fully interchangeable with the 1034D model due to slight design differences",
+                "url": "https://www.justanswer.com/small-engine/f508e-need-ask-question-brother-1034dx-serger.html"
+              }
+            ]
+          },
+          {
+            "feature": "Work light",
+            "urls": 4,
+            "classes": [
+              "editorial",
+              "forum",
+              "reddit"
+            ],
+            "summary": "The 1034DX has an LED work light; the 1034D has a bulb.",
+            "check": "Brother pages confirm both",
+            "examples": [
+              {
+                "claim_id": "c79dfd9fb",
+                "claim": "Buyer's research found the only difference to be LED light on the DX and an incandescent light on the D.",
+                "quote": "the DX has LED light and the D had an incandescent light",
+                "url": "https://www.reddit.com/r/sewhelp/comments/yuujlj/serger_brother/iwckxe6/"
+              },
+              {
+                "claim_id": "ce785adc9",
+                "claim": "A JustAnswer responder says the needle clamp assembly is fully interchangeable between the two models.",
+                "quote": "Indeed, that component is completely interchangeable.",
+                "url": "https://www.justanswer.com/small-engine/f508e-need-ask-question-brother-1034dx-serger.html"
+              },
+              {
+                "claim_id": "ca08c5414",
+                "claim": "An AI-generated summary on the same page says the clamp is not fully interchangeable, contradicting the expert answer.",
+                "quote": "not fully interchangeable with the 1034D model due to slight design differences",
+                "url": "https://www.justanswer.com/small-engine/f508e-need-ask-question-brother-1034dx-serger.html"
+              }
+            ]
+          },
+          {
+            "feature": "Dial placement",
+            "urls": 1,
+            "classes": [
+              "forum"
+            ],
+            "summary": "One forum poster says some setting dials sit on the other side of the 1034DX.",
+            "check": "single source",
+            "examples": [
+              {
+                "claim_id": "c69ed46ef",
+                "claim": "Poster says some setting dials sit on the other side of the DX compared with the D.",
+                "quote": "some of the setting dials are on the other side of the machine",
+                "url": "https://sewing.patternreview.com/SewingDiscussions/topic/114179"
+              }
+            ]
+          },
+          {
+            "feature": "Price",
+            "urls": 0,
+            "classes": [],
+            "summary": "Brother USA lists the 1034DX at $289.99 and the 1034D at $319.99, so the DX costs less there.",
+            "check": "Brother product pages, 2026-10-01",
+            "examples": []
+          },
+          {
+            "feature": "Weight",
+            "urls": 0,
+            "classes": [],
+            "summary": "The 1034DX is lighter: 12.57 lb against 13.45 lb for the 1034D.",
+            "check": "Brother product pages, 2026-10-01",
+            "examples": []
+          },
+          {
+            "feature": "Accessory storage",
+            "urls": 0,
+            "classes": [],
+            "summary": "The 1034D lists an accessory storage compartment; the 1034DX lists none.",
+            "check": "Brother product pages, 2026-10-01",
+            "examples": []
+          },
+          {
+            "feature": "Thread conversion",
+            "urls": 0,
+            "classes": [],
+            "summary": "Brother's DX spec table says 2/3/4 thread change: Yes while the DX copy says 3 or 4 threads; the D row says No. Unresolved.",
+            "check": "Brother product pages, 2026-10-01",
+            "examples": []
+          },
+          {
+            "feature": "Feet",
+            "urls": 0,
+            "classes": [],
+            "summary": "The same three feet on both: standard, blindstitch and gathering.",
+            "check": "Brother product pages, 2026-10-01",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": [
+      {
+        "model": "Juki MO-654DE",
+        "claims": 6,
+        "sources": 5,
+        "favors": {
+          "this": 1,
+          "other": 5,
+          "mixed": 0
+        },
+        "dimensions": {
+          "this": [
+            {
+              "dimension": "overall",
+              "n": 1
+            }
+          ],
+          "other": [
+            {
+              "dimension": "overall pick for a beginner",
+              "n": 1
+            },
+            {
+              "dimension": "overall",
+              "n": 1
+            },
+            {
+              "dimension": "stability on the table",
+              "n": 1
+            },
+            {
+              "dimension": "overall preference",
+              "n": 1
+            }
+          ]
+        },
+        "examples": [
+          {
+            "claim_id": "c32c11b4d",
+            "dimension": "stability on the table",
+            "favors": "other",
+            "claim": "Juki has a metal body and does not shake or wobble the table in use, implying the Brother does.",
+            "quote": "doesn’t shake or wobble the table in use",
+            "url": "https://www.reddit.com/r/sewing/comments/1e5temd/is_the_brother_1034dx_a_good_serger/ldw3t7b/"
+          },
+          {
+            "claim_id": "c4e9b62e6",
+            "dimension": "overall",
+            "favors": "this",
+            "claim": "Comparison site's algorithmic score rates the Brother 1034DX above the Juki MO-654DE.",
+            "quote": "The Brother 1034DX is better sewing machine in this comparison.",
+            "url": "https://comparisono.com/compare-sewing-machines/1034dx-vs-mo-654de"
+          }
+        ]
+      }
+    ]
+  },
   "juki-tl-2010q": {
     "slug": "juki-tl-2010q",
     "status": "approved",
