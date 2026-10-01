@@ -25,6 +25,26 @@
   ],
   "features": [
     [
+      "stitch count|stitches|stretch|triple",
+      "Stitches"
+    ],
+    [
+      "buttonhole",
+      "Buttonhole"
+    ],
+    [
+      "retailer rating",
+      "Retailer rating"
+    ],
+    [
+      "internals|frame and motor",
+      "Frame and motor"
+    ],
+    [
+      "accessor",
+      "Included accessories"
+    ],
+    [
       "price|\\$|cost|cheap|expens",
       "Price"
     ],
@@ -90,8 +110,12 @@
       }
     },
     "Heavy Duty 4432": {
-      "Stitches and accessories": {
-        "summary": "Commenters describe the 4432 as the same machine without the 4452's extra decorative stitches and bonus accessory package; one says the 4452 adds little reason to pay more.",
+      "Stitches": {
+        "summary": "Commenters describe the 4432 as the same machine without the 4452's extra decorative stitches.",
+        "check": "Reddit comments; no 4432 maker document in hand"
+      },
+      "Included accessories": {
+        "summary": "Commenters say the 4452 adds a bonus accessory package, including a walking foot, over the 4432; one finds that little reason to pay more.",
         "check": "Reddit comments; no 4432 maker document in hand"
       }
     },
