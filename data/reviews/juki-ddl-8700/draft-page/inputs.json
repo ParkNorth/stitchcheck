@@ -1,0 +1,790 @@
+{
+  "slug": "juki-ddl-8700",
+  "today": "2026-10-01",
+  "rules": "AGENTS.md rules 1 to 12 apply: spec-check not field-test, owner evidence labelled, paraphrase and attribute, no em or en dashes, never invent a spec, claims quoted not asserted, every spec sourced, model name is not a spec, conflicts listed, price bands not live prices.",
+  "spec": {
+    "slug": "juki-ddl-8700",
+    "brand": "Juki",
+    "model": "DDL-8700",
+    "series": "DDL",
+    "type": "mechanical",
+    "industrial": true,
+    "jobs": [
+      "heavy-duty"
+    ],
+    "manufacturerUrl": "https://juki.com/ddl-8700",
+    "retailerUrl": "https://sewingmachinesplus.com/products/sewing-machines-industrial-juki-ddl8700",
+    "priceUsdSeen": 999,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Walmart marketplace listing with servo motor, table and LED lamp, assembly required (search snippet; Sewing Machines Plus price not shown in snippet)",
+    "specs": {
+      "stitchTypes": {
+        "value": "Straight stitch only, single needle lockstitch",
+        "source": "https://juki.com/ddl-8700"
+      },
+      "stitchCount": {
+        "value": 1,
+        "source": "https://juki.com/ddl-8700"
+      },
+      "maxSpm": {
+        "value": 5500,
+        "source": "https://juki.com/ddl-8700"
+      },
+      "threads": {
+        "value": null,
+        "source": null
+      },
+      "differentialFeed": {
+        "value": null,
+        "source": null
+      },
+      "throatIn": {
+        "value": null,
+        "source": null
+      },
+      "needleSystem": {
+        "value": "DBx1 (16x231), sizes 9 to 18",
+        "source": "https://juki.com/ddl-8700"
+      },
+      "presserFootLift": {
+        "value": "13 mm max foot lift (knee lift on stand)",
+        "source": "https://juki.com/ddl-8700"
+      },
+      "threadTrimmer": {
+        "value": "None on base DDL-8700; automatic trimmer is the DDL-8700-7 variant",
+        "source": "https://www.goldstartool.com/juki-ddl-8700-7-single-needle-drop-feed-automatic-industrial-sewing-machine-with-table-and-servo-motor.htm"
+      },
+      "feedSystem": {
+        "value": "Drop feed, 4-row feed dog; max stitch length 5 mm",
+        "source": "https://juki.com/ddl-8700"
+      },
+      "buttonhole": {
+        "value": null,
+        "source": null
+      },
+      "motor": {
+        "value": "Not built in. Sold as head only; dealer bundles add a table, stand and clutch or servo motor. Servo motor has a speed dial under the table.",
+        "source": "https://www.cutsew.com/overview-of-the-juki-ddl-8700"
+      },
+      "frame": {
+        "value": "Cast industrial head; automatic lubricating full rotary hook with sealed oil pan",
+        "source": "https://juki.com/ddl-8700"
+      },
+      "weightLb": {
+        "value": 61.7,
+        "source": "https://juki.com/ddl-8700"
+      },
+      "dimensionsIn": {
+        "value": null,
+        "source": null
+      },
+      "includedFeet": {
+        "value": "Dealer complete set: machine head, table, stand, motor, sewing light, drawer, assembled and ready to sew (Sewing Machines Plus lists table shipped assembled)",
+        "source": "https://sewingmachinesplus.com/products/sewing-machines-industrial-juki-ddl8700"
+      },
+      "warrantyUs": {
+        "value": null,
+        "source": null
+      }
+    },
+    "claims": [
+      "\"High-speed, 1-needle, Lockstitch Machine\" (manufacturer description, juki.com)",
+      "\"Fully Assembled Ready To Sew\" (dealer claim, Cut Sew listing title)",
+      "\"incredible punching power\" (review-site copy, not manufacturer)"
+    ],
+    "conflicts": [
+      "Head weight: Juki lists 28 kg for the head; 61.7 lb is a conversion, not a published lb figure. Table and motor add substantially and are not published in snippets.",
+      "Arm space: a review site states about 11 in from needle to arm; not found on juki.com in accessible snippets. Left null pending Juki PDF check.",
+      "Price: $999 (Walmart, servo + table, DIY assembly) vs $899.99 (second Walmart listing) vs $1,004.40 (DDL-8700-H variant). SMP listing exists with assembled table but no price in snippet.",
+      "Thread trimmer: base 8700 has none; -7 suffix adds automatic trimming and lifting. Listings often mix the two."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "A PatternReview owner who moved from domestic machines for bag making notes she no longer hand cranks through bulky seams; another says the servo motor makes speed very controllable.",
+        "tone": "positive",
+        "source": "https://sewing.patternreview.com/review/machine/6136"
+      },
+      {
+        "theme": "New-to-industrial buyers on PatternReview ask whether the DDL-8700 can be sewn slowly and whether it will hold up to leather coats; replies steer them to servo motors and to the -H heavy variant for thick work.",
+        "tone": "mixed",
+        "source": "https://sewing.patternreview.com/SewingDiscussions/topic/47594"
+      },
+      {
+        "theme": "Quiltingboard members recommend the servo motor and point out the head takes standard high shank feet, with bobbins and needles easy to buy online.",
+        "tone": "positive",
+        "source": "https://www.quiltingboard.com/main-f1/has-anyone-used-juki-ddl8700-t215960.html"
+      },
+      {
+        "theme": "A Backpacking Light thread covers upgrading a clutch-motor 8700 to a servo for quieter, slower gear sewing.",
+        "tone": "mixed",
+        "source": "https://backpackinglight.com/forums/topic/juki-ddl-8700-motor-upgrade-help/"
+      }
+    ],
+    "evidence": "owner",
+    "buyerQuestions": [
+      "Does the Juki DDL-8700 come with a table and motor?",
+      "Should I get a servo motor or a clutch motor on a DDL-8700?",
+      "Can the Juki DDL-8700 sew leather?",
+      "How fast is the Juki DDL-8700 and can it be slowed down?",
+      "What needles does the DDL-8700 use?",
+      "Is the DDL-8700 self oiling?",
+      "What is the difference between the DDL-8700, DDL-8700-7 and DDL-8700-H?",
+      "Is the Juki DDL-8700 discontinued or replaced by the DDL-8000A?",
+      "Does the DDL-8700 use home sewing machine feet?",
+      "How heavy is a Juki DDL-8700 with the table?"
+    ],
+    "crossShop": [
+      {
+        "slug": "juki-tl-2010q",
+        "why": "Buyers without floor space for a 48 in table compare Juki's portable straight-stitch head instead."
+      },
+      {
+        "slug": "juki-tl-2000qi",
+        "why": "Same trade as above at the lower TL price point."
+      },
+      {
+        "slug": "janome-hd3000",
+        "why": "Beginners who typed 'heavy duty' land here and need to see what an actual industrial costs and requires."
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "editorial": {
+      "verdict": "A genuine industrial lockstitch head for light to medium fabric that only makes sense once you have the floor space, a servo motor and a plan for a second machine.",
+      "whoFor": "Bag makers, gear sewers and small production shops who sew straight seams all day and want speed, a knee lift and an oil-bath hook.",
+      "skipIf": "You need a portable machine, any stitch besides straight, or you expect it to sew heavy leather; Juki positions the -H variant for heavy weight.",
+      "keySpec": "5,500 spm · straight stitch · DBx1 needle · table + motor required",
+      "strengths": [
+        "Juki publishes 5,500 spm, 5 mm stitch length and 13 mm foot lift for the head.",
+        "Automatic lubrication with a sealed oil pan is standard on the head.",
+        "Uses DBx1 industrial needles and standard high shank feet, both widely available."
+      ],
+      "weaknesses": [
+        "Head weighs 28 kg and does nothing without a table, stand and motor.",
+        "Base model has no thread trimmer; that is the -7 variant at a higher price.",
+        "Juki lists it for light to medium materials, not the leather many buyers intend."
+      ],
+      "checks": [
+        {
+          "title": "Which motor is in the bundle",
+          "body": "Clutch motors are loud and run at one speed. Servo motors add a speed dial and are the common recommendation from owners. Confirm the motor type and wattage in writing."
+        },
+        {
+          "title": "Assembled or knock-down",
+          "body": "SMP ships the table assembled. Walmart and Amazon listings are DIY kits that need two people and a few hours. Factor freight and assembly."
+        },
+        {
+          "title": "Suffix matters",
+          "body": "DDL-8700 (standard), -7 (auto trimmer and foot lift) and -H (heavy weight) are different machines at different prices. Match the suffix to your fabric before ordering."
+        }
+      ],
+      "realCost": [
+        "Servo motor if the bundle ships with a clutch motor",
+        "Juki New Defrix No. 1 oil for the oil pan",
+        "DBx1 needles in sizes 14 to 18 and industrial bobbins",
+        "A second machine for zigzag and buttonholes"
+      ]
+    },
+    "sources": [
+      "https://juki.com/ddl-8700",
+      "https://www.juki.co.jp/industrial_e/download_e/catalog_e/ddl8700.pdf",
+      "https://sewingmachinesplus.com/products/sewing-machines-industrial-juki-ddl8700",
+      "https://www.walmart.com/ip/sewing-machine-Juki-Industrial-DDL-8700-with-Servo-Motor-Table-LED-Lamp-Assembly-Required-DIY/129423310",
+      "https://www.cutsew.com/overview-of-the-juki-ddl-8700",
+      "https://www.walmart.com/ip/JUKI-DDL-8700-Servo-Industrial-Straight-Stitch-Sewing-Machine-Servo-Motor-with-Table-and-Legs/107961739",
+      "https://sewing.patternreview.com/review/machine/6136",
+      "https://sewing.patternreview.com/review/machine/6664",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/47594",
+      "https://www.quiltingboard.com/main-f1/has-anyone-used-juki-ddl8700-t215960.html",
+      "https://backpackinglight.com/forums/topic/juki-ddl-8700-motor-upgrade-help/",
+      "https://jukijunkies.com/product/juki-ddl-8000a-single-needle-straight-lockstitch-sewing-machine/"
+    ]
+  },
+  "manufacturer": {
+    "documents": [
+      {
+        "id": "juki-page",
+        "url": "https://juki.com/ddl-8700",
+        "type": "product page",
+        "fetched": "2026-10-01",
+        "note": "Variant table (DDL-8700, 8700A, 8700H), feature copy; no weight, price or warranty"
+      },
+      {
+        "id": "juki-manual",
+        "url": "https://juki.com/pub/media/wysiwyg/products/DDL-8700_manual.pdf",
+        "type": "instruction manual (PDF, 14 pages)",
+        "fetched": "2026-10-01",
+        "note": "Specifications, noise level, motor pulley table; also lists DDL-8700L (heavy, 7 mm)"
+      }
+    ],
+    "facts": [
+      {
+        "field": "maxSpm",
+        "value": "DDL-8700: max 5,500 sti/min; DDL-8700A and 8700H: 4,000",
+        "source": "juki-page",
+        "vs_spec": "confirms",
+        "spec_value": 5500,
+        "note": "The 5,500 figure is the base DDL-8700 only; -A and -H are 4,000.",
+        "site": {
+          "label": "Speed",
+          "juki": "5,500 stitches per minute on the base DDL-8700; the A and H variants top out at 4,000.",
+          "others": "Dealers quote 5,500.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Juki DDL-8700 page",
+              "url": "https://juki.com/ddl-8700"
+            }
+          ]
+        }
+      },
+      {
+        "field": "needleSystem",
+        "value": "DB x 1 #9 to #18 (page lists #14 standard); -A uses DA x 1, -H uses DB x 1 #19 to #23",
+        "source": "juki-page",
+        "vs_spec": "confirms",
+        "spec_value": "DBx1 (16x231), sizes 9 to 18",
+        "note": "Variants use different needles; do not mix them up."
+      },
+      {
+        "field": "stitchLength",
+        "value": "Max 5 mm (-A: 4 mm, -H: 5 mm; manual -L: 7 mm)",
+        "source": "juki-page",
+        "vs_spec": "confirms",
+        "spec_value": "max stitch length 5 mm"
+      },
+      {
+        "field": "presserFootLift",
+        "value": "Knee lift: 10 mm standard, 13 mm maximum (manual); page says 13 mm",
+        "source": "juki-manual",
+        "vs_spec": "confirms",
+        "spec_value": "13 mm max foot lift (knee lift on stand)",
+        "note": "Page and manual agree on the 13 mm max; the standard setting is 10 mm.",
+        "site": {
+          "label": "Presser foot lift",
+          "juki": "13 mm maximum by knee lifter, 10 mm standard.",
+          "others": "Dealers quote 13 mm.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Juki DDL-8700 page",
+              "url": "https://juki.com/ddl-8700"
+            }
+          ]
+        }
+      },
+      {
+        "field": "noise",
+        "value": "LpA 83.5 dB(A) at 5,000 sti/min; LWA 88.0 dB(A)",
+        "source": "juki-manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Maker-measured noise per ISO 10821. A figure on paper, not our measurement.",
+        "site": {
+          "label": "Noise",
+          "juki": "83.5 dB(A) at the workstation at 5,000 sti/min (manual).",
+          "others": "Owners describe noise and vibration; see the rollup.",
+          "status": "added",
+          "links": [
+            {
+              "label": "Juki DDL-8700 page",
+              "url": "https://juki.com/ddl-8700"
+            }
+          ]
+        }
+      },
+      {
+        "field": "lubrication",
+        "value": "JUKI New Defrix Oil No. 1",
+        "source": "juki-manual",
+        "vs_spec": "adds",
+        "spec_value": null
+      },
+      {
+        "field": "variants",
+        "value": "DDL-8700 medium-weight (5,500 spm), DDL-8700A light-weight (4,000), DDL-8700H heavy-weight (4,000); manual also covers DDL-8700L heavy (4,000, 7 mm)",
+        "source": "juki-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Marketplace listings pool these under similar titles. Model name is not a spec (rule 9)."
+      },
+      {
+        "field": "threadTrimmer",
+        "value": "not on the base DDL-8700 page; -7 is the trimmer variant",
+        "source": "juki-page",
+        "vs_spec": "confirms",
+        "spec_value": "None on base DDL-8700; automatic trimmer is the DDL-8700-7 variant",
+        "note": "Page does not name the -7; dealer and owner sources do."
+      },
+      {
+        "field": "weightLb",
+        "value": "not published on the page or in the manual",
+        "source": "juki-manual",
+        "vs_spec": "adds",
+        "spec_value": 61.7,
+        "note": "Spec's 61.7 lb has a non-maker source. Keep [verify] unless a Juki document is found."
+      },
+      {
+        "field": "msrp",
+        "value": "not published (page shows price 0)",
+        "source": "juki-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Dealer-only pricing."
+      },
+      {
+        "field": "warrantyUs",
+        "value": "not published on the page or in the manual",
+        "source": "juki-manual",
+        "vs_spec": "adds",
+        "spec_value": null
+      }
+    ]
+  },
+  "rollup": {
+    "status": "draft",
+    "method": {
+      "sources": 62,
+      "itemsCollected": 620,
+      "statements": 126,
+      "voices": 100,
+      "ownerVoices": 68,
+      "dateRange": [
+        2010,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 2,
+          "items": 70
+        },
+        "reddit": {
+          "sources": 60,
+          "items": 550
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://sewingmachinesplus.com/products/sewing-machines-industrial-juki-ddl8700",
+        "pageRating": 4.55,
+        "pageCount": 62,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 3,
+          "2": 3,
+          "3": 0,
+          "4": 7,
+          "5": 49
+        },
+        "lowRated": 6,
+        "sampled": null
+      },
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B078H585T2",
+        "pageRating": 4.2,
+        "pageCount": 86,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 5
+        },
+        "lowRated": 2,
+        "sampled": "8 top reviews (8 US, 0 other countries) of 86 ratings"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Reliability and defects",
+        "voices": 16,
+        "ownerVoices": 14,
+        "sources": 9,
+        "polarity": {
+          "positive": 7,
+          "negative": 8,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "classVoices": {
+          "retailer": 6,
+          "reddit": 10
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner's motor turned backward at first and needed a technician call.",
+            "url": "https://sewingmachinesplus.com/products/sewing-machines-industrial-juki-ddl8700"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner traced the jumble to the needle not stopping in the up position and suspects the synchronizer needs adjusting.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1og9lrg/juki_ddl8700_bobbin_gets_bunched_up_every_time_i/nlm015g/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner reports no problems so far.",
+            "url": "https://sewingmachinesplus.com/products/sewing-machines-industrial-juki-ddl8700"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner calls the machine versatile and reliable, used for materials from Gore-Tex and ripstop to linen and fleece.",
+            "url": "https://www.reddit.com/r/myog/comments/8efr9z/juki_ddl8700_info_please/dxuweu7/"
+          }
+        ]
+      },
+      {
+        "label": "Tension",
+        "voices": 13,
+        "ownerVoices": 10,
+        "sources": 7,
+        "polarity": {
+          "positive": 0,
+          "negative": 7,
+          "mixed": 3,
+          "neutral": 3
+        },
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 12
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Heavy thread leaves top-thread knots unburied on the underside.",
+            "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1ud1qlc/bad_backside_and_odd_noise_on_juki_ddl_8700/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner could not stop top thread showing underneath even with the top tension knob nearly fully tightened, using bonded nylon thread and a 16 needle.",
+            "url": "https://www.reddit.com/r/sewing/comments/10rg96e/juki_ddl_8700_tension/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "New owner found the machine needed little tension adjustment when switching fabrics at first.",
+            "url": "https://www.reddit.com/r/sewing/comments/1s7xm1f/juki_ddl_8700_help/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "After polishing, tension was fine on medium cotton but a little tight on thin cotton, especially backstitching.",
+            "url": "https://www.reddit.com/r/myog/comments/1jpdb3x/update_juki_ddl8700_tension_issues/ml43suc/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Adjusting thread stroke and tightening the tension knob mostly fixed the problem.",
+            "url": "https://www.reddit.com/r/myog/comments/pax1s5/troubleshooting_new_juki_ddl8700/haauu06/"
+          }
+        ]
+      },
+      {
+        "label": "Power on heavy fabric",
+        "voices": 10,
+        "ownerVoices": 6,
+        "sources": 9,
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 3,
+          "neutral": 5
+        },
+        "classVoices": {
+          "reddit": 10
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "On heavy denim the owner could not use the larger needle size wanted.",
+            "url": "https://www.reddit.com/r/sewing/comments/rpu8mc/looking_to_juki_ddl8700_proscons/hq6hone/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner has run 15 oz denim on it but would not do so repeatedly.",
+            "url": "https://www.reddit.com/r/sewing/comments/rpu8mc/looking_to_juki_ddl8700_proscons/hq6hone/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner gets through two layers of heavy waxed denim but thread snaps at three layers.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/rl5grk/juki_ddl_8700_sewing_leather/hpe32h8/"
+          }
+        ]
+      },
+      {
+        "label": "Fabric handling (knits, wovens)",
+        "voices": 10,
+        "ownerVoices": 8,
+        "sources": 8,
+        "polarity": {
+          "positive": 5,
+          "negative": 2,
+          "mixed": 3,
+          "neutral": 0
+        },
+        "classVoices": {
+          "reddit": 10
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner could not sew split or deer leather; top thread frays and snaps after about ten stitches despite heavy needles and bonded nylon thread.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/rl5grk/juki_ddl_8700_sewing_leather/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner says a lockstitch machine like the 8700 is unsuited to jersey because the stitch breaks when stretched.",
+            "url": "https://www.reddit.com/r/SewingMachinePorn/comments/1fxx24b/juki_ddl_87007_vs_ddl9000bsh/lqzxxhn/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner of an 8700 finds it great for denim and also sews very light silnylon on it.",
+            "url": "https://www.reddit.com/r/SewingMachinePorn/comments/1fxx24b/juki_ddl_87007_vs_ddl9000bsh/lqzxxhn/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Tailor sewed veg tan leather to suede on the base machine without trouble.",
+            "url": "https://www.reddit.com/r/sewing/comments/1kz275y/considering_a_juki_ddl_8700_need_advice/mv23e0c/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner says the DDL-8700 can sew 1.1 oz ripstop weight fabric, though they would prefer a needle-feed machine for slippery cloth.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/xfxhh6/questions_on_juki_ddl_8700/iotnv2c/"
+          }
+        ]
+      },
+      {
+        "label": "Noise and vibration",
+        "voices": 8,
+        "ownerVoices": 7,
+        "sources": 4,
+        "polarity": {
+          "positive": 5,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "classVoices": {
+          "retailer": 5,
+          "reddit": 3
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner reports odd motion and a popping noise from the check spring.",
+            "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1ud1qlc/bad_backside_and_odd_noise_on_juki_ddl_8700/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Long-time sewist finds it very quiet.",
+            "url": "https://sewingmachinesplus.com/products/sewing-machines-industrial-juki-ddl8700"
+          }
+        ]
+      },
+      {
+        "label": "Threading and loopers",
+        "voices": 8,
+        "ownerVoices": 1,
+        "sources": 5,
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 7
+        },
+        "classVoices": {
+          "reddit": 8
+        },
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "label": "Speed and speed control",
+        "voices": 7,
+        "ownerVoices": 6,
+        "sources": 3,
+        "polarity": {
+          "positive": 2,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 6
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner's machine has a clutch motor, not a servo, and the owner wants a servo.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1c7j4et/hey_i_own_a_juki_ddl_8700_and_my_motor_is_very/l08g60j/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner says the servo motor handles slow precision stitching through to very fast stitching.",
+            "url": "https://sewingmachinesplus.com/products/sewing-machines-industrial-juki-ddl8700"
+          }
+        ]
+      },
+      {
+        "label": "Build quality",
+        "voices": 7,
+        "ownerVoices": 4,
+        "sources": 5,
+        "polarity": {
+          "positive": 6,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 4
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner reports the hook assembly has slight play of about 1 to 2 mm.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/14cmm8n/juki_ddl8700_thread_gets_wound_up_inside_hook/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Gift recipient says the machine runs very smoothly.",
+            "url": "https://sewingmachinesplus.com/products/sewing-machines-industrial-juki-ddl8700"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner sewed through a large metal safety pin by accident and the needle survived.",
+            "url": "https://www.reddit.com/r/myog/comments/1oiz74j/using_juki_ddl_8700_h_for_light_fabrics_too/nmatex8/"
+          }
+        ]
+      },
+      {
+        "label": "Feet and accessories",
+        "voices": 7,
+        "ownerVoices": 5,
+        "sources": 5,
+        "polarity": {
+          "positive": 5,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 5
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "positive",
+            "claim": "Reviewer likes the attachments that come with it.",
+            "url": "https://sewingmachinesplus.com/products/sewing-machines-industrial-juki-ddl8700"
+          },
+          {
+            "polarity": "positive",
+            "claim": "A $30 free motion foot for the DDL-8700 worked very well for the owner.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1p26q8t/free_motion_foot_for_juki_ddl8700/ns2umf4/"
+          }
+        ]
+      },
+      {
+        "label": "Oiling and maintenance",
+        "voices": 7,
+        "ownerVoices": 2,
+        "sources": 5,
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 5
+        },
+        "classVoices": {
+          "reddit": 7
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "positive",
+            "claim": "Penetrating oil freed a stuck part where regular sewing oil had not helped.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1ix8wji/help_with_ddl_8700/mekk1zz/"
+          }
+        ]
+      }
+    ],
+    "siblings": [
+      {
+        "label": "Juki DDL-5550",
+        "rows": []
+      },
+      {
+        "label": "Juki DDL-8700H (heavy-weight)",
+        "rows": [
+          {
+            "feature": "Fabric class",
+            "summary": "Heavy-weight; base DDL-8700 is medium-weight.",
+            "check": "Juki product page"
+          }
+        ]
+      },
+      {
+        "label": "Juki DDL-8700-7 (automatic trimmer)",
+        "rows": [
+          {
+            "feature": "Price",
+            "summary": "One European poster put the base near 1,100 EUR and the -7 over 1,800 EUR.",
+            "check": "one forum post, one market"
+          }
+        ]
+      },
+      {
+        "label": "Juki DDL-8700A (light-weight)",
+        "rows": [
+          {
+            "feature": "Fabric class",
+            "summary": "Light-weight; base DDL-8700 is medium-weight.",
+            "check": "Juki product page"
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "checks": [
+    {
+      "level": "warn",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: only 4 of 62 reviews name this model while siblings exist; confirm the listing is not pooled"
+    }
+  ],
+  "editorNotes": {
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction."
+  },
+  "siteFieldsNow": "  \"juki-ddl-8700\": {\n    score: 8.4,\n    scoredFor: \"heavy-duty\",\n    reason: \"True industrial lockstitch for a home workshop, if you have the floor space.\",\n    context: \"Industrial lockstitch · in Heavy duty hub\",\n    verdict: \"A real factory lockstitch for a home workshop, if you have a table, a motor and the floor space.\",\n    keySpec: \"5,500 spm · industrial lockstitch · table-mounted\",\n    alternatives: [\n      { slug: \"juki-tl-2010q\", label: \"Portable\", note: \"Fast straight stitch that lives on a table.\" },\n      { slug: \"janome-hd3000\", label: \"Needs zigzag\", note: \"Domestic, full stitch set.\" },\n    ],\n    imageAlt: \"Juki DDL-8700 industrial lockstitch sewing machine head\",\n    lastUpdated: \"2026-09-29\",\n  },",
+  "comparesNow": []
+}

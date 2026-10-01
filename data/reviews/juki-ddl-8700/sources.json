@@ -1,0 +1,1190 @@
+[
+  {
+    "id": "web:2af747b129d9f483",
+    "url": "https://sewingmachinesplus.com/products/sewing-machines-industrial-juki-ddl8700",
+    "class": "retailer",
+    "title": "sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-01T14:28:11.768Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-01T14:28:11.768Z",
+    "status": "ok",
+    "site_rating": 4.55,
+    "site_review_count": 62,
+    "content_hash": "9c730a631a43f3de"
+  },
+  {
+    "id": "web:0a12fca1815f5484",
+    "url": "https://www.amazon.com/dp/B078H585T2",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-01T14:29:07.559Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-01T14:29:07.559Z",
+    "status": "ok",
+    "site_rating": 4.2,
+    "site_review_count": 86,
+    "asin": "B078H585T2",
+    "parent_asin": null,
+    "product_asins": [],
+    "pooled_variations": false,
+    "sampled": "8 top reviews (8 US, 0 other countries) of 86 ratings",
+    "listing": {
+      "title": "Juki DDL8700 LockStitch Industrial Sewing Machine,Table,Servo Motor,Lamp. Not Assembled",
+      "price_usd": 1189,
+      "best_sellers_rank": "#155,015 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #4 in Industrial Machines",
+      "details": {
+        "Model Number": "DDL8700",
+        "Part Number": "DDL8700 SM",
+        "Color": "white",
+        "Material": "Metal",
+        "Item Dimensions D x W x H": "48\"D x 36\"W x 48\"H",
+        "Item Weight": "15 pounds"
+      }
+    }
+  },
+  {
+    "id": "reddit:1oiz74j",
+    "url": "https://www.reddit.com/r/myog/comments/1oiz74j/using_juki_ddl_8700_h_for_light_fabrics_too/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Using Juki DDL 8700 H for light fabrics too",
+    "subreddit": "myog",
+    "thread_id": "1oiz74j",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1768254412,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/myog:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/myog:DDL-8700"
+    ],
+    "content_hash": "6f51a9b60086c513"
+  },
+  {
+    "id": "reddit:1ud1qlc",
+    "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1ud1qlc/bad_backside_and_odd_noise_on_juki_ddl_8700/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Bad Backside and Odd Noise on Juki DDL 8700",
+    "subreddit": "SewingMachineEdu",
+    "thread_id": "1ud1qlc",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1782413397,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "all:DDL-8700"
+    ],
+    "content_hash": "47df3d901e1a0eb7"
+  },
+  {
+    "id": "reddit:pax1s5",
+    "url": "https://www.reddit.com/r/myog/comments/pax1s5/troubleshooting_new_juki_ddl8700/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Troubleshooting new Juki DDL-8700",
+    "subreddit": "myog",
+    "thread_id": "pax1s5",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1629920280,
+    "discovered_by": [
+      "r/myog:Juki DDL-8700",
+      "r/myog:DDL-8700"
+    ],
+    "content_hash": "5f8a21bcbbfdd2e6"
+  },
+  {
+    "id": "reddit:zx63w6",
+    "url": "https://www.reddit.com/r/sewing/comments/zx63w6/juki_ddl8700_is_this_felt_pad_inside_or_just_fluff/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DDL-8700 - is this felt pad inside or just fluff?",
+    "subreddit": "sewing",
+    "thread_id": "zx63w6",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1673213513,
+    "discovered_by": [
+      "r/sewing:Juki DDL-8700",
+      "r/sewing:DDL-8700"
+    ],
+    "content_hash": "df7a5578292a5ee0"
+  },
+  {
+    "id": "reddit:1wdu9ey",
+    "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1wdu9ey/update_on_ddl_8700_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Update on ddl 8700 help",
+    "subreddit": "SewingMachineEdu",
+    "thread_id": "1wdu9ey",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1789497284,
+    "discovered_by": [
+      "all:DDL-8700"
+    ],
+    "content_hash": "c214f77b11ba8254"
+  },
+  {
+    "id": "reddit:1jpdb3x",
+    "url": "https://www.reddit.com/r/myog/comments/1jpdb3x/update_juki_ddl8700_tension_issues/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Update: Juki DDL-8700 tension issues",
+    "subreddit": "myog",
+    "thread_id": "1jpdb3x",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1744239507,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/myog:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/myog:DDL-8700"
+    ],
+    "content_hash": "1bdc3ff3a4888877"
+  },
+  {
+    "id": "reddit:1kz275y",
+    "url": "https://www.reddit.com/r/sewing/comments/1kz275y/considering_a_juki_ddl_8700_need_advice/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Considering a juki ddl 8700 - need advice",
+    "subreddit": "sewing",
+    "thread_id": "1kz275y",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1748997527,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewing:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/sewing:DDL-8700"
+    ],
+    "content_hash": "ff245e6cd8f38921"
+  },
+  {
+    "id": "reddit:1hznmkg",
+    "url": "https://www.reddit.com/r/myog/comments/1hznmkg/should_i_get_a_ddl8700_or_something_else/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Should I get a DDL-8700 or something else?",
+    "subreddit": "myog",
+    "thread_id": "1hznmkg",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1736738373,
+    "discovered_by": [
+      "r/myog:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/myog:DDL-8700"
+    ],
+    "content_hash": "5cc7857e3d18db29"
+  },
+  {
+    "id": "reddit:1c7j4et",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1c7j4et/hey_i_own_a_juki_ddl_8700_and_my_motor_is_very/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "hey, i own a juki ddl 8700 and my motor is very fast, i cant slow it down, what should i buy for motor instead my budget is around 250-300$. any idea ?",
+    "subreddit": "sewhelp",
+    "thread_id": "1c7j4et",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1713950913,
+    "discovered_by": [
+      "r/sewhelp:Juki DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "3828b775f479b600"
+  },
+  {
+    "id": "reddit:axq580",
+    "url": "https://www.reddit.com/r/myog/comments/axq580/juki_ddl_8700_h_ordered/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DDL 8700 H ordered!",
+    "subreddit": "myog",
+    "thread_id": "axq580",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1554341141,
+    "discovered_by": [
+      "r/myog:Juki DDL-8700",
+      "r/myog:DDL-8700"
+    ],
+    "content_hash": "f2a55e611a8776f6"
+  },
+  {
+    "id": "reddit:1hlc37o",
+    "url": "https://www.reddit.com/r/myog/comments/1hlc37o/problem_with_my_juki_ddl8700_and_its_servo_motor/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Problem with my Juki DDL-8700 and its servo motor – Need help with diagnosis",
+    "subreddit": "myog",
+    "thread_id": "1hlc37o",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1735106846,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/myog:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/myog:DDL-8700",
+      "all:DDL-8700 problems",
+      "r/myog:DDL-8700 problems"
+    ],
+    "content_hash": "6195f1fd8534f18f"
+  },
+  {
+    "id": "reddit:kfkbcv",
+    "url": "https://www.reddit.com/r/sewhelp/comments/kfkbcv/juki_ddl_87007_what_is_this_switch_for/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "JUKI DDL 8700-7. What is this switch for?",
+    "subreddit": "sewhelp",
+    "thread_id": "kfkbcv",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1608337659,
+    "discovered_by": [
+      "r/sewhelp:Juki DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "978613ff24a03815"
+  },
+  {
+    "id": "reddit:djcfto",
+    "url": "https://www.reddit.com/r/sewhelp/comments/djcfto/does_anyone_know_what_this_machine_foot_is_used/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Does anyone know what this machine foot is used for? Its for. Industrial juki DDL-8700 if thats at all useful",
+    "subreddit": "sewhelp",
+    "thread_id": "djcfto",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1571407349,
+    "discovered_by": [
+      "r/sewhelp:Juki DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "f17b6077fbeacfed"
+  },
+  {
+    "id": "reddit:1uuugl4",
+    "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1uuugl4/need_help_with_juki_ddl_8700/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Need help with Juki DDL 8700",
+    "subreddit": "SewingMachineEdu",
+    "thread_id": "1uuugl4",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1784031095,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "all:DDL-8700",
+      "all:DDL-8700 vs"
+    ],
+    "content_hash": "29a1858cb118cf80"
+  },
+  {
+    "id": "reddit:1sjwdac",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1sjwdac/juki_ddl8700_slanted_stitch_lines_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DDL-8700 - slanted stitch lines help",
+    "subreddit": "sewhelp",
+    "thread_id": "1sjwdac",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1778788136,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewhelp:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "d146d4e46cf4b449"
+  },
+  {
+    "id": "reddit:xjl13m",
+    "url": "https://www.reddit.com/r/sewing/comments/xjl13m/juki_ddl87007_having_trouble_with_presser_foot/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DDL-8700-7 having trouble with presser foot",
+    "subreddit": "sewing",
+    "thread_id": "xjl13m",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1663880308,
+    "discovered_by": [
+      "r/sewing:Juki DDL-8700",
+      "r/sewing:DDL-8700"
+    ],
+    "content_hash": "ef0a3b26a61e390d"
+  },
+  {
+    "id": "reddit:1fxx24b",
+    "url": "https://www.reddit.com/r/SewingMachinePorn/comments/1fxx24b/juki_ddl_87007_vs_ddl9000bsh/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DDL - 8700-7 vs DDL-9000B-SH",
+    "subreddit": "SewingMachinePorn",
+    "thread_id": "1fxx24b",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1728420872,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "all:DDL-8700 vs"
+    ],
+    "content_hash": "efd4953bc56f40fd"
+  },
+  {
+    "id": "reddit:xfxhh6",
+    "url": "https://www.reddit.com/r/sewhelp/comments/xfxhh6/questions_on_juki_ddl_8700/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Questions on Juki DDL 8700",
+    "subreddit": "sewhelp",
+    "thread_id": "xfxhh6",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1664147857,
+    "discovered_by": [
+      "r/sewhelp:Juki DDL-8700",
+      "r/sewhelp:DDL-8700",
+      "all:DDL-8700 problems",
+      "r/sewhelp:DDL-8700 problems"
+    ],
+    "content_hash": "c5196096f5b3b3a7"
+  },
+  {
+    "id": "reddit:1ez38t3",
+    "url": "https://www.reddit.com/r/myog/comments/1ez38t3/juki_tl2000qi_vs_industrial_option_ddl8700/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "juki tl-2000qi vs industrial option, ddl-8700",
+    "subreddit": "myog",
+    "thread_id": "1ez38t3",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1775587858,
+    "discovered_by": [
+      "r/myog:Juki DDL-8700",
+      "r/myog:DDL-8700",
+      "all:DDL-8700 vs",
+      "r/myog:DDL-8700 vs"
+    ],
+    "content_hash": "b7ee37cb895a2975"
+  },
+  {
+    "id": "reddit:8efr9z",
+    "url": "https://www.reddit.com/r/myog/comments/8efr9z/juki_ddl8700_info_please/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki ddl-8700 info please",
+    "subreddit": "myog",
+    "thread_id": "8efr9z",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1524619657,
+    "discovered_by": [
+      "r/myog:Juki DDL-8700",
+      "r/myog:DDL-8700"
+    ],
+    "content_hash": "9a0220bd074ae38b"
+  },
+  {
+    "id": "reddit:1pbxn8m",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1pbxn8m/help_juki_ddl_8700_unthreading/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "HELP!! Juki ddl 8700 unthreading",
+    "subreddit": "sewhelp",
+    "thread_id": "1pbxn8m",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1764669762,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewhelp:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "620832f341988e57"
+  },
+  {
+    "id": "reddit:1peian4",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1peian4/jammed_juki_ddl_8700/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "jammed juki DDL 8700",
+    "subreddit": "sewhelp",
+    "thread_id": "1peian4",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1764952971,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewhelp:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "384fd28cc92b5fbf"
+  },
+  {
+    "id": "reddit:1i04pjl",
+    "url": "https://www.reddit.com/r/sewing/comments/1i04pjl/i_need_to_buy_a_new_lockstitch_machine_im_stuck/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "I need to buy a new Lockstitch Machine. I’m stuck between JUKI DDL 8700 &amp; Bernette 08. ",
+    "subreddit": "sewing",
+    "thread_id": "1i04pjl",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1736783902,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewing:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/sewing:DDL-8700"
+    ],
+    "content_hash": "ef4146b1ea7eac4e"
+  },
+  {
+    "id": "reddit:1gohm0u",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1gohm0u/best_place_to_buy_a_juki_ddl8700/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Best Place To Buy A Juki DDL-8700?",
+    "subreddit": "sewhelp",
+    "thread_id": "1gohm0u",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1735408677,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewhelp:Juki DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "8ad2557a29a0f5a2"
+  },
+  {
+    "id": "reddit:z5jcv7",
+    "url": "https://www.reddit.com/r/sewhelp/comments/z5jcv7/questions_about_juki_ddl8700/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Questions about Juki DDL-8700",
+    "subreddit": "sewhelp",
+    "thread_id": "z5jcv7",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1669564529,
+    "discovered_by": [
+      "r/sewhelp:Juki DDL-8700",
+      "r/sewhelp:DDL-8700",
+      "all:DDL-8700 problems",
+      "r/sewhelp:DDL-8700 problems"
+    ],
+    "content_hash": "5d9ae477900dd5fc"
+  },
+  {
+    "id": "reddit:1wb72ns",
+    "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1wb72ns/hi_im_having_troubles_with_my_juki_ddl8700/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Hi I’m having troubles with my Juki ddl-8700",
+    "subreddit": "SewingMachineEdu",
+    "thread_id": "1wb72ns",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1789090149,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "all:DDL-8700"
+    ],
+    "content_hash": "2494bbe96a822963"
+  },
+  {
+    "id": "reddit:1vit7d3",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1vit7d3/help_with_threading_path_on_juki_ddl_87007/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help with threading path on JUKI DDL 8700-7",
+    "subreddit": "sewhelp",
+    "thread_id": "1vit7d3",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1786227695,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewhelp:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "c916788e7cef9a7e"
+  },
+  {
+    "id": "reddit:1uzhwfg",
+    "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1uzhwfg/juki_ddl_8700_troubleshooting/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DDL 8700 Troubleshooting",
+    "subreddit": "SewingMachineEdu",
+    "thread_id": "1uzhwfg",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1784392276,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "all:DDL-8700"
+    ],
+    "content_hash": "855f55bc351c2dd6"
+  },
+  {
+    "id": "reddit:1s7xm1f",
+    "url": "https://www.reddit.com/r/sewing/comments/1s7xm1f/juki_ddl_8700_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki ddl 8700 help",
+    "subreddit": "sewing",
+    "thread_id": "1s7xm1f",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1774902509,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewing:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/sewing:DDL-8700",
+      "all:DDL-8700 problems",
+      "r/sewing:DDL-8700 problems"
+    ],
+    "content_hash": "45be455329d7d32c"
+  },
+  {
+    "id": "reddit:1p26q8t",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1p26q8t/free_motion_foot_for_juki_ddl8700/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "free motion foot for juki ddl-8700",
+    "subreddit": "sewhelp",
+    "thread_id": "1p26q8t",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1768610921,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewhelp:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/sewhelp:DDL-8700",
+      "all:DDL-8700 review",
+      "r/sewhelp:DDL-8700 review"
+    ],
+    "content_hash": "e1c23cc592f31366"
+  },
+  {
+    "id": "reddit:10rg96e",
+    "url": "https://www.reddit.com/r/sewing/comments/10rg96e/juki_ddl_8700_tension/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki ddl 8700 tension.",
+    "subreddit": "sewing",
+    "thread_id": "10rg96e",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1675730079,
+    "discovered_by": [
+      "r/sewing:Juki DDL-8700",
+      "r/sewing:DDL-8700"
+    ],
+    "content_hash": "63596db9a63d9eb8"
+  },
+  {
+    "id": "reddit:s2mjky",
+    "url": "https://www.reddit.com/r/sewhelp/comments/s2mjky/can_anyone_help_me_identify_the_extra_clicking/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Can anyone help me identify the extra clicking noise? Seems to be coming from belt area. Juki DDL 8700. Thanks in advance!",
+    "subreddit": "sewhelp",
+    "thread_id": "s2mjky",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1642100624,
+    "discovered_by": [
+      "r/sewhelp:Juki DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "23d001f066440e67"
+  },
+  {
+    "id": "reddit:4rz3sz",
+    "url": "https://www.reddit.com/r/sewing/comments/4rz3sz/has_anyone_here_assembled_their_own_industrial/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Has anyone here assembled their own industrial machine? Need help with a new Juki DDL-8700!",
+    "subreddit": "sewing",
+    "thread_id": "4rz3sz",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1468190940,
+    "discovered_by": [
+      "r/sewing:Juki DDL-8700",
+      "r/sewing:DDL-8700"
+    ],
+    "content_hash": "d6f2a3fb397d2048"
+  },
+  {
+    "id": "reddit:16dh3vp",
+    "url": "https://www.reddit.com/r/sewhelp/comments/16dh3vp/juki_ddl_8700_thread_and_tension_issues/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "JUKI DDL 8700 thread and tension issues",
+    "subreddit": "sewhelp",
+    "thread_id": "16dh3vp",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1694247528,
+    "discovered_by": [
+      "r/sewhelp:Juki DDL-8700",
+      "r/sewhelp:DDL-8700",
+      "all:DDL-8700 problems",
+      "r/sewhelp:DDL-8700 problems"
+    ],
+    "content_hash": "2d2e6d706ab6b370"
+  },
+  {
+    "id": "reddit:14cmm8n",
+    "url": "https://www.reddit.com/r/sewhelp/comments/14cmm8n/juki_ddl8700_thread_gets_wound_up_inside_hook/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DDL-8700: thread gets wound up inside hook assembly when no bobbin is loaded- why???",
+    "subreddit": "sewhelp",
+    "thread_id": "14cmm8n",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1687221576,
+    "discovered_by": [
+      "r/sewhelp:Juki DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "77b5da1b21314f44"
+  },
+  {
+    "id": "reddit:rl5grk",
+    "url": "https://www.reddit.com/r/sewhelp/comments/rl5grk/juki_ddl_8700_sewing_leather/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DDL 8700 sewing leather",
+    "subreddit": "sewhelp",
+    "thread_id": "rl5grk",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1640106884,
+    "discovered_by": [
+      "r/sewhelp:Juki DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "cde3eb21e81c1b11"
+  },
+  {
+    "id": "reddit:ys51j5",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/ys51j5/juki_ddl_8700h_issue_please_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "JUKI DDL 8700-H issue (please help 😭)",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "ys51j5",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1678608686,
+    "discovered_by": [
+      "r/SewingForBeginners:Juki DDL-8700",
+      "r/SewingForBeginners:DDL-8700"
+    ],
+    "content_hash": "23230a0163344a6c"
+  },
+  {
+    "id": "reddit:1td9bxc",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1td9bxc/still_cant_get_my_stitches_straight_timing/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Still can’t get my stitches straight // timing &amp; bobbins reset &amp; new needles. Juki DDL - 8700",
+    "subreddit": "sewhelp",
+    "thread_id": "1td9bxc",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1778846887,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewhelp:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "1a77d7da14a1bf9a"
+  },
+  {
+    "id": "reddit:1rexp5a",
+    "url": "https://www.reddit.com/r/SewingMachinePorn/comments/1rexp5a/juki_ddl_8700_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DDL 8700 help",
+    "subreddit": "SewingMachinePorn",
+    "thread_id": "1rexp5a",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1772177522,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "all:DDL-8700"
+    ],
+    "content_hash": "c27f3e8f67b9bc54"
+  },
+  {
+    "id": "reddit:18n01gg",
+    "url": "https://www.reddit.com/r/sewing/comments/18n01gg/juki_ddl8700_presser_foot_alignment/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DDL-8700 Presser Foot Alignment",
+    "subreddit": "sewing",
+    "thread_id": "18n01gg",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1703197234,
+    "discovered_by": [
+      "r/sewing:Juki DDL-8700",
+      "r/sewing:DDL-8700"
+    ],
+    "content_hash": "857fa5ea75cc4a3c"
+  },
+  {
+    "id": "reddit:rpu8mc",
+    "url": "https://www.reddit.com/r/sewing/comments/rpu8mc/looking_to_juki_ddl8700_proscons/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Looking to Juki DDL-8700 - pros/cons?",
+    "subreddit": "sewing",
+    "thread_id": "rpu8mc",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1641075440,
+    "discovered_by": [
+      "r/sewing:Juki DDL-8700",
+      "r/sewing:DDL-8700"
+    ],
+    "content_hash": "5e8c90274c726383"
+  },
+  {
+    "id": "reddit:j4eac5",
+    "url": "https://www.reddit.com/r/sewing/comments/j4eac5/help_me_the_juki_dnu_1541_or_the_juki_ddl8700/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help me! The Juki DNU 1541 or The Juki DDL-8700?",
+    "subreddit": "sewing",
+    "thread_id": "j4eac5",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1601735666,
+    "discovered_by": [
+      "r/sewing:Juki DDL-8700",
+      "r/sewing:DDL-8700"
+    ],
+    "content_hash": "f9ef3a38105b4b37"
+  },
+  {
+    "id": "reddit:1gue0jf",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1gue0jf/what_size_needle_for_heavy_canvas_juki_ddl_8700/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "What size needle for heavy canvas juki ddl 8700",
+    "subreddit": "sewhelp",
+    "thread_id": "1gue0jf",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1732054373,
+    "discovered_by": [
+      "r/sewhelp:Juki DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "ba058543aa0b5f5c"
+  },
+  {
+    "id": "reddit:1g3nox6",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1g3nox6/juki_ddl_87007_machine_keeps_loopingpulling_out/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "JUKI DDL 8700-7 machine keeps looping/pulling out the top thread. What to do?",
+    "subreddit": "sewhelp",
+    "thread_id": "1g3nox6",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1729028022,
+    "discovered_by": [
+      "r/sewhelp:Juki DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "b7586b635ac29922"
+  },
+  {
+    "id": "reddit:zbxxg3",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/zbxxg3/juki_ddl_8700_h_weird_issue/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki ddl 8700 H (weird issue)",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "zbxxg3",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1670205909,
+    "discovered_by": [
+      "r/SewingForBeginners:Juki DDL-8700",
+      "r/SewingForBeginners:DDL-8700"
+    ],
+    "content_hash": "6269539c53ddaead"
+  },
+  {
+    "id": "reddit:14pycqz",
+    "url": "https://www.reddit.com/r/upholstery/comments/14pycqz/first_sewing_machine_for_furniture_upholstery/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "First sewing machine for furniture upholstery? JUKI DDL-8700?",
+    "subreddit": "upholstery",
+    "thread_id": "14pycqz",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1688478439,
+    "discovered_by": [
+      "all:DDL-8700 problems"
+    ],
+    "content_hash": "b1d8deddcd3426b2"
+  },
+  {
+    "id": "reddit:1v4pjqf",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1v4pjqf/difference_between_a_juki_ddl_8700_and_ddl_87007/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Difference between a Juki DDL 8700 and DDL 8700-7 ?",
+    "subreddit": "sewhelp",
+    "thread_id": "1v4pjqf",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1784923777,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewhelp:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "84327f1622b8af14"
+  },
+  {
+    "id": "reddit:1r359lr",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1r359lr/juki_ddl8700_foot_not_fitting/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DDL-8700 foot not fitting",
+    "subreddit": "sewhelp",
+    "thread_id": "1r359lr",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1772037434,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewhelp:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "e33220f8864f4e36"
+  },
+  {
+    "id": "reddit:1p35yw8",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1p35yw8/juki_ddl_87007_top_thread_pulling_out_after_first/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "(JUKI DDL 8700-7) Top thread pulling out after first couple of stitches",
+    "subreddit": "sewhelp",
+    "thread_id": "1p35yw8",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1763910875,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewhelp:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "46b49b22e153217b"
+  },
+  {
+    "id": "reddit:111drmj",
+    "url": "https://www.reddit.com/r/sewing/comments/111drmj/the_on_and_off_buttons_stuck_on_the_brand_new/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "The ON and OFF Buttons Stuck On The Brand New JUKI DDL-8700-7 Industrial Sewing Machine",
+    "subreddit": "sewing",
+    "thread_id": "111drmj",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1676384417,
+    "discovered_by": [
+      "r/sewing:Juki DDL-8700",
+      "r/sewing:DDL-8700"
+    ],
+    "content_hash": "117658c0d7c94c32"
+  },
+  {
+    "id": "reddit:1fxwxem",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1fxwxem/juki_ddl_87007_vs_ddl9000bsh/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DDL - 8700-7 vs DDL-9000B-SH",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1fxwxem",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1728274395,
+    "discovered_by": [
+      "r/SewingForBeginners:Juki DDL-8700",
+      "r/SewingForBeginners:DDL-8700",
+      "all:DDL-8700 vs",
+      "r/SewingForBeginners:DDL-8700 vs"
+    ],
+    "content_hash": "948c015c8c56d373"
+  },
+  {
+    "id": "reddit:1ix8wji",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1ix8wji/help_with_ddl_8700/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help with ddl 8700",
+    "subreddit": "sewhelp",
+    "thread_id": "1ix8wji",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1754975932,
+    "discovered_by": [
+      "all:DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "0641dd226b42619b"
+  },
+  {
+    "id": "reddit:1oofyk1",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1oofyk1/juki_ddl87007_automatic_foot_lift_not_working/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DDL-8700-7 automatic foot lift not working after moving the machine",
+    "subreddit": "sewhelp",
+    "thread_id": "1oofyk1",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1762372360,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewhelp:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "77a088591c75cfde"
+  },
+  {
+    "id": "reddit:1og9lrg",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1og9lrg/juki_ddl8700_bobbin_gets_bunched_up_every_time_i/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "JUKI DDL-8700 bobbin gets bunched up every time I back stitch",
+    "subreddit": "sewhelp",
+    "thread_id": "1og9lrg",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1761561540,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewhelp:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/sewhelp:DDL-8700",
+      "all:DDL-8700 problems",
+      "r/sewhelp:DDL-8700 problems"
+    ],
+    "content_hash": "1f4a71f5530ac2cd"
+  },
+  {
+    "id": "reddit:1ndvj9i",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1ndvj9i/bobbin_falling_out_of_bobbin_holder_juki_ddl_8700/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Bobbin falling out of bobbin holder?! Juki Ddl 8700",
+    "subreddit": "sewhelp",
+    "thread_id": "1ndvj9i",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1757684647,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewhelp:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/sewhelp:DDL-8700"
+    ],
+    "content_hash": "e38c9ce405a53f1b"
+  },
+  {
+    "id": "reddit:1kp8777",
+    "url": "https://www.reddit.com/r/sewing/comments/1kp8777/are_feet_for_the_juki_ddl8700_compatible_with_the/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Are feet for the Juki DDL-8700 compatible with the DDL-5550?",
+    "subreddit": "sewing",
+    "thread_id": "1kp8777",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1747678955,
+    "discovered_by": [
+      "all:Juki DDL-8700",
+      "r/sewing:Juki DDL-8700",
+      "all:DDL-8700",
+      "r/sewing:DDL-8700"
+    ],
+    "content_hash": "c00508f73c383e74"
+  },
+  {
+    "id": "reddit:12l78sm",
+    "url": "https://www.reddit.com/r/sewing/comments/12l78sm/juki_ddl_8700_squeaking/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DDL 8700 squeaking",
+    "subreddit": "sewing",
+    "thread_id": "12l78sm",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1681454545,
+    "discovered_by": [
+      "r/sewing:Juki DDL-8700",
+      "r/sewing:DDL-8700"
+    ],
+    "content_hash": "bb6046721535ac1f"
+  },
+  {
+    "id": "reddit:122jawi",
+    "url": "https://www.reddit.com/r/sewing/comments/122jawi/juki_ddl_87008000a/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DDL 8700/8000A?",
+    "subreddit": "sewing",
+    "thread_id": "122jawi",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1679869829,
+    "discovered_by": [
+      "r/sewing:Juki DDL-8700",
+      "r/sewing:DDL-8700"
+    ],
+    "content_hash": "b39e6974ab877e22"
+  },
+  {
+    "id": "reddit:i93w0z",
+    "url": "https://www.reddit.com/r/sewing/comments/i93w0z/preparing_a_juki_ddl8700_to_sew/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Preparing a Juki ddl-8700 to Sew",
+    "subreddit": "sewing",
+    "thread_id": "i93w0z",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1597388099,
+    "discovered_by": [
+      "r/sewing:Juki DDL-8700",
+      "r/sewing:DDL-8700"
+    ],
+    "content_hash": "fb36d66f12a475f7"
+  },
+  {
+    "id": "reddit:1h545y0",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1h545y0/juki_tl2010q_vs_juki_ddl_8700_vs/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki TL2010Q vs Juki DDL 8700 (vs ?)",
+    "subreddit": "sewhelp",
+    "thread_id": "1h545y0",
+    "first_seen": "2026-10-01T14:29:28.750Z",
+    "last_fetched": "2026-10-01T14:29:28.750Z",
+    "status": "ok",
+    "cursor_utc": 1733237786,
+    "discovered_by": [
+      "r/sewhelp:Juki DDL-8700",
+      "r/sewhelp:DDL-8700",
+      "all:DDL-8700 vs",
+      "r/sewhelp:DDL-8700 vs"
+    ],
+    "content_hash": "0918fe997e7f9803"
+  }
+]

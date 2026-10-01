@@ -1,0 +1,126 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "DDL-5550",
+      "label": "Juki DDL-5550",
+      "pattern": "ddl[\\s-]*5550(?![a-z0-9])"
+    },
+    {
+      "model": "DDL-8700-7",
+      "label": "Juki DDL-8700-7 (automatic trimmer)",
+      "pattern": "8700[\\s-]*7(?![a-z0-9])"
+    },
+    {
+      "model": "DDL-8700H",
+      "label": "Juki DDL-8700H (heavy-weight)",
+      "pattern": "8700[\\s-]*h(?![a-z0-9])"
+    },
+    {
+      "model": "DDL-8700A",
+      "label": "Juki DDL-8700A (light-weight)",
+      "pattern": "8700[\\s-]*a(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "tl[\\s-]*2010q(?![a-z0-9])|2010q(?![a-z0-9])",
+      "Juki TL-2010Q"
+    ],
+    [
+      "tl[\\s-]*2000qi(?![a-z0-9])|2000qi(?![a-z0-9])",
+      "Juki TL-2000Qi"
+    ],
+    [
+      "hd3000(?![a-z0-9])",
+      "Janome HD3000"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "ddl[\\s-]*5550(?![a-z0-9])|tl[\\s-]*2010q(?![a-z0-9])|2010q(?![a-z0-9])|tl[\\s-]*2000qi(?![a-z0-9])|2000qi(?![a-z0-9])|hd3000(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {
+    "DDL-8700H": {
+      "Needles and sewing speed": {
+        "summary": "Juki's page lists the H for heavy-weight material with DB x 1 #19 to #23 needles and a 4,000 spm ceiling; the base DDL-8700 takes #9 to #18 at 5,500 spm.",
+        "check": "Juki product page"
+      },
+      "Parts and light fabric": {
+        "summary": "Owners say the H shares about 99 percent of the base design but uses a different needle bar, springs and bigger feed dogs, and feeds light material poorly.",
+        "check": "owner reports, Reddit; not in Juki documents"
+      }
+    },
+    "DDL-8700-7": {
+      "Thread trimmer and drive": {
+        "summary": "Owners and dealers describe the -7 as the version with an automatic thread trimmer and direct drive. The base DDL-8700 has no trimmer.",
+        "check": "owner and dealer reports; Juki page does not list the -7"
+      },
+      "Price": {
+        "summary": "One European poster put the base near 1,100 EUR and the -7 over 1,800 EUR.",
+        "check": "one forum post, one market"
+      }
+    },
+    "DDL-8700A": {
+      "Light-weight variant": {
+        "summary": "Juki lists the A for light-weight fabric: DA x 1 needles #9 to #11, 4,000 spm and a 4 mm maximum stitch length.",
+        "check": "Juki product page"
+      }
+    }
+  },
+  "siblingExtras": {
+    "DDL-8700H": [
+      {
+        "feature": "Fabric class",
+        "summary": "Heavy-weight; base DDL-8700 is medium-weight.",
+        "check": "Juki product page"
+      }
+    ],
+    "DDL-8700A": [
+      {
+        "feature": "Fabric class",
+        "summary": "Light-weight; base DDL-8700 is medium-weight.",
+        "check": "Juki product page"
+      }
+    ]
+  }
+}
