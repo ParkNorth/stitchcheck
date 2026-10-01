@@ -87,6 +87,7 @@ export interface Rollup {
     dateRange: [number, number] | null;
     byClass: Record<string, { sources: number; items: number }>;
     blocked: number;
+    pooledExcluded?: number;
     evidence: "strong" | "moderate" | "thin";
     thresholds: string;
   };

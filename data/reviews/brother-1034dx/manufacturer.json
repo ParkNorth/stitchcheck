@@ -1,0 +1,186 @@
+{
+  "slug": "brother-1034dx",
+  "collected": "2026-10-01",
+  "purpose": "First-party facts from Brother's 1034DX product page and the shared limited warranty, compared against data/specs/brother-1034dx.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "brother-page",
+      "url": "https://www.brother-usa.com/products/1034dx",
+      "type": "product page",
+      "fetched": "2026-10-01",
+      "note": "Specs table, copy, price"
+    },
+    {
+      "id": "brother-warranty",
+      "url": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf",
+      "type": "Brother Limited Warranty (Serger)",
+      "fetched": "2026-10-01",
+      "note": "Same PDF as the 1034D; read in data/reviews/brother-1034d"
+    },
+    {
+      "id": "brother-handbook",
+      "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf",
+      "type": "family handbook, 884-345",
+      "fetched": "2026-10-01",
+      "note": "Never names the 1034DX; family values only"
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1,300 spm",
+      "source": "brother-page",
+      "vs_spec": "confirms",
+      "spec_value": 1300,
+      "site": {
+        "label": "Speed",
+        "juki": "1,300 stitches per minute.",
+        "others": "Dealers and owners agree.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034dx"
+          }
+        ]
+      }
+    },
+    {
+      "field": "weightLb",
+      "value": "12.57 lb (1034D: 13.45 lb)",
+      "source": "brother-page Specifications",
+      "vs_spec": "contradicts",
+      "spec_value": 13.5,
+      "note": "Spec had 13.5 lb from a blog; Brother says 12.57 lb. Amazon's 16.4 lb is shipping weight.",
+      "site": {
+        "label": "Weight",
+        "juki": "12.57 lb on Brother's page, lighter than the 1034D at 13.45 lb.",
+        "others": "A comparison blog says 13.5 lb; an Amazon listing says 16.4 lb, likely shipping weight.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034dx"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "13.19 x 11.10 x 11.65 in; carton 13 x 16 x 15 in, carton weight 7.62 lb",
+      "source": "brother-page",
+      "vs_spec": "adds",
+      "note": "Order not labelled. The 1034D is 11.73 x 10.98 x 13.19, so the DX is lower and wider."
+    },
+    {
+      "field": "lighting",
+      "value": "LED",
+      "source": "brother-page",
+      "vs_spec": "confirms",
+      "spec_value": "LED",
+      "site": {
+        "label": "Work light",
+        "juki": "LED work area. The 1034D has a bulb.",
+        "others": "Owners and a forum poster say the same.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034dx"
+          }
+        ]
+      }
+    },
+    {
+      "field": "threads",
+      "value": "Spec table: 2/3/4 thread change Yes. Copy: works with either 3 or 4 threads",
+      "source": "brother-page",
+      "vs_spec": "contradicts",
+      "spec_value": "3 or 4 thread, 2 needles",
+      "note": "Brother's DX page contradicts itself, and its 1034D page lists the same row as No. The DX spec-table row may be a data error; do not claim 2-thread stitches.",
+      "site": {
+        "label": "Thread counts",
+        "juki": "The spec table says 2/3/4 thread change: Yes; the copy says 3 or 4 threads. The 1034D table says No.",
+        "others": "Reviews and comparison pages describe it as a 3/4 thread serger.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034dx"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchWidthMm",
+      "value": "Overlock seam width 5.0 to 7.0 mm from the left needle",
+      "source": "brother-page",
+      "vs_spec": "adds"
+    },
+    {
+      "field": "includedFeet",
+      "value": "Standard (on the machine), blindstitch and gathering feet; 4 mini spools of thread, soft cover, CD of instructional videos, standard sewing machine needles",
+      "source": "brother-page",
+      "vs_spec": "confirms",
+      "spec_value": "3 snap-on feet",
+      "site": {
+        "label": "Feet and box contents",
+        "juki": "Standard, blindstitch and gathering feet, 4 mini spools, soft cover and an instructional CD.",
+        "others": "The same three feet as the 1034D.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034dx"
+          }
+        ]
+      }
+    },
+    {
+      "field": "storage",
+      "value": "Accessory storage: No (1034D: Yes)",
+      "source": "brother-page",
+      "vs_spec": "adds"
+    },
+    {
+      "field": "warrantyUs",
+      "value": "1/5/25 year limited serger warranty: 1 year parts, labor and accessories; 5 years electronics (labor excluded); 25 years chassis casting only",
+      "source": "brother-warranty; brother-page",
+      "vs_spec": "contradicts",
+      "spec_value": "25-year limited with free phone support for the life of the machine",
+      "note": "Same warranty as the 1034D. 'Free phone support for the life of the machine' is not in the PDF.",
+      "site": {
+        "label": "Warranty",
+        "juki": "1 year parts and labor, 5 years electronics, 25 years chassis casting only. Original buyer from an authorized seller.",
+        "others": "Dealers and blogs say '25-year warranty'.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother warranty PDF",
+            "url": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "USD 289.99 new at Brother USA 2026-10-01; refurbished option offered",
+      "source": "brother-page",
+      "vs_spec": "contradicts",
+      "spec_value": 235,
+      "note": "Spec had $235 at Walmart. The 1034D is $319.99 at Brother.",
+      "site": {
+        "label": "Price",
+        "juki": "$289.99 new at Brother USA on 2026-10-01. The 1034D is $319.99 there.",
+        "others": "Walmart lists the 1034DX; Sewing Machines Plus does not sell it.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1034dx"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -73,11 +73,11 @@ export const comparisons: Comparison[] = [
     slug: "brother-1034d-vs-1034dx",
     title: "Brother 1034D vs 1034DX",
     description:
-      "Two part numbers for the same 3/4-thread serger. The difference is the bundle and the day's price, not the machine.",
+      "The same 3/4-thread serger with the same three feet. Brother's own pages give the DX an LED and less weight, the D an accessory tray, and list the DX $30 cheaper.",
     productSlugs: ["brother-1034d", "brother-1034dx"],
     picks: { "brother-1034d": "value-pick" },
     summary:
-      "Same stitches, same differential feed, same build. Buy whichever is cheaper the day you look, and compare the included feet before you decide the X is worth anything.",
+      "Same stitches, same 1,300 spm, same differential feed and the same three feet. Brother's pages give the DX an LED light and 0.9 lb less weight; the D keeps an accessory storage tray. Brother lists the DX at $289.99 and the D at $319.99, so buy whichever is cheaper the day you look, and prefer the DX if you want the LED.",
     rows: [
       { label: "Price band", key: "priceBand", rule: "lower" },
       { label: "Threads", key: "threads", rule: "none" },
@@ -88,11 +88,11 @@ export const comparisons: Comparison[] = [
       { label: "Our score", key: "score", rule: "higher" },
     ],
     buyIf: [
-      { slug: "brother-1034d", text: "It is in stock and cheaper today. You get the same serger." },
-      { slug: "brother-1034dx", text: "The bundle lists a foot you would have bought anyway, or it is the one on sale." },
+      { slug: "brother-1034d", text: "It is cheaper where you shop, or you want the accessory storage tray." },
+      { slug: "brother-1034dx", text: "You want an LED work light and a lighter body, and it is at or below the 1034D price." },
     ],
     relatedGuide: "what-is-a-serger",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-01",
   },
   {
     slug: "singer-4423-vs-4432-vs-4452",

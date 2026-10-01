@@ -23,7 +23,8 @@
  *
  * Per-model config lives in data/reviews/{slug}/editor.json (hand-written, committed):
  *   notes, siblingSummaries, themeRemap, siblings [{model,label,pattern}], features [[pattern,label]],
- *   rivals [[pattern,label]], others (extra regex for the claims prep).
+ *   rivals [[pattern,label]], others (extra regex for the claims prep), scopeRules [{sourceUrl, requireText}]
+ *   (pooled listings: statements from sources whose URL contains sourceUrl count only if the text matches requireText).
  *
  * Definitions:
  *   statement  one accepted spec_claim with scope "this" (the tagged writer is describing this model)
@@ -119,7 +120,20 @@ if (mode === "build") {
   const editor = fs.existsSync(path.join(DIR, "editor.json")) ? JSON.parse(fs.readFileSync(path.join(DIR, "editor.json"), "utf8")) : { notes: [], siblingSummaries: {} };
 
   // ---- owner signals by theme
-  const stmts = claims.filter((c) => c.type === "spec_claim" && c.scope === "this" && tags.has(c.claim_id));
+  // editor.json scopeRules: a pooled source (for example a retailer listing that mixes reviews of two near-identical
+  // models) only counts toward this model when the review text names it. Others are excluded from the counts.
+  const rawText = new Map<string, string>(read(path.join(DIR, "raw.jsonl")).map((r) => [r.id, r.text]));
+  const rules = (editor.scopeRules ?? []).map((r: any) => ({ url: r.sourceUrl as string, re: new RegExp(r.requireText, "i") }));
+  let pooledExcluded = 0;
+  const allowed = (c: any) => {
+    const rule = rules.find((r: any) => String(c.url).includes(r.url));
+    if (rule && !rule.re.test(rawText.get(c.item_id) ?? "")) {
+      pooledExcluded++;
+      return false;
+    }
+    return true;
+  };
+  const stmts = claims.filter((c) => c.type === "spec_claim" && c.scope === "this" && tags.has(c.claim_id) && allowed(c));
   type Acc = { claims: any[]; voices: Map<string, any> };
   const byTheme = new Map<string, Acc>();
   for (const c of stmts) {
@@ -299,6 +313,7 @@ if (mode === "build") {
       byClass: classTally,
       blocked: sources.filter((s) => s.status === "blocked").length,
       evidence: strong ? "strong" : ownerVoices.size >= 5 ? "moderate" : "thin",
+      pooledExcluded,
       thresholds: "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes",
     },
     notes: editor.notes,

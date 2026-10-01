@@ -11,9 +11,9 @@
   ],
   "manufacturerUrl": "https://www.brother-usa.com/products/1034dx",
   "retailerUrl": null,
-  "priceUsdSeen": 235.0,
-  "priceSeenDate": "2026-09-29",
-  "priceSeenAt": "Walmart",
+  "priceUsdSeen": 289.99,
+  "priceSeenDate": "2026-10-01",
+  "priceSeenAt": "Brother USA (brother-usa.com)",
   "specs": {
     "stitchTypes": {
       "value": "4-thread overlock, 3-thread overlock, ribbon lock, rolled hem and related functions",
@@ -40,8 +40,8 @@
       "source": null
     },
     "needleSystem": {
-      "value": null,
-      "source": null
+      "value": "Standard household sewing machine needles",
+      "source": "https://www.brother-usa.com/products/1034dx"
     },
     "presserFootLift": {
       "value": null,
@@ -68,20 +68,20 @@
       "source": "https://www.brother-usa.com/products/1034dx"
     },
     "weightLb": {
-      "value": 13.5,
-      "source": "https://www.sewingmachinefun.com/brother-1034d-vs-1034dx/"
+      "value": 12.57,
+      "source": "https://www.brother-usa.com/products/1034dx"
     },
     "dimensionsIn": {
-      "value": null,
-      "source": null
+      "value": "13.19 x 11.10 x 11.65",
+      "source": "https://www.brother-usa.com/products/1034dx"
     },
     "includedFeet": {
-      "value": "3 snap-on feet (standard, blind stitch, gathering); soft cover; instructional DVD; needle set; trim trap; 4 thread spools",
-      "source": "https://www.amazon.com/Brother-1034DX-Differential-Capability-Color-Coded/dp/B06Y4NWHN8"
+      "value": "Standard foot (on the machine), blindstitch foot and gathering foot. In the box: 4 mini spools of thread, soft cover, instructional CD, needle set and trim trap",
+      "source": "https://www.brother-usa.com/products/1034dx"
     },
     "warrantyUs": {
-      "value": "25-year limited with free phone support for the life of the machine",
-      "source": "https://www.brother-usa.com/products/1034dx"
+      "value": "1 year parts, labor and accessories; 5 years electronics and circuit boards (labor excluded); 25 years chassis casting only. Original buyer from an authorized seller",
+      "source": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf"
     },
     "stitchWidthMm": {
       "value": null,
@@ -114,9 +114,12 @@
     "\"Heavy-duty overlock\" (Amazon renewed listing title; a listing word, not a rating)"
   ],
   "conflicts": [
-    "Weight: 13.5 lb (comparison blog) vs 16.4 lb (Amazon listing, likely shipping weight). Brother page value not captured. Catalog will use 13.5 lb flagged [verify].",
-    "Dimensions: Amazon lists 13 x 15.25 x 14.5 in, which reads as package size. Not recorded as machine size.",
-    "Stitch length: comparison blog says the DX lacks the 1034D's 1 to 2 mm narrow and 1 mm roll settings; Brother page does not state this. Listed, not resolved."
+    "Warranty: blogs and dealers say 25-year limited with free phone support for life. Brother's warranty PDF gives 1 year parts, labor and accessories, 5 years electronics (labor excluded) and 25 years for the chassis casting only, to the original buyer from an authorized seller. Free lifetime phone support is not in the PDF. We use Brother's terms.",
+    "Weight: Brother's page says 12.57 lb; a comparison blog says 13.5 lb; an Amazon listing says 16.4 lb, which reads as shipping weight. We use the Brother page.",
+    "Thread conversion: Brother's DX spec table lists 2/3/4 thread change as Yes while the DX copy says 3 or 4 threads, and its 1034D page lists the same row as No. The DX table row may be a data error; we do not claim 2-thread stitches.",
+    "Dimensions: Amazon lists 13 x 15.25 x 14.5 in, which is package size. Brother's page gives 13.19 x 11.10 x 11.65 in for the machine without labelling the order.",
+    "Price: Brother USA lists the 1034DX at $289.99 and the 1034D at $319.99 on 2026-10-01, so the DX costs less there, the reverse of the usual 'DX costs more' claim. Walmart has listed the DX at $235 in the past.",
+    "Stitch length: a comparison blog says the DX lacks the 1034D's 1 to 2 mm narrow and 1 mm roll settings; Brother's page does not say. Listed, not resolved."
   ],
   "ownerThemes": [
     {
@@ -130,7 +133,7 @@
       "source": "https://embroideryhoopstore.com/blogs/articles/easiest-way-to-thread-brother-1034dx-serger"
     }
   ],
-  "evidence": "positioning",
+  "evidence": "owner",
   "buyerQuestions": [
     "Is the 1034DX worth more than the 1034D?",
     "Does the 1034DX have a free arm?",
@@ -164,42 +167,77 @@
     "https://www.walmart.com/ip/Brother-1034DX-Easy-to-Use-3-or-4-Thread-Serger-with-Color-Coded-Thread-Guides/55684596",
     "https://www.sewingmachinefun.com/brother-1034d-vs-1034dx/",
     "https://sergerpro.com/brother-1034dx-review/",
-    "https://embroideryhoopstore.com/blogs/articles/easiest-way-to-thread-brother-1034dx-serger"
+    "https://embroideryhoopstore.com/blogs/articles/easiest-way-to-thread-brother-1034dx-serger",
+    "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf"
   ],
   "editorial": {
-    "verdict": "The 1034DX is the 1034D with an LED light, a larger trim trap and right-side dials; buy on price, because the stitch specs are the same.",
-    "whoFor": "A first serger buyer who finds the DX at or near the 1034D price and wants the brighter light and tidier trim catch.",
-    "skipIf": "The DX costs meaningfully more than the 1034D where you shop, or you want 2-thread or air threading.",
-    "keySpec": "3/4 thread · 22 stitch functions · 1,300 spm · LED",
+    "verdict": "The 1034D with an LED light and 0.9 lb less weight, listed by Brother at $30 less; buy it when it is the cheaper of the two.",
+    "whoFor": "A first serger buyer who wants the brighter light and the lighter body and finds the DX at or below the 1034D price.",
+    "skipIf": "You want 2-thread stitches (Brother's own pages disagree on this), a quiet machine, or the 1034D is cheaper where you shop.",
+    "keySpec": "3/4 thread · differential feed · 1,300 spm · LED",
     "strengths": [
-      "Same 1,300 spm and 0.7 to 2.0 differential feed as the 1034D.",
-      "LED light and a deeper removable trim trap, per comparison reviews.",
-      "25-year limited warranty with lifetime phone support, per Brother."
+      "Same 1,300 spm, differential feed and three snap-on feet as the 1034D, plus an LED work light and 0.9 lb less weight per Brother's pages.",
+      "Brother lists it at $289.99, $30 below the 1034D.",
+      "Takes standard household sewing machine needles, so spares are cheap."
     ],
     "weaknesses": [
-      "No 2-thread capability.",
-      "Brother does not publish weight or dimensions on the page captured; dealer figures disagree.",
-      "Manual lay-in threading; the lower looper path trips up new owners."
+      "Threading is the most discussed owner topic: some find it very easy, others cannot keep the upper looper thread in place.",
+      "Help threads about tension, chaining and timing are common, though most owners who are happy do not post.",
+      "Brother publishes no motor power; two commenters say the DX has 75 W against 100 to 110 W for the 1034D, which is unverified."
     ],
     "checks": [
       {
-        "title": "Compare against the 1034D price the same day",
-        "body": "The two machines share stitch specs. If the DX is more than about $50 higher, the extras are an LED, a trim trap and dial placement."
+        "title": "Compare the two prices the same day",
+        "body": "Brother lists the DX at $289.99 and the 1034D at $319.99. Pay more for the DX only if you want the LED and the lighter body."
       },
       {
-        "title": "Bundle contents",
-        "body": "The Amazon listing includes three feet, a cover, a DVD, a needle set, a trim trap and four spools. Other sellers may drop the spools or feet."
+        "title": "Do not count on 2-thread stitches",
+        "body": "Brother's DX spec table says 2/3/4 thread change: Yes, but its copy and its 1034D page say 3 or 4 thread. Confirm with the seller before buying for 2-thread work."
       },
       {
-        "title": "Needle type",
-        "body": "Brother's page does not name the needle system in the snippet captured. Confirm it takes 130/705H household needles like the 1034D before stocking up."
+        "title": "Check part numbers before ordering spares",
+        "body": "Commenters say some DX parts, such as the needle plate and lower blade, differ from the 1034D's. Check the part number first."
       }
     ],
     "realCost": [
       "4 cones of serger thread",
-      "Spare household needles once the type is confirmed",
+      "Spare household needles",
       "Serger oil",
       "A second set of thread nets for slippery cones"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Brother 1034DX worth more than the 1034D?",
+        "a": "Brother lists the DX at $289.99 and the 1034D at $319.99, so it costs less there. The DX adds an LED light and weighs 0.9 lb less but lists no accessory storage tray. Stitch specs match, so buy whichever is cheaper unless you want the LED."
+      },
+      {
+        "q": "Does the 1034DX have an LED light?",
+        "a": "Yes. Brother lists an LED work area. The 1034D has a bulb."
+      },
+      {
+        "q": "Can the 1034DX do a rolled hem?",
+        "a": "Yes. Brother lists the rolled-hem change as built in, with the same three snap-on feet as the 1034D: standard, blindstitch and gathering."
+      },
+      {
+        "q": "Does the 1034DX do 2-thread stitches?",
+        "a": "We do not claim it. Brother's DX spec table lists 2/3/4 thread change as Yes, but the DX copy says 3 or 4 threads and its 1034D page lists the same row as No."
+      },
+      {
+        "q": "What comes in the box with the 1034DX?",
+        "a": "Brother lists the three feet, 4 mini spools of thread, a soft cover, an instructional CD, a needle set and a trim trap. It uses standard household sewing machine needles."
+      },
+      {
+        "q": "What is the 1034DX warranty?",
+        "a": "Brother's limited warranty is 1 year for parts, labor and accessories, 5 years for electronic components and circuit boards (labor excluded) and 25 years for the chassis casting only, to the original buyer from an authorized seller. Free lifetime phone support is not in Brother's warranty PDF."
+      },
+      {
+        "q": "Do 1034D parts fit the 1034DX?",
+        "a": "Sources disagree. Commenters say the needle plate and lower blade differ; one expert answer says the needle clamp is interchangeable while another block says it is not. Check the part number before you order."
+      },
+      {
+        "q": "Is the 1034DX good for beginners?",
+        "a": "It is the same entry class as the 1034D, with color-coded guides printed on the machine. Threading is still the most discussed owner topic, so plan time for videos before your first project."
+      }
     ]
   }
 }

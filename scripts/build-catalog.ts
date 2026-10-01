@@ -131,6 +131,7 @@ function normalizeSeenAt(at: string | null | undefined): { at: string; note: str
   if (a.toLowerCase().startsWith("sewing machines plus")) {
     return { at: RETAILER, note: a.length > RETAILER.length ? a : null };
   }
+  if (/^brother usa/i.test(a)) return { at: "Brother USA", note: null };
   return { at: "another dealer", note: a };
 }
 
