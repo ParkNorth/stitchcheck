@@ -24,6 +24,10 @@ npm ci --silent
 
 Commit per model per run (`reviews({slug}): {stages done}`), push `reviews-staging`, and keep one DRAFT PR titled "Review pipeline staging (do not merge)". Credentials: `.env.local` is gitignored, so copy it into the worktree from `~/Documents/Projects/stichcheck/.env.local` if it is missing.
 
+## Linear
+
+Each model has a ticket in `_plan.json` (`models.{slug}.linear`, project "Stitch", team "Web Projects"). If a Linear connector is available in the session, add one comment per model when a run finishes its stages (what was collected, counts, findings that change the page, gaps). Never change a ticket's status. If no Linear connector is available, put the same text in `data/reviews/{slug}/run-log.md`; an interactive session posts it.
+
 ## Tier 0: maker documents and marketplace ratings (cheap, every model)
 
 `npm run reviews:plan -- next --tier 0 --count 4` lists models and their next stage. For each:

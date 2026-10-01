@@ -158,182 +158,227 @@
   "models": {
     "babylock-imagine": {
       "family": "babylock",
+      "linear": "WEB-128",
       "tier": 1
     },
     "babylock-vibrant": {
       "family": "babylock",
+      "linear": "WEB-108",
       "tier": 1
     },
     "babylock-victory": {
       "family": "babylock",
+      "linear": null,
       "tier": 3
     },
     "bernina-1008": {
       "family": "bernina",
+      "linear": "WEB-129",
       "tier": 1
     },
     "bernina-570-qe": {
       "family": "bernina",
+      "linear": "WEB-115",
       "tier": 3
     },
     "bernina-l-850": {
       "family": "bernina",
+      "linear": "WEB-128",
       "tier": 3
     },
     "brother-1034d": {
       "family": "brother",
+      "linear": "WEB-105",
       "tier": "done"
     },
     "brother-1034dx": {
       "family": "brother",
+      "linear": "WEB-105",
       "tier": "done"
     },
     "brother-1634d": {
       "family": "brother",
+      "linear": "WEB-128",
       "tier": 2
     },
     "brother-2340cv": {
       "family": "brother",
+      "linear": "WEB-107",
       "tier": 3
     },
     "brother-cs7000x": {
       "family": "brother",
+      "linear": "WEB-129",
       "tier": 3
     },
     "brother-pq1600s": {
       "family": "brother",
+      "linear": "WEB-114",
       "tier": 3
     },
     "brother-st371hd": {
       "family": "brother",
+      "linear": "WEB-100",
       "tier": 2
     },
     "grace-qnique-15r": {
       "family": "longarm",
+      "linear": "WEB-114",
       "tier": 3
     },
     "grace-qnique-19x": {
       "family": "longarm",
+      "linear": null,
       "tier": 3
     },
     "handi-quilter-amara": {
       "family": "longarm",
+      "linear": "WEB-129",
       "tier": 2
     },
     "handi-quilter-moxie": {
       "family": "longarm",
+      "linear": "WEB-113",
       "tier": 2
     },
     "handi-quilter-sweet-sixteen": {
       "family": "longarm",
+      "linear": "WEB-129",
       "tier": 3
     },
     "janome-8002d": {
       "family": "janome-other",
+      "linear": "WEB-128",
       "tier": 2
     },
     "janome-coverpro-2000cpx": {
       "family": "janome-other",
+      "linear": "WEB-107",
       "tier": 3
     },
     "janome-hd1000": {
       "family": "janome-hd",
+      "linear": "WEB-127",
       "tier": 1
     },
     "janome-hd3000": {
       "family": "janome-hd",
+      "linear": "WEB-98",
       "tier": 2
     },
     "janome-hd5000": {
       "family": "janome-hd",
+      "linear": "WEB-127",
       "tier": 2
     },
     "janome-hd9": {
       "family": "janome-hd",
+      "linear": "WEB-127",
       "tier": 1
     },
     "janome-mc6650": {
       "family": "janome-other",
+      "linear": "WEB-99",
       "tier": 1
     },
     "juki-ddl-5550": {
       "family": "juki-industrial",
+      "linear": null,
       "tier": 3
     },
     "juki-ddl-8700": {
       "family": "juki-industrial",
+      "linear": "WEB-96",
       "tier": 1
     },
     "juki-dnu-1541s": {
       "family": "juki-industrial",
+      "linear": "WEB-127",
       "tier": 2
     },
     "juki-hzl-f300": {
       "family": "juki-computerized",
+      "linear": "WEB-129",
       "tier": 2
     },
     "juki-hzl-f600": {
       "family": "juki-computerized",
+      "linear": "WEB-129",
       "tier": 2
     },
     "juki-mo-1000": {
       "family": "juki-sergers",
+      "linear": "WEB-106",
       "tier": 2
     },
     "juki-mo-644d": {
       "family": "juki-sergers",
+      "linear": "WEB-128",
       "tier": 3
     },
     "juki-mo-654de": {
       "family": "juki-sergers",
+      "linear": "WEB-106",
       "tier": 1
     },
     "juki-tl-18qvp": {
       "family": "juki-tl",
+      "linear": "WEB-114",
       "tier": 1
     },
     "juki-tl-2000qi": {
       "family": "juki-tl",
+      "linear": "WEB-95",
       "tier": 2
     },
     "juki-tl-2010q": {
       "family": "juki-tl",
+      "linear": "WEB-94",
       "tier": "done"
     },
     "singer-14cg754": {
       "family": "singer-sergers",
+      "linear": "WEB-128",
       "tier": 2
     },
     "singer-14hd854": {
       "family": "singer-sergers",
+      "linear": null,
       "tier": 3
     },
     "singer-14t968dc": {
       "family": "singer-sergers",
+      "linear": "WEB-107",
       "tier": 3
     },
     "singer-4411": {
       "family": "singer-hd",
+      "linear": "WEB-127",
       "tier": 2
     },
     "singer-4423": {
       "family": "singer-hd",
+      "linear": "WEB-97",
       "tier": 2
     },
     "singer-4432": {
       "family": "singer-hd",
+      "linear": "WEB-97",
       "tier": 1
     },
     "singer-4452": {
       "family": "singer-hd",
+      "linear": "WEB-97",
       "tier": 1
     },
     "singer-hd6600c": {
       "family": "singer-hd",
+      "linear": "WEB-127",
       "tier": 1
     },
     "singer-hd6700c": {
       "family": "singer-hd",
+      "linear": "WEB-127",
       "tier": 2
     }
   },

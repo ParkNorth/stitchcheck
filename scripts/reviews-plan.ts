@@ -59,6 +59,21 @@ const TIER1 = ["juki-mo-654de", "juki-ddl-8700", "singer-4452", "singer-hd6600c"
 const DONE_FULL = ["juki-tl-2010q", "brother-1034d", "brother-1034dx"];
 const TIER2 = ["juki-tl-2000qi", "juki-dnu-1541s", "singer-14cg754", "singer-4411", "handi-quilter-moxie", "janome-hd3000", "janome-hd5000", "singer-hd6700c", "juki-hzl-f600", "singer-4423", "brother-st371hd", "handi-quilter-amara", "brother-1634d", "janome-8002d", "juki-mo-1000", "juki-hzl-f300"];
 
+// Linear tickets (project Stitch, team Web Projects) that track each model, so runs can comment as stages finish.
+const LINEAR: Record<string, string> = {
+  "juki-tl-2010q": "WEB-94", "juki-tl-2000qi": "WEB-95", "juki-ddl-8700": "WEB-96",
+  "singer-4423": "WEB-97", "singer-4432": "WEB-97", "singer-4452": "WEB-97",
+  "janome-hd3000": "WEB-98", "janome-mc6650": "WEB-99", "brother-st371hd": "WEB-100",
+  "brother-1034d": "WEB-105", "brother-1034dx": "WEB-105",
+  "juki-mo-654de": "WEB-106", "juki-mo-1000": "WEB-106",
+  "brother-2340cv": "WEB-107", "janome-coverpro-2000cpx": "WEB-107", "singer-14t968dc": "WEB-107",
+  "babylock-vibrant": "WEB-108", "handi-quilter-moxie": "WEB-113",
+  "juki-tl-18qvp": "WEB-114", "brother-pq1600s": "WEB-114", "grace-qnique-15r": "WEB-114", "bernina-570-qe": "WEB-115",
+  "janome-hd9": "WEB-127", "janome-hd1000": "WEB-127", "janome-hd5000": "WEB-127", "singer-hd6600c": "WEB-127", "singer-hd6700c": "WEB-127", "singer-4411": "WEB-127", "juki-dnu-1541s": "WEB-127",
+  "juki-mo-644d": "WEB-128", "janome-8002d": "WEB-128", "singer-14cg754": "WEB-128", "babylock-imagine": "WEB-128", "brother-1634d": "WEB-128", "bernina-l-850": "WEB-128",
+  "juki-hzl-f600": "WEB-129", "juki-hzl-f300": "WEB-129", "handi-quilter-amara": "WEB-129", "handi-quilter-sweet-sixteen": "WEB-129", "bernina-1008": "WEB-129", "brother-cs7000x": "WEB-129",
+};
+
 const readJson = (f: string, fb: any) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, "utf8")) : fb);
 const lines = (f: string) => (fs.existsSync(f) ? fs.readFileSync(f, "utf8").split("\n").filter(Boolean).length : 0);
 
@@ -99,7 +114,7 @@ if (cmd === "init") {
     note: "Tier and wave assignments from traffic potential in docs/research/_keywords.md. Edit by hand; `init` keeps signoffs.",
     families: FAMILIES,
     tiers: { "0": Object.keys(specs).filter((s) => !DONE_FULL.includes(s)), "1": TIER1, "2": TIER2, done: DONE_FULL },
-    models: Object.fromEntries(Object.keys(specs).map((s) => [s, { family: famOf[s] ?? null, tier: DONE_FULL.includes(s) ? "done" : TIER1.includes(s) ? 1 : TIER2.includes(s) ? 2 : 3 }])),
+    models: Object.fromEntries(Object.keys(specs).map((s) => [s, { family: famOf[s] ?? null, linear: LINEAR[s] ?? null, tier: DONE_FULL.includes(s) ? "done" : TIER1.includes(s) ? 1 : TIER2.includes(s) ? 2 : 3 }])),
     signoffs: plan.signoffs ?? {},
   };
   fs.writeFileSync(PLAN, JSON.stringify(out, null, 2) + "\n");
