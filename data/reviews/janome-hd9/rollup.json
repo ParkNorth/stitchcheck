@@ -1,0 +1,649 @@
+{
+  "slug": "janome-hd9",
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+  "reviewedOn": "2026-10-01",
+  "generated": "2026-10-01",
+  "method": {
+    "sources": 36,
+    "itemsCollected": 438,
+    "statements": 45,
+    "voices": 37,
+    "ownerVoices": 19,
+    "dateRange": [
+      2018,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 1,
+        "items": 0
+      },
+      "reddit": {
+        "sources": 35,
+        "items": 435
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.1 from 31 ratings is shared by six listings under one parent (HD9 white and black editions, V2, V3 and the HD8), so it is not specific to one variant."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 12,
+      "voices": 12,
+      "ownerVoices": 6,
+      "sources": 9,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 12
+      },
+      "polarity": {
+        "positive": 6,
+        "negative": 5,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2022,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ccc74174c",
+          "polarity": "negative",
+          "claim": "Owner of a second-hand HD9 used it for car seat upholstery and had to cap thread at Tex 90, wanting something thicker.",
+          "quote": "I did have to limit my thread thickness to Tex 90 though",
+          "url": "https://www.reddit.com/r/sewing/comments/150b74h/recovering_car_seats/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c3479b01c",
+          "polarity": "positive",
+          "claim": "Owner says Janome states the machine can use Tex 100 thread.",
+          "quote": "Janome says this machine can use Tex 100.",
+          "url": "https://www.reddit.com/r/sewing/comments/1jll2v7/needle_out_of_alignment_on_new_sewing_machine/mk4ochq/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c84893163",
+          "polarity": "positive",
+          "claim": "New owner shows a video of the HD9 sewing about ten layers of 15oz raw denim at the lowest speed range.",
+          "quote": "burning through ~10 layers of 15oz raw denim",
+          "url": "https://www.reddit.com/r/sewing/comments/spi06j/new_machine_day_the_janome_hd9_is_a_domestic/hwfbsdd/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cbe8677a4",
+        "c84893163",
+        "c429d3d42",
+        "ccaebf035",
+        "cc6587c63",
+        "c1b103010",
+        "c7cec32bd",
+        "c78f3a2ca",
+        "ccc74174c",
+        "c75387489",
+        "c3479b01c",
+        "c68e7fb9d"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 11,
+      "voices": 10,
+      "ownerVoices": 3,
+      "sources": 7,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 10
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 3
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ca75f5138",
+          "polarity": "positive",
+          "claim": "Owner uses both needle types on the HD9 and has never bent or broken an HLx5.",
+          "quote": "I use both types of needles for bag making.",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1kusrj2/question_about_needles_with_janome_hd9/ngogezw/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c6a17e603",
+          "polarity": "positive",
+          "claim": "Owner says high shank buttonhole attachments can be used on the HD9.",
+          "quote": "You can use high shank button hole attachments on the HD9.",
+          "url": "https://www.reddit.com/r/sewing/comments/1etti06/from_bags_to_clothes/lifl6ay/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c576d3426",
+        "c11fa8ed2",
+        "c32b857b7",
+        "cb4997722",
+        "cf8c6898c",
+        "ca75f5138",
+        "ccbfdf414",
+        "c97b0d093",
+        "c6a17e603",
+        "c5103d5af",
+        "ce3ac4d1a"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 8,
+      "voices": 8,
+      "ownerVoices": 6,
+      "sources": 7,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 8
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 6,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ca0575b79",
+          "polarity": "negative",
+          "claim": "Owner reports the bobbin locking up once or twice per bobbin.",
+          "quote": "Bobbin locks up I have to pull it out",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1wknv8d/hd9_bobbin_case_tension_problem/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ca3d538a9",
+          "polarity": "negative",
+          "claim": "New owner reports the needle on a brand new HD9 sits off center relative to the presser foot and needle plate, rubbing thick thread.",
+          "quote": "except the needle is out of alignment",
+          "url": "https://www.reddit.com/r/sewing/comments/1jll2v7/needle_out_of_alignment_on_new_sewing_machine/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c698d3ec4",
+          "polarity": "positive",
+          "claim": "Owner used the HD9 for garment and backpack repairs and zipper replacement and is happy with it.",
+          "quote": "Overall, I’m quite happy with it",
+          "url": "https://www.reddit.com/r/myog/comments/1lczu1t/seeking_experience_reports_semiindustrial/my4miun/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c46e41467",
+          "polarity": "positive",
+          "claim": "Owner says the HD9 keeps stitching through demanding work without struggling.",
+          "quote": "HD9 doesn’t really balk at much of anything",
+          "url": "https://www.reddit.com/r/sewing/comments/186266i/sewing_machine_advice/kb5cepk/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ca89c8969",
+        "cf05eb6f5",
+        "c1aeb2d1c",
+        "ca0575b79",
+        "ca3d538a9",
+        "c9c54567a",
+        "c698d3ec4",
+        "c46e41467"
+      ]
+    },
+    {
+      "theme": "walking_foot",
+      "label": "Walking foot",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "cd3f9c717",
+        "c0cb35199",
+        "c51fbaae4"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2024,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "ceec9b986",
+        "c23def331"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2023
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c2a79f9cf",
+          "polarity": "positive",
+          "claim": "HD9 owner who sews almost daily reports no tension problems.",
+          "quote": "never have tension issues",
+          "url": "https://www.reddit.com/r/quilting/comments/11hzhg7/juki_vs_janome/jaxba26/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c2a79f9cf",
+        "c92e94158"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "ca64852c2"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c4aaff165",
+          "polarity": "positive",
+          "claim": "Dealer swapped the defective HD9 for a replacement quickly, shipping returned at their expense.",
+          "quote": "sent me a new one right away",
+          "url": "https://www.reddit.com/r/sewing/comments/1jpfnr8/update_on_new_janome_hd9_with_need_out_of/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c4aaff165"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2021,
+        2021
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c2113ee47"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cee242668",
+          "polarity": "positive",
+          "claim": "Owner values the two thread pathways, one for thicker thread.",
+          "quote": "two thread pathways (one accommodates thicker thread)",
+          "url": "https://www.reddit.com/r/quilting/comments/1mx6p3h/semi_industrial_machine_for_bag_making_janome_hd9/na74c32/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cee242668"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c9cd771f4",
+          "polarity": "negative",
+          "claim": "Owner says the space under the needle is the HD9's main drawback.",
+          "quote": "The big negative for the HD9 is the amount of space under the needle",
+          "url": "https://www.reddit.com/r/quilting/comments/1mx6p3h/semi_industrial_machine_for_bag_making_janome_hd9/na74c32/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c9cd771f4"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c7a95f424"
+      ]
+    },
+    {
+      "theme": "value_price",
+      "label": "Value and price",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "ceaf1ef64",
+          "polarity": "positive",
+          "claim": "A boot maker uses the HD9 Professional nearly daily and calls it a worthwhile investment at about 1500 dollars.",
+          "quote": "we use it nearly every day it is a great investment for us",
+          "url": "https://www.reddit.com/r/Boots/comments/15rcck9/what_sewing_machine_do_you_need_to_make_boots/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ceaf1ef64"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B0CMFY8VYY",
+      "pageRating": 4.1,
+      "pageCount": 31,
+      "fetched": "2026-10-01",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "lowRated": 0,
+      "sampled": "0 top reviews (0 US, 0 other countries) of 31 ratings"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "1,600 stitches per minute.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome source",
+          "url": "https://www.janome.com/product/hd9-professional/"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "janome-page"
+    },
+    {
+      "label": "Weight",
+      "juki": "32 lb (14.5 kg).",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome source",
+          "url": "https://www.janome.com/product/hd9-professional/"
+        }
+      ],
+      "field": "weightLb",
+      "source": "janome-page"
+    },
+    {
+      "label": "Workspace",
+      "juki": "Product page: 8 x 5.5 in. Feature page: nearly 9 x 6 in. Janome gives no needle-to-arm figure.",
+      "others": "Dealers repeat nearly 9 x 6 in.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome source",
+          "url": "https://www.janome.com/product/hd9-professional/"
+        }
+      ],
+      "field": "workspaceIn",
+      "source": "janome-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "25 years limited for household use; 5 years electronics, 1 year labor; 1 year if used commercially; void if not bought from an authorized Janome dealer.",
+      "others": "Amazon listing repeats 25/2/1.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome source",
+          "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "janome-warranty"
+    }
+  ],
+  "siblings": [],
+  "rivals": []
+}

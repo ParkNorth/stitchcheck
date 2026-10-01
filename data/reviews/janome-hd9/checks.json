@@ -1,0 +1,35 @@
+{
+  "slug": "janome-hd9",
+  "generated": "2026-10-01T20:36:58.587Z",
+  "counts": {
+    "error": 0,
+    "warn": 2
+  },
+  "items": [
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 6 ASINs (B0H9RJ5YY5, B0CMFY8VYY, B0GP35VXFS, B09PRQS9YR, B0H9RJJH2J, B006K5TGY0); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 48, this 45, sibling 1, unclear 2"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "35 Reddit threads, 16 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"presserFootPressure\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 37 voices (19 first-hand), 36 sources, status draft"
+    }
+  ]
+}

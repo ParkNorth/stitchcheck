@@ -1,7 +1,7 @@
 {
   "slug": "singer-4452",
   "status": "approved",
-  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+  "reviewedBy": "Claude editor pass, sibling rows refreshed after human sign-off by Jeremy",
   "reviewedOn": "2026-10-01",
   "generated": "2026-10-01",
   "method": {
@@ -429,7 +429,7 @@
           "claim_id": "c097412a6",
           "polarity": "positive",
           "claim": "Owner of 2.5 years says it is fast, quiet and stays put.",
-          "quote": "It’s fast and quiet and doesn’t bounce around.",
+          "quote": "It\u2019s fast and quiet and doesn\u2019t bounce around.",
           "url": "https://www.reddit.com/r/sewing/comments/8rrjca/review_request_singer_heavy_duty_machine_4452/e0un9jf/",
           "source_class": "reddit"
         },
@@ -493,7 +493,7 @@
           "claim_id": "cb00e8a8d",
           "polarity": "negative",
           "claim": "Near new machine cannot reach enough top tension and leaves loops on the back.",
-          "quote": "I can’t seem to get the top tension tight enough",
+          "quote": "I can\u2019t seem to get the top tension tight enough",
           "url": "https://www.reddit.com/r/sewhelp/comments/oicwj3/singer_4452_loops_on_back/",
           "source_class": "reddit"
         },
@@ -631,7 +631,7 @@
           "claim_id": "cb957cbdf",
           "polarity": "positive",
           "claim": "Owner reports clean precise stitches and no thread tangling.",
-          "quote": "It has clean precise stitches and doesn’t get tied up",
+          "quote": "It has clean precise stitches and doesn\u2019t get tied up",
           "url": "https://www.sewingmachinesplus.com/4452.php",
           "source_class": "retailer"
         }
@@ -725,7 +725,7 @@
           "claim_id": "c0f27ae39",
           "polarity": "negative",
           "claim": "Owner reports the feed dogs and walking foot stopped feeding fabric.",
-          "quote": "my feed dogs/ walking foot isn’t feeding my fabric",
+          "quote": "my feed dogs/ walking foot isn\u2019t feeding my fabric",
           "url": "https://www.reddit.com/r/sewhelp/comments/1l8czzi/singer_4452_is_a_nightmare/",
           "source_class": "reddit"
         },

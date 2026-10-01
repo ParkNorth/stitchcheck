@@ -1,0 +1,239 @@
+{
+  "slug": "janome-hd9",
+  "collected": "2026-10-01",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/janome-hd9.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "janome-page",
+      "url": "https://www.janome.com/product/hd9-professional/",
+      "type": "product page (specifications)",
+      "fetched": "2026-10-01",
+      "note": "MSRP, specifications table"
+    },
+    {
+      "id": "janome-features",
+      "url": "https://www.janome.com/hd9-professional/",
+      "type": "feature page",
+      "fetched": "2026-10-01",
+      "note": "Marketing features; carries a noindex tag; disagrees with the product page on foot pressure and workspace"
+    },
+    {
+      "id": "janome-manual",
+      "url": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-hd9.pdf",
+      "type": "instruction manual (PDF, 52 pages)",
+      "fetched": "2026-10-01",
+      "note": "No specification table located in extractable text"
+    },
+    {
+      "id": "janome-warranty",
+      "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+      "type": "25-year warranty (generic PDF, OCR)",
+      "fetched": "2026-10-01",
+      "note": "OCR text; household use only; verify against the PDF"
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "Up to 1,600 stitches per minute",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": 1600,
+      "note": "'The fastest home-use machine on the market' is Janome's claim.",
+      "site": {
+        "label": "Speed",
+        "juki": "1,600 stitches per minute.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/hd9-professional/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchTypes",
+      "value": "Straight stitch only",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": "Straight stitch only, single needle lockstitch"
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "Maximum 6 mm (manual: 0 to 6 mm by dial)",
+      "source": "janome-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "weightLb",
+      "value": "32 lb (14.5 kg)",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": 32.0,
+      "site": {
+        "label": "Weight",
+        "juki": "32 lb (14.5 kg).",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/hd9-professional/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "W 19.6 x D 7.2 x H 12.7 in",
+      "source": "janome-page",
+      "vs_spec": "contradicts",
+      "spec_value": "19.6 x 8.6 x 13.3 (from 498 x 218 x 338 mm)",
+      "note": "Janome's depth and height are smaller than our figures, which came from a non-maker source."
+    },
+    {
+      "field": "workspaceIn",
+      "value": "Product page table: W 8 in x H 5.5 in; feature page: nearly 9 x 6 in to the right of the needle",
+      "source": "janome-page",
+      "vs_spec": "contradicts",
+      "spec_value": "Nearly 9 x 6 in to the right of the needle (manufacturer wording)",
+      "note": "Janome's own pages disagree. Neither is a needle-to-arm throat figure (rule 11).",
+      "site": {
+        "label": "Workspace",
+        "juki": "Product page: 8 x 5.5 in. Feature page: nearly 9 x 6 in. Janome gives no needle-to-arm figure.",
+        "others": "Dealers repeat nearly 9 x 6 in.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/hd9-professional/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "presserFootPressure",
+      "value": "Product page: up to 11 lb with dial and indicator; feature page: up to 5 pounds",
+      "source": "janome-page",
+      "vs_spec": "contradicts",
+      "spec_value": "presser foot pressure adjustable up to 11 lb",
+      "note": "Janome's pages disagree."
+    },
+    {
+      "field": "presserFootLift",
+      "value": "Extra high presser foot lift; adjustable knee lift included; no height published",
+      "source": "janome-page",
+      "vs_spec": "adds",
+      "spec_value": "Knee lifter included"
+    },
+    {
+      "field": "needleSystem",
+      "value": "Industrial HLx5; manual chart sizes #14 (medium) and #14 to 18 (denim)",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": "HLx5 (flat shank), per dealer copy",
+      "note": "'Industrial' is Janome's wording for the needle."
+    },
+    {
+      "field": "feedSystem",
+      "value": "3-piece feed dog; no drop feed",
+      "source": "janome-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "Automatic thread cutter with button and remote cutter socket",
+      "source": "janome-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "needleThreader",
+      "value": "Built-in",
+      "source": "janome-page",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "bobbin",
+      "value": "Side-loading full rotary hook; jumbo bobbin, stated to hold 40% more thread (also written 1.4x)",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": "Side-loading jumbo bobbin, stated to hold 1.4x a standard bobbin"
+    },
+    {
+      "field": "motor",
+      "value": "No main motor wattage or type published; eight enclosed ball bearings in the main shaft; independent bobbin winder motor",
+      "source": "janome-page",
+      "vs_spec": "confirms",
+      "spec_value": null
+    },
+    {
+      "field": "frame",
+      "value": "'Heavy-duty, powder-coated, all-metal flatbed'",
+      "source": "janome-features",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketing wording; claim only."
+    },
+    {
+      "field": "lubrication",
+      "value": "Manual: oil with MO-70 sewing machine oil, daily if used often; feature page says closed bed design needs no lubrication holes",
+      "source": "janome-manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Maker pages differ in tone; follow the manual."
+    },
+    {
+      "field": "warrantyUs",
+      "value": "25 years limited, household use only; electronics 5 years, labor 1 year, 1 year if used commercially; void if not bought from an authorized US dealer (generic Janome PDF, OCR)",
+      "source": "janome-warranty",
+      "vs_spec": "confirms",
+      "spec_value": "25 yr materials and workmanship, 5 yr electrical components, 1 yr labor (Janome America statement)",
+      "note": "Generic Janome warranty, not HD9-specific. Household use only matters for a machine marketed for bags and leather.",
+      "site": {
+        "label": "Warranty",
+        "juki": "25 years limited for household use; 5 years electronics, 1 year labor; 1 year if used commercially; void if not bought from an authorized Janome dealer.",
+        "others": "Amazon listing repeats 25/2/1.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "MSRP $2,499; see dealer for pricing",
+      "source": "janome-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Amazon showed $1,599."
+    },
+    {
+      "field": "variants",
+      "value": "HD9BE Black Edition (limited release, with extension table); an 'HD9 V2' bobbin accessory page exists but no V2 machine page; a retailer labels the base machine 'HD9 Professional V1'",
+      "source": "janome-features",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Amazon listings pool HD9, V2, V3 and HD8 under one rating."
+    },
+    {
+      "field": "claims",
+      "value": "'perfect blend of industrial strength and speed'; 'industrial pretension threading'; 'industrial hook bobbin'; 'sewing like a profession...'",
+      "source": "janome-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketing wording; claims only."
+    }
+  ]
+}
