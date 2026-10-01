@@ -1,0 +1,915 @@
+{
+  "slug": "bernina-1008",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-01",
+  "method": {
+    "sources": 54,
+    "itemsCollected": 544,
+    "statements": 116,
+    "voices": 98,
+    "ownerVoices": 49,
+    "dateRange": [
+      2011,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 1,
+        "items": 1
+      },
+      "reddit": {
+        "sources": 53,
+        "items": 540
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 41,
+      "voices": 38,
+      "ownerVoices": 9,
+      "sources": 15,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 38
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 13,
+        "mixed": 0,
+        "neutral": 22
+      },
+      "years": [
+        2019,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cb82145a4",
+          "polarity": "negative",
+          "claim": "Owner says presser foot pressure cannot be adjusted on this old model.",
+          "quote": "I can’t adjust the pressure for the foot",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1dtwsu0/why_does_this_keep_happening/lbcph7b/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ce3469bd2",
+          "polarity": "negative",
+          "claim": "Owner says several Bernina feet supplied with the machine were all misaligned.",
+          "quote": "a few of the bernina feet that came with it",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1duwxes/how_do_i_realign_my_foot_pedal_myself/lbmx63x/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cccdc4afb",
+        "c6d24f82b",
+        "ce3469bd2",
+        "c6f0f3e9e",
+        "c6930612e",
+        "cd6ae5780",
+        "c78efd611",
+        "cc50e2ba5",
+        "cf8972595",
+        "c8f3f9134",
+        "c1fc081e8",
+        "c2e08a53e",
+        "cdcee2c2e",
+        "c81b441f2",
+        "c6c6a26b4",
+        "c59e370b5",
+        "c88c2c52b",
+        "ca3c96d8b",
+        "c874f9f8e",
+        "c51e77351",
+        "c768944bc",
+        "c14f8aa25",
+        "cda5ffe4c",
+        "c028bd4ea",
+        "cec5dcf07",
+        "c4fe80ea4",
+        "c1d3a11a1",
+        "c98d47202",
+        "c99d17a5b",
+        "c043d40d8",
+        "c2e9e7937",
+        "c0a5cb392",
+        "c478c7257",
+        "cb82145a4",
+        "cdb831a89",
+        "c31775120",
+        "cb9a83ec6",
+        "cc50d93fd",
+        "c0ab329f7",
+        "cbce33164",
+        "c155f7294"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 29,
+      "voices": 28,
+      "ownerVoices": 20,
+      "sources": 19,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 28
+      },
+      "polarity": {
+        "positive": 11,
+        "negative": 16,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2014,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c7e4bea38",
+          "polarity": "negative",
+          "claim": "Owner of an eBay-bought 1008 found the feed dogs jammed and misaligned with the needle plate.",
+          "quote": "the feed dogs seemed jammed",
+          "url": "https://www.reddit.com/r/sewhelp/comments/b05wt7/bernina_1008_feed_dogs_dont_line_up_with_plate/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c53b55dfe",
+          "polarity": "negative",
+          "claim": "Owner's 1008 jammed several times on zigzag in denim.",
+          "quote": "that jammed up 3 or 4 times as well",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1dtwsu0/why_does_this_keep_happening/lbf6vtn/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c537f9ce4",
+          "polarity": "positive",
+          "claim": "Student uses 1008s in classes and says they work well.",
+          "quote": "since they work so well",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1kqiwx1/bernina_1008_on_fb_marketplace/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c70baf541",
+          "polarity": "positive",
+          "claim": "Owner of 20 plus years had it professionally serviced only a few times and it keeps running.",
+          "quote": "it is still going strong",
+          "url": "https://www.reddit.com/r/BuyItForLife/comments/1v66zk7/sewing_machine_bernina_1008_vc_janome_1522/ozyvwp7/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cddd6171c",
+          "polarity": "mixed",
+          "claim": "Owner says the 1008 handwheel is a bit harder to turn than other machines but not by much.",
+          "quote": "The handwheel is harder to turn than some of my other machines",
+          "url": "https://www.reddit.com/r/sewing/comments/13pkzlr/stiff_handwheel_on_bernina/jlborpp/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cef394bd3",
+        "c0980aa7c",
+        "caf310a4c",
+        "c5ed35f83",
+        "cc356d6ae",
+        "ca342785a",
+        "c90c3906d",
+        "c39b6e5a5",
+        "cddd6171c",
+        "c8061be73",
+        "ce9be8b58",
+        "c186ce234",
+        "c70baf541",
+        "c3b40c771",
+        "c036ebd2d",
+        "cf1d09e8d",
+        "cc0f4ed90",
+        "c7e4bea38",
+        "c65b208d0",
+        "c537f9ce4",
+        "c88a89fa4",
+        "c678c2626",
+        "cef4cc1ce",
+        "c051bed03",
+        "cadbb1849",
+        "c53b55dfe",
+        "c36f8d299",
+        "cdd5d051d",
+        "c21a7aa6e"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 14,
+      "voices": 14,
+      "ownerVoices": 7,
+      "sources": 9,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 14
+      },
+      "polarity": {
+        "positive": 6,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 5
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cd18a3520",
+          "polarity": "negative",
+          "claim": "1008 owner says it wants oil after every bobbin of sewing.",
+          "quote": "likes to be oiled after every bobbin full of sewing",
+          "url": "https://www.reddit.com/r/Bernina/comments/1jztq5s/bernina_1008_skipping_stitches/mnbam9f/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c30c00a9b",
+          "polarity": "positive",
+          "claim": "Owner says they never oil their 1008s.",
+          "quote": "I never oil my Bernina 1008s!",
+          "url": "https://www.reddit.com/r/sewing/comments/1n68ona/choosing_a_machine_between_bernina_and_janome/nbydmp3/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c254edfe0",
+          "polarity": "positive",
+          "claim": "Oiling a borrowed 1008 cured its skipped stitches.",
+          "quote": "it seems to have done the trick",
+          "url": "https://www.reddit.com/r/Bernina/comments/1jztq5s/bernina_1008_skipping_stitches/mo8esab/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cd18a3520",
+        "c254edfe0",
+        "c168693ad",
+        "c5af35ff1",
+        "c5587fac0",
+        "c8674a8f8",
+        "cca9f27ec",
+        "c70270f07",
+        "cf1e5b3ed",
+        "c8687ee5c",
+        "cede6397a",
+        "c881a1fc2",
+        "c30c00a9b",
+        "cab65cefb"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 3,
+      "sources": 6,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 6
+      },
+      "polarity": {
+        "positive": 5,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cd4ed65b9",
+          "polarity": "positive",
+          "claim": "Home ec teacher says their school Berninas are easy to use workhorses that have lasted decades with students.",
+          "quote": "have made it through 2+ decades of teenagers",
+          "url": "https://www.reddit.com/r/BuyItForLife/comments/1v66zk7/sewing_machine_bernina_1008_vc_janome_1522/ozpuwuo/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cd7611600",
+          "polarity": "positive",
+          "claim": "Costume shop user using both 1000 and 1008 says Berninas are sturdy and either should last a while.",
+          "quote": "berninas are sturdy and either one should last you a while",
+          "url": "https://www.reddit.com/r/sewing/comments/1fpmzhb/which_would_you_choose/lozbv27/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c107277d9",
+        "cd4ed65b9",
+        "c096c42a4",
+        "c1d6015c9",
+        "cd7611600",
+        "cf236d9ea"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 5,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 5
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 4,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2011,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c238339a9",
+          "polarity": "negative",
+          "claim": "On high lycra knits the owner's 1008 keeps cutting the thread despite many tried fixes, though the machine is in good condition.",
+          "quote": "My machine still slices the thread every few inches",
+          "url": "https://www.reddit.com/r/SewingChallenge/comments/1uxxxov/super_late_update_for_june_i_am_not_qualified_for/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c43f7461e",
+          "polarity": "negative",
+          "claim": "Owner finds the foot presses hard, stretching wovens on the bias and objecting to more than two fabric layers.",
+          "quote": "complains when there are more than 2 layers of fabric",
+          "url": "https://www.reddit.com/r/sewing/comments/13ouls8/where_is_the_presser_foot_pressure_adjust_bernina/jl9rx8j/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c72a30bdf",
+          "polarity": "positive",
+          "claim": "Fleece needle and thread trouble on the 1008 was solved by switching to a sharper needle.",
+          "quote": "I switched to a sharper needle and it seems to have solved everything",
+          "url": "https://www.reddit.com/r/Stitchy/comments/kgjdd/can_someone_help_me_out/c2k7krp/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c43f7461e",
+        "c72a30bdf",
+        "c61a056d0",
+        "c238339a9",
+        "c850738bb"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 3,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 5
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c4a22df70",
+          "polarity": "negative",
+          "claim": "Owner sees skipped zigzag stitches on jersey with a jersey needle.",
+          "quote": "it seems my machine is skipping stitches",
+          "url": "https://www.reddit.com/r/sewing/comments/1tv0agc/help_sewing_jersey/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c8fa6efd7",
+          "polarity": "negative",
+          "claim": "Owner says the 1008 zigzag was never tight or clean, not suited to stretch athletic wear.",
+          "quote": "The zig-zags were never super tight or clean.",
+          "url": "https://www.reddit.com/r/sewing/comments/1aeuvh2/home_machine_just_lit_on_fire_need_purchasing/kkam1cy/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c9cf0733d",
+        "c4a22df70",
+        "c8fa6efd7",
+        "c45ded552",
+        "c9f895404"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 3,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2019,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c52b9aa33",
+          "polarity": "negative",
+          "claim": "In Singapore the owner was told the discontinued 1008 will get no local support.",
+          "quote": "this model has been discontinued and NO LOCAL SUPPORT WILL EVER BE PROVIDED",
+          "url": "https://www.reddit.com/r/sewing/comments/14s8l3o/bernina_1008_needle_hits_front_of_zipper_foot/jr9oq0a/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c7867f0ef",
+          "polarity": "positive",
+          "claim": "Repair and cleaning of a newly bought 1008 were free under warranty.",
+          "quote": "under warrantee",
+          "url": "https://www.reddit.com/r/sewing/comments/bxbm2v/needle_is_hitting_the_presser_foot_and_cannot_sew/er7totu/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c4bd458b2",
+        "c52b9aa33",
+        "cf556c7fc",
+        "c7867f0ef"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c11cc3f64",
+          "polarity": "negative",
+          "claim": "Advises holding the threads at the start of sewing because the needle kept unthreading.",
+          "quote": "I unthreaded my needle every time",
+          "url": "https://www.reddit.com/r/sewing/comments/1lysi4f/bernina_1008_tips/n2wy87f/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c85847c60",
+          "polarity": "negative",
+          "claim": "Owner's top thread pulls out of the needle when stitch width is turned to 5.",
+          "quote": "top thread keeps coming out of the needle when I turn my stitch width",
+          "url": "https://www.reddit.com/r/sewing/comments/13jhs97/bernina_1008_thread_coming_undone/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cb823335f",
+        "c11cc3f64",
+        "c85847c60"
+      ]
+    },
+    {
+      "theme": "walking_foot",
+      "label": "Walking foot",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c493611f9",
+          "polarity": "negative",
+          "claim": "The rubber glider of a used Bernina walking foot crumbled after use, on a school machine with wear.",
+          "quote": "on the right side just crumbled",
+          "url": "https://www.reddit.com/r/quilting/comments/1du39qq/walking_foot_falling_apart/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c75073041",
+          "polarity": "mixed",
+          "claim": "Owner calls the Bernina walking foot expensive but the best used, still working after about 10 years.",
+          "quote": "it's the best I've used",
+          "url": "https://www.reddit.com/r/quilting/comments/1du39qq/walking_foot_falling_apart/lbigi2a/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c65c86e34",
+        "c493611f9",
+        "c75073041"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ccb187922",
+          "polarity": "positive",
+          "claim": "Owner sewed six layers of denim without trouble on the 1008.",
+          "quote": "6 layers of denim (oh yeah!)",
+          "url": "https://www.reddit.com/r/BuyItForLife/comments/1v66zk7/sewing_machine_bernina_1008_vc_janome_1522/ozyvwp7/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c5b32d229",
+          "polarity": "mixed",
+          "claim": "Owner finds the 1008 fine for fleece but weak on cap brims.",
+          "quote": "it struggles when it comes to sewing the brims of the caps",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1ip9t4n/is_it_worth_the_upgrade_from_bernina_1008_to_juki/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ccb187922",
+        "c5b32d229"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c31596531"
+      ]
+    },
+    {
+      "theme": "value_price",
+      "label": "Value and price",
+      "statements": 2,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c93ba127a",
+        "ca941dc5a"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2023,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "ceab8da7d"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://www.sewingmachinesplus.com/bernina_1008.php",
+      "pageRating": 3,
+      "pageCount": 1,
+      "fetched": "2026-10-01",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0
+      },
+      "lowRated": 1,
+      "sampled": null
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Stitches",
+      "juki": "17, including a buttonhole and two decorative.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Bernina source",
+          "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008"
+        }
+      ],
+      "field": "stitchCount",
+      "source": "bernina-product"
+    },
+    {
+      "label": "Stitch width",
+      "juki": "Manual: up to 5 mm, infinitely variable. Product page: five steps.",
+      "others": "Our earlier figure was 5.5 mm.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Bernina source",
+          "url": "https://www.bernina.com/Bernina/media/Support/Sewing_Quilting_Embroidery/classic/1008/Documents/EN/B1008_EN.pdf"
+        }
+      ],
+      "field": "stitchWidthMm",
+      "source": "bernina-manual"
+    },
+    {
+      "label": "Warranty",
+      "juki": "2 years electrical, 5 years circuit boards, 20 years mechanical parts; part cost only.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Bernina source",
+          "url": "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "bernina-warranty"
+    },
+    {
+      "label": "Availability",
+      "juki": "Bernina's US page says the product is no longer available and points to local Bernina stores.",
+      "others": "Used machines are sold through dealers and marketplaces.",
+      "status": "dealer only",
+      "links": [
+        {
+          "label": "Bernina source",
+          "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-Classic-Series/BERNINA-1008"
+        }
+      ],
+      "field": "msrp",
+      "source": "bernina-product"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "1000",
+      "label": "Bernina 1000",
+      "rows": [
+        {
+          "feature": "Stitches",
+          "urls": 1,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "Reddit commenters say the 1000 has 7 stitches against the 1008's 17. Bernina's page confirms 17 for the 1008.",
+          "check": "Reddit comments; no Bernina 1000 document in hand",
+          "examples": [
+            {
+              "claim_id": "cd1e4d2da",
+              "claim": "The 1008 has 17 stitches including reverse feed stretch stitches; the 1000 has 7.",
+              "quote": "17 stitches on the 1008 vs. 7 on the 1000",
+              "url": "https://www.reddit.com/r/sewing/comments/1fpmzhb/which_would_you_choose/lozpi98/"
+            }
+          ],
+          "claimIds": [
+            "cd1e4d2da"
+          ]
+        },
+        {
+          "feature": "Hook",
+          "urls": 1,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "Commenters say the 1000 has a rotary hook while the 1008 has Bernina's CB hook.",
+          "check": "Reddit comments; Bernina's page confirms the CB hook for the 1008 only",
+          "examples": [
+            {
+              "claim_id": "c3864c61c",
+              "claim": "The 1000 has a rotary hook while the 1008 has the Bernina CB hook.",
+              "quote": "The 1000 has a rotary hook, the 1008 has the well known Bernina",
+              "url": "https://www.reddit.com/r/sewing/comments/1fpmzhb/which_would_you_choose/lozpi98/"
+            }
+          ],
+          "claimIds": [
+            "c3864c61c"
+          ]
+        }
+      ]
+    },
+    {
+      "model": "1001",
+      "label": "Bernina 1001",
+      "rows": [
+        {
+          "feature": "Overall design",
+          "urls": 2,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "A commenter says the 1001 is the same as the 1008 apart from a rotary hook, with the same stitch patterns.",
+          "check": "unverified, Reddit only",
+          "examples": [
+            {
+              "claim_id": "c4e1e2435",
+              "claim": "The 1001 has the same stitch patterns as the 1008.",
+              "quote": "the 1001 has the same stitch patterns as the 1008",
+              "url": "https://www.reddit.com/r/sewing/comments/1rghibi/reliable_heavy_duty_home_machine/o7xaqbw/"
+            },
+            {
+              "claim_id": "c0ee84c46",
+              "claim": "Writer says the 1001 is identical to the 1008 apart from the rotary hook.",
+              "quote": "the 1001 is identical to the 1008",
+              "url": "https://www.reddit.com/r/sewing/comments/1rghibi/reliable_heavy_duty_home_machine/o8o6g5z/"
+            }
+          ],
+          "claimIds": [
+            "c4e1e2435",
+            "c0ee84c46"
+          ]
+        }
+      ]
+    },
+    {
+      "model": "1010",
+      "label": "Bernina 1010",
+      "rows": [
+        {
+          "feature": "Overall design",
+          "urls": 1,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "A commenter describes the 1010 as the same machine as the 1008, but older.",
+          "check": "unverified, Reddit only",
+          "examples": [
+            {
+              "claim_id": "ca4466626",
+              "claim": "The 1010 is described as the same machine as the 1008 but older.",
+              "quote": "it's really the same machine as the 1008",
+              "url": "https://www.reddit.com/r/sewing/comments/1rghibi/reliable_heavy_duty_home_machine/o8o6g5z/"
+            }
+          ],
+          "claimIds": [
+            "ca4466626"
+          ]
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

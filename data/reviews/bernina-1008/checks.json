@@ -1,0 +1,25 @@
+{
+  "slug": "bernina-1008",
+  "generated": "2026-10-01T20:15:33.902Z",
+  "counts": {
+    "error": 0,
+    "warn": 0
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 127, this 116, sibling 0, unclear 11"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "53 Reddit threads, 23 with the model in the title"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 98 voices (49 first-hand), 54 sources, status draft"
+    }
+  ]
+}
