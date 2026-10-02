@@ -38,7 +38,7 @@ Method note: manufacturer and retailer domains were blocked by the egress proxy;
 
 ## Unit / naming checks
 
-- Model number vs anything it implies: "TL-18QVP" is not an 18 in arm. Throat is 8.5 in. QVP means Quilting Virtuoso Products, Juki's dealer only line.
+- Model number vs anything it implies: "TL-18QVP" is not an 18 in arm. Throat is 8.5 in. Juki gives no expansion for QVP; it appears only as a product-line label.
 - Throat measured needle-to-body or including the harp height? 8.5 in is the needle to body width used across the TL family. Height not published.
 - Speed: jukiquilting.com snippet reads "15000 SPM", an evident typo for 1,500. Dealers and brochure say 1,500.
 

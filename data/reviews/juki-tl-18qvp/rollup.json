@@ -1,8 +1,8 @@
 {
   "slug": "juki-tl-18qvp",
-  "status": "draft",
-  "reviewedBy": null,
-  "reviewedOn": null,
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+  "reviewedOn": "2026-10-01",
   "generated": "2026-10-01",
   "method": {
     "sources": 33,
