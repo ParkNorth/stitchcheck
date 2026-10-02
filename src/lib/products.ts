@@ -750,7 +750,7 @@ const siteFields: Record<string, SiteFields> = {
   "juki-dnu-1541s": {
     score: 8.8,
     scoredFor: "heavy-duty",
-    reason: "The walking-foot industrial upholstery and leather forums recommend first.",
+    reason: "Walking-foot industrial head; Juki gives 10.4 in needle to arm and 36.5 kg for the head, and lists the motor and table separately.",
     context: "Industrial walking foot · in Heavy duty hub",
     alternatives: [
       { slug: "juki-ddl-8700", label: "Drop feed", note: "Cheaper industrial for flat work." },
@@ -758,7 +758,9 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "singer-4452", label: "Domestic", note: "The value pick for occasional denim." },
     ],
     imageAlt: "Juki DNU-1541S walking foot industrial sewing machine",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-01",
+    verdict: "A 2,500 spm unison-feed industrial head with a safety mechanism, sold as a head: Juki's catalog lists the motor and table separately, and the 10.4 in needle-to-arm reach and heavy-material wording are Juki's.",
+    specsVerified: "2026-10-01",
   },
   "janome-hd9": {
     score: 8.4,
