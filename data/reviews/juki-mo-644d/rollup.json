@@ -1,0 +1,985 @@
+{
+  "slug": "juki-mo-644d",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 26,
+    "itemsCollected": 231,
+    "statements": 43,
+    "voices": 35,
+    "ownerVoices": 24,
+    "dateRange": [
+      2010,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 2,
+        "items": 34
+      },
+      "reddit": {
+        "sources": 24,
+        "items": 197
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 10,
+      "voices": 10,
+      "ownerVoices": 9,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 5,
+        "reddit": 5
+      },
+      "polarity": {
+        "positive": 5,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2011,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c97d57b40",
+          "polarity": "negative",
+          "claim": "Owner had thread breakage until a missed upper looper threading point was found, though chaining still failed.",
+          "quote": "I had an issue of the threads breaking",
+          "url": "https://www.reddit.com/r/sewing/comments/iaw9qd/juki_mo_644d_if_you_have_this_model_or_if_you_are/g1rrhdk/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c3652c3b3",
+          "polarity": "positive",
+          "claim": "Owner feared threading would be hard but found it super easy.",
+          "quote": "super easy",
+          "url": "https://www.reddit.com/r/myog/comments/ewnp4d/help_me_find_a_serger/fg3fisj/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ca4fd9ae1",
+          "polarity": "positive",
+          "claim": "Machine arrived already threaded and ready to sew.",
+          "quote": "came threaded and ready to sew",
+          "url": "https://www.sewingmachinesplus.com/juki-MO-644D.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cd7d4ecb9",
+        "c4c7ac09c",
+        "cb17d2f30",
+        "ca4fd9ae1",
+        "cc4be1474",
+        "cc9a462a3",
+        "c97d57b40",
+        "ccbc3b85a",
+        "c3652c3b3",
+        "cc2a7e6f5"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 8,
+      "voices": 8,
+      "ownerVoices": 7,
+      "sources": 6,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 6
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2010,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c5d04ff06",
+          "polarity": "negative",
+          "claim": "Machine locked up after about a day and a half and was returned to the retailer for repair or replacement.",
+          "quote": "machine locking up on me",
+          "url": "https://www.sewingmachinesplus.com/juki-MO-644D.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c6e5d9f99",
+          "polarity": "negative",
+          "claim": "Owner could not get a chain stitch to form despite repeated rethreading, correct needle insertion and tension at 4.",
+          "quote": "rethreaded countless times",
+          "url": "https://www.reddit.com/r/sewing/comments/iaw9qd/juki_mo_644d_if_you_have_this_model_or_if_you_are/g1rfky1/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c2cc16051",
+          "polarity": "positive",
+          "claim": "Owner says it never skips a beat and went three months without rethreading, used for fleece and spandex-to-mesh seams.",
+          "quote": "thing never skips a beat",
+          "url": "https://www.reddit.com/r/myog/comments/ewnp4d/help_me_find_a_serger/fg3fisj/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c05ab204f",
+          "polarity": "positive",
+          "claim": "Owner reports no problems with the serger.",
+          "quote": "I have not had any problems whatsoever with this serger",
+          "url": "https://www.sewingmachinesplus.com/juki-MO-644D.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c7a12f6ba",
+          "polarity": "mixed",
+          "claim": "A school with three MO-644D machines has two working well and one that will not chain because of a bent part under the foot.",
+          "quote": "the two that work like champs",
+          "url": "https://www.reddit.com/r/sewing/comments/1au7rxl/serger_anatomy_questions/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c5d04ff06",
+        "c05ab204f",
+        "c6e5d9f99",
+        "c5b643506",
+        "c24e84968",
+        "c2cc16051",
+        "c7a12f6ba",
+        "c80ce7864"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 2,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2015,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cda8b520f",
+          "polarity": "positive",
+          "claim": "Owner runs regular universal sewing machine needles in the MO644D without problems.",
+          "quote": "I use regular sewing machine needles in my MO644D.",
+          "url": "https://www.reddit.com/r/sewhelp/comments/a0s5nf/what_kind_of_needles_fit_a_juki_mo64de_serger/eal48ad/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c9460744a",
+          "polarity": "positive",
+          "claim": "First-time owner says the retailer package included thread and accessories needed to start serging.",
+          "quote": "it came with all the thread and accessories needed to dig right in",
+          "url": "https://www.sewingmachinesplus.com/juki-MO-644D.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c9460744a",
+        "cb6ccd7da",
+        "c2b1d2550",
+        "cda8b520f",
+        "cad0bc409"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 1,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 5
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2021,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c39e7d1bf",
+          "polarity": "negative",
+          "claim": "Owner of a new MO-644D bought in November reports staining and an oily feel on the underside after a handful of projects.",
+          "quote": "only now noticed this staining at the bottom",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1d1devq/serger_questionis_this_normal/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c22c2f0ea",
+        "cf151a465",
+        "c39e7d1bf",
+        "cab938513",
+        "c45a51fc1"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cc5b04a25",
+          "polarity": "negative",
+          "claim": "Newly bought machine gave inconsistent overlock stitches, good on top but very loopy on the back.",
+          "quote": "The front looks okay, but the back is very loopy",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1oy3i9b/juki_mo644d_serger_looping_issue/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c0e8dba0b",
+          "polarity": "negative",
+          "claim": "After four years of use, an MO-644D developed large loops on the underside from the left needle thread after a thread colour change, despite rethreading.",
+          "quote": "which is causing massive loops on the underside of the fabric",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1lrmfg3/juki_serger_help_pls/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cc5b04a25",
+        "c6e8a6235",
+        "c15d96b22",
+        "c0e8dba0b"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2018,
+        2020
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c3bb1518b",
+          "polarity": "positive",
+          "claim": "Reviewer describes the machine as quiet and smooth running.",
+          "quote": "Quiet and runs smoothly",
+          "url": "https://www.sewingmachinesplus.com/juki-MO-644D.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c3bb1518b",
+        "cfd0cf4c8"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 0,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2013,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "c0944e171",
+        "ce7ba163c"
+      ]
+    },
+    {
+      "theme": "differential_feed",
+      "label": "Differential feed",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c38550ad9"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2021
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c8339f43a",
+          "polarity": "negative",
+          "claim": "Owner finds the standard serger body layout awkward for positioning a very small tube such as a baby hat.",
+          "quote": "really doesn’t seem to allow for proper positioning of this teeny tiny hat",
+          "url": "https://www.reddit.com/r/sewing/comments/m9ey69/finished_project_with_some_issues_serging/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c8339f43a"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2015,
+        2015
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c5d4b5488"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2015,
+        2015
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c6e14d4aa"
+      ]
+    },
+    {
+      "theme": "cutting_trimming",
+      "label": "Cutting and trimming",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2015,
+        2015
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c2906974b"
+      ]
+    },
+    {
+      "theme": "rolled_hem",
+      "label": "Rolled hem",
+      "statements": 2,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2015,
+        2015
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c8970cff7",
+        "c286d0822"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B0014134IO",
+      "pageRating": 4.4,
+      "pageCount": 632,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "lowRated": 0,
+      "sampled": "0 top reviews (0 US, 0 other countries) of 632 ratings"
+    },
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://www.sewingmachinesplus.com/juki-MO-644D.php",
+      "pageRating": 4.82,
+      "pageCount": 34,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 4,
+        "5": 29
+      },
+      "lowRated": 1,
+      "sampled": null
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "Max. 1500 spm.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "maker-page"
+    },
+    {
+      "label": "Threads",
+      "juki": "2/3/4.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        },
+        {
+          "label": "Juki catalog",
+          "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+        }
+      ],
+      "field": "threads",
+      "source": "maker-page"
+    },
+    {
+      "label": "2-thread converter",
+      "juki": "Optional (catalog). Not in the standard accessory list.",
+      "others": "Dealers say the same.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki catalog",
+          "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+        }
+      ],
+      "field": "stitchTypes",
+      "source": "catalog"
+    },
+    {
+      "label": "Differential feed",
+      "juki": "0.7 - 2.0 ratio.",
+      "others": "Matches our ratio.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        }
+      ],
+      "field": "differentialFeed",
+      "source": "maker-page"
+    },
+    {
+      "label": "Differential dial location",
+      "juki": "Right hand side (page wording).",
+      "others": "Owner and dealer copy say left.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        },
+        {
+          "label": "Juki manual",
+          "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_1.pdf"
+        }
+      ],
+      "field": "differentialFeedDialLocation",
+      "source": "maker-page"
+    },
+    {
+      "label": "Presser foot lift",
+      "juki": "0.2 in (5 mm).",
+      "others": "Our spec had no figure.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        },
+        {
+          "label": "Juki manual",
+          "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_1.pdf"
+        }
+      ],
+      "field": "presserFootLift",
+      "source": "maker-page"
+    },
+    {
+      "label": "Weight",
+      "juki": "15 lb (7.0 kg).",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        },
+        {
+          "label": "Juki catalog",
+          "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+        }
+      ],
+      "field": "weightLb",
+      "source": "maker-page"
+    },
+    {
+      "label": "Dimensions",
+      "juki": "Page: 10.6 W x 13.5 H x 11.5 D in. Catalog: 270 W x 340 D x 295 H mm.",
+      "others": "Our spec has 13.4 x 10.6 x 11.6, axes unlabelled.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        },
+        {
+          "label": "Juki catalog",
+          "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+        }
+      ],
+      "field": "dimensionsIn",
+      "source": "maker-page"
+    },
+    {
+      "label": "Needles",
+      "juki": "Household (HAx1) #11-14; manual says 130/705H.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        },
+        {
+          "label": "Juki manual",
+          "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_1.pdf"
+        }
+      ],
+      "field": "needleSystem",
+      "source": "maker-page"
+    },
+    {
+      "label": "Stitch width",
+      "juki": "Left 6 mm, right 4 mm, rolled hem 2 mm.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki catalog",
+          "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+        }
+      ],
+      "field": "stitchWidthMm",
+      "source": "catalog"
+    },
+    {
+      "label": "Stitch length",
+      "juki": "1 to 4 mm, standard 2.5 mm.",
+      "others": "Our rolled hem 1.5 figure is not on the page.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Juki catalog",
+          "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+        }
+      ],
+      "field": "stitchLengthMm",
+      "source": "catalog"
+    },
+    {
+      "label": "Rolled hem",
+      "juki": "Built in: \"Flip and roll\", no needle plate or foot change.",
+      "others": "Matches our spec (maker claim).",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        }
+      ],
+      "field": "rolledHem",
+      "source": "maker-page"
+    },
+    {
+      "label": "Free arm",
+      "juki": "Not stated in the maker documents.",
+      "others": "Owner site says no free arm.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        }
+      ],
+      "field": "freeArm",
+      "source": "maker-page"
+    },
+    {
+      "label": "Throat space",
+      "juki": "Not published.",
+      "others": "Not published.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        }
+      ],
+      "field": "throatIn",
+      "source": "maker-page"
+    },
+    {
+      "label": "Stitch count",
+      "juki": "Not published.",
+      "others": "Not published.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        }
+      ],
+      "field": "stitchCount",
+      "source": "maker-page"
+    },
+    {
+      "label": "Thread trimmer",
+      "juki": "Not published (serger knife only).",
+      "others": "Not published.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        }
+      ],
+      "field": "threadTrimmer",
+      "source": "maker-page"
+    },
+    {
+      "label": "In the box",
+      "juki": "Maker list above; no converter, no specialty feet.",
+      "others": "Dealer bundles add feet and DVDs.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        }
+      ],
+      "field": "includedFeet",
+      "source": "maker-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "2 yr motors, light, wiring, switches, circuit boards, speed control; 5 yr other parts (factory defects). Generic wording, not model-specific.",
+      "others": "Dealers add 90 days labor, which is not in the maker FAQ.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Juki FAQ",
+          "url": "https://www.jukihome.com/faq/"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "faq"
+    },
+    {
+      "label": "Price",
+      "juki": "MSRP $1,199.00 (maker). Dealer pricing only otherwise.",
+      "others": "Seen $449.00 at Michaels on 2026-09-29.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        }
+      ],
+      "field": "msrp",
+      "source": "maker-page"
+    },
+    {
+      "label": "Manual",
+      "juki": "Linked from the page but titled MO-644DN/654DEN.",
+      "others": "No separate MO-644D manual found.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Juki manual",
+          "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_1.pdf"
+        }
+      ],
+      "field": "manualModel",
+      "source": "manual"
+    },
+    {
+      "label": "Maker claims",
+      "juki": "\"Heavy Duty Knife System\" and \"Industrial Type Dial\" are Juki wording.",
+      "others": "Treat as claims.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        }
+      ],
+      "field": "claims",
+      "source": "maker-page"
+    },
+    {
+      "label": "Availability",
+      "juki": "Page live, no notice. Not in the contact form model list.",
+      "others": "Dealers list it.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Juki page",
+          "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+        }
+      ],
+      "field": "availability",
+      "source": "maker-page"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "MO-654DE",
+      "label": "Juki MO-654DE",
+      "rows": [
+        {
+          "feature": "Included converter",
+          "urls": 0,
+          "classes": [],
+          "summary": "2/3 thread converter standard",
+          "check": "Juki catalog comparison table and 654DE page accessories, fetched 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Looper threading aid",
+          "urls": 0,
+          "classes": [],
+          "summary": "Lower looper threader listed as a feature",
+          "check": "Juki MO-654DE page features, fetched 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Maker weight and depth",
+          "urls": 0,
+          "classes": [],
+          "summary": "15.5 lb, 12.5 x 13.5 x 7.7 in",
+          "check": "Juki MO-654DE page specifications, fetched 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

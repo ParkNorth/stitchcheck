@@ -8,24 +8,19 @@
   "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
   "siblings": [
     {
-      "model": "MO-654DE",
-      "label": "Juki MO-654DE",
-      "pattern": "mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])"
+      "model": "Singer 14HD854",
+      "label": "Singer Heavy Duty 14HD854",
+      "pattern": "14hd854(?![a-z0-9])"
     },
     {
-      "model": "MO-1000",
-      "label": "Juki MO-1000",
-      "pattern": "mo[\\s-]*1000(?![a-z0-9])"
+      "model": "Singer 14CG754",
+      "label": "Singer 14CG754",
+      "pattern": "14cg754(?![a-z0-9])"
     },
     {
-      "model": "MO-114D",
-      "label": "Juki MO-114D",
-      "pattern": "mo[\\s-]*114d(?![a-z0-9])"
-    },
-    {
-      "model": "MO-644DN",
-      "label": "Juki MO-644DN",
-      "pattern": "mo[\\s-]*644dn(?![a-z0-9])"
+      "model": "Singer 14SH654",
+      "label": "Singer 14SH654",
+      "pattern": "14sh654(?![a-z0-9])"
     }
   ],
   "features": [
@@ -64,39 +59,21 @@
   ],
   "rivals": [
     [
-      "mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])",
-      "Juki MO-654DE"
+      "2340cv(?![a-z0-9])",
+      "Brother 2340CV"
+    ],
+    [
+      "coverpro[\\s-]*2000cpx(?![a-z0-9])|2000cpx(?![a-z0-9])",
+      "Janome CoverPro 2000CPX"
     ],
     [
       "1034d(?![a-z0-9])",
       "Brother 1034D"
-    ],
-    [
-      "vibrant(?![a-z0-9])|bl460b(?![a-z0-9])",
-      "Baby Lock Vibrant"
     ]
   ],
   "themeRemap": [],
-  "others": "mo[\\s-]*1000(?![a-z0-9])|mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])|mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])|1034d(?![a-z0-9])|vibrant(?![a-z0-9])|bl460b(?![a-z0-9])",
+  "others": "2340cv(?![a-z0-9])|coverpro[\\s-]*2000cpx(?![a-z0-9])|2000cpx(?![a-z0-9])|1034d(?![a-z0-9])",
   "scopeRules": [],
   "siblingSummaries": {},
-  "siblingExtras": {
-    "MO-654DE": [
-      {
-        "feature": "Included converter",
-        "summary": "2/3 thread converter standard",
-        "check": "Juki catalog comparison table and 654DE page accessories, fetched 2026-10-02"
-      },
-      {
-        "feature": "Looper threading aid",
-        "summary": "Lower looper threader listed as a feature",
-        "check": "Juki MO-654DE page features, fetched 2026-10-02"
-      },
-      {
-        "feature": "Maker weight and depth",
-        "summary": "15.5 lb, 12.5 x 13.5 x 7.7 in",
-        "check": "Juki MO-654DE page specifications, fetched 2026-10-02"
-      }
-    ]
-  }
+  "siblingExtras": {}
 }

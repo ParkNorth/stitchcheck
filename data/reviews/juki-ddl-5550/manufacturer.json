@@ -1,15 +1,356 @@
 {
   "slug": "juki-ddl-5550",
-  "collected": null,
+  "collected": "2026-10-02",
   "purpose": "First-party facts from the maker's own documents, compared against data/specs/juki-ddl-5550.json. Research input for the editor; not a spec file.",
   "documents": [
     {
       "id": "maker-page",
-      "url": "https://pdf.directindustry.com/pdf/juki-industrial-sewing-machine/ddl-5550n-series/173840-711982.html",
+      "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E",
       "type": "product page",
+      "fetched": "2026-10-02",
+      "note": "Juki Corporation (Japan) industrial product page for DDL-5550N-7 and DDL-5550N, with NA and NH variants. The Juki USA site (juki.com) returned 404 for ddl-5550n and has no DDL-5550N page that could be fetched."
+    },
+    {
+      "id": "manual",
+      "url": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf",
+      "type": "instruction manual",
+      "fetched": "2026-10-02",
+      "note": "Juki instruction manual for DDL-5550N, 5550NA, 5550NH, 48 pages, English, German, French, Spanish, Italian. Hosted on juki.co.jp. Text PDF."
+    },
+    {
+      "id": "catalog",
+      "url": "https://juki.com/static/version1789761565/frontend/SBI/bootstrap/en_US/images/products/juki-apparel.pdf",
+      "type": "catalog",
+      "fetched": "2026-10-02",
+      "note": "Juki Americas apparel catalog, page 6 covers DDL-5550N-7 and DDL-5550N. The single-model catalog PDF (ddl5550n7.pdf) has a broken font encoding and could not be read."
+    },
+    {
+      "id": "manual-old",
+      "url": "https://www.cutsew.com/assets/images/Manual_JUKI_DDL5550.pdf",
+      "type": "instruction manual",
+      "fetched": "2026-10-02",
+      "note": "Older DDL-5550 and DDL-5530 instruction manual, 8 pages, image PDF read by OCR (verify against the PDF). Third-party mirror (cutsew.com), not maker-hosted."
+    },
+    {
+      "id": "manual-n7",
+      "url": "https://www.goldstartool.com/img/27_20210611100933JUKI%20DDL-5550N-7,%20DDL-5550-7+Instruction+Manual(+29117504)+No.00.pdf",
+      "type": "instruction manual",
+      "fetched": "2026-10-02",
+      "note": "DDL-5550N-7 and DDL-5550-7 instruction manual with automatic thread trimmer, 12 pages, image PDF read by OCR (verify against the PDF). Dealer-hosted copy (GoldStar Tool)."
+    },
+    {
+      "id": "sibling-8700",
+      "url": "https://juki.com/ddl-8700",
+      "type": "product page",
+      "fetched": "2026-10-02",
+      "note": "Juki USA page for the closest sibling, DDL-8700."
+    },
+    {
+      "id": "parts-warranty",
+      "url": "https://jukiamericas.com/pages/returns-and-exchanges-policy",
+      "type": "warranty and returns",
+      "fetched": "2026-10-02",
+      "note": "Juki Americas policy page. It says it applies to spare parts only and that equipment follows separate sales order terms."
+    },
+    {
+      "id": "directindustry",
+      "url": "https://pdf.directindustry.com/pdf/juki-industrial-sewing-machine/ddl-5550n-series/173840-711982.html",
+      "type": "catalog mirror",
       "fetched": null,
-      "note": "TODO: fetch, then add the manual, warranty and brochure PDFs with their pages"
+      "note": "The spec's manufacturerUrl. A third-party catalog host, not fetched; the Juki-hosted page and catalog above were used instead."
     }
   ],
-  "facts": []
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "DDL-5550N: max 5,500 sti/min. DDL-5550NA and NH: 4,000. DDL-5550N-7: 5,000 on the page and in the catalog.",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": 5500,
+      "note": "The 5,500 figure is the base DDL-5550N only. The -7 trimmer model is listed at 5,000. The manual states noise levels at 5,000 sti/min.",
+      "site": {
+        "label": "Speed",
+        "juki": "5,500 stitches per minute on the base DDL-5550N (5,000 on the -7); the NA and NH variants top out at 4,000.",
+        "others": "Dealers quote 5,500.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          },
+          {
+            "label": "Juki instruction manual",
+            "url": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf"
+          },
+          {
+            "label": "Juki Americas catalog, p. 6",
+            "url": "https://juki.com/static/version1789761565/frontend/SBI/bootstrap/en_US/images/products/juki-apparel.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchLength",
+      "value": "DDL-5550N: max 5 mm. NA: 4 mm. NH: 5 mm. DDL-5550N-7: 4 mm.",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": 5,
+      "note": "Confirms 5 mm for the base N. The -7 is listed at 4 mm. The manual agrees for N, NA, NH.",
+      "site": {
+        "label": "Stitch length",
+        "juki": "5 mm maximum on the base DDL-5550N; 4 mm on the -7 and the NA.",
+        "others": "Dealers quote 5 mm.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          },
+          {
+            "label": "Juki instruction manual",
+            "url": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "needleSystem",
+      "value": "DBx1 #9 to #18 for N (delivered with #14). NA: DAx1 #9 to #11. NH: DBx1 #20 to #23 (delivered with #21).",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "DBx1, size 14 at delivery, range 9 to 18",
+      "note": "The page gives the JE equivalent as 134 (Nm75) for the #14 on both N and N-7; the catalog gives Nm75 for the -7 and Nm90 for the N. Page and catalog disagree on the metric size; the DB system and #14 agree.",
+      "site": {
+        "label": "Needle",
+        "juki": "DBx1, size 14 at delivery, sizes 9 to 18 on the base model.",
+        "others": "Dealers quote DBx1 #14.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          },
+          {
+            "label": "Juki instruction manual",
+            "url": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf"
+          },
+          {
+            "label": "Juki Americas catalog, p. 6",
+            "url": "https://juki.com/static/version1789761565/frontend/SBI/bootstrap/en_US/images/products/juki-apparel.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "presserFootLift",
+      "value": "By hand 5.5 mm; by knee lifter 13 mm (NA: 4 mm and 9 mm). Manual: standard knee lift 10 mm, adjustable to a maximum 13 mm.",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "5.5 mm by hand, 13 mm by knee (knee lifter on stand)",
+      "note": "Page and manual agree on a 13 mm maximum; the manual says the standard knee lift is 10 mm and the 13 mm is an adjustment.",
+      "site": {
+        "label": "Presser foot lift",
+        "juki": "5.5 mm by hand; 13 mm by knee lifter, with 10 mm standard and 13 mm as the adjustable maximum.",
+        "others": "Dealers quote 13 mm.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          },
+          {
+            "label": "Juki instruction manual",
+            "url": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "needleBarStrokeMm",
+      "value": "30.7 mm (NA: 29 mm; NH: 35 mm)",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": 30.7
+    },
+    {
+      "field": "lubrication",
+      "value": "Automatic; automatic-lubricating full-rotary hook; JUKI New Defrix Oil No. 1 (equivalent to ISO VG7); oil pan filled to the HIGH mark",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Automatic, oil pan; Juki New Defrix Oil No. 1 (ISO VG7 equivalent)"
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "Only the DDL-5550N-7 is listed as \"with automatic thread trimmer\"; the base DDL-5550N has no trimmer listed.",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "None on DDL-5550 and DDL-5550N; trimmer is the DDL-5550N-7 variant",
+      "site": {
+        "label": "Thread trimmer",
+        "juki": "Not on the base DDL-5550N; the DDL-5550N-7 adds an automatic thread trimmer.",
+        "others": "Dealers note the -7 costs more.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          }
+        ]
+      }
+    },
+    {
+      "field": "weight",
+      "value": "Total weight 81 kg, listed in the DDL-5550N-7 table only; no weight row for the base DDL-5550N.",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The spec has weightLb null and a conflict note citing an unattributed dealer snippet of 75 lb (about 34 kg). 81 kg is about 179 lb, which cannot be a bare head, so the figure probably covers machine, table and motor, but the page does not say what it includes. Do not publish as head weight. Needs a human check against the printed catalog.",
+      "site": {
+        "label": "Weight",
+        "juki": "81 kg total weight is listed for the DDL-5550N-7 only, with no statement of what it includes.",
+        "others": "One dealer snippet said about 75 lb for the head.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          }
+        ]
+      }
+    },
+    {
+      "field": "motor",
+      "value": "The page presents the SC-920C control box and M92 servomotor with the -7. The old DDL-5550 manual lists a 400 W (1/2 HP) clutch motor as standard. Power: single-phase 100 to 120 V or 200 to 240 V, three-phase 200 to 240 V, 650 VA (-7 table).",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": "Not built in. Sold as a head; dealer bundles add a table, stand and a servo or clutch motor",
+      "note": "Fits the spec: the head is sold with a motor chosen at order (page says \"When you place orders\" with an image only). Which motor ships is the dealer's bundle.",
+      "site": {
+        "label": "Motor",
+        "juki": "Juki lists a servomotor and control box for the -7. The older manual names a 400 W clutch motor as standard.",
+        "others": "Dealer bundles include a servo motor.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          },
+          {
+            "label": "Old DDL-5550 manual",
+            "url": "https://www.cutsew.com/assets/images/Manual_JUKI_DDL5550.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "throatIn",
+      "value": "No arm space, throat or workspace figure in the Juki page, manual or catalog page 6.",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "One dealer lists workspace 10 1/4 in and bed 7 by 18 25/32 in (Sewing Gold search snippet). That is a dealer figure, not Juki's; the measure (needle to arm or arm opening) is not stated. Do not publish as needle-to-body throat.",
+      "site": {
+        "label": "Throat space",
+        "juki": "Juki publishes no arm space or throat figure for this model.",
+        "others": "One dealer lists workspace 10 1/4 in.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          }
+        ]
+      }
+    },
+    {
+      "field": "noise",
+      "value": "LpA 83.5 dB(A) at the workstation and LWA 88.0 dB(A), measured at 5,000 sti/min per ISO 10821-C.6.2",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "warranty",
+      "value": "No model-specific warranty found. Juki Americas publishes a 90-day Spare Parts Warranty, and says equipment follows separate sales order terms.",
+      "source": "parts-warranty",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The jukihome.com warranty (two years on electrical parts, five years on others) is for Juki's domestic home machines and was not treated as applying to this industrial head. The industrial warranty is set by the selling dealer; not published for this model.",
+      "site": {
+        "label": "Warranty",
+        "juki": "No model-specific warranty published; Juki Americas covers spare parts for 90 days and refers equipment to sales order terms.",
+        "others": "Dealer-defined.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki Americas parts policy",
+            "url": "https://jukiamericas.com/pages/returns-and-exchanges-policy"
+          }
+        ]
+      }
+    },
+    {
+      "field": "price",
+      "value": "Not published by the maker (dealer pricing only).",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "countryOfManufacture",
+      "value": "Not stated on the Juki page, manual or catalog page fetched.",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The spec's Made in Japan rests on a quoted Juki reply in an Amazon Q&A and dealer titles. The manual is hosted on juki.co.jp, but no maker document fetched states the country.",
+      "site": {
+        "label": "Made in",
+        "juki": "No Juki document fetched states the country of manufacture.",
+        "others": "Dealers and one Amazon Q&A quote Made in Japan.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          }
+        ]
+      }
+    },
+    {
+      "field": "claims",
+      "value": "\"Thread take-up mechanism, feed mechanism, thread paths and hook have been further improved to enhance responsiveness to material changes and to ensure consistent stitch quality\"; \"Higher lift of the presser foot\"; \"Sure thread trimming mechanism\" (DDL-5550N-7); control box \"resistant to voltage fluctuations, noise and vibration\" and about 25% lower standby power (SC-920C, versus the SC-910N).",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketing wording, quoted as a claim only. The words \"industrial-quality\" do not appear on the page fetched.",
+      "site": {
+        "label": "Maker claims",
+        "juki": "Juki says the take-up, feed, thread path and hook were improved for consistent stitch quality.",
+        "others": "Dealers repeat \"suitable for light to medium-heavy materials\".",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          }
+        ]
+      }
+    },
+    {
+      "field": "modelNaming",
+      "value": "The Juki page and catalog treat DDL-5550N (no trimmer), DDL-5550NA (light), DDL-5550NH (heavy) and DDL-5550N-7, NA-7, NH-7 (trimmer) as one series. The old manuals are titled DDL-5550 and DDL-5550-7, DDL-5530.",
+      "source": "catalog",
+      "vs_spec": "confirms",
+      "spec_value": "DDL-5550 and DDL-5550N are one catalog entry",
+      "note": "Reddit threads also say DDL-5550-6; no maker document fetched here describes a -6 version."
+    },
+    {
+      "field": "availability",
+      "value": "The Juki Japan page lists the model with a catalog, manuals and parts list. The Juki USA site returned a 404 for a DDL-5550N URL.",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Not read as discontinued. The 404 is a wrong-URL result, not an availability statement."
+    }
+  ]
 }

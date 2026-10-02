@@ -1,0 +1,621 @@
+{
+  "slug": "singer-14hd854",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 17,
+    "itemsCollected": 237,
+    "statements": 29,
+    "voices": 18,
+    "ownerVoices": 12,
+    "dateRange": [
+      2017,
+      2026
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 14,
+        "items": 222
+      },
+      "retailer": {
+        "sources": 3,
+        "items": 14
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.5 from 63 ratings on B00EF1ICNC is shared by several listings (the same figure appears on unrelated Singer Heavy Duty 0420 and 0460 listings), so it is a pooled rating, not this model's own. B00IXPWNNG (4.4 from 12) names the 14HD854 in its title and is not pooled."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 11,
+      "voices": 8,
+      "ownerVoices": 4,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 8
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 6
+      },
+      "years": [
+        2021,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c64e7dd81",
+          "polarity": "negative",
+          "claim": "Owner cannot find ballpoint or stretch needles in the 2022/ELx705 type for their overlocker.",
+          "quote": "having no luck finding 'type J' or 'ELx705'",
+          "url": "https://www.reddit.com/r/sewing/comments/qavcfn/singer_14hd854_serger_ballpoint_needles/hh69o6k/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cf3359c8c",
+        "cae75aa93",
+        "cc6863f06",
+        "c7572e40c",
+        "c64e7dd81",
+        "cb421cb86",
+        "caabf7ff7",
+        "c2ede30d6",
+        "c3d708915",
+        "c7978cc78",
+        "c1ce4f283"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 5,
+      "sources": 6,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 5,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 5,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c9d0bfc42",
+          "polarity": "negative",
+          "claim": "Unit arrived with the drive belt not connected, so the motor ran but the machine did not turn properly.",
+          "quote": "the belt was not connected",
+          "url": "https://www.sewingmachinesplus.com/singer-14hd854-serger.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cc04bf933",
+          "polarity": "negative",
+          "claim": "Secondhand 14HD854 stopped responding to the foot pedal after a first test on scrap fabric.",
+          "quote": "the serger doesn't seem to work at all using the pedal",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1lmyenk/serger_clicking_noise/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cc0abc871",
+          "polarity": "positive",
+          "claim": "Owner bought a refurbished 14HD854 and says it handles everything they ask of it.",
+          "quote": "it does everything I ask of it",
+          "url": "https://www.reddit.com/r/sewing/comments/1asv2ov/maybe_time_for_a_serger/kqt45xj/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c7978a175",
+        "ca596cdf0",
+        "cc0abc871",
+        "cc04bf933",
+        "cdcf98ad9",
+        "c9d0bfc42"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 2,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c3954867a",
+          "polarity": "negative",
+          "claim": "Buyer felt the 14HD854 was cheaply made overall.",
+          "quote": "the machine overall felt cheaply made",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1jo91ae/looking_to_buy_a_serger/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cfa24d161",
+          "polarity": "negative",
+          "claim": "Owner judges the internal build to be sloppily made and would not buy it again.",
+          "quote": "you can see inside that it's a bit haphazardly made",
+          "url": "https://www.reddit.com/r/sewing/comments/1luhgj1/what_serger_to_buy_as_a_nonprofessional_but/n1y4ges/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c1bad4a6b",
+          "polarity": "positive",
+          "claim": "Buyer wanted a plain durable serger and finds this one feels solid so far.",
+          "quote": "so far, this one feels solid",
+          "url": "https://www.sewingmachinesplus.com/singer-14hd854-serger.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cfa24d161",
+        "c3954867a",
+        "c1bad4a6b"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cc23d2a29",
+          "polarity": "negative",
+          "claim": "Owner says foot pressure must be adjusted with a screwdriver, so you track turns from the factory setting.",
+          "quote": "you have to adjust foot pressure with a screwdriver",
+          "url": "https://www.reddit.com/r/sewing/comments/1luhgj1/what_serger_to_buy_as_a_nonprofessional_but/n1y4ges/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ca1c5cc2b",
+        "cc23d2a29"
+      ]
+    },
+    {
+      "theme": "differential_feed",
+      "label": "Differential feed",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c0770c313",
+          "polarity": "negative",
+          "claim": "Owner tried gathering on voile and got little gathering either.",
+          "quote": "I just tried out on Voile and not a lot happens either.",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1ltf3p3/my_serger_wont_gather_fabrics_despite_of/n1q582o/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cf4408624",
+        "c0770c313"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c91c5a076",
+          "polarity": "negative",
+          "claim": "Owner found a looper thread came off its hooks during the jam.",
+          "quote": "appears to have come off the hooks",
+          "url": "https://www.reddit.com/r/sewhelp/comments/kkky4f/new_singer_14hd854_jammedhelp_unjamming/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cd698f067",
+          "polarity": "negative",
+          "claim": "Owner reports a thread inside unhooks easily because one hook sits in a different plane.",
+          "quote": "One of the threads inside comes unhooked easily",
+          "url": "https://www.reddit.com/r/sewing/comments/1luhgj1/what_serger_to_buy_as_a_nonprofessional_but/n1y4ges/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c91c5a076",
+        "cd698f067"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cc7ff415a",
+          "polarity": "negative",
+          "claim": "Owner says the machine moves across the table in use.",
+          "quote": "it walks across the table",
+          "url": "https://www.reddit.com/r/sewing/comments/1luhgj1/what_serger_to_buy_as_a_nonprofessional_but/n1y4ges/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c99392af3",
+          "polarity": "negative",
+          "claim": "Secondhand 14HD854 made a clicking noise and did not advance the fabric well.",
+          "quote": "started making a clicking noise",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1lmyenk/serger_clicking_noise/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cc7ff415a",
+        "c99392af3"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c50312960",
+          "polarity": "positive",
+          "claim": "Owner lists the free arm as a pro.",
+          "quote": "Pros - it has a free arm.",
+          "url": "https://www.reddit.com/r/sewing/comments/1luhgj1/what_serger_to_buy_as_a_nonprofessional_but/n1y4ges/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c50312960"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B00EF1ICNC",
+      "pageRating": 4.5,
+      "pageCount": 63,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 6
+      },
+      "lowRated": 2,
+      "sampled": "8 top reviews (8 US, 0 other countries) of 63 ratings"
+    },
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B00IXPWNNG",
+      "pageRating": 4.4,
+      "pageCount": 12,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "lowRated": 0,
+      "sampled": "0 top reviews (0 US, 0 other countries) of 12 ratings"
+    },
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://www.sewingmachinesplus.com/singer-14hd854-serger.php",
+      "pageRating": 4.5,
+      "pageCount": 6,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 5
+      },
+      "lowRated": 1,
+      "sampled": null
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Max speed",
+      "juki": "1,300 spm (product page); 1,200 +/- 150 spm (manual)",
+      "others": "Retailers repeat 1,300 spm",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Product page",
+          "url": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+        },
+        {
+          "label": "Manual p. 51",
+          "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+        }
+      ],
+      "field": "Max sewing speed",
+      "source": "manual"
+    },
+    {
+      "label": "Stitch types",
+      "juki": "6 (product page and manual)",
+      "others": "Some retailers say 8 or 10",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Product page",
+          "url": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+        },
+        {
+          "label": "Manual section 1",
+          "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+        }
+      ],
+      "field": "Stitch types",
+      "source": "manual"
+    },
+    {
+      "label": "Differential feed ratio",
+      "juki": "1:0.7 to 1:2 (manual)",
+      "others": "Not given by retailers",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Manual p. 51",
+          "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+        }
+      ],
+      "field": "Differential feed",
+      "source": "manual"
+    },
+    {
+      "label": "Presser foot lift",
+      "juki": "4.5 to 5.0 mm rise (manual)",
+      "others": "Not given",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Manual p. 51",
+          "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+        }
+      ],
+      "field": "Presser foot lift",
+      "source": "manual"
+    },
+    {
+      "label": "Weight",
+      "juki": "13.5 lb (page); 6.2 kg = 13.7 lb (manual)",
+      "others": "Amazon 13.5 lb; one listing 7.38 kg",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Product page",
+          "url": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+        },
+        {
+          "label": "Manual p. 51",
+          "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+        }
+      ],
+      "field": "Weight",
+      "source": "manual"
+    },
+    {
+      "label": "Dimensions",
+      "juki": "13.3 x 11.0 x 10.4 in (manual, converted)",
+      "others": "14 x 11 x 11.5 in (page)",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Product page",
+          "url": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+        },
+        {
+          "label": "Manual p. 51",
+          "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+        }
+      ],
+      "field": "Dimensions",
+      "source": "manual"
+    },
+    {
+      "label": "Warranty",
+      "juki": "25 yr head / 2 yr motor and electrics / 90 day parts (Singer warranty page)",
+      "others": "Dealers repeat Singer's terms",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Warranty page",
+          "url": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+        }
+      ],
+      "field": "Warranty",
+      "source": "warranty-page"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "ProFinish 14CG754",
+      "label": "Singer ProFinish 14CG754",
+      "rows": [
+        {
+          "feature": "Maker list price",
+          "urls": 0,
+          "classes": [],
+          "summary": "Singer lists the 14CG754 at $209.99 against a $349.99 MSRP, versus $319.99 against $399.99 for the 14HD854.",
+          "check": "Singer product pages, fetched 2026-10-02; both showed Out of Stock.",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Maker speed claim",
+          "urls": 0,
+          "classes": [],
+          "summary": "Singer's 14CG754 page lists 1,300 stitches per minute, the same figure as the 14HD854 page.",
+          "check": "Singer 14CG754 page, 2026-10-02. The 14HD854 manual says 1,200 +/- 150 spm; no 14CG754 manual was fetched.",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Maker speed control",
+          "urls": 0,
+          "classes": [],
+          "summary": "Singer's 14CG754 page says electronic speed control; the 14HD854 page says digital speed control.",
+          "check": "Both Singer product pages, 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

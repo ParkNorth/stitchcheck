@@ -1,0 +1,60 @@
+{
+  "slug": "janome-coverpro-2000cpx",
+  "generated": "2026-10-02T12:28:01.327Z",
+  "counts": {
+    "error": 0,
+    "warn": 7
+  },
+  "items": [
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 3 ASINs (B004H6T1JY, B00T7ZFWWU, B013I7MB1M); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 19, this 8, sibling 1, unclear 10"
+    },
+    {
+      "level": "warn",
+      "id": "scope",
+      "message": "53% of spec claims have unclear scope: many threads cover several machines"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "9 Reddit threads, 3 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "reddit",
+      "message": "few Reddit threads name the model in the title; collection may be on loose matches"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Warranty (maker, general)\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Needles\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Standard accessories (page)\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Seam Tightening System (STS)\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence thin, 8 voices (4 first-hand), 10 sources, status draft"
+    }
+  ]
+}

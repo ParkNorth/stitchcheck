@@ -1,0 +1,251 @@
+[
+  {
+    "id": "web:1f156e5ad080d609",
+    "url": "https://www.amazon.com/dp/B013I7MB1M",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T12:24:59.856Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T12:24:59.856Z",
+    "status": "ok",
+    "site_rating": 4.5,
+    "site_review_count": 67,
+    "asin": "B013I7MB1M",
+    "parent_asin": "B0HCDLL2HP",
+    "product_asins": [
+      "B004H6T1JY",
+      "B00T7ZFWWU",
+      "B013I7MB1M"
+    ],
+    "pooled_variations": true,
+    "sampled": "0 top reviews (0 US, 0 other countries) of 67 ratings",
+    "listing": {
+      "title": "Janome CoverPro 2000CPX Coverstitch Machine",
+      "price_usd": 799,
+      "best_sellers_rank": "#117,357 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #275 in Sewing Machines",
+      "details": {
+        "Model Number": "2000CPX",
+        "Included Components": "set of needles, screwdriver large, screwdriver small, tweezer, nets, spool holder caps, lint brush, needle threader, oil, accessory box, instruction manual, foot control, CoverPro 2000CPX",
+        "Manufacturer": "Janome",
+        "Part Number": "2000cpx",
+        "Color": "white",
+        "Material": "Metal, Plastic",
+        "Item Dimensions D x W x H": "20\"D x 17\"W x 15\"H",
+        "Item Weight": "23 pounds"
+      }
+    }
+  },
+  {
+    "id": "web:e695662a7c4e2ae5",
+    "url": "https://www.sewingmachinesplus.com/janome-2000cpx.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-02T12:25:00.940Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-02T12:25:00.940Z",
+    "status": "thin",
+    "site_rating": null,
+    "site_review_count": 0,
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:r3vic6",
+    "url": "https://www.reddit.com/r/sewing/comments/r3vic6/coverstitch_brother_cv3550_vs_janome_coverpro/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Coverstitch. Brother CV3550 vs Janome CoverPro 2000CPX?",
+    "subreddit": "sewing",
+    "thread_id": "r3vic6",
+    "first_seen": "2026-10-02T12:25:03.894Z",
+    "last_fetched": "2026-10-02T12:25:03.894Z",
+    "status": "ok",
+    "cursor_utc": 1646694699,
+    "discovered_by": [
+      "all:Janome CoverPro 2000CPX",
+      "r/sewing:Janome CoverPro 2000CPX",
+      "all:CoverPro 2000CPX",
+      "r/sewing:CoverPro 2000CPX",
+      "r/sewing:CoverPro 2000CPX review",
+      "all:CoverPro 2000CPX problems",
+      "r/sewing:CoverPro 2000CPX problems",
+      "all:CoverPro 2000CPX vs",
+      "r/sewing:CoverPro 2000CPX vs"
+    ],
+    "content_hash": "0f46024f64d75f64"
+  },
+  {
+    "id": "reddit:1r6ng5r",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1r6ng5r/unravelling_chain_stitch_on_coverpro_2000cpx/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Unravelling chain stitch on CoverPro 2000CPX",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1r6ng5r",
+    "first_seen": "2026-10-02T12:25:03.894Z",
+    "last_fetched": "2026-10-02T12:25:03.894Z",
+    "status": "ok",
+    "cursor_utc": 1771293781,
+    "discovered_by": [
+      "all:Janome CoverPro 2000CPX",
+      "r/SewingForBeginners:Janome CoverPro 2000CPX",
+      "all:CoverPro 2000CPX",
+      "r/SewingForBeginners:CoverPro 2000CPX",
+      "r/SewingForBeginners:CoverPro 2000CPX review",
+      "r/SewingForBeginners:CoverPro 2000CPX problems",
+      "r/SewingForBeginners:CoverPro 2000CPX vs"
+    ],
+    "content_hash": "e9a5638729c77e40"
+  },
+  {
+    "id": "reddit:sq4xt3",
+    "url": "https://www.reddit.com/r/sewing/comments/sq4xt3/janome_2000cpx_service_manual/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Janome 2000CPX service manual",
+    "subreddit": "sewing",
+    "thread_id": "sq4xt3",
+    "first_seen": "2026-10-02T12:25:03.894Z",
+    "last_fetched": "2026-10-02T12:25:03.894Z",
+    "status": "ok",
+    "cursor_utc": 1644679188,
+    "discovered_by": [
+      "all:Janome CoverPro 2000CPX",
+      "r/sewing:Janome CoverPro 2000CPX"
+    ],
+    "content_hash": "67bb6b4160aa1fe1"
+  },
+  {
+    "id": "reddit:1ks47n2",
+    "url": "https://www.reddit.com/r/sewing/comments/1ks47n2/advice_for_cover_stitch/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Advice for cover stitch",
+    "subreddit": "sewing",
+    "thread_id": "1ks47n2",
+    "first_seen": "2026-10-02T12:25:03.894Z",
+    "last_fetched": "2026-10-02T12:25:03.894Z",
+    "status": "ok",
+    "cursor_utc": 1747934119,
+    "discovered_by": [
+      "all:Janome CoverPro 2000CPX",
+      "r/sewing:Janome CoverPro 2000CPX",
+      "all:CoverPro 2000CPX",
+      "r/sewing:CoverPro 2000CPX",
+      "r/sewing:CoverPro 2000CPX review",
+      "r/sewing:CoverPro 2000CPX problems",
+      "r/sewing:CoverPro 2000CPX vs"
+    ],
+    "content_hash": "63396717d1ba0d19"
+  },
+  {
+    "id": "reddit:1q226xi",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1q226xi/can_i_realistically_learn_cover_stitch_just_to/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Can I realistically learn cover stitch just to hem T-shirts?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1q226xi",
+    "first_seen": "2026-10-02T12:25:03.894Z",
+    "last_fetched": "2026-10-02T12:25:03.894Z",
+    "status": "ok",
+    "cursor_utc": 1767686915,
+    "discovered_by": [
+      "all:Janome CoverPro 2000CPX",
+      "r/SewingForBeginners:Janome CoverPro 2000CPX",
+      "all:CoverPro 2000CPX",
+      "r/SewingForBeginners:CoverPro 2000CPX",
+      "r/SewingForBeginners:CoverPro 2000CPX review",
+      "r/SewingForBeginners:CoverPro 2000CPX problems",
+      "r/SewingForBeginners:CoverPro 2000CPX vs"
+    ],
+    "content_hash": "8a4db96c52115024"
+  },
+  {
+    "id": "reddit:8bvz6n",
+    "url": "https://www.reddit.com/r/sewing/comments/8bvz6n/will_a_home_serger_or_coverstitch_machine_work_on/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Will a home serger or coverstitch machine work on fleece?",
+    "subreddit": "sewing",
+    "thread_id": "8bvz6n",
+    "first_seen": "2026-10-02T12:25:03.894Z",
+    "last_fetched": "2026-10-02T12:25:03.894Z",
+    "status": "ok",
+    "cursor_utc": 1523778738,
+    "discovered_by": [
+      "all:Janome CoverPro 2000CPX",
+      "r/sewing:Janome CoverPro 2000CPX",
+      "all:CoverPro 2000CPX",
+      "r/sewing:CoverPro 2000CPX",
+      "r/sewing:CoverPro 2000CPX review",
+      "r/sewing:CoverPro 2000CPX problems",
+      "r/sewing:CoverPro 2000CPX vs"
+    ],
+    "content_hash": "150d5f4d816d76b7"
+  },
+  {
+    "id": "reddit:1u3vxp0",
+    "url": "https://www.reddit.com/r/VintageSewingMachines/comments/1u3vxp0/defective_juki_dx7_switch_to_jack_a5eb_industrial/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Defective Juki DX7: Switch to Jack A5E-B Industrial or try Pfaff 720/Janome Skyline?",
+    "subreddit": "VintageSewingMachines",
+    "thread_id": "1u3vxp0",
+    "first_seen": "2026-10-02T12:25:03.894Z",
+    "last_fetched": "2026-10-02T12:25:03.894Z",
+    "status": "ok",
+    "cursor_utc": 1781551183,
+    "discovered_by": [
+      "all:Janome CoverPro 2000CPX",
+      "all:CoverPro 2000CPX"
+    ],
+    "content_hash": "2c32873d21b5d110"
+  },
+  {
+    "id": "reddit:1lw6lrl",
+    "url": "https://www.reddit.com/r/CosplayHelp/comments/1lw6lrl/is_a_coverpro_very_important_to_making_costumes/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Is a Coverpro very important to making costumes?",
+    "subreddit": "CosplayHelp",
+    "thread_id": "1lw6lrl",
+    "first_seen": "2026-10-02T12:25:03.894Z",
+    "last_fetched": "2026-10-02T12:25:03.894Z",
+    "status": "ok",
+    "cursor_utc": 1752135130,
+    "discovered_by": [
+      "all:Janome CoverPro 2000CPX",
+      "all:CoverPro 2000CPX"
+    ],
+    "content_hash": "fe7c396f5ab0adaf"
+  },
+  {
+    "id": "reddit:1u3vso7",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1u3vso7/defective_juki_dx7_switch_to_jack_a5eb_industrial/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Defective Juki DX7: Switch to Jack A5E-B Industrial or try Pfaff 720/Janome Skyline?",
+    "subreddit": "sewhelp",
+    "thread_id": "1u3vso7",
+    "first_seen": "2026-10-02T12:25:03.894Z",
+    "last_fetched": "2026-10-02T12:25:03.894Z",
+    "status": "ok",
+    "cursor_utc": 1781379448,
+    "discovered_by": [
+      "all:Janome CoverPro 2000CPX",
+      "r/sewhelp:Janome CoverPro 2000CPX",
+      "all:CoverPro 2000CPX",
+      "r/sewhelp:CoverPro 2000CPX",
+      "r/sewhelp:CoverPro 2000CPX review",
+      "r/sewhelp:CoverPro 2000CPX problems",
+      "r/sewhelp:CoverPro 2000CPX vs"
+    ],
+    "content_hash": "e17e4633e4300ba5"
+  }
+]

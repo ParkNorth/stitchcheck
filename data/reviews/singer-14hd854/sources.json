@@ -310,5 +310,90 @@
       "r/sewing:Singer Heavy Duty 14HD854 serger"
     ],
     "content_hash": "1f408545a0973ac9"
+  },
+  {
+    "id": "web:fb03604c4c5b773a",
+    "url": "https://www.amazon.com/dp/B00EF1ICNC",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T12:25:24.919Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T12:25:24.919Z",
+    "status": "ok",
+    "site_rating": 4.5,
+    "site_review_count": 63,
+    "asin": "B00EF1ICNC",
+    "parent_asin": "B0HG18MDV8",
+    "product_asins": [
+      "B0H9SXCPHX",
+      "B0HCCC8L17"
+    ],
+    "pooled_variations": true,
+    "sampled": "8 top reviews (8 US, 0 other countries) of 63 ratings",
+    "listing": {
+      "title": "SINGER® 14HD854 Heavy Duty Overlock Serger, 2-3-4 Thread Capability",
+      "price_usd": null,
+      "best_sellers_rank": "#38,645 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #4 in Sergers & Overlock Machines",
+      "details": {
+        "Model Number": "230413112",
+        "Included Components": "Tweezers, Spreader, Needles, Screwdriver, 4 Spool Holders, Spare Lower Knife, Scrap Bag, Lint Brush",
+        "Manufacturer": "SINGER",
+        "Part Number": "14HD854",
+        "Color": "Grey",
+        "Material": "Metal",
+        "Item Dimensions D x W x H": "14\"D x 11\"W x 11.5\"H",
+        "Item Weight": "13.5 pounds"
+      }
+    }
+  },
+  {
+    "id": "web:72da84866d06749c",
+    "url": "https://www.amazon.com/dp/B00IXPWNNG",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T12:26:18.031Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T12:26:18.031Z",
+    "status": "ok",
+    "site_rating": 4.4,
+    "site_review_count": 12,
+    "asin": "B00IXPWNNG",
+    "parent_asin": null,
+    "product_asins": [],
+    "pooled_variations": false,
+    "sampled": "0 top reviews (0 US, 0 other countries) of 12 ratings",
+    "listing": {
+      "title": "Singer 14HD854 Heavy Duty 4 Thread Serger With Differential Feed",
+      "price_usd": null,
+      "best_sellers_rank": null,
+      "details": {
+        "Model Number": "14HD854",
+        "Part Number": "14HD854",
+        "Material": "Metal",
+        "Item Weight": "7.38 kg"
+      }
+    }
+  },
+  {
+    "id": "web:0bf2dea629d18f88",
+    "url": "https://www.sewingmachinesplus.com/singer-14hd854-serger.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-02T12:26:29.972Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-02T12:26:29.972Z",
+    "status": "ok",
+    "site_rating": 4.5,
+    "site_review_count": 6,
+    "content_hash": "2dd2ecbe656e21b2"
   }
 ]

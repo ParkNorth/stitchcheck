@@ -1,0 +1,531 @@
+[
+  {
+    "id": "web:a57a4eaea3617916",
+    "url": "https://www.amazon.com/dp/B0014134IO",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T12:26:31.648Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T12:26:31.648Z",
+    "status": "ok",
+    "site_rating": 4.4,
+    "site_review_count": 632,
+    "asin": "B0014134IO",
+    "parent_asin": null,
+    "product_asins": [],
+    "pooled_variations": false,
+    "sampled": "0 top reviews (0 US, 0 other countries) of 632 ratings",
+    "listing": {
+      "title": "JUKI MO644D Portable Serger, White",
+      "price_usd": 475,
+      "best_sellers_rank": "#91,730 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #13 in Sergers & Overlock Machines",
+      "details": {
+        "Model Number": "MO-644D",
+        "Warranty Description": "5 year limited warranty.",
+        "Manufacturer": "Juki America, Inc.",
+        "Part Number": "MO-644D",
+        "Color": "White",
+        "Material": "fabric",
+        "Item Dimensions D x W x H": "10.6\"D x 13.4\"W x 11.6\"H",
+        "Item Weight": "19 pounds"
+      }
+    }
+  },
+  {
+    "id": "web:5c4daaf6422fcaa0",
+    "url": "https://www.sewingmachinesplus.com/juki-MO-644D.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-02T12:26:35.565Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-02T12:26:35.565Z",
+    "status": "ok",
+    "site_rating": 4.82,
+    "site_review_count": 34,
+    "content_hash": "4e68cd2eae53d0fc"
+  },
+  {
+    "id": "reddit:iaw9qd",
+    "url": "https://www.reddit.com/r/sewing/comments/iaw9qd/juki_mo_644d_if_you_have_this_model_or_if_you_are/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki MO 644D If you have this model Or if you are familiar with this model please dm me. Desperately in need of help. Thank you",
+    "subreddit": "sewing",
+    "thread_id": "iaw9qd",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1597630317,
+    "discovered_by": [
+      "all:Juki MO-644D",
+      "r/sewing:Juki MO-644D",
+      "all:Juki MO-644D problems",
+      "r/sewing:Juki MO-644D problems"
+    ],
+    "content_hash": "626980ee7746d638"
+  },
+  {
+    "id": "reddit:iqqr0a",
+    "url": "https://www.reddit.com/r/sewing/comments/iqqr0a/overlockerserger_help_please_brother_3034dwt_or/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Overlocker/serger help please? Brother 3034DWT or Juki 644D?",
+    "subreddit": "sewing",
+    "thread_id": "iqqr0a",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1599898801,
+    "discovered_by": [
+      "all:Juki 644D serger",
+      "r/sewing:Juki 644D serger"
+    ],
+    "content_hash": "5666f88516ee26a4"
+  },
+  {
+    "id": "reddit:1wtvarf",
+    "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1wtvarf/juki_mo644d_garnet_series_serger_wheel_not_moving/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki MO-644D Garnet Series Serger wheel not moving. Motor electric works but isn't turning. Looks new like it was never used. I oiled the rods underneath and on the area on photo. Help. Just want this to run like I know it can.",
+    "subreddit": "SewingMachineEdu",
+    "thread_id": "1wtvarf",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1790752187,
+    "discovered_by": [
+      "all:Juki MO-644D",
+      "all:Juki 644D serger",
+      "all:MO-644D serger review",
+      "all:Juki MO-644D problems"
+    ],
+    "content_hash": "c9a5fb2b664de48d"
+  },
+  {
+    "id": "reddit:18fgz9v",
+    "url": "https://www.reddit.com/r/sewingmachinerepair/comments/18fgz9v/i_seem_to_have_broken_a_needle_attached_to_the/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "I seem to have broken a needle attached to the needle plate on my Juki MO-644D?",
+    "subreddit": "sewingmachinerepair",
+    "thread_id": "18fgz9v",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1722051403,
+    "discovered_by": [
+      "all:Juki MO-644D",
+      "all:Juki MO-644D problems"
+    ],
+    "content_hash": "cf44edc7999db5b5"
+  },
+  {
+    "id": "reddit:1oy3i9b",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1oy3i9b/juki_mo644d_serger_looping_issue/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki Mo644d serger looping issue?",
+    "subreddit": "sewhelp",
+    "thread_id": "1oy3i9b",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1763268202,
+    "discovered_by": [
+      "all:Juki 644D serger",
+      "r/sewhelp:Juki 644D serger"
+    ],
+    "content_hash": "2333e34559b09c49"
+  },
+  {
+    "id": "reddit:3qc83j",
+    "url": "https://www.reddit.com/r/sewing/comments/3qc83j/juki_mo644d_vs_brother_entry_level_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki MO-644d vs brother entry level serger",
+    "subreddit": "sewing",
+    "thread_id": "3qc83j",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1445920226,
+    "discovered_by": [
+      "all:Juki MO-644D",
+      "r/sewing:Juki MO-644D",
+      "all:Juki 644D serger",
+      "r/sewing:Juki 644D serger",
+      "all:MO-644D serger review",
+      "r/sewing:MO-644D serger review",
+      "all:Juki MO-644D problems",
+      "r/sewing:Juki MO-644D problems",
+      "all:Juki MO-644D vs MO-654DE",
+      "r/sewing:Juki MO-644D vs MO-654DE"
+    ],
+    "content_hash": "aca4f96663c9a3c1"
+  },
+  {
+    "id": "reddit:193wumi",
+    "url": "https://www.reddit.com/r/myog/comments/193wumi/which_would_you_recommend_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Which would you recommend? Serger",
+    "subreddit": "myog",
+    "thread_id": "193wumi",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1719637079,
+    "discovered_by": [
+      "r/myog:Juki 644D serger"
+    ],
+    "content_hash": "7287fbfaf40879fd"
+  },
+  {
+    "id": "reddit:17mfpez",
+    "url": "https://www.reddit.com/r/sewhelp/comments/17mfpez/how_to_assess_the_value_and_quality_of_a_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "How to assess the value and quality of a machine when making a purchase?",
+    "subreddit": "sewhelp",
+    "thread_id": "17mfpez",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1699268768,
+    "discovered_by": [
+      "r/sewhelp:Juki 644D serger",
+      "r/sewhelp:MO-644D serger review"
+    ],
+    "content_hash": "5612d55fb543e81f"
+  },
+  {
+    "id": "reddit:1kgtede",
+    "url": "https://www.reddit.com/r/sewing/comments/1kgtede/choosing_an_overlocker_juki_644_vs_645/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Choosing an overlocker Juki 644 vs 645",
+    "subreddit": "sewing",
+    "thread_id": "1kgtede",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1746686745,
+    "discovered_by": [
+      "all:Juki MO-644D",
+      "r/sewing:Juki MO-644D",
+      "r/sewing:Juki MO-644D problems",
+      "all:Juki MO-644D vs MO-654DE",
+      "r/sewing:Juki MO-644D vs MO-654DE"
+    ],
+    "content_hash": "5834f2a755edd8d0"
+  },
+  {
+    "id": "reddit:1m9foue",
+    "url": "https://www.reddit.com/r/sewing/comments/1m9foue/serger_comparison_recommendation/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "serger comparison recommendation?",
+    "subreddit": "sewing",
+    "thread_id": "1m9foue",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1753711177,
+    "discovered_by": [
+      "all:Juki 644D serger",
+      "r/sewing:Juki 644D serger"
+    ],
+    "content_hash": "e1e80c77f36cebff"
+  },
+  {
+    "id": "reddit:ewnp4d",
+    "url": "https://www.reddit.com/r/myog/comments/ewnp4d/help_me_find_a_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help me find a serger!",
+    "subreddit": "myog",
+    "thread_id": "ewnp4d",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1580516538,
+    "discovered_by": [
+      "r/myog:Juki 644D serger"
+    ],
+    "content_hash": "5141163bc064d04e"
+  },
+  {
+    "id": "reddit:1d1devq",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1d1devq/serger_questionis_this_normal/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger question/is this normal?",
+    "subreddit": "sewhelp",
+    "thread_id": "1d1devq",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1716828108,
+    "discovered_by": [
+      "all:Juki 644D serger",
+      "r/sewhelp:Juki 644D serger"
+    ],
+    "content_hash": "ab6e569635cd2f3c"
+  },
+  {
+    "id": "reddit:1r48epv",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1r48epv/beginner_serger_recommendations/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Beginner Serger Recommendations?",
+    "subreddit": "sewhelp",
+    "thread_id": "1r48epv",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1771789834,
+    "discovered_by": [
+      "r/sewhelp:Juki 644D serger"
+    ],
+    "content_hash": "c1f76c8d3c486cbb"
+  },
+  {
+    "id": "reddit:m9ey69",
+    "url": "https://www.reddit.com/r/sewing/comments/m9ey69/finished_project_with_some_issues_serging/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Finished project with some issues: serging?",
+    "subreddit": "sewing",
+    "thread_id": "m9ey69",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1616352429,
+    "discovered_by": [
+      "all:Juki MO-644D",
+      "r/sewing:Juki MO-644D",
+      "all:Juki 644D serger",
+      "r/sewing:Juki 644D serger",
+      "all:Juki MO-644D problems",
+      "r/sewing:Juki MO-644D problems"
+    ],
+    "content_hash": "cf430fa7bf9ba4b3"
+  },
+  {
+    "id": "reddit:a9kabh",
+    "url": "https://www.reddit.com/r/sewing/comments/a9kabh/serger_suggestions_please/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger suggestions, please.",
+    "subreddit": "sewing",
+    "thread_id": "a9kabh",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1545970218,
+    "discovered_by": [
+      "all:Juki MO-644D",
+      "r/sewing:Juki MO-644D",
+      "all:Juki 644D serger",
+      "r/sewing:Juki 644D serger",
+      "all:Juki MO-644D vs MO-654DE",
+      "r/sewing:Juki MO-644D vs MO-654DE"
+    ],
+    "content_hash": "d58631a3be489b9a"
+  },
+  {
+    "id": "reddit:1au7rxl",
+    "url": "https://www.reddit.com/r/sewing/comments/1au7rxl/serger_anatomy_questions/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger Anatomy Questions",
+    "subreddit": "sewing",
+    "thread_id": "1au7rxl",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1708388905,
+    "discovered_by": [
+      "all:Juki MO-644D",
+      "r/sewing:Juki MO-644D",
+      "all:Juki 644D serger",
+      "r/sewing:Juki 644D serger",
+      "r/sewing:MO-644D serger review"
+    ],
+    "content_hash": "b18612fb5b71304e"
+  },
+  {
+    "id": "reddit:a0s5nf",
+    "url": "https://www.reddit.com/r/sewhelp/comments/a0s5nf/what_kind_of_needles_fit_a_juki_mo64de_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "What kind of needles fit a Juki MO64DE serger?",
+    "subreddit": "sewhelp",
+    "thread_id": "a0s5nf",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1544071136,
+    "discovered_by": [
+      "all:Juki MO-644D",
+      "r/sewhelp:Juki MO-644D",
+      "all:Juki 644D serger",
+      "r/sewhelp:Juki 644D serger",
+      "r/sewhelp:MO-644D serger review"
+    ],
+    "content_hash": "0653feec86f112b8"
+  },
+  {
+    "id": "reddit:1obxv62",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1obxv62/need_help_with_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Need help with serger!",
+    "subreddit": "sewhelp",
+    "thread_id": "1obxv62",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1761022032,
+    "discovered_by": [
+      "all:Juki MO-644D",
+      "r/sewhelp:Juki MO-644D",
+      "all:Juki 644D serger",
+      "r/sewhelp:Juki 644D serger",
+      "r/sewhelp:MO-644D serger review",
+      "r/sewhelp:Juki MO-644D problems"
+    ],
+    "content_hash": "6538071e3a2bd8fa"
+  },
+  {
+    "id": "reddit:yzwkpl",
+    "url": "https://www.reddit.com/r/sewing/comments/yzwkpl/serger_purchase_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger purchase help",
+    "subreddit": "sewing",
+    "thread_id": "yzwkpl",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1668959332,
+    "discovered_by": [
+      "all:Juki MO-644D",
+      "r/sewing:Juki MO-644D",
+      "all:Juki 644D serger",
+      "r/sewing:Juki 644D serger",
+      "all:Juki MO-644D vs MO-654DE",
+      "r/sewing:Juki MO-644D vs MO-654DE"
+    ],
+    "content_hash": "e7b417c2d7be98b0"
+  },
+  {
+    "id": "reddit:1995t4n",
+    "url": "https://www.reddit.com/r/sewing/comments/1995t4n/sewing_machine_recommendations/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing machine recommendations",
+    "subreddit": "sewing",
+    "thread_id": "1995t4n",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1705578582,
+    "discovered_by": [
+      "all:Juki MO-644D",
+      "r/sewing:Juki MO-644D",
+      "all:Juki 644D serger",
+      "r/sewing:Juki 644D serger"
+    ],
+    "content_hash": "22a812b264e1fd00"
+  },
+  {
+    "id": "reddit:1lrmfg3",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1lrmfg3/juki_serger_help_pls/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki serger help pls",
+    "subreddit": "sewhelp",
+    "thread_id": "1lrmfg3",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1751651513,
+    "discovered_by": [
+      "all:Juki MO-644D",
+      "r/sewhelp:Juki MO-644D",
+      "all:Juki 644D serger",
+      "r/sewhelp:Juki 644D serger",
+      "r/sewhelp:MO-644D serger review",
+      "r/sewhelp:Juki MO-644D problems"
+    ],
+    "content_hash": "a0486d30d93f986e"
+  },
+  {
+    "id": "reddit:pfhboj",
+    "url": "https://www.reddit.com/r/sewing/comments/pfhboj/buying_second_hand_serger_need_advice/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Buying second hand serger, need advice?",
+    "subreddit": "sewing",
+    "thread_id": "pfhboj",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1630459899,
+    "discovered_by": [
+      "all:Juki MO-644D",
+      "r/sewing:Juki MO-644D",
+      "all:Juki 644D serger",
+      "r/sewing:Juki 644D serger"
+    ],
+    "content_hash": "4f6b6cbb752e4d0c"
+  },
+  {
+    "id": "reddit:3wf6r2",
+    "url": "https://www.reddit.com/r/sewing/comments/3wf6r2/question_about_sergers_comparing_two_options/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Question about sergers. Comparing two options.",
+    "subreddit": "sewing",
+    "thread_id": "3wf6r2",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1449957599,
+    "discovered_by": [
+      "all:Juki MO-644D",
+      "r/sewing:Juki MO-644D",
+      "all:Juki 644D serger",
+      "r/sewing:Juki 644D serger"
+    ],
+    "content_hash": "492e1ec8f632b0c7"
+  },
+  {
+    "id": "reddit:1j56by",
+    "url": "https://www.reddit.com/r/sewing/comments/1j56by/advice_on_a_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Advice on a serger?",
+    "subreddit": "sewing",
+    "thread_id": "1j56by",
+    "first_seen": "2026-10-02T12:26:39.695Z",
+    "last_fetched": "2026-10-02T12:26:39.695Z",
+    "status": "ok",
+    "cursor_utc": 1374953515,
+    "discovered_by": [
+      "all:Juki MO-644D",
+      "r/sewing:Juki MO-644D",
+      "all:Juki 644D serger",
+      "r/sewing:Juki 644D serger"
+    ],
+    "content_hash": "5a2f0d7c510c4479"
+  }
+]

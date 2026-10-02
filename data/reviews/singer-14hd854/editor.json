@@ -3,7 +3,8 @@
     "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
     "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
     "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
-    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.5 from 63 ratings on B00EF1ICNC is shared by several listings (the same figure appears on unrelated Singer Heavy Duty 0420 and 0460 listings), so it is a pooled rating, not this model's own. B00IXPWNNG (4.4 from 12) names the 14HD854 in its title and is not pooled."
   ],
   "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
   "siblings": [
@@ -79,5 +80,23 @@
   "others": "14cg754(?![a-z0-9])|14t968dc(?![a-z0-9])|14sh654(?![a-z0-9])|1034d(?![a-z0-9])|1034dx(?![a-z0-9])|mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])",
   "scopeRules": [],
   "siblingSummaries": {},
-  "siblingExtras": {}
+  "siblingExtras": {
+    "ProFinish 14CG754": [
+      {
+        "feature": "Maker list price",
+        "summary": "Singer lists the 14CG754 at $209.99 against a $349.99 MSRP, versus $319.99 against $399.99 for the 14HD854.",
+        "check": "Singer product pages, fetched 2026-10-02; both showed Out of Stock."
+      },
+      {
+        "feature": "Maker speed claim",
+        "summary": "Singer's 14CG754 page lists 1,300 stitches per minute, the same figure as the 14HD854 page.",
+        "check": "Singer 14CG754 page, 2026-10-02. The 14HD854 manual says 1,200 +/- 150 spm; no 14CG754 manual was fetched."
+      },
+      {
+        "feature": "Maker speed control",
+        "summary": "Singer's 14CG754 page says electronic speed control; the 14HD854 page says digital speed control.",
+        "check": "Both Singer product pages, 2026-10-02."
+      }
+    ]
+  }
 }
