@@ -1,0 +1,87 @@
+{
+  "specs": {
+    "maxSpm": {"value": 1200, "source": "https://d2v8skpstyl8bm.cloudfront.net/products/resources/pdf/Vibrant+Instruction+Manual.pdf"},
+    "stitchLengthMm": {"value": "1 to 4.5 mm (manual); spec sheet and product page say 1 to 4 mm", "source": "https://d2v8skpstyl8bm.cloudfront.net/products/resources/pdf/Vibrant+Instruction+Manual.pdf"},
+    "stitchWidthMm": {"value": "2.8 to 7.0 mm", "source": "https://babylock.com/vibrant-bl460b-spec-sheet"},
+    "differentialFeed": {"value": "Yes, dial; ratio 0.7 to 2.0", "source": "https://babylock.com/vibrant-bl460b-spec-sheet"},
+    "needleSystem": {"value": "HA 1-SP, HA x 1 (130/705 H); 2 needles", "source": "https://d2v8skpstyl8bm.cloudfront.net/products/resources/pdf/Vibrant+Instruction+Manual.pdf"},
+    "threadingSystem": {"value": "Manual, color-coded threading in a set order; manual needle threading; no Jet-Air; manual lay-in tension discs, no automatic tension", "source": "https://babylock.com/serging-comparison-charts"},
+    "includedFeet": {"value": "One snap-on multi-purpose presser foot; accessories include a two-thread converter, stitch finger, needle set, tools, nets and spools", "source": "https://babylock.com/vibrant-bl460b-spec-sheet"},
+    "weightLb": {"value": 19.84, "source": "https://babylock.com/vibrant"},
+    "warrantyUs": {"value": "25-year limited; 10-year parts, 2-year electrical, 1-year labor (spec sheet); Baby Lock's warranty page says warranties are issued by Authorized Retailers only", "source": "https://babylock.com/vibrant-bl460b-spec-sheet"}
+  },
+  "conflicts": [
+    "Speed: Baby Lock's manual says 1200 +/- 50 spm; our earlier figure of 1,500 spm came from dealer sheets and has no maker source, so we use the manual.",
+    "Stitch length: Baby Lock's spec sheet and product page say 1 to 4 mm; Baby Lock's manual says 1 to 4.5 mm. We show the manual figure and flag the disagreement.",
+    "Price channel: babylock.com showed $524 with an add-to-cart on 2026-10-01, while Baby Lock's warranty page says machines are only available through Authorized Retailers and warranties are not extended to online purchases.",
+    "Price: dealer listings we saw earlier showed $499 regular, and some showed $799; Baby Lock's spec sheet gives no price, so none of these is a maker-set figure.",
+    "Model number: Vibrant is BL460B; BLS1 is the Celebrate, which has jet air threading."
+  ],
+  "claims": [
+    "\"Easy Color-Coded Threading\" (Baby Lock claim, product page)",
+    "\"Easy adjustable tension system\" (Baby Lock claim, product page)",
+    "\"the perfect introduction to the art and craft of serging\" and \"serging isn't scary\" (Baby Lock claims, product page)",
+    "\"Perfect overlocker machine for beginners\" (dealer claim, listing)"
+  ],
+  "evidence": "owner",
+  "price": {
+    "priceUsdSeen": 524,
+    "priceSeenDate": "2026-10-01",
+    "priceSeenAt": "babylock.com product page (add-to-cart shown; not a dealer price)"
+  },
+  "sources": [
+    "https://babylock.com/vibrant",
+    "https://babylock.com/vibrant-bl460b-spec-sheet",
+    "https://d2v8skpstyl8bm.cloudfront.net/products/resources/pdf/Vibrant+Instruction+Manual.pdf",
+    "https://babylock.com/serging-comparison-charts",
+    "https://babylock.com/warranty-policy",
+    "https://www.sewingmachinesplus.com/bl460b.php"
+  ],
+  "editorial": {
+    "verdict": "Baby Lock's manual-threading entry serger: 2/3/4 thread at 1,200 spm, no Jet-Air or automatic tension, sold through authorized retailers.",
+    "whoFor": "A buyer who wants a 2/3/4-thread serger with a dealer relationship and is fine threading by hand.",
+    "skipIf": "You want Jet-Air threading, automatic tension or a needle threader (the Victory lists them), or you will buy outside an authorized retailer.",
+    "keySpec": "2/3/4 thread · 1,200 spm · 7 mm width · 19.8 lb",
+    "strengths": [
+      "Owners report threading is mostly easy: 20 of 27 voices on threading and loopers were positive, though one owner says tweezers are needed near the needle.",
+      "Covers 4, 3 and 2-thread work: Baby Lock lists a two-thread converter among the included accessories.",
+      "Baby Lock's spec sheet lists a 25-year limited warranty with 10-year parts, 2-year electrical and 1-year labor, issued by authorized retailers."
+    ],
+    "weaknesses": [
+      "Baby Lock's chart lists manual needle threading, manual tension discs and no Jet-Air, all of which the Victory adds.",
+      "Owners report mechanical faults in a minority of posts: a stuck disengaged cutting blade, and an upper looper scraping and denting needles (5 voices, mostly help requests).",
+      "Price is unsettled: babylock.com showed $524 online, yet Baby Lock's warranty page says machines are sold only through authorized retailers."
+    ],
+    "checks": [
+      {
+        "title": "Confirm the model number",
+        "body": "Vibrant is BL460B. BLS1 is the Celebrate, which threads with jet air. Dealer bundles and used listings mix them up."
+      },
+      {
+        "title": "Buy from an authorized retailer",
+        "body": "babylock.com showed $524 with an add-to-cart on 2026-10-01, but its warranty page says warranties are not extended to online purchases from non-authorized sources. Buy from an authorized retailer to keep the warranty. We do not link a purchase."
+      },
+      {
+        "title": "Read the rating with care",
+        "body": "Sewing Machines Plus shows 4.71 from 117 reviews. That is a dealer rating from an authorized retailer, and only 9 of the 117 reviews name this model."
+      }
+    ],
+    "realCost": [
+      "Thread: 4 cones for a 4-thread seam.",
+      "Spare needles, system HA x 1 (130/705 H), after the supplied set.",
+      "Tweezers: one owner says they are needed to thread near the needle."
+    ],
+    "faqs": [
+      {"q": "How much does the Baby Lock Vibrant cost?", "a": "babylock.com showed $524 on 2026-10-01. Baby Lock's spec sheet gives no price, and authorized retailers set their own, so quotes vary by store."},
+      {"q": "Can you buy the Vibrant online or only from a dealer?", "a": "babylock.com showed an add-to-cart at $524, but Baby Lock's warranty page says machines are only available through Authorized Retailers and warranties are not extended to online purchases. Buy from an authorized retailer to keep the warranty."},
+      {"q": "Does the Vibrant have air threading?", "a": "No. Baby Lock's comparison chart lists no Jet-Air, manual needle threading and manual tension discs on the Vibrant. The Victory lists Jet-Air, a needle threader and automatic tension."},
+      {"q": "How fast is the Vibrant?", "a": "Baby Lock's manual says 1200 +/- 50 stitches per minute. Dealer sheets say 1,500, which has no maker source."},
+      {"q": "Does the Vibrant do 2-thread stitches?", "a": "Baby Lock lists 4, 3 and 2-thread serging, with a two-thread converter among the included accessories."},
+      {"q": "What stitch length does the Vibrant have?", "a": "Baby Lock's spec sheet says 1 to 4 mm; its manual says 1 to 4.5 mm. We show the manual figure and flag the conflict."},
+      {"q": "Is the Vibrant good for beginners?", "a": "Baby Lock calls it the perfect introduction to serging; that is a maker claim. Owners report threading is mostly easy, with a few help-request posts about loopers and the cutting blade."},
+      {"q": "Is the Vibrant BL460B or BLS1?", "a": "BL460B. BLS1 is the Celebrate, which has jet air threading."},
+      {"q": "How heavy is the Vibrant?", "a": "Baby Lock lists 19.84 lb (9 kg), machine only."},
+      {"q": "What is the Vibrant's warranty?", "a": "Baby Lock's spec sheet lists 25-year limited, with 10-year parts, 2-year electrical and 1-year labor. Baby Lock's warranty page says only Authorized Retailers issue warranties."}
+    ]
+  }
+}
