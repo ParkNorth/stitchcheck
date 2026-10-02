@@ -1,0 +1,860 @@
+{
+  "slug": "babylock-vibrant",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-01",
+  "method": {
+    "sources": 28,
+    "itemsCollected": 512,
+    "statements": 80,
+    "voices": 59,
+    "ownerVoices": 49,
+    "dateRange": [
+      2019,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 1,
+        "items": 117
+      },
+      "reddit": {
+        "sources": 27,
+        "items": 392
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 27,
+      "voices": 27,
+      "ownerVoices": 24,
+      "sources": 6,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 19,
+        "reddit": 8
+      },
+      "polarity": {
+        "positive": 20,
+        "negative": 4,
+        "mixed": 2,
+        "neutral": 1
+      },
+      "years": [
+        2019,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c7487a368",
+          "polarity": "negative",
+          "claim": "Owner finds it a bit difficult to thread, as sergers generally are.",
+          "quote": "it's a bit difficult to thread.",
+          "url": "https://www.sewingmachinesplus.com/bl460b.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cd846325d",
+          "polarity": "positive",
+          "claim": "Buyer calls it easy to thread.",
+          "quote": "Easy to thread.",
+          "url": "https://www.sewingmachinesplus.com/bl460b.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c2c3da856",
+          "polarity": "positive",
+          "claim": "Vibrant owner says threading is easy.",
+          "quote": "The threading is easy.",
+          "url": "https://www.reddit.com/r/sewing/comments/qqu9e1/help_picking_a_serger/hk35hwp/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ca7b8e877",
+          "polarity": "mixed",
+          "claim": "Owner says threading is not hard, though tweezers are needed because of limited hand room near the needle.",
+          "quote": "It really is not that hard to thread.",
+          "url": "https://www.sewingmachinesplus.com/bl460b.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c72d6c7b7",
+        "cefaf08cc",
+        "c70aaf4ef",
+        "c13c91247",
+        "c66aa3a4d",
+        "c19abd8a2",
+        "c4cb927a9",
+        "c6e5b3761",
+        "ce22a0a9e",
+        "c7487a368",
+        "ceed4308c",
+        "cdb587cfe",
+        "c81b7b276",
+        "ca7b8e877",
+        "cd846325d",
+        "cda76fdaf",
+        "ccbd9da07",
+        "c548eef8a",
+        "cce85f551",
+        "cff084044",
+        "c3e63ae40",
+        "c42c22202",
+        "c1530061a",
+        "cdd8c32a4",
+        "ccd17ce59",
+        "c2c3da856",
+        "cfcb9ba3d"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 9,
+      "voices": 8,
+      "ownerVoices": 8,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 5,
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 6,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c556b56f7",
+          "polarity": "negative",
+          "claim": "Owner calls it noisy but expects that from a mechanical machine.",
+          "quote": "Noisy but that’s expected from mechanics.",
+          "url": "https://www.sewingmachinesplus.com/bl460b.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cefbad79a",
+          "polarity": "negative",
+          "claim": "Owner finds the Vibrant louder and shakier than their sewing machine.",
+          "quote": "it is louder than my sewing machine, shakes more than my sewing machine",
+          "url": "https://www.reddit.com/r/sewing/comments/1lm56hw/serger_choice_amber_s100_bernette_b44_janome/n0bvzwe/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c7ed8a089",
+          "polarity": "positive",
+          "claim": "Owner finds it much quieter than their previous serger.",
+          "quote": "much quieter!",
+          "url": "https://www.sewingmachinesplus.com/bl460b.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c51d02311",
+          "polarity": "positive",
+          "claim": "Owner finds it no noisier than other machines and says it does not shake the desk.",
+          "quote": "It’s not any noisier than my other machines",
+          "url": "https://www.reddit.com/r/sewing/comments/1b1nuty/baby_lock_vibrant_or_juki_m0654de_serger/ksggvlm/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c2469e3d2",
+          "polarity": "mixed",
+          "claim": "Owner reports little vibration except at high speed, noticeable only on a round pedestal table edge.",
+          "quote": "I don't think it vibrates much unless I'm going really fast",
+          "url": "https://www.reddit.com/r/sewing/comments/1b1nuty/baby_lock_vibrant_or_juki_m0654de_serger/ksga4q2/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c7ed8a089",
+        "cdd5db2bf",
+        "c556b56f7",
+        "cf5bffd9b",
+        "cbc65c607",
+        "c6edd8ceb",
+        "c2469e3d2",
+        "c51d02311",
+        "cefbad79a"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 4,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2020,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c081c2e42",
+          "polarity": "negative",
+          "claim": "Owner needed a lot of adjustment to get tension right, then rated the machine well.",
+          "quote": "It take a lot of adjusting to get the tension right",
+          "url": "https://www.sewingmachinesplus.com/bl460b.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c79b9474c",
+          "polarity": "positive",
+          "claim": "Owner finds tension very easy to adjust.",
+          "quote": "the tension is very easy to adjust",
+          "url": "https://www.sewingmachinesplus.com/bl460b.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c081c2e42",
+        "c73cafba8",
+        "c79b9474c",
+        "cdfc0cc3e",
+        "c25fd7003",
+        "c3ff49909"
+      ]
+    },
+    {
+      "theme": "cutting_trimming",
+      "label": "Cutting and trimming",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 5,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 5
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "ca308aba3",
+          "polarity": "negative",
+          "claim": "Reviewer finds the cutting line hard to see because of a guard.",
+          "quote": "Kind of hard to see the cutting line as there is a guard.",
+          "url": "https://www.sewingmachinesplus.com/bl460b.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cd38d7ee1",
+          "polarity": "negative",
+          "claim": "New owner disengaged the cutting blade and could not push the lever in to re-engage it.",
+          "quote": "I can not get the lever I should be able to push in to reengage",
+          "url": "https://www.reddit.com/r/sewing/comments/iu9tjf/babylock_vibrant_cutting_blade_stuck_as_disengaged/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c10cbb2f2",
+          "polarity": "positive",
+          "claim": "Vibrant owner likes the thread catcher (trim bin).",
+          "quote": "I like the thread catcher.",
+          "url": "https://www.reddit.com/r/sewing/comments/qqu9e1/help_picking_a_serger/hk35hwp/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c782b0a4e",
+          "polarity": "positive",
+          "claim": "Original poster fixed the loose stitch by moving the knife to the right.",
+          "quote": "I also moved the knife to the right and it fixed it.",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1pxfjbe/baby_lock_vibrant_stitch_help/nxatn3s/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ca886146b",
+          "polarity": "mixed",
+          "claim": "After widening, stitch improved but the knife rubbed against the door.",
+          "quote": "the knife was rubbing against the door after I had adjusted it",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1pxfjbe/baby_lock_vibrant_stitch_help/nwawn6m/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ca308aba3",
+        "c1ae1670d",
+        "ca886146b",
+        "c782b0a4e",
+        "cd38d7ee1",
+        "c10cbb2f2"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 7,
+      "voices": 5,
+      "ownerVoices": 4,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 5,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cb311b665",
+          "polarity": "negative",
+          "claim": "New owner of a given-away unit says the upper looper scrapes and presses against the needles, denting them.",
+          "quote": "the upper looper will scrape across the needles",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1vmyfpb/babylock_vibrant_serger_troubleshooting/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ce48afd51",
+          "polarity": "negative",
+          "claim": "New owner of a given-away unit says the upper looper scrapes and presses against the needles, denting them.",
+          "quote": "the upper looper will scrape across the needles",
+          "url": "https://www.reddit.com/r/sewinghelp/comments/1vmydvh/babylock_vibrant_serger_troubleshooting/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c47460d15",
+        "c4a72cc1f",
+        "cb311b665",
+        "c39e84a27",
+        "ce48afd51",
+        "ca2bec133",
+        "cc23cf218"
+      ]
+    },
+    {
+      "theme": "thread_trimmer",
+      "label": "Thread trimmer",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2019,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cdad39484",
+          "polarity": "positive",
+          "claim": "Owner likes the thread cutting feature.",
+          "quote": "I love the thread cutting feature!",
+          "url": "https://www.sewingmachinesplus.com/bl460b.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cdad39484",
+        "c850d558d",
+        "c40f1cbe7"
+      ]
+    },
+    {
+      "theme": "rolled_hem",
+      "label": "Rolled hem",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c03da9426",
+          "polarity": "negative",
+          "claim": "Owner making a chiffon sleeve mockup says the serger's rolled hem kept detaching.",
+          "quote": "my serger’s rolled hem kept detaching itself",
+          "url": "https://www.reddit.com/r/sewing/comments/1i5kcia/fantasy_wedding_dress/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cba9f1d2f",
+          "polarity": "negative",
+          "claim": "Owner says the machine suddenly cut and stitched without rolling the edge on satin, despite rethreading.",
+          "quote": "suddenly started cutting, stitched, but missing the rolling",
+          "url": "https://www.reddit.com/r/sewing/comments/1rj1l86/serger_problem_baby_lock_vibrant_not_rolling/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c5eadd0e7",
+          "polarity": "positive",
+          "claim": "Owner made a rolled hem that turned out well.",
+          "quote": "I just did a rolled hem and it came out great!",
+          "url": "https://www.sewingmachinesplus.com/bl460b.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c5eadd0e7",
+        "cba9f1d2f",
+        "c03da9426"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2019,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c18fb54e3",
+          "polarity": "positive",
+          "claim": "Buyer received a free six-piece feet set with the purchase bundle.",
+          "quote": "I receive shipping and free 6 pc feet.",
+          "url": "https://www.sewingmachinesplus.com/bl460b.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c18fb54e3",
+        "c662c0645",
+        "c5f2f5ba3"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2019,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c7015cf43",
+          "polarity": "negative",
+          "claim": "Owner finds the machine light dim and plans to add another light.",
+          "quote": "the machine light is not very bright",
+          "url": "https://www.sewingmachinesplus.com/bl460b.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cf5729081",
+        "c7015cf43"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cbc88b94a",
+          "polarity": "positive",
+          "claim": "Owner calls the machine hefty and considers that a plus.",
+          "quote": "It's also pretty hefty",
+          "url": "https://www.reddit.com/r/sewing/comments/1b1nuty/baby_lock_vibrant_or_juki_m0654de_serger/ksfze2p/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cbc88b94a",
+        "ceeddb21f"
+      ]
+    },
+    {
+      "theme": "differential_feed",
+      "label": "Differential feed",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cddb37898",
+          "polarity": "negative",
+          "claim": "Vibrant owner reports two stretch fabrics sewn pinned together fed unevenly, one ending a foot longer.",
+          "quote": "by the time I get to the end, the fabrics are SO uneven",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1nkbgek/fabrics_not_feeding_evenly/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cddb37898",
+        "cca1e23ac"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2020
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c75781d25",
+          "polarity": "negative",
+          "claim": "Owner says the front lint trap does not seal fully, pops off and leaks lint.",
+          "quote": "lint trap on the front just BARELY doesn’t seal all the way",
+          "url": "https://www.sewingmachinesplus.com/bl460b.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c75781d25"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c84a5bea0",
+          "polarity": "negative",
+          "claim": "Owner says the slowest speed is faster than a sewing machine's slowest speed, which was intimidating.",
+          "quote": "its slowest speed is faster than the slowest speed of my sewing machine",
+          "url": "https://www.reddit.com/r/sewing/comments/1lm56hw/serger_choice_amber_s100_bernette_b44_janome/n0bvzwe/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c84a5bea0"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://www.sewingmachinesplus.com/bl460b.php",
+      "pageRating": 4.71,
+      "pageCount": 117,
+      "fetched": "2026-10-01",
+      "distribution": {
+        "1": 3,
+        "2": 1,
+        "3": 1,
+        "4": 17,
+        "5": 95
+      },
+      "lowRated": 5,
+      "sampled": null
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "Manual: 1,200 +/- 50 stitches per minute.",
+      "others": "Our earlier figure was 1,500.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Baby Lock source",
+          "url": "https://d2v8skpstyl8bm.cloudfront.net/products/resources/pdf/Vibrant+Instruction+Manual.pdf"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "manual"
+    },
+    {
+      "label": "Weight",
+      "juki": "19.84 lb (9 kg).",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock source",
+          "url": "https://babylock.com/vibrant"
+        }
+      ],
+      "field": "weightLb",
+      "source": "product-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "25-year limited; 10 years parts, 2 years electrical, 1 year labor (spec sheet).",
+      "others": "Dealers state the same.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock source",
+          "url": "https://babylock.com/vibrant-bl460b-spec-sheet"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "spec-sheet"
+    },
+    {
+      "label": "Price",
+      "juki": "babylock.com showed $524 on 2026-10-01; its warranty page says only Authorized Retailers issue Baby Lock warranties.",
+      "others": "Dealers set their own price.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Baby Lock source",
+          "url": "https://babylock.com/vibrant"
+        }
+      ],
+      "field": "msrp",
+      "source": "product-page"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "Victory",
+      "label": "Baby Lock Victory",
+      "rows": [
+        {
+          "feature": "Threading",
+          "urls": 0,
+          "classes": [],
+          "summary": "Baby Lock lists Jet-Air threading on the Victory and not on the Vibrant.",
+          "check": "Baby Lock serger comparison chart, 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Tension",
+          "urls": 0,
+          "classes": [],
+          "summary": "The Victory has automatic thread delivery tension; the Vibrant has manual lay-in tension discs.",
+          "check": "Baby Lock serger comparison chart, 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Needle threading",
+          "urls": 0,
+          "classes": [],
+          "summary": "The Victory has a built-in needle threader; the Vibrant's needle threading is manual.",
+          "check": "Baby Lock serger comparison chart, 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Lights and lift",
+          "urls": 0,
+          "classes": [],
+          "summary": "Two LEDs and a 6 mm presser foot lift on the Victory; one LED and no lift figure on the Vibrant.",
+          "check": "Baby Lock serger comparison chart, 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Price",
+          "urls": 0,
+          "classes": [],
+          "summary": "babylock.com showed the Victory at $2,089 and the Vibrant at $524 on 2026-10-01.",
+          "check": "babylock.com product pages, 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

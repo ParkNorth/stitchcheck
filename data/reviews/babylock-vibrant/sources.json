@@ -1,0 +1,623 @@
+[
+  {
+    "id": "web:d22f3d477535b617",
+    "url": "https://www.sewingmachinesplus.com/bl460b.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-01T23:58:02.766Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-01T23:58:02.766Z",
+    "status": "ok",
+    "site_rating": 4.71,
+    "site_review_count": 117,
+    "content_hash": "f823c98490a72329"
+  },
+  {
+    "id": "reddit:1pxfjbe",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1pxfjbe/baby_lock_vibrant_stitch_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Baby lock vibrant stitch help",
+    "subreddit": "sewhelp",
+    "thread_id": "1pxfjbe",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1767380001,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "r/sewhelp:Baby Lock Vibrant serger",
+      "r/sewhelp:Baby Lock Vibrant review",
+      "r/sewhelp:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "ab98fdc463b7fa89"
+  },
+  {
+    "id": "reddit:1dof81g",
+    "url": "https://www.reddit.com/r/sewing/comments/1dof81g/brother_1034d_vs_baby_lock_vibrant_serger_volume/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Brother 1034d vs Baby Lock Vibrant serger - Volume?",
+    "subreddit": "sewing",
+    "thread_id": "1dof81g",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1719364185,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "r/sewing:Baby Lock Vibrant serger",
+      "r/sewing:Baby Lock Vibrant review",
+      "all:Baby Lock Vibrant vs",
+      "r/sewing:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "c5632acc281f497d"
+  },
+  {
+    "id": "reddit:1vmyfpb",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1vmyfpb/babylock_vibrant_serger_troubleshooting/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Babylock Vibrant Serger Troubleshooting",
+    "subreddit": "sewhelp",
+    "thread_id": "1vmyfpb",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1786600631,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "r/sewhelp:Baby Lock Vibrant serger",
+      "all:Babylock Vibrant",
+      "r/sewhelp:Babylock Vibrant",
+      "r/sewhelp:Baby Lock Vibrant review",
+      "r/sewhelp:Babylock Vibrant problems",
+      "r/sewhelp:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "68ca0dda19d15e12"
+  },
+  {
+    "id": "reddit:1b1nuty",
+    "url": "https://www.reddit.com/r/sewing/comments/1b1nuty/baby_lock_vibrant_or_juki_m0654de_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Baby lock Vibrant or Juki M0654de serger?",
+    "subreddit": "sewing",
+    "thread_id": "1b1nuty",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1709580368,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "r/sewing:Baby Lock Vibrant serger",
+      "all:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant",
+      "r/sewing:Baby Lock Vibrant review",
+      "r/sewing:Babylock Vibrant problems",
+      "r/sewing:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "001318d26fb511fd"
+  },
+  {
+    "id": "reddit:12rovjh",
+    "url": "https://www.reddit.com/r/sewing/comments/12rovjh/brother_1034_or_baby_lock_vibrant_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "brother 1034 or baby lock vibrant serger",
+    "subreddit": "sewing",
+    "thread_id": "12rovjh",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1681974087,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "r/sewing:Baby Lock Vibrant serger",
+      "r/sewing:Baby Lock Vibrant review",
+      "r/sewing:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "3b604ef364f87d37"
+  },
+  {
+    "id": "reddit:1lm56hw",
+    "url": "https://www.reddit.com/r/sewing/comments/1lm56hw/serger_choice_amber_s100_bernette_b44_janome/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger choice: Amber s100, Bernette b44, Janome Four-DLB, or Babylock Vibrant?",
+    "subreddit": "sewing",
+    "thread_id": "1lm56hw",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1751397990,
+    "discovered_by": [
+      "all:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant problems",
+      "all:BL460B",
+      "r/sewing:BL460B"
+    ],
+    "content_hash": "c6941306ab0b2140"
+  },
+  {
+    "id": "reddit:1rj1l86",
+    "url": "https://www.reddit.com/r/sewing/comments/1rj1l86/serger_problem_baby_lock_vibrant_not_rolling/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger problem baby lock vibrant not rolling",
+    "subreddit": "sewing",
+    "thread_id": "1rj1l86",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1772498483,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "r/sewing:Baby Lock Vibrant serger",
+      "r/sewing:Baby Lock Vibrant review",
+      "r/sewing:Babylock Vibrant problems",
+      "r/sewing:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "8732684750ab8eaf"
+  },
+  {
+    "id": "reddit:1nsei3b",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1nsei3b/anyone_use_a_babylock_vibrant_what_needles_do_you/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Anyone use a Babylock Vibrant?  What needles do you buy &amp; from where?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1nsei3b",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1759127759,
+    "discovered_by": [
+      "all:Babylock Vibrant",
+      "r/SewingForBeginners:Babylock Vibrant",
+      "r/SewingForBeginners:Babylock Vibrant problems"
+    ],
+    "content_hash": "8c9cec39453e8e07"
+  },
+  {
+    "id": "reddit:1j3x71f",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1j3x71f/trouble_with_elastic_foot_on_baby_lock_vibrant/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Trouble with elastic foot on Baby Lock Vibrant",
+    "subreddit": "sewhelp",
+    "thread_id": "1j3x71f",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1741213443,
+    "discovered_by": [
+      "r/sewhelp:Baby Lock Vibrant serger",
+      "r/sewhelp:Baby Lock Vibrant review",
+      "r/sewhelp:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "385f626cd98d165d"
+  },
+  {
+    "id": "reddit:1fbas6i",
+    "url": "https://www.reddit.com/r/sewing/comments/1fbas6i/getting_my_first_serger_how_does_the_babylock/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Getting my first serger - how does the Babylock Vibrant do with thick fabrics? Or should I go Juki?",
+    "subreddit": "sewing",
+    "thread_id": "1fbas6i",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1725746685,
+    "discovered_by": [
+      "all:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant problems"
+    ],
+    "content_hash": "f732cbaaa10e20a8"
+  },
+  {
+    "id": "reddit:1vmydvh",
+    "url": "https://www.reddit.com/r/sewinghelp/comments/1vmydvh/babylock_vibrant_serger_troubleshooting/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "BabyLock Vibrant Serger Troubleshooting",
+    "subreddit": "sewinghelp",
+    "thread_id": "1vmydvh",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1786605105,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "all:Babylock Vibrant"
+    ],
+    "content_hash": "6338fe831a858ced"
+  },
+  {
+    "id": "reddit:1nsebak",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1nsebak/anyone_use_a_babylock_vibrant_what_replacement/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "anyone use a Babylock Vibrant?  what replacement needles do you buy &amp; where from?",
+    "subreddit": "sewhelp",
+    "thread_id": "1nsebak",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1759038975,
+    "discovered_by": [
+      "all:Babylock Vibrant",
+      "r/sewhelp:Babylock Vibrant",
+      "r/sewhelp:Babylock Vibrant problems"
+    ],
+    "content_hash": "c90421c932d30da3"
+  },
+  {
+    "id": "reddit:iu9tjf",
+    "url": "https://www.reddit.com/r/sewing/comments/iu9tjf/babylock_vibrant_cutting_blade_stuck_as_disengaged/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "BabyLock Vibrant Cutting Blade Stuck as Disengaged",
+    "subreddit": "sewing",
+    "thread_id": "iu9tjf",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1606065325,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "r/sewing:Baby Lock Vibrant serger",
+      "all:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant",
+      "r/sewing:Baby Lock Vibrant review",
+      "r/sewing:Babylock Vibrant problems",
+      "r/sewing:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "c970a2a15df76c6e"
+  },
+  {
+    "id": "reddit:1rj1lmz",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1rj1lmz/serger_problem_baby_lock_vibrant_not_rolling/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger problem baby lock vibrant not rolling",
+    "subreddit": "sewhelp",
+    "thread_id": "1rj1lmz",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "thin",
+    "cursor_utc": 1772477678,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "r/sewhelp:Baby Lock Vibrant serger",
+      "r/sewhelp:Baby Lock Vibrant review",
+      "r/sewhelp:Babylock Vibrant problems",
+      "r/sewhelp:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1jfs0qt",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1jfs0qt/comparing_brother_1034d_with_baby_lock_vibrant/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Comparing Brother 1034D with Baby Lock Vibrant serger?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1jfs0qt",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "thin",
+    "cursor_utc": 1742485808,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "r/SewingForBeginners:Baby Lock Vibrant serger",
+      "r/SewingForBeginners:Baby Lock Vibrant review",
+      "r/SewingForBeginners:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1pxfzlm",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1pxfzlm/baby_lock_vibrant_stitch_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Baby lock vibrant stitch help",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1pxfzlm",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "thin",
+    "cursor_utc": 1766889678,
+    "discovered_by": [
+      "r/SewingForBeginners:Baby Lock Vibrant serger",
+      "r/SewingForBeginners:Baby Lock Vibrant review",
+      "r/SewingForBeginners:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1i5kcia",
+    "url": "https://www.reddit.com/r/sewing/comments/1i5kcia/fantasy_wedding_dress/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Fantasy Wedding Dress",
+    "subreddit": "sewing",
+    "thread_id": "1i5kcia",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1737633367,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "r/sewing:Baby Lock Vibrant serger",
+      "all:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant",
+      "r/sewing:Baby Lock Vibrant review",
+      "r/sewing:Babylock Vibrant problems",
+      "r/sewing:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "30d21310ac6f0b1b"
+  },
+  {
+    "id": "reddit:1f0zkbv",
+    "url": "https://www.reddit.com/r/sewing/comments/1f0zkbv/i_am_upgrading_my_sewing_room_what_do_you_value/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "I am upgrading my sewing room - what do you value most?",
+    "subreddit": "sewing",
+    "thread_id": "1f0zkbv",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1724700582,
+    "discovered_by": [
+      "all:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant problems"
+    ],
+    "content_hash": "3605e3285be898ed"
+  },
+  {
+    "id": "reddit:1mqksdl",
+    "url": "https://www.reddit.com/r/sewing/comments/1mqksdl/serger_recs_under_400/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger recs under $400?",
+    "subreddit": "sewing",
+    "thread_id": "1mqksdl",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1755525875,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "r/sewing:Baby Lock Vibrant serger",
+      "r/sewing:Baby Lock Vibrant review",
+      "r/sewing:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "4200696fd4b95381"
+  },
+  {
+    "id": "reddit:1tuwgo2",
+    "url": "https://www.reddit.com/r/VintageSewingMachines/comments/1tuwgo2/help_me_decide_to_sell_my_modern_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help Me Decide to Sell my Modern Machine",
+    "subreddit": "VintageSewingMachines",
+    "thread_id": "1tuwgo2",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1780628290,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "all:Babylock Vibrant"
+    ],
+    "content_hash": "292b29935f02213a"
+  },
+  {
+    "id": "reddit:qqu9e1",
+    "url": "https://www.reddit.com/r/sewing/comments/qqu9e1/help_picking_a_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help picking a serger",
+    "subreddit": "sewing",
+    "thread_id": "qqu9e1",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1636678576,
+    "discovered_by": [
+      "all:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant problems"
+    ],
+    "content_hash": "21e207db6c8d5eca"
+  },
+  {
+    "id": "reddit:17jbt91",
+    "url": "https://www.reddit.com/r/sewing/comments/17jbt91/which_serger_would_you_buy/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Which serger would you buy?",
+    "subreddit": "sewing",
+    "thread_id": "17jbt91",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1699375515,
+    "discovered_by": [
+      "all:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant",
+      "all:Babylock Vibrant problems",
+      "r/sewing:Babylock Vibrant problems"
+    ],
+    "content_hash": "da56e1ab5f183619"
+  },
+  {
+    "id": "reddit:1jjqflx",
+    "url": "https://www.reddit.com/r/sewing/comments/1jjqflx/geometric_print_mens_trunks/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Geometric Print Men’s Trunks",
+    "subreddit": "sewing",
+    "thread_id": "1jjqflx",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1743010617,
+    "discovered_by": [
+      "all:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant problems"
+    ],
+    "content_hash": "d1ae7150b907370b"
+  },
+  {
+    "id": "reddit:1bobsqh",
+    "url": "https://www.reddit.com/r/sewing/comments/1bobsqh/first_time_server_needle_type/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "First time Server - needle type?",
+    "subreddit": "sewing",
+    "thread_id": "1bobsqh",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1711552790,
+    "discovered_by": [
+      "all:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant problems"
+    ],
+    "content_hash": "407aa59cb1bf4dff"
+  },
+  {
+    "id": "reddit:1h97768",
+    "url": "https://www.reddit.com/r/sewing/comments/1h97768/baby_lock_rolled_edge/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Baby Lock Rolled Edge",
+    "subreddit": "sewing",
+    "thread_id": "1h97768",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1733865112,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "r/sewing:Baby Lock Vibrant serger",
+      "all:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant",
+      "r/sewing:Baby Lock Vibrant review",
+      "r/sewing:Babylock Vibrant problems",
+      "r/sewing:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "ae4ffde39e8ab1b5"
+  },
+  {
+    "id": "reddit:1r48epv",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1r48epv/beginner_serger_recommendations/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Beginner Serger Recommendations?",
+    "subreddit": "sewhelp",
+    "thread_id": "1r48epv",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1771789834,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "r/sewhelp:Baby Lock Vibrant serger",
+      "r/sewhelp:Baby Lock Vibrant review",
+      "r/sewhelp:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "c1f76c8d3c486cbb"
+  },
+  {
+    "id": "reddit:1nkbgek",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1nkbgek/fabrics_not_feeding_evenly/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Fabrics not feeding evenly",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1nkbgek",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1758213695,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "r/SewingForBeginners:Baby Lock Vibrant serger",
+      "r/SewingForBeginners:Baby Lock Vibrant review",
+      "r/SewingForBeginners:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "a1bdf902b574308b"
+  },
+  {
+    "id": "reddit:jkra6c",
+    "url": "https://www.reddit.com/r/sewing/comments/jkra6c/serger_recommendations/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger recommendations?",
+    "subreddit": "sewing",
+    "thread_id": "jkra6c",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1608949197,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "r/sewing:Baby Lock Vibrant serger",
+      "r/sewing:Baby Lock Vibrant review",
+      "r/sewing:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "9fc37462fb16db5c"
+  },
+  {
+    "id": "reddit:e7qmcp",
+    "url": "https://www.reddit.com/r/sewing/comments/e7qmcp/need_help_deciding_on_a_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Need help deciding on a serger",
+    "subreddit": "sewing",
+    "thread_id": "e7qmcp",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1575863643,
+    "discovered_by": [
+      "all:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant",
+      "r/sewing:Babylock Vibrant problems"
+    ],
+    "content_hash": "e9c00db6156d096c"
+  },
+  {
+    "id": "reddit:1gvdu4z",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1gvdu4z/serger_recommendations_anyone/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger Recommendations Anyone?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1gvdu4z",
+    "first_seen": "2026-10-01T23:58:52.261Z",
+    "last_fetched": "2026-10-01T23:58:52.261Z",
+    "status": "ok",
+    "cursor_utc": 1732087823,
+    "discovered_by": [
+      "all:Baby Lock Vibrant serger",
+      "r/SewingForBeginners:Baby Lock Vibrant serger",
+      "r/SewingForBeginners:Baby Lock Vibrant review",
+      "r/SewingForBeginners:Baby Lock Vibrant vs"
+    ],
+    "content_hash": "00fa24ffeb043f05"
+  }
+]
