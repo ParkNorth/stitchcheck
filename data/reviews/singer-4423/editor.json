@@ -26,6 +26,14 @@
   ],
   "features": [
     [
+      "stitch count|stitch options",
+      "Stitches"
+    ],
+    [
+      "accessory package|accessories",
+      "Included accessories"
+    ],
+    [
       "price|\\$|cost|cheap|expens",
       "Price"
     ],
@@ -75,7 +83,30 @@
   "themeRemap": [],
   "others": "heavy[\\s-]*duty[\\s-]*4411(?![a-z0-9])|4411(?![a-z0-9])|heavy[\\s-]*duty[\\s-]*4432(?![a-z0-9])|4432(?![a-z0-9])|heavy[\\s-]*duty[\\s-]*4452(?![a-z0-9])|4452(?![a-z0-9])|heavy[\\s-]*duty[\\s-]*4432(?![a-z0-9])|4432(?![a-z0-9])|hd3000(?![a-z0-9])|st371hd(?![a-z0-9])|371hd(?![a-z0-9])",
   "scopeRules": [],
-  "siblingSummaries": {},
+  "siblingSummaries": {
+    "Heavy Duty 4411": {
+      "Stitches": {
+        "summary": "Commenters say the 4423 has more stitches than the 4411. Singer lists 23 built-in stitches for the 4423 and 11 for the 4411.",
+        "check": "Reddit comments confirmed by Singer product pages, 2026-10-01"
+      }
+    },
+    "Heavy Duty 4452": {
+      "Stitches": {
+        "summary": "Commenters say the 4452 has more stitch options than the 4423. Singer lists 32 built-in stitches for the 4452 and 23 for the 4423.",
+        "check": "Reddit comments confirmed by Singer product pages, 2026-10-01"
+      },
+      "Included accessories": {
+        "summary": "Commenters describe the 4452 as the 4423 with a different accessory package. Singer lists a walking foot, non-stick foot, clearance plate and heavy duty needles in the 4452 bundle.",
+        "check": "Reddit comments and Singer product pages, 2026-10-01"
+      }
+    },
+    "Heavy Duty 4432": {
+      "Included accessories": {
+        "summary": "Commenters describe the 4432 as the 4423 with a different accessory package.",
+        "check": "Reddit comments; Singer's pages list 32 stitches for the 4432 and 23 for the 4423"
+      }
+    }
+  },
   "siblingExtras": {
     "Heavy Duty 4411": [
       {
