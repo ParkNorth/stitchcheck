@@ -1,0 +1,827 @@
+{
+  "slug": "juki-tl-18qvp",
+  "today": "2026-10-01",
+  "rules": "AGENTS.md rules 1 to 12 apply: spec-check not field-test, owner evidence labelled, paraphrase and attribute, no em or en dashes, never invent a spec, claims quoted not asserted, every spec sourced, model name is not a spec, conflicts listed, price bands not live prices.",
+  "spec": {
+    "slug": "juki-tl-18qvp",
+    "brand": "Juki",
+    "model": "TL-18QVP",
+    "series": "TL (Haruka)",
+    "type": "mechanical",
+    "industrial": false,
+    "jobs": [
+      "quilting",
+      "heavy-duty"
+    ],
+    "manufacturerUrl": "https://jukiquilting.com/products/haruka-tl-18qvp.html",
+    "retailerUrl": "https://sewingmachinesplus.com/products/juki-tl18qvp",
+    "priceUsdSeen": 1899,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Quality Sewing (authorized Juki dealer); Sewing Machines Plus listing exists but its price was not visible in results",
+    "specs": {
+      "stitchTypes": {
+        "value": "Straight stitch only, single needle lockstitch",
+        "source": "https://jukiquilting.com/products/haruka-tl-18qvp.html"
+      },
+      "stitchCount": {
+        "value": 1,
+        "source": "https://jukiquilting.com/products/haruka-tl-18qvp.html"
+      },
+      "maxSpm": {
+        "value": 1500,
+        "source": "https://www.qualitysewing.com/products/juki-tl-18qvp-haruka-high-speed-sewing-and-quilting-machine"
+      },
+      "speedRangeSpm": {
+        "value": "200 to 1500",
+        "source": "https://www.sewingpartsonline.com/blogs/education/difference-between-juki-tl-2010q-and-juki-tl-18vp-straight-stitch-sewing-machines"
+      },
+      "maxStitchLengthMm": {
+        "value": 6,
+        "source": "https://jukiquilting.com/products/haruka-tl-18qvp.html"
+      },
+      "threads": {
+        "value": null,
+        "source": null
+      },
+      "differentialFeed": {
+        "value": null,
+        "source": null
+      },
+      "throatIn": {
+        "value": 8.5,
+        "source": "https://www.sewingpartsonline.com/products/juki-haruka-tl-18qvp-quilting-machine"
+      },
+      "throatHeightIn": {
+        "value": null,
+        "source": null
+      },
+      "stitchRegulation": {
+        "value": "None (domestic straight stitch machine)",
+        "source": "https://jukiquilting.com/products/haruka-tl-18qvp.html"
+      },
+      "needleSystem": {
+        "value": "HAx1 (130/705H)",
+        "source": "https://www.qualitysewing.com/juki-tl-18qvp-haruka-high-speed-sewing-and-quilting-machine.html"
+      },
+      "bobbin": {
+        "value": null,
+        "source": null
+      },
+      "lighting": {
+        "value": null,
+        "source": null
+      },
+      "presserFootLift": {
+        "value": "Knee lifter lever included; Float function (micro lifter) holds the presser foot 0 to 2 mm above the fabric",
+        "source": "https://www.qualitysewing.com/products/juki-tl-18qvp-haruka-high-speed-sewing-and-quilting-machine"
+      },
+      "threadTrimmer": {
+        "value": "Automatic thread trimmer",
+        "source": "https://www.qualitysewing.com/products/juki-tl-18qvp-haruka-high-speed-sewing-and-quilting-machine"
+      },
+      "feedSystem": {
+        "value": null,
+        "source": null
+      },
+      "buttonhole": {
+        "value": null,
+        "source": null
+      },
+      "motor": {
+        "value": null,
+        "source": null
+      },
+      "frame": {
+        "value": "Aluminum die casting body",
+        "source": "https://jukiquilting.com/products/haruka-tl-18qvp.html"
+      },
+      "weightLb": {
+        "value": 25.4,
+        "source": "https://www.sewingpartsonline.com/products/juki-haruka-tl-18qvp-quilting-machine"
+      },
+      "dimensionsIn": {
+        "value": "17.8 W x 8.6 D x 13.8 H (452 x 219 x 350 mm)",
+        "source": "https://www.qualitysewing.com/juki-tl-18qvp-haruka-high-speed-sewing-and-quilting-machine.html"
+      },
+      "includedFeet": {
+        "value": "Nine presser feet; power cord, two screwdrivers, HAx1 needles, four bobbins, knee lifter lever, oiler, spool cap, cleaning brush",
+        "source": "https://jackmansfabrics.com/products/juki-tl-18-qvp-haruka-with-floating-walking-foot"
+      },
+      "warrantyUs": {
+        "value": "5 yr defective materials and workmanship; 2 yr motors, light assembly, wiring, switches, speed control and electrical components",
+        "source": "https://www.qualitysewing.com/juki-tl-18qvp-haruka-high-speed-sewing-and-quilting-machine.html"
+      }
+    },
+    "claims": [
+      "\"industrial-quality sewing\" (manufacturer claim, jukiquilting.com product page)",
+      "\"single-needle, lockstitch workhorse\" (manufacturer claim, jukiquilting.com product page)",
+      "\"industrial-grade features\" (dealer claim, qualitysewing.com)"
+    ],
+    "conflicts": [
+      "Max speed: the jukiquilting.com snippet reads \"Max. 15000 SPM\", an evident typo; dealers and the Juki brochure say 1,500 spm. Catalog will use 1,500.",
+      "Weight: 25.4 lb / 11.52 kg (dealers quoting Juki spec) vs 25.0 lb (Amazon listing). Catalog will use 25.4 lb, the Juki figure.",
+      "Price: $1,899 (Quality Sewing) vs \"contact your authorized JUKI QVP dealer\" (jukiquilting.com). Sewing Machines Plus lists the model but no price was visible in results."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "Owners who compared it with the TL-2010Q say there is not much difference other than price; the micro lift does not raise the foot much but is handy on very thick seams.",
+        "tone": "mixed",
+        "source": "https://www.quiltingboard.com/main-f1/question-juki-tl-owners-t324265.html"
+      },
+      {
+        "theme": "A retailer explainer frames the differences as more included feet and the micro lifter on the TL-18QVP, with the same 8.5 in throat and 1,500 spm on both machines.",
+        "tone": "mixed",
+        "source": "https://www.sewingpartsonline.com/blogs/education/difference-between-juki-tl-2010q-and-juki-tl-18vp-straight-stitch-sewing-machines"
+      }
+    ],
+    "evidence": "mixed",
+    "buyerQuestions": [
+      "What is the difference between the Juki TL-18QVP and the TL-2010Q?",
+      "Is the TL-18QVP a long arm?",
+      "How big is the throat on the TL-18QVP?",
+      "What is the Float function on the Haruka?",
+      "Does the TL-18QVP do zigzag or only straight stitch?",
+      "What needles does the TL-18QVP use?",
+      "Can the TL-18QVP go on a quilting frame?",
+      "What is the Juki QVP warranty?",
+      "How much does the TL-18QVP cost and why does the price vary by dealer?"
+    ],
+    "crossShop": [
+      {
+        "slug": "juki-tl-2010q",
+        "why": "Same platform, same throat and speed; the TL-18QVP adds the Float function and more feet at a higher dealer price"
+      },
+      {
+        "slug": "brother-pq1600s",
+        "why": "The other 1,500 spm straight stitch quilter in the class, usually several hundred dollars less"
+      },
+      {
+        "slug": "handi-quilter-moxie",
+        "why": "Buyers weighing a domestic straight stitch quilter against an entry frame longarm"
+      },
+      {
+        "slug": "janome-mc6650",
+        "why": "A computerized 10 in throat machine at a similar price for quilters who also want utility stitches"
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "editorial": {
+      "verdict": "The TL-18QVP is the TL-2010Q with a micro lifter, more feet and dealer only distribution. The 8.5 in throat and 1,500 spm are identical, so the decision is whether the Float function and dealer support are worth the premium.",
+      "whoFor": "A quilter or bag maker who wants a fast, simple straight stitch machine, sews bulky seams often, and prefers buying from a local Juki dealer.",
+      "skipIf": "You need any stitch other than straight, you want the lowest price on this platform (TL-2010Q), or you want to quilt on a frame with regulated stitches (that is a different class of machine).",
+      "keySpec": "8.5 in throat · 1,500 spm · straight stitch only · Float function",
+      "strengths": [
+        "1,500 spm with a 6 mm max stitch length and automatic thread trimmer",
+        "Float function holds the foot 0 to 2 mm above the fabric for thick seam transitions",
+        "Nine presser feet and knee lifter in the box"
+      ],
+      "weaknesses": [
+        "Straight stitch only; no zigzag, no buttonhole",
+        "8.5 in throat is domestic class despite \"18\" in the model name",
+        "Dealer only pricing varies; the published Juki page says contact a dealer"
+      ],
+      "checks": [
+        {
+          "title": "Do not read the model number as arm length",
+          "body": "TL-18QVP has an 8.5 in throat. The 18 is a model designation, not inches."
+        },
+        {
+          "title": "Compare the feet list against the TL-2010Q",
+          "body": "The extra feet are a real part of the price difference. Check which feet you would buy anyway."
+        },
+        {
+          "title": "Ask the dealer about frame mounting",
+          "body": "Juki QVP sells frames for this class, but the machine has no stitch regulator. On a frame you control stitch length by hand speed."
+        }
+      ],
+      "realCost": [
+        {
+          "item": "Extension table",
+          "note": "An auxiliary table is included on the TL platform per Juki; confirm it is in the dealer bundle"
+        },
+        {
+          "item": "Stitch regulator",
+          "note": "Not available for this machine; no add-on path"
+        },
+        {
+          "item": "Frame",
+          "note": "Optional; Juki QVP frames are dealer priced and were not published on pages found"
+        },
+        {
+          "item": "Bobbins",
+          "note": "Standard TL class aluminum bobbins, widely available"
+        }
+      ]
+    },
+    "sources": [
+      "https://jukiquilting.com/products/haruka-tl-18qvp.html",
+      "https://jukiquilting.com/quilting-machines/haruka-tl-18qvp.html",
+      "https://jukiquilting.com/media/catalog/product/j/u/juki_tl-18qvp_haruka_brochure.pdf",
+      "https://www.qualitysewing.com/products/juki-tl-18qvp-haruka-high-speed-sewing-and-quilting-machine",
+      "https://www.qualitysewing.com/juki-tl-18qvp-haruka-high-speed-sewing-and-quilting-machine.html",
+      "https://www.sewingpartsonline.com/products/juki-haruka-tl-18qvp-quilting-machine",
+      "https://www.sewingpartsonline.com/blogs/education/difference-between-juki-tl-2010q-and-juki-tl-18vp-straight-stitch-sewing-machines",
+      "https://jackmansfabrics.com/products/juki-tl-18-qvp-haruka-with-floating-walking-foot",
+      "https://meissnersewing.com/products/juki-haruka-tl-18qvp-sewing-quilting-machine",
+      "https://sewingmachinesplus.com/products/juki-tl18qvp",
+      "https://www.amazon.com/Haruka-TL18QVP-Portable-Quilting-Machine/dp/B07S2GGPW4",
+      "https://www.quiltingboard.com/main-f1/question-juki-tl-owners-t324265.html"
+    ]
+  },
+  "manufacturer": {
+    "documents": [
+      {
+        "id": "jq-page",
+        "url": "https://jukiquilting.com/products/haruka-tl-18qvp.html",
+        "type": "product page (jukiquilting.com)",
+        "fetched": "2026-10-01",
+        "note": "Spec list, features, accessories, suggested retail price; no throat figure"
+      },
+      {
+        "id": "brochure",
+        "url": "https://jukiquilting.com/media/catalog/product/j/u/juki_tl-18qvp_haruka_brochure.pdf",
+        "type": "brochure (PDF, 2 pages)",
+        "fetched": "2026-10-01",
+        "note": "Spec table; work-area diagram labels 8.5 in x 6 in arm"
+      },
+      {
+        "id": "manual",
+        "url": "https://jukiquilting.com/media/catalog/product/t/l/tl-18qvp_instruction_manual.pdf",
+        "type": "instruction manual (PDF, 104 pages)",
+        "fetched": "2026-10-01",
+        "note": "Specifications table; weight and foot lift differ from the page"
+      },
+      {
+        "id": "jp-page",
+        "url": "https://www.juki.co.jp/household_en/products/list/semipro/tl18qvp_collectors_edition.html",
+        "type": "Juki Japan Collector's Edition page",
+        "fetched": "2026-10-01",
+        "note": "Full spec table including 'arm size'; a Collector's Edition page, not the standard Haruka page"
+      },
+      {
+        "id": "faq",
+        "url": "https://www.jukihome.com/faq/",
+        "type": "Juki America FAQ",
+        "fetched": "2026-10-01",
+        "note": "General warranty wording, not model-specific"
+      },
+      {
+        "id": "tl2010q-page",
+        "url": "https://www.jukihome.com/products/tl-2010q.html",
+        "type": "product page (TL-2010Q)",
+        "fetched": "2026-10-01",
+        "note": "comparison"
+      },
+      {
+        "id": "tl2000qi-page",
+        "url": "https://www.jukihome.com/products/tl-2000qi.html",
+        "type": "product page (TL-2000Qi)",
+        "fetched": "2026-10-01",
+        "note": "comparison"
+      }
+    ],
+    "facts": [
+      {
+        "field": "maxSpm",
+        "value": "Min. 55, max. 1,500 spm; speed slider 200 to 1,500",
+        "source": "jq-page",
+        "vs_spec": "confirms",
+        "spec_value": 1500,
+        "site": {
+          "label": "Speed",
+          "juki": "1,500 stitches per minute; the page also quotes 200 to 1,500 on the slider.",
+          "others": "Matches our spec.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Juki source",
+              "url": "https://jukiquilting.com/products/haruka-tl-18qvp.html"
+            }
+          ]
+        }
+      },
+      {
+        "field": "stitchLengthMm",
+        "value": "Max. 6 mm",
+        "source": "jq-page",
+        "vs_spec": "confirms",
+        "spec_value": 6
+      },
+      {
+        "field": "throatIn",
+        "value": "'Arm size' 8.5 in (W) x 6 in (H) on Juki Japan's Collector's Edition page and the brochure diagram; not on jukiquilting.com",
+        "source": "jp-page",
+        "vs_spec": "adds",
+        "spec_value": 8.5,
+        "note": "Juki's wording is 'arm size', not needle-to-arm; our 8.5 in has only this indirect maker source and dealers calling it throat space.",
+        "site": {
+          "label": "Throat",
+          "juki": "Juki Japan and the brochure give an 8.5 x 6 in arm size; jukiquilting.com gives no figure.",
+          "others": "Dealers call it 8.5 x 6 in throat space.",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Juki source",
+              "url": "https://www.juki.co.jp/household_en/products/list/semipro/tl18qvp_collectors_edition.html"
+            }
+          ]
+        }
+      },
+      {
+        "field": "workspace",
+        "value": "Up to 23 in with the auxiliary table attached",
+        "source": "jp-page",
+        "vs_spec": "adds",
+        "spec_value": null
+      },
+      {
+        "field": "weightLb",
+        "value": "25.4 lb / 11.5 kg (page, brochure); Japan page 24.5 lb; manual 11.9 kg",
+        "source": "jq-page",
+        "vs_spec": "contradicts",
+        "spec_value": 25.4,
+        "note": "Juki's own documents disagree (11.5 vs 11.9 kg).",
+        "site": {
+          "label": "Weight",
+          "juki": "25.4 lb (11.5 kg) on the page and brochure; the manual says 11.9 kg.",
+          "others": "Matches our 25.4 lb.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Juki source",
+              "url": "https://jukiquilting.com/products/haruka-tl-18qvp.html"
+            }
+          ]
+        }
+      },
+      {
+        "field": "dimensionsIn",
+        "value": "18 W x 14 H x 9 D in (452 x 350 x 219 mm)",
+        "source": "jq-page",
+        "vs_spec": "confirms",
+        "spec_value": "17.8 W x 8.6 D x 13.8 H (452 x 219 x 350 mm)"
+      },
+      {
+        "field": "presserFootLift",
+        "value": "Lever max 10 mm (0.4 in), knee lifter max 12 mm (0.5 in); manual says 7 mm and 9 mm (12 mm by knee lifter)",
+        "source": "jq-page",
+        "vs_spec": "contradicts",
+        "spec_value": "Knee lifter lever included; float function",
+        "note": "Juki's page and manual disagree on the lever lift."
+      },
+      {
+        "field": "floatFunction",
+        "value": "Float function (micro lifter): the presser foot floats 0 to 2 mm above the material",
+        "source": "jq-page",
+        "vs_spec": "confirms",
+        "spec_value": "Float function (micro lifter) holds the presser foot 0 to 2 mm above the fabric"
+      },
+      {
+        "field": "needleSystem",
+        "value": "HA x 1 (130/705H) / HL x 5, #9 to #18; high shank",
+        "source": "jq-page",
+        "vs_spec": "confirms",
+        "spec_value": "HAx1 (130/705H)"
+      },
+      {
+        "field": "motor",
+        "value": "Not published",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": null,
+        "note": "One owner says 1.1 A against the TL-2010Q's 1.4 A (Reddit, not a Juki figure)."
+      },
+      {
+        "field": "threadTrimmer",
+        "value": "Automatic thread trimmer by button or foot controller; automatic needle threader",
+        "source": "jq-page",
+        "vs_spec": "confirms",
+        "spec_value": "Automatic thread trimmer"
+      },
+      {
+        "field": "hook",
+        "value": "Vertical full-rotary hook on the feature page; the Japan spec table says horizontal-axis full-rotary",
+        "source": "jp-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Juki's own pages disagree."
+      },
+      {
+        "field": "lighting",
+        "value": "LED, 4-step adjustable (high, medium, low, off)",
+        "source": "jq-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null."
+      },
+      {
+        "field": "includedFeet",
+        "value": "Standard, hemming, zipper, even feed, 1/5 in and 1/4 in quilting, open-toe quilting, 1/4 in compensating and 1/4 in feet; quilt guide; auxiliary table; knee lifter",
+        "source": "brochure",
+        "vs_spec": "confirms",
+        "spec_value": "Nine presser feet; power cord, two screwdrivers, HAx1 needles, four bobbins, knee lifter lever, oiler, spool cap, cleaning brush"
+      },
+      {
+        "field": "warrantyUs",
+        "value": "Juki America FAQ: 2 years on motors, light assembly, wiring, switches, circuit boards and speed control; 5 years on other parts for factory defects",
+        "source": "faq",
+        "vs_spec": "confirms",
+        "spec_value": "5 yr defective materials and workmanship; 2 yr motors, light assembly, wiring, switches, speed control and electrical components",
+        "note": "General Juki America wording, not TL-18QVP-specific.",
+        "site": {
+          "label": "Warranty",
+          "juki": "2 years on motor and electrical parts, 5 years on other factory defects (Juki America FAQ, general).",
+          "others": "Dealers state the same.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Juki source",
+              "url": "https://www.jukihome.com/faq/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "msrp",
+        "value": "Suggested retail $2,369; contact an authorized Juki QVP dealer",
+        "source": "jq-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Amazon showed $1,899 on 2026-10-01.",
+        "site": {
+          "label": "Price",
+          "juki": "Suggested retail $2,369.",
+          "others": "Amazon showed $1,899.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Juki source",
+              "url": "https://jukiquilting.com/products/haruka-tl-18qvp.html"
+            }
+          ]
+        }
+      },
+      {
+        "field": "claims",
+        "value": "'constructed of aluminum die-casting that ensures industrial-quality sewing'; 'equipped with the same mechanism as JUKI's industrial machines'; 'known as a workhorse'",
+        "source": "jq-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Marketing wording; claims only (rule 7). Juki gives no meaning for 'VP' or 'QVP' beyond a product-line label."
+      }
+    ]
+  },
+  "rollup": {
+    "status": "draft",
+    "method": {
+      "sources": 33,
+      "itemsCollected": 464,
+      "statements": 91,
+      "voices": 57,
+      "ownerVoices": 41,
+      "dateRange": [
+        2021,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 1,
+          "items": 0
+        },
+        "reddit": {
+          "sources": 32,
+          "items": 461
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B07S2GGPW4",
+        "pageRating": 4.7,
+        "pageCount": 124,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "lowRated": 0,
+        "sampled": "0 top reviews (0 US, 0 other countries) of 124 ratings"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Feet and accessories",
+        "voices": 13,
+        "ownerVoices": 8,
+        "sources": 7,
+        "polarity": {
+          "positive": 5,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 6
+        },
+        "classVoices": {
+          "reddit": 13
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner found the microlift not useful for bag making and says the TL-2010Q is the better recommendation.",
+            "url": "https://www.reddit.com/r/myog/comments/uco7du/advice_juki_tl18qvp_haruka_or_juki_industrial_on/o7ysl9c/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner says neither machine includes a free motion ruler foot or the narrow hinge foot.",
+            "url": "https://www.reddit.com/r/quilting/comments/1v683r3/juki_tl_series_opinions_on_tl2010q_vs_tl18qvp/ozq19xt/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner lists the knee lift among the amazing features.",
+            "url": "https://www.reddit.com/r/quilting/comments/qyctel/quilting_machine_review_the_juki_tl18qvp_haruka/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Buyer chose the machine for its additional included feet.",
+            "url": "https://www.reddit.com/r/quilting/comments/1pd6jpp/does_juki_junkies_run_sales_often/nsaz6l0/"
+          }
+        ]
+      },
+      {
+        "label": "Reliability and defects",
+        "voices": 10,
+        "ownerVoices": 9,
+        "sources": 7,
+        "polarity": {
+          "positive": 4,
+          "negative": 5,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "reddit": 10
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner's machine skipped a stitch when turning corners near zippers, possibly due to sticky tape on the needle.",
+            "url": "https://www.reddit.com/r/sewing/comments/1gwyvwj/my_newest_bag_its_my_new_favorite/lyfuv9q/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner's machine pedals and runs fine after cleaning, but the top thread fails to pick up the bobbin thread.",
+            "url": "https://www.reddit.com/r/quilting/comments/1ok9h5v/juki_tl18qvp_not_stitching_any_ideas_on_what/nma2zzv/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner values that the machine has no electronics to fail.",
+            "url": "https://www.reddit.com/r/quilting/comments/1f64aps/help_me_pick_my_next_machine/ll09mye/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner reports no problem with bobbin winding or use with the supplied or similar steel bobbins.",
+            "url": "https://www.reddit.com/r/sewing/comments/1mkf78j/is_this_awful_loud_metal_rattling_noise_normal/n7k0hxe/"
+          }
+        ]
+      },
+      {
+        "label": "Power on heavy fabric",
+        "voices": 7,
+        "ownerVoices": 5,
+        "sources": 6,
+        "polarity": {
+          "positive": 4,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "classVoices": {
+          "reddit": 7
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "positive",
+            "claim": "Owner says the machine went through the vinyl bag layers really well.",
+            "url": "https://www.reddit.com/r/sewing/comments/1gwyvwj/my_newest_bag_its_my_new_favorite/lyfuv9q/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner saw a dealer video allowing up to Tex 70 and regularly uses Tex 60 if the needle eye is large enough.",
+            "url": "https://www.reddit.com/r/sewing/comments/1mkf78j/is_this_awful_loud_metal_rattling_noise_normal/n7p7md2/"
+          }
+        ]
+      },
+      {
+        "label": "Walking foot",
+        "voices": 7,
+        "ownerVoices": 5,
+        "sources": 5,
+        "polarity": {
+          "positive": 0,
+          "negative": 4,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "classVoices": {
+          "reddit": 7
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Replacement walking feet will likely have the same shaving issue.",
+            "url": "https://www.reddit.com/r/quilting/comments/ukeyyx/juki_walking_foot_shedding_metal_shavings/i7ozh2s/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner traced the black dust to a jagged part of the walking foot, which the shop sanded smooth.",
+            "url": "https://www.reddit.com/r/sewing/comments/qe8det/my_new_juki_tl18qvp_makes_a_black_dust_but_why/hhrsy5k/"
+          }
+        ]
+      },
+      {
+        "label": "Thread trimmer",
+        "voices": 6,
+        "ownerVoices": 5,
+        "sources": 4,
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 2
+        },
+        "classVoices": {
+          "reddit": 6
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner says the thread cutter handles only Tex 30 to 40 thread.",
+            "url": "https://www.reddit.com/r/sewing/comments/1mkf78j/is_this_awful_loud_metal_rattling_noise_normal/n7mesrw/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner's unit had a defective thread sensor that cut at random; they disconnected the cutter wire.",
+            "url": "https://www.reddit.com/r/sewing/comments/1m66ukd/tl2010q_vs_tl18qvp/n4hv4s2/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner fought a randomly operating thread cutter and is happy after disabling it.",
+            "url": "https://www.reddit.com/r/sewing/comments/1mkf78j/is_this_awful_loud_metal_rattling_noise_normal/n7lxxmf/"
+          }
+        ]
+      },
+      {
+        "label": "Throat and workspace",
+        "voices": 6,
+        "ownerVoices": 5,
+        "sources": 4,
+        "polarity": {
+          "positive": 1,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "classVoices": {
+          "reddit": 6
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner with the same machine rolls large quilts tight and quilts from the middle out; it is hard on the hands.",
+            "url": "https://www.reddit.com/r/quilting/comments/1qjllbi/quilt_on_a_domestic_machine/o11duy3/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner finds the throat space plentiful.",
+            "url": "https://www.reddit.com/r/quilting/comments/1gd35v9/weightless_quilter_suspension_systems/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner has quilted king-size quilts on the Juki 18 with a light wool batting, though it was a bundle.",
+            "url": "https://www.reddit.com/r/quilting/comments/1qjllbi/quilt_on_a_domestic_machine/o143at0/"
+          }
+        ]
+      },
+      {
+        "label": "Noise and vibration",
+        "voices": 6,
+        "ownerVoices": 3,
+        "sources": 4,
+        "polarity": {
+          "positive": 1,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "classVoices": {
+          "reddit": 6
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "New owner reports a loud metal rattle when winding the bobbin.",
+            "url": "https://www.reddit.com/r/sewing/comments/1mkf78j/is_this_awful_loud_metal_rattling_noise_normal/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Review calls it surprisingly quiet for a powerful machine.",
+            "url": "https://www.reddit.com/r/betterconsumerreports/comments/1fiangc/juki_tl18qvp_review_my_new_quilting_obsession/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Machine can be loud at top speed, which a pad underneath solves for the owner.",
+            "url": "https://www.reddit.com/r/quilting/comments/1f64aps/help_me_pick_my_next_machine/ll09mye/"
+          }
+        ]
+      }
+    ],
+    "siblings": [
+      {
+        "label": "Juki TL-2010Q",
+        "rows": [
+          {
+            "feature": "Presser foot lift",
+            "summary": "Owners say the TL-18QVP's micro lifter (float function) is the main difference from the TL-2010Q. Juki lists the float function for the TL-18QVP and not for the TL-2010Q.",
+            "check": "Juki product pages, 2026-10-01"
+          },
+          {
+            "feature": "Fabric guide mount",
+            "summary": "Owners describe a reinforced slot or replaceable mounting plate on the right of the TL-18QVP where the TL-2010Q has a plain connection point. Juki lists an attachment mounting plate for the TL-18QVP.",
+            "check": "Owner comments; Juki's Japan page lists the mounting plate"
+          },
+          {
+            "feature": "Feet and features",
+            "summary": "Owners say the TL-18QVP ships with nine feet against four on the TL-2010Q, and adds the micro lifter and better lighting. Juki's brochure lists nine standard feet for the TL-18QVP and fewer for the TL-2010Q.",
+            "check": "Owner comments and Juki pages"
+          },
+          {
+            "feature": "Motor current",
+            "summary": "One owner states 1.1 A for the TL-18QVP and 1.4 A for the TL-2010Q. Juki publishes neither.",
+            "check": "unverified, Reddit only"
+          },
+          {
+            "feature": "Price",
+            "summary": "Juki lists the TL-2010Q at $2,169 and the TL-18QVP at $2,369.",
+            "check": "Juki product pages, 2026-10-01"
+          }
+        ]
+      },
+      {
+        "label": "Juki TL-2000Qi",
+        "rows": [
+          {
+            "feature": "Price",
+            "summary": "Juki lists the TL-2000Qi at $1,799.",
+            "check": "Juki product pages, 2026-10-01"
+          },
+          {
+            "feature": "Float function",
+            "summary": "No float function is listed for the TL-2000Qi; the TL-18QVP has one. Speed, stitch length and weight match.",
+            "check": "Juki product pages, 2026-10-01"
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "checks": [
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"presserFootLift\" but the spec's conflicts do not mention it"
+    }
+  ],
+  "editorNotes": {
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction."
+  },
+  "siteFieldsNow": "  \"juki-tl-18qvp\": {\n    series: \"TL\",\n    score: 8.5,\n    scoredFor: \"quilting\",\n    reason: \"The TL with more arm and a dealer price; the step before a frame.\",\n    context: \"Straight-stitch quilter · in Quilting hub\",\n    alternatives: [\n      { slug: \"juki-tl-2010q\", label: \"Cheaper\", note: \"The standard TL arm.\" },\n      { slug: \"handi-quilter-moxie\", label: \"Frame\", note: \"The next tier up.\" },\n      { slug: \"brother-pq1600s\", label: \"Cross-shop\", note: \"Brother's straight-stitch quilter.\" },\n    ],\n    imageAlt: \"Juki TL-18QVP straight-stitch quilting machine\",\n    lastUpdated: \"2026-09-29\",\n  },",
+  "comparesNow": []
+}
