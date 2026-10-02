@@ -1,0 +1,143 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "TL-2000Qi",
+      "label": "Juki TL-2000Qi",
+      "pattern": "tl[\\s-]*2000qi(?![a-z0-9])|2000qi(?![a-z0-9])"
+    },
+    {
+      "model": "TL-2010Q",
+      "label": "Juki TL-2010Q",
+      "pattern": "tl[\\s-]*2010q(?![a-z0-9])|2010q(?![a-z0-9])"
+    },
+    {
+      "model": "TL-18Q",
+      "label": "Juki TL-18Q",
+      "pattern": "tl[\\s-]*18q(?![a-z0-9])"
+    },
+    {
+      "model": "TL-98Q",
+      "label": "Juki TL-98Q",
+      "pattern": "tl[\\s-]*98q"
+    }
+  ],
+  "features": [
+    [
+      "presser foot lift",
+      "Presser foot lift"
+    ],
+    [
+      "fabric guide mount",
+      "Fabric guide mount"
+    ],
+    [
+      "included presser feet|built-in features",
+      "Feet and features"
+    ],
+    [
+      "motor current",
+      "Motor current"
+    ],
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "tl[\\s-]*2010q(?![a-z0-9])|2010q(?![a-z0-9])",
+      "Juki TL-2010Q"
+    ],
+    [
+      "pq1600s(?![a-z0-9])|1600s(?![a-z0-9])",
+      "Brother PQ1600S"
+    ],
+    [
+      "moxie(?![a-z0-9])",
+      "Handi Quilter Moxie"
+    ],
+    [
+      "memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])",
+      "Janome Memory Craft 6650"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "tl[\\s-]*2000qi(?![a-z0-9])|2000qi(?![a-z0-9])|tl[\\s-]*2010q(?![a-z0-9])|2010q(?![a-z0-9])|tl[\\s-]*2010q(?![a-z0-9])|2010q(?![a-z0-9])|pq1600s(?![a-z0-9])|1600s(?![a-z0-9])|moxie(?![a-z0-9])|memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {
+    "TL-2010Q": {
+      "Presser foot lift": {
+        "summary": "Owners say the TL-18QVP's micro lifter (float function) is the main difference from the TL-2010Q. Juki lists the float function for the TL-18QVP and not for the TL-2010Q.",
+        "check": "Juki product pages, 2026-10-01"
+      },
+      "Fabric guide mount": {
+        "summary": "Owners describe a reinforced slot or replaceable mounting plate on the right of the TL-18QVP where the TL-2010Q has a plain connection point. Juki lists an attachment mounting plate for the TL-18QVP.",
+        "check": "Owner comments; Juki's Japan page lists the mounting plate"
+      },
+      "Feet and features": {
+        "summary": "Owners say the TL-18QVP ships with nine feet against four on the TL-2010Q, and adds the micro lifter and better lighting. Juki's brochure lists nine standard feet for the TL-18QVP and fewer for the TL-2010Q.",
+        "check": "Owner comments and Juki pages"
+      },
+      "Motor current": {
+        "summary": "One owner states 1.1 A for the TL-18QVP and 1.4 A for the TL-2010Q. Juki publishes neither.",
+        "check": "unverified, Reddit only"
+      }
+    }
+  },
+  "siblingExtras": {
+    "TL-2010Q": [
+      {
+        "feature": "Price",
+        "summary": "Juki lists the TL-2010Q at $2,169 and the TL-18QVP at $2,369.",
+        "check": "Juki product pages, 2026-10-01"
+      }
+    ],
+    "TL-2000Qi": [
+      {
+        "feature": "Price",
+        "summary": "Juki lists the TL-2000Qi at $1,799.",
+        "check": "Juki product pages, 2026-10-01"
+      },
+      {
+        "feature": "Float function",
+        "summary": "No float function is listed for the TL-2000Qi; the TL-18QVP has one. Speed, stitch length and weight match.",
+        "check": "Juki product pages, 2026-10-01"
+      }
+    ]
+  }
+}

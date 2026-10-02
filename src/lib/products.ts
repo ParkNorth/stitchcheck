@@ -386,15 +386,17 @@ const siteFields: Record<string, SiteFields> = {
     series: "TL",
     score: 8.5,
     scoredFor: "quilting",
-    reason: "The TL with more arm and a dealer price; the step before a frame.",
+    reason: "The TL-2010Q platform with a float function and more feet; the throat is the same, so the extra is features, not arm.",
     context: "Straight-stitch quilter · in Quilting hub",
     alternatives: [
-      { slug: "juki-tl-2010q", label: "Cheaper", note: "The standard TL arm." },
+      { slug: "juki-tl-2010q", label: "Cheaper", note: "Same 8.5 in throat per dealers; Juki lists no float function for it." },
       { slug: "handi-quilter-moxie", label: "Frame", note: "The next tier up." },
       { slug: "brother-pq1600s", label: "Cross-shop", note: "Brother's straight-stitch quilter." },
     ],
     imageAlt: "Juki TL-18QVP straight-stitch quilting machine",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-01",
+    verdict: "A fast straight-stitch quilter on the TL-2010Q's 8.5 in throat; the premium buys a float function and nine feet, not more reach.",
+    specsVerified: "2026-10-01",
   },
   // --------------------------------------------------------------- Juki DDL
   "juki-ddl-8700": {
@@ -642,7 +644,7 @@ const siteFields: Record<string, SiteFields> = {
     context: "Long-arm on a frame · in Quilting hub",
     alternatives: [
       { slug: "grace-qnique-15r", label: "Cross-shop", note: "The other 15 in entry long-arm." },
-      { slug: "juki-tl-18qvp", label: "Sit-down", note: "Big TL arm, no frame." },
+      { slug: "juki-tl-18qvp", label: "Sit-down", note: "8.5 in TL arm per dealers, no frame." },
       { slug: "juki-tl-2010q", label: "Domestic", note: "Fast quilter on a table." },
     ],
     imageAlt: "Handi Quilter Moxie long-arm quilting machine on a frame",
@@ -656,7 +658,7 @@ const siteFields: Record<string, SiteFields> = {
     context: "Long-arm on a frame · in Quilting hub",
     alternatives: [
       { slug: "handi-quilter-moxie", label: "Cross-shop", note: "The other 15 in entry long-arm." },
-      { slug: "juki-tl-18qvp", label: "Sit-down", note: "Big TL arm, no frame." },
+      { slug: "juki-tl-18qvp", label: "Sit-down", note: "8.5 in TL arm per dealers, no frame." },
     ],
     imageAlt: "Grace Q'nique 15R long-arm quilting machine",
     lastUpdated: "2026-09-29",

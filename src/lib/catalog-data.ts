@@ -7625,9 +7625,9 @@ export const catalogData: Record<string, CatalogEntry> = {
     "manufacturerUrl": "https://jukiquilting.com/products/haruka-tl-18qvp.html",
     "retailerUrl": "https://sewingmachinesplus.com/products/juki-tl18qvp",
     "priceUsdSeen": 1899,
-    "priceSeenDate": "2026-09-29",
+    "priceSeenDate": "2026-10-01",
     "priceSeenAt": "another dealer",
-    "priceNote": "Quality Sewing (authorized Juki dealer); Sewing Machines Plus listing exists but its price was not visible in results",
+    "priceNote": "Amazon",
     "specs": {
       "stitchTypes": {
         "value": "Straight stitch only, single needle lockstitch",
@@ -7658,8 +7658,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.qualitysewing.com/juki-tl-18qvp-haruka-high-speed-sewing-and-quilting-machine.html"
       },
       "presserFootLift": {
-        "value": "Knee lifter lever included; Float function (micro lifter) holds the presser foot 0 to 2 mm above the fabric",
-        "source": "https://www.qualitysewing.com/products/juki-tl-18qvp-haruka-high-speed-sewing-and-quilting-machine"
+        "value": "Lever lift max 10 mm and knee lifter max 12 mm per the Juki page; Float function (micro lifter) holds the presser foot 0 to 2 mm above the fabric",
+        "source": "https://jukiquilting.com/products/haruka-tl-18qvp.html"
       },
       "threadTrimmer": {
         "value": "Automatic thread trimmer",
@@ -7683,7 +7683,7 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "weightLb": {
         "value": 25.4,
-        "source": "https://www.sewingpartsonline.com/products/juki-haruka-tl-18qvp-quilting-machine"
+        "source": "https://jukiquilting.com/products/haruka-tl-18qvp.html"
       },
       "dimensionsIn": {
         "value": "17.8 W x 8.6 D x 13.8 H (452 x 219 x 350 mm)",
@@ -7699,14 +7699,20 @@ export const catalogData: Record<string, CatalogEntry> = {
       }
     },
     "claims": [
-      "\"industrial-quality sewing\" (manufacturer claim, jukiquilting.com product page)",
-      "\"single-needle, lockstitch workhorse\" (manufacturer claim, jukiquilting.com product page)",
+      "\"industrial-quality sewing\" (Juki claim, jukiquilting.com product page: 'constructed of aluminum die-casting that ensures industrial-quality sewing')",
+      "\"equipped with the same mechanism as JUKI's industrial machines\" (Juki claim, jukiquilting.com product page)",
+      "\"known as a workhorse\" (Juki claim, jukiquilting.com product page)",
       "\"industrial-grade features\" (dealer claim, qualitysewing.com)"
     ],
     "conflicts": [
-      "Max speed: the jukiquilting.com snippet reads \"Max. 15000 SPM\", an evident typo; dealers and the Juki brochure say 1,500 spm. Catalog will use 1,500.",
-      "Weight: 25.4 lb / 11.52 kg (dealers quoting Juki spec) vs 25.0 lb (Amazon listing). Catalog will use 25.4 lb, the Juki figure.",
-      "Price: $1,899 (Quality Sewing) vs \"contact your authorized JUKI QVP dealer\" (jukiquilting.com). Sewing Machines Plus lists the model but no price was visible in results."
+      "Throat: Juki Japan's Collector's Edition page and the Juki brochure diagram give an 'arm size' of 8.5 x 6 in, and jukiquilting.com gives no figure; dealers call 8.5 in throat space. Juki does not use the word throat or say the 8.5 in is measured needle to body, so we keep 8.5 in as the TL-family needle-to-body figure on the strength of dealer wording only, and it stays soft.",
+      "Weight: 25.4 lb (11.5 kg) on the Juki page and brochure, 24.5 lb on Juki Japan's page, 11.9 kg (about 26.2 lb) in the Juki manual. We show 25.4 lb.",
+      "Presser foot lift: the Juki page gives a lever lift of 10 mm, the Juki manual gives 7 mm. The knee lifter is 12 mm in both.",
+      "Hook: Juki's feature page says vertical full-rotary hook; Juki Japan's spec table says horizontal-axis full-rotary. We do not state an orientation.",
+      "Auxiliary table depth: 335 mm in one Juki document and 355 mm in another. We state neither.",
+      "Warranty: 2 years on motor and electrical parts and 5 years on other factory defects is Juki America's general FAQ wording, not text written for the TL-18QVP.",
+      "Max speed: the jukiquilting.com snippet reads 'Max. 15000 SPM', an evident typo; the Juki page speed slider and brochure say 1,500 spm. We use 1,500.",
+      "Price: Juki's suggested retail and the Amazon price differ, and jukiquilting.com tells buyers to contact an authorized Juki QVP dealer."
     ],
     "ownerThemes": [
       {
@@ -7720,7 +7726,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.sewingpartsonline.com/blogs/education/difference-between-juki-tl-2010q-and-juki-tl-18vp-straight-stitch-sewing-machines"
       }
     ],
-    "evidence": "mixed",
+    "evidence": "owner",
     "buyerQuestions": [
       "What is the difference between the Juki TL-18QVP and the TL-2010Q?",
       "Is the TL-18QVP a long arm?",
@@ -7753,41 +7759,78 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The TL-18QVP is the TL-2010Q with a micro lifter, more feet and dealer only distribution. The 8.5 in throat and 1,500 spm are identical, so the decision is whether the Float function and dealer support are worth the premium.",
-      "whoFor": "A quilter or bag maker who wants a fast, simple straight stitch machine, sews bulky seams often, and prefers buying from a local Juki dealer.",
-      "skipIf": "You need any stitch other than straight, you want the lowest price on this platform (TL-2010Q), or you want to quilt on a frame with regulated stitches (that is a different class of machine).",
-      "keySpec": "8.5 in throat · 1,500 spm · straight stitch only · Float function",
+      "verdict": "A fast straight-stitch quilter on the TL-2010Q's 8.5 in throat; the extra buys a float function and nine feet, not more reach.",
+      "whoFor": "A quilter or bag maker who wants a 1,500 spm straight-stitch machine, sews thick seams often, and values the float function and the included feet.",
+      "skipIf": "You need any stitch other than straight, you want the TL-2010Q's same throat for less, or you want stitch regulation for frame quilting.",
+      "keySpec": "8.5 in throat · 1,500 spm · straight stitch only · float function",
       "strengths": [
-        "1,500 spm with a 6 mm max stitch length and automatic thread trimmer",
-        "Float function holds the foot 0 to 2 mm above the fabric for thick seam transitions",
-        "Nine presser feet and knee lifter in the box"
+        "1,500 spm, 6 mm max stitch length and an automatic thread trimmer, per Juki's page",
+        "Owners report it going through thick bag layers and heavy thread well",
+        "Nine presser feet, a knee lifter and an auxiliary table listed by Juki, plus a float function that holds the foot 0 to 2 mm above the fabric"
       ],
       "weaknesses": [
-        "Straight stitch only; no zigzag, no buttonhole",
-        "8.5 in throat is domestic class despite \"18\" in the model name",
-        "Dealer only pricing varies; the published Juki page says contact a dealer"
+        "Straight stitch only: no zigzag, no buttonhole",
+        "Owners report thread trimmer trouble: one says it handles only Tex 30 to 40 thread, others had it cut at random",
+        "Owners report metal shavings or black dust from the walking foot, and some found the micro lifter of little use for bag making"
       ],
       "checks": [
         {
           "title": "Do not read the model number as arm length",
-          "body": "TL-18QVP has an 8.5 in throat. The 18 is a model designation, not inches."
+          "body": "The 18 in TL-18QVP is not inches. Juki gives an 'arm size' of 8.5 x 6 in and does not call it throat space; dealers do."
         },
         {
-          "title": "Compare the feet list against the TL-2010Q",
-          "body": "The extra feet are a real part of the price difference. Check which feet you would buy anyway."
+          "title": "Weigh the float function and feet against the TL-2010Q",
+          "body": "Juki lists the float function for this model and not for the TL-2010Q. Owners say it ships with nine feet to the TL-2010Q's four. Decide whether you would buy those feet anyway."
         },
         {
-          "title": "Ask the dealer about frame mounting",
-          "body": "Juki QVP sells frames for this class, but the machine has no stitch regulator. On a frame you control stitch length by hand speed."
+          "title": "Ask the dealer about warranty and frame mounting",
+          "body": "The 2 year and 5 year terms are Juki America's general wording, not TL-18QVP-specific. Juki lists a mounting plate for this model, and the machine has no stitch regulator."
         }
       ],
       "realCost": [
-        "Extension table: An auxiliary table is included on the TL platform per Juki; confirm it is in the dealer bundle",
-        "Stitch regulator: Not available for this machine; no add-on path",
-        "Frame: Optional; Juki QVP frames are dealer priced and were not published on pages found",
-        "Bobbins: Standard TL class aluminum bobbins, widely available"
+        "Thread suited to the trimmer: One owner says the thread cutter handles only Tex 30 to 40 thread; another uses Tex 60 for sewing if the needle eye is large enough",
+        "Needles: HA x 1 (130/705H), #9 to #18, high shank; Juki lists HAx1 needles in the box",
+        "Free motion ruler foot: An owner says neither the TL-18QVP nor the TL-2010Q includes one",
+        "Frame: Optional; Juki lists a mounting plate for this model but frame pricing was not found on the pages we checked"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "What is the difference between the Juki TL-18QVP and the TL-2010Q?",
+          "a": "Juki lists a float function and a mounting plate for the TL-18QVP and not for the TL-2010Q. Owners say it also has nine feet to four, a micro lifter and better lighting. A retailer explainer says throat and speed match."
+        },
+        {
+          "q": "Is the TL-18QVP a long arm?",
+          "a": "No. The 18 is a model designation. The 8.5 in figure is a domestic-class throat, well under the 16 to 18 in mid-arm range."
+        },
+        {
+          "q": "How big is the throat on the TL-18QVP?",
+          "a": "Dealers give 8.5 in. Juki's own documents say 'arm size' 8.5 x 6 in and jukiquilting.com gives no figure, so treat 8.5 in as dealer-sourced."
+        },
+        {
+          "q": "What is the Float function on the Haruka?",
+          "a": "Juki describes it as a micro lifter: the presser foot floats 0 to 2 mm above the material. Owners are split: one finds it handy on very thick seams, another found it not useful for bag making."
+        },
+        {
+          "q": "Does the TL-18QVP do zigzag or only straight stitch?",
+          "a": "Straight stitch only, single needle lockstitch, per Juki's page."
+        },
+        {
+          "q": "What needles does the TL-18QVP use?",
+          "a": "HA x 1 (130/705H) in sizes #9 to #18, high shank, per Juki's page."
+        },
+        {
+          "q": "Can the TL-18QVP go on a quilting frame?",
+          "a": "Juki's pages list a mounting plate for it. The machine has no stitch regulator, so confirm frame fit and what you would control by hand with your dealer."
+        },
+        {
+          "q": "What is the Juki warranty?",
+          "a": "Juki America's general FAQ gives 2 years on motor and electrical parts and 5 years on other factory defects. That is not TL-18QVP-specific wording, so confirm it with the seller."
+        },
+        {
+          "q": "Why does the TL-18QVP price vary by dealer?",
+          "a": "Juki publishes a suggested retail price and tells buyers to contact an authorized QVP dealer. Amazon showed a lower price on 2026-10-01. Check the Last seen line for the date."
+        }
+      ]
     },
     "sources": [
       "https://jukiquilting.com/products/haruka-tl-18qvp.html",
@@ -7801,7 +7844,13 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://meissnersewing.com/products/juki-haruka-tl-18qvp-sewing-quilting-machine",
       "https://sewingmachinesplus.com/products/juki-tl18qvp",
       "https://www.amazon.com/Haruka-TL18QVP-Portable-Quilting-Machine/dp/B07S2GGPW4",
-      "https://www.quiltingboard.com/main-f1/question-juki-tl-owners-t324265.html"
+      "https://www.quiltingboard.com/main-f1/question-juki-tl-owners-t324265.html",
+      "https://jukiquilting.com/media/catalog/product/t/l/tl-18qvp_instruction_manual.pdf",
+      "https://www.juki.co.jp/household_en/products/list/semipro/tl18qvp_collectors_edition.html",
+      "https://www.jukihome.com/faq/",
+      "https://www.jukihome.com/products/tl-2010q.html",
+      "https://www.jukihome.com/products/tl-2000qi.html",
+      "https://www.amazon.com/dp/B07S2GGPW4"
     ]
   },
   "juki-tl-2000qi": {
