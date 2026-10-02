@@ -1,0 +1,10 @@
+
+## 2026-10-02 phase A (maker, marketplaces, collection)
+
+Maker documents: Grace 15R product page, 15R instruction manual PDF (44 pages, text layer, Technical Data on page 5), Grace warranty page, Grace 15 Pro page (sibling), and the Sewing Machines Plus page for comparison. No brochure or catalog for the 15R was found.
+
+Maker versus our spec: the 15R page says "No longer available for new purchase" and points to the 15 Pro; our spec says not discontinued and names the 16X as successor. Machine only MSRP is $4,499.95 on the maker comparison table (spec had only a $5,198 bundle). Needle system 135x5 / DPx5 is cited in our spec to the 15R manual but the manual text does not state it; only the SMP 15 PRO page lists it. Warranty: product page says electronics 1 yr, warranty page puts the 15R and its electronic parts in the 2 year list, plus 5 years on the cast body; not transferable. Throat is the maker's "15 inch throat space from the needle to the back of the work area", manual 15 in W x 8.5 in H. The manual adds dimensions (19 x 15.5 x 23 in), 110-220 VAC, 300 W peak, 90 to 1,800 spm. Maker does not publish: needle system, thread, included feet, presser foot lift for the 15R.
+
+Marketplaces: Amazon search found no listing for the 15R machine (only third party bobbin cases and 16X bundles). Dealer: the retailerUrl in our spec now serves a recertified Q'nique 15 PRO, 79 Judge.me reviews at 4.49. I ingested it, saw it was the wrong model, and removed its row and items from sources.json, raw.jsonl, reviews.jsonl and items.jsonl before the claims prep, so no 15 PRO rating is attributed to the 15R. The spec's retailerUrl and priceUsdSeen source need editor attention.
+
+Collection: Reddit, 7 threads taken (38 items); only one names the 15R in its title with substance (r/quilting "Eek! Qnique 15r issues!"); two are the same r/giveaways post, others (Longarm_show_n_tell, quilting at a loss, rulers, prices) are loose mentions. Claims prep: 24 segments, 1 chunk. Sibling patterns set for 19X, 15M, 15 PRO, 16X, 14+. Aliases set model_names_only with brand-qualified and Qnique spellings.

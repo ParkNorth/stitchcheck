@@ -1,0 +1,931 @@
+{
+  "slug": "handi-quilter-sweet-sixteen",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 14,
+    "itemsCollected": 210,
+    "statements": 50,
+    "voices": 32,
+    "ownerVoices": 27,
+    "dateRange": [
+      2012,
+      2026
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 13,
+        "items": 189
+      },
+      "retailer": {
+        "sources": 1,
+        "items": 17
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 11,
+      "voices": 11,
+      "ownerVoices": 8,
+      "sources": 6,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 8,
+        "retailer": 3
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 1,
+        "mixed": 1,
+        "neutral": 5
+      },
+      "years": [
+        2014,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c5234ee30",
+          "polarity": "negative",
+          "claim": "Owner finds it hard to support the weight of heavier quilts on the table.",
+          "quote": "it's really hard for me to support the weight of heavier quilts",
+          "url": "https://www.reddit.com/r/quilting/comments/1tbooj2/muahahaha/oljympm/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cfa986d29",
+          "polarity": "positive",
+          "claim": "Owner mounted the sit down machine on a Grace Q-Zone frame and likes it most there.",
+          "quote": "I recently put it on a Grace Q-Zone frame",
+          "url": "https://www.reddit.com/r/quilting/comments/kiy29c/what_to_askknow_before_buying_a_used_handiquilter/ggtqpje/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c6205da4a",
+          "polarity": "positive",
+          "claim": "Owner quilting a king size quilt says the machine operates smoothly.",
+          "quote": "working on a King size quilt and the machine operates smoothly",
+          "url": "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c90c882a6",
+          "polarity": "mixed",
+          "claim": "Owner of 11 to 12 years does twin size quilts easily on the table and needs a hanging system for bigger ones.",
+          "quote": "I can pretty easily do up to twin sized quilts",
+          "url": "https://www.reddit.com/r/quilting/comments/1tbooj2/muahahaha/oljq9tz/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cfa986d29",
+        "c3f0554a1",
+        "c99eb37b2",
+        "c90c882a6",
+        "c5234ee30",
+        "cd66573ee",
+        "cba37460f",
+        "c37b7c8c5",
+        "c6205da4a",
+        "ce0c9e0fe",
+        "cd3a6068d"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 9,
+      "voices": 9,
+      "ownerVoices": 8,
+      "sources": 6,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 8,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2014,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c3a3dc33e",
+          "polarity": "negative",
+          "claim": "Owner pulled the pedal wires out of the connector because the pedal is needed even in Play mode.",
+          "quote": "I pull the wires out of the connector",
+          "url": "https://www.reddit.com/r/quilting/comments/kiy29c/what_to_askknow_before_buying_a_used_handiquilter/ggtqpje/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c4a519926",
+          "polarity": "negative",
+          "claim": "Shop worker says the shop's Sweet 16 machines had timing knocked out by very heavy seams, so buy local for service.",
+          "quote": "timing knocked out by extra heavy seams",
+          "url": "https://www.reddit.com/r/quilting/comments/23b4rn/hq_sweet_sixteen_or_babylock_tiara_tabletop_models/cgvhjkr/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c3c0ca60b",
+          "polarity": "positive",
+          "claim": "Owner reports no timing problems and calls the machine a workhorse.",
+          "quote": "no timing issues, and no light issues here",
+          "url": "https://www.reddit.com/r/quilting/comments/23b4rn/hq_sweet_sixteen_or_babylock_tiara_tabletop_models/cgvnir0/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c4c2de0b4",
+          "polarity": "positive",
+          "claim": "Owner of ten or more years reports never having trouble with the machine.",
+          "quote": "I have never had trouble with my HQ Sweet 16.",
+          "url": "https://www.reddit.com/r/quilting/comments/1hz82qs/janome_vs_juki_vs_handiquilter_your_opinions/m6z7nh4/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c90ad0a48",
+          "polarity": "mixed",
+          "claim": "Third owner of an old Sweet 16 says it can be persnickety but is now figured out.",
+          "quote": "It can be persnickety but I think I finally have it figured out.",
+          "url": "https://www.reddit.com/r/quilting/comments/1kkem17/starch_and_krinkling/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c4a519926",
+        "c3c0ca60b",
+        "c3a3dc33e",
+        "c90ad0a48",
+        "c190f4257",
+        "c4c2de0b4",
+        "c7e29f448",
+        "cfb948f3e",
+        "cc46427f6"
+      ]
+    },
+    {
+      "theme": "free_motion",
+      "label": "Free-motion quilting",
+      "statements": 8,
+      "voices": 6,
+      "ownerVoices": 6,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 6
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 3
+      },
+      "years": [
+        2014,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c04fc8f15",
+          "polarity": "positive",
+          "claim": "Owner coming from a home machine says moving the fabric by hand on the sit down does not bother them.",
+          "quote": "moving the fabric doesn't bother me at all",
+          "url": "https://www.reddit.com/r/quilting/comments/23b4rn/hq_sweet_sixteen_or_babylock_tiara_tabletop_models/cgvbgmd/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cf0ce9005",
+          "polarity": "positive",
+          "claim": "Owner prefers the Insight table with built in regulator over the magnetic puck regulator.",
+          "quote": "I have an Insight Table that has the regulator built in, and I love it!",
+          "url": "https://www.reddit.com/r/quilting/comments/1tbooj2/muahahaha/olxmz8c/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cda4b174b",
+          "polarity": "mixed",
+          "claim": "Owner has the stitch regulator, likes it in some situations and free motions without it in others.",
+          "quote": "I do have the stitch regulator, and I like it in particular situations",
+          "url": "https://www.reddit.com/r/quilting/comments/23b4rn/hq_sweet_sixteen_or_babylock_tiara_tabletop_models/cgvbgmd/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c04fc8f15",
+        "cda4b174b",
+        "c9e2d3204",
+        "cf3d9a327",
+        "cb7de9668",
+        "cf0ce9005",
+        "cd45fa4fc",
+        "c77bc849f"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 5,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 4,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 1,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2013,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cebeb96b6",
+          "polarity": "negative",
+          "claim": "Owner of the Janome branded Sweet 16 has tension trouble for a while after oiling and heard it is a known Handi Quilter issue.",
+          "quote": "I have trouble with the tension for a period of time",
+          "url": "https://www.reddit.com/r/quilting/comments/kiy29c/what_to_askknow_before_buying_a_used_handiquilter/ggtqpje/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c2b5e9817",
+          "polarity": "positive",
+          "claim": "Owner reports only minor tension issues and none once set with fine quality thread.",
+          "quote": "I have only had minor tension issues",
+          "url": "https://www.reddit.com/r/quilting/comments/23b4rn/hq_sweet_sixteen_or_babylock_tiara_tabletop_models/cgvnir0/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c29b12ba3",
+          "polarity": "positive",
+          "claim": "Owner says tension is very easy to get right.",
+          "quote": "It's very easy to get the tension right.",
+          "url": "https://www.reddit.com/r/quilting/comments/1hz82qs/janome_vs_juki_vs_handiquilter_your_opinions/m6z7nh4/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c18772361",
+          "polarity": "mixed",
+          "claim": "Buyer needed a little time to get the tension right at first.",
+          "quote": "It took me a little to get the tension just right",
+          "url": "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c2b5e9817",
+        "cab712be0",
+        "cebeb96b6",
+        "c29b12ba3",
+        "c18772361"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 6,
+      "voices": 5,
+      "ownerVoices": 4,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 4,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2018,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c39151671",
+          "polarity": "negative",
+          "claim": "Buyer says a promised ruler quilting promotion package of foot and gloves was not in the box.",
+          "quote": "those were not in the package",
+          "url": "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c8adc82d4",
+          "polarity": "negative",
+          "claim": "Owner did the rest of the quilting on a domestic machine to get a presser foot and feed dogs the sit down lacks.",
+          "quote": "I wanted the control of a presser foot and feed dogs",
+          "url": "https://www.reddit.com/r/quilting/comments/17ev3rk/always_something_to_learn/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c4c9eb426",
+        "c4bac5ad9",
+        "cd6563935",
+        "c46882bda",
+        "c8adc82d4",
+        "c39151671"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2014,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ce1439969",
+          "polarity": "positive",
+          "claim": "Shop worker finds the machine fairly easy to maintain.",
+          "quote": "it's fairly easy to maintain",
+          "url": "https://www.reddit.com/r/quilting/comments/23b4rn/hq_sweet_sixteen_or_babylock_tiara_tabletop_models/cgvhjkr/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ce1439969",
+        "c74ac2a20",
+        "c551b4e50",
+        "caed186d6"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2015,
+        2020
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "caf5931ae",
+          "polarity": "negative",
+          "claim": "Owner finds the machine fussy about thread choice.",
+          "quote": "It’s thread finicky.",
+          "url": "https://www.reddit.com/r/quilting/comments/kiy29c/what_to_askknow_before_buying_a_used_handiquilter/ggtqpje/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c5d772fac",
+          "polarity": "positive",
+          "claim": "Owner of a few years says the machine is not picky about thread type.",
+          "quote": "is not picky about the thread type",
+          "url": "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "caf5931ae",
+        "c5d772fac"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2014,
+        2014
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c97cf98eb",
+          "polarity": "positive",
+          "claim": "Owner reports no problems with the machine light.",
+          "quote": "no light issues here",
+          "url": "https://www.reddit.com/r/quilting/comments/23b4rn/hq_sweet_sixteen_or_babylock_tiara_tabletop_models/cgvnir0/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c97cf98eb"
+      ]
+    },
+    {
+      "theme": "value_price",
+      "label": "Value and price",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c0a115951"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "ceef57167",
+          "polarity": "positive",
+          "claim": "Owner finds both the Juki and the Sweet Sixteen sturdy and reliable.",
+          "quote": "Both machines are sturdy and reliable in my experience.",
+          "url": "https://www.reddit.com/r/quilting/comments/1hz82qs/janome_vs_juki_vs_handiquilter_your_opinions/m6q0q0u/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ceef57167"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2015,
+        2015
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "ca10a7f95",
+          "polarity": "positive",
+          "claim": "Owner likes being able to set the speed to a comfortable level.",
+          "quote": "I love that you can set the speed to what you are comfortable with",
+          "url": "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "ca10a7f95"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2013,
+        2013
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c9db99918",
+          "polarity": "positive",
+          "claim": "Buyer who ordered the stitch regulator package says it makes stitches more consistent.",
+          "quote": "The stitch regulator makes me stitches more consistent.",
+          "url": "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c9db99918"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php",
+      "pageRating": 4.76,
+      "pageCount": 17,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 2,
+        "5": 14
+      },
+      "lowRated": 1,
+      "sampled": null
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Throat dimensions",
+      "juki": "8.25 x 16 in (245 x 610 mm); 'Handi Quilter 16-inch sit-down longarm' on the cover.",
+      "others": "Matches our 16 in; the maker does not say needle to body.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "HQ Sweet Sixteen manual v3.3",
+          "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+        }
+      ],
+      "field": "throatIn",
+      "source": "manual"
+    },
+    {
+      "label": "Throat height",
+      "juki": "8.25 in (first figure of 8.25 x 16 in).",
+      "others": "Dealer copy: 8 inches of vertical space.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "HQ Sweet Sixteen manual v3.3",
+          "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+        }
+      ],
+      "field": "throatHeightIn",
+      "source": "manual"
+    },
+    {
+      "label": "Maximum speed",
+      "juki": "1500 SPM maximum (manual v3.3 and v3.1).",
+      "others": "Rocky Mountain Sewing copy: up to 1,800 stitches per minute.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "HQ Sweet Sixteen manual v3.3",
+          "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+        },
+        {
+          "label": "Dealer page",
+          "url": "https://rockymountainsewing.com/products/handi-quilter-sweet-sixteen/"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "manual"
+    },
+    {
+      "label": "Needle system",
+      "juki": "134 (135 x 7), sizes 12/80 to 20/125.",
+      "others": "Matches.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "HQ Sweet Sixteen manual v3.3",
+          "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+        }
+      ],
+      "field": "needleSystem",
+      "source": "manual"
+    },
+    {
+      "label": "Hook and bobbin",
+      "juki": "Rotary hook, horizontal axis; M-class aluminum bobbin; case type MF.",
+      "others": "Our spec says rotary vertical hook.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "HQ Sweet Sixteen manual v3.3",
+          "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+        }
+      ],
+      "field": "hookBobbin",
+      "source": "manual"
+    },
+    {
+      "label": "Hopping foot lift",
+      "juki": "5 mm stroke.",
+      "others": "Matches.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "HQ Sweet Sixteen manual v3.3",
+          "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+        }
+      ],
+      "field": "hoppingFootLiftMm",
+      "source": "manual"
+    },
+    {
+      "label": "Lighting",
+      "juki": "LED, 2.25 W.",
+      "others": "Dealer copy: LED light ring.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "HQ Sweet Sixteen manual v3.3",
+          "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+        }
+      ],
+      "field": "lighting",
+      "source": "manual"
+    },
+    {
+      "label": "Motor and power",
+      "juki": "Brushless DC; 300 W peak; 105 to 120 VAC (US and Canada), 100 to 250 VAC (rest of world).",
+      "others": "Our spec says 90 to 264 VAC.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "HQ Sweet Sixteen manual v3.3",
+          "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+        }
+      ],
+      "field": "motor",
+      "source": "manual"
+    },
+    {
+      "label": "Stitch regulation",
+      "juki": "TruStitch is an 'optional accessory'. InSight lift table adds built-in regulation for TruStitch-compatible machines on firmware 3.18 or higher.",
+      "others": "One dealer says TruStitch is included in its package.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "HQ Sweet Sixteen manual v3.3",
+          "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+        },
+        {
+          "label": "Lift table page",
+          "url": "https://handiquilter.com/product/lift-table-for-sweet-sixteen/"
+        },
+        {
+          "label": "Dealer page",
+          "url": "https://rockymountainsewing.com/products/handi-quilter-sweet-sixteen/"
+        }
+      ],
+      "field": "stitchRegulation",
+      "source": "manual"
+    },
+    {
+      "label": "Table",
+      "juki": "Height-adjustable folding legs; table weighs nearly 50 lb; 18 x 30 in extensions sold separately.",
+      "others": "Dealer: 36 x 30 in, 26 to 42 in.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "HQ Sweet Sixteen manual v3.3",
+          "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+        }
+      ],
+      "field": "table",
+      "source": "manual"
+    },
+    {
+      "label": "Weight",
+      "juki": "Not published for the machine.",
+      "others": "Not found.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "HQ Sweet Sixteen manual v3.3",
+          "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+        }
+      ],
+      "field": "weightLb",
+      "source": "manual"
+    },
+    {
+      "label": "Warranty",
+      "juki": "90 days parts and labor; 10 years sewing head casting; 5 years mechanical parts; 5 years electrical parts. Registration required. Not model-specific.",
+      "others": "Matches.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Warranty page",
+          "url": "https://handiquilter.com/warranty/"
+        },
+        {
+          "label": "HQ Sweet Sixteen manual v3.3",
+          "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "warranty"
+    },
+    {
+      "label": "Status",
+      "juki": "No machine page; parts tag archive only; support article says the machine is on the 'secondary used-machine market'.",
+      "others": "Dealer page: 'this item has been discontinued'.",
+      "status": "dealer only",
+      "links": [
+        {
+          "label": "Support article",
+          "url": "https://support.handiquilter.com/hc/en-us/articles/4405636309275-HQ-Sweet-Sixteen-Getting-Started-Part-2"
+        },
+        {
+          "label": "Dealer page",
+          "url": "https://rockymountainsewing.com/products/handi-quilter-sweet-sixteen/"
+        }
+      ],
+      "field": "status",
+      "source": "support"
+    },
+    {
+      "label": "Price",
+      "juki": "No maker price for the machine. Lift table accessory $2,645.00.",
+      "others": "Dealer listing about $6,495 (spec priceUsdSeen).",
+      "status": "dealer only",
+      "links": [
+        {
+          "label": "Lift table page",
+          "url": "https://handiquilter.com/product/lift-table-for-sweet-sixteen/"
+        }
+      ],
+      "field": "price",
+      "source": "lift"
+    },
+    {
+      "label": "Maker claims",
+      "juki": "'greater functionality and ease of operation ... than ever before conceived in the quilting industry'; 'very robust design features'. Intended for household use.",
+      "others": "Dealer: 'The most technologically advanced sit down free motion quilter'.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "HQ Sweet Sixteen manual v3.3",
+          "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+        }
+      ],
+      "field": "claims",
+      "source": "manual"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "Capri",
+      "label": "HQ Capri 18 (retired)",
+      "rows": [
+        {
+          "feature": "Sweet Sixteen footprint, 18 in head",
+          "urls": 0,
+          "classes": [],
+          "summary": "The Capri is a retired stationary 18 in machine with an InSight table (36 x 32 in) and built-in regulation.",
+          "check": "Handi Quilter HQ Capri post and staff comments, 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Moxie",
+      "label": "HQ Moxie, Moxie XL and Moxie ST",
+      "rows": [
+        {
+          "feature": "Sit-down 18 in stationary sibling",
+          "urls": 0,
+          "classes": [],
+          "summary": "The Moxie ST is a stationary Moxie with an 18 in throat, 2,100 spm and built-in stitch regulation on a 38 x 38 in InSight table.",
+          "check": "Handi Quilter Moxie ST page, 2026-10-02; handiquilter.com lists $6,495.00.",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

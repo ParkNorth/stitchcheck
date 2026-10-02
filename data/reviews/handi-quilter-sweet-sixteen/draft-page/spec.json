@@ -1,0 +1,132 @@
+{
+  "specs": {
+    "bobbin": {
+      "value": "M class aluminum bobbin, case type MF; rotary hook, horizontal axis (manual wording)",
+      "source": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+    },
+    "motor": {
+      "value": "Brushless DC with up and down needle positioning and tie-off stitch; 300 W peak; 105 to 120 VAC, 47 to 63 Hz (US and Canada), 100 to 250 VAC (rest of world)",
+      "source": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+    },
+    "frame": {
+      "value": "No frame; sit-down machine with a table that has height-adjustable folding legs and weighs nearly 50 lb; 18 x 30 in table extensions sold separately; base table size and height range not published by the maker",
+      "source": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+    }
+  },
+  "conflicts": [
+    "Hook: the Handi Quilter user manual v3.3 (library-hosted copy) says 'Rotary, Horizontal axis', while our earlier spec read 'rotary vertical hook'; the spec now follows the manual.",
+    "Voltage: the manual v3.3 gives 105 to 120 VAC for the US and Canada and 100 to 250 VAC for the rest of the world, while our earlier spec said 90 to 264 VAC; the spec now follows the manual.",
+    "Motor: the manual confirms a brushless DC motor with tie-off and 300 W peak; the earlier voltage range in the motor line did not match either manual line and has been replaced.",
+    "Speed: the manual v3.3 and the dealer-hosted v3.1 copy both give 1500 spm maximum, while the Rocky Mountain Sewing dealer page says up to 1,800 spm; the page uses the manual figure.",
+    "Stitch regulation: the manual lists TruStitch as an optional accessory, while the Rocky Mountain Sewing dealer page says TruStitch is included with its package; check the quote line by line.",
+    "Throat: the maker prints 'Throat Dimensions 8.25 x 16 in' and calls it a '16-inch sit-down longarm' without saying needle to body; 16 in is the maker's wording, not a measured needle-to-body figure, and in our tiering a 16 in head sits in the mid-arm band.",
+    "Status: 'discontinued' appears on a dealer page (Rocky Mountain Sewing); Handi Quilter carries no machine page, only a parts tag archive, and a maker support article refers to the 'secondary used-machine market'.",
+    "Price: the $6,495 dealer-level figure equals the Handi Quilter list price shown for the Moxie ST, and the maker publishes no price for the Sweet Sixteen itself, so treat it as an unconfirmed dealer figure and read it as a band, not a quote.",
+    "Table: the manual gives no base table size or height range; 36 x 30 in and 26 to 42 in come from dealer copy, and dealers disagree on the range (26 to 42 in against 27 to 40 in).",
+    "Weight and size: the maker publishes no machine weight and no head dimensions; the 66.14 lb figure on the maker's lift table page is packaging for that accessory only."
+  ],
+  "claims": [
+    "\"Handi Quilter 16-inch sit-down longarm\" (maker wording, manual v3.3 cover; the maker's term, not a throat-based class)",
+    "\"Designed by a Quilter, for Quilters\" (maker tagline, manual v3.3 cover)",
+    "\"very robust design features and is very easy to service\" (maker claim, manual v3.3 Quick Facts)",
+    "\"greater functionality and ease of operation to home quilters than ever before conceived in the quilting industry\" (maker claim, manual v3.3 Quick Facts)",
+    "\"This machine is intended for household use.\" (maker statement, manual v3.3)",
+    "\"The most technologically advanced sit down free motion quilter\" (retailer copy, sewingmachinesplus.com)"
+  ],
+  "evidence": "owner",
+  "price": {
+    "priceUsdSeen": 6495,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Fig Leaf Quilting dealer listing, unconfirmed: the same figure as the Moxie ST maker price, and Handi Quilter publishes no price for this machine"
+  },
+  "sources": [
+    "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf",
+    "https://cdn.poconosewandvac.com/web/products/instruction-manuals/pdfs/handi-quilter/sweet-16/Handi-Quilter-Sweet-Sixteen-Manual-3.1.pdf",
+    "https://handiquilter.com/product-tag/hq-sweet-sixteen/",
+    "https://handiquilter.com/warranty/",
+    "https://handiquilter.com/hq-capri/",
+    "https://handiquilter.com/product/lift-table-for-sweet-sixteen/",
+    "https://support.handiquilter.com/hc/en-us/articles/4405636309275-HQ-Sweet-Sixteen-Getting-Started-Part-2",
+    "https://handiquilter.com/product/moxie-st/",
+    "https://rockymountainsewing.com/products/handi-quilter-sweet-sixteen/",
+    "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php"
+  ],
+  "editorial": {
+    "verdict": "A discontinued 16 in sit-down quilter with a table and optional regulation, for a buyer who wants more throat than a domestic without a frame.",
+    "whoFor": "A quilter who wants more reach than a domestic machine without giving a room to a frame, and who is happy to adjust tension and move fabric by hand on a table.",
+    "skipIf": "You want stitch regulation included, you quilt king size tops often (owners report the weight of heavy quilts on the table), or you want a model Handi Quilter still lists as a machine.",
+    "keySpec": "8.25 x 16 in throat (maker wording) \u00b7 1500 spm \u00b7 sit-down table \u00b7 regulation optional",
+    "realCost": [
+      "Stitch regulation: TruStitch is an optional accessory per the manual; one dealer says it is included, so confirm it in the quote",
+      "Lift table with built-in InSight regulation: $2,645.00 on the Handi Quilter accessory page, for TruStitch-compatible machines on firmware 3.18 or higher",
+      "Table extensions: 18 x 30 in, sold separately per the manual",
+      "Consumables: 134 (135x7) needles in 12/80 to 20/125 and M class bobbins"
+    ],
+    "strengths": [
+      "Owners report the sit-down table suits quilters who prefer moving the fabric by hand, and several say they quilt twin and larger sizes on it with a hanging system for the biggest",
+      "Owners of a decade or more report few or no reliability problems, with some calling it a workhorse, though others describe it as persnickety",
+      "The retailer page shows a 4.76 rating across 17 reviews at Sewing Machines Plus, which skews positive as seller-collected feedback"
+    ],
+    "weaknesses": [
+      "Owners report that heavy quilts drag on the table and are hard to support, and one shop worker reports timing knocked out by very heavy seams",
+      "Owners report tension taking time to set, including trouble after oiling, though others say it is easy with fine thread",
+      "Owners report missing promotional feet and note the sit-down has no presser foot or feed dogs, which is its own trade-off for ruler and edge work"
+    ],
+    "checks": [
+      {
+        "title": "Confirm what regulation comes with the quote",
+        "body": "The manual calls TruStitch an optional accessory, while one dealer lists it as included. Ask for the regulator in writing, and whether the machine is TruStitch ready if you want the InSight lift table."
+      },
+      {
+        "title": "Check the status and the seller",
+        "body": "Handi Quilter has no machine page, only parts, and says the machine is on the secondary used-machine market. Only a dealer page says discontinued. Ask the dealer about stock, service and the registration the warranty needs."
+      },
+      {
+        "title": "Do not treat the price as a quote",
+        "body": "The $6,495 dealer-level figure matches the Moxie ST list price and the maker publishes no price for this machine, so confirm it against a current dealer quote."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is the Handi Quilter Sweet Sixteen discontinued?",
+        "a": "A dealer page (Rocky Mountain Sewing) says so. Handi Quilter's own wording is that the machine is on the secondary used-machine market, and its site carries no machine page for it, only parts."
+      },
+      {
+        "q": "How big is the Sweet Sixteen throat?",
+        "a": "The maker prints throat dimensions of 8.25 x 16 in (245 x 610 mm) and calls it a 16-inch sit-down longarm. It does not say needle to body."
+      },
+      {
+        "q": "Is the Sweet Sixteen a long-arm?",
+        "a": "The maker calls it a sit-down longarm. In our tiering a 16 in head sits in the mid-arm band, so treat the maker's term as marketing wording rather than a throat class."
+      },
+      {
+        "q": "How fast does the Sweet Sixteen sew?",
+        "a": "The manual lists 1500 spm maximum, in both the v3.3 and v3.1 copies. One dealer page says up to 1,800 spm; this page uses the manual figure."
+      },
+      {
+        "q": "Does the Sweet Sixteen have a stitch regulator?",
+        "a": "Not built in. The manual lists TruStitch as an optional accessory, and Handi Quilter sells a lift table with built-in InSight regulation for compatible machines. One dealer says TruStitch is included with its package."
+      },
+      {
+        "q": "What power does it need?",
+        "a": "The manual gives 105 to 120 VAC at 47 to 63 Hz for the US and Canada, with a brushless DC motor at 300 W peak."
+      },
+      {
+        "q": "What needle and bobbin does the Sweet Sixteen use?",
+        "a": "The manual lists 134 (135x7) needles in sizes 12/80 to 20/125 and an M class aluminum bobbin with a type MF case."
+      },
+      {
+        "q": "How much does a Sweet Sixteen weigh?",
+        "a": "Handi Quilter does not publish the machine weight. The manual says the table weighs nearly 50 lb."
+      },
+      {
+        "q": "What is the warranty?",
+        "a": "The maker's warranty page lists 90 days, 10 years on the casting, 5 years mechanical and 5 years electrical, with registration required. The text is not model-specific."
+      },
+      {
+        "q": "What replaced the Sweet Sixteen?",
+        "a": "Handi Quilter staff comments name the Moxie ST and Amara ST as the stationary machines still offered. The maker does not call either a direct replacement."
+      }
+    ]
+  }
+}

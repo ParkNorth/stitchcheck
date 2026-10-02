@@ -1,0 +1,119 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Not a 15R rating: the Sewing Machines Plus page in our spec now lists the recertified Q'nique 15 PRO, so its 79 reviews are not counted here. No Amazon listing for the 15R machine was found; only bobbin case accessories and 16X listings appeared. Retailer ratings are therefore absent and the owner view rests on a small Reddit sample."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "Q'nique 19X",
+      "label": "Grace Company Q'nique 19X",
+      "pattern": "q'?nique[\\s-]*19\\s*x(?![a-z0-9])"
+    },
+    {
+      "model": "Q'nique 15M",
+      "label": "Grace Company Q'nique 15M",
+      "pattern": "q'?nique[\\s-]*15\\s*m(?![a-z0-9])"
+    },
+    {
+      "model": "Q'nique 15 PRO",
+      "label": "Grace Company Q'nique 15 PRO",
+      "pattern": "q'?nique[\\s-]*15\\s*pro(?![a-z0-9])"
+    },
+    {
+      "model": "Q'nique 16X",
+      "label": "Grace Company Q'nique 16X",
+      "pattern": "q'?nique[\\s-]*16\\s*x(?![a-z0-9])"
+    },
+    {
+      "model": "Q'nique 14+",
+      "label": "Grace Company Q'nique 14+",
+      "pattern": "q'?nique[\\s-]*14\\s*(\\+|plus)"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "moxie(?![a-z0-9])",
+      "Handi Quilter Moxie"
+    ],
+    [
+      "tl[\\s-]*18qvp(?![a-z0-9])",
+      "Juki TL-18QVP"
+    ],
+    [
+      "570(?![a-z0-9])",
+      "Bernina 570"
+    ],
+    [
+      "memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])",
+      "Janome Memory Craft 6650"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "q'nique[\\s-]*19x(?![a-z0-9])|moxie(?![a-z0-9])|tl[\\s-]*18qvp(?![a-z0-9])|570(?![a-z0-9])|memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {
+    "Q'nique 15 PRO": [
+      {
+        "feature": "Maker listed speed and screen",
+        "summary": "2,000 spm and a 2.5 in full color touch screen, against 1,800 spm and OLED on the 15R.",
+        "check": "Grace 15 Pro page, fetched 2026-10-02"
+      },
+      {
+        "feature": "Maker MSRP, machine only",
+        "summary": "$4,999.95 against $4,499.95 for the 15R.",
+        "check": "Grace comparison table, fetched 2026-10-02; page undated"
+      }
+    ],
+    "Q'nique 15M": [
+      {
+        "feature": "Stitch regulation",
+        "summary": "None. Manual constant speed mode only, LCD number read out, 1,800 spm.",
+        "check": "Grace 15R and 15 Pro pages, fetched 2026-10-02"
+      },
+      {
+        "feature": "Maker MSRP, 15M",
+        "summary": "$3,499.95 machine only.",
+        "check": "Grace comparison table, fetched 2026-10-02; page undated"
+      }
+    ]
+  }
+}

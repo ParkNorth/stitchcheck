@@ -1,0 +1,30 @@
+{
+  "slug": "brother-cs7000x",
+  "generated": "2026-10-02T12:20:38.630Z",
+  "counts": {
+    "error": 0,
+    "warn": 3
+  },
+  "items": [
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 4 ASINs (B08BH5GTNC, B0GXX5GFS7, B0F5Z55N1G, B094117CHG); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "60 Reddit threads, 60 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Dimensions\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Included feet\" but the spec's conflicts do not mention it"
+    }
+  ]
+}

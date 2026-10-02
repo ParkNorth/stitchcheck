@@ -1,0 +1,64 @@
+[
+  {
+    "id": "reddit:1q0q5io",
+    "url": "https://www.reddit.com/r/quilting/comments/1q0q5io/yalllll_i_finally_did_it/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Y'alllll, I finally did it!",
+    "subreddit": "quilting",
+    "thread_id": "1q0q5io",
+    "first_seen": "2026-10-02T12:18:31.864Z",
+    "last_fetched": "2026-10-02T12:18:31.864Z",
+    "status": "ok",
+    "cursor_utc": 1767387043,
+    "discovered_by": [
+      "all:Grace Qnique 19X",
+      "r/quilting:Grace Qnique 19X",
+      "all:Grace Q'nique 19X review",
+      "r/quilting:Grace Q'nique 19X review",
+      "all:Grace 19X longarm",
+      "r/quilting:Grace 19X longarm",
+      "all:Grace 19X Elite longarm",
+      "r/quilting:Grace 19X Elite longarm",
+      "all:Grace Qnique 19X vs Handi Quilter",
+      "r/quilting:Grace Qnique 19X vs Handi Quilter"
+    ],
+    "content_hash": "64ba19f4e583c8d5"
+  },
+  {
+    "id": "reddit:16w9b4z",
+    "url": "https://www.reddit.com/r/quilting/comments/16w9b4z/machine_recommendations/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Machine recommendations",
+    "subreddit": "quilting",
+    "thread_id": "16w9b4z",
+    "first_seen": "2026-10-02T12:18:31.864Z",
+    "last_fetched": "2026-10-02T12:18:31.864Z",
+    "status": "ok",
+    "cursor_utc": 1696104699,
+    "discovered_by": [
+      "all:Grace Qnique 19X",
+      "r/quilting:Grace Qnique 19X",
+      "all:Grace Q'nique 19X review",
+      "r/quilting:Grace Q'nique 19X review"
+    ],
+    "content_hash": "40d2327beea84c04"
+  },
+  {
+    "id": "web:9695c189320c4318",
+    "url": "https://www.sewingmachinesplus.com/16034.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-02T12:18:56.917Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-02T12:18:56.917Z",
+    "status": "thin",
+    "site_rating": null,
+    "site_review_count": 0,
+    "content_hash": "4f53cda18c2baa0c"
+  }
+]

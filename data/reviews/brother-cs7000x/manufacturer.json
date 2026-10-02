@@ -1,0 +1,333 @@
+{
+  "slug": "brother-cs7000x",
+  "collected": "2026-10-02",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/brother-cs7000x.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "maker-page",
+      "url": "https://www.brother-usa.com/p/sewing/CS7000X",
+      "type": "product page",
+      "fetched": "2026-10-02",
+      "note": "Brother USA product page, $279.99 list shown, spec tables and In the Box list."
+    },
+    {
+      "id": "support-page",
+      "url": "https://www.brother-usa.com/product-support/CS7000X",
+      "type": "support page",
+      "fetched": "2026-10-02",
+      "note": "Lists two warranty statements and links to the Online Solution Center for manuals."
+    },
+    {
+      "id": "manual-list",
+      "url": "https://support.brother.com/g/b/manualtop.aspx?c=us&lang=en&prod=hf_cs7000xeus",
+      "type": "manuals index (CS7000X)",
+      "fetched": "2026-10-02",
+      "note": "Index of manuals for product hf_cs7000xeus. First entry is the operation manual below; others are the Sewing Guide, quick reference guide, accessory sheet and stitch chart."
+    },
+    {
+      "id": "manual",
+      "url": "https://download.brother.com/welcome/doch101975/888_n00_n02_n20_n22_n40_n42_n60_om03en.pdf",
+      "type": "operation manual PDF",
+      "fetched": "2026-10-02",
+      "note": "32 pages, text layer. Product Code 888-N00/N02/N20/N22/N40/N42/N60. The model name CS7000X does not appear in the text; it is the first manual on the CS7000X manuals index, so treat it as a shared-platform manual. No specifications table."
+    },
+    {
+      "id": "warranty",
+      "url": "https://assets.brother.com/asset/3c94d716-bfc6-44de-8ae8-0b4b0286d316/13317_Standard_Warranty-pdf.pdf",
+      "type": "warranty PDF",
+      "fetched": "2026-10-02",
+      "note": "One page, Brother standard limited warranty (XF5055-101, 2017). Linked from the CS7000X product page; generic, not model-specific."
+    },
+    {
+      "id": "sib-cs7205",
+      "url": "https://www.brother-usa.com/p/sewing/CS7205",
+      "type": "sibling product page",
+      "fetched": "2026-10-02",
+      "note": "CS7205, comparison only."
+    },
+    {
+      "id": "sib-cp100x",
+      "url": "https://www.brother-usa.com/p/sewing/CP100X",
+      "type": "sibling product page",
+      "fetched": "2026-10-02",
+      "note": "CP100X, comparison only."
+    },
+    {
+      "id": "sib-xr9550",
+      "url": "https://www.brother-usa.com/p/sewing/XR9550",
+      "type": "sibling product page",
+      "fetched": "2026-10-02",
+      "note": "XR9550, comparison only."
+    }
+  ],
+  "facts": [
+    {
+      "field": "Built-in stitches",
+      "value": "70 built-in sewing stitches (page headline and spec table 'Built-in Stitch Selections 70')",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "70"
+    },
+    {
+      "field": "Buttonholes",
+      "value": "7 styles of one-step, auto-size buttonholes (spec table 'Button Hole Styles 7')",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "7 one-step, auto-size"
+    },
+    {
+      "field": "Max sewing speed",
+      "value": "'Maximum Sewing Speed 750' (spec table, no unit printed; spm by convention)",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "750",
+      "note": "Maker page confirms the figure that the spec file sourced from a dealer; unit is not printed on the page.",
+      "site": {
+        "label": "Max speed",
+        "juki": "750 (maker spec table, unit not printed)",
+        "others": "Dealer listings: 750 spm",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother CS7000X page",
+            "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Stitch width and length",
+      "value": "Stitch Width 7, Stitch Length 5 (mm implied, unit not printed)",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "7 / 5"
+    },
+    {
+      "field": "Weight",
+      "value": "Unit Weight 10.5 (unit not printed; carton separate)",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "10.5"
+    },
+    {
+      "field": "Dimensions",
+      "value": "Unit Dimensions 12.2\" x 6.65\" x 16.26\"",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "12.2 x 6.65 x 16.25",
+      "note": "Maker page prints 16.26 in for the long side; spec file has 16.25 (rounding difference, no order of the three figures stated)."
+    },
+    {
+      "field": "Throat space",
+      "value": "No inch figure on the CS7000X page. The page says only 'detachable wide table that is perfect for larger quilting projects'. The wording 'large needle-to-arm workspace' does not appear on the CS7000X page; it appears on the CP100X page.",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "throatIn null; claims list \"Large needle-to-arm workspace\" (manufacturer claim, product page)",
+      "note": "Spec file claims row attributes 'large needle-to-arm workspace' to the CS7000X product page. On the page fetched 2026-10-02 that phrase is on the CP100X page, not the CS7000X page. Throat stays null.",
+      "site": {
+        "label": "Throat space",
+        "juki": "No figure; 'wide table' only",
+        "others": "Retail copy repeats 'large needle-to-arm workspace' (CP100X wording)",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother CS7000X page",
+            "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+          },
+          {
+            "label": "Brother CP100X page",
+            "url": "https://www.brother-usa.com/p/sewing/CP100X"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Frame",
+      "value": "The CS7000X page does not mention a metal frame or any frame material. 'DURABLE METAL FRAME CONSTRUCTION' appears on the CP100X page.",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "frame null; claims note 'Durable Metal Frame' in Walmart titles as a listing claim",
+      "note": "Consistent with the spec's null frame. Walmart title wording is not supported by the Brother CS7000X page.",
+      "site": {
+        "label": "Frame",
+        "juki": "Not stated on the CS7000X page",
+        "others": "Walmart listing titles say 'Durable Metal Frame'",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother CS7000X page",
+            "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Free arm",
+      "value": "'The free arm capability makes it easy to sew cuffs, sleeves and skinny jeans'. Manual: remove the flat bed attachment to use the free arm.",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Yes, accessory compartment removes",
+      "note": "Some Reddit posters say the machine has no free arm; the maker page and manual say it does (flat bed attachment removes).",
+      "site": {
+        "label": "Free arm",
+        "juki": "Yes; remove the flat bed attachment",
+        "others": "Some owner posts say there is no free arm",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother CS7000X page",
+            "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Feed system",
+      "value": "'the drop feed mechanism allows for free motion sewing and quilting'",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Drop feed (feed dogs lower for free motion quilting)"
+    },
+    {
+      "field": "Needle threader",
+      "value": "'new higher end automatic needle threader'; spec table 'Needle Threading System Automatic'",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Automatic"
+    },
+    {
+      "field": "Bobbin",
+      "value": "'Quick-set bobbin system'; spec table 'Quick Set Bobbin Yes'. Manual: open the bobbin cover, drop the bobbin in.",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Top drop-in, quick-set"
+    },
+    {
+      "field": "Speed control",
+      "value": "'adjustable sewing speed control'; manual: slide controller sets bobbin winding speed and the foot controller's maximum speed. Start/stop button disabled when the foot controller is connected.",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "Slider speed control; start/stop button with pedal removed; needle up/down"
+    },
+    {
+      "field": "Needle system",
+      "value": "No needle system designation (130/705H, HAx1) found in the operation manual text or on the product page. Manual fabric table names needle sizes 65/9 to 100/16.",
+      "source": "manual",
+      "vs_spec": "contradicts",
+      "spec_value": "130/705H household (flat shank)",
+      "note": "The spec value is sourced to manualslib, not to a Brother document. Brother's own PDF names sizes only. Verify against the PDF's needle page or the rating plate; household flat-shank is standard for this class but unconfirmed here."
+    },
+    {
+      "field": "Presser foot pressure",
+      "value": "'Adjustable Presser Foot Pressure No'; 'Knee Lifter No'; 'Automatic Height Adjustment No'; 'Pivot Function No'",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": "presserFootLift null",
+      "note": "Maker says no adjustable pressure, no knee lifter, no pivot function. Presser foot lift height not stated."
+    },
+    {
+      "field": "Thread trimmer",
+      "value": "No automatic thread trimmer stated on the page or in the manual. The manual shows a manual thread cutter on the machine side.",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "null"
+    },
+    {
+      "field": "Display and controls",
+      "value": "LCD; stitch selector 'Mode & Shift Key'; adjustable screen brightness No; memory card reader No; lettering fonts 0",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": "null"
+    },
+    {
+      "field": "Included feet",
+      "value": "Page 'In the Box': '10 sewing feet including: Zigzag foot, Buttonhole foot, Zipper foot, Button sewing foot, Overcasting foot, Blind stitch foot, Monogramming foot, Walking foot and Quilting Foot, Quilt guide'. That names nine feet plus a quilt guide.",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "10 presser feet; detachable wide table; hard protective case",
+      "note": "Within the page: the spec table 'Included Accessory Feet' also lists a 1/4\" foot (11 items including quilt guide), the In the Box list does not. Page-vs-manual: the manual's optional accessories table sells the walking foot (SA140), quilting foot (SA129), 1/4 in piecing foot (SA125) and quilting guide (SA132) separately, with a note 'Sold separately with some models'; it refers to an 'Included Accessories' sheet that was not fetched. Count of included feet is therefore soft.",
+      "site": {
+        "label": "Included feet",
+        "juki": "10 sewing feet listed (nine feet plus quilt guide); spec table also lists 1/4 in foot",
+        "others": "Dealers say 10 feet",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother CS7000X page",
+            "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Wide table and case",
+      "value": "'detachable wide table'; 'hard-protective cover'. The wide table is the flat bed attachment with accessory compartment per the manual (part SAWT7 sold separately).",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "detachable wide table; hard protective case"
+    },
+    {
+      "field": "Warranty",
+      "value": "'25 Year Limited Warranty' on the product page. Linked PDF (generic Brother standard limited warranty, not model-specific): 1 year Parts, Labor and accompanying Accessory Items; 2 years Electronic Components and Printed Circuit Boards (replacement labor excluded); 25 Years Chassis Casting. Original purchase date from receipt; products bought from other than an authorized Brother reseller in the US, or used or refurbished, 'may not be covered'. Printed circuit board labor is charged. Shipping and packing are at the owner's cost. Also: 'free customer phone and online technical support for the life of the product'.",
+      "source": "warranty",
+      "vs_spec": "confirms",
+      "spec_value": "25 yr chassis casting, 2 yr electronic components and PCBs (replacement labor excluded), 1 yr parts, labor and accessories",
+      "note": "Matches the spec. Not model-specific. A second statement (9800 Brother Limited Warranty Standard) is also linked on the support page and was not fetched.",
+      "site": {
+        "label": "Warranty",
+        "juki": "25 Year Limited Warranty; PDF: 1 yr parts/labor/accessories, 2 yr electronics, 25 yr chassis casting",
+        "others": "Sewing Machines Plus repeats the same split",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother CS7000X page",
+            "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+          },
+          {
+            "label": "Brother standard warranty PDF",
+            "url": "https://assets.brother.com/asset/3c94d716-bfc6-44de-8ae8-0b4b0286d316/13317_Standard_Warranty-pdf.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Price",
+      "value": "MSRP $279.99 shown on the Brother USA page on 2026-10-02 (maker's own store). Not a dealer price.",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "priceUsdSeen 279.99",
+      "note": "Spec file records $279.99 as an Amazon third-party price on 2026-09-18; the maker list price on the Brother page is the same figure."
+    },
+    {
+      "field": "Fabric guidance",
+      "value": "Operation manual fabric table includes 'Denim (12 ounces or more), canvas' as heavyweight fabrics with a 100/16 needle, 30 weight thread and 2.5 to 4.0 mm stitch length. This is general guidance, not a capability claim for a layer count.",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": "null",
+      "note": "Shared manual, model not named. Product page makes no thick-fabric claim."
+    },
+    {
+      "field": "Claims: marketing wording",
+      "value": "'feature rich, sewing and quilting machine'; 'great option for a range of users'; 'the possibilities are endless'; 'making it a great value'; 'perfect for larger quilting projects' (wide table).",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": "claims list",
+      "note": "Quoted as claims only. 'Perfect for beginners and experienced sewists' is dealer wording, not on the maker page."
+    },
+    {
+      "field": "Availability",
+      "value": "Page shows an Add to Cart button; no 'no longer available' or discontinued wording on the page.",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "discontinued false"
+    },
+    {
+      "field": "Manual coverage",
+      "value": "The operation manual lists Product Code 888-N00/N02/N20/N22/N40/N42/N60 and does not name CS7000X. It is the first entry on the CS7000X manuals index and also appears on CP-series pages, so figures in it are platform-level.",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": "null",
+      "note": "Do not cite a manual page as CS7000X-specific without the accessory sheet or rating plate."
+    }
+  ]
+}

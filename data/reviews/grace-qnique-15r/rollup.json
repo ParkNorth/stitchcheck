@@ -1,0 +1,309 @@
+{
+  "slug": "grace-qnique-15r",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 5,
+    "itemsCollected": 38,
+    "statements": 7,
+    "voices": 6,
+    "ownerVoices": 5,
+    "dateRange": [
+      2021,
+      2025
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 5,
+        "items": 36
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Not a 15R rating: the Sewing Machines Plus page in our spec now lists the recertified Q'nique 15 PRO, so its 79 reviews are not counted here. No Amazon listing for the 15R machine was found; only bobbin case accessories and 16X listings appeared. Retailer ratings are therefore absent and the owner view rests on a small Reddit sample."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 3,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c502a7668",
+          "polarity": "negative",
+          "claim": "Owner has never got regulated stitches or baste to work, only the manual mode.",
+          "quote": "I have never been able to get any regulated stitches to work",
+          "url": "https://www.reddit.com/r/quilting/comments/16x41xc/eek_qnique_15r_issues/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c991ecc81",
+          "polarity": "positive",
+          "claim": "Another owner of the same machine reports it has been a very good machine for them.",
+          "quote": "I have the same machine and it's been a gem.",
+          "url": "https://www.reddit.com/r/quilting/comments/16x41xc/eek_qnique_15r_issues/k37hrn7/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c526782ab",
+        "c502a7668",
+        "c991ecc81"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c407eb1de",
+          "polarity": "negative",
+          "claim": "Owner reports thread breaking and uneven tension on the 15R despite many troubleshooting changes.",
+          "quote": "I am having breaking thread and uneven tension.",
+          "url": "https://www.reddit.com/r/quilting/comments/1hk3ai0/at_a_loss_man_vs_machine/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c4f7e6db5",
+          "polarity": "negative",
+          "claim": "Refurbished-machine owner had tension trouble for over a year until resetting the timing fixed it.",
+          "quote": "I fought with tension issues for over a year until I reset the timing.",
+          "url": "https://www.reddit.com/r/Longarm_show_n_tell/comments/1fm9ujn/longarm_beginner_help/lofce7p/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c4f7e6db5",
+        "c407eb1de"
+      ]
+    },
+    {
+      "theme": "free_motion",
+      "label": "Free-motion quilting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c626a5f72"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2021,
+        2021
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "ce0c0a111"
+      ]
+    }
+  ],
+  "ratings": [],
+  "documentChecks": [
+    {
+      "label": "Availability",
+      "juki": "\"No longer available for new purchase\"; dealers may still sell it; points to the 15 Pro.",
+      "others": "Our earlier note named the 16X as successor.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace 15R page",
+          "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+        }
+      ],
+      "field": "status",
+      "source": "maker-page"
+    },
+    {
+      "label": "Throat space",
+      "juki": "15 in, needle to the back of the work area; manual: 15 in W x 8.5 in H.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Grace 15R page",
+          "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+        },
+        {
+          "label": "Instruction manual",
+          "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+        }
+      ],
+      "field": "throat",
+      "source": "maker-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "Product page: electronics 1 yr, non-moving parts 2 yr, body 5 yr. Warranty page: 2 yr limited incl. electronic parts, 5 yr cast body. Not transferable.",
+      "others": "Our spec follows the product page wording.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace warranty page",
+          "url": "https://graceframe.com/en/page/warranty"
+        },
+        {
+          "label": "Grace 15R page",
+          "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "warranty"
+    },
+    {
+      "label": "Dealer page",
+      "juki": "Not a maker figure.",
+      "others": "SMP page is for the 15 PRO (recertified, $3,999 on the day fetched).",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "SMP listing",
+          "url": "https://sewingmachinesplus.com/products/qnique-long-arm-quilter"
+        }
+      ],
+      "field": "sellerListing",
+      "source": "smp-15pro"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "Q'nique 15 PRO",
+      "label": "Grace Company Q'nique 15 PRO",
+      "rows": [
+        {
+          "feature": "Maker listed speed and screen",
+          "urls": 0,
+          "classes": [],
+          "summary": "2,000 spm and a 2.5 in full color touch screen, against 1,800 spm and OLED on the 15R.",
+          "check": "Grace 15 Pro page, fetched 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Maker MSRP, machine only",
+          "urls": 0,
+          "classes": [],
+          "summary": "$4,999.95 against $4,499.95 for the 15R.",
+          "check": "Grace comparison table, fetched 2026-10-02; page undated",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Q'nique 15M",
+      "label": "Grace Company Q'nique 15M",
+      "rows": [
+        {
+          "feature": "Stitch regulation",
+          "urls": 0,
+          "classes": [],
+          "summary": "None. Manual constant speed mode only, LCD number read out, 1,800 spm.",
+          "check": "Grace 15R and 15 Pro pages, fetched 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Maker MSRP, 15M",
+          "urls": 0,
+          "classes": [],
+          "summary": "$3,499.95 machine only.",
+          "check": "Grace comparison table, fetched 2026-10-02; page undated",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

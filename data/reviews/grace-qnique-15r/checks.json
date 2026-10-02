@@ -1,0 +1,45 @@
+{
+  "slug": "grace-qnique-15r",
+  "generated": "2026-10-02T12:18:03.001Z",
+  "counts": {
+    "error": 0,
+    "warn": 4
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 9, this 7, sibling 0, unclear 2"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "5 Reddit threads, 1 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "reddit",
+      "message": "few Reddit threads name the model in the title; collection may be on loose matches"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"needleSystem\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"sellerListing\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 6 voices (5 first-hand), 5 sources, status draft"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "brother-pq1600s",
+  "generated": "2026-10-02T12:20:02.630Z",
+  "counts": {
+    "error": 0,
+    "warn": 3
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "8 Reddit threads, 6 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Max stitch length\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Thread cutter\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Warranty\" but the spec's conflicts do not mention it"
+    }
+  ]
+}

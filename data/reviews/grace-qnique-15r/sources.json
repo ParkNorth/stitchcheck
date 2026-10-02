@@ -1,0 +1,159 @@
+[
+  {
+    "id": "reddit:16x41xc",
+    "url": "https://www.reddit.com/r/quilting/comments/16x41xc/eek_qnique_15r_issues/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Eek! Qnique 15r issues!",
+    "subreddit": "quilting",
+    "thread_id": "16x41xc",
+    "first_seen": "2026-10-02T12:15:13.044Z",
+    "last_fetched": "2026-10-02T12:15:13.044Z",
+    "status": "ok",
+    "cursor_utc": 1696541146,
+    "discovered_by": [
+      "all:Grace Qnique 15R",
+      "r/quilting:Grace Qnique 15R",
+      "all:Qnique 15R",
+      "r/quilting:Qnique 15R",
+      "all:Grace Q'nique 15R review",
+      "r/quilting:Grace Q'nique 15R review",
+      "all:Qnique 15R problems",
+      "r/quilting:Qnique 15R problems",
+      "r/quilting:Qnique 15R vs",
+      "all:Grace Qnique 15R tension",
+      "r/quilting:Grace Qnique 15R tension"
+    ],
+    "content_hash": "eab2bf09cac2368b"
+  },
+  {
+    "id": "reddit:t6w1i7",
+    "url": "https://www.reddit.com/r/giveaways/comments/t6w1i7/enter_to_win_a_qnique_15r_midarm_quilting_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Enter to win a Q'nique 15R Midarm Quilting Machine and a Cutie Tabletop Fabric/Hoop Frame. Courtesy of Grace Frame. $6,200 Value. (03/31/2022) {US}",
+    "subreddit": "giveaways",
+    "thread_id": "t6w1i7",
+    "first_seen": "2026-10-02T12:15:13.044Z",
+    "last_fetched": "2026-10-02T12:15:13.044Z",
+    "status": "thin",
+    "cursor_utc": 1646436792,
+    "discovered_by": [
+      "all:Grace Qnique 15R",
+      "all:Qnique 15R",
+      "all:Grace Q'nique 15R review",
+      "all:Qnique 15R problems",
+      "all:Grace Qnique 15R tension"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:t4pdhz",
+    "url": "https://www.reddit.com/r/giveaways/comments/t4pdhz/enter_to_win_a_qnique_15r_midarm_quilting_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Enter to win a Q'nique 15R Midarm Quilting Machine and a Cutie Tabletop Fabric/Hoop Frame. Courtesy of Grace Frame. $6,200 Value. (03/31/2022) {US}",
+    "subreddit": "giveaways",
+    "thread_id": "t4pdhz",
+    "first_seen": "2026-10-02T12:15:13.044Z",
+    "last_fetched": "2026-10-02T12:15:13.044Z",
+    "status": "thin",
+    "cursor_utc": 1646188330,
+    "discovered_by": [
+      "all:Grace Qnique 15R",
+      "all:Qnique 15R",
+      "all:Grace Q'nique 15R review",
+      "all:Qnique 15R problems",
+      "all:Grace Qnique 15R tension"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1fm9ujn",
+    "url": "https://www.reddit.com/r/Longarm_show_n_tell/comments/1fm9ujn/longarm_beginner_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Longarm Beginner Help",
+    "subreddit": "Longarm_show_n_tell",
+    "thread_id": "1fm9ujn",
+    "first_seen": "2026-10-02T12:15:13.044Z",
+    "last_fetched": "2026-10-02T12:15:13.044Z",
+    "status": "ok",
+    "cursor_utc": 1759143149,
+    "discovered_by": [
+      "all:Grace Qnique 15R",
+      "all:Qnique 15R"
+    ],
+    "content_hash": "744194c2c924fd36"
+  },
+  {
+    "id": "reddit:1hk3ai0",
+    "url": "https://www.reddit.com/r/quilting/comments/1hk3ai0/at_a_loss_man_vs_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "At a loss (man vs machine)",
+    "subreddit": "quilting",
+    "thread_id": "1hk3ai0",
+    "first_seen": "2026-10-02T12:15:13.044Z",
+    "last_fetched": "2026-10-02T12:15:13.044Z",
+    "status": "ok",
+    "cursor_utc": 1734913802,
+    "discovered_by": [
+      "all:Grace Qnique 15R",
+      "r/quilting:Grace Qnique 15R",
+      "all:Qnique 15R",
+      "r/quilting:Qnique 15R",
+      "r/quilting:Qnique 15R problems",
+      "all:Qnique 15R vs",
+      "r/quilting:Qnique 15R vs",
+      "all:Grace Qnique 15R tension",
+      "r/quilting:Grace Qnique 15R tension"
+    ],
+    "content_hash": "09f6ba38868748c6"
+  },
+  {
+    "id": "reddit:1iwbhdn",
+    "url": "https://www.reddit.com/r/quilting/comments/1iwbhdn/quilting_with_rulers/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Quilting with Rulers",
+    "subreddit": "quilting",
+    "thread_id": "1iwbhdn",
+    "first_seen": "2026-10-02T12:15:13.044Z",
+    "last_fetched": "2026-10-02T12:15:13.044Z",
+    "status": "ok",
+    "cursor_utc": 1740344375,
+    "discovered_by": [
+      "all:Grace Qnique 15R",
+      "r/quilting:Grace Qnique 15R",
+      "all:Qnique 15R",
+      "r/quilting:Qnique 15R",
+      "all:Qnique 15R problems",
+      "r/quilting:Qnique 15R problems",
+      "r/quilting:Qnique 15R vs"
+    ],
+    "content_hash": "db7641067be3ddd9"
+  },
+  {
+    "id": "reddit:lnkqi4",
+    "url": "https://www.reddit.com/r/quilting/comments/lnkqi4/hive_mind_do_you_think_these_are_probably_the/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Hive Mind, do you think these are probably the best prices?",
+    "subreddit": "quilting",
+    "thread_id": "lnkqi4",
+    "first_seen": "2026-10-02T12:15:13.044Z",
+    "last_fetched": "2026-10-02T12:15:13.044Z",
+    "status": "ok",
+    "cursor_utc": 1613761541,
+    "discovered_by": [
+      "all:Grace Qnique 15R",
+      "r/quilting:Grace Qnique 15R",
+      "all:Qnique 15R",
+      "r/quilting:Qnique 15R",
+      "r/quilting:Qnique 15R problems",
+      "r/quilting:Qnique 15R vs"
+    ],
+    "content_hash": "974dec8ee01a1499"
+  }
+]
