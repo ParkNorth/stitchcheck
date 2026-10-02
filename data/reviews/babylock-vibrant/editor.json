@@ -1,0 +1,102 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "Imagine",
+      "label": "Baby Lock Imagine",
+      "pattern": "imagine(?![a-z0-9])"
+    },
+    {
+      "model": "Victory",
+      "label": "Baby Lock Victory",
+      "pattern": "victory(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "1034d(?![a-z0-9])",
+      "Brother 1034D"
+    ],
+    [
+      "mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])",
+      "Juki MO-654DE"
+    ],
+    [
+      "1034dx(?![a-z0-9])",
+      "Brother 1034DX"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "1034d(?![a-z0-9])|mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])|1034dx(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {
+    "Victory": [
+      {
+        "feature": "Threading",
+        "summary": "Baby Lock lists Jet-Air threading on the Victory and not on the Vibrant.",
+        "check": "Baby Lock serger comparison chart, 2026-10-01"
+      },
+      {
+        "feature": "Tension",
+        "summary": "The Victory has automatic thread delivery tension; the Vibrant has manual lay-in tension discs.",
+        "check": "Baby Lock serger comparison chart, 2026-10-01"
+      },
+      {
+        "feature": "Needle threading",
+        "summary": "The Victory has a built-in needle threader; the Vibrant's needle threading is manual.",
+        "check": "Baby Lock serger comparison chart, 2026-10-01"
+      },
+      {
+        "feature": "Lights and lift",
+        "summary": "Two LEDs and a 6 mm presser foot lift on the Victory; one LED and no lift figure on the Vibrant.",
+        "check": "Baby Lock serger comparison chart, 2026-10-01"
+      },
+      {
+        "feature": "Price",
+        "summary": "babylock.com showed the Victory at $2,089 and the Vibrant at $524 on 2026-10-01.",
+        "check": "babylock.com product pages, 2026-10-01"
+      }
+    ]
+  }
+}

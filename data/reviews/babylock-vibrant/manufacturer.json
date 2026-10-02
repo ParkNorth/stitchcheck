@@ -1,0 +1,228 @@
+{
+  "slug": "babylock-vibrant",
+  "collected": "2026-10-01",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/babylock-vibrant.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "spec-sheet",
+      "url": "https://babylock.com/vibrant-bl460b-spec-sheet",
+      "type": "spec sheet (PDF, 8 pages)",
+      "fetched": "2026-10-01",
+      "note": "Features and warranty bullets; stitch length 1 to 4 mm"
+    },
+    {
+      "id": "product-page",
+      "url": "https://babylock.com/vibrant",
+      "type": "product page",
+      "fetched": "2026-10-01",
+      "note": "Specifications block; shows $524 and an add-to-cart on babylock.com"
+    },
+    {
+      "id": "manual",
+      "url": "https://d2v8skpstyl8bm.cloudfront.net/products/resources/pdf/Vibrant+Instruction+Manual.pdf",
+      "type": "instruction manual (PDF, 84 pages)",
+      "fetched": "2026-10-01",
+      "note": "Spec table: 1200 +/- 50 spm, stitch length 1 to 4.5 mm"
+    },
+    {
+      "id": "compare-chart",
+      "url": "https://babylock.com/serging-comparison-charts",
+      "type": "Baby Lock serger comparison chart",
+      "fetched": "2026-10-01",
+      "note": "Vibrant vs Celebrate and Victory; the Imagine is not in the chart"
+    },
+    {
+      "id": "warranty-policy",
+      "url": "https://babylock.com/warranty-policy",
+      "type": "warranty policy page",
+      "fetched": "2026-10-01",
+      "note": "Dealer-only sale and warranty statement; year terms only on the spec sheet"
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1200 +/- 50 stitches per minute (manual spec table)",
+      "source": "manual",
+      "vs_spec": "contradicts",
+      "spec_value": 1500,
+      "note": "Our 1,500 spm has no maker source; the manual says 1,200.",
+      "site": {
+        "label": "Speed",
+        "juki": "Manual: 1,200 +/- 50 stitches per minute.",
+        "others": "Our earlier figure was 1,500.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Baby Lock source",
+            "url": "https://d2v8skpstyl8bm.cloudfront.net/products/resources/pdf/Vibrant+Instruction+Manual.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "threads",
+      "value": "4/3/2 thread serging; 4-thread seam, 3-thread narrow or wide overlock, narrow rolled hem, flatlock, blindhem; 2-thread converter included",
+      "source": "spec-sheet",
+      "vs_spec": "confirms",
+      "spec_value": "2, 3 or 4 thread, 2 needles"
+    },
+    {
+      "field": "stitchWidthMm",
+      "value": "2.8 to 7.0 mm (spec sheet); manual overedge width 6 mm (left needle) and 3.8 mm (right needle)",
+      "source": "spec-sheet",
+      "vs_spec": "confirms",
+      "spec_value": "Up to 7"
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "1 to 4 mm (spec sheet and page); 1 to 4.5 mm (manual)",
+      "source": "spec-sheet",
+      "vs_spec": "contradicts",
+      "spec_value": "Up to 4",
+      "note": "Baby Lock's own spec sheet and manual disagree on the maximum."
+    },
+    {
+      "field": "differentialFeed",
+      "value": "Ratio 0.7 to 2.0",
+      "source": "spec-sheet",
+      "vs_spec": "adds",
+      "spec_value": "Yes, dial; ratio not published in results captured",
+      "note": "Spec had no ratio."
+    },
+    {
+      "field": "weightLb",
+      "value": "19.84 lb (9 kg), machine only",
+      "source": "product-page",
+      "vs_spec": "confirms",
+      "spec_value": 19.84,
+      "site": {
+        "label": "Weight",
+        "juki": "19.84 lb (9 kg).",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock source",
+            "url": "https://babylock.com/vibrant"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "12.6 W x 11 D x 12.6 H in; manual 320 x 280 x 320 mm",
+      "source": "product-page",
+      "vs_spec": "confirms",
+      "spec_value": "12.6 x 12.6 x 11"
+    },
+    {
+      "field": "needleSystem",
+      "value": "HA 1-SP, HA x 1 (130/705 H); 2 needles",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "threadingSystem",
+      "value": "Color-coded threading in a specific order, manual needle threading, no Jet-Air",
+      "source": "compare-chart",
+      "vs_spec": "confirms",
+      "spec_value": "Manual, color-coded threading chart; manual tension dials",
+      "note": "'Easy Color-Coded Threading' is Baby Lock's marketing wording."
+    },
+    {
+      "field": "tension",
+      "value": "Manual lay-in tension discs; four tension controls; no automatic tension delivery (Victory has it)",
+      "source": "compare-chart",
+      "vs_spec": "confirms",
+      "spec_value": "Manual, color-coded threading chart; manual tension dials"
+    },
+    {
+      "field": "lighting",
+      "value": "1 LED",
+      "source": "product-page",
+      "vs_spec": "confirms",
+      "spec_value": "LED"
+    },
+    {
+      "field": "includedFeet",
+      "value": "One snap-on multi-purpose presser foot; accessories include a two-thread converter, stitch finger, needle set, tools, nets and spools",
+      "source": "spec-sheet",
+      "vs_spec": "confirms",
+      "spec_value": "Snap-on presser foot type; standard foot"
+    },
+    {
+      "field": "presserFootLift",
+      "value": "Not published for the Vibrant (the Victory is listed at 6 mm)",
+      "source": "compare-chart",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "Retractable thread cutter with push lever; replacement blade",
+      "source": "spec-sheet",
+      "vs_spec": "confirms",
+      "spec_value": "Retractable thread cutter with push lever"
+    },
+    {
+      "field": "warrantyUs",
+      "value": "25-year limited; 10-year parts; 2-year electrical; 1-year labor",
+      "source": "spec-sheet",
+      "vs_spec": "confirms",
+      "spec_value": "25-year limited; 10 yr parts, 2 yr electrical, 1 yr labor (dealer statement)",
+      "note": "Full legal wording not found. Baby Lock's warranty page says only Authorized Retailers issue warranties and they are not extended to products from non-authorized sources, including online purchases.",
+      "site": {
+        "label": "Warranty",
+        "juki": "25-year limited; 10 years parts, 2 years electrical, 1 year labor (spec sheet).",
+        "others": "Dealers state the same.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock source",
+            "url": "https://babylock.com/vibrant-bl460b-spec-sheet"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "babylock.com showed $524 with an add-to-cart on 2026-10-01; the spec sheet gives no price",
+      "source": "product-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "babylock.com sells online while its own warranty page says machines are available only through Authorized Retailers; do not state a price as dealer price.",
+      "site": {
+        "label": "Price",
+        "juki": "babylock.com showed $524 on 2026-10-01; its warranty page says only Authorized Retailers issue Baby Lock warranties.",
+        "others": "Dealers set their own price.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Baby Lock source",
+            "url": "https://babylock.com/vibrant"
+          }
+        ]
+      }
+    },
+    {
+      "field": "retailChannel",
+      "value": "'You can only find our sewing machines, sergers, and embroidery products through Authorized Baby Lock Retailers'",
+      "source": "warranty-policy",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Conflicts with the babylock.com cart price; AGENTS rule 15 still applies (no buy link from us)."
+    },
+    {
+      "field": "claims",
+      "value": "'the perfect introduction to the art and craft of serging'; 'serging isn't scary'; 'Easy Color-Coded Threading'; 'Easy adjustable tension system'",
+      "source": "product-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketing wording; claims only."
+    }
+  ]
+}

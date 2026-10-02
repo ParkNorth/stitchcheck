@@ -1,0 +1,40 @@
+{
+  "slug": "babylock-vibrant",
+  "generated": "2026-10-02T00:02:56.481Z",
+  "counts": {
+    "error": 0,
+    "warn": 2
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: of 117 sampled reviews, 9 name this model, 0 name a sibling only, 108 name neither"
+    },
+    {
+      "level": "warn",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: only 9 of 117 reviews name this model while siblings exist; confirm the listing is not pooled"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 93, this 80, sibling 5, unclear 7"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "27 Reddit threads, 13 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"stitchLengthMm\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 59 voices (49 first-hand), 28 sources, status draft"
+    }
+  ]
+}
