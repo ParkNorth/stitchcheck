@@ -1,0 +1,12 @@
+[
+ {
+  "slug": "juki-tl-2010q-vs-tl-2000qi",
+  "description": "Same 1,500 spm straight stitch. Owners say the 2010Q adds a speed control and sub-tension dial; Juki's page gives the 2000Qi a trimmer on heel rock and a push button.",
+  "summary": "Same stitch and speed ceiling. Buy the 2010Q if owner-reported speed control matters to you; the 2000Qi if you accept foot-control speed and a lower price.",
+  "buyIf": {
+   "juki-tl-2010q": "You want the speed control owners say the 2010Q adds, and you will pay the gap Juki lists: $2,169 against $1,799.",
+   "juki-tl-2000qi": "You want the same 1,500 spm straight stitch with a trimmer on heel rock and a push button, and foot-control speed does not bother you."
+  },
+  "lastUpdated": "2026-10-01"
+ }
+]
