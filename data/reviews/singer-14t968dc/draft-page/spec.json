@@ -1,0 +1,153 @@
+{
+  "specs": {
+    "stitchTypes": {
+      "value": "14 built-in stitches: 2/3/4/5-thread overlock, chain stitch, flatlock, rolled hem, narrow, wide and triple cover stitch; cover stitch needle gauges 2.8 mm (narrow) and 5.6 mm (wide and triple)",
+      "source": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
+    },
+    "differentialFeed": {
+      "value": "1:0.6 to 1:2.0",
+      "source": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
+    },
+    "stitchWidthMm": {
+      "value": "3.0 to 9.8 (span across needle positions and the width knob, not a single setting; standard 4, rolled hem 1.5)",
+      "source": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
+    },
+    "stitchLengthMm": {
+      "value": "1 to 4 (rolled hemming 1 to 2)",
+      "source": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
+    },
+    "needleSystem": {
+      "value": "Singer 2022 (EL x 705), 14/90 supplied; manual allows only 14/90 and 11/80",
+      "source": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
+    },
+    "weightLb": {
+      "value": 19.84,
+      "source": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
+    },
+    "dimensionsIn": {
+      "value": "14.2 x 11.4 x 11.8 (W x D x H, from 360 x 290 x 300 mm in the manual)",
+      "source": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
+    },
+    "threadingSystem": {
+      "value": "Manual, color-coded; Auto Tension Dial set per stitch (maker calls it a 'self-adjusting' tension system)",
+      "source": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
+    },
+    "warrantyUs": {
+      "value": "25 yr frame, 2 yr electronic and electrical, 90 days mechanical parts and adjustments (Singer's generic warranty document, household use, first purchaser)",
+      "source": "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-10e8219a-17a4-440f-bae4-9fe48a9ab4d5-singer%2025-2-90%20%20warranty%20471025847e.pdf"
+    }
+  },
+  "conflicts": [
+    "Weight: the Singer product page shows 18.6 with no unit, while the Singer manual gives 9.0 kg (19.84 lb); the manual figure is used.",
+    "Dimensions: the Singer product page shows 13.5 x 10.5 x 11.5 with no unit or axis labels, while the manual gives 360 x 290 x 300 mm (about 14.2 x 11.4 x 11.8 in, W x D x H); our earlier spec held only a width of 11.5, and the manual figures are used.",
+    "Tension: Singer's page calls it a 'self-adjusting' system, while the manual shows an Auto Tension Dial set per stitch and says to adjust in small steps if results differ; we treat the page wording as a maker claim.",
+    "Warranty: the 25 year, 2 year and 90 day terms come from Singer's generic warranty document, not a model-specific one, and Singer reserves the right to reject claims on machines from unauthorized dealers, including unauthorized internet sites.",
+    "Price: Sewing Machines Plus via Walmart showed $626.18 on 2026-09-29, Best Buy $649.99 and GoldStar Tool $699.00 in earlier checks, and the Singer store showed $649.99 against an MSRP of $819.99 on 2026-10-02; dealers set their own price.",
+    "Type: sold as a serger; it is a serger and coverstitch combination that needs a manual conversion, recorded as 'serger' with the combination noted."
+  ],
+  "claims": [
+    "\"Self-Adjusting Tensions System\" that is \"fully automatic\" (manufacturer claim, product page; the manual shows an Auto Tension Dial set per stitch)",
+    "\"Heavy Duty Metal Frame\" (manufacturer claim; the page says only the interior frame is metal)",
+    "\"High Speed Stitching\" and \"Professional speed\" at 1,300/min (manufacturer claim, product page)",
+    "\"Powerful motor\" for denim and canvas (manufacturer FAQ claim; motor type and output are not published)",
+    "\"Professional 5\" is a Singer series name; the 5 is the thread capability, not a rating",
+    "\"Heavy-duty\" in the Amazon listing title is listing wording, not a rating"
+  ],
+  "evidence": "owner",
+  "price": {
+    "priceUsdSeen": 626.18,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Sewing Machines Plus (via its Walmart marketplace listing)"
+  },
+  "sources": [
+    "https://www.singer.com/products/singer-professional-5-14t968dc-serger",
+    "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf",
+    "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-10e8219a-17a4-440f-bae4-9fe48a9ab4d5-singer%2025-2-90%20%20warranty%20471025847e.pdf",
+    "https://sewingmachinesplus.com/products/pro_5",
+    "https://www.amazon.com/dp/B002PDZTT2",
+    "https://www.singer.com/products/singer-14hd854-heavy-duty-serger",
+    "https://www.singer.com/products/singer-profinish-14cg754-serger"
+  ],
+  "editorial": {
+    "verdict": "A 5-thread serger and coverstitch in one box at 1,300 spm, with a manual changeover each time you switch and many owner threads about threading trouble.",
+    "whoFor": "A sewist short on space or budget who wants a 5-thread safety stitch and coverstitch in one machine and accepts a changeover between modes.",
+    "skipIf": "You switch between seaming and hemming often in one project, or want a stated free arm or thread trimmer; Singer publishes neither.",
+    "keySpec": "2/3/4/5 thread \u00b7 serger + coverstitch \u00b7 1,300 spm \u00b7 3.0 to 9.8 mm width \u00b7 19.84 lb",
+    "strengths": [
+      "Singer lists 14 stitches with 2 to 5 thread capability and a coverstitch in one machine, which the 14HD854 and 14CG754 pages do not offer.",
+      "Singer's manual publishes the working ranges: differential feed 1:0.6 to 1:2.0, overedge width 3.0 to 9.8 mm, stitch length 1 to 4 mm, presser foot rise 4.5 mm.",
+      "Owners report pleasing cover stitch and general stitch results in some threads, and Sewing Machines Plus shows 4.78 from 9 reviews (a small sample)."
+    ],
+    "weaknesses": [
+      "Owners report threading and looper trouble across 21 statements, including looper threads that never interlock and painful frequent switching between serger and coverstitch.",
+      "Owners report defects and skipped stitches in 15 statements, mostly from help-seeking Reddit threads, so this is not a failure rate.",
+      "Owners report the auto tension dial still needs adjusting, and Singer's manual says to adjust in small steps if results differ."
+    ],
+    "checks": [
+      {
+        "title": "Weight and size",
+        "body": "Singer's page shows 18.6 and 13.5 x 10.5 x 11.5 with no units; the manual gives 9.0 kg (19.84 lb) and 360 x 290 x 300 mm. Use the manual figures when planning bench space."
+      },
+      {
+        "title": "Needles",
+        "body": "The manual allows only Singer 2022 needles in 14/90 (supplied) and 11/80, and warns against standard household needles. Owners report these are hard to find."
+      },
+      {
+        "title": "Seller and warranty",
+        "body": "Singer's 25 year, 2 year and 90 day warranty is a generic document and Singer may reject claims from unauthorized dealers. Confirm the seller before buying."
+      }
+    ],
+    "realCost": [
+      "Serger thread: up to five cones for the 5-thread safety stitch, with cone adapters and thread nets on the accessory list",
+      "Singer 2022 needles in 14/90 and 11/80; the manual allows only these",
+      "Serger oil and brush; an oiler and brush are on the accessory list",
+      "Spare knife: one extra is included per the Singer page"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Singer 14T968DC do coverstitch?",
+        "a": "Yes. Singer's page says it comes with coverstitch, and the manual shows a clutch change and cover stitch needles. Cover stitch needle gauges are 2.8 mm and 5.6 mm."
+      },
+      {
+        "q": "How long does it take to switch from serger to coverstitch?",
+        "a": "Singer does not publish a changeover time, so it is [verify]. Owners report switching often is painful."
+      },
+      {
+        "q": "What needles does it use?",
+        "a": "Singer 2022 (EL x 705), with 14/90 supplied; the manual says use only 14/90 and 11/80."
+      },
+      {
+        "q": "Is the tension really automatic?",
+        "a": "Singer calls it a self-adjusting tension system. The manual shows an Auto Tension Dial that you set per stitch, based on medium weight fabric and 60 polyester spun thread, with small adjustments if results differ."
+      },
+      {
+        "q": "How heavy is it?",
+        "a": "The manual gives 9.0 kg, which is 19.84 lb. Singer's page shows 18.6 with no unit, so the sources disagree."
+      },
+      {
+        "q": "How big is it?",
+        "a": "The manual gives 360 x 290 x 300 mm, about 14.2 x 11.4 x 11.8 in (W x D x H). The page shows 13.5 x 10.5 x 11.5 with no unit or axis labels."
+      },
+      {
+        "q": "Does it have a free arm or thread trimmer?",
+        "a": "Singer publishes neither for this model, so both are [verify]. The knife trims the fabric edge only."
+      },
+      {
+        "q": "What is the warranty?",
+        "a": "Singer's generic document gives 25 years on the frame, 2 years on electrical parts and 90 days on mechanical parts, for household use, to the first purchaser. Singer may reject claims on machines from unauthorized dealers."
+      },
+      {
+        "q": "What do buyers rate it?",
+        "a": "Amazon shows 4.2 from 1,501 ratings, pooled with the B0GM81RNCC listing, so it is not for this model alone. Sewing Machines Plus shows 4.78 from 9 reviews, and Singer's own page shows 4.3 from 62 (the page's own figure)."
+      },
+      {
+        "q": "Is it heavy duty?",
+        "a": "Singer's page says Heavy Duty Metal Frame but states only the interior frame is metal. Heavy duty is a Singer claim, and one owner calls it mostly plastic."
+      },
+      {
+        "q": "What is the motor?",
+        "a": "Singer does not publish motor type or output. The page lists 0.5 amps, 114 watts, 120 volts and 60 Hz as electrical input."
+      }
+    ]
+  }
+}

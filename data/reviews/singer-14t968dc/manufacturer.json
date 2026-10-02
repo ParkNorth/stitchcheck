@@ -1,0 +1,273 @@
+{
+  "slug": "singer-14t968dc",
+  "collected": "2026-10-02",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/singer-14t968dc.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "maker-page",
+      "url": "https://www.singer.com/products/singer-professional-5-14t968dc-serger",
+      "type": "product page",
+      "fetched": "2026-10-02",
+      "note": "Singer US store page, SKU 14T968DC.BR, 'Sold and Shipped by: Singer'. Specification block, FAQ, warranty summary and Bazaarvoice reviews (4.3 from 62)."
+    },
+    {
+      "id": "manual",
+      "url": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf",
+      "type": "instruction manual PDF",
+      "fetched": "2026-10-02",
+      "note": "74 pages, text layer parsed. Linked from the maker page as 'View SINGER Professional 5 14T968DC Manual' (the link returns an HTML viewer; the PDF is at the /content/ path). Copyright line 2008. Specification table on p72."
+    },
+    {
+      "id": "warranty",
+      "url": "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-10e8219a-17a4-440f-bae4-9fe48a9ab4d5-singer%2025-2-90%20%20warranty%20471025847e.pdf",
+      "type": "warranty PDF",
+      "fetched": "2026-10-02",
+      "note": "SVP Worldwide Limited Warranty (US and Canada), 3 pages. Generic 25 year / 2 year / 90 day document, not model-specific."
+    },
+    {
+      "id": "sibling-14hd854",
+      "url": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger",
+      "type": "sibling product page (Shopify product JSON)",
+      "fetched": "2026-10-02",
+      "note": "Description text only."
+    },
+    {
+      "id": "sibling-14cg754",
+      "url": "https://www.singer.com/products/singer-profinish-14cg754-serger",
+      "type": "sibling product page (Shopify product JSON)",
+      "fetched": "2026-10-02",
+      "note": "Description text only."
+    }
+  ],
+  "facts": [
+    {
+      "field": "Built-in stitches",
+      "value": "14 built-in stitches",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "14"
+    },
+    {
+      "field": "Threads",
+      "value": "Thread capability 2-3-4-5",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "2, 3, 4 or 5 thread; serger and coverstitch combination",
+      "note": "Manual p72 gives 'Number of threads 2~5'. Page copy: 'Comes with Coverstitch.'"
+    },
+    {
+      "field": "Maximum speed",
+      "value": "High speed stitching 1300/min (page); 1,300 spm maximum (manual p72)",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "1300"
+    },
+    {
+      "field": "Differential feed",
+      "value": "1:0.6 to 1:2.0",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "1:0.6 to 1:2",
+      "note": "Manual p33 and p72. Our spec cited a dealer; the maker manual now supports it."
+    },
+    {
+      "field": "Overedge stitch width",
+      "value": "3.0 to 9.8 mm (manual p72); 5 to 7 mm left needle, 3.0 to 5.0 mm right needle only, 7.8 to 9.8 mm chain stitch needle by knob (p32)",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "3.0 to 9.8",
+      "note": "Standard width 4 mm; rolled hem 1.5 mm. The range is the span across needle positions plus the width knob, not a single setting."
+    },
+    {
+      "field": "Stitch length",
+      "value": "1 to 4 mm (standard: rolled hemming 1 to 2, ordinary overedge N = 2.5)",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Manual p72 'Stitch length (feed amount)'. Page lists only 'Adjustable Stitch Length'."
+    },
+    {
+      "field": "Needle system",
+      "value": "Singer #2022 (EL x 705), size 14/90 supplied; use only 14/90 and 11/80",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "Singer 2022, sizes 14/90 (supplied) and 11/80 only",
+      "note": "Manual p9 warns against standard household needles."
+    },
+    {
+      "field": "Presser foot rise",
+      "value": "4.5 mm",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "Extra-high presser foot lift; presser foot rise 4.5 mm (manual)",
+      "note": "Manual p72 'Pressure foot rise 4.5 mm'. Page: 'Extra High Presser Foot Lifter' on a specification line, no figure."
+    },
+    {
+      "field": "Cover stitch needle gauge",
+      "value": "Two needles 2.8 mm (narrow), 5.6 mm (wide); triple needles 5.6 mm",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Manual p72. Needle bar stroke 27 mm."
+    },
+    {
+      "field": "Frame",
+      "value": "Heavy Duty Metal Frame: 'The machine's interior frame is metal'; stainless steel bed plate",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Metal frame",
+      "note": "Only the interior frame is stated as metal. The page does not say the outer housing is metal."
+    },
+    {
+      "field": "Weight",
+      "value": "18.6 (page, no unit on the line); 9.0 kg (manual p72)",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "19.84 lb",
+      "note": "Page and manual disagree: 9.0 kg is 19.84 lb, the page says 18.6 and does not label the unit. Our spec's 19.84 lb matches the manual; the other dealer's 18.6 lb matches the page. Listed as a conflict, not resolved.",
+      "site": {
+        "label": "Weight",
+        "juki": "18.6 (maker page, unit not shown)",
+        "others": "9.0 kg = 19.84 lb (maker manual p72)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+          },
+          {
+            "label": "Singer manual",
+            "url": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Dimensions",
+      "value": "Page: 'Machine Size (13.5 x 10.5 x 11.5)', unit and axis order not stated. Manual p72: 360 x 290 x 300 mm (W x D x H) = about 14.2 x 11.4 x 11.8 in",
+      "source": "manual",
+      "vs_spec": "contradicts",
+      "spec_value": "Width 11.5 (other dimensions not published in results)",
+      "note": "Our spec's 'Width 11.5' does not match the manual (width 360 mm = 14.2 in). The page figures are unlabelled and also differ from the manual. Listed as a conflict.",
+      "site": {
+        "label": "Dimensions",
+        "juki": "13.5 x 10.5 x 11.5 (maker page, no unit or axis labels)",
+        "others": "360 x 290 x 300 mm W x D x H (maker manual p72)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Power",
+      "value": "Page: Amps 0.5, Watts 114, Volts 120, Hz 60. Manual safety text refers to replacing a lamp bulb rated 15 watts.",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The page gives electrical input figures only. Motor type and output are not published, so the motor field stays null. The page FAQ says 'powerful motor' (a claim); the manual text mentions a motor belt in a generic safety line."
+    },
+    {
+      "field": "Warranty",
+      "value": "Page: 'Warranty (90 day / 2yr / 25yr)'. Warranty PDF: 25 years on the product frame (free replacement parts, owner pays shipping and labor); 2 years on electronic and electrical parts (repair or replace, owner pays shipping and labor); 90 days on mechanical parts and adjustments. Household (non-commercial) use only.",
+      "source": "warranty",
+      "vs_spec": "confirms",
+      "spec_value": "25 yr frame, 2 yr electronic and electrical, 90 days mechanical parts and adjustments",
+      "note": "The warranty PDF is the generic SVP Worldwide document, not model-specific. It is made only to the first purchaser from Singer or an authorized Singer dealer, and Singer 'reserves the right to reject warranty claims' for products from unauthorized dealers, including unauthorized internet sites. Not transferable to later owners.",
+      "site": {
+        "label": "Warranty",
+        "juki": "90 day / 2 yr / 25 yr (maker page and warranty PDF, generic not model-specific)",
+        "others": "25 yr frame, 2 yr electronic, 90 day mechanical (our spec)",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Singer warranty PDF",
+            "url": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Price",
+      "value": "MSRP $819.99; Singer store price $649.99 on 2026-10-02 (the page says savings compare to the manufacturer's suggested price, not a selling price)",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": "$626.18 seen at Sewing Machines Plus on Walmart 2026-09-29",
+      "note": "Maker store price recorded for reference only; not a statement about any dealer."
+    },
+    {
+      "field": "Included accessories",
+      "value": "General purpose foot, screwdrivers, clean pocket, extra knife, spool caps, anti-spill thread nets, oiler, brush, tweezers, needles, cone adapters, soft dust cover ('$100 value')",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "General purpose foot; spreader; spare knife; screwdrivers; spool caps; thread nets; oiler and brush; tweezers; needles; cone adapters; soft dust cover",
+      "note": "The page list has no 'spreader' line and calls the trim trap a 'Clean Pocket'. The page FAQ does mention a spreader. The manual (section 19) shows converting the upper looper to a spreader, which suggests the spreader is a convertible part rather than a separate accessory: not confirmed."
+    },
+    {
+      "field": "Cover stitch and conversion",
+      "value": "Manual lists section 23 'How to Sew a Cover Stitch' with a clutch (L / C driving clutch) and cover-stitch needles (left Orange, middle Blue, right Green). Page: 'Built-In Rolled Hem: just slide a lever ... no need to change stitch plate'.",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The manual shows a clutch change and needle changes for cover stitch. We did not extract the step count or times from the manual, so no changeover time is stated. The page mentions the lever for rolled hem only."
+    },
+    {
+      "field": "Auto tension (manual wording)",
+      "value": "Manual: 'When using the Auto Tension Dial (ATD), the correct tension is set automatically.' Auto tension settings are based on medium weight fabric and standard 60 polyester spun thread; if results differ, adjust tension in small increments. A dial setting (A to E in the examples) is chosen per stitch.",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The page says the machine adjusts tensions for the selected stitch automatically. The manual shows a user-set dial position per stitch, so 'self-adjusting' is a dial-assisted preset, not a sensor system. Stated as the maker's wording only."
+    },
+    {
+      "field": "Throat space",
+      "value": "Not published. The page and the manual give no needle-to-body or arm figure.",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Throat stays null."
+    },
+    {
+      "field": "Free arm",
+      "value": "Not stated on the page or in the manual (grep found no free arm line). The 14CG754 page, by contrast, states a built-in free arm.",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Leave null."
+    },
+    {
+      "field": "Thread trimmer",
+      "value": "Not published. Knife trims fabric edge only; no thread cutter mentioned.",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "Claims: marketing",
+      "value": "'Self-Adjusting Tensions System ... fully automatic ... ensures that every stitch remains balanced and even'; 'Heavy Duty Metal Frame'; 'High Speed Stitching (1300/min) Professional speed'; FAQ: 'powerful motor, making it ideal for sewing through multiple layers of thick fabrics like denim and canvas'; meta description 'couture-quality construction'; 'Professional 5' series name",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "All maker claims (rule 7). 'Heavy Duty' and 'Finishing Touch' are Singer series names; 'Professional 5' is a series name and the '5' is the thread capability. Our spec's claim 'Designed for both home and professional use' was not found on the page fetched 2026-10-02."
+    },
+    {
+      "field": "Availability",
+      "value": "Page shows Add to cart and 'Back-Orders will ship on TBD date'. No discontinued notice.",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Page wording only."
+    },
+    {
+      "field": "Manual age",
+      "value": "Manual copyright line reads 2008 (SINGER trademark line); warranty document is dated 2025",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The model has been sold for many years; the page does not give a launch date."
+    }
+  ]
+}

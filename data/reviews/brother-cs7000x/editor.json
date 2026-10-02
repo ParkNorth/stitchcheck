@@ -1,0 +1,131 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.6 from 3,642 ratings is shared by several listings of this machine (pooled variations, ASIN B08BH5GTNC); only 13 written reviews were retrieved, so the rating reflects the pooled variation set and not this exact configuration alone."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "CS7000i",
+      "label": "Brother CS7000i",
+      "pattern": "cs[\\s-]*7000[\\s-]*i(?![a-z0-9])"
+    },
+    {
+      "model": "CS7205",
+      "label": "Brother CS7205",
+      "pattern": "cs[\\s-]*7205(?![a-z0-9])"
+    },
+    {
+      "model": "CS6000i",
+      "label": "Brother CS6000i",
+      "pattern": "cs[\\s-]*6000[\\s-]*i(?![a-z0-9])"
+    },
+    {
+      "model": "CS5055PRW",
+      "label": "Brother CS5055PRW",
+      "pattern": "cs[\\s-]*5055(?![a-z0-9])"
+    },
+    {
+      "model": "XR9550",
+      "label": "Brother XR9550",
+      "pattern": "xr[\\s-]*9550(?![a-z0-9])"
+    },
+    {
+      "model": "CP100X",
+      "label": "Brother CP100X",
+      "pattern": "cp[\\s-]*100[\\s-]*x(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "st371hd(?![a-z0-9])|371hd(?![a-z0-9])",
+      "Brother ST371HD"
+    ],
+    [
+      "heavy[\\s-]*duty[\\s-]*4423(?![a-z0-9])|4423(?![a-z0-9])",
+      "Singer Heavy Duty 4423"
+    ],
+    [
+      "hd3000(?![a-z0-9])",
+      "Janome HD3000"
+    ],
+    [
+      "memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])",
+      "Janome Memory Craft 6650"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "st371hd(?![a-z0-9])|371hd(?![a-z0-9])|heavy[\\s-]*duty[\\s-]*4423(?![a-z0-9])|4423(?![a-z0-9])|hd3000(?![a-z0-9])|memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {
+    "CS7205": [
+      {
+        "feature": "Maker stitch and speed figures",
+        "summary": "CS7205: 205 built-in stitches, 850 max sewing speed, 8 buttonholes, $289.99 on the maker page; same 7 width and 5 length.",
+        "check": "Brother USA CS7205 product page, fetched 2026-10-02."
+      },
+      {
+        "feature": "Maker feet list",
+        "summary": "CS7205 lists walking foot, spring action quilting foot, stitch guide foot and 1/4 in foot among its feet.",
+        "check": "Brother USA CS7205 product page, fetched 2026-10-02."
+      }
+    ],
+    "CP100X": [
+      {
+        "feature": "Maker stitch and speed figures",
+        "summary": "CP100X: 100 built-in stitches, 750 max sewing speed, 8 buttonholes, $259.99 on the maker page; same weight and dimensions as the CS7000X.",
+        "check": "Brother USA CP100X product page, fetched 2026-10-02."
+      },
+      {
+        "feature": "Maker workspace and frame wording",
+        "summary": "The CP100X page carries 'large needle-to-arm workspace' and 'durable metal frame construction' wording; the CS7000X page does not, and neither gives an inch figure.",
+        "check": "Brother USA CP100X and CS7000X product pages, fetched 2026-10-02."
+      }
+    ],
+    "XR9550": [
+      {
+        "feature": "Maker stitch figures",
+        "summary": "XR9550: 165 built-in stitches including 55 alphanumeric, 8 buttonholes, backlit LCD, $269.99, 1/2/25 year warranty split on the maker page.",
+        "check": "Brother USA XR9550 product page, fetched 2026-10-02."
+      }
+    ]
+  }
+}

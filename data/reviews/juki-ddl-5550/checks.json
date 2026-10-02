@@ -1,0 +1,25 @@
+{
+  "slug": "juki-ddl-5550",
+  "generated": "2026-10-02T12:34:19.163Z",
+  "counts": {
+    "error": 0,
+    "warn": 0
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 154, this 136, sibling 12, unclear 6"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "53 Reddit threads, 50 with the model in the title"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence strong, 79 voices (52 first-hand), 60 sources, status draft"
+    }
+  ]
+}

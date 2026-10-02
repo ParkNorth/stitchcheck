@@ -1,0 +1,134 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "The Juki page covers DDL-5550N, NA, NH and the -7 trimmer versions together. Reddit threads often say DDL-5550-6 or DDL-5550N-7, which the maker documents fetched here do not separate from the family; read those threads as the same head family, not the exact model."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "DDL-8700",
+      "label": "Juki DDL-8700",
+      "pattern": "ddl[\\s-]*8700(?![a-z0-9])"
+    },
+    {
+      "model": "DDL-5550N-7",
+      "label": "Juki DDL-5550N-7 (automatic thread trimmer)",
+      "pattern": "ddl[\\s-]*5550n?[\\s-]*7(?![0-9])"
+    },
+    {
+      "model": "DDL-5550-6",
+      "label": "Juki DDL-5550-6",
+      "pattern": "ddl[\\s-]*5550n?[\\s-]*0?6(?![0-9])"
+    },
+    {
+      "model": "DDL-5550NH",
+      "label": "Juki DDL-5550NH (heavy-weight)",
+      "pattern": "ddl[\\s-]*5550n?h(?![a-z0-9])"
+    },
+    {
+      "model": "DDL-5550NA",
+      "label": "Juki DDL-5550NA (light-weight)",
+      "pattern": "ddl[\\s-]*5550n?a(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "ddl[\\s-]*8700(?![a-z0-9])",
+      "Juki DDL-8700"
+    ],
+    [
+      "dnu[\\s-]*1541s(?![a-z0-9])|1541s(?![a-z0-9])",
+      "Juki DNU-1541S"
+    ],
+    [
+      "tl[\\s-]*2010q(?![a-z0-9])|2010q(?![a-z0-9])",
+      "Juki TL-2010Q"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "ddl[\\s-]*8700(?![a-z0-9])|ddl[\\s-]*8700(?![a-z0-9])|dnu[\\s-]*1541s(?![a-z0-9])|1541s(?![a-z0-9])|tl[\\s-]*2010q(?![a-z0-9])|2010q(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {
+    "DDL-5550N-7": [
+      {
+        "feature": "Thread trimming",
+        "summary": "Maker lists the -7 as the version with an automatic thread trimmer; the base DDL-5550N is not listed with one.",
+        "check": "Juki page, 2 Oct 2026"
+      },
+      {
+        "feature": "Rated speed and stitch length",
+        "summary": "Maker page and catalog list 5,000 sti/min and 4 mm for the -7; the base DDL-5550N is 5,500 sti/min and 5 mm.",
+        "check": "Juki page and apparel catalog p. 6, 2 Oct 2026"
+      },
+      {
+        "feature": "Listed total weight",
+        "summary": "The maker page lists a total weight of 81 kg in the -7 table only; the base DDL-5550N table has no weight row.",
+        "check": "Juki page, 2 Oct 2026; what the 81 kg includes is not stated"
+      },
+      {
+        "feature": "Control box and motor",
+        "summary": "The maker page presents the SC-920C control box and M92 servomotor with the -7.",
+        "check": "Juki page, 2 Oct 2026"
+      }
+    ],
+    "DDL-5550NA": [
+      {
+        "feature": "Fabric class",
+        "summary": "Light-weight; 4,000 sti/min, 4 mm stitch, 9 mm knee lift, DAx1 #9 needle at delivery.",
+        "check": "Juki page and manual, 2 Oct 2026"
+      }
+    ],
+    "DDL-5550NH": [
+      {
+        "feature": "Fabric class",
+        "summary": "Heavy-weight; 4,000 sti/min, 5 mm stitch, 13 mm knee lift, DBx1 #21 needle at delivery, 35 mm needle bar stroke.",
+        "check": "Juki page and manual, 2 Oct 2026"
+      }
+    ],
+    "DDL-8700": [
+      {
+        "feature": "Maker speed class",
+        "summary": "Juki lists 5,500 sti/min and 13 mm knee lift for the base DDL-8700, the same figures as the base DDL-5550N.",
+        "check": "juki.com DDL-8700 page, 2 Oct 2026"
+      }
+    ]
+  }
+}

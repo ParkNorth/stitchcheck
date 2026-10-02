@@ -1,0 +1,812 @@
+{
+  "slug": "singer-14hd854",
+  "today": "2026-10-02",
+  "rules": "AGENTS.md rules 1 to 12 apply: spec-check not field-test, owner evidence labelled, paraphrase and attribute, no em or en dashes, never invent a spec, claims quoted not asserted, every spec sourced, model name is not a spec, conflicts listed, price bands not live prices.",
+  "spec": {
+    "slug": "singer-14hd854",
+    "brand": "Singer",
+    "model": "Heavy Duty 14HD854",
+    "series": "Sergers",
+    "type": "serger",
+    "industrial": false,
+    "jobs": [
+      "serger"
+    ],
+    "manufacturerUrl": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger",
+    "retailerUrl": "https://www.sewingmachinesplus.com/singer-14hd854-serger.php",
+    "priceUsdSeen": 349.95,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Sewing Machines Plus (sale price in search snippet; regular price shown $449.99)",
+    "specs": {
+      "stitchTypes": {
+        "value": "6 stitch types with 2, 3 or 4 threads: 2, 3 and 4 thread overlock, 2 thread rolled hem, 3 thread flatlock, 3 and 4 thread stretch mock safety; blind hem",
+        "source": "https://www.amazon.com/Singer-14HD854-Heavy-Duty-Serger/dp/B00EF1ICNC"
+      },
+      "stitchCount": {
+        "value": 6,
+        "source": "https://www.amazon.com/Singer-14HD854-Heavy-Duty-Serger/dp/B00EF1ICNC"
+      },
+      "maxSpm": {
+        "value": 1300,
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "threads": {
+        "value": "2, 3 or 4 thread",
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "differentialFeed": {
+        "value": "Yes, adjustable; ratio range not published in results found",
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "throatIn": {
+        "value": null,
+        "source": null
+      },
+      "needleSystem": {
+        "value": "Singer 2022 (ELx705) serger needles",
+        "source": "https://www.poconosewandvac.com/products/singer/machines/singer-14hd854?associated=needles"
+      },
+      "presserFootLift": {
+        "value": null,
+        "source": null
+      },
+      "threadTrimmer": {
+        "value": null,
+        "source": null
+      },
+      "feedSystem": {
+        "value": "Differential feed; built in upper knife trims the edge and can be moved aside to sew without cutting; free arm behind the removable storage compartment",
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "buttonhole": {
+        "value": null,
+        "source": null
+      },
+      "motor": {
+        "value": null,
+        "source": null
+      },
+      "frame": {
+        "value": "Metal frame (Singer copy: heavy duty metal frame; alloy not published)",
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "weightLb": {
+        "value": 13.5,
+        "source": "https://www.amazon.com/Singer-14HD854-Heavy-Duty-Serger/dp/B00EF1ICNC"
+      },
+      "dimensionsIn": {
+        "value": "14 x 11 x 11.5",
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "includedFeet": {
+        "value": "All purpose foot, tweezers, spreader (2 thread converter), needles, screwdriver, 4 thread spools, spare lower knife, scrap bag, lint brush",
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "warrantyUs": {
+        "value": "25 yr limited on machine head, 2 yr on motor, light, wiring, switches, speed control and electronics, 90 days on adjustments, belts, rings, bulbs and attachments",
+        "source": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+      },
+      "stitchLengthMm": {
+        "value": "1 to 4",
+        "source": "https://sergerpro.com/singer-14hd854-overlock/"
+      },
+      "cuttingWidthMm": {
+        "value": "3 to 6.7",
+        "source": "https://sergerpro.com/singer-14hd854-overlock/"
+      },
+      "threadingSystem": {
+        "value": "Color coded lay in threading with a diagram on the machine; manual looper threading",
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "rolledHem": {
+        "value": "Yes, built in",
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "freeArm": {
+        "value": "Yes, built in",
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      },
+      "lighting": {
+        "value": "2 LED lights",
+        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+      }
+    },
+    "claims": [
+      "\"Heavy Duty\" (Singer series name, product page; it is a household serger, not a rating)",
+      "\"60% larger cutting knife than other Singer Sergers cuts thick fabrics easily\" (manufacturer claim, product page; the comparison base is Singer's own smaller sergers)",
+      "\"Heavy duty metal frame makes it more durable and keeps the machine steady for skip-free sewing\" (manufacturer claim, product page)",
+      "\"High performance motor\" (manufacturer claim, product page; no rating published)",
+      "\"From lightweight silks to heavy denim and upholstery\" (manufacturer claim, product page)",
+      "\"Twice the light of other Singer sergers\" (manufacturer claim for the two LEDs)"
+    ],
+    "conflicts": [
+      "Stitch count: Singer and Amazon say 6 stitch types; Sewing Machines Plus copy says 10 sewing programs; a Walmart snippet says 8 built in stitches; a PatternReview thread says six built in stitches and four rolled hems. Catalog will use 6 flagged [verify].",
+      "Weight: 13.5 lb (Amazon B00EF1ICNC, 6.12 kg) vs 7.38 kg (about 16.3 lb, second listing, likely shipping weight) vs 13,500 g on manua.ls (a units error). Catalog will use 13.5 lb.",
+      "Price: $349.95 sale against $449.99 regular (Sewing Machines Plus) vs $319.99 (Michaels) vs $336.99 (GoldStar Tool) vs $309.99 (eBay). singer.com price did not appear in snippets. Catalog will use the SMP figure in the Last seen line and a band in chrome.",
+      "Motor: a snippet gave 110 W without a clearly attributable page. Left null.",
+      "Differential feed ratio: Singer copy says fully adjustable; no numeric range appeared. Left as a yes with the range unpublished.",
+      "Successor status: AllBrands lists the 14HD854 as the replacement for the ProFinish 14CG754 and a PatternReview thread treats it as the heavier duty sibling, but singer.com keeps live product pages for both and no Singer statement of replacement appeared. Catalog will describe the 14HD854 as the current heavier duty model and note the dealer statement only."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "A PatternReview owner says the machine does everything Singer claims but found threading time consuming and reports shuddering, shaking and a lot of noise in use.",
+        "tone": "negative",
+        "source": "https://sewing.patternreview.com/review/machine/7035"
+      },
+      {
+        "theme": "A second PatternReview review is blunt that the serger is not worth the time or money; the same site's model page and a Heavy Duty vs ProFinish thread carry mixed experiences.",
+        "tone": "negative",
+        "source": "https://sewing.patternreview.com/review/machine/6676"
+      },
+      {
+        "theme": "In the Singer Heavy Duty vs ProFinish thread posters describe the 14HD854 as the model to pick for denim and fleece because of its larger knife and stronger motor, with threading and stitches otherwise the same as the 14CG754.",
+        "tone": "mixed",
+        "source": "https://sewing.patternreview.com/SewingDiscussions/topic/114880"
+      },
+      {
+        "theme": "Walmart reviewers split: one experienced sewist reports it feeding through four layers with stronger feed than her older Singer serger if oiled and brushed out, another made a dress and five aprons without trouble, others call it loud and prone to jamming and hard to thread at the lower looper.",
+        "tone": "mixed",
+        "source": "https://www.walmart.com/reviews/product/318390453"
+      }
+    ],
+    "evidence": "owner",
+    "buyerQuestions": [
+      "Does the Singer 14HD854 replace the 14CG754?",
+      "What is the difference between the Singer 14HD854 and the 14CG754?",
+      "Is the Singer 14HD854 really heavy duty?",
+      "Is the Singer 14HD854 hard to thread?",
+      "Is the Singer 14HD854 loud?",
+      "Can the Singer 14HD854 do a rolled hem?",
+      "Does the Singer 14HD854 have a free arm?",
+      "What needles does the Singer 14HD854 use?",
+      "How much does the Singer 14HD854 weigh?",
+      "Singer 14HD854 vs Brother 1034D: which one?"
+    ],
+    "crossShop": [
+      {
+        "slug": "singer-14cg754",
+        "why": "The ProFinish sibling it is said to replace; same threading, smaller knife, lower price"
+      },
+      {
+        "slug": "brother-1034d",
+        "why": "The other sub $350 3/4 thread serger buyers compare on threading and lighting"
+      },
+      {
+        "slug": "brother-1034dx",
+        "why": "Brother's current budget serger at a similar price"
+      },
+      {
+        "slug": "juki-mo-654de",
+        "why": "The step up 2/3/4 thread serger with a 1,500 spm motor and a longer mechanical warranty"
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "editorial": {
+      "verdict": "The 14HD854 is Singer's 2/3/4 thread serger with differential feed, a free arm, two LEDs and a knife Singer calls 60 percent larger than its other sergers, and it is the ProFinish 14CG754 with a heavier cutter and better light for about $100 more, not an industrial machine.",
+      "whoFor": "A first or second serger buyer who wants 2 thread capability, a free arm and a brighter work light at a chain store price, and who will sew denim and fleece more than silk.",
+      "skipIf": "You want quiet running and easy looper threading (owners on PatternReview report noise and fiddly threading), you can find the 14CG754 at a real discount, or you can stretch to a Juki MO-654DE.",
+      "keySpec": "2/3/4 thread · 1,300 spm · differential feed · free arm · 2 LEDs · 13.5 lb",
+      "strengths": [
+        "2 thread stitches via the included spreader, plus a built in rolled hem and free arm",
+        "Two LED lights and a larger upper knife address the two complaints owners level at the 14CG754",
+        "Uses the common Singer 2022 (ELx705) serger needle and carries Singer's 25 year head warranty"
+      ],
+      "weaknesses": [
+        "Owner reports on PatternReview and Walmart repeat noise, vibration and slow lower looper threading",
+        "Heavy Duty is a series name; frame alloy, motor rating and differential ratio are not published",
+        "Stitch count is quoted as 6, 8 or 10 depending on the retailer"
+      ],
+      "checks": [
+        {
+          "title": "Price it against the 14CG754",
+          "body": "Singer sells both. If the 14CG754 sits $80 or more below the 14HD854, decide whether the larger knife and two LEDs are worth the gap; threading and stitch types are otherwise the same."
+        },
+        {
+          "title": "Read the stitch count in the manual, not the listing",
+          "body": "Retailers quote 6, 8 or 10 stitches for the same machine. Singer's own page says 6 stitch types; the manual is the tie breaker."
+        },
+        {
+          "title": "Plan for noise",
+          "body": "Several owners describe the machine as loud and shaky at speed. A rubber mat and a solid table help; if you sew in a shared space, compare against the Brother 1034D and Juki MO-654DE first."
+        }
+      ],
+      "realCost": [
+        "4 cones of serger thread beyond the starter spools",
+        "Singer 2022 (ELx705) needles beyond the included set",
+        "Serger oil and a lint brush",
+        "A non slip mat to damp vibration",
+        "Replacement upper knife once the spare lower knife is used"
+      ],
+      "faqs": [
+        {
+          "q": "Does the Singer 14HD854 replace the 14CG754?",
+          "a": "Not per Singer. AllBrands lists the 14HD854 as the replacement for the ProFinish 14CG754, but singer.com keeps both product pages live and publishes no replacement statement. Treat it as the heavier duty sibling."
+        },
+        {
+          "q": "What is the difference between the 14HD854 and the 14CG754?",
+          "a": "Both are 2/3/4 thread 1,300 spm sergers with differential feed, rolled hem and a free arm. Singer gives the 14HD854 a 60 percent larger knife, a stronger motor and two LED lights."
+        },
+        {
+          "q": "Is the 14HD854 really heavy duty?",
+          "a": "Heavy Duty is Singer's series name. It is a household serger with a metal frame; Singer's claim is that it handles multiple layers up to denim and upholstery weight. No motor rating is published."
+        },
+        {
+          "q": "Is the 14HD854 hard to thread?",
+          "a": "Threading is manual lay in with a color coded diagram on the machine. Owners disagree: some call it easy with a video, others find the lower looper slow and fiddly."
+        },
+        {
+          "q": "Is the 14HD854 loud?",
+          "a": "Several owners on PatternReview and Walmart describe it as loud and shaky at speed. Others report no trouble. A solid table helps."
+        },
+        {
+          "q": "Can it do a rolled hem?",
+          "a": "Yes, a built in 2 thread rolled hem per Singer's stitch list."
+        },
+        {
+          "q": "Does it have a free arm?",
+          "a": "Yes. The storage compartment removes to expose the free arm for cuffs and hems."
+        },
+        {
+          "q": "What needles does it use?",
+          "a": "Singer 2022 serger needles, equivalent to ELx705, in sizes 80/12 and 90/14."
+        },
+        {
+          "q": "How much does it weigh?",
+          "a": "13.5 lb per the Amazon listing, 14 x 11 x 11.5 in per Singer. One listing gives 7.38 kg, likely a shipping weight."
+        },
+        {
+          "q": "What is the warranty?",
+          "a": "Singer's warranty page states 25 years on the head, 2 years on motor and electrical parts and 90 days on adjustments and attachments."
+        }
+      ]
+    },
+    "sources": [
+      "https://www.singer.com/products/singer-14hd854-heavy-duty-serger",
+      "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage",
+      "https://www.singer.com/products/singer-profinish-14cg754-serger",
+      "https://www.sewingmachinesplus.com/singer-14hd854-serger.php",
+      "https://sewingmachinesplus.com/products/singer-14hd854-serger",
+      "https://www.amazon.com/Singer-14HD854-Heavy-Duty-Serger/dp/B00EF1ICNC",
+      "https://www.amazon.com/Singer-14HD854-Thread-Serger-Differential/dp/B00IXPWNNG",
+      "https://sewingmachine.com/products/singer-14hd854-heavy-duty-serger-sewing-machine",
+      "https://www.qualitysewing.com/products/singer-overlocker-heavy-duty-14hd854",
+      "https://www.michaels.com/product/singer-14hd854-heavy-duty-serger-machine-355370244130914324",
+      "https://www.goldstartool.com/singer-14hd854-heavy-duty-serger.htm",
+      "https://www.walmart.com/ip/Singer-14HD854-Heavy-Duty-Serger/318390453",
+      "https://www.walmart.com/reviews/product/318390453",
+      "https://www.allbrands.com/products/96889-singer-14hd854-heavy-duty-serger-2-3-4-threads-6-s",
+      "https://www.poconosewandvac.com/products/singer/machines/singer-14hd854?associated=needles",
+      "https://www.sewingpartsonline.com/products/singer-2022-serger-needles",
+      "https://www.manualslib.com/manual/562108/Singer-14hd854.html",
+      "https://www.manua.ls/singer/14hd854/manual",
+      "https://sergerpro.com/singer-14hd854-overlock/",
+      "https://yousewandsew.com/best-serger-reviews/singer-14hd854-2/",
+      "https://sewing.patternreview.com/review/machine/7035",
+      "https://sewing.patternreview.com/review/machine/6676",
+      "https://sewing.patternreview.com/SewingMachine/1931",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/114880"
+    ]
+  },
+  "manufacturer": {
+    "documents": [
+      {
+        "id": "maker-page",
+        "url": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger",
+        "type": "product page",
+        "fetched": "2026-10-02",
+        "note": "Singer US store page. Shows Out of Stock / Sold out, $319.99 against $399.99 MSRP, Bazaarvoice rating 4.3 from 44 reviews. Cache date 2026-10-02."
+      },
+      {
+        "id": "manual",
+        "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf",
+        "type": "instruction manual PDF",
+        "fetched": "2026-10-02",
+        "note": "161 page image-only PDF in many languages; English is pages 1 to 54, spec table on English p. 51 (PDF p. 53). Figures read by tesseract OCR at 150 dpi and the spec table checked by eye against the page image. The page's own Manual link is an HTML viewer wrapper; the /content/ URL is the real file."
+      },
+      {
+        "id": "warranty-page",
+        "url": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage",
+        "type": "warranty page",
+        "fetched": "2026-10-02",
+        "note": "Generic Singer sewing machine warranty page, not model-specific. The product page also links a warranty PDF (attachments.gorgias.help) not fetched."
+      },
+      {
+        "id": "sibling-14cg754",
+        "url": "https://www.singer.com/products/singer-profinish-14cg754-serger",
+        "type": "sibling product page",
+        "fetched": "2026-10-02",
+        "note": "Singer ProFinish 14CG754. Page lists $209.99 against $349.99 MSRP, Out of Stock, 1,300 stitches per minute, electronic speed control. Page carries no replacement or discontinuation statement."
+      }
+    ],
+    "facts": [
+      {
+        "field": "Max sewing speed",
+        "value": "1,300 stitches per minute (product page) vs 1,200 +/- 150 spm (manual spec table)",
+        "source": "manual",
+        "vs_spec": "contradicts",
+        "spec_value": "1300",
+        "note": "Page-vs-manual disagreement. The page says 1,300; the manual's spec table says 1,200 plus or minus 150, so 1,350 at the top of the tolerance. Both are Singer documents. Spec file cites the page figure.",
+        "site": {
+          "label": "Max speed",
+          "juki": "1,300 spm (product page); 1,200 +/- 150 spm (manual)",
+          "others": "Retailers repeat 1,300 spm",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Product page",
+              "url": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+            },
+            {
+              "label": "Manual p. 51",
+              "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Stitch types",
+        "value": "6 stitch types: 2 thread wrapped overlock, 2 thread standard rolled hem, 3 thread overlock, 3 thread flatlock, 3 thread wrapped overlock (narrow rolled hem), 4 thread stretch mock safety",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "6",
+        "note": "Manual section 1 numbers six stitch types. Retailer copy that says 8 or 10 stitches is not supported by either Singer document.",
+        "site": {
+          "label": "Stitch types",
+          "juki": "6 (product page and manual)",
+          "others": "Some retailers say 8 or 10",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Product page",
+              "url": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+            },
+            {
+              "label": "Manual section 1",
+              "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Thread capability",
+        "value": "2, 3 or 4 thread",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "2, 3 or 4 thread"
+      },
+      {
+        "field": "Differential feed",
+        "value": "Fully adjustable (page); ratio 1:0.7 to 1:2 (manual spec table)",
+        "source": "manual",
+        "vs_spec": "adds",
+        "spec_value": "Yes, adjustable; ratio range not published in results found",
+        "note": "Manual publishes the ratio the spec file lacked.",
+        "site": {
+          "label": "Differential feed ratio",
+          "juki": "1:0.7 to 1:2 (manual)",
+          "others": "Not given by retailers",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Manual p. 51",
+              "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Stitch length",
+        "value": "1 to 4 mm (standard 3.0 for ordinary overedge)",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "1 to 4"
+      },
+      {
+        "field": "Overedge stitch width / cutting width",
+        "value": "Ordinary overedge 3.0 to 6.7 mm (standard 3.5); rolled hem 1.5 mm. Manual wording is overedge stitch width; it does not call it cutting width",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "3 to 6.7",
+        "note": "Spec file labels this cuttingWidthMm from a dealer page. The manual describes stitch width set by needle position and knife position, so treat the label as dealer wording."
+      },
+      {
+        "field": "Needles",
+        "value": "Singer Cat. No. 2022 in #14 and #16 (size 90/14 and 100/16). 100/16 mounted on the machine, 90/14 in the accessory case. Standard Singer 2020 may be used in an emergency but the manual says tension must be readjusted or stitches may skip",
+        "source": "manual",
+        "vs_spec": "contradicts",
+        "spec_value": "Singer 2022 (ELx705) serger needles",
+        "note": "Spec source was a dealer; the manual gives sizes. The ELx705 equivalence is a dealer statement, not in the manual."
+      },
+      {
+        "field": "Presser foot lift",
+        "value": "Presser foot rise 4.5 to 5.0 mm (manual); product page lists an Extra High Presser Foot Lifter",
+        "source": "manual",
+        "vs_spec": "adds",
+        "spec_value": "null",
+        "note": "Spec file had presserFootLift null.",
+        "site": {
+          "label": "Presser foot lift",
+          "juki": "4.5 to 5.0 mm rise (manual)",
+          "others": "Not given",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Manual p. 51",
+              "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Weight",
+        "value": "6.2 kg (about 13.7 lb) per manual spec table; 13.5 lb on the product page and Amazon",
+        "source": "manual",
+        "vs_spec": "contradicts",
+        "spec_value": "13.5",
+        "note": "Small page-vs-manual gap (13.5 lb vs 13.7 lb); the page states 13.5 with no unit label beyond the number, read as pounds.",
+        "site": {
+          "label": "Weight",
+          "juki": "13.5 lb (page); 6.2 kg = 13.7 lb (manual)",
+          "others": "Amazon 13.5 lb; one listing 7.38 kg",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Product page",
+              "url": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+            },
+            {
+              "label": "Manual p. 51",
+              "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Dimensions",
+        "value": "Manual: 338 x 280 x 265 mm (13.3 x 11.0 x 10.4 in, width x depth x height). Page: 14 in long x 11 in wide x 11.5 in high",
+        "source": "manual",
+        "vs_spec": "contradicts",
+        "spec_value": "14 x 11 x 11.5",
+        "note": "Page-vs-manual disagreement: the page figures run about 0.7 in longer and 1.1 in taller. Unit conversion is ours; the manual lists millimetres.",
+        "site": {
+          "label": "Dimensions",
+          "juki": "13.3 x 11.0 x 10.4 in (manual, converted)",
+          "others": "14 x 11 x 11.5 in (page)",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Product page",
+              "url": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+            },
+            {
+              "label": "Manual p. 51",
+              "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Motor / electrical",
+        "value": "Page lists 1 amp, 120 watts, 120 V, 60 Hz and calls the motor \"high performance\". No motor rating beyond the electrical nameplate figures",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": "null",
+        "note": "The 120 W is an electrical rating line on the page, not a stated motor output. Keep spec motor null or label it a rating line. The earlier 110 W snippet has no support in Singer documents."
+      },
+      {
+        "field": "Speed control",
+        "value": "Digital speed control (page), sets the maximum speed",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": "null"
+      },
+      {
+        "field": "Throat space",
+        "value": "Not published. Neither the page nor the manual gives a throat or workspace figure",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "null",
+        "note": "Rule 11 applies: no throat figure on a serger page without a maker statement."
+      },
+      {
+        "field": "Free arm",
+        "value": "Remove the cloth plate (manual) or the removable storage compartment (page) to expose the free arm",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "Yes, built in",
+        "note": "Terminology differs between documents: manual says cloth plate, page says Removable Storage Compartment."
+      },
+      {
+        "field": "Frame",
+        "value": "Page: heavy duty metal frame, \"The machine's interior frame is metal\". Alloy not stated",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "Metal frame (alloy not published)",
+        "note": "Singer wording is that the interior frame is metal, narrower than the \"heavy duty metal frame makes it more durable\" copy elsewhere on the page."
+      },
+      {
+        "field": "Lights",
+        "value": "Two LED lights",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "2 LED lights"
+      },
+      {
+        "field": "Included accessories",
+        "value": "All purpose foot, tweezers, spreader, needles, screwdriver, 4 spool holders, spare lower knife, scrap bag, lint brush (page, $50 value). Manual lists a spare lower knife and a scrap bag \"in the carton\"",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "All purpose foot, tweezers, spreader (2 thread converter), needles, screwdriver, 4 thread spools, spare lower knife, scrap bag, lint brush",
+        "note": "Spec says \"4 thread spools\"; the page says \"4 Spool Holders\". Whether thread spools ship is not stated, and one Singer reviewer says no thread came in the box."
+      },
+      {
+        "field": "Warranty",
+        "value": "Page: 90 day / 2 yr / 25 yr. Warranty page: 25 years on the sewing machine head; 2 years on motors, light assemblies, wiring, switches, speed control and electronic components; 90 days on adjustments, belts, rings, bulbs and attachments",
+        "source": "warranty-page",
+        "vs_spec": "confirms",
+        "spec_value": "25 yr limited on machine head, 2 yr on motor, light, wiring, switches, speed control and electronics, 90 days on adjustments, belts, rings, bulbs and attachments",
+        "note": "Generic Singer warranty page, not model-specific. The product page says some restrictions may apply and links a separate PDF that was not fetched. Spec file says \"limited\"; the fetched page text does not use that word.",
+        "site": {
+          "label": "Warranty",
+          "juki": "25 yr head / 2 yr motor and electrics / 90 day parts (Singer warranty page)",
+          "others": "Dealers repeat Singer's terms",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Warranty page",
+              "url": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Price",
+        "value": "MSRP $399.99; Singer store showed $319.99 (Save $80, Out of Stock) on 2026-10-02 cache",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": "priceUsdSeen 349.95 at Sewing Machines Plus",
+        "note": "Recorded for the Last seen line only. The maker's own page is the only one that states an MSRP."
+      },
+      {
+        "field": "Availability wording",
+        "value": "Product page shows \"Out of Stock\" and \"Sold out\" with a note that back-orders ship on a TBD date. The page does not say the model is discontinued",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": "discontinued false",
+        "note": "Wording only; no Singer statement of discontinuation or replacement."
+      },
+      {
+        "field": "Maker rating",
+        "value": "4.3 from 44 reviews on the Singer page (29 five-star, 9 four, 1 three, 2 two, 3 one; 84 percent recommend, 27 of 32). Ease of Use sub-score 2.7 of 5",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": "null",
+        "note": "Seller-collected and includes reviews flagged Received Free Product (many of the first page, several from a 2023 promotion). Not ingested into the ledger: reviews:fetch does not recognise the Bazaarvoice page."
+      },
+      {
+        "field": "Marketing claims",
+        "value": "\"60% larger cutting knife than other Singer sergers cuts thick fabrics easily\"; \"1300 stitches/minute professional speed\"; \"Powerful & durable frame holds machine still for skip-free stitching\"; \"high performance motor\"; \"twice the light of other Singer sergers\"; FAQ: \"from lightweight silks to heavy denim and upholstery\"; \"Heavy Duty\" is the product line name",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "claims list in spec file",
+        "note": "All are manufacturer claims (rule 7). The 60 percent and twice the light comparisons use other Singer sergers as the base, unnamed; no knife dimensions are given."
+      },
+      {
+        "field": "Page vs manual: speed, weight, size",
+        "value": "Three figures differ between the Singer product page and the Singer manual: speed (1,300 vs 1,200 +/- 150 spm), weight (13.5 vs 13.7 lb) and dimensions (14 x 11 x 11.5 vs 13.3 x 11.0 x 10.4 in)",
+        "source": "manual",
+        "vs_spec": "contradicts",
+        "spec_value": "1300; 13.5; 14 x 11 x 11.5",
+        "note": "List these under Where sources disagree. The manual copy fetched is a multi-region PDF and could be an older revision than the page."
+      }
+    ]
+  },
+  "rollup": {
+    "status": "draft",
+    "method": {
+      "sources": 17,
+      "itemsCollected": 237,
+      "statements": 29,
+      "voices": 18,
+      "ownerVoices": 12,
+      "dateRange": [
+        2017,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 14,
+          "items": 222
+        },
+        "retailer": {
+          "sources": 3,
+          "items": 14
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.5 from 63 ratings on B00EF1ICNC is shared by several listings (the same figure appears on unrelated Singer Heavy Duty 0420 and 0460 listings), so it is a pooled rating, not this model's own. B00IXPWNNG (4.4 from 12) names the 14HD854 in its title and is not pooled."
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B00EF1ICNC",
+        "pageRating": 4.5,
+        "pageCount": 63,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 6
+        },
+        "lowRated": 2,
+        "sampled": "8 top reviews (8 US, 0 other countries) of 63 ratings"
+      },
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B00IXPWNNG",
+        "pageRating": 4.4,
+        "pageCount": 12,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "lowRated": 0,
+        "sampled": "0 top reviews (0 US, 0 other countries) of 12 ratings"
+      },
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/singer-14hd854-serger.php",
+        "pageRating": 4.5,
+        "pageCount": 6,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 5
+        },
+        "lowRated": 1,
+        "sampled": null
+      }
+    ],
+    "themes": [
+      {
+        "label": "Feet and accessories",
+        "voices": 8,
+        "ownerVoices": 4,
+        "sources": 4,
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 6
+        },
+        "classVoices": {
+          "reddit": 8
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner cannot find ballpoint or stretch needles in the 2022/ELx705 type for their overlocker.",
+            "url": "https://www.reddit.com/r/sewing/comments/qavcfn/singer_14hd854_serger_ballpoint_needles/hh69o6k/"
+          }
+        ]
+      },
+      {
+        "label": "Reliability and defects",
+        "voices": 6,
+        "ownerVoices": 5,
+        "sources": 6,
+        "polarity": {
+          "positive": 1,
+          "negative": 5,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "classVoices": {
+          "reddit": 5,
+          "retailer": 1
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Unit arrived with the drive belt not connected, so the motor ran but the machine did not turn properly.",
+            "url": "https://www.sewingmachinesplus.com/singer-14hd854-serger.php"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Secondhand 14HD854 stopped responding to the foot pedal after a first test on scrap fabric.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1lmyenk/serger_clicking_noise/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner bought a refurbished 14HD854 and says it handles everything they ask of it.",
+            "url": "https://www.reddit.com/r/sewing/comments/1asv2ov/maybe_time_for_a_serger/kqt45xj/"
+          }
+        ]
+      }
+    ],
+    "siblings": [
+      {
+        "label": "Singer ProFinish 14CG754",
+        "rows": [
+          {
+            "feature": "Maker list price",
+            "summary": "Singer lists the 14CG754 at $209.99 against a $349.99 MSRP, versus $319.99 against $399.99 for the 14HD854.",
+            "check": "Singer product pages, fetched 2026-10-02; both showed Out of Stock."
+          },
+          {
+            "feature": "Maker speed claim",
+            "summary": "Singer's 14CG754 page lists 1,300 stitches per minute, the same figure as the 14HD854 page.",
+            "check": "Singer 14CG754 page, 2026-10-02. The 14HD854 manual says 1,200 +/- 150 spm; no 14CG754 manual was fetched."
+          },
+          {
+            "feature": "Maker speed control",
+            "summary": "Singer's 14CG754 page says electronic speed control; the 14HD854 page says digital speed control.",
+            "check": "Both Singer product pages, 2026-10-02."
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "checks": [
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 2 ASINs (B0H9SXCPHX, B0HCCC8L17); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "warn",
+      "id": "scope",
+      "message": "36% of spec claims have unclear scope: many threads cover several machines"
+    },
+    {
+      "level": "warn",
+      "id": "reddit",
+      "message": "few Reddit threads name the model in the title; collection may be on loose matches"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Needles\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Dimensions\" but the spec's conflicts do not mention it"
+    }
+  ],
+  "editorNotes": {
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.5 from 63 ratings on B00EF1ICNC is shared by several listings (the same figure appears on unrelated Singer Heavy Duty 0420 and 0460 listings), so it is a pooled rating, not this model's own. B00IXPWNNG (4.4 from 12) names the 14HD854 in its title and is not pooled."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction."
+  },
+  "siteFieldsNow": "  \"singer-14hd854\": {\n    score: 7.3,\n    scoredFor: \"serger\",\n    reason: \"The ProFinish with a Heavy Duty badge; buy on price against the 14CG754.\",\n    context: \"Overlocker · Singer Heavy Duty serger\",\n    alternatives: [\n      { slug: \"singer-14cg754\", label: \"Sibling\", note: \"Same class, ProFinish name.\" },\n      { slug: \"brother-1034d\", label: \"Value pick\", note: \"The cheapest serger we'd recommend.\" },\n      { slug: \"juki-mo-654de\", label: \"Steadier\", note: \"Our pick for weekly serging.\" },\n    ],\n    imageAlt: \"Singer Heavy Duty 14HD854 serger\",\n    lastUpdated: \"2026-09-29\",\n  },",
+  "comparesNow": []
+}
