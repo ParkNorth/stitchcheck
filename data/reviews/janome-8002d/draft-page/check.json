@@ -1,0 +1,14 @@
+{
+  "slug": "janome-8002d",
+  "generated": "2026-10-02T05:11:48.258Z",
+  "counts": {
+    "error": 0,
+    "warn": 1
+  },
+  "items": [
+    {
+      "level": "warn",
+      "message": "numbers in the copy that are not in the evidence bundle: 5.0"
+    }
+  ]
+}

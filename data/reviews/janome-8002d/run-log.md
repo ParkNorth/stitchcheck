@@ -1,0 +1,17 @@
+
+## Phase A, 2026-10-02 (maker, marketplaces, collection)
+
+Maker documents: Janome product page (https://www.janome.com/product/8002d/, modified 2026-04-01), the instruction manual (42 pages; the product page and the manuals index link byte-identical files), the Janome America 25 Year Warranty (image-only PDF, read by OCR), and the AirThread 2000D page for comparison. Janome publishes no spec sheet; the page has a short specification list and the manual has no spec table.
+
+Maker vs our spec: Janome now publishes weight 13.4 lb (confirms) and dimensions W 12.5 x H 10.5 x D 11 in (our spec's 15 x 13.5 x 14.5 was a box size). Stitch types: Janome lists 4 thread, 3 thread (wide) and narrow hem, the manual adds rolled hem and picot edging; flatlock and blind hem in our spec come from dealer and review copy only (a blind stitch foot is an optional accessory). Included accessories differ between page (foot control, two screwdrivers) and manual (screwdrivers, tweezers, needles); standard serger foot is listed as an optional spare. Differential: page 2.25, manual text 2.2. Needle: manual writes HA-1 SP, our spec HAx1SP. The claims our spec quotes ("affordable and fast", "sturdy and economical") are not on the current page. Throat, free arm, motor and thread trimmer are not published (stay null). The manual shows a lamp (15 W bulb limit) that the page does not list.
+
+Warranty: Janome's wording is 25 years materials and workmanship, 5 years electronic, 1 year labor, and it is void if not bought from an authorized US Janome dealer. The Amazon listing B008L5FN4E states 5 year mechanical, 2 year electrical, 1 year labor. Janome America says it does not sell online directly.
+
+Models: the 8000 series idea does not hold. Janome's 8050 and 8077 are computerized sewing machines. Janome's only other serger page read is the AirThread 2000D ($1,799 MSRP, 2/3/4 thread, air threading). No 8002DX or Magnolia 7034D page on janome.com; they appear only in owner threads. Siblings set: 8002DX, AirThread 2000D, Magnolia 7034D; 8050 and 8077 added to confusable_siblings only.
+
+Aliases: bare "8002D" is a model code and the dry run was clean, but queries use Janome-qualified names (model_names_only true). Reddit: 15 threads kept, 5 with the model in the title, 9 mention it in comments, 1 off-topic (r/batonrouge, 2 items) and one possibly off-topic (Kumo Wrap Pants, 2 items); 170 new items.
+
+Marketplaces: Amazon B008L5FN4E (title names Janome 8002D) 4.6 from 160 ratings, 13 reviews sampled; B01600ASNC 4.4 from 77, 8 reviews; B00ARMIWE2 4.2 from 57, 0 reviews. All three share parent B01LN7DUB4 and the pooled_variations flag is true, so no single rating belongs to one listing. Listing weights 14 to 19 lb against Janome 13.4 lb. Sewing Machines Plus page: 11 reviews fetched, rating 5. Dealer ratings are seller-collected.
+
+Export 191 items; claims prep 145 segments in 4 chunks. reviews:checks: 0 errors, 5 warnings (amazon-parent pooling, and the spec conflicts not yet mentioning the stitchTypes and includedFeet contradictions).
+Claims 67 accepted, 0 rejected (61 spec: this 54, sibling 4, unclear 3); tags 61; 30 voices (25 first-hand), moderate; sibling row AirThread 2000D (3) from Janome pages. Draft: Janome dimensions and weight (13.4 lb), flatlock and blind hem labelled non-maker, two old quoted claims removed (not on the current page), warranty Janome 25/5/1 vs Amazon 5/2/1, differential 0.5 to 2.25 vs 2.2 in the manual. The numbers warning (5.0) is the SMP rating from sources.json.

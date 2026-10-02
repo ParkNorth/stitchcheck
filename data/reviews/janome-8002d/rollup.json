@@ -1,0 +1,875 @@
+{
+  "slug": "janome-8002d",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 18,
+    "itemsCollected": 191,
+    "statements": 54,
+    "voices": 30,
+    "ownerVoices": 25,
+    "dateRange": [
+      2013,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 3,
+        "items": 21
+      },
+      "reddit": {
+        "sources": 15,
+        "items": 170
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's rating for this machine is shared by several listings (three ASINs under one parent show different ratings: 4.6 from 160, 4.4 from 77, 4.2 from 57), so no single figure is a rating for one listing. Listing weights vary from 14 to 19 lb against Janome's 13.4 lb.",
+    "Janome's 25 year warranty is void if the machine was not bought from an authorized US Janome dealer; one Amazon listing states a shorter 5 year mechanical warranty instead."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 16,
+      "voices": 14,
+      "ownerVoices": 14,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 10,
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 8,
+        "negative": 1,
+        "mixed": 3,
+        "neutral": 2
+      },
+      "years": [
+        2013,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cdbc0ec3a",
+          "polarity": "negative",
+          "claim": "The lower looper's last threading steps are hard to follow and the guides are hard to see from the left side.",
+          "quote": "The lower looper is difficult to UNDERSTAND how to thread",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c7a0771c8",
+          "polarity": "positive",
+          "claim": "Machine arrives already threaded, which helps a newcomer get familiar before rethreading.",
+          "quote": "the machine comes already threaded",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cd587954c",
+          "polarity": "positive",
+          "claim": "New owner found sewing machine tweezers a big help for threading.",
+          "quote": "they’re a game changer for threading",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1mreodn/adjusting_sergeroverlock_machine_janome_8002d/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c5074c014",
+          "polarity": "mixed",
+          "claim": "Threading the loopers is a little difficult but manageable with the supplied tweezer.",
+          "quote": "difficult to thread the “loopers”",
+          "url": "https://www.amazon.com/dp/B01600ASNC",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c675f4ef0",
+          "polarity": "mixed",
+          "claim": "Changing thread color is a bit tricky, but the diagrams, including one inside the machine, help.",
+          "quote": "It's a bit tricky to thread it when you want to change the thread color",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cec01b1db",
+        "ca5d0a1db",
+        "c9f851af3",
+        "caa14bef1",
+        "c675f4ef0",
+        "cdc4afc9e",
+        "cdbc0ec3a",
+        "cee4cff03",
+        "c7a0771c8",
+        "c2a1e785a",
+        "cc2f72b7f",
+        "c5074c014",
+        "cc7f90a87",
+        "c5067b1b3",
+        "cd587954c",
+        "c6a013e3e"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 9,
+      "voices": 9,
+      "ownerVoices": 7,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 5,
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 4
+      },
+      "years": [
+        2015,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c9c35b260",
+          "polarity": "negative",
+          "claim": "No dust cover is included in the box.",
+          "quote": "it doesn't come with a dust cover",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cf4bc6b55",
+          "polarity": "negative",
+          "claim": "Machine uses HA-1SP needles, which the owner finds somewhat hard to source.",
+          "quote": "it uses a HA-1SP/Type E and they seem to be a bit rarer",
+          "url": "https://www.reddit.com/r/sewing/comments/uhvu8r/buying_300_serger_between_juki_mo654de_or_janome/i78sra1/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ca52a801d",
+          "polarity": "positive",
+          "claim": "The package came with many needles and tweezers.",
+          "quote": "lots of needles and a pair of tweezers",
+          "url": "https://www.amazon.com/dp/B01600ASNC",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c139bcbd5",
+          "polarity": "positive",
+          "claim": "A long tweezer is included and helped with threading.",
+          "quote": "There's a long tweezer to help with threading",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c139bcbd5",
+        "c9c35b260",
+        "ca52a801d",
+        "c8c9c8738",
+        "cf43ec9f3",
+        "cf4bc6b55",
+        "cadadc5a3",
+        "c4edc5817",
+        "c60963893"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 8,
+      "voices": 7,
+      "ownerVoices": 7,
+      "sources": 6,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 5,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2013,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cc2b04ea1",
+          "polarity": "negative",
+          "claim": "A used machine worked at first, then would not power on a few days after purchase; cause unknown.",
+          "quote": "Today, I couldn’t even turn on the machine",
+          "url": "https://www.reddit.com/r/sewing/comments/i39urg/janome_8002_d_serger_doesnt_turn_on/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c41223562",
+          "polarity": "negative",
+          "claim": "After nearly ten years of frequent use, owner has skipped stitches, thread breaks and catching despite servicing.",
+          "quote": "Skipping stitches, thread breaking, thread catching",
+          "url": "https://www.reddit.com/r/sewhelp/comments/wmwvd0/replacement_for_janome_8002d_serger/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c55072a6a",
+          "polarity": "positive",
+          "claim": "Owner of about four years says it is neat, low fuss and very reliable.",
+          "quote": "is very reliable",
+          "url": "https://www.reddit.com/r/sewing/comments/uhvu8r/buying_300_serger_between_juki_mo654de_or_janome/i78sra1/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c245809ec",
+          "polarity": "positive",
+          "claim": "Owner calls the machine a reliable product.",
+          "quote": "is a very reliable product",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c2ebf9f41",
+          "polarity": "mixed",
+          "claim": "Machine served the owner for almost ten years of fairly frequent use before failing.",
+          "quote": "after almost 10 years of fairly frequent use",
+          "url": "https://www.reddit.com/r/sewhelp/comments/wmwvd0/replacement_for_janome_8002d_serger/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c245809ec",
+        "c3a28b4ad",
+        "c3e54caed",
+        "c55072a6a",
+        "c41223562",
+        "c2ebf9f41",
+        "cc2b04ea1",
+        "cddad37fc"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 6,
+      "voices": 5,
+      "ownerVoices": 5,
+      "sources": 2,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 5
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 1,
+        "mixed": 2,
+        "neutral": 0
+      },
+      "years": [
+        2013,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c3034e659",
+          "polarity": "negative",
+          "claim": "The front cover rattles in use.",
+          "quote": "The front cover rattles too",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c3e8c04ba",
+          "polarity": "positive",
+          "claim": "Owner finds the machine easy to use and not loud.",
+          "quote": "It is very easy to use, not loud",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c01a5c409",
+          "polarity": "mixed",
+          "claim": "Owner finds the machine a little noisy and clanky but the stitch is good.",
+          "quote": "It is a little noisy and clanky",
+          "url": "https://www.amazon.com/dp/B01600ASNC",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cfb0e212f",
+          "polarity": "mixed",
+          "claim": "Owner calls the machine a little noisy but says it does a great job.",
+          "quote": "little noisy but doing a great job",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cfb0e212f",
+        "c4a911e08",
+        "c86a94e71",
+        "c3034e659",
+        "c3e8c04ba",
+        "c01a5c409"
+      ]
+    },
+    {
+      "theme": "learning_curve",
+      "label": "Learning curve",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2015,
+        2018
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ce232c71b",
+          "polarity": "negative",
+          "claim": "8002D owner says the manual covers rolled, picot, narrow and decorative stitches but they found no 3 or 4 thread overlock section.",
+          "quote": "It only covers rolled, picot, narrow, decorative, gathers, and pintucking.",
+          "url": "https://www.reddit.com/r/sewhelp/comments/9n1aav/newbie_to_sergers_all_i_can_do_is_flatlock_stitch/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cf91231c7",
+          "polarity": "positive",
+          "claim": "Owner found the included instructional DVD useful for explaining each feature.",
+          "quote": "The instructional DVD is useful for explaining in great detail",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cf91231c7",
+        "ce232c71b"
+      ]
+    },
+    {
+      "theme": "cutting_trimming",
+      "label": "Cutting and trimming",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2017,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c279dacc1",
+          "polarity": "positive",
+          "claim": "Owner likes that it trims the fabric as it sews, leaving a sharp seam finish.",
+          "quote": "I like the way it cuts the fabric as it sews",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cb9d8786b",
+        "c279dacc1"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2017,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c3442e8d8",
+          "polarity": "positive",
+          "claim": "Owner describes the machine as very lightweight.",
+          "quote": "It is very lightweight",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c3442e8d8",
+        "c067e0964"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2018,
+        2022
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c542a8c2a",
+          "polarity": "positive",
+          "claim": "Owners got the desired stitch by adjusting the tensions.",
+          "quote": "do the stitch we wanted by adjusting the tensions",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c542a8c2a",
+        "c985cbe88"
+      ]
+    },
+    {
+      "theme": "differential_feed",
+      "label": "Differential feed",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2022,
+        2022
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "cefb16f37",
+        "c7a18a60e"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2022
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c033e35df",
+          "polarity": "negative",
+          "claim": "Owner feels the presser foot presses too hard at the start of a bulky edge, hindering feeding.",
+          "quote": "It's like the pressure foot puts too much pressure at the start",
+          "url": "https://www.reddit.com/r/sewhelp/comments/wcs17j/is_there_any_way_possible_to_get_an_even_feed_or/iioa5le/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c1a080602",
+        "c033e35df"
+      ]
+    },
+    {
+      "theme": "rolled_hem",
+      "label": "Rolled hem",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2018,
+        2018
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c39e070a4",
+          "polarity": "positive",
+          "claim": "Owner uses it for a rolled edge, which was the goal, at this price.",
+          "quote": "it is doing the rolled edge, which is what I wanted it to do",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c39e070a4"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2015,
+        2015
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cae5eb0d9",
+          "polarity": "positive",
+          "claim": "Buyer says the Amazon seller is an authorized Janome dealer, so the warranty is valid.",
+          "quote": "Seller is an authorized Janome dealer so warranty is valid too!",
+          "url": "https://www.amazon.com/dp/B01600ASNC",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cae5eb0d9"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2022
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cdbcaeda0",
+          "polarity": "negative",
+          "claim": "Tension discs collect lint; owner suggests covering the machine and flossing the discs with thread.",
+          "quote": "the tension discs do seem to collect lint",
+          "url": "https://www.reddit.com/r/sewing/comments/uhvu8r/buying_300_serger_between_juki_mo654de_or_janome/i78sra1/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cdbcaeda0"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B00ARMIWE2",
+      "pageRating": 4.2,
+      "pageCount": 57,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "lowRated": 0,
+      "sampled": "0 top reviews (0 US, 0 other countries) of 57 ratings"
+    },
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B008L5FN4E",
+      "pageRating": 4.6,
+      "pageCount": 160,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 12
+      },
+      "lowRated": 0,
+      "sampled": "13 top reviews (8 US, 5 other countries) of 160 ratings"
+    },
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B01600ASNC",
+      "pageRating": 4.4,
+      "pageCount": 77,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 6
+      },
+      "lowRated": 1,
+      "sampled": "8 top reviews (8 US, 0 other countries) of 77 ratings"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "Janome lists a maximum speed of 1,300 SPM.",
+      "others": "Amazon and dealers repeat 1,300 spm.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome source",
+          "url": "https://www.janome.com/product/8002d/"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "page"
+    },
+    {
+      "label": "Thread count",
+      "juki": "3 and 4 thread convertible. The page lists no built-in 2-thread converter; the AirThread 2000D page does.",
+      "others": "Dealers describe it as a 3/4 thread serger.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome source",
+          "url": "https://www.janome.com/product/8002d/"
+        }
+      ],
+      "field": "threads",
+      "source": "page"
+    },
+    {
+      "label": "Stitch types",
+      "juki": "Janome lists 4 thread, 3 thread (wide) and narrow hem; the manual adds rolled hem and picot edging.",
+      "others": "Dealer and review copy adds flatlock and blind hem.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome source",
+          "url": "https://www.janome.com/product/8002d/"
+        },
+        {
+          "label": "Janome manual",
+          "url": "https://www.janome.com/wp-content/uploads/2014/10/inst-book-8002deng.pdf"
+        }
+      ],
+      "field": "stitchTypes",
+      "source": "page"
+    },
+    {
+      "label": "Weight",
+      "juki": "Janome lists a machine weight of 13.4 lbs.",
+      "others": "Amazon item weights run 14 to 19 lb across listings (probably shipping weight).",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome source",
+          "url": "https://www.janome.com/product/8002d/"
+        }
+      ],
+      "field": "weightLb",
+      "source": "page"
+    },
+    {
+      "label": "Dimensions",
+      "juki": "Janome lists W 12.5 in x H 10.5 in x D 11 in.",
+      "others": "One Amazon listing gives 11 x 12.5 x 10.5 in; others give box-like sizes up to 16 in.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome source",
+          "url": "https://www.janome.com/product/8002d/"
+        }
+      ],
+      "field": "dimensionsIn",
+      "source": "page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "25 years materials and workmanship, 5 years electronics, 1 year labor; void if not bought from an authorized US Janome dealer.",
+      "others": "An Amazon listing states 5 years mechanical, 2 years electrical, 1 year labor.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome warranty",
+          "url": "https://www.janome.com/support/warranty/"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "warranty"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "AirThread 2000D",
+      "label": "Janome AirThread 2000D",
+      "rows": [
+        {
+          "feature": "Thread count and threading",
+          "urls": 0,
+          "classes": [],
+          "summary": "Janome lists the AirThread 2000D as a 2, 3 or 4 thread serger with one-push air threading of both loopers and a built-in needle threader; the 8002D is 3 or 4 thread with lay-in manual threading.",
+          "check": "Janome product pages for both, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Stitch ranges",
+          "urls": 0,
+          "classes": [],
+          "summary": "Janome gives the AirThread 2000D a stitch length of 1 to 5 mm, differential 0.5 to 2.0 and cutting width 3.3 to 7.5 mm; the 8002D lists 1 to 4 mm, 0.5 to 2.25 and 3.1 to 7.3 mm. Both are rated 1,300 spm.",
+          "check": "Janome product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Size and price",
+          "urls": 0,
+          "classes": [],
+          "summary": "Janome lists the AirThread 2000D at 17.4 lb with a $1,799 MSRP; the 8002D is 13.4 lb at $399 MSRP.",
+          "check": "Janome product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}
