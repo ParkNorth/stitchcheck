@@ -202,7 +202,7 @@ if (cmd === "apply") {
     if (c.description) keyed("description", c.description);
     if (c.summary) keyed("summary", c.summary);
     for (const [s, text] of Object.entries<string>(c.buyIf ?? {})) {
-      const re = new RegExp(`(\\{ slug: "${esc(s)}", text: )${STR}`);
+      const re = new RegExp(`(\\{\\s*slug: "${esc(s)}",\\s*text: )${STR}`);
       if (!re.test(t)) throw new Error(`comparison ${c.slug}: buyIf for ${s} not found`);
       t = t.replace(re, (_m, pre) => `${pre}${JSON.stringify(text)}`);
     }

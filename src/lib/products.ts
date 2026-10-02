@@ -371,16 +371,18 @@ const siteFields: Record<string, SiteFields> = {
   "juki-tl-2000qi": {
     score: 8.3,
     scoredFor: "quilting",
-    reason: "Same speed and stitch as the 2010Q, fewer conveniences, lower band.",
+    reason: "Same 1,500 spm straight stitch as the TL-2010Q on Juki's page; owners say the 2010Q adds a speed control, and the 2000Qi's throat is unpublished.",
     context: "Straight-stitch quilter · in Quilting hub",
     keySpec: "1,500 spm · button trimmer",
     alternatives: [
-      { slug: "juki-tl-2010q", label: "Pedal trimmer", note: "Same stitch, more conveniences." },
+      { slug: "juki-tl-2010q", label: "Speed control", note: "Owners say it adds a speed control and sub-tension dial; Juki lists $2,169 against $1,799." },
       { slug: "brother-pq1600s", label: "Cross-shop", note: "Brother's straight-stitch quilter." },
       { slug: "janome-hd3000", label: "Needs zigzag", note: "Full stitch set, slower." },
     ],
     imageAlt: "Juki TL-2000Qi straight-stitch sewing and quilting machine",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-01",
+    verdict: "A 1,500 spm straight-stitch quilting machine with no published throat figure, so check the reach before you pay.",
+    specsVerified: "2026-10-01",
   },
   "juki-tl-18qvp": {
     series: "TL",

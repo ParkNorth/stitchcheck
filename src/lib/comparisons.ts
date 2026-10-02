@@ -37,20 +37,20 @@ export const comparisons: Comparison[] = [
     slug: "juki-tl-2010q-vs-tl-2000qi",
     title: "Juki TL-2010Q vs TL-2000Qi",
     description:
-      "Same 1,500 spm motor and straight stitch. The 2010Q adds a pedal thread trimmer and speed conveniences; the 2000Qi keeps the price difference.",
+      "Same 1,500 spm straight stitch. Owners say the 2010Q adds a speed control and sub-tension dial; Juki's page gives the 2000Qi a trimmer on heel rock and a push button.",
     productSlugs: ["juki-tl-2010q", "juki-tl-2000qi"],
     picks: { "juki-tl-2010q": "our-pick" },
     summary:
-      "Same motor, same stitch. Buy the 2010Q if you quilt every week and want the pedal trimmer; the 2000Qi if price matters more.",
+      "Same stitch and speed ceiling. Buy the 2010Q if owner-reported speed control matters to you; the 2000Qi if you accept foot-control speed and a lower price.",
     rows: [
       { label: "Price band", key: "priceBand", rule: "lower" },
       { label: "Max speed", key: "maxSpm", rule: "higher" },
       { label: "Stitch types", key: "stitchTypes", rule: "none" },
       {
         label: "Thread trimmer",
-        cells: { "juki-tl-2010q": "Pedal + button", "juki-tl-2000qi": "Button" },
+        cells: { "juki-tl-2010q": "Pedal + button", "juki-tl-2000qi": "Pedal + button" },
         rule: "none",
-        winners: ["juki-tl-2010q"],
+        winners: [],
       },
       { label: "Presser foot lift", key: "presserFootLift", rule: "none" },
       { label: "Frame", key: "frame", rule: "none" },
@@ -59,15 +59,15 @@ export const comparisons: Comparison[] = [
     buyIf: [
       {
         slug: "juki-tl-2010q",
-        text: "You're at the machine most weeks and cutting thread hundreds of times per quilt. The pedal trimmer earns its price there.",
+        text: "You want the speed control owners say the 2010Q adds, and you will pay the gap Juki lists: $2,169 against $1,799.",
       },
       {
         slug: "juki-tl-2000qi",
-        text: "You want the same speed and stitch for less, and pressing a button to trim doesn't bother you.",
+        text: "You want the same 1,500 spm straight stitch with a trimmer on heel rock and a push button, and foot-control speed does not bother you.",
       },
     ],
     relatedGuide: "how-to-choose-a-quilting-machine",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-01",
   },
   {
     slug: "brother-1034d-vs-1034dx",
