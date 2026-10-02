@@ -1,0 +1,955 @@
+{
+  "slug": "juki-dnu-1541s",
+  "today": "2026-10-01",
+  "rules": "AGENTS.md rules 1 to 12 apply: spec-check not field-test, owner evidence labelled, paraphrase and attribute, no em or en dashes, never invent a spec, claims quoted not asserted, every spec sourced, model name is not a spec, conflicts listed, price bands not live prices.",
+  "spec": {
+    "slug": "juki-dnu-1541s",
+    "brand": "Juki",
+    "model": "DNU-1541S",
+    "series": "DNU",
+    "type": "mechanical",
+    "industrial": true,
+    "jobs": [
+      "heavy-duty"
+    ],
+    "manufacturerUrl": "https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541",
+    "retailerUrl": "https://www.sewingmachinesplus.com/juki-1541s.php",
+    "priceUsdSeen": 2499,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Sewing Machine Shop (sewingmachineshop.com), head with table, stand, light and servo motor (search snippet; Sewing Machines Plus lists the assembled-table bundle with no price in snippet)",
+    "specs": {
+      "stitchTypes": {
+        "value": "Straight stitch only, single needle lockstitch, forward and reverse",
+        "source": "https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541"
+      },
+      "stitchCount": {
+        "value": 1,
+        "source": "https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541"
+      },
+      "maxSpm": {
+        "value": 2500,
+        "source": "https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541"
+      },
+      "threads": {
+        "value": null,
+        "source": null
+      },
+      "differentialFeed": {
+        "value": null,
+        "source": null
+      },
+      "throatIn": {
+        "value": null,
+        "source": null
+      },
+      "needleSystem": {
+        "value": "135x17 (135x16 for leather)",
+        "source": "https://www.cutsew.com/juki-dnu1541s-walking-foot-sewing-machine"
+      },
+      "presserFootLift": {
+        "value": "9 mm by hand, 16 mm by knee",
+        "source": "https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541"
+      },
+      "threadTrimmer": {
+        "value": "None on DNU-1541S; automatic trimmer is the DNU-1541-7 variant",
+        "source": "https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541"
+      },
+      "feedSystem": {
+        "value": "Unison feed (walking foot, needle feed and drop feed); max stitch length 9 mm; alternating vertical movement of feet 2.5 to 6.5 mm",
+        "source": "https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541"
+      },
+      "buttonhole": {
+        "value": null,
+        "source": null
+      },
+      "motor": {
+        "value": "Not built in. Sold as a head; dealer bundles add a table, stand and servo motor",
+        "source": "https://jukijunkies.com/product/juki-dnu-1541s-with-servo-motor/"
+      },
+      "frame": {
+        "value": "Cast industrial head; horizontal-axis large (double capacity) hook loading from the side; centralized oil wick lubrication; safety mechanism disengages the hook drive when thread jams",
+        "source": "https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541"
+      },
+      "weightLb": {
+        "value": null,
+        "source": null
+      },
+      "dimensionsIn": {
+        "value": null,
+        "source": null
+      },
+      "includedFeet": {
+        "value": "Dealer complete set: head, table, stand, servo motor, light; Sewing Machines Plus ships the table assembled",
+        "source": "https://www.sewingmachinesplus.com/juki-1541s.php"
+      },
+      "warrantyUs": {
+        "value": null,
+        "source": null
+      },
+      "stitchLengthMm": {
+        "value": 9,
+        "source": "https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541"
+      },
+      "needleBarStrokeMm": {
+        "value": 36,
+        "source": "https://www.cutsew.com/juki-dnu1541s-walking-foot-sewing-machine"
+      },
+      "clearanceUnderFootMm": {
+        "value": 16,
+        "source": "https://www.cutsew.com/juki-dnu1541s-walking-foot-sewing-machine"
+      },
+      "bedSizeIn": {
+        "value": "18.78 x 7 (477 x 178 mm)",
+        "source": "https://www.cutsew.com/juki-dnu1541s-walking-foot-sewing-machine"
+      },
+      "safetyMechanism": {
+        "value": "Yes, the S suffix; protects the hook drive when thread is caught",
+        "source": "https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541"
+      }
+    },
+    "claims": [
+      "\"Increased productivity at sewing speeds as high as 2,500 stitches per minute\" (manufacturer claim, juki.com)",
+      "\"Excellent sewing capabilities and responsiveness\" from the larger needle bar stroke, higher foot lift and double tension (manufacturer claim, juki.com)",
+      "\"3/4 HP servo motor\" (dealer bundle claim, Juki Junkies; motor is not a Juki spec)",
+      "\"Powers through heavy canvas, leather, and upholstery\" (review-site copy, not manufacturer)"
+    ],
+    "conflicts": [
+      "Model name: DNU-1541 (no S) lacks the safety mechanism; DNU-1541S adds it; DNU-1541-7 adds automatic thread trimming. Listings and forum threads mix the three.",
+      "Head weight: a review site says the head alone is over 80 lb; Juki's published figure was not captured. Left null pending catalog check.",
+      "Price: $2,499 (Sewing Machine Shop, full set) vs $2,250 to $2,475 (Sewing Gold, options) vs $1,751 total (Prizzi). Sewing Machines Plus price not in snippet. Catalog uses $2,499 flagged dealer-variable.",
+      "Needle: Juki lists 135x17; dealers add 135x16 for leather. Both recorded.",
+      "Arm space: no needle-to-arm figure in any snippet; bed size 477 x 178 mm is the only published dimension. Left null."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "Leatherworker.net members debate 1541 versus 1541S: one dealer sells only the S as the better machine, another avoids it because the safety clutch trips and owners complain about timing; a 1541 owner skipped the S because it trips on bulky seams and says resetting timing on the plain 1541 takes minutes.",
+        "tone": "mixed",
+        "source": "https://leatherworker.net/forum/topic/111231-advice-on-juki-1541-vs-1541s/"
+      },
+      {
+        "theme": "Upholstery forum regulars call the 1541S their first recommendation for a new machine and the best value in a new walking foot.",
+        "tone": "positive",
+        "source": "https://www.theupholsteryforum.com/viewtopic.php?t=3916"
+      },
+      {
+        "theme": "Buyers ask whether to add a needle positioner to the servo motor; owners say the servo's speed control is what makes the machine usable for slow, precise work.",
+        "tone": "positive",
+        "source": "https://www.theupholsteryforum.com/viewtopic.php?t=4443"
+      },
+      {
+        "theme": "A PatternReview owner runs canvas, leather and upholstery on it that a home machine would not attempt and credits the servo for control at low speed.",
+        "tone": "positive",
+        "source": "https://sewing.patternreview.com/review/machine/6041"
+      }
+    ],
+    "evidence": "owner",
+    "buyerQuestions": [
+      "What is the difference between the Juki DNU-1541 and DNU-1541S?",
+      "Can the DNU-1541S sew leather?",
+      "How thick can the DNU-1541S sew?",
+      "How much does the DNU-1541S weigh?",
+      "Does the DNU-1541S come with a servo motor?",
+      "Does the DNU-1541S have a thread trimmer?",
+      "What needles does the DNU-1541S use?",
+      "Does the safety clutch on the 1541S cause timing problems?",
+      "Can I run the DNU-1541S at home?"
+    ],
+    "crossShop": [
+      {
+        "slug": "juki-ddl-5550",
+        "why": "Buyers who only sew garment-weight fabric find the drop-feed DDL faster and cheaper and do not need the walking foot."
+      },
+      {
+        "slug": "juki-ddl-8700",
+        "why": "The budget Juki industrial straight stitch; same trade as above at a lower price."
+      },
+      {
+        "slug": "singer-4452",
+        "why": "Shoppers who typed heavy duty and landed on a $200 domestic need to see what an actual walking foot industrial costs."
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "sources": [
+      "https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541",
+      "https://www.sewingmachinesplus.com/juki-1541s.php",
+      "https://sewingmachinesplus.com/products/juki-1541s",
+      "https://jukijunkies.com/product/juki-dnu-1541s-with-servo-motor/",
+      "https://www.cutsew.com/juki-dnu1541s-walking-foot-sewing-machine",
+      "https://sewingmachineshop.com/product/juki-dnu-1541s-w-table-stand-light-servo-motor-copy/",
+      "https://sewinggold.com/product/juki-dnu-1541s-walking-foot-machine/",
+      "https://prizzisewing.com/products/juki-dnu-1541-1-needle-lockstitch-unison-feedmachine-with-table-servo-motor-copy",
+      "https://www.goldstartool.com/juki-dnu-1541s-industrial-walking-foot-industrial-sewing-machine-with-table-and-servo-motor.htm",
+      "https://meissnersewing.com/products/juki-dnu-1541s-w-safety-mechanism-lockstitch-industrial-machine-unassembled-with-table-motor",
+      "https://mashupfabric.com/juki-dnu-1541s-review/",
+      "https://leatherworker.net/forum/topic/111231-advice-on-juki-1541-vs-1541s/",
+      "https://leatherworker.net/forum/topic/104936-is-juki-1541-a-good-choice/",
+      "https://www.theupholsteryforum.com/viewtopic.php?t=3916",
+      "https://www.theupholsteryforum.com/viewtopic.php?t=4443",
+      "https://sewing.patternreview.com/review/machine/6041"
+    ],
+    "editorial": {
+      "verdict": "The DNU-1541S is the walking foot industrial that upholstery and leather forums recommend first: unison feed, 9 mm stitches, 16 mm knee lift and a safety clutch, sold as a head that needs a table and servo.",
+      "whoFor": "A home shop sewing leather, vinyl, canvas, upholstery or bags who has outgrown a domestic and has floor space for an industrial table.",
+      "skipIf": "You sew garment-weight fabric (a DDL is faster and cheaper), or you have nowhere to put a 48 in table and an 80 lb head.",
+      "keySpec": "2,500 spm · 9 mm stitch · 16 mm knee lift · unison feed · 135x17 needle",
+      "strengths": [
+        "Unison feed: walking foot, needle feed and drop feed move together, which is what keeps layered vinyl and leather from creeping.",
+        "9 mm maximum stitch length and 16 mm clearance under the foot, both far beyond any domestic.",
+        "Safety mechanism protects the hook drive on a thread jam, and the large horizontal hook holds more bobbin thread."
+      ],
+      "weaknesses": [
+        "Some leather forum members report the safety clutch tripping on bulky seams and timing needing resets; others have no trouble.",
+        "Sold as a head; motor, table and stand come from the dealer and prices vary by about $750 between sellers.",
+        "Juki's published head weight and arm space did not surface in results; a review site says over 80 lb for the head."
+      ],
+      "checks": [
+        {
+          "title": "1541, 1541S or 1541-7",
+          "body": "The plain 1541 has no safety clutch, the S adds it, and the -7 adds automatic thread trimming at a higher price. Forum opinion on the S clutch is split; decide before you order."
+        },
+        {
+          "title": "Servo motor and needle positioner",
+          "body": "Bundles ship a servo with a speed dial. A needle positioner is an add-on that stops the needle up or down; upholsterers debate whether it is worth it."
+        },
+        {
+          "title": "Assembled or flat table",
+          "body": "Sewing Machines Plus ships the table assembled. Marketplace bundles ship head, table and motor separately for you to mount and belt."
+        }
+      ],
+      "realCost": [
+        "Table, stand and servo motor if bought as a head only",
+        "135x17 needles, plus 135x16 leather points",
+        "Specialty walking feet (welting, piping, zipper, binder) sold separately",
+        "Industrial bobbins for the large hook",
+        "Freight or pickup; the head alone is reported at over 80 lb"
+      ],
+      "faqs": [
+        {
+          "q": "What is the difference between the Juki DNU-1541 and DNU-1541S?",
+          "a": "The S adds a safety mechanism that disengages the hook drive when thread is caught, protecting the machine. Some leather workers say the clutch trips on bulky seams; others recommend the S without reservation."
+        },
+        {
+          "q": "Can the DNU-1541S sew leather?",
+          "a": "Juki lists leather, vinyl, upholstery, synthetics, canvas and coated materials, and lists a 135x16 leather needle. It is a medium to heavy walking foot, not a harness stitcher."
+        },
+        {
+          "q": "How thick can the DNU-1541S sew?",
+          "a": "Juki publishes 16 mm clearance under the foot with the knee lift and a 2.5 to 6.5 mm alternating foot movement. It does not publish a material thickness rating."
+        },
+        {
+          "q": "How much does the DNU-1541S weigh?",
+          "a": "Not published in the results captured. A review site says the head alone is over 80 lb; the table and motor add more."
+        },
+        {
+          "q": "Does the DNU-1541S come with a servo motor?",
+          "a": "Not from Juki. Dealer bundles add a table, stand and servo motor; one dealer quotes a 3/4 HP servo. Check the listing."
+        },
+        {
+          "q": "Does the DNU-1541S have a thread trimmer?",
+          "a": "No. The DNU-1541-7 variant adds automatic thread trimming."
+        },
+        {
+          "q": "What needles does the DNU-1541S use?",
+          "a": "System 135x17, with 135x16 leather points for leather."
+        },
+        {
+          "q": "How fast is the DNU-1541S?",
+          "a": "Up to 2,500 stitches per minute per Juki. With a servo motor you can run it far slower for control."
+        },
+        {
+          "q": "Can I run the DNU-1541S at home?",
+          "a": "Servo motor bundles run on a standard household outlet. You need floor space for an industrial table and a way to move a head reported at over 80 lb."
+        }
+      ]
+    }
+  },
+  "manufacturer": {
+    "documents": [
+      {
+        "id": "page",
+        "url": "https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541",
+        "type": "product page (juki.com, DNU-1541 family)",
+        "fetched": "2026-10-01",
+        "note": "Covers DNU-1541, DNU-1541S and DNU-1541-7; spec table by variant"
+      },
+      {
+        "id": "catalog",
+        "url": "https://juki.com/pub/media/wysiwyg/products/DNU-1541_catalog.pdf",
+        "type": "catalog (PDF, 4 pages, Aug 2011)",
+        "fetched": "2026-10-01",
+        "note": "Spec table with three variant columns; merged cells make some figures ambiguous"
+      },
+      {
+        "id": "manual",
+        "url": "https://juki.com/pub/media/wysiwyg/products/DNU-1541_manual.pdf",
+        "type": "instruction manual (PDF, 96 pages)",
+        "fetched": "2026-10-01",
+        "note": "Operator manual; no spec figures beyond the catalog"
+      },
+      {
+        "id": "engineers",
+        "url": "https://raichert.com/wp-content/uploads/2021/03/DNU-1541-7EM01_e.pdf",
+        "type": "Juki Engineer's Manual (hosted by dealer Raichert)",
+        "fetched": "2026-10-01",
+        "note": "Maker document hosted by a third party; motor, free space, feed mechanism"
+      }
+    ],
+    "facts": [
+      {
+        "field": "variants",
+        "value": "DNU-1541: unison-feed lockstitch, 2,500 spm, no safety mechanism, no trimmer; DNU-1541S: same plus a safety mechanism; DNU-1541-7: 3,000 spm with automatic trimmer",
+        "source": "page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "The S suffix is the safety mechanism only. Model name is not a spec (rule 9)."
+      },
+      {
+        "field": "maxSpm",
+        "value": "2,500 stitches per minute (DNU-1541S and DNU-1541); 3,000 (DNU-1541-7)",
+        "source": "catalog",
+        "vs_spec": "confirms",
+        "spec_value": 2500,
+        "site": {
+          "label": "Speed",
+          "juki": "2,500 stitches per minute on the DNU-1541S; the -7 reaches 3,000.",
+          "others": "Matches our spec.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Juki source",
+              "url": "https://juki.com/pub/media/wysiwyg/products/DNU-1541_catalog.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "stitchLengthMm",
+        "value": "Max 9 mm forward and backward, by dial",
+        "source": "catalog",
+        "vs_spec": "confirms",
+        "spec_value": 9
+      },
+      {
+        "field": "needleSystem",
+        "value": "135x17, Nm125 to Nm180 (Nm160 at delivery)",
+        "source": "catalog",
+        "vs_spec": "confirms",
+        "spec_value": "135x17 (135x16 for leather)",
+        "note": "Our '135x16 for leather' has no maker figure in the documents read."
+      },
+      {
+        "field": "presserFootLift",
+        "value": "By hand 9 mm; by knee 16 mm",
+        "source": "catalog",
+        "vs_spec": "confirms",
+        "spec_value": "9 mm by hand, 16 mm by knee"
+      },
+      {
+        "field": "throatIn",
+        "value": "Distance from needle to machine arm: 264 mm (about 10.4 in); Engineer's Manual free space 255 x 99 mm",
+        "source": "catalog",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null. This is Juki's needle-to-arm wording (rule 11).",
+        "site": {
+          "label": "Throat",
+          "juki": "Needle to machine arm: 264 mm (about 10.4 in).",
+          "others": "Dealers quote 10 in.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Juki source",
+              "url": "https://juki.com/pub/media/wysiwyg/products/DNU-1541_catalog.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "feedSystem",
+        "value": "Unison feed (needle feed, walking foot, bottom feed); foot lift alternation 2.5 to 6.5 mm (1 to 6.5 mm on the -7)",
+        "source": "catalog",
+        "vs_spec": "confirms",
+        "spec_value": "Unison feed (walking foot, needle feed and drop feed); alternating vertical movement of feet 2.5 to 6.5 mm"
+      },
+      {
+        "field": "threadTrimmer",
+        "value": "DNU-1541-7 only; none on the DNU-1541S",
+        "source": "page",
+        "vs_spec": "confirms",
+        "spec_value": "None on DNU-1541S; automatic trimmer is the DNU-1541-7 variant"
+      },
+      {
+        "field": "lubrication",
+        "value": "Centralized oil wick lubrication; Juki New Defrix Oil No. 2 (ISO VG32 equivalent)",
+        "source": "catalog",
+        "vs_spec": "adds",
+        "spec_value": null
+      },
+      {
+        "field": "motor",
+        "value": "Sold as a head; motor and table separate. Catalog row shows 750 W in an ambiguous cell; Engineer's Manual lists a 2P 400 W motor",
+        "source": "catalog",
+        "vs_spec": "confirms",
+        "spec_value": "Not built in. Sold as a head; dealer bundles add a table, stand and servo motor",
+        "note": "Juki's catalog and Engineer's Manual disagree on motor output."
+      },
+      {
+        "field": "weightLb",
+        "value": "Head 36.5 kg (DNU-1541 and 1541S); 42.5 kg for the -7. 80.5 lb is our conversion",
+        "source": "catalog",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null. Juki publishes kilograms."
+      },
+      {
+        "field": "dimensionsIn",
+        "value": "Bed 477 x 178 mm (about 18.8 x 7.0 in)",
+        "source": "catalog",
+        "vs_spec": "confirms",
+        "spec_value": "18.78 x 7 (477 x 178 mm)"
+      },
+      {
+        "field": "hook",
+        "value": "Horizontal-axis full-rotary double-capacity hook; bobbin winder on the arm",
+        "source": "catalog",
+        "vs_spec": "confirms",
+        "spec_value": "horizontal-axis large (double capacity) hook loading from the side"
+      },
+      {
+        "field": "autoReverse",
+        "value": "Catalog: automatic reverse feed is an option on the 1541/1541S and standard on the -7; the page says a reverse feed button is standard",
+        "source": "catalog",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Juki's page and catalog conflict."
+      },
+      {
+        "field": "applications",
+        "value": "'For heavy-weight materials' (Engineer's Manual); page: 'responds outstandingly to the sewing of heavy materials'",
+        "source": "engineers",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Maker wording; claim only."
+      },
+      {
+        "field": "warrantyUs",
+        "value": "Not published on the page, catalog or manuals",
+        "source": "page",
+        "vs_spec": "adds",
+        "spec_value": null
+      },
+      {
+        "field": "msrp",
+        "value": "Dealer pricing only; contact a Juki distributor",
+        "source": "catalog",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Amazon showed $2,407.62 for a bundle from a third-party seller."
+      },
+      {
+        "field": "claims",
+        "value": "'responds outstandingly to the sewing of heavy materials'; 'excellent sewing capabilities and feed performance'; 'consistent seam quality'",
+        "source": "page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Marketing wording; claims only (rule 7)."
+      }
+    ]
+  },
+  "rollup": {
+    "status": "draft",
+    "method": {
+      "sources": 60,
+      "itemsCollected": 887,
+      "statements": 138,
+      "voices": 114,
+      "ownerVoices": 82,
+      "dateRange": [
+        2016,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 2,
+          "items": 48
+        },
+        "reddit": {
+          "sources": 58,
+          "items": 837
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 3.7 from 31 ratings is a third-party bundle listing and may pool variants, so it is shown with that caveat."
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/juki-1541s.php",
+        "pageRating": 4.73,
+        "pageCount": 48,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 3,
+          "4": 3,
+          "5": 41
+        },
+        "lowRated": 4,
+        "sampled": null
+      },
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B07S2L6BBB",
+        "pageRating": 3.7,
+        "pageCount": 31,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "lowRated": 0,
+        "sampled": "0 top reviews (0 US, 0 other countries) of 31 ratings"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Reliability and defects",
+        "voices": 21,
+        "ownerVoices": 16,
+        "sources": 14,
+        "polarity": {
+          "positive": 11,
+          "negative": 7,
+          "mixed": 1,
+          "neutral": 2
+        },
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 18
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner sewing mostly Tex 70 reports crumbly debris and bobbins getting stuck.",
+            "url": "https://www.reddit.com/r/sewing/comments/1pz46zg/is_this_normal_on_my_juki_1541s/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner reports a bad bearing at the crank on their machine.",
+            "url": "https://www.reddit.com/r/myog/comments/15c11ik/first_industrial_machine_juki_1541s/juant1u/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner of a 1541S set up on a T-Leg table reports no problems.",
+            "url": "https://www.reddit.com/r/myog/comments/1qvn3ga/juki_1541s/o3zp4sl/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Reviewer reports no issues and that it does what is needed.",
+            "url": "https://www.sewingmachinesplus.com/juki-1541s.php"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner fixed needle breakage by loosening the hook shaft screws and shifting the shaft, which was too far right.",
+            "url": "https://www.reddit.com/r/sewing/comments/k7v6h9/turning_to_reddit_for_help_i_keep_breaking/gftm8fa/"
+          }
+        ]
+      },
+      {
+        "label": "Speed and speed control",
+        "voices": 19,
+        "ownerVoices": 15,
+        "sources": 13,
+        "polarity": {
+          "positive": 5,
+          "negative": 7,
+          "mixed": 1,
+          "neutral": 6
+        },
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 18
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner finds the pedal touchy and sometimes accidentally sews too fast.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1fikfrw/my_apologies_for_the_brag/lni70fn/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner says the stock servo is a production line type and turning its speed knob fully down did not help.",
+            "url": "https://www.reddit.com/r/myog/comments/1ic7ciu/juki_1541s_servo_motor_question/m9o9g3n/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "New 1541s owner fitted a Kinedyne servo and is fully satisfied, calling it wonderful to work with.",
+            "url": "https://www.reddit.com/r/myog/comments/1pj746d/first_good_sewing_machine/ntbvzfq/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Commenter swapped the pulleys on their machine and got slow controlled motion plus more torque.",
+            "url": "https://www.reddit.com/r/myog/comments/1ic7ciu/juki_1541s_servo_motor_question/m9odt2e/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner with a cheap servo fixed skipped stitches partly by fitting a pulley almost half the size.",
+            "url": "https://www.reddit.com/r/myog/comments/15c11ik/first_industrial_machine_juki_1541s/juant1u/"
+          }
+        ]
+      },
+      {
+        "label": "Feet and accessories",
+        "voices": 14,
+        "ownerVoices": 8,
+        "sources": 11,
+        "polarity": {
+          "positive": 3,
+          "negative": 1,
+          "mixed": 2,
+          "neutral": 8
+        },
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 12
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owners could not get the knee lifter installed and working, and found no setup video matching the current model.",
+            "url": "https://www.sewingmachinesplus.com/juki-1541s.php"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner switches among sizes from 16 upward without opening the machine and uses needle system 135x17.",
+            "url": "https://www.reddit.com/r/myog/comments/1e73js0/question_for_juki_1541_production_users/le1jsfq/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner used a swing-away binder with the standard walking foot, though thick assemblies make the taco wide and shallow.",
+            "url": "https://www.reddit.com/r/myog/comments/1c8uiq6/similar_fold_away_binding_feet_for_juki_1541s/l0jbb9j/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Machine arrived with size 23 needles, which the owner found large for 600D polyester; size 20 suited it better.",
+            "url": "https://www.sewingmachinesplus.com/juki-1541s.php"
+          }
+        ]
+      },
+      {
+        "label": "Power on heavy fabric",
+        "voices": 12,
+        "ownerVoices": 9,
+        "sources": 6,
+        "polarity": {
+          "positive": 11,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "classVoices": {
+          "retailer": 4,
+          "reddit": 8
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "positive",
+            "claim": "Owner says it sews heavy materials easily.",
+            "url": "https://www.sewingmachinesplus.com/juki-1541s.php"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner uses the 1541S for leatherwork and values plowing through about 3/8 inch of material.",
+            "url": "https://www.reddit.com/r/vintagesewing/comments/g2sqdg/singer_24112_i_refurbished_a_while_ago_thought_i/fnniizy/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner says it struggles a little but copes with about 15 mm of Nylcot and Cordura.",
+            "url": "https://www.reddit.com/r/myog/comments/1kt67oc/exploring_the_tradeoffs_consew_206rb_vs_juki/mts2q9o/"
+          }
+        ]
+      },
+      {
+        "label": "Noise and vibration",
+        "voices": 11,
+        "ownerVoices": 10,
+        "sources": 7,
+        "polarity": {
+          "positive": 1,
+          "negative": 8,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 9
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "New owner says the machine rattles a lot and suspects belt adjustment.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1pevwu9/juki_dnu_1541s/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Second owner with the same setup reports the same noise around 500 rpm.",
+            "url": "https://www.reddit.com/r/myog/comments/1je6xc1/can_anyone_help_identify_a_noise_around_500rpm_on/ny1x896/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Long-time industrial user finds the servo motor quiet and peaceful to sew with.",
+            "url": "https://www.sewingmachinesplus.com/juki-1541s.php"
+          }
+        ]
+      },
+      {
+        "label": "Tension",
+        "voices": 11,
+        "ownerVoices": 10,
+        "sources": 9,
+        "polarity": {
+          "positive": 1,
+          "negative": 8,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 10
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner traced a year of constant thread breakage to spool foam and plastic adding tension on Tex 90.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1fikfrw/my_apologies_for_the_brag/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Poster reports inconsistent tension issues on their 1541S.",
+            "url": "https://www.reddit.com/r/Leathercraft/comments/141sef6/juki_1541s_inconsistent_tension_issuesplz_help/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner says thread and bobbin tension are good and adjustable for different materials.",
+            "url": "https://www.reddit.com/r/Leathercraft/comments/5zdj0f/juki_1541s_with_servo_motor_and_speed_reducer/dexaoir/"
+          }
+        ]
+      },
+      {
+        "label": "Oiling and maintenance",
+        "voices": 8,
+        "ownerVoices": 8,
+        "sources": 6,
+        "polarity": {
+          "positive": 0,
+          "negative": 5,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 7
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Buyer received no oil and no oil applicator with the bundle.",
+            "url": "https://www.sewingmachinesplus.com/juki-1541s.php"
+          },
+          {
+            "polarity": "negative",
+            "claim": "After about a year, owner finds the bobbin case holding a lot of oil and oil visible on seams.",
+            "url": "https://www.reddit.com/r/upholstery/comments/1jat8zx/juki_1541s_oil/"
+          }
+        ]
+      },
+      {
+        "label": "Build quality",
+        "voices": 7,
+        "ownerVoices": 3,
+        "sources": 7,
+        "polarity": {
+          "positive": 6,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 6
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner found the motor pulley was loosely fitted at the factory, with too much play.",
+            "url": "https://www.reddit.com/r/myog/comments/1vqyjjr/vibrationbuzzing_from_juki_1541s/p4arsox/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner bought a 1541S new, assembled, with needle position synchronizer, and calls it a beast and a great purchase.",
+            "url": "https://www.reddit.com/r/myog/comments/1s8fo1b/keep_your_eyes_open_and_it_can_happen_to_you/odhgwvm/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner calls the machine a solid heavy workhorse that does what was needed.",
+            "url": "https://www.sewingmachinesplus.com/juki-1541s.php"
+          }
+        ]
+      },
+      {
+        "label": "Fabric handling (knits, wovens)",
+        "voices": 7,
+        "ownerVoices": 5,
+        "sources": 4,
+        "polarity": {
+          "positive": 1,
+          "negative": 6,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "classVoices": {
+          "reddit": 7
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner struggled with fabric lighter than denim and expects it would have eaten nylon ripstop.",
+            "url": "https://www.reddit.com/r/myog/comments/1kt67oc/exploring_the_tradeoffs_consew_206rb_vs_juki/mtu2nmj/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Writer says the feed dogs on this machine cannot be raised higher, which limits it.",
+            "url": "https://www.reddit.com/r/myog/comments/157sldx/building_effeciency_in_side_hustle/jtktnnq/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Commenter says the machine did great on leather and waxed canvas.",
+            "url": "https://www.reddit.com/r/myog/comments/1kt67oc/exploring_the_tradeoffs_consew_206rb_vs_juki/mtubbak/"
+          }
+        ]
+      },
+      {
+        "label": "Walking foot",
+        "voices": 6,
+        "ownerVoices": 2,
+        "sources": 6,
+        "polarity": {
+          "positive": 2,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 5
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "With a synchronized binder attachment, stitches shorten as if fabric is not feeding properly.",
+            "url": "https://www.reddit.com/r/myog/comments/1sut42m/dedicated_binding_machine/oi3on2f/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Upholsterer sees the walking foot as an upgrade from a needle feed machine.",
+            "url": "https://www.sewingmachinesplus.com/juki-1541s.php"
+          }
+        ]
+      },
+      {
+        "label": "Stitch quality",
+        "voices": 6,
+        "ownerVoices": 3,
+        "sources": 4,
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 4
+        },
+        "classVoices": {
+          "reddit": 6
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner used zigzag on a Singer for a mesh pocket because the Juki 1541S only sews straight stitch.",
+            "url": "https://www.reddit.com/r/myog/comments/1ojlp8y/what_ridiculous_looks_like_my_latest_fanny_pack/nm46cs6/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "The 1541S handled most straight stitch work smoothly; a domestic is kept for zigzag and light work.",
+            "url": "https://www.reddit.com/r/myog/comments/1v7ut3y/looking_for_a_new_machine_for_myog/p03atda/"
+          }
+        ]
+      }
+    ],
+    "siblings": [
+      {
+        "label": "Juki DNU-1541 (base)",
+        "rows": [
+          {
+            "feature": "Safety mechanism",
+            "summary": "The DNU-1541S adds a safety mechanism that disengages the hook drive when thread jams; Juki lists the DNU-1541 without it. Other listed specs are the same.",
+            "check": "Juki product page, 2026-10-01"
+          }
+        ]
+      },
+      {
+        "label": "Juki DNU-1541-7 (trimmer)",
+        "rows": [
+          {
+            "feature": "Speed and trimmer",
+            "summary": "Juki lists the DNU-1541-7 at 3,000 spm with an automatic thread trimmer; the DNU-1541S runs at 2,500 spm with none.",
+            "check": "Juki product page and catalog, 2026-10-01"
+          },
+          {
+            "feature": "Weight",
+            "summary": "The head weighs 42.5 kg against 36.5 kg for the DNU-1541S.",
+            "check": "Juki catalog, 2026-10-01"
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "checks": [],
+  "editorNotes": {
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 3.7 from 31 ratings is a third-party bundle listing and may pool variants, so it is shown with that caveat."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction."
+  },
+  "siteFieldsNow": "  \"juki-dnu-1541s\": {\n    score: 8.8,\n    scoredFor: \"heavy-duty\",\n    reason: \"The walking-foot industrial upholstery and leather forums recommend first.\",\n    context: \"Industrial walking foot · in Heavy duty hub\",\n    alternatives: [\n      { slug: \"juki-ddl-8700\", label: \"Drop feed\", note: \"Cheaper industrial for flat work.\" },\n      { slug: \"juki-ddl-5550\", label: \"Sibling\", note: \"Straight stitch, no walking foot.\" },\n      { slug: \"singer-4452\", label: \"Domestic\", note: \"The value pick for occasional denim.\" },\n    ],\n    imageAlt: \"Juki DNU-1541S walking foot industrial sewing machine\",\n    lastUpdated: \"2026-09-29\",\n  },",
+  "comparesNow": []
+}

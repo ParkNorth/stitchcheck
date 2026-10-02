@@ -1,0 +1,30 @@
+{
+  "slug": "juki-dnu-1541s",
+  "generated": "2026-10-02T03:25:00.936Z",
+  "counts": {
+    "error": 0,
+    "warn": 0
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: of 48 sampled reviews, 7 name this model, 0 name a sibling only, 41 name neither"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 196, this 138, sibling 1, unclear 56"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "58 Reddit threads, 34 with the model in the title"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 114 voices (82 first-hand), 60 sources, status draft"
+    }
+  ]
+}

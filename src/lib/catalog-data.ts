@@ -6245,10 +6245,10 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "manufacturerUrl": "https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541",
     "retailerUrl": "https://www.sewingmachinesplus.com/juki-1541s.php",
-    "priceUsdSeen": 2499,
-    "priceSeenDate": "2026-09-29",
+    "priceUsdSeen": 2408,
+    "priceSeenDate": "2026-10-01",
     "priceSeenAt": "another dealer",
-    "priceNote": "Sewing Machine Shop (sewingmachineshop.com), head with table, stand, light and servo motor (search snippet; Sewing Machines Plus lists the assembled-table bundle with no price in snippet)",
+    "priceNote": "Amazon, third-party seller bundle listing (not Juki; Juki publishes dealer pricing only and the bundle contents are the seller's)",
     "specs": {
       "stitchTypes": {
         "value": "Straight stitch only, single needle lockstitch, forward and reverse",
@@ -6271,8 +6271,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "throatIn": {
-        "value": null,
-        "source": null
+        "value": 10.4,
+        "source": "https://juki.com/pub/media/wysiwyg/products/DNU-1541_catalog.pdf"
       },
       "needleSystem": {
         "value": "135x17 (135x16 for leather)",
@@ -6295,16 +6295,16 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "motor": {
-        "value": "Not built in. Sold as a head; dealer bundles add a table, stand and servo motor",
-        "source": "https://jukijunkies.com/product/juki-dnu-1541s-with-servo-motor/"
+        "value": "Not built in. Sold as a head; motor and table are separate and dealer bundles add a table, stand and servo motor. Juki's catalog row shows 750 W in an ambiguous cell; the Engineer's Manual lists a 2P 400 W motor",
+        "source": "https://juki.com/pub/media/wysiwyg/products/DNU-1541_catalog.pdf"
       },
       "frame": {
         "value": "Cast industrial head; horizontal-axis large (double capacity) hook loading from the side; centralized oil wick lubrication; safety mechanism disengages the hook drive when thread jams",
         "source": "https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541"
       },
       "weightLb": {
-        "value": null,
-        "source": null
+        "value": 80.5,
+        "source": "https://juki.com/pub/media/wysiwyg/products/DNU-1541_catalog.pdf"
       },
       "dimensionsIn": {
         "value": null,
@@ -6321,16 +6321,18 @@ export const catalogData: Record<string, CatalogEntry> = {
     },
     "claims": [
       "\"Increased productivity at sewing speeds as high as 2,500 stitches per minute\" (manufacturer claim, juki.com)",
-      "\"Excellent sewing capabilities and responsiveness\" from the larger needle bar stroke, higher foot lift and double tension (manufacturer claim, juki.com)",
-      "\"3/4 HP servo motor\" (dealer bundle claim, Juki Junkies; motor is not a Juki spec)",
+      "\"Responds outstandingly to the sewing of heavy materials\" (Juki claim, Juki product page; the Engineer's Manual says 'for heavy-weight materials')",
+      "\"Excellent sewing capabilities and feed performance\" and \"consistent seam quality\" (Juki claims, Juki product page)",
+      "\"3/4 HP servo motor\" (dealer bundle claim, Juki Junkies; the motor is not a Juki spec for this head)",
       "\"Powers through heavy canvas, leather, and upholstery\" (review-site copy, not manufacturer)"
     ],
     "conflicts": [
-      "Model name: DNU-1541 (no S) lacks the safety mechanism; DNU-1541S adds it; DNU-1541-7 adds automatic thread trimming. Listings and forum threads mix the three.",
-      "Head weight: a review site says the head alone is over 80 lb; Juki's published figure was not captured. Left null pending catalog check.",
-      "Price: $2,499 (Sewing Machine Shop, full set) vs $2,250 to $2,475 (Sewing Gold, options) vs $1,751 total (Prizzi). Sewing Machines Plus price not in snippet. Catalog uses $2,499 flagged dealer-variable.",
-      "Needle: Juki lists 135x17; dealers add 135x16 for leather. Both recorded.",
-      "Arm space: no needle-to-arm figure in any snippet; bed size 477 x 178 mm is the only published dimension. Left null."
+      "Motor output: Juki's catalog shows 750 W in an ambiguous merged cell, while Juki's Engineer's Manual (hosted by dealer Raichert) lists a 2P 400 W motor. We state neither as the motor for this head.",
+      "Automatic reverse: Juki's catalog lists automatic reverse feed as an option on the DNU-1541 and DNU-1541S, while Juki's product page says a reverse feed button is standard.",
+      "Weight: Juki publishes 36.5 kg for the head. Our 80.5 lb is a conversion of that figure; one review site said the head alone is over 80 lb, which is consistent.",
+      "Model name: DNU-1541 has no safety mechanism, the S adds it, and the DNU-1541-7 adds an automatic trimmer and 3,000 spm. Listings and forum threads mix the three, so none of the -7 traits apply to the 1541S.",
+      "Price: dealer bundles range from $1,751 to $2,499 depending on what is included, Juki publishes dealer pricing only, and Amazon's third-party bundle was $2,407.62 on 2026-10-01, so no single price is firm.",
+      "Needle: Juki lists 135x17 (Nm125 to Nm180); the 135x16 leather point comes from dealers, not a Juki document we read."
     ],
     "ownerThemes": [
       {
@@ -6383,77 +6385,84 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The DNU-1541S is the walking foot industrial that upholstery and leather forums recommend first: unison feed, 9 mm stitches, 16 mm knee lift and a safety clutch, sold as a head that needs a table and servo.",
-      "whoFor": "A home shop sewing leather, vinyl, canvas, upholstery or bags who has outgrown a domestic and has floor space for an industrial table.",
-      "skipIf": "You sew garment-weight fabric (a DDL is faster and cheaper), or you have nowhere to put a 48 in table and an 80 lb head.",
-      "keySpec": "2,500 spm · 9 mm stitch · 16 mm knee lift · unison feed · 135x17 needle",
+      "verdict": "A 2,500 spm unison-feed industrial head with a safety mechanism, sold as a head: Juki's catalog lists the motor and table separately, and the 10.4 in needle-to-arm reach and heavy-material wording are Juki's.",
+      "whoFor": "A home shop sewing leather, vinyl, canvas, upholstery or bags that has outgrown a domestic and has floor space for an industrial table.",
+      "skipIf": "You sew garment-weight fabric (owners say a drop-feed DDL suits it better), you need zigzag, or you cannot house and move an industrial head of 36.5 kg (80.5 lb) plus table.",
+      "keySpec": "2,500 spm · 9 mm stitch · 16 mm knee lift · 10.4 in needle to arm · 135x17 needle",
       "strengths": [
-        "Unison feed: walking foot, needle feed and drop feed move together, which is what keeps layered vinyl and leather from creeping.",
-        "9 mm maximum stitch length and 16 mm clearance under the foot, both far beyond any domestic.",
-        "Safety mechanism protects the hook drive on a thread jam, and the large horizontal hook holds more bobbin thread."
+        "Unison feed: walking foot, needle feed and drop feed work together; Juki's page claims it responds outstandingly to heavy materials, and owners report it handling canvas, leather and upholstery.",
+        "9 mm maximum stitch length and 16 mm clearance under the foot with the knee lift, per Juki's catalog.",
+        "Owners report a servo motor gives the slow, controlled running this machine needs for precise work."
       ],
       "weaknesses": [
-        "Some leather forum members report the safety clutch tripping on bulky seams and timing needing resets; others have no trouble.",
-        "Sold as a head; motor, table and stand come from the dealer and prices vary by about $750 between sellers.",
-        "Juki's published head weight and arm space did not surface in results; a review site says over 80 lb for the head."
+        "Owners report noise and vibration, often traced to belt or pulley setup, and some report tension trouble tied to thread or spool choice.",
+        "Sold as a head only: motor, table and stand come from the dealer, and the motor output Juki publishes is inconsistent between documents.",
+        "Straight stitch only with no trimmer on the S; owners who need zigzag or light-fabric work report keeping a second machine."
       ],
       "checks": [
         {
           "title": "1541, 1541S or 1541-7",
-          "body": "The plain 1541 has no safety clutch, the S adds it, and the -7 adds automatic thread trimming at a higher price. Forum opinion on the S clutch is split; decide before you order."
+          "body": "The plain 1541 has no safety mechanism, the S adds one, and the -7 adds 3,000 spm and an automatic trimmer. Forum opinion on the S clutch is split, so decide before you order."
         },
         {
-          "title": "Servo motor and needle positioner",
-          "body": "Bundles ship a servo with a speed dial. A needle positioner is an add-on that stops the needle up or down; upholsterers debate whether it is worth it."
+          "title": "What the bundle includes",
+          "body": "Juki sells the head. Table, stand and servo motor come from the dealer, and one retailer ships the table assembled while others ship it flat. Ask which motor and whether oil and a needle positioner are included, since one buyer reported no oil in the box."
         },
         {
-          "title": "Assembled or flat table",
-          "body": "Sewing Machines Plus ships the table assembled. Marketplace bundles ship head, table and motor separately for you to mount and belt."
+          "title": "Reverse and motor figures",
+          "body": "Juki's catalog and product page disagree on whether automatic reverse is standard or an option, and its catalog and Engineer's Manual disagree on motor output. Confirm both with the dealer."
         }
       ],
       "realCost": [
-        "Table, stand and servo motor if bought as a head only",
-        "135x17 needles, plus 135x16 leather points",
-        "Specialty walking feet (welting, piping, zipper, binder) sold separately",
-        "Industrial bobbins for the large hook",
-        "Freight or pickup; the head alone is reported at over 80 lb"
+        "Table, stand and servo motor if bought as a head only; the Amazon bundle seen at $2,407.62 on 2026-10-01 is a third-party listing, not a Juki price",
+        "135x17 needles, plus 135x16 leather points that dealers list",
+        "Juki New Defrix Oil No. 2, since the catalog names it and one buyer reported none in the bundle",
+        "Specialty feet and attachments, which owners describe buying separately"
       ],
       "faqs": [
         {
           "q": "What is the difference between the Juki DNU-1541 and DNU-1541S?",
-          "a": "The S adds a safety mechanism that disengages the hook drive when thread is caught, protecting the machine. Some leather workers say the clutch trips on bulky seams; others recommend the S without reservation."
+          "a": "The S adds a safety mechanism that disengages the hook drive when thread is caught. Some leather workers say the clutch trips on bulky seams; others recommend the S without reservation."
         },
         {
           "q": "Can the DNU-1541S sew leather?",
-          "a": "Juki lists leather, vinyl, upholstery, synthetics, canvas and coated materials, and lists a 135x16 leather needle. It is a medium to heavy walking foot, not a harness stitcher."
+          "a": "Juki's page claims it responds outstandingly to heavy materials, and dealers list a 135x16 leather needle. Owners report leather and waxed canvas work. Juki publishes no thickness rating."
         },
         {
           "q": "How thick can the DNU-1541S sew?",
-          "a": "Juki publishes 16 mm clearance under the foot with the knee lift and a 2.5 to 6.5 mm alternating foot movement. It does not publish a material thickness rating."
+          "a": "Juki publishes 16 mm clearance under the foot with the knee lift and a 2.5 to 6.5 mm alternating foot movement, but no material thickness rating. Owner figures vary and are anecdotes."
         },
         {
           "q": "How much does the DNU-1541S weigh?",
-          "a": "Not published in the results captured. A review site says the head alone is over 80 lb; the table and motor add more."
+          "a": "Juki publishes 36.5 kg for the head, which is about 80.5 lb by our conversion. The DNU-1541-7 head is 42.5 kg. Table and motor add more."
         },
         {
           "q": "Does the DNU-1541S come with a servo motor?",
-          "a": "Not from Juki. Dealer bundles add a table, stand and servo motor; one dealer quotes a 3/4 HP servo. Check the listing."
+          "a": "Not from Juki, which sells the head and publishes dealer pricing only. Dealer bundles add a table, stand and servo motor, and one dealer quotes a 3/4 HP servo as its own claim."
         },
         {
           "q": "Does the DNU-1541S have a thread trimmer?",
-          "a": "No. The DNU-1541-7 variant adds automatic thread trimming."
+          "a": "No. The DNU-1541-7 variant adds an automatic trimmer and 3,000 spm; the 1541S runs at 2,500 spm."
         },
         {
           "q": "What needles does the DNU-1541S use?",
-          "a": "System 135x17, with 135x16 leather points for leather."
+          "a": "System 135x17 per Juki, Nm125 to Nm180. Dealers add 135x16 for leather."
+        },
+        {
+          "q": "How much throat space does the DNU-1541S have?",
+          "a": "Juki gives the distance from needle to machine arm as 264 mm, about 10.4 in. The Engineer's Manual lists free space of 255 x 99 mm."
         },
         {
           "q": "How fast is the DNU-1541S?",
-          "a": "Up to 2,500 stitches per minute per Juki. With a servo motor you can run it far slower for control."
+          "a": "Up to 2,500 stitches per minute per Juki. Owners report a servo lets you run it far slower for control."
         },
         {
           "q": "Can I run the DNU-1541S at home?",
-          "a": "Servo motor bundles run on a standard household outlet. You need floor space for an industrial table and a way to move a head reported at over 80 lb."
+          "a": "Owners run servo bundles at home. You need floor space for an industrial table and a way to move a 36.5 kg head, and the motor you receive depends on the dealer."
+        },
+        {
+          "q": "Does the DNU-1541S have a warranty?",
+          "a": "Juki does not publish a warranty in the page, catalog or manuals we read, so we list it as [verify]. Ask the dealer for terms in writing, since a Juki Engineer's Manual is hosted by a third-party dealer and says nothing on it either."
         }
       ]
     },
@@ -6473,7 +6482,11 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://leatherworker.net/forum/topic/104936-is-juki-1541-a-good-choice/",
       "https://www.theupholsteryforum.com/viewtopic.php?t=3916",
       "https://www.theupholsteryforum.com/viewtopic.php?t=4443",
-      "https://sewing.patternreview.com/review/machine/6041"
+      "https://sewing.patternreview.com/review/machine/6041",
+      "https://juki.com/pub/media/wysiwyg/products/DNU-1541_catalog.pdf",
+      "https://juki.com/pub/media/wysiwyg/products/DNU-1541_manual.pdf",
+      "https://raichert.com/wp-content/uploads/2021/03/DNU-1541-7EM01_e.pdf",
+      "https://www.amazon.com/dp/B07S2L6BBB"
     ]
   },
   "juki-hzl-f300": {
