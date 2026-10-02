@@ -1,0 +1,847 @@
+{
+  "slug": "singer-14t968dc",
+  "today": "2026-10-02",
+  "rules": "AGENTS.md rules 1 to 12 apply: spec-check not field-test, owner evidence labelled, paraphrase and attribute, no em or en dashes, never invent a spec, claims quoted not asserted, every spec sourced, model name is not a spec, conflicts listed, price bands not live prices.",
+  "spec": {
+    "slug": "singer-14t968dc",
+    "brand": "Singer",
+    "model": "Professional 5 14T968DC",
+    "series": "Professional 5",
+    "type": "serger",
+    "industrial": false,
+    "jobs": [
+      "serger"
+    ],
+    "manufacturerUrl": "https://www.singer.com/products/singer-professional-5-14t968dc-serger",
+    "retailerUrl": "https://sewingmachinesplus.com/products/pro_5",
+    "priceUsdSeen": 626.18,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Sewing Machines Plus (via its Walmart marketplace listing)",
+    "specs": {
+      "stitchTypes": {
+        "value": "14 built-in stitches: 2/3/4/5-thread overlock, chain stitch, flatlock, rolled hem, narrow, wide and triple cover stitch",
+        "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+      },
+      "stitchCount": {
+        "value": 14,
+        "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+      },
+      "maxSpm": {
+        "value": 1300,
+        "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+      },
+      "threads": {
+        "value": "2, 3, 4 or 5 thread; serger and coverstitch combination",
+        "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+      },
+      "differentialFeed": {
+        "value": "1:0.6 to 1:2",
+        "source": "https://www.sewingpartsonline.com/products/singer-14t968dc-professional-5-serger"
+      },
+      "throatIn": {
+        "value": null,
+        "source": null
+      },
+      "needleSystem": {
+        "value": "Singer 2022, sizes 14/90 (supplied) and 11/80 only",
+        "source": "https://www.manualslib.com/manual/610497/Singer-14t968dc.html"
+      },
+      "presserFootLift": {
+        "value": "Extra-high presser foot lift; presser foot rise 4.5 mm (manual)",
+        "source": "https://www.manualslib.com/manual/610497/Singer-14t968dc.html"
+      },
+      "threadTrimmer": {
+        "value": null,
+        "source": null
+      },
+      "feedSystem": {
+        "value": "Differential feed; knife; removable trim trap",
+        "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+      },
+      "buttonhole": {
+        "value": null,
+        "source": null
+      },
+      "motor": {
+        "value": null,
+        "source": null
+      },
+      "frame": {
+        "value": "Metal frame",
+        "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+      },
+      "weightLb": {
+        "value": 19.84,
+        "source": "https://www.sewingpartsonline.com/products/singer-14t968dc-professional-5-serger"
+      },
+      "dimensionsIn": {
+        "value": "Width 11.5 (other dimensions not published in results)",
+        "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+      },
+      "includedFeet": {
+        "value": "General purpose foot; spreader; spare knife; screwdrivers; spool caps; thread nets; oiler and brush; tweezers; needles; cone adapters; soft dust cover",
+        "source": "https://www.amazon.com/SINGER-Professional-14T968DC-Capability-Including/dp/B002PDZTT2"
+      },
+      "warrantyUs": {
+        "value": "25 yr frame, 2 yr electronic and electrical, 90 days mechanical parts and adjustments",
+        "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+      },
+      "stitchWidthMm": {
+        "value": "3.0 to 9.8",
+        "source": "https://www.sewingpartsonline.com/products/singer-14t968dc-professional-5-serger"
+      },
+      "stitchLengthMm": {
+        "value": null,
+        "source": null
+      },
+      "threadingSystem": {
+        "value": "Manual, color-coded; 'self-adjusting' tension system",
+        "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+      },
+      "rolledHem": {
+        "value": "Yes",
+        "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+      },
+      "chainStitch": {
+        "value": "Yes",
+        "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+      },
+      "freeArm": {
+        "value": null,
+        "source": null
+      }
+    },
+    "claims": [
+      "\"Self-adjusting tension system\" that sets tension automatically (manufacturer claim, product page)",
+      "\"Heavy-duty\" and \"professional\" (Singer series naming and Amazon listing title; not a rating)",
+      "\"Designed for both home and professional use\" (manufacturer claim, product page)"
+    ],
+    "conflicts": [
+      "Weight: 19.84 lb (dealer listing) vs 18.6 lb (another dealer). Singer page value not captured. Catalog will use 19.84 lb flagged [verify].",
+      "Price: Sewing Machines Plus via Walmart $626.18 vs Best Buy $649.99 vs GoldStar Tool $699.00. Catalog will use $626.18 and label the channel.",
+      "Type: sold as a serger; it is a serger and coverstitch combo requiring a manual conversion (blade, plate, needles, clutch). Recorded as 'serger' with the combo noted."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "Owners like getting a 5-thread serger and coverstitch in one box for roughly $450 to $650 and report clean stitches once set up.",
+        "tone": "positive",
+        "source": "https://sewing.patternreview.com/review/machine/6636"
+      },
+      {
+        "theme": "In coverstitch mode there is little room under the foot; pressing the lifter bar further down helps slide fabric in. Some report the right needle skipping and the triple cover never forming.",
+        "tone": "negative",
+        "source": "https://sewing.patternreview.com/review/machine/6861"
+      },
+      {
+        "theme": "Singer 2022 needles are required and hard to find, especially size 11; threading is described as difficult until learned.",
+        "tone": "negative",
+        "source": "https://sewing.patternreview.com/SewingDiscussions/topic/79706"
+      }
+    ],
+    "evidence": "owner",
+    "buyerQuestions": [
+      "How long does it take to convert the 14T968DC from serger to coverstitch?",
+      "Is a serger and coverstitch combo worth it?",
+      "What needles does the Singer 14T968DC use?",
+      "Can the 14T968DC do a 5-thread safety stitch?",
+      "Does the 14T968DC have a free arm?",
+      "Why does the 14T968DC skip stitches in coverstitch mode?",
+      "How heavy is the 14T968DC?",
+      "What is the 14T968DC warranty?",
+      "Is the self-adjusting tension really automatic?"
+    ],
+    "crossShop": [
+      {
+        "slug": "brother-2340cv",
+        "why": "A 1034D plus a 2340CV costs about the same as this combo and avoids converting between modes."
+      },
+      {
+        "slug": "janome-coverpro-2000cpx",
+        "why": "Buyers who mainly want coverstitch compare a dedicated machine against this combo."
+      },
+      {
+        "slug": "brother-1034d",
+        "why": "The serger half of the two-machine alternative."
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "sources": [
+      "https://www.singer.com/products/singer-professional-5-14t968dc-serger",
+      "https://www.singer.com/Professional-5-14T968DC-Serger",
+      "https://sewingmachinesplus.com/products/pro_5",
+      "https://www.walmart.com/ip/Singer-14T968DC-cl-Singer-Professional-5-14T968DC-Serger/25478272",
+      "https://www.sewingpartsonline.com/products/singer-14t968dc-professional-5-serger",
+      "https://www.manualslib.com/manual/610497/Singer-14t968dc.html",
+      "https://www.amazon.com/SINGER-Professional-14T968DC-Capability-Including/dp/B002PDZTT2",
+      "https://sewing.patternreview.com/review/machine/6861",
+      "https://sewing.patternreview.com/review/machine/6636",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/79706",
+      "https://sewingreviewmaster.com/product/singer-14t968dc-review/"
+    ],
+    "editorial": {
+      "verdict": "The Professional 5 is the one-box answer for serging and coverstitch: 2/3/4/5 thread, 1,300 spm, 14 stitches, with a manual conversion between modes.",
+      "whoFor": "A sewist short on space or budget who wants a 5-thread safety stitch and coverstitch and accepts a several-minute changeover.",
+      "skipIf": "You switch between seaming and hemming many times per project; two dedicated machines will be faster.",
+      "keySpec": "2/3/4/5 thread · serger + coverstitch · 1,300 spm · 3.0 to 9.8 mm width",
+      "strengths": [
+        "Only machine in this set with 5-thread safety stitch and coverstitch in one unit.",
+        "Stitch width 3.0 to 9.8 mm and differential feed 0.6 to 2.0 published by dealers.",
+        "Singer's 25-year frame warranty with 2 years on electrical parts."
+      ],
+      "weaknesses": [
+        "Requires Singer 2022 needles, which owners report are hard to find.",
+        "Coverstitch mode has limited clearance under the foot and reviewers report right-needle skips.",
+        "Mechanical parts and adjustments are covered for only 90 days."
+      ],
+      "checks": [
+        {
+          "title": "Conversion steps",
+          "body": "Switching modes means moving the blade, changing the plate, shifting needles and flipping the clutch. Reviewers time it at about seven minutes once learned."
+        },
+        {
+          "title": "Needle stock",
+          "body": "Singer 2022 in 14/90 ships with it; the manual allows 11/80 too. Order spares with the machine rather than hunting locally."
+        },
+        {
+          "title": "Which channel you buy from",
+          "body": "Prices seen ranged from $626 (Sewing Machines Plus on Walmart) to $699. Confirm the seller is authorized so the Singer warranty applies."
+        }
+      ],
+      "realCost": [
+        "5 cones of serger thread for the safety stitch",
+        "Singer 2022 needles in 14/90 and 11/80",
+        "Serger oil (oiler included)",
+        "Spare knife (one included)"
+      ]
+    }
+  },
+  "manufacturer": {
+    "documents": [
+      {
+        "id": "maker-page",
+        "url": "https://www.singer.com/products/singer-professional-5-14t968dc-serger",
+        "type": "product page",
+        "fetched": "2026-10-02",
+        "note": "Singer US store page, SKU 14T968DC.BR, 'Sold and Shipped by: Singer'. Specification block, FAQ, warranty summary and Bazaarvoice reviews (4.3 from 62)."
+      },
+      {
+        "id": "manual",
+        "url": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf",
+        "type": "instruction manual PDF",
+        "fetched": "2026-10-02",
+        "note": "74 pages, text layer parsed. Linked from the maker page as 'View SINGER Professional 5 14T968DC Manual' (the link returns an HTML viewer; the PDF is at the /content/ path). Copyright line 2008. Specification table on p72."
+      },
+      {
+        "id": "warranty",
+        "url": "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-10e8219a-17a4-440f-bae4-9fe48a9ab4d5-singer%2025-2-90%20%20warranty%20471025847e.pdf",
+        "type": "warranty PDF",
+        "fetched": "2026-10-02",
+        "note": "SVP Worldwide Limited Warranty (US and Canada), 3 pages. Generic 25 year / 2 year / 90 day document, not model-specific."
+      },
+      {
+        "id": "sibling-14hd854",
+        "url": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger",
+        "type": "sibling product page (Shopify product JSON)",
+        "fetched": "2026-10-02",
+        "note": "Description text only."
+      },
+      {
+        "id": "sibling-14cg754",
+        "url": "https://www.singer.com/products/singer-profinish-14cg754-serger",
+        "type": "sibling product page (Shopify product JSON)",
+        "fetched": "2026-10-02",
+        "note": "Description text only."
+      }
+    ],
+    "facts": [
+      {
+        "field": "Built-in stitches",
+        "value": "14 built-in stitches",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "14"
+      },
+      {
+        "field": "Threads",
+        "value": "Thread capability 2-3-4-5",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "2, 3, 4 or 5 thread; serger and coverstitch combination",
+        "note": "Manual p72 gives 'Number of threads 2~5'. Page copy: 'Comes with Coverstitch.'"
+      },
+      {
+        "field": "Maximum speed",
+        "value": "High speed stitching 1300/min (page); 1,300 spm maximum (manual p72)",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "1300"
+      },
+      {
+        "field": "Differential feed",
+        "value": "1:0.6 to 1:2.0",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "1:0.6 to 1:2",
+        "note": "Manual p33 and p72. Our spec cited a dealer; the maker manual now supports it."
+      },
+      {
+        "field": "Overedge stitch width",
+        "value": "3.0 to 9.8 mm (manual p72); 5 to 7 mm left needle, 3.0 to 5.0 mm right needle only, 7.8 to 9.8 mm chain stitch needle by knob (p32)",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "3.0 to 9.8",
+        "note": "Standard width 4 mm; rolled hem 1.5 mm. The range is the span across needle positions plus the width knob, not a single setting."
+      },
+      {
+        "field": "Stitch length",
+        "value": "1 to 4 mm (standard: rolled hemming 1 to 2, ordinary overedge N = 2.5)",
+        "source": "manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Manual p72 'Stitch length (feed amount)'. Page lists only 'Adjustable Stitch Length'."
+      },
+      {
+        "field": "Needle system",
+        "value": "Singer #2022 (EL x 705), size 14/90 supplied; use only 14/90 and 11/80",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "Singer 2022, sizes 14/90 (supplied) and 11/80 only",
+        "note": "Manual p9 warns against standard household needles."
+      },
+      {
+        "field": "Presser foot rise",
+        "value": "4.5 mm",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "Extra-high presser foot lift; presser foot rise 4.5 mm (manual)",
+        "note": "Manual p72 'Pressure foot rise 4.5 mm'. Page: 'Extra High Presser Foot Lifter' on a specification line, no figure."
+      },
+      {
+        "field": "Cover stitch needle gauge",
+        "value": "Two needles 2.8 mm (narrow), 5.6 mm (wide); triple needles 5.6 mm",
+        "source": "manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Manual p72. Needle bar stroke 27 mm."
+      },
+      {
+        "field": "Frame",
+        "value": "Heavy Duty Metal Frame: 'The machine's interior frame is metal'; stainless steel bed plate",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "Metal frame",
+        "note": "Only the interior frame is stated as metal. The page does not say the outer housing is metal."
+      },
+      {
+        "field": "Weight",
+        "value": "18.6 (page, no unit on the line); 9.0 kg (manual p72)",
+        "source": "maker-page",
+        "vs_spec": "contradicts",
+        "spec_value": "19.84 lb",
+        "note": "Page and manual disagree: 9.0 kg is 19.84 lb, the page says 18.6 and does not label the unit. Our spec's 19.84 lb matches the manual; the other dealer's 18.6 lb matches the page. Listed as a conflict, not resolved.",
+        "site": {
+          "label": "Weight",
+          "juki": "18.6 (maker page, unit not shown)",
+          "others": "9.0 kg = 19.84 lb (maker manual p72)",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Singer product page",
+              "url": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+            },
+            {
+              "label": "Singer manual",
+              "url": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Dimensions",
+        "value": "Page: 'Machine Size (13.5 x 10.5 x 11.5)', unit and axis order not stated. Manual p72: 360 x 290 x 300 mm (W x D x H) = about 14.2 x 11.4 x 11.8 in",
+        "source": "manual",
+        "vs_spec": "contradicts",
+        "spec_value": "Width 11.5 (other dimensions not published in results)",
+        "note": "Our spec's 'Width 11.5' does not match the manual (width 360 mm = 14.2 in). The page figures are unlabelled and also differ from the manual. Listed as a conflict.",
+        "site": {
+          "label": "Dimensions",
+          "juki": "13.5 x 10.5 x 11.5 (maker page, no unit or axis labels)",
+          "others": "360 x 290 x 300 mm W x D x H (maker manual p72)",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Singer product page",
+              "url": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Power",
+        "value": "Page: Amps 0.5, Watts 114, Volts 120, Hz 60. Manual safety text refers to replacing a lamp bulb rated 15 watts.",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "The page gives electrical input figures only. Motor type and output are not published, so the motor field stays null. The page FAQ says 'powerful motor' (a claim); the manual text mentions a motor belt in a generic safety line."
+      },
+      {
+        "field": "Warranty",
+        "value": "Page: 'Warranty (90 day / 2yr / 25yr)'. Warranty PDF: 25 years on the product frame (free replacement parts, owner pays shipping and labor); 2 years on electronic and electrical parts (repair or replace, owner pays shipping and labor); 90 days on mechanical parts and adjustments. Household (non-commercial) use only.",
+        "source": "warranty",
+        "vs_spec": "confirms",
+        "spec_value": "25 yr frame, 2 yr electronic and electrical, 90 days mechanical parts and adjustments",
+        "note": "The warranty PDF is the generic SVP Worldwide document, not model-specific. It is made only to the first purchaser from Singer or an authorized Singer dealer, and Singer 'reserves the right to reject warranty claims' for products from unauthorized dealers, including unauthorized internet sites. Not transferable to later owners.",
+        "site": {
+          "label": "Warranty",
+          "juki": "90 day / 2 yr / 25 yr (maker page and warranty PDF, generic not model-specific)",
+          "others": "25 yr frame, 2 yr electronic, 90 day mechanical (our spec)",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Singer warranty PDF",
+              "url": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Price",
+        "value": "MSRP $819.99; Singer store price $649.99 on 2026-10-02 (the page says savings compare to the manufacturer's suggested price, not a selling price)",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": "$626.18 seen at Sewing Machines Plus on Walmart 2026-09-29",
+        "note": "Maker store price recorded for reference only; not a statement about any dealer."
+      },
+      {
+        "field": "Included accessories",
+        "value": "General purpose foot, screwdrivers, clean pocket, extra knife, spool caps, anti-spill thread nets, oiler, brush, tweezers, needles, cone adapters, soft dust cover ('$100 value')",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "General purpose foot; spreader; spare knife; screwdrivers; spool caps; thread nets; oiler and brush; tweezers; needles; cone adapters; soft dust cover",
+        "note": "The page list has no 'spreader' line and calls the trim trap a 'Clean Pocket'. The page FAQ does mention a spreader. The manual (section 19) shows converting the upper looper to a spreader, which suggests the spreader is a convertible part rather than a separate accessory: not confirmed."
+      },
+      {
+        "field": "Cover stitch and conversion",
+        "value": "Manual lists section 23 'How to Sew a Cover Stitch' with a clutch (L / C driving clutch) and cover-stitch needles (left Orange, middle Blue, right Green). Page: 'Built-In Rolled Hem: just slide a lever ... no need to change stitch plate'.",
+        "source": "manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "The manual shows a clutch change and needle changes for cover stitch. We did not extract the step count or times from the manual, so no changeover time is stated. The page mentions the lever for rolled hem only."
+      },
+      {
+        "field": "Auto tension (manual wording)",
+        "value": "Manual: 'When using the Auto Tension Dial (ATD), the correct tension is set automatically.' Auto tension settings are based on medium weight fabric and standard 60 polyester spun thread; if results differ, adjust tension in small increments. A dial setting (A to E in the examples) is chosen per stitch.",
+        "source": "manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "The page says the machine adjusts tensions for the selected stitch automatically. The manual shows a user-set dial position per stitch, so 'self-adjusting' is a dial-assisted preset, not a sensor system. Stated as the maker's wording only."
+      },
+      {
+        "field": "Throat space",
+        "value": "Not published. The page and the manual give no needle-to-body or arm figure.",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Throat stays null."
+      },
+      {
+        "field": "Free arm",
+        "value": "Not stated on the page or in the manual (grep found no free arm line). The 14CG754 page, by contrast, states a built-in free arm.",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Leave null."
+      },
+      {
+        "field": "Thread trimmer",
+        "value": "Not published. Knife trims fabric edge only; no thread cutter mentioned.",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null
+      },
+      {
+        "field": "Claims: marketing",
+        "value": "'Self-Adjusting Tensions System ... fully automatic ... ensures that every stitch remains balanced and even'; 'Heavy Duty Metal Frame'; 'High Speed Stitching (1300/min) Professional speed'; FAQ: 'powerful motor, making it ideal for sewing through multiple layers of thick fabrics like denim and canvas'; meta description 'couture-quality construction'; 'Professional 5' series name",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "All maker claims (rule 7). 'Heavy Duty' and 'Finishing Touch' are Singer series names; 'Professional 5' is a series name and the '5' is the thread capability. Our spec's claim 'Designed for both home and professional use' was not found on the page fetched 2026-10-02."
+      },
+      {
+        "field": "Availability",
+        "value": "Page shows Add to cart and 'Back-Orders will ship on TBD date'. No discontinued notice.",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Page wording only."
+      },
+      {
+        "field": "Manual age",
+        "value": "Manual copyright line reads 2008 (SINGER trademark line); warranty document is dated 2025",
+        "source": "manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "The model has been sold for many years; the page does not give a launch date."
+      }
+    ]
+  },
+  "rollup": {
+    "status": "draft",
+    "method": {
+      "sources": 34,
+      "itemsCollected": 275,
+      "statements": 97,
+      "voices": 50,
+      "ownerVoices": 44,
+      "dateRange": [
+        2010,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 2,
+          "items": 22
+        },
+        "reddit": {
+          "sources": 32,
+          "items": 252
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.2 from 1,501 ratings is shared by several listings (pooled variations), so it is not a rating for this model alone."
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B002PDZTT2",
+        "pageRating": 4.2,
+        "pageCount": 1501,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 11
+        },
+        "lowRated": 1,
+        "sampled": "13 top reviews (8 US, 5 other countries) of 1501 ratings"
+      },
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://sewingmachinesplus.com/products/pro_5",
+        "pageRating": 4.78,
+        "pageCount": 9,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 8
+        },
+        "lowRated": 1,
+        "sampled": null
+      }
+    ],
+    "themes": [
+      {
+        "label": "Threading and loopers",
+        "voices": 21,
+        "ownerVoices": 20,
+        "sources": 10,
+        "polarity": {
+          "positive": 3,
+          "negative": 9,
+          "mixed": 5,
+          "neutral": 4
+        },
+        "classVoices": {
+          "retailer": 12,
+          "reddit": 9
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner reports the upper and lower looper threads never interlock in serger mode despite repeated rethreading.",
+            "url": "https://www.reddit.com/r/sewing/comments/1k3b18b/can_someone_please_recommend_where_to_get_a/mo1fhzt/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner finds frequent serger-to-coverstitch switching, often for one construction step, painful.",
+            "url": "https://www.reddit.com/r/sewing/comments/1vr34xf/coverstitchoverlock_combo_or_separate_machines/p4g4k7e/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "A new serger user found threading quite easy after a day.",
+            "url": "https://www.amazon.com/dp/B002PDZTT2"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Threading by the book and CD was easy to follow.",
+            "url": "https://sewingmachinesplus.com/products/pro_5"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Threading is somewhat complex but a book and CD are supplied to teach it.",
+            "url": "https://www.reddit.com/r/sewing/comments/1bsru0/my_new_singer_14t968dc_and_a_few_starter_threads/c9a2j72/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Threading was a challenge at first, later helped by sticker diagrams and the reference chart.",
+            "url": "https://www.amazon.com/dp/B002PDZTT2"
+          }
+        ]
+      },
+      {
+        "label": "Reliability and defects",
+        "voices": 15,
+        "ownerVoices": 15,
+        "sources": 10,
+        "polarity": {
+          "positive": 4,
+          "negative": 10,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 12
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Professional 5 owner reports shirring with elastic thread on two-thread chain stitch mostly jams, working only briefly, and skips stitches.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1bolxiv/shirring_with_a_coverstitch_machine_not_working/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Knife stopped moving within the first week because a pin and set screw in the moving knife arm joint worked loose; owner fixed it himself.",
+            "url": "https://www.amazon.com/dp/B002PDZTT2"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Experienced sewer uses a Singer Professional 5 thread serger as a daily driver and loves it, despite Singer's reputation.",
+            "url": "https://www.reddit.com/r/sewing/comments/1n5anji/challenging_machine_search_cross_boarders/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner since 2018 with regular cleaning reports no major problems.",
+            "url": "https://www.reddit.com/r/sewing/comments/1g8e1o1/which_machine_should_i_keep/lt43dnv/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner says coverstitch, chain stitch and rolled hem work but the overlock serger function does not.",
+            "url": "https://www.reddit.com/r/sewing/comments/1k3b18b/can_someone_please_recommend_where_to_get_a/mo1tquk/"
+          }
+        ]
+      },
+      {
+        "label": "Tension",
+        "voices": 11,
+        "ownerVoices": 10,
+        "sources": 4,
+        "polarity": {
+          "positive": 4,
+          "negative": 4,
+          "mixed": 1,
+          "neutral": 2
+        },
+        "classVoices": {
+          "retailer": 7,
+          "reddit": 4
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Raising the presser foot did not release tension for pulling fabric out backward.",
+            "url": "https://www.amazon.com/dp/B002PDZTT2"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner found auto-tension frustrating while testing each stitch.",
+            "url": "https://www.reddit.com/r/sewing/comments/1g8e1o1/which_machine_should_i_keep/lt6e1ou/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner lists automatic tensioning among the machine's strengths.",
+            "url": "https://www.amazon.com/dp/B002PDZTT2"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Auto tension is a starting point; looper tensions need occasional adjustment to match the workbook stitch.",
+            "url": "https://www.amazon.com/dp/B002PDZTT2"
+          }
+        ]
+      },
+      {
+        "label": "Stitch quality",
+        "voices": 7,
+        "ownerVoices": 6,
+        "sources": 5,
+        "polarity": {
+          "positive": 4,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 4
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Professional 5 owner reports skipped stitches on a 3-thread overlock despite four needle changes and different fabric.",
+            "url": "https://www.reddit.com/r/sewing/comments/12r16lm/serger_is_skipping_stitches/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Cover stitch K bunches at looper A despite rethreading and following the manual.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/utm6vx/upgraded_from_brother_1034d_to_singer/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner is pleased with the cover stitch.",
+            "url": "https://www.amazon.com/dp/B002PDZTT2"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner is satisfied with results from the machine.",
+            "url": "https://www.reddit.com/r/sewing/comments/1vdhv0h/serveroverlock_needles/p1d5fg9/"
+          }
+        ]
+      },
+      {
+        "label": "Learning curve",
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 3,
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 2
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Machine spins up quickly, hard for a new user to control.",
+            "url": "https://www.amazon.com/dp/B002PDZTT2"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner finds they must relearn the machine each time they bring it out.",
+            "url": "https://www.reddit.com/r/sewing/comments/1vdhv0h/serveroverlock_needles/p1d5fg9/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner is happy with the machine but found it had a learning curve.",
+            "url": "https://www.reddit.com/r/sewing/comments/hta409/looking_for_a_serger_in_the_300400_range_please/fygj8pl/"
+          }
+        ]
+      },
+      {
+        "label": "Build quality",
+        "voices": 5,
+        "ownerVoices": 4,
+        "sources": 3,
+        "polarity": {
+          "positive": 2,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 3
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Tester describes the Singer as mostly plastic.",
+            "url": "https://www.reddit.com/r/sewing/comments/6e8rdt/cover_stitching_and_singer_professional_5_serger/di9auc8/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner finds it sturdy and well made.",
+            "url": "https://www.reddit.com/r/sewing/comments/1bsru0/my_new_singer_14t968dc_and_a_few_starter_threads/c9a2j72/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Heavy shipping weight led the owner to assume the metal frame is as advertised.",
+            "url": "https://www.amazon.com/dp/B002PDZTT2"
+          }
+        ]
+      }
+    ],
+    "siblings": [
+      {
+        "label": "Singer Heavy Duty 14HD854",
+        "rows": [
+          {
+            "feature": "Thread capability and knife",
+            "summary": "2, 3 or 4 thread; 6 stitch types; 1,300 spm; Singer says the knife is 60% larger than on other Singer sergers; the upper knife can be moved out of the way.",
+            "check": "Singer 14HD854 product page, fetched 2026-10-02."
+          }
+        ]
+      },
+      {
+        "label": "Singer 14CG754",
+        "rows": [
+          {
+            "feature": "Thread capability and free arm",
+            "summary": "2, 3 or 4 thread; Singer says it has a built-in free arm and differential feed. No coverstitch.",
+            "check": "Singer 14CG754 product page, fetched 2026-10-02."
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "checks": [
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 2 ASINs (B0GM81RNCC, B002PDZTT2); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Dimensions\" but the spec's conflicts do not mention it"
+    }
+  ],
+  "editorNotes": {
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.2 from 1,501 ratings is shared by several listings (pooled variations), so it is not a rating for this model alone."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction."
+  },
+  "siteFieldsNow": "  \"singer-14t968dc\": {\n    series: \"Pro\",\n    score: 7.6,\n    scoredFor: \"serger\",\n    reason: \"Serger and coverstitch in one box, with a conversion each time you switch.\",\n    context: \"Serger and coverstitch combo · in Sergers hub\",\n    alternatives: [\n      { slug: \"brother-1034d\", label: \"Serger only\", note: \"Cheaper if hems are not the gap.\" },\n      { slug: \"brother-2340cv\", label: \"Coverstitch only\", note: \"Dedicated hem machine.\" },\n      { slug: \"janome-coverpro-2000cpx\", label: \"Bigger coverstitch\", note: \"Wide bed for large pieces.\" },\n    ],\n    imageAlt: \"Singer Professional 5 14T968DC serger and coverstitch machine\",\n    lastUpdated: \"2026-09-29\",\n  },",
+  "comparesNow": []
+}

@@ -1,6 +1,6 @@
 {
   "slug": "singer-14t968dc",
-  "generated": "2026-10-02T12:33:52.564Z",
+  "generated": "2026-10-02T12:37:11.221Z",
   "counts": {
     "error": 0,
     "warn": 2
@@ -13,6 +13,11 @@
     },
     {
       "level": "info",
+      "id": "scope",
+      "message": "spec claims: 104, this 97, sibling 0, unclear 7"
+    },
+    {
+      "level": "info",
       "id": "reddit",
       "message": "32 Reddit threads, 8 with the model in the title"
     },
@@ -20,6 +25,11 @@
       "level": "warn",
       "id": "conflicts",
       "message": "maker documents contradict our \"Dimensions\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 50 voices (44 first-hand), 34 sources, status draft"
     }
   ]
 }
