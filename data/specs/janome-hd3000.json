@@ -11,21 +11,21 @@
   ],
   "manufacturerUrl": "https://www.janome.com/product/hd-3000/",
   "retailerUrl": "https://sewingmachinesplus.com/products/janome-hd3000",
-  "priceUsdSeen": null,
-  "priceSeenDate": null,
-  "priceSeenAt": null,
+  "priceUsdSeen": 559,
+  "priceSeenDate": "2026-10-02",
+  "priceSeenAt": "Janome MSRP on janome.com (plain HD-3000; Black Edition MSRP $599; Janome sells through authorized dealers, not direct)",
   "specs": {
     "stitchTypes": {
-      "value": "18 built-in stitches including a one-step buttonhole; zigzag up to 6.5 mm wide, stitch length up to 4 mm",
-      "source": "https://www.poconosewandvac.com/products/janome/machines/hd3000"
+      "value": "18 built-in stitches plus an automatic buttonhole; zigzag up to 6.5 mm wide, stitch length up to 4 mm",
+      "source": "https://www.janome.com/product/hd-3000/"
     },
     "stitchCount": {
       "value": 18,
-      "source": "https://www.poconosewandvac.com/products/janome/machines/hd3000"
+      "source": "https://www.janome.com/product/hd-3000/"
     },
     "maxSpm": {
-      "value": 860,
-      "source": "https://www.janome.com/introducing-the-hd1000-and-hd3000/"
+      "value": null,
+      "source": null
     },
     "threads": {
       "value": null,
@@ -44,19 +44,19 @@
       "source": null
     },
     "presserFootLift": {
-      "value": "Adjustable presser foot pressure (third-party comparison); lift height not published in snippet",
-      "source": "https://threadedmachines.com/compare/singer-4423-vs-janome-hd3000/"
+      "value": "Extra high presser foot lift listed (height not published); adjustable presser foot pressure dial",
+      "source": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-hd-3000-auto-declutch-bobbin-winder.pdf"
     },
     "threadTrimmer": {
       "value": null,
       "source": null
     },
     "feedSystem": {
-      "value": "7-piece feed dog, drop feed; horizontal full rotary hook",
-      "source": "https://www.janome.com/introducing-the-hd1000-and-hd3000/"
+      "value": "5-piece feed dog, drop feed; top loading full rotary hook",
+      "source": "https://www.janome.com/product/hd-3000/"
     },
     "buttonhole": {
-      "value": "One-step buttonhole",
+      "value": "One automatic buttonhole, listed as four-step in Janome's spec table and brochure and as one-step in its prose",
       "source": "https://www.janome.com/product/hd-3000/"
     },
     "motor": {
@@ -64,36 +64,43 @@
       "source": null
     },
     "frame": {
-      "value": "Rigid aluminum body (Janome: 'all-metal body made of special, lightweight aluminum')",
-      "source": "https://www.janome.com/introducing-the-hd1000-and-hd3000/"
+      "value": "Aluminum frame construction (Janome page); die cast aluminum body construction (Janome brochure)",
+      "source": "https://www.janome.com/wp-content/uploads/2019/11/hd3000-info-sheet.pdf"
     },
     "weightLb": {
       "value": 18.7,
       "source": "https://www.poconosewandvac.com/products/janome/machines/hd3000"
     },
     "dimensionsIn": {
-      "value": "16 x 7 x 11 (W x D x H)",
-      "source": "https://www.poconosewandvac.com/products/janome/machines/hd3000"
+      "value": "16 x 7.2 x 11.3 (W x D x H) footprint; workspace 6.5 wide by 4.6 high (not a needle-to-arm figure)",
+      "source": "https://www.janome.com/product/hd-3000/"
     },
     "includedFeet": {
-      "value": "Hard cover, blind hem foot G, buttonhole foot R (automatic), 2 mm hemmer foot D, overedge foot; zigzag foot on machine",
-      "source": "https://sewingmachinesplus.com/products/janome-hd3000"
+      "value": "Hard cover, zigzag foot, automatic buttonhole foot, blind hem foot, overedge foot C, 2 mm rolled hem foot, zipper foot E, quilting guide bar; no walking or even feed foot in the standard list",
+      "source": "https://www.janome.com/product/hd-3000/"
     },
     "warrantyUs": {
-      "value": "25 yr limited on defective materials and workmanship, 5 yr on electrical components, 1 yr labor (dealer statement; verify against Janome)",
-      "source": "https://janomejunkies.com/product/janome-hd-3000/"
+      "value": "Limited 25 year warranty: 25 years materials and workmanship, 5 years electronic parts, 1 year labor; void if not bought from an authorized Janome dealer in the United States (generic Janome PDF, read by OCR, verify against the PDF)",
+      "source": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
     }
   },
   "claims": [
-    "\"quiet, vibration-free sewing\" (manufacturer claim, janome.com blog)",
+    "\"quiet, vibration-free sewing\" (manufacturer claim, janome.com 2011 launch blog)",
     "\"Heavy Duty\" (Janome HD series name, product page; a model line, not a rating)",
-    "\"7-piece feed dog is perfectly synchronized with the needle\" (manufacturer claim, janome.com blog)",
+    "\"a heavy duty machine, perfect for a beginner or sewist looking to do a wide range of sewing\" (manufacturer claim, janome.com product page)",
+    "\"Heavy-duty frame\" (manufacturer claim, janome.com product page)",
     "\"for Denim & Canvas\" (dealer copy, Janome Junkies listing title)"
   ],
   "conflicts": [
-    "Stitch count: 18 (janome.com product page and dealers) vs 19 (janome.com HD1000/HD3000 launch blog). Catalog will use 18 because the current product page and the info sheet use it.",
-    "Warranty: a dealer states 25 yr / 5 yr electrical / 1 yr labor. Janome's commonly stated US terms are 25 yr mechanical, 2 yr electrical and electronic, 1 yr labor. Catalog marks the electrical term [verify].",
-    "Price: no price appeared in accessible snippets from Sewing Machines Plus or other dealers. Left null."
+    "Feed dog: Janome's product page, brochure and Black Edition page say 5-piece, while its 2011 launch blog says 7-piece (our earlier spec took 7-piece from the blog); 5-piece is used.",
+    "Buttonhole: Janome's spec table and brochure say four-step while its page prose says one-step, and our earlier spec said one-step; no document explains a difference, so the spec table wording is used.",
+    "Stitch count: Janome's 2011 launch blog says 19, while its current page, brochure and manual say 18; 18 is used.",
+    "Zigzag width: the Key Features caption on the plain-machine page says 6 mm, while the spec table, brochure and manual say 6.5 mm; 6.5 mm is used.",
+    "Speed: 860 spm appears only in Janome's 2011 launch blog (and on the HD1000 page); the current HD3000 page, brochure and manual publish no speed, so max speed is left null.",
+    "Hook: our earlier spec said horizontal full rotary hook, while Janome says top loading full rotary hook; the maker wording is used.",
+    "Throat: Janome publishes only a workspace of 6.5 in wide by 4.6 in high, not a needle-to-arm figure, so throat is left null.",
+    "Warranty: Janome's generic warranty PDF gives 5 years for electronic parts, while our earlier note of 2 years electrical is not supported by that document (an Amazon listing may state 2 years; not checked).",
+    "Price: only Janome's MSRP is on record ($559 plain, $599 Black Edition), not a dealer price."
   ],
   "ownerThemes": [
     {
@@ -107,7 +114,7 @@
       "source": "https://threadedmachines.com/compare/singer-4423-vs-janome-hd3000/"
     }
   ],
-  "evidence": "mixed",
+  "evidence": "owner",
   "buyerQuestions": [
     "Is the Janome HD3000 better than the Singer 4423?",
     "Can the Janome HD3000 sew leather?",
@@ -136,38 +143,80 @@
   "discontinued": false,
   "replacedBy": null,
   "editorial": {
-    "verdict": "A conservative aluminum-bodied mechanical that trades speed and stitch count for smoothness, adjustable pressure and a long dealer track record.",
-    "whoFor": "Beginners and mending-focused sewists who want a quiet, simple machine that handles denim and canvas hems without fuss.",
-    "skipIf": "You want the fastest machine at the price, need many decorative stitches, or plan to sew leather or webbing regularly.",
-    "keySpec": "860 spm · 18 stitches · 6.5 mm zigzag · 18.7 lb aluminum body",
+    "verdict": "A mechanical aluminum-frame zigzag machine with 18 stitches and a rotary hook; owners split on heavy fabric and reliability, so check the dealer and return terms.",
+    "whoFor": "Sewists who want a mechanical household machine with a dial foot-pressure control and an extra high foot lift for denim, canvas and mending.",
+    "skipIf": "You need to sew thick leather or many layers every week, want a published top speed, or need a throat measured needle to arm.",
+    "keySpec": "18 stitches · 6.5 mm zigzag · 5-piece feed dog · 18.7 lb aluminum frame",
     "strengths": [
-      "Janome publishes an all-aluminum body and 7-piece feed dog.",
-      "Adjustable presser foot pressure and a 6.5 mm zigzag width are wider than Singer's 44-series.",
-      "Hard cover ships in the box per the SMP listing."
+      "Janome lists a top loading full rotary hook, a 5-piece feed dog and a foot-pressure dial, which its HD1000 page does not list.",
+      "Owners report it sewing thick work such as Cordura and duck canvas, though the 47 voices on heavy fabric split about evenly.",
+      "Janome states a 25 year limited warranty with 5 years on electronic parts and 1 year labor, void without an authorized US dealer purchase."
     ],
     "weaknesses": [
-      "860 spm is slower than the Singer and Brother competitors.",
-      "18 stitches, fewer than any rival in this set.",
-      "No walking foot in the standard box; price was not visible in accessible listings."
+      "Owners report limits on heavy material: one could not sew denim, and another says the machine will not handle heavy leather.",
+      "Owners report jams, tension trouble and defects, with 19 of 38 reliability voices negative; Reddit over-represents problems.",
+      "Owners report a dim LED light that cannot be replaced, and the standard box has no walking or even feed foot."
     ],
     "checks": [
       {
-        "title": "Standard vs Black Edition",
-        "body": "The HD3000 Black Edition is a separate SKU with its own price and bundle. Confirm which one the listing is and whether the hard cover is included."
+        "title": "Which listing is it",
+        "body": "Amazon shows the plain HD3000 at 4.4 from 658 ratings and the Black Edition bundle at 4.4 from 333, as separate listings. The Sewing Machines Plus rating of 4.68 from 44 reviews has only 2 reviews naming this model, so it is not used as HD3000 evidence."
       },
       {
-        "title": "Bonus kits",
-        "body": "Retail bundles add an Ultra Glide foot, leather needles and bobbins. The plain box has five feet. Price the bare machine first."
+        "title": "Spec wording differs by Janome page",
+        "body": "Janome's own pages disagree on feed dog count, buttonhole step count, stitch count and zigzag width. Confirm 5-piece feed dog, 18 stitches and 6.5 mm on the listing, and do not read the HD1000 or HD5000 table as this model."
       },
       {
-        "title": "Warranty wording",
-        "body": "Dealers quote different electrical warranty terms (2 yr vs 5 yr). Ask for Janome's printed warranty card."
+        "title": "Buy from an authorized US dealer",
+        "body": "Janome's generic warranty PDF says the warranty is void if the machine was not bought from an authorized Janome dealer in the United States. Verify the terms against the PDF and the dealer before buying from a marketplace seller."
       }
     ],
     "realCost": [
-      "Walking foot for quilting or layered denim",
-      "Denim and leather needles size 16 to 18",
-      "Extra Class 15 bobbins"
+      "Walking foot: not in the standard box; Janome lists an even feed foot as optional and as a Black Edition bonus item ($599 MSRP against $559 plain)",
+      "Heavy needles: Janome's chart puts heavy fabric at #14/90 to #16/100, and its leather guide uses 90/14 for seams and 100/16 for topstitching",
+      "Authorized dealer purchase: required for the warranty to stand, so a marketplace discount can cost the cover"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Janome HD3000 better than the Singer 4423?",
+        "a": "Head-to-head owner claims in our rollup (4 in all) lean to the HD3000 on reliability, build and range of fabrics, which is a small sample. A PatternReview thread called the Singer the value buy and the HD3000 the smoother, quieter machine. Janome publishes no top speed for the HD3000."
+      },
+      {
+        "q": "Can the Janome HD3000 sew leather?",
+        "a": "Janome's leather guide says to use leather thinner than 4 mm, under 2 mm when sewing through more than 4 layers, with a 3 mm stitch length, pressure dial at 3 and a 90/14 needle for seams. The manual says household use only. Owners report mixed results: one says feed dogs marked leather, and another says it will not handle heavy leather."
+      },
+      {
+        "q": "Is the Janome HD3000 good for beginners?",
+        "a": "Janome calls it a heavy duty machine perfect for a beginner, which is its claim. It is a mechanical dial machine with a foot-pressure dial. Owners report tension trouble in 5 of 9 voices on that theme, so check the bobbin winding and tension on a new unit."
+      },
+      {
+        "q": "How many stitches does the Janome HD3000 have, 18 or 19?",
+        "a": "18. Janome's product page, brochure and manual all say 18, with the manual dial running patterns 1 to 18 plus the buttonhole. Only Janome's 2011 launch blog says 19."
+      },
+      {
+        "q": "What is the difference between the Janome HD3000 and HD1000?",
+        "a": "From Janome's pages: the HD3000 lists 18 stitches, a 5-piece feed dog, a top loading full rotary hook, 6.5 mm width, 18.7 lb and $559 MSRP. The HD1000 lists 14 stitches, a 3-piece feed dog, a front-loading oscillating hook, 5 mm width, 16.8 lb and $409 MSRP. Owners also say the HD3000 pedal is more sensitive, which is Reddit only."
+      },
+      {
+        "q": "Does the Janome HD3000 have a walking foot?",
+        "a": "Not in Janome's standard accessory list. An even feed foot is optional, and the Black Edition lists one as a bonus item. Owner reports differ: one says there is no true walking foot, and others say one came with their machine."
+      },
+      {
+        "q": "Is the Janome HD3000 good for quilting?",
+        "a": "Janome lists a quilting guide bar and publishes a workspace of 6.5 in wide by 4.6 in high, not a needle-to-arm throat, so it is not a mid-arm machine. One former owner on Reddit reports making queen quilts on it and calling it very solid."
+      },
+      {
+        "q": "What is the Janome HD3000 Black Edition?",
+        "a": "Janome's spec table matches the plain machine. The Black Edition lists $599 MSRP against $559 and adds bonus items such as an Ultra Glide foot, a leather needle set and an even feed foot. Dealer SKU HD3000BE is the Black Edition."
+      },
+      {
+        "q": "How fast is the Janome HD3000?",
+        "a": "Janome's current page, brochure and manual publish no speed. The 860 spm figure appears only in Janome's 2011 launch blog and on the HD1000 page, so it is not stated here as an HD3000 spec."
+      },
+      {
+        "q": "Is the Janome HD3000 the same as the HD5000?",
+        "a": "Janome's HD5000 spec table matches the HD3000 line for line, and the page names no difference. Treat any claimed difference as unverified."
+      }
     ]
   },
   "sources": [
@@ -179,6 +228,14 @@
     "https://janomejunkies.com/product/janome-hd-3000/",
     "https://threadedmachines.com/compare/singer-4423-vs-janome-hd3000/",
     "https://sewing.patternreview.com/SewingDiscussions/topic/117318",
-    "https://www.qualitysewing.com/products/janome-hd3000-heavy-duty-sewing-machine"
+    "https://www.qualitysewing.com/products/janome-hd3000-heavy-duty-sewing-machine",
+    "https://www.janome.com/product/hd-3000-black-edition/",
+    "https://www.janome.com/wp-content/uploads/2019/11/inst-book-hd-3000-auto-declutch-bobbin-winder.pdf",
+    "https://www.janome.com/wp-content/uploads/2019/11/leather_sewing_guide.pdf",
+    "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+    "https://www.janome.com/product/hd-1000/",
+    "https://www.janome.com/product/hd-5000/",
+    "https://www.amazon.com/dp/B00916Y4YM",
+    "https://www.amazon.com/dp/B07D7HFT9L"
   ]
 }

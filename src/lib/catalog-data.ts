@@ -2840,14 +2840,14 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "manufacturerUrl": "https://www.brother-usa.com/products/st371hd",
     "retailerUrl": null,
-    "priceUsdSeen": 230,
-    "priceSeenDate": "2026-09-29",
-    "priceSeenAt": "another dealer",
-    "priceNote": "Michaels (search snippet; no Sewing Machines Plus listing appeared in results)",
+    "priceUsdSeen": 240,
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "Brother USA",
+    "priceNote": null,
     "specs": {
       "stitchTypes": {
-        "value": "37 utility and decorative stitches including blind hem, stretch and buttonhole",
-        "source": "https://www.brother-usa.com/products/st371hd"
+        "value": "37 built-in stitches including one 1-step buttonhole (Brother page); family manual zigzag width 0 to 6.5 mm, zigzag length up to 4 mm, straight stitch length 1 to 4 mm (manual figures; the product page prints 7 and 5 with no unit)",
+        "source": "https://download.brother.com/welcome/doch001159/888_x36_x38_x39_om03enes.pdf"
       },
       "stitchCount": {
         "value": 37,
@@ -2855,7 +2855,7 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "maxSpm": {
         "value": 800,
-        "source": "https://bobbinhub.com/singer-4423-vs-brother-st371hd/"
+        "source": "https://www.brother-usa.com/products/st371hd"
       },
       "threads": {
         "value": null,
@@ -2870,19 +2870,19 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "needleSystem": {
-        "value": null,
-        "source": null
+        "value": "System class not published; manual lists home sewing needles 75/11 to 100/16 and a ball point HG-4BR; box set is 75/11, 90/14 and 100/16 plus a twin needle",
+        "source": "https://download.brother.com/welcome/doch001159/888_x36_x38_x39_om03enes.pdf"
       },
       "presserFootLift": {
-        "value": "Fixed presser foot pressure (third-party comparison); lift height not published in snippet",
-        "source": "https://bobbinhub.com/singer-4423-vs-brother-st371hd/"
+        "value": "Adjustable presser foot pressure: No (Brother page row); lift height not published",
+        "source": "https://www.brother-usa.com/products/st371hd"
       },
       "threadTrimmer": {
-        "value": null,
-        "source": null
+        "value": "No automatic thread cutter (Brother page); manual side cutter on the machine (manual)",
+        "source": "https://www.brother-usa.com/products/st371hd"
       },
       "feedSystem": {
-        "value": "Drop feed for free motion; metal needle plate; Quick-Set drop-in top bobbin",
+        "value": "Drop feed for free-motion sewing; metal needle plate; Quick-Set drop-in top bobbin; no differential feed",
         "source": "https://www.brother-usa.com/products/st371hd"
       },
       "buttonhole": {
@@ -2899,15 +2899,15 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "weightLb": {
         "value": 14.3,
-        "source": "https://www.sewingmachinedirectory.com/sewing-machine/brother-st371hd/"
+        "source": "https://www.brother-usa.com/products/st371hd"
       },
       "dimensionsIn": {
-        "value": "16.1 x 7.9 x 12.2 (48.9 x 20 x 31 cm)",
-        "source": "https://www.sewingmachinedirectory.com/sewing-machine/brother-st371hd/"
+        "value": "12.21 x 16.10 x 7.87 (Brother page, axes not labelled)",
+        "source": "https://www.brother-usa.com/products/st371hd"
       },
       "includedFeet": {
-        "value": "6 feet: spring action zigzag, nonstick, blind stitch, zipper, buttonhole, button sewing; heavyweight needles included",
-        "source": "https://www.brother-usa.com/products/st371hd"
+        "value": "6 feet: zigzag, buttonhole, zipper, nonstick, button sewing, blind stitch; needle set 75/11, 90/14, 100/16 plus twin needle; 4 bobbins; no walking foot",
+        "source": "https://download.brother.com/welcome/doch102976/st371hd_acc02us_enesfrpt.pdf"
       },
       "warrantyUs": {
         "value": null,
@@ -2915,15 +2915,21 @@ export const catalogData: Record<string, CatalogEntry> = {
       }
     },
     "claims": [
-      "\"Strong & Tough\" (Brother series name, product page; a model line, not a rating)",
-      "\"everyday sewing and mending on everything from durable outdoor fabrics to lightweight elegant silks\" (manufacturer claim, brother-usa.com)",
-      "\"jam-resistant Quick-Set drop-in top bobbin\" (manufacturer claim, brother-usa.com)",
-      "\"Heavy Duty Sewing Machine\" (brother-usa.com page title)"
+      "\"Strong & Tough\" (Brother series name; page title reads \"Heavy Duty Sewing Machine - Strong and Tough\"; labels, not ratings)",
+      "\"Heavy Duty\" (Brother page title wording; no layer count, thickness or motor figure is published)",
+      "\"perfect machine for everyday sewing and mending on everything from durable outdoor fabrics to lightweight elegant silks\" (Brother claim)",
+      "\"can handle layers of heavier fabrics\" (Brother claim)",
+      "\"jam-resistant Quick-Set drop-in top bobbin\" (Brother claim)",
+      "\"Automatic needle threading system\" (Brother page headline; the manual shows a lever-style threader)"
     ],
     "conflicts": [
-      "Max speed: 800 spm comes from a third-party comparison, not from a Brother snippet. Catalog marks it [verify] until the Brother spec sheet is read.",
-      "Price: $229.99 (Michaels) vs $199 (comparison site, undated). Catalog will use $229.99.",
-      "Frame material, warranty term and needle system were not in accessible snippets; Brother's support page was blocked. Left null."
+      "Warranty: Brother's product page label reads 1/5/25 Year Limited Serger Warranty and links to an International (Latin America and Caribbean) PDF that states 1 year, while the standard US Brother Limited Warranty PDF states 1 year parts, labor and accessories, 2 years electronic components and 25 years chassis casting; neither PDF names the ST371HD, so no term is stated as model-specific.",
+      "Price: Brother's own page lists $239.99 and shows Out of Stock on 2026-10-02, while our earlier record was $229.99 at Michaels on 2026-09-29 (search snippet); the price block uses the dated Brother listing.",
+      "Stitch width and length: Brother's page prints 7 and 5 with no unit, while the family operation manual gives zigzag width 0 to 6.5 mm and length up to 4 mm; we use the manual figures and treat the unit-less page numbers as unverified.",
+      "Stitch count: one gallery alt text on Brother's page says 27 built-in stitches, while the page's spec row and text say 37; the family manual says 37 stitches are only available on certain models and never names the ST371HD, though Brother's support page maps the machine to that manual.",
+      "Display and selector: Brother's page rows say LCD display and Shift Key, while the manual describes a pattern selection dial and pattern indication window with no LCD; we state no LCD.",
+      "Speed and weight units: Brother's page prints 800 and 14.3 without units; we read them as stitches per minute and lb (the weight matches the 14.3 lb in a directory listing), so treat the units as unconfirmed.",
+      "Not published by Brother: throat space, motor wattage, frame material and needle system class stay [verify]; the only frame wording is the generic US warranty's chassis casting line, which does not name this model."
     ],
     "ownerThemes": [
       {
@@ -2937,7 +2943,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://sewnstudio.com/brother-st371hd-review/"
       }
     ],
-    "evidence": "positioning",
+    "evidence": "owner",
     "buyerQuestions": [
       "Is the Brother ST371HD really heavy duty?",
       "Brother ST371HD vs Singer 4423: which is better for denim?",
@@ -2966,40 +2972,78 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "A beginner mechanical with six feet, a nonstick foot and a metal needle plate that handles denim hems if you slow down at the thick spots.",
-      "whoFor": "New sewists and menders who want a forgiving drop-in bobbin machine with more stitches than the Singer and a free arm for cuffs.",
-      "skipIf": "You sew layered canvas or heavy denim weekly and want adjustable presser foot pressure and a faster motor.",
-      "keySpec": "800 spm [verify] · 37 stitches · 6 feet incl. nonstick · 14.3 lb",
+      "verdict": "A 37-stitch dial machine Brother labels heavy duty, with fixed presser pressure and no published motor, throat or frame figures; owners split on thick layers.",
+      "whoFor": "Beginners and menders who want a drop-in bobbin dial machine with six feet and a threader for everyday fabrics.",
+      "skipIf": "You sew thick layered canvas or denim often and want adjustable presser foot pressure or a walking foot in the box.",
+      "keySpec": "800 (Brother row, no unit) · 37 stitches · 6 feet · 14.3 lb (Brother row, no unit)",
       "strengths": [
-        "Brother lists six feet in the box, including nonstick and button sewing feet.",
-        "Metal needle plate, drop feed and free arm are published features.",
-        "Lightest machine in this set at 14.3 lb."
+        "Owners report light heavy-fabric work going fine, such as tote bags and jeans with a denim needle; in a 26-voice theme, 15 voices are positive and 6 negative.",
+        "Owners report few defects: in an 18-voice reliability theme, 12 voices are positive, with some beginners reporting no issues.",
+        "Five owners say it needs no oiling, and owners describe it as easy to thread and to wind bobbins."
       ],
       "weaknesses": [
-        "Presser foot pressure is fixed per third-party testing.",
-        "Slower motor than the Singer 44-series.",
-        "Frame material, warranty and speed were not confirmed from Brother in accessible sources."
+        "Brother's page lists presser foot pressure as not adjustable, and owners who pushed thick layers report broken needles and a machine that is not heavy duty despite the label.",
+        "Owners report stitch and tension trouble, including stretch stitches that would not sew and a finicky one-step buttonhole; these are help-seeking threads, so problems are over-represented.",
+        "Brother publishes no throat, motor or frame figure, and the only manual is a family manual that never names the ST371HD."
       ],
       "checks": [
         {
-          "title": "Confirm speed and warranty",
-          "body": "Brother's spec sheet was not reachable. Ask the dealer for the printed spm and warranty card before comparing to the Singer 4423."
+          "title": "Warranty term",
+          "body": "Brother's page label says 1/5/25 but links to an International PDF that says 1 year, and the US standard PDF says 1/2/25; neither names the ST371HD. Get the term in writing from the seller."
         },
         {
-          "title": "Model variants",
-          "body": "Listings mix the ST371HD with the GX37 and XR3774, which share the 37-stitch count but not the heavyweight needles and nonstick foot. Check the model code."
+          "title": "Model and manual scope",
+          "body": "The manual covers codes 888-X36/X38/X39 and says 37 stitches are only on certain models. Brother's support page maps the ST371HD to it, and the accessories notice names the ST371HD. Brother's page also lists the XR3774 and GX37 as similar products, so check the model code."
         },
         {
-          "title": "Walking foot is extra",
-          "body": "Six feet are included but none is a walking foot. Budget for one if you quilt or sew slippery layers."
+          "title": "Page rows that disagree",
+          "body": "The product page lists an LCD and a shift key and one alt text says 27 stitches; the manual shows a dial and pattern window. Treat it as a dial machine with 37 stitches and ignore the LCD rows."
         }
       ],
       "realCost": [
-        "Walking foot",
-        "Denim needles size 16 beyond the included heavyweight pack",
-        "Extra SA156 style drop-in bobbins"
+        "Walking foot: the notice lists six feet and no walking foot, so thick or slippery layers need an extra purchase.",
+        "Needles: the box set is 75/11, 90/14 and 100/16 plus a twin needle; the manual pairs denim with 100/16 and thread 30 to 50.",
+        "Thread: the manual says avoid weight #20 or lower, and an owner says heavy top and bobbin thread together will not sew.",
+        "Bobbins: 4 come in the box and the notice notes Class 15 plastic bobbins."
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "Is the Brother ST371HD really heavy duty?",
+          "a": "Heavy Duty and Strong & Tough are Brother's own labels; Brother publishes no layer count, thickness or motor figure. Owner voices are mixed: some report tote bags and jeans without trouble, others report a broken needle or call it not heavy duty."
+        },
+        {
+          "q": "How fast is the ST371HD?",
+          "a": "Brother's page has a Maximum Sewing Speed row of 800 with no unit printed. We read it as stitches per minute, but treat that as unconfirmed. The manual gives no speed figure."
+        },
+        {
+          "q": "Does it have adjustable presser foot pressure?",
+          "a": "No. Brother's spec rows list adjustable presser foot pressure as No, and a third-party comparison also describes it as fixed. Lift height is not published."
+        },
+        {
+          "q": "Does it have a walking foot?",
+          "a": "No. Brother's accessories notification lists six feet and none is a walking foot."
+        },
+        {
+          "q": "What is the ST371HD warranty?",
+          "a": "Sources disagree. Brother's page label reads 1/5/25 Year Limited Serger Warranty but links to an International PDF that says 1 year; the US standard PDF says 1 year parts and labor, 2 years electronics and 25 years chassis casting. Neither names the ST371HD."
+        },
+        {
+          "q": "Does it have an LCD or a shift key?",
+          "a": "Brother's page rows say so, but the manual describes a pattern selection dial and window with no LCD. We treat it as a dial machine."
+        },
+        {
+          "q": "How many stitches does it have, 27 or 37?",
+          "a": "Brother's page spec row and text say 37; one gallery alt text says 27. The family manual says 37 stitches are only on certain models and does not name the ST371HD, though Brother's support page lists the manual under it."
+        },
+        {
+          "q": "How does it compare with the XM2701 and CS7000X?",
+          "a": "From Brother's pages: the XM2701 lists 27 stitches and 12.6 lb against 37 and 14.3 lb here; the CS7000X is computerized with 70 stitches, 10 feet including a walking foot, and a 750 speed row. Units are not printed on either page."
+        },
+        {
+          "q": "How do owners rate it?",
+          "a": "Amazon shows 4.5 from 2,889 ratings, but that figure is shared by 7 listings including the ST531HD, so it pools machines and is not specific to the ST371HD. Reddit threads skew toward people asking for help."
+        }
+      ]
     },
     "sources": [
       "https://www.brother-usa.com/products/st371hd",
@@ -3009,7 +3053,16 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://www.michaels.com/brother-st371hd-strong-and-tough-sewing-machine/D033839S.html",
       "https://sewnstudio.com/brother-st371hd-review/",
       "https://www.brother-usa.com/support/st371hd",
-      "https://www.walmart.com/ip/Brother-Strong-and-Tough-Sewing-Machine-MFR-ST371HD/51254722"
+      "https://www.walmart.com/ip/Brother-Strong-and-Tough-Sewing-Machine-MFR-ST371HD/51254722",
+      "https://download.brother.com/welcome/doch001159/888_x36_x38_x39_om03enes.pdf",
+      "https://support.brother.com/g/b/manualtop.aspx?c=us&lang=en&prod=hf_st371hdeus",
+      "https://download.brother.com/welcome/doch102976/st371hd_acc02us_enesfrpt.pdf",
+      "https://download.brother.com/welcome/doch102895/888x34_x36_x38_x39_qg03endefrnlitesptrutrzhszhtko.pdf",
+      "https://assets.brother.com/asset/09ccf0a1-3e5f-42e4-b073-52a8b56d413e/6229_International-Warranty-LAD-Final-100-pdf.pdf",
+      "https://assets.brother.com/asset/9585451d-f1e4-47db-b656-32e040a0672c/9800_Brother-Limited-Warranty-Standard-pdf.pdf",
+      "https://www.brother-usa.com/products/xm2701",
+      "https://www.brother-usa.com/products/cs7000x",
+      "https://www.amazon.com/dp/B01E54NNSC"
     ]
   },
   "grace-qnique-15r": {
@@ -3731,10 +3784,10 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "manufacturerUrl": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/",
     "retailerUrl": "https://www.sewingmachinesplus.com/hq-moxie.php",
-    "priceUsdSeen": 5995,
-    "priceSeenDate": "2026-09-29",
+    "priceUsdSeen": 5495,
+    "priceSeenDate": "2026-10-02",
     "priceSeenAt": "another dealer",
-    "priceNote": "Village Sewing (MSRP; dealer sale price $4,495 shown on the same listing)",
+    "priceNote": "Handi Quilter product page (range starts at $5,495, base configuration not labelled) and Amazon B08P3SRX98 (Moxie with 8 ft Loft frame); earlier spec recorded $5,995 at Village Sewing on 2026-09-29",
     "specs": {
       "stitchTypes": {
         "value": "Straight stitch only; stitch regulation modes Precision, Cruise, Manual",
@@ -3761,8 +3814,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"
       },
       "needleSystem": {
-        "value": "134 (round shank), sizes 12 to 20",
-        "source": "https://support.handiquilter.com/hc/en-us/articles/360049689372-Handi-Quilter-Quilting-Machine-Needles"
+        "value": "134, sizes 80/12 to 130/21 (maker manual, dealer-hosted copy); round shank not stated in the manual pages read",
+        "source": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
       },
       "presserFootLift": {
         "value": null,
@@ -3781,8 +3834,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "motor": {
-        "value": null,
-        "source": null
+        "value": "Brushless DC, servo controlled; 200 W maximum (maker manual)",
+        "source": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
       },
       "frame": {
         "value": "8 ft HQ Loft Frame included in the standard bundle; 2 ft extension kit upgrades to 10 ft; compatible with 5 ft HQ Little Foot Frame",
@@ -3797,23 +3850,30 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "includedFeet": {
-        "value": "20 needles included; optional Pro-Stitcher Lite, Quilt from the Back Kit, Table Top Kit, Groovy Board adaptor and stylus, Steady-Fit Ruler Base, Handi Feet, horizontal spool pin, Handi Light",
-        "source": "https://www.mkquilts.com/moxie.html"
+        "value": "Maker page lists a ruler foot and open-toe foot in one bullet and a closed-toe foot and open-toe foot in another; Handi Feet compatible",
+        "source": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"
       },
       "warrantyUs": {
-        "value": "10 yr casting, 5 yr mechanical, 5 yr electronic, 90 day full parts and labor",
-        "source": "https://www.mkquilts.com/moxie.html"
+        "value": "10 yr casting, 5 yr mechanical, 5 yr electronic, 90 day parts and labor (maker warranty page; not Moxie-specific, covers the HQ Quilting Machine)",
+        "source": "https://handiquilter.com/warranty/"
       }
     },
     "claims": [
-      "\"Designed by a Quilter, for Quilters\" (manufacturer claim, Moxie manual cover)",
-      "\"Precision mode matches stitch length to your hand speed for detailed work\" (dealer copy repeating manufacturer language, mkquilts.com)",
-      "\"Press play on precision quilting and perfect stitches\" (manufacturer claim about Pro-Stitcher Lite, handiquilter.com)"
+      "\"Designed by a Quilter, for Quilters\" (Handi Quilter claim, Moxie manual cover)",
+      "\"simple, spunky longarm\" and \"everything you need to get started quilting, including the frame\" (Handi Quilter product page claims)",
+      "\"All Handi Quilter machines are equipped with industry-leading stitch regulation technology\" (Handi Quilter blog claim)",
+      "\"Press play on precision quilting and perfect stitches\" (Handi Quilter claim about Pro-Stitcher Lite)"
     ],
     "conflicts": [
-      "Price: Village Sewing lists the Moxie with 8 ft Loft at regular $5,995 (sale $4,495) and the Moxie with 10 ft Loft also at regular $5,995 (sale $5,095). Handi Quilter says the 10 ft length is an added 2 ft extension kit, so the two regular prices should differ. Catalog will use $5,995 as MSRP for the 8 ft bundle and flag the 10 ft price as [verify].",
-      "Speed: 1,800 spm max (dealers) vs 50 to 800 spm cruise speed range (manual excerpt, sewingmachinesplus.com PDF). These are different figures (mechanical max vs regulated cruise range), not a conflict, but both should be shown.",
-      "Weight: not published on any page found. Render as [verify]."
+      "Price: the Handi Quilter product page now shows a range starting at $5,495 and Amazon (B08P3SRX98, Moxie with 8 ft Loft frame) shows $5,495, while our earlier spec recorded $5,995 regular price at Village Sewing on 2026-09-29; the maker's base configuration behind $5,495 is not labelled, so the $5,495 figure is a seen price, not a confirmed bundle.",
+      "Needle sizes: the maker manual gives 80/12 to 130/21, while our earlier spec from a Handi Quilter support article said sizes 12 to 20; the manual figure is used and the support article was not re-fetched.",
+      "Included feet: the Handi Quilter product page lists a ruler foot and open-toe foot in one bullet and a closed-toe foot and open-toe foot in another, so the second included foot is unconfirmed; our earlier '20 needles included' came from a dealer and no maker document read supports it, so it is removed.",
+      "Frame height: our earlier spec attached 33 to 44 in to the frame generally, while the maker states that range for the Little Foot frame only and gives no range for the Loft frame.",
+      "Weight: the maker page gives 58 lb packaging weight, which is shipping weight, and an Amazon seller listing shows 50 lb item weight; no maker machine weight was found, so weight stays [verify].",
+      "Warranty: the 2020 maker manual says the 5 year electrical warranty is void if the machine is left plugged in when not in use, while the maker warranty page does not say so; both are listed and the warranty page is not Moxie-specific.",
+      "Throat: the maker says '15-inch throat space' and the manual gives a sewing opening of 8.25 x 15.00 in without labelling which figure is height, and neither says needle to body; the maker's own figure for safe usable quilting area on a frame is about 10 in.",
+      "Speed: 1,800 spm maximum (maker page and manual) against a 50 to 800 spm cruise range; the manual also gives 25 and 50 spm as the manual-mode floor in different places.",
+      "Manual source: the maker manual was read from a dealer-hosted copy (sewingmachinesplus.com, version 1.0, 10/2020) because handiquilter.com downloads returned a bot challenge, so it may not match the current maker file."
     ],
     "ownerThemes": [
       {
@@ -3832,7 +3892,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://support.handiquilter.com/hc/en-us/articles/115001348752-Thread-shredding-or-breaking"
       }
     ],
-    "evidence": "mixed",
+    "evidence": "owner",
     "buyerQuestions": [
       "Does the Moxie price include a frame?",
       "Is stitch regulation built into the Moxie or an add-on?",
@@ -3866,42 +3926,82 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The Moxie is the lowest priced stand up longarm from a major brand that ships with stitch regulation and a frame in the box. The 15 in throat is the compromise: it is enough for pantographs and medium blocks, and it is the smallest frame longarm Handi Quilter sells.",
-      "whoFor": "A home quilter with an 8 by 12 ft space who wants to quilt their own tops on a frame, wants regulated stitches from day one, and is not planning a quilting business.",
-      "skipIf": "You want to quilt for others or do large custom work (look at 20 in and up), you have no room for a frame (sit down machines), or you only quilt lap size and smaller on a domestic.",
-      "keySpec": "15 in throat · 1,800 spm · 8 ft Loft frame included · stitch regulation built in",
+      "verdict": "A 15 in head on a frame: Handi Quilter lists regulated stitching and an 8 ft Loft frame, but gives about 10 in of usable quilting area and tension reports recur.",
+      "whoFor": "A home quilter with room for an 8 ft frame who wants an entry long-arm on a frame with built-in stitch regulation and is not quilting for clients.",
+      "skipIf": "You want wide custom work (the maker puts usable area at about 10 in), have no room for a frame, or only quilt lap size and smaller on a sit-down machine.",
+      "keySpec": "15 in throat space · about 10 in usable (maker) · 1,800 spm · 8 ft Loft frame · stitch regulation built in",
       "strengths": [
-        "Stitch regulation (Precision and Cruise) is standard, not an add-on",
-        "Standard bundle includes an 8 ft Loft frame, so the sticker price is closer to the real price than machine only listings",
-        "M class bobbin and 134 needle system are the same consumables used across Handi Quilter's larger machines"
+        "Handi Quilter lists Precision, Cruise and Manual stitch modes on the machine, so regulation is not a separate add-on, though how well it holds up is not shown by the maker's page",
+        "The maker page says the 8 ft HQ Loft Frame is included, so the starting price is for a machine on a frame, though the base configuration behind $5,495 is not labelled",
+        "Retailer ratings are high: Amazon shows 4.8 from 17 ratings and Sewing Machines Plus 4.55 from 29, but both are seller-collected, Amazon pools a second ASIN and only 1 Sewing Machines Plus review names the Moxie"
       ],
       "weaknesses": [
-        "15 in throat is the smallest in Handi Quilter's frame lineup; usable quilting depth per pass will be less than 15 in once take up rollers and clamps are accounted for",
-        "Machine weight, throat height and Loft frame standalone price are not published on pages found",
-        "Tension and thread breakage dominate owner troubleshooting topics; retiming requires a dealer"
+        "At 15 in the head is an entry long-arm on a frame; the maker puts safe usable quilting area at about 10 in because of the frame poles and take-up roll",
+        "Owner and troubleshooting sources keep returning to tension, thread breaking and shredding: one owner blog reports a rethread after moving the head, and Handi Quilter's own support page has a shredding checklist",
+        "Machine weight, throat height and the 10 ft frame price are not published by the maker, and the manual read is a 2020 dealer-hosted copy"
       ],
       "checks": [
         {
-          "title": "Confirm which frame is in the box",
-          "body": "Handi Quilter says the 8 ft Loft is standard and 10 ft is an extension kit. Some dealer pages list 8 ft and 10 ft bundles at the same regular price. Get the exact bundle in writing."
+          "title": "Confirm the frame and price in writing",
+          "body": "The maker page starts at $5,495 and the options change the price, and the base configuration is not labelled. Ask the retailer for the exact frame (8 ft Loft, 10 ft Loft or Little Foot) and what the price includes."
         },
         {
           "title": "Measure the room, not the frame",
-          "body": "Handi Quilter's own guidance is roughly 12 to 13 ft by 7.5 to 8 ft for a 10 ft frame. The 8 ft Loft needs about 2 ft of walking room on every side."
+          "body": "Handi Quilter's guidance is roughly 12 to 13 ft by 7.5 to 8 ft for a 10 ft frame, and the 8 ft Loft needs about 2 ft of walking room on every side."
         },
         {
-          "title": "Ask about Pro-Stitcher Lite compatibility",
-          "body": "Pro-Stitcher Lite is limited to the Moxie and Simply Sixteen on the Loft or Little Foot frames. If you might automate later, the frame choice now matters."
+          "title": "Read the warranty terms before you buy",
+          "body": "The warranty page covers the 'HQ Quilting Machine', not the Moxie by name, and the 2020 manual says the electrical warranty is void if the machine is left plugged in. The current warranty page does not say that, so ask the retailer."
         }
       ],
       "realCost": [
-        "Frame: 8 ft Loft frame included at $5,995 MSRP; 2 ft extension to 10 ft is extra and its price was not published on pages found",
-        "Stitch regulator: Included; no add-on cost",
-        "Robotics: Pro-Stitcher Lite is the compatible automation; price not published on pages found. Full Pro-Stitcher is listed at $10,995 by an authorized dealer but is not the Moxie's option",
-        "Delivery and setup: Not published; dealers bundle freight and setup differently. Bundles with Pro-Stitcher Lite on dealer sites were seen from $8,495 upward",
-        "Bobbins and needles: M class bobbins and 134 system needles, both widely stocked"
+        "Frame and options: Handi Quilter shows a $5,495 to $12,690 range with frame and Pro-Stitcher options; Amazon lists the Moxie with an 8 ft Loft frame at $5,495",
+        "Pro-Stitcher Lite: Optional robotics the maker lists as compatible; its price was not published on the pages read, and dealer bundles with it were seen from $8,495 upward",
+        "Needles and bobbins: System 134 needles, sizes 80/12 to 130/21 per the maker manual, and M class bobbins",
+        "Delivery and setup: Not published by the maker; dealers handle freight and setup differently"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "How much does the Handi Quilter Moxie cost?",
+          "a": "The Handi Quilter product page shows a range starting at $5,495, and Amazon lists the Moxie with an 8 ft Loft frame at $5,495 (seen 2026-10-02). Our earlier spec recorded $5,995 at Village Sewing. The maker does not label the base configuration, so confirm what is included."
+        },
+        {
+          "q": "Does the Moxie come with a frame?",
+          "a": "Handi Quilter says the Moxie includes the 8 ft HQ Loft Frame, upgradable to 10 ft with a 2 ft extension kit, and it is also compatible with the 5 ft Little Foot Frame. The maker page frame selector changes the price."
+        },
+        {
+          "q": "Is the Moxie a long-arm?",
+          "a": "Handi Quilter calls it a longarm, but at 15 in of throat space it is an entry long-arm on a frame. The maker puts safe usable quilting area at about 10 in."
+        },
+        {
+          "q": "What is the Moxie throat space?",
+          "a": "Handi Quilter lists 15 in of throat space, and the manual gives a sewing opening of 8.25 x 15.00 in without saying which figure is height. The maker does not state a needle-to-body measurement."
+        },
+        {
+          "q": "What needles does the Moxie take?",
+          "a": "The maker manual lists needle system 134, sizes 80/12 to 130/21. Our earlier spec said sizes 12 to 20, so the manual figure is used here."
+        },
+        {
+          "q": "How fast is the Moxie?",
+          "a": "Handi Quilter lists 1,800 stitches per minute maximum, and the manual gives a cruise range of 50 to 800 spm."
+        },
+        {
+          "q": "What is the Moxie warranty?",
+          "a": "The warranty page lists 90 days parts and labor, 10 years on casting, 5 years mechanical and 5 years electronic, with the customer paying labor and shipping after 90 days. It covers the HQ Quilting Machine rather than the Moxie by name. The 2020 manual says the electrical warranty is void if the machine is left plugged in; the warranty page does not."
+        },
+        {
+          "q": "How heavy is the Moxie?",
+          "a": "The maker does not publish a machine weight. The product page gives 58 lb packaging weight, which is shipping weight, so weight shows [verify]."
+        },
+        {
+          "q": "How does the Moxie compare with the Moxie XL and Amara 20?",
+          "a": "From maker pages, the Moxie XL lists 18 in of throat space and 2,100 spm, and the Amara 20 lists 20 in of throat space and up to 2,500 spm. The maker puts usable quilting area at about 10 in on the Moxie and about 14 in on the Amara 20."
+        },
+        {
+          "q": "What do owners say about the Moxie?",
+          "a": "The evidence is thin: 23 voices, 20 first-hand, and only 4 Reddit threads name the Moxie in the title. Reddit skews to help requests, and tension and thread breakage come up in the sources read, so these are not failure rates."
+        }
+      ]
     },
     "sources": [
       "https://handiquilter.com/product/hq-moxie-15-quilt-machine/",
@@ -3917,7 +4017,13 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://www.stringandstory.com/blog/handiquiltermoxiereview2",
       "https://quiltinginfo.com/handi-quilter-moxie-troubleshooting/",
       "https://support.handiquilter.com/hc/en-us/articles/115001348752-Thread-shredding-or-breaking",
-      "https://www.nebraskaquiltcompany.com/products/handi-quilter-moxie-xl-with-8-loft-frame"
+      "https://www.nebraskaquiltcompany.com/products/handi-quilter-moxie-xl-with-8-loft-frame",
+      "https://handiquilter.com/warranty/",
+      "https://handiquilter.com/machine-comparison-should-i-buy-the-moxie-or-the-amara/",
+      "https://handiquilter.com/product/moxie-xl/",
+      "https://handiquilter.com/product/hq-amara-20/",
+      "https://handiquilter.com/longarm-quilting-systems/",
+      "https://www.amazon.com/dp/B08P3SRX98"
     ]
   },
   "handi-quilter-sweet-sixteen": {
@@ -4187,14 +4293,14 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "manufacturerUrl": "https://www.janome.com/product/8002d/",
     "retailerUrl": "https://www.sewingmachinesplus.com/Janome-8002D.php",
-    "priceUsdSeen": 360,
-    "priceSeenDate": "2026-09-29",
-    "priceSeenAt": "Sewing Machines Plus",
-    "priceNote": null,
+    "priceUsdSeen": 399,
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "another dealer",
+    "priceNote": "Janome product page (MSRP)",
     "specs": {
       "stitchTypes": {
-        "value": "3-thread and 4-thread overlock, flatlock, rolled hem, blind hem (dealer and review copy)",
-        "source": "https://sergerpro.com/janome-8002d-review/"
+        "value": "Janome page: 4 thread, 3 thread (wide), narrow hem. Manual adds rolled hemming and picot edging. Flatlock and blind hem appear only in dealer and review copy (non-maker), not as built-in stitches in Janome's page or manual",
+        "source": "https://www.janome.com/product/8002d/"
       },
       "stitchCount": {
         "value": null,
@@ -4209,7 +4315,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.janome.com/product/8002d/"
       },
       "differentialFeed": {
-        "value": "0.5 to 2.25",
+        "value": "0.5 to 2.25 (Janome page); the manual text says 2.2",
         "source": "https://www.janome.com/product/8002d/"
       },
       "throatIn": {
@@ -4217,8 +4323,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "needleSystem": {
-        "value": "HAx1SP, sizes 11 and 14 (instruction manual)",
-        "source": "https://www.manualslib.com/manual/3289929/Janome-8002d.html"
+        "value": "HA-1 SP, No. 11 and No. 14 (instruction manual)",
+        "source": "https://www.janome.com/wp-content/uploads/2014/10/inst-book-8002deng.pdf"
       },
       "presserFootLift": {
         "value": "Adjustable presser foot pressure; snap-on feet; lift height not published",
@@ -4229,7 +4335,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "feedSystem": {
-        "value": "Differential feed; retractable upper knife; rolled hem via needle plate setting knob at R, no plate change",
+        "value": "Differential feed; easily retractable upper knife; adjustable foot pressure; snap-on presser feet (Janome page)",
         "source": "https://www.janome.com/product/8002d/"
       },
       "buttonhole": {
@@ -4246,31 +4352,37 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "weightLb": {
         "value": 13.4,
-        "source": "https://www.amazon.com/Janome-8002D-Serger/dp/B008L5FN4E"
+        "source": "https://www.janome.com/product/8002d/"
       },
       "dimensionsIn": {
-        "value": "15 x 13.5 x 14.5 (Amazon listing; may be packaged size)",
-        "source": "https://www.amazon.com/Janome-8002D-Serger/dp/B008L5FN4E"
+        "value": "W 12.5 x H 10.5 x D 11 (Janome page)",
+        "source": "https://www.janome.com/product/8002d/"
       },
       "includedFeet": {
-        "value": "Standard serger foot, needles, screwdrivers, tweezers, foot control and power cord, instruction book and video (dealer copy)",
-        "source": "https://www.kenssewingcenter.com/janome-8002d-serger.html"
+        "value": "Janome page lists foot control and two screwdrivers (large and small). The manual adds tweezers and a set of needles. The Standard Foot Serger is listed on the page as an optional spare. Optional feet: beading, blind stitch, cording A and B, elastic gathering, gathering, piping, taping with reel",
+        "source": "https://www.janome.com/product/8002d/"
       },
       "warrantyUs": {
-        "value": "25 yr materials and workmanship, 5 yr electrical components, 1 yr labor (Janome America statement)",
+        "value": "Janome America 25 yr materials and workmanship, 5 yr electronic components, 1 yr free labor; void if not bought from an authorized Janome dealer in the United States (not model-specific, read by OCR)",
         "source": "https://www.janome.com/support/warranty/"
       }
     },
     "claims": [
-      "\"Affordable and fast\" and \"sturdy and economical\" (manufacturer claim, product page)",
-      "\"Extra-smooth seams\" (Amazon listing title)",
-      "\"Professional\" appears in Walmart listing titles, not on Janome's page"
+      "\"provides professional results\" (Janome product page)",
+      "\"Ready to serger out of the box, Comes pre-threaded with 4 starter spools\" (Janome product page)",
+      "\"External color coded tension dials allow for easy threading\" (Janome product page)"
     ],
     "conflicts": [
-      "Dimensions: 15 x 13.5 x 14.5 in on Amazon reads like a box size; no Janome dimension captured. Flagged [verify].",
-      "Weight: 13.4 lb (Amazon listing); no Janome figure captured. Flagged [verify].",
-      "Price: Sewing Machines Plus shows $399.00 regular and $360.00 sale on a page whose title advertises a sale that expired 8/25/2025. Catalog uses $360 labelled dealer-variable.",
-      "Naming: owners say the 8002D is virtually identical to the Magnolia 7034D; a separate 8002DX exists in a PatternReview needle thread. Neither is a Janome statement of replacement."
+      "Dimensions: Janome lists W 12.5 x H 10.5 x D 11 in; our earlier figure of 15 x 13.5 x 14.5 in from an Amazon listing was a box size, so Janome's is used.",
+      "Weight: Janome lists 13.4 lb; Amazon item weights run 14 to 19 lb across listings, probably shipping weight.",
+      "Differential feed: Janome's page says 0.5 to 2.25; the manual text says 2.2.",
+      "Stitch types: Janome lists 4 thread, 3 thread (wide) and narrow hem, with rolled hem and picot edging in the manual; flatlock and blind hem come only from dealer and review copy, not from Janome.",
+      "Included feet: Janome lists the Standard Foot Serger as an optional spare and the manual adds tweezers and needles; dealer copy listing an instruction video and a standard foot in the box is not Janome's.",
+      "Needle notation: the manual writes HA-1 SP; our earlier spec wrote HAx1SP. The manual's wording is used.",
+      "Rolled hem: the phrase 'no plate change' is our inference from the knob description, not Janome's wording.",
+      "Warranty: Janome states 25 years, 5 years electronic and 1 year labor, void unless bought from an authorized US Janome dealer; Amazon B008L5FN4E states 5 years mechanical, 2 years electrical and 1 year labor. Janome says it does not sell online directly.",
+      "Price: Janome lists a $399 MSRP and says to see a dealer for pricing; dealer sale prices vary.",
+      "Naming: owners call the 8002D near-identical to the Magnolia 7034D and an 8002DX is named in owner threads; Janome has no page for either, so no replacement or equivalence is stated."
     ],
     "ownerThemes": [
       {
@@ -4317,75 +4429,84 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The 8002D is Janome's budget 3/4-thread serger: 1,300 spm, differential feed and a knob-set rolled hem for about the price of a Brother 1034D.",
-      "whoFor": "A first-serger buyer who wants a Janome dealer and 25-year warranty behind a basic manual-threading 3/4-thread machine.",
-      "skipIf": "You want 2-thread stitches, a free arm you can confirm, or air threading.",
+      "verdict": "Janome's entry 3/4-thread serger: 1,300 spm, 0.5 to 2.25 differential and manual threading at a $399 MSRP, with no 2-thread stitch and no published throat or free arm.",
+      "whoFor": "A first-serger buyer who wants a 3/4-thread machine from a Janome dealer with Janome's 25 year warranty behind it.",
+      "skipIf": "You want 2-thread stitches, air threading (the AirThread 2000D has both), or a free arm you can confirm.",
       "keySpec": "3/4 thread · 1,300 spm · differential 0.5 to 2.25 · 13.4 lb",
       "strengths": [
-        "Rolled hem set by a needle plate knob, no plate swap.",
-        "Differential feed range 0.5 to 2.25, wider than the Brother 1034D's published 0.7 to 2.0.",
-        "Uses HAx1SP household-style needles per the manual."
+        "Owners report it arrives pre-threaded and that the supplied tweezers help with threading.",
+        "Owners report long service, with one about four years in calling it very reliable and another getting almost ten years of frequent use.",
+        "Janome lists a quick change rolled hem set by a needle plate knob and stitch length dial, plus a 0.5 to 2.25 differential."
       ],
       "weaknesses": [
-        "3 and 4 thread only, no 2-thread overcast.",
-        "Janome publishes no weight or dimensions in the results captured; Amazon's figures may be box size.",
-        "Owners describe it as near-identical to the older Magnolia 7034D, so the design is dated."
+        "Owners report the lower looper threading steps are hard to follow and the guides hard to see.",
+        "3 and 4 thread only: Janome lists no 2-thread converter, where the AirThread 2000D page does.",
+        "Some owners report noise, including a rattling front cover, and one finds HA-1 SP needles hard to source."
       ],
       "checks": [
         {
-          "title": "Sale price or regular",
-          "body": "Sewing Machines Plus shows $399 regular and $360 sale under an expired-sale title. Confirm the live price and whether the bonus kit is still attached."
+          "title": "Dealer and warranty",
+          "body": "Janome says the 25 year warranty is void unless bought from an authorized US Janome dealer and that it does not sell online directly. Amazon B008L5FN4E states 5 years mechanical, 2 years electrical and 1 year labor instead. Confirm who sells it before buying."
         },
         {
-          "title": "Free arm",
-          "body": "No source captured says whether the 8002D has a free arm. If you serge cuffs and sleeves, ask the dealer before buying."
+          "title": "Free arm and throat",
+          "body": "Janome publishes no free arm or throat figure, so both show [verify]. If you serge cuffs and sleeves, ask the dealer."
         },
         {
-          "title": "8002D vs 8002DX",
-          "body": "A separate 8002DX exists in owner threads. Confirm the exact model on the box; parts and manuals differ by suffix."
+          "title": "Amazon ratings are pooled",
+          "body": "The Amazon rating is shared across three listings: 4.6 from 160 ratings, 4.4 from 77 and 4.2 from 57. Sewing Machines Plus shows 5.0 from 11 reviews, a very small base. Treat none as a score for one listing."
         }
       ],
       "realCost": [
-        "4 cones of serger thread",
-        "HAx1SP or 130/705H needles size 11 and 14",
-        "Serger oil and a spare lower knife"
+        "More serger thread: Janome says it comes pre-threaded with 4 starter spools",
+        "Spare needles: HA-1 SP, No. 11 and No. 14 per the manual; a set is included, and one owner finds them hard to source",
+        "Optional feet are extra: beading, blind stitch, cording, elastic gathering, gathering, piping, taping",
+        "The warranty needs an authorized US Janome dealer purchase"
       ],
       "faqs": [
         {
           "q": "Is the Janome 8002D good for beginners?",
-          "a": "It is Janome's entry serger with color-coded thread guides, a threading chart and a rolled hem set by a knob. Owners on PatternReview report a clean 4-thread stitch out of the box."
+          "a": "Janome lists color-coded tension dials and a threading chart, and says it ships pre-threaded with 4 starter spools. Owners report the lower looper is the hard part to thread. This is a spec check, not a field test."
         },
         {
           "q": "Does the 8002D do a rolled hem?",
-          "a": "Yes. Janome says you slide the needle plate setting knob to R, with no plate change."
+          "a": "Yes. Janome lists a quick change rolled hem, and the manual sets the needle plate knob and stitch length dial to R. 'No plate change' is our inference, not Janome's wording."
         },
         {
           "q": "What needles does the 8002D use?",
-          "a": "The instruction manual specifies HAx1SP needles in sizes 11 and 14. Owners also use standard 130/705H household needles."
+          "a": "The manual specifies HA-1 SP needles, No. 11 and No. 14. Owner threads also mention 130/705H household needles, which is not a Janome statement."
         },
         {
           "q": "Can the 8002D sew 2-thread stitches?",
-          "a": "No. It is a 3 and 4 thread convertible serger."
+          "a": "Janome lists 4 thread, 3 thread (wide) and narrow hem and no 2-thread converter. The AirThread 2000D page lists 2, 3 or 4 thread."
+        },
+        {
+          "q": "Does the 8002D do flatlock or blind hem?",
+          "a": "Janome lists neither as a stitch. Those come from dealer and review copy. The manual names a blind stitch foot as an optional accessory."
         },
         {
           "q": "How fast is the 8002D?",
-          "a": "Up to 1,300 stitches per minute per Janome."
+          "a": "Janome lists a maximum of 1,300 spm."
         },
         {
           "q": "What is the differential feed range?",
-          "a": "0.5 to 2.25 per Janome's page."
+          "a": "Janome's page says 0.5 to 2.25; the manual text says 2.2. Cutting width is 3.1 to 7.3 mm and stitch length 1 to 4 mm."
         },
         {
           "q": "Does the 8002D have a free arm?",
-          "a": "Not published in any source captured. Ask the dealer."
+          "a": "Janome publishes no free arm or throat figure, so it shows [verify]. Ask the dealer."
+        },
+        {
+          "q": "How much does the 8002D weigh and how big is it?",
+          "a": "Janome lists 13.4 lb and W 12.5 x H 10.5 x D 11 in. Amazon item weights of 14 to 19 lb are likely shipping weights."
+        },
+        {
+          "q": "How does it differ from the AirThread 2000D?",
+          "a": "Per Janome's pages the AirThread 2000D is 2, 3 or 4 thread with air threading, 17.4 lb and a $1,799 MSRP; the 8002D is 3 or 4 thread with lay-in manual threading, 13.4 lb and $399 MSRP."
         },
         {
           "q": "Is the 8002D the same as the Magnolia 7034D?",
-          "a": "Owners describe the two as virtually identical. Janome does not publish a statement on the relationship."
-        },
-        {
-          "q": "How much does the 8002D weigh?",
-          "a": "Amazon lists 13.4 lb. Janome's page does not publish a weight in the results captured."
+          "a": "Owners describe the two as near-identical. Janome has no page for the 7034D or an 8002DX, so no equivalence is stated."
         }
       ]
     },
@@ -4403,7 +4524,11 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/review/machine/2920/",
       "https://sewing.patternreview.com/SewingDiscussions/topic/128654",
       "https://sewing.patternreview.com/SewingDiscussions/topic/103660",
-      "https://www.janome.com/support/warranty/"
+      "https://www.janome.com/support/warranty/",
+      "https://www.janome.com/wp-content/uploads/2014/10/inst-book-8002deng.pdf",
+      "https://www.janome.com/product/airthread-2000d/",
+      "https://www.janome.com/support/manuals/",
+      "https://www.amazon.com/dp/B00ARMIWE2"
     ]
   },
   "janome-coverpro-2000cpx": {
@@ -4842,22 +4967,22 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "manufacturerUrl": "https://www.janome.com/product/hd-3000/",
     "retailerUrl": "https://sewingmachinesplus.com/products/janome-hd3000",
-    "priceUsdSeen": null,
-    "priceSeenDate": null,
-    "priceSeenAt": "Sewing Machines Plus",
-    "priceNote": null,
+    "priceUsdSeen": 559,
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "another dealer",
+    "priceNote": "Janome MSRP on janome.com (plain HD-3000; Black Edition MSRP $599; Janome sells through authorized dealers, not direct)",
     "specs": {
       "stitchTypes": {
-        "value": "18 built-in stitches including a one-step buttonhole; zigzag up to 6.5 mm wide, stitch length up to 4 mm",
-        "source": "https://www.poconosewandvac.com/products/janome/machines/hd3000"
+        "value": "18 built-in stitches plus an automatic buttonhole; zigzag up to 6.5 mm wide, stitch length up to 4 mm",
+        "source": "https://www.janome.com/product/hd-3000/"
       },
       "stitchCount": {
         "value": 18,
-        "source": "https://www.poconosewandvac.com/products/janome/machines/hd3000"
+        "source": "https://www.janome.com/product/hd-3000/"
       },
       "maxSpm": {
-        "value": 860,
-        "source": "https://www.janome.com/introducing-the-hd1000-and-hd3000/"
+        "value": null,
+        "source": null
       },
       "threads": {
         "value": null,
@@ -4876,19 +5001,19 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "presserFootLift": {
-        "value": "Adjustable presser foot pressure (third-party comparison); lift height not published in snippet",
-        "source": "https://threadedmachines.com/compare/singer-4423-vs-janome-hd3000/"
+        "value": "Extra high presser foot lift listed (height not published); adjustable presser foot pressure dial",
+        "source": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-hd-3000-auto-declutch-bobbin-winder.pdf"
       },
       "threadTrimmer": {
         "value": null,
         "source": null
       },
       "feedSystem": {
-        "value": "7-piece feed dog, drop feed; horizontal full rotary hook",
-        "source": "https://www.janome.com/introducing-the-hd1000-and-hd3000/"
+        "value": "5-piece feed dog, drop feed; top loading full rotary hook",
+        "source": "https://www.janome.com/product/hd-3000/"
       },
       "buttonhole": {
-        "value": "One-step buttonhole",
+        "value": "One automatic buttonhole, listed as four-step in Janome's spec table and brochure and as one-step in its prose",
         "source": "https://www.janome.com/product/hd-3000/"
       },
       "motor": {
@@ -4896,36 +5021,43 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "frame": {
-        "value": "Rigid aluminum body (Janome: 'all-metal body made of special, lightweight aluminum')",
-        "source": "https://www.janome.com/introducing-the-hd1000-and-hd3000/"
+        "value": "Aluminum frame construction (Janome page); die cast aluminum body construction (Janome brochure)",
+        "source": "https://www.janome.com/wp-content/uploads/2019/11/hd3000-info-sheet.pdf"
       },
       "weightLb": {
         "value": 18.7,
         "source": "https://www.poconosewandvac.com/products/janome/machines/hd3000"
       },
       "dimensionsIn": {
-        "value": "16 x 7 x 11 (W x D x H)",
-        "source": "https://www.poconosewandvac.com/products/janome/machines/hd3000"
+        "value": "16 x 7.2 x 11.3 (W x D x H) footprint; workspace 6.5 wide by 4.6 high (not a needle-to-arm figure)",
+        "source": "https://www.janome.com/product/hd-3000/"
       },
       "includedFeet": {
-        "value": "Hard cover, blind hem foot G, buttonhole foot R (automatic), 2 mm hemmer foot D, overedge foot; zigzag foot on machine",
-        "source": "https://sewingmachinesplus.com/products/janome-hd3000"
+        "value": "Hard cover, zigzag foot, automatic buttonhole foot, blind hem foot, overedge foot C, 2 mm rolled hem foot, zipper foot E, quilting guide bar; no walking or even feed foot in the standard list",
+        "source": "https://www.janome.com/product/hd-3000/"
       },
       "warrantyUs": {
-        "value": "25 yr limited on defective materials and workmanship, 5 yr on electrical components, 1 yr labor (dealer statement; verify against Janome)",
-        "source": "https://janomejunkies.com/product/janome-hd-3000/"
+        "value": "Limited 25 year warranty: 25 years materials and workmanship, 5 years electronic parts, 1 year labor; void if not bought from an authorized Janome dealer in the United States (generic Janome PDF, read by OCR, verify against the PDF)",
+        "source": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
       }
     },
     "claims": [
-      "\"quiet, vibration-free sewing\" (manufacturer claim, janome.com blog)",
+      "\"quiet, vibration-free sewing\" (manufacturer claim, janome.com 2011 launch blog)",
       "\"Heavy Duty\" (Janome HD series name, product page; a model line, not a rating)",
-      "\"7-piece feed dog is perfectly synchronized with the needle\" (manufacturer claim, janome.com blog)",
+      "\"a heavy duty machine, perfect for a beginner or sewist looking to do a wide range of sewing\" (manufacturer claim, janome.com product page)",
+      "\"Heavy-duty frame\" (manufacturer claim, janome.com product page)",
       "\"for Denim & Canvas\" (dealer copy, Janome Junkies listing title)"
     ],
     "conflicts": [
-      "Stitch count: 18 (janome.com product page and dealers) vs 19 (janome.com HD1000/HD3000 launch blog). Catalog will use 18 because the current product page and the info sheet use it.",
-      "Warranty: a dealer states 25 yr / 5 yr electrical / 1 yr labor. Janome's commonly stated US terms are 25 yr mechanical, 2 yr electrical and electronic, 1 yr labor. Catalog marks the electrical term [verify].",
-      "Price: no price appeared in accessible snippets from Sewing Machines Plus or other dealers. Left null."
+      "Feed dog: Janome's product page, brochure and Black Edition page say 5-piece, while its 2011 launch blog says 7-piece (our earlier spec took 7-piece from the blog); 5-piece is used.",
+      "Buttonhole: Janome's spec table and brochure say four-step while its page prose says one-step, and our earlier spec said one-step; no document explains a difference, so the spec table wording is used.",
+      "Stitch count: Janome's 2011 launch blog says 19, while its current page, brochure and manual say 18; 18 is used.",
+      "Zigzag width: the Key Features caption on the plain-machine page says 6 mm, while the spec table, brochure and manual say 6.5 mm; 6.5 mm is used.",
+      "Speed: 860 spm appears only in Janome's 2011 launch blog (and on the HD1000 page); the current HD3000 page, brochure and manual publish no speed, so max speed is left null.",
+      "Hook: our earlier spec said horizontal full rotary hook, while Janome says top loading full rotary hook; the maker wording is used.",
+      "Throat: Janome publishes only a workspace of 6.5 in wide by 4.6 in high, not a needle-to-arm figure, so throat is left null.",
+      "Warranty: Janome's generic warranty PDF gives 5 years for electronic parts, while our earlier note of 2 years electrical is not supported by that document (an Amazon listing may state 2 years; not checked).",
+      "Price: only Janome's MSRP is on record ($559 plain, $599 Black Edition), not a dealer price."
     ],
     "ownerThemes": [
       {
@@ -4939,7 +5071,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://threadedmachines.com/compare/singer-4423-vs-janome-hd3000/"
       }
     ],
-    "evidence": "mixed",
+    "evidence": "owner",
     "buyerQuestions": [
       "Is the Janome HD3000 better than the Singer 4423?",
       "Can the Janome HD3000 sew leather?",
@@ -4968,40 +5100,81 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "A conservative aluminum-bodied mechanical that trades speed and stitch count for smoothness, adjustable pressure and a long dealer track record.",
-      "whoFor": "Beginners and mending-focused sewists who want a quiet, simple machine that handles denim and canvas hems without fuss.",
-      "skipIf": "You want the fastest machine at the price, need many decorative stitches, or plan to sew leather or webbing regularly.",
-      "keySpec": "860 spm · 18 stitches · 6.5 mm zigzag · 18.7 lb aluminum body",
+      "verdict": "A mechanical aluminum-frame zigzag machine with 18 stitches and a rotary hook; owners split on heavy fabric and reliability, so check the dealer and return terms.",
+      "whoFor": "Sewists who want a mechanical household machine with a dial foot-pressure control and an extra high foot lift for denim, canvas and mending.",
+      "skipIf": "You need to sew thick leather or many layers every week, want a published top speed, or need a throat measured needle to arm.",
+      "keySpec": "18 stitches · 6.5 mm zigzag · 5-piece feed dog · 18.7 lb aluminum frame",
       "strengths": [
-        "Janome publishes an all-aluminum body and 7-piece feed dog.",
-        "Adjustable presser foot pressure and a 6.5 mm zigzag width are wider than Singer's 44-series.",
-        "Hard cover ships in the box per the SMP listing."
+        "Janome lists a top loading full rotary hook, a 5-piece feed dog and a foot-pressure dial, which its HD1000 page does not list.",
+        "Owners report it sewing thick work such as Cordura and duck canvas, though the 47 voices on heavy fabric split about evenly.",
+        "Janome states a 25 year limited warranty with 5 years on electronic parts and 1 year labor, void without an authorized US dealer purchase."
       ],
       "weaknesses": [
-        "860 spm is slower than the Singer and Brother competitors.",
-        "18 stitches, fewer than any rival in this set.",
-        "No walking foot in the standard box; price was not visible in accessible listings."
+        "Owners report limits on heavy material: one could not sew denim, and another says the machine will not handle heavy leather.",
+        "Owners report jams, tension trouble and defects, with 19 of 38 reliability voices negative; Reddit over-represents problems.",
+        "Owners report a dim LED light that cannot be replaced, and the standard box has no walking or even feed foot."
       ],
       "checks": [
         {
-          "title": "Standard vs Black Edition",
-          "body": "The HD3000 Black Edition is a separate SKU with its own price and bundle. Confirm which one the listing is and whether the hard cover is included."
+          "title": "Which listing is it",
+          "body": "Amazon shows the plain HD3000 at 4.4 from 658 ratings and the Black Edition bundle at 4.4 from 333, as separate listings. The Sewing Machines Plus rating of 4.68 from 44 reviews has only 2 reviews naming this model, so it is not used as HD3000 evidence."
         },
         {
-          "title": "Bonus kits",
-          "body": "Retail bundles add an Ultra Glide foot, leather needles and bobbins. The plain box has five feet. Price the bare machine first."
+          "title": "Spec wording differs by Janome page",
+          "body": "Janome's own pages disagree on feed dog count, buttonhole step count, stitch count and zigzag width. Confirm 5-piece feed dog, 18 stitches and 6.5 mm on the listing, and do not read the HD1000 or HD5000 table as this model."
         },
         {
-          "title": "Warranty wording",
-          "body": "Dealers quote different electrical warranty terms (2 yr vs 5 yr). Ask for Janome's printed warranty card."
+          "title": "Buy from an authorized US dealer",
+          "body": "Janome's generic warranty PDF says the warranty is void if the machine was not bought from an authorized Janome dealer in the United States. Verify the terms against the PDF and the dealer before buying from a marketplace seller."
         }
       ],
       "realCost": [
-        "Walking foot for quilting or layered denim",
-        "Denim and leather needles size 16 to 18",
-        "Extra Class 15 bobbins"
+        "Walking foot: not in the standard box; Janome lists an even feed foot as optional and as a Black Edition bonus item ($599 MSRP against $559 plain)",
+        "Heavy needles: Janome's chart puts heavy fabric at #14/90 to #16/100, and its leather guide uses 90/14 for seams and 100/16 for topstitching",
+        "Authorized dealer purchase: required for the warranty to stand, so a marketplace discount can cost the cover"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "Is the Janome HD3000 better than the Singer 4423?",
+          "a": "Head-to-head owner claims in our rollup (4 in all) lean to the HD3000 on reliability, build and range of fabrics, which is a small sample. A PatternReview thread called the Singer the value buy and the HD3000 the smoother, quieter machine. Janome publishes no top speed for the HD3000."
+        },
+        {
+          "q": "Can the Janome HD3000 sew leather?",
+          "a": "Janome's leather guide says to use leather thinner than 4 mm, under 2 mm when sewing through more than 4 layers, with a 3 mm stitch length, pressure dial at 3 and a 90/14 needle for seams. The manual says household use only. Owners report mixed results: one says feed dogs marked leather, and another says it will not handle heavy leather."
+        },
+        {
+          "q": "Is the Janome HD3000 good for beginners?",
+          "a": "Janome calls it a heavy duty machine perfect for a beginner, which is its claim. It is a mechanical dial machine with a foot-pressure dial. Owners report tension trouble in 5 of 9 voices on that theme, so check the bobbin winding and tension on a new unit."
+        },
+        {
+          "q": "How many stitches does the Janome HD3000 have, 18 or 19?",
+          "a": "18. Janome's product page, brochure and manual all say 18, with the manual dial running patterns 1 to 18 plus the buttonhole. Only Janome's 2011 launch blog says 19."
+        },
+        {
+          "q": "What is the difference between the Janome HD3000 and HD1000?",
+          "a": "From Janome's pages: the HD3000 lists 18 stitches, a 5-piece feed dog, a top loading full rotary hook, 6.5 mm width, 18.7 lb and $559 MSRP. The HD1000 lists 14 stitches, a 3-piece feed dog, a front-loading oscillating hook, 5 mm width, 16.8 lb and $409 MSRP. Owners also say the HD3000 pedal is more sensitive, which is Reddit only."
+        },
+        {
+          "q": "Does the Janome HD3000 have a walking foot?",
+          "a": "Not in Janome's standard accessory list. An even feed foot is optional, and the Black Edition lists one as a bonus item. Owner reports differ: one says there is no true walking foot, and others say one came with their machine."
+        },
+        {
+          "q": "Is the Janome HD3000 good for quilting?",
+          "a": "Janome lists a quilting guide bar and publishes a workspace of 6.5 in wide by 4.6 in high, not a needle-to-arm throat, so it is not a mid-arm machine. One former owner on Reddit reports making queen quilts on it and calling it very solid."
+        },
+        {
+          "q": "What is the Janome HD3000 Black Edition?",
+          "a": "Janome's spec table matches the plain machine. The Black Edition lists $599 MSRP against $559 and adds bonus items such as an Ultra Glide foot, a leather needle set and an even feed foot. Dealer SKU HD3000BE is the Black Edition."
+        },
+        {
+          "q": "How fast is the Janome HD3000?",
+          "a": "Janome's current page, brochure and manual publish no speed. The 860 spm figure appears only in Janome's 2011 launch blog and on the HD1000 page, so it is not stated here as an HD3000 spec."
+        },
+        {
+          "q": "Is the Janome HD3000 the same as the HD5000?",
+          "a": "Janome's HD5000 spec table matches the HD3000 line for line, and the page names no difference. Treat any claimed difference as unverified."
+        }
+      ]
     },
     "sources": [
       "https://www.janome.com/product/hd-3000/",
@@ -5012,7 +5185,15 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://janomejunkies.com/product/janome-hd-3000/",
       "https://threadedmachines.com/compare/singer-4423-vs-janome-hd3000/",
       "https://sewing.patternreview.com/SewingDiscussions/topic/117318",
-      "https://www.qualitysewing.com/products/janome-hd3000-heavy-duty-sewing-machine"
+      "https://www.qualitysewing.com/products/janome-hd3000-heavy-duty-sewing-machine",
+      "https://www.janome.com/product/hd-3000-black-edition/",
+      "https://www.janome.com/wp-content/uploads/2019/11/inst-book-hd-3000-auto-declutch-bobbin-winder.pdf",
+      "https://www.janome.com/wp-content/uploads/2019/11/leather_sewing_guide.pdf",
+      "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+      "https://www.janome.com/product/hd-1000/",
+      "https://www.janome.com/product/hd-5000/",
+      "https://www.amazon.com/dp/B00916Y4YM",
+      "https://www.amazon.com/dp/B07D7HFT9L"
     ]
   },
   "janome-hd5000": {
@@ -5034,7 +5215,7 @@ export const catalogData: Record<string, CatalogEntry> = {
     "priceNote": null,
     "specs": {
       "stitchTypes": {
-        "value": "18 built-in stitches including one-step buttonhole; max width 7 mm, max length 4 mm",
+        "value": "18 built-in stitches (Janome); max width 6.5 mm, max length 4 mm",
         "source": "https://www.janome.com/product/hd-5000/"
       },
       "stitchCount": {
@@ -5042,8 +5223,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.janome.com/product/hd-5000/"
       },
       "maxSpm": {
-        "value": 860,
-        "source": "https://www.kenssewingcenter.com/janome-hd5000-heavy-duty-sewing-machine.html"
+        "value": null,
+        "source": null
       },
       "threads": {
         "value": null,
@@ -5062,19 +5243,19 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "presserFootLift": {
-        "value": "Extra-high presser foot lift (dealer copy); lift height not published",
-        "source": "https://www.amazon.com/Janome-HD5000-Heavy-Sewing-Machine/dp/B084M81BC6"
+        "value": "Extra high presser foot lift (Janome Specifications); manual: about 1/4 in above the normal up position (OCR, verify)",
+        "source": "https://www.janome.com/wp-content/uploads/2021/11/hd5000-instruction-manual.pdf"
       },
       "threadTrimmer": {
         "value": null,
         "source": null
       },
       "feedSystem": {
-        "value": "7-piece feed dog; drop feed lever for free motion; horizontal full rotary hook; free arm",
+        "value": "Feed dog listed as 5 piece in Specifications and 'seven-piece' in the description text (same Janome page); drop feed lever for free motion; top loading full rotary hook (drop-in bobbin); free arm",
         "source": "https://www.janome.com/product/hd-5000/"
       },
       "buttonhole": {
-        "value": "One-step",
+        "value": "One-step per HD-5000 Key Features; '1 Four-Step' per HD5000BE and HD-3000 Specifications (Janome pages disagree)",
         "source": "https://www.janome.com/product/hd-5000/"
       },
       "motor": {
@@ -5090,30 +5271,37 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.kenssewingcenter.com/janome-hd5000-heavy-duty-sewing-machine.html"
       },
       "dimensionsIn": {
-        "value": "16 x 7 x 11",
-        "source": "https://www.kenssewingcenter.com/janome-hd5000-heavy-duty-sewing-machine.html"
+        "value": "16 x 7.2 x 11.3",
+        "source": "https://www.janome.com/product/hd-5000/"
       },
       "includedFeet": {
-        "value": "7 accessory feet (Janome); dealer copy names automatic buttonhole foot, blind hem foot, overedge foot, quilting attachment kit and quilting guide bar",
+        "value": "7 accessory feet (Janome); quilting guide bar standard; Quilting Attachment Kit optional on the HD-5000 and standard on the HD5000BE",
         "source": "https://www.janome.com/product/hd-5000/"
       },
       "warrantyUs": {
-        "value": "25 yr materials and workmanship, 5 yr electrical components, 1 yr labor (Janome America statement)",
-        "source": "https://www.janome.com/support/warranty/"
+        "value": "Janome America Limited 25 Year Warranty: 25 yr materials and workmanship, 5 yr electronic parts, 1 yr labor, 1 yr if used commercially; void if not bought from an authorized US Janome dealer (OCR of PDF, verify)",
+        "source": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
       }
     },
     "claims": [
       "\"Heavy Duty\" is the HD series name, not a capacity rating (manufacturer series name)",
-      "\"Heavy-duty mechanical workhorse\" (manufacturer claim, product page)",
-      "\"Seven-piece feed dog feeds fabric smoothly while maintaining a taut surface\" (manufacturer claim, product page)",
-      "\"Sews 12 layers of denim\" (dealer title, Linda's Quilt Shoppe)"
+      "\"Heavy-duty mechanical workhorse\" (Janome claim, product page)",
+      "\"Seven-piece feed dog feeds fabric smoothly while maintaining a taut surface\" (Janome claim; Janome's own Specifications list 5 piece)",
+      "\"Sews 12 layers of denim\" (dealer title, Linda's Quilt Shoppe; Janome gives no layer count)"
     ],
     "conflicts": [
-      "Stitch count: 18 (janome.com, Amazon Black Edition) vs 19 (Ken's spec block) vs 27 (one comparison blog). Catalog uses 18 from Janome.",
-      "Stitch width: 7 mm (janome.com) vs 6.5 mm (Ken's spec block). Catalog uses 7 mm from Janome.",
-      "Feed dog: 7-piece (janome.com) vs 5-piece (Amazon listing). Catalog uses Janome.",
-      "Price: no dealer price appeared in snippets this session. A PatternReview owner cites about $499 and a comparison blog $529; earlier brand research saw $499 at Ken's. Left null.",
-      "Retailer: no Sewing Machines Plus HD5000 page surfaced in search; Ken's, Amazon, Target and Best Buy did. retailerUrl null."
+      "Stitch width: Janome lists 6.5 mm on the HD-5000 and HD5000BE pages and 3 to 6.5 in the manual (OCR); our earlier figure of 7 mm and a Reddit commenter's 7 mm have no maker support. Catalog uses 6.5 mm.",
+      "HD3000 comparison: Janome lists 6.5 mm width, 4 mm length, 18 stitches, 18.7 lb and workspace W 6.5 x H 4.6 in for both the HD-5000 and HD-3000; the spec tables match line for line.",
+      "Feed dog: 5 piece in Janome's Specifications (HD-5000, HD5000BE, HD-3000) vs seven-piece in the HD-5000 description text; Amazon says 5-piece, sewingpartsonline says 7-piece. Not resolved.",
+      "Buttonhole: one-step in the HD-5000 Key Features vs '1 Four-Step' on the HD5000BE and HD-3000 Specifications. Not resolved.",
+      "Stitch count: 18 (Janome) vs 19 (Ken's spec block) vs 27 (one comparison blog). Catalog uses Janome's 18.",
+      "Speed: Janome publishes no speed for the HD-5000; 860 spm appeared only in dealer copy and is not used.",
+      "Dimensions: Janome W 16 x H 11.3 x D 7.2 in vs Ken's 16 x 7 x 11 in (rounded). Catalog uses Janome.",
+      "Hook: Janome says top loading full rotary hook; our earlier 'horizontal full rotary hook' was dealer wording.",
+      "Quilting kit: optional on the HD-5000 and standard on the HD5000BE (Janome); some dealer copy says the kit is included.",
+      "Warranty: Janome America states 5 years on electronic parts; the Amazon listing says 2 years electrical.",
+      "Market: Reddit commenters say the HD5000 is Canada-only and has an overlock stitch; Janome's US pages list the HD-5000 and do not list an overlock stitch. Unsupported, not used.",
+      "Price: Janome publishes no price ('Please see Dealer for pricing'). No dated price appears in this review's inputs, so none is recorded."
     ],
     "ownerThemes": [
       {
@@ -5160,63 +5348,67 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The HD5000 is the top mechanical HD: the HD3000 body with a 7 mm zigzag, one-hand needle threader and seven feet including a quilting kit.",
-      "whoFor": "A beginner or garment sewist who wants Janome's aluminum body and is willing to pay about $100 over the HD3000 for the wider stitch and the quilting accessories.",
-      "skipIf": "You want speed (860 spm is the ceiling), a computerized stitch panel, or you sew straight seams only and would not use the extra width.",
-      "keySpec": "860 spm · 18 stitches · 7 mm zigzag · 18.7 lb aluminum body",
+      "verdict": "A mechanical Janome HD with 18 stitches and an aluminum frame; Janome's spec table matches the HD3000 line for line, so check bundle contents and the dealer price.",
+      "whoFor": "A beginner or garment sewist who wants Janome's aluminum-body mechanical machine and buys through an authorized US dealer for the warranty.",
+      "skipIf": "You need a published speed, motor rating or needle-to-arm throat figure (Janome gives none), or you want a quilting kit in the box and are buying the white HD-5000 rather than the Black Edition.",
+      "keySpec": "18 stitches · 6.5 mm width · 18.7 lb aluminum body",
       "strengths": [
-        "7 mm maximum stitch width, wider than the HD3000 and the Singer 44-series.",
-        "Seven feet in the box including a quilting attachment kit and guide bar.",
-        "Horizontal full rotary hook, 7-piece feed dog and a one-hand needle threader per Janome."
+        "Janome lists a built-in one-hand needle threader, an extra high presser foot lift and an aluminum body.",
+        "Owners report the variety of included feet is good, and Janome lists seven accessory feet plus a quilting guide bar.",
+        "Some owners report canvas, denim and thin vinyl sew without trouble; this is mixed with the weakness below."
       ],
       "weaknesses": [
-        "860 spm, the slowest of the heavy-duty rivals.",
-        "Sources disagree on stitch count (18 vs 19) and width (7 vs 6.5 mm).",
-        "No dealer price was visible in accessible listings."
+        "Owners report reliability problems in help threads, including a lid that would not close and a recurring bobbin jam on a refurbished unit; Reddit skews toward problems.",
+        "Owners report the machine struggles with heavy leather and thick stabilizer, and that thread can slip out of the thread guide.",
+        "Janome publishes no speed, motor rating or throat figure, so those stay [verify]."
       ],
       "checks": [
         {
-          "title": "18 or 19 stitches",
-          "body": "Janome's page says 18 including the one-step buttonhole; some dealers count 19. It is a counting difference, not a different machine."
+          "title": "White HD-5000 or Black Edition",
+          "body": "Janome lists the Quilting Attachment Kit as optional on the HD-5000 and standard on the Black Edition (HD5000BE), which Janome shows with the same machine data. Confirm the bundle before comparing prices."
         },
         {
-          "title": "White, Black Edition or school trade-in",
-          "body": "Ken's lists new, Black Edition, classroom and school trade-in units under similar titles. Confirm condition and bundle before comparing prices."
+          "title": "Buttonhole and feed dog wording",
+          "body": "Janome's HD-5000 page says one-step buttonhole and seven-piece feed dog in its text, but the HD5000BE and HD-3000 Specifications say a four-step buttonhole and 5 piece feed dog. Treat both as soft."
         },
         {
-          "title": "Is the HD3000 enough",
-          "body": "The two share body, speed and feed. The HD5000 adds 0.5 mm of zigzag, a needle threader and quilting feet. Straight-seam sewists can save the difference."
+          "title": "Authorized dealer for the warranty",
+          "body": "Janome America's warranty is void if the machine is not bought from an authorized US Janome dealer. The Amazon listing quotes 2 years on electrical parts against Janome's 5, so confirm the seller."
         }
       ],
       "realCost": [
-        "Walking foot if the quilting kit in your bundle does not include one",
-        "Denim and leather needles size 16 to 18",
-        "Extra bobbins"
+        "Quilting Attachment Kit if you buy the white HD-5000, where Janome lists it as optional",
+        "A small spool holder mount: owners report wide polyester spools jump the thread guide, and the small mount with felt fixed it",
+        "Dealer pricing only: Janome publishes no price, so get a quote from an authorized dealer"
       ],
       "faqs": [
         {
           "q": "How many stitches does the HD5000 have?",
-          "a": "Janome's page lists 18 including a one-step buttonhole. Some dealer spec blocks count 19."
+          "a": "Janome's page lists 18 stitches. Some dealer spec blocks count 19 and one blog says 27."
         },
         {
           "q": "What is the difference between the HD5000 and HD3000?",
-          "a": "Same body and 860 spm. The HD5000 has a 7 mm maximum stitch width versus 6.5 mm, a one-hand needle threader and seven feet including a quilting kit. Comparison sites put the gap at about $100."
+          "a": "Janome's spec tables match line for line: 18 stitches, 6.5 mm width, 4 mm length, 18.7 lb and workspace W 6.5 x H 4.6 in. Reddit commenters claim a 7 mm width and an overlock stitch on the HD5000; Janome's pages do not support either. Compare bundle and price."
+        },
+        {
+          "q": "What is the maximum stitch width?",
+          "a": "6.5 mm, per Janome's HD-5000 and HD5000BE pages and the manual. An earlier 7 mm figure is not supported by Janome."
         },
         {
           "q": "Is the HD5000 good for quilting?",
-          "a": "It has a drop feed lever for free motion and ships with a quilting attachment kit and guide bar. Throat space is not published, so it is a small-project quilter."
+          "a": "It has a drop feed lever for free motion and a quilting guide bar as standard. The Quilting Attachment Kit is optional on the HD-5000 and standard on the Black Edition. Janome labels 6.5 x 4.6 in as workspace, not needle-to-arm throat, so the throat is [verify]."
         },
         {
           "q": "Can the HD5000 sew denim?",
-          "a": "Dealer copy claims multiple denim layers and an extra-high presser foot lift. Janome does not publish a layer count, so treat it as a claim."
+          "a": "Janome claims it handles multiple layers of fabric but gives no layer count. Dealer copy says 12 layers of denim. Some owners report canvas and denim are fine and others report weakness on heavy leather and thick stabilizer."
         },
         {
           "q": "How fast is the HD5000?",
-          "a": "860 stitches per minute per dealer spec copy."
+          "a": "Janome does not publish a speed for the HD-5000, so it is [verify]."
         },
         {
           "q": "How much does the HD5000 weigh?",
-          "a": "18.7 lb per Ken's Sewing Center spec block; dimensions W 16 x H 11 x D 7 in."
+          "a": "18.7 per Janome's page (unit not printed there; the HD-3000 page prints 18.7 lbs). Footprint is W 16 x H 11.3 x D 7.2 in."
         },
         {
           "q": "Does the HD5000 have a needle threader?",
@@ -5224,11 +5416,15 @@ export const catalogData: Record<string, CatalogEntry> = {
         },
         {
           "q": "What does the HD5000 cost?",
-          "a": "No dealer price appeared in the results captured. Owners cite about $499. Confirm at an authorized Janome dealer."
+          "a": "Janome publishes no price and says to see a dealer. Amazon listing B084M81BC6 (HD5000) showed 4.1 from 80 ratings; get a dealer quote for price."
         },
         {
           "q": "What is the HD5000 warranty?",
-          "a": "Janome America states 25 years materials and workmanship, 5 years electrical, 1 year labor."
+          "a": "Janome America's limited warranty is 25 years materials and workmanship, 5 years electronic parts and 1 year labor, void without an authorized US dealer purchase. The wording is read from an image PDF by OCR, so verify it. Amazon quotes 2 years electrical."
+        },
+        {
+          "q": "What is the HD5000 Black Edition?",
+          "a": "Janome's HD5000BE page lists the same specification block as the HD-5000, with the Quilting Attachment Kit as standard."
         }
       ]
     },
@@ -5245,7 +5441,11 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/review/machine/7293",
       "https://sewing.patternreview.com/SewingDiscussions/topic/126098",
       "https://sewing.patternreview.com/SewingDiscussions/topic/112978",
-      "https://www.janome.com/support/warranty/"
+      "https://www.janome.com/support/warranty/",
+      "https://www.janome.com/product/hd-3000/",
+      "https://www.janome.com/product/hd-1000/",
+      "https://www.janome.com/wp-content/uploads/2021/11/hd5000-instruction-manual.pdf",
+      "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
     ]
   },
   "janome-hd9": {
@@ -6505,7 +6705,7 @@ export const catalogData: Record<string, CatalogEntry> = {
     "priceUsdSeen": 799,
     "priceSeenDate": "2026-09-29",
     "priceSeenAt": "another dealer",
-    "priceNote": "Michaels",
+    "priceNote": "Michaels (a retailer sighting; Juki's own suggested retail price is $1,799)",
     "specs": {
       "stitchTypes": {
         "value": "106 stitch patterns including 16 buttonhole styles and 3 lettering fonts",
@@ -6513,7 +6713,7 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "stitchCount": {
         "value": 106,
-        "source": "https://www.qualitysewing.com/products/juki-hzl-f300-sewing-machine"
+        "source": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
       },
       "maxSpm": {
         "value": 900,
@@ -6528,16 +6728,16 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "throatIn": {
-        "value": 8,
-        "source": "https://jukijunkies.com/product/hzl-f300/"
+        "value": null,
+        "source": null
       },
       "needleSystem": {
         "value": "130R / 705H",
         "source": "https://www.qualitysewing.com/products/juki-hzl-f300-sewing-machine"
       },
       "presserFootLift": {
-        "value": "Manual lift plus knee lifter (included)",
-        "source": "https://jukijunkies.com/product/hzl-f300/"
+        "value": "Manual lift; knee lifter is an optional accessory on the F300 (standard on the F400 and F600)",
+        "source": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
       },
       "threadTrimmer": {
         "value": "Automatic; foot controller heel or button",
@@ -6561,32 +6761,37 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "weightLb": {
         "value": 21.6,
-        "source": "https://www.qualitysewing.com/products/juki-hzl-f300-sewing-machine"
+        "source": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
       },
       "dimensionsIn": {
-        "value": "17.5 x 8.2 x 11.4 (445 x 210 x 291 mm)",
-        "source": "https://www.qualitysewing.com/products/juki-hzl-f300-sewing-machine"
+        "value": "17.5 x 8.25 x 11.5 (W x D x H, Juki page); 445 x 210 x 290 mm (brochure)",
+        "source": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
       },
       "includedFeet": {
-        "value": "Knee lifter and extension table listed by one dealer; feet set not itemized in snippets. Comparison chart says 6 accessories versus 12 on the F600",
-        "source": "https://jukijunkies.com/product/hzl-f300/"
+        "value": "Standard (A), zipper (B), overcasting (C), blind stitch (D), buttonhole (E) and manual buttonhole (I) feet; hard case; 4 bobbins; 3 spool caps; screwdriver; seam ripper; foot controller; needle set; cleaning brush. Walking foot, quilt foot, patchwork foot, quilt guide, wide table and knee lifter are not in the F300 standard list",
+        "source": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
       },
       "warrantyUs": {
-        "value": "5 yr materials and workmanship, 2 yr motors, wiring, switches, speed control and electrical (Juki America household warranty, dealer restatement); one dealer adds 90 days adjustments",
-        "source": "https://carolinaforestvacuum.com/warranty-juki-america-inc/"
+        "value": "2 yr on motors, light assembly, wiring, switches, circuit boards and speed control; 5 yr on other parts for factory defects (Juki America FAQ; same wording for every model; service through the selling dealer)",
+        "source": "https://www.jukihome.com/faq/"
       }
     },
     "claims": [
-      "\"Exceed\" and \"Home Deco\" are Juki series names for this tier, not ratings (manufacturer product page URL)",
-      "\"Sews through thick layers like butter\" (owner phrasing on PatternReview, not a manufacturer spec)",
-      "\"Full Sized 9 inch Throat\" (Amazon listing title; every dealer spec sheet says 8 in)"
+      "\"Exceed your sewing and quilting expectations\" and \"a home machine that brings an industrial touch\" (Juki claims, Juki product page)",
+      "\"Industrial Quality Buttonholes\" and \"Powerful Feeding\" (Juki claims, brochure and product page)",
+      "\"Able to handle heavy-duty fabrics and layers\" (Juki claim; no Juki document gives a layer rating)",
+      "\"Exceed Home Deco\" is Juki's series name for the F300 (F400 is Exceed Quilt & Pro, F600 Exceed Quilt & Pro Special), not a rating",
+      "\"Full Sized 9 inch Throat\" (Amazon bundle listing title, a seller's wording; Juki publishes no such figure)"
     ],
     "conflicts": [
-      "Throat: 8.0 in (Juki Junkies, Premier Stitching) vs '9 inch Throat' in an Amazon bundle title. Catalog uses 8.0 in; the 9 in figure is unsupported.",
-      "Weight: 21.6 lb (Quality Sewing) vs 21 lb (Premier Stitching). Catalog uses 21.6 lb, the figure that matches the published mm dimensions sheet.",
-      "Dimensions: 17.5 x 11.4 x 8.2 in (445 x 291 x 210 mm) vs 18 x 8.25 x 11.5 in on another dealer page. Catalog uses the mm-derived figure.",
-      "Extension table: one dealer says an extension table and knee lifter are included; a comparison chart says the F300 does not include a sewing table. Bundle listings add one. Confirm on the listing.",
-      "Price: $799.00 (Michaels) vs $699.00 (eBay listing). Sewing Machines Plus lists a bonus package with no price in snippets. Catalog uses $799.00."
+      "Throat: Juki publishes no needle-to-arm figure for the F300. Dealer sheets (Juki Junkies, Premier Stitching) say 8.0 in and an Amazon bundle title says '9 inch Throat' (a seller's wording); Juki's brochure gives only 112 mm (4.5 in) underarm height and a 551 mm wide-table width. We list throat as [verify].",
+      "Knee lifter: one dealer lists it in the box, but Juki's F300 page and brochure list it as optional (standard on the F400 and F600).",
+      "Extension table and feet: Juki's F300 standard list has no wide table, walking foot or quilt foot; dealers and bundles (including Amazon's 'Quilters Package' listing B00F9K1FIM) add them, so bundle contents are the seller's.",
+      "Stitch count: Juki's page and brochure say 106; the 2009 manual (read by OCR, shared by the F600, F400 and F300) says 105 on its stitch-selection page. We use 106.",
+      "Weight: Juki says 21.6 lb; one dealer says 21 lb. We use Juki's figure.",
+      "Dimensions: height is 11.5 in on Juki's page and 29.1 cm (11.4 in) in the manual.",
+      "Price: Juki lists a $1,799 suggested retail price (F400 $1,999, F600 $2,369); our $799 is a Michaels sighting on 2026-09-29 and an eBay listing showed $699. Dealers set their own prices.",
+      "Ratings: Sewing Machines Plus shows 4.74 from 246 reviews; Amazon's single 'Quilters Package' bundle listing shows 4.2 from 40 ratings with no review text, and is not a rating of the base machine."
     ],
     "ownerThemes": [
       {
@@ -6638,72 +6843,76 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The HZL-F300 is the F600's chassis with 106 stitches and a smaller box, keeping the 900 spm box feed, 16 sensor buttonholes, knee lifter and auto trimmer at a lower price.",
-      "whoFor": "A sewer stepping up from a beginner machine who wants Juki's box feed and buttonholes and does not need 225 stitches or the bundled walking foot and table.",
-      "skipIf": "You already know you want the walking foot, wide table and hard case, in which case the F600 bundle is usually the cheaper way to get them, or you need more than 8 in of arm.",
-      "keySpec": "106 stitches · 900 spm · 8 in throat · box feed · 21.6 lb",
+      "verdict": "A 900 spm box-feed computerized machine with 106 stitches and 16 sensor buttonholes; Juki gives no throat figure, and the knee lifter, wide table and walking foot are extras.",
+      "whoFor": "A sewer stepping up from a beginner machine who wants Juki's box feed and sensor buttonholes and does not need 225 stitches or the F600's bundled accessories.",
+      "skipIf": "You need a published needle-to-arm figure for large quilts, or you want the knee lifter, walking foot and wide table included: Juki lists those as standard on the F600.",
+      "keySpec": "106 stitches · 900 spm · throat [verify] · box feed · 21.6 lb",
       "strengths": [
-        "Same box feed, 7 mm stitch width, 900 spm and 130/705H needle system as the F600.",
-        "16 sensor buttonholes that owners consistently rate as the machine's best feature.",
-        "Knee lifter and automatic thread trimmer, rare at this price."
+        "Juki confirms 900 spm, a 7 mm width, a 5 mm length, box feed and the 130R / 705H needle system.",
+        "16 sensor buttonholes that PatternReview owners single out as consistent, in a machine they describe as quiet.",
+        "Owners report thick layers feeding well on the box feed, though a few report glitches on very heavy fabric."
       ],
       "weaknesses": [
-        "Accessory set is thin; the walking foot and wide table that ship with the F600 are extras here unless bundled.",
-        "8 in arm and 900 spm, the same limits as the F600 for quilting.",
-        "Single LED light versus dual on the F600, per the comparison chart."
+        "The accessory set is thin: Juki lists the knee lifter, wide table, walking foot and quilt foot as not standard, and owners report buying them separately.",
+        "Juki publishes no throat figure; the 8 in on dealer sheets and the 9 in in one Amazon title are not Juki's, and Juki's only arm number is a 4.5 in underarm height.",
+        "Owner threads include breakage reports: a broken bobbin gear and a former owner calling it a lemon. Reddit skews toward help requests, so read these with care."
       ],
       "checks": [
         {
-          "title": "Base machine or bonus package",
-          "body": "Sewing Machines Plus and Amazon sell bundles that add the table, walking foot or feet. Dealers disagree on whether a table is in the standard box. Read the contents list."
+          "title": "Base machine or bundle",
+          "body": "Amazon B00F9K1FIM is a seller's 'Quilters Package' bundle titled '9 inch Throat', rated 4.2 from 40 ratings with no review text. Its rating is not a rating of the base machine and its contents are the seller's. Read the contents list."
         },
         {
-          "title": "Price gap to the F600",
-          "body": "At $799 versus roughly $1,399, the F600 adds 119 stitches, a font, a second LED and about $200 of accessories. If you need the accessories, the gap narrows fast."
+          "title": "List price against sightings",
+          "body": "Juki lists $1,799 for the F300, $1,999 for the F400 and $2,369 for the F600. Our $799 is a Michaels sighting on 2026-09-29, and dealers set their own prices. Compare what is in the box at each price."
         },
         {
-          "title": "Ignore the 9 in throat claim",
-          "body": "An Amazon title says 9 in. Dealer spec sheets say 8 in to the right of the needle and 4.4 in high. Use 8 in."
+          "title": "Throat is not published",
+          "body": "Juki gives no needle-to-arm figure for the F300. Dealer sheets say 8 in, one Amazon title says 9 in, and Juki's brochure shows only a 4.5 in underarm height. Ask the dealer for a measurement before buying for large quilts."
         }
       ],
       "realCost": [
-        "Walking foot if quilting",
-        "Wide extension table (13 x 21.5 in) if not bundled",
-        "130/705H needles",
-        "Hard case or cover"
+        "Knee lifter (optional on the F300)",
+        "Walking foot and quilt foot if quilting (not standard)",
+        "Wide extension table (551 mm wide; optional)",
+        "130R / 705H needles"
       ],
       "faqs": [
         {
           "q": "What is the difference between the Juki HZL-F300 and HZL-F600?",
-          "a": "Both use the same 900 spm box-feed chassis with 16 buttonholes. The F300 has 106 stitches and 3 fonts, one LED and a push-button interface; the F600 has 225 stitches, 4 fonts, dual LEDs, a dial and a larger accessory set."
+          "a": "Juki lists the F600 with 225 stitches, 4 fonts, dual LEDs and the walking foot, quilt foot, wide table and knee lifter as standard. The F300 has 106 stitches, 3 fonts and one LED, with those accessories optional. Both are 900 spm box-feed machines with 16 buttonholes."
         },
         {
           "q": "How big is the throat on the HZL-F300?",
-          "a": "8 in to the right of the needle and about 4.4 in high per dealer spec sheets. An Amazon title claiming 9 in is not supported."
+          "a": "Juki publishes no needle-to-arm figure for the F300. Dealer sheets say 8 in and one Amazon bundle title says 9 in, neither from Juki. Juki's brochure shows a 4.5 in (112 mm) underarm height and a 551 mm wide-table width, neither of which is throat."
         },
         {
           "q": "Does the HZL-F300 come with an extension table?",
-          "a": "Dealers disagree. One lists a table and knee lifter in the box; a comparison chart says no table. Bundles add a 13 x 21.5 in wide table. Check the listing."
+          "a": "Not in Juki's standard list: the wide table is optional on the F300. One dealer says a table is included and bundle listings add one, so check the contents of the listing you buy."
+        },
+        {
+          "q": "Does the HZL-F300 have a knee lifter?",
+          "a": "Juki lists the knee lifter as optional on the F300 and standard on the F400 and F600. Some dealer pages show one in the box; confirm on the listing."
         },
         {
           "q": "Is the HZL-F300 good for quilting?",
-          "a": "For piecing and small to medium quilts, owners say yes, helped by the knee lifter and drop feed. The 8 in arm limits large tops."
+          "a": "QuiltingBoard members ask the same question, and owners report piecing working well. Juki gives no throat figure, and the walking foot and quilt foot are not standard, so check the arm space against your quilt size."
         },
         {
-          "q": "Does the HZL-F300 have an automatic thread cutter?",
-          "a": "Yes, by button or by the heel of the foot controller, and an automatic needle threader."
+          "q": "How many stitches does the HZL-F300 have?",
+          "a": "106 per Juki's product page and brochure, including 16 buttonholes and 3 fonts. The shared 2009 manual says 105 on its stitch-selection page."
         },
         {
           "q": "What needles does the HZL-F300 use?",
-          "a": "Standard 130R / 705H household needles."
+          "a": "Juki lists 130R / 705H needles with a low shank."
         },
         {
           "q": "How heavy is the HZL-F300?",
-          "a": "21.6 lb on one dealer sheet, 21 lb on another."
+          "a": "21.6 lb (9.8 kg) per Juki; one dealer says 21 lb."
         },
         {
           "q": "What is the warranty on the HZL-F300?",
-          "a": "Juki America's household warranty: 5 years materials and workmanship, 2 years on motors and electrical parts, original purchaser only. One dealer adds 90 days on adjustments."
+          "a": "Juki America's FAQ gives 2 years on motors, light assembly, wiring, switches, circuit boards and speed control, and 5 years on other parts for factory defects. The wording is the same for every Juki model, and service goes through the selling dealer."
         }
       ]
     },
@@ -6724,7 +6933,12 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/review/machine/6535",
       "https://sewing.patternreview.com/review/machine/3069",
       "https://sewing.patternreview.com/SewingDiscussions/topic/130106",
-      "https://www.quiltingboard.com/main-f1/juki-hzl-f300-t118168.html"
+      "https://www.quiltingboard.com/main-f1/juki-hzl-f300-t118168.html",
+      "https://www.jukihome.com/media/catalog/product/j/u/juki_f-series_brochure_web_2.pdf",
+      "https://www.jukihome.com/media/catalog/product/h/z/hzl-f_instruction_manual.pdf",
+      "https://www.jukihome.com/faq/",
+      "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f400-exceed-quilt-pro.html",
+      "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html"
     ]
   },
   "juki-hzl-f600": {
@@ -6743,7 +6957,7 @@ export const catalogData: Record<string, CatalogEntry> = {
     "priceUsdSeen": 1399,
     "priceSeenDate": "2026-09-29",
     "priceSeenAt": "another dealer",
-    "priceNote": "Michaels",
+    "priceNote": "Michaels, one listing; another Michaels listing showed $1,499 the same day. Juki's own suggested retail is $2,369 (Juki product page, fetched 2026-10-02) and is a separate source, not a dealer price",
     "specs": {
       "stitchTypes": {
         "value": "225 stitch patterns including 16 buttonhole styles and 4 lettering fonts",
@@ -6766,8 +6980,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "throatIn": {
-        "value": 8,
-        "source": "https://meissnersewing.com/products/juki-hzl-f600-sewing-quilting-machine"
+        "value": null,
+        "source": null
       },
       "needleSystem": {
         "value": "130R / 705H",
@@ -6806,24 +7020,28 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://meissnersewing.com/products/juki-hzl-f600-sewing-quilting-machine"
       },
       "includedFeet": {
-        "value": "10 snap-on feet (patchwork, open toe, Teflon, edge sewing, zipper, blindhem, overcasting, automatic and manual buttonhole, standard), walking foot, hard case, wide extension table, knee lift lever, quilt guide, 4 bobbins, twin needles, eyelet punch, spool caps in 3 sizes, auxiliary spool pin, seam ripper, screwdriver",
-        "source": "https://sewingmachinesplus.com/products/hzl-f600"
+        "value": "12 presser feet (blind stitch, buttonhole, edge sewing, manual buttonhole, open toe, overcasting, patchwork, quilt, smooth, standard, walking, zipper), hard case, wide table, knee lift lever, 4 bobbins, eyelet punch, quilt guide, spool caps S/M/L, T-shape screwdriver, auxiliary spool pin, seam ripper, twin needles",
+        "source": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html"
       },
       "warrantyUs": {
-        "value": "5 yr mechanical, 2 yr electrical, 90 days adjustments",
-        "source": "https://www.quiltersreview.com/juki-hzl-f600/"
+        "value": "Juki America general home-machine wording: 2 years on motors, light assembly, wiring, switches, circuit boards and speed control; 5 years on all other parts; excludes consumables; original purchaser, household use; service through the selling dealer",
+        "source": "https://www.jukihome.com/warranty"
       }
     },
     "claims": [
-      "\"Quilt Pro Special\" and \"Exceed\" are Juki series names for this model tier, not ratings (manufacturer product page URL)",
-      "\"Industrial-grade stitch quality\" (dealer copy, Sewing Machines Plus)",
-      "\"Sturdier motor to help you sew thick fabrics such as denim and multiple quilting layers\" (comparison-site claim; no motor rating published)"
+      "\"Quilt Pro Special\" and \"Exceed\" are Juki series names for this model tier, not ratings (Juki product page).",
+      "Juki says the machine \"incorporates JUKI's industrial sewing machine technology to produce superior stitch quality\" and that its feeding \"can handle even the heaviest\" projects (Juki product page). No maximum fabric thickness is published.",
+      "Juki's brochure claims \"Industrial Quality Buttonholes\" and says heavy material projects such as hemming denim jeans can be sewn with ease (Juki F series brochure, dated 0904).",
+      "\"Industrial-grade stitch quality\" (dealer copy, Sewing Machines Plus).",
+      "\"Sturdier motor to help you sew thick fabrics such as denim and multiple quilting layers\" (comparison-site claim; no motor rating published)."
     ],
     "conflicts": [
-      "Throat: dealers publish 8 in to the right of the needle; a QuiltingBoard owner measured 7.75 in. Catalog uses 8.0 in (dealer spec) and notes the owner measurement.",
+      "Throat: Juki publishes no throat, needle-to-arm or arm-size figure for this model. Dealers quote 8 in to the right of the needle and one QuiltingBoard owner measured about 7.75 in, so we hold the throat as [verify]. The Juki brochure marks 551 mm and 112 mm around a quilt on the wide table without defining them, and we do not read either as a throat figure.",
+      "Price: Juki lists a $2,369 suggested retail price (dealer pricing only) on its product page, while Michaels showed $1,399 and $1,499 on 2026-09-29 and a review site quoted $1,499 as MSRP. These are separate sources and we do not treat any of them as a firm street price.",
+      "Warranty: Juki America's general warranty text gives 2 years on motor and electrical parts and 5 years on other parts, with no '90 days adjustments' term. Only dealers state the 90 days, so it is dropped from our spec.",
+      "In the box: Juki's page lists 12 presser feet including a quilt foot and calls one foot 'smooth', where our earlier dealer-sourced list had 10 feet and called it 'Teflon'. We use Juki's names and count.",
       "Stitch count: one Sewing Machines Plus snippet says 255 stitches; Juki and every other dealer say 225. Treated as a typo.",
-      "Price: Michaels shows $1,399.00 on one listing and $1,499.00 on another; a review site quotes MSRP $1,499 with street prices $100 to $300 lower. Sewing Machines Plus lists the machine on three URLs but no price appeared in snippets. Catalog uses $1,399.00 flagged dealer-variable.",
-      "Dimensions: 17.5 W x 11.5 H x 8.25 D in appears on dealer pages; not confirmed from jukihome.com in snippets."
+      "Motor: Juki publishes no motor type, wattage or rating in the page, brochure or manual, so the motor stays [verify]."
     ],
     "ownerThemes": [
       {
@@ -6876,76 +7094,84 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The HZL-F600 is the fully kitted version of Juki's box-feed computerized chassis: 225 stitches, knee lift, auto trimmer, walking foot and table in the box, on an 8 in arm.",
-      "whoFor": "A quilter or garment sewer who wants one computerized machine with the accessories already included and does not need more than 8 in of arm.",
-      "skipIf": "You quilt large tops on the machine and need a 10 in or longer arm, or you only ever sew straight and would rather have the 1,500 spm TL series.",
-      "keySpec": "225 stitches · 900 spm · 8 in throat · box feed · 21.6 lb",
+      "verdict": "A box-feed computerized HZL with 225 stitches, 900 spm, walking foot, wide table and knee lift listed in the box; Juki publishes no throat figure.",
+      "whoFor": "A quilter or garment sewer who wants one computerized machine with the accessories included and can accept an unverified, standard-size arm.",
+      "skipIf": "You quilt large tops and need a published 10 in or longer arm, or you only sew straight and would rather have the 1,500 spm TL series.",
+      "keySpec": "225 stitches · 900 spm · throat [verify] · box feed · 21.6 lb",
       "strengths": [
-        "Walking foot, wide extension table, hard case and knee lifter ship in the box rather than as add-ons.",
-        "Automatic thread trimmer on the foot controller heel plus 16 sensor buttonholes.",
-        "Box feed with a 7-point feed dog, the feature owners credit for even feeding on knits and layered denim."
+        "Juki's page lists 12 presser feet including walking and quilt feet, a hard case, a wide table and a knee lift lever as standard.",
+        "Owners report it sews denim and heavy quilting layers, with a few noting a very thick seam may need hand walking.",
+        "Automatic thread trimmer by button or foot controller heel, plus 16 sensor buttonholes and two LED lights per Juki's brochure."
       ],
       "weaknesses": [
-        "8 in arm, and one owner measured closer to 7.75 in; owners doing heavy free motion quilting call it tight.",
-        "900 spm, slower than the TL series and most industrials.",
-        "Low-mounted buttons and power cord make cabinet installation awkward per owners."
+        "Juki publishes no throat figure and no motor rating, so reach and power are owner reports, not specs.",
+        "Owners report occasional trimmer misses and a thread nest at the start of the next seam.",
+        "Owners report timing, bobbin case and tension problems, though forum threads over-represent people asking for help."
       ],
       "checks": [
         {
-          "title": "Which Michaels or dealer listing",
-          "body": "The same retailer showed $1,399 and $1,499 for the same machine on the same day. Street pricing runs $100 to $300 under the $1,499 MSRP; do not pay list."
+          "title": "Price sources differ",
+          "body": "Juki lists a $2,369 suggested retail and says to ask a dealer. Michaels showed $1,399 and $1,499 on 2026-09-29. Compare dated listings and confirm what is included."
         },
         {
-          "title": "F300 or F600",
-          "body": "The F300 shares the chassis, speed, box feed and needle system with 106 stitches and fewer accessories. If you already own a walking foot and table, price the gap carefully."
+          "title": "Throat is unverified",
+          "body": "Juki gives no needle-to-arm figure. Dealers say 8 in and one owner measured about 7.75 in. Ask for the measurement before buying for large quilts."
         },
         {
-          "title": "Throat expectations",
-          "body": "Dealers say 8 in; an owner measured 7.75 in. Either way it is a standard-arm machine, not a mid-arm. Plan quilt size and rolling accordingly."
+          "title": "F300 or F400 instead",
+          "body": "Per Juki pages, the F400 lists $1,999 with 157 stitches and the F300 lists $1,799 with 106 stitches. The brochure shows the wide table optional on both. Price the accessory gap."
         }
       ],
       "realCost": [
-        "130/705H needles",
-        "Class 15 bobbins",
-        "Quilting or free motion foot if not in the 10-foot set",
-        "Cabinet insert if you drop it into a table"
+        "130R / 705H needles",
+        "Class 15 bobbins beyond the 4 supplied",
+        "Cabinet insert if you drop it into a table; owners say the low-mounted buttons and cord make fitting awkward",
+        "Dealer service: Juki's warranty is through the selling dealer and excludes routine service and tension adjustment"
       ],
       "faqs": [
         {
           "q": "How big is the throat on the Juki HZL-F600?",
-          "a": "Dealers publish 8 in to the right of the needle. One owner measured about 7.75 in. It is a standard-arm machine."
+          "a": "Juki does not publish one. Dealers quote 8 in to the right of the needle and one QuiltingBoard owner measured about 7.75 in, so we show it as [verify]. Juki's brochure marks 551 mm and 112 mm on a wide-table picture without defining them."
         },
         {
           "q": "Is the HZL-F600 good for free motion quilting?",
-          "a": "Owners are split. It drops the feed dogs and comes with a knee lifter, and several owners quilt on it happily; others say the harp is too small for large tops."
+          "a": "Owners are split. It has a drop feed switch and a knee lifter, and several owners quilt on it; others say the harp is small for large tops. With no published throat, check the size yourself."
         },
         {
           "q": "What is the difference between the HZL-F300 and HZL-F600?",
-          "a": "Both run 900 spm with box feed and 16 buttonholes. The F600 has 225 stitches and 4 fonts versus 106 and 3, dual LEDs, a dial interface and a larger accessory set including the walking foot and wide table."
+          "a": "Per Juki pages and brochure: 225 stitches and 4 fonts against 106 and 3, two LED lights against one, random stitches on the F600 only, and the wide table standard on the F600 and optional on the F300. Speed, needle, weight and size are identical. Juki lists $2,369 against $1,799."
         },
         {
           "q": "Does the HZL-F600 come with a walking foot and extension table?",
-          "a": "Yes. The box lists 10 snap-on feet, a walking foot, a wide extension table, a hard case and a knee lift lever."
+          "a": "Yes per Juki's page: 12 presser feet including a walking foot and a quilt foot, a wide table, a hard case and a knee lift lever. Juki calls one foot 'smooth'; some dealers call it Teflon."
         },
         {
-          "q": "Can the HZL-F600 sew denim?",
-          "a": "Owners report sewing a layer of denim over two layers of cotton and dealer demos on folded denim. Juki does not publish a motor rating, so treat thickness claims as owner reports."
+          "q": "Can the HZL-F600 sew denim and thick layers?",
+          "a": "Owners report denim aprons, four layers of denim and multi-layer quilting cotton, and one says a very thick seam may need hand walking. Juki's brochure claims heavy projects like denim hems sew with ease and publishes no motor rating or maximum thickness."
         },
         {
           "q": "What needles does the HZL-F600 use?",
-          "a": "Standard 130R / 705H household needles."
+          "a": "130R / 705H, low shank, per Juki's page."
         },
         {
           "q": "How heavy is the HZL-F600?",
-          "a": "21.6 lb per dealer spec sheets."
+          "a": "21.6 lb (9.8 kg) per Juki's page, brochure and manual, the same as the F300 and F400."
         },
         {
           "q": "What is the warranty on the HZL-F600?",
-          "a": "Juki America's household warranty as restated by dealers: 5 years mechanical, 2 years electrical, 90 days adjustments, for the original purchaser through an authorized dealer."
+          "a": "Juki America's general home-machine wording: 2 years on motor and electrical parts, 5 years on all other parts, original purchaser, household use, service through the selling dealer. Juki's text has no 90-day adjustment term; only dealers state that."
         },
         {
           "q": "Does the HZL-F600 have an automatic thread cutter?",
-          "a": "Yes. It trims by button or by pressing the heel of the foot controller."
+          "a": "Yes. It trims by button or by pressing the heel of the foot controller. Some owners report occasional misses and a small thread nest at the next seam start."
+        },
+        {
+          "q": "What is the HZL-F600 manual and are the Juki documents current?",
+          "a": "The manual is a 104-page image PDF shared by the F600, F400 and F300, read by OCR, with a 2009 copyright. The brochure is dated 0904. Both are family documents; the product page is current."
+        },
+        {
+          "q": "What do buyers rate it?",
+          "a": "One Amazon listing (B00JGCAHWE) showed 4.5 from 235 ratings. A second listing (B0038KOX8O, 4.5 from 299) was not fetched. Sewing Machines Plus showed 4.81 from 153. Retailer ratings are seller-collected and skew positive."
         }
       ]
     },
@@ -6967,7 +7193,14 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/SewingDiscussions/topic/83738",
       "https://sewing.patternreview.com/SewingDiscussions/topic/110804",
       "https://sewing.patternreview.com/review/machine/7518",
-      "https://jukijunkies.com/juki-f-series-machines-comparison-chart/"
+      "https://jukijunkies.com/juki-f-series-machines-comparison-chart/",
+      "https://www.jukihome.com/media/catalog/product/h/z/hzl-f_instruction_manual_web.pdf",
+      "https://www.jukihome.com/media/catalog/product/j/u/juki_f-series_brochure_web.pdf",
+      "https://www.jukihome.com/warranty",
+      "https://www.jukihome.com/faq/",
+      "https://www.jukihome.com/products/sewing/hzl-f400-exceed-quilt-pro.html",
+      "https://www.jukihome.com/products/sewing/hzl-f300-exceed-home-deco.html",
+      "https://www.amazon.com/dp/B00JGCAHWE"
     ]
   },
   "juki-mo-1000": {
@@ -7004,24 +7237,24 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.jukihome.com/products/serging/mo-1000.html"
       },
       "differentialFeed": {
-        "value": "Knob-adjustable; ratio not published in results captured",
+        "value": "0.7 to 2.0 ratio (page: 0.02 to 0.1 in), knob-adjusted, can be changed while sewing",
         "source": "https://www.jukihome.com/products/serging/mo-1000.html"
       },
       "throatIn": {
-        "value": "Throat height 72.4 mm (2.85 in)",
-        "source": "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_brochure_web.pdf"
-      },
-      "needleSystem": {
         "value": null,
         "source": null
       },
+      "needleSystem": {
+        "value": "Household machine size 11 or 14 per Juki's page and brochure; no needle system code named. Manual (read by OCR: verify against the PDF) says needles No. 70 to 90.",
+        "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+      },
       "presserFootLift": {
-        "value": "Adjustable presser foot pressure; lift height not published",
+        "value": "Manual max 8 mm (0.3 in) per Juki's page; brochure lists 5 mm with max 8 mm (brochure read by OCR: verify against the PDF). Presser foot pressure adjustable.",
         "source": "https://www.jukihome.com/products/serging/mo-1000.html"
       },
       "threadTrimmer": {
-        "value": null,
-        "source": null
+        "value": "Juki lists a 'Thread trimming blade for easy thread cutting'; the wording describes a blade, not an automatic trimmer",
+        "source": "https://www.jukihome.com/products/serging/mo-1000.html"
       },
       "feedSystem": {
         "value": "Differential feed; knife can be disengaged mid-seam",
@@ -7040,31 +7273,40 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "weightLb": {
-        "value": null,
-        "source": null
+        "value": 20,
+        "source": "https://www.jukihome.com/products/serging/mo-1000.html"
       },
       "dimensionsIn": {
-        "value": null,
-        "source": null
+        "value": "13 W x 11 D x 12.25 H in (Juki page); brochure 330 x 280 x 310 mm (brochure read by OCR: verify against the PDF)",
+        "source": "https://www.jukihome.com/products/serging/mo-1000.html"
       },
       "includedFeet": {
-        "value": "Standard foot; accessory list: instructional DVD, thread nets, oiler, needle set, tweezers, scrap catcher, looper threader, spool caps, screwdriver, brush/needle inserter, dust cover, electronic foot control, foam thread pad, cone holders",
-        "source": "https://www.quiltersreview.com/juki-mo-1000/"
+        "value": "Standard presser foot. Juki's list: waste collector, large and small screwdrivers, spare lower knife, spool caps, oiler, thread nets, vinyl cover, needle pack, tweezer, brush and needle inserter, needle threader, guide bar, 2/3 thread selector, accessory pouch, instruction manual, foot control and power cord.",
+        "source": "https://www.jukihome.com/products/serging/mo-1000.html"
       },
       "warrantyUs": {
-        "value": null,
-        "source": null
+        "value": "Juki America general home-machine terms: 2 years on motors, light assembly, wiring, switches, circuit boards and speed control; 5 years on all other parts for factory defects; service through the selling dealer. Not stated as model-specific; wording read from a search excerpt of the Juki FAQ.",
+        "source": "https://www.jukihome.com/faq/"
       }
     },
     "claims": [
-      "\"Threads itself at the push of a button using only a burst of air\" (manufacturer claim, product page)",
-      "\"Designed to reduce vibration while sewing\" (manufacturer claim, product page)",
-      "\"You do not need to thread in order\" (manufacturer claim, product page)"
+      "\"Effortless threading with the power of the air\" (Juki product page claim)",
+      "\"you do not need to thread in order\" (Juki product page claim)",
+      "\"The sound reducing design minimizes the operating noise\" and \"sews with less vibration\" (Juki brochure claims)",
+      "\"Amazingly Quiet Operation\" (Juki product page claim)",
+      "\"Ample Fabric Throat Area\" (Juki product page claim; the page gives a throat height of 72.4 mm, not a needle-to-arm figure)"
     ],
     "conflicts": [
-      "Weight: 20 lb (Walmart/dealer listing) vs 23 lb (sergerpro review) vs 25.4 lb (one review). Juki page value not captured. Left null; catalog renders [verify].",
-      "Dimensions: 15.4 x 15.2 x 16.3 in appears in a review and reads as carton size. Not recorded.",
-      "Warranty: one dealer states '1 year service warranty'; Juki's standard household terms (5 yr mechanical, 2 yr electrical) were not confirmed for this model in results. Left null."
+      "Differential feed: our earlier spec said the ratio was not published; Juki's page and brochure both give 0.7 to 2.0.",
+      "Presser foot lift: our earlier spec said lift height was not published; Juki's page gives 8 mm maximum while the brochure lists 5 mm with 8 mm as the max (OCR: verify against the PDF).",
+      "Throat: Juki gives only a throat height of 72.4 mm (2.85 in) for 'Ample Fabric Throat Area' and no needle-to-arm figure, so the throat field stays [verify]; the brochure's 9.95 mm needle-to-knife distance (OCR: verify against the PDF) is a different measure.",
+      "Weight: Juki's page says 20 lb and the brochure says 9.0 kg (19.8 lb); reviews gave 23 lb and 25.4 lb, which Juki's own figures do not support.",
+      "Dimensions: Juki's page says 13 x 11 x 12.25 in; a review gave 15.4 x 15.2 x 16.3 in, which reads as carton size and is not used.",
+      "Warranty: Juki's general household terms are 2 years on motors and electrics and 5 years on other parts, while one dealer states a 1 year service warranty; the Juki wording is general, not MO-1000 specific.",
+      "In the box: our earlier list (instructional DVD, foam thread pad, cone holders) came from a review site and is not on Juki's list, which adds a spare lower knife, guide bar and 2/3 thread selector.",
+      "Claims: two quotes in our earlier spec ('burst of air' and 'Designed to reduce vibration while sewing') are not verbatim on Juki's page or brochure and were removed; Juki's brochure says 'sews with less vibration'.",
+      "Thread insertion length for air threading: Juki's page says 1/2 to 1 in, the brochure says 1 to 2 cm (OCR: verify against the PDF).",
+      "Price: Juki lists a suggested retail price of $2,299 and a dealer showed about $1,499 on 2026-09-29; the gap is price drift between MSRP and one dealer, not a fact about either."
     ],
     "ownerThemes": [
       {
@@ -7112,41 +7354,82 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The MO-1000 is the affordable route to jet air looper threading, with the same 1,500 spm and 2/3/4 thread range as Juki's manual-threading models.",
-      "whoFor": "A sewist who changes thread colors often, or who has given up on manual looper threading, and can spend around $1,500.",
-      "skipIf": "You thread once and sew for weeks; the MO-654DE gives the same stitches for far less.",
-      "keySpec": "2/3/4 thread · jet air loopers · 1,500 spm · 72.4 mm throat height",
+      "verdict": "An air-threading 2/3/4 thread serger at 1,500 spm; Juki's MSRP is $2,299, owner evidence is thin, and Juki gives a throat height, not a needle-to-arm figure.",
+      "whoFor": "A sewist who changes thread colors often and wants push-button looper threading, and who will check the dealer price against Juki's $2,299 suggested retail.",
+      "skipIf": "You thread once and sew for weeks; the Juki MO-654DE, per Juki's pages, is manual threading with a lower suggested price ($1,399) and a 6 mm maximum overlock width.",
+      "keySpec": "2/3/4 thread · air threading · 1,500 spm · 0.7 to 2.0 differential",
       "strengths": [
-        "Push-button air threading for both loopers, in any order, plus an automatic needle threader.",
-        "Overlock width to 9 mm and stitch length 1 to 4 mm, per Juki.",
-        "72.4 mm throat height published by Juki, more room than typical compact sergers."
+        "Owners report threading as quick and easy: threading and loopers was the largest theme, with 13 of 20 voices positive, mostly retailer reviews plus some Reddit.",
+        "Owners at retailers report a quiet machine with little table vibration (6 voices, all from retailer reviews); Juki makes its own noise and vibration claims.",
+        "Juki publishes a 9 mm maximum overlock width and a 0.7 to 2.0 differential feed range, both wider than the MO-654DE's 6 mm width on Juki's pages."
       ],
       "weaknesses": [
-        "Weight is unpublished on the Juki page captured, and dealer figures range from 20 to 25.4 lb.",
-        "Warranty terms for this model were not confirmed in results.",
-        "Differential feed ratio is not published, only 'knob-adjustable'."
+        "Owners report the needle threader is the weak point: needle threading was described as harder than the loopers, and one retailer review had a plastic threader break twice.",
+        "Owners report defects and arrival problems in 9 voices on reliability, including a dead-on-arrival return and a broken thread holder; the sample is small and Reddit skews toward people asking for help.",
+        "Juki's suggested retail is $2,299, well above the MO-654DE ($1,399) and MO-644D ($1,199); a dealer showed about $1,499 on 2026-09-29."
       ],
       "checks": [
         {
-          "title": "Air system maintenance",
-          "body": "Owners report tie-on thread changes can leave a looper thread out of its tension disk. Plan to rethread with the air button rather than pulling through."
+          "title": "Throat is height, not needle to arm",
+          "body": "Juki's 72.4 mm is a throat height with no needle-to-arm figure behind it, so do not read it as sewing room to the right of the needle. Ask the dealer for a measured needle-to-body figure."
         },
         {
-          "title": "Box contents versus dealer kit",
-          "body": "Juki's list runs from DVD and thread nets to a scrap catcher and foot control. Sewing Machines Plus also sells a kit listing; confirm which one is priced at $1,499."
+          "title": "Price and warranty",
+          "body": "Juki lists $2,299 and one dealer showed about $1,499, so confirm the price in writing. Juki's general terms are 2 years on motors and electrics and 5 years on other parts; one dealer says 1 year, so get the terms for this machine in writing."
         },
         {
-          "title": "Warranty and service",
-          "body": "Confirm the seller is an authorized Juki dealer and get the warranty terms in writing; one dealer quoted a one-year service warranty."
+          "title": "Air threading in practice",
+          "body": "Owners report that a front cover will not close with the air switch engaged and that tying on thread can leave a looper out of its tension disk. Ask for a demonstration of the threader and cover, and check what is in the box against Juki's list."
         }
       ],
       "realCost": [
-        "4 cones of serger thread",
-        "Household needles once the system is confirmed from the manual",
-        "Serger oil",
-        "Compressed-air can or brush for keeping air ports clear of lint"
+        "Serger thread: the 4 thread stitch uses 4 cones, and Juki's page lists thread nets in the box",
+        "Needles: Juki's page says household size 11 or 14, so buy that size when replacing",
+        "Serger oil: Juki lists an oiler in the box, and the manual covers oiling",
+        "A dealer visit for service: Juki says warranty service goes through the selling dealer"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "Is the Juki MO-1000 air threaded?",
+          "a": "Yes. Juki's page describes push-button air threading for both loopers, in any order, plus an automatic needle threader. Juki's wording is a claim; owners report the needle threader is the less reliable part."
+        },
+        {
+          "q": "What is the MO-1000 throat space?",
+          "a": "Juki publishes a throat height of 72.4 mm (2.85 in) and calls it 'Ample Fabric Throat Area'. It gives no needle-to-arm figure, so the needle-to-body throat stays [verify] here."
+        },
+        {
+          "q": "How much does the MO-1000 weigh and how big is it?",
+          "a": "Juki's page gives 20 lb and 13 x 11 x 12.25 in (W x D x H). The brochure gives 9.0 kg (19.8 lb) and 330 x 280 x 310 mm. Larger figures in reviews read as shipping weight and carton size."
+        },
+        {
+          "q": "What is the MO-1000 differential feed range?",
+          "a": "Juki gives 0.7 to 2.0 on its page and brochure, adjustable with a knob while sewing."
+        },
+        {
+          "q": "What is the MO-1000 warranty?",
+          "a": "Juki America's general home-machine wording is 2 years on motors, light assembly, wiring, switches, circuit boards and speed control, and 5 years on other parts for factory defects, with service through the selling dealer. That wording is not stated as MO-1000 specific, and one dealer quotes a 1 year service warranty. Get the terms in writing."
+        },
+        {
+          "q": "What needles does the MO-1000 use?",
+          "a": "Juki's page and brochure say household machine size 11 or 14 and name no needle system code. The manual, read by OCR (verify against the PDF), gives needle guidance of No. 70 to 90."
+        },
+        {
+          "q": "What is in the box with the MO-1000?",
+          "a": "Juki lists a standard presser foot, waste collector, spare lower knife, guide bar, 2/3 thread selector, screwdrivers, oiler, thread nets, needle pack, tools, accessory pouch, foot control and manual. An instructional DVD, foam thread pad and cone holders are not on Juki's list."
+        },
+        {
+          "q": "How does the MO-1000 compare with the MO-654DE and MO-644D?",
+          "a": "From Juki's pages: the MO-654DE ($1,399 suggested) and MO-644D ($1,199) thread the loopers manually, have a 6 mm maximum overlock width against 9 mm, and weigh 15.5 lb and 15 lb against 20 lb. The MO-1000 lists at $2,299."
+        },
+        {
+          "q": "How much owner evidence is there for the MO-1000?",
+          "a": "Limited. The rollup holds 35 voices, 28 of them first-hand, drawn from Reddit and retailer reviews, and only 3 Reddit threads name the model in the title. Amazon shows 4.3 from 172 ratings and Sewing Machines Plus 4.34 from 29. Treat themes as signals, not failure rates."
+        },
+        {
+          "q": "Is the MO-1000 discontinued?",
+          "a": "Juki's page presents it for sale with a dealer lookup and does not say it is discontinued."
+        }
+      ]
     },
     "sources": [
       "https://www.jukihome.com/products/serging/mo-1000.html",
@@ -7157,7 +7440,12 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/review/machine/5344",
       "https://sewing.patternreview.com/SewingDiscussions/topic/82262",
       "https://clothhabit.com/choosing-a-new-serger/",
-      "https://sewcanshe.com/2016-10-3-product-review-juki-mo-1000-serger-with-jet-air/"
+      "https://sewcanshe.com/2016-10-3-product-review-juki-mo-1000-serger-with-jet-air/",
+      "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_instruction_manual.pdf",
+      "https://www.jukihome.com/faq/",
+      "https://www.jukihome.com/products/serging/mo-654de.html",
+      "https://www.jukihome.com/products/serging/mo-644d.html",
+      "https://www.amazon.com/dp/B00G2RX1BA"
     ]
   },
   "juki-mo-644d": {
@@ -10318,8 +10606,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "maxSpm": {
-        "value": 1100,
-        "source": "https://www.amazon.com/SINGER-HD6700-Electronic-Machine-Applications/dp/B08JH88BRN"
+        "value": 1000,
+        "source": "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf"
       },
       "threads": {
         "value": null,
@@ -10330,20 +10618,20 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "throatIn": {
-        "value": 6.4,
-        "source": "https://www.sewingmachinesplus.com/230255112.php"
+        "value": null,
+        "source": null
       },
       "needleSystem": {
         "value": null,
         "source": null
       },
       "presserFootLift": {
-        "value": null,
-        "source": null
+        "value": "6 mm (shared HD 6700C and HD 6705C manual)",
+        "source": "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf"
       },
       "threadTrimmer": {
-        "value": "None; a tie-off button is included and the automatic thread cutter is listed as a 6800C feature",
-        "source": "https://bobbinhub.com/singer-6700c-vs-6800c/"
+        "value": "No thread cutter listed; a tie-off button is listed; the manual lists a hand thread knife for trimming ends (shared manual)",
+        "source": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
       },
       "feedSystem": {
         "value": null,
@@ -10354,8 +10642,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.kenssewingcenter.com/singer-heavy-duty-6700c-sewing-machine.html"
       },
       "motor": {
-        "value": "Singer describes a powerful motor with extra high sewing speed; wattage not published",
-        "source": "https://www.sewingmachinesplus.com/230255112.php"
+        "value": "Singer describes a powerful motor with extra high sewing speed; rated 0.7 A, 120 V, 60 Hz; wattage not published",
+        "source": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
       },
       "frame": {
         "value": "Full metal interior frame, stainless steel bedplate",
@@ -10363,33 +10651,41 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "weightLb": {
         "value": 15.4,
-        "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-66700c-mechanical-sewing-machine"
+        "source": "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf"
       },
       "dimensionsIn": {
-        "value": "17.5 x 7.5 x 11 (W x D x H, Amazon listing)",
-        "source": "https://www.amazon.com/SINGER-HD6700-Electronic-Machine-Applications/dp/B08JH88BRN"
+        "value": "17.3 x 7.5 x 10.9 (W x D x H, Singer product page; Amazon lists 17.5 x 7.5 x 11)",
+        "source": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
       },
       "includedFeet": {
         "value": "10 presser feet: all purpose, zipper, buttonhole, blind hem, button sewing, Sew Easy, satin stitch, even feed (walking), open toe and cording; 4 Class 15 transparent bobbins, large and small spool holders, spool pin felt, auxiliary spool pin, L screwdriver, brush and seam ripper, soft cover, pack of needles",
         "source": "https://www.amazon.com/SINGER-HD6700-Electronic-Machine-Applications/dp/B08JH88BRN"
       },
       "warrantyUs": {
-        "value": "25 yr limited on machine head, 2 yr on motor, light, wiring, switches, speed control and electronics, 90 days on adjustments, belts, rings, bulbs and attachments",
-        "source": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+        "value": "Limited 25/1 per Singer's product page and linked PDF: 25 years on the frame, 1 year on parts and adjustments; original purchaser, authorized sellers, household use",
+        "source": "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-d3361c80-1e88-4d01-9381-fe3e62f20ef4-singer%2025-1%20warranty%20471068326e.pdf"
       }
     },
     "claims": [
-      "\"Heavy Duty\" (Singer series name, product page; it is a model line, not a duty rating)",
-      "\"a workhorse with endless possibilities\" (manufacturer claim, repeated on the Sewing Machines Plus listing)",
-      "\"Strong Motor with Enhanced Piercing Power\" (manufacturer claim in the Walmart listing title)",
-      "\"able to sew through thick fabrics like denim and leather with ease\" (manufacturer claim, singer.com product page)",
-      "\"411 stitch applications\" (manufacturer count of techniques, not of built-in stitch patterns)"
+      "\"Heavy Duty\" (Singer series name; it is a model line, not a duty rating)",
+      "\"a workhorse with endless possibilities\" (Singer claim, repeated by dealers)",
+      "\"powerful motor\" with \"extra high sewing speed\" and \"Professional speed for faster results\" (Singer claims; no wattage published)",
+      "\"designed with your heavy duty projects in mind, from denim to canvas\" (Singer claim; no fabric thickness or layer rating published)",
+      "\"a generous C space allows you to sew larger projects like quilts with ease\" (Singer claim)",
+      "\"411 stitch applications\" (Singer count of techniques, not of built-in stitch patterns)",
+      "\"Up to 25 Year Warranty Coverage\" (Singer wording; the split is 25 years frame, 1 year parts)"
     ],
     "conflicts": [
-      "Stitch count: Singer's page is quoted as 200 built-in stitch applications while Amazon, Walmart and dealer titles say 411 stitch applications. No source gives a plain count of stitch patterns. Catalog leaves stitchCount null and quotes both numbers.",
-      "Weight: 15.4 lb (parts dealer) vs 14.6 lb (Amazon) vs 16.3 lb (a review blog). Catalog will use 15.4 lb and flag [verify].",
-      "Type label: sewingpartsonline titles the page 'Heavy Duty 6700C Mechanical Sewing Machine'. Singer, Amazon and every other source call it computerized. Treated as a dealer typo.",
-      "Buttonhole styles: 7 (Ken's Sewing Center) vs '1-step buttonhole' with no count (Amazon title). Catalog will use 7 flagged [verify]."
+      "Speed: Singer's product page says 1100/min; the shared HD 6700C and HD 6705C manual says 1000 +/- 50 rpm. We use the manual figure; Amazon and dealers repeat 1,100.",
+      "Warranty: Singer's product page and linked PDF say 25/1 (25-year frame, 1-year parts); our earlier 25/2/90 is a tier Singer assigns to the 4452, 4432 and 3342, and Singer's coverage page does not name the 6700C. Amazon shows '1 Year Manufacturer'. The PDF names no model.",
+      "Needle up/down: the shared manual documents a Needle Up/Down button, the 6700C product page does not list it, and the 6800C and 6620C pages do. Our earlier 'none' came from a blog. Unresolved, so left [verify].",
+      "Stitch count: Singer's comparison page gives 200 built-in stitches and 411 applications; the product page gives 411 applications, and its prose also says 586, a figure that matches the 6800C page. Left [verify]; 586 is not used.",
+      "Lettering: Singer's product page lists 1 lettering font and its comparison page lists 2; the manual shows a Block Font at 7 mm letter height.",
+      "Throat: 6.4 in is Singer's 'needle to tower' figure, not stated as needle to body, so throat is [verify] on the rule 11 scale.",
+      "Weight: 7 kg (15.4 lb) in the shared manual against 14.6 lb on Amazon and 16.3 lb on one blog.",
+      "Start/stop: the shared manual documents a Start/Stop button; the product page does not list one. Unverified for the 6700C alone.",
+      "Sibling pages: Singer's comparison page gives the 6800C 8.3 in of throat and 1,050 spm while its 6800C product page says 6.4 in and 1100/min; read sibling rows with that in mind.",
+      "Page status on 2026-10-02 (page wording only): the Singer 6600C page returned 404 and the 6800C and 6620C pages read Out of Stock; the 6700C page showed the machine for sale."
     ],
     "ownerThemes": [
       {
@@ -10408,7 +10704,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://sewing.patternreview.com/SewingDiscussions/topic/116413"
       }
     ],
-    "evidence": "mixed",
+    "evidence": "owner",
     "buyerQuestions": [
       "What is the difference between the Singer 6700C and 6800C?",
       "Does the Singer 6700C have a thread cutter?",
@@ -10437,76 +10733,87 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The 6700C is the middle of Singer's computerized Heavy Duty line, adding lettering, a speed slider and a 10-foot kit with a walking foot to the 6600C head while leaving the thread cutter to the 6800C.",
-      "whoFor": "A beginner or returning sewer who wants a walking foot, speed control and monogram lettering on a 1,100 spm metal-frame machine under $350.",
-      "skipIf": "You want an automatic thread cutter or needle up/down button, or you would rather have dials than menus on a heavy fabric machine.",
-      "keySpec": "1,100 spm · 6.4 in throat · 10 feet incl. walking foot · 15.4 lb",
+      "verdict": "A metal-frame computerized machine with 10 feet and a walking foot, but Singer's own pages disagree on speed, stitch count and needle up/down.",
+      "whoFor": "A beginner or returning sewer who wants a walking foot, a speed lever and lettering on a metal-frame machine.",
+      "skipIf": "You want a confirmed thread cutter or needle up/down button, a plain stitch count before you buy, or dials rather than an LCD on a heavy fabric machine.",
+      "keySpec": "1,000 rpm (manual) · 6.4 in needle to tower · 10 feet incl. walking foot · 15.4 lb",
       "strengths": [
-        "10 presser feet including even feed, open toe and cording feet on Singer's accessory list.",
-        "Speed control slider and adjustable presser foot pressure, both absent on the 6600C.",
-        "Same 6.4 in throat and 1,100 spm as the 6800C at a lower price."
+        "Singer's accessory list has 10 presser feet, including even feed (walking), open toe and cording feet, plus 4 Class 15 bobbins and a soft cover.",
+        "Singer lists a speed control lever that caps the sewing speed, adjustable presser foot pressure per the dealer listing, and 7 one-step buttonhole styles.",
+        "Singer describes a metal interior frame and stainless steel bed plate (a maker claim, not a duty rating)."
       ],
       "weaknesses": [
-        "No automatic thread cutter and no needle up/down button.",
-        "Stitch count is marketed as 411 applications with no plain count of patterns.",
-        "Owner help threads cluster on top thread tension on new units."
+        "Owners report threading and looping trouble (6 voices, 3 sources, including a needle threader that does not work for one Amazon reviewer).",
+        "Owners report tension problems (5 voices, 4 sources), such as a top tension dial that seems to have no effect.",
+        "Singer's product page lists no thread cutter; the 6800C page lists one."
       ],
       "checks": [
         {
-          "title": "Extension table bundle",
-          "body": "Walmart lists an HD6700EXTBUN bundle with an extension table. The base box does not include one. If quilting, price the bundle against buying the table separately."
+          "title": "Needle up/down is unresolved",
+          "body": "The shared HD 6700C and HD 6705C manual documents a Needle Up/Down button. The 6700C product page does not list it, while the 6800C and 6620C pages do. Ask the seller to confirm for this exact model."
+        },
+        {
+          "title": "Speed is 1000 or 1100",
+          "body": "Singer's product page says 1100/min; the shared manual says 1000 +/- 50 rpm. We show the manual figure and list both."
         },
         {
           "title": "Applications are not stitches",
-          "body": "411 is Singer's count of techniques. Ask the dealer for the stitch chart or check the manual to see the actual pattern list before comparing with a machine that quotes built-in stitches."
-        },
-        {
-          "title": "Tension on first use",
-          "body": "Owner threads describe looping top thread on new machines. Thread with the presser foot up and confirm the take-up lever is engaged before assuming a fault."
+          "body": "Singer's comparison page says 200 built-in stitches and 411 applications. The product page prose also says 586, which looks like the 6800C figure. Check the stitch chart in the manual before comparing counts."
         }
       ],
       "realCost": [
-        "Extension table for quilting, sold separately or in the Walmart bundle",
-        "Extra Class 15 transparent bobbins beyond the 4 included",
-        "Denim and leather needles for heavy fabric",
-        "Hard case; only a soft cover is included"
+        "Extension table for quilting, sold separately or in a bundle; the base box does not include one.",
+        "Extra Class 15 transparent bobbins beyond the 4 included.",
+        "Hard case; only a soft cover is included."
       ],
       "faqs": [
         {
           "q": "How many stitches does the Singer 6700C have?",
-          "a": "Singer markets 411 stitch applications, and its own page is quoted at 200 built-in stitch applications. Neither is a plain count of stitch patterns, so we list both and flag the row."
+          "a": "Singer's comparison page says 200 built-in stitches and 411 stitch applications. The product page says 411 applications and its prose also says 586, which looks like the 6800C number. We list the disagreement and do not state a plain count."
         },
         {
           "q": "Does the 6700C have an automatic thread cutter?",
-          "a": "No. It has a tie-off button. The automatic thread cutter and needle up/down button are 6800C features."
+          "a": "Singer's product page lists a tie-off button and no thread cutter. The 6800C page lists a Thread Cutter Button that trims top and bottom threads. The manual's thread knife is a hand cutter."
+        },
+        {
+          "q": "Does the 6700C have needle up/down?",
+          "a": "Unresolved. The shared HD 6700C and HD 6705C manual documents a Needle Up/Down button, the 6700C product page does not list one, and the 6800C and 6620C pages do. Confirm with the seller."
         },
         {
           "q": "Does the 6700C come with a walking foot?",
-          "a": "Yes. The even feed (walking) foot is one of 10 feet on the accessory list, along with open toe and cording feet."
+          "a": "Yes. The even feed (walking) foot is one of 10 feet on Singer's accessory list, along with open toe and cording feet."
         },
         {
           "q": "What is the throat space?",
-          "a": "6.4 in (163 mm) from needle to tower, per the Sewing Machines Plus listing."
+          "a": "6.4 in (163 mm), which Singer words as needle to tower. Singer does not state it as needle to body, so we treat it as [verify] on our throat scale."
+        },
+        {
+          "q": "How fast does it sew?",
+          "a": "Singer's product page says 1100/min. The shared manual says 1000 +/- 50 rpm at default length, and we use that figure."
         },
         {
           "q": "How much does it weigh?",
-          "a": "15.4 lb per the parts dealer. Amazon lists 14.6 lb and one blog 16.3 lb, so treat the figure as approximate."
+          "a": "7 kg, which is 15.4 lb, in the shared manual. Amazon lists 14.6 lb and one blog 16.3 lb."
         },
         {
           "q": "Can the 6700C sew letters?",
-          "a": "Yes. A built-in lettering font is listed for monogramming; one comparison site counts 2 fonts."
+          "a": "Yes. Singer's product page lists 1 lettering font and its comparison page lists 2. The manual shows a Block Font at 7 mm letter height."
         },
         {
           "q": "Is the 6700C good for quilting?",
-          "a": "It has a 6.4 in throat, a walking foot and a speed slider, which suits piecing and small quilts. Owner reviews call it good for quilting; the harp is small for anything larger than a lap quilt."
+          "a": "Singer claims a generous C space for larger projects like quilts. The throat is 6.4 in needle to tower, and one Walmart reviewer group calls it good for quilting. Treat larger quilts with caution."
         },
         {
           "q": "What is the warranty?",
-          "a": "25 years on the head, 2 years on motor and electronics, 90 days on adjustments and attachments, per Singer's warranty page."
+          "a": "Singer's product page and linked PDF say Limited 25/1: 25 years on the frame and 1 year on parts and adjustments. Singer's coverage page does not name the 6700C and Amazon shows 1 year."
         },
         {
           "q": "What is the difference between the 6700C and the 6800C?",
-          "a": "Same motor, frame and throat. The 6800C adds an automatic thread cutter, needle up/down, start/stop button, stitch memory and more stitches."
+          "a": "On Singer's pages the 6800C adds a thread cutter button, Needle Up/Down and more stitch applications (586 on its page). Singer's pages also disagree on the 6800C throat (6.4 in on its product page, 8.3 in on the comparison page) and speed (1100/min against 1,050)."
+        },
+        {
+          "q": "How good is the evidence on owners?",
+          "a": "Thin. We have 17 voices, 16 first-hand, from 16 Reddit threads (5 with the model in the title) and one retailer page; Amazon's 4.4 from 980 ratings is pooled across listings of this machine, and the Sewing Machines Plus page has 0 reviews. Reddit skews to help requests, so problems are over-represented."
         }
       ]
     },
@@ -10522,7 +10829,14 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://bobbinhub.com/singer-6700c-vs-6800c/",
       "https://www.justanswer.com/small-appliance/oazku-new-heavy-duty-6700c-i-ve-using-few.html",
       "https://www.walmart.com/reviews/product/454976108",
-      "https://sewing.patternreview.com/SewingDiscussions/topic/116413"
+      "https://sewing.patternreview.com/SewingDiscussions/topic/116413",
+      "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf",
+      "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-d3361c80-1e88-4d01-9381-fe3e62f20ef4-singer%2025-1%20warranty%20471068326e.pdf",
+      "https://www.singer.com/pages/singer-good-better-best-heavy-duty",
+      "https://www.singer.com/products/singer-heavy-duty-6800c-sewing-machine",
+      "https://www.singer.com/products/singer-heavy-duty-6620c-sewing-machine",
+      "https://www.reddit.com/r/sewing/comments/1hextwu/help_singer_machine_not_working/",
+      "https://www.reddit.com/r/SewingForBeginners/comments/19exa5y/help_needed_top_stitch_issues/kjgdks8/"
     ]
   },
 };

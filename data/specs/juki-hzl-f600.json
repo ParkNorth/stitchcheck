@@ -11,9 +11,9 @@
   ],
   "manufacturerUrl": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html",
   "retailerUrl": "https://sewingmachinesplus.com/products/hzl-f600",
-  "priceUsdSeen": 1399.0,
+  "priceUsdSeen": 1399,
   "priceSeenDate": "2026-09-29",
-  "priceSeenAt": "Michaels",
+  "priceSeenAt": "Michaels, one listing; another Michaels listing showed $1,499 the same day. Juki's own suggested retail is $2,369 (Juki product page, fetched 2026-10-02) and is a separate source, not a dealer price",
   "specs": {
     "stitchTypes": {
       "value": "225 stitch patterns including 16 buttonhole styles and 4 lettering fonts",
@@ -36,8 +36,8 @@
       "source": null
     },
     "throatIn": {
-      "value": 8.0,
-      "source": "https://meissnersewing.com/products/juki-hzl-f600-sewing-quilting-machine"
+      "value": null,
+      "source": null
     },
     "needleSystem": {
       "value": "130R / 705H",
@@ -76,12 +76,12 @@
       "source": "https://meissnersewing.com/products/juki-hzl-f600-sewing-quilting-machine"
     },
     "includedFeet": {
-      "value": "10 snap-on feet (patchwork, open toe, Teflon, edge sewing, zipper, blindhem, overcasting, automatic and manual buttonhole, standard), walking foot, hard case, wide extension table, knee lift lever, quilt guide, 4 bobbins, twin needles, eyelet punch, spool caps in 3 sizes, auxiliary spool pin, seam ripper, screwdriver",
-      "source": "https://sewingmachinesplus.com/products/hzl-f600"
+      "value": "12 presser feet (blind stitch, buttonhole, edge sewing, manual buttonhole, open toe, overcasting, patchwork, quilt, smooth, standard, walking, zipper), hard case, wide table, knee lift lever, 4 bobbins, eyelet punch, quilt guide, spool caps S/M/L, T-shape screwdriver, auxiliary spool pin, seam ripper, twin needles",
+      "source": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html"
     },
     "warrantyUs": {
-      "value": "5 yr mechanical, 2 yr electrical, 90 days adjustments",
-      "source": "https://www.quiltersreview.com/juki-hzl-f600/"
+      "value": "Juki America general home-machine wording: 2 years on motors, light assembly, wiring, switches, circuit boards and speed control; 5 years on all other parts; excludes consumables; original purchaser, household use; service through the selling dealer",
+      "source": "https://www.jukihome.com/warranty"
     },
     "stitchWidthMm": {
       "value": 7,
@@ -105,15 +105,19 @@
     }
   },
   "claims": [
-    "\"Quilt Pro Special\" and \"Exceed\" are Juki series names for this model tier, not ratings (manufacturer product page URL)",
-    "\"Industrial-grade stitch quality\" (dealer copy, Sewing Machines Plus)",
-    "\"Sturdier motor to help you sew thick fabrics such as denim and multiple quilting layers\" (comparison-site claim; no motor rating published)"
+    "\"Quilt Pro Special\" and \"Exceed\" are Juki series names for this model tier, not ratings (Juki product page).",
+    "Juki says the machine \"incorporates JUKI's industrial sewing machine technology to produce superior stitch quality\" and that its feeding \"can handle even the heaviest\" projects (Juki product page). No maximum fabric thickness is published.",
+    "Juki's brochure claims \"Industrial Quality Buttonholes\" and says heavy material projects such as hemming denim jeans can be sewn with ease (Juki F series brochure, dated 0904).",
+    "\"Industrial-grade stitch quality\" (dealer copy, Sewing Machines Plus).",
+    "\"Sturdier motor to help you sew thick fabrics such as denim and multiple quilting layers\" (comparison-site claim; no motor rating published)."
   ],
   "conflicts": [
-    "Throat: dealers publish 8 in to the right of the needle; a QuiltingBoard owner measured 7.75 in. Catalog uses 8.0 in (dealer spec) and notes the owner measurement.",
+    "Throat: Juki publishes no throat, needle-to-arm or arm-size figure for this model. Dealers quote 8 in to the right of the needle and one QuiltingBoard owner measured about 7.75 in, so we hold the throat as [verify]. The Juki brochure marks 551 mm and 112 mm around a quilt on the wide table without defining them, and we do not read either as a throat figure.",
+    "Price: Juki lists a $2,369 suggested retail price (dealer pricing only) on its product page, while Michaels showed $1,399 and $1,499 on 2026-09-29 and a review site quoted $1,499 as MSRP. These are separate sources and we do not treat any of them as a firm street price.",
+    "Warranty: Juki America's general warranty text gives 2 years on motor and electrical parts and 5 years on other parts, with no '90 days adjustments' term. Only dealers state the 90 days, so it is dropped from our spec.",
+    "In the box: Juki's page lists 12 presser feet including a quilt foot and calls one foot 'smooth', where our earlier dealer-sourced list had 10 feet and called it 'Teflon'. We use Juki's names and count.",
     "Stitch count: one Sewing Machines Plus snippet says 255 stitches; Juki and every other dealer say 225. Treated as a typo.",
-    "Price: Michaels shows $1,399.00 on one listing and $1,499.00 on another; a review site quotes MSRP $1,499 with street prices $100 to $300 lower. Sewing Machines Plus lists the machine on three URLs but no price appeared in snippets. Catalog uses $1,399.00 flagged dealer-variable.",
-    "Dimensions: 17.5 W x 11.5 H x 8.25 D in appears on dealer pages; not confirmed from jukihome.com in snippets."
+    "Motor: Juki publishes no motor type, wattage or rating in the page, brochure or manual, so the motor stays [verify]."
   ],
   "ownerThemes": [
     {
@@ -183,79 +187,94 @@
     "https://sewing.patternreview.com/SewingDiscussions/topic/83738",
     "https://sewing.patternreview.com/SewingDiscussions/topic/110804",
     "https://sewing.patternreview.com/review/machine/7518",
-    "https://jukijunkies.com/juki-f-series-machines-comparison-chart/"
+    "https://jukijunkies.com/juki-f-series-machines-comparison-chart/",
+    "https://www.jukihome.com/media/catalog/product/h/z/hzl-f_instruction_manual_web.pdf",
+    "https://www.jukihome.com/media/catalog/product/j/u/juki_f-series_brochure_web.pdf",
+    "https://www.jukihome.com/warranty",
+    "https://www.jukihome.com/faq/",
+    "https://www.jukihome.com/products/sewing/hzl-f400-exceed-quilt-pro.html",
+    "https://www.jukihome.com/products/sewing/hzl-f300-exceed-home-deco.html",
+    "https://www.amazon.com/dp/B00JGCAHWE"
   ],
   "editorial": {
-    "verdict": "The HZL-F600 is the fully kitted version of Juki's box-feed computerized chassis: 225 stitches, knee lift, auto trimmer, walking foot and table in the box, on an 8 in arm.",
-    "whoFor": "A quilter or garment sewer who wants one computerized machine with the accessories already included and does not need more than 8 in of arm.",
-    "skipIf": "You quilt large tops on the machine and need a 10 in or longer arm, or you only ever sew straight and would rather have the 1,500 spm TL series.",
-    "keySpec": "225 stitches · 900 spm · 8 in throat · box feed · 21.6 lb",
+    "verdict": "A box-feed computerized HZL with 225 stitches, 900 spm, walking foot, wide table and knee lift listed in the box; Juki publishes no throat figure.",
+    "whoFor": "A quilter or garment sewer who wants one computerized machine with the accessories included and can accept an unverified, standard-size arm.",
+    "skipIf": "You quilt large tops and need a published 10 in or longer arm, or you only sew straight and would rather have the 1,500 spm TL series.",
+    "keySpec": "225 stitches · 900 spm · throat [verify] · box feed · 21.6 lb",
     "strengths": [
-      "Walking foot, wide extension table, hard case and knee lifter ship in the box rather than as add-ons.",
-      "Automatic thread trimmer on the foot controller heel plus 16 sensor buttonholes.",
-      "Box feed with a 7-point feed dog, the feature owners credit for even feeding on knits and layered denim."
+      "Juki's page lists 12 presser feet including walking and quilt feet, a hard case, a wide table and a knee lift lever as standard.",
+      "Owners report it sews denim and heavy quilting layers, with a few noting a very thick seam may need hand walking.",
+      "Automatic thread trimmer by button or foot controller heel, plus 16 sensor buttonholes and two LED lights per Juki's brochure."
     ],
     "weaknesses": [
-      "8 in arm, and one owner measured closer to 7.75 in; owners doing heavy free motion quilting call it tight.",
-      "900 spm, slower than the TL series and most industrials.",
-      "Low-mounted buttons and power cord make cabinet installation awkward per owners."
+      "Juki publishes no throat figure and no motor rating, so reach and power are owner reports, not specs.",
+      "Owners report occasional trimmer misses and a thread nest at the start of the next seam.",
+      "Owners report timing, bobbin case and tension problems, though forum threads over-represent people asking for help."
     ],
     "checks": [
       {
-        "title": "Which Michaels or dealer listing",
-        "body": "The same retailer showed $1,399 and $1,499 for the same machine on the same day. Street pricing runs $100 to $300 under the $1,499 MSRP; do not pay list."
+        "title": "Price sources differ",
+        "body": "Juki lists a $2,369 suggested retail and says to ask a dealer. Michaels showed $1,399 and $1,499 on 2026-09-29. Compare dated listings and confirm what is included."
       },
       {
-        "title": "F300 or F600",
-        "body": "The F300 shares the chassis, speed, box feed and needle system with 106 stitches and fewer accessories. If you already own a walking foot and table, price the gap carefully."
+        "title": "Throat is unverified",
+        "body": "Juki gives no needle-to-arm figure. Dealers say 8 in and one owner measured about 7.75 in. Ask for the measurement before buying for large quilts."
       },
       {
-        "title": "Throat expectations",
-        "body": "Dealers say 8 in; an owner measured 7.75 in. Either way it is a standard-arm machine, not a mid-arm. Plan quilt size and rolling accordingly."
+        "title": "F300 or F400 instead",
+        "body": "Per Juki pages, the F400 lists $1,999 with 157 stitches and the F300 lists $1,799 with 106 stitches. The brochure shows the wide table optional on both. Price the accessory gap."
       }
     ],
     "realCost": [
-      "130/705H needles",
-      "Class 15 bobbins",
-      "Quilting or free motion foot if not in the 10-foot set",
-      "Cabinet insert if you drop it into a table"
+      "130R / 705H needles",
+      "Class 15 bobbins beyond the 4 supplied",
+      "Cabinet insert if you drop it into a table; owners say the low-mounted buttons and cord make fitting awkward",
+      "Dealer service: Juki's warranty is through the selling dealer and excludes routine service and tension adjustment"
     ],
     "faqs": [
       {
         "q": "How big is the throat on the Juki HZL-F600?",
-        "a": "Dealers publish 8 in to the right of the needle. One owner measured about 7.75 in. It is a standard-arm machine."
+        "a": "Juki does not publish one. Dealers quote 8 in to the right of the needle and one QuiltingBoard owner measured about 7.75 in, so we show it as [verify]. Juki's brochure marks 551 mm and 112 mm on a wide-table picture without defining them."
       },
       {
         "q": "Is the HZL-F600 good for free motion quilting?",
-        "a": "Owners are split. It drops the feed dogs and comes with a knee lifter, and several owners quilt on it happily; others say the harp is too small for large tops."
+        "a": "Owners are split. It has a drop feed switch and a knee lifter, and several owners quilt on it; others say the harp is small for large tops. With no published throat, check the size yourself."
       },
       {
         "q": "What is the difference between the HZL-F300 and HZL-F600?",
-        "a": "Both run 900 spm with box feed and 16 buttonholes. The F600 has 225 stitches and 4 fonts versus 106 and 3, dual LEDs, a dial interface and a larger accessory set including the walking foot and wide table."
+        "a": "Per Juki pages and brochure: 225 stitches and 4 fonts against 106 and 3, two LED lights against one, random stitches on the F600 only, and the wide table standard on the F600 and optional on the F300. Speed, needle, weight and size are identical. Juki lists $2,369 against $1,799."
       },
       {
         "q": "Does the HZL-F600 come with a walking foot and extension table?",
-        "a": "Yes. The box lists 10 snap-on feet, a walking foot, a wide extension table, a hard case and a knee lift lever."
+        "a": "Yes per Juki's page: 12 presser feet including a walking foot and a quilt foot, a wide table, a hard case and a knee lift lever. Juki calls one foot 'smooth'; some dealers call it Teflon."
       },
       {
-        "q": "Can the HZL-F600 sew denim?",
-        "a": "Owners report sewing a layer of denim over two layers of cotton and dealer demos on folded denim. Juki does not publish a motor rating, so treat thickness claims as owner reports."
+        "q": "Can the HZL-F600 sew denim and thick layers?",
+        "a": "Owners report denim aprons, four layers of denim and multi-layer quilting cotton, and one says a very thick seam may need hand walking. Juki's brochure claims heavy projects like denim hems sew with ease and publishes no motor rating or maximum thickness."
       },
       {
         "q": "What needles does the HZL-F600 use?",
-        "a": "Standard 130R / 705H household needles."
+        "a": "130R / 705H, low shank, per Juki's page."
       },
       {
         "q": "How heavy is the HZL-F600?",
-        "a": "21.6 lb per dealer spec sheets."
+        "a": "21.6 lb (9.8 kg) per Juki's page, brochure and manual, the same as the F300 and F400."
       },
       {
         "q": "What is the warranty on the HZL-F600?",
-        "a": "Juki America's household warranty as restated by dealers: 5 years mechanical, 2 years electrical, 90 days adjustments, for the original purchaser through an authorized dealer."
+        "a": "Juki America's general home-machine wording: 2 years on motor and electrical parts, 5 years on all other parts, original purchaser, household use, service through the selling dealer. Juki's text has no 90-day adjustment term; only dealers state that."
       },
       {
         "q": "Does the HZL-F600 have an automatic thread cutter?",
-        "a": "Yes. It trims by button or by pressing the heel of the foot controller."
+        "a": "Yes. It trims by button or by pressing the heel of the foot controller. Some owners report occasional misses and a small thread nest at the next seam start."
+      },
+      {
+        "q": "What is the HZL-F600 manual and are the Juki documents current?",
+        "a": "The manual is a 104-page image PDF shared by the F600, F400 and F300, read by OCR, with a 2009 copyright. The brochure is dated 0904. Both are family documents; the product page is current."
+      },
+      {
+        "q": "What do buyers rate it?",
+        "a": "One Amazon listing (B00JGCAHWE) showed 4.5 from 235 ratings. A second listing (B0038KOX8O, 4.5 from 299) was not fetched. Sewing Machines Plus showed 4.81 from 153. Retailer ratings are seller-collected and skew positive."
       }
     ]
   }

@@ -4737,6 +4737,2682 @@ export const rollupData: Record<string, Rollup> = {
       }
     ]
   },
+  "brother-st371hd": {
+    "slug": "brother-st371hd",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 57,
+      "itemsCollected": 714,
+      "statements": 101,
+      "voices": 71,
+      "ownerVoices": 38,
+      "dateRange": [
+        2017,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 1,
+          "items": 13
+        },
+        "reddit": {
+          "sources": 56,
+          "items": 697
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.5 from 2,889 ratings is shared by several listings (B01E54NNSC plus 6 other ASINs including the ST531HD listing B076JLT9PG), so it pools machines and is not specific to the ST371HD."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 26,
+        "voices": 26,
+        "ownerVoices": 11,
+        "sources": 18,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 23
+        },
+        "polarity": {
+          "positive": 15,
+          "negative": 6,
+          "mixed": 3,
+          "neutral": 2
+        },
+        "years": [
+          2017,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c56656dbb",
+            "polarity": "negative",
+            "claim": "Owner broke a needle and gave up on projects because the machine could not sew thick layered fabric.",
+            "quote": "not being able to sew thick layered fabrics",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1nnoz96/how_do_i_change_pressure_on_the_brother_heavy/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c5c26da60",
+            "polarity": "negative",
+            "claim": "Owner of the ST371HD says the HD label implies heavy duty but the machine is not.",
+            "quote": "The \"HD\" is supposed to be heavy duty, and it's sure not.",
+            "url": "https://www.reddit.com/r/SewingWorld/comments/1wuf5lr/gifting_sewing_machine_to_aspiring_sewist/pd2no3f/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ce110ffa0",
+            "polarity": "positive",
+            "claim": "Commenter sewed multiple layers of thick fabric for tote bags without trouble.",
+            "quote": "multiple layers of quite thick fabric",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1m1da9m/what_are_yalls_opinion_on_the_brother_st371hd/n3gctpy/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c99cd51a6",
+            "polarity": "positive",
+            "claim": "Owner made jeans with a denim needle and sewed the seams without trouble.",
+            "quote": "did the seam perfectly without a problem",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/yy21r5/brother_st371hd_vs_brother_ps500/iwrtto0/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 18,
+        "voices": 18,
+        "ownerVoices": 12,
+        "sources": 13,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 15
+        },
+        "polarity": {
+          "positive": 12,
+          "negative": 5,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c5aff3113",
+            "polarity": "negative",
+            "claim": "Owner reports timing problems from first use and a needle striking the race.",
+            "quote": "The timing was off from the first use",
+            "url": "https://www.amazon.com/dp/B01E54NNSC",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c5f9b27a1",
+            "polarity": "negative",
+            "claim": "Owner's spool pin snapped in two and a matching replacement was hard to find.",
+            "quote": "the bottom of the spool pin broke clean in two",
+            "url": "https://www.reddit.com/r/sewing/comments/1nz30g0/help_my_spool_pin_broke/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c0b9c0894",
+            "polarity": "positive",
+            "claim": "Beginner owner reports no issues at all.",
+            "quote": "No issues whatsoever",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1m1da9m/what_are_yalls_opinion_on_the_brother_st371hd/n3g7anw/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c83e7c4b3",
+            "polarity": "positive",
+            "claim": "Owner reports no problems beyond user error.",
+            "quote": "it has given me no problems",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1vyyxw2/brother_st371hd_or_janome_2212/p654yj5/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c14ab8e95",
+            "polarity": "mixed",
+            "claim": "Owner reports the handwheel as the only complaint in years of use since 2018.",
+            "quote": "Only complaint since 2018 of using it.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1pv104k/brother_handwheel_broke_so_i_improvised/nvvzftf/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 9,
+        "voices": 7,
+        "ownerVoices": 3,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 5
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2019,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c96aa0a66",
+            "polarity": "negative",
+            "claim": "Owner says the box lacked the described feet, notably the blind hem foot.",
+            "quote": "most notably not the blind hem foot",
+            "url": "https://www.amazon.com/dp/B01E54NNSC",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cf0ac8c95",
+            "polarity": "negative",
+            "claim": "Owner found the Brother fussy about needle choice and fabric grip, spending hours trying different needles.",
+            "quote": "media mañosa con las agujas y el agarre de la tela",
+            "url": "https://www.reddit.com/r/chile/comments/1w1xyn6/qué_maquinas_de_coser_me_recomiendan_como/p6p171v/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c69f9103b",
+            "polarity": "positive",
+            "claim": "Owner notes the presser foot has an extra height setting for thick fabric.",
+            "quote": "the presser foot has an extra height adjustment to use on thick fabrics",
+            "url": "https://www.amazon.com/dp/B01E54NNSC",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 8,
+        "voices": 7,
+        "ownerVoices": 4,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 6
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 3
+        },
+        "years": [
+          2020,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c7390537f",
+            "polarity": "negative",
+            "claim": "Owner could not get the stretch (SS) stitches to sew despite following the manual and videos.",
+            "quote": "For some reason the SS WILL NOT WORK",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/vt54dg/someone_please_help_me_im_going_insane/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cb3c6f6d2",
+            "polarity": "negative",
+            "claim": "Owner found the one-step automatic buttonhole very finicky.",
+            "quote": "1-step automatic buttonhole was so finicky",
+            "url": "https://www.amazon.com/dp/B01E54NNSC",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c7887979f",
+            "polarity": "mixed",
+            "claim": "Owner who sells sewn goods reports no issues and clean straight stitches, though not as good as an industrial.",
+            "quote": "serves straight, clean stitches",
+            "url": "https://www.reddit.com/r/sewhelp/comments/136xsmr/brother_cs7000x_vs_st371hd_for_beginner/jirxkw5/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 6,
+        "voices": 6,
+        "ownerVoices": 5,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2017,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c30fdc344",
+            "polarity": "negative",
+            "claim": "Reviewer found threading tricky and the thread fell out of the needle a couple of times.",
+            "quote": "first is threading the machine",
+            "url": "https://www.amazon.com/dp/B01E54NNSC",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "ce89b1528",
+            "polarity": "negative",
+            "claim": "Owner says it will not handle thick thread when top and bobbin are both heavy.",
+            "quote": "it will not handle thick thread if you load the top and bobbin together",
+            "url": "https://www.reddit.com/r/myog/comments/1f65lck/janome_hd_3000_vs_1000_vs_brother_st371hd/lkz6jfm/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ceeb036c4",
+            "polarity": "positive",
+            "claim": "Buyer finds the machine easy to thread and set up.",
+            "quote": "easy to thread and set up",
+            "url": "https://www.amazon.com/dp/B01E54NNSC",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c3ec3eccd",
+            "polarity": "positive",
+            "claim": "Owner finds the machine easy to thread, change stitches and wind bobbins.",
+            "quote": "it is easy to thread, change stitches, wind bobbins",
+            "url": "https://www.reddit.com/r/SewingWorld/comments/1wuf5lr/gifting_sewing_machine_to_aspiring_sewist/pd2no3f/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 6,
+        "voices": 6,
+        "ownerVoices": 2,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 6
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 2
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c3d1bac65",
+            "polarity": "negative",
+            "claim": "Owner returned it because lifting it from a closet each time was too much.",
+            "quote": "having to lift it out of the closet each time was a deal breaker",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1vyyxw2/brother_st371hd_or_janome_2212/p61wcfz/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ce2db8a02",
+            "polarity": "positive",
+            "claim": "Owner notes the machine is heavy but does not mind since it stays put.",
+            "quote": "It is heavy- as in weight.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1w4fgy2/which_sewing_machine_to_get_for_light_clothing/p79n3f0/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 4,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2019,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cb83a62a1",
+            "polarity": "negative",
+            "claim": "Owner heard a grinding noise after a twin needle hem.",
+            "quote": "there was a grinding noise",
+            "url": "https://www.amazon.com/dp/B01E54NNSC",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cbd3d7faf",
+            "polarity": "negative",
+            "claim": "Owner finds the machine wiggles or shakes at high speed.",
+            "quote": "current machine wiggles/shakes at high speeds",
+            "url": "https://www.reddit.com/r/sewing/comments/1n2k140/my_current_machine_is_a_brother_st371hd_its_a/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c4dc56eba",
+            "polarity": "positive",
+            "claim": "Owner of a month calls the machine very quiet, fast and powerful.",
+            "quote": "super quiet,fast,powerful",
+            "url": "https://www.amazon.com/dp/B01E54NNSC",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 4,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c9e7a68fe",
+            "polarity": "positive",
+            "claim": "Owner says no oiling is needed and plans a service in a few years.",
+            "quote": "have to oil it",
+            "url": "https://www.amazon.com/dp/B01E54NNSC",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c7db51748",
+            "polarity": "positive",
+            "claim": "Owner says the machine never needs oiling.",
+            "quote": "you never have to oil",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1vyyxw2/brother_st371hd_or_janome_2212/p654yj5/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 4,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2019,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cb12290de",
+            "polarity": "negative",
+            "claim": "Owner struggled for hours adjusting tension while sewing on this Brother.",
+            "quote": "jugando con la tensión cuando quiero coser",
+            "url": "https://www.reddit.com/r/chile/comments/1w1xyn6/qué_maquinas_de_coser_me_recomiendan_como/p6p171v/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c9c113059",
+            "polarity": "negative",
+            "claim": "Owner sewing bulky faux fur got thread bunching on the bobbin side despite a new bobbin and cleaning.",
+            "quote": "why does it keep bunching up on the bobbin-side?",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1jja0vn/thread_bunching_up/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cf872ac2b",
+            "polarity": "positive",
+            "claim": "Owner finds tension and stitch type easy to adjust.",
+            "quote": "it is easy to adjust the tension and type of stitches",
+            "url": "https://www.amazon.com/dp/B01E54NNSC",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 3,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c9aa96a87",
+            "polarity": "negative",
+            "claim": "Owner describes the handwheel as cheap plastic that wears from turning it on thick layers.",
+            "quote": "The handwheel is just cheap plastic",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1pv104k/brother_handwheel_broke_so_i_improvised/nvvzftf/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c6e12c0b3",
+            "polarity": "positive",
+            "claim": "Owner takes its real weight as a sign of build quality and stability.",
+            "quote": "it has real weight to it",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1vyyxw2/brother_st371hd_or_janome_2212/p656i3a/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c1079309f",
+            "polarity": "positive",
+            "claim": "Owner describes the machine as mostly metal.",
+            "quote": "Heavy duty and made of mostly metal",
+            "url": "https://www.amazon.com/dp/B01E54NNSC",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 1,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "years": [
+          2017,
+          2021
+        ],
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 2,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2022,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c2bcb0532",
+            "polarity": "positive",
+            "claim": "Owner fixed the bunching on bulky fabric by switching to denim needles.",
+            "quote": "I ended up picking up some denim needles, and it started working perfectly fine",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1jja0vn/thread_bunching_up/mk0yd40/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ce78088d1",
+            "polarity": "mixed",
+            "claim": "Owner found heavy bonded nylon jammed the machine but a thinner polyester thread sewed fine.",
+            "quote": "If I switch out the too thread to a thinner polyester thread it works perfectly",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/ubuz98/sewing_nylon_webbing_is_jamming_my_machine/i673b6y/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "free_motion",
+        "label": "Free-motion quilting",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2023
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cad029162",
+            "polarity": "negative",
+            "claim": "Owner doing free-motion quilting gets frequent top thread breaks despite cleaning, rethreading and tension changes.",
+            "quote": "snappy McThread 5-6 times during a block",
+            "url": "https://www.reddit.com/r/quilting/comments/158uxwg/quilting_help_why_does_my_thread_keep_snapping/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c06002dc1",
+            "polarity": "mixed",
+            "claim": "Built-in light is only adequate; owner adds an overhead light.",
+            "quote": "The light on this machine is ok",
+            "url": "https://www.amazon.com/dp/B01E54NNSC",
+            "source_class": "retailer"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B01E54NNSC",
+        "pageRating": 4.5,
+        "pageCount": 2889,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 11
+        },
+        "lowRated": 1,
+        "sampled": "13 top reviews (8 US, 5 other countries) of 2889 ratings"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Stitches",
+        "juki": "37 built-in stitches, one of them a 1-step buttonhole.",
+        "others": "Dealer titles repeat 37; the sibling GX37 and XR3774 also say 37.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ],
+        "field": "stitchCount",
+        "source": "brother-page"
+      },
+      {
+        "label": "Speed",
+        "juki": "800 (Maximum Sewing Speed row, unit not printed).",
+        "others": "Third-party comparisons also say 800.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          },
+          {
+            "label": "Manual (no speed figure)",
+            "url": "https://support.brother.com/g/b/manualtop.aspx?c=us&lang=en&prod=hf_st371hdeus"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "brother-page"
+      },
+      {
+        "label": "Throat space",
+        "juki": "Not published by Brother.",
+        "others": "Not checked at dealers.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ],
+        "field": "throatIn",
+        "source": "brother-page"
+      },
+      {
+        "label": "Weight",
+        "juki": "14.3 (Unit Weight row).",
+        "others": "Sewing machine directory lists 14.3 lb.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ],
+        "field": "weightLb",
+        "source": "brother-page"
+      },
+      {
+        "label": "Machine size",
+        "juki": "12.21 x 16.10 x 7.87 in, axes not labelled.",
+        "others": "Directory lists 16.1 x 7.9 x 12.2 in.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ],
+        "field": "dimensionsIn",
+        "source": "brother-page"
+      },
+      {
+        "label": "Feet in the box",
+        "juki": "Six feet; needles 11, 14, 16 and a twin needle; 4 bobbins.",
+        "others": "Not checked at dealers.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          },
+          {
+            "label": "Accessories notification",
+            "url": "https://download.brother.com/welcome/doch102976/st371hd_acc02us_enesfrpt.pdf"
+          }
+        ],
+        "field": "includedFeet",
+        "source": "brother-page"
+      },
+      {
+        "label": "Presser foot pressure",
+        "juki": "Not adjustable (spec row).",
+        "others": "Third-party comparison also says fixed.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ],
+        "field": "presserFootPressure",
+        "source": "brother-page"
+      },
+      {
+        "label": "Feed and bobbin",
+        "juki": "Drop feed, metal needle plate, jam-resistant Quick-Set drop-in top bobbin.",
+        "others": "Not checked at dealers.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ],
+        "field": "feedSystem",
+        "source": "brother-page"
+      },
+      {
+        "label": "Stitch width and length",
+        "juki": "Page: width 7, length 5 (unit unlabelled). Manual: width 0 to 6.5 mm, length up to 4 mm for zigzag.",
+        "others": "Not checked at dealers.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          },
+          {
+            "label": "Operation manual",
+            "url": "https://download.brother.com/welcome/doch001159/888_x36_x38_x39_om03enes.pdf"
+          }
+        ],
+        "field": "stitchDimensions",
+        "source": "brother-page"
+      },
+      {
+        "label": "Needles",
+        "juki": "Sizes 75/11 to 100/16 listed; no system name.",
+        "others": "Not checked at dealers.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          },
+          {
+            "label": "Operation manual",
+            "url": "https://download.brother.com/welcome/doch001159/888_x36_x38_x39_om03enes.pdf"
+          }
+        ],
+        "field": "needleSystem",
+        "source": "brother-manual"
+      },
+      {
+        "label": "Thread cutter",
+        "juki": "No automatic cutter; a side manual cutter per the manual.",
+        "others": "Not checked at dealers.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ],
+        "field": "threadTrimmer",
+        "source": "brother-page"
+      },
+      {
+        "label": "Needle threader",
+        "juki": "Built-in, called automatic.",
+        "others": "Not checked at dealers.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ],
+        "field": "needleThreader",
+        "source": "brother-page"
+      },
+      {
+        "label": "Motor",
+        "juki": "Not published.",
+        "others": "Not checked at dealers.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ],
+        "field": "motor",
+        "source": "brother-page"
+      },
+      {
+        "label": "Warranty",
+        "juki": "Page label '1/5/25 Year Limited Serger Warranty', linked PDF says 1 year (International). US standard PDF: 1 / 2 / 25 years.",
+        "others": "Dealer wording not checked.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          },
+          {
+            "label": "US standard warranty PDF",
+            "url": "https://assets.brother.com/asset/9585451d-f1e4-47db-b656-32e040a0672c/9800_Brother-Limited-Warranty-Standard-pdf.pdf"
+          },
+          {
+            "label": "Linked International PDF",
+            "url": "https://assets.brother.com/asset/09ccf0a1-3e5f-42e4-b073-52a8b56d413e/6229_International-Warranty-LAD-Final-100-pdf.pdf"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "brother-page"
+      },
+      {
+        "label": "Maker price",
+        "juki": "$239.99 on brother-usa.com, shown out of stock on 2026-10-02.",
+        "others": "Dealer pricing not recorded here.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ],
+        "field": "price",
+        "source": "brother-page"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "ST531HD",
+        "label": "Brother ST531HD",
+        "rows": [
+          {
+            "feature": "Stitches",
+            "urls": 1,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "One commenter says the ST531HD has more stitch options than the ST371HD. Brother's pages were not checked for the ST531HD.",
+            "check": "one owner comment; unverified",
+            "examples": [
+              {
+                "claim_id": "cec0ebee3",
+                "claim": "The ST531 is described as an upgraded version of the ST371 with more stitch options, not a newer replacement.",
+                "quote": "The ST 531 is just an “upgraded” model of the ST 371",
+                "url": "https://www.reddit.com/r/SewingForBeginners/comments/1unqfqi/leather_suede_beginner_machine_choices/ovm7ovg/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "model": "XM2701",
+        "label": "Brother XM2701",
+        "rows": [
+          {
+            "feature": "Stitches",
+            "urls": 0,
+            "classes": [],
+            "summary": "Brother lists 27 built-in stitches (63 stitch functions) for the XM2701 against 37 on the ST371HD.",
+            "check": "Brother product pages, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Stitch size rows",
+            "urls": 0,
+            "classes": [],
+            "summary": "The XM2701 page lists stitch width 5 and length 4; the ST371HD page lists 7 and 5. Units are not printed on either page.",
+            "check": "Brother product pages, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Weight and price",
+            "urls": 0,
+            "classes": [],
+            "summary": "12.6 lb and $149.99 on the XM2701 page against 14.3 lb and $239.99 on the ST371HD page.",
+            "check": "Brother product pages, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "CS7000X",
+        "label": "Brother CS7000X",
+        "rows": [
+          {
+            "feature": "Stitches and display",
+            "urls": 0,
+            "classes": [],
+            "summary": "The CS7000X is computerized with an LCD and 70 built-in stitches; the ST371HD is a dial machine with 37.",
+            "check": "Brother product pages, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Feet in the box",
+            "urls": 0,
+            "classes": [],
+            "summary": "The CS7000X lists 10 feet including a walking foot and a quilting foot; the ST371HD lists 6 and no walking foot.",
+            "check": "Brother product pages, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Speed row",
+            "urls": 0,
+            "classes": [],
+            "summary": "Brother lists 750 for the CS7000X and 800 for the ST371HD.",
+            "check": "Brother product pages, 2026-10-02",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "handi-quilter-moxie": {
+    "slug": "handi-quilter-moxie",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 22,
+      "itemsCollected": 360,
+      "statements": 31,
+      "voices": 23,
+      "ownerVoices": 20,
+      "dateRange": [
+        2021,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 20,
+          "items": 326
+        },
+        "retailer": {
+          "sources": 2,
+          "items": 33
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.8 from 17 ratings (listing B08P3SRX98, Moxie with 8-foot Loft frame) is shared with a second ASIN under the same parent, so it is not a rating for one configuration alone; only 4 reviews were sampled.",
+      "Sewing Machines Plus shows 4.55 from 29 reviews on its Moxie page. Only 1 review names the Moxie in its text, but the page is the Moxie product page and the sampled reviews describe a Moxie setup, so treat the rating as Moxie-page feedback, not a verified Moxie-only count."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 4,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2022,
+          2023
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cf8800ee0",
+            "polarity": "negative",
+            "claim": "Owner of a 10 ft Moxie frame reports it appears to sag after assembly.",
+            "quote": "it looks like mine is sagging, too",
+            "url": "https://www.reddit.com/r/longarm/comments/q4rldu/moxie_idlerdead_bar_catching_on_ruler_base/i1k9mcf/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c89c68a1b",
+            "polarity": "negative",
+            "claim": "Writer disliked the Loft frame, finding the machine much less smooth to maneuver than on the Little Foot frame with more wheels.",
+            "quote": "was much less smooth to maneuver a machine on",
+            "url": "https://www.reddit.com/r/quilting/comments/11rzthk/small_frame_vs_sit_down_long_arm/jcuuuzp/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 2,
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2021,
+          2023
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cffca0934",
+            "polarity": "negative",
+            "claim": "New owner could not get tension right after hours of troubleshooting including new needle, bobbin and thread.",
+            "quote": "to get the tension right and have not been able to get it",
+            "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c04ee4628",
+            "polarity": "positive",
+            "claim": "Moxie owner reports satisfying tension on a quilt with gold top thread and white bobbin thread.",
+            "quote": "I am so happy with my tension",
+            "url": "https://www.reddit.com/r/quilting/comments/14ip51z/here_is_my_giraffe_fully_quilted_and_bound/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c759dd920",
+            "polarity": "positive",
+            "claim": "Owner reports no tension problems with the Moxie.",
+            "quote": "Haven't had any problems with tension.",
+            "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 2,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 2
+        },
+        "years": [
+          2022,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c059fa59a",
+            "polarity": "mixed",
+            "claim": "Owner set the frame low to sit while quilting, which left the handlebars in an uncomfortable position though usable.",
+            "quote": "I set the frame low so I could sit down",
+            "url": "https://www.reddit.com/r/quilting/comments/tercsn/should_i_cancel_my_order_for_a_handi_quilter/i9xy0mz/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cb37f2b6e",
+            "polarity": "positive",
+            "claim": "Owner of a used Moxie loves the stitch regulator and advises prioritising it above other extras.",
+            "quote": "I love the stitch regulator.",
+            "url": "https://www.reddit.com/r/quilting/comments/1enjar8/sit_down_machines/lhchd3q/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c666141a4",
+            "polarity": "positive",
+            "claim": "Owner says the machine has a stitch regulator that can go down to 4 stitches per inch for basting.",
+            "quote": "can go down to 4 stitches per inch for basting",
+            "url": "https://www.reddit.com/r/quilting/comments/1mb4ixj/long_arm_recommendations/n5mh5ak/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 4,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 3
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2021,
+          2023
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c379c33cb",
+            "polarity": "negative",
+            "claim": "Buyer reports a frame foot that would not screw in on one side.",
+            "quote": "one of the feet wont screw in",
+            "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c12a5271e",
+            "polarity": "positive",
+            "claim": "Reviewer calls the Handi Quilter Moxie a reliable product.",
+            "quote": "a reliable product",
+            "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "free_motion",
+        "label": "Free-motion quilting",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2024
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c7d1320e6",
+            "polarity": "negative",
+            "claim": "New Moxie on an 8 ft Loft frame feels like it catches when pushed, giving angular swirls despite loosening track screws.",
+            "quote": "My swirls have corners lol.",
+            "url": "https://www.reddit.com/r/quilting/comments/16omiqz/hq_moxie_questionadvice/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2021,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c52b27da2",
+            "polarity": "negative",
+            "claim": "Owner says their Moxie sounds clunky compared with smoother ones in videos.",
+            "quote": "mines sounds kind of clunky",
+            "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c628c69e2",
+            "polarity": "negative",
+            "claim": "Moxie user gets numb hands and forearms after hours of hand-guided quilting, which they attribute to machine vibration.",
+            "quote": "my hands and forearms have started going a little bit numb from the vibration",
+            "url": "https://www.reddit.com/r/quilting/comments/1nf4my9/longarmers_do_your_hands_go_numb_from_the_machine/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2021,
+          2023
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cfc54575b",
+            "polarity": "negative",
+            "claim": "Buyer found the delivered boxes very heavy, needing help to carry them in.",
+            "quote": "Very heavy!! Even UPS mane asked for help getting the boxes to the door",
+            "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c20c9083f",
+            "polarity": "positive",
+            "claim": "Reviewer says the Moxie frame is 8 ft long and fits a craft room.",
+            "quote": "It is 8ft long, so easily fits in your Craft Room",
+            "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2022,
+          2022
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "ce3b32779",
+            "polarity": "negative",
+            "claim": "Owner says the ruler foot supplied with the Moxie is not a true ruler foot; a separate Surefoot costing about 75 dollars is needed for rulers.",
+            "quote": "The ruler foot that comes with the machine isn't actually a ruler foot.",
+            "url": "https://www.reddit.com/r/quilting/comments/tercsn/should_i_cancel_my_order_for_a_handi_quilter/i9xy0mz/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "thread_trimmer",
+        "label": "Thread trimmer",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c772715be",
+            "polarity": "negative",
+            "claim": "Owner says the Moxie has no automatic thread cutting.",
+            "quote": "It doesn’t auto thread or auto cut",
+            "url": "https://www.reddit.com/r/quilting/comments/1mb4ixj/long_arm_recommendations/n5mh5ak/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c082c0d85",
+            "polarity": "negative",
+            "claim": "Owner says the Moxie has no automatic needle threading.",
+            "quote": "It doesn’t auto thread or auto cut",
+            "url": "https://www.reddit.com/r/quilting/comments/1mb4ixj/long_arm_recommendations/n5mh5ak/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "value_price",
+        "label": "Value and price",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cec21cc32",
+            "polarity": "negative",
+            "claim": "Buyer says the frame did not include the back table top, which had to be ordered separately from an HQ retailer.",
+            "quote": "the frame didn’t come with the necessary table top for the back",
+            "url": "https://www.amazon.com/dp/B08P3SRX98",
+            "source_class": "retailer"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+        "pageRating": 4.55,
+        "pageCount": 29,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 7,
+          "5": 20
+        },
+        "lowRated": 2,
+        "sampled": null
+      },
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B08P3SRX98",
+        "pageRating": 4.8,
+        "pageCount": 17,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 3
+        },
+        "lowRated": 0,
+        "sampled": "4 top reviews (4 US, 0 other countries) of 17 ratings"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Throat space",
+        "juki": "15 inches of throat space. Manual: sewing opening 8.25 in by 15.00 in.",
+        "others": "Matches our 15 in; the maker does not say needle to body.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Handi Quilter product page",
+            "url": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"
+          },
+          {
+            "label": "Moxie manual (dealer-hosted copy)",
+            "url": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
+          }
+        ],
+        "field": "throatIn",
+        "source": "page"
+      },
+      {
+        "label": "Usable quilting area",
+        "juki": "Safe usable quilting area approximately 10 inches (of 15).",
+        "others": "Not in the spec table.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Handi Quilter comparison post",
+            "url": "https://handiquilter.com/machine-comparison-should-i-buy-the-moxie-or-the-amara/"
+          }
+        ],
+        "field": "throatUsable",
+        "source": "compare"
+      },
+      {
+        "label": "Speed",
+        "juki": "1,800 stitches per minute; cruise speed 50 to 800 spm.",
+        "others": "Matches our 1,800 spm.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Handi Quilter product page",
+            "url": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"
+          },
+          {
+            "label": "Moxie manual (dealer-hosted copy)",
+            "url": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "page"
+      },
+      {
+        "label": "Needle system",
+        "juki": "System 134, sizes 80/12 to 130/21 (manual).",
+        "others": "Our spec says sizes 12 to 20.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Moxie manual (dealer-hosted copy)",
+            "url": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
+          }
+        ],
+        "field": "needleSystem",
+        "source": "manual"
+      },
+      {
+        "label": "Frame",
+        "juki": "8 ft HQ Loft Frame included; 10 ft with 2 ft extension; 5 ft Little Foot Frame compatible.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Handi Quilter product page",
+            "url": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"
+          }
+        ],
+        "field": "frame",
+        "source": "page"
+      },
+      {
+        "label": "Warranty",
+        "juki": "90 days parts and labor, 10 years casting, 5 years mechanical, 5 years electronic/electrical; customer pays labor and shipping after 90 days.",
+        "others": "Matches our spec; not specific to the Moxie.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Handi Quilter warranty page",
+            "url": "https://handiquilter.com/warranty/"
+          },
+          {
+            "label": "Moxie manual (dealer-hosted copy)",
+            "url": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "warranty"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "Moxie XL",
+        "label": "HQ Moxie XL (18 in)",
+        "rows": [
+          {
+            "feature": "Maker throat and speed",
+            "urls": 0,
+            "classes": [],
+            "summary": "Handi Quilter lists 18 inches of throat space and 2,100 stitches per minute on the Moxie XL, against 15 inches and 1,800 on the Moxie.",
+            "check": "Handi Quilter Moxie and Moxie XL product pages, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Maker display and packaging weight",
+            "urls": 0,
+            "classes": [],
+            "summary": "4.3 inch display and 72 lb packaging weight on the XL; 1.44 inch display and 58 lb packaging weight on the Moxie.",
+            "check": "Handi Quilter product pages, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "Amara",
+        "label": "HQ Amara 20 and 24",
+        "rows": [
+          {
+            "feature": "Amara 20 maker figures",
+            "urls": 0,
+            "classes": [],
+            "summary": "Handi Quilter lists 20 inches of throat space, up to 2,500 spm, 4 to 24 stitches per inch and a Studio3 frame included on the Amara 20.",
+            "check": "Handi Quilter Amara 20 page and Moxie vs Amara post, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Usable quilting area",
+            "urls": 0,
+            "classes": [],
+            "summary": "The maker puts safe usable quilting area at about 10 in on the Moxie (15 in throat) and about 14 in on the Amara 20.",
+            "check": "Handi Quilter Moxie vs Amara post, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "Sweet Sixteen",
+        "label": "HQ Sweet Sixteen and Simply Sixteen",
+        "rows": [
+          {
+            "feature": "Maker quilting space",
+            "urls": 0,
+            "classes": [],
+            "summary": "Handi Quilter's systems page says the HQ Sweet Sixteen has 16 inches of quilting space; the page separates throat space from quilting space.",
+            "check": "Handi Quilter Longarm Quilting Systems page, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "Avante",
+        "label": "HQ Avante",
+        "rows": [
+          {
+            "feature": "Maker quilting space",
+            "urls": 0,
+            "classes": [],
+            "summary": "Handi Quilter's systems page says the HQ18 Avante has 15 inches of quilting space, with throat and quilting space not equal.",
+            "check": "Handi Quilter Longarm Quilting Systems page, 2026-10-02",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "janome-8002d": {
+    "slug": "janome-8002d",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 19,
+      "itemsCollected": 202,
+      "statements": 67,
+      "voices": 34,
+      "ownerVoices": 29,
+      "dateRange": [
+        2013,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 4,
+          "items": 32
+        },
+        "reddit": {
+          "sources": 15,
+          "items": 170
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's rating for this machine is shared by several listings (three ASINs under one parent show different ratings: 4.6 from 160, 4.4 from 77, 4.2 from 57), so no single figure is a rating for one listing. Listing weights vary from 14 to 19 lb against Janome's 13.4 lb.",
+      "Janome's 25 year warranty is void if the machine was not bought from an authorized US Janome dealer; one Amazon listing states a shorter 5 year mechanical warranty instead."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 19,
+        "voices": 16,
+        "ownerVoices": 16,
+        "sources": 6,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 12,
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 10,
+          "negative": 2,
+          "mixed": 4,
+          "neutral": 0
+        },
+        "years": [
+          2013,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cdbc0ec3a",
+            "polarity": "negative",
+            "claim": "The lower looper's last threading steps are hard to follow and the guides are hard to see from the left side.",
+            "quote": "The lower looper is difficult to UNDERSTAND how to thread",
+            "url": "https://www.amazon.com/dp/B008L5FN4E",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c6a013e3e",
+            "polarity": "negative",
+            "claim": "8002D owner fixed bad stitching by rethreading after finding a thread guide had been missed ahead of the lower looper.",
+            "quote": "missed a thread guide before the thread went through a lower looper blade",
+            "url": "https://www.reddit.com/r/sewhelp/comments/9n1aav/newbie_to_sergers_all_i_can_do_is_flatlock_stitch/e7swult/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c7a0771c8",
+            "polarity": "positive",
+            "claim": "Machine arrives already threaded, which helps a newcomer get familiar before rethreading.",
+            "quote": "the machine comes already threaded",
+            "url": "https://www.amazon.com/dp/B008L5FN4E",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cd587954c",
+            "polarity": "positive",
+            "claim": "New owner found sewing machine tweezers a big help for threading.",
+            "quote": "they’re a game changer for threading",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1mreodn/adjusting_sergeroverlock_machine_janome_8002d/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c5074c014",
+            "polarity": "mixed",
+            "claim": "Threading the loopers is a little difficult but manageable with the supplied tweezer.",
+            "quote": "difficult to thread the “loopers”",
+            "url": "https://www.amazon.com/dp/B01600ASNC",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c5067b1b3",
+            "polarity": "mixed",
+            "claim": "Owner of a used 8002D says it works great and is not terrible to thread.",
+            "quote": "It works great and isn't terrible to thread.",
+            "url": "https://www.reddit.com/r/sewing/comments/uhvu8r/buying_300_serger_between_juki_mo654de_or_janome/i7d3zyk/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 8,
+        "voices": 7,
+        "ownerVoices": 7,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 6,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 4,
+          "negative": 1,
+          "mixed": 2,
+          "neutral": 0
+        },
+        "years": [
+          2013,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c3034e659",
+            "polarity": "negative",
+            "claim": "The front cover rattles in use.",
+            "quote": "The front cover rattles too",
+            "url": "https://www.amazon.com/dp/B008L5FN4E",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "caade5cc5",
+            "polarity": "positive",
+            "claim": "Owner describes the machine as quiet in use.",
+            "quote": "it is quiet,and",
+            "url": "https://www.sewingmachinesplus.com/Janome-8002D.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cddad37fc",
+            "polarity": "positive",
+            "claim": "Buyer of a used 8002D, last serviced in 2021 and stored unused, says it sounds normal when running.",
+            "quote": "mine sounds totally normal",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1popxpj/overlock_not_used_for_years_after_servicing/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c01a5c409",
+            "polarity": "mixed",
+            "claim": "Owner finds the machine a little noisy and clanky but the stitch is good.",
+            "quote": "It is a little noisy and clanky",
+            "url": "https://www.amazon.com/dp/B01600ASNC",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cfb0e212f",
+            "polarity": "mixed",
+            "claim": "Owner calls the machine a little noisy but says it does a great job.",
+            "quote": "little noisy but doing a great job",
+            "url": "https://www.amazon.com/dp/B008L5FN4E",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 7,
+        "voices": 7,
+        "ownerVoices": 6,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 6,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 4,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2015,
+          2022
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c9c35b260",
+            "polarity": "negative",
+            "claim": "No dust cover is included in the box.",
+            "quote": "it doesn't come with a dust cover",
+            "url": "https://www.amazon.com/dp/B008L5FN4E",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "ca52a801d",
+            "polarity": "positive",
+            "claim": "The package came with many needles and tweezers.",
+            "quote": "lots of needles and a pair of tweezers",
+            "url": "https://www.amazon.com/dp/B01600ASNC",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c139bcbd5",
+            "polarity": "positive",
+            "claim": "A long tweezer is included and helped with threading.",
+            "quote": "There's a long tweezer to help with threading",
+            "url": "https://www.amazon.com/dp/B008L5FN4E",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 8,
+        "voices": 7,
+        "ownerVoices": 7,
+        "sources": 6,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 4,
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 5,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2013,
+          2022
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cc2b04ea1",
+            "polarity": "negative",
+            "claim": "A used machine worked at first, then would not power on a few days after purchase; cause unknown.",
+            "quote": "Today, I couldn’t even turn on the machine",
+            "url": "https://www.reddit.com/r/sewing/comments/i39urg/janome_8002_d_serger_doesnt_turn_on/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c41223562",
+            "polarity": "negative",
+            "claim": "After nearly ten years of frequent use, owner has skipped stitches, thread breaks and catching despite servicing.",
+            "quote": "Skipping stitches, thread breaking, thread catching",
+            "url": "https://www.reddit.com/r/sewhelp/comments/wmwvd0/replacement_for_janome_8002d_serger/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c55072a6a",
+            "polarity": "positive",
+            "claim": "Owner of about four years says it is neat, low fuss and very reliable.",
+            "quote": "is very reliable",
+            "url": "https://www.reddit.com/r/sewing/comments/uhvu8r/buying_300_serger_between_juki_mo654de_or_janome/i78sra1/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c245809ec",
+            "polarity": "positive",
+            "claim": "Owner calls the machine a reliable product.",
+            "quote": "is a very reliable product",
+            "url": "https://www.amazon.com/dp/B008L5FN4E",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c2ebf9f41",
+            "polarity": "mixed",
+            "claim": "Machine served the owner for almost ten years of fairly frequent use before failing.",
+            "quote": "after almost 10 years of fairly frequent use",
+            "url": "https://www.reddit.com/r/sewhelp/comments/wmwvd0/replacement_for_janome_8002d_serger/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 2,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 4
+        },
+        "polarity": {
+          "positive": 4,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2014,
+          2023
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c3442e8d8",
+            "polarity": "positive",
+            "claim": "Owner describes the machine as very lightweight.",
+            "quote": "It is very lightweight",
+            "url": "https://www.amazon.com/dp/B008L5FN4E",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c7242a6fc",
+            "polarity": "positive",
+            "claim": "Owner calls the machine compact and light.",
+            "quote": "compact and light weight",
+            "url": "https://www.sewingmachinesplus.com/Janome-8002D.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2022,
+          2023
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c033e35df",
+            "polarity": "negative",
+            "claim": "Owner feels the presser foot presses too hard at the start of a bulky edge, hindering feeding.",
+            "quote": "It's like the pressure foot puts too much pressure at the start",
+            "url": "https://www.reddit.com/r/sewhelp/comments/wcs17j/is_there_any_way_possible_to_get_an_even_feed_or/iioa5le/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cb9d8786b",
+            "polarity": "positive",
+            "claim": "Owner says it cuts through two layers of upholstery fabric with cotton liners easily.",
+            "quote": "This easily chops through two layers of upholstery fabric with cotton liners.",
+            "url": "https://www.amazon.com/dp/B008L5FN4E",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "learning_curve",
+        "label": "Learning curve",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2015,
+          2018
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ce232c71b",
+            "polarity": "negative",
+            "claim": "8002D owner says the manual covers rolled, picot, narrow and decorative stitches but they found no 3 or 4 thread overlock section.",
+            "quote": "It only covers rolled, picot, narrow, decorative, gathers, and pintucking.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/9n1aav/newbie_to_sergers_all_i_can_do_is_flatlock_stitch/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cf91231c7",
+            "polarity": "positive",
+            "claim": "Owner found the included instructional DVD useful for explaining each feature.",
+            "quote": "The instructional DVD is useful for explaining in great detail",
+            "url": "https://www.amazon.com/dp/B008L5FN4E",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2018,
+          2022
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c542a8c2a",
+            "polarity": "positive",
+            "claim": "Owners got the desired stitch by adjusting the tensions.",
+            "quote": "do the stitch we wanted by adjusting the tensions",
+            "url": "https://www.amazon.com/dp/B008L5FN4E",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "cutting_trimming",
+        "label": "Cutting and trimming",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2015,
+          2017
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cbc4bba38",
+            "polarity": "positive",
+            "claim": "Owner likes the retractable upper knife feature.",
+            "quote": "retractable knife option",
+            "url": "https://www.sewingmachinesplus.com/Janome-8002D.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c279dacc1",
+            "polarity": "positive",
+            "claim": "Owner likes that it trims the fabric as it sews, leaving a sharp seam finish.",
+            "quote": "I like the way it cuts the fabric as it sews",
+            "url": "https://www.amazon.com/dp/B008L5FN4E",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "differential_feed",
+        "label": "Differential feed",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2022,
+          2022
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2014,
+          2015
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cf119ff02",
+            "polarity": "positive",
+            "claim": "Owner says the built-in light is bright.",
+            "quote": "The light is bright",
+            "url": "https://www.sewingmachinesplus.com/Janome-8002D.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "rolled_hem",
+        "label": "Rolled hem",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2018,
+          2018
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c39e070a4",
+            "polarity": "positive",
+            "claim": "Owner uses it for a rolled edge, which was the goal, at this price.",
+            "quote": "it is doing the rolled edge, which is what I wanted it to do",
+            "url": "https://www.amazon.com/dp/B008L5FN4E",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2015,
+          2015
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cae5eb0d9",
+            "polarity": "positive",
+            "claim": "Buyer says the Amazon seller is an authorized Janome dealer, so the warranty is valid.",
+            "quote": "Seller is an authorized Janome dealer so warranty is valid too!",
+            "url": "https://www.amazon.com/dp/B01600ASNC",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2022,
+          2022
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cdbcaeda0",
+            "polarity": "negative",
+            "claim": "Tension discs collect lint; owner suggests covering the machine and flossing the discs with thread.",
+            "quote": "the tension discs do seem to collect lint",
+            "url": "https://www.reddit.com/r/sewing/comments/uhvu8r/buying_300_serger_between_juki_mo654de_or_janome/i78sra1/",
+            "source_class": "reddit"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B00ARMIWE2",
+        "pageRating": 4.2,
+        "pageCount": 57,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "lowRated": 0,
+        "sampled": "0 top reviews (0 US, 0 other countries) of 57 ratings"
+      },
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B008L5FN4E",
+        "pageRating": 4.6,
+        "pageCount": 160,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 12
+        },
+        "lowRated": 0,
+        "sampled": "13 top reviews (8 US, 5 other countries) of 160 ratings"
+      },
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B01600ASNC",
+        "pageRating": 4.4,
+        "pageCount": 77,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 6
+        },
+        "lowRated": 1,
+        "sampled": "8 top reviews (8 US, 0 other countries) of 77 ratings"
+      },
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/Janome-8002D.php",
+        "pageRating": 5,
+        "pageCount": 11,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 11
+        },
+        "lowRated": 0,
+        "sampled": null
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "juki": "Janome lists a maximum speed of 1,300 SPM.",
+        "others": "Amazon and dealers repeat 1,300 spm.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/8002d/"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "page"
+      },
+      {
+        "label": "Thread count",
+        "juki": "3 and 4 thread convertible. The page lists no built-in 2-thread converter; the AirThread 2000D page does.",
+        "others": "Dealers describe it as a 3/4 thread serger.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/8002d/"
+          }
+        ],
+        "field": "threads",
+        "source": "page"
+      },
+      {
+        "label": "Stitch types",
+        "juki": "Janome lists 4 thread, 3 thread (wide) and narrow hem; the manual adds rolled hem and picot edging.",
+        "others": "Dealer and review copy adds flatlock and blind hem.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/8002d/"
+          },
+          {
+            "label": "Janome manual",
+            "url": "https://www.janome.com/wp-content/uploads/2014/10/inst-book-8002deng.pdf"
+          }
+        ],
+        "field": "stitchTypes",
+        "source": "page"
+      },
+      {
+        "label": "Weight",
+        "juki": "Janome lists a machine weight of 13.4 lbs.",
+        "others": "Amazon item weights run 14 to 19 lb across listings (probably shipping weight).",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/8002d/"
+          }
+        ],
+        "field": "weightLb",
+        "source": "page"
+      },
+      {
+        "label": "Dimensions",
+        "juki": "Janome lists W 12.5 in x H 10.5 in x D 11 in.",
+        "others": "One Amazon listing gives 11 x 12.5 x 10.5 in; others give box-like sizes up to 16 in.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/8002d/"
+          }
+        ],
+        "field": "dimensionsIn",
+        "source": "page"
+      },
+      {
+        "label": "Warranty",
+        "juki": "25 years materials and workmanship, 5 years electronics, 1 year labor; void if not bought from an authorized US Janome dealer.",
+        "others": "An Amazon listing states 5 years mechanical, 2 years electrical, 1 year labor.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome warranty",
+            "url": "https://www.janome.com/support/warranty/"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "warranty"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "AirThread 2000D",
+        "label": "Janome AirThread 2000D",
+        "rows": [
+          {
+            "feature": "Thread count and threading",
+            "urls": 0,
+            "classes": [],
+            "summary": "Janome lists the AirThread 2000D as a 2, 3 or 4 thread serger with one-push air threading of both loopers and a built-in needle threader; the 8002D is 3 or 4 thread with lay-in manual threading.",
+            "check": "Janome product pages for both, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Stitch ranges",
+            "urls": 0,
+            "classes": [],
+            "summary": "Janome gives the AirThread 2000D a stitch length of 1 to 5 mm, differential 0.5 to 2.0 and cutting width 3.3 to 7.5 mm; the 8002D lists 1 to 4 mm, 0.5 to 2.25 and 3.1 to 7.3 mm. Both are rated 1,300 spm.",
+            "check": "Janome product pages, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Size and price",
+            "urls": 0,
+            "classes": [],
+            "summary": "Janome lists the AirThread 2000D at 17.4 lb with a $1,799 MSRP; the 8002D is 13.4 lb at $399 MSRP.",
+            "check": "Janome product pages, 2026-10-02",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
   "janome-hd1000": {
     "slug": "janome-hd1000",
     "status": "approved",
@@ -5894,6 +8570,2435 @@ export const rollupData: Record<string, Rollup> = {
         ]
       }
     ]
+  },
+  "janome-hd3000": {
+    "slug": "janome-hd3000",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 63,
+      "itemsCollected": 678,
+      "statements": 201,
+      "voices": 128,
+      "ownerVoices": 86,
+      "dateRange": [
+        2012,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 60,
+          "items": 626
+        },
+        "retailer": {
+          "sources": 3,
+          "items": 52
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "The Black Edition (HD3000BE) is the same machine with a bonus accessory bundle on Janome's spec table; Janome lists $559 for the plain machine and $599 for the Black Edition. Amazon listing ratings below were read from the plain HD3000 listing B00916Y4YM (4.4 from 658) and the Black Edition bundle B07D7HFT9L (4.4 from 333).",
+      "Sewing Machines Plus lists 44 reviews at 4.68, but only 2 of the 44 name this model, so that listing's reviews look pooled across several machines and are not treated as HD3000 evidence."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 53,
+        "voices": 47,
+        "ownerVoices": 28,
+        "sources": 26,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 41,
+          "retailer": 6
+        },
+        "polarity": {
+          "positive": 18,
+          "negative": 19,
+          "mixed": 6,
+          "neutral": 4
+        },
+        "years": [
+          2016,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c6bc7810a",
+            "polarity": "negative",
+            "claim": "Owner says the machine will not handle heavy leather.",
+            "quote": "Won’t handle heavy leather",
+            "url": "https://www.reddit.com/r/myog/comments/r09ams/more_practical_in_the_long_run_sailrite_lsz1_or/m3sbb40/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ce9ac96d2",
+            "polarity": "negative",
+            "claim": "Owner could not sew denim with it.",
+            "quote": "Could not sew through denim.",
+            "url": "https://www.reddit.com/r/sewing/comments/10en43y/tell_me_about_the_janome_hd3000_sewing_machine/j4sso80/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c91f80ba8",
+            "polarity": "positive",
+            "claim": "Owner says the HD3000 has great power.",
+            "quote": "Its got great power",
+            "url": "https://www.reddit.com/r/myog/comments/r09ams/more_practical_in_the_long_run_sailrite_lsz1_or/hmxk9iz/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cdcd64e54",
+            "polarity": "positive",
+            "claim": "Owner sews 1000d cordura and duck canvas gear and says the machine has worked well.",
+            "quote": "the Janome has worked wonderfully",
+            "url": "https://www.reddit.com/r/myog/comments/o8g30w/i_made_a_video_comparing_the_janome_hd3000_and/h358c57/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c86450bc0",
+            "polarity": "mixed",
+            "claim": "Owner likes it but thinks it may not cope with extra heavy layers.",
+            "quote": "it might not stand up to extra heavy layers",
+            "url": "https://www.reddit.com/r/HistoricalCostuming/comments/1p1hyei/is_a_janome_hd3000_a_good_option_for_historical/npqep2b/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c9fbfdb59",
+            "polarity": "mixed",
+            "claim": "HD3000 owner says it is more heavy duty than most current HD machines but not truly heavy duty.",
+            "quote": "More heavy duty than most of the common current",
+            "url": "https://www.reddit.com/r/myog/comments/1f65lck/janome_hd_3000_vs_1000_vs_brother_st371hd/ll57dqy/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 38,
+        "voices": 38,
+        "ownerVoices": 33,
+        "sources": 26,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 33,
+          "retailer": 5
+        },
+        "polarity": {
+          "positive": 16,
+          "negative": 19,
+          "mixed": 3,
+          "neutral": 0
+        },
+        "years": [
+          2016,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c5cca8f99",
+            "polarity": "negative",
+            "claim": "Owner says the machine jams easily and has been finicky since early on.",
+            "quote": "It jams easily.",
+            "url": "https://www.reddit.com/r/sewing/comments/13njtsu/did_i_get_a_dud_machine_or_is_it_me_janome_hd3000/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ca6f08782",
+            "polarity": "negative",
+            "claim": "HD3000BE owner reports the needle hitting the bobbin case and the bobbin thread not catching.",
+            "quote": "my bobbin thread won't catch",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1pka3ov/janome_hd3000be_needle_hitting_bobbin_case/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c29b4dc9a",
+            "polarity": "positive",
+            "claim": "Owner calls the HD3000 a workhorse.",
+            "quote": "It’s a workhorse",
+            "url": "https://www.reddit.com/r/sewing/comments/1teepjl/considering_a_janome_hd3000_shop_owner_is/om4g4m3/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c926bdb9a",
+            "polarity": "positive",
+            "claim": "Owner pushed it past its capacity repeatedly and it kept working.",
+            "quote": "and it keeps on ticking",
+            "url": "https://www.reddit.com/r/sewing/comments/stkepq/which_is_better_for_me_the_brother_cs600i_or/hx67sy7/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c538ce6a1",
+            "polarity": "mixed",
+            "claim": "Owner burned out the motor on a new HD3000 after 8 to 10 years of very heavy use.",
+            "quote": "burnt out the motor after 8-10 years of very heavy use",
+            "url": "https://www.reddit.com/r/sewing/comments/1teepjl/considering_a_janome_hd3000_shop_owner_is/om2a1gs/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 12,
+        "voices": 12,
+        "ownerVoices": 7,
+        "sources": 11,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 11,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 8,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "years": [
+          2014,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cd1d78182",
+            "polarity": "negative",
+            "claim": "Owner of the black version says theirs did not come with a seam guide.",
+            "quote": "Yours included a seam guide! Damn I got shorted.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1gms4ce/what_is_this_screw_hole_on_my_janome_hd3000/lw66nks/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cbe078768",
+            "polarity": "positive",
+            "claim": "Owner's box included a seam guide that fits the exposed screw hole.",
+            "quote": "The one included fits perfectly.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1gms4ce/what_is_this_screw_hole_on_my_janome_hd3000/lw520xh/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c743267dd",
+            "polarity": "positive",
+            "claim": "Automatic buttonhole foot sews buttonholes up to about one inch.",
+            "quote": "The butthole foot will do it automatically",
+            "url": "https://www.reddit.com/r/sewing/comments/efl6fh/looking_to_maybe_upgrade_to_janome_hd3000/fc7hhog/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 11,
+        "voices": 10,
+        "ownerVoices": 6,
+        "sources": 10,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 8,
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 5,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2022,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cc4ddb1f3",
+            "polarity": "negative",
+            "claim": "Commenter says the internals are mostly plastic, with metal only in the head and feed dog assembly.",
+            "quote": "The ONLY metal is in the head and the feed dog assembly.",
+            "url": "https://www.reddit.com/r/sewing/comments/16l9lda/has_the_janome_hd3000_motor_changed/kdsx9ht/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c22e9b200",
+            "polarity": "negative",
+            "claim": "Writer says a plastic pin holds the feed dog assembly and is hit when feed dogs are raised or lowered.",
+            "quote": "The feed dogs have a plastic pin holding the assembly in place.",
+            "url": "https://www.reddit.com/r/sewing/comments/zm8bil/janome_hd30005000_vs_baby_lock_zeal_vs/j346rar/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c7ce04f64",
+            "polarity": "positive",
+            "claim": "Buyer praises the mechanical build and metal parts.",
+            "quote": "good construction (metal parts)",
+            "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c986be87e",
+            "polarity": "positive",
+            "claim": "Former owner who made queen quilts on it calls the machine very solid.",
+            "quote": "the machine itself is very solid",
+            "url": "https://www.reddit.com/r/quilting/comments/1ox7hd2/anyone_quilting_on_the_janome_hd3000_or_viking/nowgggx/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c7a05c39c",
+            "polarity": "mixed",
+            "claim": "Owner notes some plastic parts but a lot of metal.",
+            "quote": "There are some plastic parts to the machine, but there is a lot of metal.",
+            "url": "https://www.amazon.com/dp/B07D7HFT9L",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 9,
+        "voices": 9,
+        "ownerVoices": 8,
+        "sources": 7,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 6,
+          "retailer": 3
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 5,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2012,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cc588cfdc",
+            "polarity": "negative",
+            "claim": "Owner of the same machine says winding bobbins at low speed gives a loose wind.",
+            "quote": "Winding at a lower speed will make lt too loose.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/tb1143/why_is_my_bobbin_winding_like_this_how_do_i_fix/i0736yc/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c5911dbc4",
+            "polarity": "negative",
+            "claim": "Owner had to run top tension at 8 to avoid very loose stitches.",
+            "quote": "anything below gives me loose to super loose stitches",
+            "url": "https://www.reddit.com/r/sewing/comments/13njtsu/did_i_get_a_dud_machine_or_is_it_me_janome_hd3000/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c45026432",
+            "polarity": "positive",
+            "claim": "New owner found tension perfect out of the box on a simple project.",
+            "quote": "the tension was perfect",
+            "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cfdaa057a",
+            "polarity": "positive",
+            "claim": "Owner reports no tension problems.",
+            "quote": "No problems with the tension.",
+            "url": "https://www.amazon.com/dp/B07D7HFT9L",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c4d697975",
+            "polarity": "mixed",
+            "claim": "Owner had uneven bobbin winding that was fixed by careful tensioning.",
+            "quote": "some uneven bobbins but I fixed that after being really careful with the tensioning",
+            "url": "https://www.reddit.com/r/sewing/comments/zm8bil/janome_hd30005000_vs_baby_lock_zeal_vs/j9f9sie/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 8,
+        "voices": 8,
+        "ownerVoices": 6,
+        "sources": 7,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 7,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 2,
+          "mixed": 2,
+          "neutral": 1
+        },
+        "years": [
+          2012,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cc0e6457e",
+            "polarity": "negative",
+            "claim": "Owner says feed dogs sometimes fail to grip when starting a seam on thick layers.",
+            "quote": "the feed dogs don't seem to grip and feed the fabric properly",
+            "url": "https://www.reddit.com/r/sewing/comments/gjl41y/somewhat_disappointed_in_my_new_janome_hd3000top/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c1dde0fbf",
+            "polarity": "negative",
+            "claim": "Feed dogs marked and damaged leather during stitching.",
+            "quote": "the feed dogs (I think) are tearing into the leather leaving a line of damage",
+            "url": "https://www.reddit.com/r/sewing/comments/a6fqhe/help_janome_hd3000_feed_dogs_marring_leather/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c73f39d44",
+            "polarity": "positive",
+            "claim": "Owner finds feeding good enough that a walking foot has not been needed, even on silnylon.",
+            "quote": "because it feeds so well",
+            "url": "https://www.reddit.com/r/myog/comments/1kqqp1n/elna_su_62c_vs_janome_hd_3000/mt8klx3/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c53119f32",
+            "polarity": "positive",
+            "claim": "Owner says it goes through most materials well.",
+            "quote": "It tends to go through most materials well.",
+            "url": "https://www.reddit.com/r/sewing/comments/stkepq/which_is_better_for_me_the_brother_cs600i_or/hx67sy7/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c0d680e4d",
+            "polarity": "mixed",
+            "claim": "Feed is not weak but gets sloppy when pushing heavy or thick material.",
+            "quote": "it can get sort of sloppy",
+            "url": "https://www.reddit.com/r/sewing/comments/15xafy1/janome_hd3000_necchi_q132a_or_something_else/jx619z1/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cd1497c5f",
+            "polarity": "mixed",
+            "claim": "Owner says the 7 point feed system feeds thick multi-layer denim better than their other machine.",
+            "quote": "I had hoped the Janome HD3000 would feed better with the 7 point feed system",
+            "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 9,
+        "voices": 8,
+        "ownerVoices": 6,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 8
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 7,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c3c45b0cf",
+            "polarity": "negative",
+            "claim": "Commenter says the LED light barely illuminates the needle plate.",
+            "quote": "It barely lights the needle plate",
+            "url": "https://www.reddit.com/r/sewing/comments/16l9lda/has_the_janome_hd3000_motor_changed/kdsyyna/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c0509edd7",
+            "polarity": "negative",
+            "claim": "Owner says the LED lamps on the machine cannot be replaced.",
+            "quote": "since the LED's aren't replaceable",
+            "url": "https://www.reddit.com/r/sewing/comments/1teepjl/considering_a_janome_hd3000_shop_owner_is/om2aryy/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 7,
+        "voices": 7,
+        "ownerVoices": 6,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 5,
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2016,
+          2023
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c019a4003",
+            "polarity": "negative",
+            "claim": "Owner dislikes the buzzing sound the machine makes at start.",
+            "quote": "I HATE that buzzing sound",
+            "url": "https://www.reddit.com/r/sewing/comments/10q9xyp/janome_hd3000_foot_pedal_too_fast/j6xr6gt/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c6246ad71",
+            "polarity": "negative",
+            "claim": "New owner reports a loud buzzing or humming noise whenever the machine is switched on.",
+            "quote": "it makes a loud buzzing/humming noise",
+            "url": "https://www.reddit.com/r/sewhelp/comments/a9rn7h/help_janome_hd3000_making_humming_noise_does/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cdc5a639c",
+            "polarity": "positive",
+            "claim": "Owner says it sews quietly.",
+            "quote": "sews quiet and true",
+            "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c284fc55e",
+            "polarity": "positive",
+            "claim": "Owner of the black version says it is not very loud, more of a high-pitched whir at speed.",
+            "quote": "It's not super loud.",
+            "url": "https://www.reddit.com/r/sewing/comments/zm8bil/janome_hd30005000_vs_baby_lock_zeal_vs/j9f9sie/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "walking_foot",
+        "label": "Walking foot",
+        "statements": 7,
+        "voices": 6,
+        "ownerVoices": 3,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 6
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "years": [
+          2021,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cce5c0ca2",
+            "polarity": "negative",
+            "claim": "Owner says the HD3000 has no true walking foot.",
+            "quote": "It doesn’t have a true walking foot",
+            "url": "https://www.reddit.com/r/myog/comments/1jrutde/would_the_janome_hd3000_be_an_upgrade_for_what_i/mlkhe8m/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c089aa15c",
+            "polarity": "positive",
+            "claim": "Owner says a walking foot came with the machine and is used often.",
+            "quote": "I use the walking foot it came with often",
+            "url": "https://www.reddit.com/r/sewing/comments/13jmo7n/janome_hd3000_maybe/jki9nkb/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cd058bd5d",
+            "polarity": "positive",
+            "claim": "Owner of the black version says it came with a walking foot.",
+            "quote": "it came with a walking foot so it kinda evens out lol",
+            "url": "https://www.reddit.com/r/sewing/comments/zm8bil/janome_hd30005000_vs_baby_lock_zeal_vs/j9f9sie/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 4,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 5
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2022,
+          2023
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c92f0de3b",
+            "polarity": "negative",
+            "claim": "Owner found the stock HD3000 pedal goes from stopped to full speed too easily, making speed hard to modulate.",
+            "quote": "it goes from 0 to 100 really really easy",
+            "url": "https://www.reddit.com/r/sewing/comments/10q9xyp/janome_hd3000_foot_pedal_too_fast/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 6,
+        "voices": 5,
+        "ownerVoices": 4,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 4,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2023,
+          2024
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c28c6ad0d",
+            "polarity": "negative",
+            "claim": "Owner reports Janome and the dealer did not respond to repeated emails about the motor change.",
+            "quote": "all ghosted me when I repeatedly emailed them about the power plant swap",
+            "url": "https://www.reddit.com/r/sewing/comments/zm8bil/janome_hd30005000_vs_baby_lock_zeal_vs/j345l0p/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cb86a5b59",
+            "polarity": "negative",
+            "claim": "Commenter claims Janome pulled replacement parts for this model, making repair unlikely.",
+            "quote": "Janome removed any and all replacement parts for many of their models, this model included",
+            "url": "https://www.reddit.com/r/sewing/comments/16l9lda/has_the_janome_hd3000_motor_changed/kdsx9ht/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c9aa2b2a2",
+            "polarity": "positive",
+            "claim": "Owner calls the warranty great.",
+            "quote": "Great warranty",
+            "url": "https://www.amazon.com/dp/B07D7HFT9L",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "retailer": 4
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2016,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cb3e86b04",
+            "polarity": "negative",
+            "claim": "Owner says the machine was advertised as self-threading but is not.",
+            "quote": "The machine was advertised as being self-threading.",
+            "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c9320355c",
+            "polarity": "positive",
+            "claim": "Owner finds it simple to thread.",
+            "quote": "Simple to thread",
+            "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cfbf0cc45",
+            "polarity": "positive",
+            "claim": "Owner says the needle threader saves a lot of time.",
+            "quote": "The needle threader saves a ton of time.",
+            "url": "https://www.amazon.com/dp/B07D7HFT9L",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 4,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2016,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c7ae5e7ff",
+            "polarity": "positive",
+            "claim": "Owner of two HD3000s says they are light enough to carry to guild and classes.",
+            "quote": "Light enough to tote to guild and classes.",
+            "url": "https://www.amazon.com/dp/B07D7HFT9L",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cb0acc01c",
+            "polarity": "positive",
+            "claim": "Owner says the weight keeps the machine from moving around while sewing.",
+            "quote": "Has some weight to it so that it doesn't move all over creation",
+            "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c253ab881",
+            "polarity": "mixed",
+            "claim": "Owner calls the HD3000 heavy but still carries it to on-the-go sewing instead of lighter Brother machines.",
+            "quote": "It’s heavy, but I’ll take it with me when I do on the go stuff",
+            "url": "https://www.reddit.com/r/sewing/comments/1teepjl/considering_a_janome_hd3000_shop_owner_is/om4g4m3/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "free_motion",
+        "label": "Free-motion quilting",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 0,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2020,
+          2020
+        ],
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2021,
+          2023
+        ],
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "thread_trimmer",
+        "label": "Thread trimmer",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2016,
+          2016
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c3a0c5140",
+            "polarity": "negative",
+            "claim": "Owner says the thread cutting wedge is hard to reach so they use scissors.",
+            "quote": "The thread-cutting wedge is practically out of reach",
+            "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2014,
+          2014
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c884c6a93",
+            "polarity": "positive",
+            "claim": "Owner says routine maintenance kept performance good under heavy use.",
+            "quote": "The machine performed beautifully once I implemented routine maintenance",
+            "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "differential_feed",
+        "label": "Differential feed",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2022,
+          2022
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B00916Y4YM",
+        "pageRating": 4.4,
+        "pageCount": 658,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "lowRated": 0,
+        "sampled": "0 top reviews (0 US, 0 other countries) of 658 ratings"
+      },
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+        "pageRating": 4.68,
+        "pageCount": 44,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 3,
+          "2": 0,
+          "3": 0,
+          "4": 2,
+          "5": 39
+        },
+        "lowRated": 3,
+        "sampled": null
+      },
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B07D7HFT9L",
+        "pageRating": 4.4,
+        "pageCount": 333,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 7
+        },
+        "lowRated": 1,
+        "sampled": "8 top reviews (8 US, 0 other countries) of 333 ratings"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Stitch count",
+        "juki": "18 built-in stitches.",
+        "others": "The 2011 Janome blog says 19; dealers say 18.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome page",
+            "url": "https://www.janome.com/product/hd-3000/"
+          },
+          {
+            "label": "Janome brochure",
+            "url": "https://www.janome.com/wp-content/uploads/2019/11/hd3000-info-sheet.pdf"
+          }
+        ],
+        "field": "stitchCount",
+        "source": "page"
+      },
+      {
+        "label": "Top speed",
+        "juki": "860 spm in the 2011 launch post only; no speed on the current page.",
+        "others": "Dealers repeat 860.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome 2011 blog",
+            "url": "https://www.janome.com/introducing-the-hd1000-and-hd3000/"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "blog"
+      },
+      {
+        "label": "Feed dog",
+        "juki": "5-piece feed dog and drop feed (page, brochure). The 2011 blog says 7-piece.",
+        "others": "Our spec says 7-piece, taken from the blog.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome page",
+            "url": "https://www.janome.com/product/hd-3000/"
+          },
+          {
+            "label": "Janome brochure",
+            "url": "https://www.janome.com/wp-content/uploads/2019/11/hd3000-info-sheet.pdf"
+          },
+          {
+            "label": "Janome 2011 blog",
+            "url": "https://www.janome.com/introducing-the-hd1000-and-hd3000/"
+          }
+        ],
+        "field": "feedSystem",
+        "source": "page"
+      },
+      {
+        "label": "Buttonhole",
+        "juki": "One automatic buttonhole, called four-step in the spec table and one-step in the prose.",
+        "others": "Dealers say one-step.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome page",
+            "url": "https://www.janome.com/product/hd-3000/"
+          }
+        ],
+        "field": "buttonhole",
+        "source": "page"
+      },
+      {
+        "label": "Zigzag width",
+        "juki": "6.5 mm width, 4 mm length.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome page",
+            "url": "https://www.janome.com/product/hd-3000/"
+          }
+        ],
+        "field": "stitchWidthLength",
+        "source": "page"
+      },
+      {
+        "label": "Weight",
+        "juki": "18.7 lbs.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome page",
+            "url": "https://www.janome.com/product/hd-3000/"
+          }
+        ],
+        "field": "weightLb",
+        "source": "page"
+      },
+      {
+        "label": "Throat / workspace",
+        "juki": "Workspace 6.5 in wide by 4.6 in high; no needle-to-arm figure given.",
+        "others": "No dealer gives a figure that adds to it.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome page",
+            "url": "https://www.janome.com/product/hd-3000/"
+          }
+        ],
+        "field": "throatIn",
+        "source": "page"
+      },
+      {
+        "label": "Box contents",
+        "juki": "Zigzag, automatic buttonhole, blind hem, overedge, 2 mm rolled hem and zipper feet, hard cover.",
+        "others": "Dealers list fewer feet.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome page",
+            "url": "https://www.janome.com/product/hd-3000/"
+          }
+        ],
+        "field": "includedFeet",
+        "source": "page"
+      },
+      {
+        "label": "Warranty",
+        "juki": "25 years materials and workmanship, 5 years electronic parts, 1 year labor; void if not bought from an authorized US Janome dealer.",
+        "others": "One dealer states the same 25/5/1; our spec note about 2 years electrical is not supported.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome warranty PDF",
+            "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+          }
+        ],
+        "field": "warranty",
+        "source": "warranty"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "HD1000",
+        "label": "Janome HD1000",
+        "rows": [
+          {
+            "feature": "Presser foot pressure",
+            "urls": 3,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Commenters say the HD3000 has adjustable presser foot pressure and the HD1000 does not. Janome lists foot pressure adjustment for the HD3000 and not for the HD1000.",
+            "check": "Reddit comments confirmed by Janome product pages, 2026-10-02",
+            "examples": [
+              {
+                "claim_id": "c2749d0b1",
+                "claim": "Commenter lists adjustable foot pressure as an advantage the HD3000 has over the HD1000.",
+                "quote": "and adjustable foot pressure",
+                "url": "https://www.reddit.com/r/sewing/comments/1teepjl/considering_a_janome_hd3000_shop_owner_is/om2r83r/"
+              },
+              {
+                "claim_id": "c402ae6d8",
+                "claim": "Commenter says the HD1000 cannot adjust presser foot pressure, implying the HD3000 can.",
+                "quote": "The 1000 cannot adjust the pressor foot pressure",
+                "url": "https://www.reddit.com/r/myog/comments/o8g30w/i_made_a_video_comparing_the_janome_hd3000_and/h356uyt/"
+              },
+              {
+                "claim_id": "c290ee5e6",
+                "claim": "Owner upgraded from the HD-1000 because it lacked a presser foot pressure adjustment, which the HD-3000 provides.",
+                "quote": "it not having a presser foot pressure adjustment",
+                "url": "https://www.reddit.com/r/sewing/comments/10q9xyp/janome_hd3000_foot_pedal_too_fast/"
+              }
+            ]
+          },
+          {
+            "feature": "Feed dogs",
+            "urls": 2,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Commenters say the HD3000 has five-point feed dogs against three on the HD1000. Janome lists a 5-piece feed dog for the HD3000 and a 3-piece for the HD1000.",
+            "check": "Reddit comments confirmed by Janome product pages, 2026-10-02",
+            "examples": [
+              {
+                "claim_id": "c268b5a26",
+                "claim": "Commenter says the HD3000 has better feed dogs than the HD1000, 5 point against 3 point.",
+                "quote": "better feed dogs (5 point vs. 3 point)",
+                "url": "https://www.reddit.com/r/sewing/comments/1teepjl/considering_a_janome_hd3000_shop_owner_is/om2r83r/"
+              },
+              {
+                "claim_id": "c7dcd342a",
+                "claim": "Commenter guesses the HD3000 has more feed dog points that grip fabric better than the HD1000.",
+                "quote": "The 3000 may have more feed dog points, too",
+                "url": "https://www.reddit.com/r/sewing/comments/wm47le/juki_hzl70hw_vs_janome_hd3000/ik2ghks/"
+              }
+            ]
+          },
+          {
+            "feature": "Hook and bobbin",
+            "urls": 2,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Commenters say the HD3000 has a rotary hook with a top-loading bobbin and the HD1000 an oscillating one. Janome lists a top-loading full rotary hook for the HD3000 and a front-loading vertical oscillating hook for the HD1000.",
+            "check": "Reddit comments confirmed by Janome product pages, 2026-10-02",
+            "examples": [
+              {
+                "claim_id": "c556c1063",
+                "claim": "Commenter says the HD1000 uses an oscillating hook while the HD3000 uses a rotary hook.",
+                "quote": "It fits the oscillating HD1000 and the rotary HD3000",
+                "url": "https://www.reddit.com/r/sewing/comments/1801oq2/does_this_fit_the_janome_hd3000/ka37hcp/"
+              },
+              {
+                "claim_id": "c56435efa",
+                "claim": "Commenter says the HD1000 uses an upright oscillating bobbin that sews slower than the HD3000 rotary bobbin.",
+                "quote": "the former has an upright, oscillating bobbin",
+                "url": "https://www.reddit.com/r/sewing/comments/wm47le/juki_hzl70hw_vs_janome_hd3000/ik2ghks/"
+              }
+            ]
+          },
+          {
+            "feature": "Foot pedal",
+            "urls": 1,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "One commenter says the HD3000's foot pedal is more sensitive than the HD1000's. Janome publishes no pedal figures.",
+            "check": "unverified, Reddit only",
+            "examples": [
+              {
+                "claim_id": "ce88167dd",
+                "claim": "Owner says the HD-3000 pedal is much more sensitive than the HD-1000 pedal.",
+                "quote": "I don't know why they made the HD-3000 pedal so much more sensitive",
+                "url": "https://www.reddit.com/r/sewing/comments/10q9xyp/janome_hd3000_foot_pedal_too_fast/"
+              }
+            ]
+          },
+          {
+            "feature": "Stitches and buttonhole",
+            "urls": 0,
+            "classes": [],
+            "summary": "Janome lists 14 stitches and a four-step buttonhole for the HD1000, against 18 for the HD3000.",
+            "check": "Janome HD-1000 and HD-3000 product pages, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Hook and feed",
+            "urls": 0,
+            "classes": [],
+            "summary": "The HD1000 has a front-loading vertical oscillating hook and a 3-piece feed dog; the HD3000 is listed with a top loading full rotary hook and a 5-piece feed dog.",
+            "check": "Janome HD-1000 and HD-3000 product pages, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Width and weight",
+            "urls": 0,
+            "classes": [],
+            "summary": "5 mm maximum width and 16.8 lbs for the HD1000; 6.5 mm and 18.7 lbs for the HD3000.",
+            "check": "Janome product pages, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Maker MSRP",
+            "urls": 0,
+            "classes": [],
+            "summary": "Janome shows $409 for the HD1000 and $559 for the HD3000.",
+            "check": "Janome product pages, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "HD5000",
+        "label": "Janome HD5000",
+        "rows": [
+          {
+            "feature": "Maker spec table",
+            "urls": 0,
+            "classes": [],
+            "summary": "Janome's HD5000 table matches the HD3000 line for line: 18 stitches, 6.5 mm, 18.7 lbs, 5-piece feed dog, workspace 6.5 x 4.6 in. The page names no difference.",
+            "check": "Janome HD-5000 and HD-3000 product pages, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Feed dog wording",
+            "urls": 0,
+            "classes": [],
+            "summary": "The HD5000 prose says seven-piece while its table says 5-piece, the same split as the HD3000 against its 2011 blog.",
+            "check": "Janome HD-5000 product page, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "HD9",
+        "label": "Janome HD9",
+        "rows": [
+          {
+            "feature": "Class",
+            "urls": 0,
+            "classes": [],
+            "summary": "The HD9 Professional is a straight-stitch-only machine up to 1,600 spm with a thread cutter, 32 lbs and an 8 x 5.5 in workspace; Janome lists $2,499.",
+            "check": "Janome HD9 Professional product page excerpt, 2026-10-02",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": [
+      {
+        "model": "Singer Heavy Duty 4423",
+        "claims": 4,
+        "sources": 4,
+        "favors": {
+          "this": 4,
+          "other": 0,
+          "mixed": 0
+        },
+        "dimensions": {
+          "this": [
+            {
+              "dimension": "drive system and build quality",
+              "n": 1
+            },
+            {
+              "dimension": "overall",
+              "n": 1
+            },
+            {
+              "dimension": "range of fabrics",
+              "n": 1
+            },
+            {
+              "dimension": "reliability",
+              "n": 1
+            }
+          ],
+          "other": []
+        },
+        "examples": [
+          {
+            "claim_id": "c04616546",
+            "dimension": "overall",
+            "favors": "this",
+            "claim": "Commenter says to choose the Janome over the Singer as a much better machine.",
+            "quote": "Get the Jamone, a much better machine.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1dkel72/janome_hd3000_vs_singer_4423/l9hgt2b/"
+          }
+        ]
+      }
+    ]
+  },
+  "janome-hd5000": {
+    "slug": "janome-hd5000",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 60,
+      "itemsCollected": 519,
+      "statements": 73,
+      "voices": 60,
+      "ownerVoices": 39,
+      "dateRange": [
+        2020,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 58,
+          "items": 517
+        },
+        "retailer": {
+          "sources": 2,
+          "items": 0
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.1 from 80 ratings is the white HD5000 listing (B084M81BC6) and 4.1 from 141 ratings is the separate Black Edition listing (B09MDLYYPC); no pooled variations were flagged on either, and neither returned review text."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 15,
+        "voices": 15,
+        "ownerVoices": 11,
+        "sources": 9,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 15
+        },
+        "polarity": {
+          "positive": 4,
+          "negative": 7,
+          "mixed": 0,
+          "neutral": 4
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ce1565a8d",
+            "polarity": "negative",
+            "claim": "New unit arrived with a lid that would not close without the side cover popping out.",
+            "quote": "I cannot get the lid to close right",
+            "url": "https://www.reddit.com/r/sewing/comments/1n7sozl/lid_not_closing_janome_hd_5000/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c7e41cd3d",
+            "polarity": "negative",
+            "claim": "Refurbished unit starts clacking every 50 to 100 hours, then the bobbin jams, despite two services and a new bobbin case.",
+            "quote": "slowly starts to clack with every stitch",
+            "url": "https://www.reddit.com/r/sewingmachinerepair/comments/18kl6w0/reoccurring_bobbin_problem_with_janome_hd5000/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c311c3812",
+            "polarity": "positive",
+            "claim": "Owner has used the machine regularly for years with no complaints.",
+            "quote": "I've had mine for years, and use it regularly.",
+            "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/ludl6qp/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 12,
+        "voices": 10,
+        "ownerVoices": 3,
+        "sources": 7,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 10
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 4,
+          "mixed": 1,
+          "neutral": 3
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c400db851",
+            "polarity": "negative",
+            "claim": "Owner sewing handbags finds it weak on heavy leather and thick stabilizer.",
+            "quote": "It's not great for heavy leather or thick stabilizer",
+            "url": "https://www.reddit.com/r/sewing/comments/1ivo7tp/upgrade_to_janome_hd5000/me81680/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ce831dadb",
+            "polarity": "positive",
+            "claim": "Owner reports no trouble with canvas, denim and thin vinyl.",
+            "quote": "no problem using it with canvas, denim, and thin vinyl",
+            "url": "https://www.reddit.com/r/sewing/comments/1ivo7tp/upgrade_to_janome_hd5000/me81680/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cf954f47d",
+            "polarity": "positive",
+            "claim": "Owner reports sewing up to 8 layers of denim or canvas with no sound change, skipped stitches or slowing.",
+            "quote": "no problems sewing through up to 8 layers of denim or canvas",
+            "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/lud9p84/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 9,
+        "voices": 8,
+        "ownerVoices": 8,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 8
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 5,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c488a65ce",
+            "polarity": "negative",
+            "claim": "HD5000 owner had a wide polyester spool pop out of the thread guide; a smaller spool worked fine.",
+            "quote": "kept popping out of the guide",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1w6acsp/thread_jumps_out_of_thread_guide_on_janome_hd5000/p895z0e/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cf02afba6",
+            "polarity": "negative",
+            "claim": "Owner finds thread slipping out of the thread guide after sewing a while.",
+            "quote": "I'll find the thread is out from under the guide",
+            "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1w6a8t6/thread_jumps_out_of_thread_guide_on_janome_hd5000/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c906e563f",
+            "polarity": "positive",
+            "claim": "Owner fixed the guide problem by using the small spool holder mount with the felt.",
+            "quote": "forgot there's a little spool holder mount",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1w6acsp/thread_jumps_out_of_thread_guide_on_janome_hd5000/p8fvfnu/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cf89a276c",
+            "polarity": "positive",
+            "claim": "Owner reports no bobbin issues when winding slowly and watching tension.",
+            "quote": "has never given me an issue with the bobbin!",
+            "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/ludnxpn/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c46897b42",
+            "polarity": "mixed",
+            "claim": "Owner notes thread leaves the guide when changing colours but sewing is not affected.",
+            "quote": "It doesn't cause problems with the sewing",
+            "url": "https://www.reddit.com/r/sewinghelp/comments/1w6abuh/thread_jumps_out_of_thread_guide_on_janome_hd5000/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 6,
+        "voices": 6,
+        "ownerVoices": 3,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 6
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 4
+        },
+        "years": [
+          2021,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cacc050e1",
+            "polarity": "negative",
+            "claim": "Owner finds the HD5000 handles Eloflex stretch thread poorly, with zigzag bunching badly despite needle, tension and foot changes.",
+            "quote": "it appears to hate Eloflex thread",
+            "url": "https://www.reddit.com/r/sewing/comments/owjbsf/eloflex_failure/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c0cf2fc70",
+            "polarity": "positive",
+            "claim": "Owner says the buttonhole comes out very consistent.",
+            "quote": "super consistent buttonhole",
+            "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/lud9p84/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 3,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 5
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2020,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cf1ed821f",
+            "polarity": "positive",
+            "claim": "Owner finds the variety of included feet good.",
+            "quote": "good variety of feet",
+            "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/lud9p84/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cc6782ddf",
+            "polarity": "positive",
+            "claim": "Owner chose the Black Edition at the same price because it included extra free accessories.",
+            "quote": "came with extra free accessories",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1w6acsp/thread_jumps_out_of_thread_guide_on_janome_hd5000/p8u1opj/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "learning_curve",
+        "label": "Learning curve",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 5
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 4,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c7fea136e",
+            "polarity": "negative",
+            "claim": "Owner found bobbin winding had a learning curve.",
+            "quote": "bit of a learning curve with bobbin winding for me",
+            "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/lud9p84/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cdab3a83e",
+            "polarity": "negative",
+            "claim": "New HD5000 owner says the manual has no table naming the stitches or explaining what each does.",
+            "quote": "there is no table to explain the name or what each stitch does",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1kh2cmy/resource_for_stitch_names_and_multiple/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c6184e8f9",
+            "polarity": "mixed",
+            "claim": "Owner says bobbin threading differs from most machines but is learnable from the manual.",
+            "quote": "the way you thread the bobbin is a bit different from most machines",
+            "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/ludddm4/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c91ad42d5",
+            "polarity": "negative",
+            "claim": "Owner says the bobbin thread pops off the tension wheel during winding and uses a separate winder.",
+            "quote": "The thread pops off the tension wheel for the bobbin.",
+            "url": "https://www.reddit.com/r/sewing/comments/1ivo7tp/upgrade_to_janome_hd5000/me9opj1/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cb3480e00",
+            "polarity": "negative",
+            "claim": "New owner struggles to wind a bobbin from a large 1094 yard spool.",
+            "quote": "I'm trying to load the bobbin and it keeps coming out messed up",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1kvlu2o/can_you_use_1000_yard_spool_on_janome_hd5000/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cee9c51db",
+            "polarity": "mixed",
+            "claim": "Owner calls the bobbin winder finicky but likes the machine.",
+            "quote": "the bobbin winder is finicky",
+            "url": "https://www.reddit.com/r/sewing/comments/1ivo7tp/upgrade_to_janome_hd5000/me7dzvz/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 2,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c64bb261c",
+            "polarity": "negative",
+            "claim": "Shopper says the HD5000 is louder, clunkier and less intuitive than the Brother ST150.",
+            "quote": "its louder, clunkier, and not as intuitive",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1papf90/how_to_test_out_machines_when_shopping/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c14da5786",
+            "polarity": "positive",
+            "claim": "Owner finds the machine sound pleasant and not whirry.",
+            "quote": "pleasant sound - not too high pitched",
+            "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/lud9p84/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "walking_foot",
+        "label": "Walking foot",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2023
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cc42ea23c",
+            "polarity": "negative",
+            "claim": "HD5000 owner with a walking foot attachment agrees it has little clearance.",
+            "quote": "I have a walking foot attachment for my HD5000",
+            "url": "https://www.reddit.com/r/myog/comments/14n7mnq/leatherwork_with_domestic_heavy_duty_machine/jq5wtgc/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2023,
+          2023
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c6c39b684",
+            "polarity": "negative",
+            "claim": "Owner says the manual gives no oiling instructions.",
+            "quote": "the manual has zero instructions on oiling",
+            "url": "https://www.reddit.com/r/sewingmachinerepair/comments/18kl6w0/reoccurring_bobbin_problem_with_janome_hd5000/kdy80k6/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c939b1b3e",
+            "polarity": "negative",
+            "claim": "New owner could not get the lid to close properly because the side cover popped out.",
+            "quote": "I cannot get the lid to close right",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1n7snx3/can_anyone_help_me_identify_what_is_wrong/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c7c7786b6",
+            "polarity": "positive",
+            "claim": "Owner of a new Janome calls it a tank.",
+            "quote": "It’s a tank",
+            "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/ludnxpn/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "free_motion",
+        "label": "Free-motion quilting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c1151c185",
+            "polarity": "positive",
+            "claim": "Owner quilted a full quilt on the HD5000, including some free-motion quilting.",
+            "quote": "quilted it myself sitting on my kitchen floor with my Janome HD5000",
+            "url": "https://www.reddit.com/r/quilting/comments/1uj78wu/first_quilt_wedding_gift_for_friends/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2024
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2024,
+          2024
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B084M81BC6",
+        "pageRating": 4.1,
+        "pageCount": 80,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "lowRated": 0,
+        "sampled": "0 top reviews (0 US, 0 other countries) of 80 ratings"
+      },
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B09MDLYYPC",
+        "pageRating": 4.1,
+        "pageCount": 141,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "lowRated": 0,
+        "sampled": "0 top reviews (0 US, 0 other countries) of 141 ratings"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Stitch count",
+        "juki": "18 (maker page and HD5000BE page)",
+        "others": "19 (Ken's spec block), 27 (comparison blog)",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ],
+        "field": "Stitch count",
+        "source": "maker-page"
+      },
+      {
+        "label": "Maximum stitch width",
+        "juki": "6.5 mm",
+        "others": "7 mm (earlier research, Ken's said 6.5 mm)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          },
+          {
+            "label": "Janome HD-3000 product page",
+            "url": "https://www.janome.com/product/hd-3000/"
+          }
+        ],
+        "field": "Maximum stitch width",
+        "source": "maker-page"
+      },
+      {
+        "label": "Maximum stitch length",
+        "juki": "4 mm",
+        "others": "",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ],
+        "field": "Maximum stitch length",
+        "source": "maker-page"
+      },
+      {
+        "label": "Feed dog",
+        "juki": "5-piece (Specifications) vs seven-piece (description text), same page",
+        "others": "5-piece (Amazon listing), 7-piece (sewingpartsonline)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ],
+        "field": "Feed system",
+        "source": "maker-page"
+      },
+      {
+        "label": "Hook type",
+        "juki": "Top Loading Full Rotary Hook Bobbin",
+        "others": "Horizontal full rotary hook (dealer copy)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ],
+        "field": "Hook",
+        "source": "maker-page"
+      },
+      {
+        "label": "Throat space",
+        "juki": "Workspace W 6.5 in x H 4.6 in (not labelled needle to arm)",
+        "others": "",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ],
+        "field": "Throat / workspace",
+        "source": "maker-page"
+      },
+      {
+        "label": "Weight",
+        "juki": "18.7",
+        "others": "18.7 lb (Ken's)",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ],
+        "field": "Weight",
+        "source": "maker-page"
+      },
+      {
+        "label": "Dimensions",
+        "juki": "W 16 x H 11.3 x D 7.2 in",
+        "others": "16 x 7 x 11 in (Ken's)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ],
+        "field": "Dimensions",
+        "source": "maker-page"
+      },
+      {
+        "label": "Frame",
+        "juki": "Single-cast aluminum frame",
+        "others": "Single-cast aluminum frame (sewingpartsonline)",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ],
+        "field": "Frame",
+        "source": "maker-page"
+      },
+      {
+        "label": "Needle threader",
+        "juki": "Built-in, one-hand",
+        "others": "",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ],
+        "field": "Needle threader",
+        "source": "maker-page"
+      },
+      {
+        "label": "Presser foot lift",
+        "juki": "Extra-high; about 1/4 in above normal up (manual)",
+        "others": "Extra-high (dealer copy)",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "HD-5000 manual (PDF)",
+            "url": "https://www.janome.com/wp-content/uploads/2021/11/hd5000-instruction-manual.pdf"
+          }
+        ],
+        "field": "Presser foot lift",
+        "source": "manual"
+      },
+      {
+        "label": "Buttonhole",
+        "juki": "One-step (HD-5000 Key Features) vs 1 Four-Step (HD5000BE and HD-3000 Specifications)",
+        "others": "One-step (dealers)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          },
+          {
+            "label": "Janome HD5000BE product page",
+            "url": "https://www.janome.com/product/hd5000be/"
+          }
+        ],
+        "field": "Buttonhole",
+        "source": "maker-page"
+      },
+      {
+        "label": "Maximum speed",
+        "juki": "Not published",
+        "others": "860 spm (Ken's)",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ],
+        "field": "Speed",
+        "source": "maker-page"
+      },
+      {
+        "label": "Motor",
+        "juki": "Not published",
+        "others": "",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ],
+        "field": "Motor",
+        "source": "maker-page"
+      },
+      {
+        "label": "Included feet",
+        "juki": "7 feet; quilting guide bar standard; Quilting Attachment Kit is optional on the HD-5000, standard on the HD5000BE",
+        "others": "Quilting kit included (dealer copy)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          },
+          {
+            "label": "Janome HD5000BE product page",
+            "url": "https://www.janome.com/product/hd5000be/"
+          }
+        ],
+        "field": "Standard accessories (HD-5000 page)",
+        "source": "maker-page"
+      },
+      {
+        "label": "HD5000BE",
+        "juki": "Same specification block; Quilting Attachment Kit standard",
+        "others": "Amazon sells it as 'HD-5000 Black Edition'",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome HD5000BE product page",
+            "url": "https://www.janome.com/product/hd5000be/"
+          }
+        ],
+        "field": "Variant: HD5000BE (Black Edition)",
+        "source": "maker-page-be"
+      },
+      {
+        "label": "Warranty",
+        "juki": "25 yr materials and workmanship; 5 yr electronic parts; 1 yr labor; 1 yr if used commercially; authorized US dealer purchase only",
+        "others": "Amazon listing: 2 yr electrical",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome warranty PDF",
+            "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+          },
+          {
+            "label": "Janome warranty page",
+            "url": "https://www.janome.com/support/warranty/"
+          }
+        ],
+        "field": "Warranty",
+        "source": "warranty-pdf"
+      },
+      {
+        "label": "Price",
+        "juki": "Dealer pricing only",
+        "others": "",
+        "status": "dealer only",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ],
+        "field": "Price",
+        "source": "maker-page"
+      },
+      {
+        "label": "Marketing claims",
+        "juki": "'Heavy-duty mechanical workhorse' (claim)",
+        "others": "'Sews 12 layers of denim' (dealer title)",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ],
+        "field": "Claims (marketing wording)",
+        "source": "maker-page"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "HD3000",
+        "label": "Janome HD3000",
+        "rows": [
+          {
+            "feature": "Market availability",
+            "urls": 2,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Commenters say the HD5000 is sold in Canada and the HD3000 in the US. Janome's US site lists both.",
+            "check": "Reddit comments; Janome US pages list both machines",
+            "examples": [
+              {
+                "claim_id": "ccecb890e",
+                "claim": "Commenter says apart from stitch width the main difference is that the HD5000 is sold only in Canada.",
+                "quote": "the 5000HD is only available in Canada",
+                "url": "https://www.reddit.com/r/sewing/comments/sraxe6/difference_between_janome_machines/hwrnla1/"
+              },
+              {
+                "claim_id": "c3ed53425",
+                "claim": "Poster says the HD5000 is the Canadian equivalent of the HD3000.",
+                "quote": "the CDN equivalent of the HD3000",
+                "url": "https://www.reddit.com/r/sewing/comments/owjbsf/eloflex_failure/"
+              }
+            ]
+          },
+          {
+            "feature": "Stitch width",
+            "urls": 1,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "One commenter lists the HD5000 at 7 mm and the HD3000 at 6.5 mm. Janome's pages list 6.5 mm for both, so the 7 mm figure is not supported.",
+            "check": "Reddit comment contradicted by Janome product pages, 2026-10-02",
+            "examples": [
+              {
+                "claim_id": "ca43a981f",
+                "claim": "Commenter says the only difference is max stitch width, 6.5 mm versus 7.00 mm; the order given is ambiguous about which model is which.",
+                "quote": "the only difference is the maximum stitch width. 6.5mm vs 7.00mm.",
+                "url": "https://www.reddit.com/r/sewing/comments/sraxe6/difference_between_janome_machines/hwqss8g/"
+              }
+            ]
+          },
+          {
+            "feature": "Overlock stitch",
+            "urls": 1,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "One commenter says the HD5000 has an overlocking stitch and the HD3000 does not. Janome's pages do not list one for either.",
+            "check": "unverified, Reddit only",
+            "examples": [
+              {
+                "claim_id": "c4f50d51c",
+                "claim": "Poster chose HD5000 over HD3000 because the 5000 has an overlocking stitch and the 3000 does not.",
+                "quote": "the 5000 has the overlocking stitch and the 3000 doesn’t",
+                "url": "https://www.reddit.com/r/sewing/comments/1aidgy6/finally_moving_on_to_a_new_machine_need_advice/kotuihw/"
+              }
+            ]
+          },
+          {
+            "feature": "Maker page spec block",
+            "urls": 0,
+            "classes": [],
+            "summary": "Janome lists 18 stitches, 5 piece feed dog, 6.5 mm max width, 4 mm max length, workspace W 6.5 x H 4.6 in, 18.7 lb and a four-step buttonhole.",
+            "check": "janome.com HD-3000 product page, fetched 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "HD1000",
+        "label": "Janome HD1000",
+        "rows": [
+          {
+            "feature": "Maker page spec block",
+            "urls": 0,
+            "classes": [],
+            "summary": "Janome lists 14 stitches plus a four-step buttonhole, a 3-piece feed dog, 4 mm max stitch length and a built-in needle threader.",
+            "check": "janome.com HD-1000 product page, fetched 2026-10-02",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
   },
   "janome-hd9": {
     "slug": "janome-hd9",
@@ -9318,6 +14423,3528 @@ export const rollupData: Record<string, Rollup> = {
             "classes": [],
             "summary": "The head weighs 42.5 kg against 36.5 kg for the DNU-1541S.",
             "check": "Juki catalog, 2026-10-01",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "juki-hzl-f300": {
+    "slug": "juki-hzl-f300",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 48,
+      "itemsCollected": 711,
+      "statements": 180,
+      "voices": 129,
+      "ownerVoices": 113,
+      "dateRange": [
+        2010,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 46,
+          "items": 457
+        },
+        "retailer": {
+          "sources": 2,
+          "items": 254
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 26,
+        "voices": 23,
+        "ownerVoices": 21,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 5,
+          "retailer": 18
+        },
+        "polarity": {
+          "positive": 6,
+          "negative": 10,
+          "mixed": 1,
+          "neutral": 6
+        },
+        "years": [
+          2017,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c33b615c7",
+            "polarity": "negative",
+            "claim": "Bonus package lacked size 11 needles.",
+            "quote": "No size 11 needles.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c4b28e341",
+            "polarity": "negative",
+            "claim": "F300 owner bought a walking foot, knee lift, extra feet and a table attachment separately because they did not come with the machine.",
+            "quote": "I paid for a walking foot (65 bucks) knee lift (40 bucks)",
+            "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/kpdxj9t/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c67e8b2ff",
+            "polarity": "positive",
+            "claim": "Owner praises the quarter inch foot with guide.",
+            "quote": "foot with guide is great",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cddb3ef0a",
+            "polarity": "positive",
+            "claim": "Owner found a $150 deal bundling the extension table, knee lift and extra presser feet with the machine.",
+            "quote": "the extension table, knee lift, and extra presser feet were included for $150",
+            "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcnuyww/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 20,
+        "voices": 20,
+        "ownerVoices": 20,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 17,
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 16,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2010,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cfb041c39",
+            "polarity": "negative",
+            "claim": "Owner reports the machine vibrates while sewing even on a solid oak table.",
+            "quote": "The only problem I have is the vibration when sewing.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c3fcf3788",
+            "polarity": "negative",
+            "claim": "F300 owner reports vibration and a buzzing noise as sewing speed rises.",
+            "quote": "the machine is vibrating and have buzzing noise when speed increased",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1n0n40s/help_what_do_you_think_iswrong_with_this_machine/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cd6ef4ab1",
+            "polarity": "positive",
+            "claim": "Owner of two days finds it very quiet.",
+            "quote": "soooo quiet",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c3702d3d8",
+            "polarity": "positive",
+            "claim": "Owner finds the wide, heavy base stable with little vibration while sewing.",
+            "quote": "it is very stable and has much less vibration in operation",
+            "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/na297q1/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 19,
+        "voices": 18,
+        "ownerVoices": 14,
+        "sources": 12,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 14,
+          "retailer": 4
+        },
+        "polarity": {
+          "positive": 5,
+          "negative": 13,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2020,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c940866ce",
+            "polarity": "negative",
+            "claim": "Pressing or releasing reverse adds an extra stitch, making it hard to end a seam precisely.",
+            "quote": "it does one extra stitch",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c70d6b0d7",
+            "polarity": "negative",
+            "claim": "Former owner calls the F300 a lemon that broke within a few years.",
+            "quote": "I tried the Juki f300 and it was a lemon.",
+            "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1wmbx95/juki_how_much_is_too_much/pb5shlo/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c6b42d83e",
+            "polarity": "positive",
+            "claim": "F300 owner calls it a good all-round and very durable machine that quilted a baby quilt sandwich well.",
+            "quote": "Good all round machine and very durable.",
+            "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/n9qigtj/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 18,
+        "voices": 18,
+        "ownerVoices": 18,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 17,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 11,
+          "negative": 5,
+          "mixed": 2,
+          "neutral": 0
+        },
+        "years": [
+          2010,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ca6bdab28",
+            "polarity": "negative",
+            "claim": "Auto threader is finicky and only works with the needle at the right height.",
+            "quote": "the auto-threader is finicky",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "ca41d4abd",
+            "polarity": "positive",
+            "claim": "Owner finds the auto threader easy.",
+            "quote": "Auto threader is a breeze",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "ca0d4f694",
+            "polarity": "positive",
+            "claim": "Experienced owner says it is the easiest machine to thread they have used, bobbin area included.",
+            "quote": "I have never had a machine so easy to thread",
+            "url": "https://www.amazon.com/dp/B00F9K1FIM",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c7be84599",
+            "polarity": "mixed",
+            "claim": "Owner says the needle threader works but will not handle finer needles.",
+            "quote": "it will not work with finer needles",
+            "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/na297q1/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c666fa73c",
+            "polarity": "mixed",
+            "claim": "Buyer had trouble threading the bobbin because the directions were unclear; tech support resolved it the next day.",
+            "quote": "I had issues threading the bobbin and the directions were not clear.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "thread_trimmer",
+        "label": "Thread trimmer",
+        "statements": 18,
+        "voices": 17,
+        "ownerVoices": 16,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 16,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 13,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2015,
+          2022
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ccc8954f2",
+            "polarity": "negative",
+            "claim": "Owner reports the bobbin cutter has never worked.",
+            "quote": "The bobbin cutter has never worked.",
+            "url": "https://www.amazon.com/dp/B00F9K1FIM",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c58abfcba",
+            "polarity": "positive",
+            "claim": "Owner likes the automatic cut feature.",
+            "quote": "I love the automatic cut feature.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c7f86cb66",
+            "polarity": "positive",
+            "claim": "Owner likes the cutting action tied to the reverse pedal stitch.",
+            "quote": "I love the reverse pedal stitch cutting",
+            "url": "https://www.amazon.com/dp/B00F9K1FIM",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 11,
+        "voices": 11,
+        "ownerVoices": 9,
+        "sources": 6,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 6,
+          "retailer": 5
+        },
+        "polarity": {
+          "positive": 7,
+          "negative": 1,
+          "mixed": 3,
+          "neutral": 0
+        },
+        "years": [
+          2016,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ca8ebf3b9",
+            "polarity": "negative",
+            "claim": "New owner says the machine hangs up and glitches on thick fabrics despite expecting heavy-duty punching power.",
+            "quote": "it keeps on getting hung up and glitching when going through thick fabrics",
+            "url": "https://www.reddit.com/r/quilting/comments/1n22a55/troubleshooting_on_juki_hzlf300/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c44349422",
+            "polarity": "positive",
+            "claim": "Owner says it powered through multiple layers that bogged down an old machine.",
+            "quote": "Again it powered thru it.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cfba0fabf",
+            "polarity": "positive",
+            "claim": "Owner has not tried denim but expects the machine to cope with it because it is a workhorse.",
+            "quote": "It's a workhorse so I think it would be great on denim.",
+            "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/kwadpco/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cf3be30e3",
+            "polarity": "mixed",
+            "claim": "Owner finds it struggles a little with very heavy layered fabrics but still sews heavier than before.",
+            "quote": "although it does struggle a bit with very heavy layered fabrics",
+            "url": "https://www.reddit.com/r/sewing/comments/z2ys37/best_sewing_machine_for_heavy_duty_sewing/jgcp9u7/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 9,
+        "voices": 9,
+        "ownerVoices": 9,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 3,
+          "retailer": 6
+        },
+        "polarity": {
+          "positive": 8,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2015,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cfa205c17",
+            "polarity": "negative",
+            "claim": "New out of the box, the feed dog grabbed the fabric and pulled it into the feed slot at the start of sewing; owner awaiting a fix.",
+            "quote": "The dog feed is grabbing the material and pulling it into the feed slot",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c74c72511",
+            "polarity": "positive",
+            "claim": "Owner says it feeds thick layers smoothly.",
+            "quote": "Sews thick layers smoothly",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c62363535",
+            "polarity": "positive",
+            "claim": "Owner notes less top and bottom fabric offset on long seams than on the previous machine.",
+            "quote": "I don't get the offset at the end that I used to.",
+            "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcqr1do/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 9,
+        "voices": 9,
+        "ownerVoices": 7,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 6,
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 7,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2017,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c15a7aa1c",
+            "polarity": "positive",
+            "claim": "Owner says the machine feels nice and heavy.",
+            "quote": "feels nice and heavy",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 9,
+        "voices": 9,
+        "ownerVoices": 8,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 6,
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 5,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2019,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ce3e9052a",
+            "polarity": "negative",
+            "claim": "Buyer was told the throat was 9 in but measured 8 in.",
+            "quote": "but sadly only 8",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cc2a7e524",
+            "polarity": "negative",
+            "claim": "Owner measured an 8 inch throat, not the 9 inch the listing description claimed.",
+            "quote": "it really only has an 8 inch throat",
+            "url": "https://www.amazon.com/dp/B00F9K1FIM",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cbdf865a3",
+            "polarity": "positive",
+            "claim": "Owner likes the larger sewing space.",
+            "quote": "loving the larger sewing space",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c2f328bf3",
+            "polarity": "positive",
+            "claim": "Owner who upgraded from a 6 inch throat agrees the F300 size and space are impressive.",
+            "quote": "I did end up getting the F300 and I agree about the size and space!",
+            "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/nafnosf/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 8,
+        "voices": 7,
+        "ownerVoices": 6,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 4,
+          "retailer": 3
+        },
+        "polarity": {
+          "positive": 6,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2016,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ce2121228",
+            "polarity": "positive",
+            "claim": "Buyer bought it as a backup to industrial machines mainly for its buttonhole feature and is happy with the buttonholes.",
+            "quote": "primarily for the buttonhole feature",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c5ce21247",
+            "polarity": "positive",
+            "claim": "New F300 owner says it sewed a buttonhole on denim that the previous machine had failed.",
+            "quote": "It breezed right over the old machine's failed buttonhole",
+            "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcnuyww/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 6,
+        "voices": 5,
+        "ownerVoices": 4,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2016,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c30e26e1f",
+            "polarity": "negative",
+            "claim": "Owner says the retailer's site shows bobbin parts are no longer available after three years.",
+            "quote": "the bobbin parts are no long available",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c62bdc26f",
+            "polarity": "negative",
+            "claim": "Technician quoted about $50 for the part plus three hours of labor at $90 an hour for recalibration.",
+            "quote": "they quoted me at $90 an hour of labor for 3 hours",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1vuqje3/has_anyone_fixed_a_juki_hzl_f300_broken_bobbin/p5hrj7k/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c414484f7",
+            "polarity": "positive",
+            "claim": "Owner reports the machine has run fine with very little maintenance.",
+            "quote": "this machine has been just fine with nearly no maintenance",
+            "url": "https://www.reddit.com/r/quilting/comments/1dbhcsy/juki_hzlf300_for_450/l7ujsyp/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "walking_foot",
+        "label": "Walking foot",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2020,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c6026ffa3",
+            "polarity": "negative",
+            "claim": "Buyer of a quilting package says no walking foot was included and had to buy one after delivery.",
+            "quote": "didn’t include a required quilting walking foot",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c380d8401",
+            "polarity": "negative",
+            "claim": "Owner bought a walking foot for the F300 from a dealer and it lacks the guide bar screw.",
+            "quote": "the foot that was sent to me doesnt have a screw in the back",
+            "url": "https://www.reddit.com/r/quilting/comments/1rhm137/cant_attach_guide_bar_to_juki_walking_foot/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ceadbd553",
+            "polarity": "positive",
+            "claim": "Owner says it handles quilt layers without a walking foot.",
+            "quote": "It manages quilt layers without using a walking foot",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 5,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 4
+        },
+        "polarity": {
+          "positive": 4,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2017,
+          2024
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c4b909042",
+            "polarity": "positive",
+            "claim": "Owner says it is built solid.",
+            "quote": "Built solid",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2018,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ca3d2b7ae",
+            "polarity": "negative",
+            "claim": "Owner reports tension repeatedly drifting off.",
+            "quote": "Tension keeps going off.",
+            "url": "https://www.amazon.com/dp/B00F9K1FIM",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c7c85c593",
+            "polarity": "negative",
+            "claim": "Owner reports stitch starts bunching even after rethreading and tension adjustment, with autolock on or off.",
+            "quote": "the beginning of my stitches are still bunching up",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1eptccq/why_does_this_keep_happening_when_i_start_sewing/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c93174c88",
+            "polarity": "positive",
+            "claim": "Owner says stitches are neat and well tensioned.",
+            "quote": "The stitches are neat and perfectly tensioned",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 2,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2021,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cd434fd72",
+            "polarity": "negative",
+            "claim": "Owner cannot sew faster than about half speed even on thinner fabrics.",
+            "quote": "even on thinner fabrics I can’t go more than half way speed",
+            "url": "https://www.reddit.com/r/quilting/comments/1n22a55/troubleshooting_on_juki_hzlf300/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c0ec26f05",
+            "polarity": "positive",
+            "claim": "Owner found quilting with speed control and no foot pedal very useful.",
+            "quote": "quilting without a foot pedal and with speed control was a game changer!",
+            "url": "https://www.reddit.com/r/quilting/comments/1kw5txb/improv_wall_hanging/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2023,
+          2024
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cf5a97862",
+            "polarity": "mixed",
+            "claim": "Machine arrived with a faulty motor, repaired promptly under warranty.",
+            "quote": "Mine came with a faulty motor, but it got fixed under the warranty",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "free_motion",
+        "label": "Free-motion quilting",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2020,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "differential_feed",
+        "label": "Differential feed",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "ccd35c8e1",
+            "polarity": "negative",
+            "claim": "In a scrap test the feed dogs did not move the lower fabric faster than on the previous machine.",
+            "quote": "they really didn't seem to do it to the same extent as my previous machine",
+            "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcqr1do/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "learning_curve",
+        "label": "Learning curve",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2018,
+          2018
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c2149a7f8",
+            "polarity": "negative",
+            "claim": "New owner found buttonholes confusing at first and the manual unclear, though they worked out.",
+            "quote": "I tried doing some button holes and it seemed s bit confusing.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+            "source_class": "retailer"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+        "pageRating": 4.74,
+        "pageCount": 246,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 4,
+          "2": 1,
+          "3": 10,
+          "4": 25,
+          "5": 206
+        },
+        "lowRated": 15,
+        "sampled": null
+      },
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B00F9K1FIM",
+        "pageRating": 4.2,
+        "pageCount": 40,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 1,
+          "5": 5
+        },
+        "lowRated": 2,
+        "sampled": "8 top reviews (8 US, 0 other countries) of 40 ratings"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Stitches",
+        "juki": "106 patterns including 16 buttonholes, 3 fonts (manual says 105).",
+        "others": "Dealers say 106.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
+          }
+        ],
+        "field": "stitchCount",
+        "source": "maker-page"
+      },
+      {
+        "label": "Speed",
+        "juki": "900 stitches per minute.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "maker-page"
+      },
+      {
+        "label": "Throat",
+        "juki": "No needle-to-arm figure published. Brochure shows 112 mm (4-1/2 in) underarm height only.",
+        "others": "Dealers quote 8 in to the right of the needle; an Amazon bundle title says 9 in.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_f-series_brochure_web_2.pdf"
+          }
+        ],
+        "field": "throatIn",
+        "source": "brochure"
+      },
+      {
+        "label": "Feed",
+        "juki": "Box feed, 7-point surgical steel feed dog, drop feed knob.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
+          }
+        ],
+        "field": "feedSystem",
+        "source": "maker-page"
+      },
+      {
+        "label": "Knee lifter",
+        "juki": "Optional on the F300 per Juki's page and brochure; standard on the F600 and F400.",
+        "others": "One dealer lists a knee lifter in the box.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_f-series_brochure_web_2.pdf"
+          }
+        ],
+        "field": "presserFootLift",
+        "source": "maker-page"
+      },
+      {
+        "label": "Size and weight",
+        "juki": "17.5 W x 11.5 H x 8.25 D in; 21.6 lb.",
+        "others": "Dealers agree within rounding; one says 21 lb.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/media/catalog/product/h/z/hzl-f_instruction_manual.pdf"
+          }
+        ],
+        "field": "dimensionsIn",
+        "source": "manual"
+      },
+      {
+        "label": "In the box",
+        "juki": "Six feet, hard case, 4 bobbins, spool caps, tools. Walking foot, wide table and knee lifter are options.",
+        "others": "Dealer bundles add a table, walking foot or feet.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
+          }
+        ],
+        "field": "includedFeet",
+        "source": "maker-page"
+      },
+      {
+        "label": "Warranty",
+        "juki": "2 years on motors, light, wiring, switches, circuit boards, speed control; 5 years on other parts for factory defects. Same wording for all models.",
+        "others": "One dealer adds 90 days of adjustments.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/faq/"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "faq"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "HZL-F400",
+        "label": "Juki HZL-F400",
+        "rows": [
+          {
+            "feature": "Stitches (owner reports)",
+            "urls": 4,
+            "classes": [
+              "reddit",
+              "retailer"
+            ],
+            "summary": "Commenters say the F400 has a handful more stitches and pattern stitches than the F300. Juki's F-series pages list the stitch libraries.",
+            "check": "owner comments; see Juki product pages for the counts",
+            "examples": [
+              {
+                "claim_id": "cd1c04843",
+                "claim": "Commenter says the F400 has a few more stitches and that is about the only difference, perhaps with some bonus feet.",
+                "quote": "The 400 has a handful more stitches",
+                "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/kpbkmd1/"
+              },
+              {
+                "claim_id": "c895e4eaa",
+                "claim": "Commenter says the HZL series machines are the same except for more pattern stitches as price rises.",
+                "quote": "The machines for the HZL series are the same except you get more pattern stitches",
+                "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/l04vur4/"
+              },
+              {
+                "claim_id": "c242ae32e",
+                "claim": "Owner says the more expensive F400 comes with additional decorative stitches that the F300 lacks.",
+                "quote": "would not use the additional decorative stitches that the more expensive version came with",
+                "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
+              }
+            ]
+          },
+          {
+            "feature": "Included accessories (owner reports)",
+            "urls": 3,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Commenters say the F400 includes a plug-in automatic buttonhole foot, a walking foot, an extra spool pin and the knee lever that the F300 lacks. Juki lists the knee lifter as optional on the F300 and standard on the F400.",
+            "check": "owner comments; knee lifter confirmed by Juki product pages, 2026-10-02",
+            "examples": [
+              {
+                "claim_id": "c2fd81f13",
+                "claim": "Poster says the F400 costs about $150 more and includes the plug-in automatic buttonhole foot and a walking foot.",
+                "quote": "it comes with the plug in automatic buttonhole foot and the walking foot",
+                "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/"
+              },
+              {
+                "claim_id": "c3739c2e7",
+                "claim": "Poster, after comparing lists, says the F400 has an extra spool pin for twin needle and a knee lever.",
+                "quote": "I see the 400 has the extra spool pin for twin needle",
+                "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/kpd2oaf/"
+              },
+              {
+                "claim_id": "cfd88a7df",
+                "claim": "F300 owner thinks the F400 includes the walking foot, knee lift, extra feet and table that they paid for.",
+                "quote": "I think the 400 has all of those attachments.",
+                "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/kpdxj9t/"
+              }
+            ]
+          },
+          {
+            "feature": "Stitches and box contents",
+            "urls": 0,
+            "classes": [],
+            "summary": "157 stitches and 3 fonts; walking foot, patchwork foot, quilt foot and knee lifter are standard, the wide table is an option.",
+            "check": "Juki F400 product page and brochure, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Juki list price",
+            "urls": 0,
+            "classes": [],
+            "summary": "Juki's suggested retail price is $1,999.00 for the F400, $200 above the F300's $1,799.00.",
+            "check": "Juki F400 and F300 product pages, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "HZL-F600",
+        "label": "Juki HZL-F600",
+        "rows": [
+          {
+            "feature": "Features (owner reports)",
+            "urls": 2,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Commenters say the F600 has more features, two lights and extra accessories compared with the F300.",
+            "check": "owner comments; Juki lists one LED for the F300",
+            "examples": [
+              {
+                "claim_id": "cd5e7b97f",
+                "claim": "Commenter says the F300 is pretty much the same machine as the F600 with fewer features, also well reviewed.",
+                "quote": "the F300 is pretty much the same machine, just fewer feature",
+                "url": "https://www.reddit.com/r/sewing/comments/mybfky/anyone_with_experiences_with_either_the_juki/gvuwgtj/"
+              },
+              {
+                "claim_id": "c70cbfe5c",
+                "claim": "Shopper says the F600 at their shop has knobs, 2 lights and extra accessories compared with the F300.",
+                "quote": "With knobs (yes!), 2 lights and the extra accessories vs. the 300",
+                "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1wmbx95/juki_how_much_is_too_much/"
+              }
+            ]
+          },
+          {
+            "feature": "Stitches (owner reports)",
+            "urls": 1,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Commenters say the F600 has extra stitches and a needle threader that the F300 lacks.",
+            "check": "owner comments; unverified for the needle threader",
+            "examples": [
+              {
+                "claim_id": "c2dc9f1da",
+                "claim": "An F600 owner believes the F600 is the same machine as the F300 apart from extra stitches and a needle threader.",
+                "quote": "the exact same machine except with extra stitches and needle threader",
+                "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/n9qq1gp/"
+              }
+            ]
+          },
+          {
+            "feature": "Box contents",
+            "urls": 0,
+            "classes": [],
+            "summary": "Juki lists the walking foot, quilt foot, wide table and knee lifter as F600 standard; on the F300 they are options.",
+            "check": "Juki F600 and F300 product pages and F-series brochure, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Stitches and fonts",
+            "urls": 0,
+            "classes": [],
+            "summary": "225 stitches and 4 fonts against 106 and 3 on the F300; random quilt stitches and dual LEDs are F600 only.",
+            "check": "Juki F600 product page and brochure comparison table, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Juki list price",
+            "urls": 0,
+            "classes": [],
+            "summary": "Juki's suggested retail price is $2,369.00 for the F600 and $1,799.00 for the F300; dealers set their own prices.",
+            "check": "Juki product pages, 2026-10-02",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "juki-hzl-f600": {
+    "slug": "juki-hzl-f600",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 59,
+      "itemsCollected": 706,
+      "statements": 199,
+      "voices": 118,
+      "ownerVoices": 105,
+      "dateRange": [
+        2010,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 57,
+          "items": 545
+        },
+        "retailer": {
+          "sources": 2,
+          "items": 161
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 36,
+        "voices": 32,
+        "ownerVoices": 30,
+        "sources": 17,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 21,
+          "retailer": 11
+        },
+        "polarity": {
+          "positive": 11,
+          "negative": 18,
+          "mixed": 2,
+          "neutral": 1
+        },
+        "years": [
+          2010,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cbc04d80d",
+            "polarity": "negative",
+            "claim": "Owner reports a problematic bobbin winder.",
+            "quote": "Bobbin winder a mess",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cd310b3a3",
+            "polarity": "negative",
+            "claim": "Owner reports the F600 timing is off.",
+            "quote": "My juki f600 timing is off",
+            "url": "https://www.reddit.com/r/sewing/comments/txheio/my_juki_f600_timing_is_off_any_ideas_on_where_the/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c5bb7821a",
+            "polarity": "positive",
+            "claim": "Owner calls the F600 a workhorse used for costumes, quilts and general sewing.",
+            "quote": "a workhorse",
+            "url": "https://www.reddit.com/r/quilting/comments/14kq7md/cant_choose_next_machine/jpt63kt/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cd9f3c8b9",
+            "polarity": "positive",
+            "claim": "Owner reports no issues with the machine.",
+            "quote": "I haven't had any issues with it",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c6c4ce196",
+            "polarity": "mixed",
+            "claim": "Owner says the machine works well when it cooperates but is currently troublesome.",
+            "quote": "This machine is great when it wants to work",
+            "url": "https://www.reddit.com/r/sewing/comments/3mdqfn/sewing_machine_is_frustrating_me_breaking_needles/cveiskw/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ca8f4b5bd",
+            "polarity": "mixed",
+            "claim": "Owner had a small initial problem with the buttonholer but it sews amazing buttonholes.",
+            "quote": "i did have a little problem with the buttonholer at first",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 26,
+        "voices": 26,
+        "ownerVoices": 26,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 4,
+          "retailer": 22
+        },
+        "polarity": {
+          "positive": 23,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2010,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c1a3e235e",
+            "polarity": "negative",
+            "claim": "User of a workplace F600 says it has always run a little grindy.",
+            "quote": "which has always been a little grindy",
+            "url": "https://www.reddit.com/r/sewing/comments/1g3j0iv/top_thread_not_catching_around_bobbin_case/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c3ccc2383",
+            "polarity": "positive",
+            "claim": "Owner says it sews quietly.",
+            "quote": "sews so quiet",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c95e62879",
+            "polarity": "positive",
+            "claim": "Owner reports quiet operation.",
+            "quote": "Nice quiet operation.",
+            "url": "https://www.amazon.com/dp/B00JGCAHWE",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c25e97ffb",
+            "polarity": "mixed",
+            "claim": "Owner says the machine had always been fairly quiet before a sudden loud noise appeared.",
+            "quote": "It has always been relatively quiet",
+            "url": "https://www.reddit.com/r/quilting/comments/xn40bp/need_advice_with_juki_hzlf600_can_anyone_tell_me/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "thread_trimmer",
+        "label": "Thread trimmer",
+        "statements": 21,
+        "voices": 20,
+        "ownerVoices": 18,
+        "sources": 8,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 9,
+          "retailer": 11
+        },
+        "polarity": {
+          "positive": 10,
+          "negative": 2,
+          "mixed": 4,
+          "neutral": 4
+        },
+        "years": [
+          2011,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c3b655c12",
+            "polarity": "negative",
+            "claim": "Owner reports the next seam after auto trimming starts with a tangled clump of thread about an inch or more long.",
+            "quote": "a random little nest of maybe 1-1.5 inches of thread all squished up",
+            "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iynyi5j/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cc92a4fdb",
+            "polarity": "negative",
+            "claim": "New owner says the thread cutter now cuts only the bobbin thread, not the needle thread.",
+            "quote": "the thread cutter is only cutting the bobbin thread and not the needles thread",
+            "url": "https://www.reddit.com/r/sewing/comments/np625b/jukie_hzlf600_thread_cutter/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c3fb605ab",
+            "polarity": "positive",
+            "claim": "Owner likes cutting the thread via the foot pedal.",
+            "quote": "thread cutter via the foot pedal",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "ced81bc5a",
+            "polarity": "positive",
+            "claim": "Owner praises the F600 thread cutter and auto threader.",
+            "quote": "thread cutter and auto threader are all amazing",
+            "url": "https://www.reddit.com/r/quilting/comments/14kq7md/cant_choose_next_machine/jpt63kt/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c1386a2eb",
+            "polarity": "mixed",
+            "claim": "Owner likes the thread cutter on the foot pedal, but accidentally cut thread with their heel.",
+            "quote": "The thread cutter on the foot pedal is great",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c457aae15",
+            "polarity": "mixed",
+            "claim": "Owner says the cutter occasionally misses, usually when fabric is pulled early or the needle is not down.",
+            "quote": "I have the same machine and that happens from time to time",
+            "url": "https://www.reddit.com/r/sewing/comments/np625b/jukie_hzlf600_thread_cutter/h07a456/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 17,
+        "voices": 16,
+        "ownerVoices": 16,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 14,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 13,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2012,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ca80db2f1",
+            "polarity": "negative",
+            "claim": "Owner says the needle threader does not work very well.",
+            "quote": "The needle threader does not work very well",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cb8f7278b",
+            "polarity": "negative",
+            "claim": "New owner says missing the thread holder above the needle causes sewing failure on this machine.",
+            "quote": "behind that little holder above the needle would make such a huge difference",
+            "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1sdaqjt/juki_hzlf600_help/oehh3i7/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c64d57987",
+            "polarity": "positive",
+            "claim": "Owner found it a cinch to thread.",
+            "quote": "It was a cinch to thread.",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c1d2bc33c",
+            "polarity": "positive",
+            "claim": "Owner likes the F600 auto-threader.",
+            "quote": "I love the auto-threader.",
+            "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iylf51m/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cc142bd3d",
+            "polarity": "mixed",
+            "claim": "Needle threader works inconsistently for this owner.",
+            "quote": "sometimes it works, sometimes it",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 12,
+        "voices": 12,
+        "ownerVoices": 11,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 8,
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 12,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2010,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c60f5d27b",
+            "polarity": "positive",
+            "claim": "Owner says it feeds wonderfully.",
+            "quote": "It feeds wonderfully",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c4d8773f7",
+            "polarity": "positive",
+            "claim": "Owner strongly likes the F600 box feed.",
+            "quote": "I seriously love the box feed",
+            "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iylf51m/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 12,
+        "voices": 12,
+        "ownerVoices": 11,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 8,
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 9,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2012,
+          2023
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c211541ab",
+            "polarity": "negative",
+            "claim": "Machine with its table is too wide for a standard folding sewing table cutout, so a larger cutout table was needed.",
+            "quote": "The machine is too wide for a standard folding table with lowering cut out",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c9bb82466",
+            "polarity": "positive",
+            "claim": "Owner finds the Juki work area ample without moving to a bigger table.",
+            "quote": "their work area is pretty ample",
+            "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iynyi5j/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c4ad8c9c0",
+            "polarity": "positive",
+            "claim": "Owner likes the extra room from the work table and the long neck.",
+            "quote": "more room along with the long neck",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c3ae28b6b",
+            "polarity": "mixed",
+            "claim": "Owner finds F600 throat space good and better than an old Brother, but still looks at another machine for free motion quilting.",
+            "quote": "Throat space is good, better than my old brother",
+            "url": "https://www.reddit.com/r/quilting/comments/14kq7md/cant_choose_next_machine/jpt63kt/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 12,
+        "voices": 11,
+        "ownerVoices": 11,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 4,
+          "retailer": 7
+        },
+        "polarity": {
+          "positive": 8,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2012,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c84245f38",
+            "polarity": "negative",
+            "claim": "Owner says some generic feet may be too narrow to fit the F600 box feed.",
+            "quote": "they may be too narrow for the box feed",
+            "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iylf51m/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c6d739568",
+            "polarity": "positive",
+            "claim": "Owner calls the knee lift a real game changer.",
+            "quote": "The knee lift and auto thread cutting",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cc06c2fd5",
+            "polarity": "positive",
+            "claim": "Owner likes the many feet included.",
+            "quote": "I also love that this comes with so many feet",
+            "url": "https://www.amazon.com/dp/B00JGCAHWE",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 11,
+        "voices": 10,
+        "ownerVoices": 10,
+        "sources": 7,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 5,
+          "reddit": 5
+        },
+        "polarity": {
+          "positive": 7,
+          "negative": 0,
+          "mixed": 3,
+          "neutral": 0
+        },
+        "years": [
+          2012,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cacf6a68f",
+            "polarity": "positive",
+            "claim": "Owner likes how straight it sews and how well it handles thick fabrics.",
+            "quote": "how well it sews through thick fabrics",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c407d18c1",
+            "polarity": "positive",
+            "claim": "Owner says it sews heavy fabrics well.",
+            "quote": "even sewing heavy fabrics like a dream",
+            "url": "https://www.amazon.com/dp/B00JGCAHWE",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c055dedd0",
+            "polarity": "mixed",
+            "claim": "Owner says the F600 sews jeans fine, though a very thick seam may need hand walking.",
+            "quote": "it can handle jeans just fine",
+            "url": "https://www.reddit.com/r/sewing/comments/1gma0sc/multipurpose_machine_in_the_1000_area/lw1wt8h/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c80a1190a",
+            "polarity": "mixed",
+            "claim": "Owner says it handles thicker fabric better than their old machine but less easily than they had hoped.",
+            "quote": "accommodate thicker fabric with ease",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 10,
+        "voices": 9,
+        "ownerVoices": 8,
+        "sources": 8,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 7
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 3,
+          "mixed": 2,
+          "neutral": 2
+        },
+        "years": [
+          2015,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c258b062c",
+            "polarity": "negative",
+            "claim": "Owner reports skipped stitches and puckering that tension adjustment did not fix.",
+            "quote": "no adjustment to tension changes that",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c19bf05d0",
+            "polarity": "negative",
+            "claim": "Owner four months in reports no top thread tension after a bobbin case reset, and the tension wheel changes nothing.",
+            "quote": "there seems to be no tension on the top thread",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1pcb7rf/please_help_tension_gone/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cccdbbfd8",
+            "polarity": "positive",
+            "claim": "Owner praises the F600 automatic tension.",
+            "quote": "the automatic tension",
+            "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iylf51m/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c2a47ec4b",
+            "polarity": "positive",
+            "claim": "Owner says the machine sews without constant adjustment of tension, foot pressure or feet.",
+            "quote": "mostly without having to twiddle tensions, foot pressures, feet, etc.",
+            "url": "https://www.reddit.com/r/sewing/comments/wl4wh2/juki_hzl_f600_vs_bernina_record_830_question_in/ijr6brl/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c683f28e9",
+            "polarity": "mixed",
+            "claim": "Owner replaced a bobbin case that gave no thread tension and the new one worked well.",
+            "quote": "the one I had didn't give the thread any tension",
+            "url": "https://www.reddit.com/r/sewing/comments/37d7pd/juki_hzl_f600_somethings_wrong_with_how_the/crm7a90/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c58e8acb2",
+            "polarity": "mixed",
+            "claim": "F600 owner had tension problems early on but got used to the machine.",
+            "quote": "I had some tension problems at first, but I got used to it.",
+            "url": "https://www.reddit.com/r/quilting/comments/17bpbqb/help_i_cant_decide_janome_6650_memory_craft_or/k5rkbc3/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 7,
+        "voices": 7,
+        "ownerVoices": 4,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 3,
+          "retailer": 4
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 2,
+          "mixed": 2,
+          "neutral": 0
+        },
+        "years": [
+          2012,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ca9785b48",
+            "polarity": "positive",
+            "claim": "Owner calls the machine well built and solid.",
+            "quote": "It is well built and solid.",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "ce38a3d33",
+            "polarity": "mixed",
+            "claim": "Owner says the body is plastic but good quality.",
+            "quote": "The body is plastic, but of good quality",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 8,
+        "voices": 7,
+        "ownerVoices": 7,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 2,
+          "retailer": 5
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 6,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2015,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c07b06ccf",
+            "polarity": "negative",
+            "claim": "Owner wore out the smallest spool cap until it stopped gripping the spool pin and replaced it.",
+            "quote": "I wore out the smallest spool cap",
+            "url": "https://www.reddit.com/r/sewing/comments/1mlqii5/self_maintenance_on_sewing_machines/n7ur87o/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c84d2f1ea",
+            "polarity": "negative",
+            "claim": "Owner had trouble winding a bobbin, once winding underneath the bobbin.",
+            "quote": "I have had trouble winding my bobbin",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c66f65028",
+            "polarity": "positive",
+            "claim": "Owner says the machine does not need oiling.",
+            "quote": "It doesn't need oiling!!",
+            "url": "https://www.amazon.com/dp/B00JGCAHWE",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 4,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 5,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2012,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cb753f759",
+            "polarity": "positive",
+            "claim": "Owner reports good lighting.",
+            "quote": "good lighting",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c3206a384",
+            "polarity": "positive",
+            "claim": "Owner calls the built in light on the throat a big benefit.",
+            "quote": "The built in light on the throat is a huge game changer",
+            "url": "https://www.reddit.com/r/quilting/comments/1pusods/used_juki_advice/nvqy129/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 2,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2016,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c4c6bbe4e",
+            "polarity": "positive",
+            "claim": "Owner finds the weight good for carrying to retreats and club.",
+            "quote": "The weight is perfect to transport when I go to my retreats",
+            "url": "https://www.amazon.com/dp/B00JGCAHWE",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cead013c4",
+            "polarity": "positive",
+            "claim": "Owner finds it a little heavy and takes the weight as a sign of quality.",
+            "quote": "The machine is a little heavy but that tells me the quality is there",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "free_motion",
+        "label": "Free-motion quilting",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2019,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c947c33c5",
+            "polarity": "positive",
+            "claim": "Owner reports free motion stippling that looks identical on both sides of a quilt sample.",
+            "quote": "both sides of quilt sample is perfect",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "learning_curve",
+        "label": "Learning curve",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2015,
+          2024
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c968ea248",
+            "polarity": "positive",
+            "claim": "After 8 months, owner finds it easy to use and relatively quiet.",
+            "quote": "Easy to use, relatively quiet",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cba0e30a7",
+            "polarity": "positive",
+            "claim": "Owner finds the F600 easy to learn on and reports no issues so far.",
+            "quote": "it has been a very easy machine to learn on",
+            "url": "https://www.reddit.com/r/sewing/comments/1gma0sc/multipurpose_machine_in_the_1000_area/lw5comz/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "walking_foot",
+        "label": "Walking foot",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2022,
+          2024
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c7f116565",
+            "polarity": "positive",
+            "claim": "Owner says the F600 includes a walking foot, plus zipper and overcast feet.",
+            "quote": "The F600 comes with a walking foot",
+            "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iynyi5j/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2020,
+          2020
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c7410a8ab",
+            "polarity": "positive",
+            "claim": "Quilter finds the box feed gives excellent stitch quality.",
+            "quote": "the box feed is amazing for stitch quality",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2016,
+          2016
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cfd88d89d",
+            "polarity": "positive",
+            "claim": "Owner says it sews really fast and is quiet.",
+            "quote": "It sews really fast and is quiet.",
+            "url": "https://sewingmachinesplus.com/products/hzl-f600",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2020,
+          2020
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c6b7095bc",
+            "polarity": "negative",
+            "claim": "Owner got slow and inconsistent support from the maker when claiming a replacement pedal under warranty.",
+            "quote": "did not have a record of sending a new pedal",
+            "url": "https://www.amazon.com/dp/B00JGCAHWE",
+            "source_class": "retailer"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://sewingmachinesplus.com/products/hzl-f600",
+        "pageRating": 4.81,
+        "pageCount": 153,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 3,
+          "2": 1,
+          "3": 1,
+          "4": 12,
+          "5": 136
+        },
+        "lowRated": 5,
+        "sampled": null
+      },
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B00JGCAHWE",
+        "pageRating": 4.5,
+        "pageCount": 235,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 7
+        },
+        "lowRated": 1,
+        "sampled": "8 top reviews (8 US, 0 other countries) of 235 ratings"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Stitches",
+        "juki": "225 stitch patterns including 16 buttonholes, 4 lettering fonts.",
+        "others": "Matches our spec (a dealer snippet saying 255 is a typo).",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html"
+          }
+        ],
+        "field": "stitchCount",
+        "source": "page"
+      },
+      {
+        "label": "Speed",
+        "juki": "900 spm.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "page"
+      },
+      {
+        "label": "Throat",
+        "juki": "Juki publishes no throat or needle-to-arm figure for this model. The brochure says 'a wider underarm space' and shows 551 mm and 112 mm around a quilt on the wide table, without defining them.",
+        "others": "Dealers quote 8 in to the right of the needle.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki brochure",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_f-series_brochure_web.pdf"
+          },
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html"
+          }
+        ],
+        "field": "throatIn",
+        "source": "brochure"
+      },
+      {
+        "label": "Weight",
+        "juki": "21.6 lb (9.8 kg).",
+        "others": "Matches our spec. Identical to the HZL-F300 and HZL-F400.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html"
+          }
+        ],
+        "field": "weightLb",
+        "source": "page"
+      },
+      {
+        "label": "Lighting",
+        "juki": "Two LED lights on the F600; one on the F400 and F300.",
+        "others": "Dealers repeat the dual LED claim.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki brochure",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_f-series_brochure_web.pdf"
+          }
+        ],
+        "field": "lighting",
+        "source": "brochure"
+      },
+      {
+        "label": "In the box",
+        "juki": "12 presser feet including walking foot and quilt foot, hard case, wide table, knee lift lever, quilt guide, 4 bobbins, eyelet punch.",
+        "others": "Dealers say 10 snap-on feet plus walking foot.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html"
+          }
+        ],
+        "field": "includedFeet",
+        "source": "page"
+      },
+      {
+        "label": "Warranty",
+        "juki": "2 years on motor and electrical parts, 5 years on all other parts, original purchaser, household use only (Juki America, general wording).",
+        "others": "Dealers add 90 days on adjustments, which Juki's text does not state.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki warranty",
+            "url": "https://www.jukihome.com/warranty"
+          },
+          {
+            "label": "Juki FAQ",
+            "url": "https://www.jukihome.com/faq/"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "warranty"
+      },
+      {
+        "label": "Price",
+        "juki": "Suggested retail $2,369; dealer pricing only.",
+        "others": "Retailers showed $1,399 to $1,499 on 2026-09-29.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html"
+          }
+        ],
+        "field": "msrp",
+        "source": "page"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "HZL-F400",
+        "label": "Juki HZL-F400",
+        "rows": [
+          {
+            "feature": "Lighting",
+            "urls": 1,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "One commenter says the F600 has two LEDs against one on the F400.",
+            "check": "owner comment; unverified",
+            "examples": [
+              {
+                "claim_id": "cd6e59c7c",
+                "claim": "The F600 has two LED bulbs; the F400 and F300 have one.",
+                "quote": "The 600 has two led bulbs, the 300 and 400 just one.",
+                "url": "https://www.reddit.com/r/sewing/comments/1v3g8mh/should_get_a_juki_f600_or_something_else_uk/oz4bvjt/"
+              }
+            ]
+          },
+          {
+            "feature": "Table and knee lift",
+            "urls": 1,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Commenters say the F600 includes an extension table that is optional on the F400.",
+            "check": "owner comments; not confirmed by a Juki page in hand",
+            "examples": [
+              {
+                "claim_id": "c2865d4ef",
+                "claim": "Poster says the extension table is optional on the F300 and F400, in contrast with the F600 which includes it.",
+                "quote": "The extension table is optional for the 300 and 400",
+                "url": "https://www.reddit.com/r/sewing/comments/1v3g8mh/should_get_a_juki_f600_or_something_else_uk/oz4bvjt/"
+              }
+            ]
+          },
+          {
+            "feature": "Included accessories",
+            "urls": 1,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Commenters say the F600 includes teflon and open-toe feet that the F400 lacks.",
+            "check": "owner comments; not confirmed by a Juki page in hand",
+            "examples": [
+              {
+                "claim_id": "cdca4c2f1",
+                "claim": "The F400 does not come with the teflon and open toe feet that the F600 includes.",
+                "quote": "The 400 lacks the teflon and opentoe foot that the 600 comes with",
+                "url": "https://www.reddit.com/r/sewing/comments/1v3g8mh/should_get_a_juki_f600_or_something_else_uk/oz4bvjt/"
+              }
+            ]
+          },
+          {
+            "feature": "Stitch library",
+            "urls": 0,
+            "classes": [],
+            "summary": "157 stitches and 3 fonts for the F400 against 225 and 4 for the F600.",
+            "check": "Juki product pages and brochure, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Suggested retail",
+            "urls": 0,
+            "classes": [],
+            "summary": "Juki lists $1,999 for the F400 and $2,369 for the F600.",
+            "check": "Juki product pages, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Table and lighting",
+            "urls": 0,
+            "classes": [],
+            "summary": "The brochure shows the wide table standard on the F600 and optional on the F400, and two LED lights on the F600 against one.",
+            "check": "Juki F series brochure, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "HZL-F300",
+        "label": "Juki HZL-F300",
+        "rows": [
+          {
+            "feature": "Table and knee lift",
+            "urls": 2,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Commenters say the F600 includes an extension table and knee lift lever that are bought separately for the F300.",
+            "check": "owner comments; not confirmed by a Juki page in hand",
+            "examples": [
+              {
+                "claim_id": "c9455b7f9",
+                "claim": "Knee lift lever comes with the F600 and F400 but is a separate purchase for the F300.",
+                "quote": "The 600 and 400 have a knee lift lever; separately purchased for the 300",
+                "url": "https://www.reddit.com/r/sewing/comments/1v3g8mh/should_get_a_juki_f600_or_something_else_uk/oz4bvjt/"
+              },
+              {
+                "claim_id": "c3d4e3476",
+                "claim": "Commenter says the F300 is the same machine as the F600 with fewer stitches and without the extension table and knee lift lever in the box.",
+                "quote": "come with the extension table and knee lift lever",
+                "url": "https://www.reddit.com/r/sewing/comments/18lzywm/machine_for_beginner_to_grow_with_which_one_out/ke1ii1c/"
+              }
+            ]
+          },
+          {
+            "feature": "Included accessories",
+            "urls": 2,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Commenters say the F600 ships with more feet (teflon, open toe, patchwork, walking, edge/joining) and accessories than the F300, and the F300's can be bought to match.",
+            "check": "owner comments; not confirmed by a Juki page in hand",
+            "examples": [
+              {
+                "claim_id": "c752a448a",
+                "claim": "The F300 lacks several feet that come with the F600, including the walking foot.",
+                "quote": "The 300 lacks the teflon, opentoe, patchwork, walking and edge/joining foot of the 600",
+                "url": "https://www.reddit.com/r/sewing/comments/1v3g8mh/should_get_a_juki_f600_or_something_else_uk/oz4bvjt/"
+              },
+              {
+                "claim_id": "c23dc8b1b",
+                "claim": "Poster says buying accessories for an F300 can approximate an F600 for less money.",
+                "quote": "the accessories that would turn an F300 into 600 near-clone",
+                "url": "https://www.reddit.com/r/sewing/comments/wl4wh2/juki_hzl_f600_vs_bernina_record_830_question_in/ijsy0fj/"
+              }
+            ]
+          },
+          {
+            "feature": "Stitches",
+            "urls": 2,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Commenters say the F600 has more stitches, including more decorative stitches, than the F300.",
+            "check": "owner comments; Juki's F-series pages list the stitch counts",
+            "examples": [
+              {
+                "claim_id": "c47f0f3e6",
+                "claim": "Commenter says from reading that the F300 is basically the same as the 600 with fewer stitches.",
+                "quote": "the same as the 600 basically, just a fewer stitches",
+                "url": "https://www.reddit.com/r/sewing/comments/lg5pbc/help_choosing_a_juki_machine/gmtse25/"
+              },
+              {
+                "claim_id": "ce83f5829",
+                "claim": "Commenter says the only difference is the 600 includes more decorative stitches.",
+                "quote": "the 600 would include more decorative stitches",
+                "url": "https://www.reddit.com/r/sewing/comments/lg5pbc/help_choosing_a_juki_machine/gmtw1u5/"
+              }
+            ]
+          },
+          {
+            "feature": "Price",
+            "urls": 2,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Commenters put the F600 well above the F300 even after the F300's added accessories. Juki lists the F600 at $2,369, the F400 at $1,999 and the F300 at $1,799.",
+            "check": "owner comments and Juki product pages, 2026-10-02",
+            "examples": [
+              {
+                "claim_id": "c57c94975",
+                "claim": "Commenter says an F300 plus extra accessories still costs quite a bit less than the F600.",
+                "quote": "costs quite a bit less than the 600",
+                "url": "https://www.reddit.com/r/sewing/comments/lg5pbc/help_choosing_a_juki_machine/gmtw1u5/"
+              },
+              {
+                "claim_id": "cbc6a57b8",
+                "claim": "Commenter says the F300 is the more economical choice over the 600 if more than straight stitch is needed.",
+                "quote": "Juki F300 instead of the 600 is more economical",
+                "url": "https://www.reddit.com/r/SewingForBeginners/comments/w7ojox/sewing_machine_recommendations/ihqvukg/"
+              }
+            ]
+          },
+          {
+            "feature": "Width and length controls",
+            "urls": 1,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "One commenter says the F600 uses knobs for stitch width and length and the F300 plus and minus buttons.",
+            "check": "one owner comment; unverified",
+            "examples": [
+              {
+                "claim_id": "c746c05f3",
+                "claim": "F600 uses knobs for stitch width and length while F300 and F400 use plus and minus buttons.",
+                "quote": "The 600 uses knobs to select stitch width and length",
+                "url": "https://www.reddit.com/r/sewing/comments/1v3g8mh/should_get_a_juki_f600_or_something_else_uk/oz4bvjt/"
+              }
+            ]
+          },
+          {
+            "feature": "Stitch library",
+            "urls": 0,
+            "classes": [],
+            "summary": "106 stitches and 3 fonts for the F300 against 225 and 4 for the F600.",
+            "check": "Juki product pages and F series brochure, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Suggested retail",
+            "urls": 0,
+            "classes": [],
+            "summary": "Juki lists $1,799 for the F300 and $2,369 for the F600.",
+            "check": "Juki product pages, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Box contents",
+            "urls": 0,
+            "classes": [],
+            "summary": "The F300 page lists no walking foot, wide table or knee lifter as standard; the brochure shows the table and knee lever as options.",
+            "check": "Juki F300 page and brochure comparison table, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "HZL-DX7",
+        "label": "Juki HZL-DX7",
+        "rows": [
+          {
+            "feature": "Model generation",
+            "urls": 1,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "One commenter calls the DX7 the older model and the newer version of the F600. Juki documents were not checked for this.",
+            "check": "one owner comment; unverified",
+            "examples": [
+              {
+                "claim_id": "ca5ae9339",
+                "claim": "Owner describes the DX7 as the newer version of the F600.",
+                "quote": "It is the newer version of the f600",
+                "url": "https://www.reddit.com/r/quilting/comments/ali73c/time_for_a_better_sewing_machine/eff2hia/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "model": "HZL-G220",
+        "label": "Juki HZL-G220",
+        "rows": []
+      }
+    ],
+    "rivals": []
+  },
+  "juki-mo-1000": {
+    "slug": "juki-mo-1000",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 15,
+      "itemsCollected": 204,
+      "statements": 57,
+      "voices": 35,
+      "ownerVoices": 28,
+      "dateRange": [
+        2013,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 13,
+          "items": 166
+        },
+        "retailer": {
+          "sources": 2,
+          "items": 37
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 25,
+        "voices": 20,
+        "ownerVoices": 17,
+        "sources": 6,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 7,
+          "retailer": 13
+        },
+        "polarity": {
+          "positive": 13,
+          "negative": 4,
+          "mixed": 1,
+          "neutral": 2
+        },
+        "years": [
+          2013,
+          2024
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c221a5367",
+            "polarity": "negative",
+            "claim": "Threading with the DVD took 20 minutes.",
+            "quote": "Threading with DVD took 20 min",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cfe544c27",
+            "polarity": "negative",
+            "claim": "The front cover will not close until the air-threading switch is disengaged.",
+            "quote": "front cover won’t close unless that switch is disengaged",
+            "url": "https://www.reddit.com/r/sewing/comments/cmz9ud/juki_mo1000_nothing_happens_when_foot_pedal_is/ewgcnpe/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cf1009280",
+            "polarity": "positive",
+            "claim": "Owner finds thread feeding easy.",
+            "quote": "easy thread feeding",
+            "url": "https://www.reddit.com/r/sewing/comments/1blt38h/serger_help_me_choose/kw7aoff/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c9a73fce0",
+            "polarity": "positive",
+            "claim": "Threading is a dream after a month of near-daily use.",
+            "quote": "threading is a dream",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cd41a05f2",
+            "polarity": "mixed",
+            "claim": "Threading the needles is harder than the loopers; the needle threader only partly works.",
+            "quote": "threading the one or two needles is not quite so easy",
+            "url": "https://www.amazon.com/dp/B00G2RX1BA",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 9,
+        "voices": 9,
+        "ownerVoices": 8,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 4,
+          "retailer": 5
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 5,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2015,
+          2024
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c7c49214b",
+            "polarity": "negative",
+            "claim": "Owner returned the unit after a dead-on-arrival problem, believing it was damaged in transit.",
+            "quote": "99% sure it just broke in transit",
+            "url": "https://www.reddit.com/r/sewing/comments/cmz9ud/juki_mo1000_nothing_happens_when_foot_pedal_is/ewgcnpe/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c6c1ca9f4",
+            "polarity": "negative",
+            "claim": "Plastic needle threader broke, and its replacement also broke within a week.",
+            "quote": "Needle threader is plastic, and it breaks.",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cea401115",
+            "polarity": "positive",
+            "claim": "Owner reports flawless performance on light to heavy fabrics.",
+            "quote": "been flawless",
+            "url": "https://www.reddit.com/r/sewing/comments/1blt38h/serger_help_me_choose/kw7aoff/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c36302110",
+            "polarity": "positive",
+            "claim": "Owner reports no problems.",
+            "quote": "Problem free and quiet",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cc9b45e9c",
+            "polarity": "mixed",
+            "claim": "Arrived with a broken part, a thread holder, otherwise worked well.",
+            "quote": "It has a broken part other than that everything is finw.",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 6,
+        "voices": 6,
+        "ownerVoices": 6,
+        "sources": 2,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 6
+        },
+        "polarity": {
+          "positive": 6,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2017,
+          2022
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ccfb66fac",
+            "polarity": "positive",
+            "claim": "Owner finds it quiet.",
+            "quote": "Problem free and quiet",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c76821ed0",
+            "polarity": "positive",
+            "claim": "Owner found it quiet and steady in use, with no table vibration.",
+            "quote": "how quite and steady it ran",
+            "url": "https://www.amazon.com/dp/B00G2RX1BA",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "rolled_hem",
+        "label": "Rolled hem",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2013,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cdab232a8",
+            "polarity": "negative",
+            "claim": "Rolled hem requires engaging the upper looper converter; a DVD tutorial did not show how to disengage it afterward.",
+            "quote": "directed me to engage the upper looper converter",
+            "url": "https://www.amazon.com/dp/B00G2RX1BA",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c62ecf0e9",
+            "polarity": "negative",
+            "claim": "On a new machine, the stitch finger keeps coming loose during three-thread rolled hems.",
+            "quote": "it keeps getting caught in chain stitch with 3 thread rolled hems",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1jebvky/juki_mo_1000_help_piece_fell_out/mikedd2/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ccdcc9902",
+            "polarity": "positive",
+            "claim": "Beta tester at a show saw a beautiful rolled hem.",
+            "quote": "It did a beautiful rolled hem",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 2,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2016,
+          2024
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c8f72ade4",
+            "polarity": "negative",
+            "claim": "Display-model unit has a looper cover that is loose and pushes open easily.",
+            "quote": "can easily push out and open",
+            "url": "https://www.reddit.com/r/sewing/comments/1g8e1o1/which_machine_should_i_keep/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cae3e9805",
+            "polarity": "positive",
+            "claim": "New owner calls it a very solid machine.",
+            "quote": "Very solid nice machine!!",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2019,
+          2024
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c04b6e687",
+            "polarity": "negative",
+            "claim": "Many bonus pack items, including the presser foot pack, were out of stock after purchase at this retailer.",
+            "quote": "many of the bonus pack items were not in stock",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c8d54ea78",
+            "polarity": "negative",
+            "claim": "If the foot is not snapped in perfectly, needles break when sewing; reviewer wants a sturdier foot connection.",
+            "quote": "If not snapped in properly the needles break when you try to sew.",
+            "url": "https://www.amazon.com/dp/B00G2RX1BA",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c1479099a",
+            "polarity": "positive",
+            "claim": "This display unit came with a 6-piece presser foot kit.",
+            "quote": "it did come with the 6 piece presser foot kit",
+            "url": "https://www.reddit.com/r/sewing/comments/1g8e1o1/which_machine_should_i_keep/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 1,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 2,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2019,
+          2024
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c43ca064b",
+            "polarity": "negative",
+            "claim": "Stitching started skipping and would not stop despite hours of trying tension settings.",
+            "quote": "the stitching started skipping",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "cutting_trimming",
+        "label": "Cutting and trimming",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2015,
+          2020
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c1e669cb7",
+            "polarity": "negative",
+            "claim": "The trimmings catcher does not fit flush and misses some trimmings.",
+            "quote": "The basket that catches the trimmings doesn't fit flush enough to catch everything.",
+            "url": "https://www.amazon.com/dp/B00G2RX1BA",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "ce29a80d3",
+            "polarity": "positive",
+            "claim": "Two knives that are easily adjusted to use or not.",
+            "quote": "two knives that can easily be adjusted to use or not",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2021,
+          2021
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c8113f8f6",
+            "polarity": "positive",
+            "claim": "Owner finds the machine compact.",
+            "quote": "quite compact",
+            "url": "https://www.reddit.com/r/sewing/comments/oy9klo/after_5_years_of_sewing_my_mom_has_gifted_me_this/h7sq62q/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2022,
+          2022
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "differential_feed",
+        "label": "Differential feed",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2020,
+          2020
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c643c345e",
+            "polarity": "positive",
+            "claim": "Differential is much more adaptable than on the reviewer's earlier Juki industrial serger.",
+            "quote": "the differential is much more adaptable",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+            "source_class": "retailer"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B00G2RX1BA",
+        "pageRating": 4.3,
+        "pageCount": 172,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 6
+        },
+        "lowRated": 1,
+        "sampled": "8 top reviews (8 US, 0 other countries) of 172 ratings"
+      },
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+        "pageRating": 4.34,
+        "pageCount": 29,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 2,
+          "2": 2,
+          "3": 1,
+          "4": 3,
+          "5": 21
+        },
+        "lowRated": 5,
+        "sampled": null
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "juki": "1,500 spm on the page and in the brochure.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "maker-page"
+      },
+      {
+        "label": "Differential feed",
+        "juki": "0.7 to 2.0 ratio, adjusted with a knob, even while sewing.",
+        "others": "Our spec said the ratio was not published; it is.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+          }
+        ],
+        "field": "differentialFeed",
+        "source": "maker-page"
+      },
+      {
+        "label": "Throat",
+        "juki": "72.4 mm throat height ('Ample Fabric Throat Area'). No needle-to-arm figure.",
+        "others": "Our spec shows 72.4 mm as throat height; keep that wording.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+          }
+        ],
+        "field": "throatIn",
+        "source": "maker-page"
+      },
+      {
+        "label": "Weight",
+        "juki": "20 lb on the page; 9.0 kg (19.8 lb) in the brochure.",
+        "others": "Spec notes dealer and review figures of 20, 23 and 25.4 lb.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+          },
+          {
+            "label": "Juki brochure",
+            "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_brochure_web.pdf"
+          }
+        ],
+        "field": "weightLb",
+        "source": "maker-page"
+      },
+      {
+        "label": "Size",
+        "juki": "13 x 11 x 12.25 in (W x D x H) on the page; 330 x 280 x 310 mm in the brochure.",
+        "others": "A review gave a larger figure that reads as carton size.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+          }
+        ],
+        "field": "dimensionsIn",
+        "source": "maker-page"
+      },
+      {
+        "label": "Presser foot lift",
+        "juki": "8 mm (0.3 in) maximum on the page; the brochure lists 5 mm with 8 mm as the max.",
+        "others": "Our spec said the lift was not published.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+          },
+          {
+            "label": "Juki brochure",
+            "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_brochure_web.pdf"
+          }
+        ],
+        "field": "presserFootLift",
+        "source": "maker-page"
+      },
+      {
+        "label": "Threading",
+        "juki": "Air threading for both loopers (not in order) and an automatic needle threader.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+          }
+        ],
+        "field": "threadingSystem",
+        "source": "maker-page"
+      },
+      {
+        "label": "In the box",
+        "juki": "Standard foot, waste collector, spare lower knife, guide bar, 2/3 selector, tools, foot control (full list on page).",
+        "others": "Our spec's DVD, foam pad and cone holders are not on Juki's list.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+          }
+        ],
+        "field": "includedFeet",
+        "source": "maker-page"
+      },
+      {
+        "label": "Warranty",
+        "juki": "2 years on motor, light, wiring, switches, boards and speed control; 5 years on other parts (factory defects). Dealer provides service. General Juki wording, not model-specific.",
+        "others": "A dealer quoted '1 year service warranty'.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki FAQ",
+            "url": "https://www.jukihome.com/faq/"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "maker-faq"
+      },
+      {
+        "label": "Price",
+        "juki": "Suggested retail $2,299 (MSRP); dealer pricing by contacting a dealer.",
+        "others": "Our spec saw $1,499 at one dealer on 2026-09-29.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+          }
+        ],
+        "field": "price",
+        "source": "maker-page"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "MO-654DE",
+        "label": "Juki MO-654DE",
+        "rows": [
+          {
+            "feature": "Maker suggested price",
+            "urls": 0,
+            "classes": [],
+            "summary": "$1,399 against $2,299 for the MO-1000.",
+            "check": "Juki MO-654DE and MO-1000 product pages, MSRP, fetched 2026-10-02 (654DE cached 2026-10-01)",
+            "examples": []
+          },
+          {
+            "feature": "Looper threading method",
+            "urls": 0,
+            "classes": [],
+            "summary": "Manual: the lower looper threader disengages for slide-in threading. No air threading.",
+            "check": "Juki MO-654DE product page, cached 2026-10-01",
+            "examples": []
+          },
+          {
+            "feature": "Maximum overlock width",
+            "urls": 0,
+            "classes": [],
+            "summary": "6 mm against 9 mm on the MO-1000.",
+            "check": "Juki MO-654DE and MO-1000 product pages, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Published weight",
+            "urls": 0,
+            "classes": [],
+            "summary": "15.5 lb against 20 lb on the MO-1000.",
+            "check": "Juki MO-654DE and MO-1000 product pages, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "MO-644D",
+        "label": "Juki MO-644D",
+        "rows": [
+          {
+            "feature": "Maker suggested price",
+            "urls": 0,
+            "classes": [],
+            "summary": "$1,199 against $2,299 for the MO-1000.",
+            "check": "Juki MO-644D and MO-1000 product pages, MSRP, fetched 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Looper threading method",
+            "urls": 0,
+            "classes": [],
+            "summary": "Color-coded manual thread paths and a looper threader tool. No air threading.",
+            "check": "Juki MO-644D product page, fetched 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Maximum overlock width",
+            "urls": 0,
+            "classes": [],
+            "summary": "6 mm against 9 mm on the MO-1000.",
+            "check": "Juki MO-644D and MO-1000 product pages, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Published weight",
+            "urls": 0,
+            "classes": [],
+            "summary": "15 lb against 20 lb on the MO-1000.",
+            "check": "Juki MO-644D and MO-1000 product pages, 2026-10-02",
             "examples": []
           }
         ]
@@ -19905,6 +28532,876 @@ export const rollupData: Record<string, Rollup> = {
       }
     ],
     "siblings": [],
+    "rivals": []
+  },
+  "singer-hd6700c": {
+    "slug": "singer-hd6700c",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 17,
+      "itemsCollected": 172,
+      "statements": 31,
+      "voices": 17,
+      "ownerVoices": 16,
+      "dateRange": [
+        2022,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 1,
+          "items": 13
+        },
+        "reddit": {
+          "sources": 16,
+          "items": 158
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.4 from 980 ratings is shared by several listings of this machine (pooled variations), so it is not specific to this exact bundle.",
+      "The only Singer manual is a joint HD 6700C and HD 6705C manual. Rows sourced from it are shared-manual evidence and are not confirmed for the 6700C alone."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 6,
+        "voices": 6,
+        "ownerVoices": 6,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 4,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ccc7a9b15",
+            "polarity": "negative",
+            "claim": "Owner says the needle threader does not work.",
+            "quote": "The threader doesn’t work",
+            "url": "https://www.amazon.com/dp/B08JH88BRN",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c9bd3da8a",
+            "polarity": "negative",
+            "claim": "Owner of a one-month-old 6700C reports the top thread slipping out of place and often not catching the bobbin thread.",
+            "quote": "the top thread comes out of place very often",
+            "url": "https://www.reddit.com/r/sewing/comments/1hextwu/help_singer_machine_not_working/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cf8225653",
+            "polarity": "positive",
+            "claim": "Owner lists automatic threading as a positive.",
+            "quote": "automatic threading",
+            "url": "https://www.amazon.com/dp/B08JH88BRN",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 5,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c9a761394",
+            "polarity": "negative",
+            "claim": "Owner reports the top tension dial having no visible effect across its range.",
+            "quote": "Top tension is doing nothing really.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/19exa5y/help_needed_top_stitch_issues/kjgdks8/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c0d3be96b",
+            "polarity": "negative",
+            "claim": "Owner reports uneven tension and stitches.",
+            "quote": "Tension and stitches are very uneven.",
+            "url": "https://www.amazon.com/dp/B08JH88BRN",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 3
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c621110d6",
+            "polarity": "positive",
+            "claim": "Owner reports low noise.",
+            "quote": "Noise level is low",
+            "url": "https://www.amazon.com/dp/B08JH88BRN",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c9b530658",
+            "polarity": "negative",
+            "claim": "Owner dislikes that the presser foot lift lever sits on the right rather than at the rear.",
+            "quote": "the lever to lift the foot is on the right instead of the rear",
+            "url": "https://www.amazon.com/dp/B08JH88BRN",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 4,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c459d9f89",
+            "polarity": "negative",
+            "claim": "Owner says the feed foot sits too low so the machine does not feed and thread bunches at the bobbin.",
+            "quote": "The feeder foot is set way to low",
+            "url": "https://www.amazon.com/dp/B08JH88BRN",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c0df631e6",
+            "polarity": "negative",
+            "claim": "Owner found the presser foot pressure knob spring was out of place and had it fixed.",
+            "quote": "the pressure adjustment knob actually was broken",
+            "url": "https://www.reddit.com/r/sewhelp/comments/15ow7z8/new_to_sewing_and_cant_get_presser_foot_pressure/jwbrw94/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c6f6a442a",
+            "polarity": "positive",
+            "claim": "Owner hemmed work pants and stitched a canvas tote and says the machine handled both without trouble.",
+            "quote": "it powered through both",
+            "url": "https://www.amazon.com/dp/B08JH88BRN",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cc113368a",
+            "polarity": "negative",
+            "claim": "Owner rates the lighting as poor.",
+            "quote": "Lighting is not good",
+            "url": "https://www.amazon.com/dp/B08JH88BRN",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c8cd0e003",
+            "polarity": "positive",
+            "claim": "Owner finds the built-in LED light bright.",
+            "quote": "the LED light is bright on my tiny desk",
+            "url": "https://www.amazon.com/dp/B08JH88BRN",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c89e42567",
+            "polarity": "negative",
+            "claim": "Owner wishes the throat were bigger and uses a quilting machine for larger projects.",
+            "quote": "I wish the throat was a bit bigger",
+            "url": "https://www.amazon.com/dp/B08JH88BRN",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c18befc5d",
+            "polarity": "positive",
+            "claim": "Owner says it has sewn without problems on silky, stretchy, cotton and flannel fabrics.",
+            "quote": "This machine has sewn flawlessly on a variety of fabrics",
+            "url": "https://www.amazon.com/dp/B08JH88BRN",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c78f11823",
+            "polarity": "negative",
+            "claim": "Owner is unhappy with plastic pieces and expects the machine will not be passed down.",
+            "quote": "I'm not a huge fan of the plastic pieces.",
+            "url": "https://www.amazon.com/dp/B08JH88BRN",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cafc6ea43",
+            "polarity": "negative",
+            "claim": "Owner says the extended-warranty provider declined help because the maker warranty still applied, and Singer did not respond.",
+            "quote": "Asurson will not help because still under warranty",
+            "url": "https://www.amazon.com/dp/B08JH88BRN",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "walking_foot",
+        "label": "Walking foot",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2023,
+          2023
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cce61592a",
+            "polarity": "negative",
+            "claim": "Owner says the parts seller reported no associated part number for the model's foot control, so a replacement pedal could not be confirmed to fit.",
+            "quote": "my model didn't have an associated part number for the pedal I needed",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1izkmi2/sewing_machine_foot_pedal/",
+            "source_class": "reddit"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B08JH88BRN",
+        "pageRating": 4.4,
+        "pageCount": 980,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 11
+        },
+        "lowRated": 1,
+        "sampled": "13 top reviews (8 US, 5 other countries) of 980 ratings"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "juki": "Product page: 1100/min. Manual (shared 6700C and 6705C): maximum 1000 +/- 50 rpm.",
+        "others": "Amazon and dealers repeat 1,100.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+          },
+          {
+            "label": "Singer manual",
+            "url": "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "maker-page"
+      },
+      {
+        "label": "Stitches",
+        "juki": "Comparison page: 200 built-in stitches, 411 applications. Product page: 411 applications (prose also says 586).",
+        "others": "Dealers and Amazon say 411 stitch applications.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer comparison page",
+            "url": "https://www.singer.com/pages/singer-good-better-best-heavy-duty"
+          },
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+          }
+        ],
+        "field": "stitchCount",
+        "source": "good-better-best"
+      },
+      {
+        "label": "Lettering",
+        "juki": "Product page: 1 lettering font. Comparison page: 2 lettering fonts. Letters 7 mm.",
+        "others": "Dealers vary.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+          },
+          {
+            "label": "Singer comparison page",
+            "url": "https://www.singer.com/pages/singer-good-better-best-heavy-duty"
+          }
+        ],
+        "field": "lettering",
+        "source": "maker-page"
+      },
+      {
+        "label": "Throat",
+        "juki": "6.4 in / 163 mm, needle to tower",
+        "others": "Dealers quote 6.4 in.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+          }
+        ],
+        "field": "throatIn",
+        "source": "maker-page"
+      },
+      {
+        "label": "Buttonholes",
+        "juki": "7 one-step buttonhole styles",
+        "others": "Ken's Sewing Center says 7.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+          }
+        ],
+        "field": "buttonhole",
+        "source": "maker-page"
+      },
+      {
+        "label": "Warranty",
+        "juki": "Product page: 25/1. PDF: 25-year frame, 1-year parts and adjustments. Limited, original purchaser, authorized sellers.",
+        "others": "Our earlier figure was 25/2/90 (a different Singer tier).",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+          },
+          {
+            "label": "Singer warranty PDF",
+            "url": "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-d3361c80-1e88-4d01-9381-fe3e62f20ef4-singer%2025-1%20warranty%20471068326e.pdf"
+          },
+          {
+            "label": "Singer warranty page",
+            "url": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "warranty-pdf"
+      },
+      {
+        "label": "Motor",
+        "juki": "Powerful motor, 0.7 A, 120 V. No wattage.",
+        "others": "Walmart title: 'Strong Motor with Enhanced Piercing Power'.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+          }
+        ],
+        "field": "motor",
+        "source": "maker-page"
+      },
+      {
+        "label": "Weight",
+        "juki": "Manual: 7 kg (about 15.4 lb). Product page lists no weight.",
+        "others": "Amazon 14.6 lb; a blog 16.3 lb.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Singer manual",
+            "url": "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf"
+          }
+        ],
+        "field": "weightLb",
+        "source": "singer-manual"
+      },
+      {
+        "label": "Needle up/down",
+        "juki": "Shared manual documents the button; the 6700C product page does not list it.",
+        "others": "Our spec: none (blog source).",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Singer manual",
+            "url": "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf"
+          },
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+          }
+        ],
+        "field": "needleUpDown",
+        "source": "singer-manual"
+      },
+      {
+        "label": "Start/stop",
+        "juki": "Shared manual documents a Start/Stop button.",
+        "others": "The blog we cited lists start/stop as a 6800C feature.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Singer manual",
+            "url": "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf"
+          }
+        ],
+        "field": "startStop",
+        "source": "singer-manual"
+      },
+      {
+        "label": "Thread trimmer",
+        "juki": "No thread cutter listed; Tie-Off Button. (Manual: hand thread knife.)",
+        "others": "Our spec: none.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+          },
+          {
+            "label": "Singer 6800C page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6800c-sewing-machine"
+          }
+        ],
+        "field": "threadTrimmer",
+        "source": "maker-page"
+      },
+      {
+        "label": "Speed control",
+        "juki": "Speed Control lever",
+        "others": "Matches.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+          }
+        ],
+        "field": "speedControl",
+        "source": "maker-page"
+      },
+      {
+        "label": "Frame",
+        "juki": "Interior frame is metal; stainless steel bed plate",
+        "others": "Matches.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+          }
+        ],
+        "field": "frame",
+        "source": "maker-page"
+      },
+      {
+        "label": "Presser foot rise",
+        "juki": "6 mm (manual, shared with 6705C)",
+        "others": "Not published by dealers.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Singer manual",
+            "url": "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf"
+          }
+        ],
+        "field": "presserFootLift",
+        "source": "singer-manual"
+      },
+      {
+        "label": "Feet",
+        "juki": "10 feet incl. even feed (walking) foot, 4 bobbins, soft cover",
+        "others": "Amazon matches.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+          }
+        ],
+        "field": "includedFeet",
+        "source": "maker-page"
+      },
+      {
+        "label": "Claims",
+        "juki": "Heavy Duty name; denim to canvas; quilts with ease; professional speed",
+        "others": "Dealers repeat the copy.",
+        "status": "dealer only",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+          }
+        ],
+        "field": "claims",
+        "source": "maker-page"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "Singer Heavy Duty 6800C",
+        "label": "Singer Heavy Duty 6800C",
+        "rows": [
+          {
+            "feature": "Stitch applications and fonts",
+            "urls": 0,
+            "classes": [],
+            "summary": "586 stitch applications, 2 lettering fonts, 9 one-step buttonhole styles.",
+            "check": "Singer 6800C product page, 2026-10-02. Singer's comparison page says 300 built-in stitches.",
+            "examples": []
+          },
+          {
+            "feature": "Thread cutter and needle up/down",
+            "urls": 0,
+            "classes": [],
+            "summary": "Thread Cutter Button trims top and bottom threads; Needle Up/Down listed.",
+            "check": "Singer 6800C product page, 2026-10-02.",
+            "examples": []
+          },
+          {
+            "feature": "Throat per maker pages",
+            "urls": 0,
+            "classes": [],
+            "summary": "6.4 in needle to tower on the product page; the comparison page says 8.3 in of throat. Singer's own pages disagree.",
+            "check": "Singer 6800C product page and Good/Better/Best page, 2026-10-02.",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "Singer Heavy Duty 6600C",
+        "label": "Singer Heavy Duty 6600C",
+        "rows": [
+          {
+            "feature": "Singer stitch counts",
+            "urls": 0,
+            "classes": [],
+            "summary": "Comparison page: 100 built-in stitches, 8 one-step buttonholes. Product page for the 6600C returned 404 on fetch.",
+            "check": "Singer Good/Better/Best page, 2026-10-02.",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "Singer Heavy Duty 6620C",
+        "label": "Singer Heavy Duty 6620C",
+        "rows": [
+          {
+            "feature": "Stitch applications and needle up/down",
+            "urls": 0,
+            "classes": [],
+            "summary": "215 stitch applications, 6 one-step buttonhole styles, Needle Up/Down listed; shown out of stock on the page.",
+            "check": "Singer 6620C product page, 2026-10-02.",
+            "examples": []
+          }
+        ]
+      }
+    ],
     "rivals": []
   }
 };
