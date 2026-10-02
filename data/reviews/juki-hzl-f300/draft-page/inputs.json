@@ -1,0 +1,822 @@
+{
+  "slug": "juki-hzl-f300",
+  "today": "2026-10-02",
+  "rules": "AGENTS.md rules 1 to 12 apply: spec-check not field-test, owner evidence labelled, paraphrase and attribute, no em or en dashes, never invent a spec, claims quoted not asserted, every spec sourced, model name is not a spec, conflicts listed, price bands not live prices.",
+  "spec": {
+    "slug": "juki-hzl-f300",
+    "brand": "Juki",
+    "model": "HZL-F300",
+    "series": "HZL",
+    "type": "computerized",
+    "industrial": false,
+    "jobs": [
+      "beginner",
+      "quilting"
+    ],
+    "manufacturerUrl": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html",
+    "retailerUrl": "https://www.sewingmachinesplus.com/hzl-f300.php",
+    "priceUsdSeen": 799,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Michaels",
+    "specs": {
+      "stitchTypes": {
+        "value": "106 stitch patterns including 16 buttonhole styles and 3 lettering fonts",
+        "source": "https://www.qualitysewing.com/products/juki-hzl-f300-sewing-machine"
+      },
+      "stitchCount": {
+        "value": 106,
+        "source": "https://www.qualitysewing.com/products/juki-hzl-f300-sewing-machine"
+      },
+      "maxSpm": {
+        "value": 900,
+        "source": "https://www.qualitysewing.com/products/juki-hzl-f300-sewing-machine"
+      },
+      "threads": {
+        "value": null,
+        "source": null
+      },
+      "differentialFeed": {
+        "value": null,
+        "source": null
+      },
+      "throatIn": {
+        "value": 8,
+        "source": "https://jukijunkies.com/product/hzl-f300/"
+      },
+      "needleSystem": {
+        "value": "130R / 705H",
+        "source": "https://www.qualitysewing.com/products/juki-hzl-f300-sewing-machine"
+      },
+      "presserFootLift": {
+        "value": "Manual lift plus knee lifter (included)",
+        "source": "https://jukijunkies.com/product/hzl-f300/"
+      },
+      "threadTrimmer": {
+        "value": "Automatic; foot controller heel or button",
+        "source": "https://sewing.patternreview.com/review/machine/7001"
+      },
+      "feedSystem": {
+        "value": "Box feed with 7-point feed dog; drop feed for free motion",
+        "source": "https://www.qualitysewing.com/products/juki-hzl-f300-sewing-machine"
+      },
+      "buttonhole": {
+        "value": "16 styles, sensor controlled",
+        "source": "https://www.qualitysewing.com/products/juki-hzl-f300-sewing-machine"
+      },
+      "motor": {
+        "value": null,
+        "source": null
+      },
+      "frame": {
+        "value": null,
+        "source": null
+      },
+      "weightLb": {
+        "value": 21.6,
+        "source": "https://www.qualitysewing.com/products/juki-hzl-f300-sewing-machine"
+      },
+      "dimensionsIn": {
+        "value": "17.5 x 8.2 x 11.4 (445 x 210 x 291 mm)",
+        "source": "https://www.qualitysewing.com/products/juki-hzl-f300-sewing-machine"
+      },
+      "includedFeet": {
+        "value": "Knee lifter and extension table listed by one dealer; feet set not itemized in snippets. Comparison chart says 6 accessories versus 12 on the F600",
+        "source": "https://jukijunkies.com/product/hzl-f300/"
+      },
+      "warrantyUs": {
+        "value": "5 yr materials and workmanship, 2 yr motors, wiring, switches, speed control and electrical (Juki America household warranty, dealer restatement); one dealer adds 90 days adjustments",
+        "source": "https://carolinaforestvacuum.com/warranty-juki-america-inc/"
+      },
+      "stitchWidthMm": {
+        "value": 7,
+        "source": "https://www.qualitysewing.com/products/juki-hzl-f300-sewing-machine"
+      },
+      "stitchLengthMm": {
+        "value": 5,
+        "source": "https://www.qualitysewing.com/products/juki-hzl-f300-sewing-machine"
+      },
+      "harpHeightIn": {
+        "value": 4.4,
+        "source": "https://jukijunkies.com/product/hzl-f300/"
+      },
+      "letteringFonts": {
+        "value": 3,
+        "source": "https://www.qualitysewing.com/products/juki-hzl-f300-sewing-machine"
+      },
+      "freeArm": {
+        "value": "Yes",
+        "source": "https://jukijunkies.com/product/hzl-f300/"
+      }
+    },
+    "claims": [
+      "\"Exceed\" and \"Home Deco\" are Juki series names for this tier, not ratings (manufacturer product page URL)",
+      "\"Sews through thick layers like butter\" (owner phrasing on PatternReview, not a manufacturer spec)",
+      "\"Full Sized 9 inch Throat\" (Amazon listing title; every dealer spec sheet says 8 in)"
+    ],
+    "conflicts": [
+      "Throat: 8.0 in (Juki Junkies, Premier Stitching) vs '9 inch Throat' in an Amazon bundle title. Catalog uses 8.0 in; the 9 in figure is unsupported.",
+      "Weight: 21.6 lb (Quality Sewing) vs 21 lb (Premier Stitching). Catalog uses 21.6 lb, the figure that matches the published mm dimensions sheet.",
+      "Dimensions: 17.5 x 11.4 x 8.2 in (445 x 291 x 210 mm) vs 18 x 8.25 x 11.5 in on another dealer page. Catalog uses the mm-derived figure.",
+      "Extension table: one dealer says an extension table and knee lifter are included; a comparison chart says the F300 does not include a sewing table. Bundle listings add one. Confirm on the listing.",
+      "Price: $799.00 (Michaels) vs $699.00 (eBay listing). Sewing Machines Plus lists a bonus package with no price in snippets. Catalog uses $799.00."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "Owners single out the 16 sensor buttonholes as consistent and reliable, and describe the machine as very quiet.",
+        "tone": "positive",
+        "source": "https://sewing.patternreview.com/review/machine/7001"
+      },
+      {
+        "theme": "A four-year owner still rates stitch quality as excellent; others report thick layers feeding well on the box feed.",
+        "tone": "positive",
+        "source": "https://sewing.patternreview.com/review/machine/6873"
+      },
+      {
+        "theme": "PatternReview members comparing the F300, F400 and F600 note the F300 has the most favorable reviews of the three and ask what the extra stitches on the F600 actually buy.",
+        "tone": "mixed",
+        "source": "https://sewing.patternreview.com/SewingDiscussions/topic/130106"
+      },
+      {
+        "theme": "QuiltingBoard members ask whether the F300 is enough machine for quilting or whether to stretch to the F600.",
+        "tone": "mixed",
+        "source": "https://www.quiltingboard.com/main-f1/juki-hzl-f300-t118168.html"
+      }
+    ],
+    "evidence": "owner",
+    "buyerQuestions": [
+      "What is the difference between the Juki HZL-F300 and HZL-F600?",
+      "How big is the throat on the HZL-F300?",
+      "Does the HZL-F300 come with an extension table?",
+      "Is the HZL-F300 good for quilting?",
+      "Is the HZL-F300 a good first computerized machine?",
+      "Does the HZL-F300 have an automatic thread cutter?",
+      "What needles does the HZL-F300 use?",
+      "How many buttonholes does the HZL-F300 have?"
+    ],
+    "crossShop": [
+      {
+        "slug": "juki-hzl-f600",
+        "why": "Same chassis with 225 stitches, 4 fonts and the walking foot, table and case in the box for several hundred dollars more."
+      },
+      {
+        "slug": "janome-hd3000",
+        "why": "Beginners deciding between a mechanical workhorse and a first computerized machine at a similar price."
+      },
+      {
+        "slug": "brother-pq1600s",
+        "why": "Quilters who would trade stitches for a faster straight stitch machine at a similar price."
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "sources": [
+      "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html",
+      "https://www.juki.co.jp/household_en/products/list/home/hzlf300.html",
+      "https://www.sewingmachinesplus.com/hzl-f300.php",
+      "https://www.qualitysewing.com/products/juki-hzl-f300-sewing-machine",
+      "https://jukijunkies.com/product/hzl-f300/",
+      "https://www.premierstitching.com/juki-exceed-hzl-f300-computerized-sewing-quilting-machine/",
+      "https://www.michaels.com/product/juki-hzlf300-computerized-sewing-and-quilting-machine-190229090562965517",
+      "https://www.amazon.com/Juki-HZL-F300-Exceed-Computer-Quilting/dp/B00F9K1FIM",
+      "https://sewmark.com/machine.php?id=32",
+      "https://carolinaforestvacuum.com/warranty-juki-america-inc/",
+      "https://jukijunkies.com/juki-f-series-machines-comparison-chart/",
+      "https://sewing.patternreview.com/review/machine/7001",
+      "https://sewing.patternreview.com/review/machine/6873",
+      "https://sewing.patternreview.com/review/machine/6535",
+      "https://sewing.patternreview.com/review/machine/3069",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/130106",
+      "https://www.quiltingboard.com/main-f1/juki-hzl-f300-t118168.html"
+    ],
+    "editorial": {
+      "verdict": "The HZL-F300 is the F600's chassis with 106 stitches and a smaller box, keeping the 900 spm box feed, 16 sensor buttonholes, knee lifter and auto trimmer at a lower price.",
+      "whoFor": "A sewer stepping up from a beginner machine who wants Juki's box feed and buttonholes and does not need 225 stitches or the bundled walking foot and table.",
+      "skipIf": "You already know you want the walking foot, wide table and hard case, in which case the F600 bundle is usually the cheaper way to get them, or you need more than 8 in of arm.",
+      "keySpec": "106 stitches · 900 spm · 8 in throat · box feed · 21.6 lb",
+      "strengths": [
+        "Same box feed, 7 mm stitch width, 900 spm and 130/705H needle system as the F600.",
+        "16 sensor buttonholes that owners consistently rate as the machine's best feature.",
+        "Knee lifter and automatic thread trimmer, rare at this price."
+      ],
+      "weaknesses": [
+        "Accessory set is thin; the walking foot and wide table that ship with the F600 are extras here unless bundled.",
+        "8 in arm and 900 spm, the same limits as the F600 for quilting.",
+        "Single LED light versus dual on the F600, per the comparison chart."
+      ],
+      "checks": [
+        {
+          "title": "Base machine or bonus package",
+          "body": "Sewing Machines Plus and Amazon sell bundles that add the table, walking foot or feet. Dealers disagree on whether a table is in the standard box. Read the contents list."
+        },
+        {
+          "title": "Price gap to the F600",
+          "body": "At $799 versus roughly $1,399, the F600 adds 119 stitches, a font, a second LED and about $200 of accessories. If you need the accessories, the gap narrows fast."
+        },
+        {
+          "title": "Ignore the 9 in throat claim",
+          "body": "An Amazon title says 9 in. Dealer spec sheets say 8 in to the right of the needle and 4.4 in high. Use 8 in."
+        }
+      ],
+      "realCost": [
+        "Walking foot if quilting",
+        "Wide extension table (13 x 21.5 in) if not bundled",
+        "130/705H needles",
+        "Hard case or cover"
+      ],
+      "faqs": [
+        {
+          "q": "What is the difference between the Juki HZL-F300 and HZL-F600?",
+          "a": "Both use the same 900 spm box-feed chassis with 16 buttonholes. The F300 has 106 stitches and 3 fonts, one LED and a push-button interface; the F600 has 225 stitches, 4 fonts, dual LEDs, a dial and a larger accessory set."
+        },
+        {
+          "q": "How big is the throat on the HZL-F300?",
+          "a": "8 in to the right of the needle and about 4.4 in high per dealer spec sheets. An Amazon title claiming 9 in is not supported."
+        },
+        {
+          "q": "Does the HZL-F300 come with an extension table?",
+          "a": "Dealers disagree. One lists a table and knee lifter in the box; a comparison chart says no table. Bundles add a 13 x 21.5 in wide table. Check the listing."
+        },
+        {
+          "q": "Is the HZL-F300 good for quilting?",
+          "a": "For piecing and small to medium quilts, owners say yes, helped by the knee lifter and drop feed. The 8 in arm limits large tops."
+        },
+        {
+          "q": "Does the HZL-F300 have an automatic thread cutter?",
+          "a": "Yes, by button or by the heel of the foot controller, and an automatic needle threader."
+        },
+        {
+          "q": "What needles does the HZL-F300 use?",
+          "a": "Standard 130R / 705H household needles."
+        },
+        {
+          "q": "How heavy is the HZL-F300?",
+          "a": "21.6 lb on one dealer sheet, 21 lb on another."
+        },
+        {
+          "q": "What is the warranty on the HZL-F300?",
+          "a": "Juki America's household warranty: 5 years materials and workmanship, 2 years on motors and electrical parts, original purchaser only. One dealer adds 90 days on adjustments."
+        }
+      ]
+    }
+  },
+  "manufacturer": {
+    "documents": [
+      {
+        "id": "maker-page",
+        "url": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html",
+        "type": "product page (Juki America)",
+        "fetched": "2026-10-02",
+        "note": "Specifications and accessories lists; MSRP shown; no throat or arm figure; no discontinuation wording"
+      },
+      {
+        "id": "manual",
+        "url": "https://www.jukihome.com/media/catalog/product/h/z/hzl-f_instruction_manual.pdf",
+        "type": "instruction manual (PDF, 104 pages, copyright 2009, image-only, read by OCR at 150 dpi; verify figures against the PDF)",
+        "fetched": "2026-10-02",
+        "note": "One manual for F600, F400 and F300; items marked F600 only or F600/F400. Body size and weight on the last page"
+      },
+      {
+        "id": "brochure",
+        "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_f-series_brochure_web_2.pdf",
+        "type": "F-series brochure (PDF, 2 pages, 0904)",
+        "fetched": "2026-10-02",
+        "note": "Machine comparison table F600 / F400 / F300; wide space diagram (112 mm underarm height, 551 mm wide table)"
+      },
+      {
+        "id": "faq",
+        "url": "https://www.jukihome.com/faq/",
+        "type": "Juki America FAQ (warranty summary)",
+        "fetched": "2026-10-02",
+        "note": "The /warranty page returned only a registration form, so the FAQ wording is the maker text used"
+      },
+      {
+        "id": "f400-page",
+        "url": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f400-exceed-quilt-pro.html",
+        "type": "sibling product page (HZL-F400)",
+        "fetched": "2026-10-02",
+        "note": "MSRP $1,999.00; walking foot, wide table and knee lifter itemized"
+      },
+      {
+        "id": "f600-page",
+        "url": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html",
+        "type": "sibling product page (HZL-F600)",
+        "fetched": "2026-10-02",
+        "note": "Read from a search excerpt of the page; MSRP $2,369.00; 225 stitches, 4 fonts"
+      }
+    ],
+    "facts": [
+      {
+        "field": "stitchCount",
+        "value": "106 stitch patterns including 16 buttonholes and 3 lettering fonts (manual stitch-selection page says 105 types)",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": 106,
+        "note": "The maker page and brochure say 106. The 2009 manual text, read by OCR, says 105 types on its stitch-selection page: a page-versus-manual disagreement; verify against the PDF. Catalog keeps 106, the figure on the maker page and brochure.",
+        "site": {
+          "label": "Stitches",
+          "juki": "106 patterns including 16 buttonholes, 3 fonts (manual says 105).",
+          "others": "Dealers say 106.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Juki source",
+              "url": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
+            }
+          ]
+        }
+      },
+      {
+        "field": "maxSpm",
+        "value": "900 spm",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": 900,
+        "site": {
+          "label": "Speed",
+          "juki": "900 stitches per minute.",
+          "others": "Matches our spec.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Juki source",
+              "url": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
+            }
+          ]
+        }
+      },
+      {
+        "field": "stitchWidthMm",
+        "value": "0.3 in (7 mm) max zigzag width",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": 7
+      },
+      {
+        "field": "stitchLengthMm",
+        "value": "0.2 in (5 mm) max stitch length",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": 5
+      },
+      {
+        "field": "needleSystem",
+        "value": "130R / 705H; low shank; bobbin type 15 class",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "130R / 705H"
+      },
+      {
+        "field": "buttonhole",
+        "value": "16 buttonhole styles; sensor method; cutting width adjustable in 3 steps",
+        "source": "brochure",
+        "vs_spec": "confirms",
+        "spec_value": "16 styles, sensor controlled"
+      },
+      {
+        "field": "letteringFonts",
+        "value": "3 lettering fonts",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": 3
+      },
+      {
+        "field": "throatIn",
+        "value": "Not published. The maker page lists no needle-to-arm figure. The brochure shows 112 mm (4-1/2 in) for the underarm space height and 551 mm (21-3/4 in) for the wide table width; neither is needle-to-arm.",
+        "source": "brochure",
+        "vs_spec": "contradicts",
+        "spec_value": 8,
+        "note": "Our spec has 8.0 in from dealer sheets (Juki Junkies, Premier Stitching). No Juki document supports 8 in. The only arm figure Juki gives is the 112 mm underarm height. The 551 mm figure is the wide-table width (F600 standard, F300 option), not throat. Keep 8.0 in as dealer-sourced and flag it as not maker-confirmed (rule 6, rule 9).",
+        "site": {
+          "label": "Throat",
+          "juki": "No needle-to-arm figure published. Brochure shows 112 mm (4-1/2 in) underarm height only.",
+          "others": "Dealers quote 8 in to the right of the needle; an Amazon bundle title says 9 in.",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Juki source",
+              "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_f-series_brochure_web_2.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "harpHeightIn",
+        "value": "Underarm space height 112 mm (4-1/2 in) in the brochure's Wide Sewing Space diagram",
+        "source": "brochure",
+        "vs_spec": "confirms",
+        "spec_value": 4.4,
+        "note": "112 mm is 4.41 in; the brochure's own inch rounding is 4-1/2 in. Spec 4.4 agrees."
+      },
+      {
+        "field": "freeArm",
+        "value": "Free arm: the manual says to attach accessories to the free arm of the machine",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "Yes"
+      },
+      {
+        "field": "feedSystem",
+        "value": "Box feed (industrial-style); 7-point surgical steel feed dog; drop feed knob for free motion",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "Box feed with 7-point feed dog; drop feed for free motion",
+        "site": {
+          "label": "Feed",
+          "juki": "Box feed, 7-point surgical steel feed dog, drop feed knob.",
+          "others": "Matches our spec.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Juki source",
+              "url": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
+            }
+          ]
+        }
+      },
+      {
+        "field": "threadTrimmer",
+        "value": "Thread trimming by button, by programmed trims, and by heel of the foot controller; automatic needle threader by lever",
+        "source": "brochure",
+        "vs_spec": "confirms",
+        "spec_value": "Automatic; foot controller heel or button"
+      },
+      {
+        "field": "presserFootLift",
+        "value": "Presser Foot Lift: Manual. The knee lifting lever is listed under Optional Accessories on the F300 page and marked option for the F300 in the brochure comparison table (standard on F600 and F400). Lift up to 12 mm with the lever.",
+        "source": "maker-page",
+        "vs_spec": "contradicts",
+        "spec_value": "Manual lift plus knee lifter (included)",
+        "note": "Our spec says the knee lifter is included, taken from one dealer page. Juki's F300 page lists it as optional and the brochure marks it option for the F300. The manual's accessory page shows a knee-lifting lever with the F600/F400 labelling. Confirm contents on the listing.",
+        "site": {
+          "label": "Knee lifter",
+          "juki": "Optional on the F300 per Juki's page and brochure; standard on the F600 and F400.",
+          "others": "One dealer lists a knee lifter in the box.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Juki source",
+              "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_f-series_brochure_web_2.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "motor",
+        "value": "Not published. The maker page and manual give no motor wattage. Manual states the lamp bulb is 3 W 12 V.",
+        "source": "manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec is null and stays null."
+      },
+      {
+        "field": "frame",
+        "value": "Not published as a frame material. No Juki document names the body construction.",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec is null and stays null."
+      },
+      {
+        "field": "threads",
+        "value": "Not applicable to this lockstitch machine; no thread-count figure published",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null
+      },
+      {
+        "field": "weightLb",
+        "value": "21.6 lb (9.8 kg)",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": 21.6,
+        "note": "Manual and brochure also give 9.8 kg / 21.6 lb. The manual's weight line is labelled weight with hard case; the maker page says Machine Weight 21.6 lb. Same number in both."
+      },
+      {
+        "field": "dimensionsIn",
+        "value": "17.5 in W x 11.5 in H x 8.25 in D on the maker page; 445 x 290 x 210 mm brochure; 44.5 x 29.1 x 21.0 cm in the manual (51.0 x 30.5 x 25.7 cm with hard case)",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "17.5 x 8.2 x 11.4 (445 x 210 x 291 mm)",
+        "note": "Height 11.5 in on the page versus 11.4 in (29.1 cm) in the manual. Body size, not working arm space.",
+        "site": {
+          "label": "Size and weight",
+          "juki": "17.5 W x 11.5 H x 8.25 D in; 21.6 lb.",
+          "others": "Dealers agree within rounding; one says 21 lb.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Juki source",
+              "url": "https://www.jukihome.com/media/catalog/product/h/z/hzl-f_instruction_manual.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "includedFeet",
+        "value": "Standard presser foot (A), zipper (B), overcasting (C), blind stitch (D), buttonhole (E) and manual buttonhole (I) feet; hard case; 4 bobbins; small, medium and large spool caps; T-shape screwdriver; seam ripper; foot controller; power cord; needle set; cleaning brush. Walking foot, quilt foot, patchwork foot, quilt guide, twin needle, eyelet punch, wide table and knee lifter are not in the F300 standard list.",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": "Feet set not itemized in snippets (see conflicts)",
+        "note": "The maker page lists the walking foot and wide table as F600 standard and optional on the F300. The manual's own accessory pages mark the walking foot, patchwork foot and quilt foot F600/F400. Our spec's knee lifter and extension table statement from one dealer is not supported by the F300 maker list. A hard case is listed as standard.",
+        "site": {
+          "label": "In the box",
+          "juki": "Six feet, hard case, 4 bobbins, spool caps, tools. Walking foot, wide table and knee lifter are options.",
+          "others": "Dealer bundles add a table, walking foot or feet.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Juki source",
+              "url": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
+            }
+          ]
+        }
+      },
+      {
+        "field": "autoExtras",
+        "value": "Save up to 70 patterns in 10 memory folders; 8 languages; needle up/down; one LED per the brochure (dual LEDs are F600 only)",
+        "source": "brochure",
+        "vs_spec": "adds",
+        "spec_value": null
+      },
+      {
+        "field": "warrantyUs",
+        "value": "Juki America FAQ: limited warranty of two years on motors, light assembly, wiring, switches, circuit boards and speed control; five years on all other parts related to factory defects. Routine service, tension and skipped stitches are not covered. Warranty service is provided by the selling dealer. The wording is not model-specific.",
+        "source": "faq",
+        "vs_spec": "confirms",
+        "spec_value": "5 yr materials and workmanship, 2 yr motors, wiring, switches, speed control and electrical",
+        "note": "The FAQ does not say original purchaser only or 90 days of adjustments; those come from a dealer restatement. The /warranty page showed only a registration form.",
+        "site": {
+          "label": "Warranty",
+          "juki": "2 years on motors, light, wiring, switches, circuit boards, speed control; 5 years on other parts for factory defects. Same wording for all models.",
+          "others": "One dealer adds 90 days of adjustments.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Juki source",
+              "url": "https://www.jukihome.com/faq/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "msrp",
+        "value": "JUKI Suggested Retail Price $1,799.00 USD on the maker page; dealers set their own price. F400 page: $1,999.00; F600 page: $2,369.00.",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Our spec records $799 seen at Michaels on 2026-09-29; the MSRP is a list price, not a dealer price. Not written as a fact about any dealer."
+      },
+      {
+        "field": "claims",
+        "value": "\"Exceed your sewing and quilting expectations\"; \"a home machine that brings an industrial touch\"; \"Industrial Quality Buttonholes\" (brochure); \"Nothing Quilts Better Than a Juki\"; \"Powerful Feeding\" and \"able to handle heavy-duty fabrics and layers\"; \"Exceed Home Deco\" (brochure series name for the F300; F400 is Exceed Quilt & Pro, F600 Exceed Quilt & Pro Special)",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Marketing wording quoted as claims, not specs (rule 7). No Juki document gives a throat, motor or layer rating."
+      },
+      {
+        "field": "availability",
+        "value": "Juki's F300 page carries no discontinued or unavailable wording and still shows an MSRP; it lists the model in the dealer inquiry list with the F400, F600, G220 and DX7",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null
+      }
+    ]
+  },
+  "rollup": {
+    "status": "draft",
+    "method": {
+      "sources": 46,
+      "itemsCollected": 457,
+      "statements": 61,
+      "voices": 46,
+      "ownerVoices": 31,
+      "dateRange": [
+        2019,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 46,
+          "items": 457
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ratings": [],
+    "themes": [
+      {
+        "label": "Reliability and defects",
+        "voices": 11,
+        "ownerVoices": 7,
+        "sources": 8,
+        "polarity": {
+          "positive": 4,
+          "negative": 6,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "classVoices": {
+          "reddit": 11
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Former owner calls the F300 a lemon that broke within a few years.",
+            "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1wmbx95/juki_how_much_is_too_much/pb5shlo/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Another owner reports the same broken gear and plans a self-repair.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1vuqje3/has_anyone_fixed_a_juki_hzl_f300_broken_bobbin/p9azj1l/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "F300 owner reports no mechanical issues and no jams.",
+            "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/na297q1/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner used the machine for a year before the thread tail issue appeared, fixed by holding the tails.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1eptccq/why_does_this_keep_happening_when_i_start_sewing/lhn3kqb/"
+          }
+        ]
+      },
+      {
+        "label": "Power on heavy fabric",
+        "voices": 6,
+        "ownerVoices": 4,
+        "sources": 5,
+        "polarity": {
+          "positive": 2,
+          "negative": 2,
+          "mixed": 2,
+          "neutral": 0
+        },
+        "classVoices": {
+          "reddit": 6
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "New owner says the machine hangs up and glitches on thick fabrics despite expecting heavy-duty punching power.",
+            "url": "https://www.reddit.com/r/quilting/comments/1n22a55/troubleshooting_on_juki_hzlf300/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner has not tried denim but expects the machine to cope with it because it is a workhorse.",
+            "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/kwadpco/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "New F300 owner tested layers and seam intersections of heavy canvas and found sewing smooth.",
+            "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcnuyww/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner finds it struggles a little with very heavy layered fabrics but still sews heavier than before.",
+            "url": "https://www.reddit.com/r/sewing/comments/z2ys37/best_sewing_machine_for_heavy_duty_sewing/jgcp9u7/"
+          }
+        ]
+      },
+      {
+        "label": "Fabric handling (knits, wovens)",
+        "voices": 6,
+        "ownerVoices": 4,
+        "sources": 4,
+        "polarity": {
+          "positive": 3,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "classVoices": {
+          "reddit": 6
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "New F300 owner reports skipped zigzag stitches on knit fabric, worse at higher speed, not on wovens.",
+            "url": "https://www.reddit.com/r/sewing/comments/xl7fr3/trying_to_troubleshoot_a_couple_machine_issues/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner notes less top and bottom fabric offset on long seams than on the previous machine.",
+            "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcqr1do/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner praises the F300 feed dogs and says it jams rarely.",
+            "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/n9r7l7v/"
+          }
+        ]
+      },
+      {
+        "label": "Feet and accessories",
+        "voices": 5,
+        "ownerVoices": 3,
+        "sources": 3,
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "classVoices": {
+          "reddit": 5
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "F300 owner bought a walking foot, knee lift, extra feet and a table attachment separately because they did not come with the machine.",
+            "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/kpdxj9t/"
+          }
+        ]
+      }
+    ],
+    "siblings": [
+      {
+        "label": "Juki HZL-F400",
+        "rows": [
+          {
+            "feature": "Included accessories (owner reports)",
+            "summary": "Commenters say the F400 includes a plug-in automatic buttonhole foot, a walking foot, an extra spool pin and the knee lever that the F300 lacks. Juki lists the knee lifter as optional on the F300 and standard on the F400.",
+            "check": "owner comments; knee lifter confirmed by Juki product pages, 2026-10-02"
+          },
+          {
+            "feature": "Stitches (owner reports)",
+            "summary": "Commenters say the F400 has a handful more stitches and pattern stitches than the F300. Juki's F-series pages list the stitch libraries.",
+            "check": "owner comments; see Juki product pages for the counts"
+          },
+          {
+            "feature": "Stitches and box contents",
+            "summary": "157 stitches and 3 fonts; walking foot, patchwork foot, quilt foot and knee lifter are standard, the wide table is an option.",
+            "check": "Juki F400 product page and brochure, 2026-10-02"
+          },
+          {
+            "feature": "Juki list price",
+            "summary": "Juki's suggested retail price is $1,999.00 for the F400, $200 above the F300's $1,799.00.",
+            "check": "Juki F400 and F300 product pages, 2026-10-02"
+          }
+        ]
+      },
+      {
+        "label": "Juki HZL-F600",
+        "rows": [
+          {
+            "feature": "Features (owner reports)",
+            "summary": "Commenters say the F600 has more features, two lights and extra accessories compared with the F300.",
+            "check": "owner comments; Juki lists one LED for the F300"
+          },
+          {
+            "feature": "Stitches (owner reports)",
+            "summary": "Commenters say the F600 has extra stitches and a needle threader that the F300 lacks.",
+            "check": "owner comments; unverified for the needle threader"
+          },
+          {
+            "feature": "Box contents",
+            "summary": "Juki lists the walking foot, quilt foot, wide table and knee lifter as F600 standard; on the F300 they are options.",
+            "check": "Juki F600 and F300 product pages and F-series brochure, 2026-10-02"
+          },
+          {
+            "feature": "Stitches and fonts",
+            "summary": "225 stitches and 4 fonts against 106 and 3 on the F300; random quilt stitches and dual LEDs are F600 only.",
+            "check": "Juki F600 product page and brochure comparison table, 2026-10-02"
+          },
+          {
+            "feature": "Juki list price",
+            "summary": "Juki's suggested retail price is $2,369.00 for the F600 and $1,799.00 for the F300; dealers set their own prices.",
+            "check": "Juki product pages, 2026-10-02"
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "checks": [],
+  "editorNotes": {
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction."
+  },
+  "siteFieldsNow": "  \"juki-hzl-f300\": {\n    score: 8.0,\n    scoredFor: \"beginner\",\n    reason: \"The F600 chassis with fewer stitches; the best-built computerized under $1,000 here.\",\n    context: \"Computerized · in First serious machine and Quilting hubs\",\n    alternatives: [\n      { slug: \"juki-hzl-f600\", label: \"Step up\", note: \"225 stitches, walking foot and table.\" },\n      { slug: \"janome-hd3000\", label: \"Mechanical\", note: \"Our beginner pick, no electronics.\" },\n      { slug: \"brother-cs7000x\", label: \"Budget\", note: \"Computerized for under $300.\" },\n    ],\n    imageAlt: \"Juki HZL-F300 computerized sewing machine\",\n    lastUpdated: \"2026-09-29\",\n  },",
+  "comparesNow": []
+}

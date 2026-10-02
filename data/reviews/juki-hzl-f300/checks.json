@@ -1,0 +1,25 @@
+{
+  "slug": "juki-hzl-f300",
+  "generated": "2026-10-02T05:01:56.949Z",
+  "counts": {
+    "error": 0,
+    "warn": 0
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 94, this 61, sibling 21, unclear 12"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "46 Reddit threads, 10 with the model in the title"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 46 voices (31 first-hand), 46 sources, status draft"
+    }
+  ]
+}
