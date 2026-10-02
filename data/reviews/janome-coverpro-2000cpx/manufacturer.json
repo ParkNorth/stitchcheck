@@ -1,0 +1,247 @@
+{
+  "slug": "janome-coverpro-2000cpx",
+  "collected": "2026-10-02",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/janome-coverpro-2000cpx.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "maker-page",
+      "url": "https://www.janome.com/product/coverpro-2000cpx/",
+      "type": "product page",
+      "fetched": "2026-10-02",
+      "note": "Page last modified 2025-06-30 per page metadata. Lists key features, standard accessories and a specification block."
+    },
+    {
+      "id": "manual",
+      "url": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf",
+      "type": "instruction manual (EN/ES/FR, 60 pages)",
+      "fetched": "2026-10-02",
+      "note": "Text PDF. Parts list, needles, stitch widths. No specification table, weight or spm figure found in it; no mention of TLC or STS."
+    },
+    {
+      "id": "warranty",
+      "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+      "type": "warranty terms (Janome America, 1 page)",
+      "fetched": "2026-10-02",
+      "note": "Image PDF, read by OCR at 150 dpi; wording verify against the PDF. Linked from https://www.janome.com/support/warranty/. Applies to Janome America sewing machines generally, not model-specific."
+    },
+    {
+      "id": "sib-1000cpx",
+      "url": "https://www.janome.com/product/coverpro-1000cpx/",
+      "type": "sibling product page",
+      "fetched": "2026-10-02",
+      "note": "CoverPro 1000CPX, comparison only."
+    },
+    {
+      "id": "sib-3000p",
+      "url": "https://www.janome.com/product/coverpro-3000-professional/",
+      "type": "sibling product page",
+      "fetched": "2026-10-02",
+      "note": "CoverPro 3000 Professional, comparison only. janome.com/product/coverpro-3000cpx/ returns 404; the maker's name is 3000 Professional (3000P)."
+    }
+  ],
+  "facts": [
+    {
+      "field": "MSRP",
+      "value": "$1,099 MSRP; 'Please see Dealer for pricing'",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Maker publishes MSRP only. Dealer pricing is the dealer's own; not recorded here as a fact about any dealer."
+    },
+    {
+      "field": "Maximum speed",
+      "value": "1,000 spm",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": 1000
+    },
+    {
+      "field": "Stitch types",
+      "value": "1 needle 2 thread chain; 2 needle 3 thread cover; 3 needle 4 thread triple cover",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "2-thread chain stitch, 3-thread cover stitch (3 mm narrow or 6 mm wide), 4-thread triple cover stitch (6 mm)"
+    },
+    {
+      "field": "Stitch width",
+      "value": "2 needles: 6 mm standard, 3 mm narrow; 3 needles: 6 mm (3 + 3)",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "6 (two needles standard), 3 (two needles narrow), 6 with three needles (3 + 3)",
+      "note": "Manual also lists narrow-left 3 mm, narrow-right 3 mm and wide 6 mm."
+    },
+    {
+      "field": "Stitch length",
+      "value": "1.0 to 4.0 mm",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "1 to 4"
+    },
+    {
+      "field": "Differential feed",
+      "value": "0.5 to 2.25 (page spec block: 0.5 mm to 2.25 mm)",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "0.5 to 2.25",
+      "note": "Values agree. Our spec source is a dealer page; the maker page also states it, so the source can move to the maker URL. Unit: maker prints both a bare ratio (key features) and 'mm' (spec block)."
+    },
+    {
+      "field": "Throat / bed space",
+      "value": "'Extra large bed space 4\" x 5.5\"' (maker wording); also 'long arm' in the marketing paragraph",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Not a needle-to-body throat figure and no definition is given of which side is 4 in and which 5.5 in. Keep throatIn null. 'Long arm' is the maker's marketing phrase for a coverstitch free arm, not the quilting tier in rule 11.",
+      "site": {
+        "label": "Bed space",
+        "juki": "Extra large bed space 4\" x 5.5\"",
+        "others": "Dealer listing: sewing area 4 x 5.5 in with built-in free arm",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome product page",
+            "url": "https://www.janome.com/product/coverpro-2000cpx/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Weight",
+      "value": "19 lbs",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": 19.0,
+      "note": "Spec source is a dealer; maker spec block also says 19 lbs. The conflicts line 'Janome page value not captured' is out of date."
+    },
+    {
+      "field": "Dimensions",
+      "value": "Not published on the 2000CPX page (the 3000P page gives 16.22 W x 13.18 H x 9.64 D in)",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Do not carry the 3000P figure to the 2000CPX."
+    },
+    {
+      "field": "Warranty (maker, general)",
+      "value": "Limited 25 Year Warranty: 25 years from original purchase against defects in materials or workmanship, excluding (i) electronic component parts, 5 years, and (ii) labor, 1 year free. Machines used commercially: 1 year parts and service. No cover for needles, needle plates, bobbin cases, fuses, light bulbs, knives, loopers or belts. Void if not bought from an authorized Janome dealer in the United States. Original purchaser only.",
+      "source": "warranty",
+      "vs_spec": "contradicts",
+      "spec_value": "25 yr parts, 2 yr electrical, 1 yr labor (Janome America)",
+      "note": "Maker wording says 5 years for electronic component parts, not 2. Spec source is a dealer page. The warranty document is general to Janome America machines, not specific to the 2000CPX; the product page does not state terms. Wording read by OCR, verify against the PDF.",
+      "site": {
+        "label": "Warranty",
+        "juki": "25 years parts and workmanship; 5 years electronic components; 1 year labor (Janome America general terms)",
+        "others": "Dealer page: 25 yr parts, 2 yr electrical, 1 yr labor",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome warranty PDF",
+            "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Needles",
+      "value": "Needle system ELx705. Manual: standard set of 2 x #80/12 and 3 x #90/14 (Schmetz EL X 705); machine is installed with #80/12 needles; use EL X 705 size 80/12 or 90/14",
+      "source": "manual",
+      "vs_spec": "contradicts",
+      "spec_value": "SCHMETZ ELx705, 90/14 supplied",
+      "note": "Spec says 90/14 supplied; the manual says the machine ships with 80/12 installed plus a set of both sizes. The product page's standard-accessory list does not list needles. Manual is the 2019 upload and may predate current packing."
+    },
+    {
+      "field": "Standard accessories (page)",
+      "value": "Foot control, lint brush, needle threader, screwdriver large, screwdriver small, spool holder (large); features list adds 4 cones of thread, dust cover, LED light",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "Standard foot; needle set ELx705; electronic foot control; dust cover (standard accessories per dealer listing)",
+      "note": "Manual's list differs (needle set, screwdrivers, tweezers, nets, spool holder caps, lint brush, needle threader, attachment screws). Page vs manual accessory lists disagree; treat the contents as soft."
+    },
+    {
+      "field": "Seam Tightening System (STS)",
+      "value": "Not mentioned on the 2000CPX page or in the manual; the 1000CPX page features STS",
+      "source": "sib-1000cpx",
+      "vs_spec": "contradicts",
+      "spec_value": "Differential feed; Seam Tightening System (STS); Tension Level Control (TLC); no knife",
+      "note": "Our spec feedSystem and claims credit the 2000CPX with STS and cite the 2000CPX product page. That page lists TLC and a tension release device, not STS. STS is a 1000CPX feature on the maker's pages. Editor should remove STS from the 2000CPX or re-source it."
+    },
+    {
+      "field": "Tension Level Control (TLC)",
+      "value": "'Tension Level Control (TLC)' on the 2000CPX page",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Trademarked tension feature; present on page, not in the 2019 manual."
+    },
+    {
+      "field": "Tension release",
+      "value": "'Tension release device'; spec block: Tension Release Lever: Yes",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Manual, color-coded; tension release lever (added over 1000CPX)",
+      "note": "The 1000CPX page lists 'Tension release device' as a key feature too, so 'added over 1000CPX' is not supported by the maker pages; only the spec block row 'Tension Release Lever' is absent from the 1000CPX block. Soft."
+    },
+    {
+      "field": "Cutting knife",
+      "value": "Cutting Width Adjustment: Not Available; manual parts list names a 'Thread cutter'",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "no knife"
+    },
+    {
+      "field": "Top cover stitch",
+      "value": "Not offered on the 2000CPX; built-in top cover stitch is a 3000 Professional feature",
+      "source": "sib-3000p",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Matches editorial checks."
+    },
+    {
+      "field": "Threading",
+      "value": "Color-coded thread guides; threading chart; manual threading; no needle threader built in (spec block: Flip Needle System: No)",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Manual, color-coded; tension release lever (added over 1000CPX)",
+      "note": "Page standard accessories list a separate needle threader (loose tool)."
+    },
+    {
+      "field": "Free arm",
+      "value": "Yes (key feature; 'exclusive free arm configuration')",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Yes, built-in"
+    },
+    {
+      "field": "Presser foot",
+      "value": "Snap-on; foot pressure adjustment with guide lines",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Snap-on foot; lift height not published",
+      "note": "Lift height not published."
+    },
+    {
+      "field": "Motor, frame, buttonhole, thread trimmer, stitch count",
+      "value": "Not published on the maker page",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Not published by the maker; leave null."
+    },
+    {
+      "field": "Marketing claims (quoted)",
+      "value": "'long arm, heavy-duty cover hem machine that looks and operates like a sewing machine'; 'the most advanced Cover Hem machine available'; 'industrial-style cover hem machine'",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Maker marketing wording, quote as claims only. 'Long arm' here is not the quilting long-arm tier."
+    },
+    {
+      "field": "Availability",
+      "value": "Page lists the machine with MSRP and dealer link; no discontinued notice",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Page wording only."
+    }
+  ]
+}

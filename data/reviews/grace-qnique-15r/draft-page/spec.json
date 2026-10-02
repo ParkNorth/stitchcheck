@@ -1,0 +1,125 @@
+{
+  "retailerUrl": null,
+  "specs": {
+    "throatIn": {
+      "value": 15,
+      "source": "https://graceframe.com/en/sewing-machines/grace-15r"
+    },
+    "needleSystem": {
+      "value": null,
+      "source": null
+    },
+    "dimensionsIn": {
+      "value": "19 H x 15.5 W x 23 L (480 x 395 x 585 mm)",
+      "source": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+    },
+    "motor": {
+      "value": "High power motor rated to 1,800 spm; timing belt system; 110 to 220 VAC input, 300 W peak power consumption",
+      "source": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+    },
+    "warrantyUs": {
+      "value": "Warranty page: 2 yr limited incl. electronic parts, 5 yr cast metal body; product page says electronics 1 yr, non-moving parts 2 yr, body 5 yr; not transferable to a second owner",
+      "source": "https://graceframe.com/en/page/warranty"
+    }
+  },
+  "conflicts": [
+    "Status: the Grace 15R page says \"No longer available for new purchase\" and points to the 15 Pro as the similar machine, while also saying the 15R may still be bought from a Grace dealer; our earlier spec said not discontinued and named the 16X as successor, so the maker's wording is used and the 16X link is dropped. The 15R page is undated.",
+    "Needle system: our earlier spec cited the 15R manual for 135x5 / DPx5, but the manual text does not state a needle system (it says to fit the needle with the scarf toward the throat); only a Sewing Machines Plus page for the 15 PRO lists 135x5 / DPx5, so the value is null until a 15R document confirms it.",
+    "Warranty: the Grace product page gives electronics 1 yr, non-moving parts 2 yr and body 5 yr, while the Grace warranty page lists the 15R and Q'nique electronic parts under the 2 yr limited warranty and the cast metal body at 5 yr; the warranty page is used and the warranty does not transfer to a second owner.",
+    "Seller listing: the Sewing Machines Plus URL in our earlier spec now serves a recertified 15 PRO with 79 reviews at 4.49, so neither the listing nor its rating is attributed to the 15R and the retailer URL is cleared.",
+    "Price: Grace's comparison table lists the 15R machine only at $4,499.95 and bundles at $6,499.90 (Q-Zone Hoop-Frame), $6,699.90 (Q-Zone Queen) and $7,499.90 (Continuum II), while our seen price was a $5,198 dealer bundle; the maker page is undated and these are maker MSRPs, not dealer prices, so only a band is shown.",
+    "Throat: Grace words it as \"15 inch throat space from the needle to the back of the work area\" and its manual gives the quilting arm as 15 in W x 8.5 in H; recorded as Grace's wording per rule 11, not independently measured, and dealers call the same machine a mid-arm.",
+    "Stitch regulation: Grace says the 15R features stitch regulation, while a Leah Day review of the sit down configuration says that setup has no regulator and runs by foot pedal; Grace's frame-mounted wording is used."
+  ],
+  "claims": [
+    "\"Superior stitching quality\" (Grace 15R page heading)",
+    "\"high-end long-arm features\" and \"perfect mid-arm quilting machine\" (Grace page meta description)",
+    "\"Superior Live Technical Support\" (Grace 15R page)",
+    "\"no questions asked\" 30 day return (Grace page; the warranty page limits the 30 day money back to direct purchases)",
+    "\"Grace continues to honor and fully support services and warranties for the 15R\" (Grace statement on the 15R page)"
+  ],
+  "evidence": "mixed",
+  "sources": [
+    "https://graceframe.com/en/page/warranty",
+    "https://graceframe.com/en/sewing-machines/grace-15pro",
+    "https://sewingmachinesplus.com/products/qnique-long-arm-quilter"
+  ],
+  "editorial": {
+    "verdict": "A superseded 15 in, 1,800 spm stitch regulated head that Grace says is no longer available new; the owner record is thin and there is no marketplace rating, so this is a spec-led read.",
+    "whoFor": "A quilter who wants a regulated 15 in head, accepts a model Grace has retired from new sale, and will choose the frame separately.",
+    "skipIf": "You want a model Grace still sells new, need a warranty that transfers to a second owner, or want a body of owner ratings to lean on before spending frame money.",
+    "keySpec": "15 in throat (Grace wording) · 8.5 in height · 1,800 spm · stitch regulation · 42 lb",
+    "strengths": [
+      "Grace lists stitch regulation with Precise, Cruise, Baste and Manual modes, and the manual gives a settable range of 4 to 16 stitches per inch",
+      "The manual states 1,800 spm, a 15 in W x 8.5 in H arm and a 42 lb head, matching the maker page and our spec",
+      "The head is sold alone or bundled, with Grace listing machine only and three frame bundles on its own comparison table"
+    ],
+    "weaknesses": [
+      "Grace's own page says \"No longer available for new purchase\", so stock, support horizon and resale depend on what dealers still hold",
+      "The owner record is thin: six voices from five Reddit threads, no marketplace rating, and the Sewing Machines Plus rating belongs to a recertified 15 PRO",
+      "Owners report tension trouble: one blogger describes frayed thread and many bobbins of trial, though another reviewer calls tension the normal long-arm learning curve"
+    ],
+    "checks": [
+      {
+        "title": "Confirm it is a 15R and whether it is new",
+        "body": "Grace says the 15R is no longer available for new purchase and a dealer page we checked now serves a recertified 15 PRO. Ask for the model name, condition and warranty paperwork in writing."
+      },
+      {
+        "title": "Ask what warranty applies",
+        "body": "Grace's product page and warranty page disagree on electronics (1 year versus 2 years), and the warranty does not transfer to a second owner. Get the term from the dealer in writing."
+      },
+      {
+        "title": "Price the 15 Pro and the frame together",
+        "body": "Grace lists the 15 Pro at $4,999.95 against $4,499.95 for the 15R, with bundles from $6,499.90. Compare the full head and frame total, not the head alone."
+      }
+    ],
+    "realCost": [
+      "A frame: Grace lists bundles at $6,499.90 (Q-Zone Hoop-Frame), $6,699.90 (Q-Zone Queen) and $7,499.90 (Continuum II) against $4,499.95 machine only",
+      "Needles: the 15R documents we fetched do not state a needle system, so confirm the needle with the dealer",
+      "Thread: one owner blog reports trouble with the recommended Finesse thread, and a tension troubleshooting guide exists for the Q'nique line",
+      "Power: the manual lists 110 to 220 VAC input and 300 W peak consumption"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Grace Q'nique 15R discontinued?",
+        "a": "Grace's 15R page says \"No longer available for new purchase\" and points to the 15 Pro as the similar machine. The same page says the 15R may still be bought from a Grace dealer and that Grace continues to support its warranties. The page is undated."
+      },
+      {
+        "q": "What is the difference between the Q'nique 15R, 15M and 15 PRO?",
+        "a": "Per Grace's comparison table, the 15 Pro runs 2,000 spm with a color touch screen at $4,999.95, the 15R runs 1,800 spm with an OLED screen at $4,499.95, and the 15M has no stitch regulation, constant speed only, at $3,499.95. All three list a 15 in throat."
+      },
+      {
+        "q": "Does the Q'nique 15R have a stitch regulator?",
+        "a": "Grace says the 15R features stitch regulation, with Precise, Cruise, Baste and Manual modes. A Leah Day review of a sit down setup says that configuration has no regulator, so check how the machine will be mounted."
+      },
+      {
+        "q": "How big is the 15R throat?",
+        "a": "Grace words it as 15 inch throat space from the needle to the back of the work area, and its manual lists 15 in W x 8.5 in H. We record that as Grace's wording, not a measurement of our own, and dealers call the machine a mid-arm."
+      },
+      {
+        "q": "How much is the Q'nique 15R without a frame?",
+        "a": "Grace's comparison table lists $4,499.95 machine only, with bundles at $6,499.90, $6,699.90 and $7,499.90 by frame. That table is undated and shows maker list prices, so expect dealer prices to differ."
+      },
+      {
+        "q": "What frames fit the Q'nique 15R?",
+        "a": "Grace's page names the Q'one Hoop-Frame, Q-Zone Hoop-Frame Pro, Q-Zone Queen and Cutie tabletop frame as qualifying for its bundle saving. Dealers say it fits other Grace frames and most other frames, which Grace's page does not state."
+      },
+      {
+        "q": "What needle does the Q'nique 15R use?",
+        "a": "We could not confirm it. The 15R manual text does not state a needle system, and the only listing of 135x5 / DPx5 we found is a dealer page for the 15 PRO, so the value shows [verify]."
+      },
+      {
+        "q": "What is the warranty on the Q'nique 15R?",
+        "a": "Grace's warranty page lists the 15R and Q'nique electronic parts under a 2 year limited warranty and the cast metal body at 5 years, while the product page says electronics 1 year. The warranty does not transfer to a second owner."
+      },
+      {
+        "q": "What do owners say about the 15R?",
+        "a": "The owner record is thin: six voices from five Reddit threads, with no retailer or marketplace rating found. One blogger reports thread fraying and a long tension setup, and a long time reviewer calls tension the usual long-arm learning curve."
+      },
+      {
+        "q": "Does the 15R have a marketplace rating?",
+        "a": "No. We found no rating for the 15R. The Sewing Machines Plus page in our earlier spec now serves a recertified 15 PRO, so its 79 reviews at 4.49 are not counted for the 15R."
+      }
+    ]
+  }
+}

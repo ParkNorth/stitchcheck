@@ -1,0 +1,233 @@
+[
+  {
+    "id": "web:640ec634e71bfd49",
+    "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T12:19:09.363Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T12:19:09.363Z",
+    "status": "ok",
+    "site_rating": 4.4,
+    "site_review_count": 49,
+    "asin": "B0CFYQZX5Q",
+    "parent_asin": "B0CHQQM4VZ",
+    "product_asins": [
+      "B0CFYQZX5Q"
+    ],
+    "pooled_variations": false,
+    "sampled": "0 top reviews (0 US, 0 other countries) of 49 ratings",
+    "listing": {
+      "title": "Brother PQ1600S High-Speed Straight Stitch Sewing Machine",
+      "price_usd": 899.99,
+      "best_sellers_rank": "#57,768 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #146 in Sewing Machines",
+      "details": {
+        "Model Number": "PQ1600S",
+        "Included Components": "sewing machine and accessories",
+        "Manufacturer": "Brother International Corp",
+        "Part Number": "PQ1600S",
+        "Color": "White",
+        "Material": "plastic outer/metal frame",
+        "Item Dimensions D x W x H": "25\"D x 11.5\"W x 15\"H",
+        "Item Weight": "24 pounds"
+      }
+    }
+  },
+  {
+    "id": "web:8ce50fb5358bc95c",
+    "url": "https://www.sewingmachinesplus.com/PQ1600S.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-02T12:19:11.176Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-02T12:19:11.176Z",
+    "status": "ok",
+    "site_rating": 5,
+    "site_review_count": 2,
+    "content_hash": "765bf96016c044e7"
+  },
+  {
+    "id": "reddit:1mwkgso",
+    "url": "https://www.reddit.com/r/myog/comments/1mwkgso/semi_industrial_sewing_machine_for_bagmaking/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Semi industrial sewing machine for bagmaking - Brother PQ1600S or Janome HD9 ?",
+    "subreddit": "myog",
+    "thread_id": "1mwkgso",
+    "first_seen": "2026-10-02T12:19:13.297Z",
+    "last_fetched": "2026-10-02T12:19:13.297Z",
+    "status": "ok",
+    "cursor_utc": 1789010331,
+    "discovered_by": [
+      "all:Brother PQ1600S",
+      "r/myog:Brother PQ1600S",
+      "all:PQ1600S",
+      "r/myog:PQ1600S"
+    ],
+    "content_hash": "110a839bc90f12f1"
+  },
+  {
+    "id": "reddit:1qygtn2",
+    "url": "https://www.reddit.com/r/functionalprint/comments/1qygtn2/brother_pq1600s_sewing_machine_knee_lift/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Brother PQ1600S sewing machine knee lift stabilizer and extender",
+    "subreddit": "functionalprint",
+    "thread_id": "1qygtn2",
+    "first_seen": "2026-10-02T12:19:13.297Z",
+    "last_fetched": "2026-10-02T12:19:13.297Z",
+    "status": "ok",
+    "cursor_utc": 1785312679,
+    "discovered_by": [
+      "all:Brother PQ1600S",
+      "all:PQ1600S"
+    ],
+    "content_hash": "48da47f1a754925c"
+  },
+  {
+    "id": "reddit:1mx6m0r",
+    "url": "https://www.reddit.com/r/BagMaking/comments/1mx6m0r/semi_industrial_machine_janome_hd9_or_brother/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Semi industrial machine - Janome HD9 or Brother PQ1600s ?",
+    "subreddit": "BagMaking",
+    "thread_id": "1mx6m0r",
+    "first_seen": "2026-10-02T12:19:13.297Z",
+    "last_fetched": "2026-10-02T12:19:13.297Z",
+    "status": "ok",
+    "cursor_utc": 1756056772,
+    "discovered_by": [
+      "all:Brother PQ1600S",
+      "r/BagMaking:Brother PQ1600S",
+      "all:PQ1600S",
+      "r/BagMaking:PQ1600S"
+    ],
+    "content_hash": "4dd31782b8e64bdf"
+  },
+  {
+    "id": "reddit:1jkjvcn",
+    "url": "https://www.reddit.com/r/quilting/comments/1jkjvcn/hi_shank_brotherbrand_evenfeedwalking_foot/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Hi Shank Brother-Brand Even-Feed/Walking Foot Compatible with PQ1600S",
+    "subreddit": "quilting",
+    "thread_id": "1jkjvcn",
+    "first_seen": "2026-10-02T12:19:13.297Z",
+    "last_fetched": "2026-10-02T12:19:13.297Z",
+    "status": "ok",
+    "cursor_utc": 1745887392,
+    "discovered_by": [
+      "all:Brother PQ1600S",
+      "r/quilting:Brother PQ1600S",
+      "all:PQ1600S",
+      "r/quilting:PQ1600S"
+    ],
+    "content_hash": "f767e22153a62532"
+  },
+  {
+    "id": "reddit:1ozgs3s",
+    "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Brother PQ1600S &amp; pin feed",
+    "subreddit": "quilting",
+    "thread_id": "1ozgs3s",
+    "first_seen": "2026-10-02T12:19:13.297Z",
+    "last_fetched": "2026-10-02T12:19:13.297Z",
+    "status": "ok",
+    "cursor_utc": 1768657718,
+    "discovered_by": [
+      "all:Brother PQ1600S",
+      "r/quilting:Brother PQ1600S",
+      "all:PQ1600S",
+      "r/quilting:PQ1600S"
+    ],
+    "content_hash": "ecef137085928dc8"
+  },
+  {
+    "id": "reddit:1mx6p3h",
+    "url": "https://www.reddit.com/r/quilting/comments/1mx6p3h/semi_industrial_machine_for_bag_making_janome_hd9/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Semi industrial machine for bag making - Janome HD9 or Brother PQ1600s ?",
+    "subreddit": "quilting",
+    "thread_id": "1mx6p3h",
+    "first_seen": "2026-10-02T12:19:13.297Z",
+    "last_fetched": "2026-10-02T12:19:13.297Z",
+    "status": "ok",
+    "cursor_utc": 1755924124,
+    "discovered_by": [
+      "all:Brother PQ1600S",
+      "r/quilting:Brother PQ1600S",
+      "all:PQ1600S",
+      "r/quilting:PQ1600S"
+    ],
+    "content_hash": "471be3d94f56a870"
+  },
+  {
+    "id": "reddit:1mx6mxn",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1mx6mxn/semi_industrial_machine_janome_hd9_or_brother/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Semi industrial machine - Janome HD9 or Brother PQ1600s ?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1mx6mxn",
+    "first_seen": "2026-10-02T12:19:13.297Z",
+    "last_fetched": "2026-10-02T12:19:13.297Z",
+    "status": "thin",
+    "cursor_utc": 1755869549,
+    "discovered_by": [
+      "all:Brother PQ1600S",
+      "r/SewingForBeginners:Brother PQ1600S",
+      "all:PQ1600S",
+      "r/SewingForBeginners:PQ1600S"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1ilyy3g",
+    "url": "https://www.reddit.com/r/sewing/comments/1ilyy3g/my_first_jelly_roll_rug/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "My first jelly roll rug!",
+    "subreddit": "sewing",
+    "thread_id": "1ilyy3g",
+    "first_seen": "2026-10-02T12:19:13.297Z",
+    "last_fetched": "2026-10-02T12:19:13.297Z",
+    "status": "ok",
+    "cursor_utc": 1739423003,
+    "discovered_by": [
+      "all:Brother PQ1600S",
+      "r/sewing:Brother PQ1600S",
+      "all:PQ1600S",
+      "r/sewing:PQ1600S"
+    ],
+    "content_hash": "858e5fbe2f9b6fb9"
+  },
+  {
+    "id": "reddit:1hd0chu",
+    "url": "https://www.reddit.com/r/quilting/comments/1hd0chu/just_finished_my_first_quilt_top/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "JUST FINISHED MY FIRST QUILT TOP!",
+    "subreddit": "quilting",
+    "thread_id": "1hd0chu",
+    "first_seen": "2026-10-02T12:19:13.297Z",
+    "last_fetched": "2026-10-02T12:19:13.297Z",
+    "status": "ok",
+    "cursor_utc": 1734285196,
+    "discovered_by": [
+      "all:Brother PQ1600S",
+      "r/quilting:Brother PQ1600S",
+      "all:PQ1600S",
+      "r/quilting:PQ1600S"
+    ],
+    "content_hash": "77b90ff1ee139355"
+  }
+]

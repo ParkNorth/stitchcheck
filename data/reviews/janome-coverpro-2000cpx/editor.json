@@ -1,0 +1,106 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.5 from 67 ratings is shared by several listings (the CoverPro 2000CPX and the 1000CPX variations show the same figure), so it is not a rating for the 2000CPX alone."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "CoverPro 1000CPX",
+      "label": "Janome CoverPro 1000CPX",
+      "pattern": "1000\\s?cpx(?![a-z0-9])"
+    },
+    {
+      "model": "CoverPro 3000 Professional",
+      "label": "Janome CoverPro 3000 Professional",
+      "pattern": "(3000\\s?(cpx|p(?![a-z0-9])|pro)|coverpro\\s+ultimate)"
+    },
+    {
+      "model": "CoverPro 900CPX",
+      "label": "Janome CoverPro 900CPX",
+      "pattern": "900\\s?cpx(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "2340cv(?![a-z0-9])",
+      "Brother 2340CV"
+    ],
+    [
+      "professional[\\s-]*5[\\s-]*14t968dc(?![a-z0-9])|968dc(?![a-z0-9])",
+      "Singer Professional 5 14T968DC"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "2340cv(?![a-z0-9])|professional[\\s-]*5[\\s-]*14t968dc(?![a-z0-9])|968dc(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {
+    "CoverPro 1000CPX": [
+      {
+        "feature": "Maker MSRP",
+        "summary": "$999 against $1,099 for the 2000CPX",
+        "check": "Janome product pages, fetched 2026-10-02"
+      },
+      {
+        "feature": "Tension aids",
+        "summary": "Lists Seam Tightening System (STS); no TLC on its page",
+        "check": "Janome 1000CPX product page, fetched 2026-10-02"
+      }
+    ],
+    "CoverPro 3000 Professional": [
+      {
+        "feature": "Maker MSRP",
+        "summary": "$1,799 against $1,099 for the 2000CPX",
+        "check": "Janome product pages, fetched 2026-10-02"
+      },
+      {
+        "feature": "Top cover stitch",
+        "summary": "Built-in top cover stitch and needle threader; 2000CPX has neither",
+        "check": "Janome 3000 Professional page, fetched 2026-10-02"
+      },
+      {
+        "feature": "Weight and size",
+        "summary": "18.95 lbs, 16.22 x 13.18 x 9.64 in on its page",
+        "check": "Janome 3000 Professional page, fetched 2026-10-02"
+      }
+    ]
+  }
+}

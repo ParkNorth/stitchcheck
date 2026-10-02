@@ -1,0 +1,30 @@
+{
+  "slug": "grace-qnique-19x",
+  "generated": "2026-10-02T12:20:49.780Z",
+  "counts": {
+    "error": 0,
+    "warn": 3
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "2 Reddit threads, 0 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "reddit",
+      "message": "few Reddit threads name the model in the title; collection may be on loose matches"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"display\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+    }
+  ]
+}

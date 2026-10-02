@@ -1,0 +1,109 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "1634DX",
+      "label": "Brother 1634DX",
+      "pattern": "1634\\s*-?dx(?![a-z0-9])"
+    },
+    {
+      "model": "1034D",
+      "label": "Brother 1034D",
+      "pattern": "1034\\s*-?d(?![a-z0-9])"
+    },
+    {
+      "model": "1034DX",
+      "label": "Brother 1034DX",
+      "pattern": "1034\\s*-?dx(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "1034d(?![a-z0-9])",
+      "Brother 1034D"
+    ],
+    [
+      "1034dx(?![a-z0-9])",
+      "Brother 1034DX"
+    ],
+    [
+      "mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])",
+      "Juki MO-654DE"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "1034d(?![a-z0-9])|1034dx(?![a-z0-9])|1034d(?![a-z0-9])|1034dx(?![a-z0-9])|mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {
+    "Brother 1634DX": [
+      {
+        "feature": "Lighting",
+        "summary": "LED on the 1634DX; bulb on the 1634D.",
+        "check": "Brother USA product pages 1634DX and 1634D, fetched 2026-10-02."
+      },
+      {
+        "feature": "Thread guide",
+        "summary": "Brother lists both the 1634D and the 1634DX with the same 3/4 thread, 1 stitch finger, 5.0 to 7.0 mm seam width and 1,300 spm; no 2-thread change on either.",
+        "check": "Brother USA product pages, fetched 2026-10-02."
+      },
+      {
+        "feature": "Warranty document linked",
+        "summary": "The 1634DX page links the US serger warranty (1 year, 5 years electronics, 25 years chassis); the 1634D page links a different international warranty PDF.",
+        "check": "Brother warranty PDFs XB2300-101 and XF6323-101, read 2026-10-02."
+      }
+    ],
+    "Brother 1034D": [
+      {
+        "feature": "Box and accessory storage",
+        "summary": "Brother's 1634D page lists accessory storage Yes and three feet; the 1034D page lists the same three feet.",
+        "check": "Brother USA product pages, fetched 2026-10-02."
+      },
+      {
+        "feature": "Shared handbook",
+        "summary": "One handbook (884-345) covers the 1034D, 1134DW, 1134D, DZ1234 and 1634D, so its speed, needle and stitch length figures are not unique to the 1634D.",
+        "check": "Brother handbook 884-345, PDF p.66 and p.15, OCR read 2026-10-02."
+      }
+    ]
+  }
+}

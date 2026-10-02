@@ -1,0 +1,447 @@
+{
+  "slug": "brother-1634d",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 10,
+    "itemsCollected": 45,
+    "statements": 10,
+    "voices": 9,
+    "ownerVoices": 8,
+    "dateRange": [
+      2020,
+      2026
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 8,
+        "items": 42
+      },
+      "editorial": {
+        "sources": 1,
+        "items": 1
+      },
+      "retailer": {
+        "sources": 1,
+        "items": 1
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 4,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 5
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 5,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c3a929051",
+          "polarity": "negative",
+          "claim": "A secondhand owner reports the front cover does not close fully, so trimmed fabric falls behind it, though stitching otherwise works.",
+          "quote": "the front cover won’t close all the way",
+          "url": "https://www.reddit.com/r/sewing/comments/1vr3oa5/newused_brother_1634d_serger_front_cover_wont/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c076858c5",
+          "polarity": "negative",
+          "claim": "A used, gifted 1634D has a broken spool stand shaft.",
+          "quote": "the spool stand shaft (I think) is broken",
+          "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1uyfntu/brother_serger_repair_model_1634d/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c3a929051",
+        "c998b4bdf",
+        "c076858c5",
+        "c10f521fe",
+        "c818daa1b"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ca96c95fd",
+          "polarity": "negative",
+          "claim": "Owner finds rethreading this serger very unpleasant.",
+          "quote": "the serger is the worst to reThread",
+          "url": "https://www.reddit.com/r/sewing/comments/zzc0ik/brothers_serger_1634d_mesh_fabric_problems/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "caf6a3098",
+          "polarity": "negative",
+          "claim": "Owner reports left and right needle threads twisting and skipping stitches despite 30 rethreads, new needles and tension changes.",
+          "quote": "my right needle thread and left needle thread keep getting twisted",
+          "url": "https://www.reddit.com/r/sewing/comments/1scqitl/help_with_brother_1634d_serger_please/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "caf6a3098",
+        "ca96c95fd"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c28a64083"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2020
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "ccec1007c",
+          "polarity": "negative",
+          "claim": "Owner could not find a standard store-bought bulb that fits the machine's lamp.",
+          "quote": "all the standard sized lightbulbs do not fit my machine",
+          "url": "https://www.reddit.com/r/sewing/comments/j2719i/light_bulb_for_brother_1634d/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ccec1007c"
+      ]
+    },
+    {
+      "theme": "cutting_trimming",
+      "label": "Cutting and trimming",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c63a9a5e0",
+          "polarity": "negative",
+          "claim": "After long storage the knife stays disengaged even with the switch set to engage.",
+          "quote": "the knife is disengaged even when the switch is turned to engage",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1qz5j2s/brother_1634d_serger_knife_disengaged/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c63a9a5e0"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "ebay.com",
+      "url": "https://www.ebay.com/p/9032778488",
+      "pageRating": 4.8,
+      "pageCount": 45,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 4,
+        "5": 40
+      },
+      "lowRated": 1,
+      "sampled": "aggregate only; no review text sampled"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "1,300 spm ('1300spm maximum stitching speed'); handbook says the normal operating speed is 1,300 stitches per minute.",
+      "others": "Dealers and blogs agree.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother product page",
+          "url": "https://www.brother-usa.com/products/1634d"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "maker-page; brother-handbook PDF p.66"
+    },
+    {
+      "label": "Threads",
+      "juki": "3 or 4 thread; 2/3/4 Thread Change: No.",
+      "others": "Blogs say 3/4 thread; one dealer title says 'cover stitch'.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother product page",
+          "url": "https://www.brother-usa.com/products/1634d"
+        }
+      ],
+      "field": "threads",
+      "source": "maker-page"
+    },
+    {
+      "label": "Weight",
+      "juki": "Not published on the 1634D page. Handbook for the shared platform: 7.0 kg (15.4 lb) net.",
+      "others": "Review blogs: 17.3 lb.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Brother handbook",
+          "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+        }
+      ],
+      "field": "weightLb",
+      "source": "maker-page; brother-handbook PDF p.66"
+    },
+    {
+      "label": "Size",
+      "juki": "Carton 15 x 13 x 14 in; no machine dimensions.",
+      "others": "Blog: 12.5 x 13.5 x 15 in, axis order not stated.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Brother product page",
+          "url": "https://www.brother-usa.com/products/1634d"
+        }
+      ],
+      "field": "dimensionsIn",
+      "source": "maker-page"
+    },
+    {
+      "label": "Stitch width",
+      "juki": "Page: 5.0 to 7.0 mm. Handbook: 2.3 to 7 mm (two-needle).",
+      "others": "Blog: 5 to 7 mm.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Brother product page",
+          "url": "https://www.brother-usa.com/products/1634d"
+        },
+        {
+          "label": "Brother handbook",
+          "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+        }
+      ],
+      "field": "stitchWidthMm",
+      "source": "maker-page; brother-handbook PDF p.17 and p.66"
+    },
+    {
+      "label": "Stitch length",
+      "juki": "2 to 4 mm (handbook, shared platform).",
+      "others": "Not stated.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother handbook",
+          "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+        }
+      ],
+      "field": "stitchLengthMm",
+      "source": "brother-handbook PDF p.17 and p.66"
+    },
+    {
+      "label": "Box contents",
+      "juki": "3 feet, soft cover, video, printed manual.",
+      "others": "Dealers agree.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother product page",
+          "url": "https://www.brother-usa.com/products/1634d"
+        }
+      ],
+      "field": "includedFeet",
+      "source": "maker-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "'1/5/25 Year Limited Serger Warranty' (page); linked PDF is the international 1 year warranty.",
+      "others": "Blogs: 25-year limited.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Brother US serger warranty PDF",
+          "url": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf"
+        },
+        {
+          "label": "Brother product page",
+          "url": "https://www.brother-usa.com/products/1634d"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "maker-page; warranty-intl; warranty-us"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "Brother 1634DX",
+      "label": "Brother 1634DX",
+      "rows": [
+        {
+          "feature": "Lighting",
+          "urls": 0,
+          "classes": [],
+          "summary": "LED on the 1634DX; bulb on the 1634D.",
+          "check": "Brother USA product pages 1634DX and 1634D, fetched 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Thread guide",
+          "urls": 0,
+          "classes": [],
+          "summary": "Brother lists both the 1634D and the 1634DX with the same 3/4 thread, 1 stitch finger, 5.0 to 7.0 mm seam width and 1,300 spm; no 2-thread change on either.",
+          "check": "Brother USA product pages, fetched 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Warranty document linked",
+          "urls": 0,
+          "classes": [],
+          "summary": "The 1634DX page links the US serger warranty (1 year, 5 years electronics, 25 years chassis); the 1634D page links a different international warranty PDF.",
+          "check": "Brother warranty PDFs XB2300-101 and XF6323-101, read 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Brother 1034D",
+      "label": "Brother 1034D",
+      "rows": [
+        {
+          "feature": "Box and accessory storage",
+          "urls": 0,
+          "classes": [],
+          "summary": "Brother's 1634D page lists accessory storage Yes and three feet; the 1034D page lists the same three feet.",
+          "check": "Brother USA product pages, fetched 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Shared handbook",
+          "urls": 0,
+          "classes": [],
+          "summary": "One handbook (884-345) covers the 1034D, 1134DW, 1134D, DZ1234 and 1634D, so its speed, needle and stitch length figures are not unique to the 1634D.",
+          "check": "Brother handbook 884-345, PDF p.66 and p.15, OCR read 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

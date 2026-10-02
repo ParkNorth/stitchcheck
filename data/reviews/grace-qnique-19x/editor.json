@@ -1,0 +1,129 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Grace's web pages call this machine the Grace 19X and its manual and warranty page call it the Q'nique 19X; its own product URL now redirects to the Grace home page and only a recertified 19X is listed. No Amazon listing exists for the plain 19X (only 19X Elite bundles with no ratings)."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "Q'nique 19X Elite",
+      "label": "Grace Company Q'nique 19X Elite",
+      "pattern": "(?:q'?nique|grace)[\\s-]*19\\s*x[\\s-]*elite(?![a-z0-9])"
+    },
+    {
+      "model": "Q'nique 15R",
+      "label": "Grace Company Q'nique 15R",
+      "pattern": "q'?nique[\\s-]*15r(?![a-z0-9])"
+    },
+    {
+      "model": "Q'nique 19",
+      "label": "Grace Company Q'nique 19 (original)",
+      "pattern": "q'?nique[\\s-]*19(?![a-z0-9])(?!\\s*x)"
+    },
+    {
+      "model": "Q'nique 16X",
+      "label": "Grace Company Q'nique 16X",
+      "pattern": "(?:q'?nique|grace)[\\s-]*16\\s*x(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "moxie(?![a-z0-9])",
+      "Handi Quilter Moxie"
+    ],
+    [
+      "q'nique[\\s-]*15r(?![a-z0-9])",
+      "Grace Company Q'nique 15R"
+    ],
+    [
+      "amara[\\s-]*20(?![a-z0-9])",
+      "Handi Quilter Amara 20"
+    ],
+    [
+      "tl[\\s-]*18qvp(?![a-z0-9])",
+      "Juki TL-18QVP"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "q'nique[\\s-]*15r(?![a-z0-9])|moxie(?![a-z0-9])|q'nique[\\s-]*15r(?![a-z0-9])|amara[\\s-]*20(?![a-z0-9])|tl[\\s-]*18qvp(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {
+    "Q'nique 19X Elite": [
+      {
+        "feature": "Top speed",
+        "summary": "2,600 SPM on the Elite against 2,000 SPM on the 19X; both start at 90 SPM.",
+        "check": "Grace 19X and 19X Elite manuals, 2026-10-02"
+      },
+      {
+        "feature": "Display size",
+        "summary": "7 in touch display on the Elite, 2.4 in color touch display on the 19X.",
+        "check": "Grace 19X and 19X Elite manuals, 2026-10-02"
+      },
+      {
+        "feature": "Body weight",
+        "summary": "43.5 lb on the Elite, 41.5 lb on the 19X.",
+        "check": "Machine Specifications pages of both manuals, 2026-10-02"
+      },
+      {
+        "feature": "Peak power draw",
+        "summary": "450 W on the Elite, 300 W on the 19X.",
+        "check": "Machine Specifications pages of both manuals, 2026-10-02"
+      },
+      {
+        "feature": "Cast body warranty",
+        "summary": "Grace's warranty page lists the Elite at 10 years on the cast body; the Elite manual says five years. The 19X is five years in both.",
+        "check": "Grace warranty page and 19X Elite manual, 2026-10-02"
+      }
+    ],
+    "Q'nique 19": [
+      {
+        "feature": "Body weight",
+        "summary": "35 lb for the original Q'nique 19 against 41.5 lb for the 19X.",
+        "check": "Q'nique 19 and 19X manuals, 2026-10-02"
+      },
+      {
+        "feature": "Arm dimensions",
+        "summary": "Same 19 in by 8.9 in quilting arm figures and 300 W peak power in both manuals.",
+        "check": "Q'nique 19 and 19X manuals, 2026-10-02"
+      }
+    ]
+  }
+}

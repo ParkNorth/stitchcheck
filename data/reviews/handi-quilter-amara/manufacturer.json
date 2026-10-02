@@ -1,0 +1,292 @@
+{
+  "slug": "handi-quilter-amara",
+  "collected": "2026-10-02",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/handi-quilter-amara.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "maker-page",
+      "url": "https://handiquilter.com/product/hq-amara-20/",
+      "type": "product page",
+      "fetched": "2026-10-02",
+      "note": "Handi Quilter Amara 20 product page (page modified 2026-10-01). Price range $12,995 to $27,990 depending on frame and Pro-Stitcher options."
+    },
+    {
+      "id": "maker-specs",
+      "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications",
+      "type": "support specification article",
+      "fetched": "2026-10-02",
+      "note": "Amara Specifications (one article for the Amara family; sewing opening shown as 228 x 521 mm, 9 x 20.5 in)."
+    },
+    {
+      "id": "maker-manual",
+      "url": "https://handiquilter.com/download/158320/",
+      "type": "user manual PDF (Amara 20+24, version 1.6, printed 07/10/24, 87 pages)",
+      "fetched": "2026-10-02",
+      "note": "Direct curl returns 403; text obtained through Firecrawl PDF parsing. Covers both 20 and 24 inch machines."
+    },
+    {
+      "id": "maker-warranty",
+      "url": "https://handiquilter.com/warranty/",
+      "type": "warranty page",
+      "fetched": "2026-10-02",
+      "note": "Handi Quilter Longarm Warranty (dated 08/26/10 on the page; downloadable 'longarm 2023' version not fetched). The same text also appears in the manual."
+    },
+    {
+      "id": "sib-amara24",
+      "url": "https://handiquilter.com/product/hq-amara-24/",
+      "type": "sibling product page",
+      "fetched": "2026-10-02",
+      "note": "Amara 24: 24 in throat, Gallery frame."
+    },
+    {
+      "id": "sib-amarast",
+      "url": "https://handiquilter.com/product/amara-st/",
+      "type": "sibling product page",
+      "fetched": "2026-10-02",
+      "note": "Amara ST: 20 in, stationary table, no Pro-Stitcher."
+    }
+  ],
+  "facts": [
+    {
+      "field": "Throat space (maker wording)",
+      "value": "20 in of 'brightly-lit throat space' (product page); sewing opening 9 x 20.5 in / 228 x 521 mm (spec article and manual)",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": 20,
+      "note": "The maker does not say needle to body. Its own measured figure is the 20.5 in sewing opening width, 0.5 in above the 20 in marketing figure; the 9 in is height. The manual states the same 9 x 20.5 in for the Amara 20 and 9 x 24.5 in for the Amara 24. Rule 11: 20 in qualifies as long-arm (18 in and up), on a frame.",
+      "site": {
+        "label": "Throat space",
+        "juki": "20 in of brightly-lit throat space; sewing opening 9 x 20.5 in",
+        "others": "Dealers repeat 20 in",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Amara 20 product page",
+            "url": "https://handiquilter.com/product/hq-amara-20/"
+          },
+          {
+            "label": "Amara specifications",
+            "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Sewing opening height",
+      "value": "9 in",
+      "source": "maker-specs",
+      "vs_spec": "confirms",
+      "spec_value": 9
+    },
+    {
+      "field": "Max speed",
+      "value": "2,500 spm (manual mode 25 to 2,500 spm; regulated mode 0 spm to full speed)",
+      "source": "maker-specs",
+      "vs_spec": "confirms",
+      "spec_value": 2500,
+      "note": "The page and the manual agree.",
+      "site": {
+        "label": "Max speed",
+        "juki": "Stitching speeds up to 2,500 stitches per minute",
+        "others": "Dealers repeat 2,500 spm",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Amara specifications",
+            "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Stitches per inch",
+      "value": "4 to 24 spi (regulated)",
+      "source": "maker-specs",
+      "vs_spec": "confirms",
+      "spec_value": "4 to 24 spi"
+    },
+    {
+      "field": "Needle system",
+      "value": "134 (135 x 7)",
+      "source": "maker-specs",
+      "vs_spec": "confirms",
+      "spec_value": "134 (135x7), sizes 12/80 to 20/125"
+    },
+    {
+      "field": "Needle sizes recommended",
+      "value": "Support article: 12/80 to 20/125. Manual v1.6: 80/12 to 130/21",
+      "source": "maker-manual",
+      "vs_spec": "contradicts",
+      "spec_value": "12/80 to 20/125",
+      "note": "Page-vs-manual disagreement: the support article gives an upper size of 20/125, the current manual gives 130/21. Spec follows the support article. The manual's size list is the later document (printed 07/10/24) but the article is the Amara-specific web page; flag, do not resolve silently.",
+      "site": {
+        "label": "Needle sizes",
+        "juki": "Support article 12/80 to 20/125; manual 80/12 to 130/21",
+        "others": "Dealers repeat the 134 system",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Amara specifications",
+            "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Bobbin and hook",
+      "value": "Rotary horizontal axis hook, aluminum class M bobbin, bobbin case type MF; stand-alone bobbin winder",
+      "source": "maker-manual",
+      "vs_spec": "confirms",
+      "spec_value": "M class, high speed rotary hook; stand alone bobbin winder included"
+    },
+    {
+      "field": "Motor",
+      "value": "48 V brushless DC (spec article); 'Brushless DC' (manual); 100-240 VAC, 50-60 Hz, 1.5 to 3.3 A; outlet power 120 W maximum",
+      "source": "maker-specs",
+      "vs_spec": "confirms",
+      "spec_value": "48 V brushless DC; 120 W maximum outlet power",
+      "note": "The manual does not state 48 V; the support article does."
+    },
+    {
+      "field": "Frame offered",
+      "value": "HQ Studio3 frame 10 ft or 12 ft; the product page also lists the HQ Little Foot frame as a purchase option and says 'The Little Foot frame is compatible with the Amara 20'",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": "HQ Studio3 frame, 10 ft or 12 ft, in the standard system",
+      "note": "Our spec names Studio3 only. The product page drop-down offers Studio3 10 ft, Studio3 12 ft and Little Foot; the description bullet says Studio3 included (10 or 12 ft). Editor to decide how to describe Little Foot. Frame dimensions in the product images, not parsed."
+    },
+    {
+      "field": "Packaging weight",
+      "value": "98 lbs (packaging weight, listed on the page)",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "This is shipping weight of the packed machine head, not a stated machine weight. The manual says 'The Amara is heavy' and calls for two people to lift, with no figure. Machine weight remains unpublished; do not enter 98 as head weight."
+    },
+    {
+      "field": "Packaging dimensions",
+      "value": "40 x 16 x 28 in",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Packaging, not machine dimensions. Head dimensions not published."
+    },
+    {
+      "field": "Display",
+      "value": "7 in color touchscreen; Pro-Stitcher tablet can be used as the display instead",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "7 in color touchscreen"
+    },
+    {
+      "field": "Lighting",
+      "value": "Menu-controlled QuiltMaster LED package: throat, needlebar, bobbin; needle laser",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Menu controlled LED lighting at throat, needle bar and bobbin; needle laser"
+    },
+    {
+      "field": "Stitch regulation",
+      "value": "QuiltMaster servo-controlled stitch regulation; manual and regulated modes; programmable handlebar buttons; automatic tie-offs",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Built in (QuiltMaster servo controlled, Precision and Cruise modes)",
+      "note": "The product page and manual describe regulated and manual modes; the manual names the regulated modes Cruise and Precision, so the spec names are supported by the manual (the web page and specification article do not name them)."
+    },
+    {
+      "field": "Included in box",
+      "value": "Manual list: machine with carriage, front handlebars, front display, handlebar cable; 5 bobbins; bobbin case; needles 134 size 100/16 and 110/18 (packs of 10); thread tray and mast; EZ Pen Oiler; power cord; hex wrenches 2, 2.5, 3, 5 mm; screwdriver; open-toe Handi Foot (closed-toe installed); HQ Longarm Quilting Pins; decal sheet; quick reference card; HQ bobbin winder",
+      "source": "maker-manual",
+      "vs_spec": "adds",
+      "spec_value": "Stand alone bobbin winder; handlebars; full accessory list not published",
+      "note": "The manual list is for the Amara 20 and 24 together. The frame is not in this list; frames are sold as a separate choice on the page."
+    },
+    {
+      "field": "Pro-Stitcher compatibility",
+      "value": "Pro-Stitcher Premium compatible; cabling pre-installed. Pro-Stitcher Premium listed at $12,995 on the maker's page",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Product page price range $12,995 to $27,990 (frame and Pro-Stitcher options). Not a dealer price."
+    },
+    {
+      "field": "Price (maker page)",
+      "value": "$12,995 to $27,990 range on the maker page (MSRP of options on the web store; dealers sell the machine)",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": 12995,
+      "note": "Page price range as shown 2026-10-02; the entry price matches the $12,995 in our spec. Handi Quilter points buyers to its retailer locator ('Find a Retailer'). The maker page also carries an Add to Cart button, so a direct web-store sale appears possible; ownership of the sale channel is not stated.",
+      "site": {
+        "label": "Price",
+        "juki": "$12,995 to $27,990 on the maker page",
+        "others": "Dealer prices vary (see spec conflicts)",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Amara 20 product page",
+            "url": "https://handiquilter.com/product/hq-amara-20/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Warranty",
+      "value": "Manual and web page: 90 days parts and labor; 10-year limited warranty on the sewing head casting or machining imperfections only (excludes mechanical and electrical parts); 5-year mechanical (free replacement parts, customer pays labor and shipping); 5-year electronic/electrical (same terms). Registration card must be received for warranty to be valid. Machines bought before 11-1-14 are on 2 years. Retailers may add their own warranty.",
+      "source": "maker-warranty",
+      "vs_spec": "confirms",
+      "spec_value": "10 yr casting, 5 yr electrical, 5 yr mechanical",
+      "note": "Applies to the 'HQ Quilting Machine' generally, not named for the Amara. Warranty page text is dated 08/26/10; a 'Longarm 2023' PDF is linked from the page and was not fetched. Labor and shipping are the customer's cost. The manual lists the warranty in a slightly different order but the same terms.",
+      "site": {
+        "label": "Warranty",
+        "juki": "10 yr casting, 5 yr mechanical, 5 yr electrical, 90 days parts and labor",
+        "others": "Dealers repeat the 5 and 10 year figures",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Warranty",
+            "url": "https://handiquilter.com/warranty/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Service interval",
+      "value": "Serviced and lubricated every 24 months or 10 million stitches, whichever comes first (spec article); annual service recommended from a representative (warranty page)",
+      "source": "maker-specs",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Two maker documents give different service intervals (24 months vs annual). Needle every 2 to 4 hours and hook oiling every 3 to 4 hours per the warranty page."
+    },
+    {
+      "field": "Availability",
+      "value": "The maker page offers the machine for sale; no discontinuation notice on the page",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": null
+    },
+    {
+      "field": "Marketing claims (quoted)",
+      "value": "'Everything you need for free-motion quilting right out of the box'; 'Pinpoint Needle Laser'; 'Easy-Set Tension'; 'QuiltMaster servo-controlled stitch regulation (perfect stitches, every time)'; 'Pro-Stitcher ready!'; 'brightly-lit throat space'",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Quoted as claims; 'perfect stitches, every time' is a maker claim, not a measured result."
+    },
+    {
+      "field": "Sibling: Amara 24",
+      "value": "24 in throat, sewing opening 9 x 24.5 in, HQ Gallery frame 10/12/15 ft; price range $19,995 to $33,990 on the maker page; maker says the Forte is now called the Amara 24 (quoted by an educator on the page)",
+      "source": "sib-amara24",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Same head features, 2,500 spm, 4 to 24 spi, 7 in display. Packaging weight 88 lbs, packaging 47 x 17 x 24 in."
+    },
+    {
+      "field": "Sibling: Amara ST",
+      "value": "20 in longarm on a stationary Lift Table or InSight Table; price $8,495 to $9,495; not Pro-Stitcher compatible; no handlebar item in its feature list",
+      "source": "sib-amarast",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Same family, sit-down table. Amazon's only Handi Quilter Amara result (ASIN B0BXB78N2J) is this ST, not the Amara 20."
+    }
+  ]
+}

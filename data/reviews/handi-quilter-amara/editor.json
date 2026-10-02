@@ -1,0 +1,98 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "Handi Quilter Amara 24",
+      "label": "Handi Quilter Amara 24 (renamed Forte 24)",
+      "pattern": "(amara[\\s-]*24|forte[\\s-]*24)(?![a-z0-9])"
+    },
+    {
+      "model": "Handi Quilter Amara ST",
+      "label": "Handi Quilter Amara ST (sit down)",
+      "pattern": "amara[\\s-]*st(?![a-z0-9])"
+    },
+    {
+      "model": "Handi Quilter Avante",
+      "label": "Handi Quilter Avante",
+      "pattern": "avante(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "q'nique[\\s-]*19x(?![a-z0-9])",
+      "Grace Company Q'nique 19X"
+    ],
+    [
+      "moxie(?![a-z0-9])",
+      "Handi Quilter Moxie"
+    ],
+    [
+      "sweet[\\s-]*sixteen(?![a-z0-9])",
+      "Handi Quilter Sweet Sixteen"
+    ],
+    [
+      "tl[\\s-]*18qvp(?![a-z0-9])",
+      "Juki TL-18QVP"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "q'nique[\\s-]*19x(?![a-z0-9])|moxie(?![a-z0-9])|sweet[\\s-]*sixteen(?![a-z0-9])|tl[\\s-]*18qvp(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {
+    "Handi Quilter Amara 24": [
+      {
+        "feature": "Throat and frame",
+        "summary": "24 in throat (sewing opening 9 x 24.5 in) on an HQ Gallery frame in 10, 12 or 15 ft; maker price range $19,995 to $33,990.",
+        "check": "Handi Quilter Amara 24 product page and Amara user manual v1.6, fetched 2026-10-02."
+      }
+    ],
+    "Handi Quilter Amara ST": [
+      {
+        "feature": "Stationary table version",
+        "summary": "The same 20 in head sold on a stationary Lift Table or InSight Table at $8,495 to $9,495; the maker lists it as not Pro-Stitcher compatible.",
+        "check": "Handi Quilter Amara ST product page, fetched 2026-10-02."
+      }
+    ]
+  }
+}

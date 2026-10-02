@@ -1,0 +1,333 @@
+{
+  "slug": "janome-coverpro-2000cpx",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 10,
+    "itemsCollected": 84,
+    "statements": 8,
+    "voices": 8,
+    "ownerVoices": 4,
+    "dateRange": [
+      2018,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 1,
+        "items": 0
+      },
+      "reddit": {
+        "sources": 9,
+        "items": 84
+      }
+    },
+    "blocked": 0,
+    "evidence": "thin",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.5 from 67 ratings is shared by several listings (the CoverPro 2000CPX and the 1000CPX variations show the same figure), so it is not a rating for the 2000CPX alone."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 1,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c858fd3c6",
+          "polarity": "positive",
+          "claim": "Owner of the 2000 CPX reports no problems, using the correct needles bought in bulk.",
+          "quote": "personally own this model, never had a single problem with it",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1q226xi/can_i_realistically_learn_cover_stitch_just_to/nxdxsm2/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c6b94c0bc",
+        "c4c9cfa74",
+        "c858fd3c6"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c9fe73579",
+          "polarity": "negative",
+          "claim": "Owner could not lock off in-the-round chain stitch; ends unravel despite tricks tried.",
+          "quote": "None of the tricks for ending a round and locking the threads have worked.",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1r6ng5r/unravelling_chain_stitch_on_coverpro_2000cpx/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c68ae113c",
+          "polarity": "mixed",
+          "claim": "Chain stitch unravelling is less of a problem with two needles and a lighter knit.",
+          "quote": "the unravelling issue is less of a problem when I'm using two needles",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1r6ng5r/unravelling_chain_stitch_on_coverpro_2000cpx/o5slde7/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c9fe73579",
+        "c68ae113c"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2021
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "cd123e7b4"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2021
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c72bc0430",
+          "polarity": "positive",
+          "claim": "Owner got an extension table and a narrow elastic guide in the box; Dutch online sellers still bundle an accessory kit.",
+          "quote": "extra's in the box like an extension table and a narrow elastic guide",
+          "url": "https://www.reddit.com/r/sewing/comments/r3vic6/coverstitch_brother_cv3550_vs_janome_coverpro/hmj0wbb/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c72bc0430"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2022
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c996b46d0"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B013I7MB1M",
+      "pageRating": 4.5,
+      "pageCount": 67,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "lowRated": 0,
+      "sampled": "0 top reviews (0 US, 0 other countries) of 67 ratings"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Bed space",
+      "juki": "Extra large bed space 4\" x 5.5\"",
+      "others": "Dealer listing: sewing area 4 x 5.5 in with built-in free arm",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Janome product page",
+          "url": "https://www.janome.com/product/coverpro-2000cpx/"
+        }
+      ],
+      "field": "Throat / bed space",
+      "source": "maker-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "25 years parts and workmanship; 5 years electronic components; 1 year labor (Janome America general terms)",
+      "others": "Dealer page: 25 yr parts, 2 yr electrical, 1 yr labor",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome warranty PDF",
+          "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+        }
+      ],
+      "field": "Warranty (maker, general)",
+      "source": "warranty"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "CoverPro 1000CPX",
+      "label": "Janome CoverPro 1000CPX",
+      "rows": [
+        {
+          "feature": "Maker MSRP",
+          "urls": 0,
+          "classes": [],
+          "summary": "$999 against $1,099 for the 2000CPX",
+          "check": "Janome product pages, fetched 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Tension aids",
+          "urls": 0,
+          "classes": [],
+          "summary": "Lists Seam Tightening System (STS); no TLC on its page",
+          "check": "Janome 1000CPX product page, fetched 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "CoverPro 3000 Professional",
+      "label": "Janome CoverPro 3000 Professional",
+      "rows": [
+        {
+          "feature": "Maker MSRP",
+          "urls": 0,
+          "classes": [],
+          "summary": "$1,799 against $1,099 for the 2000CPX",
+          "check": "Janome product pages, fetched 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Top cover stitch",
+          "urls": 0,
+          "classes": [],
+          "summary": "Built-in top cover stitch and needle threader; 2000CPX has neither",
+          "check": "Janome 3000 Professional page, fetched 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Weight and size",
+          "urls": 0,
+          "classes": [],
+          "summary": "18.95 lbs, 16.22 x 13.18 x 9.64 in on its page",
+          "check": "Janome 3000 Professional page, fetched 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

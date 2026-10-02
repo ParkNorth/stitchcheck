@@ -1,0 +1,677 @@
+{
+  "slug": "brother-pq1600s",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 10,
+    "itemsCollected": 93,
+    "statements": 13,
+    "voices": 8,
+    "ownerVoices": 4,
+    "dateRange": [
+      2024,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 2,
+        "items": 2
+      },
+      "reddit": {
+        "sources": 8,
+        "items": 90
+      }
+    },
+    "blocked": 0,
+    "evidence": "thin",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2025,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c1d28805c",
+          "polarity": "mixed",
+          "claim": "Owner says the pin feed does what is advertised though it is not a game changer.",
+          "quote": "it certainly does what it is advertised to do",
+          "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cbbd31257",
+        "c49d59615",
+        "c1d28805c"
+      ]
+    },
+    {
+      "theme": "walking_foot",
+      "label": "Walking foot",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c6e75948c",
+          "polarity": "negative",
+          "claim": "Owner's generic high shank walking foot had a bent needle bar lever that bent again after straightening.",
+          "quote": "my current generic walking foot needle bar lever was bent",
+          "url": "https://www.reddit.com/r/quilting/comments/1jkjvcn/hi_shank_brotherbrand_evenfeedwalking_foot/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c6e75948c",
+        "ce9e4187d"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "cc6587c63"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c5f8f2b0e"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c5076a7c7",
+          "polarity": "positive",
+          "claim": "Owner finds the machine really fast.",
+          "quote": "The machine is really fast",
+          "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c5076a7c7"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "caaa119a8",
+          "polarity": "negative",
+          "claim": "Owner needed some adjusting to get the tension right.",
+          "quote": "It took me some futzing to get the tension just right.",
+          "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "caaa119a8"
+      ]
+    },
+    {
+      "theme": "thread_trimmer",
+      "label": "Thread trimmer",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "ca57fecb2",
+          "polarity": "negative",
+          "claim": "After using the cutter the thread pulled out of the needle until the tension was sorted out.",
+          "quote": "the thread kept coming out of the needle after using it",
+          "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ca57fecb2"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cc75f20ba",
+          "polarity": "positive",
+          "claim": "Owner expects the machine to outlast them and rates it 10 out of 10.",
+          "quote": "This thing is going to outlast me.",
+          "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cc75f20ba"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cbf628480",
+          "polarity": "positive",
+          "claim": "Owner describes the throat as huge and expects it to suit freehand quilting, untested.",
+          "quote": "The throat is huge.",
+          "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cbf628480"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+      "pageRating": 4.4,
+      "pageCount": 49,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "lowRated": 0,
+      "sampled": "0 top reviews (0 US, 0 other countries) of 49 ratings"
+    },
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://www.sewingmachinesplus.com/PQ1600S.php",
+      "pageRating": 5,
+      "pageCount": 2,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "lowRated": 0,
+      "sampled": null
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Stitches",
+      "juki": "Built-in Stitch Selections 1; Button Hole Styles 0",
+      "others": "1 (Straight Stitch Only)",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother PQ1600S specifications",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        }
+      ],
+      "field": "Stitch types",
+      "source": "maker-page"
+    },
+    {
+      "label": "Max speed",
+      "juki": "1500 spm; manual 40 to 1500 stitches per minute",
+      "others": "1500 spm",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Instruction manual",
+          "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+        }
+      ],
+      "field": "Max speed",
+      "source": "manual"
+    },
+    {
+      "label": "Max stitch length",
+      "juki": "Manual p10: dial set between 5 and 7 mm gives 5 mm reverse; no explicit maximum",
+      "others": "Sewing Machines Plus: 5 mm",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Instruction manual",
+          "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+        },
+        {
+          "label": "Sewing Machines Plus page",
+          "url": "https://www.sewingmachinesplus.com/PQ1600S.php"
+        }
+      ],
+      "field": "Max stitch length",
+      "source": "manual"
+    },
+    {
+      "label": "Throat (needle to arm)",
+      "juki": "5.7 x 8.7 in needle-to-arm space",
+      "others": "Dealer copy: Workspace 5.7 x 8.7 in",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother PQ1600S",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        }
+      ],
+      "field": "Throat (workspace)",
+      "source": "maker-page"
+    },
+    {
+      "label": "Wide table",
+      "juki": "11.1 x 23.3 in wide table",
+      "others": "Sewing Machines Plus: 11.1 x 23.3 in (283 x 593 mm)",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother PQ1600S",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        }
+      ],
+      "field": "Bed and table",
+      "source": "smp-page"
+    },
+    {
+      "label": "Needles",
+      "juki": "HLX5 recommended; 130/705H may also be used (manual p20)",
+      "others": "not stated on dealer page",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Instruction manual",
+          "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+        }
+      ],
+      "field": "Needle system",
+      "source": "manual"
+    },
+    {
+      "label": "Light",
+      "juki": "not listed on maker page",
+      "others": "Sewing Machines Plus: 1 lamp",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Sewing Machines Plus page",
+          "url": "https://www.sewingmachinesplus.com/PQ1600S.php"
+        }
+      ],
+      "field": "Lighting",
+      "source": "smp-page"
+    },
+    {
+      "label": "Thread cutter",
+      "juki": "Push button thread cutter, cuts upper and lower thread",
+      "others": "Automatic Thread Cutter: Yes",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother PQ1600S",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        }
+      ],
+      "field": "Thread cutter",
+      "source": "maker-page"
+    },
+    {
+      "label": "Needle stop up/down",
+      "juki": "Feature text: programmable up or down; spec table row: No",
+      "others": "same text on dealer page",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Instruction manual",
+          "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+        }
+      ],
+      "field": "Needle stop position",
+      "source": "manual"
+    },
+    {
+      "label": "Free-motion foot",
+      "juki": "Carton list includes it; spec table row says No",
+      "others": "Dealer copy: Free-Motion Quilting Foot: Yes",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Brother PQ1600S",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        }
+      ],
+      "field": "Free-motion foot",
+      "source": "maker-page"
+    },
+    {
+      "label": "Pin feed and feed dogs",
+      "juki": "Pin feed plus 4 feed dog positions and presser foot pressure levels",
+      "others": "Drop Feed/Free-Motion: 4 steps",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother PQ1600S",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        }
+      ],
+      "field": "Feed system",
+      "source": "manual"
+    },
+    {
+      "label": "Knee lifter",
+      "juki": "Yes (included)",
+      "others": "Yes",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother PQ1600S",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        }
+      ],
+      "field": "Knee lifter",
+      "source": "maker-page"
+    },
+    {
+      "label": "Weight",
+      "juki": "23.81 lb",
+      "others": "Sewing Machines Plus: 23.81 lb",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother PQ1600S",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        }
+      ],
+      "field": "Weight and size",
+      "source": "maker-page"
+    },
+    {
+      "label": "Bobbin",
+      "juki": "5 bobbins in carton; independent bobbin winding motor",
+      "others": "Adjustable bobbin winding speed: Yes",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Instruction manual",
+          "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+        }
+      ],
+      "field": "Bobbin",
+      "source": "manual"
+    },
+    {
+      "label": "Warranty",
+      "juki": "1/2/25 Year Limited Warranty",
+      "others": "dealer repeats 1/2/25",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Brother PQ1600S",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        }
+      ],
+      "field": "Warranty",
+      "source": "maker-page"
+    },
+    {
+      "label": "Price",
+      "juki": "$999.99 on the maker page, 2026-10-02",
+      "others": "Dealer page reads $999.99 sale / $1,299.99 regular, 2026-10-02",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Brother PQ1600S",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        }
+      ],
+      "field": "Price",
+      "source": "maker-page"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "Brother PQ1500SL",
+      "label": "Brother PQ1500SL",
+      "rows": [
+        {
+          "feature": "Status at the maker",
+          "urls": 0,
+          "classes": [],
+          "summary": "Maker page marks it Discontinued and Out of Stock.",
+          "check": "brother-usa.com/p/sewing/PQ1500SL, read 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Workspace at the maker",
+          "urls": 0,
+          "classes": [],
+          "summary": "5.7 x 8.6 in workspace (PQ1600S page: 5.7 x 8.7 in).",
+          "check": "brother-usa.com PQ1500SL and PQ1600S pages, read 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Warranty term wording",
+          "urls": 0,
+          "classes": [],
+          "summary": "'2/6/25 Year Premium Limited Warranty' (PQ1600S page: '1/2/25 Year Limited Warranty').",
+          "check": "brother-usa.com PQ1500SL and PQ1600S pages, read 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Maker lighting entry",
+          "urls": 0,
+          "classes": [],
+          "summary": "PQ1500SL page lists Lighting Type: LED; the PQ1600S page lists no lighting type.",
+          "check": "brother-usa.com PQ1500SL page, read 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

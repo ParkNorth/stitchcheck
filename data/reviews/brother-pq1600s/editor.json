@@ -1,0 +1,101 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "PQ1500SL",
+      "label": "Brother PQ1500SL",
+      "pattern": "pq[\\s-]*1500[\\s-]*sl(?![a-z0-9])"
+    },
+    {
+      "model": "PQ1500S",
+      "label": "Brother PQ1500S",
+      "pattern": "pq[\\s-]*1500[\\s-]*s(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "tl[\\s-]*2010q(?![a-z0-9])|2010q(?![a-z0-9])",
+      "Juki TL-2010Q"
+    ],
+    [
+      "tl[\\s-]*18qvp(?![a-z0-9])",
+      "Juki TL-18QVP"
+    ],
+    [
+      "memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])",
+      "Janome Memory Craft 6650"
+    ],
+    [
+      "moxie(?![a-z0-9])",
+      "Handi Quilter Moxie"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "tl[\\s-]*2010q(?![a-z0-9])|2010q(?![a-z0-9])|tl[\\s-]*18qvp(?![a-z0-9])|memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])|moxie(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {
+    "Brother PQ1500SL": [
+      {
+        "feature": "Status at the maker",
+        "summary": "Maker page marks it Discontinued and Out of Stock.",
+        "check": "brother-usa.com/p/sewing/PQ1500SL, read 2026-10-02"
+      },
+      {
+        "feature": "Workspace at the maker",
+        "summary": "5.7 x 8.6 in workspace (PQ1600S page: 5.7 x 8.7 in).",
+        "check": "brother-usa.com PQ1500SL and PQ1600S pages, read 2026-10-02"
+      },
+      {
+        "feature": "Warranty term wording",
+        "summary": "'2/6/25 Year Premium Limited Warranty' (PQ1600S page: '1/2/25 Year Limited Warranty').",
+        "check": "brother-usa.com PQ1500SL and PQ1600S pages, read 2026-10-02"
+      },
+      {
+        "feature": "Maker lighting entry",
+        "summary": "PQ1500SL page lists Lighting Type: LED; the PQ1600S page lists no lighting type.",
+        "check": "brother-usa.com PQ1500SL page, read 2026-10-02"
+      }
+    ]
+  }
+}

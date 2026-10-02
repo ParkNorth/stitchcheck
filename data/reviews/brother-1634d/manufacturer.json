@@ -1,0 +1,326 @@
+{
+  "slug": "brother-1634d",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/brother-1634d.json. Research input for the editor; not a spec file.",
+  "collected": "2026-10-02",
+  "documents": [
+    {
+      "id": "maker-page",
+      "url": "https://www.brother-usa.com/products/1634d",
+      "type": "product page",
+      "fetched": "2026-10-02",
+      "note": "Brother USA. Title '1634D 3/4 Thread Serger Machine with Differential Feed'. Page lists price 299.99, no availability notice. Page carries no weight, product dimensions, differential range or stitch length; only carton dimensions 15 x 13 x 14 in."
+    },
+    {
+      "id": "maker-page-1634dx",
+      "url": "https://www.brother-usa.com/products/1634dx",
+      "type": "sibling product page",
+      "fetched": "2026-10-02",
+      "note": "1634DX page for comparison: LED, price 199.99 (was 259.00), carton 13 x 15 x 15 in, links the US serger warranty."
+    },
+    {
+      "id": "brother-handbook",
+      "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf",
+      "type": "instruction manual (image PDF, OCR at 150 dpi, verify figures against the PDF)",
+      "fetched": "2026-10-02",
+      "note": "68 pages, 'Handbook for Compact Overlock Machine', English and Spanish. Names models 1034D, 1134DW, 1134D, DZ1234 and 1634D together (PDF p.15). Linked from Brother support Manuals page for hf_1634deus. Specification chapter on PDF p.66 (printed 58) is not model-specific."
+    },
+    {
+      "id": "warranty-intl",
+      "url": "https://assets.brother.com/asset/3e5bcfe0-2c88-4b35-8ec9-26698a105a4c/6020_International-Warranty-LAD-Final-serger-1-pdf.pdf",
+      "type": "warranty PDF linked from the 1634D page",
+      "fetched": "2026-10-02",
+      "note": "XF6323-101, 2012. Covers listed Latin American and Caribbean territories and US Virgin Islands; one year from purchase. It does not say 1/5/25 years."
+    },
+    {
+      "id": "warranty-us",
+      "url": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf",
+      "type": "warranty PDF (US serger), linked from the 1634DX page",
+      "fetched": "2026-10-02",
+      "note": "XB2300-101, 2017. Generic serger warranty, not naming a model. 1 year parts, labor and accessories; 5 years electronic components and circuit boards; 25 years chassis casting."
+    },
+    {
+      "id": "support-manuals",
+      "url": "https://support.brother.com/g/b/manualtop.aspx?c=us&lang=en&prod=hf_1634deus",
+      "type": "support manuals page",
+      "fetched": "2026-10-02",
+      "note": "Lists a User's Guide, Appendix and accessory catalog. Only the handbook above was a usable owner document."
+    },
+    {
+      "id": "maker-page-r1634d",
+      "url": "https://www.brother-usa.com/products/r1634d",
+      "type": "refurbished product page",
+      "fetched": "2026-10-02",
+      "note": "Page returned 404 (Brother's 'page has gone missing' error) on 2026-10-02. The spec file lists it as a source; do not cite it."
+    },
+    {
+      "id": "maker-page-1734d-1534d",
+      "url": "https://www.brother-usa.com/products/1734d",
+      "type": "neighbour check",
+      "fetched": "2026-10-02",
+      "note": "1734D and 1534D pages both returned 404 on brother-usa.com on 2026-10-02. No Brother USA page exists for those names; do not treat them as siblings."
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1,300 spm",
+      "source": "maker-page; brother-handbook PDF p.66",
+      "vs_spec": "confirms",
+      "spec_value": 1300,
+      "site": {
+        "label": "Speed",
+        "juki": "1,300 spm ('1300spm maximum stitching speed'); handbook says the normal operating speed is 1,300 stitches per minute.",
+        "others": "Dealers and blogs agree.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          }
+        ]
+      }
+    },
+    {
+      "field": "threads",
+      "value": "3/4 thread, 1 needle 3-thread or 2 needles 4-thread. Spec table: '2/3/4 Thread Change: No'.",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "3 or 4 thread, 2 needles",
+      "note": "No 2-thread stitch. The 1034DX page lists 2/3/4 thread change Yes; the 1634D does not.",
+      "site": {
+        "label": "Threads",
+        "juki": "3 or 4 thread; 2/3/4 Thread Change: No.",
+        "others": "Blogs say 3/4 thread; one dealer title says 'cover stitch'.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          }
+        ]
+      }
+    },
+    {
+      "field": "coverstitch",
+      "value": "No coverstitch function is stated. Brother page: serger, 3/4 thread. One dealer listing title (mistersewvac.com) says 'Cover Stitch Serger'.",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "claims note only",
+      "note": "Brother does not claim a coverstitch; the dealer title is a retailer wording issue."
+    },
+    {
+      "field": "weightLb",
+      "value": "Not published on the Brother 1634D page. Handbook (multi-model) net weight 7.0 kg (15.4 lb). Spec file: 17.3 lb from review blogs.",
+      "source": "maker-page; brother-handbook PDF p.66",
+      "vs_spec": "contradicts",
+      "spec_value": 17.3,
+      "note": "The handbook weight covers a model family, not the 1634D by name. 17.3 lb has no maker document behind it (likely shipping weight). The 1034D page lists 13.45 lb and the 1034DX 12.57 lb per sibling files.",
+      "site": {
+        "label": "Weight",
+        "juki": "Not published on the 1634D page. Handbook for the shared platform: 7.0 kg (15.4 lb) net.",
+        "others": "Review blogs: 17.3 lb.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother handbook",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "Machine dimensions not published. Carton 15 x 13 x 14 in (1634D page). Spec file has 12.5 x 13.5 x 15 in from a review blog.",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "12.5 x 13.5 x 15",
+      "note": "The blog figure has no maker document behind it and may be the carton; Brother's carton is 15 x 13 x 14 in. 1634DX carton is 13 x 15 x 15 in.",
+      "site": {
+        "label": "Size",
+        "juki": "Carton 15 x 13 x 14 in; no machine dimensions.",
+        "others": "Blog: 12.5 x 13.5 x 15 in, axis order not stated.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchWidthMm",
+      "value": "Page: overlock seam width 5.0 to 7.0 mm from left needle. Handbook (two-needle models): 2.3 to 7 mm; the settings text says 'R4.5 mm to 7 mm'; normal 5 mm.",
+      "source": "maker-page; brother-handbook PDF p.17 and p.66",
+      "vs_spec": "confirms",
+      "spec_value": "5 to 7",
+      "note": "Page and handbook differ on the lower bound. The handbook figure is OCR; verify against the PDF.",
+      "site": {
+        "label": "Stitch width",
+        "juki": "Page: 5.0 to 7.0 mm. Handbook: 2.3 to 7 mm (two-needle).",
+        "others": "Blog: 5 to 7 mm.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          },
+          {
+            "label": "Brother handbook",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "2 to 4 mm; normal 2.5 to 3 mm",
+      "source": "brother-handbook PDF p.17 and p.66",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Handbook is multi-model; not on the 1634D page.",
+      "site": {
+        "label": "Stitch length",
+        "juki": "2 to 4 mm (handbook, shared platform).",
+        "others": "Not stated.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother handbook",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "differentialFeed",
+      "value": "Differential feed, lever on left side. Handbook ranges: 0.7 to 1.0 and 1.0 to 2.0 settings, normal 1.0.",
+      "source": "maker-page; brother-handbook PDF p.18-19",
+      "vs_spec": "adds",
+      "spec_value": "Adjustable by dial; ratio not published on pages found",
+      "note": "The spec says 'dial'; handbook calls it a lever. The 0.7 to 2.0 range is on the shared handbook, not the 1634D page; the 1634D page lists no ratio. The spec file's 'dial' is a wording difference."
+    },
+    {
+      "field": "presserFootLift",
+      "value": "5 to 6 mm",
+      "source": "brother-handbook PDF p.66",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Shared handbook figure."
+    },
+    {
+      "field": "needleSystem",
+      "value": "SCHMETZ 130/705H. Handbook machine spec lists needle set 130/705H, #80 (2) and #90 (2); accessory list on PDF p.11 reads 130/705M (OCR, verify).",
+      "source": "brother-handbook PDF p.11 and p.66",
+      "vs_spec": "confirms",
+      "spec_value": "SCHMETZ 130/705H",
+      "note": "The 130/705M reading is an OCR line and may be a misread of H; verify against the PDF. Page and handbook disagree on nothing else about needles."
+    },
+    {
+      "field": "lighting",
+      "value": "Bulb (page); handbook: replace with same type rated 15 watts.",
+      "source": "maker-page; brother-handbook PDF p.2",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "1634DX page says LED."
+    },
+    {
+      "field": "stitchFingers",
+      "value": "1",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "one owner says 1634D has two stitch fingers",
+      "note": "The spec conflicts list a PatternReview owner saying the 1634D has two stitch fingers where the 1034D has one. Brother's table lists 1 for both the 1634D and 1634DX."
+    },
+    {
+      "field": "threadingSystem",
+      "value": "Color-coded lay-in threading, color-coded guides (page).",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Color-coded lay-in threading",
+      "note": "The one owner report that the 1634D lacks color coding is not backed by the page."
+    },
+    {
+      "field": "includedFeet",
+      "value": "Standard foot, blindstitch foot, gathering foot; soft cover; included instructional video and printed manual. Accessory storage: Yes.",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Standard foot, blind stitch foot, gathering foot; soft cover and instructional video",
+      "site": {
+        "label": "Box contents",
+        "juki": "3 feet, soft cover, video, printed manual.",
+        "others": "Dealers agree.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          }
+        ]
+      }
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Page text: '1/5/25 Year Limited Serger Warranty'. The PDF linked from the 1634D page is the international warranty XF6323-101 (one year, listed Latin American and Caribbean territories). The 1634DX page links the US serger warranty XB2300-101 (1 year parts, labor and accessories; 5 years electronic components and circuit boards, labor excluded; 25 years chassis casting).",
+      "source": "maker-page; warranty-intl; warranty-us",
+      "vs_spec": "contradicts",
+      "spec_value": "25-year limited (Brother)",
+      "note": "Our spec says 25-year limited, which is the chassis casting term only. The warranty is not model-specific: it is the generic serger warranty. The linked PDF on the 1634D page does not state 1/5/25.",
+      "site": {
+        "label": "Warranty",
+        "juki": "'1/5/25 Year Limited Serger Warranty' (page); linked PDF is the international 1 year warranty.",
+        "others": "Blogs: 25-year limited.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother US serger warranty PDF",
+            "url": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf"
+          },
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "USD 299.99 on brother-usa.com 2026-10-02 (1634DX 199.99, was 259.00; 1034D 319.99 per Brother's 1634DX similar-products panel).",
+      "source": "maker-page; maker-page-1634dx",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Brother price at a point in time; dealer pricing is not recorded as fact."
+    },
+    {
+      "field": "availability",
+      "value": "No availability or discontinuation notice on the 1634D page, which shows 'Locate a Dealer' and a price. The refurbished R1634D page returned 404 on 2026-10-02.",
+      "source": "maker-page; maker-page-r1634d",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Page wording only; not evidence of discontinuation."
+    },
+    {
+      "field": "claims",
+      "value": "'Easy to set up, and easy to use, the reliable Brother 1634D serger is perfect for finishing, creating rolled hems, inserting zippers, stitching neat blind hems, and creating ruffles on both knits and woven fabrics.' 'easy to follow, color-coded lay-in threading system'. Handbook: 'Light- to heavy-weight materials'.",
+      "source": "maker-page; brother-handbook PDF p.66",
+      "vs_spec": "confirms",
+      "spec_value": "claims list",
+      "note": "Marketing wording; quote as claims only."
+    },
+    {
+      "field": "throatIn",
+      "value": "Not published. No needle-to-arm, workspace or arm size on the page or the handbook; needle bar stroke 25 mm is not throat.",
+      "source": "maker-page; brother-handbook PDF p.66",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Keep null."
+    },
+    {
+      "field": "motor",
+      "value": "Not published (handbook gives lamp 15 W; no motor wattage).",
+      "source": "brother-handbook",
+      "vs_spec": "confirms",
+      "spec_value": null
+    }
+  ]
+}
