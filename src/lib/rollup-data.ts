@@ -1423,6 +1423,791 @@ export const rollupData: Record<string, Rollup> = {
     ],
     "rivals": []
   },
+  "babylock-victory": {
+    "slug": "babylock-victory",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 14,
+      "itemsCollected": 153,
+      "statements": 32,
+      "voices": 24,
+      "ownerVoices": 10,
+      "dateRange": [
+        2020,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 13,
+          "items": 146
+        },
+        "retailer": {
+          "sources": 1,
+          "items": 7
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "No marketplace listing: Baby Lock is dealer-only (AGENTS rule 15). Retailer ratings, where shown, come from dealer sites that list the machine online, not from a Baby Lock channel."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 7,
+        "voices": 7,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 7
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 6
+        },
+        "years": [
+          2024,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cf067db86",
+            "polarity": "negative",
+            "claim": "Owner could not find ballpoint serger needles for the Victory; serger needles found were all sharp.",
+            "quote": "all the serger needles I’m finding say they are sharp",
+            "url": "https://www.reddit.com/r/sewing/comments/1h18pig/serger_help_im_getting_holes_along_the_serged_seam/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 7,
+        "voices": 7,
+        "ownerVoices": 2,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 7
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "years": [
+          2020,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c9507764d",
+            "polarity": "negative",
+            "claim": "Victory owner finds the needle threading mechanism fiddly.",
+            "quote": "I don't like the needle threading mechanism, I find it is fiddly",
+            "url": "https://www.reddit.com/r/sewing/comments/1ndqaaq/looking_for_a_disabilityfriendly_serger_thoughts/ndlbj1e/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ce3afcf0e",
+            "polarity": "positive",
+            "claim": "Owner says threading the Victory takes seconds.",
+            "quote": "The threading takes seconds",
+            "url": "https://www.reddit.com/r/sewing/comments/1blt38h/serger_help_me_choose/kwdx1l1/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 6,
+        "voices": 6,
+        "ownerVoices": 5,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 6
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 4,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2024,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c0e96dd89",
+            "polarity": "negative",
+            "claim": "Right needle breaks after about 2 inches of serging terry.",
+            "quote": "I can get about 2” before it breaks",
+            "url": "https://www.reddit.com/r/sewing/comments/1hvh9yk/babylock_victory_serger_right_needle_keeps/m5tdvpm/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c9a970f02",
+            "polarity": "negative",
+            "claim": "New owner snapped both needles serging cotton flannel edges.",
+            "quote": "was serving the edges of cotton flannel pyjama pants when both needles snapped",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1i3ofe4/broke_both_needles_on_first_serging_project/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cb916d2d1",
+            "polarity": "positive",
+            "claim": "Owner reports threads do not keep breaking, unlike on a Brother serger.",
+            "quote": "the threads don't break all the time like my Brother serger",
+            "url": "https://www.reddit.com/r/sewing/comments/1blt38h/serger_help_me_choose/kwdx1l1/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 1,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2021,
+          2024
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c93567a1f",
+            "polarity": "positive",
+            "claim": "Owner finds the auto tension nice.",
+            "quote": "The auto tension is nice too",
+            "url": "https://www.reddit.com/r/sewing/comments/1blt38h/serger_help_me_choose/kwdx1l1/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c2d15a906",
+            "polarity": "negative",
+            "claim": "Raising the lever past normal gives extra room but not enough to slide thick fabric under.",
+            "quote": "The extra lift is not enough to make it slide under",
+            "url": "https://www.reddit.com/r/sewing/comments/1l9j3zn/babylock_victory_difficult_to_get_the_fabric/mxdvk9a/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c5529dd81",
+            "polarity": "positive",
+            "claim": "Owner says it handles many layers of fabric.",
+            "quote": "It's able to handle many layers of fabric",
+            "url": "https://www.reddit.com/r/sewing/comments/1blt38h/serger_help_me_choose/kwdx1l1/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 0,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2020,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c0d13ebe7",
+            "polarity": "positive",
+            "claim": "Owner has serged through layers of denim without needle breakage.",
+            "quote": "I’ve serged through layers of denim",
+            "url": "https://www.reddit.com/r/sewing/comments/1hvh9yk/babylock_victory_serger_right_needle_keeps/m5tdv5e/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2024
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "ccd5a71ba",
+            "polarity": "positive",
+            "claim": "Owner says it is much quieter than the Brother 1034DX.",
+            "quote": "it's a lot quieter",
+            "url": "https://www.reddit.com/r/sewing/comments/1blt38h/serger_help_me_choose/kwdx1l1/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "differential_feed",
+        "label": "Differential feed",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2023,
+          2023
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://sewingmachinesplus.com/products/bl-victory",
+        "pageRating": 5,
+        "pageCount": 7,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 7
+        },
+        "lowRated": 0,
+        "sampled": null
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "juki": "1,500 stitches per minute on the spec sheet and in the manual.",
+        "others": "Matches our spec, which came from a dealer page.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          },
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "spec-sheet"
+      },
+      {
+        "label": "Weight",
+        "juki": "16 lb machine only on the product page; the manual gives 7.6 kg (about 16.8 lb).",
+        "others": "Dealers repeat 16 lb.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory page",
+            "url": "https://babylock.com/machines/serger/victory"
+          },
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          }
+        ],
+        "field": "weightLb",
+        "source": "product-page"
+      },
+      {
+        "label": "Dimensions",
+        "juki": "12.5 in wide x 11 in deep x 11.5 in high, machine only.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory page",
+            "url": "https://babylock.com/machines/serger/victory"
+          }
+        ],
+        "field": "dimensionsIn",
+        "source": "product-page"
+      },
+      {
+        "label": "Stitch width",
+        "juki": "1.5 to 7.5 mm dial adjustable; 5.5 to 7.5 mm for 4 thread with the left needle.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          },
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          }
+        ],
+        "field": "stitchWidthMm",
+        "source": "spec-sheet"
+      },
+      {
+        "label": "Stitch length",
+        "juki": "0.75 to 4 mm, dial adjustable, with a dial adjustable built-in rolled hem.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          },
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          }
+        ],
+        "field": "stitchLengthMm",
+        "source": "spec-sheet"
+      },
+      {
+        "label": "Differential feed",
+        "juki": "Manual: N to 2.0 gathering, N to 0.6 stretching; single unit feed dog. The spec sheet and page give no ratio.",
+        "others": "Dealers state 2 to 1 and 3 to 4.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          },
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          }
+        ],
+        "field": "differentialFeed",
+        "source": "manual"
+      },
+      {
+        "label": "Stitch types",
+        "juki": "4 and 3 thread overlock, 3 thread rolled hem, 2 and 3 thread flatlock, plus 2 thread blanket and ladder stitches.",
+        "others": "Our spec did not list blanket or ladder.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          },
+          {
+            "label": "Baby Lock serger comparison chart",
+            "url": "https://babylock.com/serging-comparison-charts"
+          }
+        ],
+        "field": "stitchTypes",
+        "source": "manual"
+      },
+      {
+        "label": "Threads and needles",
+        "juki": "4/3/2 thread serging with 2 needles.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory page",
+            "url": "https://babylock.com/machines/serger/victory"
+          },
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          }
+        ],
+        "field": "threads",
+        "source": "product-page"
+      },
+      {
+        "label": "Needle system",
+        "juki": "Organ or Schmetz HA x 1SP/CR; ships with 75/11 needles.",
+        "others": "A dealer page also lists ELx705CF and ELx705.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          }
+        ],
+        "field": "needleSystem",
+        "source": "manual"
+      },
+      {
+        "label": "Presser foot lift",
+        "juki": "Up to 6 mm, adjustable; the Celebrate also lists 6 mm.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          },
+          {
+            "label": "Baby Lock serger comparison chart",
+            "url": "https://babylock.com/serging-comparison-charts"
+          }
+        ],
+        "field": "presserFootLift",
+        "source": "spec-sheet"
+      },
+      {
+        "label": "Lighting",
+        "juki": "2 LED lights.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory page",
+            "url": "https://babylock.com/machines/serger/victory"
+          },
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          },
+          {
+            "label": "Baby Lock serger comparison chart",
+            "url": "https://babylock.com/serging-comparison-charts"
+          }
+        ],
+        "field": "lighting",
+        "source": "product-page"
+      },
+      {
+        "label": "Threading",
+        "juki": "Jet-Air looper threading, Automatic Thread Delivery (no tension adjustments), built-in needle threader.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          },
+          {
+            "label": "Baby Lock serger comparison chart",
+            "url": "https://babylock.com/serging-comparison-charts"
+          }
+        ],
+        "field": "threadingSystem",
+        "source": "spec-sheet"
+      },
+      {
+        "label": "Thread cutter",
+        "juki": "Built-in side thread cutter for the thread chain.",
+        "others": "No dealer figure used.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory page",
+            "url": "https://babylock.com/machines/serger/victory"
+          },
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          }
+        ],
+        "field": "threadTrimmer",
+        "source": "product-page"
+      },
+      {
+        "label": "Included feet and accessories",
+        "juki": "One standard snap-on foot; accessory list on the spec sheet and manual; optional feet sold separately.",
+        "others": "Dealer bonus kits vary and are not Baby Lock contents.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          },
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          },
+          {
+            "label": "Baby Lock Victory page",
+            "url": "https://babylock.com/machines/serger/victory"
+          }
+        ],
+        "field": "includedFeet",
+        "source": "spec-sheet"
+      },
+      {
+        "label": "Warranty",
+        "juki": "25 years limited; 10 years parts; 5 years circuit boards; 5 years electrical; 1 year labor.",
+        "others": "Dealers state the same minus circuit boards.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          },
+          {
+            "label": "Baby Lock warranty policy",
+            "url": "https://babylock.com/warranty-policy"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "spec-sheet"
+      },
+      {
+        "label": "Price",
+        "juki": "babylock.com showed $2,089 on 2026-10-02; dealers set their own price.",
+        "others": "Sewing Machines Plus $1,899 sale in our spec, seen 2026-09-29.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Baby Lock Victory page",
+            "url": "https://babylock.com/machines/serger/victory"
+          }
+        ],
+        "field": "msrp",
+        "source": "product-page"
+      },
+      {
+        "label": "Where to buy",
+        "juki": "Authorized Baby Lock Retailers only; Baby Lock warranties are issued by them.",
+        "others": "Some dealers list the machine online.",
+        "status": "dealer only",
+        "links": [
+          {
+            "label": "Baby Lock warranty policy",
+            "url": "https://babylock.com/warranty-policy"
+          }
+        ],
+        "field": "retailChannel",
+        "source": "warranty-policy"
+      },
+      {
+        "label": "Throat space",
+        "juki": "Baby Lock does not publish a workspace figure for the Victory.",
+        "others": "Not stated by dealers.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Baby Lock serger comparison chart",
+            "url": "https://babylock.com/serging-comparison-charts"
+          }
+        ],
+        "field": "throatIn",
+        "source": "compare-chart"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "Acclaim",
+        "label": "Baby Lock Acclaim",
+        "rows": []
+      },
+      {
+        "model": "Celebrate",
+        "label": "Baby Lock Celebrate",
+        "rows": [
+          {
+            "feature": "Tension system",
+            "urls": 0,
+            "classes": [],
+            "summary": "Baby Lock lists manual tension on the Celebrate (Micromatic Twin Cam on its page) and Automatic Thread Delivery on the Victory.",
+            "check": "Baby Lock serger comparison chart and Celebrate page, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Lights",
+            "urls": 0,
+            "classes": [],
+            "summary": "One LED on the Celebrate, two LEDs on the Victory.",
+            "check": "Baby Lock serger comparison chart, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Stitch list",
+            "urls": 0,
+            "classes": [],
+            "summary": "The chart lists 2 thread blanket and ladder stitches on the Victory and not on the Celebrate; both list 6 mm presser foot lift and Jet-Air threading.",
+            "check": "Baby Lock serger comparison chart, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Maker price shown",
+            "urls": 0,
+            "classes": [],
+            "summary": "babylock.com showed the Celebrate at $1,352 and the Victory at $2,089 on 2026-10-02.",
+            "check": "babylock.com product pages, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "Vibrant",
+        "label": "Baby Lock Vibrant",
+        "rows": [
+          {
+            "feature": "Threading and tension",
+            "urls": 0,
+            "classes": [],
+            "summary": "Color coded manual threading and manual tension on the Vibrant; Jet-Air and Automatic Thread Delivery on the Victory.",
+            "check": "Baby Lock serger comparison chart, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Maker price shown",
+            "urls": 0,
+            "classes": [],
+            "summary": "babylock.com showed the Vibrant at $524 and the Victory at $2,089 on 2026-10-02.",
+            "check": "babylock.com product pages, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "Imagine",
+        "label": "Baby Lock Imagine",
+        "rows": [
+          {
+            "feature": "Needle system",
+            "urls": 0,
+            "classes": [],
+            "summary": "The Imagine spec sheet lists HAx1SP, 130/705H and ELx705CF; the Victory manual names only HAx1SP/CR.",
+            "check": "Baby Lock Imagine spec sheet and Victory manual, 2026-10-02",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
   "bernina-1008": {
     "slug": "bernina-1008",
     "status": "approved",
@@ -2177,6 +2962,1440 @@ export const rollupData: Record<string, Rollup> = {
                 "url": "https://www.reddit.com/r/sewing/comments/1rghibi/reliable_heavy_duty_home_machine/o8o6g5z/"
               }
             ]
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "bernina-570-qe": {
+    "slug": "bernina-570-qe",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 56,
+      "itemsCollected": 705,
+      "statements": 73,
+      "voices": 62,
+      "ownerVoices": 39,
+      "dateRange": [
+        2015,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 53,
+          "items": 701
+        },
+        "retailer": {
+          "sources": 1,
+          "items": 1
+        },
+        "forum": {
+          "sources": 2,
+          "items": 2
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 21,
+        "voices": 18,
+        "ownerVoices": 10,
+        "sources": 11,
+        "sourceClasses": [
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 17,
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 4,
+          "mixed": 2,
+          "neutral": 9
+        },
+        "years": [
+          2018,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c7aee993f",
+            "polarity": "negative",
+            "claim": "The BSR supplied with the owner's five year old 570 did not include a ruler foot.",
+            "quote": "does not include a ruler foot",
+            "url": "https://www.reddit.com/r/quilting/comments/1qbph1u/used_bernina_570_qe_quilters_edition/nze6ajt/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c7dc2dfb2",
+            "polarity": "negative",
+            "claim": "A small screw on the back of the foot holds the seam guide and often comes loose on Berninas.",
+            "quote": "It is there to hold a seam guide",
+            "url": "https://www.reddit.com/r/quilting/comments/1eh59r2/this_screw_fell_off_of_my_machine_and_i_have_no/lfxchwb/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c4ca15c1b",
+            "polarity": "positive",
+            "claim": "Longtime Bernina owner rates the 97D far above the 37D or 57D on dual feed machines.",
+            "quote": "the 97D is vastly superior to the 37D or 57D, for machines with dual feed",
+            "url": "https://www.reddit.com/r/quilting/comments/1ppsp9l/bernina_foot_advice_for_quilting/nusphat/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c507f73ff",
+            "polarity": "mixed",
+            "claim": "An owner warns that only a few common feet are included and specialty feet are expensive.",
+            "quote": "if you like using a lot speciality feet, they are very pricy",
+            "url": "https://www.reddit.com/r/quilting/comments/1d95fd0/thoughts_on_the_bernina_570_qe/l7e13m9/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c571af87a",
+            "polarity": "mixed",
+            "claim": "570 owner says theirs came with no ruler foot but did include several feet for use with the stitch regulator.",
+            "quote": "but did come with several feet for using with the stitch regulator",
+            "url": "https://www.reddit.com/r/quilting/comments/1ppsp9l/bernina_foot_advice_for_quilting/nupxbf3/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 16,
+        "voices": 16,
+        "ownerVoices": 12,
+        "sources": 13,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 16
+        },
+        "polarity": {
+          "positive": 5,
+          "negative": 8,
+          "mixed": 1,
+          "neutral": 2
+        },
+        "years": [
+          2021,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c3c8fb4a9",
+            "polarity": "negative",
+            "claim": "An owner had the bobbin sensor come off, and part of one arm broke while refitting it, so the machine went to a repairer.",
+            "quote": "a little bit of one arm broke off",
+            "url": "https://www.reddit.com/r/Bernina/comments/1u6w91x/what_did_i_do_to_my_b570_qe/pa58dh9/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cccb164da",
+            "polarity": "negative",
+            "claim": "Owner gets a top thread error roughly every inch and a half of sewing despite cleaning, a new needle and rethreading.",
+            "quote": "giving me a top thread error every",
+            "url": "https://www.reddit.com/r/Bernina/comments/1s40716/help_with_bernina_b570_qe_please/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c22cbde09",
+            "polarity": "positive",
+            "claim": "After two Pfaff 720s skipped stitches at the start of sewing, this owner traded up to a Bernina 570 and reports no issues.",
+            "quote": "the Bernina works great",
+            "url": "https://www.reddit.com/r/quilting/comments/1bfygt0/bernina_vs_pfaff_which_one_to_choose/kvnyxqr/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ccfdd6450",
+            "polarity": "positive",
+            "claim": "Owner reports 2.3 million stitches on a 570QE and it still sews well.",
+            "quote": "it still sews like a dream",
+            "url": "https://www.reddit.com/r/quilting/comments/1qbph1u/used_bernina_570_qe_quilters_edition/nzdhi4u/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 7,
+        "voices": 7,
+        "ownerVoices": 5,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 7
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 6
+        },
+        "years": [
+          2020,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c654bc479",
+            "polarity": "mixed",
+            "claim": "Owner says repairs are expensive but regular de-linting, cleaning and oiling should prevent problems.",
+            "quote": "Yes, expensive to repair",
+            "url": "https://www.reddit.com/r/quilting/comments/1qbph1u/used_bernina_570_qe_quilters_edition/nzd7n0l/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "walking_foot",
+        "label": "Walking foot",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 1,
+        "sources": 3,
+        "sourceClasses": [
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3,
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 2,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c077d5248",
+            "polarity": "positive",
+            "claim": "Owner used a walking foot on their Bernina 570 to quilt and sew a nylon, thinsulate, wool batting coat.",
+            "quote": "I used a walking foot plus microtex 70 needle",
+            "url": "https://www.reddit.com/r/myog/comments/1f6f8jv/i_made_a_puffy_coat/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "differential_feed",
+        "label": "Differential feed",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 2,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c3696486f",
+            "polarity": "positive",
+            "claim": "An owner of the 570 QE says the dual feed works well.",
+            "quote": "Dual feed works nicely.",
+            "url": "https://www.reddit.com/r/quilting/comments/1d95fd0/thoughts_on_the_bernina_570_qe/l7e13m9/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cab50d466",
+            "polarity": "mixed",
+            "claim": "New owner saw odd feeding at first that improved with a patchwork foot and fabric grain checks.",
+            "quote": "It seemed to be feeding weird",
+            "url": "https://www.reddit.com/r/quilting/comments/1tdcn7k/bernina_b_570_qe_piecing/olw0879/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cc7a34abb",
+            "polarity": "negative",
+            "claim": "New owner finds pieced squares not quite straight without a straight stitch plate, using the 97D foot and built-in walking foot.",
+            "quote": "I am noticing that without a straight stitch plate",
+            "url": "https://www.reddit.com/r/quilting/comments/1tdcn7k/bernina_b_570_qe_piecing/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c68580e07",
+            "polarity": "negative",
+            "claim": "Owner is unhappy with the decorative stitch selection on the 570QE.",
+            "quote": "not satisfied with the selection of decorative stitches on my 570qe",
+            "url": "https://www.reddit.com/r/Bernina/comments/1v2x62k/add_decorative_non_embroidery_stitches_to_bernina/oz5wyg3/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ccab6818d",
+            "polarity": "positive",
+            "claim": "570 owner reports reliably great buttonholes across at least 100 made.",
+            "quote": "It makes great buttonholes reliably.",
+            "url": "https://www.reddit.com/r/sewing/comments/1kjgqn5/machine_upgrade_recommendations/mro15n3/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c09624071",
+            "polarity": "negative",
+            "claim": "Owner notes a start-up noise that gets louder if the machine has not been oiled recently.",
+            "quote": "there is a noise at start-up",
+            "url": "https://www.reddit.com/r/Bernina/comments/1s40716/help_with_bernina_b570_qe_please/ocjtv07/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c262beb90",
+            "polarity": "negative",
+            "claim": "Owner with 750,000 stitches finds the quiet purr after oiling lasts only about ten minutes.",
+            "quote": "the beautiful purr it makes only lasts about 10 minutes",
+            "url": "https://www.reddit.com/r/Bernina/comments/1wfhx7g/bernina_570_oiling_chore/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c83c7fcf9",
+            "polarity": "negative",
+            "claim": "Owner finds stitch length with the regulator depends on fabric movement and runs too fast or too slow.",
+            "quote": "I either get it going too fast or too slow",
+            "url": "https://www.reddit.com/r/quilting/comments/1qbph1u/used_bernina_570_qe_quilters_edition/nzdlbix/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "learning_curve",
+        "label": "Learning curve",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c34297c8b",
+            "polarity": "negative",
+            "claim": "Owner of an inherited 570 says it has many quirks and took a long time to tune.",
+            "quote": "It has a ton of quirks",
+            "url": "https://www.reddit.com/r/quilting/comments/1o03c69/bernina_570_qe_vs_janome_6700p/ni734sj/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c247fe8ac",
+            "polarity": "mixed",
+            "claim": "570QE owner finds it a dream to sew with but so smart that settings mistakes can be hard to troubleshoot.",
+            "quote": "it's so smart that it can be difficult to troubleshoot",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1ub0xfc/bernina_bernette_janome/osu7ool/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2025,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cf97a164e",
+            "polarity": "negative",
+            "claim": "With the embroidery module used for quilting, the owner gets a thread nest at the start point of the pattern.",
+            "quote": "I keep getting a bird nest under the start point",
+            "url": "https://www.reddit.com/r/quilting/comments/1r8vfa6/bernina_570qe_embroidery_module_bird_nest_at/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "thread_trimmer",
+        "label": "Thread trimmer",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2020,
+          2020
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "value_price",
+        "label": "Value and price",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c5da6c24a",
+            "polarity": "negative",
+            "claim": "Owner says maintenance and accessories cost more on a Bernina than on other brands.",
+            "quote": "maintenance costs more",
+            "url": "https://www.reddit.com/r/quilting/comments/1o03c69/bernina_570_qe_vs_janome_6700p/ni734sj/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2023
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c50ea4245",
+            "polarity": "positive",
+            "claim": "570QE owner says it is not so large that it is hard to take to sewing events.",
+            "quote": "isn't so large it's difficult to take to sewing events",
+            "url": "https://www.reddit.com/r/quilting/comments/16oofcf/opinions_janome_memorycraft_9450_or_bernina_570qe/k1nwd5r/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/bernina-570qe.php",
+        "pageRating": 5,
+        "pageCount": 1,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "lowRated": 0,
+        "sampled": null
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "List price",
+        "juki": "$5,499 manufacturer suggested retail price, with a Find a store link.",
+        "others": "Dealers set their own price; we show a band, not a live price.",
+        "status": "dealer only",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"
+          }
+        ],
+        "field": "msrp",
+        "source": "maker-page"
+      },
+      {
+        "label": "Stitches",
+        "juki": "1,450 including alphabets (450 decorative, 25 practical, 73 quilting, 8 alphabets).",
+        "others": "Matches our spec. Dealers quoting 642 are describing the older machine.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"
+          }
+        ],
+        "field": "stitchCount",
+        "source": "maker-page"
+      },
+      {
+        "label": "Max speed",
+        "juki": "1,000 spm on the product page and in the manual technical data.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina manual p.164",
+            "url": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "maker-manual"
+      },
+      {
+        "label": "Stitch width",
+        "juki": "9 mm maximum, with the 9 mm needle plate and a suitable foot.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"
+          }
+        ],
+        "field": "maxStitchWidthMm",
+        "source": "maker-page"
+      },
+      {
+        "label": "Throat",
+        "juki": "8.5 in right of the needle (maker wording: sewing space to the right of the needle).",
+        "others": "Matches our spec. The earlier 570 QE is 7.5 in.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"
+          }
+        ],
+        "field": "throatIn",
+        "source": "maker-page"
+      },
+      {
+        "label": "Stitch regulator",
+        "juki": "BSR functionality integrated; the BSR foot is an optional accessory.",
+        "others": "Some dealer bundles include the foot and some do not; ask before buying.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"
+          }
+        ],
+        "field": "stitchRegulation",
+        "source": "maker-page"
+      },
+      {
+        "label": "Weight",
+        "juki": "Page 24.2 lb; manual 11.2 kg (25.35 lb).",
+        "others": "Our earlier figure was 27 lb from a dealer.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Bernina manual p.164",
+            "url": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"
+          }
+        ],
+        "field": "weightLb",
+        "source": "maker-manual"
+      },
+      {
+        "label": "Size (W x H x D)",
+        "juki": "Manual: 17.7 x 13.0 x 7.9 in. Page prints 18.1 x 7.9 x 12.9 in.",
+        "others": "Page and manual disagree on height and depth.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Bernina manual p.164",
+            "url": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"
+          }
+        ],
+        "field": "dimensionsIn",
+        "source": "maker-manual"
+      },
+      {
+        "label": "In the box",
+        "juki": "Seven standard feet incl. #97D, slide-on table, knee lifter, 4 bobbins. No BSR foot listed.",
+        "others": "Dealer bundles differ on BSR and extras.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina manual p.19 to 21",
+            "url": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"
+          }
+        ],
+        "field": "includedFeet",
+        "source": "maker-manual"
+      },
+      {
+        "label": "Which 570 QE",
+        "juki": "Two models share the name. Rear label 'Type: VIO' is 2017 and later; 'Type: LUN' is the earlier one.",
+        "others": "Used listings often omit the year; check the label.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina support page",
+            "url": "https://www.bernina.com/en-US/Support-US/Machines/NEW-BERNINA-5-Series/BERNINA-570-QE"
+          }
+        ],
+        "field": "generation",
+        "source": "maker-support"
+      },
+      {
+        "label": "Warranty",
+        "juki": "2 years electrical, 5 years circuit boards, 20 years mechanical parts.",
+        "others": "Same terms apply across Bernina machines in the US; not specific to this model.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "maker-warranty"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "570 QE (before 2017)",
+        "label": "Bernina 570 QE (before 2017, Type LUN)",
+        "rows": [
+          {
+            "feature": "Sewing space and width",
+            "urls": 0,
+            "classes": [],
+            "summary": "The earlier 570 QE page lists 7.5 in right of the needle, 5.5 mm width and 900 spm, against 8.5 in, 9 mm and 1,000 spm on the current model.",
+            "check": "Bernina US product pages, fetched 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Stitch library and hook",
+            "urls": 0,
+            "classes": [],
+            "summary": "The earlier page lists 642 stitch patterns including alphabets, 11 buttonholes and the CB hook, against 1,450, 16 and the BERNINA Hook now.",
+            "check": "Bernina US product pages, fetched 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Machine label",
+            "urls": 0,
+            "classes": [],
+            "summary": "Bernina's support page says the 2017 and later model carries 'Type: VIO' on the rear label and the earlier one 'Type: LUN'.",
+            "check": "Bernina US support page, fetched 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "B 770 QE",
+        "label": "Bernina 770 QE",
+        "rows": []
+      },
+      {
+        "model": "B 590",
+        "label": "Bernina 590",
+        "rows": [
+          {
+            "feature": "Stitch library size",
+            "urls": 0,
+            "classes": [],
+            "summary": "Bernina lists 1,774 stitch patterns including alphabets for the 590 and 1,450 for the 570 QE.",
+            "check": "Bernina US product pages, fetched 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Maker list price",
+            "urls": 0,
+            "classes": [],
+            "summary": "Bernina US shows a manufacturer suggested retail price of $8,499 for the 590 and $5,499 for the 570 QE.",
+            "check": "Bernina US product pages, fetched 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Quilting stitches and buttonholes",
+            "urls": 0,
+            "classes": [],
+            "summary": "Bernina lists 60 quilting stitches and 18 buttonholes or eyelets for the 590, against 73 and 16 for the 570 QE.",
+            "check": "Bernina US product pages, fetched 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Sewing space and speed",
+            "urls": 0,
+            "classes": [],
+            "summary": "Bernina lists the same 8.5 in right of the needle, 1,000 spm and 9 mm width on both pages.",
+            "check": "Bernina US product pages, fetched 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "B 540",
+        "label": "Bernina 540",
+        "rows": [
+          {
+            "feature": "Stitch library size",
+            "urls": 0,
+            "classes": [],
+            "summary": "Bernina lists 1,048 stitch patterns including alphabets for the 540 and 1,450 for the 570 QE.",
+            "check": "Bernina US product pages, fetched 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Quilting stitches and buttonholes",
+            "urls": 0,
+            "classes": [],
+            "summary": "Bernina lists 43 quilting stitches and 14 buttonholes or eyelets for the 540, against 73 and 16 for the 570 QE.",
+            "check": "Bernina US product pages, fetched 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Availability wording",
+            "urls": 0,
+            "classes": [],
+            "summary": "Bernina's 540 page carries the wording 'no longer available' and no price.",
+            "check": "Bernina US product pages, fetched 2026-10-02",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "bernina-l-850": {
+    "slug": "bernina-l-850",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 10,
+      "itemsCollected": 32,
+      "statements": 19,
+      "voices": 5,
+      "ownerVoices": 5,
+      "dateRange": [
+        2020,
+        2023
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 2,
+          "items": 24
+        },
+        "forum": {
+          "sources": 8,
+          "items": 8
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Bernina is dealer only in this catalog: no marketplace listing was found for the machine itself (Amazon search returns only machine covers and other brands), so no marketplace rating is shown."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 6,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "forum"
+        ],
+        "classVoices": {
+          "forum": 3
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cfc30dc28",
+            "polarity": "negative",
+            "claim": "Owner suspects the wooly nylon problem lies in the tubes the thread passes through to reach the loopers.",
+            "quote": "the real problem lies in the tubes the thread passes through",
+            "url": "https://sewing.patternreview.com/review/machine/7332",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "cf1154357",
+            "polarity": "positive",
+            "claim": "L850 owner likes the built-in needle threader and the pedal control for needle up and down.",
+            "quote": "I really like the needle threader",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/117617",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "c502bfe6b",
+            "polarity": "positive",
+            "claim": "Expert-level owner is very happy with Bernina's air-threaded serger after nine months.",
+            "quote": "air-threaded serger, and I have been very happy with it",
+            "url": "https://sewing.patternreview.com/review/machine/7463",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 5,
+        "voices": 3,
+        "ownerVoices": 2,
+        "sources": 3,
+        "sourceClasses": [
+          "forum"
+        ],
+        "classVoices": {
+          "forum": 3
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": null,
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c3218b01d",
+            "polarity": "positive",
+            "claim": "L850 owner says it is quieter than her old Baby Lock and hums along without bouncing.",
+            "quote": "it just hums along with no bouncing",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/117617",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "cfbf2cdcc",
+            "polarity": "positive",
+            "claim": "New L850 owner is impressed by how quiet it is, coming from a compact Baby Lock.",
+            "quote": "i am so impressed with how quiet it is",
+            "url": "https://sewing.patternreview.com/review/machine/7238",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "forum"
+        ],
+        "classVoices": {
+          "forum": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c73da7df2",
+            "polarity": "positive",
+            "claim": "Owner likes that the presser foot swings out when lifted.",
+            "quote": "Love that the foot swings out when lifted.",
+            "url": "https://sewing.patternreview.com/review/machine/7463",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "c5e502c3d",
+            "polarity": "positive",
+            "claim": "Prospective buyer who tried the L850 likes the knee lift and the way the foot swings out.",
+            "quote": "I love the knee lift, and the way the foot swings out.",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/121627",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "forum"
+        ],
+        "classVoices": {
+          "forum": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cb67906d1",
+            "polarity": "positive",
+            "claim": "L850 owner says stitches are beautiful and everything can be adjusted precisely, unlike guesswork on her old Baby Lock.",
+            "quote": "everything can be adjusted to perfection",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/117617",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "c355d7995",
+            "polarity": "positive",
+            "claim": "Owner likes adjusting tension herself and does not want auto tension.",
+            "quote": "love the ability to adjust tension my self",
+            "url": "https://sewing.patternreview.com/review/machine/7463",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "forum"
+        ],
+        "classVoices": {
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "forum"
+        ],
+        "classVoices": {
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "forum"
+        ],
+        "classVoices": {
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c9835eb41",
+            "polarity": "positive",
+            "claim": "New L850 owner describes the machine as substantial and stable, not shifting at top speed.",
+            "quote": "it doesn't budge even at top speed",
+            "url": "https://sewing.patternreview.com/review/machine/7238",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "forum"
+        ],
+        "classVoices": {
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [],
+    "documentChecks": [
+      {
+        "label": "Stitches",
+        "juki": "18 stitch variations (flyer and page).",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/Bernina/media/products/Overlocker/L%20850/BERNINA_L850_Flyer_EN-US_v3_low-res.pdf"
+          }
+        ],
+        "field": "stitchCount",
+        "source": "flyer"
+      },
+      {
+        "label": "Stitch variations",
+        "juki": "18, with picot, narrow seam, wrapped overlock and blanket stitch in the list.",
+        "others": "Dealer copy we used lists the 2-thread group as overlock, flatlock and rolled hem only.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/Bernina/media/products/Overlocker/L%20850/BERNINA_L850_Flyer_EN-US_v3_low-res.pdf"
+          }
+        ],
+        "field": "stitchTypes",
+        "source": "flyer"
+      },
+      {
+        "label": "Speed",
+        "juki": "Up to 1,500 stitches per minute (400 minimum).",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "manual"
+      },
+      {
+        "label": "Space right of needle",
+        "juki": "5 5/8 in (143 mm) to the right of the needle, 3 3/8 in (86 mm) workspace height.",
+        "others": "Dealers quote the same figures.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/Bernina/media/products/Overlocker/L%20850/BERNINA_L850_Flyer_EN-US_v3_low-res.pdf"
+          }
+        ],
+        "field": "throatIn",
+        "source": "flyer"
+      },
+      {
+        "label": "Weight",
+        "juki": "27.1 lb (12.3 kg).",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
+          }
+        ],
+        "field": "weightLb",
+        "source": "manual"
+      },
+      {
+        "label": "Dimensions",
+        "juki": "43 x 28 x 35 cm (16.9 x 11.0 x 13.8 in) without thread stand.",
+        "others": "A dealer listing gave 18 x 13 x 16 in.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
+          }
+        ],
+        "field": "dimensionsIn",
+        "source": "manual"
+      },
+      {
+        "label": "Warranty",
+        "juki": "2 years electrical, 5 years circuit boards, 20 years mechanical parts; parts only, no labor.",
+        "others": "A dealer page adds a 1 year service warranty, which is the dealer's own.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "warranty"
+      },
+      {
+        "label": "Price",
+        "juki": "$3,999 MSRP.",
+        "others": "Dealer promotions run below MSRP.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Bernina source",
+            "url": "https://www.bernina.com/en-US/Machines-US/Overlocker/Serger/BERNINA-L-850"
+          }
+        ],
+        "field": "price",
+        "source": "page"
+      },
+      {
+        "label": "Where to buy",
+        "juki": "Bernina sells through dealers; the page links to a store locator.",
+        "others": "No Amazon or marketplace listing for the machine itself was found.",
+        "status": "dealer only",
+        "links": [
+          {
+            "label": "Bernina store locator",
+            "url": "https://www.bernina.com/en-US/Where-to-Buy-US/Store-Locator"
+          }
+        ],
+        "field": "availability",
+        "source": "page"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "L 860",
+        "label": "Bernina L 860",
+        "rows": [
+          {
+            "feature": "Touchscreen and list price",
+            "urls": 0,
+            "classes": [],
+            "summary": "Bernina lists the L 860 with a 4.3 in color touch screen and guided mode at a $4,999 MSRP; stitch count (18), speed (1,500 spm) and space right of the needle (5 5/8 in) match the L 850. It weighs 28.9 lb against the L 850's 27.1 lb.",
+            "check": "Bernina L 860 product page, Bernina US, bernina.com, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "L 890",
+        "label": "Bernina L 890",
+        "rows": [
+          {
+            "feature": "Coverstitch combo",
+            "urls": 0,
+            "classes": [],
+            "summary": "The L 890 is Bernina's overlock/coverstitch combo: 27 stitches, 4.3 in touch screen, 1,350 spm maximum (below the L 850's 1,500), 29.5 lb, $8,749 MSRP. Space right of the needle is 5 5/8 in as on the L 850.",
+            "check": "Bernina L 890 product page, Bernina US, bernina.com, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "L 460",
+        "label": "Bernina L 460",
+        "rows": [
+          {
+            "feature": "Entry L series",
+            "urls": 0,
+            "classes": [],
+            "summary": "Bernina lists the L 460 with 16 stitches, 1,500 spm, a manual needle threader, 5-step presser foot pressure, 2 in right of the needle and a $1,999 MSRP. It has no air threader.",
+            "check": "Bernina L 460 product page, Bernina US, bernina.com, 2026-10-02",
+            "examples": []
           }
         ]
       }
@@ -4736,6 +6955,792 @@ export const rollupData: Record<string, Rollup> = {
         ]
       }
     ]
+  },
+  "brother-2340cv": {
+    "slug": "brother-2340cv",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 24,
+      "itemsCollected": 213,
+      "statements": 66,
+      "voices": 46,
+      "ownerVoices": 38,
+      "dateRange": [
+        2011,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 2,
+          "items": 53
+        },
+        "reddit": {
+          "sources": 22,
+          "items": 159
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.3 from 1,204 ratings is shared by several listings of this machine (pooled variations), and only 13 written reviews were readable, so treat the average as a rating of the pooled listing rather than of one seller."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 19,
+        "voices": 18,
+        "ownerVoices": 17,
+        "sources": 12,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 6,
+          "reddit": 12
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 14,
+          "mixed": 2,
+          "neutral": 0
+        },
+        "years": [
+          2012,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c0eba3752",
+            "polarity": "negative",
+            "claim": "Writer had the machine for a week with problems and it was returned.",
+            "quote": "Nothing but problems",
+            "url": "https://www.reddit.com/r/sewing/comments/hdu1ne/sewing_machine_for_my_wife_help/fvn8jvp/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cd09b5f09",
+            "polarity": "negative",
+            "claim": "Owner of the same machine finds going over seams difficult and the machine fussy overall.",
+            "quote": "Going over seams sucks",
+            "url": "https://www.reddit.com/r/sewing/comments/1igoh16/coverstitch_machine_is_angry_about_going_over/mar4njp/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c2a5e2d80",
+            "polarity": "positive",
+            "claim": "Studio owner reports no issues and easy setup.",
+            "quote": "I have not had any issues and it was very easy to set up",
+            "url": "https://www.amazon.com/dp/B005GXPO70",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c2d44a4b3",
+            "polarity": "mixed",
+            "claim": "Buyer finds the machine fussy and needing patience, but it has worked well.",
+            "quote": "The machine is a bit fussy but has worked well",
+            "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 10,
+        "voices": 10,
+        "ownerVoices": 10,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 7,
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 7,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2013,
+          2024
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ce3ac8d15",
+            "polarity": "negative",
+            "claim": "Three-star buyer found threading not intuitive.",
+            "quote": "not intuitive threading",
+            "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cfb2168ec",
+            "polarity": "negative",
+            "claim": "New owner cannot fit the spool cap over a Gutermann spool when using the spool pad for non-cone thread.",
+            "quote": "if I use the spool pad I can't actually get the spool cap on",
+            "url": "https://www.reddit.com/r/sewing/comments/1cxzdg2/coverstich_with_nonconed_thread/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cdf354686",
+            "polarity": "positive",
+            "claim": "Buyer says threading is easy.",
+            "quote": "It is so easy to thread.",
+            "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cae0a1e96",
+            "polarity": "positive",
+            "claim": "Owner says it is easier to thread than a serger.",
+            "quote": "It's easier to thread than a serger.",
+            "url": "https://www.reddit.com/r/sewing/comments/6x519x/need_help_picking_a_coverstitch_machine_brother/dmfbpui/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cf287ae47",
+            "polarity": "mixed",
+            "claim": "Owner solved the spool height problem by winding two bobbins for the top thread and using the spool caps.",
+            "quote": "winding 2 bobbins for the top thread, placing them on the spindles",
+            "url": "https://www.reddit.com/r/sewing/comments/1cxzdg2/coverstich_with_nonconed_thread/l58vqpb/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 7,
+        "voices": 7,
+        "ownerVoices": 7,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 6,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 6,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2012,
+          2022
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c6ef2e042",
+            "polarity": "negative",
+            "claim": "Owner found the thread tension tight, which made releasing fabric from under the presser foot awkward until they learned the release steps from a video.",
+            "quote": "the thread tension really is tight",
+            "url": "https://www.amazon.com/dp/B005GXPO70",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cca651cda",
+            "polarity": "negative",
+            "claim": "Buyer says adjustments are needed for every fabric.",
+            "quote": "adjustments needed for every fabric",
+            "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cfe57ef49",
+            "polarity": "mixed",
+            "claim": "Owner finds the settings forgiving but removing the garment from the machine is the trickiest part.",
+            "quote": "The trickiest part is removing the garment from the machine",
+            "url": "https://www.reddit.com/r/sewing/comments/6x519x/need_help_picking_a_coverstitch_machine_brother/dmfbpui/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 8,
+        "voices": 7,
+        "ownerVoices": 7,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 3,
+          "mixed": 2,
+          "neutral": 0
+        },
+        "years": [
+          2012,
+          2024
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cfa057305",
+            "polarity": "negative",
+            "claim": "New unit would not form a two-thread chain stitch because the threads did not catch each other, though cover stitches worked.",
+            "quote": "the threads don't catch each other",
+            "url": "https://www.reddit.com/r/sewing/comments/fb4r8f/my_brother_2340cv_wont_do_the_two_thread_chain/fj29r5j/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ce95145d0",
+            "polarity": "negative",
+            "claim": "Owner can chain off only about an inch before the thread fails and knots.",
+            "quote": "will chain off for about and inch and then fails to continue",
+            "url": "https://www.reddit.com/r/sewing/comments/1c1mqwt/chaining_off_with_a_coverstitch_machine/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c2b689e9f",
+            "polarity": "positive",
+            "claim": "Same buyer found it reliable with evenly spaced coverstitch seams.",
+            "quote": "always producing evenly- spaced coverstitch seams",
+            "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c3889b95b",
+            "polarity": "positive",
+            "claim": "Owner finds the coverstitch the stretchiest hem they have managed at home, including on fleece.",
+            "quote": "the stitch is the STRETCHIEST I've ever been able to do at home",
+            "url": "https://www.amazon.com/dp/B005GXPO70",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c5c1e7163",
+            "polarity": "mixed",
+            "claim": "Owner says the triple cover hem uses a lot of thread and suits more substantial fabrics.",
+            "quote": "the triple cover hem puts a LOT of thread in your project",
+            "url": "https://www.amazon.com/dp/B005GXPO70",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cd5d2d8c8",
+            "polarity": "mixed",
+            "claim": "Owner found the three-needle stitch does not fully recover until stretched the other way, later concluding this is normal for coverstitch.",
+            "quote": "it doesn't recover completely until the fabric is stretched the other way (90 deg)",
+            "url": "https://www.reddit.com/r/sewing/comments/bij1gb/4_thread_coverstitch_stays_stretched/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 1,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2019,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c10a9d0fc",
+            "polarity": "negative",
+            "claim": "Owner says the machine is hem-only because of the limited space between the sewing head and the body.",
+            "quote": "limited space between the sewing head and machine body",
+            "url": "https://www.amazon.com/dp/B005GXPO70",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 2,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2018,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c35afeece",
+            "polarity": "negative",
+            "claim": "Owner found the part that fell out of the foot lever assembly is plastic and cracked.",
+            "quote": "It's plastic and cracked",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1tlmqyv/the_pressure_foot_lever_on_my_brother_2340cv_has/ongzb1u/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c1d7848d2",
+            "polarity": "positive",
+            "claim": "Owner says the machine feels solid and stays put on the table while sewing.",
+            "quote": "The machine feels solid and doesn't creep around my table when sewing.",
+            "url": "https://www.amazon.com/dp/B005GXPO70",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cab0d595a",
+            "polarity": "negative",
+            "claim": "Owner says the machine shipped with denim needles that shred stretch fabric and swaps to jersey needles.",
+            "quote": "They came with denim needles in mine and that will shred stretch fabric",
+            "url": "https://www.amazon.com/dp/B005GXPO70",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "cutting_trimming",
+        "label": "Cutting and trimming",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2020,
+          2020
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c003eb02e",
+            "polarity": "negative",
+            "claim": "New owner found the machine does not trim the edge while sewing.",
+            "quote": "it doesn't cut the edge while serging",
+            "url": "https://www.reddit.com/r/sewing/comments/i0yqmy/is_a_knife_blade_not_standard_in_all_serger/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2022,
+          2022
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c6b8a0080",
+            "polarity": "negative",
+            "claim": "Owner notes the machine has no auto threading and no LED lights.",
+            "quote": "No auto threading, no LED lights",
+            "url": "https://www.amazon.com/dp/B005GXPO70",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2018,
+          2018
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c0e9a261b",
+            "polarity": "positive",
+            "claim": "Owner finds the machine so fast it keeps pace with however fast fabric is fed.",
+            "quote": "It can stitch as fast as you can feed it.",
+            "url": "https://www.amazon.com/dp/B005GXPO70",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "thread_trimmer",
+        "label": "Thread trimmer",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2022,
+          2022
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cbe79887a",
+            "polarity": "negative",
+            "claim": "Buyer notes there is no built-in thread cutter.",
+            "quote": "no build-in thread cutter",
+            "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2018,
+          2018
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c2458e3c9",
+            "polarity": "negative",
+            "claim": "Buyer says a loose belt made the machine very loud at first.",
+            "quote": "it was crazy loud",
+            "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2017,
+          2017
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c1a2e0577",
+            "polarity": "positive",
+            "claim": "Owner finds the machine surprisingly unfussy and good for hems on knits.",
+            "quote": "This machine is surprisingly unfussy and does a great job",
+            "url": "https://www.reddit.com/r/sewing/comments/6x519x/need_help_picking_a_coverstitch_machine_brother/dmdipt1/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 2,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B005GXPO70",
+        "pageRating": 4.3,
+        "pageCount": 1204,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 2,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 10
+        },
+        "lowRated": 2,
+        "sampled": "13 top reviews (8 US, 5 other countries) of 1204 ratings"
+      },
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+        "pageRating": 4.72,
+        "pageCount": 40,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 4,
+          "5": 33
+        },
+        "lowRated": 3,
+        "sampled": null
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "juki": "Product page: 1,100 spm maximum. User's Guide: 1,000 spm.",
+        "others": "Our spec uses the page figure, 1,100.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/2340cv"
+          },
+          {
+            "label": "Brother User's Guide",
+            "url": "https://download.brother.com/welcome/doch000104/2340cv_ug02enes.pdf"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "page"
+      },
+      {
+        "label": "Stitch length",
+        "juki": "2 to 4 mm by dial.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/2340cv"
+          },
+          {
+            "label": "Brother User's Guide",
+            "url": "https://download.brother.com/welcome/doch000104/2340cv_ug02enes.pdf"
+          }
+        ],
+        "field": "stitchLengthMm",
+        "source": "page"
+      },
+      {
+        "label": "Weight",
+        "juki": "User's Guide: machine net weight 7.0 kg (about 15.4 lb).",
+        "others": "Retailer listing: 16.7 lb.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother User's Guide",
+            "url": "https://download.brother.com/welcome/doch000104/2340cv_ug02enes.pdf"
+          }
+        ],
+        "field": "weightLb",
+        "source": "manual"
+      },
+      {
+        "label": "Warranty",
+        "juki": "Product page: '1/5/25 Year Limited Serger Warranty'. Linked PDF: 1 year, Latin America and Caribbean territories.",
+        "others": "Dealer listing: 25 yr chassis, 6 yr electronics, 2 yr parts and labor.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/2340cv"
+          },
+          {
+            "label": "Linked warranty PDF",
+            "url": "https://assets.brother.com/asset/950eb4ac-ebc2-426a-93dc-a6bc29ea9e32/6015_International-Warranty-LAD-Final-pdf.pdf"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "page"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "CV3440",
+        "label": "Brother CV3440",
+        "rows": [
+          {
+            "feature": "Tension release and free arm",
+            "urls": 0,
+            "classes": [],
+            "summary": "Brother lists a one-touch lever tension release and a free arm on the CV3440. The 2340CV page, manual and brochure list neither.",
+            "check": "Brother CV3440 and 2340CV product pages, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Speed and thread cutter",
+            "urls": 0,
+            "classes": [],
+            "summary": "The CV3440 page lists 1000 maximum sewing speed and a thread cutter; the 2340CV page lists 1,100 and its manual says 1,000.",
+            "check": "Brother product pages and 2340CV User's Guide, 2026-10-02",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
   },
   "brother-st371hd": {
     "slug": "brother-st371hd",
