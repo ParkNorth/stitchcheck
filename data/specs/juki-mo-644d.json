@@ -10,7 +10,7 @@
   ],
   "manufacturerUrl": "https://www.jukihome.com/products/serging/mo-644d.html",
   "retailerUrl": "https://www.sewingmachinesplus.com/juki-MO-644D.php",
-  "priceUsdSeen": 449.0,
+  "priceUsdSeen": 449,
   "priceSeenDate": "2026-09-29",
   "priceSeenAt": "Michaels",
   "specs": {
@@ -31,8 +31,8 @@
       "source": "https://www.jukihome.com/products/serging/mo-644d.html"
     },
     "differentialFeed": {
-      "value": "Yes, ratio published as 0.7 to 2.0; dial on the left side",
-      "source": "https://jukijunkies.com/juki-mo-644d-serger/"
+      "value": "Yes, ratio published as 0.7 to 2.0; dial side unconfirmed (Juki page says exterior right, owner and dealer copy say left)",
+      "source": "https://www.jukihome.com/products/serging/mo-644d.html"
     },
     "throatIn": {
       "value": null,
@@ -43,15 +43,15 @@
       "source": "https://www.manualslib.com/manual/675244/Juki-Mo-644d.html"
     },
     "presserFootLift": {
-      "value": null,
-      "source": null
+      "value": "5 mm (0.2 in)",
+      "source": "https://www.jukihome.com/products/serging/mo-644d.html"
     },
     "threadTrimmer": {
       "value": null,
       "source": null
     },
     "feedSystem": {
-      "value": "Differential feed; upper knife; no free arm",
+      "value": "Differential feed; upper knife",
       "source": "https://jukijunkies.com/juki-mo-644d-serger/"
     },
     "buttonhole": {
@@ -67,28 +67,28 @@
       "source": null
     },
     "weightLb": {
-      "value": 15.0,
+      "value": 15,
       "source": "https://jukijunkies.com/juki-mo-644d-serger/"
     },
     "dimensionsIn": {
-      "value": "13.4 x 10.6 x 11.6",
-      "source": "https://www.manualslib.com/manual/675244/Juki-Mo-644d.html"
+      "value": "Juki page: 10.6 W x 13.5 H x 11.5 D in. Juki catalog: 270 W x 340 D x 295 H mm. The two Juki documents label height and depth differently",
+      "source": "https://www.jukihome.com/products/serging/mo-644d.html"
     },
     "includedFeet": {
       "value": "Standard (multipurpose) snap-on presser foot, screwdriver, spool caps, oiler, thread nets, tweezers, needles, brush and needle inserter, light bulb, looper threader, accessory pouch, vinyl cover, foot control, manual",
       "source": "https://www.premierstitching.com/juki-mo-644d-garnet-series-serger/"
     },
     "warrantyUs": {
-      "value": "5 yr mechanical, 2 yr electrical, 90 days labor (dealer statement of Juki warranty); consumables excluded",
-      "source": "https://www.premierstitching.com/juki-mo-644d-garnet-series-serger/"
+      "value": "Juki America FAQ (generic for home machines, not model-specific): 2 years on motors, light assembly, wiring, switches, circuit boards and speed control; 5 years on other parts for factory defects; service through the selling dealer",
+      "source": "https://www.jukihome.com/faq/"
     },
     "stitchWidthMm": {
       "value": "Left needle 6, right needle 4, rolled hem 2",
       "source": "https://worldofsewing.com/machines/overlocking-machines/juki/juki-mo-644d/"
     },
     "stitchLengthMm": {
-      "value": "1 to 4 (standard 2.5); rolled hem 1.5",
-      "source": "https://worldofsewing.com/machines/overlocking-machines/juki/juki-mo-644d/"
+      "value": "1 to 4 (standard 2.5); rolled hem stitch length not confirmed by Juki for this model",
+      "source": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
     },
     "threadingSystem": {
       "value": "Manual lay-in with color-coded guides; lower looper threaded through the front door",
@@ -99,20 +99,25 @@
       "source": "https://www.jukihome.com/products/serging/mo-644d.html"
     },
     "freeArm": {
-      "value": "No",
-      "source": "https://jukijunkies.com/juki-mo-644d-serger/"
+      "value": null,
+      "source": null
     }
   },
   "claims": [
-    "\"Garnet Line\" is a dealer and Juki America series name for this serger tier, not a grade (dealer listings, Sewing Machines Plus and Ken's)",
-    "\"Rolled hem conversion is built in with no need to change the needle plate\" (manufacturer claim, product page)",
-    "\"Relatively lightweight and easy to move around\" (owner and dealer copy)"
+    "\"Heavy Duty Knife System\" (Juki marketing wording, product page)",
+    "\"Tension: Industrial Type Dial\" (Juki marketing wording, product page)",
+    "\"Easy-to-operate, durable and dependable\" (Juki marketing wording, product page)",
+    "\"Flip and roll\" rolled hem with no needle plate or foot change (Juki marketing wording, product page)",
+    "\"Garnet Line\" is a dealer and Juki America series name, not a grade"
   ],
   "conflicts": [
-    "Differential feed: one dealer prints the ratio as '0.07 : 2.0'; every other source and the 654DE sibling say 0.7 to 2.0. Treated as a typo; catalog uses 0.7 to 2.0.",
-    "Weight: 7.0 kg is the published figure and 15 lb is the dealer conversion (7.0 kg is 15.4 lb). Catalog uses 15.0 lb as printed and notes the rounding.",
-    "Threads: Ken's titles the machine '3/4 Thread' while Juki says 2/3/4 thread. The 2-thread stitches require a separately sold converter on this model, which explains the shorter description.",
-    "Price: $449.00 (Michaels) vs $473.60 total (Prizzi). Sewing Machines Plus lists the machine on two URLs but no price appeared in snippets. Catalog uses $449.00."
+    "Price: Juki prints a suggested retail price of $1,199 on its page, while $449 was seen at Michaels on 2026-09-29; the site shows a price band and records the seen price only in the Last seen line.",
+    "Differential dial side: Juki's page puts the dial on the exterior right hand side, while owner and dealer copy (our earlier spec) put it on the left; the manual text gives no side, so neither is confirmed.",
+    "Dimensions: Juki's page gives 10.6 W x 13.5 H x 11.5 D in, while the catalog gives 270 W x 340 D x 295 H mm; the documents disagree on which axis is height and which is depth, so treat size as soft.",
+    "Warranty: Juki's FAQ gives 2 years on electrical parts and 5 years on other parts and says nothing of 90 days labor, which a dealer statement added; the FAQ wording is generic, not specific to the MO-644D.",
+    "Free arm: our earlier spec said no free arm, taken from an owner site, but Juki's page, catalog and manual do not state it either way, so the value is now [verify].",
+    "Rolled hem stitch length: our earlier spec had 1.5 mm, but the Juki catalog does not separately state a figure for this model, so it is unconfirmed.",
+    "Manual: the manual linked from Juki's MO-644D page is titled MO-644DN/654DEN and lists a 220-240 V foot control, so it is a close relative and not the same document as this model's own manual."
   ],
   "ownerThemes": [
     {
@@ -179,76 +184,88 @@
     "https://sewing.patternreview.com/review/machine/6667",
     "https://sewing.patternreview.com/SewingDiscussions/topic/95466",
     "https://sewing.patternreview.com/SewingDiscussions/topic/121187",
-    "https://www.artisanstitch.co.uk/juki-mo-644d-overlocker-review/"
+    "https://www.artisanstitch.co.uk/juki-mo-644d-overlocker-review/",
+    "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf",
+    "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_1.pdf",
+    "https://www.jukihome.com/faq/",
+    "https://www.jukihome.com/products/serging/mo-654de.html",
+    "https://www.amazon.com/dp/B0014134IO"
   ],
   "editorial": {
-    "verdict": "The MO-644D is Juki's entry serger: 1,500 spm, differential feed and a built-in rolled hem at the Brother 1034D price tier, with the 2-thread converter and outside dials held back for the 654DE.",
-    "whoFor": "A first-serger buyer who wants Juki build and a 5-year mechanical warranty for light to medium fabrics and does not need 2-thread stitches out of the box.",
-    "skipIf": "You want 2-thread overcast without buying a converter, you need a free arm, or you will regularly serge multiple heavy layers.",
+    "verdict": "Juki's entry serger on paper: 2/3/4 thread, 1,500 spm, differential feed and a built-in rolled hem, with the 2-thread converter sold separately.",
+    "whoFor": "A first-serger buyer who wants a Juki 2/3/4 thread machine with differential feed for light to medium fabrics and will buy the 2-thread converter only if needed.",
+    "skipIf": "You want 2-thread stitches in the box, you need a published throat or free arm figure, or you plan to serge heavy layers all day.",
     "keySpec": "2/3/4 thread · differential feed 0.7 to 2.0 · 1,500 spm · 15 lb",
     "strengths": [
-      "1,500 spm and differential feed at an entry price.",
-      "Built-in rolled hem with no needle plate change.",
-      "Owners describe stable tension and predictable feed with little fiddling."
+      "Juki publishes 1,500 spm, a 0.7 to 2.0 differential ratio and a built-in rolled hem that needs no needle plate change.",
+      "Owners report that threading is mostly manageable: 5 of 10 voices on threading and loopers were positive, and one retailer review says it arrived threaded.",
+      "Juki's catalog lists the 2/3 thread converter as optional here and standard on the MO-654DE, so the step-up difference is clear on paper."
     ],
     "weaknesses": [
-      "2-thread stitches need a separately sold converter; the 654DE includes it.",
-      "Stitch length dial sits inside the looper door and the differential dial on the left, both less handy than the 654DE layout.",
-      "No free arm, and Juki's page does not publish presser foot lift or stitch count in the results captured."
+      "2-thread stitches need the optional converter, which is not in Juki's standard accessory list.",
+      "Owners report chain-stitch and lockup failures in some units; the reliability theme has 8 voices, split between praise and problems.",
+      "Juki does not publish throat space, stitch count or a thread trimmer, and its dial side and size documents disagree."
     ],
     "checks": [
       {
         "title": "644D or 654DE",
-        "body": "The 654DE adds the 2-thread converter, moves both dials outside on the right and adds a lower looper lever. If the price gap is under about $100, most owners recommend the step up."
+        "body": "Juki's catalog lists the converter as standard on the MO-654DE and optional on the MO-644D. Price the converter before deciding."
       },
       {
-        "title": "Bonus kits",
-        "body": "Ken's and marketplace listings add feet, cones and DVDs. The Juki box has one multipurpose foot and basic tools. Price the base machine first."
+        "title": "Differential dial side",
+        "body": "Juki's page says exterior right, while owner and dealer copy say left. The manual text does not settle it, so look at the machine at the dealer."
       },
       {
-        "title": "Where you buy sets the warranty",
-        "body": "Dealer copy quotes 5 years mechanical, 2 years electrical, 90 days labor, consumables excluded. Confirm the seller is an authorized Juki dealer."
+        "title": "Manual and warranty",
+        "body": "The linked manual is the MO-644DN/654DEN edition, and Juki's warranty wording is generic for home machines. Ask the seller for the terms that apply to this unit."
       }
     ],
     "realCost": [
+      "2/3 thread converter, optional per Juki's catalog",
       "4 cones of serger thread",
-      "2-thread converter if you want overcast and 2-thread rolled hems",
-      "130/705H household needles",
-      "Serger oil",
-      "Spare upper and lower knives over time"
+      "Household needles (Juki lists HAx1 sizes 11 to 14; the manual names 130/705H)",
+      "Serger oil, which is in the box as an oiler"
     ],
     "faqs": [
       {
         "q": "What is the difference between the Juki MO-644D and MO-654DE?",
-        "a": "Same 2/3/4 thread, 1,500 spm platform. The 654DE includes the 2-thread converter, puts the differential and stitch length dials outside on the right, adds a lower looper lever and is rated by owners for heavier layers. The 644D costs less."
+        "a": "Juki's catalog lists the 2/3 thread converter as optional on the MO-644D and standard on the MO-654DE. The 654DE page also lists a lower looper threader, and Juki prints a higher suggested retail price for it."
       },
       {
         "q": "Does the MO-644D do 2-thread stitches?",
-        "a": "Yes, but only with the 2-thread converter, which is sold separately for this model."
+        "a": "Juki's page lists 2/3/4 thread, but the catalog lists the 2/3 thread converter as optional, so 2-thread stitches need that converter."
       },
       {
         "q": "Can the MO-644D do a rolled hem?",
-        "a": "Yes. Juki says the rolled hem is built in with no needle plate change; published rolled hem width is 2 mm."
+        "a": "Juki says rolled hemming is built in, with no needle plate or foot change. Juki publishes a 2 mm rolled hem width; the rolled hem stitch length is not confirmed for this model."
       },
       {
         "q": "Does the MO-644D have a free arm?",
-        "a": "No."
+        "a": "[verify] Juki's page, catalog and manual do not state it either way. An owner site says no."
       },
       {
         "q": "What needles does the MO-644D use?",
-        "a": "Standard 130/705H household needles in both positions, per the instruction manual."
+        "a": "Juki's page lists household HAx1 needles in sizes 11 to 14. The linked manual, a related MO-644DN/654DEN edition, names 130/705H, the same household family."
       },
       {
         "q": "How heavy is the MO-644D?",
-        "a": "Juki publishes 7.0 kg, which dealers round to 15 lb."
+        "a": "Juki's page and catalog give 15 lb; the manual gives 7.0 kg."
       },
       {
         "q": "How fast is the MO-644D?",
-        "a": "Up to 1,500 stitches per minute."
+        "a": "Juki publishes a maximum of 1,500 stitches per minute."
+      },
+      {
+        "q": "How big is the MO-644D?",
+        "a": "Juki's page gives 10.6 W x 13.5 H x 11.5 D in, while its catalog labels height and depth the other way round, so treat size as soft. Throat space is not published."
+      },
+      {
+        "q": "What do buyers rate it at the retailer?",
+        "a": "Amazon shows 4.4 from 632 ratings for the MO644D listing. Sewing Machines Plus shows 4.82 from 34 reviews, but that count is pooled across models, so it is not a rating for this machine."
       },
       {
         "q": "Is the MO-644D good for beginners?",
-        "a": "Owners call it forgiving on tension and feed. Threading the lower looper is manual and is the one step most owners say takes practice."
+        "a": "Owners report mixed experiences with threading: some call it easy and others had thread breakage or chaining trouble. Juki calls it easy to operate, which is a maker claim."
       }
     ]
   }

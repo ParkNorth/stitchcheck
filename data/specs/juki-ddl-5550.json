@@ -24,7 +24,7 @@
     },
     "maxSpm": {
       "value": 5500,
-      "source": "https://www.goldstartool.com/juki-ddl-5550n-high-speed-single-needle-lockstitch-industrial-sewing-machine-with-table-and-servo-motor.htm"
+      "source": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
     },
     "threads": {
       "value": null,
@@ -39,16 +39,16 @@
       "source": null
     },
     "needleSystem": {
-      "value": "DBx1, size 14 at delivery, range 9 to 18",
-      "source": "https://www.goldstartool.com/juki-ddl-5550n-high-speed-single-needle-lockstitch-industrial-sewing-machine-with-table-and-servo-motor.htm"
+      "value": "DBx1, size 14 at delivery, range 9 to 18 on the base N (NA: DAx1 size 9 to 11; NH: DBx1 size 20 to 23, size 21 at delivery)",
+      "source": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf"
     },
     "presserFootLift": {
-      "value": "5.5 mm by hand, 13 mm by knee (knee lifter on stand)",
-      "source": "https://www.goldstartool.com/juki-ddl-5550n-high-speed-single-needle-lockstitch-industrial-sewing-machine-with-table-and-servo-motor.htm"
+      "value": "5.5 mm by hand, 13 mm by knee lifter (standard knee lift 10 mm, adjustable to a 13 mm maximum)",
+      "source": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf"
     },
     "threadTrimmer": {
-      "value": "None on DDL-5550 and DDL-5550N; automatic trimmer is the DDL-5550N-7 variant",
-      "source": "https://www.amazon.com/ask/questions/TxWL36Z3HDS0KS/"
+      "value": "None on the base DDL-5550N; automatic thread trimmer on the DDL-5550N-7 only",
+      "source": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
     },
     "feedSystem": {
       "value": "Drop feed; max stitch length 5 mm; needle bar stroke 30.7 mm",
@@ -83,34 +83,38 @@
       "source": null
     },
     "stitchLengthMm": {
-      "value": 5,
-      "source": "https://www.goldstartool.com/juki-ddl-5550n-high-speed-single-needle-lockstitch-industrial-sewing-machine-with-table-and-servo-motor.htm"
+      "value": "5 on the base DDL-5550N and NH; 4 on the NA and the DDL-5550N-7",
+      "source": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
     },
     "needleBarStrokeMm": {
       "value": 30.7,
-      "source": "https://www.manualslib.com/manual/826493/Juki-Ddl-5550n.html?page=3"
+      "source": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
     },
     "lubrication": {
       "value": "Automatic, oil pan; Juki New Defrix Oil No. 1 (ISO VG7 equivalent)",
       "source": "https://www.manualslib.com/manual/826493/Juki-Ddl-5550n.html?page=3"
     },
     "countryOfManufacture": {
-      "value": "Japan (per Juki correspondence quoted in an Amazon Q&A; dealer listings say Made in Japan)",
-      "source": "https://www.amazon.com/ask/questions/TxWL36Z3HDS0KS/"
+      "value": null,
+      "source": null
     }
   },
   "claims": [
-    "\"High-speed, 1-needle lockstitch machine\" (manufacturer description, catalog PDF)",
+    "\"Thread take-up mechanism, feed mechanism, thread paths and hook have been further improved to enhance responsiveness to material changes and to ensure consistent stitch quality\" (Juki product page)",
+    "\"Higher lift of the presser foot\" (Juki product page)",
+    "\"Sure thread trimming mechanism\" (Juki product page, DDL-5550N-7)",
+    "Control box \"resistant to voltage fluctuations, noise and vibration\" (Juki product page, SC-920C)",
     "\"Suitable for light to medium-heavy materials\" (dealer copy, GoldStar Tool)",
-    "\"Table Comes Assembled\" and \"fully assembled 48 x 20 in table\" (dealer claims, Westchester Sewing Machine, Carolina Forest Vac and Sew)",
     "\"Runs quieter than traditional clutch motors\" (dealer claim about the bundled servo motor, GoldStar Tool)"
   ],
   "conflicts": [
-    "Model name: the DDL-5550 is sold today as the DDL-5550N; listings mix the two names. Sub-variants: 5550NA (light materials), 5550NH (heavy materials, size 21 needle, 13 mm knee lift), 5550N-7 (automatic thread trimmer). Catalog treats DDL-5550 and DDL-5550N as one entry and says so.",
-    "Speed: 5,500 spm is the medium-weight figure; the Juki catalog lists 4,000 spm for light and heavy-weight setups. Catalog will use 5,500 with a note.",
-    "Head weight: one dealer snippet states 75 lb (about 34 kg) but the snippet could not be tied to a single page; the Juki catalog field 'Total weight' was not captured. Left null pending a live catalog check.",
-    "Price: $1,265.99 (Walmart, DIY servo bundle) vs $1,200 to $1,425 (Sewing Gold, options) vs a $706.15 total at one dealer that may be head only. Catalog will use $1,265.99 flagged dealer-variable.",
-    "Arm space: no needle-to-arm figure in any snippet; a review site quotes about 11 in for the DDL-8700, a different machine. Left null."
+    "Needle metric size: the Juki product page gives the size 14 as Nm75 for both the N and the N-7, while the Juki Americas catalog gives Nm75 for the -7 and Nm90 for the N; the DBx1 system and size 14 agree in both.",
+    "Weight: the Juki page lists a total weight of 81 kg in the DDL-5550N-7 table only, with no statement of what it includes, and one dealer snippet said about 75 lb for the head; neither is published as head weight, so weight stays [verify].",
+    "Speed and stitch length: 5,500 spm and 5 mm are the base DDL-5550N figures; the DDL-5550N-7 with trimmer is listed at 5,000 spm and 4 mm on the Juki page and catalog, and the NA and NH are 4,000 spm.",
+    "Throat: Juki publishes no arm space or throat figure for this model; one dealer lists a workspace of 10 1/4 in without saying what it is measured from, so throat stays [verify].",
+    "Country of manufacture: no Juki document fetched states it; Made in Japan rests on a Juki reply quoted in an Amazon Q&A and on dealer titles, so it is unverified and not published as fact.",
+    "Warranty: Juki publishes no model-specific warranty; Juki Americas lists a 90-day spare parts warranty and refers equipment to separate sales order terms, so the machine warranty is set by the selling dealer.",
+    "Model naming: the Juki page and catalog group the DDL-5550N, NA, NH and the -7 versions as one series, while Reddit threads often say DDL-5550-6 or N-7; no Juki document fetched separates a -6, so those threads are read as the same head family, not the exact model."
   ],
   "ownerThemes": [
     {
@@ -179,80 +183,88 @@
     "https://sewing.patternreview.com/review/machine/6316",
     "https://sewing.patternreview.com/review/machine/2563",
     "https://sewing.patternreview.com/SewingDiscussions/topic/107545",
-    "https://sewingtrip.com/reviewsjuki-ddl-5550/"
+    "https://sewingtrip.com/reviewsjuki-ddl-5550/",
+    "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E",
+    "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf",
+    "https://juki.com/static/version1789761565/frontend/SBI/bootstrap/en_US/images/products/juki-apparel.pdf",
+    "https://jukiamericas.com/pages/returns-and-exchanges-policy",
+    "https://www.amazon.com/dp/B08H8TYNW1"
   ],
   "editorial": {
-    "verdict": "The DDL-5550 is a made-in-Japan industrial straight stitch head that does one thing at 5,500 spm and needs a table, a motor and floor space to do it.",
+    "verdict": "A Juki industrial straight stitch head with a 13 mm knee lift and automatic oiling that needs a table, a motor and floor space, and whose throat, head weight and origin Juki does not publish.",
     "whoFor": "A home shop sewing garments, bags or quilts in volume who wants an industrial lockstitch with a long parts history and is willing to give up zigzag entirely.",
-    "skipIf": "You sew leather, vinyl or thick canvas (that is a walking foot job), or you have no room for a 48 by 20 in table.",
-    "keySpec": "5,500 spm · 5 mm stitch length · 13 mm knee lift · DBx1 needle",
+    "skipIf": "You sew grippy or very thick stacks such as leather, rubber sheet or many layers of webbing (owners report failures there), or you have no room for a 48 by 20 in table.",
+    "keySpec": "5,500 spm and 5 mm on the base N · 13 mm knee lift · DBx1 needle",
     "strengths": [
-      "Automatic lubrication with an oil pan, so there is no per-session oiling routine.",
-      "13 mm knee lift and a 5 mm maximum stitch length, both beyond any domestic machine.",
-      "Made in Japan per Juki, on a model that has been in production long enough that parts and advice are easy to find."
+      "Automatic lubrication with an oil pan: an owner on PatternReview reports upkeep is mostly cleaning lint.",
+      "Juki publishes a 13 mm maximum knee lift and 5.5 mm hand lift, and a 5 mm stitch length on the base N.",
+      "Owners report second-hand units running well after basic fixes, and a long production run means parts and advice are easy to find."
     ],
     "weaknesses": [
-      "Straight stitch only; no zigzag, no buttonhole, no free arm.",
-      "Sold as a head; the table, stand and motor come from the dealer and DIY bundles ship unassembled with thin instructions.",
-      "Juki's published head weight and arm space did not surface in results, so two size rows read [verify]."
+      "Owners report trouble on thick stacks: needle breaks on 3 layers of heavy webbing, and failures on 6 or more layers of duck.",
+      "Owner reports on reliability are mixed, from a unit that ran about 20 years before its power board failed to a bundle delivered with broken parts; some report oil leaks from the pan.",
+      "Juki publishes no throat figure, head weight, country of origin or model-specific warranty, so those rows read [verify]."
     ],
     "checks": [
       {
-        "title": "5550 or 5550N, and which suffix",
-        "body": "Today's stock is the DDL-5550N. NA is set up for light fabric, NH for heavy fabric with a size 21 needle, and N-7 adds an automatic thread trimmer at a higher price. Confirm which one the listing ships."
+        "title": "Which suffix the listing ships",
+        "body": "Speed and stitch length differ by version: 5,500 spm and 5 mm on the base N, 5,000 spm and 4 mm on the N-7 with trimmer, 4,000 spm on the NA and NH. Confirm which one the listing ships."
       },
       {
         "title": "Servo or clutch motor",
-        "body": "Most current bundles include a servo motor with a speed dial, which is what a home shop wants. Older or cheaper bundles may ship a clutch motor that runs at one speed and is loud at idle."
+        "body": "Juki sells the head and lists a servomotor and control box with the -7; the older manual names a 400 W clutch motor. One owner finds the clutch motor on the N very loud, so check which motor the bundle includes."
       },
       {
-        "title": "Assembled or DIY table",
-        "body": "Some dealers ship the table assembled with the head mounted. Marketplace bundles ship a flat-pack table, motor and head separately and expect you to mount and belt them."
+        "title": "Bundle listing versus a head",
+        "body": "The Amazon listing B08H8TYNW1 is a DDL-5550 DIY bundle rated 3.4 from 10 ratings, and one buyer there received broken parts. Check what ships, who assembles it, and the dealer's warranty terms."
       }
     ],
     "realCost": [
-      "Table, stand and servo motor if bought as a head only",
+      "Table, stand and motor if bought as a head only",
       "DBx1 industrial needles",
       "Juki New Defrix Oil No. 1 for the oil pan",
-      "Industrial bobbins and bobbin cases",
-      "Freight or pickup for a table that ships on a pallet"
+      "Industrial bobbins and a matching thread weight for heavy work"
     ],
     "faqs": [
       {
         "q": "What is the difference between the Juki DDL-5550 and DDL-5550N?",
-        "a": "They are the same machine under the current name. Juki now sells it as the DDL-5550N; variants add a letter for light (NA) or heavy (NH) material setups, and N-7 adds an automatic thread trimmer."
+        "a": "Juki lists the DDL-5550N, NA, NH and the -7 trimmer versions as one series, and dealers mix the DDL-5550 and DDL-5550N names. The NA is the light-weight setup, the NH the heavy-weight setup, and the -7 adds an automatic thread trimmer."
       },
       {
-        "q": "Is the DDL-5550 a walking foot machine?",
-        "a": "No. It is a drop-feed single-needle lockstitch for light to medium-heavy materials. For leather, vinyl or heavy canvas Juki's walking foot model is the DNU-1541S."
+        "q": "Is there a DDL-5550-6?",
+        "a": "Reddit owners often say DDL-5550-6, but no Juki document we fetched separates a -6 version. We treat those threads as the same head family, not the exact model."
       },
       {
-        "q": "How fast does the DDL-5550 sew?",
-        "a": "Juki lists 5,500 stitches per minute for medium-weight material and 4,000 spm for light and heavy-weight setups. A servo motor lets you dial it far lower."
-      },
-      {
-        "q": "Does the DDL-5550 come with a motor?",
-        "a": "Not from Juki. It is sold as a head. Dealers bundle a table, stand and a servo motor; check the listing for which motor is included."
-      },
-      {
-        "q": "How much does the DDL-5550 weigh?",
-        "a": "Not published in the results captured. One dealer snippet says about 75 lb for the head alone; the table and motor add more. Treat the figure as unverified."
-      },
-      {
-        "q": "How much room is there to the right of the needle?",
-        "a": "Not published in the results captured. Juki describes the arm space as wide enough for easy handling but gives no inch figure in the snippets found."
-      },
-      {
-        "q": "What needles does the DDL-5550 use?",
-        "a": "DBx1 industrial needles. Juki ships it with a size 14 and lists sizes 9 to 18."
+        "q": "How fast does the DDL-5550N sew?",
+        "a": "Juki lists 5,500 stitches per minute for the base DDL-5550N, 5,000 for the -7 with trimmer and 4,000 for the NA and NH. A servo motor lets you sew slower."
       },
       {
         "q": "Does the DDL-5550 have an automatic thread trimmer?",
-        "a": "Not on the base model. The DDL-5550N-7 variant adds automatic trimming and costs more."
+        "a": "Not on the base DDL-5550N. Juki lists only the DDL-5550N-7 as the version with an automatic thread trimmer, at 5,000 spm and 4 mm stitch length."
+      },
+      {
+        "q": "What needles does it use?",
+        "a": "DBx1 needles. The base N ships with a size 14 and takes sizes 9 to 18. The Juki page and catalog disagree on the metric equivalent of size 14, Nm75 against Nm90, so check the needle packet."
+      },
+      {
+        "q": "Does it come with a motor?",
+        "a": "Juki lists the head with a servomotor and control box on the -7, and an older manual names a 400 W clutch motor as standard. Dealer bundles add a table, stand and motor, so check the listing."
+      },
+      {
+        "q": "How much does it weigh?",
+        "a": "[verify]. Juki lists 81 kg total weight in the -7 table without saying what it includes, and one dealer snippet said about 75 lb for the head. Neither is a confirmed head weight."
+      },
+      {
+        "q": "How much room is there to the right of the needle?",
+        "a": "[verify]. Juki publishes no arm space or throat figure for this model. One dealer lists a 10 1/4 in workspace without saying how it is measured."
       },
       {
         "q": "Is the DDL-5550 made in Japan?",
-        "a": "Juki correspondence quoted by a seller says the DDL-5550N is made in Japan, and dealer titles say so. The DDL-8700 is not marketed that way."
+        "a": "Unverified. No Juki document we fetched states the country of manufacture. A Juki reply quoted in an Amazon Q&A and dealer titles say Made in Japan, but we do not publish it as fact."
+      },
+      {
+        "q": "What warranty does it carry?",
+        "a": "Juki publishes no model-specific warranty. Juki Americas lists a 90-day warranty on spare parts and refers equipment to separate sales order terms, so the dealer sets the machine warranty."
       }
     ]
   }

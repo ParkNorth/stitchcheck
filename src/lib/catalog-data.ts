@@ -2527,9 +2527,9 @@ export const catalogData: Record<string, CatalogEntry> = {
     "manufacturerUrl": "https://www.brother-usa.com/p/sewing/CS7000X",
     "retailerUrl": "https://www.sewingmachinesplus.com/CS7000X.php",
     "priceUsdSeen": 280,
-    "priceSeenDate": "2026-09-29",
-    "priceSeenAt": "another dealer",
-    "priceNote": "Amazon third-party new price as tracked by camelcamelcamel on 2026-09-18; Sewing Machines Plus price not visible in results",
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "Brother USA",
+    "priceNote": null,
     "specs": {
       "stitchTypes": {
         "value": "70 built-in stitches: utility, decorative, quilting and heirloom, plus 7 one-step auto-size buttonholes",
@@ -2541,7 +2541,7 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "maxSpm": {
         "value": 750,
-        "source": "https://www.sewingpartsonline.com/products/brother-cs7000x-computerized-sewing-machine"
+        "source": "https://www.brother-usa.com/p/sewing/CS7000X"
       },
       "threads": {
         "value": null,
@@ -2556,8 +2556,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "needleSystem": {
-        "value": "130/705H household (flat shank)",
-        "source": "https://www.manualslib.com/manual/2672485/Brother-Cs7000x.html"
+        "value": null,
+        "source": null
       },
       "presserFootLift": {
         "value": null,
@@ -2569,7 +2569,7 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "feedSystem": {
         "value": "Drop feed (feed dogs lower for free motion quilting)",
-        "source": "https://www.sewingmachinefun.com/brother-cs7000x-review/"
+        "source": "https://www.brother-usa.com/p/sewing/CS7000X"
       },
       "buttonhole": {
         "value": "7 one-step, auto-size",
@@ -2588,12 +2588,12 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.sewingpartsonline.com/products/brother-cs7000x-computerized-sewing-machine"
       },
       "dimensionsIn": {
-        "value": "12.2 x 6.65 x 16.25",
-        "source": "https://www.sewingpartsonline.com/products/brother-cs7000x-computerized-sewing-machine"
+        "value": "12.2 x 6.65 x 16.26",
+        "source": "https://www.brother-usa.com/p/sewing/CS7000X"
       },
       "includedFeet": {
-        "value": "10 presser feet; detachable wide table; hard protective case",
-        "source": "https://www.sewingmachinesplus.com/CS7000X.php"
+        "value": "Maker 'In the Box' list: '10 sewing feet' naming nine feet (zigzag, buttonhole, zipper, button sewing, overcasting, blind stitch, monogramming, walking, quilting) plus a quilt guide; detachable wide table; hard protective cover. Count is soft, see conflicts",
+        "source": "https://www.brother-usa.com/p/sewing/CS7000X"
       },
       "warrantyUs": {
         "value": "25 yr chassis casting, 2 yr electronic components and PCBs (replacement labor excluded), 1 yr parts, labor and accessories",
@@ -2601,16 +2601,20 @@ export const catalogData: Record<string, CatalogEntry> = {
       }
     },
     "claims": [
-      "\"Large needle-to-arm workspace\" (manufacturer claim, product page); no inch figure published",
-      "\"Durable Metal Frame\" appears in Walmart listing titles (listing claim); Brother page wording not captured",
+      "\"feature rich, sewing and quilting machine\" and \"perfect for larger quilting projects\" (maker claims, Brother USA product page); no throat figure published",
+      "\"Durable Metal Frame\" appears in Walmart listing titles (listing claim); not on the Brother CS7000X page",
       "\"Perfect for beginners and experienced sewists alike\" (retailer claim, qualitysewing.com)",
-      "\"Sewed through eight layers of 12-ounce denim\" (review-site test claim, techgearlab.com); not our test"
+      "\"Sewed through eight layers of 12-ounce denim\" (review-site claim, techgearlab.com); not independently checked here"
     ],
     "conflicts": [
-      "Throat space: Brother says large needle-to-arm workspace; one review says only slightly larger than standard. No inch figure in any snippet, so throatIn is null and renders [verify].",
-      "Price: $279.99 Amazon third-party (camelcamelcamel, 2026-09-18) vs $302.49 comparable value (Best Buy) vs $219 seen by a PatternReview member vs about $280 in review blogs. Catalog will show $279.99 and the low $200s band.",
-      "Frame: metal frame appears in Walmart titles only. Kept as a listing claim, frame spec null.",
-      "Model naming: CS7000X replaced the CS7000i; both are 70 stitch machines and used listings mix them. Specs above are for the X."
+      "Throat space: the earlier claims row credited 'large needle-to-arm workspace' to the CS7000X page, but the Brother CP100X page carries that wording and the CS7000X page does not; the CS7000X page says only 'detachable wide table', so throatIn stays null.",
+      "Frame: Walmart listing titles say 'Durable Metal Frame', the Brother CS7000X page names no frame material (the 'durable metal frame construction' wording is on the CP100X page), so frame stays null.",
+      "Needle system: our earlier 130/705H value rests on manualslib only; Brother's operation manual and product page name needle sizes 65/9 to 100/16 but no system designation, so it is set to null as unverified.",
+      "Included feet: the Brother page 'In the Box' list says '10 sewing feet' but names nine feet plus a quilt guide, its spec table adds a 1/4 in foot, and the Brother operation manual sells the walking foot, quilting foot, 1/4 in piecing foot and quilting guide separately with the note 'Sold separately with some models'.",
+      "Free arm: the Brother page and manual say the free arm is available by removing the flat bed attachment, while some Reddit posters say the machine has no free arm.",
+      "Manual coverage: the Brother operation manual lists product codes 888-N00/N02/N20/N22/N40/N42/N60 and never names the CS7000X, so it is a shared-platform manual and its figures are platform-level.",
+      "Price: Brother USA shows $279.99 MSRP on 2026-10-02, the same figure as the Amazon third-party price tracked on 2026-09-18, against $302.49 comparable value at Best Buy and $219 reported by a PatternReview member.",
+      "Model naming: the CS7000X replaced the CS7000i; both are 70 stitch machines and used listings mix them. Specs here are for the X."
     ],
     "ownerThemes": [
       {
@@ -2624,7 +2628,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://sewing.patternreview.com/SewingDiscussions/topic/130683"
       }
     ],
-    "evidence": "mixed",
+    "evidence": "owner",
     "buyerQuestions": [
       "Is the Brother CS7000X good for quilting?",
       "What is the throat space on the Brother CS7000X?",
@@ -2656,76 +2660,76 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The CS7000X is the budget computerized package: 70 stitches, 7 one-step buttonholes, 10 feet, a wide table and a hard case for under $300, with a 750 spm ceiling and an unpublished throat that cap its quilting ambitions.",
-      "whoFor": "A first machine buyer who wants computerized stitch selection, needle up/down and a wide table for piecing and lap quilts at the lowest price.",
-      "skipIf": "You need speed above 750 spm, a published throat wider than a standard domestic, or a heavier machine for regular canvas and denim work.",
-      "keySpec": "70 stitches · 750 spm · 7 mm width · 10 feet and wide table · 10.5 lb",
+      "verdict": "A budget computerized machine with 70 stitches, 7 one-step buttonholes and a wide table at $279.99 MSRP, but no published throat figure and a 750 spm ceiling.",
+      "whoFor": "A first machine buyer who wants computerized stitch selection, an automatic needle threader and a drop feed for lap quilts at a low price.",
+      "skipIf": "You need a stated throat in inches, speed above 750 spm, adjustable presser foot pressure, or a machine owners report as comfortable on thick layers.",
+      "keySpec": "70 stitches · 750 spm · 7 mm width · 7 buttonholes · 10.5 lb",
       "strengths": [
-        "Complete kit: 10 feet, wide table and hard case included at a sub-$300 price.",
-        "7 one-step auto-size buttonholes, needle up/down and start/stop button.",
-        "Brother 25 yr chassis warranty with 2 yr on electronics."
+        "Owners report quiet running and easy pedal control, per Amazon and Sewing Machines Plus reviewers.",
+        "Owners report several presser feet in the box, including an overcasting foot used for a faux serged edge.",
+        "Owners report consistent, even stitches, and the maker confirms drop feed and a free arm."
       ],
       "weaknesses": [
-        "750 spm is slow for piecing volume; the Juki TL-2010Q and Janome MC6650 run 1,500 and 1,000.",
-        "Throat space is not published in inches; Brother says only large needle-to-arm workspace.",
-        "At 10.5 lb it is light, which owners of heavy fabrics read as a build ceiling."
+        "Owners report limits on thick materials, and one Amazon reviewer calls it not heavy duty for industrial level fabric.",
+        "Owners in help threads report defects such as the needle hitting the hook and a squeaking replacement unit; these threads over-represent problems.",
+        "Owners report threading trouble: a hidden take-up lever catch and unclear needle threader instructions."
       ],
       "checks": [
         {
-          "title": "Measure the throat before you plan a quilt",
-          "body": "No inch figure is published. If you quilt anything beyond lap size, compare against a machine with a stated 8.5 to 10 in throat."
+          "title": "No published throat figure",
+          "body": "The CS7000X page gives no inch figure and says only 'detachable wide table'. The 'large needle-to-arm workspace' wording is on the CP100X page, so do not plan a quilt around it."
+        },
+        {
+          "title": "Count the feet in your box",
+          "body": "The page lists nine feet plus a quilt guide as '10 sewing feet', and the shared manual sells walking, quilting and piecing feet separately with some models. Check the included accessories sheet."
         },
         {
           "title": "CS7000X, not CS7000i",
-          "body": "The older CS7000i shares the 70 stitch count and is still sold used. Check the model label if the price looks too good."
-        },
-        {
-          "title": "Count what is in the bundle",
-          "body": "Amazon and Walmart sell case, thread and bobbin bundles at different prices. The base machine already includes the hard case and wide table."
+          "body": "The older CS7000i shares the 70 stitch count and used listings mix the two. Check the model label before paying a used price."
         }
       ],
       "realCost": [
-        "Spare 130/705H needles in 80/12 and 90/14",
-        "Class 15 style drop-in bobbins",
-        "A walking foot if not in your bundle's 10 feet",
-        "Quilting gloves for free motion with the drop feed"
+        "Walking, quilting and 1/4 in piecing feet and the quilting guide, if your box lacks them: the shared manual sells them separately with some models",
+        "Heavy fabric supplies: the shared manual's denim and canvas row names a 100/16 needle and 30 weight thread",
+        "Needles in sizes 65/9 to 100/16 per the manual; the maker names no needle system, so confirm before buying a pack",
+        "Oil and brush: a Sewing Machines Plus reviewer says none ships with the machine"
       ],
       "faqs": [
         {
           "q": "Is the Brother CS7000X good for quilting?",
-          "a": "It has a drop feed for free motion, a detachable wide table and quilting stitches. Its throat is not published in inches and top speed is 750 spm, so it suits lap quilts more than bed quilts."
+          "a": "It has a drop feed for free motion quilting and a detachable wide table that Brother calls perfect for larger quilting projects. No throat figure is published and top speed is 750 spm, so it suits lap and baby quilts better than bed quilts."
         },
         {
           "q": "What is the throat space on the CS7000X?",
-          "a": "Not published. Brother describes a large needle-to-arm workspace without a measurement."
+          "a": "Not published. The CS7000X page gives no inch figure. The phrase 'large needle-to-arm workspace' is on the CP100X page, not this one."
         },
         {
-          "q": "What is the difference between the CS7000X and the CS7000i?",
-          "a": "The X is the current model; both list 70 stitches. Published differences were not captured in search results, so check the label when buying used."
+          "q": "Does the CS7000X have a free arm?",
+          "a": "Yes per Brother: the page and manual say remove the flat bed attachment to use it. Some Reddit posters say it has no free arm, which disagrees with the maker."
         },
         {
           "q": "How fast does the CS7000X sew?",
-          "a": "Up to 750 stitches per minute per dealer listings."
-        },
-        {
-          "q": "Can the CS7000X sew denim?",
-          "a": "One review site reports sewing multiple layers of denim. We have not tested it; the machine is a 10.5 lb domestic and Brother makes no thick-fabric claim on the page found."
+          "a": "The Brother spec table lists a maximum sewing speed of 750, with no unit printed; dealers list it as 750 stitches per minute."
         },
         {
           "q": "What feet come with the CS7000X?",
-          "a": "Ten presser feet plus a wide table and hard case, per dealer listings. The exact foot list was not captured."
+          "a": "The Brother 'In the Box' list says 10 sewing feet but names nine feet plus a quilt guide, and the spec table adds a 1/4 in foot. The shared manual sells the walking foot, quilting foot, piecing foot and quilt guide separately with some models, so the count is soft."
         },
         {
           "q": "Does the CS7000X have a metal frame?",
-          "a": "Walmart listing titles say Durable Metal Frame. Brother's own page wording was not captured, so it is recorded as a listing claim."
+          "a": "Brother's CS7000X page names no frame material. Walmart listing titles say Durable Metal Frame, and that wording appears on Brother's CP100X page, so it is recorded as a listing claim."
+        },
+        {
+          "q": "Can the CS7000X sew denim or canvas?",
+          "a": "The product page makes no thick-fabric claim. The shared manual lists denim of 12 ounces or more and canvas with a 100/16 needle. Owners are split: some report thick repairs without trouble, others call it not heavy duty."
         },
         {
           "q": "What is the warranty on the CS7000X?",
-          "a": "25 years on the chassis casting, 2 years on electronic components and circuit boards, 1 year on parts, labor and accessories, per the Sewing Machines Plus listing."
+          "a": "Brother lists a 25 Year Limited Warranty. The standard warranty PDF splits it into 25 years on the chassis casting, 2 years on electronic components and circuit boards (replacement labor excluded) and 1 year on parts, labor and accessories."
         },
         {
-          "q": "How much does the Brother CS7000X cost?",
-          "a": "About $280 new; $279.99 was the Amazon third-party price tracked on 2026-09-18, and Best Buy quotes $302.49 comparable value."
+          "q": "What do buyers rate the CS7000X on Amazon?",
+          "a": "Amazon shows 4.6 from 3,642 ratings, but that rating is pooled across several variations sharing a parent listing, so it does not describe this exact configuration alone. Sewing Machines Plus shows 4.75 from 16 reviews."
         }
       ]
     },
@@ -2743,7 +2747,11 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/SewingDiscussions/topic/125800",
       "https://camelcamelcamel.com/product/B08BH5GTNC",
       "https://www.bestbuy.com/product/brother-cs7000x-computerized-sewing-and-quilting-machine/J7CJ38ZXQX",
-      "https://business.walmart.com/ip/Brother-CS7000X-Durable-Metal-Frame-Computerized-Sewing-Machine-with-Wide-Table-for-Quilting/325410476"
+      "https://business.walmart.com/ip/Brother-CS7000X-Durable-Metal-Frame-Computerized-Sewing-Machine-with-Wide-Table-for-Quilting/325410476",
+      "https://www.brother-usa.com/p/sewing/CP100X",
+      "https://download.brother.com/welcome/doch101975/888_n00_n02_n20_n22_n40_n42_n60_om03en.pdf",
+      "https://assets.brother.com/asset/3c94d716-bfc6-44de-8ae8-0b4b0286d316/13317_Standard_Warranty-pdf.pdf",
+      "https://www.amazon.com/dp/B08BH5GTNC"
     ]
   },
   "brother-pq1600s": {
@@ -4155,7 +4163,7 @@ export const catalogData: Record<string, CatalogEntry> = {
     "priceUsdSeen": 6495,
     "priceSeenDate": "2026-09-29",
     "priceSeenAt": "another dealer",
-    "priceNote": "Fig Leaf Quilting (dealer listing for the Sweet Sixteen with table; the model is discontinued, so this is remaining dealer stock)",
+    "priceNote": "Fig Leaf Quilting dealer listing, unconfirmed: the same figure as the Moxie ST maker price, and Handi Quilter publishes no price for this machine",
     "specs": {
       "stitchTypes": {
         "value": "Straight stitch only; manual speed control, with optional TruStitch or InSight table stitch regulation",
@@ -4202,12 +4210,12 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "motor": {
-        "value": "Brushless DC with up/down tie-off stitch; 90 to 264 VAC, 300 W peak",
+        "value": "Brushless DC with up and down needle positioning and tie-off stitch; 300 W peak; 105 to 120 VAC, 47 to 63 Hz (US and Canada), 100 to 250 VAC (rest of world)",
         "source": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
       },
       "frame": {
-        "value": "No frame; height adjustable table 36 x 30 in, 26 to 42 in (dealer) included in the package",
-        "source": "https://rockymountainsewing.com/products/handi-quilter-sweet-sixteen/"
+        "value": "No frame; sit-down machine with a table that has height-adjustable folding legs and weighs nearly 50 lb; 18 x 30 in table extensions sold separately; base table size and height range not published by the maker",
+        "source": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
       },
       "weightLb": {
         "value": null,
@@ -4227,16 +4235,24 @@ export const catalogData: Record<string, CatalogEntry> = {
       }
     },
     "claims": [
-      "\"The most technologically advanced sit down free motion quilter\" (retailer copy, sewingmachinesplus.com)",
-      "\"Powerful motor handles quilting with ease\" (dealer copy repeating manufacturer language, rockymountainsewing.com)",
-      "\"Designed by a Quilter, for Quilters\" (manufacturer tagline, user manual)"
+      "\"Handi Quilter 16-inch sit-down longarm\" (maker wording, manual v3.3 cover; the maker's term, not a throat-based class)",
+      "\"Designed by a Quilter, for Quilters\" (maker tagline, manual v3.3 cover)",
+      "\"very robust design features and is very easy to service\" (maker claim, manual v3.3 Quick Facts)",
+      "\"greater functionality and ease of operation to home quilters than ever before conceived in the quilting industry\" (maker claim, manual v3.3 Quick Facts)",
+      "\"This machine is intended for household use.\" (maker statement, manual v3.3)",
+      "\"The most technologically advanced sit down free motion quilter\" (retailer copy, sewingmachinesplus.com)"
     ],
     "conflicts": [
-      "Speed: 1,500 spm maximum quilting speed (Handi Quilter user manual) vs up to 1,800 spm (rockymountainsewing.com dealer page). Catalog will use 1,500 from the manual and show the dealer figure as a conflict.",
-      "Table height range: 26 to 42 in (rockymountainsewing.com) vs 27 to 40 in (Sewing Machines Plus table listing). Catalog will show the manual's figure if found; otherwise both.",
-      "Status: Rocky Mountain Sewing states the Sweet Sixteen has been discontinued and recommends the Moxie ST; Handi Quilter's Capri page describes the Capri as combining the Sweet Sixteen's footprint with frame machine technology, and the Capri itself has been retired. Sewing Machines Plus still lists a Sweet Sixteen page. Catalog will mark discontinued with the Moxie ST and Amara ST as the current sit down machines.",
-      "Price: $6,495 (Fig Leaf Quilting dealer listing) for remaining new stock; used listings range from $1,425 (eBay) to $2,195 to $3,000 (longarmmachines.com, quiltingboard, APQS forum). Catalog will show $6,495 as the last seen dealer price and note the used range.",
-      "Weight and head dimensions: not published on any page found. Render as [verify]."
+      "Hook: the Handi Quilter user manual v3.3 (library-hosted copy) says 'Rotary, Horizontal axis', while our earlier spec read 'rotary vertical hook'; the spec now follows the manual.",
+      "Voltage: the manual v3.3 gives 105 to 120 VAC for the US and Canada and 100 to 250 VAC for the rest of the world, while our earlier spec said 90 to 264 VAC; the spec now follows the manual.",
+      "Motor: the manual confirms a brushless DC motor with tie-off and 300 W peak; the earlier voltage range in the motor line did not match either manual line and has been replaced.",
+      "Speed: the manual v3.3 and the dealer-hosted v3.1 copy both give 1500 spm maximum, while the Rocky Mountain Sewing dealer page says up to 1,800 spm; the page uses the manual figure.",
+      "Stitch regulation: the manual lists TruStitch as an optional accessory, while the Rocky Mountain Sewing dealer page says TruStitch is included with its package; check the quote line by line.",
+      "Throat: the maker prints 'Throat Dimensions 8.25 x 16 in' and calls it a '16-inch sit-down longarm' without saying needle to body; 16 in is the maker's wording, not a measured needle-to-body figure, and in our tiering a 16 in head sits in the mid-arm band.",
+      "Status: 'discontinued' appears on a dealer page (Rocky Mountain Sewing); Handi Quilter carries no machine page, only a parts tag archive, and a maker support article refers to the 'secondary used-machine market'.",
+      "Price: the $6,495 dealer-level figure equals the Handi Quilter list price shown for the Moxie ST, and the maker publishes no price for the Sweet Sixteen itself, so treat it as an unconfirmed dealer figure and read it as a band, not a quote.",
+      "Table: the manual gives no base table size or height range; 36 x 30 in and 26 to 42 in come from dealer copy, and dealers disagree on the range (26 to 42 in against 27 to 40 in).",
+      "Weight and size: the maker publishes no machine weight and no head dimensions; the 66.14 lb figure on the maker's lift table page is packaging for that accessory only."
     ],
     "ownerThemes": [
       {
@@ -4294,81 +4310,80 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": true,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The Sweet Sixteen was Handi Quilter's sit down 16 in mid-arm with no frame and no built in regulation, and now that it is discontinued the decision is whether remaining dealer stock at about $6,495 beats a used unit near $2,500 or the current Moxie ST.",
-      "whoFor": "A quilter who wants more throat than a domestic without giving a room to a frame, who is comfortable adjusting tension, and who mostly quilts lap to queen size.",
-      "skipIf": "You want stitch regulation in the price (it is an add-on here), you plan to quilt king size tops regularly (drag on a table is the standing complaint), or you would rather buy a current model with full dealer support.",
-      "keySpec": "16 x 8.25 in throat · 1,500 spm · sit down, table included · regulation optional",
+      "verdict": "A discontinued 16 in sit-down quilter with a table and optional regulation, for a buyer who wants more throat than a domestic without a frame.",
+      "whoFor": "A quilter who wants more reach than a domestic machine without giving a room to a frame, and who is happy to adjust tension and move fabric by hand on a table.",
+      "skipIf": "You want stitch regulation included, you quilt king size tops often (owners report the weight of heavy quilts on the table), or you want a model Handi Quilter still lists as a machine.",
+      "keySpec": "8.25 x 16 in throat (maker wording) · 1500 spm · sit-down table · regulation optional",
       "strengths": [
-        "16 in wide by 8.25 in high throat, roughly double a Juki TL class domestic, in a table footprint of 36 x 30 in",
-        "134 needle and M class bobbin are shared with Handi Quilter's frame machines, so consumables stay available after discontinuation",
-        "Long owner track record on forums since about 2010, with tension habits and fixes well documented"
+        "Owners report the sit-down table suits quilters who prefer moving the fabric by hand, and several say they quilt twin and larger sizes on it with a hanging system for the biggest",
+        "Owners of a decade or more report few or no reliability problems, with some calling it a workhorse, though others describe it as persnickety",
+        "The retailer page shows a 4.76 rating across 17 reviews at Sewing Machines Plus, which skews positive as seller-collected feedback"
       ],
       "weaknesses": [
-        "No built in stitch regulation; TruStitch or the InSight table are extra and the TruStitch is itself an older add-on",
-        "Discontinued: Handi Quilter now points sit down buyers to the Moxie ST and Amara ST, so new stock and promotions are dealer dependent",
-        "Weight and head dimensions are not published; dealer speed copy (1,800 spm) disagrees with the manual (1,500 spm)"
+        "Owners report that heavy quilts drag on the table and are hard to support, and one shop worker reports timing knocked out by very heavy seams",
+        "Owners report tension taking time to set, including trouble after oiling, though others say it is easy with fine thread",
+        "Owners report missing promotional feet and note the sit-down has no presser foot or feed dogs, which is its own trade-off for ruler and edge work"
       ],
       "checks": [
         {
-          "title": "Confirm new stock versus demo or used",
-          "body": "Dealer pages mix new, floor model and used Sweet Sixteens. Used asking prices run $1,425 to $3,000; new remaining stock was seen at $6,495. Ask for the serial date and warranty start."
+          "title": "Confirm what regulation comes with the quote",
+          "body": "The manual calls TruStitch an optional accessory, while one dealer lists it as included. Ask for the regulator in writing, and whether the machine is TruStitch ready if you want the InSight lift table."
         },
         {
-          "title": "Ask which table and which regulator",
-          "body": "The basic sit down table is 36 x 30 in and height adjustable. The InSight table adds built in regulation; the TruStitch is a separate regulator. Neither is in the base machine price."
+          "title": "Check the status and the seller",
+          "body": "Handi Quilter has no machine page, only parts, and says the machine is on the secondary used-machine market. Only a dealer page says discontinued. Ask the dealer about stock, service and the registration the warranty needs."
         },
         {
-          "title": "Check the manual speed, not the dealer copy",
-          "body": "The user manual gives 1,500 spm maximum; some dealers say 1,800. On a sit down machine your hand speed sets stitch length, so the regulator question matters more than the top speed."
+          "title": "Do not treat the price as a quote",
+          "body": "The $6,495 dealer-level figure matches the Moxie ST list price and the maker publishes no price for this machine, so confirm it against a current dealer quote."
         }
       ],
       "realCost": [
-        "Table: included in the sit down package at most dealers; the basic Sweet Sixteen table alone was seen at $495 sale, $695 regular, at Sewing Machines Plus",
-        "Stitch regulation: optional TruStitch regulator or InSight table; prices not published in results",
-        "Lift table: Handi Quilter sells a separate lift table for the Sweet Sixteen; price not published in results",
-        "Consumables: M class bobbins and 134 system needles; owners advise against prewound bobbins",
-        "Service: discontinued machines depend on dealer parts stock; confirm the dealer still services it"
+        "Stitch regulation: TruStitch is an optional accessory per the manual; one dealer says it is included, so confirm it in the quote",
+        "Lift table with built-in InSight regulation: $2,645.00 on the Handi Quilter accessory page, for TruStitch-compatible machines on firmware 3.18 or higher",
+        "Table extensions: 18 x 30 in, sold separately per the manual",
+        "Consumables: 134 (135x7) needles in 12/80 to 20/125 and M class bobbins"
       ],
       "faqs": [
         {
           "q": "Is the Handi Quilter Sweet Sixteen discontinued?",
-          "a": "Yes. Dealer pages state it has been discontinued, and Handi Quilter now offers the Moxie ST and Amara ST as its sit down machines. Some dealers still list remaining stock."
-        },
-        {
-          "q": "What replaced the Sweet Sixteen?",
-          "a": "Handi Quilter has not named a direct replacement in results found. The Capri 18 was positioned as combining the Sweet Sixteen's footprint with frame machine technology and has itself been retired; dealers now recommend the Moxie ST."
-        },
-        {
-          "q": "Does the Sweet Sixteen have a stitch regulator?",
-          "a": "Not built in. Handi Quilter sold an optional TruStitch regulator and an InSight table with built in regulation. The base machine runs at a set speed you control."
+          "a": "A dealer page (Rocky Mountain Sewing) says so. Handi Quilter's own wording is that the machine is on the secondary used-machine market, and its site carries no machine page for it, only parts."
         },
         {
           "q": "How big is the Sweet Sixteen throat?",
-          "a": "The user manual gives throat dimensions of 8.25 x 16 in (245 x 610 mm), measured needle to body."
+          "a": "The maker prints throat dimensions of 8.25 x 16 in (245 x 610 mm) and calls it a 16-inch sit-down longarm. It does not say needle to body."
+        },
+        {
+          "q": "Is the Sweet Sixteen a long-arm?",
+          "a": "The maker calls it a sit-down longarm. In our tiering a 16 in head sits in the mid-arm band, so treat the maker's term as marketing wording rather than a throat class."
         },
         {
           "q": "How fast does the Sweet Sixteen sew?",
-          "a": "The user manual lists a maximum of 1,500 stitches per minute. Some dealer copy says 1,800; the catalog uses the manual figure."
+          "a": "The manual lists 1500 spm maximum, in both the v3.3 and v3.1 copies. One dealer page says up to 1,800 spm; this page uses the manual figure."
         },
         {
-          "q": "Is the Sweet Sixteen a longarm?",
-          "a": "By throat it is a mid-arm (16 in sits in the published 12 to 17 in mid-arm band) and it is a sit down machine, not frame mounted. Handi Quilter and dealers market it as a sit down longarm."
+          "q": "Does the Sweet Sixteen have a stitch regulator?",
+          "a": "Not built in. The manual lists TruStitch as an optional accessory, and Handi Quilter sells a lift table with built-in InSight regulation for compatible machines. One dealer says TruStitch is included with its package."
         },
         {
-          "q": "What bobbin and needle does the Sweet Sixteen use?",
-          "a": "M class bobbins in an aluminum case with a rotary vertical hook, and 134 (135x7) needles in sizes 12/80 to 20/125."
+          "q": "What power does it need?",
+          "a": "The manual gives 105 to 120 VAC at 47 to 63 Hz for the US and Canada, with a brushless DC motor at 300 W peak."
+        },
+        {
+          "q": "What needle and bobbin does the Sweet Sixteen use?",
+          "a": "The manual lists 134 (135x7) needles in sizes 12/80 to 20/125 and an M class aluminum bobbin with a type MF case."
         },
         {
           "q": "How much does a Sweet Sixteen weigh?",
-          "a": "Not published on any page found."
+          "a": "Handi Quilter does not publish the machine weight. The manual says the table weighs nearly 50 lb."
         },
         {
-          "q": "What is a used Sweet Sixteen worth?",
-          "a": "Forum and marketplace listings seen ran from $1,425 on eBay to $2,195 to $3,000 on quilting marketplaces and forums, depending on table and regulator."
+          "q": "What is the warranty?",
+          "a": "The maker's warranty page lists 90 days, 10 years on the casting, 5 years mechanical and 5 years electrical, with registration required. The text is not model-specific."
         },
         {
-          "q": "Can the Sweet Sixteen go on a frame?",
-          "a": "The Sweet Sixteen is the sit down version of Handi Quilter's 16 in head; the frame version was sold as the HQ Sixteen and Simply Sixteen. Handi Quilter's table listing notes the table can also convert an HQ Sixteen to sit down use."
+          "q": "What replaced the Sweet Sixteen?",
+          "a": "Handi Quilter staff comments name the Moxie ST and Amara ST as the stationary machines still offered. The maker does not call either a direct replacement."
         }
       ]
     },
@@ -4392,7 +4407,9 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://www.quiltingboard.com/main-f1/opinions-handi-quilter-sweet-16-sit-down-machine-t138579-2.html",
       "https://www.savoreverystitch.com/2017/01/handi-quilter-sweet-16-review.html",
       "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/16023-hq-sweet-sixteen-reviews",
-      "https://sewing.patternreview.com/SewingDiscussions/topic/111801"
+      "https://sewing.patternreview.com/SewingDiscussions/topic/111801",
+      "https://support.handiquilter.com/hc/en-us/articles/4405636309275-HQ-Sweet-Sixteen-Getting-Started-Part-2",
+      "https://handiquilter.com/product/moxie-st/"
     ]
   },
   "janome-8002d": {
@@ -6090,7 +6107,7 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "maxSpm": {
         "value": 5500,
-        "source": "https://www.goldstartool.com/juki-ddl-5550n-high-speed-single-needle-lockstitch-industrial-sewing-machine-with-table-and-servo-motor.htm"
+        "source": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
       },
       "threads": {
         "value": null,
@@ -6105,16 +6122,16 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "needleSystem": {
-        "value": "DBx1, size 14 at delivery, range 9 to 18",
-        "source": "https://www.goldstartool.com/juki-ddl-5550n-high-speed-single-needle-lockstitch-industrial-sewing-machine-with-table-and-servo-motor.htm"
+        "value": "DBx1, size 14 at delivery, range 9 to 18 on the base N (NA: DAx1 size 9 to 11; NH: DBx1 size 20 to 23, size 21 at delivery)",
+        "source": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf"
       },
       "presserFootLift": {
-        "value": "5.5 mm by hand, 13 mm by knee (knee lifter on stand)",
-        "source": "https://www.goldstartool.com/juki-ddl-5550n-high-speed-single-needle-lockstitch-industrial-sewing-machine-with-table-and-servo-motor.htm"
+        "value": "5.5 mm by hand, 13 mm by knee lifter (standard knee lift 10 mm, adjustable to a 13 mm maximum)",
+        "source": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf"
       },
       "threadTrimmer": {
-        "value": "None on DDL-5550 and DDL-5550N; automatic trimmer is the DDL-5550N-7 variant",
-        "source": "https://www.amazon.com/ask/questions/TxWL36Z3HDS0KS/"
+        "value": "None on the base DDL-5550N; automatic thread trimmer on the DDL-5550N-7 only",
+        "source": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
       },
       "feedSystem": {
         "value": "Drop feed; max stitch length 5 mm; needle bar stroke 30.7 mm",
@@ -6150,17 +6167,21 @@ export const catalogData: Record<string, CatalogEntry> = {
       }
     },
     "claims": [
-      "\"High-speed, 1-needle lockstitch machine\" (manufacturer description, catalog PDF)",
+      "\"Thread take-up mechanism, feed mechanism, thread paths and hook have been further improved to enhance responsiveness to material changes and to ensure consistent stitch quality\" (Juki product page)",
+      "\"Higher lift of the presser foot\" (Juki product page)",
+      "\"Sure thread trimming mechanism\" (Juki product page, DDL-5550N-7)",
+      "Control box \"resistant to voltage fluctuations, noise and vibration\" (Juki product page, SC-920C)",
       "\"Suitable for light to medium-heavy materials\" (dealer copy, GoldStar Tool)",
-      "\"Table Comes Assembled\" and \"fully assembled 48 x 20 in table\" (dealer claims, Westchester Sewing Machine, Carolina Forest Vac and Sew)",
       "\"Runs quieter than traditional clutch motors\" (dealer claim about the bundled servo motor, GoldStar Tool)"
     ],
     "conflicts": [
-      "Model name: the DDL-5550 is sold today as the DDL-5550N; listings mix the two names. Sub-variants: 5550NA (light materials), 5550NH (heavy materials, size 21 needle, 13 mm knee lift), 5550N-7 (automatic thread trimmer). Catalog treats DDL-5550 and DDL-5550N as one entry and says so.",
-      "Speed: 5,500 spm is the medium-weight figure; the Juki catalog lists 4,000 spm for light and heavy-weight setups. Catalog will use 5,500 with a note.",
-      "Head weight: one dealer snippet states 75 lb (about 34 kg) but the snippet could not be tied to a single page; the Juki catalog field 'Total weight' was not captured. Left null pending a live catalog check.",
-      "Price: $1,265.99 (Walmart, DIY servo bundle) vs $1,200 to $1,425 (Sewing Gold, options) vs a $706.15 total at one dealer that may be head only. Catalog will use $1,265.99 flagged dealer-variable.",
-      "Arm space: no needle-to-arm figure in any snippet; a review site quotes about 11 in for the DDL-8700, a different machine. Left null."
+      "Needle metric size: the Juki product page gives the size 14 as Nm75 for both the N and the N-7, while the Juki Americas catalog gives Nm75 for the -7 and Nm90 for the N; the DBx1 system and size 14 agree in both.",
+      "Weight: the Juki page lists a total weight of 81 kg in the DDL-5550N-7 table only, with no statement of what it includes, and one dealer snippet said about 75 lb for the head; neither is published as head weight, so weight stays [verify].",
+      "Speed and stitch length: 5,500 spm and 5 mm are the base DDL-5550N figures; the DDL-5550N-7 with trimmer is listed at 5,000 spm and 4 mm on the Juki page and catalog, and the NA and NH are 4,000 spm.",
+      "Throat: Juki publishes no arm space or throat figure for this model; one dealer lists a workspace of 10 1/4 in without saying what it is measured from, so throat stays [verify].",
+      "Country of manufacture: no Juki document fetched states it; Made in Japan rests on a Juki reply quoted in an Amazon Q&A and on dealer titles, so it is unverified and not published as fact.",
+      "Warranty: Juki publishes no model-specific warranty; Juki Americas lists a 90-day spare parts warranty and refers equipment to separate sales order terms, so the machine warranty is set by the selling dealer.",
+      "Model naming: the Juki page and catalog group the DDL-5550N, NA, NH and the -7 versions as one series, while Reddit threads often say DDL-5550-6 or N-7; no Juki document fetched separates a -6, so those threads are read as the same head family, not the exact model."
     ],
     "ownerThemes": [
       {
@@ -6213,77 +6234,80 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The DDL-5550 is a made-in-Japan industrial straight stitch head that does one thing at 5,500 spm and needs a table, a motor and floor space to do it.",
+      "verdict": "A Juki industrial straight stitch head with a 13 mm knee lift and automatic oiling that needs a table, a motor and floor space, and whose throat, head weight and origin Juki does not publish.",
       "whoFor": "A home shop sewing garments, bags or quilts in volume who wants an industrial lockstitch with a long parts history and is willing to give up zigzag entirely.",
-      "skipIf": "You sew leather, vinyl or thick canvas (that is a walking foot job), or you have no room for a 48 by 20 in table.",
-      "keySpec": "5,500 spm · 5 mm stitch length · 13 mm knee lift · DBx1 needle",
+      "skipIf": "You sew grippy or very thick stacks such as leather, rubber sheet or many layers of webbing (owners report failures there), or you have no room for a 48 by 20 in table.",
+      "keySpec": "5,500 spm and 5 mm on the base N · 13 mm knee lift · DBx1 needle",
       "strengths": [
-        "Automatic lubrication with an oil pan, so there is no per-session oiling routine.",
-        "13 mm knee lift and a 5 mm maximum stitch length, both beyond any domestic machine.",
-        "Made in Japan per Juki, on a model that has been in production long enough that parts and advice are easy to find."
+        "Automatic lubrication with an oil pan: an owner on PatternReview reports upkeep is mostly cleaning lint.",
+        "Juki publishes a 13 mm maximum knee lift and 5.5 mm hand lift, and a 5 mm stitch length on the base N.",
+        "Owners report second-hand units running well after basic fixes, and a long production run means parts and advice are easy to find."
       ],
       "weaknesses": [
-        "Straight stitch only; no zigzag, no buttonhole, no free arm.",
-        "Sold as a head; the table, stand and motor come from the dealer and DIY bundles ship unassembled with thin instructions.",
-        "Juki's published head weight and arm space did not surface in results, so two size rows read [verify]."
+        "Owners report trouble on thick stacks: needle breaks on 3 layers of heavy webbing, and failures on 6 or more layers of duck.",
+        "Owner reports on reliability are mixed, from a unit that ran about 20 years before its power board failed to a bundle delivered with broken parts; some report oil leaks from the pan.",
+        "Juki publishes no throat figure, head weight, country of origin or model-specific warranty, so those rows read [verify]."
       ],
       "checks": [
         {
-          "title": "5550 or 5550N, and which suffix",
-          "body": "Today's stock is the DDL-5550N. NA is set up for light fabric, NH for heavy fabric with a size 21 needle, and N-7 adds an automatic thread trimmer at a higher price. Confirm which one the listing ships."
+          "title": "Which suffix the listing ships",
+          "body": "Speed and stitch length differ by version: 5,500 spm and 5 mm on the base N, 5,000 spm and 4 mm on the N-7 with trimmer, 4,000 spm on the NA and NH. Confirm which one the listing ships."
         },
         {
           "title": "Servo or clutch motor",
-          "body": "Most current bundles include a servo motor with a speed dial, which is what a home shop wants. Older or cheaper bundles may ship a clutch motor that runs at one speed and is loud at idle."
+          "body": "Juki sells the head and lists a servomotor and control box with the -7; the older manual names a 400 W clutch motor. One owner finds the clutch motor on the N very loud, so check which motor the bundle includes."
         },
         {
-          "title": "Assembled or DIY table",
-          "body": "Some dealers ship the table assembled with the head mounted. Marketplace bundles ship a flat-pack table, motor and head separately and expect you to mount and belt them."
+          "title": "Bundle listing versus a head",
+          "body": "The Amazon listing B08H8TYNW1 is a DDL-5550 DIY bundle rated 3.4 from 10 ratings, and one buyer there received broken parts. Check what ships, who assembles it, and the dealer's warranty terms."
         }
       ],
       "realCost": [
-        "Table, stand and servo motor if bought as a head only",
+        "Table, stand and motor if bought as a head only",
         "DBx1 industrial needles",
         "Juki New Defrix Oil No. 1 for the oil pan",
-        "Industrial bobbins and bobbin cases",
-        "Freight or pickup for a table that ships on a pallet"
+        "Industrial bobbins and a matching thread weight for heavy work"
       ],
       "faqs": [
         {
           "q": "What is the difference between the Juki DDL-5550 and DDL-5550N?",
-          "a": "They are the same machine under the current name. Juki now sells it as the DDL-5550N; variants add a letter for light (NA) or heavy (NH) material setups, and N-7 adds an automatic thread trimmer."
+          "a": "Juki lists the DDL-5550N, NA, NH and the -7 trimmer versions as one series, and dealers mix the DDL-5550 and DDL-5550N names. The NA is the light-weight setup, the NH the heavy-weight setup, and the -7 adds an automatic thread trimmer."
         },
         {
-          "q": "Is the DDL-5550 a walking foot machine?",
-          "a": "No. It is a drop-feed single-needle lockstitch for light to medium-heavy materials. For leather, vinyl or heavy canvas Juki's walking foot model is the DNU-1541S."
+          "q": "Is there a DDL-5550-6?",
+          "a": "Reddit owners often say DDL-5550-6, but no Juki document we fetched separates a -6 version. We treat those threads as the same head family, not the exact model."
         },
         {
-          "q": "How fast does the DDL-5550 sew?",
-          "a": "Juki lists 5,500 stitches per minute for medium-weight material and 4,000 spm for light and heavy-weight setups. A servo motor lets you dial it far lower."
-        },
-        {
-          "q": "Does the DDL-5550 come with a motor?",
-          "a": "Not from Juki. It is sold as a head. Dealers bundle a table, stand and a servo motor; check the listing for which motor is included."
-        },
-        {
-          "q": "How much does the DDL-5550 weigh?",
-          "a": "Not published in the results captured. One dealer snippet says about 75 lb for the head alone; the table and motor add more. Treat the figure as unverified."
-        },
-        {
-          "q": "How much room is there to the right of the needle?",
-          "a": "Not published in the results captured. Juki describes the arm space as wide enough for easy handling but gives no inch figure in the snippets found."
-        },
-        {
-          "q": "What needles does the DDL-5550 use?",
-          "a": "DBx1 industrial needles. Juki ships it with a size 14 and lists sizes 9 to 18."
+          "q": "How fast does the DDL-5550N sew?",
+          "a": "Juki lists 5,500 stitches per minute for the base DDL-5550N, 5,000 for the -7 with trimmer and 4,000 for the NA and NH. A servo motor lets you sew slower."
         },
         {
           "q": "Does the DDL-5550 have an automatic thread trimmer?",
-          "a": "Not on the base model. The DDL-5550N-7 variant adds automatic trimming and costs more."
+          "a": "Not on the base DDL-5550N. Juki lists only the DDL-5550N-7 as the version with an automatic thread trimmer, at 5,000 spm and 4 mm stitch length."
+        },
+        {
+          "q": "What needles does it use?",
+          "a": "DBx1 needles. The base N ships with a size 14 and takes sizes 9 to 18. The Juki page and catalog disagree on the metric equivalent of size 14, Nm75 against Nm90, so check the needle packet."
+        },
+        {
+          "q": "Does it come with a motor?",
+          "a": "Juki lists the head with a servomotor and control box on the -7, and an older manual names a 400 W clutch motor as standard. Dealer bundles add a table, stand and motor, so check the listing."
+        },
+        {
+          "q": "How much does it weigh?",
+          "a": "[verify]. Juki lists 81 kg total weight in the -7 table without saying what it includes, and one dealer snippet said about 75 lb for the head. Neither is a confirmed head weight."
+        },
+        {
+          "q": "How much room is there to the right of the needle?",
+          "a": "[verify]. Juki publishes no arm space or throat figure for this model. One dealer lists a 10 1/4 in workspace without saying how it is measured."
         },
         {
           "q": "Is the DDL-5550 made in Japan?",
-          "a": "Juki correspondence quoted by a seller says the DDL-5550N is made in Japan, and dealer titles say so. The DDL-8700 is not marketed that way."
+          "a": "Unverified. No Juki document we fetched states the country of manufacture. A Juki reply quoted in an Amazon Q&A and dealer titles say Made in Japan, but we do not publish it as fact."
+        },
+        {
+          "q": "What warranty does it carry?",
+          "a": "Juki publishes no model-specific warranty. Juki Americas lists a 90-day warranty on spare parts and refers equipment to separate sales order terms, so the dealer sets the machine warranty."
         }
       ]
     },
@@ -6304,7 +6328,12 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/review/machine/6316",
       "https://sewing.patternreview.com/review/machine/2563",
       "https://sewing.patternreview.com/SewingDiscussions/topic/107545",
-      "https://sewingtrip.com/reviewsjuki-ddl-5550/"
+      "https://sewingtrip.com/reviewsjuki-ddl-5550/",
+      "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E",
+      "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf",
+      "https://juki.com/static/version1789761565/frontend/SBI/bootstrap/en_US/images/products/juki-apparel.pdf",
+      "https://jukiamericas.com/pages/returns-and-exchanges-policy",
+      "https://www.amazon.com/dp/B08H8TYNW1"
     ]
   },
   "juki-ddl-8700": {
@@ -7596,8 +7625,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.jukihome.com/products/serging/mo-644d.html"
       },
       "differentialFeed": {
-        "value": "Yes, ratio published as 0.7 to 2.0; dial on the left side",
-        "source": "https://jukijunkies.com/juki-mo-644d-serger/"
+        "value": "Yes, ratio published as 0.7 to 2.0; dial side unconfirmed (Juki page says exterior right, owner and dealer copy say left)",
+        "source": "https://www.jukihome.com/products/serging/mo-644d.html"
       },
       "throatIn": {
         "value": null,
@@ -7608,15 +7637,15 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.manualslib.com/manual/675244/Juki-Mo-644d.html"
       },
       "presserFootLift": {
-        "value": null,
-        "source": null
+        "value": "5 mm (0.2 in)",
+        "source": "https://www.jukihome.com/products/serging/mo-644d.html"
       },
       "threadTrimmer": {
         "value": null,
         "source": null
       },
       "feedSystem": {
-        "value": "Differential feed; upper knife; no free arm",
+        "value": "Differential feed; upper knife",
         "source": "https://jukijunkies.com/juki-mo-644d-serger/"
       },
       "buttonhole": {
@@ -7636,28 +7665,33 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://jukijunkies.com/juki-mo-644d-serger/"
       },
       "dimensionsIn": {
-        "value": "13.4 x 10.6 x 11.6",
-        "source": "https://www.manualslib.com/manual/675244/Juki-Mo-644d.html"
+        "value": "Juki page: 10.6 W x 13.5 H x 11.5 D in. Juki catalog: 270 W x 340 D x 295 H mm. The two Juki documents label height and depth differently",
+        "source": "https://www.jukihome.com/products/serging/mo-644d.html"
       },
       "includedFeet": {
         "value": "Standard (multipurpose) snap-on presser foot, screwdriver, spool caps, oiler, thread nets, tweezers, needles, brush and needle inserter, light bulb, looper threader, accessory pouch, vinyl cover, foot control, manual",
         "source": "https://www.premierstitching.com/juki-mo-644d-garnet-series-serger/"
       },
       "warrantyUs": {
-        "value": "5 yr mechanical, 2 yr electrical, 90 days labor (dealer statement of Juki warranty); consumables excluded",
-        "source": "https://www.premierstitching.com/juki-mo-644d-garnet-series-serger/"
+        "value": "Juki America FAQ (generic for home machines, not model-specific): 2 years on motors, light assembly, wiring, switches, circuit boards and speed control; 5 years on other parts for factory defects; service through the selling dealer",
+        "source": "https://www.jukihome.com/faq/"
       }
     },
     "claims": [
-      "\"Garnet Line\" is a dealer and Juki America series name for this serger tier, not a grade (dealer listings, Sewing Machines Plus and Ken's)",
-      "\"Rolled hem conversion is built in with no need to change the needle plate\" (manufacturer claim, product page)",
-      "\"Relatively lightweight and easy to move around\" (owner and dealer copy)"
+      "\"Heavy Duty Knife System\" (Juki marketing wording, product page)",
+      "\"Tension: Industrial Type Dial\" (Juki marketing wording, product page)",
+      "\"Easy-to-operate, durable and dependable\" (Juki marketing wording, product page)",
+      "\"Flip and roll\" rolled hem with no needle plate or foot change (Juki marketing wording, product page)",
+      "\"Garnet Line\" is a dealer and Juki America series name, not a grade"
     ],
     "conflicts": [
-      "Differential feed: one dealer prints the ratio as '0.07 : 2.0'; every other source and the 654DE sibling say 0.7 to 2.0. Treated as a typo; catalog uses 0.7 to 2.0.",
-      "Weight: 7.0 kg is the published figure and 15 lb is the dealer conversion (7.0 kg is 15.4 lb). Catalog uses 15.0 lb as printed and notes the rounding.",
-      "Threads: Ken's titles the machine '3/4 Thread' while Juki says 2/3/4 thread. The 2-thread stitches require a separately sold converter on this model, which explains the shorter description.",
-      "Price: $449.00 (Michaels) vs $473.60 total (Prizzi). Sewing Machines Plus lists the machine on two URLs but no price appeared in snippets. Catalog uses $449.00."
+      "Price: Juki prints a suggested retail price of $1,199 on its page, while $449 was seen at Michaels on 2026-09-29; the site shows a price band and records the seen price only in the Last seen line.",
+      "Differential dial side: Juki's page puts the dial on the exterior right hand side, while owner and dealer copy (our earlier spec) put it on the left; the manual text gives no side, so neither is confirmed.",
+      "Dimensions: Juki's page gives 10.6 W x 13.5 H x 11.5 D in, while the catalog gives 270 W x 340 D x 295 H mm; the documents disagree on which axis is height and which is depth, so treat size as soft.",
+      "Warranty: Juki's FAQ gives 2 years on electrical parts and 5 years on other parts and says nothing of 90 days labor, which a dealer statement added; the FAQ wording is generic, not specific to the MO-644D.",
+      "Free arm: our earlier spec said no free arm, taken from an owner site, but Juki's page, catalog and manual do not state it either way, so the value is now [verify].",
+      "Rolled hem stitch length: our earlier spec had 1.5 mm, but the Juki catalog does not separately state a figure for this model, so it is unconfirmed.",
+      "Manual: the manual linked from Juki's MO-644D page is titled MO-644DN/654DEN and lists a 220-240 V foot control, so it is a close relative and not the same document as this model's own manual."
     ],
     "ownerThemes": [
       {
@@ -7709,73 +7743,80 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The MO-644D is Juki's entry serger: 1,500 spm, differential feed and a built-in rolled hem at the Brother 1034D price tier, with the 2-thread converter and outside dials held back for the 654DE.",
-      "whoFor": "A first-serger buyer who wants Juki build and a 5-year mechanical warranty for light to medium fabrics and does not need 2-thread stitches out of the box.",
-      "skipIf": "You want 2-thread overcast without buying a converter, you need a free arm, or you will regularly serge multiple heavy layers.",
+      "verdict": "Juki's entry serger on paper: 2/3/4 thread, 1,500 spm, differential feed and a built-in rolled hem, with the 2-thread converter sold separately.",
+      "whoFor": "A first-serger buyer who wants a Juki 2/3/4 thread machine with differential feed for light to medium fabrics and will buy the 2-thread converter only if needed.",
+      "skipIf": "You want 2-thread stitches in the box, you need a published throat or free arm figure, or you plan to serge heavy layers all day.",
       "keySpec": "2/3/4 thread · differential feed 0.7 to 2.0 · 1,500 spm · 15 lb",
       "strengths": [
-        "1,500 spm and differential feed at an entry price.",
-        "Built-in rolled hem with no needle plate change.",
-        "Owners describe stable tension and predictable feed with little fiddling."
+        "Juki publishes 1,500 spm, a 0.7 to 2.0 differential ratio and a built-in rolled hem that needs no needle plate change.",
+        "Owners report that threading is mostly manageable: 5 of 10 voices on threading and loopers were positive, and one retailer review says it arrived threaded.",
+        "Juki's catalog lists the 2/3 thread converter as optional here and standard on the MO-654DE, so the step-up difference is clear on paper."
       ],
       "weaknesses": [
-        "2-thread stitches need a separately sold converter; the 654DE includes it.",
-        "Stitch length dial sits inside the looper door and the differential dial on the left, both less handy than the 654DE layout.",
-        "No free arm, and Juki's page does not publish presser foot lift or stitch count in the results captured."
+        "2-thread stitches need the optional converter, which is not in Juki's standard accessory list.",
+        "Owners report chain-stitch and lockup failures in some units; the reliability theme has 8 voices, split between praise and problems.",
+        "Juki does not publish throat space, stitch count or a thread trimmer, and its dial side and size documents disagree."
       ],
       "checks": [
         {
           "title": "644D or 654DE",
-          "body": "The 654DE adds the 2-thread converter, moves both dials outside on the right and adds a lower looper lever. If the price gap is under about $100, most owners recommend the step up."
+          "body": "Juki's catalog lists the converter as standard on the MO-654DE and optional on the MO-644D. Price the converter before deciding."
         },
         {
-          "title": "Bonus kits",
-          "body": "Ken's and marketplace listings add feet, cones and DVDs. The Juki box has one multipurpose foot and basic tools. Price the base machine first."
+          "title": "Differential dial side",
+          "body": "Juki's page says exterior right, while owner and dealer copy say left. The manual text does not settle it, so look at the machine at the dealer."
         },
         {
-          "title": "Where you buy sets the warranty",
-          "body": "Dealer copy quotes 5 years mechanical, 2 years electrical, 90 days labor, consumables excluded. Confirm the seller is an authorized Juki dealer."
+          "title": "Manual and warranty",
+          "body": "The linked manual is the MO-644DN/654DEN edition, and Juki's warranty wording is generic for home machines. Ask the seller for the terms that apply to this unit."
         }
       ],
       "realCost": [
+        "2/3 thread converter, optional per Juki's catalog",
         "4 cones of serger thread",
-        "2-thread converter if you want overcast and 2-thread rolled hems",
-        "130/705H household needles",
-        "Serger oil",
-        "Spare upper and lower knives over time"
+        "Household needles (Juki lists HAx1 sizes 11 to 14; the manual names 130/705H)",
+        "Serger oil, which is in the box as an oiler"
       ],
       "faqs": [
         {
           "q": "What is the difference between the Juki MO-644D and MO-654DE?",
-          "a": "Same 2/3/4 thread, 1,500 spm platform. The 654DE includes the 2-thread converter, puts the differential and stitch length dials outside on the right, adds a lower looper lever and is rated by owners for heavier layers. The 644D costs less."
+          "a": "Juki's catalog lists the 2/3 thread converter as optional on the MO-644D and standard on the MO-654DE. The 654DE page also lists a lower looper threader, and Juki prints a higher suggested retail price for it."
         },
         {
           "q": "Does the MO-644D do 2-thread stitches?",
-          "a": "Yes, but only with the 2-thread converter, which is sold separately for this model."
+          "a": "Juki's page lists 2/3/4 thread, but the catalog lists the 2/3 thread converter as optional, so 2-thread stitches need that converter."
         },
         {
           "q": "Can the MO-644D do a rolled hem?",
-          "a": "Yes. Juki says the rolled hem is built in with no needle plate change; published rolled hem width is 2 mm."
+          "a": "Juki says rolled hemming is built in, with no needle plate or foot change. Juki publishes a 2 mm rolled hem width; the rolled hem stitch length is not confirmed for this model."
         },
         {
           "q": "Does the MO-644D have a free arm?",
-          "a": "No."
+          "a": "[verify] Juki's page, catalog and manual do not state it either way. An owner site says no."
         },
         {
           "q": "What needles does the MO-644D use?",
-          "a": "Standard 130/705H household needles in both positions, per the instruction manual."
+          "a": "Juki's page lists household HAx1 needles in sizes 11 to 14. The linked manual, a related MO-644DN/654DEN edition, names 130/705H, the same household family."
         },
         {
           "q": "How heavy is the MO-644D?",
-          "a": "Juki publishes 7.0 kg, which dealers round to 15 lb."
+          "a": "Juki's page and catalog give 15 lb; the manual gives 7.0 kg."
         },
         {
           "q": "How fast is the MO-644D?",
-          "a": "Up to 1,500 stitches per minute."
+          "a": "Juki publishes a maximum of 1,500 stitches per minute."
+        },
+        {
+          "q": "How big is the MO-644D?",
+          "a": "Juki's page gives 10.6 W x 13.5 H x 11.5 D in, while its catalog labels height and depth the other way round, so treat size as soft. Throat space is not published."
+        },
+        {
+          "q": "What do buyers rate it at the retailer?",
+          "a": "Amazon shows 4.4 from 632 ratings for the MO644D listing. Sewing Machines Plus shows 4.82 from 34 reviews, but that count is pooled across models, so it is not a rating for this machine."
         },
         {
           "q": "Is the MO-644D good for beginners?",
-          "a": "Owners call it forgiving on tension and feed. Threading the lower looper is manual and is the one step most owners say takes practice."
+          "a": "Owners report mixed experiences with threading: some call it easy and others had thread breakage or chaining trouble. Juki calls it easy to operate, which is a maker claim."
         }
       ]
     },
@@ -7795,7 +7836,12 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/review/machine/6667",
       "https://sewing.patternreview.com/SewingDiscussions/topic/95466",
       "https://sewing.patternreview.com/SewingDiscussions/topic/121187",
-      "https://www.artisanstitch.co.uk/juki-mo-644d-overlocker-review/"
+      "https://www.artisanstitch.co.uk/juki-mo-644d-overlocker-review/",
+      "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf",
+      "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_1.pdf",
+      "https://www.jukihome.com/faq/",
+      "https://www.jukihome.com/products/serging/mo-654de.html",
+      "https://www.amazon.com/dp/B0014134IO"
     ]
   },
   "juki-mo-654de": {
@@ -9026,7 +9072,7 @@ export const catalogData: Record<string, CatalogEntry> = {
     "priceUsdSeen": 350,
     "priceSeenDate": "2026-09-29",
     "priceSeenAt": "Sewing Machines Plus",
-    "priceNote": "Sewing Machines Plus (sale price in search snippet; regular price shown $449.99)",
+    "priceNote": "Sewing Machines Plus (sale price in search snippet; regular price shown $449.99). Singer's own page showed $319.99 against a $399.99 MSRP and Out of Stock on 2026-10-02.",
     "specs": {
       "stitchTypes": {
         "value": "6 stitch types with 2, 3 or 4 threads: 2, 3 and 4 thread overlock, 2 thread rolled hem, 3 thread flatlock, 3 and 4 thread stretch mock safety; blind hem",
@@ -9037,28 +9083,28 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.amazon.com/Singer-14HD854-Heavy-Duty-Serger/dp/B00EF1ICNC"
       },
       "maxSpm": {
-        "value": 1300,
-        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+        "value": 1200,
+        "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
       },
       "threads": {
         "value": "2, 3 or 4 thread",
         "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
       },
       "differentialFeed": {
-        "value": "Yes, adjustable; ratio range not published in results found",
-        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+        "value": "Yes, adjustable; ratio 1:0.7 to 1:2 (manual spec table)",
+        "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
       },
       "throatIn": {
         "value": null,
         "source": null
       },
       "needleSystem": {
-        "value": "Singer 2022 (ELx705) serger needles",
-        "source": "https://www.poconosewandvac.com/products/singer/machines/singer-14hd854?associated=needles"
+        "value": "Singer 2022 in #14 and #16 (90/14 and 100/16); 100/16 mounted, 90/14 in the accessory case (manual). The ELx705 equivalence is a dealer statement, not in the manual",
+        "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
       },
       "presserFootLift": {
-        "value": null,
-        "source": null
+        "value": "4.5 to 5.0 mm rise (manual); the product page also lists an Extra High Presser Foot Lifter",
+        "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
       },
       "threadTrimmer": {
         "value": null,
@@ -9081,12 +9127,12 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
       },
       "weightLb": {
-        "value": 13.5,
-        "source": "https://www.amazon.com/Singer-14HD854-Heavy-Duty-Serger/dp/B00EF1ICNC"
+        "value": 13.7,
+        "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
       },
       "dimensionsIn": {
-        "value": "14 x 11 x 11.5",
-        "source": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+        "value": "13.3 x 11.0 x 10.4 (manual, 338 x 280 x 265 mm, converted)",
+        "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
       },
       "includedFeet": {
         "value": "All purpose foot, tweezers, spreader (2 thread converter), needles, screwdriver, 4 thread spools, spare lower knife, scrap bag, lint brush",
@@ -9100,18 +9146,19 @@ export const catalogData: Record<string, CatalogEntry> = {
     "claims": [
       "\"Heavy Duty\" (Singer series name, product page; it is a household serger, not a rating)",
       "\"60% larger cutting knife than other Singer Sergers cuts thick fabrics easily\" (manufacturer claim, product page; the comparison base is Singer's own smaller sergers)",
-      "\"Heavy duty metal frame makes it more durable and keeps the machine steady for skip-free sewing\" (manufacturer claim, product page)",
-      "\"High performance motor\" (manufacturer claim, product page; no rating published)",
-      "\"From lightweight silks to heavy denim and upholstery\" (manufacturer claim, product page)",
-      "\"Twice the light of other Singer sergers\" (manufacturer claim for the two LEDs)"
+      "\"Heavy duty metal frame makes it more durable and keeps the machine steady for skip-free sewing\" (manufacturer claim, product page; the page elsewhere says only that the interior frame is metal)",
+      "\"High performance motor\" (manufacturer claim, product page; no motor output is published, and the 120 W on the page is an electrical rating line)",
+      "\"1300 stitches/minute professional speed\" (manufacturer claim, product page; the manual spec table says 1,200 +/- 150 spm)",
+      "\"From lightweight silks to heavy denim and upholstery\" (manufacturer claim, product page FAQ)",
+      "\"Twice the light of other Singer sergers\" (manufacturer claim for the two LEDs; the base is unnamed)"
     ],
     "conflicts": [
-      "Stitch count: Singer and Amazon say 6 stitch types; Sewing Machines Plus copy says 10 sewing programs; a Walmart snippet says 8 built in stitches; a PatternReview thread says six built in stitches and four rolled hems. Catalog will use 6 flagged [verify].",
-      "Weight: 13.5 lb (Amazon B00EF1ICNC, 6.12 kg) vs 7.38 kg (about 16.3 lb, second listing, likely shipping weight) vs 13,500 g on manua.ls (a units error). Catalog will use 13.5 lb.",
-      "Price: $349.95 sale against $449.99 regular (Sewing Machines Plus) vs $319.99 (Michaels) vs $336.99 (GoldStar Tool) vs $309.99 (eBay). singer.com price did not appear in snippets. Catalog will use the SMP figure in the Last seen line and a band in chrome.",
-      "Motor: a snippet gave 110 W without a clearly attributable page. Left null.",
-      "Differential feed ratio: Singer copy says fully adjustable; no numeric range appeared. Left as a yes with the range unpublished.",
-      "Successor status: AllBrands lists the 14HD854 as the replacement for the ProFinish 14CG754 and a PatternReview thread treats it as the heavier duty sibling, but singer.com keeps live product pages for both and no Singer statement of replacement appeared. Catalog will describe the 14HD854 as the current heavier duty model and note the dealer statement only."
+      "Max speed: the Singer product page says 1,300 spm; the Singer manual spec table says 1,200 +/- 150 spm. Both are Singer documents and the manual may be an older multi-region revision.",
+      "Weight: the Singer product page and Amazon say 13.5 lb; the manual says 6.2 kg, about 13.7 lb. One listing gives 7.38 kg, likely a shipping weight.",
+      "Dimensions: the Singer product page says 14 x 11 x 11.5 in; the manual says 338 x 280 x 265 mm, or 13.3 x 11.0 x 10.4 in (our conversion).",
+      "Needles: dealers say Singer 2022 is equivalent to ELx705; the manual names only Singer 2022 in #14 and #16 (90/14 and 100/16) and does not mention ELx705.",
+      "Stitch types: the Singer page and manual both list six; some retailers say 8 or 10, which neither Singer document supports.",
+      "Revision: the manual PDF fetched is a multi-region file and could be an older revision than the product page, so the page-versus-manual gaps may be revision gaps."
     ],
     "ownerThemes": [
       {
@@ -9135,7 +9182,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.walmart.com/reviews/product/318390453"
       }
     ],
-    "evidence": "owner",
+    "evidence": "mixed",
     "buyerQuestions": [
       "Does the Singer 14HD854 replace the 14CG754?",
       "What is the difference between the Singer 14HD854 and the 14CG754?",
@@ -9169,81 +9216,80 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The 14HD854 is Singer's 2/3/4 thread serger with differential feed, a free arm, two LEDs and a knife Singer calls 60 percent larger than its other sergers, and it is the ProFinish 14CG754 with a heavier cutter and better light for about $100 more, not an industrial machine.",
-      "whoFor": "A first or second serger buyer who wants 2 thread capability, a free arm and a brighter work light at a chain store price, and who will sew denim and fleece more than silk.",
-      "skipIf": "You want quiet running and easy looper threading (owners on PatternReview report noise and fiddly threading), you can find the 14CG754 at a real discount, or you can stretch to a Juki MO-654DE.",
-      "keySpec": "2/3/4 thread · 1,300 spm · differential feed · free arm · 2 LEDs · 13.5 lb",
+      "verdict": "A 2/3/4 thread Singer serger with differential feed and a free arm, priced against its own ProFinish sibling; Heavy Duty is a series name, and Singer publishes no motor or frame rating.",
+      "whoFor": "A first or second serger buyer who wants 2 thread capability, differential feed and a free arm from a mainstream brand with a long head warranty, and who accepts that the owner record is thin.",
+      "skipIf": "You need a published motor rating or throat figure, you want a serger with a deep owner record, or you can stretch to a model that states more on its spec sheet.",
+      "keySpec": "2/3/4 thread · 1,200 +/- 150 spm (manual) · differential 1:0.7 to 1:2 · free arm · 2 LEDs · 13.7 lb",
       "strengths": [
-        "2 thread stitches via the included spreader, plus a built in rolled hem and free arm",
-        "Two LED lights and a larger upper knife address the two complaints owners level at the 14CG754",
-        "Uses the common Singer 2022 (ELx705) serger needle and carries Singer's 25 year head warranty"
+        "Singer's documents list six stitch types on 2, 3 or 4 threads, including a built in rolled hem and flatlock",
+        "Differential feed is published at 1:0.7 to 1:2 in the manual, with a presser foot rise of 4.5 to 5.0 mm",
+        "Singer's warranty page states 25 years on the head and 2 years on motor and electrical parts, a generic Singer policy rather than a model-specific one"
       ],
       "weaknesses": [
-        "Owner reports on PatternReview and Walmart repeat noise, vibration and slow lower looper threading",
-        "Heavy Duty is a series name; frame alloy, motor rating and differential ratio are not published",
-        "Stitch count is quoted as 6, 8 or 10 depending on the retailer"
+        "Owners report defects and unit problems, including a drive belt that arrived unconnected and a pedal that stopped responding on a secondhand unit, from a small and self-selected pool",
+        "Owners report trouble finding ballpoint or stretch needles in the Singer 2022 type; Singer's manual names only Singer 2022 in 90/14 and 100/16",
+        "Singer's page and manual disagree on speed, weight and size, and motor output, throat space and frame alloy are not published"
       ],
       "checks": [
         {
-          "title": "Price it against the 14CG754",
-          "body": "Singer sells both. If the 14CG754 sits $80 or more below the 14HD854, decide whether the larger knife and two LEDs are worth the gap; threading and stitch types are otherwise the same."
+          "title": "Read the manual figures, not the page",
+          "body": "The Singer page says 1,300 spm; the manual spec table says 1,200 +/- 150 spm. Weight and size also differ between the two. Treat the speed as a range."
         },
         {
-          "title": "Read the stitch count in the manual, not the listing",
-          "body": "Retailers quote 6, 8 or 10 stitches for the same machine. Singer's own page says 6 stitch types; the manual is the tie breaker."
+          "title": "Check stock and dates before you plan around it",
+          "body": "Singer's page showed Out of Stock and Sold out on 2026-10-02 and does not say the model is discontinued. Confirm availability with the dealer."
         },
         {
-          "title": "Plan for noise",
-          "body": "Several owners describe the machine as loud and shaky at speed. A rubber mat and a solid table help; if you sew in a shared space, compare against the Brother 1034D and Juki MO-654DE first."
+          "title": "Test the unit on arrival",
+          "body": "Owner reports include a belt that arrived unconnected and a pedal that stopped responding. Run scrap fabric through every stitch type inside the return window."
         }
       ],
       "realCost": [
-        "4 cones of serger thread beyond the starter spools",
-        "Singer 2022 (ELx705) needles beyond the included set",
-        "Serger oil and a lint brush",
-        "A non slip mat to damp vibration",
-        "Replacement upper knife once the spare lower knife is used"
+        "Singer 2022 needles beyond the set included: the manual names 90/14 and 100/16, and owners report limited choice of ballpoint types",
+        "Serger thread: Singer's page lists spool holders, and one Singer reviewer says no thread came in the box",
+        "Serger oil and a lint brush; Singer includes a lint brush and a spare lower knife",
+        "Accessories beyond the all purpose foot, spreader, tweezers and screwdriver in the box"
       ],
       "faqs": [
         {
-          "q": "Does the Singer 14HD854 replace the 14CG754?",
-          "a": "Not per Singer. AllBrands lists the 14HD854 as the replacement for the ProFinish 14CG754, but singer.com keeps both product pages live and publishes no replacement statement. Treat it as the heavier duty sibling."
+          "q": "Is the Singer 14HD854 really heavy duty?",
+          "a": "Heavy Duty is Singer's series name, a claim and not a rating. Singer says the interior frame is metal and calls the motor high performance, but publishes no motor output (the 120 W on the page is an electrical line) and no frame alloy."
         },
         {
-          "q": "What is the difference between the 14HD854 and the 14CG754?",
-          "a": "Both are 2/3/4 thread 1,300 spm sergers with differential feed, rolled hem and a free arm. Singer gives the 14HD854 a 60 percent larger knife, a stronger motor and two LED lights."
+          "q": "How fast does the 14HD854 sew?",
+          "a": "Singer's product page says 1,300 spm. The manual spec table says 1,200 +/- 150 spm. Both are Singer documents and the manual may be an older revision."
         },
         {
-          "q": "Is the 14HD854 really heavy duty?",
-          "a": "Heavy Duty is Singer's series name. It is a household serger with a metal frame; Singer's claim is that it handles multiple layers up to denim and upholstery weight. No motor rating is published."
+          "q": "How many stitch types does it have?",
+          "a": "Six, per both the Singer page and the manual: 2 thread wrapped overlock, 2 thread rolled hem, 3 thread overlock, 3 thread flatlock, 3 thread wrapped overlock and 4 thread stretch mock safety. Retailer claims of 8 or 10 are not supported by either Singer document."
         },
         {
-          "q": "Is the 14HD854 hard to thread?",
-          "a": "Threading is manual lay in with a color coded diagram on the machine. Owners disagree: some call it easy with a video, others find the lower looper slow and fiddly."
-        },
-        {
-          "q": "Is the 14HD854 loud?",
-          "a": "Several owners on PatternReview and Walmart describe it as loud and shaky at speed. Others report no trouble. A solid table helps."
-        },
-        {
-          "q": "Can it do a rolled hem?",
-          "a": "Yes, a built in 2 thread rolled hem per Singer's stitch list."
-        },
-        {
-          "q": "Does it have a free arm?",
-          "a": "Yes. The storage compartment removes to expose the free arm for cuffs and hems."
+          "q": "What differential feed ratio does it have?",
+          "a": "Singer's manual spec table gives 1:0.7 to 1:2. The product page says only that it is fully adjustable."
         },
         {
           "q": "What needles does it use?",
-          "a": "Singer 2022 serger needles, equivalent to ELx705, in sizes 80/12 and 90/14."
+          "a": "The manual names Singer 2022 in #14 and #16 (90/14 and 100/16), with 100/16 mounted. Dealers call this equivalent to ELx705; that is a dealer statement, not in the manual. One owner reports difficulty finding ballpoint or stretch needles in this type."
         },
         {
-          "q": "How much does it weigh?",
-          "a": "13.5 lb per the Amazon listing, 14 x 11 x 11.5 in per Singer. One listing gives 7.38 kg, likely a shipping weight."
+          "q": "How much does it weigh and how big is it?",
+          "a": "The page says 13.5 lb and 14 x 11 x 11.5 in. The manual says 6.2 kg, about 13.7 lb, and 338 x 280 x 265 mm, or 13.3 x 11.0 x 10.4 in. The inch figures from the manual are our conversion."
         },
         {
-          "q": "What is the warranty?",
-          "a": "Singer's warranty page states 25 years on the head, 2 years on motor and electrical parts and 90 days on adjustments and attachments."
+          "q": "Does it have a free arm?",
+          "a": "Yes. Singer's page says to remove the storage compartment and the manual says to remove the cloth plate to expose the free arm. Neither document publishes a throat or workspace figure."
+        },
+        {
+          "q": "What do buyers rate it?",
+          "a": "Singer's page shows 4.3 from 44 reviews, with many flagged Received Free Product and an Ease of Use score of 2.7 of 5, per the page's own figures. Amazon shows 4.5 from 63 ratings on a listing pooled with other Singer Heavy Duty listings (0420 and 0460), so it is not this model's own rating."
+        },
+        {
+          "q": "Is it discontinued?",
+          "a": "Singer's page shows Out of Stock and Sold out with back-orders on a date to be determined. It does not say the model is discontinued. We attribute the wording and make no further claim."
+        },
+        {
+          "q": "What does it cost?",
+          "a": "Singer's page showed a $399.99 MSRP and a lower price on 2026-10-02, and it was out of stock. Check the Last seen line for a dated retailer price; prices move often."
         }
       ]
     },
@@ -9271,7 +9317,8 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/review/machine/7035",
       "https://sewing.patternreview.com/review/machine/6676",
       "https://sewing.patternreview.com/SewingMachine/1931",
-      "https://sewing.patternreview.com/SewingDiscussions/topic/114880"
+      "https://sewing.patternreview.com/SewingDiscussions/topic/114880",
+      "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
     ]
   },
   "singer-14t968dc": {
@@ -9292,8 +9339,8 @@ export const catalogData: Record<string, CatalogEntry> = {
     "priceNote": "Sewing Machines Plus (via its Walmart marketplace listing)",
     "specs": {
       "stitchTypes": {
-        "value": "14 built-in stitches: 2/3/4/5-thread overlock, chain stitch, flatlock, rolled hem, narrow, wide and triple cover stitch",
-        "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+        "value": "14 built-in stitches: 2/3/4/5-thread overlock, chain stitch, flatlock, rolled hem, narrow, wide and triple cover stitch; cover stitch needle gauges 2.8 mm (narrow) and 5.6 mm (wide and triple)",
+        "source": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
       },
       "stitchCount": {
         "value": 14,
@@ -9308,16 +9355,16 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
       },
       "differentialFeed": {
-        "value": "1:0.6 to 1:2",
-        "source": "https://www.sewingpartsonline.com/products/singer-14t968dc-professional-5-serger"
+        "value": "1:0.6 to 1:2.0",
+        "source": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
       },
       "throatIn": {
         "value": null,
         "source": null
       },
       "needleSystem": {
-        "value": "Singer 2022, sizes 14/90 (supplied) and 11/80 only",
-        "source": "https://www.manualslib.com/manual/610497/Singer-14t968dc.html"
+        "value": "Singer 2022 (EL x 705), 14/90 supplied; manual allows only 14/90 and 11/80",
+        "source": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
       },
       "presserFootLift": {
         "value": "Extra-high presser foot lift; presser foot rise 4.5 mm (manual)",
@@ -9345,30 +9392,36 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "weightLb": {
         "value": 19.84,
-        "source": "https://www.sewingpartsonline.com/products/singer-14t968dc-professional-5-serger"
+        "source": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
       },
       "dimensionsIn": {
-        "value": "Width 11.5 (other dimensions not published in results)",
-        "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+        "value": "14.2 x 11.4 x 11.8 (W x D x H, from 360 x 290 x 300 mm in the manual)",
+        "source": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
       },
       "includedFeet": {
         "value": "General purpose foot; spreader; spare knife; screwdrivers; spool caps; thread nets; oiler and brush; tweezers; needles; cone adapters; soft dust cover",
         "source": "https://www.amazon.com/SINGER-Professional-14T968DC-Capability-Including/dp/B002PDZTT2"
       },
       "warrantyUs": {
-        "value": "25 yr frame, 2 yr electronic and electrical, 90 days mechanical parts and adjustments",
-        "source": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+        "value": "25 yr frame, 2 yr electronic and electrical, 90 days mechanical parts and adjustments (Singer's generic warranty document, household use, first purchaser)",
+        "source": "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-10e8219a-17a4-440f-bae4-9fe48a9ab4d5-singer%2025-2-90%20%20warranty%20471025847e.pdf"
       }
     },
     "claims": [
-      "\"Self-adjusting tension system\" that sets tension automatically (manufacturer claim, product page)",
-      "\"Heavy-duty\" and \"professional\" (Singer series naming and Amazon listing title; not a rating)",
-      "\"Designed for both home and professional use\" (manufacturer claim, product page)"
+      "\"Self-Adjusting Tensions System\" that is \"fully automatic\" (manufacturer claim, product page; the manual shows an Auto Tension Dial set per stitch)",
+      "\"Heavy Duty Metal Frame\" (manufacturer claim; the page says only the interior frame is metal)",
+      "\"High Speed Stitching\" and \"Professional speed\" at 1,300/min (manufacturer claim, product page)",
+      "\"Powerful motor\" for denim and canvas (manufacturer FAQ claim; motor type and output are not published)",
+      "\"Professional 5\" is a Singer series name; the 5 is the thread capability, not a rating",
+      "\"Heavy-duty\" in the Amazon listing title is listing wording, not a rating"
     ],
     "conflicts": [
-      "Weight: 19.84 lb (dealer listing) vs 18.6 lb (another dealer). Singer page value not captured. Catalog will use 19.84 lb flagged [verify].",
-      "Price: Sewing Machines Plus via Walmart $626.18 vs Best Buy $649.99 vs GoldStar Tool $699.00. Catalog will use $626.18 and label the channel.",
-      "Type: sold as a serger; it is a serger and coverstitch combo requiring a manual conversion (blade, plate, needles, clutch). Recorded as 'serger' with the combo noted."
+      "Weight: the Singer product page shows 18.6 with no unit, while the Singer manual gives 9.0 kg (19.84 lb); the manual figure is used.",
+      "Dimensions: the Singer product page shows 13.5 x 10.5 x 11.5 with no unit or axis labels, while the manual gives 360 x 290 x 300 mm (about 14.2 x 11.4 x 11.8 in, W x D x H); our earlier spec held only a width of 11.5, and the manual figures are used.",
+      "Tension: Singer's page calls it a 'self-adjusting' system, while the manual shows an Auto Tension Dial set per stitch and says to adjust in small steps if results differ; we treat the page wording as a maker claim.",
+      "Warranty: the 25 year, 2 year and 90 day terms come from Singer's generic warranty document, not a model-specific one, and Singer reserves the right to reject claims on machines from unauthorized dealers, including unauthorized internet sites.",
+      "Price: Sewing Machines Plus via Walmart showed $626.18 on 2026-09-29, Best Buy $649.99 and GoldStar Tool $699.00 in earlier checks, and the Singer store showed $649.99 against an MSRP of $819.99 on 2026-10-02; dealers set their own price.",
+      "Type: sold as a serger; it is a serger and coverstitch combination that needs a manual conversion, recorded as 'serger' with the combination noted."
     ],
     "ownerThemes": [
       {
@@ -9416,41 +9469,86 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The Professional 5 is the one-box answer for serging and coverstitch: 2/3/4/5 thread, 1,300 spm, 14 stitches, with a manual conversion between modes.",
-      "whoFor": "A sewist short on space or budget who wants a 5-thread safety stitch and coverstitch and accepts a several-minute changeover.",
-      "skipIf": "You switch between seaming and hemming many times per project; two dedicated machines will be faster.",
-      "keySpec": "2/3/4/5 thread · serger + coverstitch · 1,300 spm · 3.0 to 9.8 mm width",
+      "verdict": "A 5-thread serger and coverstitch in one box at 1,300 spm, with a manual changeover each time you switch and many owner threads about threading trouble.",
+      "whoFor": "A sewist short on space or budget who wants a 5-thread safety stitch and coverstitch in one machine and accepts a changeover between modes.",
+      "skipIf": "You switch between seaming and hemming often in one project, or want a stated free arm or thread trimmer; Singer publishes neither.",
+      "keySpec": "2/3/4/5 thread · serger + coverstitch · 1,300 spm · 3.0 to 9.8 mm width · 19.84 lb",
       "strengths": [
-        "Only machine in this set with 5-thread safety stitch and coverstitch in one unit.",
-        "Stitch width 3.0 to 9.8 mm and differential feed 0.6 to 2.0 published by dealers.",
-        "Singer's 25-year frame warranty with 2 years on electrical parts."
+        "Singer lists 14 stitches with 2 to 5 thread capability and a coverstitch in one machine, which the 14HD854 and 14CG754 pages do not offer.",
+        "Singer's manual publishes the working ranges: differential feed 1:0.6 to 1:2.0, overedge width 3.0 to 9.8 mm, stitch length 1 to 4 mm, presser foot rise 4.5 mm.",
+        "Owners report pleasing cover stitch and general stitch results in some threads, and Sewing Machines Plus shows 4.78 from 9 reviews (a small sample)."
       ],
       "weaknesses": [
-        "Requires Singer 2022 needles, which owners report are hard to find.",
-        "Coverstitch mode has limited clearance under the foot and reviewers report right-needle skips.",
-        "Mechanical parts and adjustments are covered for only 90 days."
+        "Owners report threading and looper trouble across 21 statements, including looper threads that never interlock and painful frequent switching between serger and coverstitch.",
+        "Owners report defects and skipped stitches in 15 statements, mostly from help-seeking Reddit threads, so this is not a failure rate.",
+        "Owners report the auto tension dial still needs adjusting, and Singer's manual says to adjust in small steps if results differ."
       ],
       "checks": [
         {
-          "title": "Conversion steps",
-          "body": "Switching modes means moving the blade, changing the plate, shifting needles and flipping the clutch. Reviewers time it at about seven minutes once learned."
+          "title": "Weight and size",
+          "body": "Singer's page shows 18.6 and 13.5 x 10.5 x 11.5 with no units; the manual gives 9.0 kg (19.84 lb) and 360 x 290 x 300 mm. Use the manual figures when planning bench space."
         },
         {
-          "title": "Needle stock",
-          "body": "Singer 2022 in 14/90 ships with it; the manual allows 11/80 too. Order spares with the machine rather than hunting locally."
+          "title": "Needles",
+          "body": "The manual allows only Singer 2022 needles in 14/90 (supplied) and 11/80, and warns against standard household needles. Owners report these are hard to find."
         },
         {
-          "title": "Which channel you buy from",
-          "body": "Prices seen ranged from $626 (Sewing Machines Plus on Walmart) to $699. Confirm the seller is authorized so the Singer warranty applies."
+          "title": "Seller and warranty",
+          "body": "Singer's 25 year, 2 year and 90 day warranty is a generic document and Singer may reject claims from unauthorized dealers. Confirm the seller before buying."
         }
       ],
       "realCost": [
-        "5 cones of serger thread for the safety stitch",
-        "Singer 2022 needles in 14/90 and 11/80",
-        "Serger oil (oiler included)",
-        "Spare knife (one included)"
+        "Serger thread: up to five cones for the 5-thread safety stitch, with cone adapters and thread nets on the accessory list",
+        "Singer 2022 needles in 14/90 and 11/80; the manual allows only these",
+        "Serger oil and brush; an oiler and brush are on the accessory list",
+        "Spare knife: one extra is included per the Singer page"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "Does the Singer 14T968DC do coverstitch?",
+          "a": "Yes. Singer's page says it comes with coverstitch, and the manual shows a clutch change and cover stitch needles. Cover stitch needle gauges are 2.8 mm and 5.6 mm."
+        },
+        {
+          "q": "How long does it take to switch from serger to coverstitch?",
+          "a": "Singer does not publish a changeover time, so it is [verify]. Owners report switching often is painful."
+        },
+        {
+          "q": "What needles does it use?",
+          "a": "Singer 2022 (EL x 705), with 14/90 supplied; the manual says use only 14/90 and 11/80."
+        },
+        {
+          "q": "Is the tension really automatic?",
+          "a": "Singer calls it a self-adjusting tension system. The manual shows an Auto Tension Dial that you set per stitch, based on medium weight fabric and 60 polyester spun thread, with small adjustments if results differ."
+        },
+        {
+          "q": "How heavy is it?",
+          "a": "The manual gives 9.0 kg, which is 19.84 lb. Singer's page shows 18.6 with no unit, so the sources disagree."
+        },
+        {
+          "q": "How big is it?",
+          "a": "The manual gives 360 x 290 x 300 mm, about 14.2 x 11.4 x 11.8 in (W x D x H). The page shows 13.5 x 10.5 x 11.5 with no unit or axis labels."
+        },
+        {
+          "q": "Does it have a free arm or thread trimmer?",
+          "a": "Singer publishes neither for this model, so both are [verify]. The knife trims the fabric edge only."
+        },
+        {
+          "q": "What is the warranty?",
+          "a": "Singer's generic document gives 25 years on the frame, 2 years on electrical parts and 90 days on mechanical parts, for household use, to the first purchaser. Singer may reject claims on machines from unauthorized dealers."
+        },
+        {
+          "q": "What do buyers rate it?",
+          "a": "Amazon shows 4.2 from 1,501 ratings, pooled with the B0GM81RNCC listing, so it is not for this model alone. Sewing Machines Plus shows 4.78 from 9 reviews, and Singer's own page shows 4.3 from 62 (the page's own figure)."
+        },
+        {
+          "q": "Is it heavy duty?",
+          "a": "Singer's page says Heavy Duty Metal Frame but states only the interior frame is metal. Heavy duty is a Singer claim, and one owner calls it mostly plastic."
+        },
+        {
+          "q": "What is the motor?",
+          "a": "Singer does not publish motor type or output. The page lists 0.5 amps, 114 watts, 120 volts and 60 Hz as electrical input."
+        }
+      ]
     },
     "sources": [
       "https://www.singer.com/products/singer-professional-5-14t968dc-serger",
@@ -9463,7 +9561,12 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/review/machine/6861",
       "https://sewing.patternreview.com/review/machine/6636",
       "https://sewing.patternreview.com/SewingDiscussions/topic/79706",
-      "https://sewingreviewmaster.com/product/singer-14t968dc-review/"
+      "https://sewingreviewmaster.com/product/singer-14t968dc-review/",
+      "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf",
+      "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-10e8219a-17a4-440f-bae4-9fe48a9ab4d5-singer%2025-2-90%20%20warranty%20471025847e.pdf",
+      "https://www.amazon.com/dp/B002PDZTT2",
+      "https://www.singer.com/products/singer-14hd854-heavy-duty-serger",
+      "https://www.singer.com/products/singer-profinish-14cg754-serger"
     ]
   },
   "singer-4411": {

@@ -1,11 +1,29 @@
 {
   "specs": {
-    "maxSpm": { "value": "1,200 +/- 150 (manual spec table); the Singer product page says 1,300", "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf" },
-    "differentialFeed": { "value": "Yes, adjustable; ratio 1:0.7 to 1:2 (manual spec table)", "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf" },
-    "needleSystem": { "value": "Singer 2022 in #14 and #16 (90/14 and 100/16); 100/16 mounted, 90/14 in the accessory case (manual). The ELx705 equivalence is a dealer statement, not in the manual", "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf" },
-    "presserFootLift": { "value": "4.5 to 5.0 mm rise (manual); the product page also lists an Extra High Presser Foot Lifter", "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf" },
-    "weightLb": { "value": 13.7, "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf" },
-    "dimensionsIn": { "value": "13.3 x 11.0 x 10.4 (manual, 338 x 280 x 265 mm, converted)", "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf" }
+    "maxSpm": {
+      "value": 1200,
+      "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+    },
+    "differentialFeed": {
+      "value": "Yes, adjustable; ratio 1:0.7 to 1:2 (manual spec table)",
+      "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+    },
+    "needleSystem": {
+      "value": "Singer 2022 in #14 and #16 (90/14 and 100/16); 100/16 mounted, 90/14 in the accessory case (manual). The ELx705 equivalence is a dealer statement, not in the manual",
+      "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+    },
+    "presserFootLift": {
+      "value": "4.5 to 5.0 mm rise (manual); the product page also lists an Extra High Presser Foot Lifter",
+      "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+    },
+    "weightLb": {
+      "value": 13.7,
+      "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+    },
+    "dimensionsIn": {
+      "value": "13.3 x 11.0 x 10.4 (manual, 338 x 280 x 265 mm, converted)",
+      "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+    }
   },
   "conflicts": [
     "Max speed: the Singer product page says 1,300 spm; the Singer manual spec table says 1,200 +/- 150 spm. Both are Singer documents and the manual may be an older multi-region revision.",
