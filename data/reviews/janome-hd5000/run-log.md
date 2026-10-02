@@ -1,0 +1,13 @@
+
+## Phase A worker run, 2026-10-02
+
+Aliases: bare "HD5000" is distinctive enough but also matches "HD 5000" style and unrelated "Singer HD" threads, so queries.json is model_names_only with Janome-qualified names (Janome HD5000, Janome HD-5000, HD5000 Black Edition, Janome HD5000BE) and Janome-qualified Reddit searches. Dry run: 67 threads found, 60 taken; 29 have the model in the title, 31 mention it only in comments (some are broader buying threads such as a Consew vs Juki vs Sailrite comparison). The checks report 58 threads, 27 with the model in the title after collection.
+
+Maker documents: HD-5000 and HD5000BE product pages, the instruction manual (22 pages, image-heavy, no spec table; the BE manual link is the same file), the Limited 25 Year Warranty PDF (OCR), warranty page, HD-3000 and HD-1000 pages (the guessed /product/hd1000/ URL is 404; /product/hd-1000/ works). Cloudflare blocked a plain curl of the sibling pages; they were read through Firecrawl.
+
+Maker disagreements: max stitch width is 6.5 mm on the maker pages and in the manual (our spec says 7 mm); feed dog is described as seven-piece in the page text but listed as 5 Piece Feed Dog in Specifications on this and the HD3000 page; buttonhole is one-step in HD-5000 Key Features but "1 Four-Step" on the BE and HD-3000 Specifications; standard accessories on the HD-5000 name a Quilting Guide Bar but list the Quilting Attachment Kit as optional (the BE lists it as standard). Maker publishes no speed (860 spm is Ken's only), no motor, no throat (only Workspace W 6.5 x H 4.6 in, identical on the HD3000), no price. Manual says the presser foot lifts about 0.6 cm above the normal up position (OCR). Warranty is the generic Janome America 25 year terms; Amazon's listing says 2 years electrical against the maker's 5.
+
+Marketplaces: Amazon B084M81BC6 (HD5000, 4.1 from 80, $499 seen) and B09MDLYYPC (Black Edition, 4.1 from 141); neither pooled, no review text returned. Ken's page ingest failed ("no known review platform"); retailerUrl in the spec is null so no SMP page was fetched.
+
+Collection: 519 items from 60 Reddit sources, 377 segments, 10 claim chunks of 40. reviews:checks: 0 errors, 5 warnings (maker contradictions not mentioned in the spec conflicts: Hook, Dimensions, Buttonhole, Speed, Standard accessories).
+Claims 112 accepted, 1 rejected (94 spec: this 73, sibling 16, unclear 5); tags 94; 60 voices (39 first-hand), moderate; sibling rows HD3000 (4) and HD1000 (1). Max width is 6.5 mm per Janome (our 7 mm unsupported); Janome's HD5000 and HD3000 tables match; no speed, motor, throat or price published. Reddit claims of 7 mm width, an overlock stitch and Canada-only are unsupported by Janome pages. No dated price, so no price block.

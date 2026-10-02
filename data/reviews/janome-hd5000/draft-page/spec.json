@@ -1,0 +1,159 @@
+{
+  "specs": {
+    "stitchTypes": {
+      "value": "18 built-in stitches (Janome); max width 6.5 mm, max length 4 mm",
+      "source": "https://www.janome.com/product/hd-5000/"
+    },
+    "maxSpm": {
+      "value": null,
+      "source": null
+    },
+    "feedSystem": {
+      "value": "Feed dog listed as 5 piece in Specifications and 'seven-piece' in the description text (same Janome page); drop feed lever for free motion; top loading full rotary hook (drop-in bobbin); free arm",
+      "source": "https://www.janome.com/product/hd-5000/"
+    },
+    "buttonhole": {
+      "value": "One-step per HD-5000 Key Features; '1 Four-Step' per HD5000BE and HD-3000 Specifications (Janome pages disagree)",
+      "source": "https://www.janome.com/product/hd-5000/"
+    },
+    "dimensionsIn": {
+      "value": "16 x 7.2 x 11.3",
+      "source": "https://www.janome.com/product/hd-5000/"
+    },
+    "throatIn": {
+      "value": null,
+      "source": null
+    },
+    "presserFootLift": {
+      "value": "Extra high presser foot lift (Janome Specifications); manual: about 1/4 in above the normal up position (OCR, verify)",
+      "source": "https://www.janome.com/wp-content/uploads/2021/11/hd5000-instruction-manual.pdf"
+    },
+    "includedFeet": {
+      "value": "7 accessory feet (Janome); quilting guide bar standard; Quilting Attachment Kit optional on the HD-5000 and standard on the HD5000BE",
+      "source": "https://www.janome.com/product/hd-5000/"
+    },
+    "warrantyUs": {
+      "value": "Janome America Limited 25 Year Warranty: 25 yr materials and workmanship, 5 yr electronic parts, 1 yr labor, 1 yr if used commercially; void if not bought from an authorized US Janome dealer (OCR of PDF, verify)",
+      "source": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+    }
+  },
+  "conflicts": [
+    "Stitch width: Janome lists 6.5 mm on the HD-5000 and HD5000BE pages and 3 to 6.5 in the manual (OCR); our earlier figure of 7 mm and a Reddit commenter's 7 mm have no maker support. Catalog uses 6.5 mm.",
+    "HD3000 comparison: Janome lists 6.5 mm width, 4 mm length, 18 stitches, 18.7 lb and workspace W 6.5 x H 4.6 in for both the HD-5000 and HD-3000; the spec tables match line for line.",
+    "Feed dog: 5 piece in Janome's Specifications (HD-5000, HD5000BE, HD-3000) vs seven-piece in the HD-5000 description text; Amazon says 5-piece, sewingpartsonline says 7-piece. Not resolved.",
+    "Buttonhole: one-step in the HD-5000 Key Features vs '1 Four-Step' on the HD5000BE and HD-3000 Specifications. Not resolved.",
+    "Stitch count: 18 (Janome) vs 19 (Ken's spec block) vs 27 (one comparison blog). Catalog uses Janome's 18.",
+    "Speed: Janome publishes no speed for the HD-5000; 860 spm appeared only in dealer copy and is not used.",
+    "Dimensions: Janome W 16 x H 11.3 x D 7.2 in vs Ken's 16 x 7 x 11 in (rounded). Catalog uses Janome.",
+    "Hook: Janome says top loading full rotary hook; our earlier 'horizontal full rotary hook' was dealer wording.",
+    "Quilting kit: optional on the HD-5000 and standard on the HD5000BE (Janome); some dealer copy says the kit is included.",
+    "Warranty: Janome America states 5 years on electronic parts; the Amazon listing says 2 years electrical.",
+    "Market: Reddit commenters say the HD5000 is Canada-only and has an overlock stitch; Janome's US pages list the HD-5000 and do not list an overlock stitch. Unsupported, not used.",
+    "Price: Janome publishes no price ('Please see Dealer for pricing'). No dated price appears in this review's inputs, so none is recorded."
+  ],
+  "claims": [
+    "\"Heavy Duty\" is the HD series name, not a capacity rating (manufacturer series name)",
+    "\"Heavy-duty mechanical workhorse\" (Janome claim, product page)",
+    "\"Seven-piece feed dog feeds fabric smoothly while maintaining a taut surface\" (Janome claim; Janome's own Specifications list 5 piece)",
+    "\"Sews 12 layers of denim\" (dealer title, Linda's Quilt Shoppe; Janome gives no layer count)"
+  ],
+  "evidence": "owner",
+  "sources": [
+    "https://www.janome.com/product/hd-5000/",
+    "https://www.janome.com/product/hd5000be/",
+    "https://www.janome.com/product/hd-3000/",
+    "https://www.janome.com/product/hd-1000/",
+    "https://www.janome.com/wp-content/uploads/2021/11/hd5000-instruction-manual.pdf",
+    "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+    "https://www.janome.com/support/warranty/",
+    "https://www.amazon.com/Janome-HD5000-Heavy-Sewing-Machine/dp/B084M81BC6",
+    "https://www.amazon.com/Janome-Heavy-Duty-Aluminum-Stitches-Threader/dp/B09MDLYYPC",
+    "https://www.kenssewingcenter.com/janome-hd5000-heavy-duty-sewing-machine.html",
+    "https://www.sewingpartsonline.com/products/janome-hd-5000-heavy-duty-sewing-machine",
+    "https://shop.lindasquiltshoppe.com/products/janome-hd5000-heavy-duty-sewing-machine",
+    "https://sewing.patternreview.com/review/machine/7293",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/126098",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/112978"
+  ],
+  "editorial": {
+    "verdict": "A mechanical Janome HD with 18 stitches and an aluminum frame; Janome's spec table matches the HD3000 line for line, so compare bundle and price, not stitch width.",
+    "whoFor": "A beginner or garment sewist who wants Janome's aluminum-body mechanical machine and buys through an authorized US dealer for the warranty.",
+    "skipIf": "You need a published speed, motor rating or needle-to-arm throat figure (Janome gives none), or you want a quilting kit in the box and are buying the white HD-5000 rather than the Black Edition.",
+    "keySpec": "18 stitches · 6.5 mm width · 18.7 lb aluminum body",
+    "strengths": [
+      "Janome lists a built-in one-hand needle threader, an extra high presser foot lift and an aluminum body.",
+      "Owners report the variety of included feet is good, and Janome lists seven accessory feet plus a quilting guide bar.",
+      "Some owners report canvas, denim and thin vinyl sew without trouble; this is mixed with the weakness below."
+    ],
+    "weaknesses": [
+      "Owners report reliability problems in help threads, including a lid that would not close and a recurring bobbin jam on a refurbished unit; Reddit skews toward problems.",
+      "Owners report the machine struggles with heavy leather and thick stabilizer, and that thread can slip out of the thread guide.",
+      "Janome publishes no speed, motor rating or throat figure, so those stay [verify]."
+    ],
+    "checks": [
+      {
+        "title": "White HD-5000 or Black Edition",
+        "body": "Janome lists the Quilting Attachment Kit as optional on the HD-5000 and standard on the Black Edition (HD5000BE), which Janome shows with the same machine data. Confirm the bundle before comparing prices."
+      },
+      {
+        "title": "Buttonhole and feed dog wording",
+        "body": "Janome's HD-5000 page says one-step buttonhole and seven-piece feed dog in its text, but the HD5000BE and HD-3000 Specifications say a four-step buttonhole and 5 piece feed dog. Treat both as soft."
+      },
+      {
+        "title": "Authorized dealer for the warranty",
+        "body": "Janome America's warranty is void if the machine is not bought from an authorized US Janome dealer. The Amazon listing quotes 2 years on electrical parts against Janome's 5, so confirm the seller."
+      }
+    ],
+    "realCost": [
+      "Quilting Attachment Kit if you buy the white HD-5000, where Janome lists it as optional",
+      "A small spool holder mount: owners report wide polyester spools jump the thread guide, and the small mount with felt fixed it",
+      "Dealer pricing only: Janome publishes no price, so get a quote from an authorized dealer"
+    ],
+    "faqs": [
+      {
+        "q": "How many stitches does the HD5000 have?",
+        "a": "Janome's page lists 18 stitches. Some dealer spec blocks count 19 and one blog says 27."
+      },
+      {
+        "q": "What is the difference between the HD5000 and HD3000?",
+        "a": "Janome's spec tables match line for line: 18 stitches, 6.5 mm width, 4 mm length, 18.7 lb and workspace W 6.5 x H 4.6 in. Reddit commenters claim a 7 mm width and an overlock stitch on the HD5000; Janome's pages do not support either. Compare bundle and price."
+      },
+      {
+        "q": "What is the maximum stitch width?",
+        "a": "6.5 mm, per Janome's HD-5000 and HD5000BE pages and the manual. An earlier 7 mm figure is not supported by Janome."
+      },
+      {
+        "q": "Is the HD5000 good for quilting?",
+        "a": "It has a drop feed lever for free motion and a quilting guide bar as standard. The Quilting Attachment Kit is optional on the HD-5000 and standard on the Black Edition. Janome labels 6.5 x 4.6 in as workspace, not needle-to-arm throat, so the throat is [verify]."
+      },
+      {
+        "q": "Can the HD5000 sew denim?",
+        "a": "Janome claims it handles multiple layers of fabric but gives no layer count. Dealer copy says 12 layers of denim. Some owners report canvas and denim are fine and others report weakness on heavy leather and thick stabilizer."
+      },
+      {
+        "q": "How fast is the HD5000?",
+        "a": "Janome does not publish a speed for the HD-5000, so it is [verify]."
+      },
+      {
+        "q": "How much does the HD5000 weigh?",
+        "a": "18.7 per Janome's page (unit not printed there; the HD-3000 page prints 18.7 lbs). Footprint is W 16 x H 11.3 x D 7.2 in."
+      },
+      {
+        "q": "Does the HD5000 have a needle threader?",
+        "a": "Yes, Janome lists a built-in one-hand needle threader."
+      },
+      {
+        "q": "What does the HD5000 cost?",
+        "a": "Janome publishes no price and says to see a dealer. Amazon listing B084M81BC6 (HD5000) showed 4.1 from 80 ratings; get a dealer quote for price."
+      },
+      {
+        "q": "What is the HD5000 warranty?",
+        "a": "Janome America's limited warranty is 25 years materials and workmanship, 5 years electronic parts and 1 year labor, void without an authorized US dealer purchase. The wording is read from an image PDF by OCR, so verify it. Amazon quotes 2 years electrical."
+      },
+      {
+        "q": "What is the HD5000 Black Edition?",
+        "a": "Janome's HD5000BE page lists the same specification block as the HD-5000, with the Quilting Attachment Kit as standard."
+      }
+    ]
+  }
+}

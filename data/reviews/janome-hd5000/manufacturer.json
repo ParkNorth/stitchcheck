@@ -1,15 +1,470 @@
 {
   "slug": "janome-hd5000",
-  "collected": null,
+  "collected": "2026-10-02",
   "purpose": "First-party facts from the maker's own documents, compared against data/specs/janome-hd5000.json. Research input for the editor; not a spec file.",
   "documents": [
     {
       "id": "maker-page",
       "url": "https://www.janome.com/product/hd-5000/",
       "type": "product page",
-      "fetched": null,
-      "note": "TODO: fetch, then add the manual, warranty and brochure PDFs with their pages"
+      "fetched": "2026-10-02",
+      "note": "Page modified 2026-06-08 per page metadata. Price: 'Please see Dealer for pricing'."
+    },
+    {
+      "id": "maker-page-be",
+      "url": "https://www.janome.com/product/hd5000be/",
+      "type": "product page (Black Edition HD5000BE)",
+      "fetched": "2026-10-02",
+      "note": "Same specification block as the HD-5000 page except buttonhole line and a Quilting Attachment Kit listed as standard."
+    },
+    {
+      "id": "manual",
+      "url": "https://www.janome.com/wp-content/uploads/2021/11/hd5000-instruction-manual.pdf",
+      "type": "instruction manual PDF",
+      "fetched": "2026-10-02",
+      "note": "22 pages, image-heavy, no specification table; figures OCR at 150 dpi, verify against the PDF. The HD5000BE manual link (hd5000-instruction-manual-1.pdf) is byte-identical (same file)."
+    },
+    {
+      "id": "warranty-pdf",
+      "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+      "type": "warranty PDF (Janome America Limited 25 Year Warranty)",
+      "fetched": "2026-10-02",
+      "note": "Image PDF read by OCR 150 dpi; verify against the PDF. Applies to all Janome America sewing machines, not model-specific."
+    },
+    {
+      "id": "warranty-page",
+      "url": "https://www.janome.com/support/warranty/",
+      "type": "warranty page",
+      "fetched": "2026-10-02",
+      "note": "Registration and service steps; links the warranty PDF."
+    },
+    {
+      "id": "sib-hd3000",
+      "url": "https://www.janome.com/product/hd-3000/",
+      "type": "sibling product page",
+      "fetched": "2026-10-02",
+      "note": "HD-3000, read through a query extract of the page."
+    },
+    {
+      "id": "sib-hd1000",
+      "url": "https://www.janome.com/product/hd-1000/",
+      "type": "sibling product page",
+      "fetched": "2026-10-02",
+      "note": "HD-1000 (an earlier guessed URL /product/hd1000/ returns 404)."
     }
   ],
-  "facts": []
+  "facts": [
+    {
+      "field": "Stitch count",
+      "value": "18 stitches, including a one-step buttonhole (page text); Specifications: Number Of Stitches 18",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "18 built-in stitches including one-step buttonhole",
+      "note": "Our spec says 18 including the buttonhole. Some dealer blocks say 19, one blog 27; maker says 18.",
+      "site": {
+        "label": "Stitch count",
+        "juki": "18 (maker page and HD5000BE page)",
+        "others": "19 (Ken's spec block), 27 (comparison blog)",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Maximum stitch width",
+      "value": "6.5 mm (maker Key Features and Specifications, both HD-5000 and HD5000BE pages). Manual stitch-setting lines read 'Stitch width: 3-6.5' (OCR)",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "7 mm max width",
+      "note": "Our spec has 7 mm sourced to the maker page, but the maker page now says 6.5 mm. The 7 mm figure has no maker support: the '(5-7mm)' in accessory names is the foot's shank class, not the machine's width. This also removes the stitch-width gap versus the HD3000 that our spec's editorial claims (HD3000 page: 6.5 mm in Key Features, a stray '6mm maximum stitch width' line also appears).",
+      "site": {
+        "label": "Maximum stitch width",
+        "juki": "6.5 mm",
+        "others": "7 mm (earlier research, Ken's said 6.5 mm)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          },
+          {
+            "label": "Janome HD-3000 product page",
+            "url": "https://www.janome.com/product/hd-3000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Maximum stitch length",
+      "value": "4 mm",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": "not in spec table (4 mm appears in stitchTypes text)",
+      "site": {
+        "label": "Maximum stitch length",
+        "juki": "4 mm",
+        "others": "",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Feed system",
+      "value": "5 Piece Feed Dog (Specifications). Product page description text says 'seven-piece feed dog'",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "7-piece feed dog; drop feed lever; horizontal full rotary hook; free arm",
+      "note": "Maker page disagrees with itself: description paragraph says seven-piece, Specifications and the HD5000BE and HD3000 pages say 5 Piece Feed Dog. Our spec used the description text. Listed as a conflict, not resolved. Drop feed and free arm confirmed by the maker.",
+      "site": {
+        "label": "Feed dog",
+        "juki": "5-piece (Specifications) vs seven-piece (description text), same page",
+        "others": "5-piece (Amazon listing), 7-piece (sewingpartsonline)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Hook",
+      "value": "Top Loading Full Rotary Hook Bobbin (drop-in)",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "horizontal full rotary hook",
+      "note": "Maker says top-loading full rotary hook / drop-in; 'horizontal' is not the maker's wording.",
+      "site": {
+        "label": "Hook type",
+        "juki": "Top Loading Full Rotary Hook Bobbin",
+        "others": "Horizontal full rotary hook (dealer copy)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Throat / workspace",
+      "value": "Workspace: W 6.5\" x H 4.6\" (Specifications). Maker does not use the term throat or say it is needle to arm.",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": "throatIn null",
+      "note": "Do not enter as throatIn: the maker labels it Workspace and does not say needle to body. The HD3000 page lists the identical 6.5 x 4.6 workspace. Leave throatIn [verify].",
+      "site": {
+        "label": "Throat space",
+        "juki": "Workspace W 6.5 in x H 4.6 in (not labelled needle to arm)",
+        "others": "",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Weight",
+      "value": "18.7 (unit not printed on the HD-5000 page; the HD-3000 page prints '18.7 lbs')",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "18.7 lb",
+      "site": {
+        "label": "Weight",
+        "juki": "18.7",
+        "others": "18.7 lb (Ken's)",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Dimensions",
+      "value": "Machine Size Footprint W 16\" x H 11.3\" x D 7.2\"",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "16 x 7 x 11",
+      "note": "Same depth and width, height 11.3 vs 11 in; Ken's rounded figures.",
+      "site": {
+        "label": "Dimensions",
+        "juki": "W 16 x H 11.3 x D 7.2 in",
+        "others": "16 x 7 x 11 in (Ken's)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Frame",
+      "value": "Single-cast aluminum frame (product page text); Other Features Of Note: Aluminum body construction. HD5000BE page: 'heavy-duty aluminum body'",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Single-cast aluminum frame",
+      "site": {
+        "label": "Frame",
+        "juki": "Single-cast aluminum frame",
+        "others": "Single-cast aluminum frame (sewingpartsonline)",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Needle threader",
+      "value": "Built-in; one-handed needle threader",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Built-in one-hand needle threader",
+      "site": {
+        "label": "Needle threader",
+        "juki": "Built-in, one-hand",
+        "others": "",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Presser foot lift",
+      "value": "Specifications: Extra High Presser Foot Lift: Yes. Manual (OCR): lifts about 0.6 cm (1/4 in) higher than the normal up position",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": "Extra-high lift (dealer copy); height not published",
+      "note": "The manual gives a height above the normal up position, not a total clearance. Figure is OCR, verify against the PDF.",
+      "site": {
+        "label": "Presser foot lift",
+        "juki": "Extra-high; about 1/4 in above normal up (manual)",
+        "others": "Extra-high (dealer copy)",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "HD-5000 manual (PDF)",
+            "url": "https://www.janome.com/wp-content/uploads/2021/11/hd5000-instruction-manual.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Buttonhole",
+      "value": "Product page: 'Automatic One-step Buttonhole' (HD-5000 Key Features); HD5000BE Specifications: '1 Four-Step' buttonhole; HD-5000 Specifications: 'Number Of Buttonholes: Yes'. Manual contents list 'Automatic Buttonhole' and a 'Corded Buttonhole' page",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "One-step",
+      "note": "Maker pages disagree: one-step on the HD-5000 Key Features, four-step on the HD5000BE Specifications and on the HD-3000 page. The manual lists an automatic buttonhole foot (R). Do not state one-step as settled.",
+      "site": {
+        "label": "Buttonhole",
+        "juki": "One-step (HD-5000 Key Features) vs 1 Four-Step (HD5000BE and HD-3000 Specifications)",
+        "others": "One-step (dealers)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          },
+          {
+            "label": "Janome HD5000BE product page",
+            "url": "https://www.janome.com/product/hd5000be/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Speed",
+      "value": "Not published (no spm on the maker page, BE page, or manual contents)",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "860 spm (Ken's)",
+      "note": "Our maxSpm of 860 is dealer-sourced only; Janome does not publish a speed for the HD-5000. Keep soft.",
+      "site": {
+        "label": "Maximum speed",
+        "juki": "Not published",
+        "others": "860 spm (Ken's)",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Motor",
+      "value": "Not published (no wattage or amperage on the product pages)",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "motor null",
+      "site": {
+        "label": "Motor",
+        "juki": "Not published",
+        "others": "",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Standard accessories (HD-5000 page)",
+      "value": "Automatic Buttonhole Foot; Blind Hem Foot (5-7mm Adjustable); Foot Control; Large Screwdriver; Lint Brush; Overedge Foot C (5-7mm); Quilting Guide Bar; Rolled Hem Foot 2mm; Seam Ripper; Spool Holder Large and Small; Zig-Zag Foot (5-7mm); Zipper Foot E (7mm). Key Features: 7 Accessory Feet included",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "7 feet; dealer copy names quilting attachment kit and guide bar",
+      "note": "The HD-5000 standard list names the Quilting Guide Bar but not the Quilting Attachment Kit (it is listed under Optional Accessories). The HD5000BE page lists the Quilting Attachment Kit LS as standard. So the white HD-5000 may not include the kit; verify the bundle.",
+      "site": {
+        "label": "Included feet",
+        "juki": "7 feet; quilting guide bar standard; Quilting Attachment Kit is optional on the HD-5000, standard on the HD5000BE",
+        "others": "Quilting kit included (dealer copy)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          },
+          {
+            "label": "Janome HD5000BE product page",
+            "url": "https://www.janome.com/product/hd5000be/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Needle position",
+      "value": "15 (Specifications)",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": "not in spec table"
+    },
+    {
+      "field": "Stitch selection",
+      "value": "Dials (stitch selector, width and length on the front); Memory Function: No (HD-5000), Not Available (BE); no stitch combinations",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": "not in spec table"
+    },
+    {
+      "field": "Variant: HD5000BE (Black Edition)",
+      "value": "Same 18 stitches, 6.5 mm width, 4 mm length, 18.7 weight, W 16 x H 11.3 x D 7.2, workspace 6.5 x 4.6; UPC 732212411991 vs 732212408687 for the HD-5000. Adds Presser Foot: Snap-on and Needle Updown: Manual",
+      "source": "maker-page-be",
+      "vs_spec": "adds",
+      "spec_value": "not in spec",
+      "note": "Treat as a cosmetic and bundle variant per the maker pages; the maker lists the same machine data. Its manual link points to the same PDF as the HD-5000.",
+      "site": {
+        "label": "HD5000BE",
+        "juki": "Same specification block; Quilting Attachment Kit standard",
+        "others": "Amazon sells it as 'HD-5000 Black Edition'",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome HD5000BE product page",
+            "url": "https://www.janome.com/product/hd5000be/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Warranty",
+      "value": "'Limited 25 Year Warranty': 25 years from original purchase against defects in materials or workmanship, excluding electronic component parts (5 years) and labor (1 year free). Machines used commercially: 1 year parts and service. Excludes needles, needle plates, bobbin cases, fuses, light bulbs, knives, loopers, belts. Void if not bought from an authorized Janome dealer in the United States. Exclusive to original purchaser; receipt needed.",
+      "source": "warranty-pdf",
+      "vs_spec": "confirms",
+      "spec_value": "25 yr materials and workmanship, 5 yr electrical, 1 yr labor",
+      "note": "Not model-specific: one Janome America warranty for the Product line. The Amazon listing quotes '25 year limited warranty mechanical parts, 2 year limited warranty electrical parts, 1 year limited labor' (2 years electrical vs the maker's 5) and Janome's page says it does not sell direct, with the warranty void for non-authorized-dealer purchases.",
+      "site": {
+        "label": "Warranty",
+        "juki": "25 yr materials and workmanship; 5 yr electronic parts; 1 yr labor; 1 yr if used commercially; authorized US dealer purchase only",
+        "others": "Amazon listing: 2 yr electrical",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome warranty PDF",
+            "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+          },
+          {
+            "label": "Janome warranty page",
+            "url": "https://www.janome.com/support/warranty/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Price",
+      "value": "Please see Dealer for pricing (no MSRP published)",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": "priceUsdSeen null",
+      "note": "Maker publishes no price; dealer pricing only.",
+      "site": {
+        "label": "Price",
+        "juki": "Dealer pricing only",
+        "others": "",
+        "status": "dealer only",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Claims (marketing wording)",
+      "value": "'heavy-duty mechanical workhorse that provides durability, smooth and quiet operation through multiple layers of fabric'; 'perfect for home décor, basic sewing, and household repairs'; 'seven-piece feed dog feeds fabric smoothly while maintaining a taut surface'; HD5000BE: 'perfect for a beginner or sewist looking to do a wide range of sewing'",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "claims list in spec",
+      "note": "Quote as claims only. The maker gives no layer count or fabric weight limit; 'Sews 12 layers of denim' is dealer copy.",
+      "site": {
+        "label": "Marketing claims",
+        "juki": "'Heavy-duty mechanical workhorse' (claim)",
+        "others": "'Sews 12 layers of denim' (dealer title)",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome HD-5000 product page",
+            "url": "https://www.janome.com/product/hd-5000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "Availability",
+      "value": "Maker pages for the HD-5000 and HD5000BE are live and list no discontinuation notice (wording seen: 'Please see Dealer for pricing')",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "discontinued false"
+    }
+  ]
 }
