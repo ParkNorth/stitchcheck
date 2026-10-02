@@ -1,0 +1,1276 @@
+{
+  "slug": "juki-ddl-5550",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 60,
+    "itemsCollected": 580,
+    "statements": 136,
+    "voices": 79,
+    "ownerVoices": 52,
+    "dateRange": [
+      2013,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 1,
+        "items": 3
+      },
+      "reddit": {
+        "sources": 53,
+        "items": 556
+      },
+      "forum": {
+        "sources": 5,
+        "items": 5
+      },
+      "editorial": {
+        "sources": 1,
+        "items": 1
+      }
+    },
+    "blocked": 0,
+    "evidence": "strong",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "The Juki page covers DDL-5550N, NA, NH and the -7 trimmer versions together. Reddit threads often say DDL-5550-6 or DDL-5550N-7, which the maker documents fetched here do not separate from the family; read those threads as the same head family, not the exact model."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 26,
+      "voices": 24,
+      "ownerVoices": 22,
+      "sources": 17,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 22
+      },
+      "polarity": {
+        "positive": 5,
+        "negative": 11,
+        "mixed": 7,
+        "neutral": 1
+      },
+      "years": [
+        2016,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cea205dda",
+          "polarity": "negative",
+          "claim": "Buyer received the machine with broken parts.",
+          "quote": "it came with broken parts",
+          "url": "https://www.amazon.com/dp/B08H8TYNW1",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c03e364d3",
+          "polarity": "negative",
+          "claim": "Preowned 5550-6 shut itself off after a bobbin winding mishap, then stopped responding to the pedal.",
+          "quote": "Pressing the pedal did nothing.",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ncw8t3/juki_ddl_55506_troubleshooting/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c6301330c",
+          "polarity": "positive",
+          "claim": "Newly acquired DDL-5550 owner says it runs beautifully.",
+          "quote": "It runs beautifully",
+          "url": "https://www.reddit.com/r/sewinghelp/comments/1tcp36g/juki_ddl5550_stitch_length_knob_keeps_turning/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c587cbe89",
+          "polarity": "positive",
+          "claim": "Second-hand DDL-5550N bought for $200 runs flawlessly after a stray spare presser bar and spring were removed from the face plate.",
+          "quote": "The machine runs flawlessly now",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1q2ke0c/spare_part_floating_in_my_machine_juki_ddl5550n/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cca0ff197",
+          "polarity": "mixed",
+          "claim": "Family-owned 5550-6 used about 20 years until the power supply circuit board failed.",
+          "quote": "My family has had this sewing machine for about 20 years",
+          "url": "https://www.reddit.com/r/sewhelp/comments/4v82dh/repairing_a_juki_ddl_55506/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cbe945727",
+          "polarity": "mixed",
+          "claim": "Owner had needle bar height too high and fixed it along with hook timing; machine then ran well.",
+          "quote": "needle bar height was too high and i fixed it as well as the timing",
+          "url": "https://www.reddit.com/r/sewing/comments/kwzhef/rotary_hook_super_loud_help_please_juki_ddl_5550/gj8w9mq/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cea205dda",
+        "ce4963c89",
+        "c53534c89",
+        "c347f7ce4",
+        "c1d17ba86",
+        "c57fe12e6",
+        "cef1c431d",
+        "cbe945727",
+        "cc5a8e744",
+        "c08818e7b",
+        "c587cbe89",
+        "c87b664dc",
+        "c03e364d3",
+        "c245bf5b1",
+        "cebacda60",
+        "c202dcfb0",
+        "c6b6c16e1",
+        "ce7b8110e",
+        "cca0ff197",
+        "c9944f10a",
+        "c82681716",
+        "cbe9782fc",
+        "c1c9990ff",
+        "c6301330c",
+        "ca46d1f08",
+        "cde70d50d"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 10,
+      "voices": 10,
+      "ownerVoices": 6,
+      "sources": 9,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 8,
+        "forum": 1,
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 5,
+        "neutral": 3
+      },
+      "years": [
+        2021,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "ccebe612a",
+          "polarity": "negative",
+          "claim": "Owner says it will not stitch grippy material such as rubber sheet or leather.",
+          "quote": "mine will not stitch if I'm in grippy material",
+          "url": "https://www.reddit.com/r/myog/comments/1fbm5c3/post_2_of_2_with_video_of_juki_ddl_5550_that_wont/lm1tupy/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cd0d41005",
+          "polarity": "mixed",
+          "claim": "Owner gets bottom thread bunching only on bare heavy nylon webbing, not when it is covered with fabric.",
+          "quote": "If I cover the nylon with fabric it doesn't bunch.",
+          "url": "https://www.reddit.com/r/sewhelp/comments/l80arv/thread_bunching_on_bottom_only_doing_it_when/glaejui/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cd1989dca",
+          "polarity": "mixed",
+          "claim": "New owners found Tex 45 monofilament invisible thread bunched up in stitches, especially on bartacks, while Tex 70 bonded nylon worked well.",
+          "quote": "the invisible thread tended to get bunched up in the stitches",
+          "url": "https://sewing.patternreview.com/SewingDiscussions/topic/107545",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "ccebe612a",
+        "cda67a55b",
+        "cd0d41005",
+        "c26e11678",
+        "caebd752d",
+        "c900671f5",
+        "cf8988762",
+        "c6e4599e3",
+        "cd1989dca",
+        "c5459bbba"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 11,
+      "voices": 10,
+      "ownerVoices": 6,
+      "sources": 7,
+      "sourceClasses": [
+        "editorial",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 9,
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 4,
+        "mixed": 2,
+        "neutral": 3
+      },
+      "years": [
+        2016,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cec470730",
+          "polarity": "negative",
+          "claim": "Needle breaks and bends sewing 3 layers of heavy nylon webbing with a 100/16 needle.",
+          "quote": "needle always breaks and bends",
+          "url": "https://www.reddit.com/r/sewhelp/comments/ldjavk/sewing_through_3_layers_of_heavy_nylon_webbing/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c33dbc790",
+          "polarity": "negative",
+          "claim": "Owner says it fails on stacks of 6 or more layers of duck or 3 or more layers of webbing.",
+          "quote": "too thick (6+ layers of duck or 3+ layers of webbing)",
+          "url": "https://www.reddit.com/r/myog/comments/1fbm5c3/post_2_of_2_with_video_of_juki_ddl_5550_that_wont/lm1tupy/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c21ba2da4",
+          "polarity": "mixed",
+          "claim": "Owner sewed 5 to 10 layers of cordura but could not get a stitch on 2 or 3 layers until fixed.",
+          "quote": "I was able to sew thick layers of cordura (5 to 10)",
+          "url": "https://www.reddit.com/r/myog/comments/1fbm5c3/post_2_of_2_with_video_of_juki_ddl_5550_that_wont/lm1t2m6/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cdac3e231",
+          "polarity": "mixed",
+          "claim": "Moving up to a 100/16 needle and changing thread fixed the thread breaking on thick layers.",
+          "quote": "I switched to a 100/16 and tried a different thread and we are working.",
+          "url": "https://www.reddit.com/r/sewhelp/comments/102aiw2/trying_not_to_scream_or_cry_thread_keep_breaking/j2s2mbc/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c33dbc790",
+        "c21ba2da4",
+        "c5da11729",
+        "cec470730",
+        "c9545d8b9",
+        "cdac3e231",
+        "cdab36be7",
+        "c215fce7c",
+        "cfd4bf2bf",
+        "cb4c10f70",
+        "c6b0bd375"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 11,
+      "voices": 10,
+      "ownerVoices": 4,
+      "sources": 10,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 8,
+        "forum": 1,
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 6
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cf2547b0b",
+          "polarity": "negative",
+          "claim": "Newly bought 5550-6 leaks oil from the oil pan drain hole.",
+          "quote": "it has been leaking from the oil drain hole",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1m529uz/juki_ddl_55506_oil_leak/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c0002aab7",
+          "polarity": "negative",
+          "claim": "Second-hand 5550 sprays oil toward the bobbin area at about 3,500 spm, traced to a gap by the oil pan.",
+          "quote": "shoot out oil to the bobbin area when it gets to about 3,500 spm",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1tlu2fb/juki_ddl_5550_missing_a_part/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c94def473",
+          "polarity": "positive",
+          "claim": "Owner says the oil pan keeps the machine oiled and upkeep is just cleaning lint.",
+          "quote": "There is really no maintenance other than the normal cleaning out fuzz",
+          "url": "https://sewing.patternreview.com/review/machine/6638",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c98489177",
+        "cd6705c8e",
+        "c272cb5eb",
+        "caa7cc47d",
+        "c7d007e1b",
+        "c315d719c",
+        "c0002aab7",
+        "cf2547b0b",
+        "c94def473",
+        "cb48254f8",
+        "ccee707af"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 8,
+      "voices": 5,
+      "ownerVoices": 2,
+      "sources": 5,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3,
+        "forum": 1,
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 5,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2024
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "ca00f06c5",
+          "polarity": "positive",
+          "claim": "Owner's machine came with a second needle plate and feed dogs as an extra.",
+          "quote": "I had a second base plate that came with it as an extra",
+          "url": "https://www.reddit.com/r/myog/comments/1fbm5c3/post_2_of_2_with_video_of_juki_ddl_5550_that_wont/lm20zg9/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c522af2fa",
+          "polarity": "positive",
+          "claim": "Display-model DDL-5550N bought for $900 came with extra needles, bobbins and presser feet.",
+          "quote": "with a bunch of additional needles, bobbins, and presser feet",
+          "url": "https://sewing.patternreview.com/SewingDiscussions/topic/107545",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "ca00f06c5",
+        "ceb4a434f",
+        "c0895f652",
+        "c522af2fa",
+        "c37ceaf04",
+        "cd4f41e87",
+        "c10fd5e65",
+        "cefb7c170"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 6,
+      "voices": 5,
+      "ownerVoices": 2,
+      "sources": 5,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3,
+        "forum": 1,
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2022,
+        2023
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c247550f1",
+          "polarity": "negative",
+          "claim": "Needle thread keeps breaking when sewing doubled webbing and cotton, even after loosening tension and changing the needle.",
+          "quote": "it's the thread that goes through the needle that breaks",
+          "url": "https://www.reddit.com/r/sewhelp/comments/102aiw2/trying_not_to_scream_or_cry_thread_keep_breaking/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cbc1f370e",
+          "polarity": "positive",
+          "claim": "Owner reports the machine gives a balanced stitch.",
+          "quote": "it does a beautiful balanced stitch",
+          "url": "https://sewing.patternreview.com/review/machine/6638",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c1eaf258c",
+        "c247550f1",
+        "c7d635aae",
+        "cbc1f370e",
+        "ce33e8385",
+        "c25d8c7e2"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 8,
+      "voices": 5,
+      "ownerVoices": 4,
+      "sources": 5,
+      "sourceClasses": [
+        "editorial",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 4,
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c7e17ac3d",
+          "polarity": "negative",
+          "claim": "Owner hears a clinking rotary hook noise only when thread is in the bobbin.",
+          "quote": "when it makes that clingy noise",
+          "url": "https://www.reddit.com/r/sewing/comments/kwzhef/rotary_hook_super_loud_help_please_juki_ddl_5550/gj9yve7/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c433a1b01",
+          "polarity": "negative",
+          "claim": "Owner finds the clutch motor on the DDL-5550N very loud and wants to replace it.",
+          "quote": "it is already driving me nuts. It's so loud!",
+          "url": "https://www.reddit.com/r/sewing/comments/13u8nsi/got_a_juki_ddl5550n_but_need_a_servo_motor_any/jm3krjh/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c433a1b01",
+        "c7e17ac3d",
+        "cccb2fd47",
+        "c57de0d39",
+        "c496d6496",
+        "ce2e5adb5",
+        "c3d36ec37",
+        "c6be89154"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 5,
+      "voices": 3,
+      "ownerVoices": 1,
+      "sources": 3,
+      "sourceClasses": [
+        "editorial",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2,
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2018,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "c0a0e704f",
+        "c192a6d61",
+        "cb7fcc06e",
+        "c4f7fb47e",
+        "c7814acc3"
+      ]
+    },
+    {
+      "theme": "value_price",
+      "label": "Value and price",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 0,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "cc38939c8",
+        "cb6a7dde2",
+        "cf0470f99"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 4,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "forum": 1,
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ce8dcef92",
+          "polarity": "negative",
+          "claim": "Owner of a DDL-5550-6 with an SC120 control was turned away by an industrial shop for electrical work because the machine was too old.",
+          "quote": "they said it was too old and they wouldn’t do any electrical work",
+          "url": "https://www.reddit.com/r/myog/comments/1hto6mm/juki_ddl55506_weird_stutter_please_help/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c27079407",
+          "polarity": "positive",
+          "claim": "Owner chose the model partly because it has been made a long time, so parts are readily available.",
+          "quote": "parts are readily available",
+          "url": "https://sewing.patternreview.com/review/machine/6314",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "ce8dcef92",
+        "c27079407",
+        "ce58ef598",
+        "c2f4fc6fc"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "forum": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2022
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c8f1d0b4f",
+          "polarity": "positive",
+          "claim": "Owner who only needs a straight stitch says the DDL-5550N sews beautifully, as a first industrial machine.",
+          "quote": "this sews beautifully",
+          "url": "https://sewing.patternreview.com/review/machine/2563",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "ca952c844",
+          "polarity": "positive",
+          "claim": "Owner topstitched knit workout clothes on the DDL-5550 and got clean straight stitches without rippling or puckering.",
+          "quote": "No ripple, no pucker, just perfect straight stitches",
+          "url": "https://sewing.patternreview.com/review/machine/6638",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c4e95d42e",
+        "ca952c844",
+        "c8f1d0b4f"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2023,
+        2023
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c7280ff86",
+          "polarity": "mixed",
+          "claim": "Thread fraying stopped once the small hole by the needle set screw was threaded.",
+          "quote": "the small hole next to the needle set screw needs to be threaded",
+          "url": "https://www.reddit.com/r/myog/comments/10kl4vq/can_someone_help_me_understand_why_my_bonded/j5sazvs/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c7280ff86",
+        "c3b15ce50"
+      ]
+    },
+    {
+      "theme": "learning_curve",
+      "label": "Learning curve",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2022,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c59980f8a",
+          "polarity": "negative",
+          "claim": "Owner reports the stitch length dial rotates without a stop and reads past zero, so the setting is unclear.",
+          "quote": "the dial for the stitch length just keeps on turning and turning",
+          "url": "https://www.reddit.com/r/sewinghelp/comments/1tcp36g/juki_ddl5550_stitch_length_knob_keeps_turning/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cb592a1e7",
+        "c59980f8a"
+      ]
+    },
+    {
+      "theme": "walking_foot",
+      "label": "Walking foot",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 0,
+      "sources": 2,
+      "sourceClasses": [
+        "editorial",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2022,
+        2022
+      ],
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "c925bfc82",
+        "ca4e94642"
+      ]
+    },
+    {
+      "theme": "free_motion",
+      "label": "Free-motion quilting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c7abac06b"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2020,
+        2020
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c1abcb1cd"
+      ]
+    },
+    {
+      "theme": "thread_trimmer",
+      "label": "Thread trimmer",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "forum"
+      ],
+      "classVoices": {
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": null,
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cf0ee7c0a",
+          "polarity": "negative",
+          "claim": "New DDL-5550N owner finds the lack of an automatic thread trimmer the hardest adjustment.",
+          "quote": "the hardest adjustment is not having the automatic thread trimmer",
+          "url": "https://sewing.patternreview.com/SewingDiscussions/topic/107545",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "cf0ee7c0a"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 2,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "editorial"
+      ],
+      "classVoices": {
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": null,
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "cd5216f49",
+        "ce9ff4d65"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 3,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "editorial"
+      ],
+      "classVoices": {
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": null,
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c538ba481",
+        "c86d7d56d",
+        "cf23be3aa"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "editorial"
+      ],
+      "classVoices": {
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": null,
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "cdffa9b63"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B08H8TYNW1",
+      "pageRating": 3.4,
+      "pageCount": 10,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "lowRated": 1,
+      "sampled": "3 top reviews (3 US, 0 other countries) of 10 ratings"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "5,500 stitches per minute on the base DDL-5550N (5,000 on the -7); the NA and NH variants top out at 4,000.",
+      "others": "Dealers quote 5,500.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+        },
+        {
+          "label": "Juki instruction manual",
+          "url": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf"
+        },
+        {
+          "label": "Juki Americas catalog, p. 6",
+          "url": "https://juki.com/static/version1789761565/frontend/SBI/bootstrap/en_US/images/products/juki-apparel.pdf"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "maker-page"
+    },
+    {
+      "label": "Stitch length",
+      "juki": "5 mm maximum on the base DDL-5550N; 4 mm on the -7 and the NA.",
+      "others": "Dealers quote 5 mm.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+        },
+        {
+          "label": "Juki instruction manual",
+          "url": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf"
+        }
+      ],
+      "field": "stitchLength",
+      "source": "maker-page"
+    },
+    {
+      "label": "Needle",
+      "juki": "DBx1, size 14 at delivery, sizes 9 to 18 on the base model.",
+      "others": "Dealers quote DBx1 #14.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+        },
+        {
+          "label": "Juki instruction manual",
+          "url": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf"
+        },
+        {
+          "label": "Juki Americas catalog, p. 6",
+          "url": "https://juki.com/static/version1789761565/frontend/SBI/bootstrap/en_US/images/products/juki-apparel.pdf"
+        }
+      ],
+      "field": "needleSystem",
+      "source": "manual"
+    },
+    {
+      "label": "Presser foot lift",
+      "juki": "5.5 mm by hand; 13 mm by knee lifter, with 10 mm standard and 13 mm as the adjustable maximum.",
+      "others": "Dealers quote 13 mm.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+        },
+        {
+          "label": "Juki instruction manual",
+          "url": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf"
+        }
+      ],
+      "field": "presserFootLift",
+      "source": "maker-page"
+    },
+    {
+      "label": "Thread trimmer",
+      "juki": "Not on the base DDL-5550N; the DDL-5550N-7 adds an automatic thread trimmer.",
+      "others": "Dealers note the -7 costs more.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+        }
+      ],
+      "field": "threadTrimmer",
+      "source": "maker-page"
+    },
+    {
+      "label": "Weight",
+      "juki": "81 kg total weight is listed for the DDL-5550N-7 only, with no statement of what it includes.",
+      "others": "One dealer snippet said about 75 lb for the head.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+        }
+      ],
+      "field": "weight",
+      "source": "maker-page"
+    },
+    {
+      "label": "Motor",
+      "juki": "Juki lists a servomotor and control box for the -7. The older manual names a 400 W clutch motor as standard.",
+      "others": "Dealer bundles include a servo motor.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+        },
+        {
+          "label": "Old DDL-5550 manual",
+          "url": "https://www.cutsew.com/assets/images/Manual_JUKI_DDL5550.pdf"
+        }
+      ],
+      "field": "motor",
+      "source": "maker-page"
+    },
+    {
+      "label": "Throat space",
+      "juki": "Juki publishes no arm space or throat figure for this model.",
+      "others": "One dealer lists workspace 10 1/4 in.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+        }
+      ],
+      "field": "throatIn",
+      "source": "maker-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "No model-specific warranty published; Juki Americas covers spare parts for 90 days and refers equipment to sales order terms.",
+      "others": "Dealer-defined.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Juki Americas parts policy",
+          "url": "https://jukiamericas.com/pages/returns-and-exchanges-policy"
+        }
+      ],
+      "field": "warranty",
+      "source": "parts-warranty"
+    },
+    {
+      "label": "Made in",
+      "juki": "No Juki document fetched states the country of manufacture.",
+      "others": "Dealers and one Amazon Q&A quote Made in Japan.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+        }
+      ],
+      "field": "countryOfManufacture",
+      "source": "maker-page"
+    },
+    {
+      "label": "Maker claims",
+      "juki": "Juki says the take-up, feed, thread path and hook were improved for consistent stitch quality.",
+      "others": "Dealers repeat \"suitable for light to medium-heavy materials\".",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+        }
+      ],
+      "field": "claims",
+      "source": "maker-page"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "DDL-5550N-7",
+      "label": "Juki DDL-5550N-7 (automatic thread trimmer)",
+      "rows": [
+        {
+          "feature": "Thread trimming",
+          "urls": 0,
+          "classes": [],
+          "summary": "Maker lists the -7 as the version with an automatic thread trimmer; the base DDL-5550N is not listed with one.",
+          "check": "Juki page, 2 Oct 2026",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Rated speed and stitch length",
+          "urls": 0,
+          "classes": [],
+          "summary": "Maker page and catalog list 5,000 sti/min and 4 mm for the -7; the base DDL-5550N is 5,500 sti/min and 5 mm.",
+          "check": "Juki page and apparel catalog p. 6, 2 Oct 2026",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Listed total weight",
+          "urls": 0,
+          "classes": [],
+          "summary": "The maker page lists a total weight of 81 kg in the -7 table only; the base DDL-5550N table has no weight row.",
+          "check": "Juki page, 2 Oct 2026; what the 81 kg includes is not stated",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Control box and motor",
+          "urls": 0,
+          "classes": [],
+          "summary": "The maker page presents the SC-920C control box and M92 servomotor with the -7.",
+          "check": "Juki page, 2 Oct 2026",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "DDL-5550NA",
+      "label": "Juki DDL-5550NA (light-weight)",
+      "rows": [
+        {
+          "feature": "Fabric class",
+          "urls": 0,
+          "classes": [],
+          "summary": "Light-weight; 4,000 sti/min, 4 mm stitch, 9 mm knee lift, DAx1 #9 needle at delivery.",
+          "check": "Juki page and manual, 2 Oct 2026",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "DDL-5550NH",
+      "label": "Juki DDL-5550NH (heavy-weight)",
+      "rows": [
+        {
+          "feature": "Fabric class",
+          "urls": 0,
+          "classes": [],
+          "summary": "Heavy-weight; 4,000 sti/min, 5 mm stitch, 13 mm knee lift, DBx1 #21 needle at delivery, 35 mm needle bar stroke.",
+          "check": "Juki page and manual, 2 Oct 2026",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "DDL-8700",
+      "label": "Juki DDL-8700",
+      "rows": [
+        {
+          "feature": "Maker speed class",
+          "urls": 0,
+          "classes": [],
+          "summary": "Juki lists 5,500 sti/min and 13 mm knee lift for the base DDL-8700, the same figures as the base DDL-5550N.",
+          "check": "juki.com DDL-8700 page, 2 Oct 2026",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

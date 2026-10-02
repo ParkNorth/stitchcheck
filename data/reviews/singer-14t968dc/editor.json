@@ -3,7 +3,8 @@
     "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
     "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
     "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
-    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.2 from 1,501 ratings is shared by several listings (pooled variations), so it is not a rating for this model alone."
   ],
   "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
   "siblings": [
@@ -75,5 +76,20 @@
   "others": "2340cv(?![a-z0-9])|coverpro[\\s-]*2000cpx(?![a-z0-9])|2000cpx(?![a-z0-9])|1034d(?![a-z0-9])",
   "scopeRules": [],
   "siblingSummaries": {},
-  "siblingExtras": {}
+  "siblingExtras": {
+    "Singer Heavy Duty 14HD854": [
+      {
+        "feature": "Thread capability and knife",
+        "summary": "2, 3 or 4 thread; 6 stitch types; 1,300 spm; Singer says the knife is 60% larger than on other Singer sergers; the upper knife can be moved out of the way.",
+        "check": "Singer 14HD854 product page, fetched 2026-10-02."
+      }
+    ],
+    "Singer 14CG754": [
+      {
+        "feature": "Thread capability and free arm",
+        "summary": "2, 3 or 4 thread; Singer says it has a built-in free arm and differential feed. No coverstitch.",
+        "check": "Singer 14CG754 product page, fetched 2026-10-02."
+      }
+    ]
+  }
 }

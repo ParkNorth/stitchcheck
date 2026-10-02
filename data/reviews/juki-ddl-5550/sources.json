@@ -1334,83 +1334,101 @@
     "url": "https://sewing.patternreview.com/review/machine/6638",
     "class": "forum",
     "method": "http-page",
-    "title": "",
+    "title": "Juki  DDL-5550 Sewing Machine review by SewDisturbed",
     "first_seen": "2026-10-02T12:30:11.497Z",
     "discovered_by": [
       "comparison-search:review"
     ],
-    "status": "blocked",
-    "last_fetched": "2026-10-02T12:30:11.497Z",
-    "note": "http-page: 403"
+    "status": "ok",
+    "last_fetched": "2026-10-02T12:30:48.055Z",
+    "note": "http-page: 403",
+    "content_hash": "c13c0f40bfe54006",
+    "chars": 4612,
+    "page_kind": "review"
   },
   {
     "id": "web:64b519b96d7ac9e2",
     "url": "https://sewing.patternreview.com/review/machine/2563",
     "class": "forum",
     "method": "http-page",
-    "title": "",
+    "title": "Juki  DDL-5550N Sewing Machine review by jdurh",
     "first_seen": "2026-10-02T12:30:12.485Z",
     "discovered_by": [
       "comparison-search:review"
     ],
-    "status": "blocked",
-    "last_fetched": "2026-10-02T12:30:12.485Z",
-    "note": "http-page: 403"
+    "status": "ok",
+    "last_fetched": "2026-10-02T12:30:48.559Z",
+    "note": "http-page: 403",
+    "content_hash": "84caac613935371f",
+    "chars": 3764,
+    "page_kind": "review"
   },
   {
     "id": "web:e709f929342de3a7",
     "url": "https://sewing.patternreview.com/review/machine/6314",
     "class": "forum",
     "method": "http-page",
-    "title": "",
+    "title": "Juki  DDL-5550 Sewing Machine review by PaulainWI",
     "first_seen": "2026-10-02T12:30:13.370Z",
     "discovered_by": [
       "comparison-search:review"
     ],
-    "status": "blocked",
-    "last_fetched": "2026-10-02T12:30:13.370Z",
-    "note": "http-page: 403"
+    "status": "ok",
+    "last_fetched": "2026-10-02T12:30:49.063Z",
+    "note": "http-page: 403",
+    "content_hash": "5c9278ac290c024d",
+    "chars": 5162,
+    "page_kind": "review"
   },
   {
     "id": "web:440d272503854132",
     "url": "https://sewing.patternreview.com/review/machine/6316",
     "class": "forum",
     "method": "http-page",
-    "title": "",
+    "title": "Juki  DDL-5550 Sewing Machine review by Captgreg",
     "first_seen": "2026-10-02T12:30:14.248Z",
     "discovered_by": [
       "comparison-search:review"
     ],
-    "status": "blocked",
-    "last_fetched": "2026-10-02T12:30:14.248Z",
-    "note": "http-page: 403"
+    "status": "ok",
+    "last_fetched": "2026-10-02T12:30:49.565Z",
+    "note": "http-page: 403",
+    "content_hash": "a1259b3b225e19e4",
+    "chars": 2872,
+    "page_kind": "review"
   },
   {
     "id": "web:f8c79190fe1aea1f",
     "url": "https://sewing.patternreview.com/SewingDiscussions/topic/107545",
     "class": "forum",
     "method": "http-page",
-    "title": "",
+    "title": "Juki DDL 5550N - new users sewing discussion topic @ PatternReview.com",
     "first_seen": "2026-10-02T12:30:15.121Z",
     "discovered_by": [
       "comparison-search:review"
     ],
-    "status": "blocked",
-    "last_fetched": "2026-10-02T12:30:15.121Z",
-    "note": "http-page: 403"
+    "status": "ok",
+    "last_fetched": "2026-10-02T12:30:50.068Z",
+    "note": "http-page: 403",
+    "content_hash": "e3fc3a988cd20682",
+    "chars": 8775,
+    "page_kind": "review"
   },
   {
     "id": "web:0f5619e5ddd0f927",
     "url": "https://sewingtrip.com/reviewsjuki-ddl-5550",
     "class": "editorial",
     "method": "http-page",
-    "title": "",
+    "title": "Juki DDL 5550 Review: is This Industrial Machine Worth It?",
     "first_seen": "2026-10-02T12:30:15.995Z",
     "discovered_by": [
       "comparison-search:review"
     ],
-    "status": "blocked",
-    "last_fetched": "2026-10-02T12:30:15.995Z",
-    "note": "http-page: 403"
+    "status": "ok",
+    "last_fetched": "2026-10-02T12:30:50.571Z",
+    "note": "http-page: 403",
+    "content_hash": "f4b9c0290cf58f86",
+    "chars": 24245,
+    "page_kind": "review"
   }
 ]

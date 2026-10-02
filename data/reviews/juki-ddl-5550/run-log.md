@@ -1,0 +1,12 @@
+
+## Phase A collection, 2026-10-02
+
+Aliases: "DDL-5550" and "5550" are tokens, so queries.json uses model_names_only with brand-qualified and N-suffixed names (Juki DDL-5550, DDL-5550N, with space and no-space spellings). The dry run listed 118 threads, took 60, and the off-topic ones (r/PDXBuyNothing giveaway, a custom-paint post, a Bernina 730 post) had zero model mentions. Final ledger: 53 Reddit threads, 50 with the model in the title. Many threads say DDL-5550-6 or DDL-5550N-7; no maker document fetched separates a -6 version, so these read as the same head family, not the exact model. Siblings set: DDL-8700, DDL-5550N-7 (trimmer), DDL-5550-6, NH, NA.
+
+Maker documents: Juki Japan product page (DDL-5550N / N-7 / NA / NH), Juki instruction manual for N, NA, NH (48 pp, juki.co.jp), Juki Americas apparel catalog p. 6, older DDL-5550/5530 manual and the N-7 trimmer manual (both OCR, third-party hosted), Juki USA DDL-8700 page, Juki Americas parts warranty page. The Juki USA site has no fetchable DDL-5550N page (404). The spec's manufacturerUrl is a DirectIndustry mirror, not fetched.
+
+What the maker publishes and does not: speed, stitch length, needle, hand and knee lift, needle bar stroke, lubrication, noise are all published and confirm our spec. Not published: arm space or throat, head weight for the base N (the -7 table lists 81 kg total weight with no statement of what it includes), country of manufacture, price, a model-specific warranty. Page vs catalog: the page gives the #14 needle as 134 (Nm75) for N and N-7, the catalog gives Nm75 for the -7 and Nm90 for the N. The -7 is 5,000 sti/min and 4 mm; the N is 5,500 and 5 mm.
+
+Marketplace: Amazon B08H8TYNW1 (title and Model Number say DDL-5550, "Made in Japan" DIY bundle): 3.4 from 10 ratings, 3 written reviews, not pooled. A first candidate, B08BC1NF2K, was a DDL-8700H listing (Model Number DDL-8700H) and was removed from the ledger and raw.jsonl before export. No Amazon listing in the search results carried the DDL-5550N by name beyond that one. Walmart and Sewing Gold listings have no extractable review block (reviews:fetch: no known platform; Sewing Gold page has no rating markup). SMP has no product page (retailerUrl null).
+
+Ingested by Firecrawl rawHtml because of 403: PatternReview machine reviews 6638, 2563, 6314, 6316, forum topic 107545, and the sewingtrip.com review page. Counts: 580 items, 346 segments, 9 claim chunks. reviews:checks: 0 error, 0 warn.
