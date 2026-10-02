@@ -1,0 +1,15 @@
+{
+  "slug": "janome-hd5000",
+  "collected": null,
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/janome-hd5000.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "maker-page",
+      "url": "https://www.janome.com/product/hd-5000/",
+      "type": "product page",
+      "fetched": null,
+      "note": "TODO: fetch, then add the manual, warranty and brochure PDFs with their pages"
+    }
+  ],
+  "facts": []
+}

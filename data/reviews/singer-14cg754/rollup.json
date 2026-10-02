@@ -1,0 +1,590 @@
+{
+  "slug": "singer-14cg754",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 18,
+    "itemsCollected": 117,
+    "statements": 22,
+    "voices": 18,
+    "ownerVoices": 15,
+    "dateRange": [
+      2010,
+      2025
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 16,
+        "items": 107
+      },
+      "retailer": {
+        "sources": 2,
+        "items": 9
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.5 from 2063 ratings is shared by several listings (parent ASIN B076BJ48G8, child ASINs B003H3J50S and B0085YBNM2), so it is not specific to one colour or listing; no review text could be sampled."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 6,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 6
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 5,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2011,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c4b779d9b",
+          "polarity": "negative",
+          "claim": "A second owner reports the same stuck stitch width knob problem.",
+          "quote": "having the same one now",
+          "url": "https://www.reddit.com/r/sewhelp/comments/pqtt44/stitch_width_knob_stuck/ht3ab03/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c85b13bf5",
+          "polarity": "negative",
+          "claim": "The owner suspects a missing arm shaft set screw lets the arm shaft shift sideways, causing the occasional binding.",
+          "quote": "I believe I have a missing arm shaft set screw",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1jtxz57/serger_jammedstuck_help/mm25ldk/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ceeac8ffc",
+          "polarity": "positive",
+          "claim": "A user with many hours on the model calls it solid and reliable.",
+          "quote": "I found it to be a solid, reliable machine",
+          "url": "https://www.reddit.com/r/sewing/comments/n1589/im_looking_for_a_good_serger_for_light_jobs/c35gytj/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c7d95e74e",
+        "cf0830a29",
+        "c85b13bf5",
+        "c8ed8b843",
+        "c4b779d9b",
+        "ceeac8ffc"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cdd8f9718",
+          "polarity": "positive",
+          "claim": "The owner says a higher tension setting fixed their stitching problem.",
+          "quote": "I just tried a higher tension and that fixed it!",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1fjelph/singer_surger_lost/lnnrj2o/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cc90a4e3a",
+          "polarity": "positive",
+          "claim": "A new owner says that after some trial and error with tension and threading the machine runs smoothly.",
+          "quote": "after some trial and error with tension and threading, it works like a dream",
+          "url": "https://www.reddit.com/r/sewing/comments/rttaok/gifted_a_new_singer_14cg754_oiling_thread/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cc90a4e3a",
+        "cd7e1dd08",
+        "c77bf79cc",
+        "cdd8f9718"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2016,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c8d9eee5e",
+          "polarity": "negative",
+          "claim": "A retailer reviewer rates it 5 stars and calls the stitches good but the machine noisy.",
+          "quote": "Good stitches - noisy",
+          "url": "https://www.sewingmachinesplus.com/sewing-machines-sergers-singer-14cg754.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cf32b11ff",
+          "polarity": "negative",
+          "claim": "An owner who bought it second hand says it is very loud and shakes the table under foot pedal pressure, so a rubber mat is advised.",
+          "quote": "very loud and if you put your foot down it will shake the table",
+          "url": "https://www.reddit.com/r/sewing/comments/1ocpxvc/singer_profinish_14cg754_serger_worth_it/nkq9dhj/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cf32b11ff",
+        "c8d9eee5e"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 3,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2010,
+        2018
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c70a8d1a7",
+          "polarity": "negative",
+          "claim": "A five-year owner docked a star because one looper is very hard to thread and needs more room around it.",
+          "quote": "there is one looper that is very difficult to thread",
+          "url": "https://www.sewingmachinesplus.com/sewing-machines-sergers-singer-14cg754.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cb21ec606",
+          "polarity": "positive",
+          "claim": "The same owner finds the color-coded threading very helpful, matching the maker's color-coded lay-in threading.",
+          "quote": "the color coded threading is very helpful",
+          "url": "https://www.sewingmachinesplus.com/sewing-machines-sergers-singer-14cg754.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cf6590eae",
+        "c70a8d1a7",
+        "cb21ec606"
+      ]
+    },
+    {
+      "theme": "cutting_trimming",
+      "label": "Cutting and trimming",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2020,
+        2020
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cf9283a6d",
+          "polarity": "negative",
+          "claim": "An owner could not find replacement blades on the Singer website, and Amazon listings were reviewed as incompatible.",
+          "quote": "The Singer Website does not have any!",
+          "url": "https://www.reddit.com/r/sewing/comments/huozdm/need_overlock_blade_replacement/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cf9283a6d",
+        "c3414eb84"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2011,
+        2011
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c920c598a",
+          "polarity": "positive",
+          "claim": "The user handled several layers of denim, tried up to four, as well as very light organza.",
+          "quote": "capable of handling everything from several thicknesses of denim",
+          "url": "https://www.reddit.com/r/sewing/comments/n1589/im_looking_for_a_good_serger_for_light_jobs/c35gytj/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c920c598a"
+      ]
+    },
+    {
+      "theme": "learning_curve",
+      "label": "Learning curve",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2011,
+        2011
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c764109d7",
+          "polarity": "positive",
+          "claim": "The machine shipped with a DVD explaining threading and stitch use, matching the maker's included accessories.",
+          "quote": "It came with a super-helpful DVD on how to thread the damn thing",
+          "url": "https://www.reddit.com/r/sewing/comments/n1589/im_looking_for_a_good_serger_for_light_jobs/c35gytj/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c764109d7"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 2,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2015,
+        2015
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c0f34d2c8",
+          "polarity": "positive",
+          "claim": "The reviewer says the seam it produces is strong.",
+          "quote": "The seam it makes is strong.",
+          "url": "https://www.sewingmachinesplus.com/sewing-machines-sergers-singer-14cg754.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "ce6b0f2c4",
+        "c0f34d2c8"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://www.sewingmachinesplus.com/sewing-machines-sergers-singer-14cg754.php",
+      "pageRating": 4.89,
+      "pageCount": 9,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 8
+      },
+      "lowRated": 0,
+      "sampled": null
+    },
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B003H3J50S",
+      "pageRating": 4.5,
+      "pageCount": 2063,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "lowRated": 0,
+      "sampled": "0 top reviews (0 US, 0 other countries) of 2063 ratings"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "1,300 stitches per minute.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Singer source",
+          "url": "https://www.singer.com/products/singer-profinish-14cg754-serger"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "maker-page"
+    },
+    {
+      "label": "Differential feed",
+      "juki": "Ratio 0.7 to 2.0 in the operator's guide; the product page gives no range.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Operator's guide (archive copy)",
+          "url": "https://archive.org/details/manualzilla-id-7199880"
+        }
+      ],
+      "field": "differentialFeed",
+      "source": "operators-guide"
+    },
+    {
+      "label": "Stitch length",
+      "juki": "1 to 4 mm in the operator's guide; the product page gives no figure.",
+      "others": "Amazon lists 2.0 to 4.0 mm.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Operator's guide (archive copy)",
+          "url": "https://archive.org/details/manualzilla-id-7199880"
+        }
+      ],
+      "field": "stitchLengthMm",
+      "source": "operators-guide"
+    },
+    {
+      "label": "Weight",
+      "juki": "6.0 kg (13.2 lb) in the operator's guide; none on the product page.",
+      "others": "Amazon lists 13.5 lb.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Operator's guide (archive copy)",
+          "url": "https://archive.org/details/manualzilla-id-7199880"
+        }
+      ],
+      "field": "weightLb",
+      "source": "operators-guide"
+    },
+    {
+      "label": "Stitch types",
+      "juki": "No stitch-type count on the 14CG754 page; 2, 3 or 4 threads.",
+      "others": "Office Depot copy says 6 stitch types.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Singer source",
+          "url": "https://www.singer.com/products/singer-profinish-14cg754-serger"
+        }
+      ],
+      "field": "stitchCount",
+      "source": "maker-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "Page links a 25-year frame and 1-year parts and adjustments warranty (household use).",
+      "others": "Amazon and our spec say 25 years head, 2 years electronics, 90 days adjustments.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Singer 14CG754 warranty PDF",
+          "url": "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-d3361c80-1e88-4d01-9381-fe3e62f20ef4-singer%2025-1%20warranty%20471068326e.pdf"
+        },
+        {
+          "label": "Singer warranty coverage page",
+          "url": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "warranty-pdf-14cg754"
+    },
+    {
+      "label": "Manual",
+      "juki": "The product page links an SE017 manual.",
+      "others": "The 14CG754 operator's guide is an undated archive copy.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Singer 14CG754 page",
+          "url": "https://www.singer.com/products/singer-profinish-14cg754-serger"
+        },
+        {
+          "label": "Operator's guide (archive copy)",
+          "url": "https://archive.org/details/manualzilla-id-7199880"
+        }
+      ],
+      "field": "manual",
+      "source": "maker-manual-link"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "Heavy Duty 14HD854",
+      "label": "Singer Heavy Duty 14HD854",
+      "rows": [
+        {
+          "feature": "Singer price figures",
+          "urls": 0,
+          "classes": [],
+          "summary": "Singer shows MSRP $399.99 and a listed $319.99 for the 14HD854 against MSRP $349.99 and a listed $209.99 for the 14CG754, so the listed gap is $110, not about $20.",
+          "check": "Singer product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Knife size",
+          "urls": 0,
+          "classes": [],
+          "summary": "Singer says the 14HD854 has a \"60% larger cutting knife than other Singer sergers\"; the 14CG754 page makes no knife claim.",
+          "check": "Singer 14HD854 product page, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Lighting",
+          "urls": 0,
+          "classes": [],
+          "summary": "Singer says the 14HD854 has two LED lights, \"twice the light of other Singer sergers\"; the 14CG754 page lists no light.",
+          "check": "Singer 14HD854 product page, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Warranty tier",
+          "urls": 0,
+          "classes": [],
+          "summary": "The 14HD854 page links the 25/2/90 warranty PDF; the 14CG754 page links a 25-year frame and 1-year parts PDF.",
+          "check": "Singer product pages and warranty PDFs, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

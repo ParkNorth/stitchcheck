@@ -1,0 +1,14 @@
+
+## 2026-10-02 phase A (maker, marketplaces, collection)
+
+Aliases: bare "4423" is a common number, so queries.json is brand-qualified with model_names_only true (Singer 4423, Singer Heavy Duty 4423, Singer HD 4423, Singer HD4423, Heavy Duty 4423, HeavyDuty4423). Reddit dry run listed 320 threads, all on topic (every title names a 4423); 60 kept by the default cap, none off-topic. Siblings: 4411, 4432, 4452 with lookbehind and lookahead patterns.
+
+Maker documents: product page (singer.com), instruction manual (76-page image PDF, English/Spanish/French; the page's view URL returns an HTML wrapper, the real file is at the content URL; OCR at 150 dpi, verify against the PDF), stitch applications guide (80 pages, technique guide), generic 25/2/90 warranty PDF, Singer's warranty coverage page (lists 4423 HEAVY DUTY under 25/2/90 Day), and the 4411, 4432, 4452 product pages.
+
+Maker vs spec: dimensionsIn contradicted (spec 18.1 x 8.8 x 13.9 is near the box size; Singer machine size 15.5 x 6.25 x 12, box 18 x 8.5 x 13). warrantyUs contradicted (spec lists components such as belts, bulbs, motor and wiring that the PDF does not name; the PDF says product frame 25 yr, electronic/electrical parts 2 yr, mechanical parts and adjustments 90 days; page spec line prints 24yr and the page text says up to 25 years). Adds: throat 6.25 in "needle to tower" in Singer wording (also the depth in machine size; identical on the 4411, 4432, 4452 pages), 84 W / 0.7 A / 120 V motor rating, "60% stronger" motor claim. Not published: needle system name, lift height, thread trimmer, differential feed, thread count. Stitch breakdown (6/4/12/1) is not on the maker page.
+
+Marketplaces: Amazon B0DQQPMZXJ "4423 (Meltwater Blue)", 4.5 from 21,224 ratings, 13 reviews on page, pooled_variations true (shares a parent with B003VWXZQ0). Other search hits were siblings (4432, 4452, 4523, 4532, 4552) or other brands, skipped. Sewing Machines Plus page: 16 reviews fetched, page says 16, rating 4.25. No Walmart, forum or editorial page was collected in this phase.
+
+Collection: Reddit 60 threads, 805 items; SMP 16; Amazon 13; export 834 rows, all with full text; claims prep 634 segments in 16 chunks of 40.
+
+Editor decisions: whether to publish the 6.25 in "needle to tower" figure as throat (Singer defines it as needle to main part of machine, but it equals the machine-size depth); whether to correct the spec's dimensions and warranty component list (reviews:checks warns that spec conflicts do not mention these two); the "Heavy Duty" name and "60% stronger" are claims only.

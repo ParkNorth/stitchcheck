@@ -1,0 +1,128 @@
+{
+  "specs": {
+    "warrantyUs": {
+      "value": "Singer's 14CG754 page links a PDF stating 25 years limited on the product frame (free replacement parts, owner pays labor) and 1 year on parts and adjustments (parts and labor free); household use only",
+      "source": "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-d3361c80-1e88-4d01-9381-fe3e62f20ef4-singer%2025-1%20warranty%20471068326e.pdf"
+    }
+  },
+  "conflicts": [
+    "Warranty: the PDF linked from Singer's 14CG754 page says 25 years on the frame and 1 year on parts and adjustments, while Amazon and our earlier spec say 25 years head, 2 years electronics and 90 days adjustments. That 25/2/90 tier is on the 14HD854 page, and the coverage page text we retrieved does not name the 14CG754.",
+    "Weight: a third-party archive.org copy of an undated combined operator's guide (14SH744/14CG744/14SH754/14CG754) gives 6.0 kg (13.2 lb), while the Amazon listing gives 13.5 lb. Singer's own product page states no weight. We keep the Amazon figure on the spec and do not present either as a Singer figure.",
+    "Dimensions: the same archive guide gives 338 x 280 x 265 mm (13.3 x 11.0 x 10.4 in), while the Amazon listing gives 14 x 11 x 11.5 in. Singer's product page states none. Unit check: 265 mm is 10.4 in, not 11.5 in.",
+    "Stitch length: the archive guide gives 1 to 4 mm, while the Amazon listing gives 2.0 to 4.0 mm. Singer's product page states no figure.",
+    "Stitch types: the count of 6 comes from Office Depot copy and appears on Singer's 14HD854 page, not on the 14CG754 page, which says only 2, 3 or 4 threads. Treat 6 as retailer copy, not a Singer figure for this model.",
+    "Price: Singer's page showed MSRP $349.99 and a listed $209.99 on 2026-10-02 with Out of Stock and Sold out, while Walmart showed $239.26 (out of stock, previously $179.99) on 2026-09-29. The MSRP is Singer's own comparison figure, not a selling price.",
+    "Status: one dealer listing says the 14HD854 replaces the 14CG754, but no Singer page says so. Singer's 14CG754 page is live and says only Out of Stock.",
+    "Frame: Singer's 14CG754 page makes no frame or motor statement; the 14HD854 page claims a heavy duty metal frame and Amazon's table says Metal, Plastic. Left null."
+  ],
+  "claims": [
+    "\"Commercial Grade\" (Singer marketing name used on the Sewing Machines Plus and Office Depot listings; it does not appear on Singer's page, and this is a household serger)",
+    "\"ProFinish\" (Singer series name, product page)",
+    "\"Give all your projects a clean, store-bought look\" and \"professional results\" (Singer page copy)",
+    "\"heavy duty metal frame\" (third-party review copy; Singer's 14CG754 page does not state a frame)"
+  ],
+  "evidence": "owner",
+  "price": {
+    "priceUsdSeen": 209.99,
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "Singer product page, listed price (MSRP $349.99 on the page; page showed Out of Stock and Sold out)"
+  },
+  "sources": [
+    "https://www.singer.com/products/singer-profinish-14cg754-serger",
+    "https://www.singer.com/products/singer-14hd854-heavy-duty-serger",
+    "https://archive.org/details/manualzilla-id-7199880",
+    "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-d3361c80-1e88-4d01-9381-fe3e62f20ef4-singer%2025-1%20warranty%20471068326e.pdf",
+    "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage",
+    "https://www.sewingmachinesplus.com/sewing-machines-sergers-singer-14cg754.php",
+    "https://www.amazon.com/SINGER-Capability-Overlock-Flatlocking-Creations/dp/B003H3J50S",
+    "https://www.officedepot.com/a/products/9820615/Singer-Commercial-Grade-14CG754-Electric-Sewing/",
+    "https://www.sewingpartsonline.com/products/singer-2022-serger-needles",
+    "https://sewing.patternreview.com/review/machine/2271",
+    "https://sewing.patternreview.com/review/machine/3143",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/23518",
+    "https://www.reddit.com/r/sewhelp/comments/pqtt44/stitch_width_knob_stuck/ht3ab03/",
+    "https://www.reddit.com/r/sewhelp/comments/1jtxz57/serger_jammedstuck_help/mm25ldk/"
+  ],
+  "editorial": {
+    "verdict": "A budget 2/3/4-thread serger with differential feed, rolled hem and free arm; Singer's page shows it out of stock, and owner evidence is thin.",
+    "whoFor": "A first serger buyer who wants 2-thread capability, differential feed and a free arm at an entry price, and accepts that the evidence base for this model is small.",
+    "skipIf": "You want a brighter light or a model with a published frame and motor: Singer's 14HD854 page lists two LED lights and a larger knife, and the 14CG754 page lists neither.",
+    "keySpec": "2/3/4 thread · differential feed 0.7 to 2.0 · 1,300 spm",
+    "strengths": [
+      "Singer's page lists differential feed, a built-in rolled hem, free-arm sewing and 1,300 stitches per minute; the archive guide gives a 0.7 to 2.0 feed ratio.",
+      "2-thread stitches are possible through the included spreader, which the Brother 1034D lacks.",
+      "Uses Singer 2022 serger needles, sizes 80/11 and 90/14 per the archive guide, with a 90/14 set furnished."
+    ],
+    "weaknesses": [
+      "Owners report a stuck stitch width knob and occasional binding in six Reddit statements; these are mostly help threads, so problems are over-represented.",
+      "PatternReview owners most often complain about a dim light, and Singer's 14CG754 page lists no light at all.",
+      "Singer publishes no throat, motor or frame figure for this model, and its page shows Out of Stock."
+    ],
+    "checks": [
+      {
+        "title": "Warranty tier differs by source",
+        "body": "The PDF linked from Singer's 14CG754 page says 25 years on the frame and 1 year on parts and adjustments. The 25/2/90 tier is on the 14HD854 page and in Amazon's copy. Ask the seller which document ships with the machine."
+      },
+      {
+        "title": "Manual and weight figures are not model-specific",
+        "body": "The manual linked on Singer's page is an SE017 manual, not a 14CG754 one. The 14CG754 operator's guide is an undated archive.org copy of a combined guide, so its weight, size and stitch length figures are caveated, not Singer figures for this model."
+      },
+      {
+        "title": "Stock and price",
+        "body": "Singer's page showed a listed $209.99 against MSRP $349.99 on 2026-10-02 with Out of Stock and Sold out, and Walmart showed $239.26 out of stock. Confirm availability and the return policy before ordering from a marketplace seller."
+      }
+    ],
+    "realCost": [
+      "4 cones of serger thread",
+      "Singer 2022 needles in 80/11 or 90/14 beyond the furnished 90/14 set",
+      "Serger oil",
+      "A clip-on light if the built-in light is too dim, as PatternReview owners report"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Singer 14CG754 discontinued?",
+        "a": "No Singer page says so. Singer's product page is live and shows Out of Stock and Sold out. One dealer listing says the 14HD854 replaces it, but we found no Singer page that confirms that."
+      },
+      {
+        "q": "What is the difference between the 14CG754 and the 14HD854?",
+        "a": "Singer lists the 14HD854 at MSRP $399.99 and $319.99, against MSRP $349.99 and $209.99 for the 14CG754, a listed gap of $110. Singer claims the 14HD854 has a 60% larger cutting knife and two LED lights; the 14CG754 page makes neither claim. The 14HD854 page says 6 stitch types and the 14CG754 page does not."
+      },
+      {
+        "q": "Is the 14CG754 hard to thread?",
+        "a": "Owners disagree, and the evidence base is small. PatternReview owners call it fast once the color-coded diagram is followed; one found it very hard and could not get a rolled hem."
+      },
+      {
+        "q": "Can it do a rolled hem?",
+        "a": "Singer's page lists a built-in rolled hem. One PatternReview owner reported not getting it to work."
+      },
+      {
+        "q": "Does it have a free arm?",
+        "a": "Yes, Singer's page lists free-arm sewing."
+      },
+      {
+        "q": "What needles does it use?",
+        "a": "Singer needle Cat. No. 2022 in sizes 80/11 and 90/14 per the archive operator's guide, which says a 90/14 set is furnished. The guide says Singer 2020 needles may be used in an emergency but may skip stitches unless tension is readjusted."
+      },
+      {
+        "q": "How much does it weigh?",
+        "a": "Singer's page gives no weight. Amazon lists 13.5 lb; the undated third-party archive copy of a combined operator's guide gives 6.0 kg (13.2 lb), so treat the weight as a soft figure."
+      },
+      {
+        "q": "What are the stitch length and differential feed ranges?",
+        "a": "The archive guide gives a 0.7 to 2.0 feed ratio and 1 to 4 mm stitch length; Amazon lists 2.0 to 4.0 mm for stitch length. Singer's page gives neither range."
+      },
+      {
+        "q": "What is the warranty?",
+        "a": "The PDF linked from Singer's 14CG754 page says 25 years on the frame and 1 year on parts and adjustments, for household use. The 25/2/90 tier on Amazon and the 14HD854 page may not apply to this model."
+      },
+      {
+        "q": "How good are the ratings?",
+        "a": "Amazon shows 4.5 from 2,063 ratings, pooled across three listings, so it is not specific to this one. Sewing Machines Plus shows 4.89 from 9 reviews, a very small base. Our owner evidence is limited to 15 first-hand voices, so do not generalise from it."
+      },
+      {
+        "q": "Is it better than the Brother 1034D?",
+        "a": "It adds 2-thread stitches through the spreader and a free arm. Both are listed at 1,300 spm with differential feed, and the Brother is more often praised for its light and threading."
+      }
+    ]
+  }
+}

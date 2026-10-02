@@ -1,0 +1,79 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "HD1000",
+      "label": "Janome HD1000",
+      "pattern": "hd1000(?![a-z0-9])"
+    },
+    {
+      "model": "HD3000",
+      "label": "Janome HD3000",
+      "pattern": "hd3000(?![a-z0-9])"
+    },
+    {
+      "model": "HD9",
+      "label": "Janome HD9",
+      "pattern": "hd9(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "hd3000(?![a-z0-9])",
+      "Janome HD3000"
+    ],
+    [
+      "heavy[\\s-]*duty[\\s-]*4452(?![a-z0-9])|4452(?![a-z0-9])",
+      "Singer Heavy Duty 4452"
+    ],
+    [
+      "st371hd(?![a-z0-9])|371hd(?![a-z0-9])",
+      "Brother ST371HD"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "hd1000(?![a-z0-9])|hd3000(?![a-z0-9])|hd9(?![a-z0-9])|hd3000(?![a-z0-9])|heavy[\\s-]*duty[\\s-]*4452(?![a-z0-9])|4452(?![a-z0-9])|st371hd(?![a-z0-9])|371hd(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {}
+}
