@@ -575,8 +575,8 @@
   "rollup": {
     "status": "draft",
     "method": {
-      "sources": 8,
-      "itemsCollected": 43,
+      "sources": 10,
+      "itemsCollected": 45,
       "statements": 10,
       "voices": 9,
       "ownerVoices": 8,
@@ -588,6 +588,14 @@
         "reddit": {
           "sources": 8,
           "items": 42
+        },
+        "editorial": {
+          "sources": 1,
+          "items": 1
+        },
+        "retailer": {
+          "sources": 1,
+          "items": 1
         }
       },
       "blocked": 0,
@@ -602,7 +610,24 @@
       "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
-    "ratings": [],
+    "ratings": [
+      {
+        "retailer": "ebay.com",
+        "url": "https://www.ebay.com/p/9032778488",
+        "pageRating": 4.8,
+        "pageCount": 45,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 4,
+          "5": 40
+        },
+        "lowRated": 1,
+        "sampled": "aggregate only; no review text sampled"
+      }
+    ],
     "themes": [
       {
         "label": "Reliability and defects",
