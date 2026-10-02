@@ -1,0 +1,1205 @@
+{
+  "slug": "brother-st371hd",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 57,
+    "itemsCollected": 714,
+    "statements": 101,
+    "voices": 71,
+    "ownerVoices": 38,
+    "dateRange": [
+      2017,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 1,
+        "items": 13
+      },
+      "reddit": {
+        "sources": 56,
+        "items": 697
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.5 from 2,889 ratings is shared by several listings (B01E54NNSC plus 6 other ASINs including the ST531HD listing B076JLT9PG), so it pools machines and is not specific to the ST371HD."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 26,
+      "voices": 26,
+      "ownerVoices": 11,
+      "sources": 18,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 23
+      },
+      "polarity": {
+        "positive": 15,
+        "negative": 6,
+        "mixed": 3,
+        "neutral": 2
+      },
+      "years": [
+        2017,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c56656dbb",
+          "polarity": "negative",
+          "claim": "Owner broke a needle and gave up on projects because the machine could not sew thick layered fabric.",
+          "quote": "not being able to sew thick layered fabrics",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1nnoz96/how_do_i_change_pressure_on_the_brother_heavy/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c5c26da60",
+          "polarity": "negative",
+          "claim": "Owner of the ST371HD says the HD label implies heavy duty but the machine is not.",
+          "quote": "The \"HD\" is supposed to be heavy duty, and it's sure not.",
+          "url": "https://www.reddit.com/r/SewingWorld/comments/1wuf5lr/gifting_sewing_machine_to_aspiring_sewist/pd2no3f/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ce110ffa0",
+          "polarity": "positive",
+          "claim": "Commenter sewed multiple layers of thick fabric for tote bags without trouble.",
+          "quote": "multiple layers of quite thick fabric",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1m1da9m/what_are_yalls_opinion_on_the_brother_st371hd/n3gctpy/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c99cd51a6",
+          "polarity": "positive",
+          "claim": "Owner made jeans with a denim needle and sewed the seams without trouble.",
+          "quote": "did the seam perfectly without a problem",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/yy21r5/brother_st371hd_vs_brother_ps500/iwrtto0/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cbba5bcde",
+        "c2a79afb3",
+        "cce369912",
+        "ce110ffa0",
+        "c81328e24",
+        "c4d537736",
+        "c3491d6aa",
+        "c14a010d7",
+        "c5c26da60",
+        "c56656dbb",
+        "c680debad",
+        "c3123f414",
+        "cd10498aa",
+        "c60537db0",
+        "c558f602c",
+        "cb8404325",
+        "c68639fd8",
+        "c06c1deda",
+        "c5544d11c",
+        "c49c9ae25",
+        "cc3147706",
+        "cff8421d8",
+        "c99cd51a6",
+        "c26587e35",
+        "c136572f9",
+        "c40cf3085"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 18,
+      "voices": 18,
+      "ownerVoices": 12,
+      "sources": 13,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 15
+      },
+      "polarity": {
+        "positive": 12,
+        "negative": 5,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c5aff3113",
+          "polarity": "negative",
+          "claim": "Owner reports timing problems from first use and a needle striking the race.",
+          "quote": "The timing was off from the first use",
+          "url": "https://www.amazon.com/dp/B01E54NNSC",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c5f9b27a1",
+          "polarity": "negative",
+          "claim": "Owner's spool pin snapped in two and a matching replacement was hard to find.",
+          "quote": "the bottom of the spool pin broke clean in two",
+          "url": "https://www.reddit.com/r/sewing/comments/1nz30g0/help_my_spool_pin_broke/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c0b9c0894",
+          "polarity": "positive",
+          "claim": "Beginner owner reports no issues at all.",
+          "quote": "No issues whatsoever",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1m1da9m/what_are_yalls_opinion_on_the_brother_st371hd/n3g7anw/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c83e7c4b3",
+          "polarity": "positive",
+          "claim": "Owner reports no problems beyond user error.",
+          "quote": "it has given me no problems",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1vyyxw2/brother_st371hd_or_janome_2212/p654yj5/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c14ab8e95",
+          "polarity": "mixed",
+          "claim": "Owner reports the handwheel as the only complaint in years of use since 2018.",
+          "quote": "Only complaint since 2018 of using it.",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1pv104k/brother_handwheel_broke_so_i_improvised/nvvzftf/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c966de070",
+        "c5aff3113",
+        "c86b75c47",
+        "c0b9c0894",
+        "c83e7c4b3",
+        "c2bb80a51",
+        "ccc3b0337",
+        "c14ab8e95",
+        "c5f9b27a1",
+        "cb26b9b8b",
+        "ca10d48d6",
+        "c439dbf1a",
+        "c7faf1237",
+        "cb39251cd",
+        "cc4daf93a",
+        "c56968f46",
+        "c42d2e681",
+        "cd67314c4"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 9,
+      "voices": 7,
+      "ownerVoices": 3,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 5
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2019,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c96aa0a66",
+          "polarity": "negative",
+          "claim": "Owner says the box lacked the described feet, notably the blind hem foot.",
+          "quote": "most notably not the blind hem foot",
+          "url": "https://www.amazon.com/dp/B01E54NNSC",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cf0ac8c95",
+          "polarity": "negative",
+          "claim": "Owner found the Brother fussy about needle choice and fabric grip, spending hours trying different needles.",
+          "quote": "media mañosa con las agujas y el agarre de la tela",
+          "url": "https://www.reddit.com/r/chile/comments/1w1xyn6/qué_maquinas_de_coser_me_recomiendan_como/p6p171v/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c69f9103b",
+          "polarity": "positive",
+          "claim": "Owner notes the presser foot has an extra height setting for thick fabric.",
+          "quote": "the presser foot has an extra height adjustment to use on thick fabrics",
+          "url": "https://www.amazon.com/dp/B01E54NNSC",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c2aa60086",
+        "cb8d027aa",
+        "c69f9103b",
+        "c96aa0a66",
+        "c20ea404c",
+        "c7de53570",
+        "ce87d7e1b",
+        "ca3432de9",
+        "cf0ac8c95"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 8,
+      "voices": 7,
+      "ownerVoices": 4,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 6
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 3
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c7390537f",
+          "polarity": "negative",
+          "claim": "Owner could not get the stretch (SS) stitches to sew despite following the manual and videos.",
+          "quote": "For some reason the SS WILL NOT WORK",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/vt54dg/someone_please_help_me_im_going_insane/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cb3c6f6d2",
+          "polarity": "negative",
+          "claim": "Owner found the one-step automatic buttonhole very finicky.",
+          "quote": "1-step automatic buttonhole was so finicky",
+          "url": "https://www.amazon.com/dp/B01E54NNSC",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c7887979f",
+          "polarity": "mixed",
+          "claim": "Owner who sells sewn goods reports no issues and clean straight stitches, though not as good as an industrial.",
+          "quote": "serves straight, clean stitches",
+          "url": "https://www.reddit.com/r/sewhelp/comments/136xsmr/brother_cs7000x_vs_st371hd_for_beginner/jirxkw5/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cb3c6f6d2",
+        "c92a038bf",
+        "cfa300376",
+        "c7887979f",
+        "c9f0d560e",
+        "c62795e33",
+        "c7390537f",
+        "c589105af"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 5,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2017,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c30fdc344",
+          "polarity": "negative",
+          "claim": "Reviewer found threading tricky and the thread fell out of the needle a couple of times.",
+          "quote": "first is threading the machine",
+          "url": "https://www.amazon.com/dp/B01E54NNSC",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "ce89b1528",
+          "polarity": "negative",
+          "claim": "Owner says it will not handle thick thread when top and bobbin are both heavy.",
+          "quote": "it will not handle thick thread if you load the top and bobbin together",
+          "url": "https://www.reddit.com/r/myog/comments/1f65lck/janome_hd_3000_vs_1000_vs_brother_st371hd/lkz6jfm/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ceeb036c4",
+          "polarity": "positive",
+          "claim": "Buyer finds the machine easy to thread and set up.",
+          "quote": "easy to thread and set up",
+          "url": "https://www.amazon.com/dp/B01E54NNSC",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c3ec3eccd",
+          "polarity": "positive",
+          "claim": "Owner finds the machine easy to thread, change stitches and wind bobbins.",
+          "quote": "it is easy to thread, change stitches, wind bobbins",
+          "url": "https://www.reddit.com/r/SewingWorld/comments/1wuf5lr/gifting_sewing_machine_to_aspiring_sewist/pd2no3f/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ceeb036c4",
+        "c30fdc344",
+        "c3d823028",
+        "c59aa1dbe",
+        "ce89b1528",
+        "c3ec3eccd"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 2,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 6
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 2
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c3d1bac65",
+          "polarity": "negative",
+          "claim": "Owner returned it because lifting it from a closet each time was too much.",
+          "quote": "having to lift it out of the closet each time was a deal breaker",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1vyyxw2/brother_st371hd_or_janome_2212/p61wcfz/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ce2db8a02",
+          "polarity": "positive",
+          "claim": "Owner notes the machine is heavy but does not mind since it stays put.",
+          "quote": "It is heavy- as in weight.",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1w4fgy2/which_sewing_machine_to_get_for_light_clothing/p79n3f0/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cf097bbae",
+        "cae74f81a",
+        "c3d1bac65",
+        "ce2db8a02",
+        "c98fa5bff",
+        "c8c65119f"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 5,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 4,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2019,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cb83a62a1",
+          "polarity": "negative",
+          "claim": "Owner heard a grinding noise after a twin needle hem.",
+          "quote": "there was a grinding noise",
+          "url": "https://www.amazon.com/dp/B01E54NNSC",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cbd3d7faf",
+          "polarity": "negative",
+          "claim": "Owner finds the machine wiggles or shakes at high speed.",
+          "quote": "current machine wiggles/shakes at high speeds",
+          "url": "https://www.reddit.com/r/sewing/comments/1n2k140/my_current_machine_is_a_brother_st371hd_its_a/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c4dc56eba",
+          "polarity": "positive",
+          "claim": "Owner of a month calls the machine very quiet, fast and powerful.",
+          "quote": "super quiet,fast,powerful",
+          "url": "https://www.amazon.com/dp/B01E54NNSC",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c4dc56eba",
+        "cd064a3e9",
+        "c8afccdb9",
+        "cb83a62a1",
+        "cbd3d7faf"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 5,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c9e7a68fe",
+          "polarity": "positive",
+          "claim": "Owner says no oiling is needed and plans a service in a few years.",
+          "quote": "have to oil it",
+          "url": "https://www.amazon.com/dp/B01E54NNSC",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c7db51748",
+          "polarity": "positive",
+          "claim": "Owner says the machine never needs oiling.",
+          "quote": "you never have to oil",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1vyyxw2/brother_st371hd_or_janome_2212/p654yj5/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c9e7a68fe",
+        "c7db51748",
+        "caad97a76",
+        "c22cd5019",
+        "c521b07e7"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 4,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2019,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cb12290de",
+          "polarity": "negative",
+          "claim": "Owner struggled for hours adjusting tension while sewing on this Brother.",
+          "quote": "jugando con la tensión cuando quiero coser",
+          "url": "https://www.reddit.com/r/chile/comments/1w1xyn6/qué_maquinas_de_coser_me_recomiendan_como/p6p171v/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c9c113059",
+          "polarity": "negative",
+          "claim": "Owner sewing bulky faux fur got thread bunching on the bobbin side despite a new bobbin and cleaning.",
+          "quote": "why does it keep bunching up on the bobbin-side?",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1jja0vn/thread_bunching_up/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cf872ac2b",
+          "polarity": "positive",
+          "claim": "Owner finds tension and stitch type easy to adjust.",
+          "quote": "it is easy to adjust the tension and type of stitches",
+          "url": "https://www.amazon.com/dp/B01E54NNSC",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cf872ac2b",
+        "cf059ca72",
+        "c9c113059",
+        "c548e18a5",
+        "cb12290de"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 3,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c9aa96a87",
+          "polarity": "negative",
+          "claim": "Owner describes the handwheel as cheap plastic that wears from turning it on thick layers.",
+          "quote": "The handwheel is just cheap plastic",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1pv104k/brother_handwheel_broke_so_i_improvised/nvvzftf/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c6e12c0b3",
+          "polarity": "positive",
+          "claim": "Owner takes its real weight as a sign of build quality and stability.",
+          "quote": "it has real weight to it",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1vyyxw2/brother_st371hd_or_janome_2212/p656i3a/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c1079309f",
+          "polarity": "positive",
+          "claim": "Owner describes the machine as mostly metal.",
+          "quote": "Heavy duty and made of mostly metal",
+          "url": "https://www.amazon.com/dp/B01E54NNSC",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c1079309f",
+        "c6e12c0b3",
+        "cb90878ee",
+        "c9aa96a87"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 1,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2017,
+        2021
+      ],
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "cd691540b",
+        "cf9817a72",
+        "cabecc830"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2022,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c2bcb0532",
+          "polarity": "positive",
+          "claim": "Owner fixed the bunching on bulky fabric by switching to denim needles.",
+          "quote": "I ended up picking up some denim needles, and it started working perfectly fine",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1jja0vn/thread_bunching_up/mk0yd40/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ce78088d1",
+          "polarity": "mixed",
+          "claim": "Owner found heavy bonded nylon jammed the machine but a thinner polyester thread sewed fine.",
+          "quote": "If I switch out the too thread to a thinner polyester thread it works perfectly",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/ubuz98/sewing_nylon_webbing_is_jamming_my_machine/i673b6y/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cc1bf00f6",
+        "ce78088d1",
+        "c2bcb0532"
+      ]
+    },
+    {
+      "theme": "free_motion",
+      "label": "Free-motion quilting",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cad029162",
+          "polarity": "negative",
+          "claim": "Owner doing free-motion quilting gets frequent top thread breaks despite cleaning, rethreading and tension changes.",
+          "quote": "snappy McThread 5-6 times during a block",
+          "url": "https://www.reddit.com/r/quilting/comments/158uxwg/quilting_help_why_does_my_thread_keep_snapping/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cad029162",
+        "ce01d649f"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c06002dc1",
+          "polarity": "mixed",
+          "claim": "Built-in light is only adequate; owner adds an overhead light.",
+          "quote": "The light on this machine is ok",
+          "url": "https://www.amazon.com/dp/B01E54NNSC",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c06002dc1"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B01E54NNSC",
+      "pageRating": 4.5,
+      "pageCount": 2889,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 11
+      },
+      "lowRated": 1,
+      "sampled": "13 top reviews (8 US, 5 other countries) of 2889 ratings"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Stitches",
+      "juki": "37 built-in stitches, one of them a 1-step buttonhole.",
+      "others": "Dealer titles repeat 37; the sibling GX37 and XR3774 also say 37.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother source",
+          "url": "https://www.brother-usa.com/products/st371hd"
+        }
+      ],
+      "field": "stitchCount",
+      "source": "brother-page"
+    },
+    {
+      "label": "Speed",
+      "juki": "800 (Maximum Sewing Speed row, unit not printed).",
+      "others": "Third-party comparisons also say 800.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother source",
+          "url": "https://www.brother-usa.com/products/st371hd"
+        },
+        {
+          "label": "Manual (no speed figure)",
+          "url": "https://support.brother.com/g/b/manualtop.aspx?c=us&lang=en&prod=hf_st371hdeus"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "brother-page"
+    },
+    {
+      "label": "Throat space",
+      "juki": "Not published by Brother.",
+      "others": "Not checked at dealers.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Brother source",
+          "url": "https://www.brother-usa.com/products/st371hd"
+        }
+      ],
+      "field": "throatIn",
+      "source": "brother-page"
+    },
+    {
+      "label": "Weight",
+      "juki": "14.3 (Unit Weight row).",
+      "others": "Sewing machine directory lists 14.3 lb.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother source",
+          "url": "https://www.brother-usa.com/products/st371hd"
+        }
+      ],
+      "field": "weightLb",
+      "source": "brother-page"
+    },
+    {
+      "label": "Machine size",
+      "juki": "12.21 x 16.10 x 7.87 in, axes not labelled.",
+      "others": "Directory lists 16.1 x 7.9 x 12.2 in.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother source",
+          "url": "https://www.brother-usa.com/products/st371hd"
+        }
+      ],
+      "field": "dimensionsIn",
+      "source": "brother-page"
+    },
+    {
+      "label": "Feet in the box",
+      "juki": "Six feet; needles 11, 14, 16 and a twin needle; 4 bobbins.",
+      "others": "Not checked at dealers.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother source",
+          "url": "https://www.brother-usa.com/products/st371hd"
+        },
+        {
+          "label": "Accessories notification",
+          "url": "https://download.brother.com/welcome/doch102976/st371hd_acc02us_enesfrpt.pdf"
+        }
+      ],
+      "field": "includedFeet",
+      "source": "brother-page"
+    },
+    {
+      "label": "Presser foot pressure",
+      "juki": "Not adjustable (spec row).",
+      "others": "Third-party comparison also says fixed.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother source",
+          "url": "https://www.brother-usa.com/products/st371hd"
+        }
+      ],
+      "field": "presserFootPressure",
+      "source": "brother-page"
+    },
+    {
+      "label": "Feed and bobbin",
+      "juki": "Drop feed, metal needle plate, jam-resistant Quick-Set drop-in top bobbin.",
+      "others": "Not checked at dealers.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother source",
+          "url": "https://www.brother-usa.com/products/st371hd"
+        }
+      ],
+      "field": "feedSystem",
+      "source": "brother-page"
+    },
+    {
+      "label": "Stitch width and length",
+      "juki": "Page: width 7, length 5 (unit unlabelled). Manual: width 0 to 6.5 mm, length up to 4 mm for zigzag.",
+      "others": "Not checked at dealers.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Brother source",
+          "url": "https://www.brother-usa.com/products/st371hd"
+        },
+        {
+          "label": "Operation manual",
+          "url": "https://download.brother.com/welcome/doch001159/888_x36_x38_x39_om03enes.pdf"
+        }
+      ],
+      "field": "stitchDimensions",
+      "source": "brother-page"
+    },
+    {
+      "label": "Needles",
+      "juki": "Sizes 75/11 to 100/16 listed; no system name.",
+      "others": "Not checked at dealers.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Brother source",
+          "url": "https://www.brother-usa.com/products/st371hd"
+        },
+        {
+          "label": "Operation manual",
+          "url": "https://download.brother.com/welcome/doch001159/888_x36_x38_x39_om03enes.pdf"
+        }
+      ],
+      "field": "needleSystem",
+      "source": "brother-manual"
+    },
+    {
+      "label": "Thread cutter",
+      "juki": "No automatic cutter; a side manual cutter per the manual.",
+      "others": "Not checked at dealers.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother source",
+          "url": "https://www.brother-usa.com/products/st371hd"
+        }
+      ],
+      "field": "threadTrimmer",
+      "source": "brother-page"
+    },
+    {
+      "label": "Needle threader",
+      "juki": "Built-in, called automatic.",
+      "others": "Not checked at dealers.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother source",
+          "url": "https://www.brother-usa.com/products/st371hd"
+        }
+      ],
+      "field": "needleThreader",
+      "source": "brother-page"
+    },
+    {
+      "label": "Motor",
+      "juki": "Not published.",
+      "others": "Not checked at dealers.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Brother source",
+          "url": "https://www.brother-usa.com/products/st371hd"
+        }
+      ],
+      "field": "motor",
+      "source": "brother-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "Page label '1/5/25 Year Limited Serger Warranty', linked PDF says 1 year (International). US standard PDF: 1 / 2 / 25 years.",
+      "others": "Dealer wording not checked.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Brother source",
+          "url": "https://www.brother-usa.com/products/st371hd"
+        },
+        {
+          "label": "US standard warranty PDF",
+          "url": "https://assets.brother.com/asset/9585451d-f1e4-47db-b656-32e040a0672c/9800_Brother-Limited-Warranty-Standard-pdf.pdf"
+        },
+        {
+          "label": "Linked International PDF",
+          "url": "https://assets.brother.com/asset/09ccf0a1-3e5f-42e4-b073-52a8b56d413e/6229_International-Warranty-LAD-Final-100-pdf.pdf"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "brother-page"
+    },
+    {
+      "label": "Maker price",
+      "juki": "$239.99 on brother-usa.com, shown out of stock on 2026-10-02.",
+      "others": "Dealer pricing not recorded here.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother source",
+          "url": "https://www.brother-usa.com/products/st371hd"
+        }
+      ],
+      "field": "price",
+      "source": "brother-page"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "ST531HD",
+      "label": "Brother ST531HD",
+      "rows": [
+        {
+          "feature": "Stitches",
+          "urls": 1,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "One commenter says the ST531HD has more stitch options than the ST371HD. Brother's pages were not checked for the ST531HD.",
+          "check": "one owner comment; unverified",
+          "examples": [
+            {
+              "claim_id": "cec0ebee3",
+              "claim": "The ST531 is described as an upgraded version of the ST371 with more stitch options, not a newer replacement.",
+              "quote": "The ST 531 is just an “upgraded” model of the ST 371",
+              "url": "https://www.reddit.com/r/SewingForBeginners/comments/1unqfqi/leather_suede_beginner_machine_choices/ovm7ovg/"
+            }
+          ],
+          "claimIds": [
+            "cec0ebee3"
+          ]
+        }
+      ]
+    },
+    {
+      "model": "XM2701",
+      "label": "Brother XM2701",
+      "rows": [
+        {
+          "feature": "Stitches",
+          "urls": 0,
+          "classes": [],
+          "summary": "Brother lists 27 built-in stitches (63 stitch functions) for the XM2701 against 37 on the ST371HD.",
+          "check": "Brother product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Stitch size rows",
+          "urls": 0,
+          "classes": [],
+          "summary": "The XM2701 page lists stitch width 5 and length 4; the ST371HD page lists 7 and 5. Units are not printed on either page.",
+          "check": "Brother product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Weight and price",
+          "urls": 0,
+          "classes": [],
+          "summary": "12.6 lb and $149.99 on the XM2701 page against 14.3 lb and $239.99 on the ST371HD page.",
+          "check": "Brother product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "CS7000X",
+      "label": "Brother CS7000X",
+      "rows": [
+        {
+          "feature": "Stitches and display",
+          "urls": 0,
+          "classes": [],
+          "summary": "The CS7000X is computerized with an LCD and 70 built-in stitches; the ST371HD is a dial machine with 37.",
+          "check": "Brother product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Feet in the box",
+          "urls": 0,
+          "classes": [],
+          "summary": "The CS7000X lists 10 feet including a walking foot and a quilting foot; the ST371HD lists 6 and no walking foot.",
+          "check": "Brother product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Speed row",
+          "urls": 0,
+          "classes": [],
+          "summary": "Brother lists 750 for the CS7000X and 800 for the ST371HD.",
+          "check": "Brother product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

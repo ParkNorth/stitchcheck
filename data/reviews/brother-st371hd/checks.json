@@ -1,0 +1,30 @@
+{
+  "slug": "brother-st371hd",
+  "generated": "2026-10-02T04:58:33.327Z",
+  "counts": {
+    "error": 0,
+    "warn": 1
+  },
+  "items": [
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 6 ASINs (B01E54NNSC, B0DQQSLSW1, B0DQRF3VPW, B0DQR3X8GF, B0CZC42H55, B076JLT9PG); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 115, this 101, sibling 4, unclear 10"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "56 Reddit threads, 18 with the model in the title"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 71 voices (38 first-hand), 57 sources, status draft"
+    }
+  ]
+}

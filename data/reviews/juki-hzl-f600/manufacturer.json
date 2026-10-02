@@ -1,0 +1,343 @@
+{
+  "slug": "juki-hzl-f600",
+  "collected": "2026-10-02",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/juki-hzl-f600.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "page",
+      "url": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html",
+      "type": "product page (Juki America)",
+      "fetched": "2026-10-02",
+      "note": "Specifications, standard and optional accessories, suggested retail price"
+    },
+    {
+      "id": "manual",
+      "url": "https://www.jukihome.com/media/catalog/product/h/z/hzl-f_instruction_manual_web.pdf",
+      "type": "instruction manual (PDF, 104 pages, shared by HZL-F600/F400/F300)",
+      "fetched": "2026-10-02",
+      "note": "Image PDF read by OCR at 150 dpi; verify figures against the PDF. Specification list on the last page gives body size and weight only; copyright 2009"
+    },
+    {
+      "id": "brochure",
+      "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_f-series_brochure_web.pdf",
+      "type": "F series brochure (PDF, 2 pages, text layer; dated 0904)",
+      "fetched": "2026-10-02",
+      "note": "Machine comparison table F600/F400/F300, wide sewing space illustration, knee lifter lift height"
+    },
+    {
+      "id": "warranty",
+      "url": "https://www.jukihome.com/warranty",
+      "type": "Juki America limited warranty text (home sewing machine, general)",
+      "fetched": "2026-10-02",
+      "note": "Not model-specific; applies to Juki America home sewing machines"
+    },
+    {
+      "id": "faq",
+      "url": "https://www.jukihome.com/faq/",
+      "type": "Juki America FAQ",
+      "fetched": "2026-10-02",
+      "note": "Warranty summary; points to the Specifications tab for needle, bobbin and shank"
+    },
+    {
+      "id": "f400-page",
+      "url": "https://www.jukihome.com/products/sewing/hzl-f400-exceed-quilt-pro.html",
+      "type": "sibling product page (HZL-F400)",
+      "fetched": "2026-10-02",
+      "note": "Comparison only"
+    },
+    {
+      "id": "f300-page",
+      "url": "https://www.jukihome.com/products/sewing/hzl-f300-exceed-home-deco.html",
+      "type": "sibling product page (HZL-F300)",
+      "fetched": "2026-10-02",
+      "note": "Comparison only"
+    }
+  ],
+  "facts": [
+    {
+      "field": "stitchCount",
+      "value": "225 stitch patterns including 16 buttonholes and 4 lettering fonts (page, brochure table 225 (4))",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": 225,
+      "site": {
+        "label": "Stitches",
+        "juki": "225 stitch patterns including 16 buttonholes, 4 lettering fonts.",
+        "others": "Matches our spec (a dealer snippet saying 255 is a typo).",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "maxSpm",
+      "value": "900 spm",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": 900,
+      "site": {
+        "label": "Speed",
+        "juki": "900 spm.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "throatIn",
+      "value": "Not published as throat, needle-to-arm or arm size. The page gives none. The brochure's 'Wide Sewing Space' picture marks 551 mm (21-3/4 in) and 112 mm (4-1/2 in) around a quilt on the wide table, with the text 'a wider underarm space' and no definition of either figure",
+      "source": "brochure",
+      "vs_spec": "contradicts",
+      "spec_value": 8.0,
+      "note": "Our 8.0 in has no maker source (dealers only). Brochure 551 mm looks like the work-surface width with the wide table and is not a needle-to-arm figure; do not read it as throat. Under rule 11 the throat is [verify] unless an owner measurement is labelled as such. Owner measurement on QuiltingBoard was about 7.75 in.",
+      "site": {
+        "label": "Throat",
+        "juki": "Juki publishes no throat or needle-to-arm figure for this model. The brochure says 'a wider underarm space' and shows 551 mm and 112 mm around a quilt on the wide table, without defining them.",
+        "others": "Dealers quote 8 in to the right of the needle.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki brochure",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_f-series_brochure_web.pdf"
+          },
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "weightLb",
+      "value": "21.6 lb (9.8 kg), page, brochure and manual",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": 21.6,
+      "site": {
+        "label": "Weight",
+        "juki": "21.6 lb (9.8 kg).",
+        "others": "Matches our spec. Identical to the HZL-F300 and HZL-F400.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "Page: 17.5 W x 11.5 H x 8.25 D in; manual and brochure: 445 W x 290 H x 210 D mm (17.5 x 11.4 x 8.3 in); manual with hard case 54.0 x 30.6 x 25.7 cm",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "17.5 x 8.25 x 11.5",
+      "note": "Body size, not including the wide table. Identical figures to the F300 and F400 pages."
+    },
+    {
+      "field": "stitchWidthMm",
+      "value": "Max. zigzag width 7 mm (0.3 in)",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": 7
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "Max. stitch length 5 mm (0.2 in)",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": 5
+    },
+    {
+      "field": "needleSystem",
+      "value": "130R / 705H",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "130R / 705H",
+      "note": "Shank type low (page)."
+    },
+    {
+      "field": "bobbin",
+      "value": "Bobbin type 15 Class; drop-in with quick bobbin case",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "Class 15"
+    },
+    {
+      "field": "presserFootLift",
+      "value": "Page: Presser Foot Lift 'Manual'. Brochure: knee-lifting lever raises the foot up to 12 mm; knee lever is standard on F600 and F400. Manual: lever has lowered, ordinary lift and extra lift positions",
+      "source": "brochure",
+      "vs_spec": "adds",
+      "spec_value": "Manual lift plus knee-lifting lever (included)",
+      "note": "Spec value confirmed; lever lift height is not published on the page, only the brochure's 12 mm for the knee lever."
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "Trims top and bobbin thread by a push button, programmed trims, and heel-rock of the foot controller (page, brochure)",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "Automatic; heel of the foot controller or button"
+    },
+    {
+      "field": "feedSystem",
+      "value": "Box feed with 7-point surgical steel feed dog (page); drop feed by switch for free motion",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "Box feed with 7-point feed dog; drop feed for free motion",
+      "note": "'Surgical steel' and 'industrial style' are Juki wording."
+    },
+    {
+      "field": "buttonhole",
+      "value": "16 buttonhole styles, sensor method, 3-step cutting width adjustment; automatic buttonhole foot included",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "16 styles, sensor controlled, automatic buttonhole foot included"
+    },
+    {
+      "field": "motor",
+      "value": "Maker publishes no motor type, wattage or rating in the page, brochure or manual specification list",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec motor is null and stays [verify]. Manual spec list gives body size and weight only."
+    },
+    {
+      "field": "threads",
+      "value": "No thread or needle count applies; single needle machine. Not a spec field Juki publishes",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "differentialFeed",
+      "value": "Not applicable to a lockstitch machine; Juki publishes none",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "lighting",
+      "value": "Dual LED lights, F600 only (brochure); F400 and F300 one light",
+      "source": "brochure",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec had no lighting field.",
+      "site": {
+        "label": "Lighting",
+        "juki": "Two LED lights on the F600; one on the F400 and F300.",
+        "others": "Dealers repeat the dual LED claim.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki brochure",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_f-series_brochure_web.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "includedFeet",
+      "value": "Page standard accessories: 12 presser feet (blind stitch, buttonhole, edge sewing, manual buttonhole, open toe, overcasting, patchwork, quilt, smooth, standard, walking, zipper), hard case, wide table, knee lift lever, 4 bobbins, eyelet punch, quilt guide, spool caps S/M/L, T-shape screwdriver, auxiliary spool pin, seam ripper, twin needles",
+      "source": "page",
+      "vs_spec": "contradicts",
+      "spec_value": "10 snap-on feet (patchwork, open toe, Teflon, edge sewing, zipper, blindhem, overcasting, automatic and manual buttonhole, standard), walking foot, hard case, wide extension table, knee lift lever, quilt guide, 4 bobbins, twin needles, eyelet punch, spool caps in 3 sizes, auxiliary spool pin, seam ripper, screwdriver",
+      "note": "Juki lists a quilt presser foot that the spec omits, and calls the 'Teflon' foot 'smooth'. Count of feet differs by how the walking and quilt feet are tallied; the maker list is the source. Needle set, cleaning brush, foot controller and power cord appear on the F300 and F400 pages and not on the F600 page.",
+      "site": {
+        "label": "In the box",
+        "juki": "12 presser feet including walking foot and quilt foot, hard case, wide table, knee lift lever, quilt guide, 4 bobbins, eyelet punch.",
+        "others": "Dealers say 10 snap-on feet plus walking foot.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Juki America limited warranty: 2 years on motors, light assembly, wiring, switches, circuit boards and speed control; 5 years on all other parts; excludes consumable parts (needles, loopers, feed dogs, knife blades, bulbs, lamps, belts); original purchaser only; normal household non-commercial use; United States and Canada; service through the selling dealer",
+      "source": "warranty",
+      "vs_spec": "contradicts",
+      "spec_value": "5 yr mechanical, 2 yr electrical, 90 days adjustments",
+      "note": "General Juki America home machine wording, not model-specific. Juki's text has no '90 days adjustments' term. The FAQ adds that routine service, tension and skipped stitches are not covered.",
+      "site": {
+        "label": "Warranty",
+        "juki": "2 years on motor and electrical parts, 5 years on all other parts, original purchaser, household use only (Juki America, general wording).",
+        "others": "Dealers add 90 days on adjustments, which Juki's text does not state.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki warranty",
+            "url": "https://www.jukihome.com/warranty"
+          },
+          {
+            "label": "Juki FAQ",
+            "url": "https://www.jukihome.com/faq/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "JUKI Suggested Retail Price $2,369.00 USD; 'For pricing information, please contact your Authorized JUKI Dealer'",
+      "source": "page",
+      "vs_spec": "contradicts",
+      "spec_value": null,
+      "note": "Spec carries a $1,399 Michaels price and a $1,499 review-site MSRP, neither from Juki. Juki's own suggested retail is $2,369 (F400 $1,999, F300 $1,799 on their pages). Record as MSRP only, never as a dealer price.",
+      "site": {
+        "label": "Price",
+        "juki": "Suggested retail $2,369; dealer pricing only.",
+        "others": "Retailers showed $1,399 to $1,499 on 2026-09-29.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchTypes",
+      "value": "Random stitches (F600 only), Direct Pattern Selection of 10 popular patterns, combine and save up to 70 patterns in 10 folders, 8 languages",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Features row, not a spec."
+    },
+    {
+      "field": "availability",
+      "value": "No 'discontinued' or 'no longer available' wording found on the F600 page, which still shows suggested retail and a dealer form",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Brochure is dated 0904 and the manual copyright is 2009 (both original F-series documents); the page itself is current."
+    },
+    {
+      "field": "claims",
+      "value": "Juki wording: 'incorporates JUKI’s industrial sewing machine technology to produce superior stitch quality'; 'Powerful Feeding... can handle even the heaviest off projects'; 'Nothing Quilts Better Than a Juki'; 'Industrial Quality Buttonholes' (brochure); 'Heavy material projects, such as hemming denim jeans, can be sewn with ease' (brochure). Series names 'Exceed Quilt & Pro Special'",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketing claims only (rule 7). Presser Foot Lift is 'Manual' on the page; no maximum fabric thickness is published."
+    },
+    {
+      "field": "siblingDiff",
+      "value": "F600 vs F400 vs F300 (brochure and pages): stitches 225/157/106, fonts 4/3/3, LED lights 2/1/1, random stitches F600 only, wide table standard on F600 and optional on F400 and F300, knee lever standard on F600 and F400 and optional on F300, MSRP $2,369/$1,999/$1,799; speed, needle, weight, dimensions and bobbin identical",
+      "source": "brochure",
+      "vs_spec": "adds",
+      "spec_value": null
+    }
+  ]
+}

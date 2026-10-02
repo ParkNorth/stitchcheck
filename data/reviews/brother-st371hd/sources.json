@@ -1,0 +1,1164 @@
+[
+  {
+    "id": "web:a6b8fe8dc47b8776",
+    "url": "https://www.amazon.com/dp/B01E54NNSC",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T04:52:12.195Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T04:52:12.195Z",
+    "status": "ok",
+    "site_rating": 4.5,
+    "site_review_count": 2889,
+    "asin": "B01E54NNSC",
+    "parent_asin": "B0F8RGFYTQ",
+    "product_asins": [
+      "B01E54NNSC",
+      "B0DQQSLSW1",
+      "B0DQRF3VPW",
+      "B0DQR3X8GF",
+      "B0CZC42H55",
+      "B076JLT9PG"
+    ],
+    "pooled_variations": true,
+    "sampled": "13 top reviews (8 US, 5 other countries) of 2889 ratings",
+    "listing": {
+      "title": "Brother Sewing Machine ST371HD, 37 Built-in Stitches, 6 Included Feet",
+      "price_usd": 202.99,
+      "best_sellers_rank": "#10,897 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #35 in Sewing Machines",
+      "details": {
+        "Model Number": "ST371HD",
+        "Included Components": "3-piece needle set (#11, #14, #16), 6 sewing feet: spring action zigzag, nonstick, blind stitch, zipper, buttonhole, and button sewing feet, Bobbins (4), Spool pin, Twin needle",
+        "Manufacturer": "Brother International",
+        "Part Number": "ST371HD",
+        "Color": "Free Arm Option",
+        "Material": "Metal",
+        "Item Dimensions D x W x H": "7.87\"D x 16.1\"W x 12.21\"H",
+        "Item Weight": "6.6 kg"
+      }
+    }
+  },
+  {
+    "id": "reddit:1m1da9m",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1m1da9m/what_are_yalls_opinion_on_the_brother_st371hd/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "What are y’all’s opinion on the Brother ST371HD Sewing Machine, Strong &amp; Tough",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1m1da9m",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1789540561,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "all:Brother Strong and Tough ST371HD",
+      "r/SewingForBeginners:Brother Strong and Tough ST371HD"
+    ],
+    "content_hash": "903e4aad0b1d9dd2"
+  },
+  {
+    "id": "reddit:1vyyxw2",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1vyyxw2/brother_st371hd_or_janome_2212/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Brother ST371HD or Janome 2212",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1vyyxw2",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1787866464,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "all:Brother Strong and Tough ST371HD",
+      "r/SewingForBeginners:Brother Strong and Tough ST371HD"
+    ],
+    "content_hash": "aea36331ae8e88be"
+  },
+  {
+    "id": "reddit:1f65lck",
+    "url": "https://www.reddit.com/r/myog/comments/1f65lck/janome_hd_3000_vs_1000_vs_brother_st371hd/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Janome HD 3000 vs 1000 vs Brother st371hd?",
+    "subreddit": "myog",
+    "thread_id": "1f65lck",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1725338721,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/myog:Brother ST371HD",
+      "r/myog:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "b6a41ac1083b6265"
+  },
+  {
+    "id": "reddit:o797xm",
+    "url": "https://www.reddit.com/r/sewhelp/comments/o797xm/opinions_please_deciding_between_singer_4452_hd/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Opinions please: Deciding between Singer 4452 HD and Brother ST371HD",
+    "subreddit": "sewhelp",
+    "thread_id": "o797xm",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1624657734,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/sewhelp:Brother ST371HD",
+      "all:ST371HD review",
+      "r/sewhelp:ST371HD review",
+      "r/sewhelp:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "459ecb937a587c48"
+  },
+  {
+    "id": "reddit:1qtm0gb",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1qtm0gb/brother_cs7000x_or_st371hd/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Brother CS7000X or ST371HD?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1qtm0gb",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1770078287,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD"
+    ],
+    "content_hash": "2b9d55f5617c5903"
+  },
+  {
+    "id": "reddit:1woh0hz",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1woh0hz/which_of_these_machines_would_you_choose_for_a/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Which of these machines would you choose for a newbie who will mostly be altering clothes, including jeans? Brother ST371HD or Babylock Zest",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1woh0hz",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1790196389,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "r/SewingForBeginners:Brother Strong and Tough ST371HD"
+    ],
+    "content_hash": "b9adef50255f8002"
+  },
+  {
+    "id": "reddit:136xsmr",
+    "url": "https://www.reddit.com/r/sewhelp/comments/136xsmr/brother_cs7000x_vs_st371hd_for_beginner/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Brother CS7000X vs ST371HD for beginner",
+    "subreddit": "sewhelp",
+    "thread_id": "136xsmr",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1683163371,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/sewhelp:Brother ST371HD",
+      "r/sewhelp:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "784230d5ce265203"
+  },
+  {
+    "id": "reddit:1n2k140",
+    "url": "https://www.reddit.com/r/sewing/comments/1n2k140/my_current_machine_is_a_brother_st371hd_its_a/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "My current machine is a Brother ST371HD. It’s a decent little machine but I would like to upgrade",
+    "subreddit": "sewing",
+    "thread_id": "1n2k140",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1756823427,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/sewing:Brother ST371HD",
+      "all:Brother Strong and Tough ST371HD",
+      "r/sewing:Brother Strong and Tough ST371HD"
+    ],
+    "content_hash": "a6a8d9d3a4ea7143"
+  },
+  {
+    "id": "reddit:prc9rp",
+    "url": "https://www.reddit.com/r/sewing/comments/prc9rp/brother_st371hd_vs_singer_4452hd/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Brother ST371HD vs. Singer 4452HD",
+    "subreddit": "sewing",
+    "thread_id": "prc9rp",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1632096362,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/sewing:Brother ST371HD",
+      "all:ST371HD problems",
+      "r/sewing:ST371HD problems",
+      "r/sewing:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "a015b8a5aeffc0ca"
+  },
+  {
+    "id": "reddit:zwfdpy",
+    "url": "https://www.reddit.com/r/sewing/comments/zwfdpy/brother_st371hd_or_janome_1522/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Brother ST371HD or Janome 1522",
+    "subreddit": "sewing",
+    "thread_id": "zwfdpy",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1672172492,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/sewing:Brother ST371HD",
+      "r/sewing:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "081f5e2a164368ef"
+  },
+  {
+    "id": "reddit:1hep4de",
+    "url": "https://www.reddit.com/r/sewing/comments/1hep4de/brother_st371hd_pedal_type/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Brother ST371HD Pedal Type? ",
+    "subreddit": "sewing",
+    "thread_id": "1hep4de",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1734260393,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/sewing:Brother ST371HD"
+    ],
+    "content_hash": "ae1527937b6b8a85"
+  },
+  {
+    "id": "reddit:yy21r5",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/yy21r5/brother_st371hd_vs_brother_ps500/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "brother st371hd vs brother ps500",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "yy21r5",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1668769734,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "9342957835967713"
+  },
+  {
+    "id": "reddit:1s5f6ke",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1s5f6ke/brother_st371hd_sewing_issues/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Brother st371hd sewing issues",
+    "subreddit": "sewhelp",
+    "thread_id": "1s5f6ke",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1774681441,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/sewhelp:Brother ST371HD"
+    ],
+    "content_hash": "079692b16ad88268"
+  },
+  {
+    "id": "reddit:1hc7ch0",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1hc7ch0/brother_ce1150_cp100x_cp80x_st371hd_janome_arctic/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Brother CE1150, CP100X, CP80X, ST371HD, Janome Arctic Crystal- what would you go for?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1hc7ch0",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1734058924,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "d58de904bbc6dc82"
+  },
+  {
+    "id": "reddit:1bcajps",
+    "url": "https://www.reddit.com/r/sewing/comments/1bcajps/out_of_alignment_brother_st371hd_any_tips_on/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Out of alignment- brother ST371HD. any tips on fixing this? ",
+    "subreddit": "sewing",
+    "thread_id": "1bcajps",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1710190520,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/sewing:Brother ST371HD"
+    ],
+    "content_hash": "551ad46e1091ea27"
+  },
+  {
+    "id": "reddit:1i3wa7z",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1i3wa7z/singer_hd_or_brother_st371hd/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer HD or Brother ST371HD",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1i3wa7z",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1737267965,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "791e39e7cd00dd62"
+  },
+  {
+    "id": "reddit:vtnl9q",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/vtnl9q/trouble_with_using_the_stretch_stitch_feature_on/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Trouble with using the stretch stitch feature on my Brother ST371HD",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "vtnl9q",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1657308609,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD"
+    ],
+    "content_hash": "16c92ede042909ae"
+  },
+  {
+    "id": "reddit:1rgh3i9",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1rgh3i9/debating_between_getting_brother_cs5055_brother/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Debating between getting Brother CS5055, Brother ST371HD, or Brother XM2701",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1rgh3i9",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1772223127,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD"
+    ],
+    "content_hash": "aea87d0ef3325d62"
+  },
+  {
+    "id": "reddit:1traswr",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1traswr/janome_423s_vs_brother_st371hd/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Janome 423s vs Brother ST371HD",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1traswr",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "thin",
+    "cursor_utc": 1780078890,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "all:Brother ST371HD vs Singer 4423",
+      "r/SewingForBeginners:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1trapjx",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1trapjx/janome_423s_vs_brother_st371hd/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Janome 423s vs Brother ST371HD",
+    "subreddit": "sewhelp",
+    "thread_id": "1trapjx",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "thin",
+    "cursor_utc": 1780078713,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/sewhelp:Brother ST371HD",
+      "all:Brother ST371HD vs Singer 4423",
+      "r/sewhelp:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1p55m3h",
+    "url": "https://www.reddit.com/r/AllElectronicsDeals/comments/1p55m3h/amazon_brother_st371hd_strong_tough_sewing/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "[Amazon] Brother ST371HD Strong &amp; Tough Sewing Machine with 35% off, for $150",
+    "subreddit": "AllElectronicsDeals",
+    "thread_id": "1p55m3h",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "thin",
+    "cursor_utc": 1763952382,
+    "discovered_by": [
+      "all:Brother ST371HD"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1p4ofpj",
+    "url": "https://www.reddit.com/r/AmazonStealsUS/comments/1p4ofpj/14999_brother_st371hd_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "$149.99 Brother ST371HD Sewing Machine",
+    "subreddit": "AmazonStealsUS",
+    "thread_id": "1p4ofpj",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "thin",
+    "cursor_utc": 1763909146,
+    "discovered_by": [
+      "all:Brother ST371HD"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1otdena",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1otdena/my_partner_bought_me_a_singer_for_my_birthday_not/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "My partner bought me a singer for my birthday not knowing I had my heart set on a brother model.....",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1otdena",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1763092608,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "all:Brother ST371HD vs Singer 4423",
+      "r/SewingForBeginners:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "dc6e460174d9a25b"
+  },
+  {
+    "id": "reddit:158uxwg",
+    "url": "https://www.reddit.com/r/quilting/comments/158uxwg/quilting_help_why_does_my_thread_keep_snapping/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Quilting help! Why does my thread keep snapping?",
+    "subreddit": "quilting",
+    "thread_id": "158uxwg",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1690690945,
+    "discovered_by": [
+      "r/quilting:Brother ST371HD"
+    ],
+    "content_hash": "58c5064198c10bfc"
+  },
+  {
+    "id": "reddit:1unqfqi",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1unqfqi/leather_suede_beginner_machine_choices/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Leather / Suede - beginner machine choices",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1unqfqi",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1783471361,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD vs Singer 4423",
+      "all:Brother Strong and Tough ST371HD",
+      "r/SewingForBeginners:Brother Strong and Tough ST371HD"
+    ],
+    "content_hash": "c7b8cd181833043b"
+  },
+  {
+    "id": "reddit:1uxhexe",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1uxhexe/is_any_of_these_used_machines_better_than_a_new/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Is any of these used machines better than a new model for an absolute beginner?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1uxhexe",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1786491908,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "7c822ce3d6107229"
+  },
+  {
+    "id": "reddit:1577a30",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1577a30/now_im_between_these_2_machines/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Now I’m between these 2 machines",
+    "subreddit": "sewhelp",
+    "thread_id": "1577a30",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1690231045,
+    "discovered_by": [
+      "r/sewhelp:Brother ST371HD",
+      "r/sewhelp:Brother ST371HD vs Singer 4423",
+      "all:Brother Strong and Tough ST371HD",
+      "r/sewhelp:Brother Strong and Tough ST371HD"
+    ],
+    "content_hash": "2acf09f24232ad60"
+  },
+  {
+    "id": "reddit:1klrg7a",
+    "url": "https://www.reddit.com/r/sewing/comments/1klrg7a/cant_decide_on_a_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Can't decide on a machine!",
+    "subreddit": "sewing",
+    "thread_id": "1klrg7a",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1747539754,
+    "discovered_by": [
+      "r/sewing:Brother ST371HD"
+    ],
+    "content_hash": "3b816b71b0c4f199"
+  },
+  {
+    "id": "reddit:x9q3ct",
+    "url": "https://www.reddit.com/r/sewing/comments/x9q3ct/mechanical_sewing_machine_for_advanced_beginner/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Mechanical sewing machine for advanced beginner",
+    "subreddit": "sewing",
+    "thread_id": "x9q3ct",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1662825571,
+    "discovered_by": [
+      "r/sewing:Brother ST371HD"
+    ],
+    "content_hash": "eff2faa0b6321c6b"
+  },
+  {
+    "id": "reddit:vt54dg",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/vt54dg/someone_please_help_me_im_going_insane/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Someone please help me. I’m going insane.",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "vt54dg",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1657696987,
+    "discovered_by": [
+      "r/SewingForBeginners:Brother ST371HD",
+      "all:ST371HD problems",
+      "r/SewingForBeginners:ST371HD problems"
+    ],
+    "content_hash": "44ab19aacd964369"
+  },
+  {
+    "id": "reddit:lr1e1u",
+    "url": "https://www.reddit.com/r/sewing/comments/lr1e1u/beginner_heavy_duty_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Beginner Heavy Duty Sewing Machine",
+    "subreddit": "sewing",
+    "thread_id": "lr1e1u",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1614191243,
+    "discovered_by": [
+      "r/sewing:Brother ST371HD",
+      "all:ST371HD review",
+      "r/sewing:ST371HD review"
+    ],
+    "content_hash": "68f46cbd20e61bdd"
+  },
+  {
+    "id": "reddit:1mos0h1",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1mos0h1/first_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "First sewing machine",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1mos0h1",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1755383418,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "5103122e5c38daf7"
+  },
+  {
+    "id": "reddit:wal3ta",
+    "url": "https://www.reddit.com/r/sewhelp/comments/wal3ta/stuck_needle_inside_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Stuck needle inside sewing machine",
+    "subreddit": "sewhelp",
+    "thread_id": "wal3ta",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1659050748,
+    "discovered_by": [
+      "r/sewhelp:Brother ST371HD"
+    ],
+    "content_hash": "f25a04f3c3d1fd7d"
+  },
+  {
+    "id": "reddit:1q226xi",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1q226xi/can_i_realistically_learn_cover_stitch_just_to/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Can I realistically learn cover stitch just to hem T-shirts?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1q226xi",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1767686915,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "8a4db96c52115024"
+  },
+  {
+    "id": "reddit:1w1xyn6",
+    "url": "https://www.reddit.com/r/chile/comments/1w1xyn6/qué_maquinas_de_coser_me_recomiendan_como/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "¿Qué maquinas de coser me recomiendan como principiante para empezar en el rubro de la costura?",
+    "subreddit": "chile",
+    "thread_id": "1w1xyn6",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1788111319,
+    "discovered_by": [
+      "all:Brother ST371HD"
+    ],
+    "content_hash": "6a84f510bd1a70e1"
+  },
+  {
+    "id": "reddit:1lxhzn6",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1lxhzn6/deciding_which_machine_to_buy/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Deciding which machine to buy.",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1lxhzn6",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1752352063,
+    "discovered_by": [
+      "r/SewingForBeginners:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "c792649fa6a1b756"
+  },
+  {
+    "id": "reddit:1pv104k",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1pv104k/brother_handwheel_broke_so_i_improvised/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Brother handwheel broke, so I improvised…",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1pv104k",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1766713448,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "r/SewingForBeginners:Brother Strong and Tough ST371HD"
+    ],
+    "content_hash": "fbfe83fa4cf64b30"
+  },
+  {
+    "id": "reddit:1wuf5lr",
+    "url": "https://www.reddit.com/r/SewingWorld/comments/1wuf5lr/gifting_sewing_machine_to_aspiring_sewist/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Gifting sewing machine to aspiring sewist",
+    "subreddit": "SewingWorld",
+    "thread_id": "1wuf5lr",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1790844276,
+    "discovered_by": [
+      "all:Brother ST371HD"
+    ],
+    "content_hash": "72dd3d4c9bc2ed0e"
+  },
+  {
+    "id": "reddit:1nz30g0",
+    "url": "https://www.reddit.com/r/sewing/comments/1nz30g0/help_my_spool_pin_broke/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help! My spool pin broke!",
+    "subreddit": "sewing",
+    "thread_id": "1nz30g0",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1759713404,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/sewing:Brother ST371HD"
+    ],
+    "content_hash": "ecfb2d5ab461c8af"
+  },
+  {
+    "id": "reddit:1uidomw",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1uidomw/help_with_acquiring_my_first_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help with acquiring my first sewing machine",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1uidomw",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1782843601,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "all:ST371HD problems",
+      "r/SewingForBeginners:ST371HD problems",
+      "r/SewingForBeginners:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "2e268a085b91303c"
+  },
+  {
+    "id": "reddit:1u745yv",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1u745yv/how_do_i_fix_this_ripped_bottom_fitted_bed_sheet/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "How do I fix this ripped bottom fitted bed sheet?",
+    "subreddit": "sewhelp",
+    "thread_id": "1u745yv",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1781846054,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/sewhelp:Brother ST371HD"
+    ],
+    "content_hash": "ec4d46ee713b6655"
+  },
+  {
+    "id": "reddit:1w4fgy2",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1w4fgy2/which_sewing_machine_to_get_for_light_clothing/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Which sewing machine to get for light clothing tailoring?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1w4fgy2",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1788386595,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "48f99948ffa3d922"
+  },
+  {
+    "id": "reddit:1nnoz96",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1nnoz96/how_do_i_change_pressure_on_the_brother_heavy/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "How do I change pressure on the Brother Heavy Duty Machine",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1nnoz96",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1758641217,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "all:Brother Strong and Tough ST371HD",
+      "r/SewingForBeginners:Brother Strong and Tough ST371HD"
+    ],
+    "content_hash": "4165fe1369641a8a"
+  },
+  {
+    "id": "reddit:1kdiu4r",
+    "url": "https://www.reddit.com/r/sewing/comments/1kdiu4r/help_me_choose_a_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help me choose a sewing machine!",
+    "subreddit": "sewing",
+    "thread_id": "1kdiu4r",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1746286472,
+    "discovered_by": [
+      "r/sewing:Brother ST371HD"
+    ],
+    "content_hash": "39ebc8a96dc644d9"
+  },
+  {
+    "id": "reddit:1e82e63",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1e82e63/top_thread_separating_and_bottom_thread_not_moving/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "top thread separating and bottom thread not moving  ",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1e82e63",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1721506784,
+    "discovered_by": [
+      "r/SewingForBeginners:Brother ST371HD",
+      "all:ST371HD problems",
+      "r/SewingForBeginners:ST371HD problems"
+    ],
+    "content_hash": "39512575d88c834d"
+  },
+  {
+    "id": "reddit:ubuz98",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/ubuz98/sewing_nylon_webbing_is_jamming_my_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing nylon webbing is jamming my machine.",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "ubuz98",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1651001837,
+    "discovered_by": [
+      "r/SewingForBeginners:Brother ST371HD"
+    ],
+    "content_hash": "5ed9568b5d745c77"
+  },
+  {
+    "id": "reddit:1ov5h2x",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ov5h2x/yet_another_which_one_should_i_get/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Yet another… which one should I get...",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1ov5h2x",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1763152080,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD",
+      "all:ST371HD review",
+      "r/SewingForBeginners:ST371HD review"
+    ],
+    "content_hash": "3a4d47f2a5356ae2"
+  },
+  {
+    "id": "reddit:15t955m",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/15t955m/which_machine_should_i_get/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Which machine should I get",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "15t955m",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1711304863,
+    "discovered_by": [
+      "r/SewingForBeginners:Brother ST371HD"
+    ],
+    "content_hash": "7332a5f7ba683dd8"
+  },
+  {
+    "id": "reddit:1vkzb7n",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1vkzb7n/cant_set_up_this_new_rolled_hem_foot_is_it/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Can't set up this new rolled hem foot, is it possible?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1vkzb7n",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1786463798,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/SewingForBeginners:Brother ST371HD"
+    ],
+    "content_hash": "8c75a1c68ddd98c7"
+  },
+  {
+    "id": "reddit:yve8jg",
+    "url": "https://www.reddit.com/r/sewing/comments/yve8jg/help_me_pick_out_a_christmas_present_whats_the/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help me pick out a Christmas present! What's the best sewing machine for leather?",
+    "subreddit": "sewing",
+    "thread_id": "yve8jg",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1668528089,
+    "discovered_by": [
+      "r/sewing:Brother ST371HD"
+    ],
+    "content_hash": "d6c9cbea04589759"
+  },
+  {
+    "id": "reddit:i3jf67",
+    "url": "https://www.reddit.com/r/sewing/comments/i3jf67/which_sewing_machine_should_i_pick/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Which sewing machine should I pick?",
+    "subreddit": "sewing",
+    "thread_id": "i3jf67",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1597008362,
+    "discovered_by": [
+      "r/sewing:Brother ST371HD",
+      "all:ST371HD review",
+      "r/sewing:ST371HD review",
+      "all:ST371HD problems",
+      "r/sewing:ST371HD problems",
+      "r/sewing:Brother Strong and Tough ST371HD"
+    ],
+    "content_hash": "0c7b21adb33090d9"
+  },
+  {
+    "id": "reddit:1l0nlge",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1l0nlge/completely_overwhelmed_by_sewing_machine_options/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "completely overwhelmed by sewing machine options.",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1l0nlge",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1749338014,
+    "discovered_by": [
+      "r/SewingForBeginners:Brother ST371HD"
+    ],
+    "content_hash": "87769ca89be9403a"
+  },
+  {
+    "id": "reddit:1uidyvq",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1uidyvq/help_with_acquiring_my_first_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help with acquiring my first sewing machine",
+    "subreddit": "sewhelp",
+    "thread_id": "1uidyvq",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1782840951,
+    "discovered_by": [
+      "all:Brother ST371HD",
+      "r/sewhelp:Brother ST371HD",
+      "all:ST371HD problems",
+      "r/sewhelp:ST371HD problems",
+      "r/sewhelp:Brother ST371HD vs Singer 4423"
+    ],
+    "content_hash": "d02ef40e39d9d301"
+  },
+  {
+    "id": "reddit:jx3lz2",
+    "url": "https://www.reddit.com/r/sewing/comments/jx3lz2/sewing_machine_guidance/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing Machine Guidance",
+    "subreddit": "sewing",
+    "thread_id": "jx3lz2",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1605959847,
+    "discovered_by": [
+      "r/sewing:Brother ST371HD",
+      "all:ST371HD review",
+      "r/sewing:ST371HD review",
+      "all:Brother Strong and Tough ST371HD",
+      "r/sewing:Brother Strong and Tough ST371HD"
+    ],
+    "content_hash": "528339d8f5e48576"
+  },
+  {
+    "id": "reddit:hakjtw",
+    "url": "https://www.reddit.com/r/sewing/comments/hakjtw/thread_tension/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Thread tension??",
+    "subreddit": "sewing",
+    "thread_id": "hakjtw",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1592377952,
+    "discovered_by": [
+      "r/sewing:Brother ST371HD"
+    ],
+    "content_hash": "858b2cfa5ce21afb"
+  },
+  {
+    "id": "reddit:g88gy3",
+    "url": "https://www.reddit.com/r/sewing/comments/g88gy3/sewing_beginner_any_advice/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing beginner any advice ???",
+    "subreddit": "sewing",
+    "thread_id": "g88gy3",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1587925050,
+    "discovered_by": [
+      "r/sewing:Brother ST371HD",
+      "all:Brother Strong and Tough ST371HD",
+      "r/sewing:Brother Strong and Tough ST371HD"
+    ],
+    "content_hash": "204f6ac693bca420"
+  },
+  {
+    "id": "reddit:fabbb7",
+    "url": "https://www.reddit.com/r/sewing/comments/fabbb7/i_would_like_some_recommendation_on_my_first/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "I would like some recommendation on my first sewing machine purchase.",
+    "subreddit": "sewing",
+    "thread_id": "fabbb7",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1582841836,
+    "discovered_by": [
+      "r/sewing:Brother ST371HD",
+      "all:Brother Strong and Tough ST371HD",
+      "r/sewing:Brother Strong and Tough ST371HD"
+    ],
+    "content_hash": "d872d64b0d454878"
+  },
+  {
+    "id": "reddit:1jja0vn",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1jja0vn/thread_bunching_up/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "thread bunching up?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1jja0vn",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1743089334,
+    "discovered_by": [
+      "r/SewingForBeginners:Brother ST371HD"
+    ],
+    "content_hash": "459fcdf23d09a837"
+  },
+  {
+    "id": "reddit:1hq3ofk",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1hq3ofk/help_me_choose_a_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help me choose a sewing machine",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1hq3ofk",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1735666179,
+    "discovered_by": [
+      "r/SewingForBeginners:Brother ST371HD"
+    ],
+    "content_hash": "76a40304bfef15c6"
+  },
+  {
+    "id": "reddit:175iri1",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/175iri1/which_brother_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Which Brother machine?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "175iri1",
+    "first_seen": "2026-10-02T04:52:16.234Z",
+    "last_fetched": "2026-10-02T04:52:16.234Z",
+    "status": "ok",
+    "cursor_utc": 1697073647,
+    "discovered_by": [
+      "r/SewingForBeginners:Brother ST371HD"
+    ],
+    "content_hash": "8c988fac485d649a"
+  }
+]

@@ -1,0 +1,1078 @@
+{
+  "slug": "brother-st371hd",
+  "today": "2026-10-02",
+  "rules": "AGENTS.md rules 1 to 12 apply: spec-check not field-test, owner evidence labelled, paraphrase and attribute, no em or en dashes, never invent a spec, claims quoted not asserted, every spec sourced, model name is not a spec, conflicts listed, price bands not live prices.",
+  "spec": {
+    "slug": "brother-st371hd",
+    "brand": "Brother",
+    "model": "ST371HD Strong & Tough",
+    "series": "Strong & Tough",
+    "type": "mechanical",
+    "industrial": false,
+    "jobs": [
+      "heavy-duty",
+      "beginner"
+    ],
+    "manufacturerUrl": "https://www.brother-usa.com/products/st371hd",
+    "retailerUrl": null,
+    "priceUsdSeen": 229.99,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Michaels (search snippet; no Sewing Machines Plus listing appeared in results)",
+    "specs": {
+      "stitchTypes": {
+        "value": "37 utility and decorative stitches including blind hem, stretch and buttonhole",
+        "source": "https://www.brother-usa.com/products/st371hd"
+      },
+      "stitchCount": {
+        "value": 37,
+        "source": "https://www.brother-usa.com/products/st371hd"
+      },
+      "maxSpm": {
+        "value": 800,
+        "source": "https://bobbinhub.com/singer-4423-vs-brother-st371hd/"
+      },
+      "threads": {
+        "value": null,
+        "source": null
+      },
+      "differentialFeed": {
+        "value": null,
+        "source": null
+      },
+      "throatIn": {
+        "value": null,
+        "source": null
+      },
+      "needleSystem": {
+        "value": null,
+        "source": null
+      },
+      "presserFootLift": {
+        "value": "Fixed presser foot pressure (third-party comparison); lift height not published in snippet",
+        "source": "https://bobbinhub.com/singer-4423-vs-brother-st371hd/"
+      },
+      "threadTrimmer": {
+        "value": null,
+        "source": null
+      },
+      "feedSystem": {
+        "value": "Drop feed for free motion; metal needle plate; Quick-Set drop-in top bobbin",
+        "source": "https://www.brother-usa.com/products/st371hd"
+      },
+      "buttonhole": {
+        "value": "One-step buttonhole (buttonhole foot included)",
+        "source": "https://www.brother-usa.com/products/st371hd"
+      },
+      "motor": {
+        "value": null,
+        "source": null
+      },
+      "frame": {
+        "value": null,
+        "source": null
+      },
+      "weightLb": {
+        "value": 14.3,
+        "source": "https://www.sewingmachinedirectory.com/sewing-machine/brother-st371hd/"
+      },
+      "dimensionsIn": {
+        "value": "16.1 x 7.9 x 12.2 (48.9 x 20 x 31 cm)",
+        "source": "https://www.sewingmachinedirectory.com/sewing-machine/brother-st371hd/"
+      },
+      "includedFeet": {
+        "value": "6 feet: spring action zigzag, nonstick, blind stitch, zipper, buttonhole, button sewing; heavyweight needles included",
+        "source": "https://www.brother-usa.com/products/st371hd"
+      },
+      "warrantyUs": {
+        "value": null,
+        "source": null
+      }
+    },
+    "claims": [
+      "\"Strong & Tough\" (Brother series name, product page; a model line, not a rating)",
+      "\"everyday sewing and mending on everything from durable outdoor fabrics to lightweight elegant silks\" (manufacturer claim, brother-usa.com)",
+      "\"jam-resistant Quick-Set drop-in top bobbin\" (manufacturer claim, brother-usa.com)",
+      "\"Heavy Duty Sewing Machine\" (brother-usa.com page title)"
+    ],
+    "conflicts": [
+      "Max speed: 800 spm comes from a third-party comparison, not from a Brother snippet. Catalog marks it [verify] until the Brother spec sheet is read.",
+      "Price: $229.99 (Michaels) vs $199 (comparison site, undated). Catalog will use $229.99.",
+      "Frame material, warranty term and needle system were not in accessible snippets; Brother's support page was blocked. Left null."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "A comparison review sewing four layers of denim and five layers of duck cloth found the ST371HD completed the hems but needed slower feeding at thick seams because presser foot pressure is fixed and the motor is slower than Singer's 4423.",
+        "tone": "mixed",
+        "source": "https://bobbinhub.com/singer-4423-vs-brother-st371hd/"
+      },
+      {
+        "theme": "An independent review calls it a tough little machine for everyday mending and light heavy fabric work, praising the nonstick foot and drop-in bobbin.",
+        "tone": "positive",
+        "source": "https://sewnstudio.com/brother-st371hd-review/"
+      }
+    ],
+    "evidence": "positioning",
+    "buyerQuestions": [
+      "Is the Brother ST371HD really heavy duty?",
+      "Brother ST371HD vs Singer 4423: which is better for denim?",
+      "Can the Brother ST371HD sew leather or vinyl?",
+      "How fast is the Brother ST371HD?",
+      "Does the Brother ST371HD have adjustable presser foot pressure?",
+      "Does the Brother ST371HD have a walking foot?",
+      "What is the Brother ST371HD warranty?",
+      "Is the Brother ST371HD good for beginners?",
+      "Does the Brother ST371HD have a free arm?"
+    ],
+    "crossShop": [
+      {
+        "slug": "singer-4423",
+        "why": "The direct rival: faster, adjustable pressure, fewer stitches, more owner complaints."
+      },
+      {
+        "slug": "singer-4452",
+        "why": "For buyers who like the ST371HD's nonstick foot but also want a walking foot in the box."
+      },
+      {
+        "slug": "janome-hd3000",
+        "why": "Aluminum-bodied mechanical alternative for buyers prioritizing build over stitch count."
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "editorial": {
+      "verdict": "A beginner mechanical with six feet, a nonstick foot and a metal needle plate that handles denim hems if you slow down at the thick spots.",
+      "whoFor": "New sewists and menders who want a forgiving drop-in bobbin machine with more stitches than the Singer and a free arm for cuffs.",
+      "skipIf": "You sew layered canvas or heavy denim weekly and want adjustable presser foot pressure and a faster motor.",
+      "keySpec": "800 spm [verify] · 37 stitches · 6 feet incl. nonstick · 14.3 lb",
+      "strengths": [
+        "Brother lists six feet in the box, including nonstick and button sewing feet.",
+        "Metal needle plate, drop feed and free arm are published features.",
+        "Lightest machine in this set at 14.3 lb."
+      ],
+      "weaknesses": [
+        "Presser foot pressure is fixed per third-party testing.",
+        "Slower motor than the Singer 44-series.",
+        "Frame material, warranty and speed were not confirmed from Brother in accessible sources."
+      ],
+      "checks": [
+        {
+          "title": "Confirm speed and warranty",
+          "body": "Brother's spec sheet was not reachable. Ask the dealer for the printed spm and warranty card before comparing to the Singer 4423."
+        },
+        {
+          "title": "Model variants",
+          "body": "Listings mix the ST371HD with the GX37 and XR3774, which share the 37-stitch count but not the heavyweight needles and nonstick foot. Check the model code."
+        },
+        {
+          "title": "Walking foot is extra",
+          "body": "Six feet are included but none is a walking foot. Budget for one if you quilt or sew slippery layers."
+        }
+      ],
+      "realCost": [
+        "Walking foot",
+        "Denim needles size 16 beyond the included heavyweight pack",
+        "Extra SA156 style drop-in bobbins"
+      ]
+    },
+    "sources": [
+      "https://www.brother-usa.com/products/st371hd",
+      "https://www.brother-usa.com/p/sewing-embroidery/ST371HD",
+      "https://www.sewingmachinedirectory.com/sewing-machine/brother-st371hd/",
+      "https://bobbinhub.com/singer-4423-vs-brother-st371hd/",
+      "https://www.michaels.com/brother-st371hd-strong-and-tough-sewing-machine/D033839S.html",
+      "https://sewnstudio.com/brother-st371hd-review/",
+      "https://www.brother-usa.com/support/st371hd",
+      "https://www.walmart.com/ip/Brother-Strong-and-Tough-Sewing-Machine-MFR-ST371HD/51254722"
+    ]
+  },
+  "manufacturer": {
+    "documents": [
+      {
+        "id": "brother-page",
+        "url": "https://www.brother-usa.com/products/st371hd",
+        "type": "product page",
+        "fetched": "2026-10-02",
+        "note": "Redirects to /p/sewing-embroidery/ST371HD. Page title 'ST371HD Heavy Duty Sewing Machine - Strong and Tough'. Shows $239.99 and 'Out of Stock'. Spec tables list weight, dimensions, speed, stitch width/length, feet, warranty label. No throat, motor wattage or needle system."
+      },
+      {
+        "id": "brother-manual",
+        "url": "https://download.brother.com/welcome/doch001159/888_x36_x38_x39_om03enes.pdf",
+        "type": "operation manual (PDF, 104 pages, English/Spanish, text layer, v03 dated 01/12/2016)",
+        "fetched": "2026-10-02",
+        "note": "Family manual for product codes 888-X36/X38/X39; never names ST371HD. Brother's support page lists it under ST371HD. Says '37 Stitches (only available on certain models)'. No specifications page: no speed, motor, throat or presser foot pressure figures."
+      },
+      {
+        "id": "brother-support",
+        "url": "https://support.brother.com/g/b/manualtop.aspx?c=us&lang=en&prod=hf_st371hdeus",
+        "type": "support manuals page",
+        "fetched": "2026-10-02",
+        "note": "Lists the operation manual, quick reference guide (01/11/2024), an accessories notification (10/11/2024) and an accessories catalog under ST371HD."
+      },
+      {
+        "id": "brother-quickref",
+        "url": "https://download.brother.com/welcome/doch102895/888x34_x36_x38_x39_qg03endefrnlitesptrutrzhszhtko.pdf",
+        "type": "quick reference guide (PDF, 2 pages, multilingual)",
+        "fetched": "2026-10-02",
+        "note": "Threading diagrams only; no specifications."
+      },
+      {
+        "id": "brother-accessories",
+        "url": "https://download.brother.com/welcome/doch102976/st371hd_acc02us_enesfrpt.pdf",
+        "type": "included accessories notification (PDF, 2 pages, dated 10/11/2024)",
+        "fetched": "2026-10-02",
+        "note": "Names ST371HD. Lists 17 items: 6 feet plus needle set (75/11, 90/14, 100/16), twin needle, 4 bobbins, spool pins, soft cover, foot controller. Notes bobbin Class 15 plastic."
+      },
+      {
+        "id": "brother-warranty-linked",
+        "url": "https://assets.brother.com/asset/09ccf0a1-3e5f-42e4-b073-52a8b56d413e/6229_International-Warranty-LAD-Final-100-pdf.pdf",
+        "type": "warranty PDF linked from the product page (International, Latin America and Caribbean territories)",
+        "fetched": "2026-10-02",
+        "note": "The page's warranty row links here under the label '1/5/25 Year Limited Serger Warranty'. The PDF lists territories outside the United States and a single 1 year term; it does not mention 5 or 25 years and does not name the ST371HD."
+      },
+      {
+        "id": "brother-warranty-us",
+        "url": "https://assets.brother.com/asset/9585451d-f1e4-47db-b656-32e040a0672c/9800_Brother-Limited-Warranty-Standard-pdf.pdf",
+        "type": "warranty PDF (Brother Limited Warranty Standard, US, 1 page, 2017) linked from the support page",
+        "fetched": "2026-10-02",
+        "note": "1 year parts, labor and accessories, 2 years electronic components and circuit boards, 25 years Chassis Casting. Generic Brother document; does not name the ST371HD."
+      },
+      {
+        "id": "brother-xm2701",
+        "url": "https://www.brother-usa.com/products/xm2701",
+        "type": "product page (sibling)",
+        "fetched": "2026-10-02",
+        "note": "comparison"
+      },
+      {
+        "id": "brother-cs7000x",
+        "url": "https://www.brother-usa.com/products/cs7000x",
+        "type": "product page (sibling)",
+        "fetched": "2026-10-02",
+        "note": "comparison"
+      }
+    ],
+    "facts": [
+      {
+        "field": "stitchCount",
+        "value": "37 built-in stitches including one 1-step auto-size buttonhole (page: '37 Built-in stitches and 1 one-step buttonhole')",
+        "source": "brother-page",
+        "vs_spec": "confirms",
+        "spec_value": 37,
+        "note": "Page gallery alt text on the same page also says '27 built-in stitches' once. The manual lists 53, 37 and 27 stitch tables and says the 53 and 37 stitch layouts are 'only available on certain models': the manual does not tie 37 to ST371HD by name, Brother's support page does.",
+        "site": {
+          "label": "Stitches",
+          "juki": "37 built-in stitches, one of them a 1-step buttonhole.",
+          "others": "Dealer titles repeat 37; the sibling GX37 and XR3774 also say 37.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother source",
+              "url": "https://www.brother-usa.com/products/st371hd"
+            }
+          ]
+        }
+      },
+      {
+        "field": "maxSpm",
+        "value": "800 (page row 'Maximum Sewing Speed 800'; unit not printed on the page)",
+        "source": "brother-page",
+        "vs_spec": "confirms",
+        "spec_value": 800,
+        "note": "Our spec's 800 came from a third-party comparison; Brother's page now gives the same number. The manual states no speed figure. Unit is assumed to be stitches per minute: verify against a printed spec card.",
+        "site": {
+          "label": "Speed",
+          "juki": "800 (Maximum Sewing Speed row, unit not printed).",
+          "others": "Third-party comparisons also say 800.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother source",
+              "url": "https://www.brother-usa.com/products/st371hd"
+            },
+            {
+              "label": "Manual (no speed figure)",
+              "url": "https://support.brother.com/g/b/manualtop.aspx?c=us&lang=en&prod=hf_st371hdeus"
+            }
+          ]
+        }
+      },
+      {
+        "field": "throatIn",
+        "value": "Not published. No needle-to-arm, workspace or arm-size figure on the page or in the manual.",
+        "source": "brother-page",
+        "vs_spec": "confirms",
+        "spec_value": null,
+        "note": "Spec is null and stays null. Do not infer a throat from the 12.21 in dimension or from the XR3774/XM2701 pages.",
+        "site": {
+          "label": "Throat space",
+          "juki": "Not published by Brother.",
+          "others": "Not checked at dealers.",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Brother source",
+              "url": "https://www.brother-usa.com/products/st371hd"
+            }
+          ]
+        }
+      },
+      {
+        "field": "weightLb",
+        "value": "14.3 (page 'Unit Weight 14.3'; unit not printed, read as lb)",
+        "source": "brother-page",
+        "vs_spec": "confirms",
+        "spec_value": 14.3,
+        "site": {
+          "label": "Weight",
+          "juki": "14.3 (Unit Weight row).",
+          "others": "Sewing machine directory lists 14.3 lb.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother source",
+              "url": "https://www.brother-usa.com/products/st371hd"
+            }
+          ]
+        }
+      },
+      {
+        "field": "dimensionsIn",
+        "value": "12.21 x 16.10 x 7.87 (page 'Unit Dimensions', axes and unit not labelled; carton 11 x 19 x 15 in)",
+        "source": "brother-page",
+        "vs_spec": "confirms",
+        "spec_value": "16.1 x 7.9 x 12.2 (48.9 x 20 x 31 cm)",
+        "note": "Same three numbers as our spec in a different order. Brother does not label height, width or depth, so the order is not a Brother statement.",
+        "site": {
+          "label": "Machine size",
+          "juki": "12.21 x 16.10 x 7.87 in, axes not labelled.",
+          "others": "Directory lists 16.1 x 7.9 x 12.2 in.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother source",
+              "url": "https://www.brother-usa.com/products/st371hd"
+            }
+          ]
+        }
+      },
+      {
+        "field": "includedFeet",
+        "value": "6 feet: spring action zigzag, nonstick, blind stitch, zipper, buttonhole, button sewing (page About text and spec row 'Number of Presser Feet 6')",
+        "source": "brother-page",
+        "vs_spec": "confirms",
+        "spec_value": "6 feet: spring action zigzag, nonstick, blind stitch, zipper, buttonhole, button sewing; heavyweight needles included",
+        "note": "Accessories notification lists the same six feet by part code (zigzag J, buttonhole A, zipper I, SA114 non stick, button sewing M, SA133 blind stitch) and a needle set of 75/11, 90/14 and 100/16 plus a twin needle. No walking foot, no darning plate. Page says 'heavyweight needles' (marketing); the box needle set is sizes 11, 14 and 16, the page's own words.",
+        "site": {
+          "label": "Feet in the box",
+          "juki": "Six feet; needles 11, 14, 16 and a twin needle; 4 bobbins.",
+          "others": "Not checked at dealers.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother source",
+              "url": "https://www.brother-usa.com/products/st371hd"
+            },
+            {
+              "label": "Accessories notification",
+              "url": "https://download.brother.com/welcome/doch102976/st371hd_acc02us_enesfrpt.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "presserFootPressure",
+        "value": "Adjustable Presser Foot Pressure: No (page spec row)",
+        "source": "brother-page",
+        "vs_spec": "confirms",
+        "spec_value": "Fixed presser foot pressure (third-party comparison); lift height not published in snippet",
+        "note": "Brother now confirms fixed pressure. Presser foot lift height is not published by Brother. The manual has no pressure figure.",
+        "site": {
+          "label": "Presser foot pressure",
+          "juki": "Not adjustable (spec row).",
+          "others": "Third-party comparison also says fixed.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother source",
+              "url": "https://www.brother-usa.com/products/st371hd"
+            }
+          ]
+        }
+      },
+      {
+        "field": "feedSystem",
+        "value": "Drop feed for free-motion sewing; metal needle plate; Quick-Set drop-in top bobbin; feed dog position switch (manual); 6 feed dog points (page row)",
+        "source": "brother-page",
+        "vs_spec": "confirms",
+        "spec_value": "Drop feed for free motion; metal needle plate; Quick-Set drop-in top bobbin",
+        "note": "No differential feed. No feed length figures beyond stitch dials.",
+        "site": {
+          "label": "Feed and bobbin",
+          "juki": "Drop feed, metal needle plate, jam-resistant Quick-Set drop-in top bobbin.",
+          "others": "Not checked at dealers.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother source",
+              "url": "https://www.brother-usa.com/products/st371hd"
+            }
+          ]
+        }
+      },
+      {
+        "field": "stitchDimensions",
+        "value": "Stitch width 7, stitch length 5 (page rows, unit not printed). Manual table: zigzag width 0 to 6.5 mm, length F to 4 mm; straight stitch length 1 to 4 mm",
+        "source": "brother-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Page and manual disagree on the maximum: the page's 7 and 5 are likely dial scale maxima, the manual's recommended values are 6.5 and 4 mm. Do not publish either as a mm figure without a Brother statement of units.",
+        "site": {
+          "label": "Stitch width and length",
+          "juki": "Page: width 7, length 5 (unit unlabelled). Manual: width 0 to 6.5 mm, length up to 4 mm for zigzag.",
+          "others": "Not checked at dealers.",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Brother source",
+              "url": "https://www.brother-usa.com/products/st371hd"
+            },
+            {
+              "label": "Operation manual",
+              "url": "https://download.brother.com/welcome/doch001159/888_x36_x38_x39_om03enes.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "needleSystem",
+        "value": "Home sewing machine needles 75/11 to 100/16 (manual); factory recommended ball point 'HG-4BR' (Organ). No needle system class named. Needle threader works with 75/11 to 100/16, not 65/9, not twin or wing needle",
+        "source": "brother-manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Manual covers sizes and a ball point part number, not a system name such as 130/705H. Manual also says to avoid thread weight #20 or lower, and pairs denim with 100/16 and thread 30 to 50.",
+        "site": {
+          "label": "Needles",
+          "juki": "Sizes 75/11 to 100/16 listed; no system name.",
+          "others": "Not checked at dealers.",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Brother source",
+              "url": "https://www.brother-usa.com/products/st371hd"
+            },
+            {
+              "label": "Operation manual",
+              "url": "https://download.brother.com/welcome/doch001159/888_x36_x38_x39_om03enes.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "threadTrimmer",
+        "value": "Automatic Thread Cutter: No (page). Manual shows a manual thread cutter on the machine (thread passed through it)",
+        "source": "brother-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "site": {
+          "label": "Thread cutter",
+          "juki": "No automatic cutter; a side manual cutter per the manual.",
+          "others": "Not checked at dealers.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother source",
+              "url": "https://www.brother-usa.com/products/st371hd"
+            }
+          ]
+        }
+      },
+      {
+        "field": "needleThreader",
+        "value": "Page: 'Automatic needle threading system' (headline) and 'built-in easy needle threader' (text). Manual: needle threader lever, page 23",
+        "source": "brother-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Both are marketing wording; the manual shows a lever-style threader.",
+        "site": {
+          "label": "Needle threader",
+          "juki": "Built-in, called automatic.",
+          "others": "Not checked at dealers.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother source",
+              "url": "https://www.brother-usa.com/products/st371hd"
+            }
+          ]
+        }
+      },
+      {
+        "field": "motor",
+        "value": "Not published. No wattage or amps for the machine; page lists only 'Power Source 110V ou 220V220v220v' and 'UL/CSA Listed Voltage 110v'",
+        "source": "brother-page",
+        "vs_spec": "confirms",
+        "spec_value": null,
+        "note": "The power-source row is garbled text on Brother's own page. Manual does not give wattage.",
+        "site": {
+          "label": "Motor",
+          "juki": "Not published.",
+          "others": "Not checked at dealers.",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Brother source",
+              "url": "https://www.brother-usa.com/products/st371hd"
+            }
+          ]
+        }
+      },
+      {
+        "field": "frame",
+        "value": "Not published. Page and manual do not name the frame material. The only frame wording is the US warranty PDF's '25 Years ... Chassis Casting', which is generic and does not name the ST371HD",
+        "source": "brother-warranty-us",
+        "vs_spec": "confirms",
+        "spec_value": null,
+        "note": "Do not call the frame metal on the strength of the warranty wording or the 'metal needle plate' line."
+      },
+      {
+        "field": "warrantyUs",
+        "value": "Product page row reads '1/5/25 Year Limited Serger Warranty' and links to an International (Latin America and Caribbean) warranty PDF that states 1 year. The standard US Brother Limited Warranty PDF (support page) states 1 year parts, labor and accessories, 2 years electronic components, 25 years chassis casting. Neither PDF names the ST371HD or says serger",
+        "source": "brother-page",
+        "vs_spec": "contradicts",
+        "spec_value": null,
+        "note": "Spec is null (adds) but three documents disagree: the label says 1/5/25 and 'Serger', the linked PDF says 1 year only, the standard US PDF says 1/2/25. Editor must not publish a term without a decision. Brother's XM2701 and CS7000X pages say '25 Year Limited Warranty' with no breakdown.",
+        "site": {
+          "label": "Warranty",
+          "juki": "Page label '1/5/25 Year Limited Serger Warranty', linked PDF says 1 year (International). US standard PDF: 1 / 2 / 25 years.",
+          "others": "Dealer wording not checked.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Brother source",
+              "url": "https://www.brother-usa.com/products/st371hd"
+            },
+            {
+              "label": "US standard warranty PDF",
+              "url": "https://assets.brother.com/asset/9585451d-f1e4-47db-b656-32e040a0672c/9800_Brother-Limited-Warranty-Standard-pdf.pdf"
+            },
+            {
+              "label": "Linked International PDF",
+              "url": "https://assets.brother.com/asset/09ccf0a1-3e5f-42e4-b073-52a8b56d413e/6229_International-Warranty-LAD-Final-100-pdf.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "price",
+        "value": "$239.99 on Brother's own page, shown 'Out of Stock', checked 2026-10-02",
+        "source": "brother-page",
+        "vs_spec": "contradicts",
+        "spec_value": null,
+        "note": "Spec records $229.99 at Michaels on 2026-09-29, not a maker price. Brother list price $239.99; no dealer price recorded as a maker fact.",
+        "site": {
+          "label": "Maker price",
+          "juki": "$239.99 on brother-usa.com, shown out of stock on 2026-10-02.",
+          "others": "Dealer pricing not recorded here.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother source",
+              "url": "https://www.brother-usa.com/products/st371hd"
+            }
+          ]
+        }
+      },
+      {
+        "field": "pageVsManual",
+        "value": "Page spec rows say 'Display Type LCD', 'Stitch Selector Type Shift Key' and the gallery alt text says 'LCD display'. The manual describes a pattern selection dial and a pattern indication window; no LCD",
+        "source": "brother-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Page-vs-manual disagreement. The page rows look like template fields shared with computerized models. The ST371HD is described as a mechanical dial machine in the manual; do not publish 'LCD' or 'shift key'."
+      },
+      {
+        "field": "manualScope",
+        "value": "The only manual is a family manual for product codes 888-X36/X38/X39 (version 03, 2016). It says 37 stitches are 'only available on certain models'. The foot controller KD-1902 is noted for 888-X38 and X39 only",
+        "source": "brother-manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Brother's support page maps ST371HD to this manual but the machine's own product code is not stated. Brother sells the XR3774 and GX37 with 37 stitches as siblings; the product page's 'similar products' strip lists ST150HDH, XR3774, GX37, XR9550."
+      },
+      {
+        "field": "claims",
+        "value": "'Strong & Tough' (series name, page title 'Heavy Duty Sewing Machine - Strong and Tough'); 'perfect machine for everyday sewing and mending on everything from durable outdoor fabrics to lightweight elegant silks'; 'can handle layers of heavier fabrics'; 'jam-resistant Quick-Set drop-in top bobbin'",
+        "source": "brother-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Brother's own words. 'Heavy Duty' and 'Strong and Tough' are page labels, not specs; no layer count, thickness or motor figure is published."
+      },
+      {
+        "field": "availability",
+        "value": "Product page says 'Out of Stock' on 2026-10-02",
+        "source": "brother-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Page wording only. No discontinuation statement seen."
+      },
+      {
+        "field": "sibling:XM2701",
+        "value": "Brother XM2701: 27 stitches (63 stitch functions), 800 speed row, width 5, length 4, 12.6 lb, 15.3 x 5.9 x 12.1 in, 6 feet incl. narrow hemmer, 25 Year Limited Warranty, $149.99",
+        "source": "brother-xm2701",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Same page structure as ST371HD, so its speed, no-adjustable-pressure and needle-threader rows are template-alike."
+      },
+      {
+        "field": "sibling:CS7000X",
+        "value": "Brother CS7000X: computerized, LCD, 70 stitches, 10 feet incl. walking foot, 750 speed row, 10.5 lb, 25 Year Limited Warranty, $279.99",
+        "source": "brother-cs7000x",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "The CS7000X lists a lower max speed (750) than the ST371HD and XM2701 (800) on Brother's own pages."
+      }
+    ]
+  },
+  "rollup": {
+    "status": "draft",
+    "method": {
+      "sources": 57,
+      "itemsCollected": 714,
+      "statements": 101,
+      "voices": 71,
+      "ownerVoices": 38,
+      "dateRange": [
+        2017,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 1,
+          "items": 13
+        },
+        "reddit": {
+          "sources": 56,
+          "items": 697
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.5 from 2,889 ratings is shared by several listings (B01E54NNSC plus 6 other ASINs including the ST531HD listing B076JLT9PG), so it pools machines and is not specific to the ST371HD."
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B01E54NNSC",
+        "pageRating": 4.5,
+        "pageCount": 2889,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 11
+        },
+        "lowRated": 1,
+        "sampled": "13 top reviews (8 US, 5 other countries) of 2889 ratings"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Power on heavy fabric",
+        "voices": 26,
+        "ownerVoices": 11,
+        "sources": 18,
+        "polarity": {
+          "positive": 15,
+          "negative": 6,
+          "mixed": 3,
+          "neutral": 2
+        },
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 23
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner broke a needle and gave up on projects because the machine could not sew thick layered fabric.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1nnoz96/how_do_i_change_pressure_on_the_brother_heavy/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner of the ST371HD says the HD label implies heavy duty but the machine is not.",
+            "url": "https://www.reddit.com/r/SewingWorld/comments/1wuf5lr/gifting_sewing_machine_to_aspiring_sewist/pd2no3f/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Commenter sewed multiple layers of thick fabric for tote bags without trouble.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1m1da9m/what_are_yalls_opinion_on_the_brother_st371hd/n3gctpy/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner made jeans with a denim needle and sewed the seams without trouble.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/yy21r5/brother_st371hd_vs_brother_ps500/iwrtto0/"
+          }
+        ]
+      },
+      {
+        "label": "Reliability and defects",
+        "voices": 18,
+        "ownerVoices": 12,
+        "sources": 13,
+        "polarity": {
+          "positive": 12,
+          "negative": 5,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 15
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner reports timing problems from first use and a needle striking the race.",
+            "url": "https://www.amazon.com/dp/B01E54NNSC"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner's spool pin snapped in two and a matching replacement was hard to find.",
+            "url": "https://www.reddit.com/r/sewing/comments/1nz30g0/help_my_spool_pin_broke/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Beginner owner reports no issues at all.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1m1da9m/what_are_yalls_opinion_on_the_brother_st371hd/n3g7anw/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner reports no problems beyond user error.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1vyyxw2/brother_st371hd_or_janome_2212/p654yj5/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner reports the handwheel as the only complaint in years of use since 2018.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1pv104k/brother_handwheel_broke_so_i_improvised/nvvzftf/"
+          }
+        ]
+      },
+      {
+        "label": "Feet and accessories",
+        "voices": 7,
+        "ownerVoices": 3,
+        "sources": 5,
+        "polarity": {
+          "positive": 3,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 5
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner says the box lacked the described feet, notably the blind hem foot.",
+            "url": "https://www.amazon.com/dp/B01E54NNSC"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner found the Brother fussy about needle choice and fabric grip, spending hours trying different needles.",
+            "url": "https://www.reddit.com/r/chile/comments/1w1xyn6/qué_maquinas_de_coser_me_recomiendan_como/p6p171v/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner notes the presser foot has an extra height setting for thick fabric.",
+            "url": "https://www.amazon.com/dp/B01E54NNSC"
+          }
+        ]
+      },
+      {
+        "label": "Stitch quality",
+        "voices": 7,
+        "ownerVoices": 4,
+        "sources": 5,
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 3
+        },
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 6
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner could not get the stretch (SS) stitches to sew despite following the manual and videos.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/vt54dg/someone_please_help_me_im_going_insane/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner found the one-step automatic buttonhole very finicky.",
+            "url": "https://www.amazon.com/dp/B01E54NNSC"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner who sells sewn goods reports no issues and clean straight stitches, though not as good as an industrial.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/136xsmr/brother_cs7000x_vs_st371hd_for_beginner/jirxkw5/"
+          }
+        ]
+      },
+      {
+        "label": "Threading and loopers",
+        "voices": 6,
+        "ownerVoices": 5,
+        "sources": 4,
+        "polarity": {
+          "positive": 3,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 4
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Reviewer found threading tricky and the thread fell out of the needle a couple of times.",
+            "url": "https://www.amazon.com/dp/B01E54NNSC"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner says it will not handle thick thread when top and bobbin are both heavy.",
+            "url": "https://www.reddit.com/r/myog/comments/1f65lck/janome_hd_3000_vs_1000_vs_brother_st371hd/lkz6jfm/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Buyer finds the machine easy to thread and set up.",
+            "url": "https://www.amazon.com/dp/B01E54NNSC"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner finds the machine easy to thread, change stitches and wind bobbins.",
+            "url": "https://www.reddit.com/r/SewingWorld/comments/1wuf5lr/gifting_sewing_machine_to_aspiring_sewist/pd2no3f/"
+          }
+        ]
+      },
+      {
+        "label": "Weight and portability",
+        "voices": 6,
+        "ownerVoices": 2,
+        "sources": 4,
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 2
+        },
+        "classVoices": {
+          "reddit": 6
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner returned it because lifting it from a closet each time was too much.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1vyyxw2/brother_st371hd_or_janome_2212/p61wcfz/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner notes the machine is heavy but does not mind since it stays put.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1w4fgy2/which_sewing_machine_to_get_for_light_clothing/p79n3f0/"
+          }
+        ]
+      },
+      {
+        "label": "Noise and vibration",
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 2,
+        "polarity": {
+          "positive": 2,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "classVoices": {
+          "retailer": 4,
+          "reddit": 1
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner heard a grinding noise after a twin needle hem.",
+            "url": "https://www.amazon.com/dp/B01E54NNSC"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner finds the machine wiggles or shakes at high speed.",
+            "url": "https://www.reddit.com/r/sewing/comments/1n2k140/my_current_machine_is_a_brother_st371hd_its_a/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner of a month calls the machine very quiet, fast and powerful.",
+            "url": "https://www.amazon.com/dp/B01E54NNSC"
+          }
+        ]
+      },
+      {
+        "label": "Oiling and maintenance",
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 5,
+        "polarity": {
+          "positive": 4,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 4
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "positive",
+            "claim": "Owner says no oiling is needed and plans a service in a few years.",
+            "url": "https://www.amazon.com/dp/B01E54NNSC"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner says the machine never needs oiling.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1vyyxw2/brother_st371hd_or_janome_2212/p654yj5/"
+          }
+        ]
+      },
+      {
+        "label": "Tension",
+        "voices": 5,
+        "ownerVoices": 4,
+        "sources": 5,
+        "polarity": {
+          "positive": 1,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 4
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner struggled for hours adjusting tension while sewing on this Brother.",
+            "url": "https://www.reddit.com/r/chile/comments/1w1xyn6/qué_maquinas_de_coser_me_recomiendan_como/p6p171v/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner sewing bulky faux fur got thread bunching on the bobbin side despite a new bobbin and cleaning.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1jja0vn/thread_bunching_up/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner finds tension and stitch type easy to adjust.",
+            "url": "https://www.amazon.com/dp/B01E54NNSC"
+          }
+        ]
+      }
+    ],
+    "siblings": [
+      {
+        "label": "Brother ST531HD",
+        "rows": [
+          {
+            "feature": "Stitches",
+            "summary": "One commenter says the ST531HD has more stitch options than the ST371HD. Brother's pages were not checked for the ST531HD.",
+            "check": "one owner comment; unverified"
+          }
+        ]
+      },
+      {
+        "label": "Brother XM2701",
+        "rows": [
+          {
+            "feature": "Stitches",
+            "summary": "Brother lists 27 built-in stitches (63 stitch functions) for the XM2701 against 37 on the ST371HD.",
+            "check": "Brother product pages, 2026-10-02"
+          },
+          {
+            "feature": "Stitch size rows",
+            "summary": "The XM2701 page lists stitch width 5 and length 4; the ST371HD page lists 7 and 5. Units are not printed on either page.",
+            "check": "Brother product pages, 2026-10-02"
+          },
+          {
+            "feature": "Weight and price",
+            "summary": "12.6 lb and $149.99 on the XM2701 page against 14.3 lb and $239.99 on the ST371HD page.",
+            "check": "Brother product pages, 2026-10-02"
+          }
+        ]
+      },
+      {
+        "label": "Brother CS7000X",
+        "rows": [
+          {
+            "feature": "Stitches and display",
+            "summary": "The CS7000X is computerized with an LCD and 70 built-in stitches; the ST371HD is a dial machine with 37.",
+            "check": "Brother product pages, 2026-10-02"
+          },
+          {
+            "feature": "Feet in the box",
+            "summary": "The CS7000X lists 10 feet including a walking foot and a quilting foot; the ST371HD lists 6 and no walking foot.",
+            "check": "Brother product pages, 2026-10-02"
+          },
+          {
+            "feature": "Speed row",
+            "summary": "Brother lists 750 for the CS7000X and 800 for the ST371HD.",
+            "check": "Brother product pages, 2026-10-02"
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "checks": [
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 6 ASINs (B01E54NNSC, B0DQQSLSW1, B0DQRF3VPW, B0DQR3X8GF, B0CZC42H55, B076JLT9PG); its rating pools them, so say so beside the number"
+    }
+  ],
+  "editorNotes": {
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.5 from 2,889 ratings is shared by several listings (B01E54NNSC plus 6 other ASINs including the ST531HD listing B076JLT9PG), so it pools machines and is not specific to the ST371HD."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction."
+  },
+  "siteFieldsNow": "  \"brother-st371hd\": {\n    series: \"ST\",\n    score: 7.2,\n    scoredFor: \"heavy-duty\",\n    reason: \"Brother's answer to the Singer Heavy Duty; same class, same limits.\",\n    context: \"Mechanical · in First machine hub\",\n    buy: { kind: \"retailer\", url: \"https://www.sewingmachinesplus.com/brother-st371hd.php\" },\n    alternatives: [\n      { slug: \"singer-4452\", label: \"Cross-shop\", note: \"The Singer in the same class.\" },\n      { slug: \"janome-hd3000\", label: \"Step up\", note: \"Steadier build for the same jobs.\" },\n    ],\n    imageAlt: \"Brother ST371HD Strong and Tough sewing machine\",\n    lastUpdated: \"2026-09-29\",\n  },",
+  "comparesNow": []
+}
