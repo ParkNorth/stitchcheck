@@ -1,0 +1,165 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "570 QE E",
+      "label": "Bernina 570 QE E (embroidery module)",
+      "pattern": "570[\\s-]*qe[\\s-]*e(?![a-z0-9])|570[\\s-]*qee(?![a-z0-9])"
+    },
+    {
+      "model": "570 QE (before 2017)",
+      "label": "Bernina 570 QE (before 2017, Type LUN)",
+      "pattern": "570[\\s-]*qe[^.\\n]{0,40}(before|pre)[\\s-]*2017|\\bLUN\\b"
+    },
+    {
+      "model": "B 530",
+      "label": "Bernina 530",
+      "pattern": "(bernina\\s*|\\bb\\s?)530(?![0-9])"
+    },
+    {
+      "model": "B 540",
+      "label": "Bernina 540",
+      "pattern": "(bernina\\s*|\\bb\\s?)540(?![0-9])"
+    },
+    {
+      "model": "B 550 QE",
+      "label": "Bernina 550 QE",
+      "pattern": "(bernina\\s*|\\bb\\s?)550(?![0-9])"
+    },
+    {
+      "model": "B 590",
+      "label": "Bernina 590",
+      "pattern": "(bernina\\s*|\\bb\\s?)590(?![0-9])"
+    },
+    {
+      "model": "B 475 QE",
+      "label": "Bernina 475 QE",
+      "pattern": "(bernina\\s*|\\bb\\s?)475(?![0-9])"
+    },
+    {
+      "model": "B 770 QE",
+      "label": "Bernina 770 QE",
+      "pattern": "(bernina\\s*|\\bb\\s?)770(?![0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])",
+      "Janome Memory Craft 6650"
+    ],
+    [
+      "moxie(?![a-z0-9])",
+      "Handi Quilter Moxie"
+    ],
+    [
+      "tl[\\s-]*2010q(?![a-z0-9])|2010q(?![a-z0-9])",
+      "Juki TL-2010Q"
+    ],
+    [
+      "q'nique[\\s-]*15r(?![a-z0-9])",
+      "Grace Company Q'nique 15R"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])|moxie(?![a-z0-9])|tl[\\s-]*2010q(?![a-z0-9])|2010q(?![a-z0-9])|q'nique[\\s-]*15r(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {
+    "B 590": [
+      {
+        "feature": "Stitch library size",
+        "summary": "Bernina lists 1,774 stitch patterns including alphabets for the 590 and 1,450 for the 570 QE.",
+        "check": "Bernina US product pages, fetched 2026-10-02"
+      },
+      {
+        "feature": "Maker list price",
+        "summary": "Bernina US shows a manufacturer suggested retail price of $8,499 for the 590 and $5,499 for the 570 QE.",
+        "check": "Bernina US product pages, fetched 2026-10-02"
+      },
+      {
+        "feature": "Quilting stitches and buttonholes",
+        "summary": "Bernina lists 60 quilting stitches and 18 buttonholes or eyelets for the 590, against 73 and 16 for the 570 QE.",
+        "check": "Bernina US product pages, fetched 2026-10-02"
+      },
+      {
+        "feature": "Sewing space and speed",
+        "summary": "Bernina lists the same 8.5 in right of the needle, 1,000 spm and 9 mm width on both pages.",
+        "check": "Bernina US product pages, fetched 2026-10-02"
+      }
+    ],
+    "B 540": [
+      {
+        "feature": "Stitch library size",
+        "summary": "Bernina lists 1,048 stitch patterns including alphabets for the 540 and 1,450 for the 570 QE.",
+        "check": "Bernina US product pages, fetched 2026-10-02"
+      },
+      {
+        "feature": "Quilting stitches and buttonholes",
+        "summary": "Bernina lists 43 quilting stitches and 14 buttonholes or eyelets for the 540, against 73 and 16 for the 570 QE.",
+        "check": "Bernina US product pages, fetched 2026-10-02"
+      },
+      {
+        "feature": "Availability wording",
+        "summary": "Bernina's 540 page carries the wording 'no longer available' and no price.",
+        "check": "Bernina US product pages, fetched 2026-10-02"
+      }
+    ],
+    "570 QE (before 2017)": [
+      {
+        "feature": "Sewing space and width",
+        "summary": "The earlier 570 QE page lists 7.5 in right of the needle, 5.5 mm width and 900 spm, against 8.5 in, 9 mm and 1,000 spm on the current model.",
+        "check": "Bernina US product pages, fetched 2026-10-02"
+      },
+      {
+        "feature": "Stitch library and hook",
+        "summary": "The earlier page lists 642 stitch patterns including alphabets, 11 buttonholes and the CB hook, against 1,450, 16 and the BERNINA Hook now.",
+        "check": "Bernina US product pages, fetched 2026-10-02"
+      },
+      {
+        "feature": "Machine label",
+        "summary": "Bernina's support page says the 2017 and later model carries 'Type: VIO' on the rear label and the earlier one 'Type: LUN'.",
+        "check": "Bernina US support page, fetched 2026-10-02"
+      }
+    ]
+  }
+}

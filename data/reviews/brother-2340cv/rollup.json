@@ -1,0 +1,878 @@
+{
+  "slug": "brother-2340cv",
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+  "reviewedOn": "2026-10-02",
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 24,
+    "itemsCollected": 213,
+    "statements": 66,
+    "voices": 46,
+    "ownerVoices": 38,
+    "dateRange": [
+      2011,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 2,
+        "items": 53
+      },
+      "reddit": {
+        "sources": 22,
+        "items": 159
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.3 from 1,204 ratings is shared by several listings of this machine (pooled variations), and only 13 written reviews were readable, so treat the average as a rating of the pooled listing rather than of one seller."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 19,
+      "voices": 18,
+      "ownerVoices": 17,
+      "sources": 12,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 6,
+        "reddit": 12
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 14,
+        "mixed": 2,
+        "neutral": 0
+      },
+      "years": [
+        2012,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c0eba3752",
+          "polarity": "negative",
+          "claim": "Writer had the machine for a week with problems and it was returned.",
+          "quote": "Nothing but problems",
+          "url": "https://www.reddit.com/r/sewing/comments/hdu1ne/sewing_machine_for_my_wife_help/fvn8jvp/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cd09b5f09",
+          "polarity": "negative",
+          "claim": "Owner of the same machine finds going over seams difficult and the machine fussy overall.",
+          "quote": "Going over seams sucks",
+          "url": "https://www.reddit.com/r/sewing/comments/1igoh16/coverstitch_machine_is_angry_about_going_over/mar4njp/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c2a5e2d80",
+          "polarity": "positive",
+          "claim": "Studio owner reports no issues and easy setup.",
+          "quote": "I have not had any issues and it was very easy to set up",
+          "url": "https://www.amazon.com/dp/B005GXPO70",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c2d44a4b3",
+          "polarity": "mixed",
+          "claim": "Buyer finds the machine fussy and needing patience, but it has worked well.",
+          "quote": "The machine is a bit fussy but has worked well",
+          "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cb7d9a456",
+        "c0a13b3d5",
+        "c7d4386f8",
+        "cdc73b387",
+        "c2a5e2d80",
+        "c2d44a4b3",
+        "cbaa77efd",
+        "c772aed7b",
+        "c347e8d8e",
+        "cf6af8d66",
+        "c85a39e3e",
+        "c7d7928a9",
+        "cc1e97ccc",
+        "c0eba3752",
+        "c2fb4f75d",
+        "cdebcce53",
+        "ce8a30dc0",
+        "cd09b5f09",
+        "c64a4f0ed"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 10,
+      "voices": 10,
+      "ownerVoices": 10,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 7,
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 7,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2013,
+        2024
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "ce3ac8d15",
+          "polarity": "negative",
+          "claim": "Three-star buyer found threading not intuitive.",
+          "quote": "not intuitive threading",
+          "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cfb2168ec",
+          "polarity": "negative",
+          "claim": "New owner cannot fit the spool cap over a Gutermann spool when using the spool pad for non-cone thread.",
+          "quote": "if I use the spool pad I can't actually get the spool cap on",
+          "url": "https://www.reddit.com/r/sewing/comments/1cxzdg2/coverstich_with_nonconed_thread/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cdf354686",
+          "polarity": "positive",
+          "claim": "Buyer says threading is easy.",
+          "quote": "It is so easy to thread.",
+          "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cae0a1e96",
+          "polarity": "positive",
+          "claim": "Owner says it is easier to thread than a serger.",
+          "quote": "It's easier to thread than a serger.",
+          "url": "https://www.reddit.com/r/sewing/comments/6x519x/need_help_picking_a_coverstitch_machine_brother/dmfbpui/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cf287ae47",
+          "polarity": "mixed",
+          "claim": "Owner solved the spool height problem by winding two bobbins for the top thread and using the spool caps.",
+          "quote": "winding 2 bobbins for the top thread, placing them on the spindles",
+          "url": "https://www.reddit.com/r/sewing/comments/1cxzdg2/coverstich_with_nonconed_thread/l58vqpb/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cbed0fc17",
+        "cb868c6e0",
+        "c049e9eae",
+        "ce8ea4613",
+        "c8c051a40",
+        "cdf354686",
+        "ce3ac8d15",
+        "cae0a1e96",
+        "cfb2168ec",
+        "cf287ae47"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 7,
+      "voices": 7,
+      "ownerVoices": 7,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 6,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 6,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2012,
+        2022
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c6ef2e042",
+          "polarity": "negative",
+          "claim": "Owner found the thread tension tight, which made releasing fabric from under the presser foot awkward until they learned the release steps from a video.",
+          "quote": "the thread tension really is tight",
+          "url": "https://www.amazon.com/dp/B005GXPO70",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cca651cda",
+          "polarity": "negative",
+          "claim": "Buyer says adjustments are needed for every fabric.",
+          "quote": "adjustments needed for every fabric",
+          "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cfe57ef49",
+          "polarity": "mixed",
+          "claim": "Owner finds the settings forgiving but removing the garment from the machine is the trickiest part.",
+          "quote": "The trickiest part is removing the garment from the machine",
+          "url": "https://www.reddit.com/r/sewing/comments/6x519x/need_help_picking_a_coverstitch_machine_brother/dmfbpui/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c6ef2e042",
+        "c9c84f0e5",
+        "c9f08d061",
+        "cf548769a",
+        "cca651cda",
+        "c6ce303fa",
+        "cfe57ef49"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 8,
+      "voices": 7,
+      "ownerVoices": 7,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 3,
+        "mixed": 2,
+        "neutral": 0
+      },
+      "years": [
+        2012,
+        2024
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cfa057305",
+          "polarity": "negative",
+          "claim": "New unit would not form a two-thread chain stitch because the threads did not catch each other, though cover stitches worked.",
+          "quote": "the threads don't catch each other",
+          "url": "https://www.reddit.com/r/sewing/comments/fb4r8f/my_brother_2340cv_wont_do_the_two_thread_chain/fj29r5j/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ce95145d0",
+          "polarity": "negative",
+          "claim": "Owner can chain off only about an inch before the thread fails and knots.",
+          "quote": "will chain off for about and inch and then fails to continue",
+          "url": "https://www.reddit.com/r/sewing/comments/1c1mqwt/chaining_off_with_a_coverstitch_machine/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c2b689e9f",
+          "polarity": "positive",
+          "claim": "Same buyer found it reliable with evenly spaced coverstitch seams.",
+          "quote": "always producing evenly- spaced coverstitch seams",
+          "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c3889b95b",
+          "polarity": "positive",
+          "claim": "Owner finds the coverstitch the stretchiest hem they have managed at home, including on fleece.",
+          "quote": "the stitch is the STRETCHIEST I've ever been able to do at home",
+          "url": "https://www.amazon.com/dp/B005GXPO70",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c5c1e7163",
+          "polarity": "mixed",
+          "claim": "Owner says the triple cover hem uses a lot of thread and suits more substantial fabrics.",
+          "quote": "the triple cover hem puts a LOT of thread in your project",
+          "url": "https://www.amazon.com/dp/B005GXPO70",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cd5d2d8c8",
+          "polarity": "mixed",
+          "claim": "Owner found the three-needle stitch does not fully recover until stretched the other way, later concluding this is normal for coverstitch.",
+          "quote": "it doesn't recover completely until the fabric is stretched the other way (90 deg)",
+          "url": "https://www.reddit.com/r/sewing/comments/bij1gb/4_thread_coverstitch_stays_stretched/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c0b0b2418",
+        "c5c1e7163",
+        "c3889b95b",
+        "c2b689e9f",
+        "cfa057305",
+        "ce95145d0",
+        "ce5721a78",
+        "cd5d2d8c8"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 1,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2019,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c10a9d0fc",
+          "polarity": "negative",
+          "claim": "Owner says the machine is hem-only because of the limited space between the sewing head and the body.",
+          "quote": "limited space between the sewing head and machine body",
+          "url": "https://www.amazon.com/dp/B005GXPO70",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c10a9d0fc",
+        "c09310f75",
+        "cda355c68"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2018,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c35afeece",
+          "polarity": "negative",
+          "claim": "Owner found the part that fell out of the foot lever assembly is plastic and cracked.",
+          "quote": "It's plastic and cracked",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1tlmqyv/the_pressure_foot_lever_on_my_brother_2340cv_has/ongzb1u/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c1d7848d2",
+          "polarity": "positive",
+          "claim": "Owner says the machine feels solid and stays put on the table while sewing.",
+          "quote": "The machine feels solid and doesn't creep around my table when sewing.",
+          "url": "https://www.amazon.com/dp/B005GXPO70",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c1d7848d2",
+        "c35afeece",
+        "c2da7de2f"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cab0d595a",
+          "polarity": "negative",
+          "claim": "Owner says the machine shipped with denim needles that shred stretch fabric and swaps to jersey needles.",
+          "quote": "They came with denim needles in mine and that will shred stretch fabric",
+          "url": "https://www.amazon.com/dp/B005GXPO70",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cab0d595a",
+        "c005f93bf",
+        "c48f95bda"
+      ]
+    },
+    {
+      "theme": "cutting_trimming",
+      "label": "Cutting and trimming",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2020
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c003eb02e",
+          "polarity": "negative",
+          "claim": "New owner found the machine does not trim the edge while sewing.",
+          "quote": "it doesn't cut the edge while serging",
+          "url": "https://www.reddit.com/r/sewing/comments/i0yqmy/is_a_knife_blade_not_standard_in_all_serger/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c003eb02e",
+        "cce13f572"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2022
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c6b8a0080",
+          "polarity": "negative",
+          "claim": "Owner notes the machine has no auto threading and no LED lights.",
+          "quote": "No auto threading, no LED lights",
+          "url": "https://www.amazon.com/dp/B005GXPO70",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c6b8a0080"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2018,
+        2018
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c0e9a261b",
+          "polarity": "positive",
+          "claim": "Owner finds the machine so fast it keeps pace with however fast fabric is fed.",
+          "quote": "It can stitch as fast as you can feed it.",
+          "url": "https://www.amazon.com/dp/B005GXPO70",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c0e9a261b"
+      ]
+    },
+    {
+      "theme": "thread_trimmer",
+      "label": "Thread trimmer",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2022
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cbe79887a",
+          "polarity": "negative",
+          "claim": "Buyer notes there is no built-in thread cutter.",
+          "quote": "no build-in thread cutter",
+          "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cbe79887a"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2018,
+        2018
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c2458e3c9",
+          "polarity": "negative",
+          "claim": "Buyer says a loose belt made the machine very loud at first.",
+          "quote": "it was crazy loud",
+          "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c2458e3c9"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2017,
+        2017
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c1a2e0577",
+          "polarity": "positive",
+          "claim": "Owner finds the machine surprisingly unfussy and good for hems on knits.",
+          "quote": "This machine is surprisingly unfussy and does a great job",
+          "url": "https://www.reddit.com/r/sewing/comments/6x519x/need_help_picking_a_coverstitch_machine_brother/dmdipt1/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c1a2e0577"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 2,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c2119a68c",
+        "c4fc4636f"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B005GXPO70",
+      "pageRating": 4.3,
+      "pageCount": 1204,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 10
+      },
+      "lowRated": 2,
+      "sampled": "13 top reviews (8 US, 5 other countries) of 1204 ratings"
+    },
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+      "pageRating": 4.72,
+      "pageCount": 40,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 4,
+        "5": 33
+      },
+      "lowRated": 3,
+      "sampled": null
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "Product page: 1,100 spm maximum. User's Guide: 1,000 spm.",
+      "others": "Our spec uses the page figure, 1,100.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Brother product page",
+          "url": "https://www.brother-usa.com/products/2340cv"
+        },
+        {
+          "label": "Brother User's Guide",
+          "url": "https://download.brother.com/welcome/doch000104/2340cv_ug02enes.pdf"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "page"
+    },
+    {
+      "label": "Stitch length",
+      "juki": "2 to 4 mm by dial.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother product page",
+          "url": "https://www.brother-usa.com/products/2340cv"
+        },
+        {
+          "label": "Brother User's Guide",
+          "url": "https://download.brother.com/welcome/doch000104/2340cv_ug02enes.pdf"
+        }
+      ],
+      "field": "stitchLengthMm",
+      "source": "page"
+    },
+    {
+      "label": "Weight",
+      "juki": "User's Guide: machine net weight 7.0 kg (about 15.4 lb).",
+      "others": "Retailer listing: 16.7 lb.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Brother User's Guide",
+          "url": "https://download.brother.com/welcome/doch000104/2340cv_ug02enes.pdf"
+        }
+      ],
+      "field": "weightLb",
+      "source": "manual"
+    },
+    {
+      "label": "Warranty",
+      "juki": "Product page: '1/5/25 Year Limited Serger Warranty'. Linked PDF: 1 year, Latin America and Caribbean territories.",
+      "others": "Dealer listing: 25 yr chassis, 6 yr electronics, 2 yr parts and labor.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Brother product page",
+          "url": "https://www.brother-usa.com/products/2340cv"
+        },
+        {
+          "label": "Linked warranty PDF",
+          "url": "https://assets.brother.com/asset/950eb4ac-ebc2-426a-93dc-a6bc29ea9e32/6015_International-Warranty-LAD-Final-pdf.pdf"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "page"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "CV3440",
+      "label": "Brother CV3440",
+      "rows": [
+        {
+          "feature": "Tension release and free arm",
+          "urls": 0,
+          "classes": [],
+          "summary": "Brother lists a one-touch lever tension release and a free arm on the CV3440. The 2340CV page, manual and brochure list neither.",
+          "check": "Brother CV3440 and 2340CV product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Speed and thread cutter",
+          "urls": 0,
+          "classes": [],
+          "summary": "The CV3440 page lists 1000 maximum sewing speed and a thread cutter; the 2340CV page lists 1,100 and its manual says 1,000.",
+          "check": "Brother product pages and 2340CV User's Guide, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

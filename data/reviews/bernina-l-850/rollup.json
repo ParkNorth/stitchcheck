@@ -1,0 +1,523 @@
+{
+  "slug": "bernina-l-850",
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+  "reviewedOn": "2026-10-02",
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 10,
+    "itemsCollected": 32,
+    "statements": 19,
+    "voices": 5,
+    "ownerVoices": 5,
+    "dateRange": [
+      2020,
+      2023
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 2,
+        "items": 24
+      },
+      "forum": {
+        "sources": 8,
+        "items": 8
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Bernina is dealer only in this catalog: no marketplace listing was found for the machine itself (Amazon search returns only machine covers and other brands), so no marketplace rating is shown."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 6,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "forum"
+      ],
+      "classVoices": {
+        "forum": 3
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": null,
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cfc30dc28",
+          "polarity": "negative",
+          "claim": "Owner suspects the wooly nylon problem lies in the tubes the thread passes through to reach the loopers.",
+          "quote": "the real problem lies in the tubes the thread passes through",
+          "url": "https://sewing.patternreview.com/review/machine/7332",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "cf1154357",
+          "polarity": "positive",
+          "claim": "L850 owner likes the built-in needle threader and the pedal control for needle up and down.",
+          "quote": "I really like the needle threader",
+          "url": "https://sewing.patternreview.com/SewingDiscussions/topic/117617",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "c502bfe6b",
+          "polarity": "positive",
+          "claim": "Expert-level owner is very happy with Bernina's air-threaded serger after nine months.",
+          "quote": "air-threaded serger, and I have been very happy with it",
+          "url": "https://sewing.patternreview.com/review/machine/7463",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c6427b62b",
+        "c37b9cf55",
+        "c44378cd9",
+        "cfc30dc28",
+        "c502bfe6b",
+        "cf1154357"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 5,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "forum"
+      ],
+      "classVoices": {
+        "forum": 3
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": null,
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c3218b01d",
+          "polarity": "positive",
+          "claim": "L850 owner says it is quieter than her old Baby Lock and hums along without bouncing.",
+          "quote": "it just hums along with no bouncing",
+          "url": "https://sewing.patternreview.com/SewingDiscussions/topic/117617",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "cfbf2cdcc",
+          "polarity": "positive",
+          "claim": "New L850 owner is impressed by how quiet it is, coming from a compact Baby Lock.",
+          "quote": "i am so impressed with how quiet it is",
+          "url": "https://sewing.patternreview.com/review/machine/7238",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c7122e29b",
+        "cfbf2cdcc",
+        "c242aa129",
+        "c3218b01d",
+        "cb897c967"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "forum"
+      ],
+      "classVoices": {
+        "forum": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": null,
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c73da7df2",
+          "polarity": "positive",
+          "claim": "Owner likes that the presser foot swings out when lifted.",
+          "quote": "Love that the foot swings out when lifted.",
+          "url": "https://sewing.patternreview.com/review/machine/7463",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "c5e502c3d",
+          "polarity": "positive",
+          "claim": "Prospective buyer who tried the L850 likes the knee lift and the way the foot swings out.",
+          "quote": "I love the knee lift, and the way the foot swings out.",
+          "url": "https://sewing.patternreview.com/SewingDiscussions/topic/121627",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c5e502c3d",
+        "c73da7df2"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "forum"
+      ],
+      "classVoices": {
+        "forum": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": null,
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cb67906d1",
+          "polarity": "positive",
+          "claim": "L850 owner says stitches are beautiful and everything can be adjusted precisely, unlike guesswork on her old Baby Lock.",
+          "quote": "everything can be adjusted to perfection",
+          "url": "https://sewing.patternreview.com/SewingDiscussions/topic/117617",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "c355d7995",
+          "polarity": "positive",
+          "claim": "Owner likes adjusting tension herself and does not want auto tension.",
+          "quote": "love the ability to adjust tension my self",
+          "url": "https://sewing.patternreview.com/review/machine/7463",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c355d7995",
+        "cb67906d1"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "forum"
+      ],
+      "classVoices": {
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": null,
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "cf0be8855"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "forum"
+      ],
+      "classVoices": {
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": null,
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c1a730256"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "forum"
+      ],
+      "classVoices": {
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": null,
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c9835eb41",
+          "polarity": "positive",
+          "claim": "New L850 owner describes the machine as substantial and stable, not shifting at top speed.",
+          "quote": "it doesn't budge even at top speed",
+          "url": "https://sewing.patternreview.com/review/machine/7238",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c9835eb41"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "forum"
+      ],
+      "classVoices": {
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": null,
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "cd2e9cbf5"
+      ]
+    }
+  ],
+  "ratings": [],
+  "documentChecks": [
+    {
+      "label": "Stitches",
+      "juki": "18 stitch variations (flyer and page).",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Bernina source",
+          "url": "https://www.bernina.com/Bernina/media/products/Overlocker/L%20850/BERNINA_L850_Flyer_EN-US_v3_low-res.pdf"
+        }
+      ],
+      "field": "stitchCount",
+      "source": "flyer"
+    },
+    {
+      "label": "Stitch variations",
+      "juki": "18, with picot, narrow seam, wrapped overlock and blanket stitch in the list.",
+      "others": "Dealer copy we used lists the 2-thread group as overlock, flatlock and rolled hem only.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Bernina source",
+          "url": "https://www.bernina.com/Bernina/media/products/Overlocker/L%20850/BERNINA_L850_Flyer_EN-US_v3_low-res.pdf"
+        }
+      ],
+      "field": "stitchTypes",
+      "source": "flyer"
+    },
+    {
+      "label": "Speed",
+      "juki": "Up to 1,500 stitches per minute (400 minimum).",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Bernina source",
+          "url": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "manual"
+    },
+    {
+      "label": "Space right of needle",
+      "juki": "5 5/8 in (143 mm) to the right of the needle, 3 3/8 in (86 mm) workspace height.",
+      "others": "Dealers quote the same figures.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Bernina source",
+          "url": "https://www.bernina.com/Bernina/media/products/Overlocker/L%20850/BERNINA_L850_Flyer_EN-US_v3_low-res.pdf"
+        }
+      ],
+      "field": "throatIn",
+      "source": "flyer"
+    },
+    {
+      "label": "Weight",
+      "juki": "27.1 lb (12.3 kg).",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Bernina source",
+          "url": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
+        }
+      ],
+      "field": "weightLb",
+      "source": "manual"
+    },
+    {
+      "label": "Dimensions",
+      "juki": "43 x 28 x 35 cm (16.9 x 11.0 x 13.8 in) without thread stand.",
+      "others": "A dealer listing gave 18 x 13 x 16 in.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Bernina source",
+          "url": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
+        }
+      ],
+      "field": "dimensionsIn",
+      "source": "manual"
+    },
+    {
+      "label": "Warranty",
+      "juki": "2 years electrical, 5 years circuit boards, 20 years mechanical parts; parts only, no labor.",
+      "others": "A dealer page adds a 1 year service warranty, which is the dealer's own.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Bernina source",
+          "url": "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "warranty"
+    },
+    {
+      "label": "Price",
+      "juki": "$3,999 MSRP.",
+      "others": "Dealer promotions run below MSRP.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Bernina source",
+          "url": "https://www.bernina.com/en-US/Machines-US/Overlocker/Serger/BERNINA-L-850"
+        }
+      ],
+      "field": "price",
+      "source": "page"
+    },
+    {
+      "label": "Where to buy",
+      "juki": "Bernina sells through dealers; the page links to a store locator.",
+      "others": "No Amazon or marketplace listing for the machine itself was found.",
+      "status": "dealer only",
+      "links": [
+        {
+          "label": "Bernina store locator",
+          "url": "https://www.bernina.com/en-US/Where-to-Buy-US/Store-Locator"
+        }
+      ],
+      "field": "availability",
+      "source": "page"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "L 860",
+      "label": "Bernina L 860",
+      "rows": [
+        {
+          "feature": "Touchscreen and list price",
+          "urls": 0,
+          "classes": [],
+          "summary": "Bernina lists the L 860 with a 4.3 in color touch screen and guided mode at a $4,999 MSRP; stitch count (18), speed (1,500 spm) and space right of the needle (5 5/8 in) match the L 850. It weighs 28.9 lb against the L 850's 27.1 lb.",
+          "check": "Bernina L 860 product page, Bernina US, bernina.com, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "L 890",
+      "label": "Bernina L 890",
+      "rows": [
+        {
+          "feature": "Coverstitch combo",
+          "urls": 0,
+          "classes": [],
+          "summary": "The L 890 is Bernina's overlock/coverstitch combo: 27 stitches, 4.3 in touch screen, 1,350 spm maximum (below the L 850's 1,500), 29.5 lb, $8,749 MSRP. Space right of the needle is 5 5/8 in as on the L 850.",
+          "check": "Bernina L 890 product page, Bernina US, bernina.com, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "L 460",
+      "label": "Bernina L 460",
+      "rows": [
+        {
+          "feature": "Entry L series",
+          "urls": 0,
+          "classes": [],
+          "summary": "Bernina lists the L 460 with 16 stitches, 1,500 spm, a manual needle threader, 5-step presser foot pressure, 2 in right of the needle and a $1,999 MSRP. It has no air threader.",
+          "check": "Bernina L 460 product page, Bernina US, bernina.com, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

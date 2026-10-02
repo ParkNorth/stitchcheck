@@ -1,0 +1,100 @@
+{
+  "specs": {
+    "stitchCount": {"value": 1450, "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"},
+    "maxSpm": {"value": 1000, "source": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"},
+    "maxStitchWidthMm": {"value": 9, "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"},
+    "maxStitchLengthMm": {"value": 6, "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"},
+    "throatIn": {"value": 8.5, "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"},
+    "stitchRegulation": {"value": "BSR functionality is integrated in the machine; the BERNINA Stitch Regulator (BSR) foot is an optional accessory per Bernina and is not in the manual's supplied-accessory list. Dealer bundles vary", "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"},
+    "needleSystem": {"value": "130/705", "source": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"},
+    "bobbin": {"value": "Jumbo bobbin (Bernina: 70% more capacity); 4 bobbins for the B9 hook supplied", "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"},
+    "lighting": {"value": "LED sewing light", "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"},
+    "presserFootLift": {"value": "Knee lifter (Free Hand System) supplied; automatic presser foot hover function", "source": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"},
+    "feedSystem": {"value": "BERNINA Dual Feed, built in, tucks away when not in use", "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"},
+    "weightLb": {"value": 25.35, "source": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"},
+    "dimensionsIn": {"value": "17.72 x 12.99 x 7.87 in (W x H x D, manual, 450 x 330 x 200 mm, without spool pin); the product page prints 18.1 x 7.9 x 12.9 in", "source": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"},
+    "includedFeet": {"value": "Seven standard feet (#1C, #1D, #2A, #3A buttonhole foot with slide, #4D, #20C open embroidery foot, #97D patchwork foot); also supplied: slide-on table with seam guide, knee lifter, touchscreen pen, 4 bobbins. No BSR foot listed", "source": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"},
+    "warrantyUs": {"value": "20 yr mechanical parts, 5 yr printed circuit boards, 2 yr electrical parts (Bernina US warranty, not model-specific)", "source": "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty"}
+  },
+  "conflicts": [
+    "Weight: Bernina's product page says 24.2 lb and the manual technical data says 11.2 kg (25.35 lb); our earlier 27 lb came from a dealer (smarterfabric.com). We show the manual figure.",
+    "Dimensions: the product page prints 18.1 x 7.9 x 12.9 in as W x H x D and the manual lists 450 x 330 x 200 mm (17.72 x 12.99 x 7.87 in) W x H x D, so the two swap height and depth. We show the manual order; the page also prints workspace height as 4,3 in with a comma, which we have not used.",
+    "BSR foot: Bernina's product page calls the BSR foot an optional accessory, the manual's supplied-accessory list does not include it, and dealer bundles for the current machine vary (some include it, some say without BSR). The earlier 570 QE page says BSR included.",
+    "In the box: our earlier note said an extension table was not listed as included; Bernina's manual lists a slide-on table with seam guide, a knee lifter and seven standard feet as supplied.",
+    "Generation: Bernina says two models are named 570 QE. The 2017 and later machine (rear label Type: VIO) lists 8.5 in right of the needle, 9 mm width, 1,000 spm and 1,450 stitches; the earlier machine (Type: LUN) lists 7.5 in, 5.5 mm, 900 spm and 642 stitches. We use the current figures and do not carry the older machine's figures or owner claims over.",
+    "Stitch count: 1,450 including alphabets on Bernina's page, 642 in dealer copy that matches the earlier machine's Bernina page, and 240 on one dealer page with no Bernina source.",
+    "Price: $5,499 is Bernina's manufacturer suggested retail price and dealers set their own; older-generation launch coverage and a forum thread quoted $4,399 and about $4,500."
+  ],
+  "claims": [
+    "\"The versatile one with the wide range of functions\" (Bernina tagline)",
+    "\"Made especially for quilters\" and \"Handle big quilts with ease\" (Bernina marketing)",
+    "\"Enjoy superb fabric feed\" (Bernina marketing)",
+    "\"Powerful DC Motor\" (Bernina marketing; no motor rating published, the manual lists 90 W energy consumption only)",
+    "Hammer Mode drives the needle \"through more than 30 layers\" (Bernina marketing)",
+    "\"quality Swiss engineering means great tension and perfect stitches every time\" (Bernina marketing)"
+  ],
+  "evidence": "owner",
+  "price": {
+    "priceUsdSeen": 5499,
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "Bernina US product page, manufacturer suggested retail price; dealers set their own price and Bernina is dealer only"
+  },
+  "sources": [
+    "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE",
+    "https://www.bernina.com/en-US/Support-US/Machines/NEW-BERNINA-5-Series/BERNINA-570-QE",
+    "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf",
+    "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty",
+    "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-5-Series/BERNINA-570-QE-before-2017",
+    "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-590",
+    "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-540",
+    "https://shop.berninausa.com/sewing-machines/5-series/BERNINA-570-QE",
+    "https://www.sewingmachinesplus.com/bernina-570qe.php",
+    "https://meissnersewing.com/products/b570qe-sewing-quilting-embroidery",
+    "https://smarterfabric.com/catalog/bernina-570-qe",
+    "https://sewingmachineshop.com/product/bernina-570-qe/",
+    "https://villagesewing.com/products/bernina-570-qe",
+    "https://www.universityofsewing.com/shop/BerninaBernette-Machines-including-Longarms/p/BERNINA-B-570-QE-Price-in-the-Image-or-Description.htm",
+    "https://www.sewsimpleredding.com/shop/BERNINA/p/BERNINA-B-570-QE.htm",
+    "https://robbreport.com/shelter/home-design/bernina-introduces-570-quilters-edition-243992/",
+    "https://www.quiltingboard.com/main-f1/opinions-bernina-570-owners-please-t303726.html",
+    "https://www.quiltingboard.com/main-f1/bernina-570-qe-t323162.html"
+  ],
+  "editorial": {
+    "verdict": "A dealer-only computerized quilter with 8.5 in right of the needle, built-in Dual Feed and BSR functionality, and a stitch regulator foot that varies by bundle.",
+    "whoFor": "A quilter who also wants garment and decorative stitching on one computerized machine, and who values dealer support and Bernina's 20 yr mechanical parts warranty.",
+    "skipIf": "You mainly quilt large tops and want more room than 8.5 in right of the needle, you want a published street price, or you cannot confirm which generation and which BSR bundle you are being sold.",
+    "keySpec": "8.5 in right of needle · 1,000 spm · 9 mm width · BSR built in, foot varies · dealer only",
+    "realCost": [
+      {"item": "BSR foot", "note": "Bernina calls it optional and the manual's supplied list omits it; dealer bundles differ, so confirm it is in the quote"},
+      {"item": "Specialty feet", "note": "Owners report only a few common feet are included and specialty feet are expensive; Bernina supplies seven standard feet"},
+      {"item": "Embroidery module", "note": "Optional per Bernina's page; the module price is not published there"},
+      {"item": "Servicing", "note": "Owners report repairs are expensive; the manual warns skipped servicing may limit warranty service"}
+    ],
+    "strengths": [
+      "Owners report long service: one reports 2.3 million stitches on a 570 QE and another reports no issues after moving up from Pfaff machines that skipped stitches.",
+      "Owners rate the #97D patchwork foot highly on dual feed Berninas, and the box includes a slide-on table, knee lifter and seven standard feet.",
+      "Bernina lists 9 mm width, 1,000 spm and 8.5 in right of the needle, with Dual Feed built in and a jumbo bobbin."
+    ],
+    "weaknesses": [
+      "Owners report defects and faults, from a top thread error every inch and a half to a broken bobbin sensor arm; help threads skew the count toward problems.",
+      "Owners report few feet in the box and costly specialty feet, and some report no ruler foot with their machine.",
+      "Owners report expensive repairs, and Bernina US pricing and the BSR foot depend on the dealer."
+    ],
+    "checks": [
+      {"title": "Confirm which 570 QE you are quoted", "body": "Bernina says two machines carry the name. Rear label Type: VIO is 2017 and later with 8.5 in, 9 mm and 1,000 spm; Type: LUN is the earlier one with 7.5 in, 5.5 mm and 900 spm."},
+      {"title": "Ask whether the BSR foot is in the box", "body": "Bernina lists the foot as optional and it is not in the manual's supplied list; some dealer bundles include it and some say without BSR."},
+      {"title": "Get the embroidery module price separately", "body": "Bernina's page shows the module as optional and gives no price, so ask the dealer."}
+    ],
+    "faqs": [
+      {"q": "What is the throat space on the Bernina 570 QE?", "a": "Bernina's wording is 8.5 in right of the needle. The manual's technical data gives no throat figure, and the earlier 570 QE page says 7.5 in."},
+      {"q": "Does the Bernina 570 QE come with the BSR?", "a": "Bernina says BSR functionality is built into the machine and the BSR foot is an optional accessory. The manual's supplied list has no BSR foot, and dealer bundles vary."},
+      {"q": "What is the difference between the old and new Bernina 570 QE?", "a": "Bernina says two models share the name. The 2017 and later machine (Type: VIO) lists 8.5 in, 9 mm, 1,000 spm, 1,450 stitches and 16 buttonholes; the earlier one (Type: LUN) lists 7.5 in, 5.5 mm, 900 spm, 642 stitches and 11 buttonholes."},
+      {"q": "How much does the Bernina 570 QE cost?", "a": "Bernina US shows $5,499 as the manufacturer suggested retail price and dealers set their own prices. We show no buy link because Bernina is sold through dealers."},
+      {"q": "Does the 570 QE have a walking foot built in?", "a": "Bernina describes a built-in Dual Feed that tucks away when not in use. It is Bernina's feed system, so check the maker's description against what you need."},
+      {"q": "What is in the box with the Bernina 570 QE?", "a": "Bernina's manual lists seven standard feet including the #97D patchwork foot, a slide-on table with seam guide, a knee lifter, a touchscreen pen and 4 bobbins. No BSR foot is listed."},
+      {"q": "What is the Bernina warranty in the US?", "a": "Bernina's US warranty page lists 20 years on mechanical parts, 5 years on printed circuit boards and 2 years on electrical parts. It is not model-specific."},
+      {"q": "How does the 570 QE compare with the Bernina 590 and 540?", "a": "Bernina lists 1,774 stitches and $8,499 for the 590, and 1,048 stitches for the 540, against 1,450 and $5,499 for the 570 QE. The 540 page says no longer available. All three pages show 8.5 in, 1,000 spm and 9 mm."},
+      {"q": "Do owner reports on the 570 QE apply to the current model?", "a": "Owner posts rarely say which generation they own, so treat reports as unsorted. We do not attribute the earlier Type: LUN machine's figures to the current one."}
+    ]
+  }
+}

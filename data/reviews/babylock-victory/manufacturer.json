@@ -1,0 +1,520 @@
+{
+  "slug": "babylock-victory",
+  "collected": "2026-10-02",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/babylock-victory.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "product-page",
+      "url": "https://babylock.com/machines/serger/victory",
+      "type": "product page",
+      "fetched": "2026-10-02",
+      "note": "Specifications block, feature bullets, model BLS3; shows $2,089 and an add-to-cart. Same page at https://babylock.com/victory"
+    },
+    {
+      "id": "spec-sheet",
+      "url": "https://babylock.com/victory-bls3-spec-sheet-2/",
+      "type": "spec sheet (PDF, 2 pages)",
+      "fetched": "2026-10-02",
+      "note": "Advanced Serging Features, included accessories, warranty bullets; read through Firecrawl PDF parsing because babylock.com returns 406 to curl. The older URL pattern victory-bls3-spec-sheet returns 404"
+    },
+    {
+      "id": "manual",
+      "url": "https://babylock.com/resources/7612/download",
+      "type": "instruction and reference guide (PDF, 56 pages)",
+      "fetched": "2026-10-02",
+      "note": "Victory Instruction and Reference Guide, Model BLS3; Technical Data table on the last pages; read through Firecrawl PDF parsing (curl gets 406). A copy is also hosted by Midland Public Library"
+    },
+    {
+      "id": "compare-chart",
+      "url": "https://babylock.com/serging-comparison-charts",
+      "type": "Baby Lock serger comparison chart",
+      "fetched": "2026-10-02",
+      "note": "Vibrant, Celebrate, Victory, Serenity columns; the markdown header row lacks the label cell so columns were realigned by hand; Imagine is not in the chart"
+    },
+    {
+      "id": "celebrate-page",
+      "url": "https://babylock.com/celebrate",
+      "type": "product page (sibling)",
+      "fetched": "2026-10-02",
+      "note": "Celebrate BLS1: specifications block and price; no spec sheet link on the page"
+    },
+    {
+      "id": "warranty-policy",
+      "url": "https://babylock.com/warranty-policy",
+      "type": "warranty policy page",
+      "fetched": "2026-10-02",
+      "note": "Dealer-only sale and warranty statement; gives no year terms"
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1500 stitches per minute (spec sheet); up to 1,500 s.p.m. (manual Technical Data)",
+      "source": "spec-sheet",
+      "vs_spec": "confirms",
+      "spec_value": 1500,
+      "note": "The manual and the spec sheet agree.",
+      "site": {
+        "label": "Speed",
+        "juki": "1,500 stitches per minute on the spec sheet and in the manual.",
+        "others": "Matches our spec, which came from a dealer page.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          },
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          }
+        ]
+      }
+    },
+    {
+      "field": "weightLb",
+      "value": "16 lbs machine only (product page, spec sheet not stated); 7.6 kg (manual Technical Data)",
+      "source": "product-page",
+      "vs_spec": "confirms",
+      "spec_value": 16,
+      "note": "7.6 kg in the manual is about 16.8 lb, so the page and the manual differ by under a pound. Neither says whether it includes the foot control or box.",
+      "site": {
+        "label": "Weight",
+        "juki": "16 lb machine only on the product page; the manual gives 7.6 kg (about 16.8 lb).",
+        "others": "Dealers repeat 16 lb.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory page",
+            "url": "https://babylock.com/machines/serger/victory"
+          },
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "Machine only: 12.5 in wide, 11 in deep, 11.5 in high",
+      "source": "product-page",
+      "vs_spec": "confirms",
+      "spec_value": "12.5 x 11 x 11.5 (machine only)",
+      "note": "Width, depth and height as labelled on the page; the manual gives no dimensions.",
+      "site": {
+        "label": "Dimensions",
+        "juki": "12.5 in wide x 11 in deep x 11.5 in high, machine only.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory page",
+            "url": "https://babylock.com/machines/serger/victory"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchWidthMm",
+      "value": "Dial adjustable stitch width 1.5 to 7.5 mm (spec sheet); manual: 5.5 to 7.5 mm standard 2/3/4 thread with left needle, 3.0 to 5.0 mm 3 thread with right needle, 1.5 mm 3 thread rolled edge",
+      "source": "spec-sheet",
+      "vs_spec": "confirms",
+      "spec_value": "1.5 to 7.5",
+      "note": "The 1.5 mm end is the rolled edge setting; the range depends on needle and stitch. Spec stays 1.5 to 7.5 with that note.",
+      "site": {
+        "label": "Stitch width",
+        "juki": "1.5 to 7.5 mm dial adjustable; 5.5 to 7.5 mm for 4 thread with the left needle.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          },
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "Dial adjustable stitch length 0.75 to 4 mm (spec sheet); 0.75 to 4 mm overlock, 0.75 to 4R mm rolled edge (manual)",
+      "source": "spec-sheet",
+      "vs_spec": "confirms",
+      "spec_value": "0.75 to 4",
+      "site": {
+        "label": "Stitch length",
+        "juki": "0.75 to 4 mm, dial adjustable, with a dial adjustable built-in rolled hem.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          },
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          }
+        ]
+      }
+    },
+    {
+      "field": "differentialFeed",
+      "value": "Manual Technical Data: gathering effect N to 2, stretching effect N to 0.6; manual text: front feed dog feeds twice as much as the back at 2.0. Spec sheet and page: full featured single unit differential feed, no ratio",
+      "source": "manual",
+      "vs_spec": "contradicts",
+      "spec_value": "Yes; dealer copy states 2 to 1 for gathering and 3 to 4 for stretching; single unit feed dog",
+      "note": "Dealer ratio 3 to 4 (0.75) for stretching differs from the manual, whose lower limit is 0.6. Gathering 2 to 1 matches the manual 2.0. The Imagine spec sheet states 3 to 4 and 2 to 1, so the dealer figure may be copied from it. Use the manual figures and list the disagreement.",
+      "site": {
+        "label": "Differential feed",
+        "juki": "Manual: N to 2.0 gathering, N to 0.6 stretching; single unit feed dog. The spec sheet and page give no ratio.",
+        "others": "Dealers state 2 to 1 and 3 to 4.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          },
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchTypes",
+      "value": "Manual Technical Data: 4 thread overlock; 3 thread overlock (wide, narrow, narrow hem); 3 thread flatlock; 3 thread rolled edge; 2 thread flatlock (wide and narrow); 2 thread blanket stitch; 2 thread ladder stitch. Comparison chart lists 4 thread, 3 thread wide and narrow, automatic built in rolled, 2 thread flatlock, blanket and ladder",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": "4 thread and 3 thread overlock; 3 thread rolled hem and 3 thread narrow hem; 2 thread and 3 thread flatlock; 2 thread overlock",
+      "note": "Our spec omits the 2 thread blanket and ladder stitches that the manual and Baby Lock's chart list. The manual also says the standard 2 thread overlock is the same as a 2 thread flatlock.",
+      "site": {
+        "label": "Stitch types",
+        "juki": "4 and 3 thread overlock, 3 thread rolled hem, 2 and 3 thread flatlock, plus 2 thread blanket and ladder stitches.",
+        "others": "Our spec did not list blanket or ladder.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          },
+          {
+            "label": "Baby Lock serger comparison chart",
+            "url": "https://babylock.com/serging-comparison-charts"
+          }
+        ]
+      }
+    },
+    {
+      "field": "threads",
+      "value": "4/3/2 thread serging; 2 needles; maximum 4 threads",
+      "source": "product-page",
+      "vs_spec": "confirms",
+      "spec_value": "4, 3 or 2 thread; 2 needles",
+      "site": {
+        "label": "Threads and needles",
+        "juki": "4/3/2 thread serging with 2 needles.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory page",
+            "url": "https://babylock.com/machines/serger/victory"
+          },
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "needleSystem",
+      "value": "Organ or Schmetz HA x 1SP/CR; set up with 75/11 needles, 90/14 for heavyweight fabrics",
+      "source": "manual",
+      "vs_spec": "contradicts",
+      "spec_value": "Household HAx1SP, ELx705CF or ELx705 (dealer needle page)",
+      "note": "The manual names only HAx1SP/CR. ELx705 and ELx705CF are not in the manual or on the Victory spec sheet, so they are a dealer figure; the Imagine spec sheet does list ELx705CF.",
+      "site": {
+        "label": "Needle system",
+        "juki": "Organ or Schmetz HA x 1SP/CR; ships with 75/11 needles.",
+        "others": "A dealer page also lists ELx705CF and ELx705.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          }
+        ]
+      }
+    },
+    {
+      "field": "presserFootLift",
+      "value": "Adjustable presser foot height up to 6 mm; presser foot pressure adjustment",
+      "source": "spec-sheet",
+      "vs_spec": "confirms",
+      "spec_value": "Presser foot height 6 mm",
+      "site": {
+        "label": "Presser foot lift",
+        "juki": "Up to 6 mm, adjustable; the Celebrate also lists 6 mm.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          },
+          {
+            "label": "Baby Lock serger comparison chart",
+            "url": "https://babylock.com/serging-comparison-charts"
+          }
+        ]
+      }
+    },
+    {
+      "field": "lighting",
+      "value": "2 LED lights (product page, spec sheet name, manual Light Bulb: 2 LED Lights); comparison chart 2 LED",
+      "source": "product-page",
+      "vs_spec": "confirms",
+      "spec_value": "2 LEDs",
+      "site": {
+        "label": "Lighting",
+        "juki": "2 LED lights.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory page",
+            "url": "https://babylock.com/machines/serger/victory"
+          },
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          },
+          {
+            "label": "Baby Lock serger comparison chart",
+            "url": "https://babylock.com/serging-comparison-charts"
+          }
+        ]
+      }
+    },
+    {
+      "field": "threadingSystem",
+      "value": "Jet-Air threading of the lower loopers with a lever; Automatic Thread Delivery, thread in any order; built-in needle threader held in place by a lever",
+      "source": "spec-sheet",
+      "vs_spec": "confirms",
+      "spec_value": "Jet-Air looper threading by lever; Automatic Thread Delivery, threads in any order; built in needle threader held by lever",
+      "site": {
+        "label": "Threading",
+        "juki": "Jet-Air looper threading, Automatic Thread Delivery (no tension adjustments), built-in needle threader.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          },
+          {
+            "label": "Baby Lock serger comparison chart",
+            "url": "https://babylock.com/serging-comparison-charts"
+          }
+        ]
+      }
+    },
+    {
+      "field": "feedSystem",
+      "value": "Differential feed; full featured single unit differential feed with a single unit feed dog; advanced knife driving and one way clutch system",
+      "source": "spec-sheet",
+      "vs_spec": "confirms",
+      "spec_value": "Differential feed with single unit feed dog mechanism; Jet-Air looper threading; Automatic Thread Delivery (no tension dials)"
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "Thread Cutter Type: Built-in (product page); Side thread cutter (spec sheet); manual part list: thread cutter, to cut the chain at the left side",
+      "source": "product-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null. The cutter is a chain cutter on the left side, not an automatic trimmer, and the maker does not say otherwise.",
+      "site": {
+        "label": "Thread cutter",
+        "juki": "Built-in side thread cutter for the thread chain.",
+        "others": "No dealer figure used.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory page",
+            "url": "https://babylock.com/machines/serger/victory"
+          },
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "includedFeet",
+      "value": "Number of Feet Included: 1; manual: standard presser foot, snap-on. Spec sheet accessory list: Quick Reference Threading Guide, foot control, lint brush and needle insert tool, two needle clamp screws, assorted needles, medium screwdriver, tweezers, spare upper blade, looper threading tool, screwdriver, machine soft cover, four thread nets, four spool caps, four sponge disks, Allen wrench",
+      "source": "spec-sheet",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null. Optional feet are sold separately: spec sheet lists a foot kit (BLES4FTKIT), six foot kit, beading, blindhem, clear, cording 3 and 5 mm, elastic, flat sole, lace applicator, ruffling and Teflon feet. The page shows the 10 foot kit at $494 and the 6 foot package at $241 on 2026-10-02. The manual lists four cone holders as on the machine; the spec sheet lists them under optional accessories.",
+      "site": {
+        "label": "Included feet and accessories",
+        "juki": "One standard snap-on foot; accessory list on the spec sheet and manual; optional feet sold separately.",
+        "others": "Dealer bonus kits vary and are not Baby Lock contents.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          },
+          {
+            "label": "Baby Lock Victory manual",
+            "url": "https://babylock.com/resources/7612/download"
+          },
+          {
+            "label": "Baby Lock Victory page",
+            "url": "https://babylock.com/machines/serger/victory"
+          }
+        ]
+      }
+    },
+    {
+      "field": "rolledHem",
+      "value": "Dial adjustable built-in rolled hem; 3 thread rolled edge with stitch selector D, width 3.5 mm, length 0.75 to 4R",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "Yes, 3 thread, stitch selector position D"
+    },
+    {
+      "field": "warrantyUs",
+      "value": "25 year limited; 10 year parts; 5 year circuit boards; 5 year electrical; 1 year labor (Victory spec sheet)",
+      "source": "spec-sheet",
+      "vs_spec": "confirms",
+      "spec_value": "25 yr limited; 10 yr parts, 5 yr electrical, 1 yr labor (dealer statement)",
+      "note": "Model sheet wording, so model specific. Our spec lacked the 5 year circuit boards line. The warranty policy page says only Authorized Retailers can issue Baby Lock warranties and that warranties are not extended to products bought from non-authorized sources, including online purchases.",
+      "site": {
+        "label": "Warranty",
+        "juki": "25 years limited; 10 years parts; 5 years circuit boards; 5 years electrical; 1 year labor.",
+        "others": "Dealers state the same minus circuit boards.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Baby Lock Victory spec sheet",
+            "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+          },
+          {
+            "label": "Baby Lock warranty policy",
+            "url": "https://babylock.com/warranty-policy"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "babylock.com showed $2,089 USD on the product page on 2026-10-02, with 0% APR financing from $73/mo through Affirm; the default Add to Cart total was $3,138 with a Love of Sewing Membership Level 2 (+$1,049) preselected and a No thanks option",
+      "source": "product-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Our spec says Baby Lock does not publish prices; the page does show a price and a cart. Stated as the price shown on babylock.com, not as MSRP or a dealer price. The Vibrant page showed $524 and Celebrate $1,352 the same day. Dealer pricing is set by dealers.",
+      "site": {
+        "label": "Price",
+        "juki": "babylock.com showed $2,089 on 2026-10-02; dealers set their own price.",
+        "others": "Sewing Machines Plus $1,899 sale in our spec, seen 2026-09-29.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Baby Lock Victory page",
+            "url": "https://babylock.com/machines/serger/victory"
+          }
+        ]
+      }
+    },
+    {
+      "field": "retailChannel",
+      "value": "\"you can only find our sewing machines, sergers, and embroidery products through Authorized Baby Lock Retailers\"; only Authorized Retailers can issue Baby Lock warranties",
+      "source": "warranty-policy",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "babylock.com also sells with a cart. Under AGENTS rule 15 we give no buy link and link the dealer locator only. The page header text 'Your company account is blocked' is site boilerplate and is ignored.",
+      "site": {
+        "label": "Where to buy",
+        "juki": "Authorized Baby Lock Retailers only; Baby Lock warranties are issued by them.",
+        "others": "Some dealers list the machine online.",
+        "status": "dealer only",
+        "links": [
+          {
+            "label": "Baby Lock warranty policy",
+            "url": "https://babylock.com/warranty-policy"
+          }
+        ]
+      }
+    },
+    {
+      "field": "throatIn",
+      "value": "Not published for the Victory. The comparison chart Workspace row is blank for the Victory, Celebrate and Vibrant; it lists 2 in to the right of the needle only for the Serenity and Splendor, and 5 in for the Triumph, Euphoria and Applaud",
+      "source": "compare-chart",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "No needle-to-body figure from Baby Lock. Keep null; do not infer from the 12.5 in machine width.",
+      "site": {
+        "label": "Throat space",
+        "juki": "Baby Lock does not publish a workspace figure for the Victory.",
+        "others": "Not stated by dealers.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Baby Lock serger comparison chart",
+            "url": "https://babylock.com/serging-comparison-charts"
+          }
+        ]
+      }
+    },
+    {
+      "field": "motor",
+      "value": "Not published: no motor rating on the product page, spec sheet or manual Technical Data; foot control only",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Dealer copy 'powerful, smooth performance' is not a rating."
+    },
+    {
+      "field": "frame",
+      "value": "Not published: the maker pages do not state frame material. Dealer 'solid internal frame' is not in any Baby Lock document",
+      "source": "product-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Keep null."
+    },
+    {
+      "field": "claims",
+      "value": "Maker wording: \"Jet-Air Threading threads the lower loopers with the touch of a lever\"; \"Automatic Thread Delivery to thread in any order\"; \"a 6mm height that makes serging on thicker fabrics a breeze\"; \"stronger feeding as well as consistent gathering on all fabrics\"; \"advanced knife driving and one-way clutch system\" with \"a larger cutting bite\"; spec sheet 'Heavy-duty cutting system'; page title line 'Ready to declare victory over threading your serger'",
+      "source": "product-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketing wording; claims only. 'Heavy-duty' here is a maker description of the knife, not a rating."
+    },
+    {
+      "field": "makerReviews",
+      "value": "babylock.com product page: 5.0 average from 1 review (8 Aug 2024, an owner of nearly two years who reports no issues). The 16 reviews and 100% on the page belong to the Getting to Know Your Baby Lock Victory class, not the machine",
+      "source": "product-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "One brand-site review, not a rating; brand-site reviews are curated by the seller."
+    },
+    {
+      "field": "compareCelebrate",
+      "value": "Chart: Celebrate BLS1 has manual tension, 1 LED, built-in needle threader, Jet-Air, 6 mm lift, 10 accessory feet; Victory BLS3 has ATD tension, 2 LED, Jet-Air, built-in needle threader, 6 mm lift, 2 thread blanket and ladder stitches, inspirational guide, quick reference threading guide. Celebrate page: Micromatic Twin Cam tension, 16 lb machine only, same 12.5 x 11 x 11.5 in, price $1,352",
+      "source": "compare-chart",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Sibling comparison, not a Victory spec."
+    }
+  ]
+}

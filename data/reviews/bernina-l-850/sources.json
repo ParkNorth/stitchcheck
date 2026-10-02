@@ -1,0 +1,184 @@
+[
+  {
+    "id": "reddit:iirusl",
+    "url": "https://www.reddit.com/r/Bernina/comments/iirusl/new_l850_and_l890_overlockers/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "New L850 and L890 overlockers?",
+    "subreddit": "Bernina",
+    "thread_id": "iirusl",
+    "first_seen": "2026-10-02T11:51:45.278Z",
+    "last_fetched": "2026-10-02T11:51:45.278Z",
+    "status": "ok",
+    "cursor_utc": 1598779389,
+    "discovered_by": [
+      "all:Bernina L850"
+    ],
+    "content_hash": "5b6351a4fe701415"
+  },
+  {
+    "id": "reddit:16mjw46",
+    "url": "https://www.reddit.com/r/sewing/comments/16mjw46/overlocker_yay_or_nay/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Overlocker yay or nay?",
+    "subreddit": "sewing",
+    "thread_id": "16mjw46",
+    "first_seen": "2026-10-02T11:51:45.278Z",
+    "last_fetched": "2026-10-02T11:51:45.278Z",
+    "status": "ok",
+    "cursor_utc": 1696585159,
+    "discovered_by": [
+      "all:Bernina L850",
+      "r/sewing:Bernina L850"
+    ],
+    "content_hash": "80ef26853bb7033c"
+  },
+  {
+    "id": "web:791ff3f2aeb5f6da",
+    "url": "https://www.sewingmachinesplus.com/bernina-L850.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-02T11:53:03.193Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-02T11:53:03.193Z",
+    "status": "thin",
+    "site_rating": null,
+    "site_review_count": 0,
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "web:79d44cb17aa74325",
+    "url": "https://sewing.patternreview.com/review/machine/7332",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Bernina  L850 Serger review by Doris W. in TN",
+    "first_seen": "2026-10-02T11:53:13.516Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-02T11:53:36.248Z",
+    "note": "http-page: 403",
+    "content_hash": "2b35f670f5436c75",
+    "chars": 6210,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:1fd8db2b8071bb3f",
+    "url": "https://sewing.patternreview.com/review/machine/7238",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Bernina  L850 Serger review by grays08",
+    "first_seen": "2026-10-02T11:53:14.535Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-02T11:53:36.753Z",
+    "note": "http-page: 403",
+    "content_hash": "ad8fc56de473d890",
+    "chars": 8257,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:9e285d5b3d709c0c",
+    "url": "https://sewing.patternreview.com/SewingDiscussions/topic/121627",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Bernina L850 or Babylock Acclaim? sewing discussion topic @ PatternReview.com",
+    "first_seen": "2026-10-02T11:53:15.385Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-02T11:53:37.256Z",
+    "note": "http-page: 403",
+    "content_hash": "bac28700395d98b1",
+    "chars": 12302,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:e80d4ca4495daee7",
+    "url": "https://sewing.patternreview.com/SewingMachine/2671",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Bernina  L850 Serger reviews and information",
+    "first_seen": "2026-10-02T11:54:32.228Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-02T11:54:32.228Z",
+    "content_hash": "0526deb1baf7d94b",
+    "chars": 2827,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:caecef0b60fbf6cb",
+    "url": "https://sewing.patternreview.com/review/machine/7463",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Bernina  L850 Serger review by Dollhouse",
+    "first_seen": "2026-10-02T11:54:32.732Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-02T11:54:32.732Z",
+    "content_hash": "9687ba42496d832e",
+    "chars": 3408,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:903f9802860c2be7",
+    "url": "https://sewing.patternreview.com/SewingDiscussions/topic/117617",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Bernina L 850--anyone here? sewing discussion topic @ PatternReview.com",
+    "first_seen": "2026-10-02T11:54:33.235Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-02T11:54:33.235Z",
+    "content_hash": "50e1c030e3271b90",
+    "chars": 6267,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:2a207f3df13c6321",
+    "url": "https://sewing.patternreview.com/SewingDiscussions/topic/120747",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Pros &amp; Cons of buying a Bernina L850 vs. Bernina L860 sewing discussion topic @ PatternReview.com",
+    "first_seen": "2026-10-02T11:54:33.737Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-02T11:54:33.737Z",
+    "content_hash": "9032237d6ac357cc",
+    "chars": 12257,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:2cdf575de524483a",
+    "url": "https://sewing.patternreview.com/SewingDiscussions/topic/116889",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Heads up for anyone considering the Bernina L850 serger sewing discussion topic @ PatternReview.com",
+    "first_seen": "2026-10-02T11:54:34.240Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-02T11:54:34.240Z",
+    "content_hash": "2054c21f698b93b4",
+    "chars": 2711,
+    "page_kind": "review"
+  }
+]

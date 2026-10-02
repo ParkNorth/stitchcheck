@@ -1,0 +1,116 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Bernina is dealer only in this catalog: no marketplace listing was found for the machine itself (Amazon search returns only machine covers and other brands), so no marketplace rating is shown."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "L 460",
+      "label": "Bernina L 460",
+      "pattern": "(?:bernina\\s*)?\\bl[\\s-]*460(?![a-z0-9])"
+    },
+    {
+      "model": "L 860",
+      "label": "Bernina L 860",
+      "pattern": "(?:bernina\\s*)?\\bl[\\s-]*860(?![a-z0-9])"
+    },
+    {
+      "model": "L 890",
+      "label": "Bernina L 890",
+      "pattern": "(?:bernina\\s*)?\\bl[\\s-]*890(?![a-z0-9])"
+    },
+    {
+      "model": "L 450",
+      "label": "Bernina L 450",
+      "pattern": "(?:bernina\\s*)?\\bl[\\s-]*450(?![a-z0-9])"
+    },
+    {
+      "model": "L 480",
+      "label": "Bernina L 480",
+      "pattern": "(?:bernina\\s*)?\\bl[\\s-]*480(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "mo[\\s-]*1000(?![a-z0-9])",
+      "Juki MO-1000"
+    ],
+    [
+      "vibrant(?![a-z0-9])|bl460b(?![a-z0-9])",
+      "Baby Lock Vibrant"
+    ],
+    [
+      "mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])",
+      "Juki MO-654DE"
+    ],
+    [
+      "1034d(?![a-z0-9])",
+      "Brother 1034D"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "mo[\\s-]*1000(?![a-z0-9])|vibrant(?![a-z0-9])|bl460b(?![a-z0-9])|mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])|1034d(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {
+    "L 860": [
+      {
+        "feature": "Touchscreen and list price",
+        "summary": "Bernina lists the L 860 with a 4.3 in color touch screen and guided mode at a $4,999 MSRP; stitch count (18), speed (1,500 spm) and space right of the needle (5 5/8 in) match the L 850. It weighs 28.9 lb against the L 850's 27.1 lb.",
+        "check": "Bernina L 860 product page, Bernina US, bernina.com, 2026-10-02"
+      }
+    ],
+    "L 890": [
+      {
+        "feature": "Coverstitch combo",
+        "summary": "The L 890 is Bernina's overlock/coverstitch combo: 27 stitches, 4.3 in touch screen, 1,350 spm maximum (below the L 850's 1,500), 29.5 lb, $8,749 MSRP. Space right of the needle is 5 5/8 in as on the L 850.",
+        "check": "Bernina L 890 product page, Bernina US, bernina.com, 2026-10-02"
+      }
+    ],
+    "L 460": [
+      {
+        "feature": "Entry L series",
+        "summary": "Bernina lists the L 460 with 16 stitches, 1,500 spm, a manual needle threader, 5-step presser foot pressure, 2 in right of the needle and a $1,999 MSRP. It has no air threader.",
+        "check": "Bernina L 460 product page, Bernina US, bernina.com, 2026-10-02"
+      }
+    ]
+  }
+}
