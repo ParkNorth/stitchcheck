@@ -1,15 +1,414 @@
 {
   "slug": "janome-hd3000",
-  "collected": null,
+  "collected": "2026-10-02",
   "purpose": "First-party facts from the maker's own documents, compared against data/specs/janome-hd3000.json. Research input for the editor; not a spec file.",
   "documents": [
     {
-      "id": "maker-page",
+      "id": "page",
       "url": "https://www.janome.com/product/hd-3000/",
-      "type": "product page",
-      "fetched": null,
-      "note": "TODO: fetch, then add the manual, warranty and brochure PDFs with their pages"
+      "type": "product page (janome.com HD-3000)",
+      "fetched": "2026-10-02",
+      "note": "Page modified 2026-06-08 per page metadata. Lists MSRP $559, spec table, standard accessories, links to brochure, manual and leather guide."
+    },
+    {
+      "id": "brochure",
+      "url": "https://www.janome.com/wp-content/uploads/2019/11/hd3000-info-sheet.pdf",
+      "type": "brochure / info sheet PDF (2 pages)",
+      "fetched": "2026-10-02",
+      "note": "Text layer parsed. Feature list only; no speed, weight or dimensions."
+    },
+    {
+      "id": "manual",
+      "url": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-hd-3000-auto-declutch-bobbin-winder.pdf",
+      "type": "instruction book PDF (48 pages)",
+      "fetched": "2026-10-02",
+      "note": "Text layer parsed. No spec table, no speed, no motor rating. Says household use only. Lists 15 W bulb, foot control YC-482J or TJC-150, needle chart #9/65 to #16/100, pattern dial 1 to 18 plus BH, max zigzag 6.5 mm."
+    },
+    {
+      "id": "leather",
+      "url": "https://www.janome.com/wp-content/uploads/2019/11/leather_sewing_guide.pdf",
+      "type": "leather sewing guide PDF (1 page)",
+      "fetched": "2026-10-02",
+      "note": "Janome best-practice sheet for the HD-3000."
+    },
+    {
+      "id": "blog",
+      "url": "https://www.janome.com/introducing-the-hd1000-and-hd3000/",
+      "type": "launch blog post (dated 2011-02-01, page modified 2025-07-10)",
+      "fetched": "2026-10-02",
+      "note": "Only maker document that gives a speed (860 spm), a 7-piece feed dog and 19 stitches. Predates the current product page."
+    },
+    {
+      "id": "be-page",
+      "url": "https://www.janome.com/product/hd-3000-black-edition/",
+      "type": "product page (HD-3000 Black Edition)",
+      "fetched": "2026-10-02",
+      "note": "MSRP $599, bonus items, same spec table. Links the same instruction book (2018 upload path)."
+    },
+    {
+      "id": "warranty",
+      "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+      "type": "warranty PDF (Limited 25 Year Warranty, 2023)",
+      "fetched": "2026-10-02",
+      "note": "Image-only PDF, read by tesseract OCR at 150 dpi; figures should be verified against the PDF. Linked from janome.com/support/warranty/ (page modified 2024-11-19)."
+    },
+    {
+      "id": "hd1000",
+      "url": "https://www.janome.com/product/hd-1000/",
+      "type": "sibling product page (HD-1000)",
+      "fetched": "2026-10-02",
+      "note": "Comparison only."
+    },
+    {
+      "id": "hd5000",
+      "url": "https://www.janome.com/product/hd-5000/",
+      "type": "sibling product page (HD-5000)",
+      "fetched": "2026-10-02",
+      "note": "Comparison only."
+    },
+    {
+      "id": "hd9",
+      "url": "https://www.janome.com/product/hd9-professional/",
+      "type": "sibling product page (HD9 Professional), search excerpt",
+      "fetched": "2026-10-02",
+      "note": "Read from a search excerpt of the page, not a full scrape. Comparison only."
     }
   ],
-  "facts": []
+  "facts": [
+    {
+      "field": "stitchCount",
+      "value": "18 stitches (product page, brochure, BE page). Manual dial runs patterns 1 to 18 plus BH.",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": 18,
+      "note": "The 2011 launch blog says 19 stitches. Current page, brochure and manual agree on 18.",
+      "site": {
+        "label": "Stitch count",
+        "juki": "18 built-in stitches.",
+        "others": "The 2011 Janome blog says 19; dealers say 18.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome page",
+            "url": "https://www.janome.com/product/hd-3000/"
+          },
+          {
+            "label": "Janome brochure",
+            "url": "https://www.janome.com/wp-content/uploads/2019/11/hd3000-info-sheet.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchCount (blog)",
+      "value": "19 stitches",
+      "source": "blog",
+      "vs_spec": "contradicts",
+      "spec_value": 18,
+      "note": "Janome's own 2011 launch post disagrees with its current page. Listed under conflicts; the current page is used."
+    },
+    {
+      "field": "maxSpm",
+      "value": "860 stitches per minute, stated only in the 2011 launch blog. Not on the current product page, brochure or manual. The HD1000 page lists 'Max Stitch Speed 860 SPM'.",
+      "source": "blog",
+      "vs_spec": "confirms",
+      "spec_value": 860,
+      "note": "Single source, 15 years old. The HD3000 page and manual publish no speed.",
+      "site": {
+        "label": "Top speed",
+        "juki": "860 spm in the 2011 launch post only; no speed on the current page.",
+        "others": "Dealers repeat 860.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome 2011 blog",
+            "url": "https://www.janome.com/introducing-the-hd1000-and-hd3000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "feedSystem",
+      "value": "5-piece feed dog (product page spec table, brochure, BE page). The 2011 blog says 7-piece. The HD5000 page spec table says 5-piece while its prose says seven-piece.",
+      "source": "page",
+      "vs_spec": "contradicts",
+      "spec_value": "7-piece feed dog, drop feed; horizontal full rotary hook",
+      "note": "Our spec has 7-piece from the blog. The current page table and the brochure both say 5-piece. The product page Key Features heading says 5-piece too. Drop feed is confirmed.",
+      "site": {
+        "label": "Feed dog",
+        "juki": "5-piece feed dog and drop feed (page, brochure). The 2011 blog says 7-piece.",
+        "others": "Our spec says 7-piece, taken from the blog.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome page",
+            "url": "https://www.janome.com/product/hd-3000/"
+          },
+          {
+            "label": "Janome brochure",
+            "url": "https://www.janome.com/wp-content/uploads/2019/11/hd3000-info-sheet.pdf"
+          },
+          {
+            "label": "Janome 2011 blog",
+            "url": "https://www.janome.com/introducing-the-hd1000-and-hd3000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "hook",
+      "value": "Top loading full rotary hook bobbin",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "horizontal full rotary hook",
+      "note": "Maker wording is 'top loading full rotary hook'. Our spec adds 'horizontal', which no maker document states; use the maker wording."
+    },
+    {
+      "field": "buttonhole",
+      "value": "Page spec table and brochure: '1 four-step buttonhole'. Page prose and BE prose: 'one-step buttonhole'. Manual: automatic buttonhole sewn in sequence (front bartack, left row, back bartack, right row) using the buttonhole lever and foot R, button up to 1 in.",
+      "source": "page",
+      "vs_spec": "contradicts",
+      "spec_value": "One-step buttonhole",
+      "note": "Maker uses both 'one-step' and 'four-step' for the same single automatic buttonhole. The word is not a difference in capability that any document explains.",
+      "site": {
+        "label": "Buttonhole",
+        "juki": "One automatic buttonhole, called four-step in the spec table and one-step in the prose.",
+        "others": "Dealers say one-step.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome page",
+            "url": "https://www.janome.com/product/hd-3000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchWidthLength",
+      "value": "Maximum stitch width 6.5 mm and length 4 mm (page table, brochure, manual p.16). The page Key Features image caption says '6mm maximum stitch width'.",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "zigzag up to 6.5 mm wide, stitch length up to 4 mm",
+      "note": "Page-vs-page disagreement: the Key Features caption reads 6mm on the plain page and 6.5mm on the Black Edition page. Table, brochure and manual all say 6.5 mm.",
+      "site": {
+        "label": "Zigzag width",
+        "juki": "6.5 mm width, 4 mm length.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome page",
+            "url": "https://www.janome.com/product/hd-3000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "weightLb",
+      "value": "18.7 lbs",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": 18.7,
+      "site": {
+        "label": "Weight",
+        "juki": "18.7 lbs.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome page",
+            "url": "https://www.janome.com/product/hd-3000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "Footprint W 16 in x H 11.3 in x D 7.2 in",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "16 x 7 x 11 (W x D x H)",
+      "note": "Spec rounds D and H."
+    },
+    {
+      "field": "frame",
+      "value": "'Aluminum frame construction' (page); 'die cast aluminum body construction' (brochure); 'heavy duty aluminum frame' (page prose). Blog: 'all-metal body made of special, lightweight aluminum'.",
+      "source": "brochure",
+      "vs_spec": "confirms",
+      "spec_value": "Rigid aluminum body (Janome: 'all-metal body made of special, lightweight aluminum')",
+      "note": "Maker claim, not measured."
+    },
+    {
+      "field": "throatIn",
+      "value": "Workspace W 6.5 in x H 4.6 in. Janome does not say 'needle to arm' or 'throat' for this machine.",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Do not enter 6.5 in as throatIn without the editor's call: the maker says 'workspace', and does not state the measurement point. The HD1000 page says 6.4 in, the HD5000 page says 6.5 in, the HD9 page says 8 in. Model name is not a spec; neither is the workspace line.",
+      "site": {
+        "label": "Throat / workspace",
+        "juki": "Workspace 6.5 in wide by 4.6 in high; no needle-to-arm figure given.",
+        "others": "No dealer gives a figure that adds to it.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Janome page",
+            "url": "https://www.janome.com/product/hd-3000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "needleSystem",
+      "value": "Manual needle chart: #9/65 to #11/75 (fine, blue tip), #11/75 to #14/90 (general), #14/90 to #16/100 (heavy). Needle threader works with #11 to #16. Leather guide: 90/14 for seams, 100/16 for topstitch. The needle system code (such as 130/705H) is not stated in the page or brochure.",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Sizes are published; the system name is not, so needleSystem stays null."
+    },
+    {
+      "field": "presserFoot",
+      "value": "Extra high presser foot lift: Yes (height in mm not published). Foot pressure adjustment: Yes, a dial; manual says set 3 for regular sewing, 2 for appliques, 1 for fine fabrics. Snap-on feet. Zigzag foot has a black leveling button to lock it level on thick seams.",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": "Adjustable presser foot pressure (third-party comparison); lift height not published in snippet",
+      "note": "Lift height in mm or in is not in any maker document."
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "None listed in the page spec table, brochure or manual.",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The maker lists no thread trimmer; absence is not stated as a claim, so keep the spec null unless the editor decides otherwise."
+    },
+    {
+      "field": "motor",
+      "value": "Not published. Manual lists a 15 W bulb and foot control YC-482J or TJC-150; no motor wattage or amperage.",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Motor power is not published by the maker."
+    },
+    {
+      "field": "bobbin",
+      "value": "Auto-declutch bobbin winder (page, brochure). The manual file name carries the same label.",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The HD1000 uses a push-pull winder and a front-loading oscillating hook, so a variant mix-up on a listing matters."
+    },
+    {
+      "field": "includedFeet",
+      "value": "Standard accessories on the page: automatic buttonhole foot, blind hem foot (5-7 mm adjustable), bobbin, foot control, large screwdriver, lint brush, overedge foot C, quilting guide bar, rolled hem foot 2 mm, seam ripper, spool holders (large and small), zigzag foot, zipper foot E. Hard cover included.",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": "Hard cover, blind hem foot G, buttonhole foot R (automatic), 2 mm hemmer foot D, overedge foot; zigzag foot on machine",
+      "note": "Spec has no zipper foot; the maker lists zipper foot E. Foot letters in the spec (G, D) are dealer wording and not in the maker list.",
+      "site": {
+        "label": "Box contents",
+        "juki": "Zigzag, automatic buttonhole, blind hem, overedge, 2 mm rolled hem and zipper feet, hard cover.",
+        "others": "Dealers list fewer feet.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome page",
+            "url": "https://www.janome.com/product/hd-3000/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "walkingFoot",
+      "value": "No walking or even feed foot in the standard list. Optional: even feed foot and convertible even feed foot (5-7 mm). The Black Edition lists an Even Feed Foot, Ultra Glide foot, leather needle set and a quilting attachment kit as bonus items.",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Answers a buyer question: a walking foot is optional on the plain machine."
+    },
+    {
+      "field": "blackEdition",
+      "value": "HD-3000 Black Edition: MSRP $599, UPC 732212322150, same 18 stitches, 5-piece feed dog, 6.5 mm width, 18.7 lbs; adds an Ultra Glide foot, leather needle set, even feed foot and hard cover as bonus items. Plain HD-3000: MSRP $559, UPC 732212274473.",
+      "source": "be-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Variant is a bundle, not a different machine on the maker's spec table. Dealer SKU HD3000BE is the Black Edition."
+    },
+    {
+      "field": "price",
+      "value": "MSRP $559 (HD-3000); $599 (Black Edition). 'Please see Dealer for pricing.' Janome America distributes through authorized dealers and does not sell direct.",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Maker MSRP only; not a dealer price."
+    },
+    {
+      "field": "warranty",
+      "value": "Limited 25 Year Warranty: 25 years from original purchase against defects in materials or workmanship, excluding electronic component parts (circuit boards, step motors, pattern control units) at 5 years, and labor at 1 year free. Normal household use; commercial use 1 year parts and service. Excludes needles, needle plates, bobbin cases, fuses, light bulbs, knives, loopers, belts. Exclusive to the original purchaser. 'This warranty is VOID' if the machine was not bought from an authorized Janome dealer within the United States.",
+      "source": "warranty",
+      "vs_spec": "confirms",
+      "spec_value": "25 yr limited on defective materials and workmanship, 5 yr on electrical components, 1 yr labor (dealer statement; verify against Janome)",
+      "note": "Not specific to this model: the same 25-year document covers Janome machines. It confirms 5 years for electronic parts. The earlier '2 yr electrical' note in the spec conflicts is not supported by this document. The authorized-dealer condition matters for any marketplace purchase. OCR read; check the figures against the PDF.",
+      "site": {
+        "label": "Warranty",
+        "juki": "25 years materials and workmanship, 5 years electronic parts, 1 year labor; void if not bought from an authorized US Janome dealer.",
+        "others": "One dealer states the same 25/5/1; our spec note about 2 years electrical is not supported.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome warranty PDF",
+            "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "useScope",
+      "value": "Manual: 'designed and manufactured for household use only'. Leather guide: use leather thinner than 4 mm; sewing through more than 4 layers, use leather less than 2 mm thick; 3 mm stitch length, pressure dial 3, 90/14 for seams.",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Maker-stated limits for leather; denim is not given a layer limit."
+    },
+    {
+      "field": "claims",
+      "value": "'The HD-3000 is a heavy duty machine, perfect for a beginner or sewist looking to do a wide range of sewing' (page). 'Heavy-duty frame' (page). Blog: 'quiet, vibration-free sewing'; 'live up to the Heavy Duty in their name'; 'only about two pounds heavier than a comparable model with a plastic body'; 'perfectly synchronized' 7-piece feed dog.",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "All marketing wording; quote as claims. 'Heavy duty' is the HD series name."
+    },
+    {
+      "field": "availability",
+      "value": "No 'discontinued' or 'no longer available' wording on the product page. The page says 'Available at Authorized Janome Dealers'.",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Page wording only."
+    },
+    {
+      "field": "sibling HD1000",
+      "value": "14 stitches, four-step buttonhole, 3-piece feed dog, 5 mm width, 4 mm length, 860 SPM listed, front-loading vertical oscillating hook, push-pull winder, 16.8 lbs, workspace 6.4 x 4.7 in, MSRP $409, 15.6 x 12.4 x 6.3 in.",
+      "source": "hd1000",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Different hook and feed. Not the same machine as the HD3000."
+    },
+    {
+      "field": "sibling HD5000",
+      "value": "18 stitches, one-step buttonhole, top loading full rotary hook, 5-piece feed dog in the table (prose says seven-piece), 6.5 mm width, 18.7 lbs, workspace 6.5 x 4.6 in, auto-declutch winder, same footprint, no MSRP shown.",
+      "source": "hd5000",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The maker's table is the same as the HD3000. Differences are not stated on the page; do not assume any."
+    },
+    {
+      "field": "sibling HD9",
+      "value": "Straight-stitch only, up to 1,600 spm, 3-piece feed dog, side-loading jumbo bobbin, automatic thread cutter, 32 lbs, workspace 8 x 5.5 in, MSRP $2,499.",
+      "source": "hd9",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Different class: high-speed straight stitch."
+    }
+  ]
 }

@@ -1,0 +1,1602 @@
+{
+  "slug": "janome-hd3000",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 63,
+    "itemsCollected": 678,
+    "statements": 201,
+    "voices": 128,
+    "ownerVoices": 86,
+    "dateRange": [
+      2012,
+      2026
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 60,
+        "items": 626
+      },
+      "retailer": {
+        "sources": 3,
+        "items": 52
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "The Black Edition (HD3000BE) is the same machine with a bonus accessory bundle on Janome's spec table; Janome lists $559 for the plain machine and $599 for the Black Edition. Amazon listing ratings below were read from the plain HD3000 listing B00916Y4YM (4.4 from 658) and the Black Edition bundle B07D7HFT9L (4.4 from 333).",
+    "Sewing Machines Plus lists 44 reviews at 4.68, but only 2 of the 44 name this model, so that listing's reviews look pooled across several machines and are not treated as HD3000 evidence."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 53,
+      "voices": 47,
+      "ownerVoices": 28,
+      "sources": 26,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 41,
+        "retailer": 6
+      },
+      "polarity": {
+        "positive": 18,
+        "negative": 19,
+        "mixed": 6,
+        "neutral": 4
+      },
+      "years": [
+        2016,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c6bc7810a",
+          "polarity": "negative",
+          "claim": "Owner says the machine will not handle heavy leather.",
+          "quote": "Won’t handle heavy leather",
+          "url": "https://www.reddit.com/r/myog/comments/r09ams/more_practical_in_the_long_run_sailrite_lsz1_or/m3sbb40/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ce9ac96d2",
+          "polarity": "negative",
+          "claim": "Owner could not sew denim with it.",
+          "quote": "Could not sew through denim.",
+          "url": "https://www.reddit.com/r/sewing/comments/10en43y/tell_me_about_the_janome_hd3000_sewing_machine/j4sso80/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c91f80ba8",
+          "polarity": "positive",
+          "claim": "Owner says the HD3000 has great power.",
+          "quote": "Its got great power",
+          "url": "https://www.reddit.com/r/myog/comments/r09ams/more_practical_in_the_long_run_sailrite_lsz1_or/hmxk9iz/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cdcd64e54",
+          "polarity": "positive",
+          "claim": "Owner sews 1000d cordura and duck canvas gear and says the machine has worked well.",
+          "quote": "the Janome has worked wonderfully",
+          "url": "https://www.reddit.com/r/myog/comments/o8g30w/i_made_a_video_comparing_the_janome_hd3000_and/h358c57/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c86450bc0",
+          "polarity": "mixed",
+          "claim": "Owner likes it but thinks it may not cope with extra heavy layers.",
+          "quote": "it might not stand up to extra heavy layers",
+          "url": "https://www.reddit.com/r/HistoricalCostuming/comments/1p1hyei/is_a_janome_hd3000_a_good_option_for_historical/npqep2b/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c9fbfdb59",
+          "polarity": "mixed",
+          "claim": "HD3000 owner says it is more heavy duty than most current HD machines but not truly heavy duty.",
+          "quote": "More heavy duty than most of the common current",
+          "url": "https://www.reddit.com/r/myog/comments/1f65lck/janome_hd_3000_vs_1000_vs_brother_st371hd/ll57dqy/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cac591621",
+        "c64afcc7f",
+        "ce4c19f91",
+        "c50253433",
+        "c1c4a5897",
+        "c4bb72a92",
+        "c07ededc1",
+        "ce9ac96d2",
+        "c425d3461",
+        "c25ab02c1",
+        "c9b984d09",
+        "cecd67f60",
+        "cec5e81ca",
+        "c86450bc0",
+        "c1705f313",
+        "ce59ea9f0",
+        "ce15df8fa",
+        "cf49fd9a5",
+        "cb5975df1",
+        "cb282b097",
+        "cdbeafabd",
+        "c2eb7cd6d",
+        "c322cb455",
+        "cdcd64e54",
+        "ca94e422f",
+        "c4ef3e175",
+        "c8ce84897",
+        "c2f2d022d",
+        "c6d66df78",
+        "c91f80ba8",
+        "c6bc7810a",
+        "c547453c4",
+        "c1a24c99d",
+        "c8ff7f624",
+        "cefd6bfc7",
+        "c1e7e87a7",
+        "c4ce864a6",
+        "c71c7fc49",
+        "c1bb43c91",
+        "cedc9c9e8",
+        "c68d0fc66",
+        "c3af23bc2",
+        "c9fbfdb59",
+        "c3b28d5cf",
+        "c405de581",
+        "c2e10ffa5",
+        "c2c75691b",
+        "c0009e865",
+        "c61f6bd43",
+        "cddd932a9",
+        "cbb8f93ed",
+        "c8da073cd",
+        "c0a49c7e8"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 38,
+      "voices": 38,
+      "ownerVoices": 33,
+      "sources": 26,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 33,
+        "retailer": 5
+      },
+      "polarity": {
+        "positive": 16,
+        "negative": 19,
+        "mixed": 3,
+        "neutral": 0
+      },
+      "years": [
+        2016,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c5cca8f99",
+          "polarity": "negative",
+          "claim": "Owner says the machine jams easily and has been finicky since early on.",
+          "quote": "It jams easily.",
+          "url": "https://www.reddit.com/r/sewing/comments/13njtsu/did_i_get_a_dud_machine_or_is_it_me_janome_hd3000/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ca6f08782",
+          "polarity": "negative",
+          "claim": "HD3000BE owner reports the needle hitting the bobbin case and the bobbin thread not catching.",
+          "quote": "my bobbin thread won't catch",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1pka3ov/janome_hd3000be_needle_hitting_bobbin_case/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c29b4dc9a",
+          "polarity": "positive",
+          "claim": "Owner calls the HD3000 a workhorse.",
+          "quote": "It’s a workhorse",
+          "url": "https://www.reddit.com/r/sewing/comments/1teepjl/considering_a_janome_hd3000_shop_owner_is/om4g4m3/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c926bdb9a",
+          "polarity": "positive",
+          "claim": "Owner pushed it past its capacity repeatedly and it kept working.",
+          "quote": "and it keeps on ticking",
+          "url": "https://www.reddit.com/r/sewing/comments/stkepq/which_is_better_for_me_the_brother_cs600i_or/hx67sy7/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c538ce6a1",
+          "polarity": "mixed",
+          "claim": "Owner burned out the motor on a new HD3000 after 8 to 10 years of very heavy use.",
+          "quote": "burnt out the motor after 8-10 years of very heavy use",
+          "url": "https://www.reddit.com/r/sewing/comments/1teepjl/considering_a_janome_hd3000_shop_owner_is/om2a1gs/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c49f2c83c",
+        "c538ce6a1",
+        "c92ed22e8",
+        "c6660d422",
+        "c926bdb9a",
+        "c4b863510",
+        "c9f657e8b",
+        "c0e754692",
+        "ceb037135",
+        "cdc47372b",
+        "cbc86c6f3",
+        "cf071f01b",
+        "c3fc20d38",
+        "c3fa7776d",
+        "cef2957c7",
+        "c2c4a2d4f",
+        "caf40aff3",
+        "c944e6fe1",
+        "cf8b571b5",
+        "cfca71fd5",
+        "cf443dda8",
+        "c29b4dc9a",
+        "ca768692a",
+        "c5b717c2e",
+        "cf1d80d11",
+        "c721a3a4c",
+        "c74d8b2e8",
+        "c8a035637",
+        "c8e274868",
+        "c5cca8f99",
+        "ca6f08782",
+        "c26675ce6",
+        "c6d3d4d6c",
+        "ccd5301a2",
+        "cbbd3d5f0",
+        "c533ef949",
+        "ca8250781",
+        "c128382db"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 12,
+      "voices": 12,
+      "ownerVoices": 7,
+      "sources": 11,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 11,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 8,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2014,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cd1d78182",
+          "polarity": "negative",
+          "claim": "Owner of the black version says theirs did not come with a seam guide.",
+          "quote": "Yours included a seam guide! Damn I got shorted.",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1gms4ce/what_is_this_screw_hole_on_my_janome_hd3000/lw66nks/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cbe078768",
+          "polarity": "positive",
+          "claim": "Owner's box included a seam guide that fits the exposed screw hole.",
+          "quote": "The one included fits perfectly.",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1gms4ce/what_is_this_screw_hole_on_my_janome_hd3000/lw520xh/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c743267dd",
+          "polarity": "positive",
+          "claim": "Automatic buttonhole foot sews buttonholes up to about one inch.",
+          "quote": "The butthole foot will do it automatically",
+          "url": "https://www.reddit.com/r/sewing/comments/efl6fh/looking_to_maybe_upgrade_to_janome_hd3000/fc7hhog/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ccc50a6f4",
+        "c743267dd",
+        "cacf9073c",
+        "c8a7e43ef",
+        "c2583aee5",
+        "cb4f180af",
+        "ce8b3bb89",
+        "ce4e027bb",
+        "cbe90bb03",
+        "cbe078768",
+        "cd1d78182",
+        "c3f8d2511"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 11,
+      "voices": 10,
+      "ownerVoices": 6,
+      "sources": 10,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 8,
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 5,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2022,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cc4ddb1f3",
+          "polarity": "negative",
+          "claim": "Commenter says the internals are mostly plastic, with metal only in the head and feed dog assembly.",
+          "quote": "The ONLY metal is in the head and the feed dog assembly.",
+          "url": "https://www.reddit.com/r/sewing/comments/16l9lda/has_the_janome_hd3000_motor_changed/kdsx9ht/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c22e9b200",
+          "polarity": "negative",
+          "claim": "Writer says a plastic pin holds the feed dog assembly and is hit when feed dogs are raised or lowered.",
+          "quote": "The feed dogs have a plastic pin holding the assembly in place.",
+          "url": "https://www.reddit.com/r/sewing/comments/zm8bil/janome_hd30005000_vs_baby_lock_zeal_vs/j346rar/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c7ce04f64",
+          "polarity": "positive",
+          "claim": "Buyer praises the mechanical build and metal parts.",
+          "quote": "good construction (metal parts)",
+          "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c986be87e",
+          "polarity": "positive",
+          "claim": "Former owner who made queen quilts on it calls the machine very solid.",
+          "quote": "the machine itself is very solid",
+          "url": "https://www.reddit.com/r/quilting/comments/1ox7hd2/anyone_quilting_on_the_janome_hd3000_or_viking/nowgggx/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c7a05c39c",
+          "polarity": "mixed",
+          "claim": "Owner notes some plastic parts but a lot of metal.",
+          "quote": "There are some plastic parts to the machine, but there is a lot of metal.",
+          "url": "https://www.amazon.com/dp/B07D7HFT9L",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "ca40cf183",
+        "c986be87e",
+        "cded0dd09",
+        "cc4ddb1f3",
+        "c7ce04f64",
+        "c7a05c39c",
+        "c9a6b58ff",
+        "c88c7b669",
+        "c22e9b200",
+        "ceb4b3a67",
+        "c94bf299e"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 9,
+      "voices": 9,
+      "ownerVoices": 8,
+      "sources": 7,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 6,
+        "retailer": 3
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 5,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2012,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cc588cfdc",
+          "polarity": "negative",
+          "claim": "Owner of the same machine says winding bobbins at low speed gives a loose wind.",
+          "quote": "Winding at a lower speed will make lt too loose.",
+          "url": "https://www.reddit.com/r/sewhelp/comments/tb1143/why_is_my_bobbin_winding_like_this_how_do_i_fix/i0736yc/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c5911dbc4",
+          "polarity": "negative",
+          "claim": "Owner had to run top tension at 8 to avoid very loose stitches.",
+          "quote": "anything below gives me loose to super loose stitches",
+          "url": "https://www.reddit.com/r/sewing/comments/13njtsu/did_i_get_a_dud_machine_or_is_it_me_janome_hd3000/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c45026432",
+          "polarity": "positive",
+          "claim": "New owner found tension perfect out of the box on a simple project.",
+          "quote": "the tension was perfect",
+          "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cfdaa057a",
+          "polarity": "positive",
+          "claim": "Owner reports no tension problems.",
+          "quote": "No problems with the tension.",
+          "url": "https://www.amazon.com/dp/B07D7HFT9L",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c4d697975",
+          "polarity": "mixed",
+          "claim": "Owner had uneven bobbin winding that was fixed by careful tensioning.",
+          "quote": "some uneven bobbins but I fixed that after being really careful with the tensioning",
+          "url": "https://www.reddit.com/r/sewing/comments/zm8bil/janome_hd30005000_vs_baby_lock_zeal_vs/j9f9sie/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c5b2c679d",
+        "cb1e99fb9",
+        "c45026432",
+        "cbd716e6e",
+        "cfdaa057a",
+        "c4d697975",
+        "c5911dbc4",
+        "cc588cfdc",
+        "c3ad91f1c"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 8,
+      "voices": 8,
+      "ownerVoices": 6,
+      "sources": 7,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 7,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 2,
+        "mixed": 2,
+        "neutral": 1
+      },
+      "years": [
+        2012,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cc0e6457e",
+          "polarity": "negative",
+          "claim": "Owner says feed dogs sometimes fail to grip when starting a seam on thick layers.",
+          "quote": "the feed dogs don't seem to grip and feed the fabric properly",
+          "url": "https://www.reddit.com/r/sewing/comments/gjl41y/somewhat_disappointed_in_my_new_janome_hd3000top/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c1dde0fbf",
+          "polarity": "negative",
+          "claim": "Feed dogs marked and damaged leather during stitching.",
+          "quote": "the feed dogs (I think) are tearing into the leather leaving a line of damage",
+          "url": "https://www.reddit.com/r/sewing/comments/a6fqhe/help_janome_hd3000_feed_dogs_marring_leather/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c73f39d44",
+          "polarity": "positive",
+          "claim": "Owner finds feeding good enough that a walking foot has not been needed, even on silnylon.",
+          "quote": "because it feeds so well",
+          "url": "https://www.reddit.com/r/myog/comments/1kqqp1n/elna_su_62c_vs_janome_hd_3000/mt8klx3/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c53119f32",
+          "polarity": "positive",
+          "claim": "Owner says it goes through most materials well.",
+          "quote": "It tends to go through most materials well.",
+          "url": "https://www.reddit.com/r/sewing/comments/stkepq/which_is_better_for_me_the_brother_cs600i_or/hx67sy7/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c0d680e4d",
+          "polarity": "mixed",
+          "claim": "Feed is not weak but gets sloppy when pushing heavy or thick material.",
+          "quote": "it can get sort of sloppy",
+          "url": "https://www.reddit.com/r/sewing/comments/15xafy1/janome_hd3000_necchi_q132a_or_something_else/jx619z1/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cd1497c5f",
+          "polarity": "mixed",
+          "claim": "Owner says the 7 point feed system feeds thick multi-layer denim better than their other machine.",
+          "quote": "I had hoped the Janome HD3000 would feed better with the 7 point feed system",
+          "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c5215a6d6",
+        "c53119f32",
+        "c1dde0fbf",
+        "ca09e7404",
+        "c73f39d44",
+        "cc0e6457e",
+        "cd1497c5f",
+        "c0d680e4d"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 9,
+      "voices": 8,
+      "ownerVoices": 6,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 8
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 7,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c3c45b0cf",
+          "polarity": "negative",
+          "claim": "Commenter says the LED light barely illuminates the needle plate.",
+          "quote": "It barely lights the needle plate",
+          "url": "https://www.reddit.com/r/sewing/comments/16l9lda/has_the_janome_hd3000_motor_changed/kdsyyna/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c0509edd7",
+          "polarity": "negative",
+          "claim": "Owner says the LED lamps on the machine cannot be replaced.",
+          "quote": "since the LED's aren't replaceable",
+          "url": "https://www.reddit.com/r/sewing/comments/1teepjl/considering_a_janome_hd3000_shop_owner_is/om2aryy/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cb4ee6d72",
+        "c1492bcc4",
+        "cbcf9aeda",
+        "c0509edd7",
+        "ca4c5bdd4",
+        "cf3741b41",
+        "c31078d59",
+        "c3c45b0cf",
+        "c9adab906"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 7,
+      "voices": 7,
+      "ownerVoices": 6,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 5,
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2016,
+        2023
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c019a4003",
+          "polarity": "negative",
+          "claim": "Owner dislikes the buzzing sound the machine makes at start.",
+          "quote": "I HATE that buzzing sound",
+          "url": "https://www.reddit.com/r/sewing/comments/10q9xyp/janome_hd3000_foot_pedal_too_fast/j6xr6gt/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c6246ad71",
+          "polarity": "negative",
+          "claim": "New owner reports a loud buzzing or humming noise whenever the machine is switched on.",
+          "quote": "it makes a loud buzzing/humming noise",
+          "url": "https://www.reddit.com/r/sewhelp/comments/a9rn7h/help_janome_hd3000_making_humming_noise_does/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cdc5a639c",
+          "polarity": "positive",
+          "claim": "Owner says it sews quietly.",
+          "quote": "sews quiet and true",
+          "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c284fc55e",
+          "polarity": "positive",
+          "claim": "Owner of the black version says it is not very loud, more of a high-pitched whir at speed.",
+          "quote": "It's not super loud.",
+          "url": "https://www.reddit.com/r/sewing/comments/zm8bil/janome_hd30005000_vs_baby_lock_zeal_vs/j9f9sie/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ca9a59df4",
+        "c8676ff59",
+        "cdc5a639c",
+        "c6246ad71",
+        "c73214937",
+        "c019a4003",
+        "c284fc55e"
+      ]
+    },
+    {
+      "theme": "walking_foot",
+      "label": "Walking foot",
+      "statements": 7,
+      "voices": 6,
+      "ownerVoices": 3,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 6
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2021,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cce5c0ca2",
+          "polarity": "negative",
+          "claim": "Owner says the HD3000 has no true walking foot.",
+          "quote": "It doesn’t have a true walking foot",
+          "url": "https://www.reddit.com/r/myog/comments/1jrutde/would_the_janome_hd3000_be_an_upgrade_for_what_i/mlkhe8m/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c089aa15c",
+          "polarity": "positive",
+          "claim": "Owner says a walking foot came with the machine and is used often.",
+          "quote": "I use the walking foot it came with often",
+          "url": "https://www.reddit.com/r/sewing/comments/13jmo7n/janome_hd3000_maybe/jki9nkb/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cd058bd5d",
+          "polarity": "positive",
+          "claim": "Owner of the black version says it came with a walking foot.",
+          "quote": "it came with a walking foot so it kinda evens out lol",
+          "url": "https://www.reddit.com/r/sewing/comments/zm8bil/janome_hd30005000_vs_baby_lock_zeal_vs/j9f9sie/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c6a3f5c49",
+        "c431c5aba",
+        "ccdcf4bd6",
+        "cce5c0ca2",
+        "cd058bd5d",
+        "c089aa15c",
+        "c0e755221"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 4,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 5
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2022,
+        2023
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c92f0de3b",
+          "polarity": "negative",
+          "claim": "Owner found the stock HD3000 pedal goes from stopped to full speed too easily, making speed hard to modulate.",
+          "quote": "it goes from 0 to 100 really really easy",
+          "url": "https://www.reddit.com/r/sewing/comments/10q9xyp/janome_hd3000_foot_pedal_too_fast/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ca07514a6",
+        "c9a1e3c55",
+        "c92f0de3b",
+        "c40a0e83b",
+        "c93f2b598"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 6,
+      "voices": 5,
+      "ownerVoices": 4,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 4,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2023,
+        2024
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c28c6ad0d",
+          "polarity": "negative",
+          "claim": "Owner reports Janome and the dealer did not respond to repeated emails about the motor change.",
+          "quote": "all ghosted me when I repeatedly emailed them about the power plant swap",
+          "url": "https://www.reddit.com/r/sewing/comments/zm8bil/janome_hd30005000_vs_baby_lock_zeal_vs/j345l0p/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cb86a5b59",
+          "polarity": "negative",
+          "claim": "Commenter claims Janome pulled replacement parts for this model, making repair unlikely.",
+          "quote": "Janome removed any and all replacement parts for many of their models, this model included",
+          "url": "https://www.reddit.com/r/sewing/comments/16l9lda/has_the_janome_hd3000_motor_changed/kdsx9ht/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c9aa2b2a2",
+          "polarity": "positive",
+          "claim": "Owner calls the warranty great.",
+          "quote": "Great warranty",
+          "url": "https://www.amazon.com/dp/B07D7HFT9L",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cb86a5b59",
+        "c6bb73e25",
+        "c6b3e9ea8",
+        "ccaa8ae2f",
+        "c9aa2b2a2",
+        "c28c6ad0d"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 5,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "retailer": 4
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2016,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cb3e86b04",
+          "polarity": "negative",
+          "claim": "Owner says the machine was advertised as self-threading but is not.",
+          "quote": "The machine was advertised as being self-threading.",
+          "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c9320355c",
+          "polarity": "positive",
+          "claim": "Owner finds it simple to thread.",
+          "quote": "Simple to thread",
+          "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cfbf0cc45",
+          "polarity": "positive",
+          "claim": "Owner says the needle threader saves a lot of time.",
+          "quote": "The needle threader saves a ton of time.",
+          "url": "https://www.amazon.com/dp/B07D7HFT9L",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c0dbbdca7",
+        "c9320355c",
+        "cb3e86b04",
+        "cfbf0cc45",
+        "ceb6ea46e"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 4,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2016,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c7ae5e7ff",
+          "polarity": "positive",
+          "claim": "Owner of two HD3000s says they are light enough to carry to guild and classes.",
+          "quote": "Light enough to tote to guild and classes.",
+          "url": "https://www.amazon.com/dp/B07D7HFT9L",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cb0acc01c",
+          "polarity": "positive",
+          "claim": "Owner says the weight keeps the machine from moving around while sewing.",
+          "quote": "Has some weight to it so that it doesn't move all over creation",
+          "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c253ab881",
+          "polarity": "mixed",
+          "claim": "Owner calls the HD3000 heavy but still carries it to on-the-go sewing instead of lighter Brother machines.",
+          "quote": "It’s heavy, but I’ll take it with me when I do on the go stuff",
+          "url": "https://www.reddit.com/r/sewing/comments/1teepjl/considering_a_janome_hd3000_shop_owner_is/om4g4m3/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cb0acc01c",
+        "c7b361059",
+        "c7ae5e7ff",
+        "c253ab881",
+        "c308726e6"
+      ]
+    },
+    {
+      "theme": "free_motion",
+      "label": "Free-motion quilting",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 0,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2020,
+        2020
+      ],
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "cf2d641af",
+        "c4d71d38d"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2021,
+        2023
+      ],
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "cdd3f571f",
+        "cf72b0963"
+      ]
+    },
+    {
+      "theme": "thread_trimmer",
+      "label": "Thread trimmer",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2016,
+        2016
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c3a0c5140",
+          "polarity": "negative",
+          "claim": "Owner says the thread cutting wedge is hard to reach so they use scissors.",
+          "quote": "The thread-cutting wedge is practically out of reach",
+          "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c3a0c5140"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2014,
+        2014
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c884c6a93",
+          "polarity": "positive",
+          "claim": "Owner says routine maintenance kept performance good under heavy use.",
+          "quote": "The machine performed beautifully once I implemented routine maintenance",
+          "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c884c6a93"
+      ]
+    },
+    {
+      "theme": "differential_feed",
+      "label": "Differential feed",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2022,
+        2022
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c517e7236"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B00916Y4YM",
+      "pageRating": 4.4,
+      "pageCount": 658,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "lowRated": 0,
+      "sampled": "0 top reviews (0 US, 0 other countries) of 658 ratings"
+    },
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://sewingmachinesplus.com/products/janome-hd3000",
+      "pageRating": 4.68,
+      "pageCount": 44,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 3,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 39
+      },
+      "lowRated": 3,
+      "sampled": null
+    },
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B07D7HFT9L",
+      "pageRating": 4.4,
+      "pageCount": 333,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 7
+      },
+      "lowRated": 1,
+      "sampled": "8 top reviews (8 US, 0 other countries) of 333 ratings"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Stitch count",
+      "juki": "18 built-in stitches.",
+      "others": "The 2011 Janome blog says 19; dealers say 18.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome page",
+          "url": "https://www.janome.com/product/hd-3000/"
+        },
+        {
+          "label": "Janome brochure",
+          "url": "https://www.janome.com/wp-content/uploads/2019/11/hd3000-info-sheet.pdf"
+        }
+      ],
+      "field": "stitchCount",
+      "source": "page"
+    },
+    {
+      "label": "Top speed",
+      "juki": "860 spm in the 2011 launch post only; no speed on the current page.",
+      "others": "Dealers repeat 860.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Janome 2011 blog",
+          "url": "https://www.janome.com/introducing-the-hd1000-and-hd3000/"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "blog"
+    },
+    {
+      "label": "Feed dog",
+      "juki": "5-piece feed dog and drop feed (page, brochure). The 2011 blog says 7-piece.",
+      "others": "Our spec says 7-piece, taken from the blog.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome page",
+          "url": "https://www.janome.com/product/hd-3000/"
+        },
+        {
+          "label": "Janome brochure",
+          "url": "https://www.janome.com/wp-content/uploads/2019/11/hd3000-info-sheet.pdf"
+        },
+        {
+          "label": "Janome 2011 blog",
+          "url": "https://www.janome.com/introducing-the-hd1000-and-hd3000/"
+        }
+      ],
+      "field": "feedSystem",
+      "source": "page"
+    },
+    {
+      "label": "Buttonhole",
+      "juki": "One automatic buttonhole, called four-step in the spec table and one-step in the prose.",
+      "others": "Dealers say one-step.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome page",
+          "url": "https://www.janome.com/product/hd-3000/"
+        }
+      ],
+      "field": "buttonhole",
+      "source": "page"
+    },
+    {
+      "label": "Zigzag width",
+      "juki": "6.5 mm width, 4 mm length.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome page",
+          "url": "https://www.janome.com/product/hd-3000/"
+        }
+      ],
+      "field": "stitchWidthLength",
+      "source": "page"
+    },
+    {
+      "label": "Weight",
+      "juki": "18.7 lbs.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome page",
+          "url": "https://www.janome.com/product/hd-3000/"
+        }
+      ],
+      "field": "weightLb",
+      "source": "page"
+    },
+    {
+      "label": "Throat / workspace",
+      "juki": "Workspace 6.5 in wide by 4.6 in high; no needle-to-arm figure given.",
+      "others": "No dealer gives a figure that adds to it.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Janome page",
+          "url": "https://www.janome.com/product/hd-3000/"
+        }
+      ],
+      "field": "throatIn",
+      "source": "page"
+    },
+    {
+      "label": "Box contents",
+      "juki": "Zigzag, automatic buttonhole, blind hem, overedge, 2 mm rolled hem and zipper feet, hard cover.",
+      "others": "Dealers list fewer feet.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome page",
+          "url": "https://www.janome.com/product/hd-3000/"
+        }
+      ],
+      "field": "includedFeet",
+      "source": "page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "25 years materials and workmanship, 5 years electronic parts, 1 year labor; void if not bought from an authorized US Janome dealer.",
+      "others": "One dealer states the same 25/5/1; our spec note about 2 years electrical is not supported.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome warranty PDF",
+          "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+        }
+      ],
+      "field": "warranty",
+      "source": "warranty"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "HD1000",
+      "label": "Janome HD1000",
+      "rows": [
+        {
+          "feature": "Presser foot pressure",
+          "urls": 3,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "Commenters say the HD3000 has adjustable presser foot pressure and the HD1000 does not. Janome lists foot pressure adjustment for the HD3000 and not for the HD1000.",
+          "check": "Reddit comments confirmed by Janome product pages, 2026-10-02",
+          "examples": [
+            {
+              "claim_id": "c2749d0b1",
+              "claim": "Commenter lists adjustable foot pressure as an advantage the HD3000 has over the HD1000.",
+              "quote": "and adjustable foot pressure",
+              "url": "https://www.reddit.com/r/sewing/comments/1teepjl/considering_a_janome_hd3000_shop_owner_is/om2r83r/"
+            },
+            {
+              "claim_id": "c402ae6d8",
+              "claim": "Commenter says the HD1000 cannot adjust presser foot pressure, implying the HD3000 can.",
+              "quote": "The 1000 cannot adjust the pressor foot pressure",
+              "url": "https://www.reddit.com/r/myog/comments/o8g30w/i_made_a_video_comparing_the_janome_hd3000_and/h356uyt/"
+            },
+            {
+              "claim_id": "c290ee5e6",
+              "claim": "Owner upgraded from the HD-1000 because it lacked a presser foot pressure adjustment, which the HD-3000 provides.",
+              "quote": "it not having a presser foot pressure adjustment",
+              "url": "https://www.reddit.com/r/sewing/comments/10q9xyp/janome_hd3000_foot_pedal_too_fast/"
+            }
+          ],
+          "claimIds": [
+            "c2749d0b1",
+            "c402ae6d8",
+            "c290ee5e6"
+          ]
+        },
+        {
+          "feature": "Feed dogs",
+          "urls": 2,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "Commenters say the HD3000 has five-point feed dogs against three on the HD1000. Janome lists a 5-piece feed dog for the HD3000 and a 3-piece for the HD1000.",
+          "check": "Reddit comments confirmed by Janome product pages, 2026-10-02",
+          "examples": [
+            {
+              "claim_id": "c268b5a26",
+              "claim": "Commenter says the HD3000 has better feed dogs than the HD1000, 5 point against 3 point.",
+              "quote": "better feed dogs (5 point vs. 3 point)",
+              "url": "https://www.reddit.com/r/sewing/comments/1teepjl/considering_a_janome_hd3000_shop_owner_is/om2r83r/"
+            },
+            {
+              "claim_id": "c7dcd342a",
+              "claim": "Commenter guesses the HD3000 has more feed dog points that grip fabric better than the HD1000.",
+              "quote": "The 3000 may have more feed dog points, too",
+              "url": "https://www.reddit.com/r/sewing/comments/wm47le/juki_hzl70hw_vs_janome_hd3000/ik2ghks/"
+            }
+          ],
+          "claimIds": [
+            "c268b5a26",
+            "c7dcd342a"
+          ]
+        },
+        {
+          "feature": "Hook and bobbin",
+          "urls": 2,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "Commenters say the HD3000 has a rotary hook with a top-loading bobbin and the HD1000 an oscillating one. Janome lists a top-loading full rotary hook for the HD3000 and a front-loading vertical oscillating hook for the HD1000.",
+          "check": "Reddit comments confirmed by Janome product pages, 2026-10-02",
+          "examples": [
+            {
+              "claim_id": "c556c1063",
+              "claim": "Commenter says the HD1000 uses an oscillating hook while the HD3000 uses a rotary hook.",
+              "quote": "It fits the oscillating HD1000 and the rotary HD3000",
+              "url": "https://www.reddit.com/r/sewing/comments/1801oq2/does_this_fit_the_janome_hd3000/ka37hcp/"
+            },
+            {
+              "claim_id": "c56435efa",
+              "claim": "Commenter says the HD1000 uses an upright oscillating bobbin that sews slower than the HD3000 rotary bobbin.",
+              "quote": "the former has an upright, oscillating bobbin",
+              "url": "https://www.reddit.com/r/sewing/comments/wm47le/juki_hzl70hw_vs_janome_hd3000/ik2ghks/"
+            }
+          ],
+          "claimIds": [
+            "c556c1063",
+            "c56435efa"
+          ]
+        },
+        {
+          "feature": "Foot pedal",
+          "urls": 1,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "One commenter says the HD3000's foot pedal is more sensitive than the HD1000's. Janome publishes no pedal figures.",
+          "check": "unverified, Reddit only",
+          "examples": [
+            {
+              "claim_id": "ce88167dd",
+              "claim": "Owner says the HD-3000 pedal is much more sensitive than the HD-1000 pedal.",
+              "quote": "I don't know why they made the HD-3000 pedal so much more sensitive",
+              "url": "https://www.reddit.com/r/sewing/comments/10q9xyp/janome_hd3000_foot_pedal_too_fast/"
+            }
+          ],
+          "claimIds": [
+            "ce88167dd"
+          ]
+        },
+        {
+          "feature": "Stitches and buttonhole",
+          "urls": 0,
+          "classes": [],
+          "summary": "Janome lists 14 stitches and a four-step buttonhole for the HD1000, against 18 for the HD3000.",
+          "check": "Janome HD-1000 and HD-3000 product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Hook and feed",
+          "urls": 0,
+          "classes": [],
+          "summary": "The HD1000 has a front-loading vertical oscillating hook and a 3-piece feed dog; the HD3000 is listed with a top loading full rotary hook and a 5-piece feed dog.",
+          "check": "Janome HD-1000 and HD-3000 product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Width and weight",
+          "urls": 0,
+          "classes": [],
+          "summary": "5 mm maximum width and 16.8 lbs for the HD1000; 6.5 mm and 18.7 lbs for the HD3000.",
+          "check": "Janome product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Maker MSRP",
+          "urls": 0,
+          "classes": [],
+          "summary": "Janome shows $409 for the HD1000 and $559 for the HD3000.",
+          "check": "Janome product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "HD5000",
+      "label": "Janome HD5000",
+      "rows": [
+        {
+          "feature": "Maker spec table",
+          "urls": 0,
+          "classes": [],
+          "summary": "Janome's HD5000 table matches the HD3000 line for line: 18 stitches, 6.5 mm, 18.7 lbs, 5-piece feed dog, workspace 6.5 x 4.6 in. The page names no difference.",
+          "check": "Janome HD-5000 and HD-3000 product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Feed dog wording",
+          "urls": 0,
+          "classes": [],
+          "summary": "The HD5000 prose says seven-piece while its table says 5-piece, the same split as the HD3000 against its 2011 blog.",
+          "check": "Janome HD-5000 product page, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "HD9",
+      "label": "Janome HD9",
+      "rows": [
+        {
+          "feature": "Class",
+          "urls": 0,
+          "classes": [],
+          "summary": "The HD9 Professional is a straight-stitch-only machine up to 1,600 spm with a thread cutter, 32 lbs and an 8 x 5.5 in workspace; Janome lists $2,499.",
+          "check": "Janome HD9 Professional product page excerpt, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": [
+    {
+      "model": "Singer Heavy Duty 4423",
+      "claims": 4,
+      "sources": 4,
+      "favors": {
+        "this": 4,
+        "other": 0,
+        "mixed": 0
+      },
+      "dimensions": {
+        "this": [
+          {
+            "dimension": "drive system and build quality",
+            "n": 1
+          },
+          {
+            "dimension": "overall",
+            "n": 1
+          },
+          {
+            "dimension": "range of fabrics",
+            "n": 1
+          },
+          {
+            "dimension": "reliability",
+            "n": 1
+          }
+        ],
+        "other": []
+      },
+      "examples": [
+        {
+          "claim_id": "c04616546",
+          "dimension": "overall",
+          "favors": "this",
+          "claim": "Commenter says to choose the Janome over the Singer as a much better machine.",
+          "quote": "Get the Jamone, a much better machine.",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1dkel72/janome_hd3000_vs_singer_4423/l9hgt2b/"
+        }
+      ],
+      "claimIds": [
+        "ce4a6391e",
+        "c04616546",
+        "c35b4cf54",
+        "ca506fc86"
+      ]
+    }
+  ]
+}
