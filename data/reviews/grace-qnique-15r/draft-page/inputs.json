@@ -1,0 +1,576 @@
+{
+  "slug": "grace-qnique-15r",
+  "today": "2026-10-02",
+  "rules": "AGENTS.md rules 1 to 12 apply: spec-check not field-test, owner evidence labelled, paraphrase and attribute, no em or en dashes, never invent a spec, claims quoted not asserted, every spec sourced, model name is not a spec, conflicts listed, price bands not live prices.",
+  "spec": {
+    "slug": "grace-qnique-15r",
+    "brand": "Grace Company",
+    "model": "Q'nique 15R",
+    "series": "Q'nique",
+    "type": "long-arm",
+    "industrial": false,
+    "jobs": [
+      "quilting"
+    ],
+    "manufacturerUrl": "https://graceframe.com/en/sewing-machines/grace-15r",
+    "retailerUrl": "https://www.sewingmachinesplus.com/qnique-long-arm-quilter.php",
+    "priceUsdSeen": 5198,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Sew Vac Direct (bundle: 15R with Q-Zone Queen frame and bonus pack; no machine only price found)",
+    "specs": {
+      "stitchTypes": {
+        "value": "Straight stitch only; four stitch modes Precision, Cruise, Baste, Manual",
+        "source": "https://www.premierstitching.com/grace-qnique-15r-midarm-quilting-machine-hoop-frame-pro-frame-combo/"
+      },
+      "stitchCount": {
+        "value": 1,
+        "source": "https://graceframe.com/en/sewing-machines/grace-15r"
+      },
+      "maxSpm": {
+        "value": 1800,
+        "source": "https://graceframe.com/en/sewing-machines/grace-15r"
+      },
+      "threads": {
+        "value": null,
+        "source": null
+      },
+      "differentialFeed": {
+        "value": null,
+        "source": null
+      },
+      "throatIn": {
+        "value": 15,
+        "source": "https://graceframe.com/en/sewing-machines/grace-15r"
+      },
+      "throatHeightIn": {
+        "value": 8.5,
+        "source": "https://www.premierstitching.com/grace-qnique-15r-midarm-quilting-machine-hoop-frame-pro-frame-combo/"
+      },
+      "stitchRegulation": {
+        "value": "Built in stitch regulator",
+        "source": "https://graceframe.com/en/sewing-machines/grace-15r"
+      },
+      "needleSystem": {
+        "value": "135x5 / DPx5 (equivalents 134, 135x7, 797, SY 1955)",
+        "source": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+      },
+      "bobbin": {
+        "value": "M class, easy access bobbin, automatic bobbin winder",
+        "source": "https://www.premierstitching.com/grace-qnique-15r-midarm-quilting-machine-hoop-frame-pro-frame-combo/"
+      },
+      "lighting": {
+        "value": "LED needle light",
+        "source": "https://www.sewvacdirect.com/grace-qnique-15r-midarm-quilting-machine-with-q-zone-queen-frame-with-bonus-bundle/"
+      },
+      "display": {
+        "value": "Full color OLED screen between the handlebars",
+        "source": "https://www.sewvacdirect.com/grace-qnique-15r-midarm-quilting-machine-with-q-zone-queen-frame-with-bonus-bundle/"
+      },
+      "handles": {
+        "value": "Adjustable comfort grip handles, fold to a micro handle position",
+        "source": "https://www.premierstitching.com/grace-qnique-15r-midarm-quilting-machine-hoop-frame-pro-frame-combo/"
+      },
+      "presserFootLift": {
+        "value": null,
+        "source": null
+      },
+      "threadTrimmer": {
+        "value": null,
+        "source": null
+      },
+      "feedSystem": {
+        "value": "Frame mounted free motion (no feed dogs)",
+        "source": "https://graceframe.com/en/sewing-machines/grace-15r"
+      },
+      "buttonhole": {
+        "value": null,
+        "source": null
+      },
+      "motor": {
+        "value": "High power motor rated to 1,800 spm",
+        "source": "https://www.sewvacdirect.com/grace-qnique-15r-midarm-quilting-machine-with-q-zone-queen-frame-with-bonus-bundle/"
+      },
+      "frame": {
+        "value": "Sold machine only or bundled; compatible with all Grace frames (Q-Zone Hoop, Q-Zone Queen, Continuum, Continuum II) and most other frames",
+        "source": "https://graceframe.com/en/sewing-machines/grace-15r"
+      },
+      "weightLb": {
+        "value": 42,
+        "source": "https://www.sewvacdirect.com/grace-qnique-15r-midarm-quilting-machine-with-q-zone-queen-frame-with-bonus-bundle/"
+      },
+      "dimensionsIn": {
+        "value": null,
+        "source": null
+      },
+      "includedFeet": {
+        "value": null,
+        "source": null
+      },
+      "warrantyUs": {
+        "value": "1 yr limited electrical parts, 2 yr mechanical parts, 5 yr cast body",
+        "source": "https://www.allbrands.com/categories/4253"
+      }
+    },
+    "claims": [
+      "\"superior stitch quality\" (dealer copy repeating manufacturer language, premierstitching.com)",
+      "\"economical price tag\" (manufacturer language quoted by dealers)",
+      "\"Grace continues to honor and fully support services and warranties for the 15R\" (manufacturer statement, graceframe.com 15R page)"
+    ],
+    "conflicts": [
+      "Stitch regulation: graceframe.com says the 15R features stitch regulation; the LeahDay.com review of the \"Qnique 14+ / 15R sit down\" says that configuration has no stitch regulator and is controlled by foot pedal. The Leah Day page describes the sit down (table) configuration, where a regulator has nothing to track. Catalog will use: built in stitch regulation on a frame, per Grace.",
+      "Model status: Grace says the Q'nique 15 PRO was discontinued and replaced by the 16X, and that the 15R \"may still be purchased from a Grace dealer\". The 15R is a legacy model, not the current mid range machine. Catalog will mark it as legacy, still sold, with the 16X as the successor to check.",
+      "Price: only bundle prices were found ($5,198 with Q-Zone Queen frame at Sew Vac Direct; a used 15R with Continuum King frame at $6,000 on the APQS forum). Machine only MSRP was not visible. Render machine only price as [verify].",
+      "Class naming: dealers call the 15R a \"midarm\"; the task and Grace's own frame marketing treat 15 in machines as entry longarms. Catalog will use long-arm type with a note that 15 in sits at the mid-arm / long-arm boundary."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "One owner reports the recommended Finesse thread frayed and broke, that setting tension took many bobbins of trial, and that skipped stitches followed once tension was right.",
+        "tone": "negative",
+        "source": "https://sewnbysophia.com/grace-qnique-quilting-machine-review/"
+      },
+      {
+        "theme": "A long time reviewer describes the machine as simple to run, says she finished many more quilts on it, and frames tension as the normal longarm learning curve rather than a defect.",
+        "tone": "positive",
+        "source": "https://leahday.com/pages/sewing-machine-review-grace-qnique-14-sit-down-longarm"
+      },
+      {
+        "theme": "Tension troubleshooting on the Q'nique is common enough that a dedicated walk through exists for it.",
+        "tone": "mixed",
+        "source": "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm/"
+      }
+    ],
+    "evidence": "mixed",
+    "buyerQuestions": [
+      "Is the Grace Q'nique 15R discontinued?",
+      "What is the difference between the Q'nique 15R, 15M and 15 PRO?",
+      "Does the Q'nique 15R have a stitch regulator?",
+      "What frames fit the Q'nique 15R?",
+      "How much is the Q'nique 15R without a frame?",
+      "Can the Q'nique 15R be used sit down?",
+      "What needle does the Q'nique 15R use?",
+      "How does the Q'nique 15R compare with the Handi Quilter Moxie?",
+      "What is the warranty on Grace Q'nique machines?"
+    ],
+    "crossShop": [
+      {
+        "slug": "handi-quilter-moxie",
+        "why": "Same 15 in throat and 1,800 spm, both regulated; the Moxie bundles an 8 ft frame while the Grace pairs with cheaper hoop frames or a Continuum"
+      },
+      {
+        "slug": "juki-tl-18qvp",
+        "why": "For buyers unsure whether they need a frame at all"
+      },
+      {
+        "slug": "bernina-570-qe",
+        "why": "Comparable total spend for a domestic machine with BSR and dealer training"
+      },
+      {
+        "slug": "janome-mc6650",
+        "why": "A lower cost 10 in throat domestic option for table quilting"
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "editorial": {
+      "verdict": "The Q'nique 15R is a legacy 15 in, 1,800 spm stitch regulated machine that Grace still sells through dealers while the 16X takes its place in the lineup. Its case is price flexibility: it can sit on a $1,399 hoop frame or a full Continuum, so the entry cost can be lower than a Moxie bundle.",
+      "whoFor": "A budget focused quilter who wants a regulated 15 in machine, is comfortable buying a superseded model, and wants to choose the frame size to fit the room.",
+      "skipIf": "You want the current model with the longest support horizon (16X or 19X), you need more than about 8 in of vertical clearance, or you would rather have a single bundled price from one brand.",
+      "keySpec": "15 in throat · 8.5 in height · 1,800 spm · stitch regulation built in · frame sold separately or bundled",
+      "strengths": [
+        "Built in stitch regulation with Precision, Cruise, Baste and Manual modes",
+        "Works on every Grace frame including the 54 in wide Q-Zone Hoop for small rooms",
+        "42 lb head with M class bobbin and industry standard 134 class needles"
+      ],
+      "weaknesses": [
+        "Superseded model; Grace says it may still be purchased but the 15 PRO was replaced by the 16X",
+        "Machine only price and dimensions were not published on pages found",
+        "Warranty is shorter than Handi Quilter's (1 yr electrical, 2 yr mechanical, 5 yr casting)"
+      ],
+      "checks": [
+        {
+          "title": "Ask which frame the quote includes",
+          "body": "Grace bundles range from the Q-Zone Hoop ($1,399) to Continuum II; the frame can be a quarter to half of the total."
+        },
+        {
+          "title": "Confirm new versus recertified",
+          "body": "Several listings for Q'nique 15 class machines are recertified units with a new warranty. Check the box label and warranty paperwork."
+        },
+        {
+          "title": "Compare against the 16X before buying",
+          "body": "Grace names the 16X as the replacement for the 15 PRO. Price the current model so you know what the legacy discount actually is."
+        }
+      ],
+      "realCost": [
+        {
+          "item": "Frame",
+          "note": "Q-Zone Hoop $1,399; Q-Zone Queen $1,899 (one dealer showed $2,199.95 regular); Continuum II price not shown on manufacturer site"
+        },
+        {
+          "item": "Stitch regulator",
+          "note": "Built in on the 15R; the 15M is the manual only version"
+        },
+        {
+          "item": "Robotics",
+          "note": "Quilter's Creative Touch: QCT5 was listed $2,294 to $3,654 and is discontinued in favor of QCT6; QCT6 price not found"
+        },
+        {
+          "item": "Delivery and setup",
+          "note": "Some online dealers ship free; frames arrive flat packed for owner assembly"
+        }
+      ]
+    },
+    "sources": [
+      "https://graceframe.com/en/sewing-machines/grace-15r",
+      "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf",
+      "https://www.premierstitching.com/grace-qnique-15r-midarm-quilting-machine-hoop-frame-pro-frame-combo/",
+      "https://www.sewvacdirect.com/grace-qnique-15r-midarm-quilting-machine-with-q-zone-queen-frame-with-bonus-bundle/",
+      "https://www.allbrands.com/categories/4253",
+      "https://leahday.com/pages/warranty",
+      "https://www.sewingpartsonline.com/products/q-zone-hoop-frame-grace-company",
+      "https://www.qualitysewing.com/products/grace-q-zone-queen-frame",
+      "https://www.sewingmachinesplus.com/qnique-long-arm-quilter.php",
+      "https://forum.apqs.com/topic/46471-grace-qnique-15r-long-arm-quilting-machine-with-continuum-king-frame/",
+      "https://leahday.com/pages/sewing-machine-review-grace-qnique-14-sit-down-longarm",
+      "https://sewnbysophia.com/grace-qnique-quilting-machine-review/",
+      "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm/",
+      "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro"
+    ]
+  },
+  "manufacturer": {
+    "documents": [
+      {
+        "id": "maker-page",
+        "url": "https://graceframe.com/en/sewing-machines/grace-15r",
+        "type": "product page",
+        "fetched": "2026-10-02",
+        "note": "Headline: no longer available for new purchase; comparison table with MSRPs; 15 inch throat wording; undated"
+      },
+      {
+        "id": "manual",
+        "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf",
+        "type": "instruction manual PDF",
+        "fetched": "2026-10-02",
+        "note": "44 pages, file dated 18-12-17 in its name; Technical Data page 5 (dimensions, weight, spm, power, throat 15 W x 8.5 H); 10 MB text PDF; needle system not stated in text"
+      },
+      {
+        "id": "warranty",
+        "url": "https://graceframe.com/en/page/warranty",
+        "type": "warranty page",
+        "fetched": "2026-10-02",
+        "note": "Names Q'nique 15R in the 2 year and 5 year limited warranty lists; non-transferable"
+      },
+      {
+        "id": "maker-15pro",
+        "url": "https://graceframe.com/en/sewing-machines/grace-15pro",
+        "type": "sibling product page",
+        "fetched": "2026-10-02",
+        "note": "Same comparison table; 15 Pro 2,000 spm, touch screen, MSRP $4,999.95"
+      },
+      {
+        "id": "smp-15pro",
+        "url": "https://sewingmachinesplus.com/products/qnique-long-arm-quilter",
+        "type": "dealer page (not maker)",
+        "fetched": "2026-10-02",
+        "note": "Serves the recertified 15 PRO, not the 15R; used only for the sibling needle and spec table; no brochure or catalog found for the 15R"
+      }
+    ],
+    "facts": [
+      {
+        "field": "status",
+        "value": "Maker page headline: \"No longer available for new purchase\". Page also says \"The 15R may still be purchased from a Grace dealer\" and that Grace continues to honor and support warranties; names the 15 Pro as the similar machine.",
+        "source": "maker-page",
+        "vs_spec": "contradicts",
+        "spec_value": "discontinued false; replacedBy 16X",
+        "note": "Our spec marks the 15R as not discontinued and names the 16X as successor. The maker 15R page says no longer available for new purchase and points to the 15 Pro, not the 16X. Page wording only; the 15R page is undated.",
+        "site": {
+          "label": "Availability",
+          "juki": "\"No longer available for new purchase\"; dealers may still sell it; points to the 15 Pro.",
+          "others": "Our earlier note named the 16X as successor.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Grace 15R page",
+              "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+            }
+          ]
+        }
+      },
+      {
+        "field": "throat",
+        "value": "Maker wording: \"15 inch throat space from the needle to the back of the work area\". Manual: \"Quilting Arm Length: 15\" W 8.5\" H\".",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "15 in",
+        "note": "Maker states needle to back of work area, which matches needle-to-body in our rule 11. Vertical height 8.5 in is the manual's figure.",
+        "site": {
+          "label": "Throat space",
+          "juki": "15 in, needle to the back of the work area; manual: 15 in W x 8.5 in H.",
+          "others": "Matches our spec.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Grace 15R page",
+              "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+            },
+            {
+              "label": "Instruction manual",
+              "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "throatHeightIn",
+        "value": "8.5 in (216 mm)",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "8.5 in"
+      },
+      {
+        "field": "maxSpm",
+        "value": "1,800 stitches per minute maximum; 90 minimum",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "1800",
+        "note": "Page comparison table also says 1,800 for the 15R (15 Pro 2,000)."
+      },
+      {
+        "field": "stitchRegulation",
+        "value": "Page: \"features stitch regulation\"; modes Manual, Cruise, Precise, Baste (manual names Regulated Precise, Regulated Cruise, Manual, Baste). The 15M has none.",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "Built in stitch regulator",
+        "note": "Settable SPI 4 to 16 in the manual's menu."
+      },
+      {
+        "field": "weightLb",
+        "value": "42 lb / 19 kg",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "42"
+      },
+      {
+        "field": "dimensionsIn",
+        "value": "Height 480 mm (19 in), width 395 mm (15.5 in), length 585 mm (23 in)",
+        "source": "manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec value was null. Same figures appear on the SMP 15 Pro page (19 x 15.5 x 23 in), so they may be shared across the 15 series; the 15R manual is the primary source."
+      },
+      {
+        "field": "power",
+        "value": "Input 110-220 VAC; peak power consumption 300 W; timing belt system",
+        "source": "manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Not in our spec."
+      },
+      {
+        "field": "bobbin",
+        "value": "Large M class; built in bobbin winder with its own motor; easy access bobbin",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "M class, easy access, automatic winder"
+      },
+      {
+        "field": "display",
+        "value": "Full color OLED (comparison table); the manual lists an OLED screen",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "Full color OLED screen"
+      },
+      {
+        "field": "lighting",
+        "value": "Daylight color balanced LED work lights with adjustable brightness",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "LED needle light"
+      },
+      {
+        "field": "needleSystem",
+        "value": "Not found in the manual's text layer. Dealer page for the 15 PRO (not the 15R) lists 135x5 / DPx5 (equivalents 134, 135x7, 797, SY 1955).",
+        "source": "smp-15pro",
+        "vs_spec": "contradicts",
+        "spec_value": "135x5 / DPx5 (equivalents 134, 135x7, 797, SY 1955)",
+        "note": "Our spec cites the 15R manual for this figure but the manual text does not state it. Treat the needle system as a 15 PRO dealer figure until a 15R document confirms it. The manual says to install the needle with the scarf toward the throat."
+      },
+      {
+        "field": "price",
+        "value": "MSRP machine only $4,499.95 (comparison table); with Q-Zone Hoop-Frame $6,499.90; with Q-Zone Queen $6,699.90; with Continuum II $7,499.90. Maker lists the 15 Pro at $4,999.95 and the 15M at $3,499.95.",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": "priceUsdSeen 5198 (bundle, Sew Vac Direct)",
+        "note": "Spec had no machine only price. Maker MSRP; not a dealer price, and the page is undated."
+      },
+      {
+        "field": "frames",
+        "value": "Page: qualifying frames for the bundle saving are Q'one Hoop-Frame, Q-Zone Hoop-Frame Pro, Q-Zone Queen and the Cutie tabletop frame; bundle prices shown for Q-Zone Hoop-Frame, Q-Zone Queen and Continuum II.",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": "compatible with all Grace frames and most other frames",
+        "note": "The maker page does not state compatibility with other brands' frames; that remains a dealer claim."
+      },
+      {
+        "field": "warrantyUs",
+        "value": "Warranty page: 2 Year Limited Warranty lists Q'nique 15R and all Q'nique electronic parts; 5 Year Limited Warranty on the cast metal body lists Q'nique 15R. Product page says electronics 1 year, non-moving parts 2 years, body 5 years. Warranty does not transfer to a second owner; shipping to Grace is the customer's cost; 30 day money back applies to direct purchases only.",
+        "source": "warranty",
+        "vs_spec": "contradicts",
+        "spec_value": "1 yr electrical, 2 yr mechanical, 5 yr cast body",
+        "note": "Maker page versus warranty page disagree on electronics (1 year on the product page, 2 years on the warranty page). Model specific: the 15R is named in the lists. Warranty not transferable.",
+        "site": {
+          "label": "Warranty",
+          "juki": "Product page: electronics 1 yr, non-moving parts 2 yr, body 5 yr. Warranty page: 2 yr limited incl. electronic parts, 5 yr cast body. Not transferable.",
+          "others": "Our spec follows the product page wording.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Grace warranty page",
+              "url": "https://graceframe.com/en/page/warranty"
+            },
+            {
+              "label": "Grace 15R page",
+              "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+            }
+          ]
+        }
+      },
+      {
+        "field": "claims",
+        "value": "\"Superior stitching quality\" (heading); \"high-end long-arm features\" and \"perfect mid-arm quilting machine\" (page meta description); \"Superior Live Technical Support\"; \"no questions asked\" 30 day return (direct purchases only per the warranty page).",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Marketing wording, quoted as claims only. Maker calls it a mid-arm in its own description."
+      },
+      {
+        "field": "siblings",
+        "value": "15 Pro: 2,000 spm, full color touch screen, MSRP $4,999.95. 15M: no stitch regulation, constant speed only, LCD number read out, 1,800 spm, MSRP $3,499.95. All three list a 15 in throat.",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Maker comparison table. 15 Pro page confirmed same table and a promotional price of $3,989 on the day fetched (page undated)."
+      },
+      {
+        "field": "sellerListing",
+        "value": "The SMP URL in our spec (qnique-long-arm-quilter) now serves a recertified Grace Q'nique 15 PRO, not the 15R. Its 79 reviews and 4.49 rating belong to that listing.",
+        "source": "smp-15pro",
+        "vs_spec": "contradicts",
+        "spec_value": "retailerUrl sewingmachinesplus.com/qnique-long-arm-quilter.php",
+        "note": "Do not use that page's rating or reviews for the 15R. Page itself notes the 15R and 15M run 1,800 spm and the 15 Pro 2,000 spm. Review dates run 2022 to 2024 and are marked collected from another provider.",
+        "site": {
+          "label": "Dealer page",
+          "juki": "Not a maker figure.",
+          "others": "SMP page is for the 15 PRO (recertified, $3,999 on the day fetched).",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "SMP listing",
+              "url": "https://sewingmachinesplus.com/products/qnique-long-arm-quilter"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "rollup": {
+    "status": "draft",
+    "method": {
+      "sources": 5,
+      "itemsCollected": 38,
+      "statements": 7,
+      "voices": 6,
+      "ownerVoices": 5,
+      "dateRange": [
+        2021,
+        2025
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 5,
+          "items": 36
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Not a 15R rating: the Sewing Machines Plus page in our spec now lists the recertified Q'nique 15 PRO, so its 79 reviews are not counted here. No Amazon listing for the 15R machine was found; only bobbin case accessories and 16X listings appeared. Retailer ratings are therefore absent and the owner view rests on a small Reddit sample."
+    ],
+    "ratings": [],
+    "themes": [],
+    "siblings": [
+      {
+        "label": "Grace Company Q'nique 15 PRO",
+        "rows": [
+          {
+            "feature": "Maker listed speed and screen",
+            "summary": "2,000 spm and a 2.5 in full color touch screen, against 1,800 spm and OLED on the 15R.",
+            "check": "Grace 15 Pro page, fetched 2026-10-02"
+          },
+          {
+            "feature": "Maker MSRP, machine only",
+            "summary": "$4,999.95 against $4,499.95 for the 15R.",
+            "check": "Grace comparison table, fetched 2026-10-02; page undated"
+          }
+        ]
+      },
+      {
+        "label": "Grace Company Q'nique 15M",
+        "rows": [
+          {
+            "feature": "Stitch regulation",
+            "summary": "None. Manual constant speed mode only, LCD number read out, 1,800 spm.",
+            "check": "Grace 15R and 15 Pro pages, fetched 2026-10-02"
+          },
+          {
+            "feature": "Maker MSRP, 15M",
+            "summary": "$3,499.95 machine only.",
+            "check": "Grace comparison table, fetched 2026-10-02; page undated"
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "checks": [
+    {
+      "level": "warn",
+      "id": "reddit",
+      "message": "few Reddit threads name the model in the title; collection may be on loose matches"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"needleSystem\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"sellerListing\" but the spec's conflicts do not mention it"
+    }
+  ],
+  "editorNotes": {
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Not a 15R rating: the Sewing Machines Plus page in our spec now lists the recertified Q'nique 15 PRO, so its 79 reviews are not counted here. No Amazon listing for the 15R machine was found; only bobbin case accessories and 16X listings appeared. Retailer ratings are therefore absent and the owner view rests on a small Reddit sample."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction."
+  },
+  "siteFieldsNow": "  \"grace-qnique-15r\": {\n    series: \"Qnique\",\n    score: 8.0,\n    scoredFor: \"quilting\",\n    reason: \"The frame maker's own 15 in head, usually sold as a bundle.\",\n    context: \"Long-arm on a frame · in Quilting hub\",\n    alternatives: [\n      { slug: \"handi-quilter-moxie\", label: \"Cross-shop\", note: \"The other 15 in entry long-arm.\" },\n      { slug: \"juki-tl-18qvp\", label: \"Sit-down\", note: \"8.5 in TL arm per dealers, no frame.\" },\n    ],\n    imageAlt: \"Grace Q'nique 15R long-arm quilting machine\",\n    lastUpdated: \"2026-09-29\",\n  },",
+  "comparesNow": []
+}

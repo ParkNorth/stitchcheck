@@ -1,0 +1,113 @@
+{
+  "specs": {
+    "differentialFeed": { "value": "0.5 to 2.25", "source": "https://www.janome.com/product/coverpro-2000cpx/" },
+    "weightLb": { "value": 19, "source": "https://www.janome.com/product/coverpro-2000cpx/" },
+    "feedSystem": { "value": "Differential feed; Tension Level Control (TLC); no knife", "source": "https://www.janome.com/product/coverpro-2000cpx/" },
+    "threadingSystem": { "value": "Manual, color-coded thread guides with threading chart; tension release lever", "source": "https://www.janome.com/product/coverpro-2000cpx/" },
+    "needleSystem": { "value": "SCHMETZ ELx705; #80/12 installed, standard set 2 x 80/12 and 3 x 90/14 per manual", "source": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf" },
+    "includedFeet": { "value": "Snap-on foot; foot control, lint brush, needle threader, 2 screwdrivers, large spool holder, dust cover, 4 cones of thread (maker page list; manual list differs)", "source": "https://www.janome.com/product/coverpro-2000cpx/" },
+    "warrantyUs": { "value": "25 yr parts and workmanship, 5 yr electronic components, 1 yr free labor (Janome America general terms, not model-specific)", "source": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf" }
+  },
+  "conflicts": [
+    "Seam Tightening System: our earlier spec credited STS to the 2000CPX, but the Janome 2000CPX page lists TLC and a tension release device and the manual mentions neither; STS appears only on the 1000CPX page, so it is removed here.",
+    "Warranty: Janome America's general terms say 5 years on electronic component parts and 1 year free labor (Janome warranty PDF, read by OCR), while a dealer page says 2 years electrical; the maker document is not model-specific.",
+    "Needles: the 2019 manual says the machine is installed with #80/12 and the standard set is 2 x 80/12 and 3 x 90/14, while our earlier spec said 90/14 supplied; current packing may differ.",
+    "Accessories: the Janome product page list (foot control, lint brush, needle threader, two screwdrivers, large spool holder, 4 cones of thread, dust cover) and the manual list (needle set, screwdrivers, tweezers, nets, spool holder caps, lint brush, needle threader, attachment screws) disagree, so box contents are soft.",
+    "Bed space: Janome says 'Extra large bed space 4 x 5.5 in' without saying which side is which and a dealer repeats it as sewing area; this is not a needle-to-body throat figure, so throat stays [verify].",
+    "Tension release: our earlier spec said the lever was added over the 1000CPX, but the 1000CPX page also lists a tension release device, so that claim is soft."
+  ],
+  "claims": [
+    "\"Tension Level Control (TLC)\" (manufacturer trademark, Janome product page)",
+    "\"Extra large bed space 4\\\" x 5.5\\\"\" (manufacturer claim, Janome product page)",
+    "\"long arm, heavy-duty cover hem machine that looks and operates like a sewing machine\" (Janome marketing wording; not the quilting long-arm tier)",
+    "\"the most advanced Cover Hem machine available\" (Janome marketing wording)",
+    "\"industrial-style cover hem machine\" (Janome marketing wording)",
+    "\"Advanced coverstitch machine\" (dealer listing title)"
+  ],
+  "evidence": "positioning",
+  "sources": [
+    "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf",
+    "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+    "https://www.janome.com/product/coverpro-1000cpx/",
+    "https://www.janome.com/product/coverpro-3000-professional/",
+    "https://www.amazon.com/dp/B013I7MB1M"
+  ],
+  "editorial": {
+    "verdict": "A spec-led pick for hemming knits: three coverstitch widths, a free arm and 0.5 to 2.25 differential feed, with a thin owner record behind it.",
+    "whoFor": "A garment sewist who hems knits often and wants a dedicated coverstitch with a published 4 x 5.5 in bed space and a tension release lever.",
+    "skipIf": "You want a built-in top cover stitch (a 3000 Professional feature) or a cheaper coverstitch where the Brother 2340CV covers the job.",
+    "keySpec": "1/2/3 needle · 3 or 6 mm cover · 4 x 5.5 in bed space (maker wording) · 1,000 spm",
+    "realCost": [
+      "Thread: Janome lists 4 cones in the box; more as you sew",
+      "Needles: ELx705, #80/12 and #90/14 per the manual",
+      "Accessories: page and manual lists disagree, so check the box before buying extras",
+      "Warranty terms are Janome America general terms and need an authorized US dealer purchase"
+    ],
+    "strengths": [
+      "Stitch range per Janome: 2-thread chain, 3-thread cover and 4-thread triple cover, 3 mm narrow or 6 mm wide.",
+      "Differential feed 0.5 to 2.25 and stitch length 1 to 4 mm, both confirmed on the maker page.",
+      "Free arm and a tension release lever, with Janome's TLC tension feature listed on the product page."
+    ],
+    "weaknesses": [
+      "No top cover stitch; Janome puts that on the 3000 Professional.",
+      "Motor, frame, dimensions, stitch count, buttonhole and thread trimmer are not published, so they show as [verify].",
+      "The owner record is thin: 8 voices, 4 first-hand, so there is no recurring theme to lean on."
+    ],
+    "checks": [
+      {
+        "title": "Bed space is maker wording",
+        "body": "Janome's 4 x 5.5 in does not say which side is which and is not a needle-to-body throat figure. Confirm against the machine before buying for bulky garments."
+      },
+      {
+        "title": "Needles in the box",
+        "body": "The manual says #80/12 is installed with a set of 80/12 and 90/14; our earlier spec said 90/14. The manual dates from 2019, so confirm current packing."
+      },
+      {
+        "title": "Warranty terms",
+        "body": "Janome America's 25 year terms give 5 years on electronic parts and 1 year free labor, apply to original purchasers, and need an authorized US dealer. They are not model-specific."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between the 1000CPX, 2000CPX and 3000 Professional?",
+        "a": "Per Janome's pages the MSRPs are $999, $1,099 and $1,799. The 1000CPX page lists Seam Tightening System and no TLC; the 3000 Professional adds a built-in top cover stitch and needle threader."
+      },
+      {
+        "q": "Can the 2000CPX do a top cover stitch?",
+        "a": "No. Janome lists built-in top cover stitch as a 3000 Professional feature."
+      },
+      {
+        "q": "Can the 2000CPX serge?",
+        "a": "Our spec lists no knife and Janome shows cutting width adjustment as not available, so it is a coverstitch and chain stitch machine, not a serger."
+      },
+      {
+        "q": "What needles does it use?",
+        "a": "SCHMETZ ELx705. The manual says #80/12 is installed and the standard set is 2 x 80/12 and 3 x 90/14."
+      },
+      {
+        "q": "How heavy is it?",
+        "a": "19 lb, confirmed on the Janome product page. Dimensions are not published for this model."
+      },
+      {
+        "q": "Does it have a free arm?",
+        "a": "Yes. Janome lists a built-in free arm and describes an extra large bed space of 4 x 5.5 in, which is not a throat measurement."
+      },
+      {
+        "q": "Why do some owners report unravelling chain stitch?",
+        "a": "One Reddit owner could not lock off in-the-round chain stitch, and a reply said it is less of a problem with two needles and a lighter knit. It is a single thread, not a pattern."
+      },
+      {
+        "q": "How strong is the owner evidence?",
+        "a": "Thin: 8 voices, 4 first-hand, from Reddit threads. Many threads are help requests, so problems are over-represented and no theme reaches the recurring threshold."
+      },
+      {
+        "q": "What does Amazon's 4.5 from 67 ratings mean here?",
+        "a": "That rating is shared by several listings, including the 1000CPX variations, so it is not a rating for the 2000CPX alone."
+      },
+      {
+        "q": "What is the price?",
+        "a": "Janome lists an MSRP of $1,099 and says to see a dealer for pricing. Dealer prices are the dealer's own."
+      }
+    ]
+  }
+}

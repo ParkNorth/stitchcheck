@@ -1,0 +1,464 @@
+{
+  "slug": "grace-qnique-19x",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 2,
+    "itemsCollected": 22,
+    "statements": 0,
+    "voices": 0,
+    "ownerVoices": 0,
+    "dateRange": [
+      2023,
+      2026
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 2,
+        "items": 22
+      }
+    },
+    "blocked": 0,
+    "evidence": "thin",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Grace's web pages call this machine the Grace 19X and its manual and warranty page call it the Q'nique 19X; its own product URL now redirects to the Grace home page and only a recertified 19X is listed. No Amazon listing exists for the plain 19X (only 19X Elite bundles with no ratings)."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [],
+  "ratings": [],
+  "documentChecks": [
+    {
+      "label": "Throat",
+      "juki": "19 in 'throat length' on the web page; 'Quilting Arm width 19 inches' in the manual. Not stated as needle to body.",
+      "others": "Dealers repeat 19 in.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Grace recertified 19X page",
+          "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+        },
+        {
+          "label": "Grace 19X manual",
+          "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+        }
+      ],
+      "field": "throatIn",
+      "source": "recert-page"
+    },
+    {
+      "label": "Block size",
+      "juki": "Up to 17 in on the 19X and 19X Elite product pages; up to 15 in on the Elite feature page.",
+      "others": "Not in our spec.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace recertified 19X page",
+          "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+        },
+        {
+          "label": "Grace 19X Elite feature page",
+          "url": "https://graceframe.com/en/sewing-machines/qnique19xelite"
+        }
+      ],
+      "field": "blockSizeIn",
+      "source": "recert-page"
+    },
+    {
+      "label": "Maximum speed",
+      "juki": "2000 stitches per minute (range 90 to 2000 in the manual).",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Grace 19X manual",
+          "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+        },
+        {
+          "label": "Grace recertified 19X page",
+          "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "manual-19x"
+    },
+    {
+      "label": "Weight",
+      "juki": "41.5 lb (18.8 kg) in the manual, body only.",
+      "others": "Dealers do not publish weight.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace 19X manual",
+          "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+        }
+      ],
+      "field": "weightLb",
+      "source": "manual-19x"
+    },
+    {
+      "label": "Dimensions",
+      "juki": "Body 26.8 x 15.6 x 32.8 in; quilting arm 8.9 in high, 19 in wide.",
+      "others": "Not published by dealers.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace 19X manual",
+          "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+        }
+      ],
+      "field": "dimensionsIn",
+      "source": "manual-19x"
+    },
+    {
+      "label": "Motor and power",
+      "juki": "Peak power consumption 300 W, 110 to 220 VAC; no motor rating or type.",
+      "others": "Not published by dealers.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace 19X manual",
+          "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+        }
+      ],
+      "field": "motor",
+      "source": "manual-19x"
+    },
+    {
+      "label": "Needle system",
+      "juki": "DPX5 MR, 134 MR or 1955 MR in sizes 14/90 to 20/125; box has size 18 and 16 MR needles.",
+      "others": "Dealers list only sizes 16 and 18.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace 19X manual",
+          "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+        },
+        {
+          "label": "Grace recertified 19X page",
+          "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+        }
+      ],
+      "field": "needleSystem",
+      "source": "manual-19x"
+    },
+    {
+      "label": "Bobbin",
+      "juki": "Class M; three in the box.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Grace 19X manual",
+          "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+        },
+        {
+          "label": "Grace recertified 19X page",
+          "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+        }
+      ],
+      "field": "bobbin",
+      "source": "manual-19x"
+    },
+    {
+      "label": "Display",
+      "juki": "2.4 in color touch display; the 19X Elite has a 7 in touch display.",
+      "others": "A dealer page calls the 19X display OLED.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace 19X manual",
+          "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+        },
+        {
+          "label": "Grace recertified 19X page",
+          "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+        }
+      ],
+      "field": "display",
+      "source": "manual-19x"
+    },
+    {
+      "label": "Bobbin winder",
+      "juki": "Built-in bobbin winder and dual thread mast on the 19X (manual).",
+      "others": "A dealer says the Elite adds a built-in winder.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace 19X manual",
+          "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+        }
+      ],
+      "field": "bobbinWinder",
+      "source": "manual-19x"
+    },
+    {
+      "label": "Thread cutter",
+      "juki": "Hand-used cutter on the hopping foot and one at the bobbin winder; no automatic trim described.",
+      "others": "Not published by dealers.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace 19X manual",
+          "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+        }
+      ],
+      "field": "threadTrimmer",
+      "source": "manual-19x"
+    },
+    {
+      "label": "Stitch modes",
+      "juki": "Precise, Cruise, Manual and Baste; Precise and Cruise are regulated.",
+      "others": "Dealers list regulator plus manual speed mode.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Grace 19X manual",
+          "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+        },
+        {
+          "label": "Grace recertified 19X page",
+          "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+        }
+      ],
+      "field": "stitchTypes",
+      "source": "manual-19x"
+    },
+    {
+      "label": "Handle controls",
+      "juki": "Increase, Decrease, Start/Stop and a Needle button per the manual.",
+      "others": "Dealers describe two buttons per handle.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Grace 19X manual",
+          "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+        }
+      ],
+      "field": "handleControls",
+      "source": "manual-19x"
+    },
+    {
+      "label": "Edge Warning",
+      "juki": "Edge Warning on the 19X, adjustable to 1 in or 0.5 in; off in Baste mode.",
+      "others": "Not in our spec.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace 19X manual",
+          "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+        },
+        {
+          "label": "Grace 19X Elite feature page",
+          "url": "https://graceframe.com/en/sewing-machines/qnique19xelite"
+        }
+      ],
+      "field": "edgeWarning",
+      "source": "manual-19x"
+    },
+    {
+      "label": "Frames",
+      "juki": "Frame options on the 19X recertified page: Cutie, Q-Zone Hoop-Frame, Q-Zone Queen, Quilter's Evolution frames.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Grace recertified 19X page",
+          "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+        },
+        {
+          "label": "Grace 19X Elite page",
+          "url": "https://graceframe.com/en/product/grace-19x-elite-quilting-machine"
+        }
+      ],
+      "field": "frame",
+      "source": "elite-page"
+    },
+    {
+      "label": "In the box",
+      "juki": "M class bobbins x3, 20 needles, oil, sample thread, maintenance tools.",
+      "others": "Dealers add bonus kits that are not Grace box contents.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Grace recertified 19X page",
+          "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+        }
+      ],
+      "field": "includedFeet",
+      "source": "recert-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "2 years on all parts (electronic parts included) and 5 years on the cast metal body; original owner only.",
+      "others": "A dealer states 5 yr cast body, 2 yr mechanical, 1 yr electrical.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace warranty page",
+          "url": "https://graceframe.com/en/page/warranty"
+        },
+        {
+          "label": "Grace 19X manual",
+          "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "warranty"
+    },
+    {
+      "label": "Maker price",
+      "juki": "Recertified 19X $4,999.00 (valued $5,999.00); no new unit listed.",
+      "others": "Dealers show $5,499 and up by frame option.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace recertified 19X page",
+          "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+        },
+        {
+          "label": "Grace machine list",
+          "url": "https://graceframe.com/en/shop/quilting-machines"
+        }
+      ],
+      "field": "price",
+      "source": "recert-page"
+    },
+    {
+      "label": "Availability",
+      "juki": "Not in the current machine list; a recertified 19X is listed 'while supplies last'.",
+      "others": "Dealers still list the 19X new.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace machine list",
+          "url": "https://graceframe.com/en/shop/quilting-machines"
+        },
+        {
+          "label": "Grace recertified 19X page",
+          "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+        }
+      ],
+      "field": "availability",
+      "source": "shop-list"
+    },
+    {
+      "label": "Model name",
+      "juki": "Q'nique 19X in the manual and warranty; Grace 19X on the web pages.",
+      "others": "Dealers use Q'nique 19X.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Grace warranty page",
+          "url": "https://graceframe.com/en/page/warranty"
+        },
+        {
+          "label": "Grace recertified 19X page",
+          "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+        }
+      ],
+      "field": "modelName",
+      "source": "recert-page"
+    },
+    {
+      "label": "Maker claims",
+      "juki": "Quoted as claims, not as specs.",
+      "others": "Dealers repeat the 'precision stitching' wording.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Grace recertified 19X page",
+          "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+        }
+      ],
+      "field": "claims",
+      "source": "recert-page"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "Q'nique 19X Elite",
+      "label": "Grace Company Q'nique 19X Elite",
+      "rows": [
+        {
+          "feature": "Top speed",
+          "urls": 0,
+          "classes": [],
+          "summary": "2,600 SPM on the Elite against 2,000 SPM on the 19X; both start at 90 SPM.",
+          "check": "Grace 19X and 19X Elite manuals, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Display size",
+          "urls": 0,
+          "classes": [],
+          "summary": "7 in touch display on the Elite, 2.4 in color touch display on the 19X.",
+          "check": "Grace 19X and 19X Elite manuals, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Body weight",
+          "urls": 0,
+          "classes": [],
+          "summary": "43.5 lb on the Elite, 41.5 lb on the 19X.",
+          "check": "Machine Specifications pages of both manuals, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Peak power draw",
+          "urls": 0,
+          "classes": [],
+          "summary": "450 W on the Elite, 300 W on the 19X.",
+          "check": "Machine Specifications pages of both manuals, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Cast body warranty",
+          "urls": 0,
+          "classes": [],
+          "summary": "Grace's warranty page lists the Elite at 10 years on the cast body; the Elite manual says five years. The 19X is five years in both.",
+          "check": "Grace warranty page and 19X Elite manual, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Q'nique 19",
+      "label": "Grace Company Q'nique 19 (original)",
+      "rows": [
+        {
+          "feature": "Body weight",
+          "urls": 0,
+          "classes": [],
+          "summary": "35 lb for the original Q'nique 19 against 41.5 lb for the 19X.",
+          "check": "Q'nique 19 and 19X manuals, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Arm dimensions",
+          "urls": 0,
+          "classes": [],
+          "summary": "Same 19 in by 8.9 in quilting arm figures and 300 W peak power in both manuals.",
+          "check": "Q'nique 19 and 19X manuals, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

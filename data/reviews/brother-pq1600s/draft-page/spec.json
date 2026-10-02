@@ -1,0 +1,144 @@
+{
+  "specs": {
+    "maxStitchLengthMm": {
+      "value": null,
+      "source": null
+    },
+    "needleSystem": {
+      "value": "HLX5 recommended; Schmetz 130/705H may also be used under normal sewing conditions (manual p20)",
+      "source": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+    },
+    "bobbin": {
+      "value": "Quick Bobbin per the manual; loading direction not confirmed",
+      "source": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+    },
+    "lighting": {
+      "value": "1 lamp (dealer copy of the maker spec; lamp type not published)",
+      "source": "https://www.sewingmachinesplus.com/PQ1600S.php"
+    },
+    "threadTrimmer": {
+      "value": "Push button thread cutter that cuts upper and lower thread",
+      "source": "https://www.brother-usa.com/products/pq1600s"
+    },
+    "weightLb": {
+      "value": 23.8,
+      "source": "https://www.brother-usa.com/products/pq1600s"
+    },
+    "warrantyUs": {
+      "value": "1/2/25 Year Limited Warranty (maker wording; which term covers labor, electrical or chassis is not published)",
+      "source": "https://www.brother-usa.com/products/pq1600s"
+    }
+  },
+  "conflicts": [
+    "Max stitch length: the Brother page prints no stitch length, the manual says the dial runs 5 to 7 mm with a 5 mm reverse, and Sewing Machines Plus lists 5 mm; our earlier 7 mm was unsupported, so it is now [verify].",
+    "Price: the Brother page and Sewing Machines Plus both read $999.99 on 2026-10-02 (Sewing Machines Plus regular $1,299.99), while our earlier $579.99 came from a search snippet and was never confirmed; the page shows a band only.",
+    "Warranty: Brother gives only '1/2/25 Year Limited Warranty', and the earlier split into 1 yr labor, 2 yr electrical and 25 yr chassis is not on the maker page.",
+    "Thread cutter: our earlier spec rested on a forum post, but the Brother page states a push button cutter for upper and lower thread, so the maker source is used.",
+    "Needle system: the manual (p20) recommends HLX5 and allows Schmetz 130/705H, which fills a field we held as null; the PQ1500SL carry-over was never used.",
+    "Brother page against itself: the spec table says Needle Stop Position Up/Down: No and Free Motion Quilting Foot: No, while the feature text and carton list include a programmable up or down needle stop and a free motion foot; the dealer copy says the foot is Yes.",
+    "Lighting: the dealer copy lists '1 Lamp' and the Brother page lists no lighting type; the PQ1500SL page says LED but that is not carried over.",
+    "Bobbin: our earlier 'side loading' came from a parts retailer, while the manual only names a Quick Bobbin, so the loading direction is unconfirmed.",
+    "Throat: Brother lists 5.7 x 8.7 in needle to arm and this matches our spec; a parts retailer's 8.5 in is not a maker figure."
+  ],
+  "claims": [
+    "\"The optimum machine for speed and precision\" (Brother product page)",
+    "\"Lightning-Fast Sewing Speeds\" and \"Extra Large Workspace\" (Brother product page)",
+    "Feed dog levels \"will give you maximum fabric control\" (Brother product page)",
+    "\"Heavy-Duty Quilting\" (dealer listing title, premierstitching.com)"
+  ],
+  "evidence": "positioning",
+  "price": {
+    "priceUsdSeen": 999.99,
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "brother-usa.com product page and Sewing Machines Plus (sale price; dealer regular $1,299.99)"
+  },
+  "sources": [
+    "https://www.brother-usa.com/products/pq1600s",
+    "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf",
+    "https://www.sewingmachinesplus.com/PQ1600S.php",
+    "https://www.brother-usa.com/p/sewing/PQ1500SL",
+    "https://www.amazon.com/dp/B0CFYQZX5Q"
+  ],
+  "editorial": {
+    "verdict": "A straight stitch only 1,500 spm quilter with a knee lifter, pin feed and wide table, and a thin owner record behind it.",
+    "whoFor": "A piecer or table quilter who wants speed, a knee lifter and a wide table and needs no zigzag, buttonhole or decorative stitches.",
+    "skipIf": "You want one machine for garments and quilts, need frame quilting with a stitch regulator, or need a published maximum stitch length.",
+    "keySpec": "8.7 x 5.7 in throat · 1,500 spm · straight stitch only · pin feed · wide table included",
+    "strengths": [
+      "Brother lists 1,500 spm, and the manual gives a 40 to 1,500 stitches per minute range",
+      "Pin feed with a single pin in place of the feed dogs, 4 color coded feed dog levels and a presser foot pressure dial, per Brother",
+      "Knee lifter, push button thread cutter and an 11.1 x 23.3 in wide table in the carton, per Brother and Sewing Machines Plus"
+    ],
+    "weaknesses": [
+      "Straight stitch only: 1 built-in stitch and no buttonhole",
+      "The owner record is thin, so reports of how it holds up over time are not yet reliable; the page leans on maker documents",
+      "Maker documents disagree with themselves on needle stop and free motion foot, and no maximum stitch length is printed"
+    ],
+    "checks": [
+      {
+        "title": "Confirm the price at the retailer",
+        "body": "The Brother page and Sewing Machines Plus both read $999.99 on 2026-10-02, with a dealer regular price of $1,299.99. An earlier $579.99 was a search snippet and was never confirmed."
+      },
+      {
+        "title": "Ask about stitch length and the free motion foot",
+        "body": "Brother prints no stitch length, the manual says 5 to 7 mm and the dealer says 5 mm. The spec table says no free motion foot while the carton list includes one."
+      },
+      {
+        "title": "Check the warranty split",
+        "body": "Brother gives only '1/2/25 Year Limited Warranty'. Ask the seller which term covers labor, electrical and chassis before buying."
+      }
+    ],
+    "realCost": [
+      "Needles: HLX5 recommended, Schmetz 130/705H usable (manual p20); the carton holds sizes 9, 11, 14, 16 and one ballpoint",
+      "Bobbins: 5 in the carton",
+      "Table, knee lifter and 7 accessory feet are included, so no add-on cost for those",
+      "No stitch regulator is listed for this machine"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Brother PQ1600S the same as the PQ1500SL?",
+        "a": "No. Brother marks the PQ1500SL discontinued and out of stock, and its page lists a 5.7 x 8.6 in workspace and a '2/6/25 Year Premium Limited Warranty', against 5.7 x 8.7 in and 1/2/25 on the PQ1600S."
+      },
+      {
+        "q": "How much throat space does the PQ1600S have?",
+        "a": "Brother lists a 5.7 x 8.7 in needle to arm space. A parts retailer gives 8.5 in, which is not a maker figure."
+      },
+      {
+        "q": "Does the PQ1600S do zigzag?",
+        "a": "No. Brother lists 1 built-in stitch, straight stitch only, and 0 buttonhole styles."
+      },
+      {
+        "q": "How fast is the PQ1600S?",
+        "a": "Brother lists 1,500 stitches per minute, and the manual gives a range of 40 to 1,500."
+      },
+      {
+        "q": "What is the maximum stitch length?",
+        "a": "Brother's page prints none. The manual says the dial reaches 5 to 7 mm with a 5 mm reverse, and Sewing Machines Plus lists 5 mm, so the figure shows [verify]."
+      },
+      {
+        "q": "What needles does the PQ1600S take?",
+        "a": "The manual (p20) recommends HLX5 needles and says Schmetz 130/705H needles may also be used under normal sewing conditions."
+      },
+      {
+        "q": "Does it have a knee lifter and thread cutter?",
+        "a": "Brother lists a built-in knee lifter in the carton and a push button thread cutter that cuts upper and lower thread."
+      },
+      {
+        "q": "What is the pin feed for?",
+        "a": "Brother describes a single pin that extends from beneath the machine in place of the feed dogs. The manual says it works only in the pin feed dial position and with the Pin Feed Foot."
+      },
+      {
+        "q": "What is the PQ1600S warranty?",
+        "a": "Brother's wording is '1/2/25 Year Limited Warranty'. It does not say which term covers labor, electrical or chassis."
+      },
+      {
+        "q": "What does the PQ1600S cost?",
+        "a": "The Brother page and Sewing Machines Plus both read $999.99 on 2026-10-02, with a dealer regular price of $1,299.99. Treat any lower figure as unconfirmed."
+      },
+      {
+        "q": "How strong is the owner evidence?",
+        "a": "Thin. The review pool holds 8 voices, 4 of them first-hand. Amazon shows 4.4 from 49 ratings and Sewing Machines Plus shows 5 from 2 reviews; these are not pooled and are not a model rating."
+      }
+    ]
+  }
+}
