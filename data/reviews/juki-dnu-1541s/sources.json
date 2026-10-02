@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "web:630bad8225993ce1",
+    "url": "https://www.sewingmachinesplus.com/juki-1541s.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-02T03:17:20.161Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-02T03:17:20.161Z",
+    "status": "ok",
+    "site_rating": 4.73,
+    "site_review_count": 48,
+    "content_hash": "6876c19b2eb2c525"
+  },
+  {
+    "id": "web:bec6546447fc48ef",
+    "url": "https://www.amazon.com/dp/B07S2L6BBB",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T03:19:39.852Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T03:19:39.852Z",
+    "status": "ok",
+    "site_rating": 3.7,
+    "site_review_count": 31,
+    "asin": "B07S2L6BBB",
+    "parent_asin": null,
+    "product_asins": [],
+    "pooled_variations": false,
+    "sampled": "0 top reviews (0 US, 0 other countries) of 31 ratings",
+    "listing": {
+      "title": "Juki DNU-1541S Industrial Sewing w/Safety Mechanism DNU 1541 Walking Foot Needle Feed,servo Motor,Table,lamp. DIY.",
+      "price_usd": 2407.62,
+      "best_sellers_rank": "#327,306 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #39 in Industrial Machines",
+      "details": {
+        "Model Number": "DNU-1541S",
+        "Manufacturer": "Juki",
+        "Part Number": "DNU1541S",
+        "Color": "grey, white",
+        "Material": "Metal",
+        "Item Weight": "125 pounds"
+      }
+    }
+  },
+  {
+    "id": "reddit:1kt67oc",
+    "url": "https://www.reddit.com/r/myog/comments/1kt67oc/exploring_the_tradeoffs_consew_206rb_vs_juki/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Exploring the Tradeoffs: Consew 206RB vs. Juki 1541S vs. Sailrite Fabricator",
+    "subreddit": "myog",
+    "thread_id": "1kt67oc",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1748103907,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "20658e1709f72e49"
+  },
+  {
+    "id": "reddit:1c0s81i",
+    "url": "https://www.reddit.com/r/myog/comments/1c0s81i/juki_1541s_vs_1508n/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki 1541s vs 1508N",
+    "subreddit": "myog",
+    "thread_id": "1c0s81i",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1712807626,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "9922afe6b938ce1d"
+  },
+  {
+    "id": "reddit:1c2n7j9",
+    "url": "https://www.reddit.com/r/myog/comments/1c2n7j9/finally_juki_1541s/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Finally! Juki 1541s",
+    "subreddit": "myog",
+    "thread_id": "1c2n7j9",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1713024828,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "3e6eb7a69b99995a"
+  },
+  {
+    "id": "reddit:1ic7ciu",
+    "url": "https://www.reddit.com/r/myog/comments/1ic7ciu/juki_1541s_servo_motor_question/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki 1541s Servo Motor Question",
+    "subreddit": "myog",
+    "thread_id": "1ic7ciu",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1787385462,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "2305004bf65ddb49"
+  },
+  {
+    "id": "reddit:15xqw6a",
+    "url": "https://www.reddit.com/r/myog/comments/15xqw6a/new_to_me_juki_1541s/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "New (to me) Juki 1541s.",
+    "subreddit": "myog",
+    "thread_id": "15xqw6a",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1692838660,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "43a0e28593341c39"
+  },
+  {
+    "id": "reddit:1rreu07",
+    "url": "https://www.reddit.com/r/myog/comments/1rreu07/buying_my_first_industrial_machine_juki_1541s/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Buying my first industrial machine (Juki 1541s). Hoping someone can help with some questions.",
+    "subreddit": "myog",
+    "thread_id": "1rreu07",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1773765604,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "f1569ecbcb79dc25"
+  },
+  {
+    "id": "reddit:1qvn3ga",
+    "url": "https://www.reddit.com/r/myog/comments/1qvn3ga/juki_1541s/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki 1541s",
+    "subreddit": "myog",
+    "thread_id": "1qvn3ga",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1770694968,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "5a289522fead0d2d"
+  },
+  {
+    "id": "reddit:1pysxgo",
+    "url": "https://www.reddit.com/r/myog/comments/1pysxgo/best_place_to_buy_a_juki_1541s_online/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Best place to buy a Juki 1541s online.",
+    "subreddit": "myog",
+    "thread_id": "1pysxgo",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1767537171,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "e8c7f66eaac6e862"
+  },
+  {
+    "id": "reddit:141p4u0",
+    "url": "https://www.reddit.com/r/myog/comments/141p4u0/juki_1541s_inconsistent_tension_issuesplz_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "JUKI 1541S Inconsistent Tension Issues—PLZ HELP",
+    "subreddit": "myog",
+    "thread_id": "141p4u0",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1688147586,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "d4546515529de0ec"
+  },
+  {
+    "id": "reddit:15c11ik",
+    "url": "https://www.reddit.com/r/myog/comments/15c11ik/first_industrial_machine_juki_1541s/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "First industrial machine (Juki 1541S)",
+    "subreddit": "myog",
+    "thread_id": "15c11ik",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1690860542,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "e878c494fff62064"
+  },
+  {
+    "id": "reddit:qo2phy",
+    "url": "https://www.reddit.com/r/myog/comments/qo2phy/juki_1541s_or_clone/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki 1541s or clone?",
+    "subreddit": "myog",
+    "thread_id": "qo2phy",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1735520813,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "c9e6da058fa19b30"
+  },
+  {
+    "id": "reddit:5zdj0f",
+    "url": "https://www.reddit.com/r/Leathercraft/comments/5zdj0f/juki_1541s_with_servo_motor_and_speed_reducer/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki 1541s with servo motor and speed reducer pulley. Walking slow",
+    "subreddit": "Leathercraft",
+    "thread_id": "5zdj0f",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1489592732,
+    "discovered_by": [
+      "all:Juki 1541S"
+    ],
+    "content_hash": "dc9e8b871ee8a425"
+  },
+  {
+    "id": "reddit:1vqyjjr",
+    "url": "https://www.reddit.com/r/myog/comments/1vqyjjr/vibrationbuzzing_from_juki_1541s/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Vibration/buzzing from Juki 1541s",
+    "subreddit": "myog",
+    "thread_id": "1vqyjjr",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1787067864,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "eda8e44000c83225"
+  },
+  {
+    "id": "reddit:1je6xc1",
+    "url": "https://www.reddit.com/r/myog/comments/1je6xc1/can_anyone_help_identify_a_noise_around_500rpm_on/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Can anyone help identify a noise around 500rpm on the Juki 1541s?",
+    "subreddit": "myog",
+    "thread_id": "1je6xc1",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1767724623,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "834f02873c33959c"
+  },
+  {
+    "id": "reddit:10vpgry",
+    "url": "https://www.reddit.com/r/myog/comments/10vpgry/does_this_look_right_id_like_the_bottom_stitch/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Does this look right? I'd like the bottom stitch and top stitch to look more similar. The bottom is basically a straight line of thread above the fabric. (New to me Juki 1541s)",
+    "subreddit": "myog",
+    "thread_id": "10vpgry",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1675850842,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "5e1ee452da639b40"
+  },
+  {
+    "id": "reddit:brrcwr",
+    "url": "https://www.reddit.com/r/myog/comments/brrcwr/used_consew_206_new_juki_1181n_or_juki_1541s/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Used Consew 206, new Juki 1181n, or Juki 1541s?",
+    "subreddit": "myog",
+    "thread_id": "brrcwr",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1715139502,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "cc3ae82c44f8508a"
+  },
+  {
+    "id": "reddit:1c8uiq6",
+    "url": "https://www.reddit.com/r/myog/comments/1c8uiq6/similar_fold_away_binding_feet_for_juki_1541s/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Similar fold away binding feet for Juki 1541s",
+    "subreddit": "myog",
+    "thread_id": "1c8uiq6",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1713663239,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "c5b61d6dc9d936e8"
+  },
+  {
+    "id": "reddit:k7v6h9",
+    "url": "https://www.reddit.com/r/sewing/comments/k7v6h9/turning_to_reddit_for_help_i_keep_breaking/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Turning to reddit for help; I keep breaking needles on my JUKI-1541S I just did the first initial multi point lubrications, I upgraded to an electric servo motor, I put the settings on “P1” on “16” rpm speed, slowest speed offered. I had a jam and broke needle. Power failure and no longer aligned 😰",
+    "subreddit": "sewing",
+    "thread_id": "k7v6h9",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1608005914,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/sewing:Juki 1541S"
+    ],
+    "content_hash": "3d40bd06aae7430c"
+  },
+  {
+    "id": "reddit:99ovue",
+    "url": "https://www.reddit.com/r/LeatherClassifieds/comments/99ovue/juki_1541s_walking_foot_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki 1541S Walking Foot Sewing Machine",
+    "subreddit": "LeatherClassifieds",
+    "thread_id": "99ovue",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1538796883,
+    "discovered_by": [
+      "all:Juki 1541S"
+    ],
+    "content_hash": "832b4a52749075a0"
+  },
+  {
+    "id": "reddit:1ee2sal",
+    "url": "https://www.reddit.com/r/myogtacticalgear/comments/1ee2sal/juki_dnu1541s_vs_seiko_sth8bld3_not_the_consew/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DNU-1541S vs Seiko STH-8BLD-3 (not the Consew 206RB-5)",
+    "subreddit": "myogtacticalgear",
+    "thread_id": "1ee2sal",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1722293580,
+    "discovered_by": [
+      "all:Juki DNU-1541S",
+      "all:Juki 1541S",
+      "all:Juki DNU-1541"
+    ],
+    "content_hash": "1f5a09a4c1284294"
+  },
+  {
+    "id": "reddit:1p5o9yw",
+    "url": "https://www.reddit.com/r/myog/comments/1p5o9yw/juki_1541s_newbie_questions/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki 1541S - newbie questions",
+    "subreddit": "myog",
+    "thread_id": "1p5o9yw",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1764071918,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "df8dfe7e034ae5ff"
+  },
+  {
+    "id": "reddit:1k4f7yd",
+    "url": "https://www.reddit.com/r/myog/comments/1k4f7yd/binding_attachment_for_juki_1541s/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Binding attachment for Juki 1541S",
+    "subreddit": "myog",
+    "thread_id": "1k4f7yd",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1745349790,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "67cd05edf022d8fc"
+  },
+  {
+    "id": "reddit:1t22o5n",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1t22o5n/help_identify_creaking_sound_in_juki_dnu1541s/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help identify creaking sound in Juki DNU-1541S",
+    "subreddit": "sewhelp",
+    "thread_id": "1t22o5n",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1777761627,
+    "discovered_by": [
+      "all:Juki DNU-1541S",
+      "r/sewhelp:Juki DNU-1541S",
+      "all:Juki 1541S",
+      "r/sewhelp:Juki 1541S",
+      "all:Juki DNU-1541",
+      "r/sewhelp:Juki DNU-1541"
+    ],
+    "content_hash": "a514651f690befa0"
+  },
+  {
+    "id": "reddit:1pevwu9",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1pevwu9/juki_dnu_1541s/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki dnu 1541s",
+    "subreddit": "sewhelp",
+    "thread_id": "1pevwu9",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1765008105,
+    "discovered_by": [
+      "all:Juki DNU-1541S",
+      "r/sewhelp:Juki DNU-1541S",
+      "all:Juki 1541S",
+      "r/sewhelp:Juki 1541S"
+    ],
+    "content_hash": "203cc8de2a417e45"
+  },
+  {
+    "id": "reddit:jyip7c",
+    "url": "https://www.reddit.com/r/sewing/comments/jyip7c/juki_dnu1541s_motor_clicking/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DNU-1541S Motor Clicking ?",
+    "subreddit": "sewing",
+    "thread_id": "jyip7c",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1606152131,
+    "discovered_by": [
+      "all:Juki DNU-1541S",
+      "r/sewing:Juki DNU-1541S",
+      "all:Juki 1541S",
+      "r/sewing:Juki 1541S",
+      "all:Juki DNU-1541",
+      "r/sewing:Juki DNU-1541"
+    ],
+    "content_hash": "e23115adf381ee28"
+  },
+  {
+    "id": "reddit:1fqtbrs",
+    "url": "https://www.reddit.com/r/myogtacticalgear/comments/1fqtbrs/juki_1541s_tegris_sewing/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki 1541S Tegris Sewing",
+    "subreddit": "myogtacticalgear",
+    "thread_id": "1fqtbrs",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1727547798,
+    "discovered_by": [
+      "all:Juki 1541S"
+    ],
+    "content_hash": "d3eb7634e4a2b716"
+  },
+  {
+    "id": "reddit:1t22qc2",
+    "url": "https://www.reddit.com/r/myog/comments/1t22qc2/help_identify_creaking_sound_in_juki_dnu1541s/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help identify creaking sound in Juki DNU-1541S",
+    "subreddit": "myog",
+    "thread_id": "1t22qc2",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1777768454,
+    "discovered_by": [
+      "all:Juki DNU-1541S",
+      "r/myog:Juki DNU-1541S",
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S",
+      "all:Juki DNU-1541",
+      "r/myog:Juki DNU-1541"
+    ],
+    "content_hash": "e1fa8740c9d713fc"
+  },
+  {
+    "id": "reddit:1ee2qp2",
+    "url": "https://www.reddit.com/r/myog/comments/1ee2qp2/juki_dnu1541s_vs_seiko_sth8bld3_not_the_consew/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DNU-1541S vs Seiko STH-8BLD-3 (not the Consew 206RB-5)",
+    "subreddit": "myog",
+    "thread_id": "1ee2qp2",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1722258789,
+    "discovered_by": [
+      "all:Juki DNU-1541S",
+      "r/myog:Juki DNU-1541S",
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S",
+      "all:Juki DNU-1541",
+      "r/myog:Juki DNU-1541"
+    ],
+    "content_hash": "6435936e6e773467"
+  },
+  {
+    "id": "reddit:1pz46zg",
+    "url": "https://www.reddit.com/r/sewing/comments/1pz46zg/is_this_normal_on_my_juki_1541s/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Is this normal on my Juki 1541s?",
+    "subreddit": "sewing",
+    "thread_id": "1pz46zg",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1767118293,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/sewing:Juki 1541S"
+    ],
+    "content_hash": "8e28120f14daa6b7"
+  },
+  {
+    "id": "reddit:1ni1mrv",
+    "url": "https://www.reddit.com/r/quilting/comments/1ni1mrv/juki_1541s_too_strong/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki 1541S too strong?",
+    "subreddit": "quilting",
+    "thread_id": "1ni1mrv",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1757986487,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/quilting:Juki 1541S"
+    ],
+    "content_hash": "bff9aa138686c302"
+  },
+  {
+    "id": "reddit:g2sqdg",
+    "url": "https://www.reddit.com/r/vintagesewing/comments/g2sqdg/singer_24112_i_refurbished_a_while_ago_thought_i/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 241-12 i refurbished a while ago thought i would use it. But i always use my new juki 1541s. This singer has the old style motor with pressure plate. Probably going to sell it don't really want to but i just dont have the room.",
+    "subreddit": "vintagesewing",
+    "thread_id": "g2sqdg",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1587093167,
+    "discovered_by": [
+      "all:Juki 1541S"
+    ],
+    "content_hash": "593daba7f8348f38"
+  },
+  {
+    "id": "reddit:g2svll",
+    "url": "https://www.reddit.com/r/SewingMachinePorn/comments/g2svll/my_juki_1541s_a_bought_a_couple_yrs_ago_only_has/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "My Juki 1541s a bought a couple yrs ago only has about an hour run time. I just don't have the time to use it. Still love looking at it. I love any kind of manufacturing machines, its like an expensive addiction. When I use it, it's used for leather working",
+    "subreddit": "SewingMachinePorn",
+    "thread_id": "g2svll",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1587092842,
+    "discovered_by": [
+      "all:Juki 1541S"
+    ],
+    "content_hash": "1fee7a490b1ec401"
+  },
+  {
+    "id": "reddit:1ee2t2i",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ee2t2i/juki_dnu1541s_vs_seiko_sth8bld3_not_the_consew/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki DNU-1541S vs Seiko STH-8BLD-3 (not the Consew 206RB-5)",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1ee2t2i",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "thin",
+    "cursor_utc": 1722155508,
+    "discovered_by": [
+      "all:Juki DNU-1541S",
+      "r/SewingForBeginners:Juki DNU-1541S",
+      "all:Juki 1541S",
+      "r/SewingForBeginners:Juki 1541S",
+      "all:Juki DNU-1541",
+      "r/SewingForBeginners:Juki DNU-1541"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1ttqt9w",
+    "url": "https://www.reddit.com/r/myog/comments/1ttqt9w/anyone_near_pittsburgh_looking_for_juki_1541s/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Anyone near Pittsburgh Looking for Juki 1541S?",
+    "subreddit": "myog",
+    "thread_id": "1ttqt9w",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1780423407,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "76c4681f1e65dfac"
+  },
+  {
+    "id": "reddit:1jat8zx",
+    "url": "https://www.reddit.com/r/upholstery/comments/1jat8zx/juki_1541s_oil/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Juki 1541s oil ?",
+    "subreddit": "upholstery",
+    "thread_id": "1jat8zx",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1742004955,
+    "discovered_by": [
+      "all:Juki 1541S"
+    ],
+    "content_hash": "59e433fe5d8003e8"
+  },
+  {
+    "id": "reddit:141sef6",
+    "url": "https://www.reddit.com/r/Leathercraft/comments/141sef6/juki_1541s_inconsistent_tension_issuesplz_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "JUKI 1541S Inconsistent Tension Issues—PLZ HELP",
+    "subreddit": "Leathercraft",
+    "thread_id": "141sef6",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "thin",
+    "cursor_utc": 1686000332,
+    "discovered_by": [
+      "all:Juki 1541S"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1fikfrw",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1fikfrw/my_apologies_for_the_brag/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "My apologies for the brag…",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1fikfrw",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1726640024,
+    "discovered_by": [
+      "r/SewingForBeginners:Juki 1541S"
+    ],
+    "content_hash": "d81f2c8fff5e8233"
+  },
+  {
+    "id": "reddit:1sut42m",
+    "url": "https://www.reddit.com/r/myog/comments/1sut42m/dedicated_binding_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Dedicated binding machine",
+    "subreddit": "myog",
+    "thread_id": "1sut42m",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1786839324,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "2951f53d2ad3bd28"
+  },
+  {
+    "id": "reddit:htszbg",
+    "url": "https://www.reddit.com/r/myog/comments/htszbg/industrial_machine_purchase/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Industrial Machine Purchase",
+    "subreddit": "myog",
+    "thread_id": "htszbg",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1596345076,
+    "discovered_by": [
+      "all:Juki DNU-1541S",
+      "r/myog:Juki DNU-1541S",
+      "r/myog:Juki DNU-1541"
+    ],
+    "content_hash": "09e1ab56352969bf"
+  },
+  {
+    "id": "reddit:157sldx",
+    "url": "https://www.reddit.com/r/myog/comments/157sldx/building_effeciency_in_side_hustle/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Building effeciency in side hustle",
+    "subreddit": "myog",
+    "thread_id": "157sldx",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1690516193,
+    "discovered_by": [
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "66aee51a502ae22b"
+  },
+  {
+    "id": "reddit:1s8fo1b",
+    "url": "https://www.reddit.com/r/myog/comments/1s8fo1b/keep_your_eyes_open_and_it_can_happen_to_you/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Keep your eyes open and it can happen to you",
+    "subreddit": "myog",
+    "thread_id": "1s8fo1b",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1775051299,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "bccb52bbbb1d24fc"
+  },
+  {
+    "id": "reddit:1p1gp6a",
+    "url": "https://www.reddit.com/r/myog/comments/1p1gp6a/the_ranger_pack_m24_rover_inspired_day_pack/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "The Ranger Pack - M24/ Rover inspired day pack",
+    "subreddit": "myog",
+    "thread_id": "1p1gp6a",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1770442942,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "5b030bd0a53d6528"
+  },
+  {
+    "id": "reddit:1iim27k",
+    "url": "https://www.reddit.com/r/myog/comments/1iim27k/sewing_machine_lamp_recommendations/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing machine LAMP recommendations?",
+    "subreddit": "myog",
+    "thread_id": "1iim27k",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1787764364,
+    "discovered_by": [
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "61a8c9902e142c11"
+  },
+  {
+    "id": "reddit:1h2nzeb",
+    "url": "https://www.reddit.com/r/myog/comments/1h2nzeb/sewing_machine_upgrade/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing Machine Upgrade",
+    "subreddit": "myog",
+    "thread_id": "1h2nzeb",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1732963692,
+    "discovered_by": [
+      "all:Juki DNU-1541S",
+      "r/myog:Juki DNU-1541S",
+      "all:DNU-1541S review",
+      "r/myog:DNU-1541S review",
+      "all:DNU-1541S problems",
+      "r/myog:DNU-1541S problems",
+      "r/myog:Juki 1541S",
+      "all:Juki DNU-1541",
+      "r/myog:Juki DNU-1541"
+    ],
+    "content_hash": "45c1c7cc48276bf6"
+  },
+  {
+    "id": "reddit:1rmio5l",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1rmio5l/looking_to_buy_an_industrial_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Looking to buy an industrial machine…",
+    "subreddit": "sewhelp",
+    "thread_id": "1rmio5l",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1775861523,
+    "discovered_by": [
+      "all:Juki DNU-1541S",
+      "r/sewhelp:Juki DNU-1541S",
+      "r/sewhelp:Juki 1541S"
+    ],
+    "content_hash": "cb3bf4be7c3094a5"
+  },
+  {
+    "id": "reddit:1pj746d",
+    "url": "https://www.reddit.com/r/myog/comments/1pj746d/first_good_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "First “good” sewing machine.",
+    "subreddit": "myog",
+    "thread_id": "1pj746d",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1765436933,
+    "discovered_by": [
+      "all:DNU1541S",
+      "r/myog:DNU1541S"
+    ],
+    "content_hash": "3943d58e2e11b50f"
+  },
+  {
+    "id": "reddit:1bz1izy",
+    "url": "https://www.reddit.com/r/myog/comments/1bz1izy/experience_with_sailrite_leather_machines/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Experience With Sailrite Leather Machines",
+    "subreddit": "myog",
+    "thread_id": "1bz1izy",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1714708173,
+    "discovered_by": [
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "e76f16aa4733a3b8"
+  },
+  {
+    "id": "reddit:1lz0uz4",
+    "url": "https://www.reddit.com/r/myog/comments/1lz0uz4/just_finished_my_first_backpack/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Just finished my first backpack.",
+    "subreddit": "myog",
+    "thread_id": "1lz0uz4",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1752589457,
+    "discovered_by": [
+      "all:Juki DNU-1541S",
+      "r/myog:Juki DNU-1541S",
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S",
+      "all:Juki DNU-1541",
+      "r/myog:Juki DNU-1541"
+    ],
+    "content_hash": "18a62bd9b1406502"
+  },
+  {
+    "id": "reddit:1cbetlz",
+    "url": "https://www.reddit.com/r/myog/comments/1cbetlz/500d_1000d_cordura_thread_and_needles_on/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "500D &amp; 1000D Cordura Thread and Needles on Industrial Machine",
+    "subreddit": "myog",
+    "thread_id": "1cbetlz",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1713989249,
+    "discovered_by": [
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "b3c56a53ee7c7ae0"
+  },
+  {
+    "id": "reddit:16wlob9",
+    "url": "https://www.reddit.com/r/myog/comments/16wlob9/suggestion_for_hard_usage_pants/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Suggestion for hard usage pants",
+    "subreddit": "myog",
+    "thread_id": "16wlob9",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1696177102,
+    "discovered_by": [
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "d9f9e0f0c9d0d935"
+  },
+  {
+    "id": "reddit:1l2erca",
+    "url": "https://www.reddit.com/r/myog/comments/1l2erca/my_first_industrial_machine_and_ive_got_analysis/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "My first industrial machine and I've got analysis paralysis...",
+    "subreddit": "myog",
+    "thread_id": "1l2erca",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1749038434,
+    "discovered_by": [
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "735f177e777eafdd"
+  },
+  {
+    "id": "reddit:1e73js0",
+    "url": "https://www.reddit.com/r/myog/comments/1e73js0/question_for_juki_1541_production_users/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Question for Juki 1541 Production Users",
+    "subreddit": "myog",
+    "thread_id": "1e73js0",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1743716244,
+    "discovered_by": [
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "68df1f2fcca03b03"
+  },
+  {
+    "id": "reddit:1v7ut3y",
+    "url": "https://www.reddit.com/r/myog/comments/1v7ut3y/looking_for_a_new_machine_for_myog/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Looking for a new machine for MYOG",
+    "subreddit": "myog",
+    "thread_id": "1v7ut3y",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1786565997,
+    "discovered_by": [
+      "all:Juki DNU-1541S",
+      "r/myog:Juki DNU-1541S",
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "d524b801946e6671"
+  },
+  {
+    "id": "reddit:10q9v3c",
+    "url": "https://www.reddit.com/r/myogtacticalgear/comments/10q9v3c/sewing_machine_choices/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing Machine Choices",
+    "subreddit": "myogtacticalgear",
+    "thread_id": "10q9v3c",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1780338187,
+    "discovered_by": [
+      "all:Juki DNU-1541S",
+      "all:Juki DNU-1541"
+    ],
+    "content_hash": "7c4e0a9b1232d6c2"
+  },
+  {
+    "id": "reddit:1uj0las",
+    "url": "https://www.reddit.com/r/myog/comments/1uj0las/my_first_real_myog_backpack/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "My first real MYOG backpack",
+    "subreddit": "myog",
+    "thread_id": "1uj0las",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1790222380,
+    "discovered_by": [
+      "all:Juki 1541S",
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "79ab9dd52851289a"
+  },
+  {
+    "id": "reddit:1b5w8bk",
+    "url": "https://www.reddit.com/r/myog/comments/1b5w8bk/juki_lu1510n7_or_laser_cutting_table/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "JUKI LU1510n-7 or laser cutting table? ",
+    "subreddit": "myog",
+    "thread_id": "1b5w8bk",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1709582222,
+    "discovered_by": [
+      "all:Juki DNU-1541S",
+      "r/myog:Juki DNU-1541S",
+      "r/myog:Juki 1541S",
+      "all:Juki DNU-1541",
+      "r/myog:Juki DNU-1541"
+    ],
+    "content_hash": "65d1fbf41c7be502"
+  },
+  {
+    "id": "reddit:1ojlp8y",
+    "url": "https://www.reddit.com/r/myog/comments/1ojlp8y/what_ridiculous_looks_like_my_latest_fanny_pack/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "What ridiculous looks like- My latest Fanny pack project.",
+    "subreddit": "myog",
+    "thread_id": "1ojlp8y",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1779982550,
+    "discovered_by": [
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "a51d1ac62af5e1d4"
+  },
+  {
+    "id": "reddit:1e0rzor",
+    "url": "https://www.reddit.com/r/myog/comments/1e0rzor/industrial_machine_for_ripstop/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Industrial machine for ripstop",
+    "subreddit": "myog",
+    "thread_id": "1e0rzor",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1721148660,
+    "discovered_by": [
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "c5caacfb916d7322"
+  },
+  {
+    "id": "reddit:120y69c",
+    "url": "https://www.reddit.com/r/myog/comments/120y69c/advice_on_my_first_industrial_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Advice on my first Industrial machine",
+    "subreddit": "myog",
+    "thread_id": "120y69c",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1680098942,
+    "discovered_by": [
+      "all:Juki DNU-1541S",
+      "r/myog:Juki DNU-1541S"
+    ],
+    "content_hash": "b2fb642b779b4940"
+  },
+  {
+    "id": "reddit:1dwuwpe",
+    "url": "https://www.reddit.com/r/myog/comments/1dwuwpe/help_with_machine_tension/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help with machine tension",
+    "subreddit": "myog",
+    "thread_id": "1dwuwpe",
+    "first_seen": "2026-10-02T03:19:40.333Z",
+    "last_fetched": "2026-10-02T03:19:40.333Z",
+    "status": "ok",
+    "cursor_utc": 1720395495,
+    "discovered_by": [
+      "r/myog:Juki 1541S"
+    ],
+    "content_hash": "9a2637ca591b3aec"
+  }
+]

@@ -1,0 +1,196 @@
+{
+  "slug": "juki-dnu-1541s",
+  "collected": "2026-10-01",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/juki-dnu-1541s.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "page",
+      "url": "https://juki.com/dnu-1541-7-dnu-1541s-dnu-1541",
+      "type": "product page (juki.com, DNU-1541 family)",
+      "fetched": "2026-10-01",
+      "note": "Covers DNU-1541, DNU-1541S and DNU-1541-7; spec table by variant"
+    },
+    {
+      "id": "catalog",
+      "url": "https://juki.com/pub/media/wysiwyg/products/DNU-1541_catalog.pdf",
+      "type": "catalog (PDF, 4 pages, Aug 2011)",
+      "fetched": "2026-10-01",
+      "note": "Spec table with three variant columns; merged cells make some figures ambiguous"
+    },
+    {
+      "id": "manual",
+      "url": "https://juki.com/pub/media/wysiwyg/products/DNU-1541_manual.pdf",
+      "type": "instruction manual (PDF, 96 pages)",
+      "fetched": "2026-10-01",
+      "note": "Operator manual; no spec figures beyond the catalog"
+    },
+    {
+      "id": "engineers",
+      "url": "https://raichert.com/wp-content/uploads/2021/03/DNU-1541-7EM01_e.pdf",
+      "type": "Juki Engineer's Manual (hosted by dealer Raichert)",
+      "fetched": "2026-10-01",
+      "note": "Maker document hosted by a third party; motor, free space, feed mechanism"
+    }
+  ],
+  "facts": [
+    {
+      "field": "variants",
+      "value": "DNU-1541: unison-feed lockstitch, 2,500 spm, no safety mechanism, no trimmer; DNU-1541S: same plus a safety mechanism; DNU-1541-7: 3,000 spm with automatic trimmer",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The S suffix is the safety mechanism only. Model name is not a spec (rule 9)."
+    },
+    {
+      "field": "maxSpm",
+      "value": "2,500 stitches per minute (DNU-1541S and DNU-1541); 3,000 (DNU-1541-7)",
+      "source": "catalog",
+      "vs_spec": "confirms",
+      "spec_value": 2500,
+      "site": {
+        "label": "Speed",
+        "juki": "2,500 stitches per minute on the DNU-1541S; the -7 reaches 3,000.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://juki.com/pub/media/wysiwyg/products/DNU-1541_catalog.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "Max 9 mm forward and backward, by dial",
+      "source": "catalog",
+      "vs_spec": "confirms",
+      "spec_value": 9
+    },
+    {
+      "field": "needleSystem",
+      "value": "135x17, Nm125 to Nm180 (Nm160 at delivery)",
+      "source": "catalog",
+      "vs_spec": "confirms",
+      "spec_value": "135x17 (135x16 for leather)",
+      "note": "Our '135x16 for leather' has no maker figure in the documents read."
+    },
+    {
+      "field": "presserFootLift",
+      "value": "By hand 9 mm; by knee 16 mm",
+      "source": "catalog",
+      "vs_spec": "confirms",
+      "spec_value": "9 mm by hand, 16 mm by knee"
+    },
+    {
+      "field": "throatIn",
+      "value": "Distance from needle to machine arm: 264 mm (about 10.4 in); Engineer's Manual free space 255 x 99 mm",
+      "source": "catalog",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null. This is Juki's needle-to-arm wording (rule 11).",
+      "site": {
+        "label": "Throat",
+        "juki": "Needle to machine arm: 264 mm (about 10.4 in).",
+        "others": "Dealers quote 10 in.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://juki.com/pub/media/wysiwyg/products/DNU-1541_catalog.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "feedSystem",
+      "value": "Unison feed (needle feed, walking foot, bottom feed); foot lift alternation 2.5 to 6.5 mm (1 to 6.5 mm on the -7)",
+      "source": "catalog",
+      "vs_spec": "confirms",
+      "spec_value": "Unison feed (walking foot, needle feed and drop feed); alternating vertical movement of feet 2.5 to 6.5 mm"
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "DNU-1541-7 only; none on the DNU-1541S",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "None on DNU-1541S; automatic trimmer is the DNU-1541-7 variant"
+    },
+    {
+      "field": "lubrication",
+      "value": "Centralized oil wick lubrication; Juki New Defrix Oil No. 2 (ISO VG32 equivalent)",
+      "source": "catalog",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "motor",
+      "value": "Sold as a head; motor and table separate. Catalog row shows 750 W in an ambiguous cell; Engineer's Manual lists a 2P 400 W motor",
+      "source": "catalog",
+      "vs_spec": "confirms",
+      "spec_value": "Not built in. Sold as a head; dealer bundles add a table, stand and servo motor",
+      "note": "Juki's catalog and Engineer's Manual disagree on motor output."
+    },
+    {
+      "field": "weightLb",
+      "value": "Head 36.5 kg (DNU-1541 and 1541S); 42.5 kg for the -7. 80.5 lb is our conversion",
+      "source": "catalog",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null. Juki publishes kilograms."
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "Bed 477 x 178 mm (about 18.8 x 7.0 in)",
+      "source": "catalog",
+      "vs_spec": "confirms",
+      "spec_value": "18.78 x 7 (477 x 178 mm)"
+    },
+    {
+      "field": "hook",
+      "value": "Horizontal-axis full-rotary double-capacity hook; bobbin winder on the arm",
+      "source": "catalog",
+      "vs_spec": "confirms",
+      "spec_value": "horizontal-axis large (double capacity) hook loading from the side"
+    },
+    {
+      "field": "autoReverse",
+      "value": "Catalog: automatic reverse feed is an option on the 1541/1541S and standard on the -7; the page says a reverse feed button is standard",
+      "source": "catalog",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Juki's page and catalog conflict."
+    },
+    {
+      "field": "applications",
+      "value": "'For heavy-weight materials' (Engineer's Manual); page: 'responds outstandingly to the sewing of heavy materials'",
+      "source": "engineers",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Maker wording; claim only."
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Not published on the page, catalog or manuals",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "msrp",
+      "value": "Dealer pricing only; contact a Juki distributor",
+      "source": "catalog",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Amazon showed $2,407.62 for a bundle from a third-party seller."
+    },
+    {
+      "field": "claims",
+      "value": "'responds outstandingly to the sewing of heavy materials'; 'excellent sewing capabilities and feed performance'; 'consistent seam quality'",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketing wording; claims only (rule 7)."
+    }
+  ]
+}
