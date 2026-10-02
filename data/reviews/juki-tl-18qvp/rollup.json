@@ -1,0 +1,1119 @@
+{
+  "slug": "juki-tl-18qvp",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-01",
+  "method": {
+    "sources": 33,
+    "itemsCollected": 464,
+    "statements": 91,
+    "voices": 57,
+    "ownerVoices": 41,
+    "dateRange": [
+      2021,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 1,
+        "items": 0
+      },
+      "reddit": {
+        "sources": 32,
+        "items": 461
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 14,
+      "voices": 13,
+      "ownerVoices": 8,
+      "sources": 7,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 13
+      },
+      "polarity": {
+        "positive": 5,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 6
+      },
+      "years": [
+        2021,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ca6042403",
+          "polarity": "negative",
+          "claim": "Owner found the microlift not useful for bag making and says the TL-2010Q is the better recommendation.",
+          "quote": "not found the microlift useful at all for my use case",
+          "url": "https://www.reddit.com/r/myog/comments/uco7du/advice_juki_tl18qvp_haruka_or_juki_industrial_on/o7ysl9c/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c7a487fd4",
+          "polarity": "negative",
+          "claim": "Owner says neither machine includes a free motion ruler foot or the narrow hinge foot.",
+          "quote": "Neither come with a FMQ ruler foot or the narrow hinge foot",
+          "url": "https://www.reddit.com/r/quilting/comments/1v683r3/juki_tl_series_opinions_on_tl2010q_vs_tl18qvp/ozq19xt/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ceb520043",
+          "polarity": "positive",
+          "claim": "Owner lists the knee lift among the amazing features.",
+          "quote": "the knee lift",
+          "url": "https://www.reddit.com/r/quilting/comments/qyctel/quilting_machine_review_the_juki_tl18qvp_haruka/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ce179ed0e",
+          "polarity": "positive",
+          "claim": "Buyer chose the machine for its additional included feet.",
+          "quote": "I bought it for all the additional feet",
+          "url": "https://www.reddit.com/r/quilting/comments/1pd6jpp/does_juki_junkies_run_sales_often/nsaz6l0/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ca6042403",
+        "c4c2e5c9d",
+        "c64572bc2",
+        "c6542f1ce",
+        "c7a487fd4",
+        "ca14dad05",
+        "ce14a172f",
+        "ceb520043",
+        "c7fe2242e",
+        "c2caadaad",
+        "cb135c995",
+        "c517baf4f",
+        "ce179ed0e",
+        "ca0cd1668"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 10,
+      "voices": 10,
+      "ownerVoices": 9,
+      "sources": 7,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 10
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 5,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cec277123",
+          "polarity": "negative",
+          "claim": "Owner's machine skipped a stitch when turning corners near zippers, possibly due to sticky tape on the needle.",
+          "quote": "it would skip a stitch just around the zippers",
+          "url": "https://www.reddit.com/r/sewing/comments/1gwyvwj/my_newest_bag_its_my_new_favorite/lyfuv9q/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c395f6cdb",
+          "polarity": "negative",
+          "claim": "Owner's machine pedals and runs fine after cleaning, but the top thread fails to pick up the bobbin thread.",
+          "quote": "the top thread doesn't pick up the bobbin thread",
+          "url": "https://www.reddit.com/r/quilting/comments/1ok9h5v/juki_tl18qvp_not_stitching_any_ideas_on_what/nma2zzv/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cdc8756c3",
+          "polarity": "positive",
+          "claim": "Owner values that the machine has no electronics to fail.",
+          "quote": "There are no electronics to break.",
+          "url": "https://www.reddit.com/r/quilting/comments/1f64aps/help_me_pick_my_next_machine/ll09mye/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cee18327a",
+          "polarity": "positive",
+          "claim": "Owner reports no problem with bobbin winding or use with the supplied or similar steel bobbins.",
+          "quote": "have never had a problem with the bobbin winding or bobbin usage",
+          "url": "https://www.reddit.com/r/sewing/comments/1mkf78j/is_this_awful_loud_metal_rattling_noise_normal/n7k0hxe/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c395f6cdb",
+        "c7dec86c5",
+        "c0f090a6c",
+        "cc94c3ce3",
+        "cec277123",
+        "c35f46a2c",
+        "cee18327a",
+        "c06aa9431",
+        "c3b36bdae",
+        "cdc8756c3"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 8,
+      "voices": 7,
+      "ownerVoices": 5,
+      "sources": 6,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 7
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c42b74b5f",
+          "polarity": "positive",
+          "claim": "Owner says the machine went through the vinyl bag layers really well.",
+          "quote": "It went through the layers really well",
+          "url": "https://www.reddit.com/r/sewing/comments/1gwyvwj/my_newest_bag_its_my_new_favorite/lyfuv9q/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ccd93f29c",
+          "polarity": "positive",
+          "claim": "Owner saw a dealer video allowing up to Tex 70 and regularly uses Tex 60 if the needle eye is large enough.",
+          "quote": "you can use up to Tex 70 and I use Tex 60 regularly",
+          "url": "https://www.reddit.com/r/sewing/comments/1mkf78j/is_this_awful_loud_metal_rattling_noise_normal/n7p7md2/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cd8c662af",
+        "c7fd6b8f1",
+        "c009cbff2",
+        "cd8cd362c",
+        "cddad8405",
+        "c42b74b5f",
+        "ccd93f29c",
+        "cb8f73218"
+      ]
+    },
+    {
+      "theme": "walking_foot",
+      "label": "Walking foot",
+      "statements": 8,
+      "voices": 7,
+      "ownerVoices": 5,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 7
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 4,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2021,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c0bb857c9",
+          "polarity": "negative",
+          "claim": "Replacement walking feet will likely have the same shaving issue.",
+          "quote": "it will almost for sure have the same issue",
+          "url": "https://www.reddit.com/r/quilting/comments/ukeyyx/juki_walking_foot_shedding_metal_shavings/i7ozh2s/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cafb71f4b",
+          "polarity": "negative",
+          "claim": "Owner traced the black dust to a jagged part of the walking foot, which the shop sanded smooth.",
+          "quote": "The little hand of the walking foot was jagged",
+          "url": "https://www.reddit.com/r/sewing/comments/qe8det/my_new_juki_tl18qvp_makes_a_black_dust_but_why/hhrsy5k/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cb6c72e53",
+        "cafb71f4b",
+        "c60d75f3f",
+        "c878a394a",
+        "ca55ca65c",
+        "c0bb857c9",
+        "c27a22435",
+        "c2e7ae789"
+      ]
+    },
+    {
+      "theme": "thread_trimmer",
+      "label": "Thread trimmer",
+      "statements": 8,
+      "voices": 6,
+      "ownerVoices": 5,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 6
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 2
+      },
+      "years": [
+        2021,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c812e4919",
+          "polarity": "negative",
+          "claim": "Owner says the thread cutter handles only Tex 30 to 40 thread.",
+          "quote": "It can only handle Tex 30-40",
+          "url": "https://www.reddit.com/r/sewing/comments/1mkf78j/is_this_awful_loud_metal_rattling_noise_normal/n7mesrw/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c111eba93",
+          "polarity": "negative",
+          "claim": "Owner's unit had a defective thread sensor that cut at random; they disconnected the cutter wire.",
+          "quote": "came with a defective thread sensor that would cut at random",
+          "url": "https://www.reddit.com/r/sewing/comments/1m66ukd/tl2010q_vs_tl18qvp/n4hv4s2/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cee089fa2",
+          "polarity": "mixed",
+          "claim": "Owner fought a randomly operating thread cutter and is happy after disabling it.",
+          "quote": "I had a long battle with my randomly-operating thread cutter",
+          "url": "https://www.reddit.com/r/sewing/comments/1mkf78j/is_this_awful_loud_metal_rattling_noise_normal/n7lxxmf/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cf4fd2b48",
+        "c111eba93",
+        "cf176a28b",
+        "cee089fa2",
+        "c812e4919",
+        "c680d1145",
+        "c8b28f5af",
+        "c9e91ec0a"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 5,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 6
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c6598adfe",
+          "polarity": "negative",
+          "claim": "Owner with the same machine rolls large quilts tight and quilts from the middle out; it is hard on the hands.",
+          "quote": "I roll them up tight",
+          "url": "https://www.reddit.com/r/quilting/comments/1qjllbi/quilt_on_a_domestic_machine/o11duy3/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ced01d9bf",
+          "polarity": "positive",
+          "claim": "Owner finds the throat space plentiful.",
+          "quote": "it has plenty of throat space",
+          "url": "https://www.reddit.com/r/quilting/comments/1gd35v9/weightless_quilter_suspension_systems/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cf5976438",
+          "polarity": "mixed",
+          "claim": "Owner has quilted king-size quilts on the Juki 18 with a light wool batting, though it was a bundle.",
+          "quote": "I used Dream Wool on a king sized quilt and it was quite a bundle",
+          "url": "https://www.reddit.com/r/quilting/comments/1qjllbi/quilt_on_a_domestic_machine/o143at0/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cb0d3a3e4",
+        "c57ab8408",
+        "cf5976438",
+        "c6598adfe",
+        "c752e9f68",
+        "ced01d9bf"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 3,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 6
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2023,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cf623d8d2",
+          "polarity": "negative",
+          "claim": "New owner reports a loud metal rattle when winding the bobbin.",
+          "quote": "making this awful loud noise when I wind the bobbin",
+          "url": "https://www.reddit.com/r/sewing/comments/1mkf78j/is_this_awful_loud_metal_rattling_noise_normal/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c42ceddaa",
+          "polarity": "positive",
+          "claim": "Review calls it surprisingly quiet for a powerful machine.",
+          "quote": "It's surprisingly quiet for such a powerful machine",
+          "url": "https://www.reddit.com/r/betterconsumerreports/comments/1fiangc/juki_tl18qvp_review_my_new_quilting_obsession/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c3d94e00b",
+          "polarity": "mixed",
+          "claim": "Machine can be loud at top speed, which a pad underneath solves for the owner.",
+          "quote": "When she hits rabbit speed, she can be loud",
+          "url": "https://www.reddit.com/r/quilting/comments/1f64aps/help_me_pick_my_next_machine/ll09mye/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c42ceddaa",
+        "c7219cec5",
+        "cf623d8d2",
+        "cb6ac9dfb",
+        "c9036b6ee",
+        "c3d94e00b"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 3,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c2f6eac36",
+          "polarity": "positive",
+          "claim": "Owner's first impression was that the machine is very fast.",
+          "quote": "Holy crap, this thing is fast.",
+          "url": "https://www.reddit.com/r/quilting/comments/qyctel/quilting_machine_review_the_juki_tl18qvp_haruka/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c88955b81",
+          "polarity": "positive",
+          "claim": "Owner says stitch regulation allows anything from one stitch per second to 1500 per minute.",
+          "quote": "literally one stitch per second or 1500 per minute",
+          "url": "https://www.reddit.com/r/sewing/comments/1m66ukd/tl2010q_vs_tl18qvp/n4hv4s2/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cac42cfe8",
+        "c88955b81",
+        "c2f6eac36",
+        "c25fb47c8"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 4
+      },
+      "years": [
+        2022,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "c7911c941",
+        "c80e5806b",
+        "c5f9a1811",
+        "c56455580"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 4,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c3675c2ab",
+          "polarity": "negative",
+          "claim": "Owner again calls the machine very heavy.",
+          "quote": "Plus it’s so dang heavy!",
+          "url": "https://www.reddit.com/r/quilting/comments/1ue9h5l/recommendations_for_the_best_travel_machine_that/otii2wl/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c48c0044b",
+          "polarity": "negative",
+          "claim": "Owner calls the machine very heavy and suggests a roller bag for retreats.",
+          "quote": "She is crazy heavy so get a roller bag",
+          "url": "https://www.reddit.com/r/quilting/comments/1f64aps/help_me_pick_my_next_machine/ll09mye/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c5c8e2923",
+        "c48c0044b",
+        "c0953ab53",
+        "c3675c2ab"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2021,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cd44067e5",
+          "polarity": "negative",
+          "claim": "Owner's tension became inconsistent after a toddler touched the controls.",
+          "quote": "the tension seems all messed up and inconsistent",
+          "url": "https://www.reddit.com/r/quilting/comments/1v33eh9/need_help_troubleshooting_juki_tl18qvp/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cd02a149d",
+          "polarity": "positive",
+          "claim": "Owner praises the tension and says stitches come out beautifully apart from one small exception.",
+          "quote": "the stitches come out beautifully",
+          "url": "https://www.reddit.com/r/quilting/comments/qyctel/quilting_machine_review_the_juki_tl18qvp_haruka/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c58f1c454",
+        "cd02a149d",
+        "cd44067e5"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c37561962",
+          "polarity": "negative",
+          "claim": "Owner's machine rejects Gutermann silk thread and stretch thread in the bobbin.",
+          "quote": "What I can't use is Gutermann silk thread",
+          "url": "https://www.reddit.com/r/sewing/comments/1mkf78j/is_this_awful_loud_metal_rattling_noise_normal/n7p7md2/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ce4e55ae0",
+          "polarity": "negative",
+          "claim": "Owner finds the machine rejects stretch and silk threads.",
+          "quote": "it does not like stretch threads (Mettler Seraflex), or silk threads",
+          "url": "https://www.reddit.com/r/sewing/comments/1iu65e8/using_jeans_needle_sewing_nylon_webbing_still/mdwtwrj/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ca4a1ddad",
+          "polarity": "positive",
+          "claim": "Owner credits the heavy presser foot and box feed with managing fabric gently.",
+          "quote": "plus the box feed really manage fabric without ever abusing it",
+          "url": "https://www.reddit.com/r/sewing/comments/1m66ukd/tl2010q_vs_tl18qvp/n4hv4s2/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ca4a1ddad",
+        "c37561962",
+        "ce4e55ae0"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c0033fb44",
+          "polarity": "negative",
+          "claim": "Owner never got the auto threader working since April and is considering a separate threader.",
+          "quote": "was never able to get my auto threader to work",
+          "url": "https://www.reddit.com/r/quilting/comments/1njcn9q/auto_threader_on_my_juki_tl18qvp/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c23c8427d",
+          "polarity": "negative",
+          "claim": "The thread stand cannot be removed without taking off the side panel.",
+          "quote": "My Juki has a thread stand that doesn’t come off without removing the side panel",
+          "url": "https://www.reddit.com/r/quilting/comments/1ue9h5l/recommendations_for_the_best_travel_machine_that/otii2wl/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c42dcdd61",
+          "polarity": "positive",
+          "claim": "Owner found the semi-automatic needle threader easy to use despite reviews of problems.",
+          "quote": "I found it quite easy to use",
+          "url": "https://www.reddit.com/r/quilting/comments/qyctel/quilting_machine_review_the_juki_tl18qvp_haruka/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c42dcdd61",
+        "c0033fb44",
+        "c23c8427d"
+      ]
+    },
+    {
+      "theme": "rolled_hem",
+      "label": "Rolled hem",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c5e6b523d",
+          "polarity": "positive",
+          "claim": "Owner can now successfully use a rolled hem foot on this machine.",
+          "quote": "I can also successfully use a rolled hem foot now",
+          "url": "https://www.reddit.com/r/sewing/comments/1mkf78j/is_this_awful_loud_metal_rattling_noise_normal/n7p7md2/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c9a768ce9",
+          "polarity": "positive",
+          "claim": "Owner finds the machine good for zipper installation, gathers and rolled hems.",
+          "quote": "great with zipper installation, gathers, and rolled hems",
+          "url": "https://www.reddit.com/r/sewing/comments/1m66ukd/tl2010q_vs_tl18qvp/n4hv4s2/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c9a768ce9",
+        "c5e6b523d"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cbe6afc22",
+          "polarity": "positive",
+          "claim": "Review says the LED lighting keeps the workspace bright and clear late at night.",
+          "quote": "The workspace is bright and clear, even during late-night quilting sessions",
+          "url": "https://www.reddit.com/r/betterconsumerreports/comments/1fiangc/juki_tl18qvp_review_my_new_quilting_obsession/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cbe6afc22",
+        "c435b81a3"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c1b0638b9",
+          "polarity": "negative",
+          "claim": "Owner took the machine to a dealer for repair under warranty, quoted 4 to 6 weeks.",
+          "quote": "It's under warranty, so hopefully not my cost.",
+          "url": "https://www.reddit.com/r/quilting/comments/1ok9h5v/juki_tl18qvp_not_stitching_any_ideas_on_what/nnb24cg/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c1b0638b9"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B07S2GGPW4",
+      "pageRating": 4.7,
+      "pageCount": 124,
+      "fetched": "2026-10-01",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "lowRated": 0,
+      "sampled": "0 top reviews (0 US, 0 other countries) of 124 ratings"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "1,500 stitches per minute; the page also quotes 200 to 1,500 on the slider.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki source",
+          "url": "https://jukiquilting.com/products/haruka-tl-18qvp.html"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "jq-page"
+    },
+    {
+      "label": "Throat",
+      "juki": "Juki Japan and the brochure give an 8.5 x 6 in arm size; jukiquilting.com gives no figure.",
+      "others": "Dealers call it 8.5 x 6 in throat space.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Juki source",
+          "url": "https://www.juki.co.jp/household_en/products/list/semipro/tl18qvp_collectors_edition.html"
+        }
+      ],
+      "field": "throatIn",
+      "source": "jp-page"
+    },
+    {
+      "label": "Weight",
+      "juki": "25.4 lb (11.5 kg) on the page and brochure; the manual says 11.9 kg.",
+      "others": "Matches our 25.4 lb.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Juki source",
+          "url": "https://jukiquilting.com/products/haruka-tl-18qvp.html"
+        }
+      ],
+      "field": "weightLb",
+      "source": "jq-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "2 years on motor and electrical parts, 5 years on other factory defects (Juki America FAQ, general).",
+      "others": "Dealers state the same.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki source",
+          "url": "https://www.jukihome.com/faq/"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "faq"
+    },
+    {
+      "label": "Price",
+      "juki": "Suggested retail $2,369.",
+      "others": "Amazon showed $1,899.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Juki source",
+          "url": "https://jukiquilting.com/products/haruka-tl-18qvp.html"
+        }
+      ],
+      "field": "msrp",
+      "source": "jq-page"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "TL-2010Q",
+      "label": "Juki TL-2010Q",
+      "rows": [
+        {
+          "feature": "Presser foot lift",
+          "urls": 2,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "Owners say the TL-18QVP's micro lifter (float function) is the main difference from the TL-2010Q. Juki lists the float function for the TL-18QVP and not for the TL-2010Q.",
+          "check": "Juki product pages, 2026-10-01",
+          "examples": [
+            {
+              "claim_id": "cb3a7d64b",
+              "claim": "Buyer finds the micro-lifter is one of two differences between the TL-18QVP and TL-2010Q.",
+              "quote": "The two differences between the two I found is one, the micro-lifter",
+              "url": "https://www.reddit.com/r/sewing/comments/1m66ukd/tl2010q_vs_tl18qvp/"
+            },
+            {
+              "claim_id": "c04704b16",
+              "claim": "TL-2010Q owner says the only real difference is the Micro Lift feature, also called the float function.",
+              "quote": "The only real difference between the two is the Micro Lift feature",
+              "url": "https://www.reddit.com/r/quilting/comments/1v683r3/juki_tl_series_opinions_on_tl2010q_vs_tl18qvp/ozog3qm/"
+            }
+          ],
+          "claimIds": [
+            "cb3a7d64b",
+            "c04704b16"
+          ]
+        },
+        {
+          "feature": "Fabric guide mount",
+          "urls": 2,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "Owners describe a reinforced slot or replaceable mounting plate on the right of the TL-18QVP where the TL-2010Q has a plain connection point. Juki lists an attachment mounting plate for the TL-18QVP.",
+          "check": "Owner comments; Juki's Japan page lists the mounting plate",
+          "examples": [
+            {
+              "claim_id": "c502fa997",
+              "claim": "The TL-18QVP has a reinforced slot on the right for fabric guides, which the TL-2010Q lacks.",
+              "quote": "the reinforced slot for fabric guide etc on the right side",
+              "url": "https://www.reddit.com/r/sewing/comments/1m66ukd/tl2010q_vs_tl18qvp/"
+            },
+            {
+              "claim_id": "c663a59b0",
+              "claim": "Owner of the TL-2010Q notes the TL-18QVP has a replaceable mounting plate on the right where the 2010Q has a plain connection point.",
+              "quote": "the TL18qvp has a replaceable mounting plate",
+              "url": "https://www.reddit.com/r/sewing/comments/1m66ukd/tl2010q_vs_tl18qvp/n4hlqpf/"
+            }
+          ],
+          "claimIds": [
+            "c502fa997",
+            "c663a59b0"
+          ]
+        },
+        {
+          "feature": "Feet and features",
+          "urls": 2,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "Owners say the TL-18QVP ships with nine feet against four on the TL-2010Q, and adds the micro lifter and better lighting. Juki's brochure lists nine standard feet for the TL-18QVP and fewer for the TL-2010Q.",
+          "check": "Owner comments and Juki pages",
+          "examples": [
+            {
+              "claim_id": "c769523bb",
+              "claim": "Owner of both says the 18 ships with 9 feet and the 2010 with 4, with a walking foot on both.",
+              "quote": "9 with the 18 and 4 with the 2010, plus walking foot with both",
+              "url": "https://www.reddit.com/r/quilting/comments/1v683r3/juki_tl_series_opinions_on_tl2010q_vs_tl18qvp/ozq19xt/"
+            },
+            {
+              "claim_id": "c13cfaa35",
+              "claim": "The 18QVP adds only a micro lifter and better lighting over the 2010Q, plus many feet.",
+              "quote": "The 18 QVP has only two built-in features that the 2010Q lack",
+              "url": "https://www.reddit.com/r/quilting/comments/1pd6jpp/does_juki_junkies_run_sales_often/ns88kwn/"
+            }
+          ],
+          "claimIds": [
+            "c769523bb",
+            "c13cfaa35"
+          ]
+        },
+        {
+          "feature": "Motor current",
+          "urls": 1,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "One owner states 1.1 A for the TL-18QVP and 1.4 A for the TL-2010Q. Juki publishes neither.",
+          "check": "unverified, Reddit only",
+          "examples": [
+            {
+              "claim_id": "c943db441",
+              "claim": "Owner states the 2010 has a 1.4 amp motor and the 18 has a 1.1 amp motor.",
+              "quote": "the 2010 has a 1.4 amp motor and the 18 has a 1.1 amp motor",
+              "url": "https://www.reddit.com/r/sewing/comments/1m66ukd/tl2010q_vs_tl18qvp/n4hv4s2/"
+            }
+          ],
+          "claimIds": [
+            "c943db441"
+          ]
+        },
+        {
+          "feature": "Price",
+          "urls": 0,
+          "classes": [],
+          "summary": "Juki lists the TL-2010Q at $2,169 and the TL-18QVP at $2,369.",
+          "check": "Juki product pages, 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "TL-2000Qi",
+      "label": "Juki TL-2000Qi",
+      "rows": [
+        {
+          "feature": "Price",
+          "urls": 0,
+          "classes": [],
+          "summary": "Juki lists the TL-2000Qi at $1,799.",
+          "check": "Juki product pages, 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Float function",
+          "urls": 0,
+          "classes": [],
+          "summary": "No float function is listed for the TL-2000Qi; the TL-18QVP has one. Speed, stitch length and weight match.",
+          "check": "Juki product pages, 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

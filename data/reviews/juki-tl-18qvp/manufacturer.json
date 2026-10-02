@@ -1,0 +1,254 @@
+{
+  "slug": "juki-tl-18qvp",
+  "collected": "2026-10-01",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/juki-tl-18qvp.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "jq-page",
+      "url": "https://jukiquilting.com/products/haruka-tl-18qvp.html",
+      "type": "product page (jukiquilting.com)",
+      "fetched": "2026-10-01",
+      "note": "Spec list, features, accessories, suggested retail price; no throat figure"
+    },
+    {
+      "id": "brochure",
+      "url": "https://jukiquilting.com/media/catalog/product/j/u/juki_tl-18qvp_haruka_brochure.pdf",
+      "type": "brochure (PDF, 2 pages)",
+      "fetched": "2026-10-01",
+      "note": "Spec table; work-area diagram labels 8.5 in x 6 in arm"
+    },
+    {
+      "id": "manual",
+      "url": "https://jukiquilting.com/media/catalog/product/t/l/tl-18qvp_instruction_manual.pdf",
+      "type": "instruction manual (PDF, 104 pages)",
+      "fetched": "2026-10-01",
+      "note": "Specifications table; weight and foot lift differ from the page"
+    },
+    {
+      "id": "jp-page",
+      "url": "https://www.juki.co.jp/household_en/products/list/semipro/tl18qvp_collectors_edition.html",
+      "type": "Juki Japan Collector's Edition page",
+      "fetched": "2026-10-01",
+      "note": "Full spec table including 'arm size'; a Collector's Edition page, not the standard Haruka page"
+    },
+    {
+      "id": "faq",
+      "url": "https://www.jukihome.com/faq/",
+      "type": "Juki America FAQ",
+      "fetched": "2026-10-01",
+      "note": "General warranty wording, not model-specific"
+    },
+    {
+      "id": "tl2010q-page",
+      "url": "https://www.jukihome.com/products/tl-2010q.html",
+      "type": "product page (TL-2010Q)",
+      "fetched": "2026-10-01",
+      "note": "comparison"
+    },
+    {
+      "id": "tl2000qi-page",
+      "url": "https://www.jukihome.com/products/tl-2000qi.html",
+      "type": "product page (TL-2000Qi)",
+      "fetched": "2026-10-01",
+      "note": "comparison"
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "Min. 55, max. 1,500 spm; speed slider 200 to 1,500",
+      "source": "jq-page",
+      "vs_spec": "confirms",
+      "spec_value": 1500,
+      "site": {
+        "label": "Speed",
+        "juki": "1,500 stitches per minute; the page also quotes 200 to 1,500 on the slider.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://jukiquilting.com/products/haruka-tl-18qvp.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "Max. 6 mm",
+      "source": "jq-page",
+      "vs_spec": "confirms",
+      "spec_value": 6
+    },
+    {
+      "field": "throatIn",
+      "value": "'Arm size' 8.5 in (W) x 6 in (H) on Juki Japan's Collector's Edition page and the brochure diagram; not on jukiquilting.com",
+      "source": "jp-page",
+      "vs_spec": "adds",
+      "spec_value": 8.5,
+      "note": "Juki's wording is 'arm size', not needle-to-arm; our 8.5 in has only this indirect maker source and dealers calling it throat space.",
+      "site": {
+        "label": "Throat",
+        "juki": "Juki Japan and the brochure give an 8.5 x 6 in arm size; jukiquilting.com gives no figure.",
+        "others": "Dealers call it 8.5 x 6 in throat space.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.juki.co.jp/household_en/products/list/semipro/tl18qvp_collectors_edition.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "workspace",
+      "value": "Up to 23 in with the auxiliary table attached",
+      "source": "jp-page",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "weightLb",
+      "value": "25.4 lb / 11.5 kg (page, brochure); Japan page 24.5 lb; manual 11.9 kg",
+      "source": "jq-page",
+      "vs_spec": "contradicts",
+      "spec_value": 25.4,
+      "note": "Juki's own documents disagree (11.5 vs 11.9 kg).",
+      "site": {
+        "label": "Weight",
+        "juki": "25.4 lb (11.5 kg) on the page and brochure; the manual says 11.9 kg.",
+        "others": "Matches our 25.4 lb.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://jukiquilting.com/products/haruka-tl-18qvp.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "18 W x 14 H x 9 D in (452 x 350 x 219 mm)",
+      "source": "jq-page",
+      "vs_spec": "confirms",
+      "spec_value": "17.8 W x 8.6 D x 13.8 H (452 x 219 x 350 mm)"
+    },
+    {
+      "field": "presserFootLift",
+      "value": "Lever max 10 mm (0.4 in), knee lifter max 12 mm (0.5 in); manual says 7 mm and 9 mm (12 mm by knee lifter)",
+      "source": "jq-page",
+      "vs_spec": "contradicts",
+      "spec_value": "Knee lifter lever included; float function",
+      "note": "Juki's page and manual disagree on the lever lift."
+    },
+    {
+      "field": "floatFunction",
+      "value": "Float function (micro lifter): the presser foot floats 0 to 2 mm above the material",
+      "source": "jq-page",
+      "vs_spec": "confirms",
+      "spec_value": "Float function (micro lifter) holds the presser foot 0 to 2 mm above the fabric"
+    },
+    {
+      "field": "needleSystem",
+      "value": "HA x 1 (130/705H) / HL x 5, #9 to #18; high shank",
+      "source": "jq-page",
+      "vs_spec": "confirms",
+      "spec_value": "HAx1 (130/705H)"
+    },
+    {
+      "field": "motor",
+      "value": "Not published",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "One owner says 1.1 A against the TL-2010Q's 1.4 A (Reddit, not a Juki figure)."
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "Automatic thread trimmer by button or foot controller; automatic needle threader",
+      "source": "jq-page",
+      "vs_spec": "confirms",
+      "spec_value": "Automatic thread trimmer"
+    },
+    {
+      "field": "hook",
+      "value": "Vertical full-rotary hook on the feature page; the Japan spec table says horizontal-axis full-rotary",
+      "source": "jp-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Juki's own pages disagree."
+    },
+    {
+      "field": "lighting",
+      "value": "LED, 4-step adjustable (high, medium, low, off)",
+      "source": "jq-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "includedFeet",
+      "value": "Standard, hemming, zipper, even feed, 1/5 in and 1/4 in quilting, open-toe quilting, 1/4 in compensating and 1/4 in feet; quilt guide; auxiliary table; knee lifter",
+      "source": "brochure",
+      "vs_spec": "confirms",
+      "spec_value": "Nine presser feet; power cord, two screwdrivers, HAx1 needles, four bobbins, knee lifter lever, oiler, spool cap, cleaning brush"
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Juki America FAQ: 2 years on motors, light assembly, wiring, switches, circuit boards and speed control; 5 years on other parts for factory defects",
+      "source": "faq",
+      "vs_spec": "confirms",
+      "spec_value": "5 yr defective materials and workmanship; 2 yr motors, light assembly, wiring, switches, speed control and electrical components",
+      "note": "General Juki America wording, not TL-18QVP-specific.",
+      "site": {
+        "label": "Warranty",
+        "juki": "2 years on motor and electrical parts, 5 years on other factory defects (Juki America FAQ, general).",
+        "others": "Dealers state the same.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/faq/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "Suggested retail $2,369; contact an authorized Juki QVP dealer",
+      "source": "jq-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Amazon showed $1,899 on 2026-10-01.",
+      "site": {
+        "label": "Price",
+        "juki": "Suggested retail $2,369.",
+        "others": "Amazon showed $1,899.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://jukiquilting.com/products/haruka-tl-18qvp.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "claims",
+      "value": "'constructed of aluminum die-casting that ensures industrial-quality sewing'; 'equipped with the same mechanism as JUKI's industrial machines'; 'known as a workhorse'",
+      "source": "jq-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketing wording; claims only (rule 7). Juki gives no meaning for 'VP' or 'QVP' beyond a product-line label."
+    },
+    {
+      "field": "auxTableDimensions",
+      "value": "jukiquilting.com: 23(W) x 14(D) in written with 'mm' unit typo, 590(W) x 355(D) mm; brochure and Japan page: 590(W) x 335(D) mm (13 in)",
+      "source": "jq-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Juki's page and brochure disagree on the auxiliary table depth (355 vs 335 mm)."
+    }
+  ]
+}
