@@ -1,0 +1,15 @@
+{
+  "slug": "janome-coverpro-2000cpx",
+  "collected": null,
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/janome-coverpro-2000cpx.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "maker-page",
+      "url": "https://www.janome.com/product/coverpro-2000cpx/",
+      "type": "product page",
+      "fetched": null,
+      "note": "TODO: fetch, then add the manual, warranty and brochure PDFs with their pages"
+    }
+  ],
+  "facts": []
+}

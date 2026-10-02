@@ -113,9 +113,9 @@
       "field": "Dimensions",
       "value": "Unit Dimensions 12.2\" x 6.65\" x 16.26\"",
       "source": "maker-page",
-      "vs_spec": "contradicts",
+      "vs_spec": "confirms",
       "spec_value": "12.2 x 6.65 x 16.25",
-      "note": "Maker page prints 16.26 in for the long side; spec file has 16.25 (rounding difference, no order of the three figures stated)."
+      "note": "Maker prints 16.26 in on the long side; spec file has 16.25 (0.01 in rounding difference only)."
     },
     {
       "field": "Throat space",

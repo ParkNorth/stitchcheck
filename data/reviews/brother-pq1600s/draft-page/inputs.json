@@ -1,0 +1,758 @@
+{
+  "slug": "brother-pq1600s",
+  "today": "2026-10-02",
+  "rules": "AGENTS.md rules 1 to 12 apply: spec-check not field-test, owner evidence labelled, paraphrase and attribute, no em or en dashes, never invent a spec, claims quoted not asserted, every spec sourced, model name is not a spec, conflicts listed, price bands not live prices.",
+  "spec": {
+    "slug": "brother-pq1600s",
+    "brand": "Brother",
+    "model": "PQ1600S",
+    "series": "PQ",
+    "type": "mechanical",
+    "industrial": false,
+    "jobs": [
+      "quilting",
+      "heavy-duty"
+    ],
+    "manufacturerUrl": "https://www.brother-usa.com/products/pq1600s",
+    "retailerUrl": "https://www.sewingmachinesplus.com/PQ1600S.php",
+    "priceUsdSeen": 579.99,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Search snippet across Brother and Sewing Machines Plus listings; confirm on the SMP page before publishing",
+    "specs": {
+      "stitchTypes": {
+        "value": "Straight stitch only",
+        "source": "https://www.brother-usa.com/products/pq1600s"
+      },
+      "stitchCount": {
+        "value": 1,
+        "source": "https://www.brother-usa.com/products/pq1600s"
+      },
+      "maxSpm": {
+        "value": 1500,
+        "source": "https://www.brother-usa.com/products/pq1600s"
+      },
+      "maxStitchLengthMm": {
+        "value": 7,
+        "source": "https://www.brother-usa.com/products/pq1600s"
+      },
+      "threads": {
+        "value": null,
+        "source": null
+      },
+      "differentialFeed": {
+        "value": null,
+        "source": null
+      },
+      "throatIn": {
+        "value": 8.7,
+        "source": "https://www.brother-usa.com/products/pq1600s"
+      },
+      "throatHeightIn": {
+        "value": 5.7,
+        "source": "https://www.brother-usa.com/products/pq1600s"
+      },
+      "stitchRegulation": {
+        "value": "None (domestic straight stitch machine)",
+        "source": "https://www.brother-usa.com/products/pq1600s"
+      },
+      "needleSystem": {
+        "value": null,
+        "source": null
+      },
+      "needleThreader": {
+        "value": "F.A.S.T. automatic needle threader",
+        "source": "https://www.sewingmachinesplus.com/PQ1600S.php"
+      },
+      "bobbin": {
+        "value": "Side loading bobbin",
+        "source": "https://www.sewingpartsonline.com/products/brother-pq1600s-sewing-quilting-machine"
+      },
+      "lighting": {
+        "value": null,
+        "source": null
+      },
+      "presserFootLift": {
+        "value": "Built in knee lifter; presser foot pressure dial with 4 color coded levels",
+        "source": "https://www.brother-usa.com/products/pq1600s"
+      },
+      "threadTrimmer": {
+        "value": "Thread cutter (owner reports; Brother page lists automatic features)",
+        "source": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/67733-juki-2010q-vs-brother-1500-pq-1500s"
+      },
+      "feedSystem": {
+        "value": "Pin feed mechanism, swaps feed dogs for a single pin; 4 color coded feed dog height levels",
+        "source": "https://www.brother-usa.com/products/pq1600s"
+      },
+      "buttonhole": {
+        "value": null,
+        "source": null
+      },
+      "motor": {
+        "value": null,
+        "source": null
+      },
+      "frame": {
+        "value": null,
+        "source": null
+      },
+      "weightLb": {
+        "value": 23.8,
+        "source": "https://www.amazon.com/Brother-PQ1600S-High-Speed-Straight-Quilting/dp/B0CFYQZX5Q"
+      },
+      "dimensionsIn": {
+        "value": "18.1 W x 7.7 D x 12.6 H",
+        "source": "https://www.amazon.com/Brother-PQ1600S-High-Speed-Straight-Quilting/dp/B0CFYQZX5Q"
+      },
+      "includedFeet": {
+        "value": "7 accessory feet; 11.1 x 23.3 in wide table",
+        "source": "https://www.brother-usa.com/products/pq1600s"
+      },
+      "warrantyUs": {
+        "value": "1 yr labor, 2 yr electrical, 25 yr chassis (1/2/25 limited)",
+        "source": "https://www.sewingmachinesplus.com/PQ1600S.php"
+      }
+    },
+    "claims": [
+      "\"Heavy-Duty Quilting\" (dealer listing title, premierstitching.com)",
+      "\"maximum fabric control\" (manufacturer claim, brother-usa.com)",
+      "\"powerhouse\" (owner and retailer language, not a rating)"
+    ],
+    "conflicts": [
+      "Throat: Brother lists a 5.7 x 8.7 in needle to arm space; a parts retailer lists throat height 5.75 in and throat space 8.5 in. Catalog will use Brother's 8.7 x 5.7 in and note the 8.5 in figure.",
+      "Price: $579.99 appeared in the search snippet for the Brother and Sewing Machines Plus listing set but the page that carried it was not confirmed. Mark [verify] until the SMP page is read directly.",
+      "Needle system: not published on pages found. Predecessor PQ1500SL used standard 130/705H needles, but do not carry that over without a source."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "An owner who chose the Brother on price says it has handled several king and queen quilts and singles out the knee lift and thread cutter; she does not do detailed free motion.",
+        "tone": "positive",
+        "source": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/67733-juki-2010q-vs-brother-1500-pq-1500s"
+      },
+      {
+        "theme": "In Juki versus Brother threads, Juki owners describe their machines as heavier and quieter, and note the mechanical Juki needs frequent oiling; the Brother is positioned as the value pick.",
+        "tone": "mixed",
+        "source": "https://sewing.patternreview.com/SewingDiscussions/topic/106516"
+      },
+      {
+        "theme": "Beginner quilting groups frequently ask PQ1600S or TL-2010Q, which shows the two are cross shopped directly.",
+        "tone": "mixed",
+        "source": "https://www.facebook.com/groups/quiltforbeginner/posts/1181044963379200/"
+      }
+    ],
+    "evidence": "mixed",
+    "buyerQuestions": [
+      "Is the Brother PQ1600S the same as the PQ1500SL?",
+      "Brother PQ1600S or Juki TL-2010Q for quilting?",
+      "How much throat space does the PQ1600S have?",
+      "What is the pin feed on the PQ1600S for?",
+      "Does the PQ1600S do zigzag?",
+      "Does the PQ1600S have a knee lifter and thread cutter?",
+      "What is the Brother PQ1600S warranty?",
+      "Can the PQ1600S go on a quilting frame?"
+    ],
+    "crossShop": [
+      {
+        "slug": "juki-tl-2010q",
+        "why": "The head to head in this class; same speed and throat, the Juki is aluminum die cast and usually costs more"
+      },
+      {
+        "slug": "juki-tl-18qvp",
+        "why": "Dealer version of the Juki with a micro lifter and more feet, at roughly three times the Brother's price"
+      },
+      {
+        "slug": "janome-mc6650",
+        "why": "For buyers who decide they want utility stitches and a 10 in throat instead of straight stitch speed"
+      },
+      {
+        "slug": "handi-quilter-moxie",
+        "why": "The question of whether to skip the domestic step and buy a frame longarm"
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "editorial": {
+      "verdict": "The PQ1600S is the lowest cost route to 1,500 spm straight stitching with a knee lifter and a wide table. It competes on price with the Juki TL class and gives up the die cast body and dealer network in exchange.",
+      "whoFor": "A piecer or table quilter who wants speed, a knee lifter and a big table for the least money, and does not need decorative stitches.",
+      "skipIf": "You want one machine for garments and quilts (no zigzag or buttonhole), you want frame quilting with regulated stitches, or you value dealer service over online price.",
+      "keySpec": "8.7 x 5.7 in throat · 1,500 spm · straight stitch only · 7 feet and wide table included",
+      "strengths": [
+        "1,500 spm and 7 mm max stitch length at a domestic price",
+        "Pin feed option for slippery or thin fabrics, plus 4 level feed dog and pressure adjustment",
+        "Knee lifter, automatic needle threader, 7 feet and a 23.3 in wide table in the box"
+      ],
+      "weaknesses": [
+        "Straight stitch only",
+        "Needle system, lighting and motor specs are not published on pages found",
+        "Throat figures differ by source (8.7 vs 8.5 in)"
+      ],
+      "checks": [
+        {
+          "title": "Confirm the current price on the listing",
+          "body": "$579.99 was seen in a search snippet, not on a read page. Prices in this class move with promotions."
+        },
+        {
+          "title": "Check the throat dimension you care about",
+          "body": "Brother says 8.7 in wide and 5.7 in tall. If you roll large quilts, the 5.7 in height is the limit more often than the width."
+        },
+        {
+          "title": "Decide on the Juki before you decide on the Brother",
+          "body": "Owners cross shop these directly. Price the TL-2010Q at the same retailer on the same day."
+        }
+      ],
+      "realCost": [
+        {
+          "item": "Table",
+          "note": "Wide table included; no extra cost"
+        },
+        {
+          "item": "Stitch regulator",
+          "note": "Not available for this machine"
+        },
+        {
+          "item": "Frame",
+          "note": "Optional third party frame; the machine is not sold as a frame system"
+        },
+        {
+          "item": "Needles and bobbins",
+          "note": "Standard domestic consumables; confirm needle system with Brother before bulk buying"
+        }
+      ]
+    },
+    "sources": [
+      "https://www.brother-usa.com/products/pq1600s",
+      "https://www.brother-usa.com/p/sewing/PQ1600S",
+      "https://www.sewingmachinesplus.com/PQ1600S.php",
+      "https://www.sewingpartsonline.com/products/brother-pq1600s-sewing-quilting-machine",
+      "https://www.amazon.com/Brother-PQ1600S-High-Speed-Straight-Quilting/dp/B0CFYQZX5Q",
+      "https://www.premierstitching.com/brother-pq1600s-high-speed-straight-stitch-sewing-quilting-machine/",
+      "https://www.brother.eu/-/media/product-downloads/bsme/uk/pq1600s-leaflet-en-web.pdf",
+      "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/67733-juki-2010q-vs-brother-1500-pq-1500s",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/106516",
+      "https://www.facebook.com/groups/quiltforbeginner/posts/1181044963379200/"
+    ]
+  },
+  "manufacturer": {
+    "documents": [
+      {
+        "id": "maker-page",
+        "url": "https://www.brother-usa.com/products/pq1600s",
+        "type": "product page (resolves to /p/quilting/PQ1600S)",
+        "fetched": "2026-10-02",
+        "note": "Main features, spec tables, carton contents, warranty line, price $999.99 shown on the page."
+      },
+      {
+        "id": "manual",
+        "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf",
+        "type": "operation manual (EN/FR, 60 pages)",
+        "fetched": "2026-10-02",
+        "note": "Text layer. Needle recommendation p20, spec table p27, stitch length regulator p10."
+      },
+      {
+        "id": "quick-guide",
+        "url": "https://download.brother.com/welcome/doch102860/884t79_qg01endefrnliteszhtko.pdf",
+        "type": "quick reference guide (2 pages)",
+        "fetched": "2026-10-02",
+        "note": "Threading and bobbin pictograms only; no specs."
+      },
+      {
+        "id": "smp-page",
+        "url": "https://www.sewingmachinesplus.com/PQ1600S.php",
+        "type": "dealer page (Sewing Machines Plus, redirects to /products/pq1600s)",
+        "fetched": "2026-10-02",
+        "note": "Dealer copy of the maker spec sheet: lamp, thread cutter, stitch length 5 mm, workspace, sale price. Brochure link on that page returned 404 when tried."
+      },
+      {
+        "id": "sibling-pq1500sl",
+        "url": "https://www.brother-usa.com/p/sewing/PQ1500SL",
+        "type": "sibling maker page",
+        "fetched": "2026-10-02",
+        "note": "Marked Discontinued and Out of Stock on the maker page."
+      },
+      {
+        "id": "brother-eu-leaflet",
+        "url": "https://www.brother.eu/-/media/product-downloads/bsme/uk/pq1600s-leaflet-en-web.pdf",
+        "type": "EU leaflet (listed in spec sources)",
+        "fetched": "2026-10-02",
+        "note": "Returned HTTP 403 to curl; not read."
+      }
+    ],
+    "facts": [
+      {
+        "field": "Stitch types",
+        "value": "1 built-in stitch, straight stitch only; 0 buttonhole styles; 0 lettering fonts",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "Straight stitch only / 1",
+        "site": {
+          "label": "Stitches",
+          "juki": "Built-in Stitch Selections 1; Button Hole Styles 0",
+          "others": "1 (Straight Stitch Only)",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother PQ1600S specifications",
+              "url": "https://www.brother-usa.com/products/pq1600s"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Max speed",
+        "value": "1500 spm (manual: 40 to 1500 stitches per minute)",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": 1500,
+        "note": "Manual spec table p27 gives the 40 to 1500 range.",
+        "site": {
+          "label": "Max speed",
+          "juki": "1500 spm; manual 40 to 1500 stitches per minute",
+          "others": "1500 spm",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Instruction manual",
+              "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Max stitch length",
+        "value": "Manual: dial range reaches 5 to 7 mm; reverse stitch is always 5 mm when the dial is set between 5 and 7 mm. Maker page lists no stitch length. SMP spec copy lists Stitch Length: 5 mm.",
+        "source": "manual",
+        "vs_spec": "contradicts",
+        "spec_value": 7,
+        "note": "Our spec cites the maker page for 7 mm, but that page prints no stitch length. The 7 mm figure is only implied by the manual's '5-7 mm' dial wording; the dealer copy says 5 mm. Soft number: keep as disagreement.",
+        "site": {
+          "label": "Max stitch length",
+          "juki": "Manual p10: dial set between 5 and 7 mm gives 5 mm reverse; no explicit maximum",
+          "others": "Sewing Machines Plus: 5 mm",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Instruction manual",
+              "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+            },
+            {
+              "label": "Sewing Machines Plus page",
+              "url": "https://www.sewingmachinesplus.com/PQ1600S.php"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Throat (workspace)",
+        "value": "Maker wording: 'large 5.7\" x 8.7\" needle-to-arm space'; spec table: 'Workspace (H x W) 5.7\" x 8.7\"' on the dealer copy",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "8.7 in wide, 5.7 in high",
+        "note": "Maker calls it needle-to-arm space, so 8.7 in is the width claim. Sibling PQ1500SL maker page lists 5.7 x 8.6 in (needle to arm x front to back, per a Brother customer service answer in search snippet). Parts retailer figure of 8.5 in is not a maker figure.",
+        "site": {
+          "label": "Throat (needle to arm)",
+          "juki": "5.7 x 8.7 in needle-to-arm space",
+          "others": "Dealer copy: Workspace 5.7 x 8.7 in",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother PQ1600S",
+              "url": "https://www.brother-usa.com/products/pq1600s"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Bed and table",
+        "value": "Wide table 11.1 x 23.3 in (283 x 593 mm), included",
+        "source": "smp-page",
+        "vs_spec": "confirms",
+        "spec_value": "11.1 x 23.3 in wide table",
+        "site": {
+          "label": "Wide table",
+          "juki": "11.1 x 23.3 in wide table",
+          "others": "Sewing Machines Plus: 11.1 x 23.3 in (283 x 593 mm)",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother PQ1600S",
+              "url": "https://www.brother-usa.com/products/pq1600s"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Needle system",
+        "value": "Manual p20: 'HLX5 needles are recommended; however, Schmetz 130/705H needles may also be used under normal sewing conditions.' Carton lists needle sizes 9, 11, 14, 16 and one ballpoint.",
+        "source": "manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec is null and the briefing said needle system unpublished; the manual publishes it. Editor may fill needleSystem from the manual.",
+        "site": {
+          "label": "Needles",
+          "juki": "HLX5 recommended; 130/705H may also be used (manual p20)",
+          "others": "not stated on dealer page",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Instruction manual",
+              "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Lighting",
+        "value": "Dealer copy of maker spec: 'Lighting: 1 Lamp'. Maker page does not list lighting type; manual mentions a light unit in safety text only.",
+        "source": "smp-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Type (LED or other) and brightness not published for the PQ1600S. PQ1500SL maker page says LED; do not carry it over.",
+        "site": {
+          "label": "Light",
+          "juki": "not listed on maker page",
+          "others": "Sewing Machines Plus: 1 lamp",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Sewing Machines Plus page",
+              "url": "https://www.sewingmachinesplus.com/PQ1600S.php"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Thread cutter",
+        "value": "Push button thread cutter that automatically cuts upper and lower thread (maker main features)",
+        "source": "maker-page",
+        "vs_spec": "contradicts",
+        "spec_value": "Thread cutter (owner reports; Brother page lists automatic features)",
+        "note": "Spec sources the cutter to a forum post; the maker page does state it, so the source can be upgraded. Maker spec tables list the cutter only on the dealer copy (Automatic Thread Cutter: Yes).",
+        "site": {
+          "label": "Thread cutter",
+          "juki": "Push button thread cutter, cuts upper and lower thread",
+          "others": "Automatic Thread Cutter: Yes",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother PQ1600S",
+              "url": "https://www.brother-usa.com/products/pq1600s"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Needle stop position",
+        "value": "Maker features: 'The needle position ... can be preprogrammed to be in the up or down position'. Manual p10: lit indicator means machine stops with needle lowered. Maker spec table row 'Needle Stop Position Up/Down: No' contradicts the feature text.",
+        "source": "manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Page-vs-page disagreement on the same maker page; the manual and feature text support a needle stop button.",
+        "site": {
+          "label": "Needle stop up/down",
+          "juki": "Feature text: programmable up or down; spec table row: No",
+          "others": "same text on dealer page",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Instruction manual",
+              "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Free-motion foot",
+        "value": "Included: Free Motion Quilting Foot (carton list; manual p24 covers it). Maker spec table row 'Free Motion Quilting Foot: No' contradicts the carton list; dealer copy says Yes.",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Page-vs-page disagreement on the maker page.",
+        "site": {
+          "label": "Free-motion foot",
+          "juki": "Carton list includes it; spec table row says No",
+          "others": "Dealer copy: Free-Motion Quilting Foot: Yes",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Brother PQ1600S",
+              "url": "https://www.brother-usa.com/products/pq1600s"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Feed system",
+        "value": "Pin Feed Mechanism (single pin extends from beneath the machine in place of feed dogs); 4 color-coded feed dog levels; pin feed works only in the pin feed dial position (manual) and with the Pin Feed Foot",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "Pin feed mechanism, 4 color coded feed dog levels",
+        "site": {
+          "label": "Pin feed and feed dogs",
+          "juki": "Pin feed plus 4 feed dog positions and presser foot pressure levels",
+          "others": "Drop Feed/Free-Motion: 4 steps",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother PQ1600S",
+              "url": "https://www.brother-usa.com/products/pq1600s"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Knee lifter",
+        "value": "Built-in knee lifter, included in carton",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "Built in knee lifter; presser foot pressure dial",
+        "site": {
+          "label": "Knee lifter",
+          "juki": "Yes (included)",
+          "others": "Yes",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother PQ1600S",
+              "url": "https://www.brother-usa.com/products/pq1600s"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Weight and size",
+        "value": "23.81 lb; 7.7 x 18.1 x 12.6 in (maker page). Manual: 10.8 kg (approx. 24 lb); 460 x 195 x 320 mm.",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "23.8 lb; 18.1 W x 7.7 D x 12.6 H",
+        "site": {
+          "label": "Weight",
+          "juki": "23.81 lb",
+          "others": "Sewing Machines Plus: 23.81 lb",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother PQ1600S",
+              "url": "https://www.brother-usa.com/products/pq1600s"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Motor",
+        "value": "Not published in the manual spec table, the maker page or the dealer copy",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": null,
+        "note": "Spec table p27 lists only dimensions, weight and speed."
+      },
+      {
+        "field": "Stitch regulation",
+        "value": "Not published; no stitch regulator mentioned",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "None (domestic straight stitch machine)",
+        "note": "Our spec value is a statement of absence the maker does not make; keep as editor judgment."
+      },
+      {
+        "field": "Bobbin",
+        "value": "Manual cites 'Quick Bobbin' and a Winding/Installing the Bobbin chapter; carton includes 5 bobbins",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "Side loading bobbin",
+        "note": "Bobbin class and loading direction should be re-read from the manual before the page calls it side loading.",
+        "site": {
+          "label": "Bobbin",
+          "juki": "5 bobbins in carton; independent bobbin winding motor",
+          "others": "Adjustable bobbin winding speed: Yes",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Instruction manual",
+              "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Warranty",
+        "value": "'1/2/25 Year Limited Warranty' (maker page and dealer page). Maker page gives no breakdown of which term covers labor, electrical or chassis.",
+        "source": "maker-page",
+        "vs_spec": "contradicts",
+        "spec_value": "1 yr labor, 2 yr electrical, 25 yr chassis (1/2/25 limited)",
+        "note": "Maker wording is the three numbers only. The labor/electrical/chassis split in our spec is not on the maker page; a retailer page elsewhere describes a 25-year chassis term for some models. Sibling PQ1500SL page says '2/6/25 Year Premium Limited Warranty', so the warranty is model-specific. The maker's warranty-information page found is about extended warranties only.",
+        "site": {
+          "label": "Warranty",
+          "juki": "1/2/25 Year Limited Warranty",
+          "others": "dealer repeats 1/2/25",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Brother PQ1600S",
+              "url": "https://www.brother-usa.com/products/pq1600s"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Price",
+        "value": "Maker page price shown: $999.99 (2026-10-02). Sewing Machines Plus dealer page: regular $1,299.99, sale $999.99 (dealer pricing, 2026-10-02)",
+        "source": "maker-page",
+        "vs_spec": "contradicts",
+        "spec_value": 579.99,
+        "note": "Spec priceUsdSeen 579.99 (search snippet, 2026-09-29) was not confirmed on a read page and is far below both pages read today. Record as dated observation only.",
+        "site": {
+          "label": "Price",
+          "juki": "$999.99 on the maker page, 2026-10-02",
+          "others": "Dealer page reads $999.99 sale / $1,299.99 regular, 2026-10-02",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Brother PQ1600S",
+              "url": "https://www.brother-usa.com/products/pq1600s"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Availability",
+        "value": "PQ1600S maker page shows an Add to Cart button and no discontinued flag. The PQ1500SL page carries 'Discontinued' and 'Out of Stock'.",
+        "source": "sibling-pq1500sl",
+        "vs_spec": "confirms",
+        "spec_value": "discontinued false"
+      },
+      {
+        "field": "Claims",
+        "value": "'The optimum machine for speed and precision'; 'a fantastic machine that belongs in the sewing room of every serious quilter and sewist'; feed dog levels 'will give you maximum fabric control'; 'Extra Large Workspace'; 'Lightning-Fast Sewing Speeds'",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Marketing wording only; not spec rows."
+      }
+    ]
+  },
+  "rollup": {
+    "status": "draft",
+    "method": {
+      "sources": 10,
+      "itemsCollected": 93,
+      "statements": 13,
+      "voices": 8,
+      "ownerVoices": 4,
+      "dateRange": [
+        2024,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 2,
+          "items": 2
+        },
+        "reddit": {
+          "sources": 8,
+          "items": 90
+        }
+      },
+      "blocked": 0,
+      "evidence": "thin",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+        "pageRating": 4.4,
+        "pageCount": 49,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "lowRated": 0,
+        "sampled": "0 top reviews (0 US, 0 other countries) of 49 ratings"
+      },
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/PQ1600S.php",
+        "pageRating": 5,
+        "pageCount": 2,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 2
+        },
+        "lowRated": 0,
+        "sampled": null
+      }
+    ],
+    "themes": [],
+    "siblings": [
+      {
+        "label": "Brother PQ1500SL",
+        "rows": [
+          {
+            "feature": "Status at the maker",
+            "summary": "Maker page marks it Discontinued and Out of Stock.",
+            "check": "brother-usa.com/p/sewing/PQ1500SL, read 2026-10-02"
+          },
+          {
+            "feature": "Workspace at the maker",
+            "summary": "5.7 x 8.6 in workspace (PQ1600S page: 5.7 x 8.7 in).",
+            "check": "brother-usa.com PQ1500SL and PQ1600S pages, read 2026-10-02"
+          },
+          {
+            "feature": "Warranty term wording",
+            "summary": "'2/6/25 Year Premium Limited Warranty' (PQ1600S page: '1/2/25 Year Limited Warranty').",
+            "check": "brother-usa.com PQ1500SL and PQ1600S pages, read 2026-10-02"
+          },
+          {
+            "feature": "Maker lighting entry",
+            "summary": "PQ1500SL page lists Lighting Type: LED; the PQ1600S page lists no lighting type.",
+            "check": "brother-usa.com PQ1500SL page, read 2026-10-02"
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "checks": [
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Max stitch length\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Thread cutter\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Warranty\" but the spec's conflicts do not mention it"
+    }
+  ],
+  "editorNotes": {
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction."
+  },
+  "siteFieldsNow": "  \"brother-pq1600s\": {\n    series: \"PQ\",\n    score: 8.4,\n    scoredFor: \"quilting\",\n    reason: \"Brother's straight-stitch quilter, cross-shopped against the Juki TL.\",\n    context: \"Straight-stitch quilter · in Quilting hub\",\n    alternatives: [\n      { slug: \"juki-tl-2010q\", label: \"Cross-shop\", note: \"The TL it is priced against.\" },\n      { slug: \"juki-tl-2000qi\", label: \"Cheaper Juki\", note: \"Same class, button trimmer.\" },\n      { slug: \"janome-mc6650\", label: \"Needs zigzag\", note: \"Computerized, 10 in workspace per Janome.\" },\n    ],\n    imageAlt: \"Brother PQ1600S straight-stitch quilting machine\",\n    lastUpdated: \"2026-09-29\",\n  },",
+  "comparesNow": []
+}

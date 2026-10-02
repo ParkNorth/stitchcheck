@@ -1,11 +1,16 @@
 {
   "slug": "brother-pq1600s",
-  "generated": "2026-10-02T12:20:02.630Z",
+  "generated": "2026-10-02T12:21:31.521Z",
   "counts": {
     "error": 0,
     "warn": 3
   },
   "items": [
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 16, this 13, sibling 0, unclear 2"
+    },
     {
       "level": "info",
       "id": "reddit",
@@ -25,6 +30,11 @@
       "level": "warn",
       "id": "conflicts",
       "message": "maker documents contradict our \"Warranty\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence thin, 8 voices (4 first-hand), 10 sources, status draft"
     }
   ]
 }

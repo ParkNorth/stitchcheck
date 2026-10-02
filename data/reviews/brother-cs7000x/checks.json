@@ -1,9 +1,9 @@
 {
   "slug": "brother-cs7000x",
-  "generated": "2026-10-02T12:20:38.630Z",
+  "generated": "2026-10-02T12:23:17.952Z",
   "counts": {
     "error": 0,
-    "warn": 3
+    "warn": 2
   },
   "items": [
     {
@@ -13,18 +13,23 @@
     },
     {
       "level": "info",
+      "id": "scope",
+      "message": "spec claims: 114, this 78, sibling 14, unclear 21"
+    },
+    {
+      "level": "info",
       "id": "reddit",
       "message": "60 Reddit threads, 60 with the model in the title"
     },
     {
       "level": "warn",
       "id": "conflicts",
-      "message": "maker documents contradict our \"Dimensions\" but the spec's conflicts do not mention it"
+      "message": "maker documents contradict our \"Included feet\" but the spec's conflicts do not mention it"
     },
     {
-      "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"Included feet\" but the spec's conflicts do not mention it"
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 55 voices (36 first-hand), 62 sources, status draft"
     }
   ]
 }

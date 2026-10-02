@@ -1,0 +1,15 @@
+{
+  "slug": "juki-ddl-5550",
+  "collected": null,
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/juki-ddl-5550.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "maker-page",
+      "url": "https://pdf.directindustry.com/pdf/juki-industrial-sewing-machine/ddl-5550n-series/173840-711982.html",
+      "type": "product page",
+      "fetched": null,
+      "note": "TODO: fetch, then add the manual, warranty and brochure PDFs with their pages"
+    }
+  ],
+  "facts": []
+}

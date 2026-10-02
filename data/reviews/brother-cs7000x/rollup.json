@@ -1,0 +1,1052 @@
+{
+  "slug": "brother-cs7000x",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 62,
+    "itemsCollected": 446,
+    "statements": 78,
+    "voices": 55,
+    "ownerVoices": 36,
+    "dateRange": [
+      2021,
+      2026
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 60,
+        "items": 417
+      },
+      "retailer": {
+        "sources": 2,
+        "items": 29
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.6 from 3,642 ratings is shared by several listings of this machine (pooled variations, ASIN B08BH5GTNC); only 13 written reviews were retrieved, so the rating reflects the pooled variation set and not this exact configuration alone."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 11,
+      "voices": 11,
+      "ownerVoices": 9,
+      "sources": 6,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 11
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 8,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c79d33fd4",
+          "polarity": "negative",
+          "claim": "A second owner had the same sudden needle-hitting-hook fault after a trouble-free bag project.",
+          "quote": "suddenly the needle is hitting the rotary hook",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1t9td2j/brother_cs7000x_needle_hitting_hook/oqaxeyd/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c377aa70b",
+          "polarity": "negative",
+          "claim": "New machine misaligned after sewing very thick fleece, with the needle landing outside the bobbin shuttle; fixed by shifting the needle with a rear screw.",
+          "quote": "the needle lands outside of the bobbin shuttle",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1w9fl45/please_help_how_to_realign_bobbin_shuttle_on_my/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c948e8919",
+          "polarity": "positive",
+          "claim": "Owner of a couple of months reports no issues and easy startup.",
+          "quote": "I haven’t had any issues",
+          "url": "https://www.reddit.com/r/sewing/comments/11buqhp/im_considering_buying_a_brother_cs7000x_is_it_a/ja14fqm/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c26522a9f",
+          "polarity": "positive",
+          "claim": "Owner of the same machine reports no bobbin winding problems after following the manual.",
+          "quote": "I’ve never (knock on wood!) had problems",
+          "url": "https://www.reddit.com/r/quilting/comments/w4pj5j/making_bobbins_on_brother_cs7000x_hi_im_having_a/ih5l6nc/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c1044eec9",
+        "cb60c2ce4",
+        "c26522a9f",
+        "ce591d69a",
+        "c5e05ae73",
+        "c948e8919",
+        "c477e62ed",
+        "cf58e53fb",
+        "cca518dea",
+        "c79d33fd4",
+        "c377aa70b"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 11,
+      "voices": 11,
+      "ownerVoices": 6,
+      "sources": 6,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 8,
+        "retailer": 3
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 5,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2021,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c688f3cf6",
+          "polarity": "negative",
+          "claim": "Reviewer says it is not heavy duty for thick industrial level materials and advanced users may want more power and speed.",
+          "quote": "it is not a heavy-duty machine for thick industrial-level materials",
+          "url": "https://www.amazon.com/dp/B08BH5GTNC",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c01055e86",
+          "polarity": "positive",
+          "claim": "Owner sews thin, soft leather from upcycled jackets with leather needles and says the machine coped; stresses only thin leather.",
+          "quote": "Brother CS7000X has worked fine for me",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1qtm0gb/brother_cs7000x_or_st371hd/o38mitg/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c07a5cf5d",
+          "polarity": "positive",
+          "claim": "Owner of about 2.5 months says it handled pants, a dress, quilted bags and thick martial arts kimono repairs without trouble.",
+          "quote": "The machine has handled everything well.",
+          "url": "https://www.reddit.com/r/sewing/comments/ppzuod/thoughts_on_brother_cs7000x/hda18z4/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c01055e86",
+        "c811d4928",
+        "c8ef9501a",
+        "c9b2d0fb8",
+        "cc6cb16a2",
+        "c6193a725",
+        "c07a5cf5d",
+        "cba69f730",
+        "c688f3cf6",
+        "c507d23f1",
+        "cd90db1f8"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 9,
+      "voices": 9,
+      "ownerVoices": 8,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 4,
+        "retailer": 5
+      },
+      "polarity": {
+        "positive": 5,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c809bf4fd",
+          "polarity": "negative",
+          "claim": "Replacement unit squeaks on every stitch and fabric type, even after cleaning, rethreading and new bobbin.",
+          "quote": "Why is my machine squeaking like this??",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1pajp56/machine_squeaking_brother_cs7000x/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cc392c8d6",
+          "polarity": "negative",
+          "claim": "New unit makes a loud startup noise that sounds like the motor jamming.",
+          "quote": "My machine just arrived is making this Awful noise at startup.",
+          "url": "https://www.reddit.com/r/sewing/comments/1knkq2x/is_this_startup_noise_normal_brother_cs7000x/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c67022885",
+          "polarity": "positive",
+          "claim": "Reviewer says it runs quietly.",
+          "quote": "It runs quietly",
+          "url": "https://www.amazon.com/dp/B08BH5GTNC",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c253c64d6",
+          "polarity": "positive",
+          "claim": "Beginner says the machine is quiet with easy pedal control.",
+          "quote": "The machine is quiet and it’s easy to control the pedal.",
+          "url": "https://www.sewingmachinesplus.com/CS7000X.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c31d8c95d",
+        "cc392c8d6",
+        "c76e66f64",
+        "c809bf4fd",
+        "c67022885",
+        "ce6b84378",
+        "c3ca04328",
+        "cc70b7a8a",
+        "c253c64d6"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 8,
+      "voices": 8,
+      "ownerVoices": 5,
+      "sources": 7,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 7,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c68257cab",
+          "polarity": "positive",
+          "claim": "Poster found an overcasting foot among the accessories and used it to make a faux serged edge.",
+          "quote": "Tried it out, and it worked!",
+          "url": "https://www.reddit.com/r/sewing/comments/1h1kmgw/can_i_do_this_stitch_with_a_brother_cs7000x/lzcq88a/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c680d9e1e",
+          "polarity": "positive",
+          "claim": "Owner says the model ships with several presser feet and many stitches.",
+          "quote": "The model comes with several presser feet and many stitches",
+          "url": "https://www.reddit.com/r/sewing/comments/11buqhp/im_considering_buying_a_brother_cs7000x_is_it_a/ja18g0u/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c68257cab",
+        "c680d9e1e",
+        "cddb5dd35",
+        "c91f4289f",
+        "cbccb9832",
+        "c7942bfc8",
+        "c48487e73",
+        "c5e058c0f"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 7,
+      "voices": 7,
+      "ownerVoices": 4,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 4,
+        "retailer": 3
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 4
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c83947f49",
+          "polarity": "positive",
+          "claim": "Owner says the overcast foot gives a decent overcast stitch.",
+          "quote": "it does a decent overcast stitch",
+          "url": "https://www.reddit.com/r/sewing/comments/1h1kmgw/can_i_do_this_stitch_with_a_brother_cs7000x/lzcqdvt/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c028deab1",
+          "polarity": "positive",
+          "claim": "Owner reports consistent, even stitches after a year.",
+          "quote": "the stitches are fantastic, consistent, even",
+          "url": "https://www.amazon.com/dp/B08BH5GTNC",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c6f274fc5",
+        "c83947f49",
+        "cee333cb0",
+        "c1c174054",
+        "c028deab1",
+        "cb9c2fc7e",
+        "c9ff2ce0e"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 4,
+      "sources": 6,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 4,
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 4
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c0bf6f562",
+          "polarity": "negative",
+          "claim": "No oil or brush ships with the machine.",
+          "quote": "I wish it came with oil and a brush.",
+          "url": "https://www.sewingmachinesplus.com/CS7000X.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c7525ce5f",
+          "polarity": "positive",
+          "claim": "Owner finds it easy to get inside the machine to clean it.",
+          "quote": "it’s easy enough to get inside your machine to clean up a bit",
+          "url": "https://www.amazon.com/dp/B08BH5GTNC",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c935a8f8f",
+        "c143f7893",
+        "c2ced1140",
+        "ca3f21aae",
+        "c7525ce5f",
+        "c0bf6f562"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 4,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 3,
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cdaa3d0fb",
+          "polarity": "negative",
+          "claim": "New owner cannot see the take-up lever thread catch even with the needle at its highest position.",
+          "quote": "I can’t see the thread catch on the take-up lever.",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ribz28/brother_cs7000x_cant_get_thread_through_takeup/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c943a3df4",
+          "polarity": "negative",
+          "claim": "Needle threader instructions were unclear, so the reviewer threaded by hand.",
+          "quote": "The only thing I had a bit of a problem with was the needle threader.",
+          "url": "https://www.amazon.com/dp/B08BH5GTNC",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cce936a0e",
+          "polarity": "positive",
+          "claim": "Automatic needle threader has worked every time so far in shared house use.",
+          "quote": "The needle threader has worked every time so far",
+          "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wnj1og/the_shared_house_got_a_brother_cs7000x_quilting/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cd6986c4d",
+          "polarity": "mixed",
+          "claim": "One year owner only has trouble threading thick topstitch thread through the needle.",
+          "quote": "The only threading I’ve had trouble getting into the needle head is topstitch thread",
+          "url": "https://www.amazon.com/dp/B08BH5GTNC",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c42b33d8b",
+        "cdaa3d0fb",
+        "cce936a0e",
+        "cd6986c4d",
+        "c943a3df4"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 2,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 3,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c45b89171",
+          "polarity": "negative",
+          "claim": "Buyer found the machine very light and feels it is insubstantial.",
+          "quote": "It feels insubstantial.",
+          "url": "https://www.sewingmachinesplus.com/CS7000X.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c26e55933",
+          "polarity": "positive",
+          "claim": "Poster says the body is metal framed under plastic covers.",
+          "quote": "the body is metal framed under the plastic and feels it",
+          "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wnj1og/the_shared_house_got_a_brother_cs7000x_quilting/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ca2206268",
+        "c66330885",
+        "c26e55933",
+        "c45b89171"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 0,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2021,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "cf82c09ac",
+        "cd2f03cc2",
+        "c1fa5c938"
+      ]
+    },
+    {
+      "theme": "thread_trimmer",
+      "label": "Thread trimmer",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2022,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cd52baa71",
+          "polarity": "negative",
+          "claim": "Reviewer notes there is no thread cut button.",
+          "quote": "except it does not have a cut thread button",
+          "url": "https://www.amazon.com/dp/B08BH5GTNC",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c7491e3c2",
+        "c99cae737",
+        "cd52baa71"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c3cf8d878",
+          "polarity": "negative",
+          "claim": "Owner agrees the machine handles thicker seams poorly.",
+          "quote": "it doesn't do well with thicker seams",
+          "url": "https://www.reddit.com/r/sewing/comments/11buqhp/im_considering_buying_a_brother_cs7000x_is_it_a/ja18g0u/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c4ca7c0d6",
+          "polarity": "negative",
+          "claim": "Owner finds stitches hard to keep smooth on very thin material with long stitch lengths.",
+          "quote": "sewing really thin material it seems to have a hard time keeping the stitches smooth",
+          "url": "https://www.amazon.com/dp/B08BH5GTNC",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c3cf8d878",
+        "c4ca7c0d6"
+      ]
+    },
+    {
+      "theme": "walking_foot",
+      "label": "Walking foot",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c84a12157",
+          "polarity": "positive",
+          "claim": "Owner says it ships with many presser feet and accessories, including a walking foot.",
+          "quote": "It even has a walking foot.",
+          "url": "https://www.reddit.com/r/sewhelp/comments/136xsmr/brother_cs7000x_vs_st371hd_for_beginner/jircbqq/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c3ba9e4cf",
+          "polarity": "positive",
+          "claim": "Ten feet in the box, including a walking foot and a quarter inch piecing foot.",
+          "quote": "Ten feet come in the box, including a walking foot and a quarter inch foot",
+          "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wnj1og/the_shared_house_got_a_brother_cs7000x_quilting/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c84a12157",
+        "c3ba9e4cf"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cee7af150",
+          "polarity": "positive",
+          "claim": "Reviewer finds it light and easy to carry to classes.",
+          "quote": "it is so light and easy to pack and carry",
+          "url": "https://www.amazon.com/dp/B08BH5GTNC",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c7f6a3734",
+        "cee7af150"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c75050abb"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cbeb4f9e3",
+          "polarity": "positive",
+          "claim": "Stitches on quilting cotton came out even without any tension adjustment.",
+          "quote": "stitches on quilting cotton have come out dead even without touching the tension",
+          "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wnj1og/the_shared_house_got_a_brother_cs7000x_quilting/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cbeb4f9e3"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c0eb76cfe",
+          "polarity": "positive",
+          "claim": "Needle area light is bright enough that no extra lamp was needed.",
+          "quote": "the light is bright enough that the desk lamp stayed in the drawer",
+          "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wnj1og/the_shared_house_got_a_brother_cs7000x_quilting/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c0eb76cfe"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B08BH5GTNC",
+      "pageRating": 4.6,
+      "pageCount": 3642,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 12
+      },
+      "lowRated": 0,
+      "sampled": "13 top reviews (8 US, 5 other countries) of 3642 ratings"
+    },
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://www.sewingmachinesplus.com/CS7000X.php",
+      "pageRating": 4.75,
+      "pageCount": 16,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 2,
+        "5": 13
+      },
+      "lowRated": 1,
+      "sampled": null
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Max speed",
+      "juki": "750 (maker spec table, unit not printed)",
+      "others": "Dealer listings: 750 spm",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother CS7000X page",
+          "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+        }
+      ],
+      "field": "Max sewing speed",
+      "source": "maker-page"
+    },
+    {
+      "label": "Throat space",
+      "juki": "No figure; 'wide table' only",
+      "others": "Retail copy repeats 'large needle-to-arm workspace' (CP100X wording)",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Brother CS7000X page",
+          "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+        },
+        {
+          "label": "Brother CP100X page",
+          "url": "https://www.brother-usa.com/p/sewing/CP100X"
+        }
+      ],
+      "field": "Throat space",
+      "source": "maker-page"
+    },
+    {
+      "label": "Frame",
+      "juki": "Not stated on the CS7000X page",
+      "others": "Walmart listing titles say 'Durable Metal Frame'",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Brother CS7000X page",
+          "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+        }
+      ],
+      "field": "Frame",
+      "source": "maker-page"
+    },
+    {
+      "label": "Free arm",
+      "juki": "Yes; remove the flat bed attachment",
+      "others": "Some owner posts say there is no free arm",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother CS7000X page",
+          "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+        }
+      ],
+      "field": "Free arm",
+      "source": "maker-page"
+    },
+    {
+      "label": "Included feet",
+      "juki": "10 sewing feet listed (nine feet plus quilt guide); spec table also lists 1/4 in foot",
+      "others": "Dealers say 10 feet",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Brother CS7000X page",
+          "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+        }
+      ],
+      "field": "Included feet",
+      "source": "maker-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "25 Year Limited Warranty; PDF: 1 yr parts/labor/accessories, 2 yr electronics, 25 yr chassis casting",
+      "others": "Sewing Machines Plus repeats the same split",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother CS7000X page",
+          "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+        },
+        {
+          "label": "Brother standard warranty PDF",
+          "url": "https://assets.brother.com/asset/3c94d716-bfc6-44de-8ae8-0b4b0286d316/13317_Standard_Warranty-pdf.pdf"
+        }
+      ],
+      "field": "Warranty",
+      "source": "warranty"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "CS7000i",
+      "label": "Brother CS7000i",
+      "rows": []
+    },
+    {
+      "model": "CS7205",
+      "label": "Brother CS7205",
+      "rows": [
+        {
+          "feature": "Maker stitch and speed figures",
+          "urls": 0,
+          "classes": [],
+          "summary": "CS7205: 205 built-in stitches, 850 max sewing speed, 8 buttonholes, $289.99 on the maker page; same 7 width and 5 length.",
+          "check": "Brother USA CS7205 product page, fetched 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Maker feet list",
+          "urls": 0,
+          "classes": [],
+          "summary": "CS7205 lists walking foot, spring action quilting foot, stitch guide foot and 1/4 in foot among its feet.",
+          "check": "Brother USA CS7205 product page, fetched 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "CS6000i",
+      "label": "Brother CS6000i",
+      "rows": []
+    },
+    {
+      "model": "CP100X",
+      "label": "Brother CP100X",
+      "rows": [
+        {
+          "feature": "Maker stitch and speed figures",
+          "urls": 0,
+          "classes": [],
+          "summary": "CP100X: 100 built-in stitches, 750 max sewing speed, 8 buttonholes, $259.99 on the maker page; same weight and dimensions as the CS7000X.",
+          "check": "Brother USA CP100X product page, fetched 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Maker workspace and frame wording",
+          "urls": 0,
+          "classes": [],
+          "summary": "The CP100X page carries 'large needle-to-arm workspace' and 'durable metal frame construction' wording; the CS7000X page does not, and neither gives an inch figure.",
+          "check": "Brother USA CP100X and CS7000X product pages, fetched 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "XR9550",
+      "label": "Brother XR9550",
+      "rows": [
+        {
+          "feature": "Maker stitch figures",
+          "urls": 0,
+          "classes": [],
+          "summary": "XR9550: 165 built-in stitches including 55 alphanumeric, 8 buttonholes, backlit LCD, $269.99, 1/2/25 year warranty split on the maker page.",
+          "check": "Brother USA XR9550 product page, fetched 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}
