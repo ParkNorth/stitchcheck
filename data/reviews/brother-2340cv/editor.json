@@ -1,0 +1,97 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.3 from 1,204 ratings is shared by several listings of this machine (pooled variations), and only 13 written reviews were readable, so treat the average as a rating of the pooled listing rather than of one seller."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "CV3440",
+      "label": "Brother CV3440",
+      "pattern": "cv\\s*-?3440(?![a-z0-9])"
+    },
+    {
+      "model": "CV3550",
+      "label": "Brother CV3550",
+      "pattern": "cv\\s*-?3550(?![a-z0-9])"
+    },
+    {
+      "model": "2340CVT",
+      "label": "Brother 2340CVT",
+      "pattern": "2340\\s*-?cvt(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "coverpro[\\s-]*2000cpx(?![a-z0-9])|2000cpx(?![a-z0-9])",
+      "Janome CoverPro 2000CPX"
+    ],
+    [
+      "professional[\\s-]*5[\\s-]*14t968dc(?![a-z0-9])|968dc(?![a-z0-9])",
+      "Singer Professional 5 14T968DC"
+    ],
+    [
+      "1034d(?![a-z0-9])",
+      "Brother 1034D"
+    ],
+    [
+      "1634d(?![a-z0-9])",
+      "Brother 1634D"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "coverpro[\\s-]*2000cpx(?![a-z0-9])|2000cpx(?![a-z0-9])|professional[\\s-]*5[\\s-]*14t968dc(?![a-z0-9])|968dc(?![a-z0-9])|1034d(?![a-z0-9])|1634d(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {
+    "CV3440": [
+      {
+        "feature": "Tension release and free arm",
+        "summary": "Brother lists a one-touch lever tension release and a free arm on the CV3440. The 2340CV page, manual and brochure list neither.",
+        "check": "Brother CV3440 and 2340CV product pages, 2026-10-02"
+      },
+      {
+        "feature": "Speed and thread cutter",
+        "summary": "The CV3440 page lists 1000 maximum sewing speed and a thread cutter; the 2340CV page lists 1,100 and its manual says 1,000.",
+        "check": "Brother product pages and 2340CV User's Guide, 2026-10-02"
+      }
+    ]
+  }
+}

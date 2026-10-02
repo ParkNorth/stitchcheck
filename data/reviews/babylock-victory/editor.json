@@ -1,0 +1,136 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "No marketplace listing: Baby Lock is dealer-only (AGENTS rule 15). Retailer ratings, where shown, come from dealer sites that list the machine online, not from a Baby Lock channel."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "Imagine",
+      "label": "Baby Lock Imagine",
+      "pattern": "imagine(?![a-z0-9])|ble1at[\\s-]*2(?![a-z0-9])"
+    },
+    {
+      "model": "Celebrate",
+      "label": "Baby Lock Celebrate",
+      "pattern": "celebrate(?![a-z0-9])|bls1(?![a-z0-9])"
+    },
+    {
+      "model": "Vibrant",
+      "label": "Baby Lock Vibrant",
+      "pattern": "vibrant(?![a-z0-9])|bl460b(?![a-z0-9])"
+    },
+    {
+      "model": "Acclaim",
+      "label": "Baby Lock Acclaim",
+      "pattern": "acclaim(?![a-z0-9])|bles4(?![a-z0-9])"
+    },
+    {
+      "model": "Accolade",
+      "label": "Baby Lock Accolade",
+      "pattern": "accolade(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "imagine(?![a-z0-9])|ble1at[\\s-]*2(?![a-z0-9])",
+      "Baby Lock Imagine"
+    ],
+    [
+      "mo[\\s-]*1000(?![a-z0-9])",
+      "Juki MO-1000"
+    ],
+    [
+      "vibrant(?![a-z0-9])|bl460b(?![a-z0-9])",
+      "Baby Lock Vibrant"
+    ],
+    [
+      "1034d(?![a-z0-9])",
+      "Brother 1034D"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "imagine(?![a-z0-9])|ble1at[\\s-]*2(?![a-z0-9])|imagine(?![a-z0-9])|ble1at[\\s-]*2(?![a-z0-9])|mo[\\s-]*1000(?![a-z0-9])|vibrant(?![a-z0-9])|bl460b(?![a-z0-9])|1034d(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {
+    "Celebrate": [
+      {
+        "feature": "Tension system",
+        "summary": "Baby Lock lists manual tension on the Celebrate (Micromatic Twin Cam on its page) and Automatic Thread Delivery on the Victory.",
+        "check": "Baby Lock serger comparison chart and Celebrate page, 2026-10-02"
+      },
+      {
+        "feature": "Lights",
+        "summary": "One LED on the Celebrate, two LEDs on the Victory.",
+        "check": "Baby Lock serger comparison chart, 2026-10-02"
+      },
+      {
+        "feature": "Stitch list",
+        "summary": "The chart lists 2 thread blanket and ladder stitches on the Victory and not on the Celebrate; both list 6 mm presser foot lift and Jet-Air threading.",
+        "check": "Baby Lock serger comparison chart, 2026-10-02"
+      },
+      {
+        "feature": "Maker price shown",
+        "summary": "babylock.com showed the Celebrate at $1,352 and the Victory at $2,089 on 2026-10-02.",
+        "check": "babylock.com product pages, 2026-10-02"
+      }
+    ],
+    "Vibrant": [
+      {
+        "feature": "Threading and tension",
+        "summary": "Color coded manual threading and manual tension on the Vibrant; Jet-Air and Automatic Thread Delivery on the Victory.",
+        "check": "Baby Lock serger comparison chart, 2026-10-02"
+      },
+      {
+        "feature": "Maker price shown",
+        "summary": "babylock.com showed the Vibrant at $524 and the Victory at $2,089 on 2026-10-02.",
+        "check": "babylock.com product pages, 2026-10-02"
+      }
+    ],
+    "Imagine": [
+      {
+        "feature": "Needle system",
+        "summary": "The Imagine spec sheet lists HAx1SP, 130/705H and ELx705CF; the Victory manual names only HAx1SP/CR.",
+        "check": "Baby Lock Imagine spec sheet and Victory manual, 2026-10-02"
+      }
+    ]
+  }
+}

@@ -1,0 +1,385 @@
+{
+ "slug": "bernina-570-qe",
+ "collected": "2026-10-02",
+ "purpose": "First-party facts from the maker's own documents, compared against data/specs/bernina-570-qe.json. Research input for the editor; not a spec file.",
+ "documents": [
+  {
+   "id": "maker-page",
+   "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE",
+   "type": "product page",
+   "fetched": "2026-10-02",
+   "note": "Bernina US page for the 2017 and later model; lists $5,499 MSRP and a features table shared in layout with the 540 and 590 pages"
+  },
+  {
+   "id": "maker-support",
+   "url": "https://www.bernina.com/en-US/Support-US/Machines/NEW-BERNINA-5-Series/BERNINA-570-QE",
+   "type": "support page",
+   "fetched": "2026-10-02",
+   "note": "Lists the English manual, firmware V39.03.15 (2025-07-10) and the Type VIO versus Type LUN label note"
+  },
+  {
+   "id": "maker-manual",
+   "url": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf",
+   "type": "instruction manual (PDF, 196 pages, text layer)",
+   "fetched": "2026-10-02",
+   "note": "Technical data p.164, supplied accessories p.19 to 22. The support page also links an 'EN Updated' 2023-08 file (30A_04) which downloaded byte-identical in size"
+  },
+  {
+   "id": "maker-warranty",
+   "url": "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty",
+   "type": "US warranty page (search excerpt, not a full scrape)",
+   "fetched": "2026-10-02",
+   "note": "Warranty is generic to Bernina US, not model-specific"
+  },
+  {
+   "id": "maker-pre2017",
+   "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/BERNINA-5-Series/BERNINA-570-QE-before-2017",
+   "type": "product page (earlier model)",
+   "fetched": "2026-10-02",
+   "note": "Says 'This product is no longer available'; 7.5 in, 5.5 mm, 900 spm, 642 stitches, 33 lb, BSR included"
+  },
+  {
+   "id": "maker-590",
+   "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-590",
+   "type": "sibling product page",
+   "fetched": "2026-10-02",
+   "note": "$8,499 MSRP; 1,774 stitches; 18 buttonholes; 60 quilting stitches"
+  },
+  {
+   "id": "maker-540",
+   "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-540",
+   "type": "sibling product page",
+   "fetched": "2026-10-02",
+   "note": "1,048 stitches; 14 buttonholes; 43 quilting stitches; no price; page says 'no longer available'"
+  }
+ ],
+ "facts": [
+  {
+   "field": "msrp",
+   "value": "$5,499.00 labelled 'Manufacturer Suggested Retail Price' on the US product page; dealers set their own price",
+   "source": "maker-page",
+   "vs_spec": "confirms",
+   "spec_value": 5499,
+   "note": "Page also carries a Buy Now link to shop.berninausa.com and a Find a store link. Stitch Check shows no buy button for Bernina (dealer-only rule).",
+   "site": {
+    "label": "List price",
+    "juki": "$5,499 manufacturer suggested retail price, with a Find a store link.",
+    "others": "Dealers set their own price; we show a band, not a live price.",
+    "status": "dealer only",
+    "links": [
+     {
+      "label": "Bernina source",
+      "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"
+     }
+    ]
+   }
+  },
+  {
+   "field": "stitchCount",
+   "value": "1450 sewing stitch patterns including alphabets; 450 decorative, 25 practical, 73 quilting, 8 alphabets",
+   "source": "maker-page",
+   "vs_spec": "confirms",
+   "spec_value": 1450,
+   "note": "The 642 figure some dealers quote is Bernina's own figure for the before 2017 570 QE (maker-pre2017). The 240 figure on one dealer page has no Bernina source.",
+   "site": {
+    "label": "Stitches",
+    "juki": "1,450 including alphabets (450 decorative, 25 practical, 73 quilting, 8 alphabets).",
+    "others": "Matches our spec. Dealers quoting 642 are describing the older machine.",
+    "status": "confirmed",
+    "links": [
+     {
+      "label": "Bernina source",
+      "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"
+     }
+    ]
+   }
+  },
+  {
+   "field": "buttonhole",
+   "value": "16 buttonholes and eyelets; automatic length-measuring one-step buttonhole and manual multi-step",
+   "source": "maker-page",
+   "vs_spec": "confirms",
+   "spec_value": "16 buttonhole styles including eyelet"
+  },
+  {
+   "field": "maxSpm",
+   "value": "1000 stitches per minute (page and manual technical data)",
+   "source": "maker-manual",
+   "vs_spec": "confirms",
+   "spec_value": 1000,
+   "site": {
+    "label": "Max speed",
+    "juki": "1,000 spm on the product page and in the manual technical data.",
+    "others": "Matches our spec.",
+    "status": "confirmed",
+    "links": [
+     {
+      "label": "Bernina manual p.164",
+      "url": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "field": "maxStitchWidthMm",
+   "value": "9 mm maximum; FAQ says widths over 5.5 mm need a presser foot attached and the 9 mm needle plate activated",
+   "source": "maker-page",
+   "vs_spec": "confirms",
+   "spec_value": 9,
+   "note": "Page note: 'the 9 mm maximum stitch width available on some models'.",
+   "site": {
+    "label": "Stitch width",
+    "juki": "9 mm maximum, with the 9 mm needle plate and a suitable foot.",
+    "others": "Matches our spec.",
+    "status": "confirmed",
+    "links": [
+     {
+      "label": "Bernina source",
+      "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"
+     }
+    ]
+   }
+  },
+  {
+   "field": "maxStitchLengthMm",
+   "value": "6 mm maximum",
+   "source": "maker-page",
+   "vs_spec": "confirms",
+   "spec_value": 6
+  },
+  {
+   "field": "throatIn",
+   "value": "'Sewing space to the right of the needle' 8.5 in; 'extended freearm offers 8.5 in right of the needle'",
+   "source": "maker-page",
+   "vs_spec": "confirms",
+   "spec_value": 8.5,
+   "note": "Maker wording is right of the needle, which is needle to body. The manual technical data gives no throat figure. The before 2017 page says 7.5 in (maker-pre2017). Bernina's 530, 540, 590 pages show the same 8.5 in.",
+   "site": {
+    "label": "Throat",
+    "juki": "8.5 in right of the needle (maker wording: sewing space to the right of the needle).",
+    "others": "Matches our spec. The earlier 570 QE is 7.5 in.",
+    "status": "confirmed",
+    "links": [
+     {
+      "label": "Bernina source",
+      "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"
+     }
+    ]
+   }
+  },
+  {
+   "field": "throatHeightIn",
+   "value": "'Workspace height' listed as 4,3\" (comma decimal as printed); no unit conversion given",
+   "source": "maker-page",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "Spec was null. Printed with a comma; treat as 4.3 in and verify against the PDF or a dealer before using."
+  },
+  {
+   "field": "stitchRegulation",
+   "value": "BSR functionality is integrated in the machine; the BERNINA Stitch Regulator (BSR) foot is an optional accessory. Manual supplied-accessory list (p.19 to 21) does not list a BSR foot; BSR connection is on the back panel (p.18)",
+   "source": "maker-page",
+   "vs_spec": "confirms",
+   "spec_value": "BSR functionality built in; foot optional on some listings, included on others",
+   "note": "Before 2017 page says 'BSR included' (maker-pre2017), so the older machine shipped with it. Dealer bundles for the current machine vary.",
+   "site": {
+    "label": "Stitch regulator",
+    "juki": "BSR functionality integrated; the BSR foot is an optional accessory.",
+    "others": "Some dealer bundles include the foot and some do not; ask before buying.",
+    "status": "confirmed",
+    "links": [
+     {
+      "label": "Bernina source",
+      "url": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"
+     }
+    ]
+   }
+  },
+  {
+   "field": "needleSystem",
+   "value": "130/705 (manual technical data)",
+   "source": "maker-manual",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "Spec was null."
+  },
+  {
+   "field": "bobbin",
+   "value": "Jumbo bobbin with '70% more capacity'; FAQ: about 100 m of thread, bobbin sensor warns at about 10% left; supplied 'Bobbin for B9 Hook', set of 4",
+   "source": "maker-page",
+   "vs_spec": "confirms",
+   "spec_value": "Jumbo bobbin",
+   "note": "The 70 percent and 100 m figures are Bernina wording."
+  },
+  {
+   "field": "lighting",
+   "value": "LED sewing light; page table shows the number 12 beside it with no unit",
+   "source": "maker-page",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "Spec was null. The meaning of 12 is not explained on the page (assumed LED count, unverified)."
+  },
+  {
+   "field": "presserFootLift",
+   "value": "Knee lifter / Free Hand System (FHS) is a supplied accessory (manual p.19); also automatic presser foot hover function",
+   "source": "maker-manual",
+   "vs_spec": "confirms",
+   "spec_value": "Knee lifter (Free Hand System)",
+   "note": "Our spec cited a forum; the maker manual now backs it."
+  },
+  {
+   "field": "threadTrimmer",
+   "value": "Automatic thread cutter, one-button operation",
+   "source": "maker-page",
+   "vs_spec": "confirms",
+   "spec_value": "Automatic thread cutter"
+  },
+  {
+   "field": "feedSystem",
+   "value": "BERNINA Dual Feed, built in, 'tucks away when not in use'",
+   "source": "maker-page",
+   "vs_spec": "confirms",
+   "spec_value": "Bernina Dual Feed (built in walking foot function)",
+   "note": "Maker describes Dual Feed; 'walking foot function' is our wording, not Bernina's."
+  },
+  {
+   "field": "motor",
+   "value": "'Powerful DC Motor' (marketing); manual technical data lists energy consumption 90 W, which is not a motor rating",
+   "source": "maker-manual",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "Spec was null. Do not present 90 W as motor power."
+  },
+  {
+   "field": "weightLb",
+   "value": "Page: 24.2 lb. Manual technical data: 11.2 kg (25.35 lb)",
+   "source": "maker-manual",
+   "vs_spec": "contradicts",
+   "spec_value": 27,
+   "note": "Our 27 lb came from a dealer (smarterfabric.com). Bernina's page and manual disagree with it and with each other by about 1 lb. The earlier 570 QE page says 33 lb.",
+   "site": {
+    "label": "Weight",
+    "juki": "Page 24.2 lb; manual 11.2 kg (25.35 lb).",
+    "others": "Our earlier figure was 27 lb from a dealer.",
+    "status": "differs",
+    "links": [
+     {
+      "label": "Bernina manual p.164",
+      "url": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "field": "dimensionsIn",
+   "value": "Page: 18.1 x 7.9 x 12.9 in labelled W x H x D. Manual: 450 x 330 x 200 mm (17.72 x 12.99 x 7.87 in) W x H x D, without spool pin",
+   "source": "maker-manual",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "Spec was null. Page and manual swap height and depth; the manual order (height about 13 in, depth about 7.9 in) is the physically plausible one. Verify against the PDF.",
+   "site": {
+    "label": "Size (W x H x D)",
+    "juki": "Manual: 17.7 x 13.0 x 7.9 in. Page prints 18.1 x 7.9 x 12.9 in.",
+    "others": "Page and manual disagree on height and depth.",
+    "status": "differs",
+    "links": [
+     {
+      "label": "Bernina manual p.164",
+      "url": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "field": "includedFeet",
+   "value": "Standard feet #1C, #1D, #2A, #3A (buttonhole with slide), #4D, #20C (open embroidery), #97D (patchwork). Also supplied: slide-on table with seam guide, knee lifter, accessory box, touchscreen pen, 4 B9 bobbins, foam pads",
+   "source": "maker-manual",
+   "vs_spec": "confirms",
+   "spec_value": "Patchwork foot #97D included",
+   "note": "Manual p.19 to 21 and the page accessories tab agree. Our realCost note says an extension table is not listed as included; Bernina lists a slide-on table as supplied. BSR foot is not in the list.",
+   "site": {
+    "label": "In the box",
+    "juki": "Seven standard feet incl. #97D, slide-on table, knee lifter, 4 bobbins. No BSR foot listed.",
+    "others": "Dealer bundles differ on BSR and extras.",
+    "status": "confirmed",
+    "links": [
+     {
+      "label": "Bernina manual p.19 to 21",
+      "url": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "field": "hookSystem",
+   "value": "'BERNINA Hook' (page); manual says 'B9 Hook' bobbins",
+   "source": "maker-page",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "Marketing name. The before 2017 machine used the CB hook."
+  },
+  {
+   "field": "maxFabricThickness",
+   "value": "10.5 mm (0.41 in)",
+   "source": "maker-manual",
+   "vs_spec": "adds",
+   "spec_value": null
+  },
+  {
+   "field": "generation",
+   "value": "Support page: 'BERNINA offers two different models named BERNINA 570 QE'; 2017 and later label reads 'Type: VIO', older reads 'Type: LUN'. Before 2017 page: 7.5 in, 5.5 mm, 900 spm, 642 stitches, 11 buttonholes, 33 lb, 'BSR included', 'no longer available'",
+   "source": "maker-support",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "Confirms our conflicts entry: used listings can carry either generation. Say 'no longer available' only as the older page's wording.",
+   "site": {
+    "label": "Which 570 QE",
+    "juki": "Two models share the name. Rear label 'Type: VIO' is 2017 and later; 'Type: LUN' is the earlier one.",
+    "others": "Used listings often omit the year; check the label.",
+    "status": "confirmed",
+    "links": [
+     {
+      "label": "Bernina support page",
+      "url": "https://www.bernina.com/en-US/Support-US/Machines/NEW-BERNINA-5-Series/BERNINA-570-QE"
+     }
+    ]
+   }
+  },
+  {
+   "field": "embroidery",
+   "value": "Page covers sewing and embroidery: embroidery module optional (Module M SDT optional); embroidery area 15.7 x 5.9 in; 250 built-in designs",
+   "source": "maker-page",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "No '570 QE E' model is named on the Bernina US pages fetched; embroidery is the optional module. Pricing for the module is not on the page."
+  },
+  {
+   "field": "warrantyUs",
+   "value": "2 years electrical parts; 5 years printed circuit boards; 20 years mechanical parts, from date of purchase",
+   "source": "maker-warranty",
+   "vs_spec": "confirms",
+   "spec_value": "20 yr mechanical parts, 5 yr printed circuit boards, 2 yr electrical parts",
+   "note": "Generic US Bernina warranty page, not model-specific; fetched as a search excerpt only. Manual p.159 warns that skipped servicing may limit warranty service.",
+   "site": {
+    "label": "Warranty",
+    "juki": "2 years electrical, 5 years circuit boards, 20 years mechanical parts.",
+    "others": "Same terms apply across Bernina machines in the US; not specific to this model.",
+    "status": "confirmed",
+    "links": [
+     {
+      "label": "Bernina source",
+      "url": "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty"
+     }
+    ]
+   }
+  },
+  {
+   "field": "claims",
+   "value": "'Made especially for quilters'; 'Handle big quilts with ease'; 'Enjoy superb fabric feed'; 'quality Swiss engineering means great tension and perfect stitches every time'; 'Powerful DC Motor'; Hammer Mode drives the needle 'through more than 30 layers' (marketing)",
+   "source": "maker-page",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "Marketing wording; claims only. Spec claims list is shorter."
+  }
+ ]
+}

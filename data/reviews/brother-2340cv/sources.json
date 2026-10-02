@@ -1,0 +1,521 @@
+[
+  {
+    "id": "web:2b41e03352245ee5",
+    "url": "https://www.amazon.com/dp/B005GXPO70",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T11:53:16.742Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T11:53:16.742Z",
+    "status": "ok",
+    "site_rating": 4.3,
+    "site_review_count": 1204,
+    "asin": "B005GXPO70",
+    "parent_asin": "B0DK66BMD2",
+    "product_asins": [
+      "B0DK65HMDR",
+      "B005GXPO70"
+    ],
+    "pooled_variations": true,
+    "sampled": "13 top reviews (8 US, 5 other countries) of 1204 ratings",
+    "listing": {
+      "title": "Brother 2340CV Coverstitch Serger Sewing Machine",
+      "price_usd": 579.99,
+      "best_sellers_rank": "#78,010 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #10 in Sergers & Overlock Machines",
+      "details": {
+        "Model Number": "2340CV",
+        "Warranty Description": "25-year limited warranty.",
+        "Included Components": "Warranty 1/5/25 Year Limited Serger Warranty",
+        "Manufacturer": "Brother",
+        "Part Number": "2340CV",
+        "Color": "Trim Trap",
+        "Material": "Metal",
+        "Item Dimensions D x W x H": "13\"D x 15\"W x 13.4\"H",
+        "Item Weight": "13 pounds"
+      }
+    }
+  },
+  {
+    "id": "web:6421585effb00854",
+    "url": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
+    "class": "retailer",
+    "title": "sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-02T11:53:20.364Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-02T11:53:20.364Z",
+    "status": "ok",
+    "site_rating": 4.72,
+    "site_review_count": 40,
+    "content_hash": "291e89b98d978128"
+  },
+  {
+    "id": "reddit:6x519x",
+    "url": "https://www.reddit.com/r/sewing/comments/6x519x/need_help_picking_a_coverstitch_machine_brother/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Need help picking a coverstitch machine. Brother 2340CV? (Or can the Brother 1034D do coverstitch as well?)",
+    "subreddit": "sewing",
+    "thread_id": "6x519x",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1504540348,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV"
+    ],
+    "content_hash": "9bafd332549067c7"
+  },
+  {
+    "id": "reddit:1tlmqyv",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1tlmqyv/the_pressure_foot_lever_on_my_brother_2340cv_has/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "The pressure foot lever on my Brother 2340CV has come loose and won't lift the foot",
+    "subreddit": "sewhelp",
+    "thread_id": "1tlmqyv",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1779587419,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewhelp:Brother 2340CV",
+      "all:2340CV",
+      "r/sewhelp:2340CV"
+    ],
+    "content_hash": "53edd6e4504df9e8"
+  },
+  {
+    "id": "reddit:1or7thn",
+    "url": "https://www.reddit.com/r/sewing/comments/1or7thn/brother_pacesetter_cover_stitch_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Brother Pacesetter Cover Stitch Sewing Machine 2340CV For $150? Looking for a serger.",
+    "subreddit": "sewing",
+    "thread_id": "1or7thn",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1762608687,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV"
+    ],
+    "content_hash": "a478b3254dd0f464"
+  },
+  {
+    "id": "reddit:1g8auut",
+    "url": "https://www.reddit.com/r/sewing/comments/1g8auut/new_coverstitch_machine_brother_2340cv_i/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "new coverstitch machine (brother 2340CV). I accidentally unscrewed this screw, and it wont go back??",
+    "subreddit": "sewing",
+    "thread_id": "1g8auut",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1729473595,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV"
+    ],
+    "content_hash": "a2b8a9a2f88250c7"
+  },
+  {
+    "id": "reddit:494b74",
+    "url": "https://www.reddit.com/r/sewing/comments/494b74/help_with_a_brother_2340cv_coverstitch_left/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help with a Brother 2340CV Coverstitch. Left needle won't stitch.",
+    "subreddit": "sewing",
+    "thread_id": "494b74",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1457229670,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV"
+    ],
+    "content_hash": "6e10a7d996b4b587"
+  },
+  {
+    "id": "reddit:1qnsp0c",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1qnsp0c/brother_2340cv_cover_machine_needles_hitting/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Brother 2340CV cover machine - needles hitting looper",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1qnsp0c",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1773538328,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/SewingForBeginners:Brother 2340CV",
+      "all:2340CV",
+      "r/SewingForBeginners:2340CV"
+    ],
+    "content_hash": "03cce55e1f5a8974"
+  },
+  {
+    "id": "reddit:1qnsex9",
+    "url": "https://www.reddit.com/r/sewing/comments/1qnsex9/brother_2340cv_needle_scraping/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Brother 2340CV - needle scraping",
+    "subreddit": "sewing",
+    "thread_id": "1qnsex9",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "thin",
+    "cursor_utc": 1769460429,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:fb4r8f",
+    "url": "https://www.reddit.com/r/sewing/comments/fb4r8f/my_brother_2340cv_wont_do_the_two_thread_chain/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "My Brother 2340CV won't do the two thread chain stitch. All other functions seem to work. Brand new machine.",
+    "subreddit": "sewing",
+    "thread_id": "fb4r8f",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1582938145,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV"
+    ],
+    "content_hash": "46c3967d5189b990"
+  },
+  {
+    "id": "reddit:hdu1ne",
+    "url": "https://www.reddit.com/r/sewing/comments/hdu1ne/sewing_machine_for_my_wife_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing Machine for My Wife... HELP",
+    "subreddit": "sewing",
+    "thread_id": "hdu1ne",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1593281809,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV"
+    ],
+    "content_hash": "f8e3e94de9f9d44f"
+  },
+  {
+    "id": "reddit:i0yqmy",
+    "url": "https://www.reddit.com/r/sewing/comments/i0yqmy/is_a_knife_blade_not_standard_in_all_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Is a knife blade not standard in all serger machines?",
+    "subreddit": "sewing",
+    "thread_id": "i0yqmy",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1596244662,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV"
+    ],
+    "content_hash": "45426874b1688a19"
+  },
+  {
+    "id": "reddit:1c1mqwt",
+    "url": "https://www.reddit.com/r/sewing/comments/1c1mqwt/chaining_off_with_a_coverstitch_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Chaining off with a Coverstitch machine",
+    "subreddit": "sewing",
+    "thread_id": "1c1mqwt",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1712918716,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV"
+    ],
+    "content_hash": "79482ad04757a5b4"
+  },
+  {
+    "id": "reddit:z96ds4",
+    "url": "https://www.reddit.com/r/sewing/comments/z96ds4/coverstitch_machine_best_for_binding/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Cover-stitch machine best for binding?",
+    "subreddit": "sewing",
+    "thread_id": "z96ds4",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1680487958,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV"
+    ],
+    "content_hash": "ad9aca510081dae7"
+  },
+  {
+    "id": "reddit:1wtjxv3",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1wtjxv3/unsure_of_what_coverlock_machine_to_get/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Unsure of what coverlock machine to get",
+    "subreddit": "sewhelp",
+    "thread_id": "1wtjxv3",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1790726086,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewhelp:Brother 2340CV",
+      "all:2340CV",
+      "r/sewhelp:2340CV"
+    ],
+    "content_hash": "eba8bf81bfa959d5"
+  },
+  {
+    "id": "reddit:1kr72gt",
+    "url": "https://www.reddit.com/r/sewing/comments/1kr72gt/industrial_machine_advice_iso_suggestionsoptions/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Industrial machine advice. ISO suggestions/options!",
+    "subreddit": "sewing",
+    "thread_id": "1kr72gt",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1747876595,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV"
+    ],
+    "content_hash": "5e4d55646e6219da"
+  },
+  {
+    "id": "reddit:1igzadt",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1igzadt/threads_keep_breaking_on_coverstitch_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Threads keep breaking on coverstitch machine",
+    "subreddit": "sewhelp",
+    "thread_id": "1igzadt",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1738617017,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewhelp:Brother 2340CV",
+      "all:2340CV",
+      "r/sewhelp:2340CV"
+    ],
+    "content_hash": "f980912d2fd06892"
+  },
+  {
+    "id": "reddit:ttg27c",
+    "url": "https://www.reddit.com/r/sewing/comments/ttg27c/coverstitch_machine_isnt_running/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Coverstitch machine isn't running?",
+    "subreddit": "sewing",
+    "thread_id": "ttg27c",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1648841142,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV"
+    ],
+    "content_hash": "98ccfaeb55a09162"
+  },
+  {
+    "id": "reddit:l4pmpj",
+    "url": "https://www.reddit.com/r/sewing/comments/l4pmpj/which_brother_serger_should_i_get/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Which Brother Serger should I get?",
+    "subreddit": "sewing",
+    "thread_id": "l4pmpj",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1611729196,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV"
+    ],
+    "content_hash": "bacc7c63e2d245a8"
+  },
+  {
+    "id": "reddit:1rtqwve",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1rtqwve/binder_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Binder Help",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1rtqwve",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1773610880,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/SewingForBeginners:Brother 2340CV",
+      "all:2340CV",
+      "r/SewingForBeginners:2340CV"
+    ],
+    "content_hash": "8a0a3d39f80d8744"
+  },
+  {
+    "id": "reddit:1igoh16",
+    "url": "https://www.reddit.com/r/sewing/comments/1igoh16/coverstitch_machine_is_angry_about_going_over/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Coverstitch machine is angry about going over seems?",
+    "subreddit": "sewing",
+    "thread_id": "1igoh16",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1738614825,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV"
+    ],
+    "content_hash": "12d80ef39f5e3528"
+  },
+  {
+    "id": "reddit:1cxzdg2",
+    "url": "https://www.reddit.com/r/sewing/comments/1cxzdg2/coverstich_with_nonconed_thread/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Coverstich with Non-Coned Thread? ",
+    "subreddit": "sewing",
+    "thread_id": "1cxzdg2",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1716420450,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV"
+    ],
+    "content_hash": "e6044f20a475f673"
+  },
+  {
+    "id": "reddit:106vq1l",
+    "url": "https://www.reddit.com/r/sewing/comments/106vq1l/thoughts_or_recommendations_for_buying_a/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Thoughts or recommendations for buying a coverstitch machine?",
+    "subreddit": "sewing",
+    "thread_id": "106vq1l",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1673265704,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV",
+      "all:2340CV review",
+      "r/sewing:2340CV review"
+    ],
+    "content_hash": "7ced7f0383a99e2b"
+  },
+  {
+    "id": "reddit:bij1gb",
+    "url": "https://www.reddit.com/r/sewing/comments/bij1gb/4_thread_coverstitch_stays_stretched/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "4 thread coverstitch stays stretched",
+    "subreddit": "sewing",
+    "thread_id": "bij1gb",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1558502648,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV",
+      "all:2340CV vs",
+      "r/sewing:2340CV vs"
+    ],
+    "content_hash": "6592e0da5673569e"
+  },
+  {
+    "id": "reddit:1qsu0e5",
+    "url": "https://www.reddit.com/r/sewing/comments/1qsu0e5/how_do_i_fix_this/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "How do I fix this?",
+    "subreddit": "sewing",
+    "thread_id": "1qsu0e5",
+    "first_seen": "2026-10-02T11:53:25.488Z",
+    "last_fetched": "2026-10-02T11:53:25.488Z",
+    "status": "ok",
+    "cursor_utc": 1769958449,
+    "discovered_by": [
+      "all:Brother 2340CV",
+      "r/sewing:Brother 2340CV",
+      "all:2340CV",
+      "r/sewing:2340CV"
+    ],
+    "content_hash": "496a464d06266d27"
+  }
+]

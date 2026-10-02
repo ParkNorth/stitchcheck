@@ -1,0 +1,298 @@
+{
+  "slug": "brother-2340cv",
+  "collected": "2026-10-02",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/brother-2340cv.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "page",
+      "url": "https://www.brother-usa.com/products/2340cv",
+      "type": "product page (brother-usa.com; resolves to /p/sergers-coverstitch/2340CV)",
+      "fetched": "2026-10-02",
+      "note": "Page copy, spec table and warranty link. Page title says Cover Stitch Machine; body copy also calls it an advanced serger."
+    },
+    {
+      "id": "manual",
+      "url": "https://download.brother.com/welcome/doch000104/2340cv_ug02enes.pdf",
+      "type": "User's Guide (PDF, 21 pages, English and Spanish, 07/19/2012, version 02)",
+      "fetched": "2026-10-02",
+      "note": "Image-only PDF read by OCR at 150 dpi; figures are OCR readings, verify against the PDF. Spec section is on English page 19."
+    },
+    {
+      "id": "brochure",
+      "url": "https://assets.brother.com/asset/6b09375b-48b2-4e7f-970f-79bb54d5d26d/2626_Brochure-All-Product-LineUp-2015-LR-pdf.pdf",
+      "type": "Brother 2015 sewing line-up brochure (PDF, 20 pages)",
+      "fetched": "2026-10-02",
+      "note": "Comparison chart on page 19 lists 2340CV beside 1034D, 3034D and 5234PRW; text layer read directly, columns are unlabelled so read against the page feature list."
+    },
+    {
+      "id": "warranty-pdf",
+      "url": "https://assets.brother.com/asset/950eb4ac-ebc2-426a-93dc-a6bc29ea9e32/6015_International-Warranty-LAD-Final-pdf.pdf",
+      "type": "warranty PDF linked from the product page as '1/5/25 Year Limited Serger Warranty'",
+      "fetched": "2026-10-02",
+      "note": "The linked file is a 2012 Brother International warranty for Latin America and Caribbean territories, valid for 1 year. It does not state 1, 5 or 25 year terms."
+    },
+    {
+      "id": "support",
+      "url": "https://support.brother.com/g/b/manualtop.aspx?c=us&lang=en&prod=hf_2340cveus",
+      "type": "Brother US support manuals page",
+      "fetched": "2026-10-02",
+      "note": "Lists the User's Guide (07/19/2012) and a 12/20/2019 upper-thread instruction sheet."
+    },
+    {
+      "id": "cv3440-page",
+      "url": "https://www.brother-usa.com/products/cv3440",
+      "type": "sibling product page (Brother CV3440)",
+      "fetched": "2026-10-02",
+      "note": "For comparison only."
+    },
+    {
+      "id": "janome-page",
+      "url": "https://www.janome.com/product/coverpro-2000cpx/",
+      "type": "rival product page (Janome CoverPro 2000CPX)",
+      "fetched": "2026-10-02",
+      "note": "For comparison only."
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1,100 stitches per minute (product page and 2015 brochure); 1,000 stitches per minute (User's Guide, twice)",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": 1100,
+      "note": "Maker documents disagree. The page spec table and brochure say 1,100; the User's Guide says the normal operating speed and the sewing speed are 1,000 (OCR reading, verify against the PDF). Our spec carries 1,100 from the page. List the 1,000 figure under where sources disagree.",
+      "site": {
+        "label": "Speed",
+        "juki": "Product page: 1,100 spm maximum. User's Guide: 1,000 spm.",
+        "others": "Our spec uses the page figure, 1,100.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/2340cv"
+          },
+          {
+            "label": "Brother User's Guide",
+            "url": "https://download.brother.com/welcome/doch000104/2340cv_ug02enes.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchTypes",
+      "value": "User's Guide: one needle two thread double chain stitch; two needles three thread cover stitch, wide 6 mm or narrow 3 mm; three needles four thread cover stitch, 6 mm. Page: tri-cover, wide and narrow cover stitch, chain stitch",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "Cover stitch narrow 3 mm, cover stitch wide 6 mm, triple cover stitch, 2-thread chain stitch",
+      "note": "No overlock stitch is listed. Page spec table: Overlock Seam Width N/A, Stitch Fingers 0, Change for Rolled Hemming No."
+    },
+    {
+      "field": "threads",
+      "value": "2/3/4 thread cover stitch, three needles and one looper (page); chain stitch is one needle, two thread",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "1, 2 or 3 needles plus 1 looper (2, 3 or 4 threads)"
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "2 mm to 4 mm (page, User's Guide, brochure)",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "2.0 to 4.0",
+      "note": "Spec source was a retailer; the maker page and manual now confirm it.",
+      "site": {
+        "label": "Stitch length",
+        "juki": "2 to 4 mm by dial.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/2340cv"
+          },
+          {
+            "label": "Brother User's Guide",
+            "url": "https://download.brother.com/welcome/doch000104/2340cv_ug02enes.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchWidthMm",
+      "value": "3 mm narrow or 6 mm wide cover stitch (User's Guide, brochure)",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "3 or 6 (cover stitch)"
+    },
+    {
+      "field": "differentialFeed",
+      "value": "0.7 to 2 ratio (brochure). User's Guide describes a side lever with normal at 1.0, back for less than 1.0 and forward for more than 1.0, with a printed 0.7 to 1.0 band; the page does not give a range",
+      "source": "brochure",
+      "vs_spec": "confirms",
+      "spec_value": "0.7 to 2.0",
+      "note": "Spec source was Office Depot; the maker brochure confirms the range. Manual range read by OCR."
+    },
+    {
+      "field": "needleSystem",
+      "value": "SCHMETZ 130/705H 90/14 supplied (three needles); recommended needle SCHMETZ 130/705H; ball point 130/705H SUK 90/14 suggested to reduce fabric damage (User's Guide)",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "SCHMETZ 130/705H 90/14; 130/705H SUK ball point recommended for knits",
+      "note": "Manual says SUK ball point 'can reduce the occurrence of material breakage'; it is a suggestion, not a requirement for knits."
+    },
+    {
+      "field": "presserFootLift",
+      "value": "5 mm to 6 mm (3/16 to 15/64 in) (User's Guide)",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "About 5 to 6 mm",
+      "note": "Spec source was a review site; the manual now confirms it."
+    },
+    {
+      "field": "weightLb",
+      "value": "Machine net weight 7.0 kg, about 15.4 lb (User's Guide)",
+      "source": "manual",
+      "vs_spec": "contradicts",
+      "spec_value": 16.7,
+      "note": "The spec's 16.7 lb comes from a retailer and may be a shipping weight; no maker document gives it. The manual figure is net machine weight, OCR reading, verify against the PDF. The product page gives no weight.",
+      "site": {
+        "label": "Weight",
+        "juki": "User's Guide: machine net weight 7.0 kg (about 15.4 lb).",
+        "others": "Retailer listing: 16.7 lb.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother User's Guide",
+            "url": "https://download.brother.com/welcome/doch000104/2340cv_ug02enes.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "Carton 13 x 15 x 14 in (page). Machine dimensions not published in the page, manual or brochure",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The carton figure is packaging, not machine size. Do not use it as dimensions."
+    },
+    {
+      "field": "throatIn",
+      "value": "Not published. The page spec table, User's Guide and brochure give no needle-to-body throat, workspace or arm size",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Keep the throat as [verify]. Janome states a 4 x 5.5 in bed for the CoverPro 2000CPX; Brother states no equivalent for the 2340CV. Owner threads describe limited space but that is not a maker figure."
+    },
+    {
+      "field": "freeArm",
+      "value": "Not stated for the 2340CV in the page, User's Guide or brochure. The CV3440 page lists a free arm as a feature",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Silence is not a statement of absence. Say 'not listed by Brother', not 'no free arm', unless a maker document says so."
+    },
+    {
+      "field": "motor",
+      "value": "Motor power not published. User's Guide notes motor bearings are oil-impregnated sintered alloy; lamp bulb rated 15 watts",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "The 15 W figure is the light bulb, not the motor."
+    },
+    {
+      "field": "lighting",
+      "value": "Bulb (page spec table); replacement bulb rated 15 watts (User's Guide)",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "frame",
+      "value": "No maker document states frame material. Page and manual are silent on a metal frame",
+      "source": "page",
+      "vs_spec": "contradicts",
+      "spec_value": "Metal frame",
+      "note": "Our spec has a figure that no maker document supports. It came from a retailer listing; treat it as a retailer claim."
+    },
+    {
+      "field": "includedFeet",
+      "value": "Page: Specialty Feet Included Yes; Included Accessory Feet 'Special Presser Foot'. User's Guide box list: special presser foot (C1) used with an optional attachment, soft cover, accessory bag, tweezers, thread nets (4), spool caps (4), spool mats (4), cleaning brush, hex wrench, needle set (3 pcs), foot controller; the machine ships with a snap-on presser foot",
+      "source": "manual",
+      "vs_spec": "contradicts",
+      "spec_value": "Standard foot and hem sewing foot; accessory bag: needle set, 4 thread nets, tweezers, 4 spool caps, 4 spool mats, cleaning brush, hex wrench, soft cover, manual",
+      "note": "No maker document lists a hem sewing foot. The accessory bag list matches the manual. Binders and folders are optional accessories."
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Product page: '1/5/25 Year Limited Serger Warranty'. The page does not say which period applies to which part. The linked PDF is an international (Latin America and Caribbean) warranty giving 1 year",
+      "source": "page",
+      "vs_spec": "contradicts",
+      "spec_value": "25 yr chassis casting, 6 yr electronic components and PCBs, 2 yr parts, labor and accessories",
+      "note": "Maker headline is 1/5/25 years; the spec (from a dealer) says 25/6/2 years. The 5 versus 6 and 1 versus 2 do not match. The wording is a serger-category warranty, not specific to the 2340CV; the CV3440 page uses the same title with a different PDF. Do not state the breakdown as fact until a US warranty document is found.",
+      "site": {
+        "label": "Warranty",
+        "juki": "Product page: '1/5/25 Year Limited Serger Warranty'. Linked PDF: 1 year, Latin America and Caribbean territories.",
+        "others": "Dealer listing: 25 yr chassis, 6 yr electronics, 2 yr parts and labor.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/2340cv"
+          },
+          {
+            "label": "Linked warranty PDF",
+            "url": "https://assets.brother.com/asset/950eb4ac-ebc2-426a-93dc-a6bc29ea9e32/6015_International-Warranty-LAD-Final-pdf.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "price",
+      "value": "$579.99 listed on brother-usa.com on 2026-10-02 (Add to Cart and Locate a Dealer both shown)",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": 579.99,
+      "note": "Maker page price, shown as listed; this is Brother's own listing, not a dealer price. Prices drift."
+    },
+    {
+      "field": "threadingSystem",
+      "value": "Lay-in threading, colour-coded thread guide, looper threading system with looper release lever; thread tension release button used when threading (page, User's Guide)",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "Color-coded lay-in threading; looper threading lever",
+      "note": "The manual's 'thread tension release button' is for threading. No document lists a one-touch tension release lever for removing fabric; the CV3440 page lists one."
+    },
+    {
+      "field": "claims",
+      "value": "Marketing wording on the page: 'an advanced serger'; 'professional hems, chain stitch and decorative stitching'; 'great for making the perfect T-shirt in no time'; 'Differential feed for perfect seaming on virtually any fabric type'",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Quote as claims. 'Advanced serger' conflicts with the page's own spec table (Overlock Seam Width N/A) and with the product type: it is a coverstitch machine."
+    },
+    {
+      "field": "availability",
+      "value": "Page shows a price and Add to Cart; no discontinued wording on 2026-10-02",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Page wording only. The CV3440 page shows 'Out of Stock' on the same date."
+    },
+    {
+      "field": "siblingCV3440",
+      "value": "Brother CV3440 page: $699.00, 'One-touch lever tension release', 'Free Arm', thread cutter, LED, maximum sewing speed 1000, 1/5/25 Year Limited Serger Warranty, 'Out of Stock'",
+      "source": "cv3440-page",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "siblingCoverPro2000CPX",
+      "value": "Janome CoverPro 2000CPX: MSRP $1,099, tension release lever, free arm, bed 4 x 5.5 in, 1,000 spm, differential feed 0.5 to 2.25, stitch length 1 to 4 mm, 19 lb",
+      "source": "janome-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Our spec's cross-shop text says 'a few hundred more'; Janome's MSRP is $519.01 above Brother's $579.99 listing."
+    }
+  ]
+}

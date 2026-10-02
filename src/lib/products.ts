@@ -488,7 +488,7 @@ const siteFields: Record<string, SiteFields> = {
     series: "CV",
     score: 8.0,
     scoredFor: "serger",
-    reason: "For hems, if that's what you were missing.",
+    reason: "A low-priced Brother coverstitch; owners report a fussy machine, so budget for setup.",
     context: "Coverstitch · in Sergers hub (coverstitch section)",
     keySpec: "Coverstitch + chain stitch",
     alternatives: [
@@ -497,7 +497,9 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "juki-mo-654de", label: "Serger instead", note: "If seams, not hems, are the gap." },
     ],
     imageAlt: "Brother 2340CV coverstitch machine",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-02",
+    verdict: "A low-priced Brother coverstitch and chain stitch machine with no knife, no free arm listed and a fussy reputation, so it suits a knit sewist who already owns a serger.",
+    specsVerified: "2026-10-02",
   },
   "brother-st371hd": {
     series: "ST",
@@ -694,14 +696,16 @@ const siteFields: Record<string, SiteFields> = {
     series: "5",
     score: 8.3,
     scoredFor: "quilting",
-    reason: "The dealer-only quilter people cross-shop against the Memory Craft.",
+    reason: "The dealer-only quilter people cross-shop against the Memory Craft; confirm the generation and the BSR foot with the dealer.",
     context: "Computerized quilter · dealer-only · in Quilting hub",
     alternatives: [
       { slug: "janome-mc6650", label: "Sold online", note: "The Memory Craft it is priced against." },
       { slug: "juki-tl-2010q", label: "Straight stitch", note: "Faster, much cheaper, one stitch." },
     ],
     imageAlt: "Bernina 570 QE computerized quilting machine",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-02",
+    verdict: "A dealer-only computerized quilter with 8.5 in right of the needle, built-in Dual Feed and BSR functionality, and a stitch regulator foot that varies by bundle.",
+    specsVerified: "2026-10-02",
   },
   // ------------------------------------------------------------ Backlog batch
   "juki-ddl-5550": {
@@ -942,7 +946,7 @@ const siteFields: Record<string, SiteFields> = {
   "bernina-l-850": {
     score: 8.5,
     scoredFor: "serger",
-    reason: "Air threading and a knee lift, at dealer prices.",
+    reason: "Air threading and a knee lift at a $3,999 MSRP, dealer only.",
     context: "Air-threading overlocker · in Sergers hub",
     alternatives: [
       { slug: "juki-mo-1000", label: "Cheaper air", note: "Juki's air threader for a third of the money." },
@@ -950,7 +954,9 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "juki-mo-654de", label: "Manual", note: "Our pick if you thread by hand." },
     ],
     imageAlt: "Bernina L 850 air-threading serger",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-02",
+    verdict: "A dealer-only 2/3/4 thread air-threading serger at a $3,999 MSRP that buys mechanical refinement, not a touch screen or coverstitch.",
+    specsVerified: "2026-10-02",
   },
   "handi-quilter-amara": {
     score: 8.6,
@@ -1010,7 +1016,7 @@ const siteFields: Record<string, SiteFields> = {
   "babylock-victory": {
     score: 8.4,
     scoredFor: "serger",
-    reason: "Baby Lock's air-threading entry; the Imagine's replacement, dealer priced.",
+    reason: "Baby Lock's air-threading entry, dealer sold; the maker's own sheets confirm most specs but not motor, frame or throat.",
     context: "Air-threading overlocker · in Sergers hub",
     alternatives: [
       { slug: "juki-mo-1000", label: "Cheaper air", note: "Juki's air threader, sold online." },
@@ -1018,7 +1024,9 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "bernina-l-850", label: "Dealer rival", note: "Air threading with a knee lift." },
     ],
     imageAlt: "Baby Lock Victory air-threading serger",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-02",
+    verdict: "Baby Lock's Jet-Air serger with Automatic Thread Delivery and no tension dials, sold through dealers; Baby Lock publishes no motor, frame or throat figure.",
+    specsVerified: "2026-10-02",
   },
   "singer-14hd854": {
     score: 7.3,

@@ -1,0 +1,842 @@
+{
+  "slug": "babylock-victory",
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+  "reviewedOn": "2026-10-02",
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 14,
+    "itemsCollected": 153,
+    "statements": 32,
+    "voices": 24,
+    "ownerVoices": 10,
+    "dateRange": [
+      2020,
+      2026
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 13,
+        "items": 146
+      },
+      "retailer": {
+        "sources": 1,
+        "items": 7
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "No marketplace listing: Baby Lock is dealer-only (AGENTS rule 15). Retailer ratings, where shown, come from dealer sites that list the machine online, not from a Baby Lock channel."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 7,
+      "voices": 7,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 7
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 6
+      },
+      "years": [
+        2024,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cf067db86",
+          "polarity": "negative",
+          "claim": "Owner could not find ballpoint serger needles for the Victory; serger needles found were all sharp.",
+          "quote": "all the serger needles I’m finding say they are sharp",
+          "url": "https://www.reddit.com/r/sewing/comments/1h18pig/serger_help_im_getting_holes_along_the_serged_seam/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c7ca2e491",
+        "cf067db86",
+        "c2d4da723",
+        "c76bb89c3",
+        "c515c4543",
+        "c7fa97775",
+        "ced745c92"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 7,
+      "voices": 7,
+      "ownerVoices": 2,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 7
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2020,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c9507764d",
+          "polarity": "negative",
+          "claim": "Victory owner finds the needle threading mechanism fiddly.",
+          "quote": "I don't like the needle threading mechanism, I find it is fiddly",
+          "url": "https://www.reddit.com/r/sewing/comments/1ndqaaq/looking_for_a_disabilityfriendly_serger_thoughts/ndlbj1e/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ce3afcf0e",
+          "polarity": "positive",
+          "claim": "Owner says threading the Victory takes seconds.",
+          "quote": "The threading takes seconds",
+          "url": "https://www.reddit.com/r/sewing/comments/1blt38h/serger_help_me_choose/kwdx1l1/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cfa30d938",
+        "c637d2947",
+        "c9507764d",
+        "c92c16df1",
+        "c7f3cc48e",
+        "c7dfce524",
+        "ce3afcf0e"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 5,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 6
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 4,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c0e96dd89",
+          "polarity": "negative",
+          "claim": "Right needle breaks after about 2 inches of serging terry.",
+          "quote": "I can get about 2” before it breaks",
+          "url": "https://www.reddit.com/r/sewing/comments/1hvh9yk/babylock_victory_serger_right_needle_keeps/m5tdvpm/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c9a970f02",
+          "polarity": "negative",
+          "claim": "New owner snapped both needles serging cotton flannel edges.",
+          "quote": "was serving the edges of cotton flannel pyjama pants when both needles snapped",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1i3ofe4/broke_both_needles_on_first_serging_project/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cb916d2d1",
+          "polarity": "positive",
+          "claim": "Owner reports threads do not keep breaking, unlike on a Brother serger.",
+          "quote": "the threads don't break all the time like my Brother serger",
+          "url": "https://www.reddit.com/r/sewing/comments/1blt38h/serger_help_me_choose/kwdx1l1/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c4cc108e1",
+        "c0e96dd89",
+        "c021fefa9",
+        "c94925cf2",
+        "cb916d2d1",
+        "c9a970f02"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 1,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2021,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c93567a1f",
+          "polarity": "positive",
+          "claim": "Owner finds the auto tension nice.",
+          "quote": "The auto tension is nice too",
+          "url": "https://www.reddit.com/r/sewing/comments/1blt38h/serger_help_me_choose/kwdx1l1/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c2dbf757f",
+        "c75fdca73",
+        "c93567a1f",
+        "c853d7188"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c2d15a906",
+          "polarity": "negative",
+          "claim": "Raising the lever past normal gives extra room but not enough to slide thick fabric under.",
+          "quote": "The extra lift is not enough to make it slide under",
+          "url": "https://www.reddit.com/r/sewing/comments/1l9j3zn/babylock_victory_difficult_to_get_the_fabric/mxdvk9a/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c5529dd81",
+          "polarity": "positive",
+          "claim": "Owner says it handles many layers of fabric.",
+          "quote": "It's able to handle many layers of fabric",
+          "url": "https://www.reddit.com/r/sewing/comments/1blt38h/serger_help_me_choose/kwdx1l1/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c37a9d0d7",
+        "c2d15a906",
+        "c5529dd81"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 0,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2020,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "cc34b27d4",
+        "c14bfa5c3"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c0d13ebe7",
+          "polarity": "positive",
+          "claim": "Owner has serged through layers of denim without needle breakage.",
+          "quote": "I’ve serged through layers of denim",
+          "url": "https://www.reddit.com/r/sewing/comments/1hvh9yk/babylock_victory_serger_right_needle_keeps/m5tdv5e/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c0d13ebe7"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "ccd5a71ba",
+          "polarity": "positive",
+          "claim": "Owner says it is much quieter than the Brother 1034DX.",
+          "quote": "it's a lot quieter",
+          "url": "https://www.reddit.com/r/sewing/comments/1blt38h/serger_help_me_choose/kwdx1l1/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ccd5a71ba"
+      ]
+    },
+    {
+      "theme": "differential_feed",
+      "label": "Differential feed",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2023,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c2ee86483"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://sewingmachinesplus.com/products/bl-victory",
+      "pageRating": 5,
+      "pageCount": 7,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 7
+      },
+      "lowRated": 0,
+      "sampled": null
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "1,500 stitches per minute on the spec sheet and in the manual.",
+      "others": "Matches our spec, which came from a dealer page.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock Victory spec sheet",
+          "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+        },
+        {
+          "label": "Baby Lock Victory manual",
+          "url": "https://babylock.com/resources/7612/download"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "spec-sheet"
+    },
+    {
+      "label": "Weight",
+      "juki": "16 lb machine only on the product page; the manual gives 7.6 kg (about 16.8 lb).",
+      "others": "Dealers repeat 16 lb.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock Victory page",
+          "url": "https://babylock.com/machines/serger/victory"
+        },
+        {
+          "label": "Baby Lock Victory manual",
+          "url": "https://babylock.com/resources/7612/download"
+        }
+      ],
+      "field": "weightLb",
+      "source": "product-page"
+    },
+    {
+      "label": "Dimensions",
+      "juki": "12.5 in wide x 11 in deep x 11.5 in high, machine only.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock Victory page",
+          "url": "https://babylock.com/machines/serger/victory"
+        }
+      ],
+      "field": "dimensionsIn",
+      "source": "product-page"
+    },
+    {
+      "label": "Stitch width",
+      "juki": "1.5 to 7.5 mm dial adjustable; 5.5 to 7.5 mm for 4 thread with the left needle.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock Victory spec sheet",
+          "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+        },
+        {
+          "label": "Baby Lock Victory manual",
+          "url": "https://babylock.com/resources/7612/download"
+        }
+      ],
+      "field": "stitchWidthMm",
+      "source": "spec-sheet"
+    },
+    {
+      "label": "Stitch length",
+      "juki": "0.75 to 4 mm, dial adjustable, with a dial adjustable built-in rolled hem.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock Victory spec sheet",
+          "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+        },
+        {
+          "label": "Baby Lock Victory manual",
+          "url": "https://babylock.com/resources/7612/download"
+        }
+      ],
+      "field": "stitchLengthMm",
+      "source": "spec-sheet"
+    },
+    {
+      "label": "Differential feed",
+      "juki": "Manual: N to 2.0 gathering, N to 0.6 stretching; single unit feed dog. The spec sheet and page give no ratio.",
+      "others": "Dealers state 2 to 1 and 3 to 4.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Baby Lock Victory manual",
+          "url": "https://babylock.com/resources/7612/download"
+        },
+        {
+          "label": "Baby Lock Victory spec sheet",
+          "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+        }
+      ],
+      "field": "differentialFeed",
+      "source": "manual"
+    },
+    {
+      "label": "Stitch types",
+      "juki": "4 and 3 thread overlock, 3 thread rolled hem, 2 and 3 thread flatlock, plus 2 thread blanket and ladder stitches.",
+      "others": "Our spec did not list blanket or ladder.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Baby Lock Victory manual",
+          "url": "https://babylock.com/resources/7612/download"
+        },
+        {
+          "label": "Baby Lock serger comparison chart",
+          "url": "https://babylock.com/serging-comparison-charts"
+        }
+      ],
+      "field": "stitchTypes",
+      "source": "manual"
+    },
+    {
+      "label": "Threads and needles",
+      "juki": "4/3/2 thread serging with 2 needles.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock Victory page",
+          "url": "https://babylock.com/machines/serger/victory"
+        },
+        {
+          "label": "Baby Lock Victory spec sheet",
+          "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+        }
+      ],
+      "field": "threads",
+      "source": "product-page"
+    },
+    {
+      "label": "Needle system",
+      "juki": "Organ or Schmetz HA x 1SP/CR; ships with 75/11 needles.",
+      "others": "A dealer page also lists ELx705CF and ELx705.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Baby Lock Victory manual",
+          "url": "https://babylock.com/resources/7612/download"
+        }
+      ],
+      "field": "needleSystem",
+      "source": "manual"
+    },
+    {
+      "label": "Presser foot lift",
+      "juki": "Up to 6 mm, adjustable; the Celebrate also lists 6 mm.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock Victory spec sheet",
+          "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+        },
+        {
+          "label": "Baby Lock serger comparison chart",
+          "url": "https://babylock.com/serging-comparison-charts"
+        }
+      ],
+      "field": "presserFootLift",
+      "source": "spec-sheet"
+    },
+    {
+      "label": "Lighting",
+      "juki": "2 LED lights.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock Victory page",
+          "url": "https://babylock.com/machines/serger/victory"
+        },
+        {
+          "label": "Baby Lock Victory manual",
+          "url": "https://babylock.com/resources/7612/download"
+        },
+        {
+          "label": "Baby Lock serger comparison chart",
+          "url": "https://babylock.com/serging-comparison-charts"
+        }
+      ],
+      "field": "lighting",
+      "source": "product-page"
+    },
+    {
+      "label": "Threading",
+      "juki": "Jet-Air looper threading, Automatic Thread Delivery (no tension adjustments), built-in needle threader.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock Victory spec sheet",
+          "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+        },
+        {
+          "label": "Baby Lock serger comparison chart",
+          "url": "https://babylock.com/serging-comparison-charts"
+        }
+      ],
+      "field": "threadingSystem",
+      "source": "spec-sheet"
+    },
+    {
+      "label": "Thread cutter",
+      "juki": "Built-in side thread cutter for the thread chain.",
+      "others": "No dealer figure used.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock Victory page",
+          "url": "https://babylock.com/machines/serger/victory"
+        },
+        {
+          "label": "Baby Lock Victory spec sheet",
+          "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+        }
+      ],
+      "field": "threadTrimmer",
+      "source": "product-page"
+    },
+    {
+      "label": "Included feet and accessories",
+      "juki": "One standard snap-on foot; accessory list on the spec sheet and manual; optional feet sold separately.",
+      "others": "Dealer bonus kits vary and are not Baby Lock contents.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock Victory spec sheet",
+          "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+        },
+        {
+          "label": "Baby Lock Victory manual",
+          "url": "https://babylock.com/resources/7612/download"
+        },
+        {
+          "label": "Baby Lock Victory page",
+          "url": "https://babylock.com/machines/serger/victory"
+        }
+      ],
+      "field": "includedFeet",
+      "source": "spec-sheet"
+    },
+    {
+      "label": "Warranty",
+      "juki": "25 years limited; 10 years parts; 5 years circuit boards; 5 years electrical; 1 year labor.",
+      "others": "Dealers state the same minus circuit boards.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Baby Lock Victory spec sheet",
+          "url": "https://babylock.com/victory-bls3-spec-sheet-2/"
+        },
+        {
+          "label": "Baby Lock warranty policy",
+          "url": "https://babylock.com/warranty-policy"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "spec-sheet"
+    },
+    {
+      "label": "Price",
+      "juki": "babylock.com showed $2,089 on 2026-10-02; dealers set their own price.",
+      "others": "Sewing Machines Plus $1,899 sale in our spec, seen 2026-09-29.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Baby Lock Victory page",
+          "url": "https://babylock.com/machines/serger/victory"
+        }
+      ],
+      "field": "msrp",
+      "source": "product-page"
+    },
+    {
+      "label": "Where to buy",
+      "juki": "Authorized Baby Lock Retailers only; Baby Lock warranties are issued by them.",
+      "others": "Some dealers list the machine online.",
+      "status": "dealer only",
+      "links": [
+        {
+          "label": "Baby Lock warranty policy",
+          "url": "https://babylock.com/warranty-policy"
+        }
+      ],
+      "field": "retailChannel",
+      "source": "warranty-policy"
+    },
+    {
+      "label": "Throat space",
+      "juki": "Baby Lock does not publish a workspace figure for the Victory.",
+      "others": "Not stated by dealers.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Baby Lock serger comparison chart",
+          "url": "https://babylock.com/serging-comparison-charts"
+        }
+      ],
+      "field": "throatIn",
+      "source": "compare-chart"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "Acclaim",
+      "label": "Baby Lock Acclaim",
+      "rows": []
+    },
+    {
+      "model": "Celebrate",
+      "label": "Baby Lock Celebrate",
+      "rows": [
+        {
+          "feature": "Tension system",
+          "urls": 0,
+          "classes": [],
+          "summary": "Baby Lock lists manual tension on the Celebrate (Micromatic Twin Cam on its page) and Automatic Thread Delivery on the Victory.",
+          "check": "Baby Lock serger comparison chart and Celebrate page, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Lights",
+          "urls": 0,
+          "classes": [],
+          "summary": "One LED on the Celebrate, two LEDs on the Victory.",
+          "check": "Baby Lock serger comparison chart, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Stitch list",
+          "urls": 0,
+          "classes": [],
+          "summary": "The chart lists 2 thread blanket and ladder stitches on the Victory and not on the Celebrate; both list 6 mm presser foot lift and Jet-Air threading.",
+          "check": "Baby Lock serger comparison chart, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Maker price shown",
+          "urls": 0,
+          "classes": [],
+          "summary": "babylock.com showed the Celebrate at $1,352 and the Victory at $2,089 on 2026-10-02.",
+          "check": "babylock.com product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Vibrant",
+      "label": "Baby Lock Vibrant",
+      "rows": [
+        {
+          "feature": "Threading and tension",
+          "urls": 0,
+          "classes": [],
+          "summary": "Color coded manual threading and manual tension on the Vibrant; Jet-Air and Automatic Thread Delivery on the Victory.",
+          "check": "Baby Lock serger comparison chart, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Maker price shown",
+          "urls": 0,
+          "classes": [],
+          "summary": "babylock.com showed the Vibrant at $524 and the Victory at $2,089 on 2026-10-02.",
+          "check": "babylock.com product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Imagine",
+      "label": "Baby Lock Imagine",
+      "rows": [
+        {
+          "feature": "Needle system",
+          "urls": 0,
+          "classes": [],
+          "summary": "The Imagine spec sheet lists HAx1SP, 130/705H and ELx705CF; the Victory manual names only HAx1SP/CR.",
+          "check": "Baby Lock Imagine spec sheet and Victory manual, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

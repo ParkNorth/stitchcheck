@@ -552,14 +552,14 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "manufacturerUrl": "https://babylock.com/machines/serger/victory",
     "retailerUrl": "https://sewingmachinesplus.com/products/bl-victory",
-    "priceUsdSeen": 1899,
-    "priceSeenDate": "2026-09-29",
-    "priceSeenAt": "Sewing Machines Plus",
-    "priceNote": "Sewing Machines Plus (sale price in search snippet; regular price shown $2,599)",
+    "priceUsdSeen": 2089,
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "another dealer",
+    "priceNote": "babylock.com product page (price shown on babylock.com, not MSRP; dealers set their own price)",
     "specs": {
       "stitchTypes": {
-        "value": "4 thread and 3 thread overlock; 3 thread rolled hem and 3 thread narrow hem; 2 thread and 3 thread flatlock; 2 thread overlock",
-        "source": "https://babylock.com/amfile/file/download/file/3171/product/594/"
+        "value": "4 thread and 3 thread overlock; 3 thread rolled hem and narrow hem; 2 thread and 3 thread flatlock; 2 thread blanket stitch; 2 thread ladder stitch",
+        "source": "https://babylock.com/resources/7612/download"
       },
       "stitchCount": {
         "value": null,
@@ -567,31 +567,31 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "maxSpm": {
         "value": 1500,
-        "source": "https://sewingmachineshop.com/product/baby-lock-victory/"
+        "source": "https://babylock.com/victory-bls3-spec-sheet-2/"
       },
       "threads": {
         "value": "4, 3 or 2 thread; 2 needles",
         "source": "https://quiltedjoy.com/products/baby-lock-victory-serger-machine"
       },
       "differentialFeed": {
-        "value": "Yes; dealer copy states 2 to 1 for gathering and 3 to 4 for stretching; single unit feed dog",
-        "source": "https://www.bsewinn.com/products/baby-lock-victory-4-3-2-thread-serger-with-revolutionair%E2%84%A2-threading-system"
+        "value": "Yes; manual gives N to 2.0 for gathering and N to 0.6 for stretching; single unit feed dog",
+        "source": "https://babylock.com/resources/7612/download"
       },
       "throatIn": {
         "value": null,
         "source": null
       },
       "needleSystem": {
-        "value": "Household HAx1SP, ELx705CF or ELx705 (dealer needle page)",
-        "source": "https://www.poconosewandvac.com/products/baby-lock/machines/baby-lock-victory?associated=needles"
+        "value": "Organ or Schmetz HAx1SP/CR; 75/11 needles set up, 90/14 for heavyweight fabrics",
+        "source": "https://babylock.com/resources/7612/download"
       },
       "presserFootLift": {
-        "value": "Presser foot height 6 mm",
-        "source": "https://babylock.com/machines/serger/victory"
+        "value": "Adjustable, up to 6 mm",
+        "source": "https://babylock.com/victory-bls3-spec-sheet-2/"
       },
       "threadTrimmer": {
-        "value": null,
-        "source": null
+        "value": "Built-in side thread cutter for the thread chain (not an automatic trimmer)",
+        "source": "https://babylock.com/machines/serger/victory"
       },
       "feedSystem": {
         "value": "Differential feed with single unit feed dog mechanism; Jet-Air looper threading; Automatic Thread Delivery (no tension dials)",
@@ -611,37 +611,37 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "weightLb": {
         "value": 16,
-        "source": "https://quiltedjoy.com/products/baby-lock-victory-serger-machine"
+        "source": "https://babylock.com/machines/serger/victory"
       },
       "dimensionsIn": {
         "value": "12.5 x 11 x 11.5 (machine only)",
-        "source": "https://quiltedjoy.com/products/baby-lock-victory-serger-machine"
+        "source": "https://babylock.com/machines/serger/victory"
       },
       "includedFeet": {
-        "value": null,
-        "source": null
+        "value": "1 standard snap-on foot; spec sheet accessory list includes foot control, lint brush and needle insert tool, assorted needles, screwdrivers, tweezers, spare upper blade, looper threading tool, soft cover, thread nets, spool caps; optional feet sold separately",
+        "source": "https://babylock.com/victory-bls3-spec-sheet-2/"
       },
       "warrantyUs": {
-        "value": "25 yr limited; 10 yr parts, 5 yr electrical, 1 yr labor (dealer statement)",
-        "source": "https://meissnersewing.com/products/babylock-victory-serger"
+        "value": "25 yr limited; 10 yr parts, 5 yr circuit boards, 5 yr electrical, 1 yr labor (Victory spec sheet)",
+        "source": "https://babylock.com/victory-bls3-spec-sheet-2/"
       }
     },
     "claims": [
       "\"Jet-Air Threading threads the lower loopers with the touch of a lever\" (manufacturer feature name, babylock.com product page)",
       "\"Automatic Thread Delivery to thread in any order\" (manufacturer feature name, babylock.com product page)",
       "\"A 6mm height that makes serging on thicker fabrics a breeze\" (manufacturer claim, babylock.com product page)",
-      "\"Solid internal frame\" and \"powerful, smooth performance\" (dealer copy; frame material and motor rating not published)",
       "\"Stronger feeding as well as consistent gathering on all fabrics\" (manufacturer claim for the single unit feed dog)",
+      "\"Advanced knife driving and one-way clutch system\" with \"a larger cutting bite\" (manufacturer claim; the spec sheet says \"Heavy-duty cutting system\", a description of the knife, not a rating)",
+      "\"Solid internal frame\" and \"powerful, smooth performance\" (dealer copy; frame material and motor rating are not published by Baby Lock)",
       "\"Best serger for beginners\" (dealer blog headline, sewandvac.com, not a manufacturer claim)"
     ],
     "conflicts": [
-      "Price: Baby Lock does not publish prices. Sewing Machines Plus shows $1,899 sale against a $2,599 regular price and an open box unit at $1,709.10; Meissner shows a used unit at $1,799 against $2,499; one search summary quoted $1,499 without a page; PatternReview owners reported paying $1,200 and $1,500 in earlier years and one shopper was quoted close to $2,000 new. Catalog will use the $1,899 SMP figure in the Last seen line only.",
-      "Retailer: SMP lists the Victory, but Baby Lock is a dealer only brand under AGENTS.md rule 15 (no buy button, dealer locator link only). retailerUrl is recorded here as data for the editor; the page must not render a buy button.",
-      "Differential feed: dealer pages state 2 to 1 gathering and 3 to 4 stretching; babylock.com copy describes a single unit feed dog without a ratio. The 0.6 to 2.0 style ratio published for the Imagine was not found for the Victory.",
-      "Speed and stitch dimensions (1,500 spm, 1.5 to 7.5 mm width, 0.75 to 4 mm length) come from dealer pages; the babylock.com spec sheet could not be opened. Weight of 16 lb and 12.5 x 11 x 11.5 in are dealer machine only figures.",
-      "Needle system: a dealer needle page lists HAx1SP, ELx705CF and ELx705 for the Victory; the manual was not opened. Verify before quoting a single system.",
-      "Included accessories: dealer listings advertise bonus kits (a $189 pick your kit at Ken's, a Victory Bundle at The Sewing Studio) but no snippet listed the Baby Lock box contents. Left null.",
-      "Frame and motor: dealer copy says solid internal frame; no material or motor rating appeared. Both null."
+      "Differential feed: the Baby Lock manual gives N to 2.0 for gathering and N to 0.6 for stretching, while dealer pages state 2 to 1 and 3 to 4 for stretching; the dealer figure may be copied from the Imagine sheet, so the manual figures are used.",
+      "Needle system: the Baby Lock manual names only HAx1SP/CR, while a dealer needle page also lists ELx705CF and ELx705; the manual is used and the ELx705 pair is a dealer figure not found in Baby Lock documents.",
+      "Stitch types: the manual and Baby Lock's comparison chart list 2 thread blanket and ladder stitches that our earlier dealer based spec omitted; the manual list is used.",
+      "Weight: the Baby Lock product page says 16 lb machine only while the manual gives 7.6 kg (about 16.8 lb); 16 lb is used and neither says whether it includes the foot control or box.",
+      "Warranty: the Victory spec sheet adds a 5 year circuit board line that dealer statements omit; it is model sheet wording, so model specific.",
+      "Price: babylock.com showed $2,089 on 2026-10-02, a price shown on babylock.com and not an MSRP, while its warranty policy says only Authorized Retailers sell and warrant the machine; Sewing Machines Plus showed $1,899 sale against $2,599 regular on 2026-09-29, and dealers set their own prices."
     ],
     "ownerThemes": [
       {
@@ -670,7 +670,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://sewing.patternreview.com/SewingDiscussions/topic/114042"
       }
     ],
-    "evidence": "owner",
+    "evidence": "mixed",
     "buyerQuestions": [
       "How much does the Baby Lock Victory cost?",
       "Did the Victory replace the Imagine?",
@@ -705,85 +705,80 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The Victory is Baby Lock's current 4/3/2 thread air threading serger with no tension dials, a 6 mm presser foot lift and two LEDs, and at a dealer price near $1,900 it is the machine you buy when threading, not stitch count, is the problem you want to pay to remove.",
-      "whoFor": "A sewist who wants the Jet-Air and Automatic Thread Delivery experience on a current model with a fresh dealer warranty and does not need coverstitch or a wave stitch.",
-      "skipIf": "You want a buy button and a lower price (Juki MO-1000), you are happy with tension dials and lay in threading (Baby Lock Vibrant, Juki MO-654DE), or you need coverstitch, which Baby Lock puts on its combo machines.",
+      "verdict": "Baby Lock's Jet-Air serger with Automatic Thread Delivery and no tension dials, sold through dealers; Baby Lock publishes no motor, frame or throat figure.",
+      "whoFor": "A sewist who wants air threading and no tension dials on a model Baby Lock still lists, and who will buy from an authorized dealer.",
+      "skipIf": "You want a buy button and a lower price (Juki MO-1000), are happy with tension dials and manual threading (Baby Lock Vibrant), or need coverstitch, which this overlock machine does not list.",
       "keySpec": "4/3/2 thread · 1,500 spm · Jet-Air looper threading · Automatic Thread Delivery · 6 mm foot lift · 16 lb",
       "strengths": [
-        "Jet-Air looper threading and Automatic Thread Delivery: no looper threading by hand and no tension dials, the two steps owners on PatternReview single out",
-        "Adds 2 thread stitches, a 6 mm presser foot lift and two LEDs over the Imagine it replaced",
-        "Baby Lock's 25 year limited warranty with 10 years on parts as stated by dealers"
+        "Owners report threading as quick, which fits Baby Lock's Jet-Air and Automatic Thread Delivery claims",
+        "Baby Lock lists 2 thread blanket and ladder stitches on the Victory and not on the Celebrate, plus 2 LEDs against the Celebrate's 1",
+        "Baby Lock's spec sheet states a 25 year limited warranty with 10 years on parts and 5 years on circuit boards"
       ],
       "weaknesses": [
-        "Dealer only pricing near $1,900 to $2,600 with no published MSRP, roughly double an air threading Juki",
-        "No coverstitch and no chain stitch; the Baby Lock combos or a separate coverstitch machine cover hems",
-        "Frame, motor, box contents and needle system are not confirmed from Baby Lock's own pages in accessible sources"
+        "Owners report needle breakage, including both needles snapping on a first project and a right needle breaking on terry, from help-seeking threads, so it is not a failure rate",
+        "Owners report trouble finding ballpoint needles; the manual names only HAx1SP/CR needles",
+        "Baby Lock publishes no motor rating, frame material or throat figure, and the maker's workspace row is blank for the Victory"
       ],
       "checks": [
         {
-          "title": "Price the dealer bundle, not the sticker",
-          "body": "Dealers list the Victory anywhere from $1,499 to $2,599 and pad the gap with bonus kits. Ask for the machine only price and compare it to a used Imagine near $1,100 and a new Juki MO-1000."
+          "title": "Price it at a dealer",
+          "body": "babylock.com showed $2,089 on 2026-10-02, not an MSRP, and dealers set their own price; Sewing Machines Plus showed $1,899 on sale on 2026-09-29. Ask for the machine only price."
         },
         {
-          "title": "Confirm BLS3 and current warranty terms",
-          "body": "The Victory is model BLS3. Open box and used units appear at $1,700 to $1,800; ask what portion of the 25 year, 10 year parts, 5 year electrical and 1 year labor warranty transfers."
+          "title": "Check the warranty with the seller",
+          "body": "Baby Lock's warranty policy says only Authorized Retailers can issue its warranties and that it is not extended to non-authorized sources, including online purchases."
         },
         {
-          "title": "Decide whether you need coverstitch",
-          "body": "The Victory is overlock only. If you hem knits often, price a Baby Lock combo or a Victory plus a separate coverstitch machine before committing."
+          "title": "Buy the right needles",
+          "body": "The manual names HAx1SP/CR needles and ships with 75/11 set up. A dealer page also lists ELx705 types that are not in Baby Lock's documents, so confirm before buying a box."
         }
       ],
       "realCost": [
-        "4 cones of serger thread",
-        "ELx705 or HAx1SP needles once the system is confirmed from the manual",
+        "Serger thread: four cones, with spool caps and thread nets on the accessory list",
+        "HAx1SP/CR needles; 75/11 set up, 90/14 for heavyweight fabrics, and owners report trouble finding ballpoint ones",
         "Serger oil and a lint brush",
-        "Optional Baby Lock serger feet, sold separately by the dealer",
-        "Dealer service out of warranty; Baby Lock has no online parts channel"
+        "Optional feet sold separately: the spec sheet lists a foot kit, and babylock.com showed the 10 foot kit at $494 and the 6 foot package at $241 on 2026-10-02"
       ],
       "faqs": [
         {
           "q": "How much does the Baby Lock Victory cost?",
-          "a": "Baby Lock does not publish a price. Sewing Machines Plus showed $1,899 on sale against a $2,599 regular price; other dealers quote from about $1,500 to $2,000. Owners on PatternReview reported paying $1,200 and $1,500 in earlier years."
-        },
-        {
-          "q": "Did the Victory replace the Imagine?",
-          "a": "Yes. Dealer copy describes the Victory as the replacement for the discontinued Imagine, and PatternReview posters call it an updated Imagine with LED lights and a higher presser foot."
-        },
-        {
-          "q": "What is the difference between the Victory and the Imagine?",
-          "a": "Same Jet-Air threading and Automatic Thread Delivery. The Victory adds 2 thread stitches, two LED lights and a 6 mm presser foot height per Baby Lock's copy."
+          "a": "babylock.com showed $2,089 on 2026-10-02, a price shown there and not an MSRP, and dealers set their own price. Sewing Machines Plus showed $1,899 on sale against $2,599 regular on 2026-09-29."
         },
         {
           "q": "Does the Victory have tension dials?",
-          "a": "No. Automatic Thread Delivery sets tension without dials and lets you thread in any order."
+          "a": "Baby Lock markets Automatic Thread Delivery and no tension adjustments, which are its claims. The Celebrate is listed with manual tension on the maker's comparison chart."
         },
         {
           "q": "Does the Victory do 2 thread stitches?",
-          "a": "Yes. Baby Lock's Victory guide lists 2 thread overlock and 2 thread flatlock using the subsidiary looper, plus 3 thread rolled and narrow hems and 3 and 4 thread overlock."
+          "a": "Yes. The manual lists 2 thread flatlock, blanket and ladder stitches, plus 4 and 3 thread overlock and a 3 thread rolled edge."
         },
         {
           "q": "Does the Victory do coverstitch?",
-          "a": "No. It is an overlock only machine. Coverstitch is on Baby Lock's combo machines."
+          "a": "No coverstitch appears in the manual's stitch list. It is an overlock machine."
         },
         {
           "q": "How fast is the Victory?",
-          "a": "Dealer listings state 1,500 stitches per minute. The Baby Lock spec sheet could not be opened to confirm."
+          "a": "The spec sheet and the manual both state 1,500 stitches per minute."
         },
         {
           "q": "How heavy is the Victory?",
-          "a": "Dealer machine only figures give 16 lb and 12.5 x 11 x 11.5 in."
+          "a": "The product page says 16 lb machine only and the manual gives 7.6 kg, about 16.8 lb. Dimensions on the page are 12.5 x 11 x 11.5 in, machine only."
         },
         {
           "q": "What needles does the Victory use?",
-          "a": "A dealer needle page lists household HAx1SP, ELx705CF and ELx705 needles for the Victory. Check the manual before buying a box."
+          "a": "The manual names Organ or Schmetz HAx1SP/CR, set up with 75/11 and 90/14 for heavyweight fabrics. A dealer page also lists ELx705CF and ELx705, which are not in Baby Lock's documents."
         },
         {
           "q": "Can I buy the Victory online?",
-          "a": "Baby Lock sells through dealers. Some dealers, including Sewing Machines Plus, list it online, but Stitch Check has no affiliate relationship with Baby Lock and links to the dealer locator only."
+          "a": "Baby Lock says its machines are found through Authorized Baby Lock Retailers. Stitch Check has no buy link or affiliate relationship with Baby Lock and points to the dealer locator."
         },
         {
           "q": "What is the Victory warranty?",
-          "a": "Dealers state Baby Lock's 25 year limited warranty with 10 years parts, 5 years electrical and 1 year labor."
+          "a": "The Victory spec sheet states 25 years limited, 10 years parts, 5 years circuit boards, 5 years electrical and 1 year labor. Baby Lock says only Authorized Retailers can issue its warranties."
+        },
+        {
+          "q": "What is the difference between the Victory and the Celebrate?",
+          "a": "Per Baby Lock's comparison chart, the Victory has Automatic Thread Delivery, 2 LEDs and 2 thread blanket and ladder stitches; the Celebrate has manual tension and 1 LED. Both list 6 mm lift and Jet-Air threading."
         }
       ]
     },
@@ -811,7 +806,11 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/SewingDiscussions/topic/117409",
       "https://sewing.patternreview.com/SewingDiscussions/topic/128523",
       "https://sewing.patternreview.com/SewingDiscussions/topic/114042",
-      "https://sewing.patternreview.com/SewingDiscussions/topic/110590"
+      "https://sewing.patternreview.com/SewingDiscussions/topic/110590",
+      "https://babylock.com/victory-bls3-spec-sheet-2/",
+      "https://babylock.com/resources/7612/download",
+      "https://babylock.com/warranty-policy",
+      "https://babylock.com/celebrate"
     ]
   },
   "bernina-1008": {
@@ -1095,9 +1094,9 @@ export const catalogData: Record<string, CatalogEntry> = {
     "manufacturerUrl": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE",
     "retailerUrl": "https://www.sewingmachinesplus.com/bernina-570qe.php",
     "priceUsdSeen": 5499,
-    "priceSeenDate": "2026-09-29",
+    "priceSeenDate": "2026-10-02",
     "priceSeenAt": "another dealer",
-    "priceNote": "MSRP quoted on a dealer listing (universityofsewing.com); Bernina is dealer only and shop.berninausa.com pricing did not appear in results",
+    "priceNote": "Bernina US product page, manufacturer suggested retail price; dealers set their own price and Bernina is dealer only",
     "specs": {
       "stitchTypes": {
         "value": "Utility, decorative, quilting and alphabet stitches; 16 buttonholes including eyelet",
@@ -1105,11 +1104,11 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "stitchCount": {
         "value": 1450,
-        "source": "https://www.sewingmachinesplus.com/bernina-570qe.php"
+        "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"
       },
       "maxSpm": {
         "value": 1000,
-        "source": "https://meissnersewing.com/products/b570qe-sewing-quilting-embroidery"
+        "source": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"
       },
       "threads": {
         "value": null,
@@ -1121,22 +1120,22 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "throatIn": {
         "value": 8.5,
-        "source": "https://www.sewingmachinesplus.com/bernina-570qe.php"
+        "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"
       },
       "needleSystem": {
-        "value": null,
-        "source": null
+        "value": "130/705",
+        "source": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"
       },
       "presserFootLift": {
-        "value": "Knee lifter (Free Hand System)",
-        "source": "https://www.quiltingboard.com/main-f1/opinions-bernina-570-owners-please-t303726.html"
+        "value": "Knee lifter (Free Hand System) supplied; automatic presser foot hover function",
+        "source": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"
       },
       "threadTrimmer": {
         "value": "Automatic thread cutter",
         "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"
       },
       "feedSystem": {
-        "value": "Bernina Dual Feed (built in walking foot function)",
+        "value": "BERNINA Dual Feed, built in, tucks away when not in use",
         "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"
       },
       "buttonhole": {
@@ -1152,32 +1151,38 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "weightLb": {
-        "value": 27,
-        "source": "https://smarterfabric.com/catalog/bernina-570-qe"
+        "value": 25.35,
+        "source": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"
       },
       "dimensionsIn": {
-        "value": null,
-        "source": null
+        "value": "17.72 x 12.99 x 7.87 in (W x H x D, manual, 450 x 330 x 200 mm, without spool pin); the product page prints 18.1 x 7.9 x 12.9 in",
+        "source": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"
       },
       "includedFeet": {
-        "value": "Patchwork foot #97D included",
-        "source": "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE"
+        "value": "Seven standard feet (#1C, #1D, #2A, #3A buttonhole foot with slide, #4D, #20C open embroidery foot, #97D patchwork foot); also supplied: slide-on table with seam guide, knee lifter, touchscreen pen, 4 bobbins. No BSR foot listed",
+        "source": "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf"
       },
       "warrantyUs": {
-        "value": "20 yr mechanical parts, 5 yr printed circuit boards, 2 yr electrical parts",
-        "source": "https://sewingmachineshop.com/product/bernina-570-qe/"
+        "value": "20 yr mechanical parts, 5 yr printed circuit boards, 2 yr electrical parts (Bernina US warranty, not model-specific)",
+        "source": "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty"
       }
     },
     "claims": [
-      "\"The versatile one with the wide range of functions\" (manufacturer tagline, bernina.com)",
-      "\"handles big quilts with ease\" (manufacturer claim, shop.berninausa.com)",
-      "\"Swiss precision\" appears across dealer copy (dealer claim)"
+      "\"The versatile one with the wide range of functions\" (Bernina tagline)",
+      "\"Made especially for quilters\" and \"Handle big quilts with ease\" (Bernina marketing)",
+      "\"Enjoy superb fabric feed\" (Bernina marketing)",
+      "\"Powerful DC Motor\" (Bernina marketing; no motor rating published, the manual lists 90 W energy consumption only)",
+      "Hammer Mode drives the needle \"through more than 30 layers\" (Bernina marketing)",
+      "\"quality Swiss engineering means great tension and perfect stitches every time\" (Bernina marketing)"
     ],
     "conflicts": [
-      "Generation: the pre 2017 570 QE (bernina.com \"before 2017\" page) lists 5.5 mm stitch width, 190 mm (7.5 in) freearm and 900 spm. The current 570 QE lists 9 mm width, 8.5 in right of needle and 1,000 spm. Catalog will use the current generation and note the older figures because used listings carry them.",
-      "Stitch count: 1,450 total including alphabets (Sewing Machines Plus) vs \"up to 642 utility and decorative stitches\" (Village Sewing) vs 240 built in stitch patterns (SmarterFabric). These count different things (with or without alphabets, or an older generation). Catalog will use 1,450 including alphabets and cite it.",
-      "Price: $5,499 MSRP (universityofsewing.com) vs $4,399 with $5,599 including embroidery module (Robb Report launch coverage, older generation) vs about $4,500 (owner forum). Some dealers list a \"w/o BSR\" version. Catalog will show $5,499 MSRP as [verify] and state that Bernina pricing is dealer only.",
-      "BSR: bernina.com says BSR functionality is integrated and the BSR is an optional accessory; several dealer bundles include the BSR foot and others are marked without it. Catalog will list the BSR foot as configuration dependent."
+      "Weight: Bernina's product page says 24.2 lb and the manual technical data says 11.2 kg (25.35 lb); our earlier 27 lb came from a dealer (smarterfabric.com). We show the manual figure.",
+      "Dimensions: the product page prints 18.1 x 7.9 x 12.9 in as W x H x D and the manual lists 450 x 330 x 200 mm (17.72 x 12.99 x 7.87 in) W x H x D, so the two swap height and depth. We show the manual order; the page also prints workspace height as 4,3 in with a comma, which we have not used.",
+      "BSR foot: Bernina's product page calls the BSR foot an optional accessory, the manual's supplied-accessory list does not include it, and dealer bundles for the current machine vary (some include it, some say without BSR). The earlier 570 QE page says BSR included.",
+      "In the box: our earlier note said an extension table was not listed as included; Bernina's manual lists a slide-on table with seam guide, a knee lifter and seven standard feet as supplied.",
+      "Generation: Bernina says two models are named 570 QE. The 2017 and later machine (rear label Type: VIO) lists 8.5 in right of the needle, 9 mm width, 1,000 spm and 1,450 stitches; the earlier machine (Type: LUN) lists 7.5 in, 5.5 mm, 900 spm and 642 stitches. We use the current figures and do not carry the older machine's figures or owner claims over.",
+      "Stitch count: 1,450 including alphabets on Bernina's page, 642 in dealer copy that matches the earlier machine's Bernina page, and 240 on one dealer page with no Bernina source.",
+      "Price: $5,499 is Bernina's manufacturer suggested retail price and dealers set their own; older-generation launch coverage and a forum thread quoted $4,399 and about $4,500."
     ],
     "ownerThemes": [
       {
@@ -1191,7 +1196,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.quiltingboard.com/main-f1/bernina-570-qe-t323162.html"
       }
     ],
-    "evidence": "mixed",
+    "evidence": "owner",
     "buyerQuestions": [
       "How much does the Bernina 570 QE cost?",
       "Does the Bernina 570 QE come with the BSR?",
@@ -1224,41 +1229,78 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The 570 QE is a dealer only computerized machine whose quilting case rests on BSR stitch regulation, dual feed and a 9 mm stitch width in a domestic 8.5 in throat. At its MSRP it costs about what an entry frame longarm does, so the decision is versatility versus throat.",
-      "whoFor": "A quilter who also sews garments or decorative work, wants regulated free motion on a domestic, and values dealer classes and a 20 yr mechanical warranty.",
-      "skipIf": "You mainly want to quilt large tops (a 15 in frame machine costs the same), you want published pricing without a dealer visit, or you do not need 1,450 stitches.",
-      "keySpec": "8.5 in throat · 1,000 spm · 9 mm stitch width · BSR ready · dealer only pricing",
+      "verdict": "A dealer-only computerized quilter with 8.5 in right of the needle, built-in Dual Feed and BSR functionality, and a stitch regulator foot that varies by bundle.",
+      "whoFor": "A quilter who also wants garment and decorative stitching on one computerized machine, and who values dealer support and Bernina's 20 yr mechanical parts warranty.",
+      "skipIf": "You mainly quilt large tops and want more room than 8.5 in right of the needle, you want a published street price, or you cannot confirm which generation and which BSR bundle you are being sold.",
+      "keySpec": "8.5 in right of needle · 1,000 spm · 9 mm width · BSR built in, foot varies · dealer only",
       "strengths": [
-        "BSR stitch regulation for free motion on a domestic machine",
-        "Bernina Dual Feed and 9 mm stitch width with 1,450 stitches including alphabets",
-        "20 yr mechanical warranty and dealer new owner training"
+        "Owners report long service: one reports 2.3 million stitches on a 570 QE and another reports no issues after moving up from Pfaff machines that skipped stitches.",
+        "Owners rate the #97D patchwork foot highly on dual feed Berninas, and the box includes a slide-on table, knee lifter and seven standard feet.",
+        "Bernina lists 9 mm width, 1,000 spm and 8.5 in right of the needle, with Dual Feed built in and a jumbo bobbin."
       ],
       "weaknesses": [
-        "Dealer only pricing; MSRP figures vary from $4,399 (older generation) to $5,499 and the BSR foot is not always included",
-        "8.5 in throat is domestic class; the money buys a 15 in frame longarm elsewhere",
-        "Specs online mix two generations, so used and new listings are easy to confuse"
+        "Owners report defects and faults, from a top thread error every inch and a half to a broken bobbin sensor arm; help threads skew the count toward problems.",
+        "Owners report few feet in the box and costly specialty feet, and some report no ruler foot with their machine.",
+        "Owners report expensive repairs, and Bernina US pricing and the BSR foot depend on the dealer."
       ],
       "checks": [
         {
-          "title": "Confirm which generation you are quoted",
-          "body": "Current: 9 mm width, 1,000 spm, 8.5 in right of needle. Pre 2017: 5.5 mm, 900 spm, 7.5 in. Used listings often omit the year."
+          "title": "Confirm which 570 QE you are quoted",
+          "body": "Bernina says two machines carry the name. Rear label Type: VIO is 2017 and later with 8.5 in, 9 mm and 1,000 spm; Type: LUN is the earlier one with 7.5 in, 5.5 mm and 900 spm."
         },
         {
           "title": "Ask whether the BSR foot is in the box",
-          "body": "Bernina says BSR functionality is integrated and the foot is optional. Dealer bundles differ; some listings say without BSR."
+          "body": "Bernina lists the foot as optional and it is not in the manual's supplied list; some dealer bundles include it and some say without BSR."
         },
         {
           "title": "Get the embroidery module price separately",
-          "body": "The 570 QE E adds the module. Launch coverage put the difference near $1,200; confirm current dealer pricing."
+          "body": "Bernina's page shows the module as optional and gives no price, so ask the dealer."
         }
       ],
       "realCost": [
-        "BSR foot: Optional accessory per Bernina; price not published on pages found. Confirm inclusion in the dealer bundle",
-        "Embroidery module: 570 QE E configuration; older generation pricing showed $5,599 with module vs $4,399 without",
-        "Extension table: Not listed as included on pages found; ask the dealer",
-        "Bobbins: Bernina jumbo bobbin, proprietary; buy from a dealer"
+        "BSR foot: Bernina calls it optional and the manual's supplied list omits it; dealer bundles differ, so confirm it is in the quote",
+        "Specialty feet: Owners report only a few common feet are included and specialty feet are expensive; Bernina supplies seven standard feet",
+        "Embroidery module: Optional per Bernina's page; the module price is not published there",
+        "Servicing: Owners report repairs are expensive; the manual warns skipped servicing may limit warranty service"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "What is the throat space on the Bernina 570 QE?",
+          "a": "Bernina's wording is 8.5 in right of the needle. The manual's technical data gives no throat figure, and the earlier 570 QE page says 7.5 in."
+        },
+        {
+          "q": "Does the Bernina 570 QE come with the BSR?",
+          "a": "Bernina says BSR functionality is built into the machine and the BSR foot is an optional accessory. The manual's supplied list has no BSR foot, and dealer bundles vary."
+        },
+        {
+          "q": "What is the difference between the old and new Bernina 570 QE?",
+          "a": "Bernina says two models share the name. The 2017 and later machine (Type: VIO) lists 8.5 in, 9 mm, 1,000 spm, 1,450 stitches and 16 buttonholes; the earlier one (Type: LUN) lists 7.5 in, 5.5 mm, 900 spm, 642 stitches and 11 buttonholes."
+        },
+        {
+          "q": "How much does the Bernina 570 QE cost?",
+          "a": "Bernina US shows $5,499 as the manufacturer suggested retail price and dealers set their own prices. We show no buy link because Bernina is sold through dealers."
+        },
+        {
+          "q": "Does the 570 QE have a walking foot built in?",
+          "a": "Bernina describes a built-in Dual Feed that tucks away when not in use. It is Bernina's feed system, so check the maker's description against what you need."
+        },
+        {
+          "q": "What is in the box with the Bernina 570 QE?",
+          "a": "Bernina's manual lists seven standard feet including the #97D patchwork foot, a slide-on table with seam guide, a knee lifter, a touchscreen pen and 4 bobbins. No BSR foot is listed."
+        },
+        {
+          "q": "What is the Bernina warranty in the US?",
+          "a": "Bernina's US warranty page lists 20 years on mechanical parts, 5 years on printed circuit boards and 2 years on electrical parts. It is not model-specific."
+        },
+        {
+          "q": "How does the 570 QE compare with the Bernina 590 and 540?",
+          "a": "Bernina lists 1,774 stitches and $8,499 for the 590, and 1,048 stitches for the 540, against 1,450 and $5,499 for the 570 QE. The 540 page says no longer available. All three pages show 8.5 in, 1,000 spm and 9 mm."
+        },
+        {
+          "q": "Do owner reports on the 570 QE apply to the current model?",
+          "a": "Owner posts rarely say which generation they own, so treat reports as unsorted. We do not attribute the earlier Type: LUN machine's figures to the current one."
+        }
+      ]
     },
     "sources": [
       "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-570-QE",
@@ -1273,7 +1315,12 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://www.sewsimpleredding.com/shop/BERNINA/p/BERNINA-B-570-QE.htm",
       "https://robbreport.com/shelter/home-design/bernina-introduces-570-quilters-edition-243992/",
       "https://www.quiltingboard.com/main-f1/opinions-bernina-570-owners-please-t303726.html",
-      "https://www.quiltingboard.com/main-f1/bernina-570-qe-t323162.html"
+      "https://www.quiltingboard.com/main-f1/bernina-570-qe-t323162.html",
+      "https://www.bernina.com/en-US/Support-US/Machines/NEW-BERNINA-5-Series/BERNINA-570-QE",
+      "https://www.bernina.com/BERNINA/media/Support/Sewing_Quilting_Embroidery/5_Serie_NEW/BERNINA_570QE/Documents/EN/1028835_20A_04_web_manual_B570QE_2022-09_EN.pdf",
+      "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty",
+      "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-590",
+      "https://www.bernina.com/en-US/Machines-US/Series-Overview/NEW-BERNINA-5-Series/BERNINA-540"
     ]
   },
   "bernina-l-850": {
@@ -1289,13 +1336,13 @@ export const catalogData: Record<string, CatalogEntry> = {
     "manufacturerUrl": "https://www.bernina.com/en-US/Machines-US/Overlocker/Serger/BERNINA-L-850",
     "retailerUrl": "https://www.sewingmachinesplus.com/bernina-L850.php",
     "priceUsdSeen": 3999,
-    "priceSeenDate": "2026-09-29",
+    "priceSeenDate": "2026-10-02",
     "priceSeenAt": "another dealer",
-    "priceNote": "MSRP quoted on dealer listings (qualitysewing.com; berninaomaha.com discounts off MSRP); Bernina is dealer only",
+    "priceNote": "Bernina US product page, Manufacturer Suggested Retail Price; Bernina is dealer only",
     "specs": {
       "stitchTypes": {
-        "value": "18 stitch variations: 1 four-thread overlock, 8 three-thread (overlock wide and narrow, super-stretch, flatlock wide and narrow, rolled hem), 8 two-thread (overlock, flatlock, rolled hem)",
-        "source": "https://www.qualitysewing.com/products/bernina-l-850"
+        "value": "18 stitch variations per Bernina's flyer: 1 four-thread overlock; 8 three-thread (overlock wide and narrow, super-stretch, flatlock wide and narrow, narrow seam, rolled hem, picot); 9 two-thread (overlock wide and narrow, flatlock wide and narrow, rolled hem, wrapped overlock wide and narrow, blanket stitch wide and narrow). No coverstitch or chainstitch",
+        "source": "https://www.bernina.com/Bernina/media/products/Overlocker/L%20850/BERNINA_L850_Flyer_EN-US_v3_low-res.pdf"
       },
       "stitchCount": {
         "value": 18,
@@ -1310,24 +1357,24 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.qualitysewing.com/products/bernina-l-850"
       },
       "differentialFeed": {
-        "value": "Adjustable; ratio not published on pages found",
-        "source": "https://meissnersewing.com/products/bernina-l850-overlock"
+        "value": "Adjustable while sewing, range 0.7 to 2 (manual p. 101); gather at 1.5 to 2, prevent puckering at 0.7 to 1",
+        "source": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
       },
       "throatIn": {
         "value": 5.625,
         "source": "https://shopify.35thavesewandvac.com/products/bernina-l850-overlocker-serger"
       },
       "needleSystem": {
-        "value": "ELx705, sizes 70 to 90",
-        "source": "https://www.qualitysewing.com/products/bernina-l-850"
+        "value": "ELx705 CF, sizes 70 to 90 (10 to 14); the manual also permits 130/705 H needles 'if required'",
+        "source": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
       },
       "presserFootLift": {
-        "value": "2-step presser foot lifter with front-foot lift; swing-out foot with auto swing back; knee lifter (Free Hand System); 6-step presser foot pressure",
-        "source": "https://www.bernina.com/Bernina/media/products/Overlocker/L%20850/BERNINA_L850_Flyer_EN-US_v3_low-res.pdf"
+        "value": "2-step lifter with front-foot lift (front foot lifts a further 3 to 4 mm); knee lifter (Free Hand System); swing-out foot with auto swing back; 6-step presser foot pressure. No total lift height published",
+        "source": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
       },
       "threadTrimmer": {
-        "value": null,
-        "source": null
+        "value": "Manual thread-chain cutter on the outside of the machine (manual p. 40); no automatic trimmer listed",
+        "source": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
       },
       "feedSystem": {
         "value": "Differential feed; Micro Thread Control (mtc) adjustable while sewing; automatic needle stop up",
@@ -1338,8 +1385,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "motor": {
-        "value": null,
-        "source": null
+        "value": "DC motor; energy consumption 140 W (not a rated motor output); input 100 to 240 V",
+        "source": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
       },
       "frame": {
         "value": null,
@@ -1347,33 +1394,37 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "weightLb": {
         "value": 27.1,
-        "source": "https://shopify.35thavesewandvac.com/products/bernina-l850-overlocker-serger"
+        "source": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
       },
       "dimensionsIn": {
-        "value": "18 x 13 x 16",
-        "source": "https://shopify.35thavesewandvac.com/products/bernina-l850-overlocker-serger"
+        "value": "16.9 x 11.0 x 13.8 (43 x 28 x 35 cm) without thread stand; 22.4 x 13.8 x 13.8 (57 x 35 x 35 cm) with slide-on table and cut-offs bin",
+        "source": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
       },
       "includedFeet": {
-        "value": "Standard overlock foot; easy on/off extension table included; accessory box extension optional on L 850 (standard on L 860 and L 890)",
-        "source": "https://www.bernina.com/en-US/Accessories-US/Overlocker-Accessories/Standard-Accessories-Overlocker/Standard-accessories-BERNINA-L-850"
+        "value": "Flyer lists: standard overlock foot #L10 with tape guide, slide-on extension table, accessories box, cut-offs bin, right seam guide, tweezers, manual needle threader, ELX705 CF needle set, brush, screwdriver, dust cover. The standard accessories page lists only dust cover, power cable, foot control, knife cover insert, needle set, spool nets and discs, T10 screwdriver",
+        "source": "https://www.bernina.com/Bernina/media/products/Overlocker/L%20850/BERNINA_L850_Flyer_EN-US_v3_low-res.pdf"
       },
       "warrantyUs": {
-        "value": "Bernina US: 20 yr mechanical parts, 5 yr printed circuit boards, 2 yr electrical parts; labor not covered",
+        "value": "Bernina's general US warranty, not model-specific: 20 yr mechanical parts, 5 yr printed circuit boards, 2 yr electrical parts; parts only, labor and shipping not covered; original purchaser, private use",
         "source": "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty"
       }
     },
     "claims": [
-      "\"The ultimate overlocker\" (manufacturer flyer, bernina.com)",
-      "\"For professional overlock seams\" (manufacturer tagline, bernina.com)",
-      "\"Threads like magic\" style wording about the air threader (dealer copy, sewingmachinesales.co.uk)",
+      "\"The ultimate Overlocker\" (Bernina product page subhead)",
+      "\"A true masterpiece among sergers\" (Bernina product page)",
+      "\"Extremely fast, precise and quiet\" (Bernina product page; no decibel figure is published)",
+      "\"Designed and engineered in Switzerland\" (Bernina product page)",
+      "More room to the right of the needle and more work space height than any other Bernina serger (Bernina product page)",
       "\"Low price guarantee\" (dealer claim, meissnersewing.com); MSRP is set by Bernina and dealer prices vary"
     ],
     "conflicts": [
-      "Price: $3,999 MSRP (qualitysewing.com, berninaomaha.com) vs $2,499 paid during a promotion (PatternReview owner). Catalog will show $3,999 [verify] and note that dealer promotions run well below MSRP.",
-      "Weight and dimensions: 27.1 lb and 18 x 13 x 16 in from a dealer listing; Bernina's own page value not captured. Catalog will show them flagged [verify].",
-      "Differential feed and presser foot lift height: described as adjustable and 2-step but no numeric range or mm figure in any snippet. Values stay descriptive.",
-      "Warranty: Bernina's general 20/5/2 warranty vs a dealer listing saying all machines include a 1 year service warranty. These are different things (parts vs dealer labor). Catalog will cite Bernina.",
-      "Stitch width: 3 to 9 mm appears on a dealer page (rockymountainsewing.com); the flyer figure was not captured."
+      "Dimensions: a dealer listing gives 18 x 13 x 16 in, while Bernina's manual gives 43 x 28 x 35 cm (16.9 x 11.0 x 13.8 in) without the thread stand; we use Bernina's.",
+      "Stitch split: our earlier count was 1 four-thread, 8 three-thread and 8 two-thread, while Bernina's flyer table lists 1/8/9 (it adds wrapped overlock and blanket stitch to the two-thread group); the total of 18 agrees.",
+      "Included accessories: Bernina's flyer lists the overlock foot, extension table and accessories box, while the standard accessories page omits them; no Bernina L 850 document says the accessories box is optional.",
+      "Needles: a dealer listing names only ELx705 sizes 70 to 90, while Bernina's manual also permits 130/705 H needles if required.",
+      "Space right of the needle: Bernina quotes 5 5/8 in (143 mm) as 'space to the right of the needle' and never as needle-to-arm throat, so it is not comparable to the throat figures on other pages.",
+      "Warranty: Bernina's 20/5/2 terms come from its general warranty page that does not name the L 850; one dealer adds its own 1 year service warranty.",
+      "Price: $3,999 MSRP on Bernina's page against $2,499 that one PatternReview owner paid on a dealer promotion."
     ],
     "ownerThemes": [
       {
@@ -1392,7 +1443,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://sewing.patternreview.com/SewingDiscussions/topic/121627"
       }
     ],
-    "evidence": "owner",
+    "evidence": "mixed",
     "buyerQuestions": [
       "How much does the Bernina L 850 cost?",
       "What is the difference between the Bernina L 850 and L 860?",
@@ -1425,52 +1476,51 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The L 850 is a dealer-only 2/3/4 thread air-threading serger with a knee lift, 1,500 spm and 18 stitches, whose $3,999 MSRP buys mechanical refinement rather than the touchscreen or coverstitch of its L 860 and L 890 siblings.",
-      "whoFor": "A garment sewer who serges often, wants one-step air threading, a knee lifter and Bernina dealer support, and is buying on a dealer promotion rather than at MSRP.",
-      "skipIf": "You want a coverstitch in the same machine (L 890), continuous auto tension (Baby Lock), or you are not prepared to pay several times the price of a Juki MO-1000 for similar thread counts.",
+      "verdict": "A dealer-only 2/3/4 thread air-threading serger at a $3,999 MSRP that buys mechanical refinement, not a touch screen or coverstitch.",
+      "whoFor": "A garment sewer who serges often, wants one-step air threading, a knee lifter and Bernina dealer support, and will ask the dealer for a written price.",
+      "skipIf": "You want coverstitch in the same machine (L 890), a touch screen (L 860), or a lower price: the Juki MO-1000 also air threads at 1,500 spm for well under half the Bernina MSRP.",
       "keySpec": "2/3/4 thread · 1,500 spm · 18 stitches · air threading · knee lift · 27.1 lb",
       "strengths": [
-        "One-step air threading of both loopers plus a built-in needle threader.",
-        "Free Hand System knee lifter and Micro Thread Control adjustable while sewing, rare on sergers.",
-        "27.1 lb build that owners describe as steady at full speed, with a 20 yr mechanical warranty."
+        "One-step air threading of both loopers from the foot control, plus a built-in needle threader.",
+        "Differential feed adjustable while sewing across 0.7 to 2, with a knee lifter and 6-step presser foot pressure.",
+        "5 5/8 in of space right of the needle and 3 3/8 in of work height, the same as the L 860 and L 890 and far above the L 460's 2 in."
       ],
       "weaknesses": [
-        "$3,999 MSRP; the same thread counts and air threading cost far less from Juki, and dealer promotions make the real price hard to pin down.",
-        "No coverstitch or chainstitch; those live in the L 890.",
-        "Differential feed range, foot lift height and Bernina's own weight figure are not published on pages found."
+        "$3,999 MSRP is double the L 460 and gives up the L 860's touch screen and the L 890's coverstitch; the Juki MO-1000 is the cheaper air-threading rival.",
+        "No coverstitch or chainstitch; the thread cutter is a manual chain cutter, not an automatic trimmer.",
+        "Owner evidence is thin: 5 voices, mostly PatternReview, and one report of a misaligned needle on arrival."
       ],
       "checks": [
         {
-          "title": "Ask for the promotion price, not MSRP",
-          "body": "One owner paid $2,499 during a dealer promotion against a $3,999 list. Bernina sets MSRP and dealers discount; get a written quote."
+          "title": "Ask for a written price",
+          "body": "Bernina sets a $3,999 MSRP and dealers set the price; one PatternReview owner reports paying $2,499 on a promotion."
         },
         {
-          "title": "Test the 4-thread stitch before leaving the dealer",
-          "body": "One owner's unit shipped with a misaligned needle so the 4-thread overlock would not form. Have the dealer sew a chain on all four threads."
+          "title": "Sew a 4-thread chain before leaving",
+          "body": "One PatternReview owner reports a unit with a misaligned needle so the 4-thread stitch would not form until adjusted."
         },
         {
-          "title": "Decide on the L 860 screen first",
-          "body": "The L 860 adds a color touchscreen with guided setup for about $1,500 more per an owner; stitch capability is the same class."
+          "title": "Confirm what is in the box",
+          "body": "Bernina's flyer and standard accessories page disagree on the overlock foot, extension table and accessories box."
         }
       ],
       "realCost": [
-        "Accessory box extension: Optional on the L 850, standard on L 860 and L 890; dealer price not published on pages found",
-        "Specialty feet: Bernina L series feet such as the gathering foot are dealer items; price not captured",
-        "ELx705 needles: Serger-specific needle system, sizes 70 to 90; not the household 130/705H",
-        "Dealer new owner class: Usually included with a Bernina dealer purchase; confirm"
+        "Accessory box: Bernina's flyer lists an accessories box as standard but its accessories page does not; confirm with the dealer what is in the carton",
+        "Needles: ELx705 CF in sizes 70 to 90 come in the set; the manual also permits 130/705 H needles if required",
+        "Dealer service: Bernina warranty covers parts only, not labor or shipping; ask the dealer about labor and setup"
       ],
       "faqs": [
         {
           "q": "How much does the Bernina L 850 cost?",
-          "a": "Dealer listings quote a $3,999 MSRP. One owner paid $2,499 during a promotion. Bernina is dealer only, so the price is set at the counter."
+          "a": "Bernina's page lists a $3,999 MSRP. One PatternReview owner paid $2,499 on a dealer promotion. Bernina is dealer only, so the price is set at the counter."
         },
         {
-          "q": "What is the difference between the L 850 and L 860?",
-          "a": "The L 860 adds a color touchscreen with guided and expert modes that preset tension, stitch length and differential feed. An owner put the gap at about $1,500."
+          "q": "How does the L 850 differ from the L 860?",
+          "a": "Per Bernina's pages, the L 860 adds a 4.3 in touch screen with guided mode, weighs 28.9 lb against 27.1 lb, and lists at $4,999 MSRP. Stitch count (18), speed (1,500 spm) and space right of the needle (5 5/8 in) match."
         },
         {
-          "q": "Bernina L 850 or Baby Lock Acclaim?",
-          "a": "Both air-thread. Forum members note the Bernina sets an initial tension per stitch while Baby Lock adjusts tension continuously as you sew. Neither has a public price."
+          "q": "How does the L 850 differ from the L 460 and L 890?",
+          "a": "Bernina lists the L 460 with 16 stitches, a manual needle threader, 2 in right of the needle and $1,999 MSRP. The L 890 is an overlock and coverstitch combo with 27 stitches, 1,350 spm and $8,749 MSRP."
         },
         {
           "q": "Does the L 850 have air threading?",
@@ -1478,27 +1528,31 @@ export const catalogData: Record<string, CatalogEntry> = {
         },
         {
           "q": "Does the Bernina L 850 do coverstitch?",
-          "a": "No. Coverstitch and chainstitch are on the L 890."
+          "a": "No. Coverstitch is on the L 890, Bernina's overlock and coverstitch combo."
         },
         {
-          "q": "What needles does the Bernina L 850 use?",
-          "a": "ELx705 serger needles in sizes 70 to 90, per dealer listings."
+          "q": "What needles does the L 850 use?",
+          "a": "ELx705 CF, sizes 70 to 90. Bernina's manual also permits 130/705 H needles if required."
         },
         {
           "q": "How heavy is the L 850?",
-          "a": "27.1 lb, about 12.3 kg, per a dealer listing; Bernina's own figure was not captured."
+          "a": "27.1 lb (12.3 kg) per Bernina's manual. It measures 16.9 x 11.0 x 13.8 in without the thread stand."
         },
         {
-          "q": "What is the throat space on the L 850?",
-          "a": "5 5/8 in to the right of the needle and 3 3/8 in high, per a dealer listing."
+          "q": "How much room is there right of the needle?",
+          "a": "Bernina quotes 5 5/8 in (143 mm) of space to the right of the needle and 3 3/8 in (86 mm) of work space height. It is not a needle-to-arm throat figure."
         },
         {
           "q": "Does the L 850 have a free arm?",
-          "a": "Yes, owners single out the free arm as a feature few serger brands offer."
+          "a": "Yes. Bernina lists a free arm with a slide-on extension table."
         },
         {
-          "q": "What is the Bernina warranty on the L 850?",
-          "a": "Bernina's US warranty is 20 years on mechanical parts, 5 on circuit boards and 2 on electrical parts; labor is not covered."
+          "q": "Does it trim the thread chain automatically?",
+          "a": "No. Bernina's manual lists a thread cutter on the outside of the machine for cutting the chain by hand."
+        },
+        {
+          "q": "What is the warranty?",
+          "a": "Bernina's general US warranty, not specific to this model: 20 years on mechanical parts, 5 on circuit boards and 2 on electrical parts. Parts only; labor and shipping are not covered."
         }
       ]
     },
@@ -1519,7 +1573,11 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/review/machine/7332",
       "https://sewing.patternreview.com/review/machine/7238",
       "https://sewing.patternreview.com/SewingDiscussions/topic/121627",
-      "https://www.manualslib.com/manual/2082687/Bernina-L-850.html"
+      "https://www.manualslib.com/manual/2082687/Bernina-L-850.html",
+      "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf",
+      "https://www.bernina.com/en-US/Machines-US/Overlocker/Serger/BERNINA-L-460",
+      "https://www.bernina.com/en-US/Machines-US/Overlocker/Serger/BERNINA-L-860",
+      "https://www.bernina.com/en-US/Machines-US/Overlocker/Overlock-Coverstitch-Combo/BERNINA-L-890"
     ]
   },
   "brother-1034d": {
@@ -2222,9 +2280,9 @@ export const catalogData: Record<string, CatalogEntry> = {
     "manufacturerUrl": "https://www.brother-usa.com/products/2340cv",
     "retailerUrl": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch",
     "priceUsdSeen": 580,
-    "priceSeenDate": "2026-09-29",
-    "priceSeenAt": "another dealer",
-    "priceNote": "Walmart (search snippet; listing URL not captured)",
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "Brother USA",
+    "priceNote": null,
     "specs": {
       "stitchTypes": {
         "value": "Cover stitch narrow 3 mm, cover stitch wide 6 mm, triple cover stitch, 2-thread chain stitch",
@@ -2243,8 +2301,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.brother-usa.com/products/2340cv"
       },
       "differentialFeed": {
-        "value": "0.7 to 2.0",
-        "source": "https://www.officedepot.com/a/products/6067742/Brother-2340CV-Cover-Stitch/"
+        "value": "0.7 to 2",
+        "source": "https://assets.brother.com/asset/6b09375b-48b2-4e7f-970f-79bb54d5d26d/2626_Brochure-All-Product-LineUp-2015-LR-pdf.pdf"
       },
       "throatIn": {
         "value": null,
@@ -2255,8 +2313,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.manualslib.com/manual/22076/Brother-2340cv.html"
       },
       "presserFootLift": {
-        "value": "About 5 to 6 mm",
-        "source": "https://www.sewingmachinefun.com/brother-2340cv-review/"
+        "value": "5 to 6 mm",
+        "source": "https://download.brother.com/welcome/doch000104/2340cv_ug02enes.pdf"
       },
       "threadTrimmer": {
         "value": null,
@@ -2275,35 +2333,41 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "frame": {
-        "value": "Metal frame",
+        "value": "Metal frame per a retailer listing; unverified, no Brother document states frame material",
         "source": "https://www.officedepot.com/a/products/6067742/Brother-2340CV-Cover-Stitch/"
       },
       "weightLb": {
-        "value": 16.7,
-        "source": "https://www.officedepot.com/a/products/6067742/Brother-2340CV-Cover-Stitch/"
+        "value": 15.4,
+        "source": "https://download.brother.com/welcome/doch000104/2340cv_ug02enes.pdf"
       },
       "dimensionsIn": {
         "value": null,
         "source": null
       },
       "includedFeet": {
-        "value": "Standard foot and hem sewing foot; accessory bag: needle set, 4 thread nets, tweezers, 4 spool caps, 4 spool mats, cleaning brush, hex wrench, soft cover, manual",
-        "source": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch"
+        "value": "Snap-on presser foot on the machine and a special presser foot (C1) used with an optional attachment (User's Guide box list). Accessory bag: needle set (3 pcs), 4 thread nets, tweezers, 4 spool caps, 4 spool mats, cleaning brush, hex wrench, soft cover, foot controller. Brother's page lists 'Special Presser Foot'; no Brother document lists a hem foot",
+        "source": "https://download.brother.com/welcome/doch000104/2340cv_ug02enes.pdf"
       },
       "warrantyUs": {
-        "value": "25 yr chassis casting, 6 yr electronic components and PCBs, 2 yr parts, labor and accessories",
-        "source": "https://sewingmachinesplus.com/products/brother-2340cv-coverstitch"
+        "value": "Brother page headline: '1/5/25 Year Limited Serger Warranty'. The page does not say which period covers which part, and the linked PDF is a 1 year Latin America and Caribbean warranty, so the breakdown is unconfirmed",
+        "source": "https://www.brother-usa.com/products/2340cv"
       }
     },
     "claims": [
-      "\"Professional hems, chain stitch and decorative stitching\" (manufacturer claim, product page)",
-      "\"Sturdy metal frame\" (retailer listing title)",
-      "Listed as 'Coverstitch Serger' in some retailer titles; it has no knife and does not overlock"
+      "\"An advanced serger\" (Brother product page wording; the page's own spec table lists overlock seam width N/A)",
+      "\"Professional hems, chain stitch and decorative stitching\" (Brother product page)",
+      "\"Great for making the perfect T-shirt in no time\" (Brother product page)",
+      "\"Differential feed for perfect seaming on virtually any fabric type\" (Brother product page)",
+      "\"Sturdy metal frame\" (retailer listing title, not stated by Brother)"
     ],
     "conflicts": [
-      "Price: Walmart and eBay listings show $579.99; the Sewing Machines Plus page returned no price in snippets. Catalog will use $579.99 flagged as marketplace.",
-      "Stitch length: retailer copy '2.0 to 4.0 mm'; Brother page value not captured. Catalog will use retailer figure flagged [verify].",
-      "Retailer titles call it a 'serger'; it is a coverstitch and chain stitch machine only."
+      "Weight: the Brother User's Guide gives a machine net weight of 7.0 kg (15.4 lb, OCR reading) and a retailer listing gave 16.7 lb, which may be a shipping weight; the manual figure is used.",
+      "Frame: a retailer listing says metal frame, but no Brother document states frame material, so the claim is unverified.",
+      "Included feet: our earlier spec listed a standard foot and a hem foot from a dealer page; Brother's page says 'Special Presser Foot' and the User's Guide box list names a snap-on presser foot and a special presser foot (C1), with no hem foot listed.",
+      "Warranty: Brother's page says '1/5/25 Year Limited Serger Warranty' while a dealer listing says 25 yr chassis, 6 yr electronics, 2 yr parts and labor; the 1 versus 2 and 5 versus 6 do not match, and the PDF linked from Brother's page is a 1 year Latin America and Caribbean warranty, so the breakdown is unconfirmed until a US document is found.",
+      "Speed: Brother's product page and 2015 brochure say 1,100 spm, while the User's Guide gives 1,000 spm for normal sewing speed (OCR reading); the page figure is used.",
+      "Ratings: Amazon's 4.3 from 1,204 ratings pools several listings that share a parent (B005GXPO70 and B0DK65HMDR), so it is not a single-listing rating; the Sewing Machines Plus 4.72 from 40 has only 2 reviews naming the 2340CV, so it is not quoted as a model rating.",
+      "Type: Brother's page body calls it 'an advanced serger' while its own spec table lists overlock seam width as N/A; it is a coverstitch and chain stitch machine with no knife and no overlock stitch."
     ],
     "ownerThemes": [
       {
@@ -2351,41 +2415,85 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The 2340CV is the lowest-priced dedicated coverstitch from a major brand: 3-needle, 3 or 6 mm cover stitch plus chain stitch at 1,100 spm.",
-      "whoFor": "A knit sewist who owns a serger and wants ready-to-wear style hems without buying a combo machine.",
-      "skipIf": "You need a free arm, a tension release lever, or a wider bed; the Janome CoverPro 2000CPX has those.",
-      "keySpec": "1/2/3 needle · 3 or 6 mm cover · chain stitch · 1,100 spm",
+      "verdict": "A low-priced Brother coverstitch and chain stitch machine with no knife, no free arm listed and a fussy reputation, so it suits a knit sewist who already owns a serger.",
+      "whoFor": "A sewist who already has a serger and wants 3 mm or 6 mm cover stitch hems and a chain stitch on knits, and who will invest in setup and patience.",
+      "skipIf": "You need a free arm, a tension release lever or a published bed size: Brother lists the first two on the CV3440, and Janome states a 4 x 5.5 in bed for the CoverPro 2000CPX.",
+      "keySpec": "3 needles · 3 or 6 mm cover · chain stitch · 1,100 spm (manual: 1,000)",
       "strengths": [
-        "Standard 130/705H household needles, so ball points for knits are easy to source.",
-        "Differential feed 0.7 to 2.0 and stitch length 2 to 4 mm published.",
-        "Brother's warranty covers the chassis 25 years and electronics 6 years."
+        "Brother publishes 3 mm and 6 mm cover stitch, triple cover and a 2 thread chain stitch, with differential feed 0.7 to 2 and stitch length 2 to 4 mm confirmed in its documents",
+        "Owners report threading as mostly easy, with some finding it easier than a serger, though a few call it not intuitive and one hit a spool cap fit problem with non-cone thread",
+        "Owners describe the cover stitch hem as stretchy and even once set up, one calling it the stretchiest hem they had managed at home, while the triple cover hem uses a lot of thread"
       ],
       "weaknesses": [
-        "No automatic tension release, a frequent owner complaint when removing work.",
-        "Free arm and dimensions are not published in results captured.",
-        "Owner reports on skipped stitches are sharply split."
+        "Owners report reliability and defect problems in the largest theme (18 voices, mostly negative), with a returned unit, a fussy machine and chain stitch that fails to form; the sample skews toward people asking for help",
+        "Owners report tension is tight and needs adjusting per fabric, and removing work from under the foot is the trickiest step; Brother lists a one-touch tension release lever on the CV3440 but none on the 2340CV",
+        "Brother does not publish the throat or bed size, machine dimensions, motor power or whether there is a free arm, so these stay [verify]"
       ],
       "checks": [
         {
-          "title": "Needles for knits",
-          "body": "The manual names SCHMETZ 130/705H 90/14 and recommends SUK ball point for knits. Buy ball points before the first project."
+          "title": "It is a coverstitch machine, not a serger",
+          "body": "Brother's page body calls it 'an advanced serger', which is a claim. Its own spec table lists overlock seam width as N/A, the machine has no knife and no overlock stitch, and you still need a serger or a sewing machine for seams."
         },
         {
-          "title": "Two feet in the box",
-          "body": "Standard foot and a hem foot. Binders, clear feet and belt loop folders are add-ons, often bundled by dealers."
+          "title": "Warranty breakdown is unconfirmed",
+          "body": "Brother's page says '1/5/25 Year Limited Serger Warranty' without saying which period covers what. The linked PDF is a 1 year Latin America and Caribbean warranty, and a dealer lists 25, 6 and 2 years. Ask the seller for the US terms in writing."
         },
         {
-          "title": "It is not a serger",
-          "body": "Retail titles say 'coverstitch serger'. It has no knife and no overlock stitch. You still need a serger or a sewing machine for seams."
+          "title": "Check the box and the frame claim",
+          "body": "Brother lists a special presser foot, and the User's Guide box list shows a snap-on foot, a special foot (C1) with an optional attachment and an accessory bag, with no hem foot. A metal frame is a retailer claim that no Brother document states."
         }
       ],
       "realCost": [
-        "3 to 4 cones of thread; a wooly nylon for the looper is optional",
-        "SCHMETZ 130/705H SUK ball point needles, 90/14",
-        "Wash-away or tissue stabilizer for very light jersey",
-        "Serger oil"
+        "Thread for 3 or 4 spools (the box list includes 4 thread nets, 4 spool caps and 4 spool mats); the triple cover hem uses a lot of thread, per an owner",
+        "SCHMETZ 130/705H 90/14 needles are supplied (3 pcs); Brother suggests SUK ball point 130/705H for fabric damage",
+        "Optional presser foot attachment: the box list says the special presser foot (C1) is used with an optional attachment"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "Can the Brother 2340CV do a chain stitch?",
+          "a": "Yes. Brother lists a 1 needle, 2 thread chain stitch. One owner reports a new unit that would not form it, and another can chain off only about an inch before the thread fails."
+        },
+        {
+          "q": "Can the 2340CV serge or overlock?",
+          "a": "No. Brother's page body calls it 'an advanced serger', but its own spec table lists overlock seam width as N/A and its documents list no overlock stitch. It has no knife."
+        },
+        {
+          "q": "What needles does the 2340CV use?",
+          "a": "The User's Guide names SCHMETZ 130/705H 90/14, with 3 needles supplied. It suggests the SUK ball point 130/705H 90/14 to reduce fabric damage; that is a suggestion, not a requirement."
+        },
+        {
+          "q": "Does the 2340CV have a free arm?",
+          "a": "Not listed by Brother. The page, User's Guide and brochure are silent, while the CV3440 page lists a free arm, so treat it as [verify] rather than as absent."
+        },
+        {
+          "q": "Does the 2340CV have a tension release lever?",
+          "a": "No Brother document lists one for the 2340CV; the CV3440 page lists a one-touch lever tension release. Owners report removing work from under the foot as the trickiest part."
+        },
+        {
+          "q": "How fast is the 2340CV?",
+          "a": "Brother's page and 2015 brochure say 1,100 stitches per minute, while the User's Guide gives 1,000 for normal sewing speed. Treat the speed as 1,000 to 1,100."
+        },
+        {
+          "q": "How heavy is the 2340CV?",
+          "a": "The User's Guide gives a machine net weight of 7.0 kg, about 15.4 lb. A retailer listing gave 16.7 lb, which may be a shipping weight."
+        },
+        {
+          "q": "What feet come with the 2340CV?",
+          "a": "Brother's page lists a 'Special Presser Foot' and the User's Guide box list shows a snap-on foot and a special presser foot (C1) used with an optional attachment. No Brother document lists a hem foot, though one dealer page does."
+        },
+        {
+          "q": "What is the 2340CV warranty?",
+          "a": "Brother's page says '1/5/25 Year Limited Serger Warranty' without a breakdown. The linked PDF is a 1 year Latin America and Caribbean warranty, so the split by part is unconfirmed."
+        },
+        {
+          "q": "How is the 2340CV rated by buyers?",
+          "a": "Amazon shows 4.3 from 1,204 ratings, but that rating pools several listings of this machine that share a parent, so it is not a single-listing score. Only 13 written reviews were readable."
+        },
+        {
+          "q": "How does the 2340CV compare with the Brother CV3440?",
+          "a": "On Brother's pages the CV3440 lists a one-touch tension release, a free arm and a thread cutter and is priced at $699.00, against $579.99 for the 2340CV. The CV3440 page showed Out of Stock on 2026-10-02."
+        }
+      ]
     },
     "sources": [
       "https://www.brother-usa.com/products/2340cv",
@@ -2396,7 +2504,13 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://www.sewingmachinefun.com/brother-2340cv-review/",
       "https://sewing.patternreview.com/review/machine/5678",
       "https://sewing.patternreview.com/SewingDiscussions/topic/21953",
-      "https://growyourownclothes.com/2017/07/27/brother-2340cv-cover-stitch-machine-survival-guide/"
+      "https://growyourownclothes.com/2017/07/27/brother-2340cv-cover-stitch-machine-survival-guide/",
+      "https://download.brother.com/welcome/doch000104/2340cv_ug02enes.pdf",
+      "https://assets.brother.com/asset/6b09375b-48b2-4e7f-970f-79bb54d5d26d/2626_Brochure-All-Product-LineUp-2015-LR-pdf.pdf",
+      "https://assets.brother.com/asset/950eb4ac-ebc2-426a-93dc-a6bc29ea9e32/6015_International-Warranty-LAD-Final-pdf.pdf",
+      "https://www.brother-usa.com/products/cv3440",
+      "https://www.janome.com/product/coverpro-2000cpx/",
+      "https://www.amazon.com/dp/B005GXPO70"
     ]
   },
   "brother-cs7000x": {
