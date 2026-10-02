@@ -1,14 +1,9 @@
 {
   "slug": "juki-hzl-f300",
-  "generated": "2026-10-02T05:03:00.732Z",
+  "generated": "2026-10-02T05:18:36.585Z",
   "counts": {
     "error": 0,
-    "warn": 1
+    "warn": 0
   },
-  "items": [
-    {
-      "level": "warn",
-      "message": "numbers in the copy that are not in the evidence bundle: 4.2"
-    }
-  ]
+  "items": []
 }

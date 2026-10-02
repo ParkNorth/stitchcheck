@@ -586,19 +586,23 @@
   "rollup": {
     "status": "draft",
     "method": {
-      "sources": 46,
-      "itemsCollected": 457,
-      "statements": 61,
-      "voices": 46,
-      "ownerVoices": 31,
+      "sources": 48,
+      "itemsCollected": 711,
+      "statements": 180,
+      "voices": 129,
+      "ownerVoices": 113,
       "dateRange": [
-        2019,
+        2010,
         2026
       ],
       "byClass": {
         "reddit": {
           "sources": 46,
           "items": 457
+        },
+        "retailer": {
+          "sources": 2,
+          "items": 254
         }
       },
       "blocked": 0,
@@ -613,61 +617,247 @@
       "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
-    "ratings": [],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+        "pageRating": 4.74,
+        "pageCount": 246,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 4,
+          "2": 1,
+          "3": 10,
+          "4": 25,
+          "5": 206
+        },
+        "lowRated": 15,
+        "sampled": null
+      },
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B00F9K1FIM",
+        "pageRating": 4.2,
+        "pageCount": 40,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 2,
+          "4": 1,
+          "5": 5
+        },
+        "lowRated": 2,
+        "sampled": "8 top reviews (8 US, 0 other countries) of 40 ratings"
+      }
+    ],
     "themes": [
       {
-        "label": "Reliability and defects",
-        "voices": 11,
-        "ownerVoices": 7,
-        "sources": 8,
+        "label": "Feet and accessories",
+        "voices": 23,
+        "ownerVoices": 21,
+        "sources": 5,
         "polarity": {
-          "positive": 4,
-          "negative": 6,
+          "positive": 6,
+          "negative": 10,
           "mixed": 1,
+          "neutral": 6
+        },
+        "classVoices": {
+          "reddit": 5,
+          "retailer": 18
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Bonus package lacked size 11 needles.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
+          },
+          {
+            "polarity": "negative",
+            "claim": "F300 owner bought a walking foot, knee lift, extra feet and a table attachment separately because they did not come with the machine.",
+            "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/kpdxj9t/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner praises the quarter inch foot with guide.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner found a $150 deal bundling the extension table, knee lift and extra presser feet with the machine.",
+            "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcnuyww/"
+          }
+        ]
+      },
+      {
+        "label": "Noise and vibration",
+        "voices": 20,
+        "ownerVoices": 20,
+        "sources": 4,
+        "polarity": {
+          "positive": 16,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "retailer": 17,
+          "reddit": 3
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner reports the machine vibrates while sewing even on a solid oak table.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
+          },
+          {
+            "polarity": "negative",
+            "claim": "F300 owner reports vibration and a buzzing noise as sewing speed rises.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1n0n40s/help_what_do_you_think_iswrong_with_this_machine/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner of two days finds it very quiet.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner finds the wide, heavy base stable with little vibration while sewing.",
+            "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/na297q1/"
+          }
+        ]
+      },
+      {
+        "label": "Reliability and defects",
+        "voices": 18,
+        "ownerVoices": 14,
+        "sources": 12,
+        "polarity": {
+          "positive": 5,
+          "negative": 13,
+          "mixed": 0,
           "neutral": 0
         },
         "classVoices": {
-          "reddit": 11
+          "reddit": 14,
+          "retailer": 4
         },
-        "recurrence": "reported",
+        "recurrence": "recurring",
         "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Pressing or releasing reverse adds an extra stitch, making it hard to end a seam precisely.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
+          },
           {
             "polarity": "negative",
             "claim": "Former owner calls the F300 a lemon that broke within a few years.",
             "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1wmbx95/juki_how_much_is_too_much/pb5shlo/"
           },
           {
+            "polarity": "positive",
+            "claim": "F300 owner calls it a good all-round and very durable machine that quilted a baby quilt sandwich well.",
+            "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/n9qigtj/"
+          }
+        ]
+      },
+      {
+        "label": "Threading and loopers",
+        "voices": 18,
+        "ownerVoices": 18,
+        "sources": 3,
+        "polarity": {
+          "positive": 11,
+          "negative": 5,
+          "mixed": 2,
+          "neutral": 0
+        },
+        "classVoices": {
+          "retailer": 17,
+          "reddit": 1
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
             "polarity": "negative",
-            "claim": "Another owner reports the same broken gear and plans a self-repair.",
-            "url": "https://www.reddit.com/r/sewhelp/comments/1vuqje3/has_anyone_fixed_a_juki_hzl_f300_broken_bobbin/p9azj1l/"
+            "claim": "Auto threader is finicky and only works with the needle at the right height.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
           },
           {
             "polarity": "positive",
-            "claim": "F300 owner reports no mechanical issues and no jams.",
+            "claim": "Owner finds the auto threader easy.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Experienced owner says it is the easiest machine to thread they have used, bobbin area included.",
+            "url": "https://www.amazon.com/dp/B00F9K1FIM"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner says the needle threader works but will not handle finer needles.",
             "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/na297q1/"
           },
           {
             "polarity": "mixed",
-            "claim": "Owner used the machine for a year before the thread tail issue appeared, fixed by holding the tails.",
-            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1eptccq/why_does_this_keep_happening_when_i_start_sewing/lhn3kqb/"
+            "claim": "Buyer had trouble threading the bobbin because the directions were unclear; tech support resolved it the next day.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
+          }
+        ]
+      },
+      {
+        "label": "Thread trimmer",
+        "voices": 17,
+        "ownerVoices": 16,
+        "sources": 3,
+        "polarity": {
+          "positive": 13,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "classVoices": {
+          "retailer": 16,
+          "reddit": 1
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner reports the bobbin cutter has never worked.",
+            "url": "https://www.amazon.com/dp/B00F9K1FIM"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner likes the automatic cut feature.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner likes the cutting action tied to the reverse pedal stitch.",
+            "url": "https://www.amazon.com/dp/B00F9K1FIM"
           }
         ]
       },
       {
         "label": "Power on heavy fabric",
-        "voices": 6,
-        "ownerVoices": 4,
-        "sources": 5,
+        "voices": 11,
+        "ownerVoices": 9,
+        "sources": 6,
         "polarity": {
-          "positive": 2,
-          "negative": 2,
-          "mixed": 2,
+          "positive": 7,
+          "negative": 1,
+          "mixed": 3,
           "neutral": 0
         },
         "classVoices": {
-          "reddit": 6
+          "reddit": 6,
+          "retailer": 5
         },
-        "recurrence": "reported",
+        "recurrence": "recurring",
         "examples": [
           {
             "polarity": "negative",
@@ -676,13 +866,13 @@
           },
           {
             "polarity": "positive",
-            "claim": "Owner has not tried denim but expects the machine to cope with it because it is a workhorse.",
-            "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/kwadpco/"
+            "claim": "Owner says it powered through multiple layers that bogged down an old machine.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
           },
           {
             "polarity": "positive",
-            "claim": "New F300 owner tested layers and seam intersections of heavy canvas and found sewing smooth.",
-            "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcnuyww/"
+            "claim": "Owner has not tried denim but expects the machine to cope with it because it is a workhorse.",
+            "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/kwadpco/"
           },
           {
             "polarity": "mixed",
@@ -693,57 +883,161 @@
       },
       {
         "label": "Fabric handling (knits, wovens)",
-        "voices": 6,
-        "ownerVoices": 4,
+        "voices": 9,
+        "ownerVoices": 9,
         "sources": 4,
         "polarity": {
-          "positive": 3,
+          "positive": 8,
           "negative": 1,
           "mixed": 0,
-          "neutral": 2
+          "neutral": 0
         },
         "classVoices": {
-          "reddit": 6
+          "reddit": 3,
+          "retailer": 6
         },
-        "recurrence": "reported",
+        "recurrence": "recurring",
         "examples": [
           {
             "polarity": "negative",
-            "claim": "New F300 owner reports skipped zigzag stitches on knit fabric, worse at higher speed, not on wovens.",
-            "url": "https://www.reddit.com/r/sewing/comments/xl7fr3/trying_to_troubleshoot_a_couple_machine_issues/"
+            "claim": "New out of the box, the feed dog grabbed the fabric and pulled it into the feed slot at the start of sewing; owner awaiting a fix.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner says it feeds thick layers smoothly.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
           },
           {
             "polarity": "positive",
             "claim": "Owner notes less top and bottom fabric offset on long seams than on the previous machine.",
             "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcqr1do/"
-          },
-          {
-            "polarity": "positive",
-            "claim": "Owner praises the F300 feed dogs and says it jams rarely.",
-            "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/n9r7l7v/"
           }
         ]
       },
       {
-        "label": "Feet and accessories",
-        "voices": 5,
-        "ownerVoices": 3,
+        "label": "Weight and portability",
+        "voices": 9,
+        "ownerVoices": 7,
         "sources": 3,
         "polarity": {
-          "positive": 1,
-          "negative": 1,
+          "positive": 7,
+          "negative": 0,
           "mixed": 0,
-          "neutral": 3
+          "neutral": 2
         },
         "classVoices": {
-          "reddit": 5
+          "retailer": 6,
+          "reddit": 3
         },
-        "recurrence": "reported",
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "positive",
+            "claim": "Owner says the machine feels nice and heavy.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
+          }
+        ]
+      },
+      {
+        "label": "Throat and workspace",
+        "voices": 9,
+        "ownerVoices": 8,
+        "sources": 4,
+        "polarity": {
+          "positive": 5,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "retailer": 6,
+          "reddit": 3
+        },
+        "recurrence": "recurring",
         "examples": [
           {
             "polarity": "negative",
-            "claim": "F300 owner bought a walking foot, knee lift, extra feet and a table attachment separately because they did not come with the machine.",
-            "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/kpdxj9t/"
+            "claim": "Buyer was told the throat was 9 in but measured 8 in.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner measured an 8 inch throat, not the 9 inch the listing description claimed.",
+            "url": "https://www.amazon.com/dp/B00F9K1FIM"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner likes the larger sewing space.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner who upgraded from a 6 inch throat agrees the F300 size and space are impressive.",
+            "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/nafnosf/"
+          }
+        ]
+      },
+      {
+        "label": "Stitch quality",
+        "voices": 7,
+        "ownerVoices": 6,
+        "sources": 5,
+        "polarity": {
+          "positive": 6,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "reddit": 4,
+          "retailer": 3
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "positive",
+            "claim": "Buyer bought it as a backup to industrial machines mainly for its buttonhole feature and is happy with the buttonholes.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
+          },
+          {
+            "polarity": "positive",
+            "claim": "New F300 owner says it sewed a buttonhole on denim that the previous machine had failed.",
+            "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcnuyww/"
+          }
+        ]
+      },
+      {
+        "label": "Oiling and maintenance",
+        "voices": 5,
+        "ownerVoices": 4,
+        "sources": 3,
+        "polarity": {
+          "positive": 1,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 3
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner says the retailer's site shows bobbin parts are no longer available after three years.",
+            "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Technician quoted about $50 for the part plus three hours of labor at $90 an hour for recalibration.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1vuqje3/has_anyone_fixed_a_juki_hzl_f300_broken_bobbin/p5hrj7k/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner reports the machine has run fine with very little maintenance.",
+            "url": "https://www.reddit.com/r/quilting/comments/1dbhcsy/juki_hzlf300_for_450/l7ujsyp/"
           }
         ]
       }
@@ -753,14 +1047,14 @@
         "label": "Juki HZL-F400",
         "rows": [
           {
-            "feature": "Included accessories (owner reports)",
-            "summary": "Commenters say the F400 includes a plug-in automatic buttonhole foot, a walking foot, an extra spool pin and the knee lever that the F300 lacks. Juki lists the knee lifter as optional on the F300 and standard on the F400.",
-            "check": "owner comments; knee lifter confirmed by Juki product pages, 2026-10-02"
-          },
-          {
             "feature": "Stitches (owner reports)",
             "summary": "Commenters say the F400 has a handful more stitches and pattern stitches than the F300. Juki's F-series pages list the stitch libraries.",
             "check": "owner comments; see Juki product pages for the counts"
+          },
+          {
+            "feature": "Included accessories (owner reports)",
+            "summary": "Commenters say the F400 includes a plug-in automatic buttonhole foot, a walking foot, an extra spool pin and the knee lever that the F300 lacks. Juki lists the knee lifter as optional on the F300 and standard on the F400.",
+            "check": "owner comments; knee lifter confirmed by Juki product pages, 2026-10-02"
           },
           {
             "feature": "Stitches and box contents",
@@ -807,7 +1101,13 @@
     ],
     "rivals": []
   },
-  "checks": [],
+  "checks": [
+    {
+      "level": "warn",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: only 15 of 246 reviews name this model while siblings exist; confirm the listing is not pooled"
+    }
+  ],
   "editorNotes": {
     "notes": [
       "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",

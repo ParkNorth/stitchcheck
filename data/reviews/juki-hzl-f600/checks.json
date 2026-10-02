@@ -1,6 +1,6 @@
 {
   "slug": "juki-hzl-f600",
-  "generated": "2026-10-02T04:58:44.302Z",
+  "generated": "2026-10-02T05:18:33.466Z",
   "counts": {
     "error": 0,
     "warn": 2
@@ -8,8 +8,13 @@
   "items": [
     {
       "level": "info",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: of 153 sampled reviews, 19 name this model, 0 name a sibling only, 134 name neither"
+    },
+    {
+      "level": "info",
       "id": "scope",
-      "message": "spec claims: 105, this 84, sibling 7, unclear 14"
+      "message": "spec claims: 224, this 199, sibling 7, unclear 18"
     },
     {
       "level": "info",
@@ -29,7 +34,7 @@
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 53 voices (40 first-hand), 57 sources, status draft"
+      "message": "evidence moderate, 118 voices (105 first-hand), 59 sources, status draft"
     }
   ]
 }

@@ -900,5 +900,52 @@
       "r/sewing:HZL-F300"
     ],
     "content_hash": "441f1beda68e91f2"
+  },
+  {
+    "id": "web:17b24665b2ec89cf",
+    "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-02T05:12:36.041Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-02T05:12:36.041Z",
+    "status": "ok",
+    "site_rating": 4.74,
+    "site_review_count": 246,
+    "content_hash": "7c30c17d8dad827b"
+  },
+  {
+    "id": "web:823de3e406d0b0b4",
+    "url": "https://www.amazon.com/dp/B00F9K1FIM",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T05:13:44.262Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T05:13:44.262Z",
+    "status": "ok",
+    "site_rating": 4.2,
+    "site_review_count": 40,
+    "asin": "B00F9K1FIM",
+    "parent_asin": null,
+    "product_asins": [],
+    "pooled_variations": false,
+    "sampled": "8 top reviews (8 US, 0 other countries) of 40 ratings",
+    "listing": {
+      "title": "Juki HZL-F300 Exceed Series - Full Sized 9 inch Throat Computer Sewing Quilting Machine Quilters Package",
+      "price_usd": null,
+      "best_sellers_rank": "#1,412,048 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #11,664 in Sewing Machine Parts",
+      "details": {
+        "Model Number": "HZL F300",
+        "Part Number": "hzlf300",
+        "Color": "White",
+        "Material": "Metal"
+      }
+    }
   }
 ]

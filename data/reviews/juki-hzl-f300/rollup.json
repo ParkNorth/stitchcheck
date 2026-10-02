@@ -5,19 +5,23 @@
   "reviewedOn": null,
   "generated": "2026-10-02",
   "method": {
-    "sources": 46,
-    "itemsCollected": 457,
-    "statements": 61,
-    "voices": 46,
-    "ownerVoices": 31,
+    "sources": 48,
+    "itemsCollected": 711,
+    "statements": 180,
+    "voices": 129,
+    "ownerVoices": 113,
     "dateRange": [
-      2019,
+      2010,
       2026
     ],
     "byClass": {
       "reddit": {
         "sources": 46,
         "items": 457
+      },
+      "retailer": {
+        "sources": 2,
+        "items": 254
       }
     },
     "blocked": 0,
@@ -34,30 +38,212 @@
   "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
   "themes": [
     {
-      "theme": "reliability_defects",
-      "label": "Reliability and defects",
-      "statements": 12,
-      "voices": 11,
-      "ownerVoices": 7,
-      "sources": 8,
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 26,
+      "voices": 23,
+      "ownerVoices": 21,
+      "sources": 5,
       "sourceClasses": [
-        "reddit"
+        "reddit",
+        "retailer"
       ],
       "classVoices": {
-        "reddit": 11
+        "reddit": 5,
+        "retailer": 18
       },
       "polarity": {
-        "positive": 4,
-        "negative": 6,
+        "positive": 6,
+        "negative": 10,
         "mixed": 1,
+        "neutral": 6
+      },
+      "years": [
+        2017,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c33b615c7",
+          "polarity": "negative",
+          "claim": "Bonus package lacked size 11 needles.",
+          "quote": "No size 11 needles.",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c4b28e341",
+          "polarity": "negative",
+          "claim": "F300 owner bought a walking foot, knee lift, extra feet and a table attachment separately because they did not come with the machine.",
+          "quote": "I paid for a walking foot (65 bucks) knee lift (40 bucks)",
+          "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/kpdxj9t/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c67e8b2ff",
+          "polarity": "positive",
+          "claim": "Owner praises the quarter inch foot with guide.",
+          "quote": "foot with guide is great",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cddb3ef0a",
+          "polarity": "positive",
+          "claim": "Owner found a $150 deal bundling the extension table, knee lift and extra presser feet with the machine.",
+          "quote": "the extension table, knee lift, and extra presser feet were included for $150",
+          "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcnuyww/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c85ae1283",
+        "c97054bfc",
+        "c4b28e341",
+        "c4668565d",
+        "cddb3ef0a",
+        "c6df9b005",
+        "ccd2d412c",
+        "c29501edc",
+        "c9eb6f3cb",
+        "c31537aa5",
+        "c67e8b2ff",
+        "cf2bd8b20",
+        "ca6fbc918",
+        "ceeec3ff9",
+        "cddbae847",
+        "caee12849",
+        "c11c61773",
+        "c4517aa3a",
+        "cd9c44624",
+        "cbf35be23",
+        "c6ed07f18",
+        "c96b7f550",
+        "cc856c54f",
+        "c33b615c7",
+        "ca1ff8e44",
+        "c2ebdc109"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 20,
+      "voices": 20,
+      "ownerVoices": 20,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 17,
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 16,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2010,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cfb041c39",
+          "polarity": "negative",
+          "claim": "Owner reports the machine vibrates while sewing even on a solid oak table.",
+          "quote": "The only problem I have is the vibration when sewing.",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c3fcf3788",
+          "polarity": "negative",
+          "claim": "F300 owner reports vibration and a buzzing noise as sewing speed rises.",
+          "quote": "the machine is vibrating and have buzzing noise when speed increased",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1n0n40s/help_what_do_you_think_iswrong_with_this_machine/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cd6ef4ab1",
+          "polarity": "positive",
+          "claim": "Owner of two days finds it very quiet.",
+          "quote": "soooo quiet",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c3702d3d8",
+          "polarity": "positive",
+          "claim": "Owner finds the wide, heavy base stable with little vibration while sewing.",
+          "quote": "it is very stable and has much less vibration in operation",
+          "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/na297q1/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c2e02d3f1",
+        "c122bab84",
+        "cfb041c39",
+        "c53a279f9",
+        "cd6ef4ab1",
+        "cf9b8508e",
+        "cdbea6090",
+        "c147724b3",
+        "ce8f590a6",
+        "cba058d01",
+        "cd3735ed6",
+        "c524ec3f4",
+        "c9718dc4c",
+        "c06ff50b0",
+        "c03728af1",
+        "c4ec711b8",
+        "c1edba77f",
+        "c92b22a76",
+        "c3fcf3788",
+        "c3702d3d8"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 19,
+      "voices": 18,
+      "ownerVoices": 14,
+      "sources": 12,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 14,
+        "retailer": 4
+      },
+      "polarity": {
+        "positive": 5,
+        "negative": 13,
+        "mixed": 0,
         "neutral": 0
       },
       "years": [
-        2024,
+        2020,
         2026
       ],
-      "recurrence": "reported",
+      "recurrence": "recurring",
       "examples": [
+        {
+          "claim_id": "c940866ce",
+          "polarity": "negative",
+          "claim": "Pressing or releasing reverse adds an extra stitch, making it hard to end a seam precisely.",
+          "quote": "it does one extra stitch",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        },
         {
           "claim_id": "c70d6b0d7",
           "polarity": "negative",
@@ -67,69 +253,224 @@
           "source_class": "reddit"
         },
         {
-          "claim_id": "c4b0bbea6",
-          "polarity": "negative",
-          "claim": "Another owner reports the same broken gear and plans a self-repair.",
-          "quote": "Mine is broken, have a gear ordered and am going to attempt it myself.",
-          "url": "https://www.reddit.com/r/sewhelp/comments/1vuqje3/has_anyone_fixed_a_juki_hzl_f300_broken_bobbin/p9azj1l/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "ccbe631fb",
+          "claim_id": "c6b42d83e",
           "polarity": "positive",
-          "claim": "F300 owner reports no mechanical issues and no jams.",
-          "quote": "I have had zero mechanical issues with it.",
-          "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/na297q1/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c3cfe1989",
-          "polarity": "mixed",
-          "claim": "Owner used the machine for a year before the thread tail issue appeared, fixed by holding the tails.",
-          "quote": "after sewing on this machine for the last year",
-          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1eptccq/why_does_this_keep_happening_when_i_start_sewing/lhn3kqb/",
+          "claim": "F300 owner calls it a good all-round and very durable machine that quilted a baby quilt sandwich well.",
+          "quote": "Good all round machine and very durable.",
+          "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/n9qigtj/",
           "source_class": "reddit"
         }
       ],
       "claimIds": [
         "cba172c27",
+        "c8eee02bc",
+        "cf5b808c0",
+        "c06db5b9a",
+        "c940866ce",
         "cb5ec88ad",
         "c4b0bbea6",
+        "c113590be",
         "c70d6b0d7",
         "c92a8ad8d",
         "c6a07454e",
+        "c6b42d83e",
         "ccbe631fb",
         "c9794869f",
         "c5fc81d26",
         "ca9d02c35",
+        "c085d2ac5",
         "c3cfe1989",
         "c51f104ee"
       ]
     },
     {
-      "theme": "power_heavy_fabric",
-      "label": "Power on heavy fabric",
-      "statements": 6,
-      "voices": 6,
-      "ownerVoices": 4,
-      "sources": 5,
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 18,
+      "voices": 18,
+      "ownerVoices": 18,
+      "sources": 3,
       "sourceClasses": [
-        "reddit"
+        "reddit",
+        "retailer"
       ],
       "classVoices": {
-        "reddit": 6
+        "retailer": 17,
+        "reddit": 1
       },
       "polarity": {
-        "positive": 2,
-        "negative": 2,
+        "positive": 11,
+        "negative": 5,
         "mixed": 2,
         "neutral": 0
       },
       "years": [
-        2022,
+        2010,
         2025
       ],
-      "recurrence": "reported",
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "ca6bdab28",
+          "polarity": "negative",
+          "claim": "Auto threader is finicky and only works with the needle at the right height.",
+          "quote": "the auto-threader is finicky",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "ca41d4abd",
+          "polarity": "positive",
+          "claim": "Owner finds the auto threader easy.",
+          "quote": "Auto threader is a breeze",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "ca0d4f694",
+          "polarity": "positive",
+          "claim": "Experienced owner says it is the easiest machine to thread they have used, bobbin area included.",
+          "quote": "I have never had a machine so easy to thread",
+          "url": "https://www.amazon.com/dp/B00F9K1FIM",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c7be84599",
+          "polarity": "mixed",
+          "claim": "Owner says the needle threader works but will not handle finer needles.",
+          "quote": "it will not work with finer needles",
+          "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/na297q1/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c666fa73c",
+          "polarity": "mixed",
+          "claim": "Buyer had trouble threading the bobbin because the directions were unclear; tech support resolved it the next day.",
+          "quote": "I had issues threading the bobbin and the directions were not clear.",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c6d6c70a8",
+        "c5f334f13",
+        "c666fa73c",
+        "c077318bf",
+        "cefac149b",
+        "c36fde30f",
+        "cae801f06",
+        "ca6bdab28",
+        "c67a13d12",
+        "c7281c531",
+        "ca41d4abd",
+        "c34738bb7",
+        "ca3cee855",
+        "cbe5d92ad",
+        "ca0d4f694",
+        "cbf6017c9",
+        "c2a828541",
+        "c7be84599"
+      ]
+    },
+    {
+      "theme": "thread_trimmer",
+      "label": "Thread trimmer",
+      "statements": 18,
+      "voices": 17,
+      "ownerVoices": 16,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 16,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 13,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2015,
+        2022
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "ccc8954f2",
+          "polarity": "negative",
+          "claim": "Owner reports the bobbin cutter has never worked.",
+          "quote": "The bobbin cutter has never worked.",
+          "url": "https://www.amazon.com/dp/B00F9K1FIM",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c58abfcba",
+          "polarity": "positive",
+          "claim": "Owner likes the automatic cut feature.",
+          "quote": "I love the automatic cut feature.",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c7f86cb66",
+          "polarity": "positive",
+          "claim": "Owner likes the cutting action tied to the reverse pedal stitch.",
+          "quote": "I love the reverse pedal stitch cutting",
+          "url": "https://www.amazon.com/dp/B00F9K1FIM",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c4abd1750",
+        "cfa163a51",
+        "ce672b6ff",
+        "ca3c2aeab",
+        "cbc1fcca0",
+        "c69c43096",
+        "c58abfcba",
+        "c846657bb",
+        "cd03e7213",
+        "c84a9d9fb",
+        "c4a577375",
+        "c66a63a8c",
+        "c91d3e405",
+        "c7f86cb66",
+        "cb8fb0dcc",
+        "ca260c504",
+        "ccc8954f2",
+        "c4b78177c"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 11,
+      "voices": 11,
+      "ownerVoices": 9,
+      "sources": 6,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 6,
+        "retailer": 5
+      },
+      "polarity": {
+        "positive": 7,
+        "negative": 1,
+        "mixed": 3,
+        "neutral": 0
+      },
+      "years": [
+        2016,
+        2025
+      ],
+      "recurrence": "recurring",
       "examples": [
         {
           "claim_id": "ca8ebf3b9",
@@ -140,19 +481,19 @@
           "source_class": "reddit"
         },
         {
+          "claim_id": "c44349422",
+          "polarity": "positive",
+          "claim": "Owner says it powered through multiple layers that bogged down an old machine.",
+          "quote": "Again it powered thru it.",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        },
+        {
           "claim_id": "cfba0fabf",
           "polarity": "positive",
           "claim": "Owner has not tried denim but expects the machine to cope with it because it is a workhorse.",
           "quote": "It's a workhorse so I think it would be great on denim.",
           "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/kwadpco/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c38144c6b",
-          "polarity": "positive",
-          "claim": "New F300 owner tested layers and seam intersections of heavy canvas and found sewing smooth.",
-          "quote": "I've tested layers and seam intersections of heavy canvas.",
-          "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcnuyww/",
           "source_class": "reddit"
         },
         {
@@ -167,6 +508,11 @@
       "claimIds": [
         "cfba0fabf",
         "c38144c6b",
+        "cd5c05ff0",
+        "c648f41a1",
+        "c44349422",
+        "c5e8c4581",
+        "cdb748975",
         "ca8ebf3b9",
         "ca1a35b7b",
         "cf3be30e3",
@@ -176,35 +522,45 @@
     {
       "theme": "fabric_handling",
       "label": "Fabric handling (knits, wovens)",
-      "statements": 6,
-      "voices": 6,
-      "ownerVoices": 4,
+      "statements": 9,
+      "voices": 9,
+      "ownerVoices": 9,
       "sources": 4,
       "sourceClasses": [
-        "reddit"
+        "reddit",
+        "retailer"
       ],
       "classVoices": {
-        "reddit": 6
+        "reddit": 3,
+        "retailer": 6
       },
       "polarity": {
-        "positive": 3,
+        "positive": 8,
         "negative": 1,
         "mixed": 0,
-        "neutral": 2
+        "neutral": 0
       },
       "years": [
-        2022,
+        2015,
         2025
       ],
-      "recurrence": "reported",
+      "recurrence": "recurring",
       "examples": [
         {
-          "claim_id": "c085d2ac5",
+          "claim_id": "cfa205c17",
           "polarity": "negative",
-          "claim": "New F300 owner reports skipped zigzag stitches on knit fabric, worse at higher speed, not on wovens.",
-          "quote": "When I sew a zig-zag stitch on knit fabric, it skips stitches.",
-          "url": "https://www.reddit.com/r/sewing/comments/xl7fr3/trying_to_troubleshoot_a_couple_machine_issues/",
-          "source_class": "reddit"
+          "claim": "New out of the box, the feed dog grabbed the fabric and pulled it into the feed slot at the start of sewing; owner awaiting a fix.",
+          "quote": "The dog feed is grabbing the material and pulling it into the feed slot",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c74c72511",
+          "polarity": "positive",
+          "claim": "Owner says it feeds thick layers smoothly.",
+          "quote": "Sews thick layers smoothly",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
         },
         {
           "claim_id": "c62363535",
@@ -213,249 +569,63 @@
           "quote": "I don't get the offset at the end that I used to.",
           "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcqr1do/",
           "source_class": "reddit"
-        },
-        {
-          "claim_id": "ca4b087e0",
-          "polarity": "positive",
-          "claim": "Owner praises the F300 feed dogs and says it jams rarely.",
-          "quote": "The F300 with how the feed dogs work is fantastic and so few jams.",
-          "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/n9r7l7v/",
-          "source_class": "reddit"
         }
       ],
       "claimIds": [
         "c62363535",
+        "cccfe092f",
+        "cfb7357f6",
+        "c8b6a5339",
+        "cd83dd256",
+        "cfa205c17",
+        "c74c72511",
         "ca4b087e0",
-        "c085d2ac5",
-        "c2ce9f7fa",
-        "c22857691",
-        "cbb291f52"
-      ]
-    },
-    {
-      "theme": "feet_accessories",
-      "label": "Feet and accessories",
-      "statements": 6,
-      "voices": 5,
-      "ownerVoices": 3,
-      "sources": 3,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 5
-      },
-      "polarity": {
-        "positive": 1,
-        "negative": 1,
-        "mixed": 0,
-        "neutral": 3
-      },
-      "years": [
-        2024,
-        2026
-      ],
-      "recurrence": "reported",
-      "examples": [
-        {
-          "claim_id": "c4b28e341",
-          "polarity": "negative",
-          "claim": "F300 owner bought a walking foot, knee lift, extra feet and a table attachment separately because they did not come with the machine.",
-          "quote": "I paid for a walking foot (65 bucks) knee lift (40 bucks)",
-          "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/kpdxj9t/",
-          "source_class": "reddit"
-        }
-      ],
-      "claimIds": [
-        "c85ae1283",
-        "c97054bfc",
-        "c4b28e341",
-        "c4668565d",
-        "c65fa7379",
-        "c2ebdc109"
-      ]
-    },
-    {
-      "theme": "stitch_quality",
-      "label": "Stitch quality",
-      "statements": 5,
-      "voices": 4,
-      "ownerVoices": 3,
-      "sources": 4,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 4
-      },
-      "polarity": {
-        "positive": 3,
-        "negative": 0,
-        "mixed": 0,
-        "neutral": 1
-      },
-      "years": [
-        2023,
-        2025
-      ],
-      "recurrence": "reported",
-      "examples": [
-        {
-          "claim_id": "c5ce21247",
-          "polarity": "positive",
-          "claim": "New F300 owner says it sewed a buttonhole on denim that the previous machine had failed.",
-          "quote": "It breezed right over the old machine's failed buttonhole",
-          "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcnuyww/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "ce0fe8ae6",
-          "polarity": "positive",
-          "claim": "Owner says buttonholes are excellent and mostly run unattended.",
-          "quote": "The buttonholes are dreamy and most of the time they don’t even require supervision",
-          "url": "https://www.reddit.com/r/sewing/comments/z2ys37/best_sewing_machine_for_heavy_duty_sewing/jgcp9u7/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "cd3b87ad8",
-          "polarity": "mixed",
-          "claim": "Owner tried the triple straight stitch and likes how it looks, still unsure about tight curves.",
-          "quote": "I tried out that triple straight stitch and it looks SO nice.",
-          "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcnuyww/",
-          "source_class": "reddit"
-        }
-      ],
-      "claimIds": [
-        "c5ce21247",
-        "cd3b87ad8",
-        "ce342fcb4",
-        "ce0fe8ae6",
-        "c69c7ca5a"
-      ]
-    },
-    {
-      "theme": "support_service",
-      "label": "Dealer support and service",
-      "statements": 3,
-      "voices": 3,
-      "ownerVoices": 1,
-      "sources": 2,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 3
-      },
-      "polarity": {
-        "positive": 0,
-        "negative": 1,
-        "mixed": 0,
-        "neutral": 2
-      },
-      "years": [
-        2024,
-        2026
-      ],
-      "recurrence": "reported",
-      "examples": [
-        {
-          "claim_id": "c62bdc26f",
-          "polarity": "negative",
-          "claim": "Technician quoted about $50 for the part plus three hours of labor at $90 an hour for recalibration.",
-          "quote": "they quoted me at $90 an hour of labor for 3 hours",
-          "url": "https://www.reddit.com/r/sewhelp/comments/1vuqje3/has_anyone_fixed_a_juki_hzl_f300_broken_bobbin/p5hrj7k/",
-          "source_class": "reddit"
-        }
-      ],
-      "claimIds": [
-        "c6deb9cfa",
-        "c757b984f",
-        "c62bdc26f"
-      ]
-    },
-    {
-      "theme": "noise_vibration",
-      "label": "Noise and vibration",
-      "statements": 3,
-      "voices": 3,
-      "ownerVoices": 3,
-      "sources": 3,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 3
-      },
-      "polarity": {
-        "positive": 1,
-        "negative": 1,
-        "mixed": 0,
-        "neutral": 1
-      },
-      "years": [
-        2025,
-        2026
-      ],
-      "recurrence": "reported",
-      "examples": [
-        {
-          "claim_id": "c3fcf3788",
-          "polarity": "negative",
-          "claim": "F300 owner reports vibration and a buzzing noise as sewing speed rises.",
-          "quote": "the machine is vibrating and have buzzing noise when speed increased",
-          "url": "https://www.reddit.com/r/sewhelp/comments/1n0n40s/help_what_do_you_think_iswrong_with_this_machine/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c3702d3d8",
-          "polarity": "positive",
-          "claim": "Owner finds the wide, heavy base stable with little vibration while sewing.",
-          "quote": "it is very stable and has much less vibration in operation",
-          "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/na297q1/",
-          "source_class": "reddit"
-        }
-      ],
-      "claimIds": [
-        "c92b22a76",
-        "c3fcf3788",
-        "c3702d3d8"
+        "c2ce9f7fa"
       ]
     },
     {
       "theme": "weight_portability",
       "label": "Weight and portability",
-      "statements": 3,
-      "voices": 3,
-      "ownerVoices": 1,
-      "sources": 2,
+      "statements": 9,
+      "voices": 9,
+      "ownerVoices": 7,
+      "sources": 3,
       "sourceClasses": [
-        "reddit"
+        "reddit",
+        "retailer"
       ],
       "classVoices": {
+        "retailer": 6,
         "reddit": 3
       },
       "polarity": {
-        "positive": 1,
-        "negative": 1,
+        "positive": 7,
+        "negative": 0,
         "mixed": 0,
-        "neutral": 1
+        "neutral": 2
       },
       "years": [
-        2023,
+        2017,
         2026
       ],
-      "recurrence": "reported",
+      "recurrence": "recurring",
       "examples": [
         {
-          "claim_id": "c0c42340f",
-          "polarity": "negative",
-          "claim": "F300 owner carried it to lessons by putting it in a large IKEA bag despite the built-in handle.",
-          "quote": "while it has a handle, I just put in a big IKEA bag",
-          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1vj8hj0/help_me_decide_which_sewing_machine_for_upgrade/p2k1whs/",
-          "source_class": "reddit"
+          "claim_id": "c15a7aa1c",
+          "polarity": "positive",
+          "claim": "Owner says the machine feels nice and heavy.",
+          "quote": "feels nice and heavy",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
         }
       ],
       "claimIds": [
+        "c16c60aae",
+        "ce907f344",
+        "ccc680fed",
+        "cbda28bcf",
+        "c15a7aa1c",
+        "c45d2219e",
         "c5f2738fb",
         "c0c42340f",
         "ca3ba7e6d"
@@ -464,35 +634,53 @@
     {
       "theme": "throat_workspace",
       "label": "Throat and workspace",
-      "statements": 3,
-      "voices": 3,
-      "ownerVoices": 2,
-      "sources": 2,
+      "statements": 9,
+      "voices": 9,
+      "ownerVoices": 8,
+      "sources": 4,
       "sourceClasses": [
-        "reddit"
+        "reddit",
+        "retailer"
       ],
       "classVoices": {
+        "retailer": 6,
         "reddit": 3
       },
       "polarity": {
-        "positive": 1,
-        "negative": 1,
+        "positive": 5,
+        "negative": 3,
         "mixed": 0,
         "neutral": 1
       },
       "years": [
-        2025,
+        2019,
         2026
       ],
-      "recurrence": "reported",
+      "recurrence": "recurring",
       "examples": [
         {
-          "claim_id": "cc0f643ba",
+          "claim_id": "ce3e9052a",
           "polarity": "negative",
-          "claim": "Long-time owner wants a larger throat space for textile art and free motion work.",
-          "quote": "I want to upgrade to a machine with a larger throat space",
-          "url": "https://www.reddit.com/r/quilting/comments/1wsxfq1/mechanical_machines_with_large_throat_space_and/",
-          "source_class": "reddit"
+          "claim": "Buyer was told the throat was 9 in but measured 8 in.",
+          "quote": "but sadly only 8",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cc2a7e524",
+          "polarity": "negative",
+          "claim": "Owner measured an 8 inch throat, not the 9 inch the listing description claimed.",
+          "quote": "it really only has an 8 inch throat",
+          "url": "https://www.amazon.com/dp/B00F9K1FIM",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cbdf865a3",
+          "polarity": "positive",
+          "claim": "Owner likes the larger sewing space.",
+          "quote": "loving the larger sewing space",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
         },
         {
           "claim_id": "c2f328bf3",
@@ -504,36 +692,328 @@
         }
       ],
       "claimIds": [
+        "cbdf865a3",
+        "c563c9374",
+        "ce3e9052a",
+        "c7b4be153",
+        "cc2a7e524",
+        "c65a84c15",
         "cd81a2fa8",
         "c2f328bf3",
         "cc0f643ba"
       ]
     },
     {
-      "theme": "free_motion",
-      "label": "Free-motion quilting",
-      "statements": 2,
-      "voices": 2,
-      "ownerVoices": 1,
-      "sources": 2,
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 8,
+      "voices": 7,
+      "ownerVoices": 6,
+      "sources": 5,
       "sourceClasses": [
-        "reddit"
+        "reddit",
+        "retailer"
       ],
       "classVoices": {
-        "reddit": 2
+        "reddit": 4,
+        "retailer": 3
       },
       "polarity": {
-        "positive": 1,
+        "positive": 6,
         "negative": 0,
         "mixed": 0,
         "neutral": 1
       },
       "years": [
-        2025,
+        2016,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "ce2121228",
+          "polarity": "positive",
+          "claim": "Buyer bought it as a backup to industrial machines mainly for its buttonhole feature and is happy with the buttonholes.",
+          "quote": "primarily for the buttonhole feature",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c5ce21247",
+          "polarity": "positive",
+          "claim": "New F300 owner says it sewed a buttonhole on denim that the previous machine had failed.",
+          "quote": "It breezed right over the old machine's failed buttonhole",
+          "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcnuyww/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c5ce21247",
+        "cd3b87ad8",
+        "ce2121228",
+        "cec6d6d4b",
+        "c06dad75f",
+        "ce342fcb4",
+        "ce0fe8ae6",
+        "c69c7ca5a"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 6,
+      "voices": 5,
+      "ownerVoices": 4,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2016,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c30e26e1f",
+          "polarity": "negative",
+          "claim": "Owner says the retailer's site shows bobbin parts are no longer available after three years.",
+          "quote": "the bobbin parts are no long available",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c62bdc26f",
+          "polarity": "negative",
+          "claim": "Technician quoted about $50 for the part plus three hours of labor at $90 an hour for recalibration.",
+          "quote": "they quoted me at $90 an hour of labor for 3 hours",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1vuqje3/has_anyone_fixed_a_juki_hzl_f300_broken_bobbin/p5hrj7k/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c414484f7",
+          "polarity": "positive",
+          "claim": "Owner reports the machine has run fine with very little maintenance.",
+          "quote": "this machine has been just fine with nearly no maintenance",
+          "url": "https://www.reddit.com/r/quilting/comments/1dbhcsy/juki_hzlf300_for_450/l7ujsyp/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c30e26e1f",
+        "c04546821",
+        "c414484f7",
+        "c0b753f2e",
+        "c757b984f",
+        "c62bdc26f"
+      ]
+    },
+    {
+      "theme": "walking_foot",
+      "label": "Walking foot",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2020,
         2026
       ],
       "recurrence": "reported",
       "examples": [
+        {
+          "claim_id": "c6026ffa3",
+          "polarity": "negative",
+          "claim": "Buyer of a quilting package says no walking foot was included and had to buy one after delivery.",
+          "quote": "didn’t include a required quilting walking foot",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c380d8401",
+          "polarity": "negative",
+          "claim": "Owner bought a walking foot for the F300 from a dealer and it lacks the guide bar screw.",
+          "quote": "the foot that was sent to me doesnt have a screw in the back",
+          "url": "https://www.reddit.com/r/quilting/comments/1rhm137/cant_attach_guide_bar_to_juki_walking_foot/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ceadbd553",
+          "polarity": "positive",
+          "claim": "Owner says it handles quilt layers without a walking foot.",
+          "quote": "It manages quilt layers without using a walking foot",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c6026ffa3",
+        "ceadbd553",
+        "c65fa7379",
+        "c380d8401"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 5,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 4
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2017,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c4b909042",
+          "polarity": "positive",
+          "claim": "Owner says it is built solid.",
+          "quote": "Built solid",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cd3ffe4bd",
+        "cf0ce1fd3",
+        "cc2e6e2ec",
+        "c4b909042",
+        "cb0a2f2d4"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2018,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ca3d2b7ae",
+          "polarity": "negative",
+          "claim": "Owner reports tension repeatedly drifting off.",
+          "quote": "Tension keeps going off.",
+          "url": "https://www.amazon.com/dp/B00F9K1FIM",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c7c85c593",
+          "polarity": "negative",
+          "claim": "Owner reports stitch starts bunching even after rethreading and tension adjustment, with autolock on or off.",
+          "quote": "the beginning of my stitches are still bunching up",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1eptccq/why_does_this_keep_happening_when_i_start_sewing/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c93174c88",
+          "polarity": "positive",
+          "claim": "Owner says stitches are neat and well tensioned.",
+          "quote": "The stitches are neat and perfectly tensioned",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c93174c88",
+        "ca3d2b7ae",
+        "c4bf41620",
+        "c7c85c593"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cd434fd72",
+          "polarity": "negative",
+          "claim": "Owner cannot sew faster than about half speed even on thinner fabrics.",
+          "quote": "even on thinner fabrics I can’t go more than half way speed",
+          "url": "https://www.reddit.com/r/quilting/comments/1n22a55/troubleshooting_on_juki_hzlf300/",
+          "source_class": "reddit"
+        },
         {
           "claim_id": "c0ec26f05",
           "polarity": "positive",
@@ -544,140 +1024,82 @@
         }
       ],
       "claimIds": [
-        "c6a3c5529",
+        "c76ae8566",
+        "cd434fd72",
         "c0ec26f05"
       ]
     },
     {
-      "theme": "tension",
-      "label": "Tension",
+      "theme": "support_service",
+      "label": "Dealer support and service",
       "statements": 2,
       "voices": 2,
-      "ownerVoices": 2,
-      "sources": 2,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 2
-      },
-      "polarity": {
-        "positive": 0,
-        "negative": 2,
-        "mixed": 0,
-        "neutral": 0
-      },
-      "years": [
-        2024,
-        2026
-      ],
-      "recurrence": "reported",
-      "examples": [
-        {
-          "claim_id": "c7c85c593",
-          "polarity": "negative",
-          "claim": "Owner reports stitch starts bunching even after rethreading and tension adjustment, with autolock on or off.",
-          "quote": "the beginning of my stitches are still bunching up",
-          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1eptccq/why_does_this_keep_happening_when_i_start_sewing/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c4bf41620",
-          "polarity": "negative",
-          "claim": "New owner had to raise thread tension to +2 for normal stitches despite auto being advertised as fine.",
-          "quote": "I had to increase thread tension to +2 for it to sew normal stitches",
-          "url": "https://www.reddit.com/r/quilting/comments/1tbgh1g/help_with_juki_hzl_f300/",
-          "source_class": "reddit"
-        }
-      ],
-      "claimIds": [
-        "c4bf41620",
-        "c7c85c593"
-      ]
-    },
-    {
-      "theme": "threading",
-      "label": "Threading and loopers",
-      "statements": 2,
-      "voices": 2,
-      "ownerVoices": 2,
-      "sources": 2,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 2
-      },
-      "polarity": {
-        "positive": 0,
-        "negative": 1,
-        "mixed": 1,
-        "neutral": 0
-      },
-      "years": [
-        2022,
-        2025
-      ],
-      "recurrence": "reported",
-      "examples": [
-        {
-          "claim_id": "c113590be",
-          "polarity": "negative",
-          "claim": "Owner reports the top thread repeatedly catching in the hook.",
-          "quote": "top thread in blue constantly getting stuck in this hook",
-          "url": "https://www.reddit.com/r/sewing/comments/zh63xu/why_is_my_juki_hzlf300_top_thread_in_blue/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c7be84599",
-          "polarity": "mixed",
-          "claim": "Owner says the needle threader works but will not handle finer needles.",
-          "quote": "it will not work with finer needles",
-          "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/na297q1/",
-          "source_class": "reddit"
-        }
-      ],
-      "claimIds": [
-        "c113590be",
-        "c7be84599"
-      ]
-    },
-    {
-      "theme": "value_price",
-      "label": "Value and price",
-      "statements": 1,
-      "voices": 1,
       "ownerVoices": 1,
-      "sources": 1,
+      "sources": 2,
       "sourceClasses": [
-        "reddit"
+        "reddit",
+        "retailer"
       ],
       "classVoices": {
+        "reddit": 1,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2023,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cf5a97862",
+          "polarity": "mixed",
+          "claim": "Machine arrived with a faulty motor, repaired promptly under warranty.",
+          "quote": "Mine came with a faulty motor, but it got fixed under the warranty",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c6deb9cfa",
+        "cf5a97862"
+      ]
+    },
+    {
+      "theme": "free_motion",
+      "label": "Free-motion quilting",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
         "reddit": 1
       },
       "polarity": {
-        "positive": 1,
+        "positive": 0,
         "negative": 0,
         "mixed": 0,
-        "neutral": 0
+        "neutral": 2
       },
       "years": [
-        2025,
-        2025
+        2020,
+        2026
       ],
-      "recurrence": "one-off",
-      "examples": [
-        {
-          "claim_id": "cddb3ef0a",
-          "polarity": "positive",
-          "claim": "Owner found a $150 deal bundling the extension table, knee lift and extra presser feet with the machine.",
-          "quote": "the extension table, knee lift, and extra presser feet were included for $150",
-          "url": "https://www.reddit.com/r/sewing/comments/1ijxb1c/juki_hzlf300_vs_pfaff_ambition_610/mcnuyww/",
-          "source_class": "reddit"
-        }
-      ],
+      "recurrence": "reported",
+      "examples": [],
       "claimIds": [
-        "cddb3ef0a"
+        "ccdae7068",
+        "c6a3c5529"
       ]
     },
     {
@@ -719,17 +1141,17 @@
       ]
     },
     {
-      "theme": "speed",
-      "label": "Speed and speed control",
+      "theme": "learning_curve",
+      "label": "Learning curve",
       "statements": 1,
       "voices": 1,
       "ownerVoices": 1,
       "sources": 1,
       "sourceClasses": [
-        "reddit"
+        "retailer"
       ],
       "classVoices": {
-        "reddit": 1
+        "retailer": 1
       },
       "polarity": {
         "positive": 0,
@@ -738,170 +1160,59 @@
         "neutral": 0
       },
       "years": [
-        2025,
-        2025
+        2018,
+        2018
       ],
       "recurrence": "one-off",
       "examples": [
         {
-          "claim_id": "cd434fd72",
+          "claim_id": "c2149a7f8",
           "polarity": "negative",
-          "claim": "Owner cannot sew faster than about half speed even on thinner fabrics.",
-          "quote": "even on thinner fabrics I can’t go more than half way speed",
-          "url": "https://www.reddit.com/r/quilting/comments/1n22a55/troubleshooting_on_juki_hzlf300/",
-          "source_class": "reddit"
+          "claim": "New owner found buttonholes confusing at first and the manual unclear, though they worked out.",
+          "quote": "I tried doing some button holes and it seemed s bit confusing.",
+          "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+          "source_class": "retailer"
         }
       ],
       "claimIds": [
-        "cd434fd72"
-      ]
-    },
-    {
-      "theme": "oiling_maintenance",
-      "label": "Oiling and maintenance",
-      "statements": 2,
-      "voices": 1,
-      "ownerVoices": 1,
-      "sources": 1,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 1
-      },
-      "polarity": {
-        "positive": 1,
-        "negative": 0,
-        "mixed": 0,
-        "neutral": 0
-      },
-      "years": [
-        2024,
-        2024
-      ],
-      "recurrence": "one-off",
-      "examples": [
-        {
-          "claim_id": "c414484f7",
-          "polarity": "positive",
-          "claim": "Owner reports the machine has run fine with very little maintenance.",
-          "quote": "this machine has been just fine with nearly no maintenance",
-          "url": "https://www.reddit.com/r/quilting/comments/1dbhcsy/juki_hzlf300_for_450/l7ujsyp/",
-          "source_class": "reddit"
-        }
-      ],
-      "claimIds": [
-        "c414484f7",
-        "c0b753f2e"
-      ]
-    },
-    {
-      "theme": "thread_trimmer",
-      "label": "Thread trimmer",
-      "statements": 1,
-      "voices": 1,
-      "ownerVoices": 0,
-      "sources": 1,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 1
-      },
-      "polarity": {
-        "positive": 0,
-        "negative": 1,
-        "mixed": 0,
-        "neutral": 0
-      },
-      "years": [
-        2022,
-        2022
-      ],
-      "recurrence": "one-off",
-      "examples": [],
-      "claimIds": [
-        "c4b78177c"
-      ]
-    },
-    {
-      "theme": "build_quality",
-      "label": "Build quality",
-      "statements": 1,
-      "voices": 1,
-      "ownerVoices": 1,
-      "sources": 1,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 1
-      },
-      "polarity": {
-        "positive": 1,
-        "negative": 0,
-        "mixed": 0,
-        "neutral": 0
-      },
-      "years": [
-        2025,
-        2025
-      ],
-      "recurrence": "one-off",
-      "examples": [
-        {
-          "claim_id": "c6b42d83e",
-          "polarity": "positive",
-          "claim": "F300 owner calls it a good all-round and very durable machine that quilted a baby quilt sandwich well.",
-          "quote": "Good all round machine and very durable.",
-          "url": "https://www.reddit.com/r/quilting/comments/1mviz5m/whats_your_experience_with_juki_f300_or_juki_g120/n9qigtj/",
-          "source_class": "reddit"
-        }
-      ],
-      "claimIds": [
-        "c6b42d83e"
-      ]
-    },
-    {
-      "theme": "walking_foot",
-      "label": "Walking foot",
-      "statements": 1,
-      "voices": 1,
-      "ownerVoices": 1,
-      "sources": 1,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 1
-      },
-      "polarity": {
-        "positive": 0,
-        "negative": 1,
-        "mixed": 0,
-        "neutral": 0
-      },
-      "years": [
-        2026,
-        2026
-      ],
-      "recurrence": "one-off",
-      "examples": [
-        {
-          "claim_id": "c380d8401",
-          "polarity": "negative",
-          "claim": "Owner bought a walking foot for the F300 from a dealer and it lacks the guide bar screw.",
-          "quote": "the foot that was sent to me doesnt have a screw in the back",
-          "url": "https://www.reddit.com/r/quilting/comments/1rhm137/cant_attach_guide_bar_to_juki_walking_foot/",
-          "source_class": "reddit"
-        }
-      ],
-      "claimIds": [
-        "c380d8401"
+        "c2149a7f8"
       ]
     }
   ],
-  "ratings": [],
+  "ratings": [
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://www.sewingmachinesplus.com/hzl-f300.php",
+      "pageRating": 4.74,
+      "pageCount": 246,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 4,
+        "2": 1,
+        "3": 10,
+        "4": 25,
+        "5": 206
+      },
+      "lowRated": 15,
+      "sampled": null
+    },
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B00F9K1FIM",
+      "pageRating": 4.2,
+      "pageCount": 40,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 1,
+        "5": 5
+      },
+      "lowRated": 2,
+      "sampled": "8 top reviews (8 US, 0 other countries) of 40 ratings"
+    }
+  ],
   "documentChecks": [
     {
       "label": "Stitches",
@@ -1022,6 +1333,42 @@
       "label": "Juki HZL-F400",
       "rows": [
         {
+          "feature": "Stitches (owner reports)",
+          "urls": 4,
+          "classes": [
+            "reddit",
+            "retailer"
+          ],
+          "summary": "Commenters say the F400 has a handful more stitches and pattern stitches than the F300. Juki's F-series pages list the stitch libraries.",
+          "check": "owner comments; see Juki product pages for the counts",
+          "examples": [
+            {
+              "claim_id": "cd1c04843",
+              "claim": "Commenter says the F400 has a few more stitches and that is about the only difference, perhaps with some bonus feet.",
+              "quote": "The 400 has a handful more stitches",
+              "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/kpbkmd1/"
+            },
+            {
+              "claim_id": "c895e4eaa",
+              "claim": "Commenter says the HZL series machines are the same except for more pattern stitches as price rises.",
+              "quote": "The machines for the HZL series are the same except you get more pattern stitches",
+              "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/l04vur4/"
+            },
+            {
+              "claim_id": "c242ae32e",
+              "claim": "Owner says the more expensive F400 comes with additional decorative stitches that the F300 lacks.",
+              "quote": "would not use the additional decorative stitches that the more expensive version came with",
+              "url": "https://www.sewingmachinesplus.com/hzl-f300.php"
+            }
+          ],
+          "claimIds": [
+            "cd1c04843",
+            "c895e4eaa",
+            "c242ae32e",
+            "cf79cbb92"
+          ]
+        },
+        {
           "feature": "Included accessories (owner reports)",
           "urls": 3,
           "classes": [
@@ -1053,40 +1400,6 @@
             "c2fd81f13",
             "c3739c2e7",
             "cfd88a7df"
-          ]
-        },
-        {
-          "feature": "Stitches (owner reports)",
-          "urls": 3,
-          "classes": [
-            "reddit"
-          ],
-          "summary": "Commenters say the F400 has a handful more stitches and pattern stitches than the F300. Juki's F-series pages list the stitch libraries.",
-          "check": "owner comments; see Juki product pages for the counts",
-          "examples": [
-            {
-              "claim_id": "cd1c04843",
-              "claim": "Commenter says the F400 has a few more stitches and that is about the only difference, perhaps with some bonus feet.",
-              "quote": "The 400 has a handful more stitches",
-              "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/kpbkmd1/"
-            },
-            {
-              "claim_id": "c895e4eaa",
-              "claim": "Commenter says the HZL series machines are the same except for more pattern stitches as price rises.",
-              "quote": "The machines for the HZL series are the same except you get more pattern stitches",
-              "url": "https://www.reddit.com/r/sewing/comments/1aknhqs/juki_hzl_f300_vs_f400/l04vur4/"
-            },
-            {
-              "claim_id": "cf79cbb92",
-              "claim": "Poster says the F400 sits between the F300 and F600, with more stitches than the F300 but fewer than the F600.",
-              "quote": "basically has more stitches than the 300 but less than the 600",
-              "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/"
-            }
-          ],
-          "claimIds": [
-            "cd1c04843",
-            "c895e4eaa",
-            "cf79cbb92"
           ]
         },
         {

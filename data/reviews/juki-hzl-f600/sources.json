@@ -1287,5 +1287,55 @@
       "r/quilting:Juki Exceed F600"
     ],
     "content_hash": "56bfaf9c26c211be"
+  },
+  {
+    "id": "web:03f019eeba80b26c",
+    "url": "https://sewingmachinesplus.com/products/hzl-f600",
+    "class": "retailer",
+    "title": "sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-02T05:12:19.458Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-02T05:12:19.458Z",
+    "status": "ok",
+    "site_rating": 4.81,
+    "site_review_count": 153,
+    "content_hash": "0b5d735135e20a01"
+  },
+  {
+    "id": "web:545b210ea21f8bd6",
+    "url": "https://www.amazon.com/dp/B00JGCAHWE",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T05:13:12.207Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T05:13:12.207Z",
+    "status": "ok",
+    "site_rating": 4.5,
+    "site_review_count": 235,
+    "asin": "B00JGCAHWE",
+    "parent_asin": null,
+    "product_asins": [],
+    "pooled_variations": false,
+    "sampled": "8 top reviews (8 US, 0 other countries) of 235 ratings",
+    "listing": {
+      "title": "Juki HZL-F600 Full Sized Computer Sewing and Quilting Machine",
+      "price_usd": 1502.9,
+      "best_sellers_rank": "#284,079 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #609 in Sewing Machines",
+      "details": {
+        "Model Number": "HZL-F600",
+        "Manufacturer": "Juki",
+        "Part Number": "HZL-F600",
+        "Color": "white",
+        "Material": "Alloy Steel",
+        "Item Dimensions D x W x H": "13.8\"D x 23\"W x 15.8\"H",
+        "Item Weight": "30 pounds"
+      }
+    }
   }
 ]

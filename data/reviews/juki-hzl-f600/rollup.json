@@ -5,19 +5,23 @@
   "reviewedOn": null,
   "generated": "2026-10-02",
   "method": {
-    "sources": 57,
-    "itemsCollected": 545,
-    "statements": 84,
-    "voices": 53,
-    "ownerVoices": 40,
+    "sources": 59,
+    "itemsCollected": 706,
+    "statements": 199,
+    "voices": 118,
+    "ownerVoices": 105,
     "dateRange": [
-      2015,
+      2010,
       2026
     ],
     "byClass": {
       "reddit": {
         "sources": 57,
         "items": 545
+      },
+      "retailer": {
+        "sources": 2,
+        "items": 161
       }
     },
     "blocked": 0,
@@ -36,42 +40,44 @@
     {
       "theme": "reliability_defects",
       "label": "Reliability and defects",
-      "statements": 20,
-      "voices": 18,
-      "ownerVoices": 16,
-      "sources": 13,
+      "statements": 36,
+      "voices": 32,
+      "ownerVoices": 30,
+      "sources": 17,
       "sourceClasses": [
-        "reddit"
+        "reddit",
+        "retailer"
       ],
       "classVoices": {
-        "reddit": 18
+        "reddit": 21,
+        "retailer": 11
       },
       "polarity": {
-        "positive": 7,
-        "negative": 10,
-        "mixed": 0,
+        "positive": 11,
+        "negative": 18,
+        "mixed": 2,
         "neutral": 1
       },
       "years": [
-        2015,
+        2010,
         2026
       ],
-      "recurrence": "reported",
+      "recurrence": "recurring",
       "examples": [
+        {
+          "claim_id": "cbc04d80d",
+          "polarity": "negative",
+          "claim": "Owner reports a problematic bobbin winder.",
+          "quote": "Bobbin winder a mess",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        },
         {
           "claim_id": "cd310b3a3",
           "polarity": "negative",
           "claim": "Owner reports the F600 timing is off.",
           "quote": "My juki f600 timing is off",
           "url": "https://www.reddit.com/r/sewing/comments/txheio/my_juki_f600_timing_is_off_any_ideas_on_where_the/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c2341893d",
-          "polarity": "negative",
-          "claim": "User reports the bobbin case dislodged mid-stitch and was hit by the needle, leaving the thread unable to catch.",
-          "quote": "the bobbin case got dislodged",
-          "url": "https://www.reddit.com/r/sewing/comments/1g3j0iv/top_thread_not_catching_around_bobbin_case/",
           "source_class": "reddit"
         },
         {
@@ -83,12 +89,12 @@
           "source_class": "reddit"
         },
         {
-          "claim_id": "cad8dfe7a",
+          "claim_id": "cd9f3c8b9",
           "polarity": "positive",
-          "claim": "Owner of roughly six years, not gentle with machines, reports no issues and calls it a workhorse.",
-          "quote": "it has been an absolute workhorse",
-          "url": "https://www.reddit.com/r/sewing/comments/1v3g8mh/should_get_a_juki_f600_or_something_else_uk/oz35ibg/",
-          "source_class": "reddit"
+          "claim": "Owner reports no issues with the machine.",
+          "quote": "I haven't had any issues with it",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
         },
         {
           "claim_id": "c6c4ce196",
@@ -97,6 +103,14 @@
           "quote": "This machine is great when it wants to work",
           "url": "https://www.reddit.com/r/sewing/comments/3mdqfn/sewing_machine_is_frustrating_me_breaking_needles/cveiskw/",
           "source_class": "reddit"
+        },
+        {
+          "claim_id": "ca8f4b5bd",
+          "polarity": "mixed",
+          "claim": "Owner had a small initial problem with the buttonholer but it sews amazing buttonholes.",
+          "quote": "i did have a little problem with the buttonholer at first",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
         }
       ],
       "claimIds": [
@@ -107,7 +121,20 @@
         "c6c4ce196",
         "c71fe790c",
         "c03d1b825",
+        "ccc94b1c0",
         "c2341893d",
+        "cce84085d",
+        "cad6e5fdf",
+        "cbc04d80d",
+        "c49725c7c",
+        "cb61ad355",
+        "cc1952626",
+        "cd9f3c8b9",
+        "c526d9e1c",
+        "c44433bd0",
+        "ca8f4b5bd",
+        "c8ef1ead2",
+        "c7680fb1f",
         "c86872ec3",
         "ceade24cc",
         "c331e6a30",
@@ -115,46 +142,132 @@
         "c93bc07f6",
         "cb2461804",
         "c3278d381",
+        "caecec16f",
         "cbf35434f",
+        "ceaab5169",
         "c1dcf5731",
+        "c33ff204a",
         "c5bb7821a",
         "c29b0e10f",
         "c5749c826"
       ]
     },
     {
-      "theme": "thread_trimmer",
-      "label": "Thread trimmer",
-      "statements": 10,
-      "voices": 9,
-      "ownerVoices": 7,
-      "sources": 6,
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 26,
+      "voices": 26,
+      "ownerVoices": 26,
+      "sources": 5,
       "sourceClasses": [
-        "reddit"
+        "reddit",
+        "retailer"
       ],
       "classVoices": {
-        "reddit": 9
+        "reddit": 4,
+        "retailer": 22
       },
       "polarity": {
-        "positive": 2,
-        "negative": 3,
-        "mixed": 2,
-        "neutral": 2
+        "positive": 23,
+        "negative": 1,
+        "mixed": 1,
+        "neutral": 1
       },
       "years": [
-        2021,
-        2023
+        2010,
+        2025
       ],
-      "recurrence": "reported",
+      "recurrence": "recurring",
       "examples": [
         {
-          "claim_id": "c457aae15",
+          "claim_id": "c1a3e235e",
           "polarity": "negative",
-          "claim": "Owner says the cutter occasionally misses, usually when fabric is pulled early or the needle is not down.",
-          "quote": "I have the same machine and that happens from time to time",
-          "url": "https://www.reddit.com/r/sewing/comments/np625b/jukie_hzlf600_thread_cutter/h07a456/",
+          "claim": "User of a workplace F600 says it has always run a little grindy.",
+          "quote": "which has always been a little grindy",
+          "url": "https://www.reddit.com/r/sewing/comments/1g3j0iv/top_thread_not_catching_around_bobbin_case/",
           "source_class": "reddit"
         },
+        {
+          "claim_id": "c3ccc2383",
+          "polarity": "positive",
+          "claim": "Owner says it sews quietly.",
+          "quote": "sews so quiet",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c95e62879",
+          "polarity": "positive",
+          "claim": "Owner reports quiet operation.",
+          "quote": "Nice quiet operation.",
+          "url": "https://www.amazon.com/dp/B00JGCAHWE",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c25e97ffb",
+          "polarity": "mixed",
+          "claim": "Owner says the machine had always been fairly quiet before a sudden loud noise appeared.",
+          "quote": "It has always been relatively quiet",
+          "url": "https://www.reddit.com/r/quilting/comments/xn40bp/need_advice_with_juki_hzlf600_can_anyone_tell_me/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c1a3e235e",
+        "cd397357d",
+        "cbbe287d9",
+        "c0aa6798c",
+        "cd86d0042",
+        "c87e7fd71",
+        "cd8a4f475",
+        "cd47e06e2",
+        "cffebe44d",
+        "c9b65b1e0",
+        "c7a852bf6",
+        "c05fe2c7b",
+        "cf4f84107",
+        "c27c58d16",
+        "c3ccc2383",
+        "c0dd069b1",
+        "cc82683a6",
+        "cff12d75e",
+        "c5fecf1d1",
+        "c04f42c85",
+        "c002bee1d",
+        "c6f1afa8a",
+        "c95e62879",
+        "c25e97ffb",
+        "c6b059154",
+        "c8efb33b8"
+      ]
+    },
+    {
+      "theme": "thread_trimmer",
+      "label": "Thread trimmer",
+      "statements": 21,
+      "voices": 20,
+      "ownerVoices": 18,
+      "sources": 8,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 9,
+        "retailer": 11
+      },
+      "polarity": {
+        "positive": 10,
+        "negative": 2,
+        "mixed": 4,
+        "neutral": 4
+      },
+      "years": [
+        2011,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
         {
           "claim_id": "c3b655c12",
           "polarity": "negative",
@@ -162,6 +275,22 @@
           "quote": "a random little nest of maybe 1-1.5 inches of thread all squished up",
           "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iynyi5j/",
           "source_class": "reddit"
+        },
+        {
+          "claim_id": "cc92a4fdb",
+          "polarity": "negative",
+          "claim": "New owner says the thread cutter now cuts only the bobbin thread, not the needle thread.",
+          "quote": "the thread cutter is only cutting the bobbin thread and not the needles thread",
+          "url": "https://www.reddit.com/r/sewing/comments/np625b/jukie_hzlf600_thread_cutter/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c3fb605ab",
+          "polarity": "positive",
+          "claim": "Owner likes cutting the thread via the foot pedal.",
+          "quote": "thread cutter via the foot pedal",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
         },
         {
           "claim_id": "ced81bc5a",
@@ -172,33 +301,36 @@
           "source_class": "reddit"
         },
         {
-          "claim_id": "ca27b2c25",
-          "polarity": "positive",
-          "claim": "Owner values the automatic thread cutter.",
-          "quote": "I also didn't know I needed an automatic thread cutter until I had one!",
-          "url": "https://www.reddit.com/r/sewing/comments/wl4wh2/juki_hzl_f600_vs_bernina_record_830_question_in/ijv3zwd/",
-          "source_class": "reddit"
+          "claim_id": "c1386a2eb",
+          "polarity": "mixed",
+          "claim": "Owner likes the thread cutter on the foot pedal, but accidentally cut thread with their heel.",
+          "quote": "The thread cutter on the foot pedal is great",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
         },
         {
-          "claim_id": "cbe4649a0",
+          "claim_id": "c457aae15",
           "polarity": "mixed",
-          "claim": "Owner says the trimmer is tidy but the next seam begins with a small thread nest on the bobbin side.",
-          "quote": "the next seam starts with a little nest on the bobbin side",
-          "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iylf51m/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "cd0ec22f0",
-          "polarity": "mixed",
-          "claim": "F600 owner accidentally cut thread at first but got used to the heel-press trimmer and now values it.",
-          "quote": "At first I would accidentally cut the thread when I didn’t mean to",
-          "url": "https://www.reddit.com/r/quilting/comments/xfbevp/juki_hzlf600_foot_control/iolqfyb/",
+          "claim": "Owner says the cutter occasionally misses, usually when fabric is pulled early or the needle is not down.",
+          "quote": "I have the same machine and that happens from time to time",
+          "url": "https://www.reddit.com/r/sewing/comments/np625b/jukie_hzlf600_thread_cutter/h07a456/",
           "source_class": "reddit"
         }
       ],
       "claimIds": [
         "c37ad898b",
         "cd0ec22f0",
+        "cec8a289b",
+        "c4efaa0e7",
+        "c4a53a9ad",
+        "c3fb605ab",
+        "cde6a3691",
+        "cfe53a0ad",
+        "c1386a2eb",
+        "c4c164d41",
+        "c866ca966",
+        "c6084f829",
+        "c0e7f56ec",
         "ca27b2c25",
         "cc92a4fdb",
         "c457aae15",
@@ -210,44 +342,409 @@
       ]
     },
     {
-      "theme": "tension",
-      "label": "Tension",
-      "statements": 8,
-      "voices": 7,
-      "ownerVoices": 6,
-      "sources": 7,
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 17,
+      "voices": 16,
+      "ownerVoices": 16,
+      "sources": 4,
       "sourceClasses": [
-        "reddit"
+        "reddit",
+        "retailer"
       ],
       "classVoices": {
+        "retailer": 14,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 13,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2012,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "ca80db2f1",
+          "polarity": "negative",
+          "claim": "Owner says the needle threader does not work very well.",
+          "quote": "The needle threader does not work very well",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cb8f7278b",
+          "polarity": "negative",
+          "claim": "New owner says missing the thread holder above the needle causes sewing failure on this machine.",
+          "quote": "behind that little holder above the needle would make such a huge difference",
+          "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1sdaqjt/juki_hzlf600_help/oehh3i7/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c64d57987",
+          "polarity": "positive",
+          "claim": "Owner found it a cinch to thread.",
+          "quote": "It was a cinch to thread.",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c1d2bc33c",
+          "polarity": "positive",
+          "claim": "Owner likes the F600 auto-threader.",
+          "quote": "I love the auto-threader.",
+          "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iylf51m/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cc142bd3d",
+          "polarity": "mixed",
+          "claim": "Needle threader works inconsistently for this owner.",
+          "quote": "sometimes it works, sometimes it",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c649ab778",
+        "c150e7602",
+        "cb8e65280",
+        "cd8154683",
+        "cc142bd3d",
+        "cda37f643",
+        "cf2149147",
+        "c64d57987",
+        "c73aff579",
+        "c7c93b1e6",
+        "ca80db2f1",
+        "ca23966e9",
+        "cb184a1cc",
+        "c4fee40fb",
+        "cea5fbdf3",
+        "cb8f7278b",
+        "c1d2bc33c"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 12,
+      "voices": 12,
+      "ownerVoices": 11,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 8,
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 12,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2010,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c60f5d27b",
+          "polarity": "positive",
+          "claim": "Owner says it feeds wonderfully.",
+          "quote": "It feeds wonderfully",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c4d8773f7",
+          "polarity": "positive",
+          "claim": "Owner strongly likes the F600 box feed.",
+          "quote": "I seriously love the box feed",
+          "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iylf51m/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cdc2973da",
+        "cd4e15f94",
+        "cce4a2f0c",
+        "c504e6200",
+        "c60f5d27b",
+        "ca9e97e1c",
+        "cf32b1153",
+        "c9cb6d7a3",
+        "c76109d77",
+        "c2153af3b",
+        "c4d8773f7",
+        "c87f335f2"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 12,
+      "voices": 12,
+      "ownerVoices": 11,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 8,
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 9,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2012,
+        2023
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c211541ab",
+          "polarity": "negative",
+          "claim": "Machine with its table is too wide for a standard folding sewing table cutout, so a larger cutout table was needed.",
+          "quote": "The machine is too wide for a standard folding table with lowering cut out",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c9bb82466",
+          "polarity": "positive",
+          "claim": "Owner finds the Juki work area ample without moving to a bigger table.",
+          "quote": "their work area is pretty ample",
+          "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iynyi5j/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c4ad8c9c0",
+          "polarity": "positive",
+          "claim": "Owner likes the extra room from the work table and the long neck.",
+          "quote": "more room along with the long neck",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c3ae28b6b",
+          "polarity": "mixed",
+          "claim": "Owner finds F600 throat space good and better than an old Brother, but still looks at another machine for free motion quilting.",
+          "quote": "Throat space is good, better than my old brother",
+          "url": "https://www.reddit.com/r/quilting/comments/14kq7md/cant_choose_next_machine/jpt63kt/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c211541ab",
+        "c070a9d12",
+        "c4ad8c9c0",
+        "cd78d0f03",
+        "ca9360564",
+        "cc38e32e3",
+        "c878230e4",
+        "c0bb5b8ce",
+        "c33dd9007",
+        "c9bb82466",
+        "c3ae28b6b",
+        "c4a067fd4"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 12,
+      "voices": 11,
+      "ownerVoices": 11,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 4,
+        "retailer": 7
+      },
+      "polarity": {
+        "positive": 8,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2012,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c84245f38",
+          "polarity": "negative",
+          "claim": "Owner says some generic feet may be too narrow to fit the F600 box feed.",
+          "quote": "they may be too narrow for the box feed",
+          "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iylf51m/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c6d739568",
+          "polarity": "positive",
+          "claim": "Owner calls the knee lift a real game changer.",
+          "quote": "The knee lift and auto thread cutting",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cc06c2fd5",
+          "polarity": "positive",
+          "claim": "Owner likes the many feet included.",
+          "quote": "I also love that this comes with so many feet",
+          "url": "https://www.amazon.com/dp/B00JGCAHWE",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c85fdc83e",
+        "c6d739568",
+        "c666fbe3d",
+        "cd582d8e0",
+        "cfcb452a0",
+        "c2fcd026b",
+        "ce50a8941",
+        "cc06c2fd5",
+        "cbb8dc933",
+        "c84245f38",
+        "c8ce8035e",
+        "cead72924"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 11,
+      "voices": 10,
+      "ownerVoices": 10,
+      "sources": 7,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 5,
+        "reddit": 5
+      },
+      "polarity": {
+        "positive": 7,
+        "negative": 0,
+        "mixed": 3,
+        "neutral": 0
+      },
+      "years": [
+        2012,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cacf6a68f",
+          "polarity": "positive",
+          "claim": "Owner likes how straight it sews and how well it handles thick fabrics.",
+          "quote": "how well it sews through thick fabrics",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c407d18c1",
+          "polarity": "positive",
+          "claim": "Owner says it sews heavy fabrics well.",
+          "quote": "even sewing heavy fabrics like a dream",
+          "url": "https://www.amazon.com/dp/B00JGCAHWE",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c055dedd0",
+          "polarity": "mixed",
+          "claim": "Owner says the F600 sews jeans fine, though a very thick seam may need hand walking.",
+          "quote": "it can handle jeans just fine",
+          "url": "https://www.reddit.com/r/sewing/comments/1gma0sc/multipurpose_machine_in_the_1000_area/lw1wt8h/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c80a1190a",
+          "polarity": "mixed",
+          "claim": "Owner says it handles thicker fabric better than their old machine but less easily than they had hoped.",
+          "quote": "accommodate thicker fabric with ease",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c80a1190a",
+        "c0f8323df",
+        "cacf6a68f",
+        "cbe88fd86",
+        "c407d18c1",
+        "c1fe09f90",
+        "c361a0c2b",
+        "ce3cecba7",
+        "c055dedd0",
+        "c84f238c9",
+        "c6b282662"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 10,
+      "voices": 9,
+      "ownerVoices": 8,
+      "sources": 8,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
         "reddit": 7
       },
       "polarity": {
-        "positive": 3,
-        "negative": 2,
+        "positive": 2,
+        "negative": 3,
         "mixed": 2,
-        "neutral": 0
+        "neutral": 2
       },
       "years": [
         2015,
         2025
       ],
-      "recurrence": "reported",
+      "recurrence": "recurring",
       "examples": [
+        {
+          "claim_id": "c258b062c",
+          "polarity": "negative",
+          "claim": "Owner reports skipped stitches and puckering that tension adjustment did not fix.",
+          "quote": "no adjustment to tension changes that",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        },
         {
           "claim_id": "c19bf05d0",
           "polarity": "negative",
           "claim": "Owner four months in reports no top thread tension after a bobbin case reset, and the tension wheel changes nothing.",
           "quote": "there seems to be no tension on the top thread",
           "url": "https://www.reddit.com/r/sewhelp/comments/1pcb7rf/please_help_tension_gone/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c70ea4877",
-          "polarity": "negative",
-          "claim": "Owner finds the loose stitch occurs more often at higher quilting speeds.",
-          "quote": "it seems to happen more when quilting at higher speeds",
-          "url": "https://www.reddit.com/r/sewing/comments/3cfui6/occasional_loose_stitch_this_is_driving_me_nuts/",
           "source_class": "reddit"
         },
         {
@@ -284,6 +781,8 @@
         }
       ],
       "claimIds": [
+        "c258b062c",
+        "ceb379758",
         "c0217fffb",
         "c70ea4877",
         "c58e8acb2",
@@ -295,400 +794,77 @@
       ]
     },
     {
-      "theme": "power_heavy_fabric",
-      "label": "Power on heavy fabric",
-      "statements": 8,
-      "voices": 6,
-      "ownerVoices": 6,
-      "sources": 6,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 6
-      },
-      "polarity": {
-        "positive": 5,
-        "negative": 0,
-        "mixed": 1,
-        "neutral": 0
-      },
-      "years": [
-        2015,
-        2026
-      ],
-      "recurrence": "reported",
-      "examples": [
-        {
-          "claim_id": "ce3cecba7",
-          "polarity": "positive",
-          "claim": "Owner reports it sews heavy quilting layers, denim aprons and eight layers of quilting cotton.",
-          "quote": "top stitching 8 layers of quilting cotton",
-          "url": "https://www.reddit.com/r/sewing/comments/38an2y/is_juki_f600_a_some_sort_of_heavy_duty_machine/crtswbg/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c6b282662",
-          "polarity": "positive",
-          "claim": "Owner says the F600 sews through four layers of denim with ease.",
-          "quote": "it goes through 4 layers of denim with ease",
-          "url": "https://www.reddit.com/r/quilting/comments/14kq7md/cant_choose_next_machine/jpt63kt/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c055dedd0",
-          "polarity": "mixed",
-          "claim": "Owner says the F600 sews jeans fine, though a very thick seam may need hand walking.",
-          "quote": "it can handle jeans just fine",
-          "url": "https://www.reddit.com/r/sewing/comments/1gma0sc/multipurpose_machine_in_the_1000_area/lw1wt8h/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c361a0c2b",
-          "polarity": "mixed",
-          "claim": "Owner sews denim and heavy twill on it but says it is a home machine, not an industrial.",
-          "quote": "I do sew denim and heavy cotton twill on mine",
-          "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1vckkhz/looking_to_upgrade_from_a_vintage_machine_to_a/p12m8xg/",
-          "source_class": "reddit"
-        }
-      ],
-      "claimIds": [
-        "c76109d77",
-        "c1fe09f90",
-        "c361a0c2b",
-        "ce3cecba7",
-        "c055dedd0",
-        "ceaab5169",
-        "c84f238c9",
-        "c6b282662"
-      ]
-    },
-    {
       "theme": "build_quality",
       "label": "Build quality",
-      "statements": 5,
-      "voices": 4,
-      "ownerVoices": 1,
+      "statements": 7,
+      "voices": 7,
+      "ownerVoices": 4,
       "sources": 4,
       "sourceClasses": [
-        "reddit"
+        "reddit",
+        "retailer"
       ],
       "classVoices": {
-        "reddit": 4
+        "reddit": 3,
+        "retailer": 4
       },
       "polarity": {
-        "positive": 1,
+        "positive": 3,
         "negative": 2,
-        "mixed": 1,
+        "mixed": 2,
         "neutral": 0
       },
       "years": [
-        2015,
+        2012,
         2026
       ],
-      "recurrence": "reported",
+      "recurrence": "recurring",
       "examples": [
         {
-          "claim_id": "caecec16f",
+          "claim_id": "ca9785b48",
           "polarity": "positive",
-          "claim": "Owner says they have broken many needles without trouble.",
-          "quote": "I have broken many needles on it, but have had no problem.",
-          "url": "https://www.reddit.com/r/sewing/comments/37d7pd/juki_hzl_f600_somethings_wrong_with_how_the/crm6r9e/",
-          "source_class": "reddit"
+          "claim": "Owner calls the machine well built and solid.",
+          "quote": "It is well built and solid.",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "ce38a3d33",
+          "polarity": "mixed",
+          "claim": "Owner says the body is plastic but good quality.",
+          "quote": "The body is plastic, but of good quality",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
         }
       ],
       "claimIds": [
         "cd5248a58",
-        "ccb842472",
+        "c7512a3c7",
+        "ca9785b48",
+        "c52865dae",
+        "ce38a3d33",
         "c7340fcd3",
-        "caecec16f",
         "ccd4cec52"
-      ]
-    },
-    {
-      "theme": "feet_accessories",
-      "label": "Feet and accessories",
-      "statements": 5,
-      "voices": 4,
-      "ownerVoices": 4,
-      "sources": 3,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 4
-      },
-      "polarity": {
-        "positive": 2,
-        "negative": 1,
-        "mixed": 0,
-        "neutral": 1
-      },
-      "years": [
-        2015,
-        2022
-      ],
-      "recurrence": "reported",
-      "examples": [
-        {
-          "claim_id": "c84245f38",
-          "polarity": "negative",
-          "claim": "Owner says some generic feet may be too narrow to fit the F600 box feed.",
-          "quote": "they may be too narrow for the box feed",
-          "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iylf51m/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c85fdc83e",
-          "polarity": "positive",
-          "claim": "F600 owner likes the knee lift for the presser foot.",
-          "quote": "I also like the knee lift for the presser foot",
-          "url": "https://www.reddit.com/r/quilting/comments/xfbevp/juki_hzlf600_foot_control/iolqfyb/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "cbb8dc933",
-          "polarity": "positive",
-          "claim": "Owner values the knee lift and automatic needle up/down.",
-          "quote": "Can't believe I waited so long for a knee lift",
-          "url": "https://www.reddit.com/r/sewing/comments/38an2y/is_juki_f600_a_some_sort_of_heavy_duty_machine/crtswbg/",
-          "source_class": "reddit"
-        }
-      ],
-      "claimIds": [
-        "c85fdc83e",
-        "cbb8dc933",
-        "c84245f38",
-        "c8ce8035e",
-        "cead72924"
-      ]
-    },
-    {
-      "theme": "noise_vibration",
-      "label": "Noise and vibration",
-      "statements": 4,
-      "voices": 4,
-      "ownerVoices": 4,
-      "sources": 3,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 4
-      },
-      "polarity": {
-        "positive": 1,
-        "negative": 1,
-        "mixed": 1,
-        "neutral": 1
-      },
-      "years": [
-        2022,
-        2024
-      ],
-      "recurrence": "reported",
-      "examples": [
-        {
-          "claim_id": "c1a3e235e",
-          "polarity": "negative",
-          "claim": "User of a workplace F600 says it has always run a little grindy.",
-          "quote": "which has always been a little grindy",
-          "url": "https://www.reddit.com/r/sewing/comments/1g3j0iv/top_thread_not_catching_around_bobbin_case/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c8efb33b8",
-          "polarity": "positive",
-          "claim": "Owner who recently moved up to the F600 is impressed by its sound, stitching and performance so far.",
-          "quote": "very impressed with how it sounds, stitches, and performs right now",
-          "url": "https://www.reddit.com/r/sewing/comments/18lzywm/machine_for_beginner_to_grow_with_which_one_out/ke180gd/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c25e97ffb",
-          "polarity": "mixed",
-          "claim": "Owner says the machine had always been fairly quiet before a sudden loud noise appeared.",
-          "quote": "It has always been relatively quiet",
-          "url": "https://www.reddit.com/r/quilting/comments/xn40bp/need_advice_with_juki_hzlf600_can_anyone_tell_me/",
-          "source_class": "reddit"
-        }
-      ],
-      "claimIds": [
-        "c1a3e235e",
-        "c25e97ffb",
-        "c6b059154",
-        "c8efb33b8"
-      ]
-    },
-    {
-      "theme": "throat_workspace",
-      "label": "Throat and workspace",
-      "statements": 4,
-      "voices": 4,
-      "ownerVoices": 3,
-      "sources": 4,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 4
-      },
-      "polarity": {
-        "positive": 2,
-        "negative": 1,
-        "mixed": 1,
-        "neutral": 0
-      },
-      "years": [
-        2019,
-        2023
-      ],
-      "recurrence": "reported",
-      "examples": [
-        {
-          "claim_id": "c9bb82466",
-          "polarity": "positive",
-          "claim": "Owner finds the Juki work area ample without moving to a bigger table.",
-          "quote": "their work area is pretty ample",
-          "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iynyi5j/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c33dd9007",
-          "polarity": "positive",
-          "claim": "Owner of about 10 years likes the extra throat space for quilting.",
-          "quote": "I like the extra throat space for quilting",
-          "url": "https://www.reddit.com/r/sewing/comments/wl4wh2/juki_hzl_f600_vs_bernina_record_830_question_in/ijv3zwd/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c3ae28b6b",
-          "polarity": "mixed",
-          "claim": "Owner finds F600 throat space good and better than an old Brother, but still looks at another machine for free motion quilting.",
-          "quote": "Throat space is good, better than my old brother",
-          "url": "https://www.reddit.com/r/quilting/comments/14kq7md/cant_choose_next_machine/jpt63kt/",
-          "source_class": "reddit"
-        }
-      ],
-      "claimIds": [
-        "c33dd9007",
-        "c9bb82466",
-        "c3ae28b6b",
-        "c4a067fd4"
-      ]
-    },
-    {
-      "theme": "threading",
-      "label": "Threading and loopers",
-      "statements": 3,
-      "voices": 3,
-      "ownerVoices": 3,
-      "sources": 3,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 3
-      },
-      "polarity": {
-        "positive": 1,
-        "negative": 1,
-        "mixed": 1,
-        "neutral": 0
-      },
-      "years": [
-        2015,
-        2026
-      ],
-      "recurrence": "reported",
-      "examples": [
-        {
-          "claim_id": "cb8f7278b",
-          "polarity": "negative",
-          "claim": "New owner says missing the thread holder above the needle causes sewing failure on this machine.",
-          "quote": "behind that little holder above the needle would make such a huge difference",
-          "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1sdaqjt/juki_hzlf600_help/oehh3i7/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c1d2bc33c",
-          "polarity": "positive",
-          "claim": "Owner likes the F600 auto-threader.",
-          "quote": "I love the auto-threader.",
-          "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iylf51m/",
-          "source_class": "reddit"
-        },
-        {
-          "claim_id": "c8c6bcd33",
-          "polarity": "mixed",
-          "claim": "Owner who loves the machine finds it picky about which thread it runs well.",
-          "quote": "I have found it to be picky about thread though",
-          "url": "https://www.reddit.com/r/sewing/comments/3mdqfn/sewing_machine_is_frustrating_me_breaking_needles/cve64d5/",
-          "source_class": "reddit"
-        }
-      ],
-      "claimIds": [
-        "c8c6bcd33",
-        "cb8f7278b",
-        "c1d2bc33c"
-      ]
-    },
-    {
-      "theme": "fabric_handling",
-      "label": "Fabric handling (knits, wovens)",
-      "statements": 3,
-      "voices": 3,
-      "ownerVoices": 2,
-      "sources": 2,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 3
-      },
-      "polarity": {
-        "positive": 3,
-        "negative": 0,
-        "mixed": 0,
-        "neutral": 0
-      },
-      "years": [
-        2022,
-        2026
-      ],
-      "recurrence": "reported",
-      "examples": [
-        {
-          "claim_id": "c4d8773f7",
-          "polarity": "positive",
-          "claim": "Owner strongly likes the F600 box feed.",
-          "quote": "I seriously love the box feed",
-          "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iylf51m/",
-          "source_class": "reddit"
-        }
-      ],
-      "claimIds": [
-        "c2153af3b",
-        "c4d8773f7",
-        "c33ff204a"
       ]
     },
     {
       "theme": "oiling_maintenance",
       "label": "Oiling and maintenance",
-      "statements": 2,
-      "voices": 2,
-      "ownerVoices": 2,
-      "sources": 2,
+      "statements": 8,
+      "voices": 7,
+      "ownerVoices": 7,
+      "sources": 4,
       "sourceClasses": [
-        "reddit"
+        "reddit",
+        "retailer"
       ],
       "classVoices": {
-        "reddit": 2
+        "reddit": 2,
+        "retailer": 5
       },
       "polarity": {
-        "positive": 0,
-        "negative": 2,
+        "positive": 1,
+        "negative": 6,
         "mixed": 0,
         "neutral": 0
       },
@@ -696,7 +872,7 @@
         2015,
         2025
       ],
-      "recurrence": "reported",
+      "recurrence": "recurring",
       "examples": [
         {
           "claim_id": "c07b06ccf",
@@ -707,17 +883,174 @@
           "source_class": "reddit"
         },
         {
-          "claim_id": "c673976dc",
+          "claim_id": "c84d2f1ea",
           "polarity": "negative",
-          "claim": "Owner complains the front housing is bolted on rather than hinged, so it is left off for access.",
-          "quote": "Juki decided to bolt on instead of having it on a hinge",
-          "url": "https://www.reddit.com/r/sewing/comments/3mdqfn/sewing_machine_is_frustrating_me_breaking_needles/",
-          "source_class": "reddit"
+          "claim": "Owner had trouble winding a bobbin, once winding underneath the bobbin.",
+          "quote": "I have had trouble winding my bobbin",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c66f65028",
+          "polarity": "positive",
+          "claim": "Owner says the machine does not need oiling.",
+          "quote": "It doesn't need oiling!!",
+          "url": "https://www.amazon.com/dp/B00JGCAHWE",
+          "source_class": "retailer"
         }
       ],
       "claimIds": [
         "c07b06ccf",
+        "c78899366",
+        "cf381cdcb",
+        "c84d2f1ea",
+        "cc468b636",
+        "c02ed89cd",
+        "c66f65028",
         "c673976dc"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 5,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 4,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 5,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2012,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cb753f759",
+          "polarity": "positive",
+          "claim": "Owner reports good lighting.",
+          "quote": "good lighting",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c3206a384",
+          "polarity": "positive",
+          "claim": "Owner calls the built in light on the throat a big benefit.",
+          "quote": "The built in light on the throat is a huge game changer",
+          "url": "https://www.reddit.com/r/quilting/comments/1pusods/used_juki_advice/nvqy129/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c9f13a7ee",
+        "cb753f759",
+        "c2bf2d3bc",
+        "c91e2c913",
+        "c3206a384"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2016,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c4c6bbe4e",
+          "polarity": "positive",
+          "claim": "Owner finds the weight good for carrying to retreats and club.",
+          "quote": "The weight is perfect to transport when I go to my retreats",
+          "url": "https://www.amazon.com/dp/B00JGCAHWE",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cead013c4",
+          "polarity": "positive",
+          "claim": "Owner finds it a little heavy and takes the weight as a sign of quality.",
+          "quote": "The machine is a little heavy but that tells me the quality is there",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cead013c4",
+        "c4c6bbe4e",
+        "ccd3cb5f9"
+      ]
+    },
+    {
+      "theme": "free_motion",
+      "label": "Free-motion quilting",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2019,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c947c33c5",
+          "polarity": "positive",
+          "claim": "Owner reports free motion stippling that looks identical on both sides of a quilt sample.",
+          "quote": "both sides of quilt sample is perfect",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c79c55ced",
+        "c947c33c5"
       ]
     },
     {
@@ -728,30 +1061,32 @@
       "ownerVoices": 2,
       "sources": 2,
       "sourceClasses": [
-        "reddit"
+        "reddit",
+        "retailer"
       ],
       "classVoices": {
-        "reddit": 2
+        "retailer": 1,
+        "reddit": 1
       },
       "polarity": {
-        "positive": 1,
-        "negative": 1,
+        "positive": 2,
+        "negative": 0,
         "mixed": 0,
         "neutral": 0
       },
       "years": [
-        2024,
+        2015,
         2024
       ],
       "recurrence": "reported",
       "examples": [
         {
-          "claim_id": "c247c3efb",
-          "polarity": "negative",
-          "claim": "New owner who read the manual does not recall a way to change the default stitch to the quarter inch one.",
-          "quote": "I just got mine and read the whole manual and I don’t recall seeing that.",
-          "url": "https://www.reddit.com/r/quilting/comments/1aqb8ih/default_stitch_on_juki_hzlf600/kqdz1ww/",
-          "source_class": "reddit"
+          "claim_id": "c968ea248",
+          "polarity": "positive",
+          "claim": "After 8 months, owner finds it easy to use and relatively quiet.",
+          "quote": "Easy to use, relatively quiet",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
         },
         {
           "claim_id": "cba0e30a7",
@@ -763,14 +1098,14 @@
         }
       ],
       "claimIds": [
-        "c247c3efb",
+        "c968ea248",
         "cba0e30a7"
       ]
     },
     {
       "theme": "walking_foot",
       "label": "Walking foot",
-      "statements": 3,
+      "statements": 2,
       "voices": 2,
       "ownerVoices": 2,
       "sources": 2,
@@ -781,10 +1116,10 @@
         "reddit": 2
       },
       "polarity": {
-        "positive": 2,
+        "positive": 1,
         "negative": 0,
         "mixed": 0,
-        "neutral": 0
+        "neutral": 1
       },
       "years": [
         2022,
@@ -799,20 +1134,11 @@
           "quote": "The F600 comes with a walking foot",
           "url": "https://www.reddit.com/r/sewing/comments/za4ajv/looking_to_upgrade_my_sewing_machine_but_unsure/iynyi5j/",
           "source_class": "reddit"
-        },
-        {
-          "claim_id": "c9432a441",
-          "polarity": "positive",
-          "claim": "Owner says a walking foot is included with the F600.",
-          "quote": "the F600 at least comes with a walking foot already",
-          "url": "https://www.reddit.com/r/sewing/comments/1gma0sc/multipurpose_machine_in_the_1000_area/lw1wt8h/",
-          "source_class": "reddit"
         }
       ],
       "claimIds": [
         "c9432a441",
-        "c7f116565",
-        "c87f335f2"
+        "c7f116565"
       ]
     },
     {
@@ -823,10 +1149,10 @@
       "ownerVoices": 1,
       "sources": 1,
       "sourceClasses": [
-        "reddit"
+        "retailer"
       ],
       "classVoices": {
-        "reddit": 1
+        "retailer": 1
       },
       "polarity": {
         "positive": 1,
@@ -835,65 +1161,74 @@
         "neutral": 0
       },
       "years": [
-        2026,
-        2026
+        2020,
+        2020
       ],
       "recurrence": "one-off",
       "examples": [
         {
-          "claim_id": "c43247242",
+          "claim_id": "c7410a8ab",
           "polarity": "positive",
-          "claim": "Owner says the buttonholes are very good looking.",
-          "quote": "It does indeed make gorgeous buttonholes.",
-          "url": "https://www.reddit.com/r/sewing/comments/1v3g8mh/should_get_a_juki_f600_or_something_else_uk/oz35ibg/",
-          "source_class": "reddit"
+          "claim": "Quilter finds the box feed gives excellent stitch quality.",
+          "quote": "the box feed is amazing for stitch quality",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
         }
       ],
       "claimIds": [
-        "c43247242"
+        "c7410a8ab"
       ]
     },
     {
-      "theme": "free_motion",
-      "label": "Free-motion quilting",
-      "statements": 1,
-      "voices": 1,
-      "ownerVoices": 0,
-      "sources": 1,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 1
-      },
-      "polarity": {
-        "positive": 1,
-        "negative": 0,
-        "mixed": 0,
-        "neutral": 0
-      },
-      "years": [
-        2026,
-        2026
-      ],
-      "recurrence": "one-off",
-      "examples": [],
-      "claimIds": [
-        "c79c55ced"
-      ]
-    },
-    {
-      "theme": "differential_feed",
-      "label": "Differential feed",
+      "theme": "speed",
+      "label": "Speed and speed control",
       "statements": 1,
       "voices": 1,
       "ownerVoices": 1,
       "sources": 1,
       "sourceClasses": [
-        "reddit"
+        "retailer"
       ],
       "classVoices": {
-        "reddit": 1
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2016,
+        2016
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cfd88d89d",
+          "polarity": "positive",
+          "claim": "Owner says it sews really fast and is quiet.",
+          "quote": "It sews really fast and is quiet.",
+          "url": "https://sewingmachinesplus.com/products/hzl-f600",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cfd88d89d"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
       },
       "polarity": {
         "positive": 0,
@@ -902,93 +1237,59 @@
         "neutral": 0
       },
       "years": [
-        2025,
-        2025
+        2020,
+        2020
       ],
       "recurrence": "one-off",
       "examples": [
         {
-          "claim_id": "ccc94b1c0",
+          "claim_id": "c6b7095bc",
           "polarity": "negative",
-          "claim": "Owner says feed balance sits near one adjustment limit and will likely need professional service within a couple of years.",
-          "quote": "the feed balance is close to one limit",
-          "url": "https://www.reddit.com/r/sewing/comments/1mlqii5/self_maintenance_on_sewing_machines/n7s9wie/",
-          "source_class": "reddit"
+          "claim": "Owner got slow and inconsistent support from the maker when claiming a replacement pedal under warranty.",
+          "quote": "did not have a record of sending a new pedal",
+          "url": "https://www.amazon.com/dp/B00JGCAHWE",
+          "source_class": "retailer"
         }
       ],
       "claimIds": [
-        "ccc94b1c0"
-      ]
-    },
-    {
-      "theme": "weight_portability",
-      "label": "Weight and portability",
-      "statements": 1,
-      "voices": 1,
-      "ownerVoices": 0,
-      "sources": 1,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 1
-      },
-      "polarity": {
-        "positive": 0,
-        "negative": 0,
-        "mixed": 0,
-        "neutral": 1
-      },
-      "years": [
-        2025,
-        2025
-      ],
-      "recurrence": "one-off",
-      "examples": [],
-      "claimIds": [
-        "ccd3cb5f9"
-      ]
-    },
-    {
-      "theme": "lighting",
-      "label": "Lighting",
-      "statements": 1,
-      "voices": 1,
-      "ownerVoices": 1,
-      "sources": 1,
-      "sourceClasses": [
-        "reddit"
-      ],
-      "classVoices": {
-        "reddit": 1
-      },
-      "polarity": {
-        "positive": 1,
-        "negative": 0,
-        "mixed": 0,
-        "neutral": 0
-      },
-      "years": [
-        2025,
-        2025
-      ],
-      "recurrence": "one-off",
-      "examples": [
-        {
-          "claim_id": "c3206a384",
-          "polarity": "positive",
-          "claim": "Owner calls the built in light on the throat a big benefit.",
-          "quote": "The built in light on the throat is a huge game changer",
-          "url": "https://www.reddit.com/r/quilting/comments/1pusods/used_juki_advice/nvqy129/",
-          "source_class": "reddit"
-        }
-      ],
-      "claimIds": [
-        "c3206a384"
+        "c6b7095bc"
       ]
     }
   ],
-  "ratings": [],
+  "ratings": [
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://sewingmachinesplus.com/products/hzl-f600",
+      "pageRating": 4.81,
+      "pageCount": 153,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 3,
+        "2": 1,
+        "3": 1,
+        "4": 12,
+        "5": 136
+      },
+      "lowRated": 5,
+      "sampled": null
+    },
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B00JGCAHWE",
+      "pageRating": 4.5,
+      "pageCount": 235,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 7
+      },
+      "lowRated": 1,
+      "sampled": "8 top reviews (8 US, 0 other countries) of 235 ratings"
+    }
+  ],
   "documentChecks": [
     {
       "label": "Stitches",
