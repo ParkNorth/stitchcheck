@@ -9920,6 +9920,1278 @@ export const rollupData: Record<string, Rollup> = {
     ],
     "rivals": []
   },
+  "juki-tl-2000qi": {
+    "slug": "juki-tl-2000qi",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-01",
+    "generated": "2026-10-01",
+    "method": {
+      "sources": 49,
+      "itemsCollected": 749,
+      "statements": 258,
+      "voices": 135,
+      "ownerVoices": 109,
+      "dateRange": [
+        2011,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 2,
+          "items": 215
+        },
+        "reddit": {
+          "sources": 47,
+          "items": 532
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 27,
+        "voices": 27,
+        "ownerVoices": 25,
+        "sources": 7,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 20,
+          "reddit": 7
+        },
+        "polarity": {
+          "positive": 23,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 3
+        },
+        "years": [
+          2015,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c321d7cc8",
+            "polarity": "positive",
+            "claim": "Owner calls it super fast.",
+            "quote": "Super fast.",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cfb4a75aa",
+            "polarity": "positive",
+            "claim": "Machine goes fast and responds quickly to the pedal.",
+            "quote": "This machine goes fast if you want it to",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cde4ff637",
+            "polarity": "mixed",
+            "claim": "Machine runs very fast and can run away from the sewer.",
+            "quote": "this machine can go very, very fast",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 31,
+        "voices": 26,
+        "ownerVoices": 23,
+        "sources": 10,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 16,
+          "reddit": 10
+        },
+        "polarity": {
+          "positive": 16,
+          "negative": 4,
+          "mixed": 3,
+          "neutral": 3
+        },
+        "years": [
+          2011,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c48a3577e",
+            "polarity": "negative",
+            "claim": "Refurbished unit arrived missing the knee lifter.",
+            "quote": "Missing the knee pedal",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c65d75004",
+            "polarity": "negative",
+            "claim": "Owner is disappointed by clearance under the presser foot for bulky projects.",
+            "quote": "the amount of space under the presser foot",
+            "url": "https://www.reddit.com/r/myog/comments/1ez38t3/juki_tl2000qi_vs_industrial_option_ddl8700/ljk8zsm/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c7b3ab1b5",
+            "polarity": "positive",
+            "claim": "Owner praises the extension table.",
+            "quote": "The extension table to awesome.",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c287906f3",
+            "polarity": "positive",
+            "claim": "Owner praises the large extension table.",
+            "quote": "The large extension table is wonderful",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "thread_trimmer",
+        "label": "Thread trimmer",
+        "statements": 30,
+        "voices": 26,
+        "ownerVoices": 25,
+        "sources": 6,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 20,
+          "reddit": 6
+        },
+        "polarity": {
+          "positive": 13,
+          "negative": 7,
+          "mixed": 2,
+          "neutral": 4
+        },
+        "years": [
+          2011,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cc2fbd3df",
+            "polarity": "negative",
+            "claim": "Owner's relative repeatedly cut thread by accident when using the pedal.",
+            "quote": "my SIL tried to use my machine one day",
+            "url": "https://www.reddit.com/r/quilting/comments/1ixz9x3/opinions_on_juki_tl2000qi_or_alternative/meqezb5/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ce628fe17",
+            "polarity": "negative",
+            "claim": "Owner accidentally cut thread with the pedal at first before adjusting.",
+            "quote": "I was cutting thread when I really wanted to sew.",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "ca41cc12c",
+            "polarity": "positive",
+            "claim": "Thread trimming works well and restarts right away.",
+            "quote": "The thread trimming works great",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c1f77c61e",
+            "polarity": "positive",
+            "claim": "Thread cutter is the owner's favorite feature.",
+            "quote": "The thread cutter is my favorite thing.",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cf5a5b126",
+            "polarity": "mixed",
+            "claim": "Owner has no accidental cuts but visiting friends sometimes cut thread mid-seam.",
+            "quote": "don’t have issues with cutting thread mid sew",
+            "url": "https://www.reddit.com/r/quilting/comments/1ixz9x3/opinions_on_juki_tl2000qi_or_alternative/meqdkca/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c14eceff0",
+            "polarity": "mixed",
+            "claim": "Automatic cutter often unthreads the needle unless the needle is up and fabric pulled back first.",
+            "quote": "I love the automatic cutter but it often causes the needle to become unthreaded.",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 22,
+        "voices": 22,
+        "ownerVoices": 16,
+        "sources": 13,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 8,
+          "reddit": 14
+        },
+        "polarity": {
+          "positive": 17,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 2
+        },
+        "years": [
+          2013,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c8ffdc395",
+            "polarity": "negative",
+            "claim": "Owner considers the Juki too powerful for her kids to use safely.",
+            "quote": "the big girl (Juki) is too powerful for me to feel they are safe",
+            "url": "https://www.reddit.com/r/quilting/comments/1nl439c/juki_tl_2000qi/nf6gxd7/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cb493dbb4",
+            "polarity": "positive",
+            "claim": "Owner calls the machine a power house.",
+            "quote": "It is a power house!",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cda2f9b41",
+            "polarity": "positive",
+            "claim": "Owner says the machine can power through anything.",
+            "quote": "This machine can power thorugh anything.",
+            "url": "https://www.reddit.com/r/quilting/comments/1uiptib/sewing_machine_recommendations/oui0tih/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 18,
+        "voices": 18,
+        "ownerVoices": 17,
+        "sources": 7,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 12,
+          "reddit": 6
+        },
+        "polarity": {
+          "positive": 13,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2017,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c6fd057a1",
+            "polarity": "negative",
+            "claim": "Owner reports the machine seems noisier after the failed attachment.",
+            "quote": "It also seems to be noisier than before.",
+            "url": "https://www.reddit.com/r/quilting/comments/1h0cuuo/juki_tl2000qi_stitching_problem/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cdfed7d29",
+            "polarity": "negative",
+            "claim": "Owner notes a mid-speed range where the machine vibrates enough to hinder straight sewing.",
+            "quote": "sweet spot speed where it gets a little shaky",
+            "url": "https://www.reddit.com/r/myog/comments/1ez38t3/juki_tl2000qi_vs_industrial_option_ddl8700/ljnt1ia/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c3a3f6411",
+            "polarity": "positive",
+            "claim": "Owner calls it very quiet.",
+            "quote": "Very quiet.",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c77cdd3fd",
+            "polarity": "positive",
+            "claim": "Owner calls it quiet for a machine.",
+            "quote": "It's quiet for a machine.",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c60d1ff13",
+            "polarity": "mixed",
+            "claim": "Owner says it is not quiet but is very powerful.",
+            "quote": "It’s not a quiet machine, but it’s very powerful.",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 17,
+        "voices": 17,
+        "ownerVoices": 15,
+        "sources": 9,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 9,
+          "reddit": 8
+        },
+        "polarity": {
+          "positive": 8,
+          "negative": 9,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2017,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c6463beff",
+            "polarity": "negative",
+            "claim": "After swapping a presser foot and needle, owner's machine skips stitches; cause unconfirmed.",
+            "quote": "It skips stitches",
+            "url": "https://www.reddit.com/r/quilting/comments/1h0cuuo/juki_tl2000qi_stitching_problem/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c34f31fe7",
+            "polarity": "negative",
+            "claim": "Needle bar thread guide snapped on a refurbished unit; cheap to replace.",
+            "quote": "The needle bar thread guide snapped",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c87ee0958",
+            "polarity": "positive",
+            "claim": "Owner calls it reliable.",
+            "quote": "And it's reliable.",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c956bcac4",
+            "polarity": "positive",
+            "claim": "Owner says that with cleaning and proper oiling the machine will last years.",
+            "quote": "this machine will last years",
+            "url": "https://www.reddit.com/r/quilting/comments/1uiptib/sewing_machine_recommendations/ouhka10/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 18,
+        "voices": 15,
+        "ownerVoices": 15,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 13,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 11,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2013,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cd7bd2ff1",
+            "polarity": "negative",
+            "claim": "Owner says the needle threader never works, even after a dealer needed four tries.",
+            "quote": "It never works.",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c3433bcf8",
+            "polarity": "negative",
+            "claim": "Owner calls the needle threader horrible and skips it.",
+            "quote": "The needle threader is horrible.",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cb9d5b325",
+            "polarity": "positive",
+            "claim": "New owner finds threading and bobbin setup reasonably user friendly.",
+            "quote": "It seems pretty user friendly, I think",
+            "url": "https://www.reddit.com/r/quilting/comments/j1jb5k/help_me_decide_on_an_upgraded_machine_juki/g6zolm1/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c72d77af4",
+            "polarity": "positive",
+            "claim": "Owner finds it easy to thread, clean, oil and use.",
+            "quote": "The machine is easy to thread,clean oil and use.",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c4d35ff97",
+            "polarity": "mixed",
+            "claim": "Owner needed several minutes to learn the automatic threader but likes it.",
+            "quote": "The automatic threader took me several minutes to figure out",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 15,
+        "voices": 15,
+        "ownerVoices": 9,
+        "sources": 8,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 7,
+          "reddit": 8
+        },
+        "polarity": {
+          "positive": 10,
+          "negative": 1,
+          "mixed": 2,
+          "neutral": 2
+        },
+        "years": [
+          2011,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c01f9e0c0",
+            "polarity": "positive",
+            "claim": "Owner likes the additional throat space.",
+            "quote": "the additional throat space",
+            "url": "https://www.reddit.com/r/quilting/comments/1ixz9x3/opinions_on_juki_tl2000qi_or_alternative/mertdlq/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c0fee3cb3",
+            "polarity": "positive",
+            "claim": "Owner quilted a king size quilt on it.",
+            "quote": "have quilted my king size quilt on it",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c3dd24fca",
+            "polarity": "mixed",
+            "claim": "Throat is narrower than expected but the owner says it is enough for most quilters.",
+            "quote": "The throat is not as wide as one might expect",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 15,
+        "voices": 15,
+        "ownerVoices": 14,
+        "sources": 6,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 9,
+          "reddit": 6
+        },
+        "polarity": {
+          "positive": 9,
+          "negative": 5,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2015,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cd84eb120",
+            "polarity": "negative",
+            "claim": "Owner concludes the King Tut thread causes the tension problem.",
+            "quote": "this thread seems to create tension issues",
+            "url": "https://www.reddit.com/r/quilting/comments/okjsyq/tension_issues_ive_never_had_problems_like_this/h5awb8c/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cfafaf4b1",
+            "polarity": "negative",
+            "claim": "Needs tension adjustments more often than the owner likes.",
+            "quote": "It requires tension adjustments more often than I like.",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cec634a2d",
+            "polarity": "positive",
+            "claim": "Owner says the tension is great.",
+            "quote": "The tension is great.",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c2e773c99",
+            "polarity": "positive",
+            "claim": "Owner moves between light and heavy fabrics without much tension fiddling when needle and thread match.",
+            "quote": "without needing much time fiddling with tension",
+            "url": "https://www.reddit.com/r/myog/comments/1ez38t3/juki_tl2000qi_vs_industrial_option_ddl8700/ljk8zsm/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 13,
+        "voices": 13,
+        "ownerVoices": 11,
+        "sources": 6,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 7,
+          "reddit": 6
+        },
+        "polarity": {
+          "positive": 5,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 6
+        },
+        "years": [
+          2017,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c239ddd90",
+            "polarity": "negative",
+            "claim": "Needs frequent cleaning.",
+            "quote": "It needs to be cleaned a lot.",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c34a3be90",
+            "polarity": "negative",
+            "claim": "A problem turned out to be over-oiling.",
+            "quote": "turned out I was over-oiling it",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c32e60a36",
+            "polarity": "positive",
+            "claim": "Daily heavy user cleans and oils the machine herself.",
+            "quote": "I’ve been able to clean it and oil it myself",
+            "url": "https://www.reddit.com/r/quilting/comments/1ixz9x3/opinions_on_juki_tl2000qi_or_alternative/merfonv/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cd25830d0",
+            "polarity": "positive",
+            "claim": "Mechanical machine that the owner cleans and oils herself.",
+            "quote": "Plus it's mechanical so I clean and oil it myself.",
+            "url": "https://www.reddit.com/r/quilting/comments/1nl439c/juki_tl_2000qi/nf3d5ph/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "free_motion",
+        "label": "Free-motion quilting",
+        "statements": 7,
+        "voices": 7,
+        "ownerVoices": 7,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 6,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 5,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2019,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ce4fe128d",
+            "polarity": "negative",
+            "claim": "Machine arrived without the free motion foot.",
+            "quote": "came without the free motion foot",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c58af9992",
+            "polarity": "negative",
+            "claim": "Free motion foot is not included and must be bought separately.",
+            "quote": "If you want to free motion you need to buy that separately",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c4de8bdc3",
+            "polarity": "positive",
+            "claim": "Free motion quilter finds it sews quickly and accurately.",
+            "quote": "sew quickly and accurately",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c09c31ef0",
+            "polarity": "positive",
+            "claim": "Extra space helps for free motion quilting.",
+            "quote": "the extra space helps a lot",
+            "url": "https://www.reddit.com/r/quilting/comments/1ixz9x3/opinions_on_juki_tl2000qi_or_alternative/merfonv/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 6,
+        "voices": 6,
+        "ownerVoices": 5,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 5,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2016,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cf4450303",
+            "polarity": "positive",
+            "claim": "Reviewer calls it very sturdy.",
+            "quote": "This is a very sturdy machine",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c7371b5c8",
+            "polarity": "positive",
+            "claim": "Owner describes all-metal construction with no plastic.",
+            "quote": "Made of all metal, no plastic.",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 4,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2017,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cbde156d5",
+            "polarity": "negative",
+            "claim": "Owner says it weighs a lot.",
+            "quote": "it weighs a lot if that is a concern for you",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c023918b6",
+            "polarity": "positive",
+            "claim": "Owner finds it much lighter and not much bigger than a domestic machine.",
+            "quote": "is way lighter and not much bigger than my domestic",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1rij07t/industrial_or_domestic/o8dhujj/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cc5c08fe3",
+            "polarity": "positive",
+            "claim": "Owner finds it light enough to move easily yet capable of heavy duty sewing.",
+            "quote": "It is light enough to move easily yet does heavy duty sewing.",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c9899c5de",
+            "polarity": "mixed",
+            "claim": "Owner finds it a bit heavy but portable enough for a retreat.",
+            "quote": "Even though it is a bit heavy, it is portable enough",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "walking_foot",
+        "label": "Walking foot",
+        "statements": 6,
+        "voices": 5,
+        "ownerVoices": 3,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 3,
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 2
+        },
+        "years": [
+          2017,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c1df9aac8",
+            "polarity": "negative",
+            "claim": "Owner found the first walking foot poor.",
+            "quote": "the first walking foot was crap",
+            "url": "https://www.reddit.com/r/quilting/comments/7m2rk2/in_the_market_for_a_new_machine_thoughts_on_juki/drs5ju6/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c04ccacce",
+            "polarity": "negative",
+            "claim": "Walking foot attachment arrived defective.",
+            "quote": "Walking foot attachment was defective.",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c4e376cc9",
+            "polarity": "positive",
+            "claim": "Owner finds the machine strong enough that a walking foot is rarely needed.",
+            "quote": "the machine is so strong you almost never need to use one",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2017,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c5ddb0719",
+            "polarity": "negative",
+            "claim": "Owner would like better lighting on the machine.",
+            "quote": "a better light source",
+            "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c05b7fafa",
+            "polarity": "mixed",
+            "claim": "Lighting could be better but is not bad.",
+            "quote": "The lighting could be better but it is not bad",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2024
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "ce615927a",
+            "polarity": "positive",
+            "claim": "Owner says it makes a perfect straight stitch.",
+            "quote": "it is so smooth and makes the perfect straight stitch",
+            "url": "https://www.amazon.com/dp/B004C04YII",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2020,
+          2020
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c2e2584ad",
+            "polarity": "negative",
+            "claim": "Owner in a rural area cannot find a shop willing to service the machine.",
+            "quote": "No one around here will take it for service.",
+            "url": "https://www.reddit.com/r/quilting/comments/frkk52/sewing_machine_shopping_juki_tl2000qi_vs_2010q_vs/flwv1sx/",
+            "source_class": "reddit"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
+        "pageRating": 4.83,
+        "pageCount": 207,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 2,
+          "2": 1,
+          "3": 4,
+          "4": 16,
+          "5": 184
+        },
+        "lowRated": 7,
+        "sampled": null
+      },
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B004C04YII",
+        "pageRating": 4.6,
+        "pageCount": 912,
+        "fetched": "2026-10-01",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 7
+        },
+        "lowRated": 0,
+        "sampled": "8 top reviews (8 US, 0 other countries) of 912 ratings"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "juki": "1,500 stitches per minute.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/tl-2000qi.html"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "page"
+      },
+      {
+        "label": "Throat",
+        "juki": "Juki publishes no throat or arm figure for this model; the page says 'Mid-Arm' and a work area up to 23 in with the auxiliary table.",
+        "others": "Dealers quote 9 in.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/tl-2000qi.html"
+          }
+        ],
+        "field": "throatIn",
+        "source": "page"
+      },
+      {
+        "label": "Weight",
+        "juki": "25.4 lb (11.5 kg).",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/tl-2000qi.html"
+          }
+        ],
+        "field": "weightLb",
+        "source": "page"
+      },
+      {
+        "label": "Warranty",
+        "juki": "2 years on motor and electrical parts, 5 years on other factory defects (Juki America FAQ, general).",
+        "others": "Dealers state the same.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/faq/"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "faq"
+      },
+      {
+        "label": "Price",
+        "juki": "Suggested retail $1,799.",
+        "others": "Amazon showed $899.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/tl-2000qi.html"
+          }
+        ],
+        "field": "msrp",
+        "source": "page"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "TL-2010Q",
+        "label": "Juki TL-2010Q",
+        "rows": [
+          {
+            "feature": "Speed control",
+            "urls": 7,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Owners repeatedly say the TL-2010Q's main addition over the TL-2000Qi is a speed control; the 2000Qi has none on the machine. Juki's TL-2000Qi page lists microcomputer speed control with foot control only and no slider.",
+            "check": "Owner comments; Juki's TL-2000Qi page",
+            "examples": [
+              {
+                "claim_id": "c50fe93cf",
+                "claim": "Writer sees speed control as the only added feature on the 2010Q and not worth $200.",
+                "quote": "is a speed control, and I don't think that is worth $200 to me.",
+                "url": "https://www.reddit.com/r/quilting/comments/3391lw/deciding_on_a_9_quilting_machine/cqjkgw0/"
+              },
+              {
+                "claim_id": "c68d022ef",
+                "claim": "Commenter is fairly sure the only differences are the pretension disc and adjustable speed.",
+                "quote": "the only differences are the pretension disc and the adjustable speed.",
+                "url": "https://www.reddit.com/r/quilting/comments/ypn6so/juki_sale_help_me_decide/ivjx92m/"
+              },
+              {
+                "claim_id": "cf0c7fd5b",
+                "claim": "Owner states the 2000 has no speed control while the 2010 does.",
+                "quote": "The 2000 does not have the speed control that the 2010 has",
+                "url": "https://www.reddit.com/r/quilting/comments/1ixz9x3/opinions_on_juki_tl2000qi_or_alternative/meqn4sr/"
+              }
+            ]
+          },
+          {
+            "feature": "Tension dial",
+            "urls": 2,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Owners say the TL-2010Q adds a sub-tension (pretension) dial that the 2000Qi lacks. Not confirmed by a Juki document.",
+            "check": "owner comments; unverified",
+            "examples": [
+              {
+                "claim_id": "c68d022ef",
+                "claim": "Commenter is fairly sure the only differences are the pretension disc and adjustable speed.",
+                "quote": "the only differences are the pretension disc and the adjustable speed.",
+                "url": "https://www.reddit.com/r/quilting/comments/ypn6so/juki_sale_help_me_decide/ivjx92m/"
+              },
+              {
+                "claim_id": "c3b9a2d71",
+                "claim": "Writer says tension control is the only reason to consider the TL2010 over the TL2000.",
+                "quote": "without a manual tension setting dial",
+                "url": "https://www.reddit.com/r/myog/comments/1ez38t3/juki_tl2000qi_vs_industrial_option_ddl8700/oeuslox/"
+              }
+            ]
+          },
+          {
+            "feature": "Price",
+            "urls": 2,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "Owners put the TL-2010Q $200 to $300 above the TL-2000Qi at a local dealer. Juki lists $2,169 for the TL-2010Q and $1,799 for the TL-2000Qi.",
+            "check": "Owner comments and Juki product pages, 2026-10-01",
+            "examples": [
+              {
+                "claim_id": "c72604ff5",
+                "claim": "The TL-2010 cost about $300 more than the TL-2000 at the owner's local dealer.",
+                "quote": "It was about $300 more than the TL-2000 from my local dealer.",
+                "url": "https://www.reddit.com/r/quilting/comments/j1jb5k/help_me_decide_on_an_upgraded_machine_juki/ghok1hi/"
+              },
+              {
+                "claim_id": "cb3bc0530",
+                "claim": "Writer says the TL2010 costs almost one and a half times the TL2000.",
+                "quote": "almost 1.5x the price",
+                "url": "https://www.reddit.com/r/myog/comments/1ez38t3/juki_tl2000qi_vs_industrial_option_ddl8700/oeuslox/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "model": "TL-18QVP",
+        "label": "Juki TL-18QVP",
+        "rows": [
+          {
+            "feature": "Feet",
+            "urls": 1,
+            "classes": [
+              "reddit"
+            ],
+            "summary": "One owner chose the TL-18QVP over the TL-2010Q and TL-2000Qi because the others come with fewer presser feet. Juki lists nine standard feet for the TL-18QVP.",
+            "check": "owner comment and Juki's TL-18QVP brochure",
+            "examples": [
+              {
+                "claim_id": "c591799ee",
+                "claim": "Reviewer chose the TL-18QVP over the 2010Q and 2000Qi because the others had fewer presser feet.",
+                "quote": "I decided against the other Jukis because they had fewer presser feet",
+                "url": "https://www.reddit.com/r/quilting/comments/qyctel/quilting_machine_review_the_juki_tl18qvp_haruka/"
+              }
+            ]
+          },
+          {
+            "feature": "Float function",
+            "urls": 0,
+            "classes": [],
+            "summary": "Juki lists a float function for the TL-18QVP and none for the TL-2000Qi.",
+            "check": "Juki product pages, 2026-10-01",
+            "examples": []
+          },
+          {
+            "feature": "Price",
+            "urls": 0,
+            "classes": [],
+            "summary": "$2,369 for the TL-18QVP against $1,799 for the TL-2000Qi.",
+            "check": "Juki product pages, 2026-10-01",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": [
+      {
+        "model": "Juki TL-2010Q",
+        "claims": 7,
+        "sources": 4,
+        "favors": {
+          "this": 1,
+          "other": 4,
+          "mixed": 2
+        },
+        "dimensions": {
+          "this": [
+            {
+              "dimension": "price and extra features",
+              "n": 1
+            }
+          ],
+          "other": [
+            {
+              "dimension": "speed control",
+              "n": 2
+            },
+            {
+              "dimension": "tension",
+              "n": 1
+            },
+            {
+              "dimension": "price",
+              "n": 1
+            }
+          ]
+        },
+        "examples": [
+          {
+            "claim_id": "cd4a53e69",
+            "dimension": "tension",
+            "favors": "other",
+            "claim": "Owner of the TL line says the 2010Q pre-tension knob helps with stitch quality.",
+            "quote": "the pre-tension knob helps with that",
+            "url": "https://www.reddit.com/r/quilting/comments/1uiptib/sewing_machine_recommendations/ouoepmb/"
+          },
+          {
+            "claim_id": "c53d62090",
+            "dimension": "price and extra features",
+            "favors": "this",
+            "claim": "Owner bought the TL2000 over the TL2010 because the extra features were not worth the extra money.",
+            "quote": "I just didn't think the extra features were worth the extra money",
+            "url": "https://www.reddit.com/r/quilting/comments/1uiptib/sewing_machine_recommendations/oui0tih/"
+          }
+        ]
+      }
+    ]
+  },
   "juki-tl-2010q": {
     "slug": "juki-tl-2010q",
     "status": "approved",
