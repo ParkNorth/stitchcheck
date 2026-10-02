@@ -70,5 +70,50 @@
   "others": "mo[\\s-]*644d(?![a-z0-9])|644d(?![a-z0-9])|mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])|mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])|vibrant(?![a-z0-9])|bl460b(?![a-z0-9])|1034d(?![a-z0-9])",
   "scopeRules": [],
   "siblingSummaries": {},
-  "siblingExtras": {}
+  "siblingExtras": {
+    "MO-654DE": [
+      {
+        "feature": "Maker suggested price",
+        "summary": "$1,399 against $2,299 for the MO-1000.",
+        "check": "Juki MO-654DE and MO-1000 product pages, MSRP, fetched 2026-10-02 (654DE cached 2026-10-01)"
+      },
+      {
+        "feature": "Looper threading method",
+        "summary": "Manual: the lower looper threader disengages for slide-in threading. No air threading.",
+        "check": "Juki MO-654DE product page, cached 2026-10-01"
+      },
+      {
+        "feature": "Maximum overlock width",
+        "summary": "6 mm against 9 mm on the MO-1000.",
+        "check": "Juki MO-654DE and MO-1000 product pages, 2026-10-02"
+      },
+      {
+        "feature": "Published weight",
+        "summary": "15.5 lb against 20 lb on the MO-1000.",
+        "check": "Juki MO-654DE and MO-1000 product pages, 2026-10-02"
+      }
+    ],
+    "MO-644D": [
+      {
+        "feature": "Maker suggested price",
+        "summary": "$1,199 against $2,299 for the MO-1000.",
+        "check": "Juki MO-644D and MO-1000 product pages, MSRP, fetched 2026-10-02"
+      },
+      {
+        "feature": "Looper threading method",
+        "summary": "Color-coded manual thread paths and a looper threader tool. No air threading.",
+        "check": "Juki MO-644D product page, fetched 2026-10-02"
+      },
+      {
+        "feature": "Maximum overlock width",
+        "summary": "6 mm against 9 mm on the MO-1000.",
+        "check": "Juki MO-644D and MO-1000 product pages, 2026-10-02"
+      },
+      {
+        "feature": "Published weight",
+        "summary": "15 lb against 20 lb on the MO-1000.",
+        "check": "Juki MO-644D and MO-1000 product pages, 2026-10-02"
+      }
+    ]
+  }
 }

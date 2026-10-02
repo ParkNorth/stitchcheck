@@ -1,0 +1,157 @@
+{
+  "specs": {
+    "differentialFeed": {
+      "value": "0.7 to 2.0 ratio (page: 0.02 to 0.1 in), knob-adjusted, can be changed while sewing",
+      "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+    },
+    "throatIn": {
+      "value": null,
+      "source": null
+    },
+    "presserFootLift": {
+      "value": "Manual max 8 mm (0.3 in) per Juki's page; brochure lists 5 mm with max 8 mm (brochure read by OCR: verify against the PDF). Presser foot pressure adjustable.",
+      "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+    },
+    "needleSystem": {
+      "value": "Household machine size 11 or 14 per Juki's page and brochure; no needle system code named. Manual (read by OCR: verify against the PDF) says needles No. 70 to 90.",
+      "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+    },
+    "threadTrimmer": {
+      "value": "Juki lists a 'Thread trimming blade for easy thread cutting'; the wording describes a blade, not an automatic trimmer",
+      "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+    },
+    "weightLb": {
+      "value": 20,
+      "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+    },
+    "dimensionsIn": {
+      "value": "13 W x 11 D x 12.25 H in (Juki page); brochure 330 x 280 x 310 mm (brochure read by OCR: verify against the PDF)",
+      "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+    },
+    "includedFeet": {
+      "value": "Standard presser foot. Juki's list: waste collector, large and small screwdrivers, spare lower knife, spool caps, oiler, thread nets, vinyl cover, needle pack, tweezer, brush and needle inserter, needle threader, guide bar, 2/3 thread selector, accessory pouch, instruction manual, foot control and power cord.",
+      "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+    },
+    "warrantyUs": {
+      "value": "Juki America general home-machine terms: 2 years on motors, light assembly, wiring, switches, circuit boards and speed control; 5 years on all other parts for factory defects; service through the selling dealer. Not stated as model-specific; wording read from a search excerpt of the Juki FAQ.",
+      "source": "https://www.jukihome.com/faq/"
+    },
+    "stitchWidthMm": {
+      "value": "Overlock width up to 9 (0.4 in); Juki brochure: left needle 5 to 9, right needle 3 to 7, rolled hem 2 (brochure read by OCR: verify against the PDF)",
+      "source": "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_brochure_web.pdf"
+    }
+  },
+  "conflicts": [
+    "Differential feed: our earlier spec said the ratio was not published; Juki's page and brochure both give 0.7 to 2.0.",
+    "Presser foot lift: our earlier spec said lift height was not published; Juki's page gives 8 mm maximum while the brochure lists 5 mm with 8 mm as the max (OCR: verify against the PDF).",
+    "Throat: Juki gives only a throat height of 72.4 mm (2.85 in) for 'Ample Fabric Throat Area' and no needle-to-arm figure, so the throat field stays [verify]; the brochure's 9.95 mm needle-to-knife distance (OCR: verify against the PDF) is a different measure.",
+    "Weight: Juki's page says 20 lb and the brochure says 9.0 kg (19.8 lb); reviews gave 23 lb and 25.4 lb, which Juki's own figures do not support.",
+    "Dimensions: Juki's page says 13 x 11 x 12.25 in; a review gave 15.4 x 15.2 x 16.3 in, which reads as carton size and is not used.",
+    "Warranty: Juki's general household terms are 2 years on motors and electrics and 5 years on other parts, while one dealer states a 1 year service warranty; the Juki wording is general, not MO-1000 specific.",
+    "In the box: our earlier list (instructional DVD, foam thread pad, cone holders) came from a review site and is not on Juki's list, which adds a spare lower knife, guide bar and 2/3 thread selector.",
+    "Claims: two quotes in our earlier spec ('burst of air' and 'Designed to reduce vibration while sewing') are not verbatim on Juki's page or brochure and were removed; Juki's brochure says 'sews with less vibration'.",
+    "Thread insertion length for air threading: Juki's page says 1/2 to 1 in, the brochure says 1 to 2 cm (OCR: verify against the PDF).",
+    "Price: Juki lists a suggested retail price of $2,299 and a dealer showed about $1,499 on 2026-09-29; the gap is price drift between MSRP and one dealer, not a fact about either."
+  ],
+  "claims": [
+    "\"Effortless threading with the power of the air\" (Juki product page claim)",
+    "\"you do not need to thread in order\" (Juki product page claim)",
+    "\"The sound reducing design minimizes the operating noise\" and \"sews with less vibration\" (Juki brochure claims)",
+    "\"Amazingly Quiet Operation\" (Juki product page claim)",
+    "\"Ample Fabric Throat Area\" (Juki product page claim; the page gives a throat height of 72.4 mm, not a needle-to-arm figure)"
+  ],
+  "evidence": "owner",
+  "price": {
+    "priceUsdSeen": 1499,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Sewing Machines Plus"
+  },
+  "sources": [
+    "https://www.jukihome.com/products/serging/mo-1000.html",
+    "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_brochure_web.pdf",
+    "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_instruction_manual.pdf",
+    "https://www.jukihome.com/faq/",
+    "https://www.jukihome.com/products/serging/mo-654de.html",
+    "https://www.jukihome.com/products/serging/mo-644d.html",
+    "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+    "https://www.amazon.com/dp/B00G2RX1BA"
+  ],
+  "editorial": {
+    "verdict": "An air-threading 2/3/4 thread serger at 1,500 spm; Juki's MSRP is $2,299, owner evidence is thin, and Juki gives a throat height, not a needle-to-arm figure.",
+    "whoFor": "A sewist who changes thread colors often and wants push-button looper threading, and who will check the dealer price against Juki's $2,299 suggested retail.",
+    "skipIf": "You thread once and sew for weeks; the Juki MO-654DE, per Juki's pages, is manual threading with a lower suggested price ($1,399) and a 6 mm maximum overlock width.",
+    "keySpec": "2/3/4 thread · air threading · 1,500 spm · 0.7 to 2.0 differential",
+    "realCost": [
+      "Serger thread: the 4 thread stitch uses 4 cones, and Juki's page lists thread nets in the box",
+      "Needles: Juki's page says household size 11 or 14, so buy that size when replacing",
+      "Serger oil: Juki lists an oiler in the box, and the manual covers oiling",
+      "A dealer visit for service: Juki says warranty service goes through the selling dealer"
+    ],
+    "strengths": [
+      "Owners report threading as quick and easy: threading and loopers was the largest theme, with 13 of 20 voices positive, mostly retailer reviews plus some Reddit.",
+      "Owners at retailers report a quiet machine with little table vibration (6 voices, all from retailer reviews); Juki makes its own noise and vibration claims.",
+      "Juki publishes a 9 mm maximum overlock width and a 0.7 to 2.0 differential feed range, both wider than the MO-654DE's 6 mm width on Juki's pages."
+    ],
+    "weaknesses": [
+      "Owners report the needle threader is the weak point: needle threading was described as harder than the loopers, and one retailer review had a plastic threader break twice.",
+      "Owners report defects and arrival problems in 9 voices on reliability, including a dead-on-arrival return and a broken thread holder; the sample is small and Reddit skews toward people asking for help.",
+      "Juki's suggested retail is $2,299, well above the MO-654DE ($1,399) and MO-644D ($1,199); a dealer showed about $1,499 on 2026-09-29."
+    ],
+    "checks": [
+      {
+        "title": "Throat is height, not needle to arm",
+        "body": "Juki's 72.4 mm is a throat height with no needle-to-arm figure behind it, so do not read it as sewing room to the right of the needle. Ask the dealer for a measured needle-to-body figure."
+      },
+      {
+        "title": "Price and warranty",
+        "body": "Juki lists $2,299 and one dealer showed about $1,499, so confirm the price in writing. Juki's general terms are 2 years on motors and electrics and 5 years on other parts; one dealer says 1 year, so get the terms for this machine in writing."
+      },
+      {
+        "title": "Air threading in practice",
+        "body": "Owners report that a front cover will not close with the air switch engaged and that tying on thread can leave a looper out of its tension disk. Ask for a demonstration of the threader and cover, and check what is in the box against Juki's list."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is the Juki MO-1000 air threaded?",
+        "a": "Yes. Juki's page describes push-button air threading for both loopers, in any order, plus an automatic needle threader. Juki's wording is a claim; owners report the needle threader is the less reliable part."
+      },
+      {
+        "q": "What is the MO-1000 throat space?",
+        "a": "Juki publishes a throat height of 72.4 mm (2.85 in) and calls it 'Ample Fabric Throat Area'. It gives no needle-to-arm figure, so the needle-to-body throat stays [verify] here."
+      },
+      {
+        "q": "How much does the MO-1000 weigh and how big is it?",
+        "a": "Juki's page gives 20 lb and 13 x 11 x 12.25 in (W x D x H). The brochure gives 9.0 kg (19.8 lb) and 330 x 280 x 310 mm. Larger figures in reviews read as shipping weight and carton size."
+      },
+      {
+        "q": "What is the MO-1000 differential feed range?",
+        "a": "Juki gives 0.7 to 2.0 on its page and brochure, adjustable with a knob while sewing."
+      },
+      {
+        "q": "What is the MO-1000 warranty?",
+        "a": "Juki America's general home-machine wording is 2 years on motors, light assembly, wiring, switches, circuit boards and speed control, and 5 years on other parts for factory defects, with service through the selling dealer. That wording is not stated as MO-1000 specific, and one dealer quotes a 1 year service warranty. Get the terms in writing."
+      },
+      {
+        "q": "What needles does the MO-1000 use?",
+        "a": "Juki's page and brochure say household machine size 11 or 14 and name no needle system code. The manual, read by OCR (verify against the PDF), gives needle guidance of No. 70 to 90."
+      },
+      {
+        "q": "What is in the box with the MO-1000?",
+        "a": "Juki lists a standard presser foot, waste collector, spare lower knife, guide bar, 2/3 thread selector, screwdrivers, oiler, thread nets, needle pack, tools, accessory pouch, foot control and manual. An instructional DVD, foam thread pad and cone holders are not on Juki's list."
+      },
+      {
+        "q": "How does the MO-1000 compare with the MO-654DE and MO-644D?",
+        "a": "From Juki's pages: the MO-654DE ($1,399 suggested) and MO-644D ($1,199) thread the loopers manually, have a 6 mm maximum overlock width against 9 mm, and weigh 15.5 lb and 15 lb against 20 lb. The MO-1000 lists at $2,299."
+      },
+      {
+        "q": "How much owner evidence is there for the MO-1000?",
+        "a": "Limited. The rollup holds 35 voices, 28 of them first-hand, drawn from Reddit and retailer reviews, and only 3 Reddit threads name the model in the title. Amazon shows 4.3 from 172 ratings and Sewing Machines Plus 4.34 from 29. Treat themes as signals, not failure rates."
+      },
+      {
+        "q": "Is the MO-1000 discontinued?",
+        "a": "Juki's page presents it for sale with a dealer lookup and does not say it is discontinued."
+      }
+    ]
+  }
+}

@@ -1,0 +1,815 @@
+{
+  "slug": "juki-mo-1000",
+  "today": "2026-10-02",
+  "rules": "AGENTS.md rules 1 to 12 apply: spec-check not field-test, owner evidence labelled, paraphrase and attribute, no em or en dashes, never invent a spec, claims quoted not asserted, every spec sourced, model name is not a spec, conflicts listed, price bands not live prices.",
+  "spec": {
+    "slug": "juki-mo-1000",
+    "brand": "Juki",
+    "model": "MO-1000",
+    "series": "MO",
+    "type": "serger",
+    "industrial": false,
+    "jobs": [
+      "serger"
+    ],
+    "manufacturerUrl": "https://www.jukihome.com/products/serging/mo-1000.html",
+    "retailerUrl": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+    "priceUsdSeen": 1499,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Sewing Machines Plus",
+    "specs": {
+      "stitchTypes": {
+        "value": "2, 3 and 4-thread overlock stitches, rolled hem; 2-needle, 4-thread maximum",
+        "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+      },
+      "stitchCount": {
+        "value": null,
+        "source": null
+      },
+      "maxSpm": {
+        "value": 1500,
+        "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+      },
+      "threads": {
+        "value": "2, 3 or 4 thread, 2 needles",
+        "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+      },
+      "differentialFeed": {
+        "value": "Knob-adjustable; ratio not published in results captured",
+        "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+      },
+      "throatIn": {
+        "value": "Throat height 72.4 mm (2.85 in)",
+        "source": "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_brochure_web.pdf"
+      },
+      "needleSystem": {
+        "value": null,
+        "source": null
+      },
+      "presserFootLift": {
+        "value": "Adjustable presser foot pressure; lift height not published",
+        "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+      },
+      "threadTrimmer": {
+        "value": null,
+        "source": null
+      },
+      "feedSystem": {
+        "value": "Differential feed; knife can be disengaged mid-seam",
+        "source": "https://www.quiltersreview.com/juki-mo-1000/"
+      },
+      "buttonhole": {
+        "value": null,
+        "source": null
+      },
+      "motor": {
+        "value": null,
+        "source": null
+      },
+      "frame": {
+        "value": null,
+        "source": null
+      },
+      "weightLb": {
+        "value": null,
+        "source": null
+      },
+      "dimensionsIn": {
+        "value": null,
+        "source": null
+      },
+      "includedFeet": {
+        "value": "Standard foot; accessory list: instructional DVD, thread nets, oiler, needle set, tweezers, scrap catcher, looper threader, spool caps, screwdriver, brush/needle inserter, dust cover, electronic foot control, foam thread pad, cone holders",
+        "source": "https://www.quiltersreview.com/juki-mo-1000/"
+      },
+      "warrantyUs": {
+        "value": null,
+        "source": null
+      },
+      "stitchWidthMm": {
+        "value": "Overlock width up to 9 (0.4 in); right needle 3 to 7, left needle 5 to 9 per reviews",
+        "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+      },
+      "stitchLengthMm": {
+        "value": "1 to 4 (max 0.2 in)",
+        "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+      },
+      "threadingSystem": {
+        "value": "Jet air looper threading (push button, upper and lower loopers, any order); automatic needle threader; upper looper 2/3-thread converter",
+        "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+      },
+      "rolledHem": {
+        "value": "Yes",
+        "source": "https://www.jukihome.com/products/serging/mo-1000.html"
+      },
+      "freeArm": {
+        "value": null,
+        "source": null
+      }
+    },
+    "claims": [
+      "\"Threads itself at the push of a button using only a burst of air\" (manufacturer claim, product page)",
+      "\"Designed to reduce vibration while sewing\" (manufacturer claim, product page)",
+      "\"You do not need to thread in order\" (manufacturer claim, product page)"
+    ],
+    "conflicts": [
+      "Weight: 20 lb (Walmart/dealer listing) vs 23 lb (sergerpro review) vs 25.4 lb (one review). Juki page value not captured. Left null; catalog renders [verify].",
+      "Dimensions: 15.4 x 15.2 x 16.3 in appears in a review and reads as carton size. Not recorded.",
+      "Warranty: one dealer states '1 year service warranty'; Juki's standard household terms (5 yr mechanical, 2 yr electrical) were not confirmed for this model in results. Left null."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "Air threading and auto tension are the reasons owners buy it; several say looper threading takes seconds and the vacuum-style port needs less thread fed in than bellows systems.",
+        "tone": "positive",
+        "source": "https://sewing.patternreview.com/review/machine/5344"
+      },
+      {
+        "theme": "Tying on new thread and pulling through can leave a looper thread sitting outside its tension disk; owners recommend rethreading fully with the air system instead.",
+        "tone": "mixed",
+        "source": "https://sewing.patternreview.com/SewingDiscussions/topic/82262"
+      },
+      {
+        "theme": "Some buyers weigh dealer availability for service against the price, and note the air threader is good but not as refined as higher-priced brands.",
+        "tone": "mixed",
+        "source": "https://clothhabit.com/choosing-a-new-serger/"
+      }
+    ],
+    "evidence": "owner",
+    "buyerQuestions": [
+      "Does the Juki MO-1000 thread the needles automatically too?",
+      "Can you thread the MO-1000 by hand if the air system fails?",
+      "Is the MO-1000 loud?",
+      "What comes in the box with the MO-1000?",
+      "Is air threading worth the price jump from the MO-654DE?",
+      "How much does the MO-1000 weigh?",
+      "What is the MO-1000 warranty?",
+      "Does the MO-1000 have a free arm?",
+      "Can the MO-1000 do a 2-thread stitch?"
+    ],
+    "crossShop": [
+      {
+        "slug": "juki-mo-654de",
+        "why": "Same brand, same 1,500 spm and 2/3/4 thread, manual threading, at a fraction of the price."
+      },
+      {
+        "slug": "babylock-vibrant",
+        "why": "Buyers deciding between a dealer brand and Juki often compare Baby Lock's entry serger on the way to the air-threading Celebrate."
+      },
+      {
+        "slug": "brother-1034d",
+        "why": "The budget anchor; the MO-1000 buyer is paying mostly for threading convenience over this machine."
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "sources": [
+      "https://www.jukihome.com/products/serging/mo-1000.html",
+      "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_brochure_web.pdf",
+      "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+      "https://www.quiltersreview.com/juki-mo-1000/",
+      "https://sergerpro.com/juki-mo-1000-review/",
+      "https://sewing.patternreview.com/review/machine/5344",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/82262",
+      "https://clothhabit.com/choosing-a-new-serger/",
+      "https://sewcanshe.com/2016-10-3-product-review-juki-mo-1000-serger-with-jet-air/"
+    ],
+    "editorial": {
+      "verdict": "The MO-1000 is the affordable route to jet air looper threading, with the same 1,500 spm and 2/3/4 thread range as Juki's manual-threading models.",
+      "whoFor": "A sewist who changes thread colors often, or who has given up on manual looper threading, and can spend around $1,500.",
+      "skipIf": "You thread once and sew for weeks; the MO-654DE gives the same stitches for far less.",
+      "keySpec": "2/3/4 thread · jet air loopers · 1,500 spm · 72.4 mm throat height",
+      "strengths": [
+        "Push-button air threading for both loopers, in any order, plus an automatic needle threader.",
+        "Overlock width to 9 mm and stitch length 1 to 4 mm, per Juki.",
+        "72.4 mm throat height published by Juki, more room than typical compact sergers."
+      ],
+      "weaknesses": [
+        "Weight is unpublished on the Juki page captured, and dealer figures range from 20 to 25.4 lb.",
+        "Warranty terms for this model were not confirmed in results.",
+        "Differential feed ratio is not published, only 'knob-adjustable'."
+      ],
+      "checks": [
+        {
+          "title": "Air system maintenance",
+          "body": "Owners report tie-on thread changes can leave a looper thread out of its tension disk. Plan to rethread with the air button rather than pulling through."
+        },
+        {
+          "title": "Box contents versus dealer kit",
+          "body": "Juki's list runs from DVD and thread nets to a scrap catcher and foot control. Sewing Machines Plus also sells a kit listing; confirm which one is priced at $1,499."
+        },
+        {
+          "title": "Warranty and service",
+          "body": "Confirm the seller is an authorized Juki dealer and get the warranty terms in writing; one dealer quoted a one-year service warranty."
+        }
+      ],
+      "realCost": [
+        "4 cones of serger thread",
+        "Household needles once the system is confirmed from the manual",
+        "Serger oil",
+        "Compressed-air can or brush for keeping air ports clear of lint"
+      ]
+    }
+  },
+  "manufacturer": {
+    "documents": [
+      {
+        "id": "maker-page",
+        "url": "https://www.jukihome.com/products/serging/mo-1000.html",
+        "type": "product page",
+        "fetched": "2026-10-02",
+        "note": "Features, specifications, accessories, suggested retail price. No warranty terms on the page."
+      },
+      {
+        "id": "maker-brochure",
+        "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_brochure_web.pdf",
+        "type": "brochure (PDF, 2 pages, image only, read by OCR at 150 dpi)",
+        "fetched": "2026-10-02",
+        "note": "Specifications box on p2: dimensions, weight, needle and width figures. OCR figures: verify against the PDF."
+      },
+      {
+        "id": "maker-manual",
+        "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_instruction_manual.pdf",
+        "type": "instruction manual (PDF, 68 pages, image only, read by OCR at 150 dpi; English, Spanish, French, Italian)",
+        "fetched": "2026-10-02",
+        "note": "No specifications table found by OCR; needle guidance and stitch settings only. Refers to a separate warranty. OCR: verify against the PDF."
+      },
+      {
+        "id": "maker-faq",
+        "url": "https://www.jukihome.com/faq/",
+        "type": "maker FAQ and warranty wording",
+        "fetched": "2026-10-02",
+        "note": "Wording read from a search excerpt of the FAQ page, not the whole page; the jukihome.com/warranty page rendered as a registration form with no terms. General household terms, not model-specific."
+      },
+      {
+        "id": "sibling-654de",
+        "url": "https://www.jukihome.com/products/serging/mo-654de.html",
+        "type": "product page (sibling)",
+        "fetched": "2026-10-02",
+        "note": "Cached 2026-10-01. For comparison."
+      },
+      {
+        "id": "sibling-644d",
+        "url": "https://www.jukihome.com/products/serging/mo-644d.html",
+        "type": "product page (sibling)",
+        "fetched": "2026-10-02",
+        "note": "For comparison."
+      }
+    ],
+    "facts": [
+      {
+        "field": "maxSpm",
+        "value": "1,500 spm",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": 1500,
+        "site": {
+          "label": "Speed",
+          "juki": "1,500 spm on the page and in the brochure.",
+          "others": "Matches our spec.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Juki product page",
+              "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+            }
+          ]
+        }
+      },
+      {
+        "field": "threads",
+        "value": "2/3/4 threads, 2 needles; needle size household 11 or 14",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "2, 3 or 4 thread, 2 needles"
+      },
+      {
+        "field": "differentialFeed",
+        "value": "0.7 to 2.0 ratio (page: 0.02 to 0.1 in); adjustable while sewing",
+        "source": "maker-page",
+        "vs_spec": "contradicts",
+        "spec_value": "Knob-adjustable; ratio not published in results captured",
+        "note": "Our spec says the ratio is not published. Juki's page and brochure both give 0.7 to 2.0.",
+        "site": {
+          "label": "Differential feed",
+          "juki": "0.7 to 2.0 ratio, adjusted with a knob, even while sewing.",
+          "others": "Our spec said the ratio was not published; it is.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Juki product page",
+              "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+            }
+          ]
+        }
+      },
+      {
+        "field": "throatIn",
+        "value": "Page: 'The height of the throat is 72.4 mm' ('Ample Fabric Throat Area'). Brochure: 'Wide Throat Area', 72.4 mm. No needle-to-arm or needle-to-body figure.",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "Throat height 72.4 mm (2.85 in)",
+        "note": "Juki's wording is throat height, not needle to body. 72.4 mm is 2.85 in. Do not present it as a needle-to-arm throat; no maker document gives one.",
+        "site": {
+          "label": "Throat",
+          "juki": "72.4 mm throat height ('Ample Fabric Throat Area'). No needle-to-arm figure.",
+          "others": "Our spec shows 72.4 mm as throat height; keep that wording.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Juki product page",
+              "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+            }
+          ]
+        }
+      },
+      {
+        "field": "needleToKnifeMm",
+        "value": "Brochure: distance between needle and knife 9.95 mm (conventional model 15.5 mm), 'for beautiful inside curves'",
+        "source": "maker-brochure",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "OCR figure: verify against the PDF. 'Conventional model' is not named."
+      },
+      {
+        "field": "weightLb",
+        "value": "Page: 20 lb. Brochure: 9.0 kg (19.8 lb).",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null. Page and brochure agree within rounding. Our spec conflicts list has 23 lb and 25.4 lb from reviews, which Juki's own figures do not support.",
+        "site": {
+          "label": "Weight",
+          "juki": "20 lb on the page; 9.0 kg (19.8 lb) in the brochure.",
+          "others": "Spec notes dealer and review figures of 20, 23 and 25.4 lb.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Juki product page",
+              "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+            },
+            {
+              "label": "Juki brochure",
+              "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_brochure_web.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "dimensionsIn",
+        "value": "Page: 13 W x 11 D x 12.25 H in. Brochure: 330 W x 280 D x 310 H mm (13.0 x 11.0 x 12.2 in).",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null. Page and brochure agree. The 15.4 x 15.2 x 16.3 in figure from a review is larger than Juki's (probably carton).",
+        "site": {
+          "label": "Size",
+          "juki": "13 x 11 x 12.25 in (W x D x H) on the page; 330 x 280 x 310 mm in the brochure.",
+          "others": "A review gave a larger figure that reads as carton size.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Juki product page",
+              "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+            }
+          ]
+        }
+      },
+      {
+        "field": "stitchWidthMm",
+        "value": "Max overlock width 9 mm (0.4 in). Brochure: left needle 5 to 9 mm, right needle 3 to 7 mm, rolled hem 2 mm.",
+        "source": "maker-brochure",
+        "vs_spec": "confirms",
+        "spec_value": "Overlock width up to 9 (0.4 in); right needle 3 to 7, left needle 5 to 9 per reviews",
+        "note": "Spec attributed the needle ranges to reviews; the brochure now supports them (OCR: verify)."
+      },
+      {
+        "field": "stitchLengthMm",
+        "value": "1 to 4 mm (max 0.2 in); standard 2.5 mm per brochure",
+        "source": "maker-brochure",
+        "vs_spec": "confirms",
+        "spec_value": "1 to 4 (max 0.2 in)"
+      },
+      {
+        "field": "presserFootLift",
+        "value": "Page: 'Manual Max: 0.3 in (8 mm)'. Brochure: 5 mm (Max 8 mm). Adjustable presser foot pressure: yes.",
+        "source": "maker-page",
+        "vs_spec": "contradicts",
+        "spec_value": "Adjustable presser foot pressure; lift height not published",
+        "note": "Our spec says lift height is not published. Juki gives 8 mm maximum (5 mm normal per the brochure; OCR: verify). Page and brochure word it differently.",
+        "site": {
+          "label": "Presser foot lift",
+          "juki": "8 mm (0.3 in) maximum on the page; the brochure lists 5 mm with 8 mm as the max.",
+          "others": "Our spec said the lift was not published.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Juki product page",
+              "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+            },
+            {
+              "label": "Juki brochure",
+              "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_brochure_web.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "needleSystem",
+        "value": "Page and brochure: 'Household Machine Size 11 or 14'. Manual: use needles No. 70 to 90; JLx2 recommended for thick materials and overlapped sections.",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null. The page does not name a needle system (the MO-654DE and MO-644D pages say HAx1). Do not infer one for the MO-1000. Manual wording is OCR: verify."
+      },
+      {
+        "field": "threadTrimmer",
+        "value": "'Thread trimming blade for easy thread cutting' (page and brochure)",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null. Wording describes a blade for cutting thread, not an automatic trimmer; record the maker's words only."
+      },
+      {
+        "field": "threadingSystem",
+        "value": "Page: insert 1/2 to 1 in of thread into each threading hole, press the air-control pushbutton. Brochure: insert 1 to 2 cm. Automatic needle threader (lower lever, hook thread, release). Upper looper 2/3-thread converter marked NEW.",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "Jet air looper threading (push button, upper and lower loopers, any order); automatic needle threader; upper looper 2/3-thread converter",
+        "note": "Page and brochure give different thread lengths in different units (1/2 to 1 in is 1.3 to 2.5 cm; the brochure says 1 to 2 cm).",
+        "site": {
+          "label": "Threading",
+          "juki": "Air threading for both loopers (not in order) and an automatic needle threader.",
+          "others": "Matches our spec.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Juki product page",
+              "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+            }
+          ]
+        }
+      },
+      {
+        "field": "includedFeet",
+        "value": "Page lists: standard presser foot, waste collector, large and small screwdrivers, spare lower knife, spool caps, oiler, thread nets, vinyl cover, needle pack, tweezer, brush and needle inserter, needle threader, guide bar, 2/3 thread selector, accessory pouch, instruction manual, foot control and power cord.",
+        "source": "maker-page",
+        "vs_spec": "contradicts",
+        "spec_value": "Standard foot; accessory list: instructional DVD, thread nets, oiler, ... foam thread pad, cone holders",
+        "note": "Our spec list came from a review site. Juki's page does not list an instructional DVD, foam thread pad or cone holders; it lists a spare lower knife, guide bar and 2/3 thread selector. The page names only a 'Standard Presser Foot'.",
+        "site": {
+          "label": "In the box",
+          "juki": "Standard foot, waste collector, spare lower knife, guide bar, 2/3 selector, tools, foot control (full list on page).",
+          "others": "Our spec's DVD, foam pad and cone holders are not on Juki's list.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Juki product page",
+              "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+            }
+          ]
+        }
+      },
+      {
+        "field": "warrantyUs",
+        "value": "FAQ wording: 'limited warranty period of two years on motors, light assembly, wiring, switches, circuit boards, and speed control; and for a limited warranty period of five years on all other parts related to factory defects.' Service by the dealer who sold the machine. Warranty page snippet: usable only by the original purchaser.",
+        "source": "maker-faq",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec was null. This is Juki America's general home-machine wording, not specific to the MO-1000; the manual refers to a separate warranty. Our spec noted a dealer saying one year: that conflicts with Juki's terms.",
+        "site": {
+          "label": "Warranty",
+          "juki": "2 years on motor, light, wiring, switches, boards and speed control; 5 years on other parts (factory defects). Dealer provides service. General Juki wording, not model-specific.",
+          "others": "A dealer quoted '1 year service warranty'.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Juki FAQ",
+              "url": "https://www.jukihome.com/faq/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "price",
+        "value": "Juki suggested retail price $2,299.00 USD; 'For pricing information, please contact your Authorized JUKI Dealer.'",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": 1499,
+        "note": "MSRP only. Our spec records 1,499 seen at Sewing Machines Plus on 2026-09-29; treat the gap as price drift between MSRP and a dealer price, not as a fact about the dealer.",
+        "site": {
+          "label": "Price",
+          "juki": "Suggested retail $2,299 (MSRP); dealer pricing by contacting a dealer.",
+          "others": "Our spec saw $1,499 at one dealer on 2026-09-29.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Juki product page",
+              "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+            }
+          ]
+        }
+      },
+      {
+        "field": "availability",
+        "value": "Page presents the machine for sale with dealer lookup. It does not say the machine is discontinued.",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "discontinued: false"
+      },
+      {
+        "field": "claims",
+        "value": "Maker wording (claims, not facts): 'Effortless threading with the power of the air'; 'you do not need to thread in order'; 'The sound reducing design minimizes the operating noise' and 'sews with less vibration' (brochure); 'Amazingly Quiet Operation' (page); 'Ample Fabric Throat Area'.",
+        "source": "maker-page",
+        "vs_spec": "contradicts",
+        "spec_value": "claims: 'Threads itself at the push of a button using only a burst of air'; 'Designed to reduce vibration while sewing'",
+        "note": "Two of our spec's quoted claims are not verbatim on Juki's page or brochure: the burst-of-air quote and 'Designed to reduce vibration while sewing' (Juki says 'sews with less vibration'). The editor should replace them with the maker's own words or attribute them to a source that has them."
+      },
+      {
+        "field": "pageVsBrochure",
+        "value": "Page and brochure agree on speed, thread count, differential range, weight and size within rounding. They differ in presser foot lift wording (8 mm vs 5 mm with max 8 mm) and thread insertion length (1/2 to 1 in vs 1 to 2 cm).",
+        "source": "maker-brochure",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Listed so the editor can see which wording is soft."
+      }
+    ]
+  },
+  "rollup": {
+    "status": "draft",
+    "method": {
+      "sources": 15,
+      "itemsCollected": 204,
+      "statements": 57,
+      "voices": 35,
+      "ownerVoices": 28,
+      "dateRange": [
+        2013,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 13,
+          "items": 166
+        },
+        "retailer": {
+          "sources": 2,
+          "items": 37
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B00G2RX1BA",
+        "pageRating": 4.3,
+        "pageCount": 172,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 6
+        },
+        "lowRated": 1,
+        "sampled": "8 top reviews (8 US, 0 other countries) of 172 ratings"
+      },
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+        "pageRating": 4.34,
+        "pageCount": 29,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 2,
+          "2": 2,
+          "3": 1,
+          "4": 3,
+          "5": 21
+        },
+        "lowRated": 5,
+        "sampled": null
+      }
+    ],
+    "themes": [
+      {
+        "label": "Threading and loopers",
+        "voices": 20,
+        "ownerVoices": 17,
+        "sources": 6,
+        "polarity": {
+          "positive": 13,
+          "negative": 4,
+          "mixed": 1,
+          "neutral": 2
+        },
+        "classVoices": {
+          "reddit": 7,
+          "retailer": 13
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Threading with the DVD took 20 minutes.",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php"
+          },
+          {
+            "polarity": "negative",
+            "claim": "The front cover will not close until the air-threading switch is disengaged.",
+            "url": "https://www.reddit.com/r/sewing/comments/cmz9ud/juki_mo1000_nothing_happens_when_foot_pedal_is/ewgcnpe/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner finds thread feeding easy.",
+            "url": "https://www.reddit.com/r/sewing/comments/1blt38h/serger_help_me_choose/kw7aoff/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Threading is a dream after a month of near-daily use.",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Threading the needles is harder than the loopers; the needle threader only partly works.",
+            "url": "https://www.amazon.com/dp/B00G2RX1BA"
+          }
+        ]
+      },
+      {
+        "label": "Reliability and defects",
+        "voices": 9,
+        "ownerVoices": 8,
+        "sources": 5,
+        "polarity": {
+          "positive": 3,
+          "negative": 5,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "classVoices": {
+          "reddit": 4,
+          "retailer": 5
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner returned the unit after a dead-on-arrival problem, believing it was damaged in transit.",
+            "url": "https://www.reddit.com/r/sewing/comments/cmz9ud/juki_mo1000_nothing_happens_when_foot_pedal_is/ewgcnpe/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Plastic needle threader broke, and its replacement also broke within a week.",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner reports flawless performance on light to heavy fabrics.",
+            "url": "https://www.reddit.com/r/sewing/comments/1blt38h/serger_help_me_choose/kw7aoff/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner reports no problems.",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Arrived with a broken part, a thread holder, otherwise worked well.",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php"
+          }
+        ]
+      },
+      {
+        "label": "Noise and vibration",
+        "voices": 6,
+        "ownerVoices": 6,
+        "sources": 2,
+        "polarity": {
+          "positive": 6,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "classVoices": {
+          "retailer": 6
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "positive",
+            "claim": "Owner finds it quiet.",
+            "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner found it quiet and steady in use, with no table vibration.",
+            "url": "https://www.amazon.com/dp/B00G2RX1BA"
+          }
+        ]
+      }
+    ],
+    "siblings": [
+      {
+        "label": "Juki MO-654DE",
+        "rows": [
+          {
+            "feature": "Maker suggested price",
+            "summary": "$1,399 against $2,299 for the MO-1000.",
+            "check": "Juki MO-654DE and MO-1000 product pages, MSRP, fetched 2026-10-02 (654DE cached 2026-10-01)"
+          },
+          {
+            "feature": "Looper threading method",
+            "summary": "Manual: the lower looper threader disengages for slide-in threading. No air threading.",
+            "check": "Juki MO-654DE product page, cached 2026-10-01"
+          },
+          {
+            "feature": "Maximum overlock width",
+            "summary": "6 mm against 9 mm on the MO-1000.",
+            "check": "Juki MO-654DE and MO-1000 product pages, 2026-10-02"
+          },
+          {
+            "feature": "Published weight",
+            "summary": "15.5 lb against 20 lb on the MO-1000.",
+            "check": "Juki MO-654DE and MO-1000 product pages, 2026-10-02"
+          }
+        ]
+      },
+      {
+        "label": "Juki MO-644D",
+        "rows": [
+          {
+            "feature": "Maker suggested price",
+            "summary": "$1,199 against $2,299 for the MO-1000.",
+            "check": "Juki MO-644D and MO-1000 product pages, MSRP, fetched 2026-10-02"
+          },
+          {
+            "feature": "Looper threading method",
+            "summary": "Color-coded manual thread paths and a looper threader tool. No air threading.",
+            "check": "Juki MO-644D product page, fetched 2026-10-02"
+          },
+          {
+            "feature": "Maximum overlock width",
+            "summary": "6 mm against 9 mm on the MO-1000.",
+            "check": "Juki MO-644D and MO-1000 product pages, 2026-10-02"
+          },
+          {
+            "feature": "Published weight",
+            "summary": "15 lb against 20 lb on the MO-1000.",
+            "check": "Juki MO-644D and MO-1000 product pages, 2026-10-02"
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "checks": [
+    {
+      "level": "warn",
+      "id": "reddit",
+      "message": "few Reddit threads name the model in the title; collection may be on loose matches"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"differentialFeed\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"presserFootLift\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"includedFeet\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"claims\" but the spec's conflicts do not mention it"
+    }
+  ],
+  "editorNotes": {
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction."
+  },
+  "siteFieldsNow": "  \"juki-mo-1000\": {\n    score: 8.7,\n    scoredFor: \"serger\",\n    reason: \"Air threading at the lowest Juki band that has it.\",\n    context: \"Air-threading overlocker · in Sergers hub\",\n    keySpec: \"Air threading · 2/3/4 thread\",\n    alternatives: [\n      { slug: \"juki-mo-654de\", label: \"Cheaper\", note: \"Same stitches, manual threading.\" },\n      { slug: \"babylock-vibrant\", label: \"Dealer route\", note: \"Baby Lock's manual-thread entry.\" },\n      { slug: \"brother-2340cv\", label: \"For hems\", note: \"Coverstitch, not a serger.\" },\n    ],\n    imageAlt: \"Juki MO-1000 air-threading serger\",\n    lastUpdated: \"2026-09-29\",\n  },",
+  "comparesNow": []
+}
