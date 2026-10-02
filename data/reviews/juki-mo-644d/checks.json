@@ -1,0 +1,45 @@
+{
+  "slug": "juki-mo-644d",
+  "generated": "2026-10-02T12:29:40.525Z",
+  "counts": {
+    "error": 0,
+    "warn": 3
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: of 34 sampled reviews, 6 name this model, 0 name a sibling only, 28 name neither"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 55, this 43, sibling 5, unclear 7"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "24 Reddit threads, 6 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"dimensionsIn\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"freeArm\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 35 voices (24 first-hand), 26 sources, status draft"
+    }
+  ]
+}

@@ -1,0 +1,975 @@
+{
+  "slug": "brother-cs7000x",
+  "today": "2026-10-02",
+  "rules": "AGENTS.md rules 1 to 12 apply: spec-check not field-test, owner evidence labelled, paraphrase and attribute, no em or en dashes, never invent a spec, claims quoted not asserted, every spec sourced, model name is not a spec, conflicts listed, price bands not live prices.",
+  "spec": {
+    "slug": "brother-cs7000x",
+    "brand": "Brother",
+    "model": "CS7000X",
+    "series": "CS",
+    "type": "computerized",
+    "industrial": false,
+    "jobs": [
+      "beginner",
+      "quilting"
+    ],
+    "manufacturerUrl": "https://www.brother-usa.com/p/sewing/CS7000X",
+    "retailerUrl": "https://www.sewingmachinesplus.com/CS7000X.php",
+    "priceUsdSeen": 279.99,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Amazon third-party new price as tracked by camelcamelcamel on 2026-09-18; Sewing Machines Plus price not visible in results",
+    "specs": {
+      "stitchTypes": {
+        "value": "70 built-in stitches: utility, decorative, quilting and heirloom, plus 7 one-step auto-size buttonholes",
+        "source": "https://www.brother-usa.com/p/sewing/CS7000X"
+      },
+      "stitchCount": {
+        "value": 70,
+        "source": "https://www.brother-usa.com/p/sewing/CS7000X"
+      },
+      "maxSpm": {
+        "value": 750,
+        "source": "https://www.sewingpartsonline.com/products/brother-cs7000x-computerized-sewing-machine"
+      },
+      "threads": {
+        "value": null,
+        "source": null
+      },
+      "differentialFeed": {
+        "value": null,
+        "source": null
+      },
+      "throatIn": {
+        "value": null,
+        "source": null
+      },
+      "needleSystem": {
+        "value": "130/705H household (flat shank)",
+        "source": "https://www.manualslib.com/manual/2672485/Brother-Cs7000x.html"
+      },
+      "presserFootLift": {
+        "value": null,
+        "source": null
+      },
+      "threadTrimmer": {
+        "value": null,
+        "source": null
+      },
+      "feedSystem": {
+        "value": "Drop feed (feed dogs lower for free motion quilting)",
+        "source": "https://www.sewingmachinefun.com/brother-cs7000x-review/"
+      },
+      "buttonhole": {
+        "value": "7 one-step, auto-size",
+        "source": "https://www.brother-usa.com/p/sewing/CS7000X"
+      },
+      "motor": {
+        "value": null,
+        "source": null
+      },
+      "frame": {
+        "value": null,
+        "source": null
+      },
+      "weightLb": {
+        "value": 10.5,
+        "source": "https://www.sewingpartsonline.com/products/brother-cs7000x-computerized-sewing-machine"
+      },
+      "dimensionsIn": {
+        "value": "12.2 x 6.65 x 16.25",
+        "source": "https://www.sewingpartsonline.com/products/brother-cs7000x-computerized-sewing-machine"
+      },
+      "includedFeet": {
+        "value": "10 presser feet; detachable wide table; hard protective case",
+        "source": "https://www.sewingmachinesplus.com/CS7000X.php"
+      },
+      "warrantyUs": {
+        "value": "25 yr chassis casting, 2 yr electronic components and PCBs (replacement labor excluded), 1 yr parts, labor and accessories",
+        "source": "https://www.sewingmachinesplus.com/CS7000X.php"
+      },
+      "maxStitchWidthMm": {
+        "value": 7,
+        "source": "https://www.sewingpartsonline.com/products/brother-cs7000x-computerized-sewing-machine"
+      },
+      "maxStitchLengthMm": {
+        "value": 5,
+        "source": "https://www.sewingpartsonline.com/products/brother-cs7000x-computerized-sewing-machine"
+      },
+      "bobbin": {
+        "value": "Top drop-in, quick-set",
+        "source": "https://www.qualitysewing.com/products/brother-cs7000x-computerized-sewing-and-quilting-machine"
+      },
+      "needleThreader": {
+        "value": "Automatic",
+        "source": "https://www.brother-usa.com/p/sewing/CS7000X"
+      },
+      "speedControl": {
+        "value": "Slider speed control; start/stop button with pedal removed; needle up/down",
+        "source": "https://www.sewingmachinefun.com/brother-cs7000x-review/"
+      },
+      "freeArm": {
+        "value": "Yes, accessory compartment removes",
+        "source": "https://www.sewingmachinefun.com/brother-cs7000x-review/"
+      }
+    },
+    "claims": [
+      "\"Large needle-to-arm workspace\" (manufacturer claim, product page); no inch figure published",
+      "\"Durable Metal Frame\" appears in Walmart listing titles (listing claim); Brother page wording not captured",
+      "\"Perfect for beginners and experienced sewists alike\" (retailer claim, qualitysewing.com)",
+      "\"Sewed through eight layers of 12-ounce denim\" (review-site test claim, techgearlab.com); not our test"
+    ],
+    "conflicts": [
+      "Throat space: Brother says large needle-to-arm workspace; one review says only slightly larger than standard. No inch figure in any snippet, so throatIn is null and renders [verify].",
+      "Price: $279.99 Amazon third-party (camelcamelcamel, 2026-09-18) vs $302.49 comparable value (Best Buy) vs $219 seen by a PatternReview member vs about $280 in review blogs. Catalog will show $279.99 and the low $200s band.",
+      "Frame: metal frame appears in Walmart titles only. Kept as a listing claim, frame spec null.",
+      "Model naming: CS7000X replaced the CS7000i; both are 70 stitch machines and used listings mix them. Specs above are for the X."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "A sewing blogger's first impressions: easy threading, the automatic needle threader takes practice, and the wide table and drop feed make it workable for lap and baby quilts.",
+        "tone": "positive",
+        "source": "https://sewcanshe.com/first-impressions-of-my-new-brother-cs7000x-sewing-machine/"
+      },
+      {
+        "theme": "PatternReview members list the CS7000X around $219 as a second or first machine, and ask whether it is enough for bag making against the NQ900.",
+        "tone": "mixed",
+        "source": "https://sewing.patternreview.com/SewingDiscussions/topic/130683"
+      }
+    ],
+    "evidence": "mixed",
+    "buyerQuestions": [
+      "Is the Brother CS7000X good for quilting?",
+      "What is the throat space on the Brother CS7000X?",
+      "What is the difference between the CS7000X and CS7000i?",
+      "How fast does the Brother CS7000X sew?",
+      "Can the Brother CS7000X sew denim or canvas?",
+      "What feet come with the CS7000X?",
+      "Does the CS7000X have a metal frame?",
+      "What is the Brother warranty on the CS7000X?"
+    ],
+    "crossShop": [
+      {
+        "slug": "brother-st371hd",
+        "why": "Brother's mechanical alternative at a similar price; buyers weigh 70 computerized stitches against a simpler machine marketed for thick fabric."
+      },
+      {
+        "slug": "singer-4423",
+        "why": "The mechanical metal-frame competitor at a lower price with 1,100 spm."
+      },
+      {
+        "slug": "janome-hd3000",
+        "why": "A heavier mechanical for buyers who want build over stitch count."
+      },
+      {
+        "slug": "janome-mc6650",
+        "why": "The step up for quilters who need a published 10 in throat and 1,000 spm."
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "sources": [
+      "https://www.brother-usa.com/p/sewing/CS7000X",
+      "https://www.sewingmachinesplus.com/CS7000X.php",
+      "https://www.sewingpartsonline.com/products/brother-cs7000x-computerized-sewing-machine",
+      "https://www.qualitysewing.com/products/brother-cs7000x-computerized-sewing-and-quilting-machine",
+      "https://www.manualslib.com/manual/2672485/Brother-Cs7000x.html",
+      "https://www.sewingmachinefun.com/brother-cs7000x-review/",
+      "https://www.techgearlab.com/reviews/electronics/sewing-machine/brother-cs7000x",
+      "https://cozystitchery.com/reviews/brother-cs7000x-review/",
+      "https://sewcanshe.com/first-impressions-of-my-new-brother-cs7000x-sewing-machine/",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/130683",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/125800",
+      "https://camelcamelcamel.com/product/B08BH5GTNC",
+      "https://www.bestbuy.com/product/brother-cs7000x-computerized-sewing-and-quilting-machine/J7CJ38ZXQX",
+      "https://business.walmart.com/ip/Brother-CS7000X-Durable-Metal-Frame-Computerized-Sewing-Machine-with-Wide-Table-for-Quilting/325410476"
+    ],
+    "editorial": {
+      "verdict": "The CS7000X is the budget computerized package: 70 stitches, 7 one-step buttonholes, 10 feet, a wide table and a hard case for under $300, with a 750 spm ceiling and an unpublished throat that cap its quilting ambitions.",
+      "whoFor": "A first machine buyer who wants computerized stitch selection, needle up/down and a wide table for piecing and lap quilts at the lowest price.",
+      "skipIf": "You need speed above 750 spm, a published throat wider than a standard domestic, or a heavier machine for regular canvas and denim work.",
+      "keySpec": "70 stitches · 750 spm · 7 mm width · 10 feet and wide table · 10.5 lb",
+      "strengths": [
+        "Complete kit: 10 feet, wide table and hard case included at a sub-$300 price.",
+        "7 one-step auto-size buttonholes, needle up/down and start/stop button.",
+        "Brother 25 yr chassis warranty with 2 yr on electronics."
+      ],
+      "weaknesses": [
+        "750 spm is slow for piecing volume; the Juki TL-2010Q and Janome MC6650 run 1,500 and 1,000.",
+        "Throat space is not published in inches; Brother says only large needle-to-arm workspace.",
+        "At 10.5 lb it is light, which owners of heavy fabrics read as a build ceiling."
+      ],
+      "checks": [
+        {
+          "title": "Measure the throat before you plan a quilt",
+          "body": "No inch figure is published. If you quilt anything beyond lap size, compare against a machine with a stated 8.5 to 10 in throat."
+        },
+        {
+          "title": "CS7000X, not CS7000i",
+          "body": "The older CS7000i shares the 70 stitch count and is still sold used. Check the model label if the price looks too good."
+        },
+        {
+          "title": "Count what is in the bundle",
+          "body": "Amazon and Walmart sell case, thread and bobbin bundles at different prices. The base machine already includes the hard case and wide table."
+        }
+      ],
+      "realCost": [
+        "Spare 130/705H needles in 80/12 and 90/14",
+        "Class 15 style drop-in bobbins",
+        "A walking foot if not in your bundle's 10 feet",
+        "Quilting gloves for free motion with the drop feed"
+      ],
+      "faqs": [
+        {
+          "q": "Is the Brother CS7000X good for quilting?",
+          "a": "It has a drop feed for free motion, a detachable wide table and quilting stitches. Its throat is not published in inches and top speed is 750 spm, so it suits lap quilts more than bed quilts."
+        },
+        {
+          "q": "What is the throat space on the CS7000X?",
+          "a": "Not published. Brother describes a large needle-to-arm workspace without a measurement."
+        },
+        {
+          "q": "What is the difference between the CS7000X and the CS7000i?",
+          "a": "The X is the current model; both list 70 stitches. Published differences were not captured in search results, so check the label when buying used."
+        },
+        {
+          "q": "How fast does the CS7000X sew?",
+          "a": "Up to 750 stitches per minute per dealer listings."
+        },
+        {
+          "q": "Can the CS7000X sew denim?",
+          "a": "One review site reports sewing multiple layers of denim. We have not tested it; the machine is a 10.5 lb domestic and Brother makes no thick-fabric claim on the page found."
+        },
+        {
+          "q": "What feet come with the CS7000X?",
+          "a": "Ten presser feet plus a wide table and hard case, per dealer listings. The exact foot list was not captured."
+        },
+        {
+          "q": "Does the CS7000X have a metal frame?",
+          "a": "Walmart listing titles say Durable Metal Frame. Brother's own page wording was not captured, so it is recorded as a listing claim."
+        },
+        {
+          "q": "What is the warranty on the CS7000X?",
+          "a": "25 years on the chassis casting, 2 years on electronic components and circuit boards, 1 year on parts, labor and accessories, per the Sewing Machines Plus listing."
+        },
+        {
+          "q": "How much does the Brother CS7000X cost?",
+          "a": "About $280 new; $279.99 was the Amazon third-party price tracked on 2026-09-18, and Best Buy quotes $302.49 comparable value."
+        }
+      ]
+    }
+  },
+  "manufacturer": {
+    "documents": [
+      {
+        "id": "maker-page",
+        "url": "https://www.brother-usa.com/p/sewing/CS7000X",
+        "type": "product page",
+        "fetched": "2026-10-02",
+        "note": "Brother USA product page, $279.99 list shown, spec tables and In the Box list."
+      },
+      {
+        "id": "support-page",
+        "url": "https://www.brother-usa.com/product-support/CS7000X",
+        "type": "support page",
+        "fetched": "2026-10-02",
+        "note": "Lists two warranty statements and links to the Online Solution Center for manuals."
+      },
+      {
+        "id": "manual-list",
+        "url": "https://support.brother.com/g/b/manualtop.aspx?c=us&lang=en&prod=hf_cs7000xeus",
+        "type": "manuals index (CS7000X)",
+        "fetched": "2026-10-02",
+        "note": "Index of manuals for product hf_cs7000xeus. First entry is the operation manual below; others are the Sewing Guide, quick reference guide, accessory sheet and stitch chart."
+      },
+      {
+        "id": "manual",
+        "url": "https://download.brother.com/welcome/doch101975/888_n00_n02_n20_n22_n40_n42_n60_om03en.pdf",
+        "type": "operation manual PDF",
+        "fetched": "2026-10-02",
+        "note": "32 pages, text layer. Product Code 888-N00/N02/N20/N22/N40/N42/N60. The model name CS7000X does not appear in the text; it is the first manual on the CS7000X manuals index, so treat it as a shared-platform manual. No specifications table."
+      },
+      {
+        "id": "warranty",
+        "url": "https://assets.brother.com/asset/3c94d716-bfc6-44de-8ae8-0b4b0286d316/13317_Standard_Warranty-pdf.pdf",
+        "type": "warranty PDF",
+        "fetched": "2026-10-02",
+        "note": "One page, Brother standard limited warranty (XF5055-101, 2017). Linked from the CS7000X product page; generic, not model-specific."
+      },
+      {
+        "id": "sib-cs7205",
+        "url": "https://www.brother-usa.com/p/sewing/CS7205",
+        "type": "sibling product page",
+        "fetched": "2026-10-02",
+        "note": "CS7205, comparison only."
+      },
+      {
+        "id": "sib-cp100x",
+        "url": "https://www.brother-usa.com/p/sewing/CP100X",
+        "type": "sibling product page",
+        "fetched": "2026-10-02",
+        "note": "CP100X, comparison only."
+      },
+      {
+        "id": "sib-xr9550",
+        "url": "https://www.brother-usa.com/p/sewing/XR9550",
+        "type": "sibling product page",
+        "fetched": "2026-10-02",
+        "note": "XR9550, comparison only."
+      }
+    ],
+    "facts": [
+      {
+        "field": "Built-in stitches",
+        "value": "70 built-in sewing stitches (page headline and spec table 'Built-in Stitch Selections 70')",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "70"
+      },
+      {
+        "field": "Buttonholes",
+        "value": "7 styles of one-step, auto-size buttonholes (spec table 'Button Hole Styles 7')",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "7 one-step, auto-size"
+      },
+      {
+        "field": "Max sewing speed",
+        "value": "'Maximum Sewing Speed 750' (spec table, no unit printed; spm by convention)",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "750",
+        "note": "Maker page confirms the figure that the spec file sourced from a dealer; unit is not printed on the page.",
+        "site": {
+          "label": "Max speed",
+          "juki": "750 (maker spec table, unit not printed)",
+          "others": "Dealer listings: 750 spm",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother CS7000X page",
+              "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Stitch width and length",
+        "value": "Stitch Width 7, Stitch Length 5 (mm implied, unit not printed)",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "7 / 5"
+      },
+      {
+        "field": "Weight",
+        "value": "Unit Weight 10.5 (unit not printed; carton separate)",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "10.5"
+      },
+      {
+        "field": "Dimensions",
+        "value": "Unit Dimensions 12.2\" x 6.65\" x 16.26\"",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "12.2 x 6.65 x 16.25",
+        "note": "Maker prints 16.26 in on the long side; spec file has 16.25 (0.01 in rounding difference only)."
+      },
+      {
+        "field": "Throat space",
+        "value": "No inch figure on the CS7000X page. The page says only 'detachable wide table that is perfect for larger quilting projects'. The wording 'large needle-to-arm workspace' does not appear on the CS7000X page; it appears on the CP100X page.",
+        "source": "maker-page",
+        "vs_spec": "contradicts",
+        "spec_value": "throatIn null; claims list \"Large needle-to-arm workspace\" (manufacturer claim, product page)",
+        "note": "Spec file claims row attributes 'large needle-to-arm workspace' to the CS7000X product page. On the page fetched 2026-10-02 that phrase is on the CP100X page, not the CS7000X page. Throat stays null.",
+        "site": {
+          "label": "Throat space",
+          "juki": "No figure; 'wide table' only",
+          "others": "Retail copy repeats 'large needle-to-arm workspace' (CP100X wording)",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Brother CS7000X page",
+              "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+            },
+            {
+              "label": "Brother CP100X page",
+              "url": "https://www.brother-usa.com/p/sewing/CP100X"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Frame",
+        "value": "The CS7000X page does not mention a metal frame or any frame material. 'DURABLE METAL FRAME CONSTRUCTION' appears on the CP100X page.",
+        "source": "maker-page",
+        "vs_spec": "contradicts",
+        "spec_value": "frame null; claims note 'Durable Metal Frame' in Walmart titles as a listing claim",
+        "note": "Consistent with the spec's null frame. Walmart title wording is not supported by the Brother CS7000X page.",
+        "site": {
+          "label": "Frame",
+          "juki": "Not stated on the CS7000X page",
+          "others": "Walmart listing titles say 'Durable Metal Frame'",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Brother CS7000X page",
+              "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Free arm",
+        "value": "'The free arm capability makes it easy to sew cuffs, sleeves and skinny jeans'. Manual: remove the flat bed attachment to use the free arm.",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "Yes, accessory compartment removes",
+        "note": "Some Reddit posters say the machine has no free arm; the maker page and manual say it does (flat bed attachment removes).",
+        "site": {
+          "label": "Free arm",
+          "juki": "Yes; remove the flat bed attachment",
+          "others": "Some owner posts say there is no free arm",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother CS7000X page",
+              "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Feed system",
+        "value": "'the drop feed mechanism allows for free motion sewing and quilting'",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "Drop feed (feed dogs lower for free motion quilting)"
+      },
+      {
+        "field": "Needle threader",
+        "value": "'new higher end automatic needle threader'; spec table 'Needle Threading System Automatic'",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "Automatic"
+      },
+      {
+        "field": "Bobbin",
+        "value": "'Quick-set bobbin system'; spec table 'Quick Set Bobbin Yes'. Manual: open the bobbin cover, drop the bobbin in.",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "Top drop-in, quick-set"
+      },
+      {
+        "field": "Speed control",
+        "value": "'adjustable sewing speed control'; manual: slide controller sets bobbin winding speed and the foot controller's maximum speed. Start/stop button disabled when the foot controller is connected.",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "Slider speed control; start/stop button with pedal removed; needle up/down"
+      },
+      {
+        "field": "Needle system",
+        "value": "No needle system designation (130/705H, HAx1) found in the operation manual text or on the product page. Manual fabric table names needle sizes 65/9 to 100/16.",
+        "source": "manual",
+        "vs_spec": "contradicts",
+        "spec_value": "130/705H household (flat shank)",
+        "note": "The spec value is sourced to manualslib, not to a Brother document. Brother's own PDF names sizes only. Verify against the PDF's needle page or the rating plate; household flat-shank is standard for this class but unconfirmed here."
+      },
+      {
+        "field": "Presser foot pressure",
+        "value": "'Adjustable Presser Foot Pressure No'; 'Knee Lifter No'; 'Automatic Height Adjustment No'; 'Pivot Function No'",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": "presserFootLift null",
+        "note": "Maker says no adjustable pressure, no knee lifter, no pivot function. Presser foot lift height not stated."
+      },
+      {
+        "field": "Thread trimmer",
+        "value": "No automatic thread trimmer stated on the page or in the manual. The manual shows a manual thread cutter on the machine side.",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "null"
+      },
+      {
+        "field": "Display and controls",
+        "value": "LCD; stitch selector 'Mode & Shift Key'; adjustable screen brightness No; memory card reader No; lettering fonts 0",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": "null"
+      },
+      {
+        "field": "Included feet",
+        "value": "Page 'In the Box': '10 sewing feet including: Zigzag foot, Buttonhole foot, Zipper foot, Button sewing foot, Overcasting foot, Blind stitch foot, Monogramming foot, Walking foot and Quilting Foot, Quilt guide'. That names nine feet plus a quilt guide.",
+        "source": "maker-page",
+        "vs_spec": "contradicts",
+        "spec_value": "10 presser feet; detachable wide table; hard protective case",
+        "note": "Within the page: the spec table 'Included Accessory Feet' also lists a 1/4\" foot (11 items including quilt guide), the In the Box list does not. Page-vs-manual: the manual's optional accessories table sells the walking foot (SA140), quilting foot (SA129), 1/4 in piecing foot (SA125) and quilting guide (SA132) separately, with a note 'Sold separately with some models'; it refers to an 'Included Accessories' sheet that was not fetched. Count of included feet is therefore soft.",
+        "site": {
+          "label": "Included feet",
+          "juki": "10 sewing feet listed (nine feet plus quilt guide); spec table also lists 1/4 in foot",
+          "others": "Dealers say 10 feet",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Brother CS7000X page",
+              "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Wide table and case",
+        "value": "'detachable wide table'; 'hard-protective cover'. The wide table is the flat bed attachment with accessory compartment per the manual (part SAWT7 sold separately).",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "detachable wide table; hard protective case"
+      },
+      {
+        "field": "Warranty",
+        "value": "'25 Year Limited Warranty' on the product page. Linked PDF (generic Brother standard limited warranty, not model-specific): 1 year Parts, Labor and accompanying Accessory Items; 2 years Electronic Components and Printed Circuit Boards (replacement labor excluded); 25 Years Chassis Casting. Original purchase date from receipt; products bought from other than an authorized Brother reseller in the US, or used or refurbished, 'may not be covered'. Printed circuit board labor is charged. Shipping and packing are at the owner's cost. Also: 'free customer phone and online technical support for the life of the product'.",
+        "source": "warranty",
+        "vs_spec": "confirms",
+        "spec_value": "25 yr chassis casting, 2 yr electronic components and PCBs (replacement labor excluded), 1 yr parts, labor and accessories",
+        "note": "Matches the spec. Not model-specific. A second statement (9800 Brother Limited Warranty Standard) is also linked on the support page and was not fetched.",
+        "site": {
+          "label": "Warranty",
+          "juki": "25 Year Limited Warranty; PDF: 1 yr parts/labor/accessories, 2 yr electronics, 25 yr chassis casting",
+          "others": "Sewing Machines Plus repeats the same split",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother CS7000X page",
+              "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+            },
+            {
+              "label": "Brother standard warranty PDF",
+              "url": "https://assets.brother.com/asset/3c94d716-bfc6-44de-8ae8-0b4b0286d316/13317_Standard_Warranty-pdf.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "Price",
+        "value": "MSRP $279.99 shown on the Brother USA page on 2026-10-02 (maker's own store). Not a dealer price.",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "priceUsdSeen 279.99",
+        "note": "Spec file records $279.99 as an Amazon third-party price on 2026-09-18; the maker list price on the Brother page is the same figure."
+      },
+      {
+        "field": "Fabric guidance",
+        "value": "Operation manual fabric table includes 'Denim (12 ounces or more), canvas' as heavyweight fabrics with a 100/16 needle, 30 weight thread and 2.5 to 4.0 mm stitch length. This is general guidance, not a capability claim for a layer count.",
+        "source": "manual",
+        "vs_spec": "adds",
+        "spec_value": "null",
+        "note": "Shared manual, model not named. Product page makes no thick-fabric claim."
+      },
+      {
+        "field": "Claims: marketing wording",
+        "value": "'feature rich, sewing and quilting machine'; 'great option for a range of users'; 'the possibilities are endless'; 'making it a great value'; 'perfect for larger quilting projects' (wide table).",
+        "source": "maker-page",
+        "vs_spec": "adds",
+        "spec_value": "claims list",
+        "note": "Quoted as claims only. 'Perfect for beginners and experienced sewists' is dealer wording, not on the maker page."
+      },
+      {
+        "field": "Availability",
+        "value": "Page shows an Add to Cart button; no 'no longer available' or discontinued wording on the page.",
+        "source": "maker-page",
+        "vs_spec": "confirms",
+        "spec_value": "discontinued false"
+      },
+      {
+        "field": "Manual coverage",
+        "value": "The operation manual lists Product Code 888-N00/N02/N20/N22/N40/N42/N60 and does not name CS7000X. It is the first entry on the CS7000X manuals index and also appears on CP-series pages, so figures in it are platform-level.",
+        "source": "manual",
+        "vs_spec": "adds",
+        "spec_value": "null",
+        "note": "Do not cite a manual page as CS7000X-specific without the accessory sheet or rating plate."
+      }
+    ]
+  },
+  "rollup": {
+    "status": "draft",
+    "method": {
+      "sources": 62,
+      "itemsCollected": 446,
+      "statements": 78,
+      "voices": 55,
+      "ownerVoices": 36,
+      "dateRange": [
+        2021,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 60,
+          "items": 417
+        },
+        "retailer": {
+          "sources": 2,
+          "items": 29
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.6 from 3,642 ratings is shared by several listings of this machine (pooled variations, ASIN B08BH5GTNC); only 13 written reviews were retrieved, so the rating reflects the pooled variation set and not this exact configuration alone."
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B08BH5GTNC",
+        "pageRating": 4.6,
+        "pageCount": 3642,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 12
+        },
+        "lowRated": 0,
+        "sampled": "13 top reviews (8 US, 5 other countries) of 3642 ratings"
+      },
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/CS7000X.php",
+        "pageRating": 4.75,
+        "pageCount": 16,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 2,
+          "5": 13
+        },
+        "lowRated": 1,
+        "sampled": null
+      }
+    ],
+    "themes": [
+      {
+        "label": "Reliability and defects",
+        "voices": 11,
+        "ownerVoices": 9,
+        "sources": 6,
+        "polarity": {
+          "positive": 3,
+          "negative": 8,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "classVoices": {
+          "reddit": 11
+        },
+        "recurrence": "reported",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "A second owner had the same sudden needle-hitting-hook fault after a trouble-free bag project.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1t9td2j/brother_cs7000x_needle_hitting_hook/oqaxeyd/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "New machine misaligned after sewing very thick fleece, with the needle landing outside the bobbin shuttle; fixed by shifting the needle with a rear screw.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1w9fl45/please_help_how_to_realign_bobbin_shuttle_on_my/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner of a couple of months reports no issues and easy startup.",
+            "url": "https://www.reddit.com/r/sewing/comments/11buqhp/im_considering_buying_a_brother_cs7000x_is_it_a/ja14fqm/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner of the same machine reports no bobbin winding problems after following the manual.",
+            "url": "https://www.reddit.com/r/quilting/comments/w4pj5j/making_bobbins_on_brother_cs7000x_hi_im_having_a/ih5l6nc/"
+          }
+        ]
+      },
+      {
+        "label": "Power on heavy fabric",
+        "voices": 11,
+        "ownerVoices": 6,
+        "sources": 6,
+        "polarity": {
+          "positive": 4,
+          "negative": 5,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "classVoices": {
+          "reddit": 8,
+          "retailer": 3
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Reviewer says it is not heavy duty for thick industrial level materials and advanced users may want more power and speed.",
+            "url": "https://www.amazon.com/dp/B08BH5GTNC"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner sews thin, soft leather from upcycled jackets with leather needles and says the machine coped; stresses only thin leather.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1qtm0gb/brother_cs7000x_or_st371hd/o38mitg/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner of about 2.5 months says it handled pants, a dress, quilted bags and thick martial arts kimono repairs without trouble.",
+            "url": "https://www.reddit.com/r/sewing/comments/ppzuod/thoughts_on_brother_cs7000x/hda18z4/"
+          }
+        ]
+      },
+      {
+        "label": "Noise and vibration",
+        "voices": 9,
+        "ownerVoices": 8,
+        "sources": 5,
+        "polarity": {
+          "positive": 5,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "classVoices": {
+          "reddit": 4,
+          "retailer": 5
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Replacement unit squeaks on every stitch and fabric type, even after cleaning, rethreading and new bobbin.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1pajp56/machine_squeaking_brother_cs7000x/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "New unit makes a loud startup noise that sounds like the motor jamming.",
+            "url": "https://www.reddit.com/r/sewing/comments/1knkq2x/is_this_startup_noise_normal_brother_cs7000x/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Reviewer says it runs quietly.",
+            "url": "https://www.amazon.com/dp/B08BH5GTNC"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Beginner says the machine is quiet with easy pedal control.",
+            "url": "https://www.sewingmachinesplus.com/CS7000X.php"
+          }
+        ]
+      },
+      {
+        "label": "Feet and accessories",
+        "voices": 8,
+        "ownerVoices": 5,
+        "sources": 7,
+        "polarity": {
+          "positive": 3,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "classVoices": {
+          "reddit": 7,
+          "retailer": 1
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "positive",
+            "claim": "Poster found an overcasting foot among the accessories and used it to make a faux serged edge.",
+            "url": "https://www.reddit.com/r/sewing/comments/1h1kmgw/can_i_do_this_stitch_with_a_brother_cs7000x/lzcq88a/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner says the model ships with several presser feet and many stitches.",
+            "url": "https://www.reddit.com/r/sewing/comments/11buqhp/im_considering_buying_a_brother_cs7000x_is_it_a/ja18g0u/"
+          }
+        ]
+      },
+      {
+        "label": "Stitch quality",
+        "voices": 7,
+        "ownerVoices": 4,
+        "sources": 4,
+        "polarity": {
+          "positive": 3,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 4
+        },
+        "classVoices": {
+          "reddit": 4,
+          "retailer": 3
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "positive",
+            "claim": "Owner says the overcast foot gives a decent overcast stitch.",
+            "url": "https://www.reddit.com/r/sewing/comments/1h1kmgw/can_i_do_this_stitch_with_a_brother_cs7000x/lzcqdvt/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner reports consistent, even stitches after a year.",
+            "url": "https://www.amazon.com/dp/B08BH5GTNC"
+          }
+        ]
+      },
+      {
+        "label": "Oiling and maintenance",
+        "voices": 6,
+        "ownerVoices": 4,
+        "sources": 6,
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 4
+        },
+        "classVoices": {
+          "reddit": 4,
+          "retailer": 2
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "No oil or brush ships with the machine.",
+            "url": "https://www.sewingmachinesplus.com/CS7000X.php"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner finds it easy to get inside the machine to clean it.",
+            "url": "https://www.amazon.com/dp/B08BH5GTNC"
+          }
+        ]
+      },
+      {
+        "label": "Threading and loopers",
+        "voices": 5,
+        "ownerVoices": 4,
+        "sources": 4,
+        "polarity": {
+          "positive": 2,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "classVoices": {
+          "reddit": 3,
+          "retailer": 2
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "New owner cannot see the take-up lever thread catch even with the needle at its highest position.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ribz28/brother_cs7000x_cant_get_thread_through_takeup/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Needle threader instructions were unclear, so the reviewer threaded by hand.",
+            "url": "https://www.amazon.com/dp/B08BH5GTNC"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Automatic needle threader has worked every time so far in shared house use.",
+            "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wnj1og/the_shared_house_got_a_brother_cs7000x_quilting/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "One year owner only has trouble threading thick topstitch thread through the needle.",
+            "url": "https://www.amazon.com/dp/B08BH5GTNC"
+          }
+        ]
+      }
+    ],
+    "siblings": [
+      {
+        "label": "Brother CS7000i",
+        "rows": []
+      },
+      {
+        "label": "Brother CS7205",
+        "rows": [
+          {
+            "feature": "Maker stitch and speed figures",
+            "summary": "CS7205: 205 built-in stitches, 850 max sewing speed, 8 buttonholes, $289.99 on the maker page; same 7 width and 5 length.",
+            "check": "Brother USA CS7205 product page, fetched 2026-10-02."
+          },
+          {
+            "feature": "Maker feet list",
+            "summary": "CS7205 lists walking foot, spring action quilting foot, stitch guide foot and 1/4 in foot among its feet.",
+            "check": "Brother USA CS7205 product page, fetched 2026-10-02."
+          }
+        ]
+      },
+      {
+        "label": "Brother CS6000i",
+        "rows": []
+      },
+      {
+        "label": "Brother CP100X",
+        "rows": [
+          {
+            "feature": "Maker stitch and speed figures",
+            "summary": "CP100X: 100 built-in stitches, 750 max sewing speed, 8 buttonholes, $259.99 on the maker page; same weight and dimensions as the CS7000X.",
+            "check": "Brother USA CP100X product page, fetched 2026-10-02."
+          },
+          {
+            "feature": "Maker workspace and frame wording",
+            "summary": "The CP100X page carries 'large needle-to-arm workspace' and 'durable metal frame construction' wording; the CS7000X page does not, and neither gives an inch figure.",
+            "check": "Brother USA CP100X and CS7000X product pages, fetched 2026-10-02."
+          }
+        ]
+      },
+      {
+        "label": "Brother XR9550",
+        "rows": [
+          {
+            "feature": "Maker stitch figures",
+            "summary": "XR9550: 165 built-in stitches including 55 alphanumeric, 8 buttonholes, backlit LCD, $269.99, 1/2/25 year warranty split on the maker page.",
+            "check": "Brother USA XR9550 product page, fetched 2026-10-02."
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "checks": [
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 4 ASINs (B08BH5GTNC, B0GXX5GFS7, B0F5Z55N1G, B094117CHG); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Included feet\" but the spec's conflicts do not mention it"
+    }
+  ],
+  "editorNotes": {
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.6 from 3,642 ratings is shared by several listings of this machine (pooled variations, ASIN B08BH5GTNC); only 13 written reviews were retrieved, so the rating reflects the pooled variation set and not this exact configuration alone."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction."
+  },
+  "siteFieldsNow": "  \"brother-cs7000x\": {\n    score: 7.1,\n    scoredFor: \"beginner\",\n    reason: \"The budget computerized package; the 750 spm ceiling shows on thick seams.\",\n    context: \"Computerized · in First serious machine hub\",\n    alternatives: [\n      { slug: \"janome-hd3000\", label: \"Mechanical\", note: \"Fewer stitches, far more machine.\" },\n      { slug: \"brother-st371hd\", label: \"Heavy duty\", note: \"Brother's mechanical for thick layers.\" },\n      { slug: \"janome-mc6650\", label: \"Real quilter\", note: \"10 in workspace per Janome, 1,000 spm, many times the price.\" },\n    ],\n    imageAlt: \"Brother CS7000X computerized sewing machine with wide table\",\n    lastUpdated: \"2026-09-29\",\n  },",
+  "comparesNow": []
+}

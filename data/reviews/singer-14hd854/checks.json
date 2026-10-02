@@ -1,0 +1,50 @@
+{
+  "slug": "singer-14hd854",
+  "generated": "2026-10-02T12:28:58.276Z",
+  "counts": {
+    "error": 0,
+    "warn": 5
+  },
+  "items": [
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 2 ASINs (B0H9SXCPHX, B0HCCC8L17); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 47, this 29, sibling 1, unclear 17"
+    },
+    {
+      "level": "warn",
+      "id": "scope",
+      "message": "36% of spec claims have unclear scope: many threads cover several machines"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "14 Reddit threads, 4 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "reddit",
+      "message": "few Reddit threads name the model in the title; collection may be on loose matches"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Needles\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Dimensions\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 18 voices (12 first-hand), 17 sources, status draft"
+    }
+  ]
+}

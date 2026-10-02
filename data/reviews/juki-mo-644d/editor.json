@@ -1,0 +1,102 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "MO-654DE",
+      "label": "Juki MO-654DE",
+      "pattern": "mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])"
+    },
+    {
+      "model": "MO-1000",
+      "label": "Juki MO-1000",
+      "pattern": "mo[\\s-]*1000(?![a-z0-9])"
+    },
+    {
+      "model": "MO-114D",
+      "label": "Juki MO-114D",
+      "pattern": "mo[\\s-]*114d(?![a-z0-9])"
+    },
+    {
+      "model": "MO-644DN",
+      "label": "Juki MO-644DN",
+      "pattern": "mo[\\s-]*644dn(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])",
+      "Juki MO-654DE"
+    ],
+    [
+      "1034d(?![a-z0-9])",
+      "Brother 1034D"
+    ],
+    [
+      "vibrant(?![a-z0-9])|bl460b(?![a-z0-9])",
+      "Baby Lock Vibrant"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "mo[\\s-]*1000(?![a-z0-9])|mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])|mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])|1034d(?![a-z0-9])|vibrant(?![a-z0-9])|bl460b(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {
+    "MO-654DE": [
+      {
+        "feature": "Included converter",
+        "summary": "2/3 thread converter standard",
+        "check": "Juki catalog comparison table and 654DE page accessories, fetched 2026-10-02"
+      },
+      {
+        "feature": "Looper threading aid",
+        "summary": "Lower looper threader listed as a feature",
+        "check": "Juki MO-654DE page features, fetched 2026-10-02"
+      },
+      {
+        "feature": "Maker weight and depth",
+        "summary": "15.5 lb, 12.5 x 13.5 x 7.7 in",
+        "check": "Juki MO-654DE page specifications, fetched 2026-10-02"
+      }
+    ]
+  }
+}

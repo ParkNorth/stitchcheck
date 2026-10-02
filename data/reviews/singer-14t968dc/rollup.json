@@ -1,0 +1,1069 @@
+{
+  "slug": "singer-14t968dc",
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+  "reviewedOn": "2026-10-02",
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 34,
+    "itemsCollected": 275,
+    "statements": 97,
+    "voices": 50,
+    "ownerVoices": 44,
+    "dateRange": [
+      2010,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 2,
+        "items": 22
+      },
+      "reddit": {
+        "sources": 32,
+        "items": 252
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.2 from 1,501 ratings is shared by several listings (pooled variations), so it is not a rating for this model alone."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 22,
+      "voices": 21,
+      "ownerVoices": 20,
+      "sources": 10,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 12,
+        "reddit": 9
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 9,
+        "mixed": 5,
+        "neutral": 4
+      },
+      "years": [
+        2010,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c7d6a1fda",
+          "polarity": "negative",
+          "claim": "Owner reports the upper and lower looper threads never interlock in serger mode despite repeated rethreading.",
+          "quote": "threads just never cross paths",
+          "url": "https://www.reddit.com/r/sewing/comments/1k3b18b/can_someone_please_recommend_where_to_get_a/mo1fhzt/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c6bed50bb",
+          "polarity": "negative",
+          "claim": "Owner finds frequent serger-to-coverstitch switching, often for one construction step, painful.",
+          "quote": "turned out to be pretty painful",
+          "url": "https://www.reddit.com/r/sewing/comments/1vr34xf/coverstitchoverlock_combo_or_separate_machines/p4g4k7e/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c147a7138",
+          "polarity": "positive",
+          "claim": "A new serger user found threading quite easy after a day.",
+          "quote": "It's quite easy to thread",
+          "url": "https://www.amazon.com/dp/B002PDZTT2",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cb2b30abd",
+          "polarity": "positive",
+          "claim": "Threading by the book and CD was easy to follow.",
+          "quote": "Threading by the book and cd was a breeze to follow",
+          "url": "https://sewingmachinesplus.com/products/pro_5",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cebf04940",
+          "polarity": "mixed",
+          "claim": "Threading is somewhat complex but a book and CD are supplied to teach it.",
+          "quote": "yes it's a bit complex",
+          "url": "https://www.reddit.com/r/sewing/comments/1bsru0/my_new_singer_14t968dc_and_a_few_starter_threads/c9a2j72/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c597afc8d",
+          "polarity": "mixed",
+          "claim": "Threading was a challenge at first, later helped by sticker diagrams and the reference chart.",
+          "quote": "threading was a challenge the first first few times",
+          "url": "https://www.amazon.com/dp/B002PDZTT2",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cb2afbfeb",
+        "c95518d2c",
+        "ceb5d45a7",
+        "c4e8c7ce0",
+        "c2019ae32",
+        "c597afc8d",
+        "c96128d8c",
+        "c1d2c2ae5",
+        "ca6128914",
+        "c147a7138",
+        "c3a71adf7",
+        "cb2b30abd",
+        "ca7019839",
+        "c22c0fbca",
+        "cf6c86146",
+        "cebf04940",
+        "ceecf8d15",
+        "cf96ea3ff",
+        "ce2af9c71",
+        "c6bed50bb",
+        "c7d6a1fda",
+        "cf736a9f6"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 15,
+      "voices": 15,
+      "ownerVoices": 15,
+      "sources": 10,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 12
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 10,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2017,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c290cd144",
+          "polarity": "negative",
+          "claim": "Professional 5 owner reports shirring with elastic thread on two-thread chain stitch mostly jams, working only briefly, and skips stitches.",
+          "quote": "It jams really bad.",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1bolxiv/shirring_with_a_coverstitch_machine_not_working/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cb82ae969",
+          "polarity": "negative",
+          "claim": "Knife stopped moving within the first week because a pin and set screw in the moving knife arm joint worked loose; owner fixed it himself.",
+          "quote": "the knife stopped moving",
+          "url": "https://www.amazon.com/dp/B002PDZTT2",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c0db340de",
+          "polarity": "positive",
+          "claim": "Experienced sewer uses a Singer Professional 5 thread serger as a daily driver and loves it, despite Singer's reputation.",
+          "quote": "although I love my 5 thread serger",
+          "url": "https://www.reddit.com/r/sewing/comments/1n5anji/challenging_machine_search_cross_boarders/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c305ff690",
+          "polarity": "positive",
+          "claim": "Owner since 2018 with regular cleaning reports no major problems.",
+          "quote": "I haven't had any major problems with it",
+          "url": "https://www.reddit.com/r/sewing/comments/1g8e1o1/which_machine_should_i_keep/lt43dnv/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c600554f3",
+          "polarity": "mixed",
+          "claim": "Owner says coverstitch, chain stitch and rolled hem work but the overlock serger function does not.",
+          "quote": "I can do the coverstitch, chain stitch, roll hem",
+          "url": "https://www.reddit.com/r/sewing/comments/1k3b18b/can_someone_please_recommend_where_to_get_a/mo1tquk/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cb82ae969",
+        "c0cfde367",
+        "c6d8d6d89",
+        "cdbdf648c",
+        "c6fdef5d6",
+        "c069975bf",
+        "c305ff690",
+        "c195904e2",
+        "c290cd144",
+        "c24265fdf",
+        "caca17bf0",
+        "c600554f3",
+        "c4550527b",
+        "ce2d39603",
+        "c0db340de"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 11,
+      "voices": 11,
+      "ownerVoices": 10,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 7,
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 2
+      },
+      "years": [
+        2016,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c404db31d",
+          "polarity": "negative",
+          "claim": "Raising the presser foot did not release tension for pulling fabric out backward.",
+          "quote": "No tension release.",
+          "url": "https://www.amazon.com/dp/B002PDZTT2",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c6d0e2604",
+          "polarity": "negative",
+          "claim": "Owner found auto-tension frustrating while testing each stitch.",
+          "quote": "I did find the auto-tension a bit frustrating",
+          "url": "https://www.reddit.com/r/sewing/comments/1g8e1o1/which_machine_should_i_keep/lt6e1ou/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c9bb5a7eb",
+          "polarity": "positive",
+          "claim": "Owner lists automatic tensioning among the machine's strengths.",
+          "quote": "automatic tensioning",
+          "url": "https://www.amazon.com/dp/B002PDZTT2",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c55cc48b1",
+          "polarity": "mixed",
+          "claim": "Auto tension is a starting point; looper tensions need occasional adjustment to match the workbook stitch.",
+          "quote": "you will have to adjust the looper tensions occasionally",
+          "url": "https://www.amazon.com/dp/B002PDZTT2",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c9bb5a7eb",
+        "c812a0452",
+        "c404db31d",
+        "c075081d2",
+        "cd34ad3f9",
+        "c55cc48b1",
+        "c7b622434",
+        "cf7417c8b",
+        "ca6a13d0d",
+        "c6d0e2604",
+        "c0b55959b"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 7,
+      "voices": 7,
+      "ownerVoices": 6,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2015,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c5f4154a4",
+          "polarity": "negative",
+          "claim": "Professional 5 owner reports skipped stitches on a 3-thread overlock despite four needle changes and different fabric.",
+          "quote": "It keeps skipping stitches",
+          "url": "https://www.reddit.com/r/sewing/comments/12r16lm/serger_is_skipping_stitches/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c1ae02819",
+          "polarity": "negative",
+          "claim": "Cover stitch K bunches at looper A despite rethreading and following the manual.",
+          "quote": "but keeps getting bunched up",
+          "url": "https://www.reddit.com/r/sewhelp/comments/utm6vx/upgraded_from_brother_1034d_to_singer/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c6e6e48b5",
+          "polarity": "positive",
+          "claim": "Owner is pleased with the cover stitch.",
+          "quote": "The cover stitch is beautiful.",
+          "url": "https://www.amazon.com/dp/B002PDZTT2",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "ced7774ea",
+          "polarity": "positive",
+          "claim": "Owner is satisfied with results from the machine.",
+          "quote": "I have never been disappointed with the results of this machine",
+          "url": "https://www.reddit.com/r/sewing/comments/1vdhv0h/serveroverlock_needles/p1d5fg9/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c119c45a6",
+        "ccf7f4ffe",
+        "c6e6e48b5",
+        "c1ae02819",
+        "cd367d244",
+        "ced7774ea",
+        "c5f4154a4"
+      ]
+    },
+    {
+      "theme": "learning_curve",
+      "label": "Learning curve",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 5,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2014,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cfe879560",
+          "polarity": "negative",
+          "claim": "Machine spins up quickly, hard for a new user to control.",
+          "quote": "The machine does like to spin up quickly",
+          "url": "https://www.amazon.com/dp/B002PDZTT2",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c37120e6e",
+          "polarity": "negative",
+          "claim": "Owner finds they must relearn the machine each time they bring it out.",
+          "quote": "I feel like I have to relearn it every time I bring it out",
+          "url": "https://www.reddit.com/r/sewing/comments/1vdhv0h/serveroverlock_needles/p1d5fg9/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c0c0d5d5a",
+          "polarity": "mixed",
+          "claim": "Owner is happy with the machine but found it had a learning curve.",
+          "quote": "even though it was a bit of a learning curve",
+          "url": "https://www.reddit.com/r/sewing/comments/hta409/looking_for_a_serger_in_the_300400_range_please/fygj8pl/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cfe879560",
+        "c920007ac",
+        "c6cd2ab90",
+        "c0c0d5d5a",
+        "c37120e6e"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 4,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2013,
+        2019
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cb9cf6cea",
+          "polarity": "negative",
+          "claim": "Tester describes the Singer as mostly plastic.",
+          "quote": "The Singer is mostly plastic",
+          "url": "https://www.reddit.com/r/sewing/comments/6e8rdt/cover_stitching_and_singer_professional_5_serger/di9auc8/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c94563131",
+          "polarity": "positive",
+          "claim": "Owner finds it sturdy and well made.",
+          "quote": "It's very sturdy and well made!",
+          "url": "https://www.reddit.com/r/sewing/comments/1bsru0/my_new_singer_14t968dc_and_a_few_starter_threads/c9a2j72/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c102d98b8",
+          "polarity": "positive",
+          "claim": "Heavy shipping weight led the owner to assume the metal frame is as advertised.",
+          "quote": "the heavy duty metal frame is as advertised",
+          "url": "https://www.amazon.com/dp/B002PDZTT2",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c102d98b8",
+        "c2e83fbe3",
+        "ca75f8159",
+        "cb9cf6cea",
+        "c94563131"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 5,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2013,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cf59d0fd7",
+          "polarity": "negative",
+          "claim": "Recent unit shipped without the accessory feet the listing still shows.",
+          "quote": "it was shipped without the accessory feet",
+          "url": "https://www.amazon.com/dp/B002PDZTT2",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c97a1adac",
+        "cc84e40ae",
+        "c15c48519",
+        "cf59d0fd7",
+        "ca5fe6ec1"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2012,
+        2020
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c458deea1",
+          "polarity": "negative",
+          "claim": "Owner of this machine says it hops around if run at full pedal speed.",
+          "quote": "if you really put the pedal to the metal, it will hop around",
+          "url": "https://www.reddit.com/r/sewing/comments/hta409/looking_for_a_serger_in_the_300400_range_please/fygj8pl/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c91994fef",
+          "polarity": "negative",
+          "claim": "Machine shifted across the demo table while hemming poplin.",
+          "quote": "The Singer shimmied down the demo table while we tested a hem on poplin.",
+          "url": "https://www.reddit.com/r/sewing/comments/6e8rdt/cover_stitching_and_singer_professional_5_serger/di9auc8/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c930cd9b1",
+          "polarity": "positive",
+          "claim": "Owner calls the machine smooth and quiet.",
+          "quote": "the machine is smooth and quiet",
+          "url": "https://sewingmachinesplus.com/products/pro_5",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "ccc92dae5",
+        "c930cd9b1",
+        "c91994fef",
+        "c458deea1"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 3,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2017,
+        2017
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ce67fbd1c",
+          "polarity": "negative",
+          "claim": "There is no free arm, which made sleeves hard to feed.",
+          "quote": "this serger didn't have the free arm like in regular sewing machines",
+          "url": "https://www.amazon.com/dp/B002PDZTT2",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "ce67fbd1c",
+        "c136094ba",
+        "ccb6fec23"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2017,
+        2020
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c819b8ad0",
+          "polarity": "negative",
+          "claim": "Foot pedal is small, shifty and not very pressure sensitive.",
+          "quote": "It's small and shifty.",
+          "url": "https://www.reddit.com/r/sewing/comments/6e8rdt/cover_stitching_and_singer_professional_5_serger/di9auc8/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c819b8ad0",
+        "cdb9cbc8e"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cddb68019",
+          "polarity": "negative",
+          "claim": "Owner says Singer declined to help and only pointed them to a repair shop.",
+          "quote": "told me was to go find a repair shop",
+          "url": "https://www.reddit.com/r/sewing/comments/1k3b18b/can_someone_please_recommend_where_to_get_a/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c815e4946",
+          "polarity": "mixed",
+          "claim": "Buyer received a Professional 5 without the foot pedal/power supply; Singer support agreed to replace it after verifying purchase.",
+          "quote": "confirm my proof of purchase and ship me a new pedal",
+          "url": "https://www.reddit.com/r/sewing/comments/zntb79/singer_customer_service/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cddb68019",
+        "c815e4946"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2020,
+        2020
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c43c49169"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2016,
+        2016
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c085c447d",
+          "polarity": "negative",
+          "claim": "Motor hums then lurches forward suddenly when the pedal is pressed; no gentle slow start.",
+          "quote": "the motor hums until you press down hard enough",
+          "url": "https://www.amazon.com/dp/B002PDZTT2",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c085c447d"
+      ]
+    },
+    {
+      "theme": "cutting_trimming",
+      "label": "Cutting and trimming",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2016,
+        2016
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "ce16ebfc7"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2017,
+        2017
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "ce586702b"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2017,
+        2017
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c280bc4b2",
+          "polarity": "negative",
+          "claim": "Stock bulb gives a dim yellow light.",
+          "quote": "the bulb's light was emitting a dim yellow light",
+          "url": "https://www.amazon.com/dp/B002PDZTT2",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c280bc4b2"
+      ]
+    },
+    {
+      "theme": "differential_feed",
+      "label": "Differential feed",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2017,
+        2017
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c9b852341",
+          "polarity": "negative",
+          "claim": "Stretch and gathering function performed poorly on jersey, denim and elastic in the shop test.",
+          "quote": "This function does not perform well on jersey knit",
+          "url": "https://www.reddit.com/r/sewing/comments/6e8rdt/cover_stitching_and_singer_professional_5_serger/di9auc8/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c9b852341"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "ce631edae"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B002PDZTT2",
+      "pageRating": 4.2,
+      "pageCount": 1501,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 11
+      },
+      "lowRated": 1,
+      "sampled": "13 top reviews (8 US, 5 other countries) of 1501 ratings"
+    },
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://sewingmachinesplus.com/products/pro_5",
+      "pageRating": 4.78,
+      "pageCount": 9,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 8
+      },
+      "lowRated": 1,
+      "sampled": null
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Weight",
+      "juki": "18.6 (maker page, unit not shown)",
+      "others": "9.0 kg = 19.84 lb (maker manual p72)",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+        },
+        {
+          "label": "Singer manual",
+          "url": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
+        }
+      ],
+      "field": "Weight",
+      "source": "maker-page"
+    },
+    {
+      "label": "Dimensions",
+      "juki": "13.5 x 10.5 x 11.5 (maker page, no unit or axis labels)",
+      "others": "360 x 290 x 300 mm W x D x H (maker manual p72)",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+        }
+      ],
+      "field": "Dimensions",
+      "source": "manual"
+    },
+    {
+      "label": "Warranty",
+      "juki": "90 day / 2 yr / 25 yr (maker page and warranty PDF, generic not model-specific)",
+      "others": "25 yr frame, 2 yr electronic, 90 day mechanical (our spec)",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Singer warranty PDF",
+          "url": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+        }
+      ],
+      "field": "Warranty",
+      "source": "warranty"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "Singer Heavy Duty 14HD854",
+      "label": "Singer Heavy Duty 14HD854",
+      "rows": [
+        {
+          "feature": "Thread capability and knife",
+          "urls": 0,
+          "classes": [],
+          "summary": "2, 3 or 4 thread; 6 stitch types; 1,300 spm; Singer says the knife is 60% larger than on other Singer sergers; the upper knife can be moved out of the way.",
+          "check": "Singer 14HD854 product page, fetched 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Singer 14CG754",
+      "label": "Singer 14CG754",
+      "rows": [
+        {
+          "feature": "Thread capability and free arm",
+          "urls": 0,
+          "classes": [],
+          "summary": "2, 3 or 4 thread; Singer says it has a built-in free arm and differential feed. No coverstitch.",
+          "check": "Singer 14CG754 product page, fetched 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

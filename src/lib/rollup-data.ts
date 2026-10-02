@@ -7742,6 +7742,945 @@ export const rollupData: Record<string, Rollup> = {
     ],
     "rivals": []
   },
+  "brother-cs7000x": {
+    "slug": "brother-cs7000x",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 62,
+      "itemsCollected": 446,
+      "statements": 78,
+      "voices": 55,
+      "ownerVoices": 36,
+      "dateRange": [
+        2021,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 60,
+          "items": 417
+        },
+        "retailer": {
+          "sources": 2,
+          "items": 29
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.6 from 3,642 ratings is shared by several listings of this machine (pooled variations, ASIN B08BH5GTNC); only 13 written reviews were retrieved, so the rating reflects the pooled variation set and not this exact configuration alone."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 11,
+        "voices": 11,
+        "ownerVoices": 9,
+        "sources": 6,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 11
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 8,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2022,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c79d33fd4",
+            "polarity": "negative",
+            "claim": "A second owner had the same sudden needle-hitting-hook fault after a trouble-free bag project.",
+            "quote": "suddenly the needle is hitting the rotary hook",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1t9td2j/brother_cs7000x_needle_hitting_hook/oqaxeyd/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c377aa70b",
+            "polarity": "negative",
+            "claim": "New machine misaligned after sewing very thick fleece, with the needle landing outside the bobbin shuttle; fixed by shifting the needle with a rear screw.",
+            "quote": "the needle lands outside of the bobbin shuttle",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1w9fl45/please_help_how_to_realign_bobbin_shuttle_on_my/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c948e8919",
+            "polarity": "positive",
+            "claim": "Owner of a couple of months reports no issues and easy startup.",
+            "quote": "I haven’t had any issues",
+            "url": "https://www.reddit.com/r/sewing/comments/11buqhp/im_considering_buying_a_brother_cs7000x_is_it_a/ja14fqm/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c26522a9f",
+            "polarity": "positive",
+            "claim": "Owner of the same machine reports no bobbin winding problems after following the manual.",
+            "quote": "I’ve never (knock on wood!) had problems",
+            "url": "https://www.reddit.com/r/quilting/comments/w4pj5j/making_bobbins_on_brother_cs7000x_hi_im_having_a/ih5l6nc/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 11,
+        "voices": 11,
+        "ownerVoices": 6,
+        "sources": 6,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 8,
+          "retailer": 3
+        },
+        "polarity": {
+          "positive": 4,
+          "negative": 5,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2021,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c688f3cf6",
+            "polarity": "negative",
+            "claim": "Reviewer says it is not heavy duty for thick industrial level materials and advanced users may want more power and speed.",
+            "quote": "it is not a heavy-duty machine for thick industrial-level materials",
+            "url": "https://www.amazon.com/dp/B08BH5GTNC",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c01055e86",
+            "polarity": "positive",
+            "claim": "Owner sews thin, soft leather from upcycled jackets with leather needles and says the machine coped; stresses only thin leather.",
+            "quote": "Brother CS7000X has worked fine for me",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1qtm0gb/brother_cs7000x_or_st371hd/o38mitg/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c07a5cf5d",
+            "polarity": "positive",
+            "claim": "Owner of about 2.5 months says it handled pants, a dress, quilted bags and thick martial arts kimono repairs without trouble.",
+            "quote": "The machine has handled everything well.",
+            "url": "https://www.reddit.com/r/sewing/comments/ppzuod/thoughts_on_brother_cs7000x/hda18z4/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 9,
+        "voices": 9,
+        "ownerVoices": 8,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 4,
+          "retailer": 5
+        },
+        "polarity": {
+          "positive": 5,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c809bf4fd",
+            "polarity": "negative",
+            "claim": "Replacement unit squeaks on every stitch and fabric type, even after cleaning, rethreading and new bobbin.",
+            "quote": "Why is my machine squeaking like this??",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1pajp56/machine_squeaking_brother_cs7000x/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cc392c8d6",
+            "polarity": "negative",
+            "claim": "New unit makes a loud startup noise that sounds like the motor jamming.",
+            "quote": "My machine just arrived is making this Awful noise at startup.",
+            "url": "https://www.reddit.com/r/sewing/comments/1knkq2x/is_this_startup_noise_normal_brother_cs7000x/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c67022885",
+            "polarity": "positive",
+            "claim": "Reviewer says it runs quietly.",
+            "quote": "It runs quietly",
+            "url": "https://www.amazon.com/dp/B08BH5GTNC",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c253c64d6",
+            "polarity": "positive",
+            "claim": "Beginner says the machine is quiet with easy pedal control.",
+            "quote": "The machine is quiet and it’s easy to control the pedal.",
+            "url": "https://www.sewingmachinesplus.com/CS7000X.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 8,
+        "voices": 8,
+        "ownerVoices": 5,
+        "sources": 7,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 7,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c68257cab",
+            "polarity": "positive",
+            "claim": "Poster found an overcasting foot among the accessories and used it to make a faux serged edge.",
+            "quote": "Tried it out, and it worked!",
+            "url": "https://www.reddit.com/r/sewing/comments/1h1kmgw/can_i_do_this_stitch_with_a_brother_cs7000x/lzcq88a/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c680d9e1e",
+            "polarity": "positive",
+            "claim": "Owner says the model ships with several presser feet and many stitches.",
+            "quote": "The model comes with several presser feet and many stitches",
+            "url": "https://www.reddit.com/r/sewing/comments/11buqhp/im_considering_buying_a_brother_cs7000x_is_it_a/ja18g0u/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 7,
+        "voices": 7,
+        "ownerVoices": 4,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 4,
+          "retailer": 3
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 4
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c83947f49",
+            "polarity": "positive",
+            "claim": "Owner says the overcast foot gives a decent overcast stitch.",
+            "quote": "it does a decent overcast stitch",
+            "url": "https://www.reddit.com/r/sewing/comments/1h1kmgw/can_i_do_this_stitch_with_a_brother_cs7000x/lzcqdvt/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c028deab1",
+            "polarity": "positive",
+            "claim": "Owner reports consistent, even stitches after a year.",
+            "quote": "the stitches are fantastic, consistent, even",
+            "url": "https://www.amazon.com/dp/B08BH5GTNC",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 6,
+        "voices": 6,
+        "ownerVoices": 4,
+        "sources": 6,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 4,
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 4
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c0bf6f562",
+            "polarity": "negative",
+            "claim": "No oil or brush ships with the machine.",
+            "quote": "I wish it came with oil and a brush.",
+            "url": "https://www.sewingmachinesplus.com/CS7000X.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c7525ce5f",
+            "polarity": "positive",
+            "claim": "Owner finds it easy to get inside the machine to clean it.",
+            "quote": "it’s easy enough to get inside your machine to clean up a bit",
+            "url": "https://www.amazon.com/dp/B08BH5GTNC",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 4,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 3,
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2021,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cdaa3d0fb",
+            "polarity": "negative",
+            "claim": "New owner cannot see the take-up lever thread catch even with the needle at its highest position.",
+            "quote": "I can’t see the thread catch on the take-up lever.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ribz28/brother_cs7000x_cant_get_thread_through_takeup/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c943a3df4",
+            "polarity": "negative",
+            "claim": "Needle threader instructions were unclear, so the reviewer threaded by hand.",
+            "quote": "The only thing I had a bit of a problem with was the needle threader.",
+            "url": "https://www.amazon.com/dp/B08BH5GTNC",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cce936a0e",
+            "polarity": "positive",
+            "claim": "Automatic needle threader has worked every time so far in shared house use.",
+            "quote": "The needle threader has worked every time so far",
+            "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wnj1og/the_shared_house_got_a_brother_cs7000x_quilting/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cd6986c4d",
+            "polarity": "mixed",
+            "claim": "One year owner only has trouble threading thick topstitch thread through the needle.",
+            "quote": "The only threading I’ve had trouble getting into the needle head is topstitch thread",
+            "url": "https://www.amazon.com/dp/B08BH5GTNC",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 2,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 3,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c45b89171",
+            "polarity": "negative",
+            "claim": "Buyer found the machine very light and feels it is insubstantial.",
+            "quote": "It feels insubstantial.",
+            "url": "https://www.sewingmachinesplus.com/CS7000X.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c26e55933",
+            "polarity": "positive",
+            "claim": "Poster says the body is metal framed under plastic covers.",
+            "quote": "the body is metal framed under the plastic and feels it",
+            "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wnj1og/the_shared_house_got_a_brother_cs7000x_quilting/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 0,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2021,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "thread_trimmer",
+        "label": "Thread trimmer",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2022,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cd52baa71",
+            "polarity": "negative",
+            "claim": "Reviewer notes there is no thread cut button.",
+            "quote": "except it does not have a cut thread button",
+            "url": "https://www.amazon.com/dp/B08BH5GTNC",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c3cf8d878",
+            "polarity": "negative",
+            "claim": "Owner agrees the machine handles thicker seams poorly.",
+            "quote": "it doesn't do well with thicker seams",
+            "url": "https://www.reddit.com/r/sewing/comments/11buqhp/im_considering_buying_a_brother_cs7000x_is_it_a/ja18g0u/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c4ca7c0d6",
+            "polarity": "negative",
+            "claim": "Owner finds stitches hard to keep smooth on very thin material with long stitch lengths.",
+            "quote": "sewing really thin material it seems to have a hard time keeping the stitches smooth",
+            "url": "https://www.amazon.com/dp/B08BH5GTNC",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "walking_foot",
+        "label": "Walking foot",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c84a12157",
+            "polarity": "positive",
+            "claim": "Owner says it ships with many presser feet and accessories, including a walking foot.",
+            "quote": "It even has a walking foot.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/136xsmr/brother_cs7000x_vs_st371hd_for_beginner/jircbqq/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c3ba9e4cf",
+            "polarity": "positive",
+            "claim": "Ten feet in the box, including a walking foot and a quarter inch piecing foot.",
+            "quote": "Ten feet come in the box, including a walking foot and a quarter inch foot",
+            "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wnj1og/the_shared_house_got_a_brother_cs7000x_quilting/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cee7af150",
+            "polarity": "positive",
+            "claim": "Reviewer finds it light and easy to carry to classes.",
+            "quote": "it is so light and easy to pack and carry",
+            "url": "https://www.amazon.com/dp/B08BH5GTNC",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2023
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cbeb4f9e3",
+            "polarity": "positive",
+            "claim": "Stitches on quilting cotton came out even without any tension adjustment.",
+            "quote": "stitches on quilting cotton have come out dead even without touching the tension",
+            "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wnj1og/the_shared_house_got_a_brother_cs7000x_quilting/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c0eb76cfe",
+            "polarity": "positive",
+            "claim": "Needle area light is bright enough that no extra lamp was needed.",
+            "quote": "the light is bright enough that the desk lamp stayed in the drawer",
+            "url": "https://www.reddit.com/r/CraftBenchTalk/comments/1wnj1og/the_shared_house_got_a_brother_cs7000x_quilting/",
+            "source_class": "reddit"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B08BH5GTNC",
+        "pageRating": 4.6,
+        "pageCount": 3642,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 12
+        },
+        "lowRated": 0,
+        "sampled": "13 top reviews (8 US, 5 other countries) of 3642 ratings"
+      },
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/CS7000X.php",
+        "pageRating": 4.75,
+        "pageCount": 16,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 2,
+          "5": 13
+        },
+        "lowRated": 1,
+        "sampled": null
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Max speed",
+        "juki": "750 (maker spec table, unit not printed)",
+        "others": "Dealer listings: 750 spm",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother CS7000X page",
+            "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+          }
+        ],
+        "field": "Max sewing speed",
+        "source": "maker-page"
+      },
+      {
+        "label": "Throat space",
+        "juki": "No figure; 'wide table' only",
+        "others": "Retail copy repeats 'large needle-to-arm workspace' (CP100X wording)",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother CS7000X page",
+            "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+          },
+          {
+            "label": "Brother CP100X page",
+            "url": "https://www.brother-usa.com/p/sewing/CP100X"
+          }
+        ],
+        "field": "Throat space",
+        "source": "maker-page"
+      },
+      {
+        "label": "Frame",
+        "juki": "Not stated on the CS7000X page",
+        "others": "Walmart listing titles say 'Durable Metal Frame'",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother CS7000X page",
+            "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+          }
+        ],
+        "field": "Frame",
+        "source": "maker-page"
+      },
+      {
+        "label": "Free arm",
+        "juki": "Yes; remove the flat bed attachment",
+        "others": "Some owner posts say there is no free arm",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother CS7000X page",
+            "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+          }
+        ],
+        "field": "Free arm",
+        "source": "maker-page"
+      },
+      {
+        "label": "Included feet",
+        "juki": "10 sewing feet listed (nine feet plus quilt guide); spec table also lists 1/4 in foot",
+        "others": "Dealers say 10 feet",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother CS7000X page",
+            "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+          }
+        ],
+        "field": "Included feet",
+        "source": "maker-page"
+      },
+      {
+        "label": "Warranty",
+        "juki": "25 Year Limited Warranty; PDF: 1 yr parts/labor/accessories, 2 yr electronics, 25 yr chassis casting",
+        "others": "Sewing Machines Plus repeats the same split",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother CS7000X page",
+            "url": "https://www.brother-usa.com/p/sewing/CS7000X"
+          },
+          {
+            "label": "Brother standard warranty PDF",
+            "url": "https://assets.brother.com/asset/3c94d716-bfc6-44de-8ae8-0b4b0286d316/13317_Standard_Warranty-pdf.pdf"
+          }
+        ],
+        "field": "Warranty",
+        "source": "warranty"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "CS7000i",
+        "label": "Brother CS7000i",
+        "rows": []
+      },
+      {
+        "model": "CS7205",
+        "label": "Brother CS7205",
+        "rows": [
+          {
+            "feature": "Maker stitch and speed figures",
+            "urls": 0,
+            "classes": [],
+            "summary": "CS7205: 205 built-in stitches, 850 max sewing speed, 8 buttonholes, $289.99 on the maker page; same 7 width and 5 length.",
+            "check": "Brother USA CS7205 product page, fetched 2026-10-02.",
+            "examples": []
+          },
+          {
+            "feature": "Maker feet list",
+            "urls": 0,
+            "classes": [],
+            "summary": "CS7205 lists walking foot, spring action quilting foot, stitch guide foot and 1/4 in foot among its feet.",
+            "check": "Brother USA CS7205 product page, fetched 2026-10-02.",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "CS6000i",
+        "label": "Brother CS6000i",
+        "rows": []
+      },
+      {
+        "model": "CP100X",
+        "label": "Brother CP100X",
+        "rows": [
+          {
+            "feature": "Maker stitch and speed figures",
+            "urls": 0,
+            "classes": [],
+            "summary": "CP100X: 100 built-in stitches, 750 max sewing speed, 8 buttonholes, $259.99 on the maker page; same weight and dimensions as the CS7000X.",
+            "check": "Brother USA CP100X product page, fetched 2026-10-02.",
+            "examples": []
+          },
+          {
+            "feature": "Maker workspace and frame wording",
+            "urls": 0,
+            "classes": [],
+            "summary": "The CP100X page carries 'large needle-to-arm workspace' and 'durable metal frame construction' wording; the CS7000X page does not, and neither gives an inch figure.",
+            "check": "Brother USA CP100X and CS7000X product pages, fetched 2026-10-02.",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "XR9550",
+        "label": "Brother XR9550",
+        "rows": [
+          {
+            "feature": "Maker stitch figures",
+            "urls": 0,
+            "classes": [],
+            "summary": "XR9550: 165 built-in stitches including 55 alphanumeric, 8 buttonholes, backlit LCD, $269.99, 1/2/25 year warranty split on the maker page.",
+            "check": "Brother USA XR9550 product page, fetched 2026-10-02.",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
   "brother-st371hd": {
     "slug": "brother-st371hd",
     "status": "approved",
@@ -9532,6 +10471,861 @@ export const rollupData: Record<string, Rollup> = {
             "classes": [],
             "summary": "Handi Quilter's systems page says the HQ18 Avante has 15 inches of quilting space, with throat and quilting space not equal.",
             "check": "Handi Quilter Longarm Quilting Systems page, 2026-10-02",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "handi-quilter-sweet-sixteen": {
+    "slug": "handi-quilter-sweet-sixteen",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 14,
+      "itemsCollected": 210,
+      "statements": 50,
+      "voices": 32,
+      "ownerVoices": 27,
+      "dateRange": [
+        2012,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 13,
+          "items": 189
+        },
+        "retailer": {
+          "sources": 1,
+          "items": 17
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 11,
+        "voices": 11,
+        "ownerVoices": 8,
+        "sources": 6,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 8,
+          "retailer": 3
+        },
+        "polarity": {
+          "positive": 4,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 5
+        },
+        "years": [
+          2014,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c5234ee30",
+            "polarity": "negative",
+            "claim": "Owner finds it hard to support the weight of heavier quilts on the table.",
+            "quote": "it's really hard for me to support the weight of heavier quilts",
+            "url": "https://www.reddit.com/r/quilting/comments/1tbooj2/muahahaha/oljympm/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cfa986d29",
+            "polarity": "positive",
+            "claim": "Owner mounted the sit down machine on a Grace Q-Zone frame and likes it most there.",
+            "quote": "I recently put it on a Grace Q-Zone frame",
+            "url": "https://www.reddit.com/r/quilting/comments/kiy29c/what_to_askknow_before_buying_a_used_handiquilter/ggtqpje/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c6205da4a",
+            "polarity": "positive",
+            "claim": "Owner quilting a king size quilt says the machine operates smoothly.",
+            "quote": "working on a King size quilt and the machine operates smoothly",
+            "url": "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c90c882a6",
+            "polarity": "mixed",
+            "claim": "Owner of 11 to 12 years does twin size quilts easily on the table and needs a hanging system for bigger ones.",
+            "quote": "I can pretty easily do up to twin sized quilts",
+            "url": "https://www.reddit.com/r/quilting/comments/1tbooj2/muahahaha/oljq9tz/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 9,
+        "voices": 9,
+        "ownerVoices": 8,
+        "sources": 6,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 8,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 4,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2014,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c3a3dc33e",
+            "polarity": "negative",
+            "claim": "Owner pulled the pedal wires out of the connector because the pedal is needed even in Play mode.",
+            "quote": "I pull the wires out of the connector",
+            "url": "https://www.reddit.com/r/quilting/comments/kiy29c/what_to_askknow_before_buying_a_used_handiquilter/ggtqpje/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c4a519926",
+            "polarity": "negative",
+            "claim": "Shop worker says the shop's Sweet 16 machines had timing knocked out by very heavy seams, so buy local for service.",
+            "quote": "timing knocked out by extra heavy seams",
+            "url": "https://www.reddit.com/r/quilting/comments/23b4rn/hq_sweet_sixteen_or_babylock_tiara_tabletop_models/cgvhjkr/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c3c0ca60b",
+            "polarity": "positive",
+            "claim": "Owner reports no timing problems and calls the machine a workhorse.",
+            "quote": "no timing issues, and no light issues here",
+            "url": "https://www.reddit.com/r/quilting/comments/23b4rn/hq_sweet_sixteen_or_babylock_tiara_tabletop_models/cgvnir0/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c4c2de0b4",
+            "polarity": "positive",
+            "claim": "Owner of ten or more years reports never having trouble with the machine.",
+            "quote": "I have never had trouble with my HQ Sweet 16.",
+            "url": "https://www.reddit.com/r/quilting/comments/1hz82qs/janome_vs_juki_vs_handiquilter_your_opinions/m6z7nh4/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c90ad0a48",
+            "polarity": "mixed",
+            "claim": "Third owner of an old Sweet 16 says it can be persnickety but is now figured out.",
+            "quote": "It can be persnickety but I think I finally have it figured out.",
+            "url": "https://www.reddit.com/r/quilting/comments/1kkem17/starch_and_krinkling/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "free_motion",
+        "label": "Free-motion quilting",
+        "statements": 8,
+        "voices": 6,
+        "ownerVoices": 6,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 6
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 3
+        },
+        "years": [
+          2014,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c04fc8f15",
+            "polarity": "positive",
+            "claim": "Owner coming from a home machine says moving the fabric by hand on the sit down does not bother them.",
+            "quote": "moving the fabric doesn't bother me at all",
+            "url": "https://www.reddit.com/r/quilting/comments/23b4rn/hq_sweet_sixteen_or_babylock_tiara_tabletop_models/cgvbgmd/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cf0ce9005",
+            "polarity": "positive",
+            "claim": "Owner prefers the Insight table with built in regulator over the magnetic puck regulator.",
+            "quote": "I have an Insight Table that has the regulator built in, and I love it!",
+            "url": "https://www.reddit.com/r/quilting/comments/1tbooj2/muahahaha/olxmz8c/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cda4b174b",
+            "polarity": "mixed",
+            "claim": "Owner has the stitch regulator, likes it in some situations and free motions without it in others.",
+            "quote": "I do have the stitch regulator, and I like it in particular situations",
+            "url": "https://www.reddit.com/r/quilting/comments/23b4rn/hq_sweet_sixteen_or_babylock_tiara_tabletop_models/cgvbgmd/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 4,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2013,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cebeb96b6",
+            "polarity": "negative",
+            "claim": "Owner of the Janome branded Sweet 16 has tension trouble for a while after oiling and heard it is a known Handi Quilter issue.",
+            "quote": "I have trouble with the tension for a period of time",
+            "url": "https://www.reddit.com/r/quilting/comments/kiy29c/what_to_askknow_before_buying_a_used_handiquilter/ggtqpje/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c2b5e9817",
+            "polarity": "positive",
+            "claim": "Owner reports only minor tension issues and none once set with fine quality thread.",
+            "quote": "I have only had minor tension issues",
+            "url": "https://www.reddit.com/r/quilting/comments/23b4rn/hq_sweet_sixteen_or_babylock_tiara_tabletop_models/cgvnir0/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c29b12ba3",
+            "polarity": "positive",
+            "claim": "Owner says tension is very easy to get right.",
+            "quote": "It's very easy to get the tension right.",
+            "url": "https://www.reddit.com/r/quilting/comments/1hz82qs/janome_vs_juki_vs_handiquilter_your_opinions/m6z7nh4/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c18772361",
+            "polarity": "mixed",
+            "claim": "Buyer needed a little time to get the tension right at first.",
+            "quote": "It took me a little to get the tension just right",
+            "url": "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 6,
+        "voices": 5,
+        "ownerVoices": 4,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 4,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2018,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c39151671",
+            "polarity": "negative",
+            "claim": "Buyer says a promised ruler quilting promotion package of foot and gloves was not in the box.",
+            "quote": "those were not in the package",
+            "url": "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c8adc82d4",
+            "polarity": "negative",
+            "claim": "Owner did the rest of the quilting on a domestic machine to get a presser foot and feed dogs the sit down lacks.",
+            "quote": "I wanted the control of a presser foot and feed dogs",
+            "url": "https://www.reddit.com/r/quilting/comments/17ev3rk/always_something_to_learn/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "years": [
+          2014,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ce1439969",
+            "polarity": "positive",
+            "claim": "Shop worker finds the machine fairly easy to maintain.",
+            "quote": "it's fairly easy to maintain",
+            "url": "https://www.reddit.com/r/quilting/comments/23b4rn/hq_sweet_sixteen_or_babylock_tiara_tabletop_models/cgvhjkr/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2015,
+          2020
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "caf5931ae",
+            "polarity": "negative",
+            "claim": "Owner finds the machine fussy about thread choice.",
+            "quote": "It’s thread finicky.",
+            "url": "https://www.reddit.com/r/quilting/comments/kiy29c/what_to_askknow_before_buying_a_used_handiquilter/ggtqpje/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c5d772fac",
+            "polarity": "positive",
+            "claim": "Owner of a few years says the machine is not picky about thread type.",
+            "quote": "is not picky about the thread type",
+            "url": "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2014,
+          2014
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c97cf98eb",
+            "polarity": "positive",
+            "claim": "Owner reports no problems with the machine light.",
+            "quote": "no light issues here",
+            "url": "https://www.reddit.com/r/quilting/comments/23b4rn/hq_sweet_sixteen_or_babylock_tiara_tabletop_models/cgvnir0/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "value_price",
+        "label": "Value and price",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "ceef57167",
+            "polarity": "positive",
+            "claim": "Owner finds both the Juki and the Sweet Sixteen sturdy and reliable.",
+            "quote": "Both machines are sturdy and reliable in my experience.",
+            "url": "https://www.reddit.com/r/quilting/comments/1hz82qs/janome_vs_juki_vs_handiquilter_your_opinions/m6q0q0u/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2015,
+          2015
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "ca10a7f95",
+            "polarity": "positive",
+            "claim": "Owner likes being able to set the speed to a comfortable level.",
+            "quote": "I love that you can set the speed to what you are comfortable with",
+            "url": "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2013,
+          2013
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c9db99918",
+            "polarity": "positive",
+            "claim": "Buyer who ordered the stitch regulator package says it makes stitches more consistent.",
+            "quote": "The stitch regulator makes me stitches more consistent.",
+            "url": "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php",
+            "source_class": "retailer"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php",
+        "pageRating": 4.76,
+        "pageCount": 17,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 2,
+          "5": 14
+        },
+        "lowRated": 1,
+        "sampled": null
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Throat dimensions",
+        "juki": "8.25 x 16 in (245 x 610 mm); 'Handi Quilter 16-inch sit-down longarm' on the cover.",
+        "others": "Matches our 16 in; the maker does not say needle to body.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "HQ Sweet Sixteen manual v3.3",
+            "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+          }
+        ],
+        "field": "throatIn",
+        "source": "manual"
+      },
+      {
+        "label": "Throat height",
+        "juki": "8.25 in (first figure of 8.25 x 16 in).",
+        "others": "Dealer copy: 8 inches of vertical space.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "HQ Sweet Sixteen manual v3.3",
+            "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+          }
+        ],
+        "field": "throatHeightIn",
+        "source": "manual"
+      },
+      {
+        "label": "Maximum speed",
+        "juki": "1500 SPM maximum (manual v3.3 and v3.1).",
+        "others": "Rocky Mountain Sewing copy: up to 1,800 stitches per minute.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "HQ Sweet Sixteen manual v3.3",
+            "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+          },
+          {
+            "label": "Dealer page",
+            "url": "https://rockymountainsewing.com/products/handi-quilter-sweet-sixteen/"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "manual"
+      },
+      {
+        "label": "Needle system",
+        "juki": "134 (135 x 7), sizes 12/80 to 20/125.",
+        "others": "Matches.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "HQ Sweet Sixteen manual v3.3",
+            "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+          }
+        ],
+        "field": "needleSystem",
+        "source": "manual"
+      },
+      {
+        "label": "Hook and bobbin",
+        "juki": "Rotary hook, horizontal axis; M-class aluminum bobbin; case type MF.",
+        "others": "Our spec says rotary vertical hook.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "HQ Sweet Sixteen manual v3.3",
+            "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+          }
+        ],
+        "field": "hookBobbin",
+        "source": "manual"
+      },
+      {
+        "label": "Hopping foot lift",
+        "juki": "5 mm stroke.",
+        "others": "Matches.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "HQ Sweet Sixteen manual v3.3",
+            "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+          }
+        ],
+        "field": "hoppingFootLiftMm",
+        "source": "manual"
+      },
+      {
+        "label": "Lighting",
+        "juki": "LED, 2.25 W.",
+        "others": "Dealer copy: LED light ring.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "HQ Sweet Sixteen manual v3.3",
+            "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+          }
+        ],
+        "field": "lighting",
+        "source": "manual"
+      },
+      {
+        "label": "Motor and power",
+        "juki": "Brushless DC; 300 W peak; 105 to 120 VAC (US and Canada), 100 to 250 VAC (rest of world).",
+        "others": "Our spec says 90 to 264 VAC.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "HQ Sweet Sixteen manual v3.3",
+            "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+          }
+        ],
+        "field": "motor",
+        "source": "manual"
+      },
+      {
+        "label": "Stitch regulation",
+        "juki": "TruStitch is an 'optional accessory'. InSight lift table adds built-in regulation for TruStitch-compatible machines on firmware 3.18 or higher.",
+        "others": "One dealer says TruStitch is included in its package.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "HQ Sweet Sixteen manual v3.3",
+            "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+          },
+          {
+            "label": "Lift table page",
+            "url": "https://handiquilter.com/product/lift-table-for-sweet-sixteen/"
+          },
+          {
+            "label": "Dealer page",
+            "url": "https://rockymountainsewing.com/products/handi-quilter-sweet-sixteen/"
+          }
+        ],
+        "field": "stitchRegulation",
+        "source": "manual"
+      },
+      {
+        "label": "Table",
+        "juki": "Height-adjustable folding legs; table weighs nearly 50 lb; 18 x 30 in extensions sold separately.",
+        "others": "Dealer: 36 x 30 in, 26 to 42 in.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "HQ Sweet Sixteen manual v3.3",
+            "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+          }
+        ],
+        "field": "table",
+        "source": "manual"
+      },
+      {
+        "label": "Weight",
+        "juki": "Not published for the machine.",
+        "others": "Not found.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "HQ Sweet Sixteen manual v3.3",
+            "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+          }
+        ],
+        "field": "weightLb",
+        "source": "manual"
+      },
+      {
+        "label": "Warranty",
+        "juki": "90 days parts and labor; 10 years sewing head casting; 5 years mechanical parts; 5 years electrical parts. Registration required. Not model-specific.",
+        "others": "Matches.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Warranty page",
+            "url": "https://handiquilter.com/warranty/"
+          },
+          {
+            "label": "HQ Sweet Sixteen manual v3.3",
+            "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "warranty"
+      },
+      {
+        "label": "Status",
+        "juki": "No machine page; parts tag archive only; support article says the machine is on the 'secondary used-machine market'.",
+        "others": "Dealer page: 'this item has been discontinued'.",
+        "status": "dealer only",
+        "links": [
+          {
+            "label": "Support article",
+            "url": "https://support.handiquilter.com/hc/en-us/articles/4405636309275-HQ-Sweet-Sixteen-Getting-Started-Part-2"
+          },
+          {
+            "label": "Dealer page",
+            "url": "https://rockymountainsewing.com/products/handi-quilter-sweet-sixteen/"
+          }
+        ],
+        "field": "status",
+        "source": "support"
+      },
+      {
+        "label": "Price",
+        "juki": "No maker price for the machine. Lift table accessory $2,645.00.",
+        "others": "Dealer listing about $6,495 (spec priceUsdSeen).",
+        "status": "dealer only",
+        "links": [
+          {
+            "label": "Lift table page",
+            "url": "https://handiquilter.com/product/lift-table-for-sweet-sixteen/"
+          }
+        ],
+        "field": "price",
+        "source": "lift"
+      },
+      {
+        "label": "Maker claims",
+        "juki": "'greater functionality and ease of operation ... than ever before conceived in the quilting industry'; 'very robust design features'. Intended for household use.",
+        "others": "Dealer: 'The most technologically advanced sit down free motion quilter'.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "HQ Sweet Sixteen manual v3.3",
+            "url": "https://www.ahml.info/sites/default/files/2024-06/Handi_Quilter_Sweet_Sixteen_Manual.pdf"
+          }
+        ],
+        "field": "claims",
+        "source": "manual"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "Capri",
+        "label": "HQ Capri 18 (retired)",
+        "rows": [
+          {
+            "feature": "Sweet Sixteen footprint, 18 in head",
+            "urls": 0,
+            "classes": [],
+            "summary": "The Capri is a retired stationary 18 in machine with an InSight table (36 x 32 in) and built-in regulation.",
+            "check": "Handi Quilter HQ Capri post and staff comments, 2026-10-02.",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "Moxie",
+        "label": "HQ Moxie, Moxie XL and Moxie ST",
+        "rows": [
+          {
+            "feature": "Sit-down 18 in stationary sibling",
+            "urls": 0,
+            "classes": [],
+            "summary": "The Moxie ST is a stationary Moxie with an 18 in throat, 2,100 spm and built-in stitch regulation on a 38 x 38 in InSight table.",
+            "check": "Handi Quilter Moxie ST page, 2026-10-02; handiquilter.com lists $6,495.00.",
             "examples": []
           }
         ]
@@ -15567,6 +17361,1125 @@ export const rollupData: Record<string, Rollup> = {
     ],
     "rivals": []
   },
+  "juki-ddl-5550": {
+    "slug": "juki-ddl-5550",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 60,
+      "itemsCollected": 580,
+      "statements": 136,
+      "voices": 79,
+      "ownerVoices": 52,
+      "dateRange": [
+        2013,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 1,
+          "items": 3
+        },
+        "reddit": {
+          "sources": 53,
+          "items": 556
+        },
+        "forum": {
+          "sources": 5,
+          "items": 5
+        },
+        "editorial": {
+          "sources": 1,
+          "items": 1
+        }
+      },
+      "blocked": 0,
+      "evidence": "strong",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "The Juki page covers DDL-5550N, NA, NH and the -7 trimmer versions together. Reddit threads often say DDL-5550-6 or DDL-5550N-7, which the maker documents fetched here do not separate from the family; read those threads as the same head family, not the exact model."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 26,
+        "voices": 24,
+        "ownerVoices": 22,
+        "sources": 17,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 22
+        },
+        "polarity": {
+          "positive": 5,
+          "negative": 11,
+          "mixed": 7,
+          "neutral": 1
+        },
+        "years": [
+          2016,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cea205dda",
+            "polarity": "negative",
+            "claim": "Buyer received the machine with broken parts.",
+            "quote": "it came with broken parts",
+            "url": "https://www.amazon.com/dp/B08H8TYNW1",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c03e364d3",
+            "polarity": "negative",
+            "claim": "Preowned 5550-6 shut itself off after a bobbin winding mishap, then stopped responding to the pedal.",
+            "quote": "Pressing the pedal did nothing.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ncw8t3/juki_ddl_55506_troubleshooting/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c6301330c",
+            "polarity": "positive",
+            "claim": "Newly acquired DDL-5550 owner says it runs beautifully.",
+            "quote": "It runs beautifully",
+            "url": "https://www.reddit.com/r/sewinghelp/comments/1tcp36g/juki_ddl5550_stitch_length_knob_keeps_turning/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c587cbe89",
+            "polarity": "positive",
+            "claim": "Second-hand DDL-5550N bought for $200 runs flawlessly after a stray spare presser bar and spring were removed from the face plate.",
+            "quote": "The machine runs flawlessly now",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1q2ke0c/spare_part_floating_in_my_machine_juki_ddl5550n/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cca0ff197",
+            "polarity": "mixed",
+            "claim": "Family-owned 5550-6 used about 20 years until the power supply circuit board failed.",
+            "quote": "My family has had this sewing machine for about 20 years",
+            "url": "https://www.reddit.com/r/sewhelp/comments/4v82dh/repairing_a_juki_ddl_55506/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cbe945727",
+            "polarity": "mixed",
+            "claim": "Owner had needle bar height too high and fixed it along with hook timing; machine then ran well.",
+            "quote": "needle bar height was too high and i fixed it as well as the timing",
+            "url": "https://www.reddit.com/r/sewing/comments/kwzhef/rotary_hook_super_loud_help_please_juki_ddl_5550/gj8w9mq/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 10,
+        "voices": 10,
+        "ownerVoices": 6,
+        "sources": 9,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 8,
+          "forum": 1,
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 1,
+          "mixed": 5,
+          "neutral": 3
+        },
+        "years": [
+          2021,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ccebe612a",
+            "polarity": "negative",
+            "claim": "Owner says it will not stitch grippy material such as rubber sheet or leather.",
+            "quote": "mine will not stitch if I'm in grippy material",
+            "url": "https://www.reddit.com/r/myog/comments/1fbm5c3/post_2_of_2_with_video_of_juki_ddl_5550_that_wont/lm1tupy/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cd0d41005",
+            "polarity": "mixed",
+            "claim": "Owner gets bottom thread bunching only on bare heavy nylon webbing, not when it is covered with fabric.",
+            "quote": "If I cover the nylon with fabric it doesn't bunch.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/l80arv/thread_bunching_on_bottom_only_doing_it_when/glaejui/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cd1989dca",
+            "polarity": "mixed",
+            "claim": "New owners found Tex 45 monofilament invisible thread bunched up in stitches, especially on bartacks, while Tex 70 bonded nylon worked well.",
+            "quote": "the invisible thread tended to get bunched up in the stitches",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/107545",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 11,
+        "voices": 10,
+        "ownerVoices": 6,
+        "sources": 7,
+        "sourceClasses": [
+          "editorial",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 9,
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 4,
+          "mixed": 2,
+          "neutral": 3
+        },
+        "years": [
+          2016,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cec470730",
+            "polarity": "negative",
+            "claim": "Needle breaks and bends sewing 3 layers of heavy nylon webbing with a 100/16 needle.",
+            "quote": "needle always breaks and bends",
+            "url": "https://www.reddit.com/r/sewhelp/comments/ldjavk/sewing_through_3_layers_of_heavy_nylon_webbing/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c33dbc790",
+            "polarity": "negative",
+            "claim": "Owner says it fails on stacks of 6 or more layers of duck or 3 or more layers of webbing.",
+            "quote": "too thick (6+ layers of duck or 3+ layers of webbing)",
+            "url": "https://www.reddit.com/r/myog/comments/1fbm5c3/post_2_of_2_with_video_of_juki_ddl_5550_that_wont/lm1tupy/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c21ba2da4",
+            "polarity": "mixed",
+            "claim": "Owner sewed 5 to 10 layers of cordura but could not get a stitch on 2 or 3 layers until fixed.",
+            "quote": "I was able to sew thick layers of cordura (5 to 10)",
+            "url": "https://www.reddit.com/r/myog/comments/1fbm5c3/post_2_of_2_with_video_of_juki_ddl_5550_that_wont/lm1t2m6/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cdac3e231",
+            "polarity": "mixed",
+            "claim": "Moving up to a 100/16 needle and changing thread fixed the thread breaking on thick layers.",
+            "quote": "I switched to a 100/16 and tried a different thread and we are working.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/102aiw2/trying_not_to_scream_or_cry_thread_keep_breaking/j2s2mbc/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 11,
+        "voices": 10,
+        "ownerVoices": 4,
+        "sources": 10,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 8,
+          "forum": 1,
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 6
+        },
+        "years": [
+          2020,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cf2547b0b",
+            "polarity": "negative",
+            "claim": "Newly bought 5550-6 leaks oil from the oil pan drain hole.",
+            "quote": "it has been leaking from the oil drain hole",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1m529uz/juki_ddl_55506_oil_leak/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c0002aab7",
+            "polarity": "negative",
+            "claim": "Second-hand 5550 sprays oil toward the bobbin area at about 3,500 spm, traced to a gap by the oil pan.",
+            "quote": "shoot out oil to the bobbin area when it gets to about 3,500 spm",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1tlu2fb/juki_ddl_5550_missing_a_part/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c94def473",
+            "polarity": "positive",
+            "claim": "Owner says the oil pan keeps the machine oiled and upkeep is just cleaning lint.",
+            "quote": "There is really no maintenance other than the normal cleaning out fuzz",
+            "url": "https://sewing.patternreview.com/review/machine/6638",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 8,
+        "voices": 5,
+        "ownerVoices": 2,
+        "sources": 5,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3,
+          "forum": 1,
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 5,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2022,
+          2024
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ca00f06c5",
+            "polarity": "positive",
+            "claim": "Owner's machine came with a second needle plate and feed dogs as an extra.",
+            "quote": "I had a second base plate that came with it as an extra",
+            "url": "https://www.reddit.com/r/myog/comments/1fbm5c3/post_2_of_2_with_video_of_juki_ddl_5550_that_wont/lm20zg9/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c522af2fa",
+            "polarity": "positive",
+            "claim": "Display-model DDL-5550N bought for $900 came with extra needles, bobbins and presser feet.",
+            "quote": "with a bunch of additional needles, bobbins, and presser feet",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/107545",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 6,
+        "voices": 5,
+        "ownerVoices": 2,
+        "sources": 5,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3,
+          "forum": 1,
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2022,
+          2023
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c247550f1",
+            "polarity": "negative",
+            "claim": "Needle thread keeps breaking when sewing doubled webbing and cotton, even after loosening tension and changing the needle.",
+            "quote": "it's the thread that goes through the needle that breaks",
+            "url": "https://www.reddit.com/r/sewhelp/comments/102aiw2/trying_not_to_scream_or_cry_thread_keep_breaking/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cbc1f370e",
+            "polarity": "positive",
+            "claim": "Owner reports the machine gives a balanced stitch.",
+            "quote": "it does a beautiful balanced stitch",
+            "url": "https://sewing.patternreview.com/review/machine/6638",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 8,
+        "voices": 5,
+        "ownerVoices": 4,
+        "sources": 5,
+        "sourceClasses": [
+          "editorial",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 4,
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 4,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2021,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c7e17ac3d",
+            "polarity": "negative",
+            "claim": "Owner hears a clinking rotary hook noise only when thread is in the bobbin.",
+            "quote": "when it makes that clingy noise",
+            "url": "https://www.reddit.com/r/sewing/comments/kwzhef/rotary_hook_super_loud_help_please_juki_ddl_5550/gj9yve7/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c433a1b01",
+            "polarity": "negative",
+            "claim": "Owner finds the clutch motor on the DDL-5550N very loud and wants to replace it.",
+            "quote": "it is already driving me nuts. It's so loud!",
+            "url": "https://www.reddit.com/r/sewing/comments/13u8nsi/got_a_juki_ddl5550n_but_need_a_servo_motor_any/jm3krjh/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 5,
+        "voices": 3,
+        "ownerVoices": 1,
+        "sources": 3,
+        "sourceClasses": [
+          "editorial",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2,
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "years": [
+          2018,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "value_price",
+        "label": "Value and price",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 0,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 4,
+        "voices": 3,
+        "ownerVoices": 2,
+        "sources": 3,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "forum": 1,
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ce8dcef92",
+            "polarity": "negative",
+            "claim": "Owner of a DDL-5550-6 with an SC120 control was turned away by an industrial shop for electrical work because the machine was too old.",
+            "quote": "they said it was too old and they wouldn’t do any electrical work",
+            "url": "https://www.reddit.com/r/myog/comments/1hto6mm/juki_ddl55506_weird_stutter_please_help/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c27079407",
+            "polarity": "positive",
+            "claim": "Owner chose the model partly because it has been made a long time, so parts are readily available.",
+            "quote": "parts are readily available",
+            "url": "https://sewing.patternreview.com/review/machine/6314",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 2,
+        "sources": 3,
+        "sourceClasses": [
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "forum": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2022,
+          2022
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c8f1d0b4f",
+            "polarity": "positive",
+            "claim": "Owner who only needs a straight stitch says the DDL-5550N sews beautifully, as a first industrial machine.",
+            "quote": "this sews beautifully",
+            "url": "https://sewing.patternreview.com/review/machine/2563",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "ca952c844",
+            "polarity": "positive",
+            "claim": "Owner topstitched knit workout clothes on the DDL-5550 and got clean straight stitches without rippling or puckering.",
+            "quote": "No ripple, no pucker, just perfect straight stitches",
+            "url": "https://sewing.patternreview.com/review/machine/6638",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2023,
+          2023
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c7280ff86",
+            "polarity": "mixed",
+            "claim": "Thread fraying stopped once the small hole by the needle set screw was threaded.",
+            "quote": "the small hole next to the needle set screw needs to be threaded",
+            "url": "https://www.reddit.com/r/myog/comments/10kl4vq/can_someone_help_me_understand_why_my_bonded/j5sazvs/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "learning_curve",
+        "label": "Learning curve",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2022,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c59980f8a",
+            "polarity": "negative",
+            "claim": "Owner reports the stitch length dial rotates without a stop and reads past zero, so the setting is unclear.",
+            "quote": "the dial for the stitch length just keeps on turning and turning",
+            "url": "https://www.reddit.com/r/sewinghelp/comments/1tcp36g/juki_ddl5550_stitch_length_knob_keeps_turning/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "walking_foot",
+        "label": "Walking foot",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 0,
+        "sources": 2,
+        "sourceClasses": [
+          "editorial",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2022,
+          2022
+        ],
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "free_motion",
+        "label": "Free-motion quilting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2023
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2020,
+          2020
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "thread_trimmer",
+        "label": "Thread trimmer",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "forum"
+        ],
+        "classVoices": {
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cf0ee7c0a",
+            "polarity": "negative",
+            "claim": "New DDL-5550N owner finds the lack of an automatic thread trimmer the hardest adjustment.",
+            "quote": "the hardest adjustment is not having the automatic thread trimmer",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/107545",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 2,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 3,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B08H8TYNW1",
+        "pageRating": 3.4,
+        "pageCount": 10,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 2
+        },
+        "lowRated": 1,
+        "sampled": "3 top reviews (3 US, 0 other countries) of 10 ratings"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "juki": "5,500 stitches per minute on the base DDL-5550N (5,000 on the -7); the NA and NH variants top out at 4,000.",
+        "others": "Dealers quote 5,500.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          },
+          {
+            "label": "Juki instruction manual",
+            "url": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf"
+          },
+          {
+            "label": "Juki Americas catalog, p. 6",
+            "url": "https://juki.com/static/version1789761565/frontend/SBI/bootstrap/en_US/images/products/juki-apparel.pdf"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "maker-page"
+      },
+      {
+        "label": "Stitch length",
+        "juki": "5 mm maximum on the base DDL-5550N; 4 mm on the -7 and the NA.",
+        "others": "Dealers quote 5 mm.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          },
+          {
+            "label": "Juki instruction manual",
+            "url": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf"
+          }
+        ],
+        "field": "stitchLength",
+        "source": "maker-page"
+      },
+      {
+        "label": "Needle",
+        "juki": "DBx1, size 14 at delivery, sizes 9 to 18 on the base model.",
+        "others": "Dealers quote DBx1 #14.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          },
+          {
+            "label": "Juki instruction manual",
+            "url": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf"
+          },
+          {
+            "label": "Juki Americas catalog, p. 6",
+            "url": "https://juki.com/static/version1789761565/frontend/SBI/bootstrap/en_US/images/products/juki-apparel.pdf"
+          }
+        ],
+        "field": "needleSystem",
+        "source": "manual"
+      },
+      {
+        "label": "Presser foot lift",
+        "juki": "5.5 mm by hand; 13 mm by knee lifter, with 10 mm standard and 13 mm as the adjustable maximum.",
+        "others": "Dealers quote 13 mm.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          },
+          {
+            "label": "Juki instruction manual",
+            "url": "https://www.juki.co.jp/industrial_j/download_j/manual_j/ddl5550n/ddl5550n/menu/pdf/instruction_5K.pdf"
+          }
+        ],
+        "field": "presserFootLift",
+        "source": "maker-page"
+      },
+      {
+        "label": "Thread trimmer",
+        "juki": "Not on the base DDL-5550N; the DDL-5550N-7 adds an automatic thread trimmer.",
+        "others": "Dealers note the -7 costs more.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          }
+        ],
+        "field": "threadTrimmer",
+        "source": "maker-page"
+      },
+      {
+        "label": "Weight",
+        "juki": "81 kg total weight is listed for the DDL-5550N-7 only, with no statement of what it includes.",
+        "others": "One dealer snippet said about 75 lb for the head.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          }
+        ],
+        "field": "weight",
+        "source": "maker-page"
+      },
+      {
+        "label": "Motor",
+        "juki": "Juki lists a servomotor and control box for the -7. The older manual names a 400 W clutch motor as standard.",
+        "others": "Dealer bundles include a servo motor.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          },
+          {
+            "label": "Old DDL-5550 manual",
+            "url": "https://www.cutsew.com/assets/images/Manual_JUKI_DDL5550.pdf"
+          }
+        ],
+        "field": "motor",
+        "source": "maker-page"
+      },
+      {
+        "label": "Throat space",
+        "juki": "Juki publishes no arm space or throat figure for this model.",
+        "others": "One dealer lists workspace 10 1/4 in.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          }
+        ],
+        "field": "throatIn",
+        "source": "maker-page"
+      },
+      {
+        "label": "Warranty",
+        "juki": "No model-specific warranty published; Juki Americas covers spare parts for 90 days and refers equipment to sales order terms.",
+        "others": "Dealer-defined.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki Americas parts policy",
+            "url": "https://jukiamericas.com/pages/returns-and-exchanges-policy"
+          }
+        ],
+        "field": "warranty",
+        "source": "parts-warranty"
+      },
+      {
+        "label": "Made in",
+        "juki": "No Juki document fetched states the country of manufacture.",
+        "others": "Dealers and one Amazon Q&A quote Made in Japan.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          }
+        ],
+        "field": "countryOfManufacture",
+        "source": "maker-page"
+      },
+      {
+        "label": "Maker claims",
+        "juki": "Juki says the take-up, feed, thread path and hook were improved for consistent stitch quality.",
+        "others": "Dealers repeat \"suitable for light to medium-heavy materials\".",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki product page",
+            "url": "https://www.juki.co.jp/industrial_e/products_e/apparel_e/1needle_lock_e/detail.php?cd=DDL-5550N_DDL-5550N-7_E"
+          }
+        ],
+        "field": "claims",
+        "source": "maker-page"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "DDL-5550N-7",
+        "label": "Juki DDL-5550N-7 (automatic thread trimmer)",
+        "rows": [
+          {
+            "feature": "Thread trimming",
+            "urls": 0,
+            "classes": [],
+            "summary": "Maker lists the -7 as the version with an automatic thread trimmer; the base DDL-5550N is not listed with one.",
+            "check": "Juki page, 2 Oct 2026",
+            "examples": []
+          },
+          {
+            "feature": "Rated speed and stitch length",
+            "urls": 0,
+            "classes": [],
+            "summary": "Maker page and catalog list 5,000 sti/min and 4 mm for the -7; the base DDL-5550N is 5,500 sti/min and 5 mm.",
+            "check": "Juki page and apparel catalog p. 6, 2 Oct 2026",
+            "examples": []
+          },
+          {
+            "feature": "Listed total weight",
+            "urls": 0,
+            "classes": [],
+            "summary": "The maker page lists a total weight of 81 kg in the -7 table only; the base DDL-5550N table has no weight row.",
+            "check": "Juki page, 2 Oct 2026; what the 81 kg includes is not stated",
+            "examples": []
+          },
+          {
+            "feature": "Control box and motor",
+            "urls": 0,
+            "classes": [],
+            "summary": "The maker page presents the SC-920C control box and M92 servomotor with the -7.",
+            "check": "Juki page, 2 Oct 2026",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "DDL-5550NA",
+        "label": "Juki DDL-5550NA (light-weight)",
+        "rows": [
+          {
+            "feature": "Fabric class",
+            "urls": 0,
+            "classes": [],
+            "summary": "Light-weight; 4,000 sti/min, 4 mm stitch, 9 mm knee lift, DAx1 #9 needle at delivery.",
+            "check": "Juki page and manual, 2 Oct 2026",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "DDL-5550NH",
+        "label": "Juki DDL-5550NH (heavy-weight)",
+        "rows": [
+          {
+            "feature": "Fabric class",
+            "urls": 0,
+            "classes": [],
+            "summary": "Heavy-weight; 4,000 sti/min, 5 mm stitch, 13 mm knee lift, DBx1 #21 needle at delivery, 35 mm needle bar stroke.",
+            "check": "Juki page and manual, 2 Oct 2026",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "DDL-8700",
+        "label": "Juki DDL-8700",
+        "rows": [
+          {
+            "feature": "Maker speed class",
+            "urls": 0,
+            "classes": [],
+            "summary": "Juki lists 5,500 sti/min and 13 mm knee lift for the base DDL-8700, the same figures as the base DDL-5550N.",
+            "check": "juki.com DDL-8700 page, 2 Oct 2026",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
   "juki-ddl-8700": {
     "slug": "juki-ddl-8700",
     "status": "approved",
@@ -20950,6 +23863,919 @@ export const rollupData: Record<string, Rollup> = {
             "classes": [],
             "summary": "15 lb against 20 lb on the MO-1000.",
             "check": "Juki MO-644D and MO-1000 product pages, 2026-10-02",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "juki-mo-644d": {
+    "slug": "juki-mo-644d",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 26,
+      "itemsCollected": 231,
+      "statements": 43,
+      "voices": 35,
+      "ownerVoices": 24,
+      "dateRange": [
+        2010,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 2,
+          "items": 34
+        },
+        "reddit": {
+          "sources": 24,
+          "items": 197
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 10,
+        "voices": 10,
+        "ownerVoices": 9,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 5,
+          "reddit": 5
+        },
+        "polarity": {
+          "positive": 5,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "years": [
+          2011,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c97d57b40",
+            "polarity": "negative",
+            "claim": "Owner had thread breakage until a missed upper looper threading point was found, though chaining still failed.",
+            "quote": "I had an issue of the threads breaking",
+            "url": "https://www.reddit.com/r/sewing/comments/iaw9qd/juki_mo_644d_if_you_have_this_model_or_if_you_are/g1rrhdk/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c3652c3b3",
+            "polarity": "positive",
+            "claim": "Owner feared threading would be hard but found it super easy.",
+            "quote": "super easy",
+            "url": "https://www.reddit.com/r/myog/comments/ewnp4d/help_me_find_a_serger/fg3fisj/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ca4fd9ae1",
+            "polarity": "positive",
+            "claim": "Machine arrived already threaded and ready to sew.",
+            "quote": "came threaded and ready to sew",
+            "url": "https://www.sewingmachinesplus.com/juki-MO-644D.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 8,
+        "voices": 8,
+        "ownerVoices": 7,
+        "sources": 6,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 6
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2010,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c5d04ff06",
+            "polarity": "negative",
+            "claim": "Machine locked up after about a day and a half and was returned to the retailer for repair or replacement.",
+            "quote": "machine locking up on me",
+            "url": "https://www.sewingmachinesplus.com/juki-MO-644D.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c6e5d9f99",
+            "polarity": "negative",
+            "claim": "Owner could not get a chain stitch to form despite repeated rethreading, correct needle insertion and tension at 4.",
+            "quote": "rethreaded countless times",
+            "url": "https://www.reddit.com/r/sewing/comments/iaw9qd/juki_mo_644d_if_you_have_this_model_or_if_you_are/g1rfky1/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c2cc16051",
+            "polarity": "positive",
+            "claim": "Owner says it never skips a beat and went three months without rethreading, used for fleece and spandex-to-mesh seams.",
+            "quote": "thing never skips a beat",
+            "url": "https://www.reddit.com/r/myog/comments/ewnp4d/help_me_find_a_serger/fg3fisj/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c05ab204f",
+            "polarity": "positive",
+            "claim": "Owner reports no problems with the serger.",
+            "quote": "I have not had any problems whatsoever with this serger",
+            "url": "https://www.sewingmachinesplus.com/juki-MO-644D.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c7a12f6ba",
+            "polarity": "mixed",
+            "claim": "A school with three MO-644D machines has two working well and one that will not chain because of a bent part under the foot.",
+            "quote": "the two that work like champs",
+            "url": "https://www.reddit.com/r/sewing/comments/1au7rxl/serger_anatomy_questions/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 2,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2015,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cda8b520f",
+            "polarity": "positive",
+            "claim": "Owner runs regular universal sewing machine needles in the MO644D without problems.",
+            "quote": "I use regular sewing machine needles in my MO644D.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/a0s5nf/what_kind_of_needles_fit_a_juki_mo64de_serger/eal48ad/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c9460744a",
+            "polarity": "positive",
+            "claim": "First-time owner says the retailer package included thread and accessories needed to start serging.",
+            "quote": "it came with all the thread and accessories needed to dig right in",
+            "url": "https://www.sewingmachinesplus.com/juki-MO-644D.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 1,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 5
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2021,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c39e7d1bf",
+            "polarity": "negative",
+            "claim": "Owner of a new MO-644D bought in November reports staining and an oily feel on the underside after a handful of projects.",
+            "quote": "only now noticed this staining at the bottom",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1d1devq/serger_questionis_this_normal/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cc5b04a25",
+            "polarity": "negative",
+            "claim": "Newly bought machine gave inconsistent overlock stitches, good on top but very loopy on the back.",
+            "quote": "The front looks okay, but the back is very loopy",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1oy3i9b/juki_mo644d_serger_looping_issue/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c0e8dba0b",
+            "polarity": "negative",
+            "claim": "After four years of use, an MO-644D developed large loops on the underside from the left needle thread after a thread colour change, despite rethreading.",
+            "quote": "which is causing massive loops on the underside of the fabric",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1lrmfg3/juki_serger_help_pls/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2018,
+          2020
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c3bb1518b",
+            "polarity": "positive",
+            "claim": "Reviewer describes the machine as quiet and smooth running.",
+            "quote": "Quiet and runs smoothly",
+            "url": "https://www.sewingmachinesplus.com/juki-MO-644D.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 0,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2013,
+          2024
+        ],
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "differential_feed",
+        "label": "Differential feed",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2024,
+          2024
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2021,
+          2021
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c8339f43a",
+            "polarity": "negative",
+            "claim": "Owner finds the standard serger body layout awkward for positioning a very small tube such as a baby hat.",
+            "quote": "really doesn’t seem to allow for proper positioning of this teeny tiny hat",
+            "url": "https://www.reddit.com/r/sewing/comments/m9ey69/finished_project_with_some_issues_serging/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2015,
+          2015
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2015,
+          2015
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "cutting_trimming",
+        "label": "Cutting and trimming",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2015,
+          2015
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "rolled_hem",
+        "label": "Rolled hem",
+        "statements": 2,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2015,
+          2015
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B0014134IO",
+        "pageRating": 4.4,
+        "pageCount": 632,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "lowRated": 0,
+        "sampled": "0 top reviews (0 US, 0 other countries) of 632 ratings"
+      },
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/juki-MO-644D.php",
+        "pageRating": 4.82,
+        "pageCount": 34,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 4,
+          "5": 29
+        },
+        "lowRated": 1,
+        "sampled": null
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "juki": "Max. 1500 spm.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "maker-page"
+      },
+      {
+        "label": "Threads",
+        "juki": "2/3/4.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          },
+          {
+            "label": "Juki catalog",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+          }
+        ],
+        "field": "threads",
+        "source": "maker-page"
+      },
+      {
+        "label": "2-thread converter",
+        "juki": "Optional (catalog). Not in the standard accessory list.",
+        "others": "Dealers say the same.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki catalog",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+          }
+        ],
+        "field": "stitchTypes",
+        "source": "catalog"
+      },
+      {
+        "label": "Differential feed",
+        "juki": "0.7 - 2.0 ratio.",
+        "others": "Matches our ratio.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ],
+        "field": "differentialFeed",
+        "source": "maker-page"
+      },
+      {
+        "label": "Differential dial location",
+        "juki": "Right hand side (page wording).",
+        "others": "Owner and dealer copy say left.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          },
+          {
+            "label": "Juki manual",
+            "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_1.pdf"
+          }
+        ],
+        "field": "differentialFeedDialLocation",
+        "source": "maker-page"
+      },
+      {
+        "label": "Presser foot lift",
+        "juki": "0.2 in (5 mm).",
+        "others": "Our spec had no figure.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          },
+          {
+            "label": "Juki manual",
+            "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_1.pdf"
+          }
+        ],
+        "field": "presserFootLift",
+        "source": "maker-page"
+      },
+      {
+        "label": "Weight",
+        "juki": "15 lb (7.0 kg).",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          },
+          {
+            "label": "Juki catalog",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+          }
+        ],
+        "field": "weightLb",
+        "source": "maker-page"
+      },
+      {
+        "label": "Dimensions",
+        "juki": "Page: 10.6 W x 13.5 H x 11.5 D in. Catalog: 270 W x 340 D x 295 H mm.",
+        "others": "Our spec has 13.4 x 10.6 x 11.6, axes unlabelled.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          },
+          {
+            "label": "Juki catalog",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+          }
+        ],
+        "field": "dimensionsIn",
+        "source": "maker-page"
+      },
+      {
+        "label": "Needles",
+        "juki": "Household (HAx1) #11-14; manual says 130/705H.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          },
+          {
+            "label": "Juki manual",
+            "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_1.pdf"
+          }
+        ],
+        "field": "needleSystem",
+        "source": "maker-page"
+      },
+      {
+        "label": "Stitch width",
+        "juki": "Left 6 mm, right 4 mm, rolled hem 2 mm.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki catalog",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+          }
+        ],
+        "field": "stitchWidthMm",
+        "source": "catalog"
+      },
+      {
+        "label": "Stitch length",
+        "juki": "1 to 4 mm, standard 2.5 mm.",
+        "others": "Our rolled hem 1.5 figure is not on the page.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki catalog",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+          }
+        ],
+        "field": "stitchLengthMm",
+        "source": "catalog"
+      },
+      {
+        "label": "Rolled hem",
+        "juki": "Built in: \"Flip and roll\", no needle plate or foot change.",
+        "others": "Matches our spec (maker claim).",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ],
+        "field": "rolledHem",
+        "source": "maker-page"
+      },
+      {
+        "label": "Free arm",
+        "juki": "Not stated in the maker documents.",
+        "others": "Owner site says no free arm.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ],
+        "field": "freeArm",
+        "source": "maker-page"
+      },
+      {
+        "label": "Throat space",
+        "juki": "Not published.",
+        "others": "Not published.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ],
+        "field": "throatIn",
+        "source": "maker-page"
+      },
+      {
+        "label": "Stitch count",
+        "juki": "Not published.",
+        "others": "Not published.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ],
+        "field": "stitchCount",
+        "source": "maker-page"
+      },
+      {
+        "label": "Thread trimmer",
+        "juki": "Not published (serger knife only).",
+        "others": "Not published.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ],
+        "field": "threadTrimmer",
+        "source": "maker-page"
+      },
+      {
+        "label": "In the box",
+        "juki": "Maker list above; no converter, no specialty feet.",
+        "others": "Dealer bundles add feet and DVDs.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ],
+        "field": "includedFeet",
+        "source": "maker-page"
+      },
+      {
+        "label": "Warranty",
+        "juki": "2 yr motors, light, wiring, switches, circuit boards, speed control; 5 yr other parts (factory defects). Generic wording, not model-specific.",
+        "others": "Dealers add 90 days labor, which is not in the maker FAQ.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki FAQ",
+            "url": "https://www.jukihome.com/faq/"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "faq"
+      },
+      {
+        "label": "Price",
+        "juki": "MSRP $1,199.00 (maker). Dealer pricing only otherwise.",
+        "others": "Seen $449.00 at Michaels on 2026-09-29.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ],
+        "field": "msrp",
+        "source": "maker-page"
+      },
+      {
+        "label": "Manual",
+        "juki": "Linked from the page but titled MO-644DN/654DEN.",
+        "others": "No separate MO-644D manual found.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki manual",
+            "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_1.pdf"
+          }
+        ],
+        "field": "manualModel",
+        "source": "manual"
+      },
+      {
+        "label": "Maker claims",
+        "juki": "\"Heavy Duty Knife System\" and \"Industrial Type Dial\" are Juki wording.",
+        "others": "Treat as claims.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ],
+        "field": "claims",
+        "source": "maker-page"
+      },
+      {
+        "label": "Availability",
+        "juki": "Page live, no notice. Not in the contact form model list.",
+        "others": "Dealers list it.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ],
+        "field": "availability",
+        "source": "maker-page"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "MO-654DE",
+        "label": "Juki MO-654DE",
+        "rows": [
+          {
+            "feature": "Included converter",
+            "urls": 0,
+            "classes": [],
+            "summary": "2/3 thread converter standard",
+            "check": "Juki catalog comparison table and 654DE page accessories, fetched 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Looper threading aid",
+            "urls": 0,
+            "classes": [],
+            "summary": "Lower looper threader listed as a feature",
+            "check": "Juki MO-654DE page features, fetched 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Maker weight and depth",
+            "urls": 0,
+            "classes": [],
+            "summary": "15.5 lb, 12.5 x 13.5 x 7.7 in",
+            "check": "Juki MO-654DE page specifications, fetched 2026-10-02",
             "examples": []
           }
         ]
@@ -26468,6 +30294,1522 @@ export const rollupData: Record<string, Rollup> = {
             "classes": [],
             "summary": "The 14HD854 page links the 25/2/90 warranty PDF; the 14CG754 page links a 25-year frame and 1-year parts PDF.",
             "check": "Singer product pages and warranty PDFs, 2026-10-02",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "singer-14hd854": {
+    "slug": "singer-14hd854",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 17,
+      "itemsCollected": 237,
+      "statements": 29,
+      "voices": 18,
+      "ownerVoices": 12,
+      "dateRange": [
+        2017,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 14,
+          "items": 222
+        },
+        "retailer": {
+          "sources": 3,
+          "items": 14
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.5 from 63 ratings on B00EF1ICNC is shared by several listings (the same figure appears on unrelated Singer Heavy Duty 0420 and 0460 listings), so it is a pooled rating, not this model's own. B00IXPWNNG (4.4 from 12) names the 14HD854 in its title and is not pooled."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 11,
+        "voices": 8,
+        "ownerVoices": 4,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 8
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 6
+        },
+        "years": [
+          2021,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c64e7dd81",
+            "polarity": "negative",
+            "claim": "Owner cannot find ballpoint or stretch needles in the 2022/ELx705 type for their overlocker.",
+            "quote": "having no luck finding 'type J' or 'ELx705'",
+            "url": "https://www.reddit.com/r/sewing/comments/qavcfn/singer_14hd854_serger_ballpoint_needles/hh69o6k/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 6,
+        "voices": 6,
+        "ownerVoices": 5,
+        "sources": 6,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 5,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 5,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2020,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c9d0bfc42",
+            "polarity": "negative",
+            "claim": "Unit arrived with the drive belt not connected, so the motor ran but the machine did not turn properly.",
+            "quote": "the belt was not connected",
+            "url": "https://www.sewingmachinesplus.com/singer-14hd854-serger.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cc04bf933",
+            "polarity": "negative",
+            "claim": "Secondhand 14HD854 stopped responding to the foot pedal after a first test on scrap fabric.",
+            "quote": "the serger doesn't seem to work at all using the pedal",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1lmyenk/serger_clicking_noise/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cc0abc871",
+            "polarity": "positive",
+            "claim": "Owner bought a refurbished 14HD854 and says it handles everything they ask of it.",
+            "quote": "it does everything I ask of it",
+            "url": "https://www.reddit.com/r/sewing/comments/1asv2ov/maybe_time_for_a_serger/kqt45xj/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 2,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2022,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c3954867a",
+            "polarity": "negative",
+            "claim": "Buyer felt the 14HD854 was cheaply made overall.",
+            "quote": "the machine overall felt cheaply made",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1jo91ae/looking_to_buy_a_serger/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cfa24d161",
+            "polarity": "negative",
+            "claim": "Owner judges the internal build to be sloppily made and would not buy it again.",
+            "quote": "you can see inside that it's a bit haphazardly made",
+            "url": "https://www.reddit.com/r/sewing/comments/1luhgj1/what_serger_to_buy_as_a_nonprofessional_but/n1y4ges/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c1bad4a6b",
+            "polarity": "positive",
+            "claim": "Buyer wanted a plain durable serger and finds this one feels solid so far.",
+            "quote": "so far, this one feels solid",
+            "url": "https://www.sewingmachinesplus.com/singer-14hd854-serger.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cc23d2a29",
+            "polarity": "negative",
+            "claim": "Owner says foot pressure must be adjusted with a screwdriver, so you track turns from the factory setting.",
+            "quote": "you have to adjust foot pressure with a screwdriver",
+            "url": "https://www.reddit.com/r/sewing/comments/1luhgj1/what_serger_to_buy_as_a_nonprofessional_but/n1y4ges/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "differential_feed",
+        "label": "Differential feed",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c0770c313",
+            "polarity": "negative",
+            "claim": "Owner tried gathering on voile and got little gathering either.",
+            "quote": "I just tried out on Voile and not a lot happens either.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1ltf3p3/my_serger_wont_gather_fabrics_despite_of/n1q582o/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2020,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c91c5a076",
+            "polarity": "negative",
+            "claim": "Owner found a looper thread came off its hooks during the jam.",
+            "quote": "appears to have come off the hooks",
+            "url": "https://www.reddit.com/r/sewhelp/comments/kkky4f/new_singer_14hd854_jammedhelp_unjamming/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cd698f067",
+            "polarity": "negative",
+            "claim": "Owner reports a thread inside unhooks easily because one hook sits in a different plane.",
+            "quote": "One of the threads inside comes unhooked easily",
+            "url": "https://www.reddit.com/r/sewing/comments/1luhgj1/what_serger_to_buy_as_a_nonprofessional_but/n1y4ges/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cc7ff415a",
+            "polarity": "negative",
+            "claim": "Owner says the machine moves across the table in use.",
+            "quote": "it walks across the table",
+            "url": "https://www.reddit.com/r/sewing/comments/1luhgj1/what_serger_to_buy_as_a_nonprofessional_but/n1y4ges/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c99392af3",
+            "polarity": "negative",
+            "claim": "Secondhand 14HD854 made a clicking noise and did not advance the fabric well.",
+            "quote": "started making a clicking noise",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1lmyenk/serger_clicking_noise/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c50312960",
+            "polarity": "positive",
+            "claim": "Owner lists the free arm as a pro.",
+            "quote": "Pros - it has a free arm.",
+            "url": "https://www.reddit.com/r/sewing/comments/1luhgj1/what_serger_to_buy_as_a_nonprofessional_but/n1y4ges/",
+            "source_class": "reddit"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B00EF1ICNC",
+        "pageRating": 4.5,
+        "pageCount": 63,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 6
+        },
+        "lowRated": 2,
+        "sampled": "8 top reviews (8 US, 0 other countries) of 63 ratings"
+      },
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B00IXPWNNG",
+        "pageRating": 4.4,
+        "pageCount": 12,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "lowRated": 0,
+        "sampled": "0 top reviews (0 US, 0 other countries) of 12 ratings"
+      },
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/singer-14hd854-serger.php",
+        "pageRating": 4.5,
+        "pageCount": 6,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 0,
+          "5": 5
+        },
+        "lowRated": 1,
+        "sampled": null
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Max speed",
+        "juki": "1,300 spm (product page); 1,200 +/- 150 spm (manual)",
+        "others": "Retailers repeat 1,300 spm",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Product page",
+            "url": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+          },
+          {
+            "label": "Manual p. 51",
+            "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+          }
+        ],
+        "field": "Max sewing speed",
+        "source": "manual"
+      },
+      {
+        "label": "Stitch types",
+        "juki": "6 (product page and manual)",
+        "others": "Some retailers say 8 or 10",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Product page",
+            "url": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+          },
+          {
+            "label": "Manual section 1",
+            "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+          }
+        ],
+        "field": "Stitch types",
+        "source": "manual"
+      },
+      {
+        "label": "Differential feed ratio",
+        "juki": "1:0.7 to 1:2 (manual)",
+        "others": "Not given by retailers",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Manual p. 51",
+            "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+          }
+        ],
+        "field": "Differential feed",
+        "source": "manual"
+      },
+      {
+        "label": "Presser foot lift",
+        "juki": "4.5 to 5.0 mm rise (manual)",
+        "others": "Not given",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Manual p. 51",
+            "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+          }
+        ],
+        "field": "Presser foot lift",
+        "source": "manual"
+      },
+      {
+        "label": "Weight",
+        "juki": "13.5 lb (page); 6.2 kg = 13.7 lb (manual)",
+        "others": "Amazon 13.5 lb; one listing 7.38 kg",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Product page",
+            "url": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+          },
+          {
+            "label": "Manual p. 51",
+            "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+          }
+        ],
+        "field": "Weight",
+        "source": "manual"
+      },
+      {
+        "label": "Dimensions",
+        "juki": "13.3 x 11.0 x 10.4 in (manual, converted)",
+        "others": "14 x 11 x 11.5 in (page)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Product page",
+            "url": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger"
+          },
+          {
+            "label": "Manual p. 51",
+            "url": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+          }
+        ],
+        "field": "Dimensions",
+        "source": "manual"
+      },
+      {
+        "label": "Warranty",
+        "juki": "25 yr head / 2 yr motor and electrics / 90 day parts (Singer warranty page)",
+        "others": "Dealers repeat Singer's terms",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Warranty page",
+            "url": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+          }
+        ],
+        "field": "Warranty",
+        "source": "warranty-page"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "ProFinish 14CG754",
+        "label": "Singer ProFinish 14CG754",
+        "rows": [
+          {
+            "feature": "Maker list price",
+            "urls": 0,
+            "classes": [],
+            "summary": "Singer lists the 14CG754 at $209.99 against a $349.99 MSRP, versus $319.99 against $399.99 for the 14HD854.",
+            "check": "Singer product pages, fetched 2026-10-02; both showed Out of Stock.",
+            "examples": []
+          },
+          {
+            "feature": "Maker speed claim",
+            "urls": 0,
+            "classes": [],
+            "summary": "Singer's 14CG754 page lists 1,300 stitches per minute, the same figure as the 14HD854 page.",
+            "check": "Singer 14CG754 page, 2026-10-02. The 14HD854 manual says 1,200 +/- 150 spm; no 14CG754 manual was fetched.",
+            "examples": []
+          },
+          {
+            "feature": "Maker speed control",
+            "urls": 0,
+            "classes": [],
+            "summary": "Singer's 14CG754 page says electronic speed control; the 14HD854 page says digital speed control.",
+            "check": "Both Singer product pages, 2026-10-02.",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "singer-14t968dc": {
+    "slug": "singer-14t968dc",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 34,
+      "itemsCollected": 275,
+      "statements": 97,
+      "voices": 50,
+      "ownerVoices": 44,
+      "dateRange": [
+        2010,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 2,
+          "items": 22
+        },
+        "reddit": {
+          "sources": 32,
+          "items": 252
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "Amazon's 4.2 from 1,501 ratings is shared by several listings (pooled variations), so it is not a rating for this model alone."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "themes": [
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 22,
+        "voices": 21,
+        "ownerVoices": 20,
+        "sources": 10,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 12,
+          "reddit": 9
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 9,
+          "mixed": 5,
+          "neutral": 4
+        },
+        "years": [
+          2010,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c7d6a1fda",
+            "polarity": "negative",
+            "claim": "Owner reports the upper and lower looper threads never interlock in serger mode despite repeated rethreading.",
+            "quote": "threads just never cross paths",
+            "url": "https://www.reddit.com/r/sewing/comments/1k3b18b/can_someone_please_recommend_where_to_get_a/mo1fhzt/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c6bed50bb",
+            "polarity": "negative",
+            "claim": "Owner finds frequent serger-to-coverstitch switching, often for one construction step, painful.",
+            "quote": "turned out to be pretty painful",
+            "url": "https://www.reddit.com/r/sewing/comments/1vr34xf/coverstitchoverlock_combo_or_separate_machines/p4g4k7e/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c147a7138",
+            "polarity": "positive",
+            "claim": "A new serger user found threading quite easy after a day.",
+            "quote": "It's quite easy to thread",
+            "url": "https://www.amazon.com/dp/B002PDZTT2",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cb2b30abd",
+            "polarity": "positive",
+            "claim": "Threading by the book and CD was easy to follow.",
+            "quote": "Threading by the book and cd was a breeze to follow",
+            "url": "https://sewingmachinesplus.com/products/pro_5",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cebf04940",
+            "polarity": "mixed",
+            "claim": "Threading is somewhat complex but a book and CD are supplied to teach it.",
+            "quote": "yes it's a bit complex",
+            "url": "https://www.reddit.com/r/sewing/comments/1bsru0/my_new_singer_14t968dc_and_a_few_starter_threads/c9a2j72/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c597afc8d",
+            "polarity": "mixed",
+            "claim": "Threading was a challenge at first, later helped by sticker diagrams and the reference chart.",
+            "quote": "threading was a challenge the first first few times",
+            "url": "https://www.amazon.com/dp/B002PDZTT2",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 15,
+        "voices": 15,
+        "ownerVoices": 15,
+        "sources": 10,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 12
+        },
+        "polarity": {
+          "positive": 4,
+          "negative": 10,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2017,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c290cd144",
+            "polarity": "negative",
+            "claim": "Professional 5 owner reports shirring with elastic thread on two-thread chain stitch mostly jams, working only briefly, and skips stitches.",
+            "quote": "It jams really bad.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1bolxiv/shirring_with_a_coverstitch_machine_not_working/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cb82ae969",
+            "polarity": "negative",
+            "claim": "Knife stopped moving within the first week because a pin and set screw in the moving knife arm joint worked loose; owner fixed it himself.",
+            "quote": "the knife stopped moving",
+            "url": "https://www.amazon.com/dp/B002PDZTT2",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c0db340de",
+            "polarity": "positive",
+            "claim": "Experienced sewer uses a Singer Professional 5 thread serger as a daily driver and loves it, despite Singer's reputation.",
+            "quote": "although I love my 5 thread serger",
+            "url": "https://www.reddit.com/r/sewing/comments/1n5anji/challenging_machine_search_cross_boarders/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c305ff690",
+            "polarity": "positive",
+            "claim": "Owner since 2018 with regular cleaning reports no major problems.",
+            "quote": "I haven't had any major problems with it",
+            "url": "https://www.reddit.com/r/sewing/comments/1g8e1o1/which_machine_should_i_keep/lt43dnv/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c600554f3",
+            "polarity": "mixed",
+            "claim": "Owner says coverstitch, chain stitch and rolled hem work but the overlock serger function does not.",
+            "quote": "I can do the coverstitch, chain stitch, roll hem",
+            "url": "https://www.reddit.com/r/sewing/comments/1k3b18b/can_someone_please_recommend_where_to_get_a/mo1tquk/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 11,
+        "voices": 11,
+        "ownerVoices": 10,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 7,
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 4,
+          "negative": 4,
+          "mixed": 1,
+          "neutral": 2
+        },
+        "years": [
+          2016,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c404db31d",
+            "polarity": "negative",
+            "claim": "Raising the presser foot did not release tension for pulling fabric out backward.",
+            "quote": "No tension release.",
+            "url": "https://www.amazon.com/dp/B002PDZTT2",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c6d0e2604",
+            "polarity": "negative",
+            "claim": "Owner found auto-tension frustrating while testing each stitch.",
+            "quote": "I did find the auto-tension a bit frustrating",
+            "url": "https://www.reddit.com/r/sewing/comments/1g8e1o1/which_machine_should_i_keep/lt6e1ou/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c9bb5a7eb",
+            "polarity": "positive",
+            "claim": "Owner lists automatic tensioning among the machine's strengths.",
+            "quote": "automatic tensioning",
+            "url": "https://www.amazon.com/dp/B002PDZTT2",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c55cc48b1",
+            "polarity": "mixed",
+            "claim": "Auto tension is a starting point; looper tensions need occasional adjustment to match the workbook stitch.",
+            "quote": "you will have to adjust the looper tensions occasionally",
+            "url": "https://www.amazon.com/dp/B002PDZTT2",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 7,
+        "voices": 7,
+        "ownerVoices": 6,
+        "sources": 5,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 4
+        },
+        "polarity": {
+          "positive": 4,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2015,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c5f4154a4",
+            "polarity": "negative",
+            "claim": "Professional 5 owner reports skipped stitches on a 3-thread overlock despite four needle changes and different fabric.",
+            "quote": "It keeps skipping stitches",
+            "url": "https://www.reddit.com/r/sewing/comments/12r16lm/serger_is_skipping_stitches/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c1ae02819",
+            "polarity": "negative",
+            "claim": "Cover stitch K bunches at looper A despite rethreading and following the manual.",
+            "quote": "but keeps getting bunched up",
+            "url": "https://www.reddit.com/r/sewhelp/comments/utm6vx/upgraded_from_brother_1034d_to_singer/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c6e6e48b5",
+            "polarity": "positive",
+            "claim": "Owner is pleased with the cover stitch.",
+            "quote": "The cover stitch is beautiful.",
+            "url": "https://www.amazon.com/dp/B002PDZTT2",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "ced7774ea",
+            "polarity": "positive",
+            "claim": "Owner is satisfied with results from the machine.",
+            "quote": "I have never been disappointed with the results of this machine",
+            "url": "https://www.reddit.com/r/sewing/comments/1vdhv0h/serveroverlock_needles/p1d5fg9/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "learning_curve",
+        "label": "Learning curve",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2014,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cfe879560",
+            "polarity": "negative",
+            "claim": "Machine spins up quickly, hard for a new user to control.",
+            "quote": "The machine does like to spin up quickly",
+            "url": "https://www.amazon.com/dp/B002PDZTT2",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c37120e6e",
+            "polarity": "negative",
+            "claim": "Owner finds they must relearn the machine each time they bring it out.",
+            "quote": "I feel like I have to relearn it every time I bring it out",
+            "url": "https://www.reddit.com/r/sewing/comments/1vdhv0h/serveroverlock_needles/p1d5fg9/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c0c0d5d5a",
+            "polarity": "mixed",
+            "claim": "Owner is happy with the machine but found it had a learning curve.",
+            "quote": "even though it was a bit of a learning curve",
+            "url": "https://www.reddit.com/r/sewing/comments/hta409/looking_for_a_serger_in_the_300400_range_please/fygj8pl/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 4,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2013,
+          2019
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cb9cf6cea",
+            "polarity": "negative",
+            "claim": "Tester describes the Singer as mostly plastic.",
+            "quote": "The Singer is mostly plastic",
+            "url": "https://www.reddit.com/r/sewing/comments/6e8rdt/cover_stitching_and_singer_professional_5_serger/di9auc8/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c94563131",
+            "polarity": "positive",
+            "claim": "Owner finds it sturdy and well made.",
+            "quote": "It's very sturdy and well made!",
+            "url": "https://www.reddit.com/r/sewing/comments/1bsru0/my_new_singer_14t968dc_and_a_few_starter_threads/c9a2j72/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c102d98b8",
+            "polarity": "positive",
+            "claim": "Heavy shipping weight led the owner to assume the metal frame is as advertised.",
+            "quote": "the heavy duty metal frame is as advertised",
+            "url": "https://www.amazon.com/dp/B002PDZTT2",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 5,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "years": [
+          2013,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cf59d0fd7",
+            "polarity": "negative",
+            "claim": "Recent unit shipped without the accessory feet the listing still shows.",
+            "quote": "it was shipped without the accessory feet",
+            "url": "https://www.amazon.com/dp/B002PDZTT2",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 4,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2012,
+          2020
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c458deea1",
+            "polarity": "negative",
+            "claim": "Owner of this machine says it hops around if run at full pedal speed.",
+            "quote": "if you really put the pedal to the metal, it will hop around",
+            "url": "https://www.reddit.com/r/sewing/comments/hta409/looking_for_a_serger_in_the_300400_range_please/fygj8pl/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c91994fef",
+            "polarity": "negative",
+            "claim": "Machine shifted across the demo table while hemming poplin.",
+            "quote": "The Singer shimmied down the demo table while we tested a hem on poplin.",
+            "url": "https://www.reddit.com/r/sewing/comments/6e8rdt/cover_stitching_and_singer_professional_5_serger/di9auc8/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c930cd9b1",
+            "polarity": "positive",
+            "claim": "Owner calls the machine smooth and quiet.",
+            "quote": "the machine is smooth and quiet",
+            "url": "https://sewingmachinesplus.com/products/pro_5",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 3,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2017,
+          2017
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ce67fbd1c",
+            "polarity": "negative",
+            "claim": "There is no free arm, which made sleeves hard to feed.",
+            "quote": "this serger didn't have the free arm like in regular sewing machines",
+            "url": "https://www.amazon.com/dp/B002PDZTT2",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2017,
+          2020
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c819b8ad0",
+            "polarity": "negative",
+            "claim": "Foot pedal is small, shifty and not very pressure sensitive.",
+            "quote": "It's small and shifty.",
+            "url": "https://www.reddit.com/r/sewing/comments/6e8rdt/cover_stitching_and_singer_professional_5_serger/di9auc8/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2022,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cddb68019",
+            "polarity": "negative",
+            "claim": "Owner says Singer declined to help and only pointed them to a repair shop.",
+            "quote": "told me was to go find a repair shop",
+            "url": "https://www.reddit.com/r/sewing/comments/1k3b18b/can_someone_please_recommend_where_to_get_a/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c815e4946",
+            "polarity": "mixed",
+            "claim": "Buyer received a Professional 5 without the foot pedal/power supply; Singer support agreed to replace it after verifying purchase.",
+            "quote": "confirm my proof of purchase and ship me a new pedal",
+            "url": "https://www.reddit.com/r/sewing/comments/zntb79/singer_customer_service/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2020,
+          2020
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2016,
+          2016
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c085c447d",
+            "polarity": "negative",
+            "claim": "Motor hums then lurches forward suddenly when the pedal is pressed; no gentle slow start.",
+            "quote": "the motor hums until you press down hard enough",
+            "url": "https://www.amazon.com/dp/B002PDZTT2",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "cutting_trimming",
+        "label": "Cutting and trimming",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2016,
+          2016
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2017,
+          2017
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2017,
+          2017
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c280bc4b2",
+            "polarity": "negative",
+            "claim": "Stock bulb gives a dim yellow light.",
+            "quote": "the bulb's light was emitting a dim yellow light",
+            "url": "https://www.amazon.com/dp/B002PDZTT2",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "differential_feed",
+        "label": "Differential feed",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2017,
+          2017
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c9b852341",
+            "polarity": "negative",
+            "claim": "Stretch and gathering function performed poorly on jersey, denim and elastic in the shop test.",
+            "quote": "This function does not perform well on jersey knit",
+            "url": "https://www.reddit.com/r/sewing/comments/6e8rdt/cover_stitching_and_singer_professional_5_serger/di9auc8/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2024,
+          2024
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B002PDZTT2",
+        "pageRating": 4.2,
+        "pageCount": 1501,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 1,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 11
+        },
+        "lowRated": 1,
+        "sampled": "13 top reviews (8 US, 5 other countries) of 1501 ratings"
+      },
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://sewingmachinesplus.com/products/pro_5",
+        "pageRating": 4.78,
+        "pageCount": 9,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 0,
+          "5": 8
+        },
+        "lowRated": 1,
+        "sampled": null
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Weight",
+        "juki": "18.6 (maker page, unit not shown)",
+        "others": "9.0 kg = 19.84 lb (maker manual p72)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+          },
+          {
+            "label": "Singer manual",
+            "url": "https://svpworldwide.widen.net/content/icxer9hskt/pdf/14T968DC_EN.pdf"
+          }
+        ],
+        "field": "Weight",
+        "source": "maker-page"
+      },
+      {
+        "label": "Dimensions",
+        "juki": "13.5 x 10.5 x 11.5 (maker page, no unit or axis labels)",
+        "others": "360 x 290 x 300 mm W x D x H (maker manual p72)",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer product page",
+            "url": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+          }
+        ],
+        "field": "Dimensions",
+        "source": "manual"
+      },
+      {
+        "label": "Warranty",
+        "juki": "90 day / 2 yr / 25 yr (maker page and warranty PDF, generic not model-specific)",
+        "others": "25 yr frame, 2 yr electronic, 90 day mechanical (our spec)",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Singer warranty PDF",
+            "url": "https://www.singer.com/products/singer-professional-5-14t968dc-serger"
+          }
+        ],
+        "field": "Warranty",
+        "source": "warranty"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "Singer Heavy Duty 14HD854",
+        "label": "Singer Heavy Duty 14HD854",
+        "rows": [
+          {
+            "feature": "Thread capability and knife",
+            "urls": 0,
+            "classes": [],
+            "summary": "2, 3 or 4 thread; 6 stitch types; 1,300 spm; Singer says the knife is 60% larger than on other Singer sergers; the upper knife can be moved out of the way.",
+            "check": "Singer 14HD854 product page, fetched 2026-10-02.",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "Singer 14CG754",
+        "label": "Singer 14CG754",
+        "rows": [
+          {
+            "feature": "Thread capability and free arm",
+            "urls": 0,
+            "classes": [],
+            "summary": "2, 3 or 4 thread; Singer says it has a built-in free arm and differential feed. No coverstitch.",
+            "check": "Singer 14CG754 product page, fetched 2026-10-02.",
             "examples": []
           }
         ]

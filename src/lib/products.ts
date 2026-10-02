@@ -587,7 +587,7 @@ const siteFields: Record<string, SiteFields> = {
     series: "Pro",
     score: 7.6,
     scoredFor: "serger",
-    reason: "Serger and coverstitch in one box, with a conversion each time you switch.",
+    reason: "Serger and coverstitch in one box, with a manual changeover each time you switch; Singer's manual now confirms most ranges but not free arm, trimmer or motor.",
     context: "Serger and coverstitch combo · in Sergers hub",
     alternatives: [
       { slug: "brother-1034d", label: "Serger only", note: "Cheaper if hems are not the gap." },
@@ -595,7 +595,9 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "janome-coverpro-2000cpx", label: "Bigger coverstitch", note: "Wide bed for large pieces." },
     ],
     imageAlt: "Singer Professional 5 14T968DC serger and coverstitch machine",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-02",
+    verdict: "A 5-thread serger and coverstitch in one box at 1,300 spm, with a manual changeover each time you switch and many owner threads about threading trouble.",
+    specsVerified: "2026-10-02",
   },
   // ------------------------------------------------------------------ Janome
   "janome-hd3000": {
@@ -711,7 +713,7 @@ const siteFields: Record<string, SiteFields> = {
   "juki-ddl-5550": {
     score: 8.5,
     scoredFor: "heavy-duty",
-    reason: "Made-in-Japan industrial straight stitch; needs a table, motor and floor space.",
+    reason: "Industrial straight stitch head; needs a table, motor and floor space, and Juki publishes no throat or head weight.",
     context: "Industrial lockstitch · in Heavy duty hub",
     alternatives: [
       { slug: "juki-ddl-8700", label: "Cheaper", note: "The industrial we rank first." },
@@ -719,20 +721,24 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "juki-tl-2010q", label: "Portable", note: "1,500 spm on a domestic body." },
     ],
     imageAlt: "Juki DDL-5550 industrial sewing machine head on a table",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-02",
+    verdict: "A Juki industrial straight stitch head with a 13 mm knee lift and automatic oiling that needs a table, a motor and floor space, and whose throat, head weight and origin Juki does not publish.",
+    specsVerified: "2026-10-02",
   },
   "juki-mo-644d": {
     score: 7.9,
     scoredFor: "serger",
-    reason: "Juki's entry serger at Brother 1034D money; the 654DE adds the 2-thread converter.",
+    reason: "Juki's catalog lists the 2-thread converter as optional here and standard on the 654DE.",
     context: "Overlocker · in Sergers hub",
     alternatives: [
-      { slug: "juki-mo-654de", label: "Step up", note: "Outside dials and 2-thread stitches." },
+      { slug: "juki-mo-654de", label: "Step up", note: "Converter standard per Juki's catalog; Juki prints a higher list price." },
       { slug: "brother-1034d", label: "Value pick", note: "The cheapest serger we'd recommend." },
       { slug: "babylock-vibrant", label: "Dealer route", note: "Baby Lock's entry serger." },
     ],
     imageAlt: "Juki MO-644D serger",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-02",
+    verdict: "Juki's entry serger on paper: 2/3/4 thread, 1,500 spm, differential feed and a built-in rolled hem, with the 2-thread converter sold separately.",
+    specsVerified: "2026-10-02",
   },
   "juki-hzl-f600": {
     score: 8.2,
@@ -917,7 +923,7 @@ const siteFields: Record<string, SiteFields> = {
   "brother-cs7000x": {
     score: 7.1,
     scoredFor: "beginner",
-    reason: "The budget computerized package; the 750 spm ceiling shows on thick seams.",
+    reason: "The budget computerized package; no published throat and a 750 spm ceiling.",
     context: "Computerized · in First serious machine hub",
     alternatives: [
       { slug: "janome-hd3000", label: "Mechanical", note: "Fewer stitches, far more machine." },
@@ -925,7 +931,9 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "janome-mc6650", label: "Real quilter", note: "10 in workspace per Janome, 1,000 spm, many times the price." },
     ],
     imageAlt: "Brother CS7000X computerized sewing machine with wide table",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-02",
+    verdict: "Budget computerized package with 70 stitches and a wide table, held back by no published throat figure and a 750 spm ceiling.",
+    specsVerified: "2026-10-02",
   },
   "bernina-1008": {
     score: 7.9,
@@ -974,15 +982,17 @@ const siteFields: Record<string, SiteFields> = {
   "handi-quilter-sweet-sixteen": {
     score: 7.8,
     scoredFor: "quilting",
-    reason: "Discontinued sit-down mid-arm; remaining stock versus a used unit.",
+    reason: "Sit-down quilter the maker no longer lists; dealer stock versus a used unit.",
     context: "Sit-down mid-arm, discontinued · remaining stock and used market",
     alternatives: [
-      { slug: "handi-quilter-moxie", label: "Current", note: "Handi Quilter's entry head, on a frame." },
+      { slug: "handi-quilter-moxie", label: "Current", note: "Same brand, a frame machine with a 15 in head." },
       { slug: "juki-tl-18qvp", label: "Domestic", note: "8.5 in straight stitch at a table." },
-      { slug: "handi-quilter-amara", label: "Go long-arm", note: "20 in on a frame." },
+      { slug: "handi-quilter-amara", label: "Go long-arm", note: "A 20 in head on a frame, for quilters who find a table drags on big quilts." },
     ],
     imageAlt: "Handi Quilter Sweet Sixteen sit-down quilting machine with table",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-02",
+    verdict: "A 16 in sit-down quilter with a table and optional regulation; the maker has no machine page, so judged on its manual and owner reports.",
+    specsVerified: "2026-10-02",
   },
   "grace-qnique-19x": {
     score: 8.3,
@@ -1031,7 +1041,7 @@ const siteFields: Record<string, SiteFields> = {
   "singer-14hd854": {
     score: 7.3,
     scoredFor: "serger",
-    reason: "The ProFinish with a Heavy Duty badge; buy on price against the 14CG754.",
+    reason: "The ProFinish with a Heavy Duty badge; buy on price against the 14CG754, and read the manual figures, which differ from Singer's page.",
     context: "Overlocker · Singer Heavy Duty serger",
     alternatives: [
       { slug: "singer-14cg754", label: "Sibling", note: "Same class, ProFinish name." },
@@ -1039,7 +1049,9 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "juki-mo-654de", label: "Steadier", note: "Our pick for weekly serging." },
     ],
     imageAlt: "Singer Heavy Duty 14HD854 serger",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-02",
+    verdict: "A 2/3/4 thread Singer serger with differential feed and a free arm; Heavy Duty is a series name, and the owner record is thin.",
+    specsVerified: "2026-10-02",
   },
 };
 

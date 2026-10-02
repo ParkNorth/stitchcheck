@@ -1,0 +1,507 @@
+{
+  "slug": "juki-mo-644d",
+  "collected": "2026-10-02",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/juki-mo-644d.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "maker-page",
+      "url": "https://www.jukihome.com/products/serging/mo-644d.html",
+      "type": "product page",
+      "fetched": "2026-10-02",
+      "note": "Juki America home page for MO-644D. Lists features, specs, accessories, MSRP, links to catalog and manual."
+    },
+    {
+      "id": "catalog",
+      "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf",
+      "type": "brochure (catalog, MO-600 to MO-735 series)",
+      "fetched": "2026-10-02",
+      "note": "3 pages, text layer. Comparison table of MO-623, MO-644D, MO-654DE, MO-655, MO-735. Column assignment of some rows read from table order; verify against the PDF."
+    },
+    {
+      "id": "manual",
+      "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_1.pdf",
+      "type": "instruction manual (MO-644DN/654DEN, 36 pages)",
+      "fetched": "2026-10-02",
+      "note": "Linked from the MO-644D page but titled MO-644DN/654DEN. Spec page lists 220-240 V foot control, so it appears to be a 220-240 V edition; the DN suffix is not the model on our page. Treat as a close relative, not the same model document."
+    },
+    {
+      "id": "faq",
+      "url": "https://www.jukihome.com/faq/",
+      "type": "warranty terms (maker FAQ)",
+      "fetched": "2026-10-02",
+      "note": "Generic Juki America home-machine warranty wording; the /warranty page is a registration form with no terms text. Not model-specific."
+    },
+    {
+      "id": "sib-654de",
+      "url": "https://www.jukihome.com/products/serging/mo-654de.html",
+      "type": "sibling product page",
+      "fetched": "2026-10-02",
+      "note": "MO-654DE for comparison."
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1500 spm (Max. 1500 spm)",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": 1500,
+      "note": "Catalog agrees: maximum 1,500 spm.",
+      "site": {
+        "label": "Speed",
+        "juki": "Max. 1500 spm.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "threads",
+      "value": "2/3/4 threads, 2 needles",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "2, 3 or 4 thread, 2 needles",
+      "note": "Catalog title: 2-Needle, 2/3/4 Thread Overlock with Automatic Rolled Hemming and Differential Feed.",
+      "site": {
+        "label": "Threads",
+        "juki": "2/3/4.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          },
+          {
+            "label": "Juki catalog",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchTypes",
+      "value": "2/3 thread converter is Optional on MO-644D, Standard on MO-654DE",
+      "source": "catalog",
+      "vs_spec": "confirms",
+      "spec_value": "2-thread stitches need the optional converter",
+      "note": "Catalog machine comparison table, 2/3 Thread Converter row. Not listed in the MO-644D page accessories.",
+      "site": {
+        "label": "2-thread converter",
+        "juki": "Optional (catalog). Not in the standard accessory list.",
+        "others": "Dealers say the same.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki catalog",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "differentialFeed",
+      "value": "0.7 - 2.0 ratio",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Yes, ratio published as 0.7 to 2.0; dial on the left side",
+      "note": "Ratio matches. Dial location: the page says the dial is on the exterior right hand side; our spec (from an owner site) says left. See contradiction row.",
+      "site": {
+        "label": "Differential feed",
+        "juki": "0.7 - 2.0 ratio.",
+        "others": "Matches our ratio.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "differentialFeedDialLocation",
+      "value": "Page: \"located on the exterior right hand side\"",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "dial on the left side",
+      "note": "The page text (shared with the 654DE page wording) puts the dial on the exterior right. Our spec and patternreview owners say left. The manual (644DN) labels the knob but a text layer gives no side. Soft: check the manual diagram before publishing either side.",
+      "site": {
+        "label": "Differential dial location",
+        "juki": "Right hand side (page wording).",
+        "others": "Owner and dealer copy say left.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          },
+          {
+            "label": "Juki manual",
+            "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_1.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "presserFootLift",
+      "value": "0.2 in (5 mm)",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Catalog and manual also give 5 mm.",
+      "site": {
+        "label": "Presser foot lift",
+        "juki": "0.2 in (5 mm).",
+        "others": "Our spec had no figure.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          },
+          {
+            "label": "Juki manual",
+            "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_1.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "weightLb",
+      "value": "15 lb (catalog: 7.0 kg / 15 lbs)",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": 15.0,
+      "note": "Page and catalog both 15 lb; manual 7.0 kg (about 15.4 lb).",
+      "site": {
+        "label": "Weight",
+        "juki": "15 lb (7.0 kg).",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          },
+          {
+            "label": "Juki catalog",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "Page: 10.6 in W x 13.5 in H x 11.5 in D. Catalog: 270 x 340 x 295 mm (W x D x H), about 10.6 x 13.4 x 11.6 in",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "13.4 x 10.6 x 11.6",
+      "note": "Axis order in our spec is unlabelled; figures agree within 0.1 in once depth is 13.4 and height 11.6. The page itself labels H 13.5 and D 11.5, the catalog labels depth 340 and height 295 mm. Maker documents disagree on which is height and which is depth.",
+      "site": {
+        "label": "Dimensions",
+        "juki": "Page: 10.6 W x 13.5 H x 11.5 D in. Catalog: 270 W x 340 D x 295 H mm.",
+        "others": "Our spec has 13.4 x 10.6 x 11.6, axes unlabelled.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          },
+          {
+            "label": "Juki catalog",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "needleSystem",
+      "value": "Page: Household (HAx1) #11-14. Manual (644DN): right and left needle 130/705H",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "130/705H (household), left and right needles",
+      "note": "HAx1 and 130/705H are the same household flat-shank family; the page gives sizes 11 to 14 only.",
+      "site": {
+        "label": "Needles",
+        "juki": "Household (HAx1) #11-14; manual says 130/705H.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          },
+          {
+            "label": "Juki manual",
+            "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_1.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchWidthMm",
+      "value": "Left needle 6 mm, right needle 4 mm, rolled hem 2 mm; max overlock width 0.2 in (6 mm)",
+      "source": "catalog",
+      "vs_spec": "confirms",
+      "spec_value": "Left needle 6, right needle 4, rolled hem 2",
+      "note": "Manual page 34 gives the same figures for the 644DN.",
+      "site": {
+        "label": "Stitch width",
+        "juki": "Left 6 mm, right 4 mm, rolled hem 2 mm.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki catalog",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "1 to 4 mm (standard 2.5 mm); page: max 4 mm (0.2 in)",
+      "source": "catalog",
+      "vs_spec": "contradicts",
+      "spec_value": "1 to 4 (standard 2.5); rolled hem 1.5",
+      "note": "Catalog table gives rolled hem stitch length as 1.0 - 1.5 for the 2/3-thread models; the 644D row figure for rolled hem is not separately stated, so our 1.5 is not confirmed for 644D. Verify against the PDF.",
+      "site": {
+        "label": "Stitch length",
+        "juki": "1 to 4 mm, standard 2.5 mm.",
+        "others": "Our rolled hem 1.5 figure is not on the page.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki catalog",
+            "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_mo-600-mo-735_series_brochure_2.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "rolledHem",
+      "value": "Automatic rolled hemming, flip of a switch, no needle plate or foot change",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Yes, built in; no needle plate change",
+      "note": "Quoted as maker wording (Flip and Roll).",
+      "site": {
+        "label": "Rolled hem",
+        "juki": "Built in: \"Flip and roll\", no needle plate or foot change.",
+        "others": "Matches our spec (maker claim).",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "freeArm",
+      "value": "Not mentioned on the page, catalog or manual feature lists",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "No",
+      "note": "The maker documents do not state free arm either way; our spec's No comes from an owner site. Silent, not a contradiction of the value.",
+      "site": {
+        "label": "Free arm",
+        "juki": "Not stated in the maker documents.",
+        "others": "Owner site says no free arm.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "throatIn",
+      "value": "Not published. Page gives overall dimensions only",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "No needle-to-body, workspace or arm figure on the page, catalog or manual. Do not infer from dimensions.",
+      "site": {
+        "label": "Throat space",
+        "juki": "Not published.",
+        "others": "Not published.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchCount",
+      "value": "Not published",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Serger stitch lists only; no count.",
+      "site": {
+        "label": "Stitch count",
+        "juki": "Not published.",
+        "others": "Not published.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "Not published",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "site": {
+        "label": "Thread trimmer",
+        "juki": "Not published (serger knife only).",
+        "others": "Not published.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "includedFeet",
+      "value": "Standard presser foot (multi-purpose), screwdriver, spool caps, oiler, thread nets, vinyl cover, needle pack, tweezer, brush and needle inserter, looper threader, accessory pouch, light bulb, instruction manual, foot control, power cord",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Standard (multipurpose) snap-on presser foot, screwdriver, spool caps, oiler, thread nets, tweezers, needles, brush and needle inserter, light bulb, looper threader, accessory pouch, vinyl cover, foot control, manual",
+      "note": "Maker list matches ours; adds power cord. 2/3 thread converter is not in the list.",
+      "site": {
+        "label": "In the box",
+        "juki": "Maker list above; no converter, no specialty feet.",
+        "others": "Dealer bundles add feet and DVDs.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Juki America FAQ: limited warranty two years on motors, light assembly, wiring, switches, circuit boards and speed control; five years on all other parts related to factory defects. Routine service, tension, skipping stitches not covered. Service is provided by the dealer you bought from",
+      "source": "faq",
+      "vs_spec": "contradicts",
+      "spec_value": "5 yr mechanical, 2 yr electrical, 90 days labor (dealer statement of Juki warranty); consumables excluded",
+      "note": "The 90 days labor term is not in the maker FAQ wording; the 5 and 2 year terms match. FAQ is generic for home machines, not model-specific; no MO-644D warranty document found.",
+      "site": {
+        "label": "Warranty",
+        "juki": "2 yr motors, light, wiring, switches, circuit boards, speed control; 5 yr other parts (factory defects). Generic wording, not model-specific.",
+        "others": "Dealers add 90 days labor, which is not in the maker FAQ.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki FAQ",
+            "url": "https://www.jukihome.com/faq/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "Juki Suggested Retail Price: $1,199.00 USD; page says contact an authorized dealer for pricing",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": "priceUsdSeen 449.0 (Michaels, 2026-09-29)",
+      "note": "MSRP is the maker's printed figure, not a street price; the 654DE page prints $1,399.00. Never state either as a dealer price.",
+      "site": {
+        "label": "Price",
+        "juki": "MSRP $1,199.00 (maker). Dealer pricing only otherwise.",
+        "others": "Seen $449.00 at Michaels on 2026-09-29.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "manualModel",
+      "value": "Manual linked from the MO-644D page is titled MO-644DN/654DEN (mo-654_654de file name)",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The DN suffix and a 220-240 V foot control model suggest a regional edition. Matching 644D values (7.0 kg, 6/4/2 mm, 1 to 4 mm, 5 mm lift) agree with the page. Model name is not a spec: confirm before treating the manual as the 644D document.",
+      "site": {
+        "label": "Manual",
+        "juki": "Linked from the page but titled MO-644DN/654DEN.",
+        "others": "No separate MO-644D manual found.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki manual",
+            "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-654_654de_instruction_manual_hq_1.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "claims",
+      "value": "Quoted marketing: \"Heavy Duty Knife System\"; \"Tension: Industrial Type Dial\"; \"Easy-to-operate, durable and dependable\"; \"Flip and roll\"; \"Bright Lights - Better View\"; \"affordable price\"",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "All are maker claims, not spec rows. The catalog description for lighter and heavy fabrics (\"light to heavy weight fabrics\") sits in the 654DE paragraph; the 644D page claims light and heavy weight cutting for the knife system only.",
+      "site": {
+        "label": "Maker claims",
+        "juki": "\"Heavy Duty Knife System\" and \"Industrial Type Dial\" are Juki wording.",
+        "others": "Treat as claims.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "availability",
+      "value": "No discontinued or unavailable notice on the page (2026-10-02 fetch)",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The page still lists the machine and MSRP; the contact form's model dropdown omits the MO-644D (lists MO-654DE, MO-655, MO-734DE, MO-1000). Page wording only.",
+      "site": {
+        "label": "Availability",
+        "juki": "Page live, no notice. Not in the contact form model list.",
+        "others": "Dealers list it.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki page",
+            "url": "https://www.jukihome.com/products/serging/mo-644d.html"
+          }
+        ]
+      }
+    }
+  ]
+}

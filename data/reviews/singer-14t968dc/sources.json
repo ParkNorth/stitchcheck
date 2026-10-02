@@ -1,0 +1,734 @@
+[
+  {
+    "id": "web:14ca2ffa80804558",
+    "url": "https://www.amazon.com/dp/B002PDZTT2",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T12:32:26.867Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T12:32:26.867Z",
+    "status": "ok",
+    "site_rating": 4.2,
+    "site_review_count": 1501,
+    "asin": "B002PDZTT2",
+    "parent_asin": "B0HFNHLX7C",
+    "product_asins": [
+      "B0GM81RNCC",
+      "B002PDZTT2"
+    ],
+    "pooled_variations": true,
+    "sampled": "13 top reviews (8 US, 5 other countries) of 1501 ratings",
+    "listing": {
+      "title": "SINGER® Professional 14T968DC Heavy-Duty Serger Overlock with Accessory Kit",
+      "price_usd": 649.99,
+      "best_sellers_rank": "#97,410 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #14 in Sergers & Overlock Machines",
+      "details": {
+        "Model Number": "14T968DC",
+        "Warranty Description": "25-year limited warranty",
+        "Included Components": "Coverlock Machine + Accessories",
+        "Manufacturer": "Singer",
+        "Part Number": "14T968DC",
+        "Color": "White.",
+        "Material": "Metal, Plastic",
+        "Item Dimensions D x W x H": "10.5\"D x 13.5\"W x 11.5\"H",
+        "Item Weight": "18.6 pounds"
+      }
+    }
+  },
+  {
+    "id": "web:f68490381bf7f9e3",
+    "url": "https://sewingmachinesplus.com/products/pro_5",
+    "class": "retailer",
+    "title": "sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-02T12:32:28.860Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-02T12:32:28.860Z",
+    "status": "ok",
+    "site_rating": 4.78,
+    "site_review_count": 9,
+    "content_hash": "d162c5c1986dd926"
+  },
+  {
+    "id": "reddit:6e8rdt",
+    "url": "https://www.reddit.com/r/sewing/comments/6e8rdt/cover_stitching_and_singer_professional_5_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Cover Stitching and Singer Professional 5 serger",
+    "subreddit": "sewing",
+    "thread_id": "6e8rdt",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1496254109,
+    "discovered_by": [
+      "all:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 14T968DC review",
+      "r/sewing:Singer 14T968DC coverstitch"
+    ],
+    "content_hash": "5f3573156a90ca97"
+  },
+  {
+    "id": "reddit:1bsru0",
+    "url": "https://www.reddit.com/r/sewing/comments/1bsru0/my_new_singer_14t968dc_and_a_few_starter_threads/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "My new Singer 14T968DC and a few starter threads and fabrics. I can't wait to get started!!!",
+    "subreddit": "sewing",
+    "thread_id": "1bsru0",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1365402192,
+    "discovered_by": [
+      "all:Singer 14T968DC",
+      "r/sewing:Singer 14T968DC",
+      "r/sewing:Singer 14T968DC problems",
+      "all:Singer 14T968DC coverstitch",
+      "r/sewing:Singer 14T968DC coverstitch"
+    ],
+    "content_hash": "3b020a0c846665b5"
+  },
+  {
+    "id": "reddit:15ogr8z",
+    "url": "https://www.reddit.com/r/sewhelp/comments/15ogr8z/i_know_why_it_happens_the_different_directions_of/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "I know WHY it happens, the different directions of the threads in the knit, but is there a way to prevent this? It keeps happening even with a 1” seam allowance. (I’m using a Singer Serger 14T968DC)",
+    "subreddit": "sewhelp",
+    "thread_id": "15ogr8z",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1691787714,
+    "discovered_by": [
+      "all:Singer 14T968DC",
+      "r/sewhelp:Singer 14T968DC",
+      "r/sewhelp:Singer 14T968DC problems",
+      "all:Singer 14T968DC coverstitch",
+      "r/sewhelp:Singer 14T968DC coverstitch",
+      "r/sewhelp:Singer 14T968DC vs"
+    ],
+    "content_hash": "9b8092a665146967"
+  },
+  {
+    "id": "reddit:al7daj",
+    "url": "https://www.reddit.com/r/sewing/comments/al7daj/singer_professional_5_serger_i_found_this_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer Professional 5 serger. I found this machine at the local thrift store for a steal. Anyone ever used one? Are they decent? I haven't used a serger since the 90's, and it was a bernina. Im hoping this is user friendly. Any advice is appreciated.",
+    "subreddit": "sewing",
+    "thread_id": "al7daj",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1548901094,
+    "discovered_by": [
+      "all:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 14T968DC review"
+    ],
+    "content_hash": "fdf6021a0195a0eb"
+  },
+  {
+    "id": "reddit:utm6vx",
+    "url": "https://www.reddit.com/r/sewhelp/comments/utm6vx/upgraded_from_brother_1034d_to_singer/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Upgraded from Brother 1034D to Singer Professional 5, but can’t figure it out. I’m attempting cover stitch K, but keeps getting bunched up. I believe issue is with first thread (brown), but don’t know for certain. Bunching occurs at looper A. Read the manual, searched YouTube, rethreaded, no luck.",
+    "subreddit": "sewhelp",
+    "thread_id": "utm6vx",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1653286779,
+    "discovered_by": [
+      "r/sewhelp:Singer Professional 5 serger",
+      "r/sewhelp:Singer Professional 5 14T968DC review"
+    ],
+    "content_hash": "cbb8e0dc8b78c3bb"
+  },
+  {
+    "id": "reddit:2s6ysn",
+    "url": "https://www.reddit.com/r/sewing/comments/2s6ysn/serger_question_singer_14t968dc_vs_brother_1034d/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger question: SINGER 14T968DC vs Brother 1034D",
+    "subreddit": "sewing",
+    "thread_id": "2s6ysn",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1421639696,
+    "discovered_by": [
+      "all:Singer 14T968DC",
+      "r/sewing:Singer 14T968DC",
+      "r/sewing:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 14T968DC review",
+      "r/sewing:Singer 14T968DC problems",
+      "all:Singer 14T968DC coverstitch",
+      "r/sewing:Singer 14T968DC coverstitch",
+      "all:Singer 14T968DC vs",
+      "r/sewing:Singer 14T968DC vs"
+    ],
+    "content_hash": "1d4baa6c0556a354"
+  },
+  {
+    "id": "reddit:f9dvh7",
+    "url": "https://www.reddit.com/r/sewing/comments/f9dvh7/sergercoverstitch_machine_new_singer_professional/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger/Coverstitch Machine new Singer Professional 5 Thread Vs. Used Janome 1200D",
+    "subreddit": "sewing",
+    "thread_id": "f9dvh7",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1582726155,
+    "discovered_by": [
+      "all:Singer 14T968DC",
+      "r/sewing:Singer 14T968DC",
+      "all:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 14T968DC review",
+      "all:Singer 14T968DC coverstitch",
+      "r/sewing:Singer 14T968DC coverstitch",
+      "all:Singer 14T968DC vs",
+      "r/sewing:Singer 14T968DC vs"
+    ],
+    "content_hash": "bf93e9ca14595b0b"
+  },
+  {
+    "id": "reddit:15k1s7w",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/15k1s7w/singer_serger_14t968dc/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer Serger 14T968DC",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "15k1s7w",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1691413004,
+    "discovered_by": [
+      "all:Singer 14T968DC",
+      "r/SewingForBeginners:Singer 14T968DC",
+      "r/SewingForBeginners:Singer 14T968DC problems",
+      "all:Singer 14T968DC coverstitch",
+      "r/SewingForBeginners:Singer 14T968DC coverstitch",
+      "r/SewingForBeginners:Singer 14T968DC vs"
+    ],
+    "content_hash": "f510fc7d647b40f5"
+  },
+  {
+    "id": "reddit:1k62tjl",
+    "url": "https://www.reddit.com/r/sewing/comments/1k62tjl/singer_14t968dc_take_up_cover_pops_off/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 14t968dc Take up cover pops off",
+    "subreddit": "sewing",
+    "thread_id": "1k62tjl",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "thin",
+    "cursor_utc": 1745424034,
+    "discovered_by": [
+      "all:Singer 14T968DC",
+      "r/sewing:Singer 14T968DC",
+      "r/sewing:Singer 14T968DC problems",
+      "all:Singer 14T968DC coverstitch",
+      "r/sewing:Singer 14T968DC coverstitch",
+      "r/sewing:Singer 14T968DC vs"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1g8e1o1",
+    "url": "https://www.reddit.com/r/sewing/comments/1g8e1o1/which_machine_should_i_keep/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Which Machine Should I Keep?",
+    "subreddit": "sewing",
+    "thread_id": "1g8e1o1",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1730082096,
+    "discovered_by": [
+      "all:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 14T968DC review",
+      "all:Singer 14T968DC coverstitch",
+      "r/sewing:Singer 14T968DC coverstitch"
+    ],
+    "content_hash": "1b4a6c6b3da927b0"
+  },
+  {
+    "id": "reddit:1vr34xf",
+    "url": "https://www.reddit.com/r/sewing/comments/1vr34xf/coverstitchoverlock_combo_or_separate_machines/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Coverstitch+overlock combo or separate machines?",
+    "subreddit": "sewing",
+    "thread_id": "1vr34xf",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1787149035,
+    "discovered_by": [
+      "all:Singer 14T968DC",
+      "r/sewing:Singer 14T968DC",
+      "r/sewing:Singer Professional 5 14T968DC review",
+      "r/sewing:Singer 14T968DC problems",
+      "all:Singer 14T968DC coverstitch",
+      "r/sewing:Singer 14T968DC coverstitch"
+    ],
+    "content_hash": "6a6b4e927db022a8"
+  },
+  {
+    "id": "reddit:1bolxiv",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1bolxiv/shirring_with_a_coverstitch_machine_not_working/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Shirring with a Coverstitch Machine - Not Working",
+    "subreddit": "sewhelp",
+    "thread_id": "1bolxiv",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1711572647,
+    "discovered_by": [
+      "r/sewhelp:Singer Professional 5 serger",
+      "r/sewhelp:Singer Professional 5 14T968DC review",
+      "all:Singer 14T968DC coverstitch",
+      "r/sewhelp:Singer 14T968DC coverstitch"
+    ],
+    "content_hash": "2f05707038769642"
+  },
+  {
+    "id": "reddit:109oz23",
+    "url": "https://www.reddit.com/r/sewhelp/comments/109oz23/coverstitch_issues/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Coverstitch Issues",
+    "subreddit": "sewhelp",
+    "thread_id": "109oz23",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1673544768,
+    "discovered_by": [
+      "r/sewhelp:Singer Professional 5 serger",
+      "r/sewhelp:Singer Professional 5 14T968DC review",
+      "all:Singer 14T968DC coverstitch",
+      "r/sewhelp:Singer 14T968DC coverstitch"
+    ],
+    "content_hash": "3f9e19e0b69c84b3"
+  },
+  {
+    "id": "reddit:1k3b18b",
+    "url": "https://www.reddit.com/r/sewing/comments/1k3b18b/can_someone_please_recommend_where_to_get_a/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Can someone please recommend where to get a sewing machine fixed the Austin, TX area?",
+    "subreddit": "sewing",
+    "thread_id": "1k3b18b",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1745128759,
+    "discovered_by": [
+      "all:Singer 14T968DC",
+      "r/sewing:Singer 14T968DC",
+      "all:Singer 14T968DC coverstitch",
+      "r/sewing:Singer 14T968DC coverstitch"
+    ],
+    "content_hash": "0d44bf060f4f7bf1"
+  },
+  {
+    "id": "reddit:l86mg6",
+    "url": "https://www.reddit.com/r/sewhelp/comments/l86mg6/machine_help_with_singer_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Machine Help with Singer Serger",
+    "subreddit": "sewhelp",
+    "thread_id": "l86mg6",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1611963362,
+    "discovered_by": [
+      "all:Singer 14T968DC",
+      "r/sewhelp:Singer 14T968DC",
+      "r/sewhelp:Singer Professional 5 serger",
+      "r/sewhelp:Singer Professional 5 14T968DC review",
+      "r/sewhelp:Singer 14T968DC coverstitch",
+      "r/sewhelp:Singer 14T968DC vs"
+    ],
+    "content_hash": "acdd7141a2a69321"
+  },
+  {
+    "id": "reddit:hta409",
+    "url": "https://www.reddit.com/r/sewing/comments/hta409/looking_for_a_serger_in_the_300400_range_please/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Looking for a serger in the $300-$400 range, please.",
+    "subreddit": "sewing",
+    "thread_id": "hta409",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1595077473,
+    "discovered_by": [
+      "all:Singer 14T968DC",
+      "r/sewing:Singer 14T968DC",
+      "all:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 serger",
+      "r/sewing:Singer 14T968DC coverstitch"
+    ],
+    "content_hash": "39812b11402eab9c"
+  },
+  {
+    "id": "reddit:15ylt3p",
+    "url": "https://www.reddit.com/r/sewing/comments/15ylt3p/serging_stretch_and_nonstretch_fabric_together/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serging Stretch and Non-Stretch Fabric Together",
+    "subreddit": "sewing",
+    "thread_id": "15ylt3p",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1692784882,
+    "discovered_by": [
+      "all:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 14T968DC review"
+    ],
+    "content_hash": "45645cc72e6085df"
+  },
+  {
+    "id": "reddit:1licds7",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1licds7/coverstitch_machine_recommendations/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Coverstitch machine recommendations",
+    "subreddit": "sewhelp",
+    "thread_id": "1licds7",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1750716564,
+    "discovered_by": [
+      "r/sewhelp:Singer Professional 5 serger",
+      "r/sewhelp:Singer Professional 5 14T968DC review",
+      "all:Singer 14T968DC coverstitch",
+      "r/sewhelp:Singer 14T968DC coverstitch"
+    ],
+    "content_hash": "04b086e106b5ded6"
+  },
+  {
+    "id": "reddit:cf5n3y",
+    "url": "https://www.reddit.com/r/sewing/comments/cf5n3y/can_anyone_recommend_me_a_serger_with_coverstitch/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Can anyone recommend me a serger with coverstitch capability/ convince me to just get a plain serger?",
+    "subreddit": "sewing",
+    "thread_id": "cf5n3y",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1563562042,
+    "discovered_by": [
+      "all:Singer 14T968DC",
+      "r/sewing:Singer 14T968DC",
+      "all:Singer 14T968DC coverstitch",
+      "r/sewing:Singer 14T968DC coverstitch"
+    ],
+    "content_hash": "92c2b0443ac668a8"
+  },
+  {
+    "id": "reddit:1tg7p2w",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1tg7p2w/i_dug_up_my_nans_old_overlock_serger_machine_no/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "I dug up my nans old overlock/ serger machine. No idea whats wrong with it.",
+    "subreddit": "sewhelp",
+    "thread_id": "1tg7p2w",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1779286689,
+    "discovered_by": [
+      "all:Singer Professional 5 serger",
+      "r/sewhelp:Singer Professional 5 serger",
+      "r/sewhelp:Singer Professional 5 14T968DC review"
+    ],
+    "content_hash": "3c5b3f62c7a8ea39"
+  },
+  {
+    "id": "reddit:d5u2am",
+    "url": "https://www.reddit.com/r/sewing/comments/d5u2am/babylock_worth_it/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Babylock Worth It?",
+    "subreddit": "sewing",
+    "thread_id": "d5u2am",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1568999018,
+    "discovered_by": [
+      "all:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 serger"
+    ],
+    "content_hash": "0ffe947452980a32"
+  },
+  {
+    "id": "reddit:1vdhv0h",
+    "url": "https://www.reddit.com/r/sewing/comments/1vdhv0h/serveroverlock_needles/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Server/overlock needles",
+    "subreddit": "sewing",
+    "thread_id": "1vdhv0h",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1785720681,
+    "discovered_by": [
+      "all:Singer 14T968DC",
+      "r/sewing:Singer 14T968DC",
+      "r/sewing:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 14T968DC review",
+      "all:Singer 14T968DC coverstitch",
+      "r/sewing:Singer 14T968DC coverstitch"
+    ],
+    "content_hash": "9a8fa474dd17db46"
+  },
+  {
+    "id": "reddit:i4syxc",
+    "url": "https://www.reddit.com/r/sewing/comments/i4syxc/help_with_serger_thread/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help with serger thread!",
+    "subreddit": "sewing",
+    "thread_id": "i4syxc",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1596846365,
+    "discovered_by": [
+      "all:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 serger",
+      "r/sewing:Singer 14T968DC coverstitch"
+    ],
+    "content_hash": "de3bb23d56048604"
+  },
+  {
+    "id": "reddit:1h4ibjv",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1h4ibjv/help_what_piece_am_i_missing/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "HELP! What piece am I missing? ",
+    "subreddit": "sewhelp",
+    "thread_id": "1h4ibjv",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1733101791,
+    "discovered_by": [
+      "all:Singer 14T968DC",
+      "r/sewhelp:Singer 14T968DC",
+      "all:Singer Professional 5 serger",
+      "r/sewhelp:Singer Professional 5 serger",
+      "r/sewhelp:Singer Professional 5 14T968DC review",
+      "all:Singer 14T968DC coverstitch",
+      "r/sewhelp:Singer 14T968DC coverstitch",
+      "r/sewhelp:Singer 14T968DC vs"
+    ],
+    "content_hash": "b6fe26555a5aad19"
+  },
+  {
+    "id": "reddit:1037wup",
+    "url": "https://www.reddit.com/r/sewing/comments/1037wup/sergeroverlocker_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger/Overlocker help",
+    "subreddit": "sewing",
+    "thread_id": "1037wup",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1672863404,
+    "discovered_by": [
+      "all:Singer 14T968DC",
+      "r/sewing:Singer 14T968DC",
+      "all:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 14T968DC review",
+      "all:Singer 14T968DC coverstitch",
+      "r/sewing:Singer 14T968DC coverstitch"
+    ],
+    "content_hash": "0283c308837c3dba"
+  },
+  {
+    "id": "reddit:1n5anji",
+    "url": "https://www.reddit.com/r/sewing/comments/1n5anji/challenging_machine_search_cross_boarders/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Challenging machine search / cross boarders",
+    "subreddit": "sewing",
+    "thread_id": "1n5anji",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1756704794,
+    "discovered_by": [
+      "all:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 14T968DC review"
+    ],
+    "content_hash": "d5754d11db143acc"
+  },
+  {
+    "id": "reddit:12r16lm",
+    "url": "https://www.reddit.com/r/sewing/comments/12r16lm/serger_is_skipping_stitches/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger is skipping stitches",
+    "subreddit": "sewing",
+    "thread_id": "12r16lm",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1681852716,
+    "discovered_by": [
+      "all:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 serger",
+      "r/sewing:Singer Professional 5 14T968DC review"
+    ],
+    "content_hash": "3156a5ecb687e0ca"
+  },
+  {
+    "id": "reddit:zntb79",
+    "url": "https://www.reddit.com/r/sewing/comments/zntb79/singer_customer_service/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer Customer Service",
+    "subreddit": "sewing",
+    "thread_id": "zntb79",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1671264340,
+    "discovered_by": [
+      "r/sewing:Singer Professional 5 14T968DC review"
+    ],
+    "content_hash": "127fdd20eb648f74"
+  },
+  {
+    "id": "reddit:1jojwpx",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1jojwpx/serger_question/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger question",
+    "subreddit": "sewhelp",
+    "thread_id": "1jojwpx",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1743514492,
+    "discovered_by": [
+      "all:Singer 14T968DC",
+      "r/sewhelp:Singer 14T968DC",
+      "all:Singer 14T968DC coverstitch",
+      "r/sewhelp:Singer 14T968DC coverstitch",
+      "r/sewhelp:Singer 14T968DC vs"
+    ],
+    "content_hash": "f3c2e793d754d9b0"
+  },
+  {
+    "id": "reddit:15evrbg",
+    "url": "https://www.reddit.com/r/sewing/comments/15evrbg/another_serger_question/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Another serger question",
+    "subreddit": "sewing",
+    "thread_id": "15evrbg",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1690855489,
+    "discovered_by": [
+      "all:Singer 14T968DC",
+      "r/sewing:Singer 14T968DC",
+      "r/sewing:Singer Professional 5 14T968DC review",
+      "r/sewing:Singer 14T968DC coverstitch"
+    ],
+    "content_hash": "68276fa900ef11c0"
+  },
+  {
+    "id": "reddit:1unhhks",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1unhhks/help_dialing_in_serger_tension/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help dialing in serger tension",
+    "subreddit": "sewhelp",
+    "thread_id": "1unhhks",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1783199909,
+    "discovered_by": [
+      "all:Singer Professional 5 serger",
+      "r/sewhelp:Singer Professional 5 serger",
+      "r/sewhelp:Singer Professional 5 14T968DC review"
+    ],
+    "content_hash": "d1a687d4dd0a7303"
+  },
+  {
+    "id": "reddit:1gvdu4z",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1gvdu4z/serger_recommendations_anyone/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger Recommendations Anyone?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1gvdu4z",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1732087823,
+    "discovered_by": [
+      "all:Singer Professional 5 serger",
+      "r/SewingForBeginners:Singer Professional 5 serger",
+      "r/SewingForBeginners:Singer Professional 5 14T968DC review"
+    ],
+    "content_hash": "00fa24ffeb043f05"
+  },
+  {
+    "id": "reddit:uvsxh7",
+    "url": "https://www.reddit.com/r/sewhelp/comments/uvsxh7/sewing_assistance/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing Assistance",
+    "subreddit": "sewhelp",
+    "thread_id": "uvsxh7",
+    "first_seen": "2026-10-02T12:32:29.152Z",
+    "last_fetched": "2026-10-02T12:32:29.152Z",
+    "status": "ok",
+    "cursor_utc": 1653285910,
+    "discovered_by": [
+      "all:Singer Professional 5 serger",
+      "r/sewhelp:Singer Professional 5 serger",
+      "r/sewhelp:Singer Professional 5 14T968DC review"
+    ],
+    "content_hash": "301bfe67cbddb38c"
+  }
+]

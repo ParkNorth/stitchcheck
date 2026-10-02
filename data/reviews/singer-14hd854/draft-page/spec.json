@@ -1,0 +1,132 @@
+{
+  "specs": {
+    "maxSpm": {
+      "value": 1200,
+      "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+    },
+    "differentialFeed": {
+      "value": "Yes, adjustable; ratio 1:0.7 to 1:2 (manual spec table)",
+      "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+    },
+    "needleSystem": {
+      "value": "Singer 2022 in #14 and #16 (90/14 and 100/16); 100/16 mounted, 90/14 in the accessory case (manual). The ELx705 equivalence is a dealer statement, not in the manual",
+      "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+    },
+    "presserFootLift": {
+      "value": "4.5 to 5.0 mm rise (manual); the product page also lists an Extra High Presser Foot Lifter",
+      "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+    },
+    "weightLb": {
+      "value": 13.7,
+      "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+    },
+    "dimensionsIn": {
+      "value": "13.3 x 11.0 x 10.4 (manual, 338 x 280 x 265 mm, converted)",
+      "source": "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+    }
+  },
+  "conflicts": [
+    "Max speed: the Singer product page says 1,300 spm; the Singer manual spec table says 1,200 +/- 150 spm. Both are Singer documents and the manual may be an older multi-region revision.",
+    "Weight: the Singer product page and Amazon say 13.5 lb; the manual says 6.2 kg, about 13.7 lb. One listing gives 7.38 kg, likely a shipping weight.",
+    "Dimensions: the Singer product page says 14 x 11 x 11.5 in; the manual says 338 x 280 x 265 mm, or 13.3 x 11.0 x 10.4 in (our conversion).",
+    "Needles: dealers say Singer 2022 is equivalent to ELx705; the manual names only Singer 2022 in #14 and #16 (90/14 and 100/16) and does not mention ELx705.",
+    "Stitch types: the Singer page and manual both list six; some retailers say 8 or 10, which neither Singer document supports.",
+    "Revision: the manual PDF fetched is a multi-region file and could be an older revision than the product page, so the page-versus-manual gaps may be revision gaps."
+  ],
+  "claims": [
+    "\"Heavy Duty\" (Singer series name, product page; it is a household serger, not a rating)",
+    "\"60% larger cutting knife than other Singer Sergers cuts thick fabrics easily\" (manufacturer claim, product page; the comparison base is Singer's own smaller sergers)",
+    "\"Heavy duty metal frame makes it more durable and keeps the machine steady for skip-free sewing\" (manufacturer claim, product page; the page elsewhere says only that the interior frame is metal)",
+    "\"High performance motor\" (manufacturer claim, product page; no motor output is published, and the 120 W on the page is an electrical rating line)",
+    "\"1300 stitches/minute professional speed\" (manufacturer claim, product page; the manual spec table says 1,200 +/- 150 spm)",
+    "\"From lightweight silks to heavy denim and upholstery\" (manufacturer claim, product page FAQ)",
+    "\"Twice the light of other Singer sergers\" (manufacturer claim for the two LEDs; the base is unnamed)"
+  ],
+  "evidence": "mixed",
+  "price": {
+    "priceUsdSeen": 349.95,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Sewing Machines Plus (sale price in search snippet; regular price shown $449.99). Singer's own page showed $319.99 against a $399.99 MSRP and Out of Stock on 2026-10-02."
+  },
+  "sources": [
+    "https://svpworldwide.widen.net/content/88j7cnl6dm/pdf/SINGER_14HD854_Serger_Overlock.pdf"
+  ],
+  "editorial": {
+    "verdict": "A 2/3/4 thread Singer serger with differential feed and a free arm, priced against its own ProFinish sibling; Heavy Duty is a series name, and Singer publishes no motor or frame rating.",
+    "whoFor": "A first or second serger buyer who wants 2 thread capability, differential feed and a free arm from a mainstream brand with a long head warranty, and who accepts that the owner record is thin.",
+    "skipIf": "You need a published motor rating or throat figure, you want a serger with a deep owner record, or you can stretch to a model that states more on its spec sheet.",
+    "keySpec": "2/3/4 thread · 1,200 +/- 150 spm (manual) · differential 1:0.7 to 1:2 · free arm · 2 LEDs · 13.7 lb",
+    "strengths": [
+      "Singer's documents list six stitch types on 2, 3 or 4 threads, including a built in rolled hem and flatlock",
+      "Differential feed is published at 1:0.7 to 1:2 in the manual, with a presser foot rise of 4.5 to 5.0 mm",
+      "Singer's warranty page states 25 years on the head and 2 years on motor and electrical parts, a generic Singer policy rather than a model-specific one"
+    ],
+    "weaknesses": [
+      "Owners report defects and unit problems, including a drive belt that arrived unconnected and a pedal that stopped responding on a secondhand unit, from a small and self-selected pool",
+      "Owners report trouble finding ballpoint or stretch needles in the Singer 2022 type; Singer's manual names only Singer 2022 in 90/14 and 100/16",
+      "Singer's page and manual disagree on speed, weight and size, and motor output, throat space and frame alloy are not published"
+    ],
+    "checks": [
+      {
+        "title": "Read the manual figures, not the page",
+        "body": "The Singer page says 1,300 spm; the manual spec table says 1,200 +/- 150 spm. Weight and size also differ between the two. Treat the speed as a range."
+      },
+      {
+        "title": "Check stock and dates before you plan around it",
+        "body": "Singer's page showed Out of Stock and Sold out on 2026-10-02 and does not say the model is discontinued. Confirm availability with the dealer."
+      },
+      {
+        "title": "Test the unit on arrival",
+        "body": "Owner reports include a belt that arrived unconnected and a pedal that stopped responding. Run scrap fabric through every stitch type inside the return window."
+      }
+    ],
+    "realCost": [
+      "Singer 2022 needles beyond the set included: the manual names 90/14 and 100/16, and owners report limited choice of ballpoint types",
+      "Serger thread: Singer's page lists spool holders, and one Singer reviewer says no thread came in the box",
+      "Serger oil and a lint brush; Singer includes a lint brush and a spare lower knife",
+      "Accessories beyond the all purpose foot, spreader, tweezers and screwdriver in the box"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Singer 14HD854 really heavy duty?",
+        "a": "Heavy Duty is Singer's series name, a claim and not a rating. Singer says the interior frame is metal and calls the motor high performance, but publishes no motor output (the 120 W on the page is an electrical line) and no frame alloy."
+      },
+      {
+        "q": "How fast does the 14HD854 sew?",
+        "a": "Singer's product page says 1,300 spm. The manual spec table says 1,200 +/- 150 spm. Both are Singer documents and the manual may be an older revision."
+      },
+      {
+        "q": "How many stitch types does it have?",
+        "a": "Six, per both the Singer page and the manual: 2 thread wrapped overlock, 2 thread rolled hem, 3 thread overlock, 3 thread flatlock, 3 thread wrapped overlock and 4 thread stretch mock safety. Retailer claims of 8 or 10 are not supported by either Singer document."
+      },
+      {
+        "q": "What differential feed ratio does it have?",
+        "a": "Singer's manual spec table gives 1:0.7 to 1:2. The product page says only that it is fully adjustable."
+      },
+      {
+        "q": "What needles does it use?",
+        "a": "The manual names Singer 2022 in #14 and #16 (90/14 and 100/16), with 100/16 mounted. Dealers call this equivalent to ELx705; that is a dealer statement, not in the manual. One owner reports difficulty finding ballpoint or stretch needles in this type."
+      },
+      {
+        "q": "How much does it weigh and how big is it?",
+        "a": "The page says 13.5 lb and 14 x 11 x 11.5 in. The manual says 6.2 kg, about 13.7 lb, and 338 x 280 x 265 mm, or 13.3 x 11.0 x 10.4 in. The inch figures from the manual are our conversion."
+      },
+      {
+        "q": "Does it have a free arm?",
+        "a": "Yes. Singer's page says to remove the storage compartment and the manual says to remove the cloth plate to expose the free arm. Neither document publishes a throat or workspace figure."
+      },
+      {
+        "q": "What do buyers rate it?",
+        "a": "Singer's page shows 4.3 from 44 reviews, with many flagged Received Free Product and an Ease of Use score of 2.7 of 5, per the page's own figures. Amazon shows 4.5 from 63 ratings on a listing pooled with other Singer Heavy Duty listings (0420 and 0460), so it is not this model's own rating."
+      },
+      {
+        "q": "Is it discontinued?",
+        "a": "Singer's page shows Out of Stock and Sold out with back-orders on a date to be determined. It does not say the model is discontinued. We attribute the wording and make no further claim."
+      },
+      {
+        "q": "What does it cost?",
+        "a": "Singer's page showed a $399.99 MSRP and a lower price on 2026-10-02, and it was out of stock. Check the Last seen line for a dated retailer price; prices move often."
+      }
+    ]
+  }
+}

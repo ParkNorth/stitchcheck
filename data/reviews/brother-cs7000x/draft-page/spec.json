@@ -1,0 +1,119 @@
+{
+  "specs": {
+    "maxSpm": { "value": 750, "source": "https://www.brother-usa.com/p/sewing/CS7000X" },
+    "dimensionsIn": { "value": "12.2 x 6.65 x 16.26", "source": "https://www.brother-usa.com/p/sewing/CS7000X" },
+    "feedSystem": { "value": "Drop feed (feed dogs lower for free motion quilting)", "source": "https://www.brother-usa.com/p/sewing/CS7000X" },
+    "freeArm": { "value": "Yes, remove the flat bed attachment", "source": "https://www.brother-usa.com/p/sewing/CS7000X" },
+    "needleSystem": { "value": null, "source": null },
+    "throatIn": { "value": null, "source": null },
+    "frame": { "value": null, "source": null },
+    "includedFeet": {
+      "value": "Maker 'In the Box' list: '10 sewing feet' naming nine feet (zigzag, buttonhole, zipper, button sewing, overcasting, blind stitch, monogramming, walking, quilting) plus a quilt guide; detachable wide table; hard protective cover. Count is soft, see conflicts",
+      "source": "https://www.brother-usa.com/p/sewing/CS7000X"
+    }
+  },
+  "conflicts": [
+    "Throat space: the earlier claims row credited 'large needle-to-arm workspace' to the CS7000X page, but the Brother CP100X page carries that wording and the CS7000X page does not; the CS7000X page says only 'detachable wide table', so throatIn stays null.",
+    "Frame: Walmart listing titles say 'Durable Metal Frame', the Brother CS7000X page names no frame material (the 'durable metal frame construction' wording is on the CP100X page), so frame stays null.",
+    "Needle system: our earlier 130/705H value rests on manualslib only; Brother's operation manual and product page name needle sizes 65/9 to 100/16 but no system designation, so it is set to null as unverified.",
+    "Included feet: the Brother page 'In the Box' list says '10 sewing feet' but names nine feet plus a quilt guide, its spec table adds a 1/4 in foot, and the Brother operation manual sells the walking foot, quilting foot, 1/4 in piecing foot and quilting guide separately with the note 'Sold separately with some models'.",
+    "Free arm: the Brother page and manual say the free arm is available by removing the flat bed attachment, while some Reddit posters say the machine has no free arm.",
+    "Manual coverage: the Brother operation manual lists product codes 888-N00/N02/N20/N22/N40/N42/N60 and never names the CS7000X, so it is a shared-platform manual and its figures are platform-level.",
+    "Price: Brother USA shows $279.99 MSRP on 2026-10-02, the same figure as the Amazon third-party price tracked on 2026-09-18, against $302.49 comparable value at Best Buy and $219 reported by a PatternReview member.",
+    "Model naming: the CS7000X replaced the CS7000i; both are 70 stitch machines and used listings mix them. Specs here are for the X."
+  ],
+  "claims": [
+    "\"feature rich, sewing and quilting machine\" and \"perfect for larger quilting projects\" (maker claims, Brother USA product page); no throat figure published",
+    "\"Durable Metal Frame\" appears in Walmart listing titles (listing claim); not on the Brother CS7000X page",
+    "\"Perfect for beginners and experienced sewists alike\" (retailer claim, qualitysewing.com)",
+    "\"Sewed through eight layers of 12-ounce denim\" (review-site claim, techgearlab.com); not independently checked here"
+  ],
+  "evidence": "owner",
+  "price": {
+    "priceUsdSeen": 279.99,
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "Brother USA product page, MSRP (maker's own store, not a dealer price)"
+  },
+  "sources": [
+    "https://www.brother-usa.com/p/sewing/CS7000X",
+    "https://www.brother-usa.com/p/sewing/CP100X",
+    "https://download.brother.com/welcome/doch101975/888_n00_n02_n20_n22_n40_n42_n60_om03en.pdf",
+    "https://assets.brother.com/asset/3c94d716-bfc6-44de-8ae8-0b4b0286d316/13317_Standard_Warranty-pdf.pdf",
+    "https://www.amazon.com/dp/B08BH5GTNC",
+    "https://www.sewingmachinesplus.com/CS7000X.php"
+  ],
+  "editorial": {
+    "verdict": "A budget computerized machine with 70 stitches, 7 one-step buttonholes and a wide table at $279.99 MSRP, but no published throat figure and a 750 spm ceiling.",
+    "whoFor": "A first machine buyer who wants computerized stitch selection, an automatic needle threader and a drop feed for lap quilts at a low price.",
+    "skipIf": "You need a stated throat in inches, speed above 750 spm, adjustable presser foot pressure, or a machine owners report as comfortable on thick layers.",
+    "keySpec": "70 stitches · 750 spm · 7 mm width · 7 buttonholes · 10.5 lb",
+    "strengths": [
+      "Owners report quiet running and easy pedal control, per Amazon and Sewing Machines Plus reviewers.",
+      "Owners report several presser feet in the box, including an overcasting foot used for a faux serged edge.",
+      "Owners report consistent, even stitches, and the maker confirms drop feed and a free arm."
+    ],
+    "weaknesses": [
+      "Owners report limits on thick materials, and one Amazon reviewer calls it not heavy duty for industrial level fabric.",
+      "Owners in help threads report defects such as the needle hitting the hook and a squeaking replacement unit; these threads over-represent problems.",
+      "Owners report threading trouble: a hidden take-up lever catch and unclear needle threader instructions."
+    ],
+    "checks": [
+      {
+        "title": "No published throat figure",
+        "body": "The CS7000X page gives no inch figure and says only 'detachable wide table'. The 'large needle-to-arm workspace' wording is on the CP100X page, so do not plan a quilt around it."
+      },
+      {
+        "title": "Count the feet in your box",
+        "body": "The page lists nine feet plus a quilt guide as '10 sewing feet', and the shared manual sells walking, quilting and piecing feet separately with some models. Check the included accessories sheet."
+      },
+      {
+        "title": "CS7000X, not CS7000i",
+        "body": "The older CS7000i shares the 70 stitch count and used listings mix the two. Check the model label before paying a used price."
+      }
+    ],
+    "realCost": [
+      "Walking, quilting and 1/4 in piecing feet and the quilting guide, if your box lacks them: the shared manual sells them separately with some models",
+      "Heavy fabric supplies: the shared manual's denim and canvas row names a 100/16 needle and 30 weight thread",
+      "Needles in sizes 65/9 to 100/16 per the manual; the maker names no needle system, so confirm before buying a pack",
+      "Oil and brush: a Sewing Machines Plus reviewer says none ships with the machine"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Brother CS7000X good for quilting?",
+        "a": "It has a drop feed for free motion quilting and a detachable wide table that Brother calls perfect for larger quilting projects. No throat figure is published and top speed is 750 spm, so it suits lap and baby quilts better than bed quilts."
+      },
+      {
+        "q": "What is the throat space on the CS7000X?",
+        "a": "Not published. The CS7000X page gives no inch figure. The phrase 'large needle-to-arm workspace' is on the CP100X page, not this one."
+      },
+      {
+        "q": "Does the CS7000X have a free arm?",
+        "a": "Yes per Brother: the page and manual say remove the flat bed attachment to use it. Some Reddit posters say it has no free arm, which disagrees with the maker."
+      },
+      {
+        "q": "How fast does the CS7000X sew?",
+        "a": "The Brother spec table lists a maximum sewing speed of 750, with no unit printed; dealers list it as 750 stitches per minute."
+      },
+      {
+        "q": "What feet come with the CS7000X?",
+        "a": "The Brother 'In the Box' list says 10 sewing feet but names nine feet plus a quilt guide, and the spec table adds a 1/4 in foot. The shared manual sells the walking foot, quilting foot, piecing foot and quilt guide separately with some models, so the count is soft."
+      },
+      {
+        "q": "Does the CS7000X have a metal frame?",
+        "a": "Brother's CS7000X page names no frame material. Walmart listing titles say Durable Metal Frame, and that wording appears on Brother's CP100X page, so it is recorded as a listing claim."
+      },
+      {
+        "q": "Can the CS7000X sew denim or canvas?",
+        "a": "The product page makes no thick-fabric claim. The shared manual lists denim of 12 ounces or more and canvas with a 100/16 needle. Owners are split: some report thick repairs without trouble, others call it not heavy duty."
+      },
+      {
+        "q": "What is the warranty on the CS7000X?",
+        "a": "Brother lists a 25 Year Limited Warranty. The standard warranty PDF splits it into 25 years on the chassis casting, 2 years on electronic components and circuit boards (replacement labor excluded) and 1 year on parts, labor and accessories."
+      },
+      {
+        "q": "What do buyers rate the CS7000X on Amazon?",
+        "a": "Amazon shows 4.6 from 3,642 ratings, but that rating is pooled across several variations sharing a parent listing, so it does not describe this exact configuration alone. Sewing Machines Plus shows 4.75 from 16 reviews."
+      }
+    ]
+  }
+}
