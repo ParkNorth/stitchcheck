@@ -1,0 +1,218 @@
+{
+  "slug": "juki-tl-2000qi",
+  "collected": "2026-10-01",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/juki-tl-2000qi.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "page",
+      "url": "https://www.jukihome.com/products/tl-2000qi.html",
+      "type": "product page (Juki America)",
+      "fetched": "2026-10-01",
+      "note": "Specifications, accessories, suggested retail price"
+    },
+    {
+      "id": "manual",
+      "url": "https://www.jukihome.com/media/catalog/product/t/l/tl-2000qi_instruction_manual.pdf",
+      "type": "instruction manual (PDF, 40 pages)",
+      "fetched": "2026-10-01",
+      "note": "Specifications table on p.12"
+    },
+    {
+      "id": "catalog",
+      "url": "https://www.jukihome.com/media/catalog/product/j/u/juki_tl-2000qi_catalog.pdf",
+      "type": "catalog (PDF, 2 pages, OCR)",
+      "fetched": "2026-10-01",
+      "note": "Image PDF read by OCR; verify figures against the PDF"
+    },
+    {
+      "id": "faq",
+      "url": "https://www.jukihome.com/faq/",
+      "type": "Juki America FAQ",
+      "fetched": "2026-10-01",
+      "note": "General warranty wording, not model-specific"
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1,500 stitches per minute (page, manual, catalog)",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": 1500,
+      "site": {
+        "label": "Speed",
+        "juki": "1,500 stitches per minute.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/tl-2000qi.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "Max. 6 mm; straight stitch only",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "throatIn",
+      "value": "Not published as throat, arm size or needle-to-arm; only 'Mid-Arm' and 'work area up to 23 inches with an auxiliary table'",
+      "source": "page",
+      "vs_spec": "contradicts",
+      "spec_value": 9,
+      "note": "Our 9 in has no maker source. Juki gives no figure for this model, so under rule 11 the throat is [verify].",
+      "site": {
+        "label": "Throat",
+        "juki": "Juki publishes no throat or arm figure for this model; the page says 'Mid-Arm' and a work area up to 23 in with the auxiliary table.",
+        "others": "Dealers quote 9 in.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/tl-2000qi.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "weightLb",
+      "value": "25.4 lb (11.5 kg), page, manual and catalog",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": 25.4,
+      "site": {
+        "label": "Weight",
+        "juki": "25.4 lb (11.5 kg).",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/tl-2000qi.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "Page: 17.75 W x 9 H x 8.5 D in; manual and catalog: 452 W x 350 H x 219 D mm (17.8 x 13.8 x 8.6 in)",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "17.8 x 8.6 x 13.8 (452 x 219 x 350 mm, W x D x H, converted)",
+      "note": "Juki's page lists the height as 9 in, which disagrees with the manual and catalog (13.8 in)."
+    },
+    {
+      "field": "presserFootLift",
+      "value": "Lever 9 mm (manual: 7 mm / 9 mm), knee lifter 12 mm",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": "Knee lifter lever included; lift height not published in snippet"
+    },
+    {
+      "field": "needleSystem",
+      "value": "HA x 1 (130/705H) #7 to #18; HL x 5 #9 to #16; high shank",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null."
+    },
+    {
+      "field": "motor",
+      "value": "No type or wattage; catalog (OCR) shows 120 V / 1.4 A, 100 W rated power consumption",
+      "source": "catalog",
+      "vs_spec": "adds",
+      "spec_value": "Foot control only; no front speed slider (forum comparison with TL-2010Q)",
+      "note": "OCR figure; verify against the PDF."
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "Automatic trimmer by foot-controller heel rock and a push-button switch; push-lever automatic needle threader",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "Automatic thread trimmer (owner-confirmed, dealer copy)"
+    },
+    {
+      "field": "hook",
+      "value": "'L' style bobbin; catalog: horizontal-axis full-rotary hook",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "lighting",
+      "value": "Bright-white LED lighting",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null
+    },
+    {
+      "field": "auxTableDimensions",
+      "value": "Page and catalog: 23 x 14 in (590 x 355 mm); manual: 590 x 277 mm",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Juki's page and manual disagree on the table depth (355 vs 277 mm)."
+    },
+    {
+      "field": "includedFeet",
+      "value": "Standard presser foot, even feed foot, auxiliary table, knee lift lever, 4 bobbins, needle set, oiler, spool cap, cover",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "Standard presser foot, even feed foot, auxiliary table, screwdrivers, cleaning brush, 4 bobbins, oiler, needles, spool cap, cover, knee lifter lever"
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Juki America FAQ: 2 years on motors, light assembly, wiring, switches, circuit boards and speed control; 5 years on other parts for factory defects",
+      "source": "faq",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "General wording, not model-specific.",
+      "site": {
+        "label": "Warranty",
+        "juki": "2 years on motor and electrical parts, 5 years on other factory defects (Juki America FAQ, general).",
+        "others": "Dealers state the same.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/faq/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "Suggested retail $1,799; contact an authorized Juki dealer",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Amazon showed $899 on 2026-10-01.",
+      "site": {
+        "label": "Price",
+        "juki": "Suggested retail $1,799.",
+        "others": "Amazon showed $899.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Juki source",
+            "url": "https://www.jukihome.com/products/tl-2000qi.html"
+          }
+        ]
+      }
+    },
+    {
+      "field": "claims",
+      "value": "'constructed of aluminum die-casting to ensure industrial-quality sewing'; 'Nothing Free Motion Quilts Better than a Juki'",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketing wording; claims only (rule 7)."
+    }
+  ]
+}

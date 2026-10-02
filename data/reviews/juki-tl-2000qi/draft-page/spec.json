@@ -1,43 +1,12 @@
 {
-  "slug": "juki-tl-2000qi",
-  "brand": "Juki",
-  "model": "TL-2000Qi",
-  "series": "TL",
-  "type": "mechanical",
-  "industrial": false,
-  "jobs": [
-    "heavy-duty",
-    "quilting"
-  ],
-  "manufacturerUrl": "https://www.jukihome.com/products/tl-2000qi.html",
-  "retailerUrl": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
-  "priceUsdSeen": 899,
-  "priceSeenDate": "2026-10-01",
-  "priceSeenAt": "Amazon",
   "specs": {
-    "stitchTypes": {
-      "value": "Straight stitch only, single needle lockstitch",
-      "source": "https://www.jukihome.com/products/tl-2000qi.html"
-    },
-    "stitchCount": {
-      "value": 1,
-      "source": "https://www.jukihome.com/products/tl-2000qi.html"
-    },
-    "maxSpm": {
-      "value": 1500,
-      "source": "https://www.qualitysewing.com/products/juki-tl-2000qi-high-speed-sewing-quilting-machine"
-    },
-    "threads": {
-      "value": null,
-      "source": null
-    },
-    "differentialFeed": {
-      "value": null,
-      "source": null
-    },
     "throatIn": {
       "value": null,
       "source": null
+    },
+    "maxStitchLengthMm": {
+      "value": 6,
+      "source": "https://www.jukihome.com/products/tl-2000qi.html"
     },
     "needleSystem": {
       "value": "HA x 1 (130/705H) #7 to #18; HL x 5 #9 to #16; high shank",
@@ -51,21 +20,17 @@
       "value": "Automatic trimmer by foot-controller heel rock and a push-button switch; push-lever automatic needle threader",
       "source": "https://www.jukihome.com/products/tl-2000qi.html"
     },
-    "feedSystem": {
-      "value": "Drop feed for free motion (shared TL design, dealer copy)",
-      "source": "https://www.qualitysewing.com/products/juki-tl-2000qi-high-speed-sewing-quilting-machine"
+    "bobbin": {
+      "value": "'L' style bobbin; catalog: horizontal-axis full-rotary hook",
+      "source": "https://www.jukihome.com/products/tl-2000qi.html"
     },
-    "buttonhole": {
-      "value": null,
-      "source": null
+    "lighting": {
+      "value": "Bright-white LED lighting",
+      "source": "https://www.jukihome.com/products/tl-2000qi.html"
     },
     "motor": {
       "value": "Microcomputer-based speed control with foot control only per Juki's page; catalog (OCR) shows 120 V / 1.4 A, 100 W rated power consumption, verify against the PDF",
       "source": "https://www.jukihome.com/media/catalog/product/j/u/juki_tl-2000qi_catalog.pdf"
-    },
-    "frame": {
-      "value": "Aluminum die-cast",
-      "source": "https://www.qualitysewing.com/products/juki-tl-2000qi-high-speed-sewing-quilting-machine"
     },
     "weightLb": {
       "value": 25.4,
@@ -75,25 +40,9 @@
       "value": "17.8 x 8.6 x 13.8 (452 x 219 x 350 mm, W x D x H, manual and catalog)",
       "source": "https://www.jukihome.com/media/catalog/product/t/l/tl-2000qi_instruction_manual.pdf"
     },
-    "includedFeet": {
-      "value": "Standard presser foot, even feed foot, auxiliary table, screwdrivers, cleaning brush, 4 bobbins, oiler, needles, spool cap, cover, knee lifter lever",
-      "source": "https://www.sewingmachinesplus.com/juki-tl2000qi.php"
-    },
     "warrantyUs": {
       "value": "Juki America FAQ, general wording not model-specific: 2 years on motors, light assembly, wiring, switches, circuit boards and speed control; 5 years on other parts for factory defects",
       "source": "https://www.jukihome.com/faq/"
-    },
-    "maxStitchLengthMm": {
-      "value": 6,
-      "source": "https://www.jukihome.com/products/tl-2000qi.html"
-    },
-    "bobbin": {
-      "value": "'L' style bobbin; catalog: horizontal-axis full-rotary hook",
-      "source": "https://www.jukihome.com/products/tl-2000qi.html"
-    },
-    "lighting": {
-      "value": "Bright-white LED lighting",
-      "source": "https://www.jukihome.com/products/tl-2000qi.html"
     }
   },
   "claims": [
@@ -111,55 +60,23 @@
     "Weight: 25.4 lb (11.5 kg) on Juki's page, manual and catalog, against 37.8 lb on one dealer listing that is likely a shipping weight. We show 25.4 lb.",
     "Price: Juki suggests $1,799 and tells buyers to contact an authorized Juki dealer; Amazon showed $899 on 2026-10-01."
   ],
-  "ownerThemes": [
-    {
-      "theme": "PatternReview owners across skill levels call it a smooth workhorse with excellent topstitching and repeatedly single out the knee lift and thread cutter as the features they would not give up.",
-      "tone": "positive",
-      "source": "https://sewing.patternreview.com/SewingMachine/1572"
-    },
-    {
-      "theme": "A PatternReview discussion asks how to sew slower on the TL-2000Qi, since it has no speed slider and relies on pedal control.",
-      "tone": "mixed",
-      "source": "https://sewing.patternreview.com/SewingDiscussions/topic/78012"
-    },
-    {
-      "theme": "Walmart reviewers rate it 4.4 of 5 but list weak lighting, a small needle hole and a presser foot that drags when free motion quilting with the foot down.",
-      "tone": "mixed",
-      "source": "https://www.walmart.com/reviews/product/154742741"
-    }
-  ],
   "evidence": "owner",
-  "buyerQuestions": [
-    "What is the difference between the Juki TL-2000Qi and the TL-2010Q?",
-    "Is the Juki TL-2000Qi discontinued?",
-    "Does the TL-2000Qi have a speed control slider?",
-    "How much does the Juki TL-2000Qi weigh?",
-    "Can the TL-2000Qi do free motion quilting?",
-    "Does the TL-2000Qi come with a walking foot?",
-    "Can the Juki TL-2000Qi sew zigzag?",
-    "Is the TL-2000Qi good for heavy fabrics like denim and canvas?"
+  "price": {
+    "priceUsdSeen": 899,
+    "priceSeenDate": "2026-10-01",
+    "priceSeenAt": "Amazon"
+  },
+  "sources": [
+    "https://www.jukihome.com/products/tl-2000qi.html",
+    "https://www.jukihome.com/media/catalog/product/t/l/tl-2000qi_instruction_manual.pdf",
+    "https://www.jukihome.com/media/catalog/product/j/u/juki_tl-2000qi_catalog.pdf",
+    "https://www.jukihome.com/faq/"
   ],
-  "crossShop": [
-    {
-      "slug": "juki-tl-2010q",
-      "why": "Same machine with speed slider, pre-tensioner and two extra quilting feet for roughly $200 to $300 more."
-    },
-    {
-      "slug": "janome-mc6650",
-      "why": "Quilters weighing a 10 in computerized flatbed with utility stitches against a faster single-stitch head."
-    },
-    {
-      "slug": "janome-hd3000",
-      "why": "Beginners who want heavy fabric ability but also need zigzag and a buttonhole at a lower price."
-    }
-  ],
-  "discontinued": false,
-  "replacedBy": null,
   "editorial": {
     "verdict": "A 1,500 spm straight-stitch quilting machine with no published throat figure, so check the reach before you pay.",
     "whoFor": "Quilters and straight-stitch sewists who want a 1,500 spm straight-stitch head with a thread trimmer and knee lifter, and are happy with foot-control speed.",
     "skipIf": "You need any stitch but straight, you want a published throat figure, or you want the front speed control and sub-tension dial owners credit to the TL-2010Q.",
-    "keySpec": "1,500 spm · straight stitch only · knee lifter · throat [verify]",
+    "keySpec": "1,500 spm \u00b7 straight stitch only \u00b7 knee lifter \u00b7 throat [verify]",
     "strengths": [
       "Juki lists 1,500 spm, a 6 mm maximum stitch length, an aluminum die-cast frame and a trimmer on foot-controller heel rock plus a push button.",
       "Owners report it powering through heavy fabric, and speed is the most discussed trait on the Sewing Machines Plus and Amazon listings.",
@@ -231,20 +148,5 @@
         "a": "Juki America's general FAQ gives 2 years on motor and electrical parts and 5 years on other factory defects; it is not model-specific, and Amazon's listing says '5 year limited warranty'. Sewing Machines Plus shows 4.83 from 207 reviews, but only 15 of those name this model."
       }
     ]
-  },
-  "sources": [
-    "https://www.jukihome.com/products/tl-2000qi.html",
-    "https://www.jukihome.com/media/catalog/product/j/u/juki_tl-2000qi_catalog.pdf",
-    "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
-    "https://www.qualitysewing.com/products/juki-tl-2000qi-high-speed-sewing-quilting-machine",
-    "https://dsinternational.com/products/tl-2000qi-1-needle-lockstitch-portable-sewing-machine",
-    "https://www.michaels.com/product/juki-tl2000qi-mechanical-sewing-and-quilting-machine-190229489994924043",
-    "https://sewingmachinesplus.com/products/juki_tl-2000qi-sewingquiltingmachine",
-    "https://sewing.patternreview.com/SewingMachine/1572",
-    "https://sewing.patternreview.com/SewingDiscussions/topic/78012",
-    "https://www.walmart.com/reviews/product/154742741",
-    "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/76583-juki-tl2000qi-vs-juki-tl-2010q",
-    "https://www.jukihome.com/media/catalog/product/t/l/tl-2000qi_instruction_manual.pdf",
-    "https://www.jukihome.com/faq/"
-  ]
+  }
 }

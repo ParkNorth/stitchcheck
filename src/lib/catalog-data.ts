@@ -7867,9 +7867,9 @@ export const catalogData: Record<string, CatalogEntry> = {
     "manufacturerUrl": "https://www.jukihome.com/products/tl-2000qi.html",
     "retailerUrl": "https://www.sewingmachinesplus.com/juki-tl2000qi.php",
     "priceUsdSeen": 899,
-    "priceSeenDate": "2026-09-29",
+    "priceSeenDate": "2026-10-01",
     "priceSeenAt": "another dealer",
-    "priceNote": "Michaels (search snippet; Sewing Machines Plus price not shown in snippet)",
+    "priceNote": "Amazon",
     "specs": {
       "stitchTypes": {
         "value": "Straight stitch only, single needle lockstitch",
@@ -7892,20 +7892,20 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "throatIn": {
-        "value": 9,
-        "source": "https://www.qualitysewing.com/products/juki-tl-2000qi-high-speed-sewing-quilting-machine"
-      },
-      "needleSystem": {
         "value": null,
         "source": null
       },
+      "needleSystem": {
+        "value": "HA x 1 (130/705H) #7 to #18; HL x 5 #9 to #16; high shank",
+        "source": "https://www.jukihome.com/products/tl-2000qi.html"
+      },
       "presserFootLift": {
-        "value": "Knee lifter lever included; lift height not published in snippet",
-        "source": "https://www.sewingmachinesplus.com/juki-tl2000qi.php"
+        "value": "Lever 9 mm (manual: 7 mm / 9 mm), knee lifter 12 mm",
+        "source": "https://www.jukihome.com/media/catalog/product/t/l/tl-2000qi_instruction_manual.pdf"
       },
       "threadTrimmer": {
-        "value": "Automatic thread trimmer (owner-confirmed, dealer copy)",
-        "source": "https://sewing.patternreview.com/review/machine/5201"
+        "value": "Automatic trimmer by foot-controller heel rock and a push-button switch; push-lever automatic needle threader",
+        "source": "https://www.jukihome.com/products/tl-2000qi.html"
       },
       "feedSystem": {
         "value": "Drop feed for free motion (shared TL design, dealer copy)",
@@ -7916,8 +7916,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "motor": {
-        "value": "Foot control only; no front speed slider (forum comparison with TL-2010Q)",
-        "source": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/76583-juki-tl2000qi-vs-juki-tl-2010q"
+        "value": "Microcomputer-based speed control with foot control only per Juki's page; catalog (OCR) shows 120 V / 1.4 A, 100 W rated power consumption, verify against the PDF",
+        "source": "https://www.jukihome.com/media/catalog/product/j/u/juki_tl-2000qi_catalog.pdf"
       },
       "frame": {
         "value": "Aluminum die-cast",
@@ -7925,30 +7925,35 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "weightLb": {
         "value": 25.4,
-        "source": "https://dsinternational.com/products/tl-2000qi-1-needle-lockstitch-portable-sewing-machine"
+        "source": "https://www.jukihome.com/products/tl-2000qi.html"
       },
       "dimensionsIn": {
-        "value": "17.8 x 8.6 x 13.8 (452 x 219 x 350 mm, W x D x H, converted)",
-        "source": "https://dsinternational.com/products/tl-2000qi-1-needle-lockstitch-portable-sewing-machine"
+        "value": "17.8 x 8.6 x 13.8 (452 x 219 x 350 mm, W x D x H, manual and catalog)",
+        "source": "https://www.jukihome.com/media/catalog/product/t/l/tl-2000qi_instruction_manual.pdf"
       },
       "includedFeet": {
         "value": "Standard presser foot, even feed foot, auxiliary table, screwdrivers, cleaning brush, 4 bobbins, oiler, needles, spool cap, cover, knee lifter lever",
         "source": "https://www.sewingmachinesplus.com/juki-tl2000qi.php"
       },
       "warrantyUs": {
-        "value": null,
-        "source": null
+        "value": "Juki America FAQ, general wording not model-specific: 2 years on motors, light assembly, wiring, switches, circuit boards and speed control; 5 years on other parts for factory defects",
+        "source": "https://www.jukihome.com/faq/"
       }
     },
     "claims": [
-      "\"Long-Arm Sewing & Quilting Machine\" (retailer label, Sewing Machines Plus listing title; arm is 9 in)",
-      "\"industrial-quality\" construction (dealer copy repeating Juki TL positioning)",
-      "\"23 inch work area\" with the extension table attached (dealer copy, Quality Sewing)"
+      "\"Long-Arm Sewing & Quilting Machine\" (retailer label, Sewing Machines Plus listing title; Juki itself says 'Mid-Arm' and publishes no arm figure)",
+      "\"constructed of aluminum die-casting to ensure industrial-quality sewing\" (Juki claim, Juki product page)",
+      "\"Nothing Free Motion Quilts Better than a Juki\" (Juki claim, Juki product page)",
+      "\"work area up to 23 inches\" with the auxiliary table attached (Juki product page; a table-extended work area, not throat space)"
     ],
     "conflicts": [
-      "Weight: 37.8 lb (Quality Sewing snippet, likely shipping weight) vs 25.4 lb / 11.5 kg (Dunlap Sunbrand and Ken's Sewing Center snippets). Catalog will use 25.4 lb because it matches Juki's kg figure.",
-      "Dimensions: one snippet converts 452 x 350 x 219 mm as 17.75 W x 9 H x 8.5 D in, which mislabels height; 350 mm is 13.8 in. Catalog will use 17.8 x 8.6 x 13.8 in.",
-      "Price: $899 (Michaels, World Weidner) vs $799 (eBay authorized dealer) vs historical SMP 'regular price $1,699' in a 2017 liquidation page. Catalog will use $899."
+      "Throat: Juki publishes no throat, arm or needle-to-arm figure for the TL-2000Qi, only 'Mid-Arm' and a work area up to 23 in with the auxiliary table. Dealers quote 9 in, and one owner says the throat is narrower than expected. Under rule 11 the throat is [verify] here, and we do not borrow a figure from another TL model.",
+      "Page height: Juki's product page lists 9 in, while the Juki manual and catalog give 350 mm (13.8 in). We show the manual and catalog figure.",
+      "Auxiliary table depth: 355 mm on Juki's page and catalog, 277 mm in the Juki manual. We state neither as fact.",
+      "Motor: the catalog is an image PDF read by OCR and shows 120 V / 1.4 A, 100 W. Treat these figures as unverified until checked against the PDF.",
+      "Warranty: 2 years on motor and electrical parts and 5 years on other factory defects is Juki America's general FAQ wording, not text written for this model. Amazon's listing says '5 year limited warranty', which does not match Juki's split.",
+      "Weight: 25.4 lb (11.5 kg) on Juki's page, manual and catalog, against 37.8 lb on one dealer listing that is likely a shipping weight. We show 25.4 lb.",
+      "Price: Juki suggests $1,799 and tells buyers to contact an authorized Juki dealer; Amazon showed $899 on 2026-10-01."
     ],
     "ownerThemes": [
       {
@@ -7995,40 +8000,81 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The lowest-cost route to Juki's 1,500 spm straight-stitch head, provided you can live with pedal-only speed control.",
-      "whoFor": "Quilters and heavy-fabric sewists who want the TL head, thread cutter and knee lift and would rather buy feet later than pay for the 2010Q's slider.",
-      "skipIf": "You are new to fast machines and want a hard speed limiter, or you need any stitch other than straight.",
-      "keySpec": "1,500 spm · straight stitch only · knee lifter · 9 in arm",
+      "verdict": "A 1,500 spm straight-stitch quilting machine with no published throat figure, so check the reach before you pay.",
+      "whoFor": "Quilters and straight-stitch sewists who want a 1,500 spm straight-stitch head with a thread trimmer and knee lifter, and are happy with foot-control speed.",
+      "skipIf": "You need any stitch but straight, you want a published throat figure, or you want the front speed control and sub-tension dial owners credit to the TL-2010Q.",
+      "keySpec": "1,500 spm · straight stitch only · knee lifter · throat [verify]",
       "strengths": [
-        "Dealers list the same 1,500 spm ceiling and aluminum die-cast body as the TL-2010Q.",
-        "Knee lifter, even feed foot and auxiliary table are in the standard box per the SMP listing.",
-        "Published net weight of 25.4 lb keeps it movable for classes or frame use."
+        "Juki lists 1,500 spm, a 6 mm maximum stitch length, an aluminum die-cast frame and a trimmer on foot-controller heel rock plus a push button.",
+        "Owners report it powering through heavy fabric, and speed is the most discussed trait on the Sewing Machines Plus and Amazon listings.",
+        "Juki lists a knee lifter at 12 mm and an auxiliary table in the box, and owners praise the extension table."
       ],
       "weaknesses": [
-        "No front speed slider; owners ask how to slow it down.",
-        "Straight stitch only, so it cannot be a first or only machine for garments.",
-        "Warranty terms and needle system were not found in accessible snippets and need dealer confirmation."
+        "Owners report trouble with the needle threader, and some skip it; others needed time to learn it.",
+        "Owners report accidental thread cuts from the pedal trimmer, and one says the cutter can unthread the needle.",
+        "Owners report the free motion foot is not included and must be bought separately."
       ],
       "checks": [
         {
-          "title": "Bonus pack vs box contents",
-          "body": "SMP's bonus package adds 20 L bobbins and 100 Organ needles plus a gift card. Compare that against the plain $899 dealer price before assuming it is a discount."
+          "title": "Throat is unpublished",
+          "body": "Juki gives no throat or arm figure for the TL-2000Qi. Dealers say 9 in and one owner finds it narrower than expected, so ask a dealer to measure needle to body before you buy for a large quilt."
         },
         {
-          "title": "Free motion feet are extra",
-          "body": "Unlike the 2010Q, the 1/4 and 1/5 in hopping feet are not listed in the box. Price them if you plan to quilt free motion."
+          "title": "Juki's own documents disagree",
+          "body": "Height is 9 in on Juki's page and 350 mm (13.8 in) in the manual and catalog. Auxiliary table depth is 355 mm on the page and 277 mm in the manual."
         },
         {
-          "title": "Weight on the listing",
-          "body": "Some listings show 37.8 lb. That is a shipping figure. Net weight is 25.4 lb; confirm before buying a carry bag."
+          "title": "Read the Sewing Machines Plus rating with care",
+          "body": "The listing shows 4.83 from 207 reviews, but only 15 of the 207 name this model. Warranty is Juki's general FAQ wording, and Amazon's '5 year limited warranty' differs. The 120 V / 1.4 A, 100 W motor figures come from OCR and need checking."
         }
       ],
       "realCost": [
-        "Free motion quilting foot (not included)",
-        "Sewing machine oil",
-        "Extra Class L bobbins"
+        "Free motion foot, which owners say is not in the box",
+        "Sewing machine oil, since owners describe cleaning and oiling it themselves",
+        "Spare needles and thread matched to the fabric, since owners tie tension trouble to the thread"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "How big is the throat on the Juki TL-2000Qi?",
+          "a": "Juki does not publish a throat, arm or needle-to-arm figure for this model. Its page says 'Mid-Arm' and a work area up to 23 in with the auxiliary table. Dealers quote 9 in, but that has no Juki source, so we show the throat as [verify]."
+        },
+        {
+          "q": "Is the TL-2000Qi a long-arm machine?",
+          "a": "Juki calls it Mid-Arm. A dealer listing title says 'Long-Arm', which is a retailer label, not a measurement. The 23 in figure is the work area with the auxiliary table attached."
+        },
+        {
+          "q": "What is the difference between the TL-2000Qi and the TL-2010Q?",
+          "a": "Owners repeatedly say the TL-2010Q's main addition is a speed control, and some add a sub-tension dial; that dial is not confirmed by a Juki document. Juki's TL-2000Qi page lists microcomputer speed control with foot control only. Juki lists $2,169 for the TL-2010Q and $1,799 for the TL-2000Qi."
+        },
+        {
+          "q": "Does the TL-2000Qi have a speed control slider?",
+          "a": "Juki's page describes microcomputer-based speed control with foot control only. Owners confirm there is no front slider and ask how to sew slower on pedal control."
+        },
+        {
+          "q": "Does it have a thread trimmer?",
+          "a": "Yes. Juki lists an automatic trimmer by foot-controller heel rock and a push-button switch. Owners report accidental cuts at first, and some say it can unthread the needle unless the needle is up."
+        },
+        {
+          "q": "How much does the Juki TL-2000Qi weigh?",
+          "a": "25.4 lb (11.5 kg) on Juki's page, manual and catalog. One dealer listing shows 37.8 lb, likely a shipping weight."
+        },
+        {
+          "q": "What are the dimensions and extension table size?",
+          "a": "The manual and catalog give 452 x 219 x 350 mm (17.8 x 8.6 x 13.8 in). Juki's page lists the height as 9 in, which disagrees. The auxiliary table is 590 mm wide, and its depth is 355 mm on Juki's page and 277 mm in the manual."
+        },
+        {
+          "q": "Can the TL-2000Qi do free motion quilting?",
+          "a": "Juki's page claims 'Nothing Free Motion Quilts Better than a Juki'. That is a maker claim. Owners report the free motion foot is not included, and one says the foot drags with the foot down."
+        },
+        {
+          "q": "Can it sew zigzag or heavy fabric?",
+          "a": "It is straight stitch only. Owners report it handling heavy fabric well, while Juki describes the aluminum die-cast frame as ensuring 'industrial-quality sewing', which is a maker claim."
+        },
+        {
+          "q": "What does the warranty cover, and is the rating sample representative?",
+          "a": "Juki America's general FAQ gives 2 years on motor and electrical parts and 5 years on other factory defects; it is not model-specific, and Amazon's listing says '5 year limited warranty'. Sewing Machines Plus shows 4.83 from 207 reviews, but only 15 of those name this model."
+        }
+      ]
     },
     "sources": [
       "https://www.jukihome.com/products/tl-2000qi.html",
@@ -8041,7 +8087,9 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/SewingMachine/1572",
       "https://sewing.patternreview.com/SewingDiscussions/topic/78012",
       "https://www.walmart.com/reviews/product/154742741",
-      "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/76583-juki-tl2000qi-vs-juki-tl-2010q"
+      "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/76583-juki-tl2000qi-vs-juki-tl-2010q",
+      "https://www.jukihome.com/media/catalog/product/t/l/tl-2000qi_instruction_manual.pdf",
+      "https://www.jukihome.com/faq/"
     ]
   },
   "juki-tl-2010q": {
