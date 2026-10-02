@@ -1,0 +1,30 @@
+{
+  "slug": "brother-1634d",
+  "generated": "2026-10-02T05:08:03.625Z",
+  "counts": {
+    "error": 0,
+    "warn": 1
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 12, this 10, sibling 0, unclear 2"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "8 Reddit threads, 7 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 9 voices (8 first-hand), 8 sources, status draft"
+    }
+  ]
+}

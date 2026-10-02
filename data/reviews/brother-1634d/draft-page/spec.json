@@ -1,0 +1,143 @@
+{
+  "specs": {
+    "differentialFeed": {
+      "value": "Adjustable differential feed, lever on the left side (Brother page). The 0.7 to 1.0 and 1.0 to 2.0 settings come from the shared family handbook 884-345 (OCR, verify); the 1634D page lists no ratio",
+      "source": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+    },
+    "presserFootLift": {
+      "value": "5 to 6 mm (family handbook 884-345, not 1634D-specific; OCR, verify)",
+      "source": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+    },
+    "weightLb": {
+      "value": null,
+      "source": null
+    },
+    "dimensionsIn": {
+      "value": null,
+      "source": null
+    },
+    "stitchWidthMm": {
+      "value": "5.0 to 7.0 (Brother page, from left needle)",
+      "source": "https://www.brother-usa.com/products/1634d"
+    },
+    "warrantyUs": {
+      "value": "Page text: 1/5/25 year limited serger warranty. The generic US serger warranty gives 1 year parts, labor and accessories, 5 years electronic components, 25 years chassis casting; not model-specific, and the PDF linked from the 1634D page is the 1 year international warranty",
+      "source": "https://www.brother-usa.com/products/1634d"
+    }
+  },
+  "conflicts": [
+    "Warranty: our earlier spec said 25-year limited, but that is the chassis casting term only; Brother's 1634D page text says 1/5/25 year limited serger warranty while the PDF linked from that page is the 1 year international warranty XF6323-101, and the 1634DX page links the US serger warranty XB2300-101 (1/5/25), so the model-specific term is not confirmed.",
+    "Weight: 17.3 lb appears only in review blogs (sergerpro.com), Brother's 1634D page gives no weight, and the family handbook 884-345 (covering 1034D, 1134DW, 1134D, DZ1234 and 1634D) gives 7.0 kg (15.4 lb); the weight is held as null for the 1634D.",
+    "Dimensions: a review blog gives 12.5 x 13.5 x 15 in with no axis order, while Brother's page gives only the carton at 15 x 13 x 14 in; machine dimensions are held as null.",
+    "Stitch width: Brother's page says 5.0 to 7.0 mm while the family handbook says 2.3 to 7 mm (OCR, verify); the page figure is used.",
+    "Stitch fingers: Brother's page lists 1, while one PatternReview owner says the 1634D has 2.",
+    "Threading color coding: Brother's page says color-coded lay-in threading, while one PatternReview owner says the 1634D lacks the color coding of the 1034D.",
+    "Stitch count: 22 comes from one review blog (sergerpro.com); Brother lists stitch types without a count."
+  ],
+  "claims": [
+    "\"Easy to follow, color-coded lay-in threading system\" (Brother claim, product page)",
+    "\"Perfect for finishing, creating rolled hems, inserting zippers, stitching neat blind hems, and creating ruffles\" (Brother claim, product page)",
+    "\"Light- to heavy-weight materials\" (Brother claim, family handbook 884-345)",
+    "\"One of the bestselling and most popular home serger machines\" (review-blog claim, mashupfabric.com)",
+    "\"Cover Stitch Serger\" appears in one dealer listing title (mistersewvac.com); Brother lists no coverstitch function"
+  ],
+  "evidence": "mixed",
+  "price": {
+    "priceUsdSeen": 299.99,
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "Brother USA (brother-usa.com)"
+  },
+  "sources": [
+    "https://www.brother-usa.com/products/1634d",
+    "https://www.brother-usa.com/products/1634dx",
+    "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf",
+    "https://assets.brother.com/asset/3e5bcfe0-2c88-4b35-8ec9-26698a105a4c/6020_International-Warranty-LAD-Final-serger-1-pdf.pdf",
+    "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf",
+    "https://support.brother.com/g/b/manualtop.aspx?c=us&lang=en&prod=hf_1634deus",
+    "https://sergerpro.com/brother-1634d-serger-review/",
+    "https://mashupfabric.com/brother-1634d-serger-review/",
+    "https://www.sewingpartsonline.com/products/instruction-manual-brother-1634d",
+    "https://www.mistersewvac.com/product/brother-1634d-cover-stitch-serger/",
+    "https://sewing.patternreview.com/review/machine/6163",
+    "https://sewing.patternreview.com/review/machine/5807",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/116994"
+  ],
+  "editorial": {
+    "verdict": "A 3/4 thread, 1,300 spm Brother serger on the 1034D platform, and a thin evidence base: 8 first-hand Reddit voices, no retailer ratings yet.",
+    "whoFor": "A first serger buyer who wants the Brother 3/4 thread platform and can confirm the 1634D suffix, not the 1634DX, at the price on the day.",
+    "skipIf": "You want 2-thread stitches, a coverstitch, an LED light or a published throat or motor figure; the 1634DX adds LED and 2/3/4 thread change per Brother's pages, and the Juki MO-654DE steps up.",
+    "keySpec": "3/4 thread · 1,300 spm · differential feed · removable free arm",
+    "strengths": [
+      "Brother lists 3/4 thread overlock, rolled hem, blind hem and gathering at 1,300 spm, with a removable free arm and trim trap.",
+      "Brother's page lists a standard foot, blindstitch foot and gathering foot, a soft cover, an instructional video and accessory storage.",
+      "Standard SCHMETZ 130/705H household needles per the instruction manual listing, so needle supply is not a special order."
+    ],
+    "weaknesses": [
+      "Owner evidence is thin: 9 voices from 8 Reddit threads, and owners report defects such as a front cover that does not close and a broken spool stand shaft, mostly on used units.",
+      "Brother publishes no machine weight, machine dimensions, throat space or motor figure for the 1634D; the family handbook figures are shared with other models.",
+      "No 2-thread stitch (Brother lists 2/3/4 thread change as No) and no coverstitch, despite one dealer title saying cover stitch."
+    ],
+    "checks": [
+      {
+        "title": "Confirm the suffix",
+        "body": "The 1634D and 1634DX are separate Brother pages: the DX lists LED and a different carton, the D lists a bulb. Match the label on the box to the page you read."
+      },
+      {
+        "title": "Ask which warranty applies",
+        "body": "The 1634D page text says 1/5/25 year, but its linked PDF is the 1 year international warranty. The US serger warranty is linked from the 1634DX page. Get the term in writing from the seller."
+      },
+      {
+        "title": "Treat weight and size as unverified",
+        "body": "Brother gives only a 15 x 13 x 14 in carton for the 1634D. Measure your shelf against the carton, not against blog dimensions."
+      }
+    ],
+    "realCost": [
+      "Serger thread: a 4-thread overlock needs 4 cones, and the page lists no starter set",
+      "Spare 130/705H needles, since the handbook set is sizes 80 and 90",
+      "Serger oil for the maintenance the handbook describes",
+      "A replacement 15 watt bulb of the same type, per the handbook lamp note"
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between the Brother 1634D and the 1034D?",
+        "a": "Both are 3/4 thread differential feed sergers sharing handbook 884-345. Forum owners report differences in dial location, color coding and stitch fingers; Brother's 1634D page lists 1 stitch finger. Treat the suffix as a different listing, not a spec."
+      },
+      {
+        "q": "What is the difference between the 1634D and the 1634DX?",
+        "a": "Brother lists the 1634DX with an LED light and the 1634D with a bulb. Both pages list 3/4 thread, 1 stitch finger, 5.0 to 7.0 mm seam width and 1,300 spm. The 1634DX page links the US serger warranty; the 1634D page links an international one."
+      },
+      {
+        "q": "Is the Brother 1634D discontinued?",
+        "a": "Brother's 1634D page showed no discontinuation notice on 2026-10-02 and listed a price of $299.99. We make no claim about other pages: the R1634D, 1734D and 1534D Brother pages returned 404 that day."
+      },
+      {
+        "q": "Does the Brother 1634D have a free arm?",
+        "a": "Yes. Brother describes a removable free arm."
+      },
+      {
+        "q": "Can the Brother 1634D do a coverstitch?",
+        "a": "No coverstitch function appears on Brother's page. One dealer listing title says cover stitch; that is retailer wording."
+      },
+      {
+        "q": "What needles does the Brother 1634D take?",
+        "a": "SCHMETZ 130/705H household needles per the manual listing. The family handbook set is two size 80 and two size 90; one accessory line reads 130/705M in OCR, so verify against the PDF."
+      },
+      {
+        "q": "How much does the Brother 1634D weigh?",
+        "a": "Brother's 1634D page gives no weight. A family handbook shared with the 1034D, 1134DW, 1134D and DZ1234 gives 7.0 kg (15.4 lb); a blog gives 17.3 lb. Neither is a confirmed 1634D figure."
+      },
+      {
+        "q": "What is the differential feed range?",
+        "a": "The 1634D page lists no ratio. The shared family handbook gives 0.7 to 1.0 and 1.0 to 2.0 settings (OCR, verify)."
+      },
+      {
+        "q": "What is the stitch width and length?",
+        "a": "Brother's page says 5.0 to 7.0 mm seam width. The family handbook says 2.3 to 7 mm width and 2 to 4 mm stitch length (OCR, verify)."
+      },
+      {
+        "q": "What feet come with the Brother 1634D?",
+        "a": "Brother lists a standard foot, blindstitch foot and gathering foot, plus a soft cover, an instructional video and a printed manual."
+      }
+    ]
+  }
+}
