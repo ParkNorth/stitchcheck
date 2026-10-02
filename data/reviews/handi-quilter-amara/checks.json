@@ -1,0 +1,40 @@
+{
+  "slug": "handi-quilter-amara",
+  "generated": "2026-10-02T05:06:13.303Z",
+  "counts": {
+    "error": 0,
+    "warn": 3
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 7, this 7, sibling 0, unclear 0"
+    },
+    {
+      "level": "warn",
+      "id": "rejects",
+      "message": "17% of extracted rows failed quote validation"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "5 Reddit threads, 3 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "reddit",
+      "message": "few Reddit threads name the model in the title; collection may be on loose matches"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Needle sizes recommended\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence thin, 4 voices (4 first-hand), 6 sources, status draft"
+    }
+  ]
+}

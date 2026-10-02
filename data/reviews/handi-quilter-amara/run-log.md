@@ -1,0 +1,12 @@
+## 2026-10-02 collection run (phase A)
+
+Maker documents: Amara 20 product page, Amara Specifications support article, Amara 20+24 user manual v1.6 (PDF; direct curl returned 403, text taken through Firecrawl PDF parsing, 87 pages), warranty page, and the Amara 24 and Amara ST pages. No brochure fetched. Maker facts are in manufacturer.json.
+
+Contradictions with data/specs: needle sizes (support article 12/80 to 20/125 vs manual 80/12 to 130/21, which the spec follows the article on; the spec's conflicts do not mention it); the frame (page also offers HQ Little Foot, spec says Studio3 only). Throat: maker says 20 in "throat space" and gives a 9 x 20.5 in sewing opening; the maker never says needle-to-body. The maker publishes only packaging weight (98 lbs) and packaging dimensions (40 x 16 x 28 in), no head weight or dimensions. Service interval differs between documents (24 months or 10 million stitches vs annual). The warranty text is dated 08/26/10 on the page; the Longarm 2023 PDF was not fetched.
+
+Marketplaces: Amazon search returned no listing naming the Amara 20 (only the Amara ST B0BXB78N2J, a sibling with a different table; accessories and a Moxie). No Amazon ingest. Dealer page: sewingmachinesplus.com/hq-amara.php, 5 reviews fetched (page rating 4). Handi Quilter is sold through authorised dealers; the maker page also has an Add to Cart button.
+
+Reddit: dry run found 10 threads, 9 taken (r/quilting and r/longarmmachines). Four r/longarmmachines items are for-sale posts with no discussion, one is an Amara 24 sale post (sibling). Total 42 items, 21 segments, 1 claims chunk. reviews:checks: 0 errors, 2 warnings (few thread titles name the model; spec conflicts omit the needle-size disagreement).
+
+Aliases: "Amara" alone is a common word; model_names_only set with brand-qualified names. Siblings: Amara 24 (also called Forte 24), Amara ST, Avante, Moxie, Sweet Sixteen, pink limited edition Amara 20.
+Only 21 segments (1 chunk): 12 rows extracted, 10 accepted (2 failed quote validation), 7 spec claims, 4 voices: evidence 'thin', draft labels it 'positioning' and is spec-led. No Amazon listing for the Amara 20; SMP 4.0 from 5 reviews. Throat is Handi Quilter's '20 in throat space' wording (head on a frame); 98 lb and 40 x 16 x 28 in are packaging only. Needle size ranges and service interval disagree between maker documents; warranty text on the page is dated 2010.

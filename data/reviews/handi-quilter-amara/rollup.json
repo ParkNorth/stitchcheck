@@ -1,0 +1,416 @@
+{
+  "slug": "handi-quilter-amara",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 6,
+    "itemsCollected": 42,
+    "statements": 7,
+    "voices": 4,
+    "ownerVoices": 4,
+    "dateRange": [
+      2018,
+      2026
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 5,
+        "items": 33
+      },
+      "retailer": {
+        "sources": 1,
+        "items": 5
+      }
+    },
+    "blocked": 0,
+    "evidence": "thin",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2021
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cd8689f79",
+          "polarity": "negative",
+          "claim": "Owner says the Amara is 20 inches but only 15 to 18 inches is usable, which she found limiting.",
+          "quote": "The Amara is 20 inches (15-18 inches of usable space) and can be limiting.",
+          "url": "https://www.reddit.com/r/quilting/comments/la4q1q/advice_for_aspiring_long_armer/glm0y0s/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cd8689f79"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2021,
+        2021
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c09524dbf"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2021
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c3f860be5",
+          "polarity": "negative",
+          "claim": "Owner reports occasional problems with the HQ stitch regulator, even at slow speed with the Pro-Stitcher.",
+          "quote": "I also sometimes have issues with HQ's stitch regulator, even when going slow",
+          "url": "https://www.reddit.com/r/quilting/comments/la4q1q/advice_for_aspiring_long_armer/glm0y0s/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c3f860be5"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2021
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c98f22fb7",
+          "polarity": "negative",
+          "claim": "After poor dealer support, owner does many minor repairs herself and uses a distant dealer for major repairs and yearly service.",
+          "quote": "I do a lot of minor repairs myself",
+          "url": "https://www.reddit.com/r/quilting/comments/la4q1q/advice_for_aspiring_long_armer/glm0y0s/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c98f22fb7"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2023,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c22603f02"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2020
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cbd08bb84",
+          "polarity": "positive",
+          "claim": "New longarm owner says the machine runs very smoothly on the tracks.",
+          "quote": "runs very smoothly on the tracks",
+          "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cbd08bb84"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2018,
+        2018
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cb283247d",
+          "polarity": "negative",
+          "claim": "Owner finds the magnetic strip and laser light of limited usefulness.",
+          "quote": "The magnetic strip and laser light are limited in usefulness to me.",
+          "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cb283247d"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+      "pageRating": 4,
+      "pageCount": 5,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 2,
+        "5": 2
+      },
+      "lowRated": 1,
+      "sampled": null
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Throat space",
+      "juki": "20 in of brightly-lit throat space; sewing opening 9 x 20.5 in",
+      "others": "Dealers repeat 20 in",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Amara 20 product page",
+          "url": "https://handiquilter.com/product/hq-amara-20/"
+        },
+        {
+          "label": "Amara specifications",
+          "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+        }
+      ],
+      "field": "Throat space (maker wording)",
+      "source": "maker-page"
+    },
+    {
+      "label": "Max speed",
+      "juki": "Stitching speeds up to 2,500 stitches per minute",
+      "others": "Dealers repeat 2,500 spm",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Amara specifications",
+          "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+        }
+      ],
+      "field": "Max speed",
+      "source": "maker-specs"
+    },
+    {
+      "label": "Needle sizes",
+      "juki": "Support article 12/80 to 20/125; manual 80/12 to 130/21",
+      "others": "Dealers repeat the 134 system",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Amara specifications",
+          "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+        }
+      ],
+      "field": "Needle sizes recommended",
+      "source": "maker-manual"
+    },
+    {
+      "label": "Price",
+      "juki": "$12,995 to $27,990 on the maker page",
+      "others": "Dealer prices vary (see spec conflicts)",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Amara 20 product page",
+          "url": "https://handiquilter.com/product/hq-amara-20/"
+        }
+      ],
+      "field": "Price (maker page)",
+      "source": "maker-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "10 yr casting, 5 yr mechanical, 5 yr electrical, 90 days parts and labor",
+      "others": "Dealers repeat the 5 and 10 year figures",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Warranty",
+          "url": "https://handiquilter.com/warranty/"
+        }
+      ],
+      "field": "Warranty",
+      "source": "maker-warranty"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "Handi Quilter Amara 24",
+      "label": "Handi Quilter Amara 24 (renamed Forte 24)",
+      "rows": [
+        {
+          "feature": "Throat and frame",
+          "urls": 0,
+          "classes": [],
+          "summary": "24 in throat (sewing opening 9 x 24.5 in) on an HQ Gallery frame in 10, 12 or 15 ft; maker price range $19,995 to $33,990.",
+          "check": "Handi Quilter Amara 24 product page and Amara user manual v1.6, fetched 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Handi Quilter Amara ST",
+      "label": "Handi Quilter Amara ST (sit down)",
+      "rows": [
+        {
+          "feature": "Stationary table version",
+          "urls": 0,
+          "classes": [],
+          "summary": "The same 20 in head sold on a stationary Lift Table or InSight Table at $8,495 to $9,495; the maker lists it as not Pro-Stitcher compatible.",
+          "check": "Handi Quilter Amara ST product page, fetched 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}
