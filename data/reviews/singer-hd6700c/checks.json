@@ -1,0 +1,45 @@
+{
+  "slug": "singer-hd6700c",
+  "generated": "2026-10-02T04:57:25.600Z",
+  "counts": {
+    "error": 0,
+    "warn": 4
+  },
+  "items": [
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 2 ASINs (B0F9LL6T36, B08JH88BRN); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 39, this 31, sibling 2, unclear 6"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "16 Reddit threads, 5 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"maxSpm\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"needleUpDown\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 17 voices (16 first-hand), 17 sources, status draft"
+    }
+  ]
+}

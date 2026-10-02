@@ -1,0 +1,118 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.4 from 980 ratings is shared by several listings of this machine (pooled variations), so it is not specific to this exact bundle.",
+    "The only Singer manual is a joint HD 6700C and HD 6705C manual. Rows sourced from it are shared-manual evidence and are not confirmed for the 6700C alone."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "Heavy Duty 6600C",
+      "label": "Singer Heavy Duty 6600C",
+      "pattern": "(?:heavy[\\s-]*duty[\\s-]*|hd[\\s-]*)?6600c(?![a-z0-9])"
+    },
+    {
+      "model": "Heavy Duty 6800C",
+      "label": "Singer Heavy Duty 6800C",
+      "pattern": "(?:heavy[\\s-]*duty[\\s-]*|hd[\\s-]*)?6800c(?![a-z0-9])"
+    },
+    {
+      "model": "Heavy Duty 6620C",
+      "label": "Singer Heavy Duty 6620C",
+      "pattern": "(?:heavy[\\s-]*duty[\\s-]*|hd[\\s-]*)?6620c(?![a-z0-9])"
+    },
+    {
+      "model": "Heavy Duty 6705C",
+      "label": "Singer Heavy Duty 6705C",
+      "pattern": "(?:heavy[\\s-]*duty[\\s-]*|hd[\\s-]*)?6705c(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "heavy[\\s-]*duty[\\s-]*6600c(?![a-z0-9])|6600c(?![a-z0-9])",
+      "Singer Heavy Duty 6600C"
+    ],
+    [
+      "heavy[\\s-]*duty[\\s-]*4452(?![a-z0-9])|4452(?![a-z0-9])",
+      "Singer Heavy Duty 4452"
+    ],
+    [
+      "memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])",
+      "Janome Memory Craft 6650"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "heavy[\\s-]*duty[\\s-]*6600c(?![a-z0-9])|6600c(?![a-z0-9])|heavy[\\s-]*duty[\\s-]*6600c(?![a-z0-9])|6600c(?![a-z0-9])|heavy[\\s-]*duty[\\s-]*4452(?![a-z0-9])|4452(?![a-z0-9])|memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {
+    "Singer Heavy Duty 6800C": [
+      {
+        "feature": "Stitch applications and fonts",
+        "summary": "586 stitch applications, 2 lettering fonts, 9 one-step buttonhole styles.",
+        "check": "Singer 6800C product page, 2026-10-02. Singer's comparison page says 300 built-in stitches."
+      },
+      {
+        "feature": "Thread cutter and needle up/down",
+        "summary": "Thread Cutter Button trims top and bottom threads; Needle Up/Down listed.",
+        "check": "Singer 6800C product page, 2026-10-02."
+      },
+      {
+        "feature": "Throat per maker pages",
+        "summary": "6.4 in needle to tower on the product page; the comparison page says 8.3 in of throat. Singer's own pages disagree.",
+        "check": "Singer 6800C product page and Good/Better/Best page, 2026-10-02."
+      }
+    ],
+    "Singer Heavy Duty 6600C": [
+      {
+        "feature": "Singer stitch counts",
+        "summary": "Comparison page: 100 built-in stitches, 8 one-step buttonholes. Product page for the 6600C returned 404 on fetch.",
+        "check": "Singer Good/Better/Best page, 2026-10-02."
+      }
+    ],
+    "Singer Heavy Duty 6620C": [
+      {
+        "feature": "Stitch applications and needle up/down",
+        "summary": "215 stitch applications, 6 one-step buttonhole styles, Needle Up/Down listed; shown out of stock on the page.",
+        "check": "Singer 6620C product page, 2026-10-02."
+      }
+    ]
+  }
+}

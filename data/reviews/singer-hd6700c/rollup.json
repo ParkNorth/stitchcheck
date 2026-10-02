@@ -1,0 +1,932 @@
+{
+  "slug": "singer-hd6700c",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 17,
+    "itemsCollected": 172,
+    "statements": 31,
+    "voices": 17,
+    "ownerVoices": 16,
+    "dateRange": [
+      2022,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 1,
+        "items": 13
+      },
+      "reddit": {
+        "sources": 16,
+        "items": 158
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.4 from 980 ratings is shared by several listings of this machine (pooled variations), so it is not specific to this exact bundle.",
+    "The only Singer manual is a joint HD 6700C and HD 6705C manual. Rows sourced from it are shared-manual evidence and are not confirmed for the 6700C alone."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 6,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 4,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "ccc7a9b15",
+          "polarity": "negative",
+          "claim": "Owner says the needle threader does not work.",
+          "quote": "The threader doesn’t work",
+          "url": "https://www.amazon.com/dp/B08JH88BRN",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c9bd3da8a",
+          "polarity": "negative",
+          "claim": "Owner of a one-month-old 6700C reports the top thread slipping out of place and often not catching the bobbin thread.",
+          "quote": "the top thread comes out of place very often",
+          "url": "https://www.reddit.com/r/sewing/comments/1hextwu/help_singer_machine_not_working/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cf8225653",
+          "polarity": "positive",
+          "claim": "Owner lists automatic threading as a positive.",
+          "quote": "automatic threading",
+          "url": "https://www.amazon.com/dp/B08JH88BRN",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cf8225653",
+        "c381353bc",
+        "c133917d7",
+        "ccc7a9b15",
+        "ce21e260e",
+        "c9bd3da8a"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 5,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 5,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c9a761394",
+          "polarity": "negative",
+          "claim": "Owner reports the top tension dial having no visible effect across its range.",
+          "quote": "Top tension is doing nothing really.",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/19exa5y/help_needed_top_stitch_issues/kjgdks8/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c0d3be96b",
+          "polarity": "negative",
+          "claim": "Owner reports uneven tension and stitches.",
+          "quote": "Tension and stitches are very uneven.",
+          "url": "https://www.amazon.com/dp/B08JH88BRN",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c0d3be96b",
+        "c164c4db1",
+        "c6df3aa54",
+        "c66c46777",
+        "c9a761394"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c621110d6",
+          "polarity": "positive",
+          "claim": "Owner reports low noise.",
+          "quote": "Noise level is low",
+          "url": "https://www.amazon.com/dp/B08JH88BRN",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c621110d6",
+        "ce5a17d12",
+        "cee4d6784"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c9b530658",
+          "polarity": "negative",
+          "claim": "Owner dislikes that the presser foot lift lever sits on the right rather than at the rear.",
+          "quote": "the lever to lift the foot is on the right instead of the rear",
+          "url": "https://www.amazon.com/dp/B08JH88BRN",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c9b530658",
+        "c160461ed",
+        "c034e4041"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 4,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c459d9f89",
+          "polarity": "negative",
+          "claim": "Owner says the feed foot sits too low so the machine does not feed and thread bunches at the bobbin.",
+          "quote": "The feeder foot is set way to low",
+          "url": "https://www.amazon.com/dp/B08JH88BRN",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c0df631e6",
+          "polarity": "negative",
+          "claim": "Owner found the presser foot pressure knob spring was out of place and had it fixed.",
+          "quote": "the pressure adjustment knob actually was broken",
+          "url": "https://www.reddit.com/r/sewhelp/comments/15ow7z8/new_to_sewing_and_cant_get_presser_foot_pressure/jwbrw94/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ca973413d",
+        "c459d9f89",
+        "c0df631e6",
+        "c57a42cdc"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c6f6a442a",
+          "polarity": "positive",
+          "claim": "Owner hemmed work pants and stitched a canvas tote and says the machine handled both without trouble.",
+          "quote": "it powered through both",
+          "url": "https://www.amazon.com/dp/B08JH88BRN",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c6f6a442a",
+        "ceaad14fb"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cc113368a",
+          "polarity": "negative",
+          "claim": "Owner rates the lighting as poor.",
+          "quote": "Lighting is not good",
+          "url": "https://www.amazon.com/dp/B08JH88BRN",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c8cd0e003",
+          "polarity": "positive",
+          "claim": "Owner finds the built-in LED light bright.",
+          "quote": "the LED light is bright on my tiny desk",
+          "url": "https://www.amazon.com/dp/B08JH88BRN",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c8cd0e003",
+        "cc113368a"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c89e42567",
+          "polarity": "negative",
+          "claim": "Owner wishes the throat were bigger and uses a quilting machine for larger projects.",
+          "quote": "I wish the throat was a bit bigger",
+          "url": "https://www.amazon.com/dp/B08JH88BRN",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c89e42567"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c18befc5d",
+          "polarity": "positive",
+          "claim": "Owner says it has sewn without problems on silky, stretchy, cotton and flannel fabrics.",
+          "quote": "This machine has sewn flawlessly on a variety of fabrics",
+          "url": "https://www.amazon.com/dp/B08JH88BRN",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c18befc5d"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c78f11823",
+          "polarity": "negative",
+          "claim": "Owner is unhappy with plastic pieces and expects the machine will not be passed down.",
+          "quote": "I'm not a huge fan of the plastic pieces.",
+          "url": "https://www.amazon.com/dp/B08JH88BRN",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c78f11823"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cafc6ea43",
+          "polarity": "negative",
+          "claim": "Owner says the extended-warranty provider declined help because the maker warranty still applied, and Singer did not respond.",
+          "quote": "Asurson will not help because still under warranty",
+          "url": "https://www.amazon.com/dp/B08JH88BRN",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cafc6ea43"
+      ]
+    },
+    {
+      "theme": "walking_foot",
+      "label": "Walking foot",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2023,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c91448170"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cce61592a",
+          "polarity": "negative",
+          "claim": "Owner says the parts seller reported no associated part number for the model's foot control, so a replacement pedal could not be confirmed to fit.",
+          "quote": "my model didn't have an associated part number for the pedal I needed",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1izkmi2/sewing_machine_foot_pedal/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cce61592a"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B08JH88BRN",
+      "pageRating": 4.4,
+      "pageCount": 980,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 11
+      },
+      "lowRated": 1,
+      "sampled": "13 top reviews (8 US, 5 other countries) of 980 ratings"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "Product page: 1100/min. Manual (shared 6700C and 6705C): maximum 1000 +/- 50 rpm.",
+      "others": "Amazon and dealers repeat 1,100.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+        },
+        {
+          "label": "Singer manual",
+          "url": "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "maker-page"
+    },
+    {
+      "label": "Stitches",
+      "juki": "Comparison page: 200 built-in stitches, 411 applications. Product page: 411 applications (prose also says 586).",
+      "others": "Dealers and Amazon say 411 stitch applications.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Singer comparison page",
+          "url": "https://www.singer.com/pages/singer-good-better-best-heavy-duty"
+        },
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+        }
+      ],
+      "field": "stitchCount",
+      "source": "good-better-best"
+    },
+    {
+      "label": "Lettering",
+      "juki": "Product page: 1 lettering font. Comparison page: 2 lettering fonts. Letters 7 mm.",
+      "others": "Dealers vary.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+        },
+        {
+          "label": "Singer comparison page",
+          "url": "https://www.singer.com/pages/singer-good-better-best-heavy-duty"
+        }
+      ],
+      "field": "lettering",
+      "source": "maker-page"
+    },
+    {
+      "label": "Throat",
+      "juki": "6.4 in / 163 mm, needle to tower",
+      "others": "Dealers quote 6.4 in.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+        }
+      ],
+      "field": "throatIn",
+      "source": "maker-page"
+    },
+    {
+      "label": "Buttonholes",
+      "juki": "7 one-step buttonhole styles",
+      "others": "Ken's Sewing Center says 7.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+        }
+      ],
+      "field": "buttonhole",
+      "source": "maker-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "Product page: 25/1. PDF: 25-year frame, 1-year parts and adjustments. Limited, original purchaser, authorized sellers.",
+      "others": "Our earlier figure was 25/2/90 (a different Singer tier).",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+        },
+        {
+          "label": "Singer warranty PDF",
+          "url": "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-d3361c80-1e88-4d01-9381-fe3e62f20ef4-singer%2025-1%20warranty%20471068326e.pdf"
+        },
+        {
+          "label": "Singer warranty page",
+          "url": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "warranty-pdf"
+    },
+    {
+      "label": "Motor",
+      "juki": "Powerful motor, 0.7 A, 120 V. No wattage.",
+      "others": "Walmart title: 'Strong Motor with Enhanced Piercing Power'.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+        }
+      ],
+      "field": "motor",
+      "source": "maker-page"
+    },
+    {
+      "label": "Weight",
+      "juki": "Manual: 7 kg (about 15.4 lb). Product page lists no weight.",
+      "others": "Amazon 14.6 lb; a blog 16.3 lb.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Singer manual",
+          "url": "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf"
+        }
+      ],
+      "field": "weightLb",
+      "source": "singer-manual"
+    },
+    {
+      "label": "Needle up/down",
+      "juki": "Shared manual documents the button; the 6700C product page does not list it.",
+      "others": "Our spec: none (blog source).",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Singer manual",
+          "url": "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf"
+        },
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+        }
+      ],
+      "field": "needleUpDown",
+      "source": "singer-manual"
+    },
+    {
+      "label": "Start/stop",
+      "juki": "Shared manual documents a Start/Stop button.",
+      "others": "The blog we cited lists start/stop as a 6800C feature.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Singer manual",
+          "url": "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf"
+        }
+      ],
+      "field": "startStop",
+      "source": "singer-manual"
+    },
+    {
+      "label": "Thread trimmer",
+      "juki": "No thread cutter listed; Tie-Off Button. (Manual: hand thread knife.)",
+      "others": "Our spec: none.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+        },
+        {
+          "label": "Singer 6800C page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-6800c-sewing-machine"
+        }
+      ],
+      "field": "threadTrimmer",
+      "source": "maker-page"
+    },
+    {
+      "label": "Speed control",
+      "juki": "Speed Control lever",
+      "others": "Matches.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+        }
+      ],
+      "field": "speedControl",
+      "source": "maker-page"
+    },
+    {
+      "label": "Frame",
+      "juki": "Interior frame is metal; stainless steel bed plate",
+      "others": "Matches.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+        }
+      ],
+      "field": "frame",
+      "source": "maker-page"
+    },
+    {
+      "label": "Presser foot rise",
+      "juki": "6 mm (manual, shared with 6705C)",
+      "others": "Not published by dealers.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Singer manual",
+          "url": "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf"
+        }
+      ],
+      "field": "presserFootLift",
+      "source": "singer-manual"
+    },
+    {
+      "label": "Feet",
+      "juki": "10 feet incl. even feed (walking) foot, 4 bobbins, soft cover",
+      "others": "Amazon matches.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+        }
+      ],
+      "field": "includedFeet",
+      "source": "maker-page"
+    },
+    {
+      "label": "Claims",
+      "juki": "Heavy Duty name; denim to canvas; quilts with ease; professional speed",
+      "others": "Dealers repeat the copy.",
+      "status": "dealer only",
+      "links": [
+        {
+          "label": "Singer product page",
+          "url": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
+        }
+      ],
+      "field": "claims",
+      "source": "maker-page"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "Singer Heavy Duty 6800C",
+      "label": "Singer Heavy Duty 6800C",
+      "rows": [
+        {
+          "feature": "Stitch applications and fonts",
+          "urls": 0,
+          "classes": [],
+          "summary": "586 stitch applications, 2 lettering fonts, 9 one-step buttonhole styles.",
+          "check": "Singer 6800C product page, 2026-10-02. Singer's comparison page says 300 built-in stitches.",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Thread cutter and needle up/down",
+          "urls": 0,
+          "classes": [],
+          "summary": "Thread Cutter Button trims top and bottom threads; Needle Up/Down listed.",
+          "check": "Singer 6800C product page, 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Throat per maker pages",
+          "urls": 0,
+          "classes": [],
+          "summary": "6.4 in needle to tower on the product page; the comparison page says 8.3 in of throat. Singer's own pages disagree.",
+          "check": "Singer 6800C product page and Good/Better/Best page, 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Singer Heavy Duty 6600C",
+      "label": "Singer Heavy Duty 6600C",
+      "rows": [
+        {
+          "feature": "Singer stitch counts",
+          "urls": 0,
+          "classes": [],
+          "summary": "Comparison page: 100 built-in stitches, 8 one-step buttonholes. Product page for the 6600C returned 404 on fetch.",
+          "check": "Singer Good/Better/Best page, 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Singer Heavy Duty 6620C",
+      "label": "Singer Heavy Duty 6620C",
+      "rows": [
+        {
+          "feature": "Stitch applications and needle up/down",
+          "urls": 0,
+          "classes": [],
+          "summary": "215 stitch applications, 6 one-step buttonhole styles, Needle Up/Down listed; shown out of stock on the page.",
+          "check": "Singer 6620C product page, 2026-10-02.",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

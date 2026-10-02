@@ -1,0 +1,383 @@
+[
+  {
+    "id": "web:8bbbd517b674c80d",
+    "url": "https://www.amazon.com/dp/B08JH88BRN",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T04:51:30.877Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T04:51:30.877Z",
+    "status": "ok",
+    "site_rating": 4.4,
+    "site_review_count": 980,
+    "asin": "B08JH88BRN",
+    "parent_asin": "B0DCW8PH9Q",
+    "product_asins": [
+      "B0F9LL6T36",
+      "B08JH88BRN"
+    ],
+    "pooled_variations": true,
+    "sampled": "13 top reviews (8 US, 5 other countries) of 980 ratings",
+    "listing": {
+      "title": "SINGER® 6700C Heavy Duty Computerized Machine with Accessory Kit",
+      "price_usd": 329.99,
+      "best_sellers_rank": "#27,944 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #73 in Sewing Machines",
+      "details": {
+        "Model Number": "HD6700",
+        "Warranty Description": "1 Year Manufacturer",
+        "Included Components": "Ten Presser Feet (All-Purpose Foot, Zipper Foot, Buttonhole Foot, Blind Hem Foot, Button Sewing Foot, Sew Easy Foot, Satin Stitch Foot, Even Feed / Walking Foot, Open Toe Foot, Cording Foot), 4 Bobbins (SINGER Class 15 transparent,) Large Spool Holder, Small Spool Holder, Spool Pin, Felt Auxiliary, L-Screwdriver Brush / Seam Ripper Soft, Pack of Needles, and Dust Cover.",
+        "Manufacturer": "SINGER",
+        "Part Number": "HD6700",
+        "Color": "Gray",
+        "Material": "Metal, Stainless Steel",
+        "Item Dimensions D x W x H": "7.5\"D x 17.5\"W x 11\"H",
+        "Item Weight": "14.6 pounds"
+      }
+    }
+  },
+  {
+    "id": "web:0f46dfab1bd936ed",
+    "url": "https://www.sewingmachinesplus.com/230255112.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-02T04:51:31.858Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-02T04:51:31.858Z",
+    "status": "thin",
+    "site_rating": null,
+    "site_review_count": 0,
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1cq702k",
+    "url": "https://www.reddit.com/r/myogtacticalgear/comments/1cq702k/singer_hd6700c/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer HD6700C",
+    "subreddit": "myogtacticalgear",
+    "thread_id": "1cq702k",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "ok",
+    "cursor_utc": 1715836421,
+    "discovered_by": [
+      "all:Singer HD6700C"
+    ],
+    "content_hash": "cc525b54e343f0fb"
+  },
+  {
+    "id": "reddit:1apyrjc",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1apyrjc/thread_keeps_getting_tangled_in_my_singer_hd6700c/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "thread keeps getting tangled in my singer HD6700C. How do i fix it?",
+    "subreddit": "sewhelp",
+    "thread_id": "1apyrjc",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "ok",
+    "cursor_utc": 1707922701,
+    "discovered_by": [
+      "all:Singer HD6700C",
+      "r/sewhelp:Singer HD6700C"
+    ],
+    "content_hash": "e3b636aa0bdb4ff9"
+  },
+  {
+    "id": "reddit:1cq716y",
+    "url": "https://www.reddit.com/r/TacticalSewing/comments/1cq716y/singer_hd6700c/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer HD6700C ",
+    "subreddit": "TacticalSewing",
+    "thread_id": "1cq716y",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "ok",
+    "cursor_utc": 1729385582,
+    "discovered_by": [
+      "all:Singer HD6700C"
+    ],
+    "content_hash": "e34cf1fd02ed33a8"
+  },
+  {
+    "id": "reddit:1ce5djf",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ce5djf/singer_hd6700c_display_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer HD6700C Display Help",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1ce5djf",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "ok",
+    "cursor_utc": 1714234008,
+    "discovered_by": [
+      "all:Singer HD6700C",
+      "r/SewingForBeginners:Singer HD6700C"
+    ],
+    "content_hash": "94f2b5e1de63fffa"
+  },
+  {
+    "id": "reddit:1ig3l3k",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1ig3l3k/sewing_machine_help_singer_6700c_injured_animal/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing Machine help - singer 6700C. Injured animal, making a cone per vet",
+    "subreddit": "sewhelp",
+    "thread_id": "1ig3l3k",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "ok",
+    "cursor_utc": 1738527084,
+    "discovered_by": [
+      "all:Singer 6700C",
+      "r/sewhelp:Singer 6700C",
+      "r/sewhelp:Singer 6700C review",
+      "r/sewhelp:Singer 6700C problems"
+    ],
+    "content_hash": "d21e271a2e598775"
+  },
+  {
+    "id": "reddit:1ig3lq5",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ig3lq5/sewing_machine_help_singer_6700c_injured_animal/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing Machine help - singer 6700C. Injured animal, making a cone per vet",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1ig3lq5",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "thin",
+    "cursor_utc": 1738520241,
+    "discovered_by": [
+      "all:Singer 6700C",
+      "r/SewingForBeginners:Singer 6700C",
+      "r/SewingForBeginners:Singer 6700C review",
+      "r/SewingForBeginners:Singer 6700C problems"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:15ow7z8",
+    "url": "https://www.reddit.com/r/sewhelp/comments/15ow7z8/new_to_sewing_and_cant_get_presser_foot_pressure/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "New to sewing and can’t get presser foot pressure to work",
+    "subreddit": "sewhelp",
+    "thread_id": "15ow7z8",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "ok",
+    "cursor_utc": 1692127300,
+    "discovered_by": [
+      "all:Singer 6700C",
+      "r/sewhelp:Singer 6700C",
+      "r/sewhelp:Singer 6700C review"
+    ],
+    "content_hash": "33385e28689a16b4"
+  },
+  {
+    "id": "reddit:1cnbtu8",
+    "url": "https://www.reddit.com/r/myog/comments/1cnbtu8/comparison_for_first_sewing_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Comparison for first sewing machine",
+    "subreddit": "myog",
+    "thread_id": "1cnbtu8",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "ok",
+    "cursor_utc": 1716015025,
+    "discovered_by": [
+      "all:Singer HD6700C"
+    ],
+    "content_hash": "2b7ff74d0f9cf530"
+  },
+  {
+    "id": "reddit:196qps1",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/196qps1/hello/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Hello :) 👋",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "196qps1",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "ok",
+    "cursor_utc": 1705449548,
+    "discovered_by": [
+      "all:Singer Heavy Duty 6700C",
+      "r/SewingForBeginners:Singer Heavy Duty 6700C",
+      "all:Singer 6700C",
+      "r/SewingForBeginners:Singer 6700C"
+    ],
+    "content_hash": "e4ddffa7a5acd218"
+  },
+  {
+    "id": "reddit:1b0ts73",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1b0ts73/beginner_here_i_need_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Beginner here, I need help",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1b0ts73",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "ok",
+    "cursor_utc": 1708988676,
+    "discovered_by": [
+      "all:Singer 6700C",
+      "r/SewingForBeginners:Singer 6700C",
+      "all:Singer 6700C problems",
+      "r/SewingForBeginners:Singer 6700C problems"
+    ],
+    "content_hash": "1f7b1b2eef848a72"
+  },
+  {
+    "id": "reddit:1izkmi2",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1izkmi2/sewing_machine_foot_pedal/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing Machine Foot Pedal",
+    "subreddit": "sewhelp",
+    "thread_id": "1izkmi2",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "ok",
+    "cursor_utc": 1740696336,
+    "discovered_by": [
+      "all:Singer Heavy Duty 6700C",
+      "r/sewhelp:Singer Heavy Duty 6700C",
+      "all:Singer 6700C",
+      "r/sewhelp:Singer 6700C",
+      "all:Singer 6700C review",
+      "r/sewhelp:Singer 6700C review",
+      "all:Singer 6700C problems",
+      "r/sewhelp:Singer 6700C problems"
+    ],
+    "content_hash": "d157f554f4017f0a"
+  },
+  {
+    "id": "reddit:1wmiu5f",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1wmiu5f/tension_issues/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Tension issues?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1wmiu5f",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "ok",
+    "cursor_utc": 1790012768,
+    "discovered_by": [
+      "all:Singer 6700C",
+      "r/SewingForBeginners:Singer 6700C",
+      "r/SewingForBeginners:Singer 6700C review",
+      "r/SewingForBeginners:Singer 6700C problems"
+    ],
+    "content_hash": "7fb38c9449c1a62b"
+  },
+  {
+    "id": "reddit:1avsfmi",
+    "url": "https://www.reddit.com/r/sewing/comments/1avsfmi/help_me_choose_a_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help Me Choose A Machine",
+    "subreddit": "sewing",
+    "thread_id": "1avsfmi",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "ok",
+    "cursor_utc": 1708509845,
+    "discovered_by": [
+      "all:Singer HD6700C",
+      "r/sewing:Singer HD6700C"
+    ],
+    "content_hash": "6213420c12c38aa4"
+  },
+  {
+    "id": "reddit:1hextwu",
+    "url": "https://www.reddit.com/r/sewing/comments/1hextwu/help_singer_machine_not_working/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "HELP! Singer machine not working",
+    "subreddit": "sewing",
+    "thread_id": "1hextwu",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "ok",
+    "cursor_utc": 1734301901,
+    "discovered_by": [
+      "all:Singer Heavy Duty 6700C",
+      "r/sewing:Singer Heavy Duty 6700C",
+      "all:Singer 6700C",
+      "r/sewing:Singer 6700C",
+      "r/sewing:Singer 6700C review"
+    ],
+    "content_hash": "fcdcca827633ed9a"
+  },
+  {
+    "id": "reddit:1nh4hec",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1nh4hec/help_needed_6700c/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help needed! 6700c",
+    "subreddit": "sewhelp",
+    "thread_id": "1nh4hec",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "ok",
+    "cursor_utc": 1757943923,
+    "discovered_by": [
+      "all:Singer 6700C",
+      "r/sewhelp:Singer 6700C",
+      "r/sewhelp:Singer 6700C review"
+    ],
+    "content_hash": "d1404a59bde5eaca"
+  },
+  {
+    "id": "reddit:19exa5y",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/19exa5y/help_needed_top_stitch_issues/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help Needed- Top Stitch Issues",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "19exa5y",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "ok",
+    "cursor_utc": 1706154553,
+    "discovered_by": [
+      "all:Singer Heavy Duty 6700C",
+      "r/SewingForBeginners:Singer Heavy Duty 6700C",
+      "all:Singer 6700C",
+      "r/SewingForBeginners:Singer 6700C"
+    ],
+    "content_hash": "4e9890ab29a9940b"
+  },
+  {
+    "id": "reddit:1ro97nd",
+    "url": "https://www.reddit.com/r/quilting/comments/1ro97nd/machine_update/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Machine update?!",
+    "subreddit": "quilting",
+    "thread_id": "1ro97nd",
+    "first_seen": "2026-10-02T04:51:36.238Z",
+    "last_fetched": "2026-10-02T04:51:36.238Z",
+    "status": "ok",
+    "cursor_utc": 1772993749,
+    "discovered_by": [
+      "all:Singer HD6700C",
+      "r/quilting:Singer HD6700C"
+    ],
+    "content_hash": "3bf267d4676956c2"
+  }
+]
