@@ -1,0 +1,55 @@
+{
+  "slug": "juki-mo-1000",
+  "generated": "2026-10-02T04:51:06.807Z",
+  "counts": {
+    "error": 0,
+    "warn": 5
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: of 29 sampled reviews, 3 name this model, 0 name a sibling only, 26 name neither"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 60, this 57, sibling 3, unclear 0"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "13 Reddit threads, 3 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "reddit",
+      "message": "few Reddit threads name the model in the title; collection may be on loose matches"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"differentialFeed\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"presserFootLift\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"includedFeet\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"claims\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 35 voices (28 first-hand), 15 sources, status draft"
+    }
+  ]
+}

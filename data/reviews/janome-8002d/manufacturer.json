@@ -1,0 +1,299 @@
+{
+  "slug": "janome-8002d",
+  "collected": "2026-10-02",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/janome-8002d.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "page",
+      "url": "https://www.janome.com/product/8002d/",
+      "type": "product page (janome.com)",
+      "fetched": "2026-10-02",
+      "note": "Page modified 2026-04-01 per its metadata. Lists MSRP, key features and a machine specification list. No spec sheet PDF."
+    },
+    {
+      "id": "manual",
+      "url": "https://www.janome.com/wp-content/uploads/2014/10/inst-book-8002deng.pdf",
+      "type": "instruction manual (PDF, 42 pages)",
+      "fetched": "2026-10-02",
+      "note": "Linked from the product page. Janome's manuals page links an identical file (same checksum) at /2024/09/inst-book-8002deng.pdf. No specification table; it covers needles, thread and needle chart, stitch length, differential, cutting width, rolled hem."
+    },
+    {
+      "id": "warranty",
+      "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+      "type": "Janome America Limited 25 Year Warranty (PDF, 1 page, image only, read by OCR)",
+      "fetched": "2026-10-02",
+      "note": "Linked from https://www.janome.com/support/warranty/. Not model-specific. OCR figures: verify against the PDF."
+    },
+    {
+      "id": "at2000d",
+      "url": "https://www.janome.com/product/airthread-2000d/",
+      "type": "sibling product page (AirThread 2000D)",
+      "fetched": "2026-10-02",
+      "note": "Janome's other listed serger. Fetched for comparison only."
+    },
+    {
+      "id": "manuals-index",
+      "url": "https://www.janome.com/support/manuals/",
+      "type": "Janome manuals index (search excerpt)",
+      "fetched": "2026-10-02",
+      "note": "Lists 8050 and 8077 under Computer Models and 8002D under Sergers and Cover Hems. 8050 and 8077 are sewing machines, not sergers."
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "Maximum speed 1,300 SPM",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": 1300,
+      "site": {
+        "label": "Speed",
+        "juki": "Janome lists a maximum speed of 1,300 SPM.",
+        "others": "Amazon and dealers repeat 1,300 spm.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/8002d/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "threads",
+      "value": "3 or 4 thread serger (3 and 4 thread convertible); no 2-thread converter listed",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "3 or 4 thread, convertible",
+      "site": {
+        "label": "Thread count",
+        "juki": "3 and 4 thread convertible. The page lists no built-in 2-thread converter; the AirThread 2000D page does.",
+        "others": "Dealers describe it as a 3/4 thread serger.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/8002d/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchTypes",
+      "value": "Page: 'Stitches: 4 thread, 3 thread (wide), narrow hem'. Manual: overlock (3 and 4 thread), rolled hemming, picot edging, narrow hemming. No flatlock or blind hem stitch is listed as a stitch; the manual names a blind stitch foot as an optional accessory and mentions flat-lock only as a use of the optional cloth guide.",
+      "source": "page",
+      "vs_spec": "contradicts",
+      "spec_value": "3-thread and 4-thread overlock, flatlock, rolled hem, blind hem (dealer and review copy)",
+      "note": "Our spec figure 'flatlock' and 'blind hem' comes from dealer and review copy; neither Janome document read lists them as built-in stitches. The editor should either drop them or label them as dealer claims.",
+      "site": {
+        "label": "Stitch types",
+        "juki": "Janome lists 4 thread, 3 thread (wide) and narrow hem; the manual adds rolled hem and picot edging.",
+        "others": "Dealer and review copy adds flatlock and blind hem.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/8002d/"
+          },
+          {
+            "label": "Janome manual",
+            "url": "https://www.janome.com/wp-content/uploads/2014/10/inst-book-8002deng.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "differentialFeed",
+      "value": "0.5 to 2.25 (page); the manual's thread and needle chart gives ratios between 0.5 and 2.2 and describes 1.0 as neutral",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "0.5 to 2.25",
+      "note": "Page-vs-manual: 2.25 on the page, 2.2 in the manual text (turn counterclockwise toward 2.2). Rounding, but a soft edge."
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "1.0 to 4.0 mm (page); manual: 1 to 4 mm, position R for rolled and narrow hems",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "1.0 to 4.0",
+      "note": "Spec cites Amazon as source; Janome page and manual now back it."
+    },
+    {
+      "field": "cuttingWidthMm",
+      "value": "3.1 to 7.3 mm",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "3.1 to 7.3"
+    },
+    {
+      "field": "needleSystem",
+      "value": "Manual: HA-1 SP, No. 11 and No. 14 ('Your overlock uses standard sewing needles (HA-1 SP, No.11, No.14)'). Thread and needle chart: No. 11 for lightweight, No. 11 to 14 mid, No. 14 for heavy fabrics.",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "HAx1SP, sizes 11 and 14 (instruction manual)",
+      "note": "Janome writes 'HA-1 SP'; our spec writes 'HAx1SP'. Same needle family, notation differs. Owner-forum use of 130/705H is not a Janome statement."
+    },
+    {
+      "field": "threadingSystem",
+      "value": "Page: lay-in threading, color-coded thread guides, threading chart, changeable thread guide, manual tension dials ('Lay-in thread tension dial'). Manual: the machine is pre-threaded; tie new thread to the pre-set threads and pull through.",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "Manual, color-coded thread guides with threading chart",
+      "note": "Janome says the machine 'Comes pre-threaded with 4 starter spools'. That is a marketing statement about the box contents; no air or automatic threading."
+    },
+    {
+      "field": "rolledHem",
+      "value": "Quick change rolled hem; manual: needle plate setting knob to R, and stitch length dial to R, for rolled and narrow hemming and picot edging",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "Yes, built-in changeover via needle plate knob",
+      "note": "Page calls it a 'rolled hem changeover device'. The 'no plate change' wording in our spec was not found in the page or manual text read; treat it as inferred from the knob description."
+    },
+    {
+      "field": "feedSystem",
+      "value": "Differential feed, easily retractable upper knife, adjustable foot pressure, snap-on presser feet, no flip needle system",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "Differential feed; retractable upper knife; rolled hem via needle plate setting knob at R, no plate change"
+    },
+    {
+      "field": "weightLb",
+      "value": "Machine weight 13.4 lbs",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": 13.4,
+      "note": "Spec source was Amazon. Janome's own page now gives 13.4 lb. Amazon item weight elsewhere: 19 lb on B008L5FN4E, 14 lb on B01600ASNC.",
+      "site": {
+        "label": "Weight",
+        "juki": "Janome lists a machine weight of 13.4 lbs.",
+        "others": "Amazon item weights run 14 to 19 lb across listings (probably shipping weight).",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/8002d/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "W 12.5 in x H 10.5 in x D 11 in",
+      "source": "page",
+      "vs_spec": "contradicts",
+      "spec_value": "15 x 13.5 x 14.5 (Amazon listing; may be packaged size)",
+      "note": "Our spec figure was a box size. Amazon B008L5FN4E lists 11 in D x 12.5 in W x 10.5 in H, matching Janome.",
+      "site": {
+        "label": "Dimensions",
+        "juki": "Janome lists W 12.5 in x H 10.5 in x D 11 in.",
+        "others": "One Amazon listing gives 11 x 12.5 x 10.5 in; others give box-like sizes up to 16 in.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome source",
+            "url": "https://www.janome.com/product/8002d/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "throatIn",
+      "value": "Not published. No needle-to-body, workspace or free-space figure on the page or in the manual.",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Spec null stays null (rule 6, 11)."
+    },
+    {
+      "field": "freeArm",
+      "value": "Not stated on the page or in the manual text. The page's 'Cover: None' line is about a dust cover, not an arm.",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Spec null stays null. Dealer copy may say otherwise; no maker support found."
+    },
+    {
+      "field": "workLight",
+      "value": "Manual lists 'Replacing the Light Bulb' and a 15 W maximum for the lamp bulb; the product page specification list does not mention a light.",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The machine has a lamp. Bulb type (incandescent or LED) not stated in the text read. Not a spec field in our schema."
+    },
+    {
+      "field": "motor",
+      "value": "Not published (no wattage or amperage on page or in the manual text read).",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": null
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "Not published. The manual's parts list names a 'Thread cutter' on the needle plate area; the page lists no thread trimmer feature.",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Not a thread trimmer in the sewing-machine sense; do not claim one."
+    },
+    {
+      "field": "includedFeet",
+      "value": "Page standard accessories: foot control, screwdriver (large), screwdriver (small). Manual standard accessories: screwdrivers, tweezers, set of needles. The page lists 'Standard Foot Serger' under optional accessories.",
+      "source": "page",
+      "vs_spec": "contradicts",
+      "spec_value": "Standard serger foot, needles, screwdrivers, tweezers, foot control and power cord, instruction book and video (dealer copy)",
+      "note": "The standard serger foot is on the machine; the page lists a spare under optional accessories. Instruction video is dealer copy only. Optional feet listed: beading, blind stitch, cording A and B, elastic gathering, gathering, piping, taping with reel."
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Janome America Limited 25 Year Warranty: 25 years from original purchase against defects in materials or workmanship, excluding electronic components (5 years) and labor (1 year free; afterwards at cost). Machines used commercially: 1 year parts and service. Does not cover needles, needle plates, bobbin cases, fuses, light bulbs, knives, loopers or belts. Void if not purchased from an authorized Janome dealer within the United States; original invoice required.",
+      "source": "warranty",
+      "vs_spec": "confirms",
+      "spec_value": "25 yr materials and workmanship, 5 yr electrical components, 1 yr labor (Janome America statement)",
+      "note": "Not model-specific. Amazon listing B008L5FN4E states 5 year mechanical, 2 year electrical, 1 year labor: that is not Janome's 25 year wording. The Janome page says it is 'Available at Authorized Janome Dealers' and the warranty page says Janome America does not sell directly online; whether an Amazon seller is an authorized dealer is not stated. OCR: verify against the PDF.",
+      "site": {
+        "label": "Warranty",
+        "juki": "25 years materials and workmanship, 5 years electronics, 1 year labor; void if not bought from an authorized US Janome dealer.",
+        "others": "An Amazon listing states 5 years mechanical, 2 years electrical, 1 year labor.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome warranty",
+            "url": "https://www.janome.com/support/warranty/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "price",
+      "value": "MSRP $399. 'Please see Dealer for pricing.'",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": 360.0,
+      "note": "MSRP only; dealer pricing varies. Spec priceUsdSeen $360 is a dealer sale price, not Janome's."
+    },
+    {
+      "field": "availability",
+      "value": "Page shows an MSRP and 'Available at Authorized Janome Dealers'. The page does not say the machine is discontinued.",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Page's wording only."
+    },
+    {
+      "field": "claims",
+      "value": "'The 8002D serger provides professional results at an extraodinary [sic] value.' 'Ready to serger out of the box, Comes pre-threaded with 4 starter spools.' 'External color coded tension dials allow for easy threading.' Quote as Janome claims; 'professional results' and 'extraordinary value' are marketing.",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec claims row quotes 'affordable and fast' and 'sturdy and economical'; neither phrase appears on the current Janome page text read (page modified 2026-04-01). Verify before reuse."
+    },
+    {
+      "field": "models",
+      "value": "Janome's page lists one 8002D. No 8002DX, 7034D or Magnolia page was found on janome.com. Janome's manuals index lists 8050 and 8077 under Computer Models (sewing machines) and the 8002D under Sergers and Cover Hems. Janome's only other serger on its site in the pages read is the AirThread 2000D.",
+      "source": "manuals-index",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The '8000 series' idea does not hold: 8050 and 8077 are computerized sewing machines. Model name is not a spec (rule 9)."
+    }
+  ]
+}

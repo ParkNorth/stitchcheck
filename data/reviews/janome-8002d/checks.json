@@ -1,0 +1,50 @@
+{
+  "slug": "janome-8002d",
+  "generated": "2026-10-02T05:10:27.326Z",
+  "counts": {
+    "error": 0,
+    "warn": 5
+  },
+  "items": [
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 3 ASINs (B008L5FN4E, B01600ASNC, B00ARMIWE2); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 3 ASINs (B008L5FN4E, B01600ASNC, B00ARMIWE2); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 3 ASINs (B008L5FN4E, B01600ASNC, B00ARMIWE2); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 61, this 54, sibling 4, unclear 3"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "15 Reddit threads, 5 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"stitchTypes\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"includedFeet\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 30 voices (25 first-hand), 18 sources, status draft"
+    }
+  ]
+}

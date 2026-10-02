@@ -1,0 +1,50 @@
+{
+  "slug": "janome-hd5000",
+  "generated": "2026-10-02T04:54:17.401Z",
+  "counts": {
+    "error": 0,
+    "warn": 5
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 94, this 73, sibling 16, unclear 5"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "58 Reddit threads, 27 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Hook\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Dimensions\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Buttonhole\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Speed\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"Standard accessories (HD-5000 page)\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 60 voices (39 first-hand), 60 sources, status draft"
+    }
+  ]
+}

@@ -1,0 +1,788 @@
+{
+  "slug": "handi-quilter-moxie",
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+  "reviewedOn": "2026-10-02",
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 22,
+    "itemsCollected": 360,
+    "statements": 31,
+    "voices": 23,
+    "ownerVoices": 20,
+    "dateRange": [
+      2021,
+      2026
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 20,
+        "items": 326
+      },
+      "retailer": {
+        "sources": 2,
+        "items": 33
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.8 from 17 ratings (listing B08P3SRX98, Moxie with 8-foot Loft frame) is shared with a second ASIN under the same parent, so it is not a rating for one configuration alone; only 4 reviews were sampled.",
+    "Sewing Machines Plus shows 4.55 from 29 reviews on its Moxie page. Only 1 review names the Moxie in its text, but the page is the Moxie product page and the sampled reviews describe a Moxie setup, so treat the rating as Moxie-page feedback, not a verified Moxie-only count."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 4,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2023
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cf8800ee0",
+          "polarity": "negative",
+          "claim": "Owner of a 10 ft Moxie frame reports it appears to sag after assembly.",
+          "quote": "it looks like mine is sagging, too",
+          "url": "https://www.reddit.com/r/longarm/comments/q4rldu/moxie_idlerdead_bar_catching_on_ruler_base/i1k9mcf/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c89c68a1b",
+          "polarity": "negative",
+          "claim": "Writer disliked the Loft frame, finding the machine much less smooth to maneuver than on the Little Foot frame with more wheels.",
+          "quote": "was much less smooth to maneuver a machine on",
+          "url": "https://www.reddit.com/r/quilting/comments/11rzthk/small_frame_vs_sit_down_long_arm/jcuuuzp/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cab47fe1a",
+        "c2ef85b59",
+        "cf8800ee0",
+        "c89c68a1b"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 2,
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2023
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cffca0934",
+          "polarity": "negative",
+          "claim": "New owner could not get tension right after hours of troubleshooting including new needle, bobbin and thread.",
+          "quote": "to get the tension right and have not been able to get it",
+          "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c04ee4628",
+          "polarity": "positive",
+          "claim": "Moxie owner reports satisfying tension on a quilt with gold top thread and white bobbin thread.",
+          "quote": "I am so happy with my tension",
+          "url": "https://www.reddit.com/r/quilting/comments/14ip51z/here_is_my_giraffe_fully_quilted_and_bound/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c759dd920",
+          "polarity": "positive",
+          "claim": "Owner reports no tension problems with the Moxie.",
+          "quote": "Haven't had any problems with tension.",
+          "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cacc02c01",
+        "c04ee4628",
+        "c759dd920",
+        "cffca0934"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 2
+      },
+      "years": [
+        2022,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c059fa59a",
+          "polarity": "mixed",
+          "claim": "Owner set the frame low to sit while quilting, which left the handlebars in an uncomfortable position though usable.",
+          "quote": "I set the frame low so I could sit down",
+          "url": "https://www.reddit.com/r/quilting/comments/tercsn/should_i_cancel_my_order_for_a_handi_quilter/i9xy0mz/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c059fa59a",
+        "cd8c70230",
+        "c5e5e946d"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cb37f2b6e",
+          "polarity": "positive",
+          "claim": "Owner of a used Moxie loves the stitch regulator and advises prioritising it above other extras.",
+          "quote": "I love the stitch regulator.",
+          "url": "https://www.reddit.com/r/quilting/comments/1enjar8/sit_down_machines/lhchd3q/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c666141a4",
+          "polarity": "positive",
+          "claim": "Owner says the machine has a stitch regulator that can go down to 4 stitches per inch for basting.",
+          "quote": "can go down to 4 stitches per inch for basting",
+          "url": "https://www.reddit.com/r/quilting/comments/1mb4ixj/long_arm_recommendations/n5mh5ak/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c565b7024",
+        "cb37f2b6e",
+        "c666141a4"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 4,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c379c33cb",
+          "polarity": "negative",
+          "claim": "Buyer reports a frame foot that would not screw in on one side.",
+          "quote": "one of the feet wont screw in",
+          "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c12a5271e",
+          "polarity": "positive",
+          "claim": "Reviewer calls the Handi Quilter Moxie a reliable product.",
+          "quote": "a reliable product",
+          "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c12a5271e",
+        "c03315f66",
+        "c379c33cb",
+        "c576eba4a"
+      ]
+    },
+    {
+      "theme": "free_motion",
+      "label": "Free-motion quilting",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c7d1320e6",
+          "polarity": "negative",
+          "claim": "New Moxie on an 8 ft Loft frame feels like it catches when pushed, giving angular swirls despite loosening track screws.",
+          "quote": "My swirls have corners lol.",
+          "url": "https://www.reddit.com/r/quilting/comments/16omiqz/hq_moxie_questionadvice/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c7d1320e6",
+        "cc098df16"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c52b27da2",
+          "polarity": "negative",
+          "claim": "Owner says their Moxie sounds clunky compared with smoother ones in videos.",
+          "quote": "mines sounds kind of clunky",
+          "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c628c69e2",
+          "polarity": "negative",
+          "claim": "Moxie user gets numb hands and forearms after hours of hand-guided quilting, which they attribute to machine vibration.",
+          "quote": "my hands and forearms have started going a little bit numb from the vibration",
+          "url": "https://www.reddit.com/r/quilting/comments/1nf4my9/longarmers_do_your_hands_go_numb_from_the_machine/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c628c69e2",
+        "c52b27da2"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cfc54575b",
+          "polarity": "negative",
+          "claim": "Buyer found the delivered boxes very heavy, needing help to carry them in.",
+          "quote": "Very heavy!! Even UPS mane asked for help getting the boxes to the door",
+          "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c20c9083f",
+          "polarity": "positive",
+          "claim": "Reviewer says the Moxie frame is 8 ft long and fits a craft room.",
+          "quote": "It is 8ft long, so easily fits in your Craft Room",
+          "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c20c9083f",
+        "cfc54575b"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2022
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "ce3b32779",
+          "polarity": "negative",
+          "claim": "Owner says the ruler foot supplied with the Moxie is not a true ruler foot; a separate Surefoot costing about 75 dollars is needed for rulers.",
+          "quote": "The ruler foot that comes with the machine isn't actually a ruler foot.",
+          "url": "https://www.reddit.com/r/quilting/comments/tercsn/should_i_cancel_my_order_for_a_handi_quilter/i9xy0mz/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ce3b32779"
+      ]
+    },
+    {
+      "theme": "thread_trimmer",
+      "label": "Thread trimmer",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c772715be",
+          "polarity": "negative",
+          "claim": "Owner says the Moxie has no automatic thread cutting.",
+          "quote": "It doesn’t auto thread or auto cut",
+          "url": "https://www.reddit.com/r/quilting/comments/1mb4ixj/long_arm_recommendations/n5mh5ak/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c772715be"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c082c0d85",
+          "polarity": "negative",
+          "claim": "Owner says the Moxie has no automatic needle threading.",
+          "quote": "It doesn’t auto thread or auto cut",
+          "url": "https://www.reddit.com/r/quilting/comments/1mb4ixj/long_arm_recommendations/n5mh5ak/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c082c0d85"
+      ]
+    },
+    {
+      "theme": "value_price",
+      "label": "Value and price",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cec21cc32",
+          "polarity": "negative",
+          "claim": "Buyer says the frame did not include the back table top, which had to be ordered separately from an HQ retailer.",
+          "quote": "the frame didn’t come with the necessary table top for the back",
+          "url": "https://www.amazon.com/dp/B08P3SRX98",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cec21cc32"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+      "pageRating": 4.55,
+      "pageCount": 29,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 7,
+        "5": 20
+      },
+      "lowRated": 2,
+      "sampled": null
+    },
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B08P3SRX98",
+      "pageRating": 4.8,
+      "pageCount": 17,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 3
+      },
+      "lowRated": 0,
+      "sampled": "4 top reviews (4 US, 0 other countries) of 17 ratings"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Throat space",
+      "juki": "15 inches of throat space. Manual: sewing opening 8.25 in by 15.00 in.",
+      "others": "Matches our 15 in; the maker does not say needle to body.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Handi Quilter product page",
+          "url": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"
+        },
+        {
+          "label": "Moxie manual (dealer-hosted copy)",
+          "url": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
+        }
+      ],
+      "field": "throatIn",
+      "source": "page"
+    },
+    {
+      "label": "Usable quilting area",
+      "juki": "Safe usable quilting area approximately 10 inches (of 15).",
+      "others": "Not in the spec table.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Handi Quilter comparison post",
+          "url": "https://handiquilter.com/machine-comparison-should-i-buy-the-moxie-or-the-amara/"
+        }
+      ],
+      "field": "throatUsable",
+      "source": "compare"
+    },
+    {
+      "label": "Speed",
+      "juki": "1,800 stitches per minute; cruise speed 50 to 800 spm.",
+      "others": "Matches our 1,800 spm.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Handi Quilter product page",
+          "url": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"
+        },
+        {
+          "label": "Moxie manual (dealer-hosted copy)",
+          "url": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "page"
+    },
+    {
+      "label": "Needle system",
+      "juki": "System 134, sizes 80/12 to 130/21 (manual).",
+      "others": "Our spec says sizes 12 to 20.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Moxie manual (dealer-hosted copy)",
+          "url": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
+        }
+      ],
+      "field": "needleSystem",
+      "source": "manual"
+    },
+    {
+      "label": "Frame",
+      "juki": "8 ft HQ Loft Frame included; 10 ft with 2 ft extension; 5 ft Little Foot Frame compatible.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Handi Quilter product page",
+          "url": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"
+        }
+      ],
+      "field": "frame",
+      "source": "page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "90 days parts and labor, 10 years casting, 5 years mechanical, 5 years electronic/electrical; customer pays labor and shipping after 90 days.",
+      "others": "Matches our spec; not specific to the Moxie.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Handi Quilter warranty page",
+          "url": "https://handiquilter.com/warranty/"
+        },
+        {
+          "label": "Moxie manual (dealer-hosted copy)",
+          "url": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "warranty"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "Moxie XL",
+      "label": "HQ Moxie XL (18 in)",
+      "rows": [
+        {
+          "feature": "Maker throat and speed",
+          "urls": 0,
+          "classes": [],
+          "summary": "Handi Quilter lists 18 inches of throat space and 2,100 stitches per minute on the Moxie XL, against 15 inches and 1,800 on the Moxie.",
+          "check": "Handi Quilter Moxie and Moxie XL product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Maker display and packaging weight",
+          "urls": 0,
+          "classes": [],
+          "summary": "4.3 inch display and 72 lb packaging weight on the XL; 1.44 inch display and 58 lb packaging weight on the Moxie.",
+          "check": "Handi Quilter product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Amara",
+      "label": "HQ Amara 20 and 24",
+      "rows": [
+        {
+          "feature": "Amara 20 maker figures",
+          "urls": 0,
+          "classes": [],
+          "summary": "Handi Quilter lists 20 inches of throat space, up to 2,500 spm, 4 to 24 stitches per inch and a Studio3 frame included on the Amara 20.",
+          "check": "Handi Quilter Amara 20 page and Moxie vs Amara post, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Usable quilting area",
+          "urls": 0,
+          "classes": [],
+          "summary": "The maker puts safe usable quilting area at about 10 in on the Moxie (15 in throat) and about 14 in on the Amara 20.",
+          "check": "Handi Quilter Moxie vs Amara post, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Sweet Sixteen",
+      "label": "HQ Sweet Sixteen and Simply Sixteen",
+      "rows": [
+        {
+          "feature": "Maker quilting space",
+          "urls": 0,
+          "classes": [],
+          "summary": "Handi Quilter's systems page says the HQ Sweet Sixteen has 16 inches of quilting space; the page separates throat space from quilting space.",
+          "check": "Handi Quilter Longarm Quilting Systems page, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Avante",
+      "label": "HQ Avante",
+      "rows": [
+        {
+          "feature": "Maker quilting space",
+          "urls": 0,
+          "classes": [],
+          "summary": "Handi Quilter's systems page says the HQ18 Avante has 15 inches of quilting space, with throat and quilting space not equal.",
+          "check": "Handi Quilter Longarm Quilting Systems page, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

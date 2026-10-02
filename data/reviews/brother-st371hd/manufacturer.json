@@ -1,0 +1,450 @@
+{
+  "slug": "brother-st371hd",
+  "collected": "2026-10-02",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/brother-st371hd.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "brother-page",
+      "url": "https://www.brother-usa.com/products/st371hd",
+      "type": "product page",
+      "fetched": "2026-10-02",
+      "note": "Redirects to /p/sewing-embroidery/ST371HD. Page title 'ST371HD Heavy Duty Sewing Machine - Strong and Tough'. Shows $239.99 and 'Out of Stock'. Spec tables list weight, dimensions, speed, stitch width/length, feet, warranty label. No throat, motor wattage or needle system."
+    },
+    {
+      "id": "brother-manual",
+      "url": "https://download.brother.com/welcome/doch001159/888_x36_x38_x39_om03enes.pdf",
+      "type": "operation manual (PDF, 104 pages, English/Spanish, text layer, v03 dated 01/12/2016)",
+      "fetched": "2026-10-02",
+      "note": "Family manual for product codes 888-X36/X38/X39; never names ST371HD. Brother's support page lists it under ST371HD. Says '37 Stitches (only available on certain models)'. No specifications page: no speed, motor, throat or presser foot pressure figures."
+    },
+    {
+      "id": "brother-support",
+      "url": "https://support.brother.com/g/b/manualtop.aspx?c=us&lang=en&prod=hf_st371hdeus",
+      "type": "support manuals page",
+      "fetched": "2026-10-02",
+      "note": "Lists the operation manual, quick reference guide (01/11/2024), an accessories notification (10/11/2024) and an accessories catalog under ST371HD."
+    },
+    {
+      "id": "brother-quickref",
+      "url": "https://download.brother.com/welcome/doch102895/888x34_x36_x38_x39_qg03endefrnlitesptrutrzhszhtko.pdf",
+      "type": "quick reference guide (PDF, 2 pages, multilingual)",
+      "fetched": "2026-10-02",
+      "note": "Threading diagrams only; no specifications."
+    },
+    {
+      "id": "brother-accessories",
+      "url": "https://download.brother.com/welcome/doch102976/st371hd_acc02us_enesfrpt.pdf",
+      "type": "included accessories notification (PDF, 2 pages, dated 10/11/2024)",
+      "fetched": "2026-10-02",
+      "note": "Names ST371HD. Lists 17 items: 6 feet plus needle set (75/11, 90/14, 100/16), twin needle, 4 bobbins, spool pins, soft cover, foot controller. Notes bobbin Class 15 plastic."
+    },
+    {
+      "id": "brother-warranty-linked",
+      "url": "https://assets.brother.com/asset/09ccf0a1-3e5f-42e4-b073-52a8b56d413e/6229_International-Warranty-LAD-Final-100-pdf.pdf",
+      "type": "warranty PDF linked from the product page (International, Latin America and Caribbean territories)",
+      "fetched": "2026-10-02",
+      "note": "The page's warranty row links here under the label '1/5/25 Year Limited Serger Warranty'. The PDF lists territories outside the United States and a single 1 year term; it does not mention 5 or 25 years and does not name the ST371HD."
+    },
+    {
+      "id": "brother-warranty-us",
+      "url": "https://assets.brother.com/asset/9585451d-f1e4-47db-b656-32e040a0672c/9800_Brother-Limited-Warranty-Standard-pdf.pdf",
+      "type": "warranty PDF (Brother Limited Warranty Standard, US, 1 page, 2017) linked from the support page",
+      "fetched": "2026-10-02",
+      "note": "1 year parts, labor and accessories, 2 years electronic components and circuit boards, 25 years Chassis Casting. Generic Brother document; does not name the ST371HD."
+    },
+    {
+      "id": "brother-xm2701",
+      "url": "https://www.brother-usa.com/products/xm2701",
+      "type": "product page (sibling)",
+      "fetched": "2026-10-02",
+      "note": "comparison"
+    },
+    {
+      "id": "brother-cs7000x",
+      "url": "https://www.brother-usa.com/products/cs7000x",
+      "type": "product page (sibling)",
+      "fetched": "2026-10-02",
+      "note": "comparison"
+    }
+  ],
+  "facts": [
+    {
+      "field": "stitchCount",
+      "value": "37 built-in stitches including one 1-step auto-size buttonhole (page: '37 Built-in stitches and 1 one-step buttonhole')",
+      "source": "brother-page",
+      "vs_spec": "confirms",
+      "spec_value": 37,
+      "note": "Page gallery alt text on the same page also says '27 built-in stitches' once. The manual lists 53, 37 and 27 stitch tables and says the 53 and 37 stitch layouts are 'only available on certain models': the manual does not tie 37 to ST371HD by name, Brother's support page does.",
+      "site": {
+        "label": "Stitches",
+        "juki": "37 built-in stitches, one of them a 1-step buttonhole.",
+        "others": "Dealer titles repeat 37; the sibling GX37 and XR3774 also say 37.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ]
+      }
+    },
+    {
+      "field": "maxSpm",
+      "value": "800 (page row 'Maximum Sewing Speed 800'; unit not printed on the page)",
+      "source": "brother-page",
+      "vs_spec": "confirms",
+      "spec_value": 800,
+      "note": "Our spec's 800 came from a third-party comparison; Brother's page now gives the same number. The manual states no speed figure. Unit is assumed to be stitches per minute: verify against a printed spec card.",
+      "site": {
+        "label": "Speed",
+        "juki": "800 (Maximum Sewing Speed row, unit not printed).",
+        "others": "Third-party comparisons also say 800.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          },
+          {
+            "label": "Manual (no speed figure)",
+            "url": "https://support.brother.com/g/b/manualtop.aspx?c=us&lang=en&prod=hf_st371hdeus"
+          }
+        ]
+      }
+    },
+    {
+      "field": "throatIn",
+      "value": "Not published. No needle-to-arm, workspace or arm-size figure on the page or in the manual.",
+      "source": "brother-page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Spec is null and stays null. Do not infer a throat from the 12.21 in dimension or from the XR3774/XM2701 pages.",
+      "site": {
+        "label": "Throat space",
+        "juki": "Not published by Brother.",
+        "others": "Not checked at dealers.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ]
+      }
+    },
+    {
+      "field": "weightLb",
+      "value": "14.3 (page 'Unit Weight 14.3'; unit not printed, read as lb)",
+      "source": "brother-page",
+      "vs_spec": "confirms",
+      "spec_value": 14.3,
+      "site": {
+        "label": "Weight",
+        "juki": "14.3 (Unit Weight row).",
+        "others": "Sewing machine directory lists 14.3 lb.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "12.21 x 16.10 x 7.87 (page 'Unit Dimensions', axes and unit not labelled; carton 11 x 19 x 15 in)",
+      "source": "brother-page",
+      "vs_spec": "confirms",
+      "spec_value": "16.1 x 7.9 x 12.2 (48.9 x 20 x 31 cm)",
+      "note": "Same three numbers as our spec in a different order. Brother does not label height, width or depth, so the order is not a Brother statement.",
+      "site": {
+        "label": "Machine size",
+        "juki": "12.21 x 16.10 x 7.87 in, axes not labelled.",
+        "others": "Directory lists 16.1 x 7.9 x 12.2 in.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ]
+      }
+    },
+    {
+      "field": "includedFeet",
+      "value": "6 feet: spring action zigzag, nonstick, blind stitch, zipper, buttonhole, button sewing (page About text and spec row 'Number of Presser Feet 6')",
+      "source": "brother-page",
+      "vs_spec": "confirms",
+      "spec_value": "6 feet: spring action zigzag, nonstick, blind stitch, zipper, buttonhole, button sewing; heavyweight needles included",
+      "note": "Accessories notification lists the same six feet by part code (zigzag J, buttonhole A, zipper I, SA114 non stick, button sewing M, SA133 blind stitch) and a needle set of 75/11, 90/14 and 100/16 plus a twin needle. No walking foot, no darning plate. Page says 'heavyweight needles' (marketing); the box needle set is sizes 11, 14 and 16, the page's own words.",
+      "site": {
+        "label": "Feet in the box",
+        "juki": "Six feet; needles 11, 14, 16 and a twin needle; 4 bobbins.",
+        "others": "Not checked at dealers.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          },
+          {
+            "label": "Accessories notification",
+            "url": "https://download.brother.com/welcome/doch102976/st371hd_acc02us_enesfrpt.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "presserFootPressure",
+      "value": "Adjustable Presser Foot Pressure: No (page spec row)",
+      "source": "brother-page",
+      "vs_spec": "confirms",
+      "spec_value": "Fixed presser foot pressure (third-party comparison); lift height not published in snippet",
+      "note": "Brother now confirms fixed pressure. Presser foot lift height is not published by Brother. The manual has no pressure figure.",
+      "site": {
+        "label": "Presser foot pressure",
+        "juki": "Not adjustable (spec row).",
+        "others": "Third-party comparison also says fixed.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ]
+      }
+    },
+    {
+      "field": "feedSystem",
+      "value": "Drop feed for free-motion sewing; metal needle plate; Quick-Set drop-in top bobbin; feed dog position switch (manual); 6 feed dog points (page row)",
+      "source": "brother-page",
+      "vs_spec": "confirms",
+      "spec_value": "Drop feed for free motion; metal needle plate; Quick-Set drop-in top bobbin",
+      "note": "No differential feed. No feed length figures beyond stitch dials.",
+      "site": {
+        "label": "Feed and bobbin",
+        "juki": "Drop feed, metal needle plate, jam-resistant Quick-Set drop-in top bobbin.",
+        "others": "Not checked at dealers.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchDimensions",
+      "value": "Stitch width 7, stitch length 5 (page rows, unit not printed). Manual table: zigzag width 0 to 6.5 mm, length F to 4 mm; straight stitch length 1 to 4 mm",
+      "source": "brother-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Page and manual disagree on the maximum: the page's 7 and 5 are likely dial scale maxima, the manual's recommended values are 6.5 and 4 mm. Do not publish either as a mm figure without a Brother statement of units.",
+      "site": {
+        "label": "Stitch width and length",
+        "juki": "Page: width 7, length 5 (unit unlabelled). Manual: width 0 to 6.5 mm, length up to 4 mm for zigzag.",
+        "others": "Not checked at dealers.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          },
+          {
+            "label": "Operation manual",
+            "url": "https://download.brother.com/welcome/doch001159/888_x36_x38_x39_om03enes.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "needleSystem",
+      "value": "Home sewing machine needles 75/11 to 100/16 (manual); factory recommended ball point 'HG-4BR' (Organ). No needle system class named. Needle threader works with 75/11 to 100/16, not 65/9, not twin or wing needle",
+      "source": "brother-manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Manual covers sizes and a ball point part number, not a system name such as 130/705H. Manual also says to avoid thread weight #20 or lower, and pairs denim with 100/16 and thread 30 to 50.",
+      "site": {
+        "label": "Needles",
+        "juki": "Sizes 75/11 to 100/16 listed; no system name.",
+        "others": "Not checked at dealers.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          },
+          {
+            "label": "Operation manual",
+            "url": "https://download.brother.com/welcome/doch001159/888_x36_x38_x39_om03enes.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "Automatic Thread Cutter: No (page). Manual shows a manual thread cutter on the machine (thread passed through it)",
+      "source": "brother-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "site": {
+        "label": "Thread cutter",
+        "juki": "No automatic cutter; a side manual cutter per the manual.",
+        "others": "Not checked at dealers.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ]
+      }
+    },
+    {
+      "field": "needleThreader",
+      "value": "Page: 'Automatic needle threading system' (headline) and 'built-in easy needle threader' (text). Manual: needle threader lever, page 23",
+      "source": "brother-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Both are marketing wording; the manual shows a lever-style threader.",
+      "site": {
+        "label": "Needle threader",
+        "juki": "Built-in, called automatic.",
+        "others": "Not checked at dealers.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ]
+      }
+    },
+    {
+      "field": "motor",
+      "value": "Not published. No wattage or amps for the machine; page lists only 'Power Source 110V ou 220V220v220v' and 'UL/CSA Listed Voltage 110v'",
+      "source": "brother-page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "The power-source row is garbled text on Brother's own page. Manual does not give wattage.",
+      "site": {
+        "label": "Motor",
+        "juki": "Not published.",
+        "others": "Not checked at dealers.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ]
+      }
+    },
+    {
+      "field": "frame",
+      "value": "Not published. Page and manual do not name the frame material. The only frame wording is the US warranty PDF's '25 Years ... Chassis Casting', which is generic and does not name the ST371HD",
+      "source": "brother-warranty-us",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Do not call the frame metal on the strength of the warranty wording or the 'metal needle plate' line."
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Product page row reads '1/5/25 Year Limited Serger Warranty' and links to an International (Latin America and Caribbean) warranty PDF that states 1 year. The standard US Brother Limited Warranty PDF (support page) states 1 year parts, labor and accessories, 2 years electronic components, 25 years chassis casting. Neither PDF names the ST371HD or says serger",
+      "source": "brother-page",
+      "vs_spec": "contradicts",
+      "spec_value": null,
+      "note": "Spec is null (adds) but three documents disagree: the label says 1/5/25 and 'Serger', the linked PDF says 1 year only, the standard US PDF says 1/2/25. Editor must not publish a term without a decision. Brother's XM2701 and CS7000X pages say '25 Year Limited Warranty' with no breakdown.",
+      "site": {
+        "label": "Warranty",
+        "juki": "Page label '1/5/25 Year Limited Serger Warranty', linked PDF says 1 year (International). US standard PDF: 1 / 2 / 25 years.",
+        "others": "Dealer wording not checked.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          },
+          {
+            "label": "US standard warranty PDF",
+            "url": "https://assets.brother.com/asset/9585451d-f1e4-47db-b656-32e040a0672c/9800_Brother-Limited-Warranty-Standard-pdf.pdf"
+          },
+          {
+            "label": "Linked International PDF",
+            "url": "https://assets.brother.com/asset/09ccf0a1-3e5f-42e4-b073-52a8b56d413e/6229_International-Warranty-LAD-Final-100-pdf.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "price",
+      "value": "$239.99 on Brother's own page, shown 'Out of Stock', checked 2026-10-02",
+      "source": "brother-page",
+      "vs_spec": "contradicts",
+      "spec_value": null,
+      "note": "Spec records $229.99 at Michaels on 2026-09-29, not a maker price. Brother list price $239.99; no dealer price recorded as a maker fact.",
+      "site": {
+        "label": "Maker price",
+        "juki": "$239.99 on brother-usa.com, shown out of stock on 2026-10-02.",
+        "others": "Dealer pricing not recorded here.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother source",
+            "url": "https://www.brother-usa.com/products/st371hd"
+          }
+        ]
+      }
+    },
+    {
+      "field": "pageVsManual",
+      "value": "Page spec rows say 'Display Type LCD', 'Stitch Selector Type Shift Key' and the gallery alt text says 'LCD display'. The manual describes a pattern selection dial and a pattern indication window; no LCD",
+      "source": "brother-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Page-vs-manual disagreement. The page rows look like template fields shared with computerized models. The ST371HD is described as a mechanical dial machine in the manual; do not publish 'LCD' or 'shift key'."
+    },
+    {
+      "field": "manualScope",
+      "value": "The only manual is a family manual for product codes 888-X36/X38/X39 (version 03, 2016). It says 37 stitches are 'only available on certain models'. The foot controller KD-1902 is noted for 888-X38 and X39 only",
+      "source": "brother-manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Brother's support page maps ST371HD to this manual but the machine's own product code is not stated. Brother sells the XR3774 and GX37 with 37 stitches as siblings; the product page's 'similar products' strip lists ST150HDH, XR3774, GX37, XR9550."
+    },
+    {
+      "field": "claims",
+      "value": "'Strong & Tough' (series name, page title 'Heavy Duty Sewing Machine - Strong and Tough'); 'perfect machine for everyday sewing and mending on everything from durable outdoor fabrics to lightweight elegant silks'; 'can handle layers of heavier fabrics'; 'jam-resistant Quick-Set drop-in top bobbin'",
+      "source": "brother-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Brother's own words. 'Heavy Duty' and 'Strong and Tough' are page labels, not specs; no layer count, thickness or motor figure is published."
+    },
+    {
+      "field": "availability",
+      "value": "Product page says 'Out of Stock' on 2026-10-02",
+      "source": "brother-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Page wording only. No discontinuation statement seen."
+    },
+    {
+      "field": "sibling:XM2701",
+      "value": "Brother XM2701: 27 stitches (63 stitch functions), 800 speed row, width 5, length 4, 12.6 lb, 15.3 x 5.9 x 12.1 in, 6 feet incl. narrow hemmer, 25 Year Limited Warranty, $149.99",
+      "source": "brother-xm2701",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Same page structure as ST371HD, so its speed, no-adjustable-pressure and needle-threader rows are template-alike."
+    },
+    {
+      "field": "sibling:CS7000X",
+      "value": "Brother CS7000X: computerized, LCD, 70 stitches, 10 feet incl. walking foot, 750 speed row, 10.5 lb, 25 Year Limited Warranty, $279.99",
+      "source": "brother-cs7000x",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The CS7000X lists a lower max speed (750) than the ST371HD and XM2701 (800) on Brother's own pages."
+    }
+  ]
+}

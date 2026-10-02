@@ -1,0 +1,457 @@
+[
+  {
+    "id": "web:3e2da963c939536a",
+    "url": "https://www.amazon.com/dp/B00ARMIWE2",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T05:04:34.815Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T05:04:34.815Z",
+    "status": "ok",
+    "site_rating": 4.2,
+    "site_review_count": 57,
+    "asin": "B00ARMIWE2",
+    "parent_asin": "B01LN7DUB4",
+    "product_asins": [
+      "B008L5FN4E",
+      "B01600ASNC",
+      "B00ARMIWE2"
+    ],
+    "pooled_variations": true,
+    "sampled": "0 top reviews (0 US, 0 other countries) of 57 ratings",
+    "listing": {
+      "title": "Janome 8002D Serger Includes Bonus Accessories",
+      "price_usd": 360,
+      "best_sellers_rank": "#146,444 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #25 in Sergers & Overlock Machines\n #37 in Serger Thread",
+      "details": {
+        "Model Number": "LEPAC344",
+        "Color": "white",
+        "Material": "Metal, Plastic",
+        "Item Dimensions D x W x H": "11.4\"D x 13.6\"W x 10.3\"H"
+      }
+    }
+  },
+  {
+    "id": "web:f0699a812f02e2d6",
+    "url": "https://www.amazon.com/dp/B008L5FN4E",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T05:05:28.561Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T05:05:28.561Z",
+    "status": "ok",
+    "site_rating": 4.6,
+    "site_review_count": 160,
+    "asin": "B008L5FN4E",
+    "parent_asin": "B01LN7DUB4",
+    "product_asins": [
+      "B008L5FN4E",
+      "B01600ASNC",
+      "B00ARMIWE2"
+    ],
+    "pooled_variations": true,
+    "sampled": "13 top reviews (8 US, 5 other countries) of 160 ratings",
+    "listing": {
+      "title": "Janome 8002D Overlock Machine - 3/4 Thread Serger Sewing Machine with Differential Feed System for Extra-Smooth Seams, Janome Serger with 1300 Stitches Per Minute and Easy Threading",
+      "price_usd": 360,
+      "best_sellers_rank": "#146,444 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #17 in Serger & Overlock Machine Accessories",
+      "details": {
+        "Model Number": "800002D",
+        "Warranty Description": "5 year limited warranty mechanical parts, 2 year limited warranty electrical parts, 1 year limited labor.",
+        "Included Components": "Screwdriver (large), Screwdriver (small), Tweezers, Needle Pack, Power Cord, Foot Controller, Instruction Manual, Janome 8002D serger",
+        "Manufacturer": "Janome",
+        "Part Number": "0018002D",
+        "Material": "Metal, Plastic",
+        "Item Dimensions D x W x H": "11\"D x 12.5\"W x 10.5\"H",
+        "Item Weight": "19 pounds"
+      }
+    }
+  },
+  {
+    "id": "web:6e9b3a0f6f5aece3",
+    "url": "https://www.amazon.com/dp/B01600ASNC",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T05:05:50.441Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T05:05:50.441Z",
+    "status": "ok",
+    "site_rating": 4.4,
+    "site_review_count": 77,
+    "asin": "B01600ASNC",
+    "parent_asin": "B01LN7DUB4",
+    "product_asins": [
+      "B008L5FN4E",
+      "B01600ASNC",
+      "B00ARMIWE2"
+    ],
+    "pooled_variations": true,
+    "sampled": "8 top reviews (8 US, 0 other countries) of 77 ratings",
+    "listing": {
+      "title": "Janome 8002D Serger Includes Bonus Accessories",
+      "price_usd": 360,
+      "best_sellers_rank": "#146,444 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #17 in Serger & Overlock Machine Accessories\n #25 in Sergers & Overlock Machines\n #368 in Sewing Machines",
+      "details": {
+        "Model Number": "8002D",
+        "Part Number": "8002Dfs",
+        "Color": "white",
+        "Material": "Metal",
+        "Item Dimensions D x W x H": "16\"D x 16\"W x 16\"H",
+        "Item Weight": "14 pounds"
+      }
+    }
+  },
+  {
+    "id": "reddit:uhvu8r",
+    "url": "https://www.reddit.com/r/sewing/comments/uhvu8r/buying_300_serger_between_juki_mo654de_or_janome/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Buying $300 serger - between JUKI MO654DE or Janome 8002D - thoughts?",
+    "subreddit": "sewing",
+    "thread_id": "uhvu8r",
+    "first_seen": "2026-10-02T05:05:59.941Z",
+    "last_fetched": "2026-10-02T05:05:59.941Z",
+    "status": "ok",
+    "cursor_utc": 1666193497,
+    "discovered_by": [
+      "all:Janome 8002D",
+      "r/sewing:Janome 8002D",
+      "all:Janome 8002D serger",
+      "r/sewing:Janome 8002D serger",
+      "all:Janome 8002D review",
+      "r/sewing:Janome 8002D review",
+      "all:Janome 8002D problems",
+      "r/sewing:Janome 8002D problems",
+      "r/sewing:Janome 8002D vs"
+    ],
+    "content_hash": "dc5d061019790920"
+  },
+  {
+    "id": "reddit:wcs17j",
+    "url": "https://www.reddit.com/r/sewhelp/comments/wcs17j/is_there_any_way_possible_to_get_an_even_feed_or/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Is there any way possible to get an even feed or walking foot for a Janome 8002d serger? I've looked everywhere and cant seem to get a solid answer. Sewing knit seams and they keep sliding. Thanks in advance!",
+    "subreddit": "sewhelp",
+    "thread_id": "wcs17j",
+    "first_seen": "2026-10-02T05:05:59.941Z",
+    "last_fetched": "2026-10-02T05:05:59.941Z",
+    "status": "ok",
+    "cursor_utc": 1659463788,
+    "discovered_by": [
+      "all:Janome 8002D",
+      "r/sewhelp:Janome 8002D",
+      "all:Janome 8002D serger",
+      "r/sewhelp:Janome 8002D serger",
+      "all:Janome 8002D review",
+      "r/sewhelp:Janome 8002D review",
+      "all:Janome 8002D problems",
+      "r/sewhelp:Janome 8002D problems",
+      "r/sewhelp:Janome 8002D vs"
+    ],
+    "content_hash": "d696803b26f4d66e"
+  },
+  {
+    "id": "reddit:wmwvd0",
+    "url": "https://www.reddit.com/r/sewhelp/comments/wmwvd0/replacement_for_janome_8002d_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Replacement for Janome 8002d Serger?",
+    "subreddit": "sewhelp",
+    "thread_id": "wmwvd0",
+    "first_seen": "2026-10-02T05:05:59.941Z",
+    "last_fetched": "2026-10-02T05:05:59.941Z",
+    "status": "ok",
+    "cursor_utc": 1660400510,
+    "discovered_by": [
+      "all:Janome 8002D",
+      "r/sewhelp:Janome 8002D",
+      "all:Janome 8002D serger",
+      "r/sewhelp:Janome 8002D serger",
+      "all:Janome 8002D review",
+      "r/sewhelp:Janome 8002D review",
+      "all:Janome 8002D problems",
+      "r/sewhelp:Janome 8002D problems",
+      "r/sewhelp:Janome 8002D vs"
+    ],
+    "content_hash": "b24a746f0e951c43"
+  },
+  {
+    "id": "reddit:i39urg",
+    "url": "https://www.reddit.com/r/sewing/comments/i39urg/janome_8002_d_serger_doesnt_turn_on/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Janome 8002 D serger doesn’t turn on",
+    "subreddit": "sewing",
+    "thread_id": "i39urg",
+    "first_seen": "2026-10-02T05:05:59.941Z",
+    "last_fetched": "2026-10-02T05:05:59.941Z",
+    "status": "ok",
+    "cursor_utc": 1596506638,
+    "discovered_by": [
+      "r/sewing:Janome 8002D serger"
+    ],
+    "content_hash": "b10daafa6a1b6127"
+  },
+  {
+    "id": "reddit:1mreodn",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1mreodn/adjusting_sergeroverlock_machine_janome_8002d/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Adjusting Serger/Overlock Machine - Janome 8002D",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1mreodn",
+    "first_seen": "2026-10-02T05:05:59.941Z",
+    "last_fetched": "2026-10-02T05:05:59.941Z",
+    "status": "ok",
+    "cursor_utc": 1755311357,
+    "discovered_by": [
+      "all:Janome 8002D",
+      "r/SewingForBeginners:Janome 8002D",
+      "all:Janome 8002D serger",
+      "r/SewingForBeginners:Janome 8002D serger",
+      "all:Janome 8002D review",
+      "r/SewingForBeginners:Janome 8002D review",
+      "all:Janome 8002D problems",
+      "r/SewingForBeginners:Janome 8002D problems",
+      "r/SewingForBeginners:Janome 8002D vs"
+    ],
+    "content_hash": "019436c6d75f75b5"
+  },
+  {
+    "id": "reddit:1asv2ov",
+    "url": "https://www.reddit.com/r/sewing/comments/1asv2ov/maybe_time_for_a_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "*Maybe* Time for a serger",
+    "subreddit": "sewing",
+    "thread_id": "1asv2ov",
+    "first_seen": "2026-10-02T05:05:59.941Z",
+    "last_fetched": "2026-10-02T05:05:59.941Z",
+    "status": "ok",
+    "cursor_utc": 1708201496,
+    "discovered_by": [
+      "all:Janome 8002D",
+      "r/sewing:Janome 8002D",
+      "all:Janome 8002D serger",
+      "r/sewing:Janome 8002D serger",
+      "r/sewing:Janome 8002D review",
+      "r/sewing:Janome 8002D problems",
+      "r/sewing:Janome 8002D vs Brother 1034D"
+    ],
+    "content_hash": "b9ee60f6dc9eb2d0"
+  },
+  {
+    "id": "reddit:a9kabh",
+    "url": "https://www.reddit.com/r/sewing/comments/a9kabh/serger_suggestions_please/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger suggestions, please.",
+    "subreddit": "sewing",
+    "thread_id": "a9kabh",
+    "first_seen": "2026-10-02T05:05:59.941Z",
+    "last_fetched": "2026-10-02T05:05:59.941Z",
+    "status": "ok",
+    "cursor_utc": 1545970218,
+    "discovered_by": [
+      "all:Janome 8002D",
+      "r/sewing:Janome 8002D",
+      "all:Janome 8002D serger",
+      "r/sewing:Janome 8002D serger"
+    ],
+    "content_hash": "d58631a3be489b9a"
+  },
+  {
+    "id": "reddit:2lde1n",
+    "url": "https://www.reddit.com/r/sewing/comments/2lde1n/please_help_serger_conflict/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "PLEASE HELP! Serger conflict!",
+    "subreddit": "sewing",
+    "thread_id": "2lde1n",
+    "first_seen": "2026-10-02T05:05:59.941Z",
+    "last_fetched": "2026-10-02T05:05:59.941Z",
+    "status": "ok",
+    "cursor_utc": 1415289008,
+    "discovered_by": [
+      "all:Janome 8002D",
+      "r/sewing:Janome 8002D",
+      "all:Janome 8002D serger",
+      "r/sewing:Janome 8002D serger",
+      "all:Janome 8002D review",
+      "r/sewing:Janome 8002D review"
+    ],
+    "content_hash": "13601325ac827237"
+  },
+  {
+    "id": "reddit:1tdjhf7",
+    "url": "https://www.reddit.com/r/sewing/comments/1tdjhf7/needle_help_sewing_interlock_or_possibly_ity/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Needle Help! Sewing interlock or possibly ITY mystery fabric",
+    "subreddit": "sewing",
+    "thread_id": "1tdjhf7",
+    "first_seen": "2026-10-02T05:05:59.941Z",
+    "last_fetched": "2026-10-02T05:05:59.941Z",
+    "status": "ok",
+    "cursor_utc": 1778838673,
+    "discovered_by": [
+      "all:Janome 8002D",
+      "r/sewing:Janome 8002D",
+      "all:Janome 8002D serger",
+      "r/sewing:Janome 8002D serger",
+      "r/sewing:Janome 8002D review",
+      "r/sewing:Janome 8002D problems"
+    ],
+    "content_hash": "8b5311860d8b5d44"
+  },
+  {
+    "id": "reddit:1popxpj",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1popxpj/overlock_not_used_for_years_after_servicing/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Overlock not used for years after servicing - should I get it serviced again?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1popxpj",
+    "first_seen": "2026-10-02T05:05:59.941Z",
+    "last_fetched": "2026-10-02T05:05:59.941Z",
+    "status": "ok",
+    "cursor_utc": 1765975248,
+    "discovered_by": [
+      "all:Janome 8002D",
+      "r/SewingForBeginners:Janome 8002D",
+      "r/SewingForBeginners:Janome 8002D serger",
+      "r/SewingForBeginners:Janome 8002D review",
+      "r/SewingForBeginners:Janome 8002D problems",
+      "r/SewingForBeginners:Janome 8002D vs"
+    ],
+    "content_hash": "56ea6a324f9b9af1"
+  },
+  {
+    "id": "reddit:9n1aav",
+    "url": "https://www.reddit.com/r/sewhelp/comments/9n1aav/newbie_to_sergers_all_i_can_do_is_flatlock_stitch/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Newbie to sergers, all I can do is flatlock stitch?",
+    "subreddit": "sewhelp",
+    "thread_id": "9n1aav",
+    "first_seen": "2026-10-02T05:05:59.941Z",
+    "last_fetched": "2026-10-02T05:05:59.941Z",
+    "status": "ok",
+    "cursor_utc": 1539606057,
+    "discovered_by": [
+      "all:Janome 8002D",
+      "r/sewhelp:Janome 8002D",
+      "all:Janome 8002D serger",
+      "r/sewhelp:Janome 8002D serger",
+      "r/sewhelp:Janome 8002D review",
+      "r/sewhelp:Janome 8002D vs"
+    ],
+    "content_hash": "aca89837596a8264"
+  },
+  {
+    "id": "reddit:1ri7s76",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ri7s76/eps2_kumo_wrap_pants/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Eps2 - Kumo Wrap Pants",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1ri7s76",
+    "first_seen": "2026-10-02T05:05:59.941Z",
+    "last_fetched": "2026-10-02T05:05:59.941Z",
+    "status": "ok",
+    "cursor_utc": 1772398385,
+    "discovered_by": [
+      "all:Janome 8002D",
+      "r/SewingForBeginners:Janome 8002D",
+      "r/SewingForBeginners:Janome 8002D serger",
+      "r/SewingForBeginners:Janome 8002D review",
+      "r/SewingForBeginners:Janome 8002D problems",
+      "r/SewingForBeginners:Janome 8002D vs"
+    ],
+    "content_hash": "e98b29f7bd7cb0cb"
+  },
+  {
+    "id": "reddit:162vbfg",
+    "url": "https://www.reddit.com/r/batonrouge/comments/162vbfg/things_to_do_in_baton_rouge_this_week_august_28/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Things to do in Baton Rouge this Week (August 28 - August 31)",
+    "subreddit": "batonrouge",
+    "thread_id": "162vbfg",
+    "first_seen": "2026-10-02T05:05:59.941Z",
+    "last_fetched": "2026-10-02T05:05:59.941Z",
+    "status": "ok",
+    "cursor_utc": 1693250315,
+    "discovered_by": [
+      "all:Janome 8002D",
+      "all:Janome 8002D serger"
+    ],
+    "content_hash": "cc0b6676abb9efd0"
+  },
+  {
+    "id": "reddit:40f6w3",
+    "url": "https://www.reddit.com/r/sewing/comments/40f6w3/serger_recommendations/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Serger recommendations",
+    "subreddit": "sewing",
+    "thread_id": "40f6w3",
+    "first_seen": "2026-10-02T05:05:59.941Z",
+    "last_fetched": "2026-10-02T05:05:59.941Z",
+    "status": "ok",
+    "cursor_utc": 1452556941,
+    "discovered_by": [
+      "all:Janome 8002D",
+      "r/sewing:Janome 8002D",
+      "all:Janome 8002D serger",
+      "r/sewing:Janome 8002D serger"
+    ],
+    "content_hash": "ae7ab42a82692708"
+  },
+  {
+    "id": "reddit:1j56by",
+    "url": "https://www.reddit.com/r/sewing/comments/1j56by/advice_on_a_serger/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Advice on a serger?",
+    "subreddit": "sewing",
+    "thread_id": "1j56by",
+    "first_seen": "2026-10-02T05:05:59.941Z",
+    "last_fetched": "2026-10-02T05:05:59.941Z",
+    "status": "ok",
+    "cursor_utc": 1374953515,
+    "discovered_by": [
+      "all:Janome 8002D",
+      "r/sewing:Janome 8002D",
+      "all:Janome 8002D serger",
+      "r/sewing:Janome 8002D serger"
+    ],
+    "content_hash": "5a2f0d7c510c4479"
+  },
+  {
+    "id": "web:d9e189743feb0c2f",
+    "url": "https://www.sewingmachinesplus.com/Janome-8002D.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-02T05:14:30.213Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-02T05:14:30.213Z",
+    "status": "ok",
+    "site_rating": 5,
+    "site_review_count": 11,
+    "content_hash": "31a9b255540de2e7"
+  }
+]

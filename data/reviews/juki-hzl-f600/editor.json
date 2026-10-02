@@ -1,0 +1,188 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "HZL-F300",
+      "label": "Juki HZL-F300",
+      "pattern": "hzl[\\s-]*f300(?![a-z0-9])"
+    },
+    {
+      "model": "HZL-F400",
+      "label": "Juki HZL-F400",
+      "pattern": "hzl[\\s-]*f400(?![a-z0-9])"
+    },
+    {
+      "model": "HZL-G220",
+      "label": "Juki HZL-G220",
+      "pattern": "hzl[\\s-]*g220(?![a-z0-9])"
+    },
+    {
+      "model": "HZL-DX7",
+      "label": "Juki HZL-DX7",
+      "pattern": "hzl[\\s-]*dx7(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "stitch count|decorative stitches",
+      "Stitches"
+    ],
+    [
+      "included feet|accessories",
+      "Included accessories"
+    ],
+    [
+      "extension table|knee lift",
+      "Table and knee lift"
+    ],
+    [
+      "LED",
+      "Lighting"
+    ],
+    [
+      "stitch width and length selection",
+      "Width and length controls"
+    ],
+    [
+      "generation",
+      "Model generation"
+    ],
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "hzl[\\s-]*f300(?![a-z0-9])",
+      "Juki HZL-F300"
+    ],
+    [
+      "tl[\\s-]*2010q(?![a-z0-9])|2010q(?![a-z0-9])",
+      "Juki TL-2010Q"
+    ],
+    [
+      "memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])",
+      "Janome Memory Craft 6650"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "hzl[\\s-]*f300(?![a-z0-9])|hzl[\\s-]*f300(?![a-z0-9])|tl[\\s-]*2010q(?![a-z0-9])|2010q(?![a-z0-9])|memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {
+    "HZL-F400": {
+      "Included accessories": {
+        "summary": "Commenters say the F600 includes teflon and open-toe feet that the F400 lacks.",
+        "check": "owner comments; not confirmed by a Juki page in hand"
+      },
+      "Table and knee lift": {
+        "summary": "Commenters say the F600 includes an extension table that is optional on the F400.",
+        "check": "owner comments; not confirmed by a Juki page in hand"
+      },
+      "Lighting": {
+        "summary": "One commenter says the F600 has two LEDs against one on the F400.",
+        "check": "owner comment; unverified"
+      }
+    },
+    "HZL-F300": {
+      "Stitches": {
+        "summary": "Commenters say the F600 has more stitches, including more decorative stitches, than the F300.",
+        "check": "owner comments; Juki's F-series pages list the stitch counts"
+      },
+      "Included accessories": {
+        "summary": "Commenters say the F600 ships with more feet (teflon, open toe, patchwork, walking, edge/joining) and accessories than the F300, and the F300's can be bought to match.",
+        "check": "owner comments; not confirmed by a Juki page in hand"
+      },
+      "Table and knee lift": {
+        "summary": "Commenters say the F600 includes an extension table and knee lift lever that are bought separately for the F300.",
+        "check": "owner comments; not confirmed by a Juki page in hand"
+      },
+      "Width and length controls": {
+        "summary": "One commenter says the F600 uses knobs for stitch width and length and the F300 plus and minus buttons.",
+        "check": "one owner comment; unverified"
+      },
+      "Price": {
+        "summary": "Commenters put the F600 well above the F300 even after the F300's added accessories. Juki lists the F600 at $2,369, the F400 at $1,999 and the F300 at $1,799.",
+        "check": "owner comments and Juki product pages, 2026-10-02"
+      }
+    },
+    "HZL-DX7": {
+      "Model generation": {
+        "summary": "One commenter calls the DX7 the older model and the newer version of the F600. Juki documents were not checked for this.",
+        "check": "one owner comment; unverified"
+      }
+    }
+  },
+  "siblingExtras": {
+    "HZL-F300": [
+      {
+        "feature": "Stitch library",
+        "summary": "106 stitches and 3 fonts for the F300 against 225 and 4 for the F600.",
+        "check": "Juki product pages and F series brochure, 2026-10-02"
+      },
+      {
+        "feature": "Suggested retail",
+        "summary": "Juki lists $1,799 for the F300 and $2,369 for the F600.",
+        "check": "Juki product pages, 2026-10-02"
+      },
+      {
+        "feature": "Box contents",
+        "summary": "The F300 page lists no walking foot, wide table or knee lifter as standard; the brochure shows the table and knee lever as options.",
+        "check": "Juki F300 page and brochure comparison table, 2026-10-02"
+      }
+    ],
+    "HZL-F400": [
+      {
+        "feature": "Stitch library",
+        "summary": "157 stitches and 3 fonts for the F400 against 225 and 4 for the F600.",
+        "check": "Juki product pages and brochure, 2026-10-02"
+      },
+      {
+        "feature": "Suggested retail",
+        "summary": "Juki lists $1,999 for the F400 and $2,369 for the F600.",
+        "check": "Juki product pages, 2026-10-02"
+      },
+      {
+        "feature": "Table and lighting",
+        "summary": "The brochure shows the wide table standard on the F600 and optional on the F400, and two LED lights on the F600 against one.",
+        "check": "Juki F series brochure, 2026-10-02"
+      }
+    ],
+    "HZL-G220": [],
+    "HZL-DX7": []
+  }
+}
