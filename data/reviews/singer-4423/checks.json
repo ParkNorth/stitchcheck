@@ -1,0 +1,40 @@
+{
+  "slug": "singer-4423",
+  "generated": "2026-10-02T04:43:02.344Z",
+  "counts": {
+    "error": 0,
+    "warn": 3
+  },
+  "items": [
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 2 ASINs (B003VWXZQ0, B0DQQPMZXJ); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 234, this 159, sibling 13, unclear 62"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "60 Reddit threads, 60 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"dimensionsIn\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 104 voices (69 first-hand), 62 sources, status draft"
+    }
+  ]
+}

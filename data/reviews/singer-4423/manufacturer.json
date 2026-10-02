@@ -1,0 +1,301 @@
+{
+  "slug": "singer-4423",
+  "collected": "2026-10-02",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/singer-4423.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "singer-page",
+      "url": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine",
+      "type": "product page",
+      "fetched": "2026-10-02",
+      "note": "Highlights, 23 built-in stitches and 97 stitch applications, specifications block (size, weight, watts, warranty), accessories list, MSRP. Page offers a refurbished 4423 as a separate listing."
+    },
+    {
+      "id": "singer-manual",
+      "url": "https://svpworldwide.widen.net/content/pwfntm3hxz/pdf/IM_4423Q50DSTEN.ES.FR140917.pdf",
+      "type": "instruction manual (PDF, 76 pages, English/Spanish/French, image only)",
+      "fetched": "2026-10-02",
+      "note": "Linked from the product page via a view URL that returns an HTML wrapper; the real file is at the content URL. No specification page; needle table lists sizes 9 to 18 and Singer needle part numbers but no needle system name. Text read by OCR at 150 dpi: verify figures against the PDF."
+    },
+    {
+      "id": "singer-apps-guide",
+      "url": "https://svpworldwide.widen.net/content/ekyfd1w33d/pdf/SINGER-HD4423-NA.pdf",
+      "type": "stitch applications guide (PDF, 80 pages)",
+      "fetched": "2026-10-02",
+      "note": "Sewing technique guide (how to use stitches); not a spec sheet."
+    },
+    {
+      "id": "singer-warranty-pdf",
+      "url": "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-10e8219a-17a4-440f-bae4-9fe48a9ab4d5-singer%2025-2-90%20%20warranty%20471025847e.pdf",
+      "type": "warranty PDF (Limited 25/2/90 Day, 3 pages)",
+      "fetched": "2026-10-02",
+      "note": "Generic SVP document for the 25/2/90 model group; does not name the 4423 itself."
+    },
+    {
+      "id": "singer-warranty-page",
+      "url": "https://help.singer.com/en-US/singers-warranty-coverage-395288",
+      "type": "warranty coverage page",
+      "fetched": "2026-10-02",
+      "note": "Lists '4423 HEAVY DUTY' (and 4411, 4432, 4452) under Limited 25/2/90 Day. Lists a separate 'REFURBISHED MACHINE' warranty (Limited 1 Year and Full Metal Frame Lifetime)."
+    },
+    {
+      "id": "singer-4411",
+      "url": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine",
+      "type": "product page (sibling)",
+      "fetched": "2026-10-02",
+      "note": "comparison"
+    },
+    {
+      "id": "singer-4432",
+      "url": "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine",
+      "type": "product page (sibling)",
+      "fetched": "2026-10-02",
+      "note": "comparison"
+    },
+    {
+      "id": "singer-4452",
+      "url": "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine",
+      "type": "product page (sibling)",
+      "fetched": "2026-10-02",
+      "note": "comparison"
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1,100 stitches per minute (page: 'High Speed Stitching (1100/min)')",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": 1100,
+      "site": {
+        "label": "Speed",
+        "juki": "1,100 stitches per minute.",
+        "others": "Not checked at dealers.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Singer source",
+            "url": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchCount",
+      "value": "23 built-in stitches; 97 stitch applications",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": 23,
+      "note": "Singer separates stitches (23) from applications (97): a marketing count of techniques, not a stitch count. The spec breakdown (6 basic, 4 stretch, 12 decorative, 1 buttonhole) is not on the maker page or the manual text read; it should be checked against the stitch dial in the PDF.",
+      "site": {
+        "label": "Stitches",
+        "juki": "23 built-in stitches; 97 stitch applications.",
+        "others": "Retail titles also say 44 stitch or 97 stitch; only 23 is a built-in count.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Singer source",
+            "url": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
+          }
+        ]
+      }
+    },
+    {
+      "field": "throatIn",
+      "value": "6.25 in 'sewing space (needle to tower)', defined by Singer as 'the distance between the needle and the main part of the machine'; 4.25 in height",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec was null. Singer gives the figure in its own wording (needle to tower, with a definition that reads as needle to body), identical on the 4411, 4432 and 4452 pages. The 'Machine Size' depth is also 6.25 in, so the two figures may be the same number reused: editor to decide whether to publish it as throat. Not a long-arm figure.",
+      "site": {
+        "label": "Throat space",
+        "juki": "6.25 in, 'needle to tower' (Singer wording). Page also lists 4.25 in height.",
+        "others": "Not checked at dealers.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Singer source",
+            "url": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
+          }
+        ]
+      }
+    },
+    {
+      "field": "weightLb",
+      "value": "14.6 lb (Machine Weight 14.6)",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": 14.6,
+      "site": {
+        "label": "Weight",
+        "juki": "14.6 lb.",
+        "others": "Sewing Parts Online lists 14.6 lb, the same figure.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Singer source",
+            "url": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "Machine size 15.5 x 6.25 x 12 in; box size 18 x 8.5 x 13 in (page does not label the axes)",
+      "source": "singer-page",
+      "vs_spec": "contradicts",
+      "spec_value": "18.1 x 8.8 x 13.9 (W x D x H)",
+      "note": "Spec figure (Sewing Parts Online, 18.1 x 8.8 x 13.9) is close to Singer's box size, not the machine size. Maker machine size is 15.5 x 6.25 x 12 in. Singer's 4411, 4452 pages give the same machine size.",
+      "site": {
+        "label": "Dimensions",
+        "juki": "Machine 15.5 x 6.25 x 12 in; box 18 x 8.5 x 13 in.",
+        "others": "Sewing Parts Online: 18.1 x 8.8 x 13.9 in, close to the box size.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer source",
+            "url": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
+          }
+        ]
+      }
+    },
+    {
+      "field": "motor",
+      "value": "Page: 'High-Performance Motor': 'a motor that is 60% stronger than a standard sewing machine motor'; electrical: 0.7 A, 84 W, 120 V, 60 Hz",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": "Singer describes the motor as stronger than a standard machine motor; wattage not published",
+      "note": "Spec says wattage not published; the page's specification block lists 84 W (0.7 A at 120 V). Rated electrical input, not an output or torque figure. '60% stronger' has no stated baseline; a marketing claim. Retailer copy elsewhere says '50% more power'.",
+      "site": {
+        "label": "Motor",
+        "juki": "84 W, 0.7 A, 120 V, 60 Hz. Singer says '60% stronger than a standard sewing machine motor'.",
+        "others": "Retail copy repeats a '50% more power' figure; baseline not defined.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer source",
+            "url": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
+          }
+        ]
+      }
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Page: 'Warranty (90 day / 2yr / 24yr)' and 'Up to 25 Years Warranty Coverage'. Warranty PDF (25/2/90 group): 25 years product frame (free replacement parts, buyer pays shipping and labor); 2 years electronic/electrical parts (repair or replace, buyer pays shipping and labor); 90 days mechanical parts and adjustments (repair or replace). Household non-commercial use only; first purchaser; authorized dealer purchase.",
+      "source": "singer-warranty-pdf",
+      "vs_spec": "contradicts",
+      "spec_value": "25 yr limited on machine head, 2 yr on motor, light, wiring, switches, speed control and electronics, 90 days on adjustments, belts, rings, bulbs and attachments",
+      "note": "Model-specific only by listing: the coverage page lists '4423 HEAVY DUTY' under Limited 25/2/90 Day, but the PDF is generic and does not name the 4423. The PDF says 'product frame' (25 yr), 'electronic/electrical parts' (2 yr), 'mechanical parts and adjustments' (90 days). The spec's component list (machine head, motor, light, wiring, switches, belts, rings, bulbs) is not in this PDF. Product page spec block says '24yr' while the same page text says up to 25 years: page-vs-page disagreement. Refurbished units carry a different warranty (1 year plus metal frame lifetime).",
+      "site": {
+        "label": "Warranty",
+        "juki": "Limited 25 / 2 / 90 day (frame / electronics / mechanical parts and adjustments); the page's spec line prints '24yr'.",
+        "others": "Spec in the catalog lists components the PDF does not name.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer coverage page",
+            "url": "https://help.singer.com/en-US/singers-warranty-coverage-395288"
+          },
+          {
+            "label": "Singer warranty PDF",
+            "url": "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-10e8219a-17a4-440f-bae4-9fe48a9ab4d5-singer%2025-2-90%20%20warranty%20471025847e.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "frame",
+      "value": "'Heavy Duty Metal Frame (+): The machine's interior frame is metal'; 'Stainless Steel Bed Plate': 'The surface of the machine's arm is made of stainless steel'",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": "Heavy-duty metal interior frame, stainless steel bedplate",
+      "note": "'Heavy Duty' is a Singer line name; the maker claim is an interior metal frame, not a duty rating."
+    },
+    {
+      "field": "feedSystem",
+      "value": "Drop feed control (lever lowers feed dogs for free-motion); manual describes raising and lowering the feed dogs",
+      "source": "singer-manual",
+      "vs_spec": "confirms",
+      "spec_value": "Drop feed",
+      "note": "Spec source was the UK Singer site; the US manual (OCR) also shows a drop feed control. No differential feed or walking foot is listed."
+    },
+    {
+      "field": "buttonhole",
+      "value": "One-step buttonhole (page: 'Sew 1-step Buttonholes' in the manual contents)",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": "1-step automatic buttonhole"
+    },
+    {
+      "field": "presserFootLift",
+      "value": "'Extra High Presser Foot Lifter': 'Presser foot has an extra high position available to accommodate thick fabrics'; manual: two-step lifter. Lift height in mm or inches is not published.",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": "Adjustable presser foot pressure; lift height not published in snippet",
+      "note": "Page also lists adjustable presser foot pressure. No numeric lift height in the page or manual text read."
+    },
+    {
+      "field": "needleSystem",
+      "value": "Not published as a system name. Manual needle table: sizes 9 (70) to 18 (110); Singer part numbers 2020 (sharp), 2045 (semi-ball point), 2032 (leather); product page: 3 needle positions",
+      "source": "singer-manual",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Spec was null and stays null: the manual names no needle system (such as 15x1). Part numbers are Singer's, not a system designation. The 'Needle Positions (3)' is a feature, not a spec for needles."
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "No thread trimmer on the page's feature list. Manual lists a 'Thread cutter' part (a manual cutting edge) only; built-in needle threader is listed",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Spec null. The manual part list names a thread cutter on the machine body; this is not an automatic trimmer."
+    },
+    {
+      "field": "threads",
+      "value": "Not published; bobbin is Class 15 transparent, top drop-in",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": null
+    },
+    {
+      "field": "includedFeet",
+      "value": "Page ($60 value): general purpose foot, zipper foot, buttonhole foot, button sewing foot, edge/quilting guide, pack of needles, bobbins, spool caps, auxiliary spool pin, spool pin felt, screwdriver, seam ripper/lint brush, soft dust cover. Manual standard accessories match; 3 bobbins. No walking foot, no needle threader mentioned in the box (threader is built in).",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": "All-purpose foot, zipper foot, buttonhole foot, button sewing foot, seam ripper and lint brush, quilting guide, needles, bobbins, screwdriver, auxiliary spool pin, spool pin felt, soft dust cover; 4 snap-on feet",
+      "note": "Spec's four snap-on feet match the four feet listed. Manual optional accessories (not supplied): satin, overcasting, hemmer, cording, blind hem, quilting/straight stitch, gathering, darning, even feed (walking) foot, twin needle."
+    },
+    {
+      "field": "msrp",
+      "value": "MSRP $289.99 on the product page (page also showed a $229.99 sale price with 'Save $60' on 2026-10-02)",
+      "source": "singer-page",
+      "vs_spec": "confirms",
+      "spec_value": 289.99,
+      "note": "MSRP only; sale price is the maker's and moves. Spec priceUsdSeen is the dealer figure 289.99."
+    },
+    {
+      "field": "availability",
+      "value": "Page carries an add-to-cart for the new machine and lists a refurbished 4423 as a separate product; no discontinued wording found.",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Page wording only; not a statement about stock elsewhere."
+    },
+    {
+      "field": "claims",
+      "value": "Maker marketing wording: 'Heavy Duty' (line name); 'a heavy duty metal frame and powerful motor make this machine a true workhorse'; 'extra high sewing speed'; 'Professional speed for faster results'; 'High-Performance Motor ... 60% stronger than a standard sewing machine motor'; 'Designed with your heavy duty projects in mind, from denim to canvas'; 'Heavy Duty Metal Frame'",
+      "source": "singer-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Quoted as claims only. The page says 4523 'adds speed control' above this model, so the 4423 has no speed control listed. No fabric-thickness or layer limit is published."
+    },
+    {
+      "field": "pageVsManual",
+      "value": "Product page lists a built-in needle threader and 97 stitch applications; manual contents list 'Automatic Needle Threader', 'Three Needle Position Dial' and 'Stitch Width Dial & Stitch Length Dial'",
+      "source": "singer-manual",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "No disagreement found on needle threader. Page and manual agree on one-step buttonhole. Page's '24yr' versus 'up to 25 years' is the one internal inconsistency (see warrantyUs)."
+    }
+  ]
+}

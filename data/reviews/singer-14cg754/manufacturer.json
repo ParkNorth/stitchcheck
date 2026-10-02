@@ -1,0 +1,322 @@
+{
+  "slug": "singer-14cg754",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/singer-14cg754.json. Research input for the editor; not a spec file.",
+  "collected": "2026-10-02",
+  "documents": [
+    {
+      "id": "maker-page",
+      "url": "https://www.singer.com/products/singer-profinish-14cg754-serger",
+      "type": "product page",
+      "fetched": "2026-10-02",
+      "note": "Highlights, details, MSRP, two reviews. Shows Out of Stock and Sold out. States no weight, dimensions, stitch length, cutting width, needle, throat or motor figures."
+    },
+    {
+      "id": "maker-manual-link",
+      "url": "https://svpworldwide.widen.net/content/kguu9jx3dl/pdf/SINGER_SE017_manualEN.pdf?u=cko5pg",
+      "type": "instruction manual (PDF, 30 pages), linked from the product page",
+      "fetched": "2026-10-02",
+      "note": "The file is titled SE017 INSTRUCTION MANUAL, not 14CG754. Its specification table lists 6.0 kg, 301 x 280 x 270 mm, stitch length 1.0 to 4.0 mm, LED light. Treated as a different model's manual, not as 14CG754 facts."
+    },
+    {
+      "id": "operators-guide",
+      "url": "https://archive.org/details/manualzilla-id-7199880",
+      "type": "operator's guide (PDF, 53 pages, third-party archive copy, OCR text layer)",
+      "fetched": "2026-10-02",
+      "note": "Cover reads 14SH744/14CG744 and 14SH754/14CG754 Operator's Guide, Part No. 364300-000L. Undated and hosted on archive.org, not on singer.com. Its specification table names 14CG754."
+    },
+    {
+      "id": "warranty-pdf-14cg754",
+      "url": "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-d3361c80-1e88-4d01-9381-fe3e62f20ef4-singer%2025-1%20warranty%20471068326e.pdf",
+      "type": "warranty PDF linked from the 14CG754 product page",
+      "fetched": "2026-10-02",
+      "note": "SVP Worldwide Limited Warranty: 25-year product frame, 1-year parts and adjustments."
+    },
+    {
+      "id": "warranty-page",
+      "url": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage",
+      "type": "warranty coverage page",
+      "fetched": "2026-10-02",
+      "note": "Lists tiers 25/2/90 day, 25/1, 25/5/1 and 1 year with eligible models. The 14CG754 is not named in the text retrieved."
+    },
+    {
+      "id": "hd854-page",
+      "url": "https://www.singer.com/products/singer-14hd854-heavy-duty-serger",
+      "type": "product page (closest sibling)",
+      "fetched": "2026-10-02",
+      "note": "Sibling comparison. Links the 25/2/90 warranty PDF and a model-specific 14HD854 manual."
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1,300 stitches per minute (page highlight); 1,300 spm maximum (operator's guide)",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": 1300,
+      "site": {
+        "label": "Speed",
+        "juki": "1,300 stitches per minute.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Singer source",
+            "url": "https://www.singer.com/products/singer-profinish-14cg754-serger"
+          }
+        ]
+      }
+    },
+    {
+      "field": "threads",
+      "value": "2, 3 or 4 threads",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "2, 3 or 4 thread"
+    },
+    {
+      "field": "differentialFeed",
+      "value": "Ratio 1:0.7 to 1:2.0 (operator's guide). The product page says differential feed is included and gives no range.",
+      "source": "operators-guide",
+      "vs_spec": "confirms",
+      "spec_value": "0.7 to 2.0",
+      "site": {
+        "label": "Differential feed",
+        "juki": "Ratio 0.7 to 2.0 in the operator's guide; the product page gives no range.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Operator's guide (archive copy)",
+            "url": "https://archive.org/details/manualzilla-id-7199880"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "1 to 4 mm (standard: rolled hemming F-2, ordinary overedge 3.0)",
+      "source": "operators-guide",
+      "vs_spec": "contradicts",
+      "spec_value": "2.0 to 4.0",
+      "note": "Operator's guide gives 1 to 4 mm; the spec's 2.0 to 4.0 comes from the Amazon listing. The SE017 manual linked from the product page also says 1.0 to 4.0 mm. Product page gives no figure.",
+      "site": {
+        "label": "Stitch length",
+        "juki": "1 to 4 mm in the operator's guide; the product page gives no figure.",
+        "others": "Amazon lists 2.0 to 4.0 mm.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Operator's guide (archive copy)",
+            "url": "https://archive.org/details/manualzilla-id-7199880"
+          }
+        ]
+      }
+    },
+    {
+      "field": "cuttingWidthMm",
+      "value": "Ordinary overedge stitch width 3.0 to 6.7 mm (standard 3.5); rolled hemming 1.5 mm",
+      "source": "operators-guide",
+      "vs_spec": "confirms",
+      "spec_value": "3.0 to 6.7",
+      "note": "The guide calls this overedge stitch width, and says the cutting width cannot be set below 3.5 mm for rolled hemming. The guide does not publish a separate cutting-width range."
+    },
+    {
+      "field": "needleSystem",
+      "value": "Singer needle Cat. No. 2022, sizes 80/11 and 90/14; a #90/14 needle set is furnished. The guide says Singer #2020 may be used in an emergency but may skip stitches unless tension is readjusted.",
+      "source": "operators-guide",
+      "vs_spec": "confirms",
+      "spec_value": "Singer 2022 (ELx705) serger needles",
+      "note": "No maker document names the ELx705 equivalence; that part of the spec rests on the parts retailer."
+    },
+    {
+      "field": "weightLb",
+      "value": "6.0 kg (13.2 lb) in the operator's guide",
+      "source": "operators-guide",
+      "vs_spec": "contradicts",
+      "spec_value": 13.5,
+      "note": "Spec 13.5 lb is from the Amazon listing. The SE017 manual also says 6.0 kg, so the guide figure is not model-specific evidence either way. Product page gives no weight.",
+      "site": {
+        "label": "Weight",
+        "juki": "6.0 kg (13.2 lb) in the operator's guide; none on the product page.",
+        "others": "Amazon lists 13.5 lb.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Operator's guide (archive copy)",
+            "url": "https://archive.org/details/manualzilla-id-7199880"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "338 x 280 x 265 mm wide, deep, high (13.3 x 11.0 x 10.4 in) in the operator's guide",
+      "source": "operators-guide",
+      "vs_spec": "contradicts",
+      "spec_value": "14 x 11 x 11.5 (17 high with the thread stand extended)",
+      "note": "Spec is from the Amazon listing, which is rounded and its dimension labels vary. Unit check: 265 mm is 10.4 in, not 11.5 in. Product page gives no dimensions."
+    },
+    {
+      "field": "stitchCount",
+      "value": "Product page does not state a stitch-type count; it says 2, 3 or 4 threads \"for a variety of stitch combinations\". The 14HD854 page says \"6 different stitch types\".",
+      "source": "maker-page",
+      "vs_spec": "contradicts",
+      "spec_value": 6,
+      "note": "Spec value 6 comes from an Office Depot listing. No 14CG754 maker page or document found states 6. The operator's guide lists stitches by thread combination, not as a count.",
+      "site": {
+        "label": "Stitch types",
+        "juki": "No stitch-type count on the 14CG754 page; 2, 3 or 4 threads.",
+        "others": "Office Depot copy says 6 stitch types.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Singer source",
+            "url": "https://www.singer.com/products/singer-profinish-14cg754-serger"
+          }
+        ]
+      }
+    },
+    {
+      "field": "freeArm",
+      "value": "Built-in free arm (page highlight: \"Free-arm sewing\")",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Yes, built-in"
+    },
+    {
+      "field": "rolledHem",
+      "value": "Built-in rolled hem (page highlight)",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Yes, built-in"
+    },
+    {
+      "field": "threadingSystem",
+      "value": "Color-coded lay-in thread tension (page highlight)",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": "Color-coded lay-in threading with automatic tension release; manual looper threading",
+      "note": "Maker page does not mention automatic tension release; the spec's wording comes from a dealer."
+    },
+    {
+      "field": "speedControl",
+      "value": "Electronic speed control (page highlight)",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Not a spec-file field. Motor type and wattage are not published."
+    },
+    {
+      "field": "light",
+      "value": "Operator's guide refers to a light bulb that must cool before it is changed. The product page lists no light. The SE017 manual says LED; the 14HD854 page says two LED lights.",
+      "source": "operators-guide",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Light type of the current 14CG754 is not stated on its own page. Owners complain the light is dim (see claims and rollup)."
+    },
+    {
+      "field": "throatIn",
+      "value": "Not published. No needle-to-arm or workspace figure on the product page or in the operator's guide.",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Throat stays null. Guide gives needle bar stroke 27 mm and presser foot rise 4.5 mm, which are not throat figures."
+    },
+    {
+      "field": "presserFootLift",
+      "value": "Presser foot rise 4.5 mm (operator's guide)",
+      "source": "operators-guide",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Guide gives rise in mm for a lifter lever; treat as a figure for the guide's model family and verify against the PDF before use."
+    },
+    {
+      "field": "frame",
+      "value": "Product page makes no frame or motor statement. The 14HD854 page claims a \"heavy duty metal frame\".",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Frame and motor stay null for the 14CG754. Amazon's detail table says Material: Metal, Plastic."
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Linked warranty PDF: Limited 25-Year (product frame, free replacement parts, owner pays labor) and Limited 1-Year (parts and adjustments, parts and labor free). Page text: \"Up to 25 Years Warranty Coverage ... some restrictions may apply.\" Household use only.",
+      "source": "warranty-pdf-14cg754",
+      "vs_spec": "contradicts",
+      "spec_value": "25 yr limited on machine head, 2 yr on motor, light, wiring, switches, speed control and electronics, 90 days on adjustments, belts, rings, bulbs and attachments",
+      "note": "The 25/2/90 tier is on Singer's coverage page and on the 14HD854 page (PDF named 25-2-90). The 14CG754 page links the 25-1 PDF and the coverage page text retrieved does not list the 14CG754. Amazon's listing says 25-year including 2-year electronic and 90-day labor. Model-specific on the product page link, so conflict is between the maker's own pages. Editor must decide wording.",
+      "site": {
+        "label": "Warranty",
+        "juki": "Page links a 25-year frame and 1-year parts and adjustments warranty (household use).",
+        "others": "Amazon and our spec say 25 years head, 2 years electronics, 90 days adjustments.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Singer 14CG754 warranty PDF",
+            "url": "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-d3361c80-1e88-4d01-9381-fe3e62f20ef4-singer%2025-1%20warranty%20471068326e.pdf"
+          },
+          {
+            "label": "Singer warranty coverage page",
+            "url": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+          }
+        ]
+      }
+    },
+    {
+      "field": "manual",
+      "value": "The product page links a manual titled SE017, not 14CG754. A 14CG754 operator's guide exists as a third-party archive copy (Part No. 364300-000L) and a printed manual is sold by parts retailers.",
+      "source": "maker-manual-link",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Page-vs-manual disagreement: figures in the linked SE017 manual (301 x 280 x 270 mm, stitch width 5.2 to 6.7 mm left needle and 3.0 to 4.5 mm right needle, LED light) differ from the archive guide for the 14CG754 (338 x 280 x 265 mm, overedge 3.0 to 6.7 mm, light bulb). Do not cite the SE017 manual as a 14CG754 source.",
+      "site": {
+        "label": "Manual",
+        "juki": "The product page links an SE017 manual.",
+        "others": "The 14CG754 operator's guide is an undated archive copy.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Singer 14CG754 page",
+            "url": "https://www.singer.com/products/singer-profinish-14cg754-serger"
+          },
+          {
+            "label": "Operator's guide (archive copy)",
+            "url": "https://archive.org/details/manualzilla-id-7199880"
+          }
+        ]
+      }
+    },
+    {
+      "field": "priceMsrp",
+      "value": "MSRP $349.99; Singer listed $209.99 (\"Save $140\") with the page showing Out of Stock and Sold out on 2026-10-02",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "MSRP is Singer's own comparison figure, not a selling price. Recorded as the page's wording only. The 14HD854 page shows MSRP $399.99, listed $319.99, also Out of stock in a search snippet."
+    },
+    {
+      "field": "status",
+      "value": "Page is live with \"Out of Stock\" and \"Sold out\"; it does not say discontinued or replaced. Page text: \"Please note: Back-Orders will ship on TBD date\".",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "The spec's note that a dealer says the 14HD854 replaces the 14CG754 is not supported by any Singer page seen."
+    },
+    {
+      "field": "includedFeet",
+      "value": "Operator's guide accessories: needle set, small screwdriver, tweezers, spreader. Page lists no accessories.",
+      "source": "operators-guide",
+      "vs_spec": "adds",
+      "spec_value": "All purpose foot, needle set, tweezers, spreader (2-thread converter), small screwdriver, thread nets, lint brush, foot control, power cord, instruction manual with stitch guide, machine intro DVD",
+      "note": "Guide supports four of the items; thread nets, lint brush and DVD are from a retailer and not confirmed by the maker."
+    },
+    {
+      "field": "claims",
+      "value": "\"Give all your projects a clean, store-bought look\" and \"professional results\" (page copy); \"Commercial Grade\" does not appear on the Singer page; the page title uses ProFinish.",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Marketing wording only. Our spec already records \"Commercial Grade\" as a retailer name."
+    }
+  ]
+}

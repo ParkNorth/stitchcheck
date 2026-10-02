@@ -1,0 +1,146 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.4 from 9,125 ratings is shared by several listings (the 4411 Grey listing and the Heavy Duty 4511 listing share a parent), so it is not a rating for the 4411 alone. The Pink and PRISMA 4411 variants carry separate counts (382).",
+    "Sewing Machines Plus shows 4.65 from 79 reviews, but only 2 of the 79 name the 4411 in their text; the Judge.me feed on that page may pool several Singer models, so the rating is not a 4411-only figure."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "Heavy Duty 4423",
+      "label": "Singer Heavy Duty 4423",
+      "pattern": "heavy[\\s-]*duty[\\s-]*4423(?![a-z0-9])|4423(?![a-z0-9])"
+    },
+    {
+      "model": "Heavy Duty 4432",
+      "label": "Singer Heavy Duty 4432",
+      "pattern": "heavy[\\s-]*duty[\\s-]*4432(?![a-z0-9])|4432(?![a-z0-9])"
+    },
+    {
+      "model": "Heavy Duty 4452",
+      "label": "Singer Heavy Duty 4452",
+      "pattern": "heavy[\\s-]*duty[\\s-]*4452(?![a-z0-9])|4452(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "stitch count|stitch patterns|stitch types|stretch stitch",
+      "Stitches"
+    ],
+    [
+      "buttonhole",
+      "Buttonhole"
+    ],
+    [
+      "included accessories|walking foot",
+      "Included accessories"
+    ],
+    [
+      "frame and motor",
+      "Frame and motor"
+    ],
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "heavy[\\s-]*duty[\\s-]*4423(?![a-z0-9])|4423(?![a-z0-9])",
+      "Singer Heavy Duty 4423"
+    ],
+    [
+      "heavy[\\s-]*duty[\\s-]*4432(?![a-z0-9])|4432(?![a-z0-9])",
+      "Singer Heavy Duty 4432"
+    ],
+    [
+      "st371hd(?![a-z0-9])|371hd(?![a-z0-9])",
+      "Brother ST371HD"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "heavy[\\s-]*duty[\\s-]*4423(?![a-z0-9])|4423(?![a-z0-9])|heavy[\\s-]*duty[\\s-]*4432(?![a-z0-9])|4432(?![a-z0-9])|heavy[\\s-]*duty[\\s-]*4452(?![a-z0-9])|4452(?![a-z0-9])|heavy[\\s-]*duty[\\s-]*4423(?![a-z0-9])|4423(?![a-z0-9])|heavy[\\s-]*duty[\\s-]*4432(?![a-z0-9])|4432(?![a-z0-9])|st371hd(?![a-z0-9])|371hd(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {
+    "Heavy Duty 4452": {
+      "Stitches": {
+        "summary": "Commenters say the 4452 has many more stitches than the 4411 (one said 52). Singer's pages list 11 stitches for the 4411 and 32 for the 4452, so the direction is right and the 52 is not.",
+        "check": "Reddit comments checked against Singer product pages, 2026-10-01"
+      },
+      "Buttonhole": {
+        "summary": "Commenters say the 4411 has a four-step buttonhole and the 4452 a one-step one. Singer's pages list the same.",
+        "check": "Reddit comments confirmed by Singer product pages, 2026-10-01"
+      },
+      "Included accessories": {
+        "summary": "Commenters say the 4452 adds a walking foot and heavy duty needles over the 4411. Singer lists a walking foot, non-stick foot, clearance plate and heavy duty needles in the 4452 bundle.",
+        "check": "Reddit comments and Singer product pages, 2026-10-01"
+      },
+      "Frame and motor": {
+        "summary": "One commenter says the 4411 and 4452 share the same frame and motor. Singer lists the same 84 W motor and 1,100 spm for both.",
+        "check": "Reddit comment and Singer product pages, 2026-10-01"
+      }
+    }
+  },
+  "siblingExtras": {
+    "Heavy Duty 4423": [
+      {
+        "feature": "Needle threader and buttonhole",
+        "summary": "Singer lists a built-in needle threader and a one-step buttonhole on the 4423; the 4411 lists a four-step buttonhole and no threader.",
+        "check": "Singer 4423 and 4411 product pages, 2026-10-02"
+      },
+      {
+        "feature": "Stitch count",
+        "summary": "23 built-in stitches and 97 stitch applications on the 4423, against 11 and 69 on the 4411.",
+        "check": "Singer product pages, 2026-10-02"
+      },
+      {
+        "feature": "Listed weight",
+        "summary": "Singer lists 14.6 for the 4423 and 14 for the 4411; the 4411 page prints no unit.",
+        "check": "Singer product pages, 2026-10-02"
+      }
+    ],
+    "Heavy Duty 4432": [
+      {
+        "feature": "Stitch count and buttonhole",
+        "summary": "32 built-in stitches, 110 stitch applications, one-step buttonhole and built-in needle threader on the 4432 against 11, 69, four-step and none on the 4411.",
+        "check": "Singer 4432 and 4411 product pages, 2026-10-02"
+      },
+      {
+        "feature": "Shared frame figures",
+        "summary": "Singer prints 1100 spm, 6.25 in needle to tower, 84 W and Class 15 bobbin on both pages.",
+        "check": "Singer product pages, 2026-10-02"
+      }
+    ]
+  }
+}
