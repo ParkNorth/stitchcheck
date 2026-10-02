@@ -1,0 +1,100 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 3.7 from 31 ratings is a third-party bundle listing and may pool variants, so it is shown with that caveat."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "DNU-1541",
+      "label": "Juki DNU-1541 (base)",
+      "pattern": "dnu[\\s-]*1541(?![a-z0-9\\s-]*[s7])|dnu[\\s-]*1541[\\s-]*\\b(?!s)"
+    },
+    {
+      "model": "DNU-1541-7",
+      "label": "Juki DNU-1541-7 (trimmer)",
+      "pattern": "dnu[\\s-]*1541[\\s-]*7"
+    },
+    {
+      "model": "DDL-8700",
+      "label": "Juki DDL-8700",
+      "pattern": "ddl[\\s-]*8700"
+    }
+  ],
+  "features": [
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "ddl[\\s-]*5550(?![a-z0-9])",
+      "Juki DDL-5550"
+    ],
+    [
+      "ddl[\\s-]*8700(?![a-z0-9])",
+      "Juki DDL-8700"
+    ],
+    [
+      "heavy[\\s-]*duty[\\s-]*4452(?![a-z0-9])|4452(?![a-z0-9])",
+      "Singer Heavy Duty 4452"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "ddl[\\s-]*5550(?![a-z0-9])|ddl[\\s-]*8700(?![a-z0-9])|heavy[\\s-]*duty[\\s-]*4452(?![a-z0-9])|4452(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {},
+  "siblingExtras": {
+    "DNU-1541-7": [
+      {
+        "feature": "Speed and trimmer",
+        "summary": "Juki lists the DNU-1541-7 at 3,000 spm with an automatic thread trimmer; the DNU-1541S runs at 2,500 spm with none.",
+        "check": "Juki product page and catalog, 2026-10-01"
+      },
+      {
+        "feature": "Weight",
+        "summary": "The head weighs 42.5 kg against 36.5 kg for the DNU-1541S.",
+        "check": "Juki catalog, 2026-10-01"
+      }
+    ],
+    "DNU-1541": [
+      {
+        "feature": "Safety mechanism",
+        "summary": "The DNU-1541S adds a safety mechanism that disengages the hook drive when thread jams; Juki lists the DNU-1541 without it. Other listed specs are the same.",
+        "check": "Juki product page, 2026-10-01"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1145 @@
+{
+  "slug": "juki-dnu-1541s",
+  "status": "draft",
+  "reviewedBy": null,
+  "reviewedOn": null,
+  "generated": "2026-10-01",
+  "method": {
+    "sources": 60,
+    "itemsCollected": 887,
+    "statements": 138,
+    "voices": 114,
+    "ownerVoices": 82,
+    "dateRange": [
+      2016,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 2,
+        "items": 48
+      },
+      "reddit": {
+        "sources": 58,
+        "items": 837
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 3.7 from 31 ratings is a third-party bundle listing and may pool variants, so it is shown with that caveat."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 24,
+      "voices": 21,
+      "ownerVoices": 16,
+      "sources": 14,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 18
+      },
+      "polarity": {
+        "positive": 11,
+        "negative": 7,
+        "mixed": 1,
+        "neutral": 2
+      },
+      "years": [
+        2017,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cf0be9def",
+          "polarity": "negative",
+          "claim": "Owner sewing mostly Tex 70 reports crumbly debris and bobbins getting stuck.",
+          "quote": "my bobbins been getting stuck",
+          "url": "https://www.reddit.com/r/sewing/comments/1pz46zg/is_this_normal_on_my_juki_1541s/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cfd32d96a",
+          "polarity": "negative",
+          "claim": "Owner reports a bad bearing at the crank on their machine.",
+          "quote": "minus a bad bearing at the crank",
+          "url": "https://www.reddit.com/r/myog/comments/15c11ik/first_industrial_machine_juki_1541s/juant1u/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c2c48c63e",
+          "polarity": "positive",
+          "claim": "Owner of a 1541S set up on a T-Leg table reports no problems.",
+          "quote": "I haven't had any problems.",
+          "url": "https://www.reddit.com/r/myog/comments/1qvn3ga/juki_1541s/o3zp4sl/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c5915630c",
+          "polarity": "positive",
+          "claim": "Reviewer reports no issues and that it does what is needed.",
+          "quote": "It does what I need, no issues!",
+          "url": "https://www.sewingmachinesplus.com/juki-1541s.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c32894267",
+          "polarity": "mixed",
+          "claim": "Owner fixed needle breakage by loosening the hook shaft screws and shifting the shaft, which was too far right.",
+          "quote": "shimmy that shaft over, in my case it was too far right",
+          "url": "https://www.reddit.com/r/sewing/comments/k7v6h9/turning_to_reddit_for_help_i_keep_breaking/gftm8fa/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c5915630c",
+        "c676ffac6",
+        "c5b315b4c",
+        "c17c4280e",
+        "c66d2b352",
+        "c896015fc",
+        "c1ec7cb19",
+        "c3ef738aa",
+        "cd5e36197",
+        "c8474d514",
+        "c2d49547d",
+        "c2c48c63e",
+        "c0ff6f664",
+        "c4582874f",
+        "ca92f2848",
+        "c2af3acc5",
+        "cfd32d96a",
+        "c3e2f97ee",
+        "c32894267",
+        "cf528e8ee",
+        "cf0be9def",
+        "c5ac4483f",
+        "c937c6852",
+        "cb1c494ba"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 19,
+      "voices": 19,
+      "ownerVoices": 15,
+      "sources": 13,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 18
+      },
+      "polarity": {
+        "positive": 5,
+        "negative": 7,
+        "mixed": 1,
+        "neutral": 6
+      },
+      "years": [
+        2018,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "ca8838f90",
+          "polarity": "negative",
+          "claim": "Owner finds the pedal touchy and sometimes accidentally sews too fast.",
+          "quote": "The foot and pedal is so touchy.",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1fikfrw/my_apologies_for_the_brag/lni70fn/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ca6aeeddb",
+          "polarity": "negative",
+          "claim": "Owner says the stock servo is a production line type and turning its speed knob fully down did not help.",
+          "quote": "It's more of a production line type servo motor",
+          "url": "https://www.reddit.com/r/myog/comments/1ic7ciu/juki_1541s_servo_motor_question/m9o9g3n/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cad54d639",
+          "polarity": "positive",
+          "claim": "New 1541s owner fitted a Kinedyne servo and is fully satisfied, calling it wonderful to work with.",
+          "quote": "its absolutely wonderful to work with",
+          "url": "https://www.reddit.com/r/myog/comments/1pj746d/first_good_sewing_machine/ntbvzfq/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c15bae127",
+          "polarity": "positive",
+          "claim": "Commenter swapped the pulleys on their machine and got slow controlled motion plus more torque.",
+          "quote": "I get really nice slow controlled motion.",
+          "url": "https://www.reddit.com/r/myog/comments/1ic7ciu/juki_1541s_servo_motor_question/m9odt2e/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c0bd1db75",
+          "polarity": "mixed",
+          "claim": "Owner with a cheap servo fixed skipped stitches partly by fitting a pulley almost half the size.",
+          "quote": "I just swapped the pulley for one almost half its size",
+          "url": "https://www.reddit.com/r/myog/comments/15c11ik/first_industrial_machine_juki_1541s/juant1u/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cb5fee8b2",
+        "cad54d639",
+        "ce86ccb68",
+        "c4c10a37f",
+        "c3bd96faf",
+        "c8e0458c2",
+        "ca6aeeddb",
+        "c15bae127",
+        "ceac053cd",
+        "c0bd1db75",
+        "cd2ed40d1",
+        "c17ba92ae",
+        "c981d2683",
+        "c78711d17",
+        "c1d0dfd5b",
+        "c01526817",
+        "c2efe7b08",
+        "ca8838f90",
+        "c087186a8"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 15,
+      "voices": 14,
+      "ownerVoices": 8,
+      "sources": 11,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 12
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 1,
+        "mixed": 2,
+        "neutral": 8
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c83ec0f36",
+          "polarity": "negative",
+          "claim": "Owners could not get the knee lifter installed and working, and found no setup video matching the current model.",
+          "quote": "Still can't get the knee lifter to work.",
+          "url": "https://www.sewingmachinesplus.com/juki-1541s.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c3e7e9a27",
+          "polarity": "positive",
+          "claim": "Owner switches among sizes from 16 upward without opening the machine and uses needle system 135x17.",
+          "quote": "use needle system 135x17",
+          "url": "https://www.reddit.com/r/myog/comments/1e73js0/question_for_juki_1541_production_users/le1jsfq/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ca28c4c10",
+          "polarity": "mixed",
+          "claim": "Owner used a swing-away binder with the standard walking foot, though thick assemblies make the taco wide and shallow.",
+          "quote": "I used it with the standard walking foot",
+          "url": "https://www.reddit.com/r/myog/comments/1c8uiq6/similar_fold_away_binding_feet_for_juki_1541s/l0jbb9j/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c7e7ebc79",
+          "polarity": "mixed",
+          "claim": "Machine arrived with size 23 needles, which the owner found large for 600D polyester; size 20 suited it better.",
+          "quote": "It came with size 23 needles which seemed quite large",
+          "url": "https://www.sewingmachinesplus.com/juki-1541s.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c7e7ebc79",
+        "c83ec0f36",
+        "c7cb2256e",
+        "c0a23a547",
+        "c8a399a6d",
+        "c34d5172c",
+        "c3e7e9a27",
+        "ce37e903a",
+        "cbd1d26c8",
+        "c9c5de344",
+        "c69575bdf",
+        "c48fa32b7",
+        "c40007495",
+        "ca28c4c10",
+        "c00f42358"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 12,
+      "voices": 12,
+      "ownerVoices": 9,
+      "sources": 6,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 4,
+        "reddit": 8
+      },
+      "polarity": {
+        "positive": 11,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cf68819a9",
+          "polarity": "positive",
+          "claim": "Owner says it sews heavy materials easily.",
+          "quote": "Sews heavy materials with ease.",
+          "url": "https://www.sewingmachinesplus.com/juki-1541s.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cf8ffd284",
+          "polarity": "positive",
+          "claim": "Owner uses the 1541S for leatherwork and values plowing through about 3/8 inch of material.",
+          "quote": "Its nice being able to plow thru 3/8 of material",
+          "url": "https://www.reddit.com/r/vintagesewing/comments/g2sqdg/singer_24112_i_refurbished_a_while_ago_thought_i/fnniizy/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cc9feca62",
+          "polarity": "mixed",
+          "claim": "Owner says it struggles a little but copes with about 15 mm of Nylcot and Cordura.",
+          "quote": "It struggles a bit with that but manages.",
+          "url": "https://www.reddit.com/r/myog/comments/1kt67oc/exploring_the_tradeoffs_consew_206rb_vs_juki/mts2q9o/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c09ac2548",
+        "c357afe75",
+        "c0eccb952",
+        "cf68819a9",
+        "c1057917d",
+        "c5e8d6b83",
+        "c8a3e680f",
+        "cc9feca62",
+        "c59c672ce",
+        "c760cdff9",
+        "c77866bed",
+        "cf8ffd284"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 11,
+      "voices": 11,
+      "ownerVoices": 10,
+      "sources": 7,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 9
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 8,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2017,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c5508bdf6",
+          "polarity": "negative",
+          "claim": "New owner says the machine rattles a lot and suspects belt adjustment.",
+          "quote": "it rattles a lot when I use it",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1pevwu9/juki_dnu_1541s/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c1acc94ef",
+          "polarity": "negative",
+          "claim": "Second owner with the same setup reports the same noise around 500 rpm.",
+          "quote": "mine also makes that noise around 500rpm",
+          "url": "https://www.reddit.com/r/myog/comments/1je6xc1/can_anyone_help_identify_a_noise_around_500rpm_on/ny1x896/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c01d7cc73",
+          "polarity": "positive",
+          "claim": "Long-time industrial user finds the servo motor quiet and peaceful to sew with.",
+          "quote": "it feels so peaceful to sew on this Servo quiet motor.",
+          "url": "https://www.sewingmachinesplus.com/juki-1541s.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c7e08ef8b",
+        "c01d7cc73",
+        "c505caedb",
+        "c2e931119",
+        "c41cc6c68",
+        "c7ff6a77b",
+        "c780a60dc",
+        "c1acc94ef",
+        "cc0046632",
+        "c5508bdf6",
+        "c81a09d0e"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 11,
+      "voices": 11,
+      "ownerVoices": 10,
+      "sources": 9,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 10
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 8,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2017,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "ce16387db",
+          "polarity": "negative",
+          "claim": "Owner traced a year of constant thread breakage to spool foam and plastic adding tension on Tex 90.",
+          "quote": "was causing to much tension",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1fikfrw/my_apologies_for_the_brag/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c96900d7f",
+          "polarity": "negative",
+          "claim": "Poster reports inconsistent tension issues on their 1541S.",
+          "quote": "JUKI 1541S Inconsistent Tension Issues",
+          "url": "https://www.reddit.com/r/Leathercraft/comments/141sef6/juki_1541s_inconsistent_tension_issuesplz_help/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c64f64d51",
+          "polarity": "positive",
+          "claim": "Owner says thread and bobbin tension are good and adjustable for different materials.",
+          "quote": "My thread and bobbin tension seems to be good",
+          "url": "https://www.reddit.com/r/Leathercraft/comments/5zdj0f/juki_1541s_with_servo_motor_and_speed_reducer/dexaoir/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c9e8e7dd2",
+        "c77bf9356",
+        "c8e7992db",
+        "c24365bfb",
+        "c6c5ffc6c",
+        "c90c4b50c",
+        "c64f64d51",
+        "ce3a3cd00",
+        "c3b636484",
+        "c96900d7f",
+        "ce16387db"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 8,
+      "voices": 8,
+      "ownerVoices": 8,
+      "sources": 6,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 7
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 5,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c68b9f114",
+          "polarity": "negative",
+          "claim": "Buyer received no oil and no oil applicator with the bundle.",
+          "quote": "No small oil applicator.",
+          "url": "https://www.sewingmachinesplus.com/juki-1541s.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cb5ca9640",
+          "polarity": "negative",
+          "claim": "After about a year, owner finds the bobbin case holding a lot of oil and oil visible on seams.",
+          "quote": "the bobbin case has a lot of oil in it",
+          "url": "https://www.reddit.com/r/upholstery/comments/1jat8zx/juki_1541s_oil/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c68b9f114",
+        "c1106bfc5",
+        "c659e1ce2",
+        "c5797e953",
+        "c82828bbe",
+        "cb31e9079",
+        "c55dafe00",
+        "cb5ca9640"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 8,
+      "voices": 7,
+      "ownerVoices": 3,
+      "sources": 7,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 6
+      },
+      "polarity": {
+        "positive": 6,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cefcd41db",
+          "polarity": "negative",
+          "claim": "Owner found the motor pulley was loosely fitted at the factory, with too much play.",
+          "quote": "it was not attached properly from the factory and had too much play",
+          "url": "https://www.reddit.com/r/myog/comments/1vqyjjr/vibrationbuzzing_from_juki_1541s/p4arsox/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c415e7322",
+          "polarity": "positive",
+          "claim": "Owner bought a 1541S new, assembled, with needle position synchronizer, and calls it a beast and a great purchase.",
+          "quote": "I love my 1541S it’s a beast.",
+          "url": "https://www.reddit.com/r/myog/comments/1s8fo1b/keep_your_eyes_open_and_it_can_happen_to_you/odhgwvm/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c89937c39",
+          "polarity": "positive",
+          "claim": "Owner calls the machine a solid heavy workhorse that does what was needed.",
+          "quote": "it's a solid beast and is everything I needed",
+          "url": "https://www.sewingmachinesplus.com/juki-1541s.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c89937c39",
+        "c415e7322",
+        "cf5d927f7",
+        "c461b938a",
+        "ce54865b9",
+        "c10eeeac3",
+        "ca56e1700",
+        "cefcd41db"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 7,
+      "voices": 7,
+      "ownerVoices": 5,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 7
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 6,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2017,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cba669766",
+          "polarity": "negative",
+          "claim": "Owner struggled with fabric lighter than denim and expects it would have eaten nylon ripstop.",
+          "quote": "I struggled with anything lighter than denim.",
+          "url": "https://www.reddit.com/r/myog/comments/1kt67oc/exploring_the_tradeoffs_consew_206rb_vs_juki/mtu2nmj/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ca0e824e3",
+          "polarity": "negative",
+          "claim": "Writer says the feed dogs on this machine cannot be raised higher, which limits it.",
+          "quote": "you can't really raise the feed dogs up higher",
+          "url": "https://www.reddit.com/r/myog/comments/157sldx/building_effeciency_in_side_hustle/jtktnnq/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c52a59270",
+          "polarity": "positive",
+          "claim": "Commenter says the machine did great on leather and waxed canvas.",
+          "quote": "It did do great on leather and waxed canvas though!",
+          "url": "https://www.reddit.com/r/myog/comments/1kt67oc/exploring_the_tradeoffs_consew_206rb_vs_juki/mtubbak/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c214978a5",
+        "cba669766",
+        "c52a59270",
+        "ca0e824e3",
+        "c68e8441e",
+        "c89ae41dd",
+        "c60075ead"
+      ]
+    },
+    {
+      "theme": "walking_foot",
+      "label": "Walking foot",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 2,
+      "sources": 6,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 5
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c2d2bd28f",
+          "polarity": "negative",
+          "claim": "With a synchronized binder attachment, stitches shorten as if fabric is not feeding properly.",
+          "quote": "Also the stitches become very small, like the fabric isn’t feeding properly",
+          "url": "https://www.reddit.com/r/myog/comments/1sut42m/dedicated_binding_machine/oi3on2f/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c5217b1db",
+          "polarity": "positive",
+          "claim": "Upholsterer sees the walking foot as an upgrade from a needle feed machine.",
+          "quote": "A walking foot was an upgrade to a needle feed machine!",
+          "url": "https://www.sewingmachinesplus.com/juki-1541s.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c5217b1db",
+        "c0a22cb82",
+        "c148d384b",
+        "c890fa0f7",
+        "c2d2bd28f",
+        "cb7101885"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 3,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 6
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 4
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c954dbfbb",
+          "polarity": "negative",
+          "claim": "Owner used zigzag on a Singer for a mesh pocket because the Juki 1541S only sews straight stitch.",
+          "quote": "The Juki is a straight stitch only.",
+          "url": "https://www.reddit.com/r/myog/comments/1ojlp8y/what_ridiculous_looks_like_my_latest_fanny_pack/nm46cs6/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c18776827",
+          "polarity": "positive",
+          "claim": "The 1541S handled most straight stitch work smoothly; a domestic is kept for zigzag and light work.",
+          "quote": "the Juki handled most of the straight stitch work so smoothly",
+          "url": "https://www.reddit.com/r/myog/comments/1v7ut3y/looking_for_a_new_machine_for_myog/p03atda/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c7526e0f8",
+        "c18776827",
+        "c954dbfbb",
+        "cec8c8f16",
+        "c0cf3aacb",
+        "c0deb70a8"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 1,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2023,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "c7b3426a0",
+        "c26f73bbb",
+        "c89957e1b"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c85b5bbb2",
+          "polarity": "negative",
+          "claim": "Owner could not find a manual for the machine on the retailer's site.",
+          "quote": "The only downside was trying to locate a manual for the machine.",
+          "url": "https://www.sewingmachinesplus.com/juki-1541s.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c85b5bbb2",
+        "ccfb95eed"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c84f93965",
+          "polarity": "negative",
+          "claim": "The DNU-1541s has no built-in lamp as far as the owner can tell.",
+          "quote": "the Juki DNU-1541s doesn't have a lamp to begin with",
+          "url": "https://www.reddit.com/r/myog/comments/1iim27k/sewing_machine_lamp_recommendations/mb7qjl6/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c2f61ac39",
+          "polarity": "negative",
+          "claim": "Owner struggles to see the needle position with black thread and a black presser foot.",
+          "quote": "Black thread with a black presser foot/feet isn’t forgiving on my eyes",
+          "url": "https://www.reddit.com/r/myog/comments/1p5o9yw/juki_1541s_newbie_questions/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c84f93965",
+        "c2f61ac39"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cacf2786e",
+          "polarity": "mixed",
+          "claim": "Owner found setup easy but noted the machine is heavy.",
+          "quote": "although it is heavy",
+          "url": "https://www.sewingmachinesplus.com/juki-1541s.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cacf2786e"
+      ]
+    },
+    {
+      "theme": "thread_trimmer",
+      "label": "Thread trimmer",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c88611574",
+          "polarity": "positive",
+          "claim": "1541S owner loves the needle positioner and says it saves a lot of time.",
+          "quote": "I love the needle positioner.",
+          "url": "https://www.reddit.com/r/myog/comments/1s8fo1b/keep_your_eyes_open_and_it_can_happen_to_you/odihmpj/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c88611574"
+      ]
+    },
+    {
+      "theme": "value_price",
+      "label": "Value and price",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c952f0d55"
+      ]
+    },
+    {
+      "theme": "free_motion",
+      "label": "Free-motion quilting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "cc0fb7b67"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://www.sewingmachinesplus.com/juki-1541s.php",
+      "pageRating": 4.73,
+      "pageCount": 48,
+      "fetched": "2026-10-01",
+      "distribution": {
+        "1": 1,
+        "2": 0,
+        "3": 3,
+        "4": 3,
+        "5": 41
+      },
+      "lowRated": 4,
+      "sampled": null
+    },
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B07S2L6BBB",
+      "pageRating": 3.7,
+      "pageCount": 31,
+      "fetched": "2026-10-01",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "lowRated": 0,
+      "sampled": "0 top reviews (0 US, 0 other countries) of 31 ratings"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "2,500 stitches per minute on the DNU-1541S; the -7 reaches 3,000.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki source",
+          "url": "https://juki.com/pub/media/wysiwyg/products/DNU-1541_catalog.pdf"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "catalog"
+    },
+    {
+      "label": "Throat",
+      "juki": "Needle to machine arm: 264 mm (about 10.4 in).",
+      "others": "Dealers quote 10 in.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki source",
+          "url": "https://juki.com/pub/media/wysiwyg/products/DNU-1541_catalog.pdf"
+        }
+      ],
+      "field": "throatIn",
+      "source": "catalog"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "DNU-1541",
+      "label": "Juki DNU-1541 (base)",
+      "rows": [
+        {
+          "feature": "Safety mechanism",
+          "urls": 0,
+          "classes": [],
+          "summary": "The DNU-1541S adds a safety mechanism that disengages the hook drive when thread jams; Juki lists the DNU-1541 without it. Other listed specs are the same.",
+          "check": "Juki product page, 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "DNU-1541-7",
+      "label": "Juki DNU-1541-7 (trimmer)",
+      "rows": [
+        {
+          "feature": "Speed and trimmer",
+          "urls": 0,
+          "classes": [],
+          "summary": "Juki lists the DNU-1541-7 at 3,000 spm with an automatic thread trimmer; the DNU-1541S runs at 2,500 spm with none.",
+          "check": "Juki product page and catalog, 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Weight",
+          "urls": 0,
+          "classes": [],
+          "summary": "The head weighs 42.5 kg against 36.5 kg for the DNU-1541S.",
+          "check": "Juki catalog, 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}
