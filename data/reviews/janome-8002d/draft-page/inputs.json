@@ -551,19 +551,19 @@
   "rollup": {
     "status": "draft",
     "method": {
-      "sources": 18,
-      "itemsCollected": 191,
-      "statements": 54,
-      "voices": 30,
-      "ownerVoices": 25,
+      "sources": 19,
+      "itemsCollected": 202,
+      "statements": 67,
+      "voices": 34,
+      "ownerVoices": 29,
       "dateRange": [
         2013,
         2026
       ],
       "byClass": {
         "retailer": {
-          "sources": 3,
-          "items": 21
+          "sources": 4,
+          "items": 32
         },
         "reddit": {
           "sources": 15,
@@ -632,22 +632,38 @@
         },
         "lowRated": 1,
         "sampled": "8 top reviews (8 US, 0 other countries) of 77 ratings"
+      },
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/Janome-8002D.php",
+        "pageRating": 5,
+        "pageCount": 11,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 11
+        },
+        "lowRated": 0,
+        "sampled": null
       }
     ],
     "themes": [
       {
         "label": "Threading and loopers",
-        "voices": 14,
-        "ownerVoices": 14,
-        "sources": 5,
+        "voices": 16,
+        "ownerVoices": 16,
+        "sources": 6,
         "polarity": {
-          "positive": 8,
-          "negative": 1,
-          "mixed": 3,
-          "neutral": 2
+          "positive": 10,
+          "negative": 2,
+          "mixed": 4,
+          "neutral": 0
         },
         "classVoices": {
-          "retailer": 10,
+          "retailer": 12,
           "reddit": 4
         },
         "recurrence": "recurring",
@@ -656,6 +672,11 @@
             "polarity": "negative",
             "claim": "The lower looper's last threading steps are hard to follow and the guides are hard to see from the left side.",
             "url": "https://www.amazon.com/dp/B008L5FN4E"
+          },
+          {
+            "polarity": "negative",
+            "claim": "8002D owner fixed bad stitching by rethreading after finding a thread guide had been missed ahead of the lower looper.",
+            "url": "https://www.reddit.com/r/sewhelp/comments/9n1aav/newbie_to_sergers_all_i_can_do_is_flatlock_stitch/e7swult/"
           },
           {
             "polarity": "positive",
@@ -674,25 +695,69 @@
           },
           {
             "polarity": "mixed",
-            "claim": "Changing thread color is a bit tricky, but the diagrams, including one inside the machine, help.",
+            "claim": "Owner of a used 8002D says it works great and is not terrible to thread.",
+            "url": "https://www.reddit.com/r/sewing/comments/uhvu8r/buying_300_serger_between_juki_mo654de_or_janome/i7d3zyk/"
+          }
+        ]
+      },
+      {
+        "label": "Noise and vibration",
+        "voices": 7,
+        "ownerVoices": 7,
+        "sources": 4,
+        "polarity": {
+          "positive": 4,
+          "negative": 1,
+          "mixed": 2,
+          "neutral": 0
+        },
+        "classVoices": {
+          "retailer": 6,
+          "reddit": 1
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "The front cover rattles in use.",
+            "url": "https://www.amazon.com/dp/B008L5FN4E"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner describes the machine as quiet in use.",
+            "url": "https://www.sewingmachinesplus.com/Janome-8002D.php"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Buyer of a used 8002D, last serviced in 2021 and stored unused, says it sounds normal when running.",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1popxpj/overlock_not_used_for_years_after_servicing/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner finds the machine a little noisy and clanky but the stitch is good.",
+            "url": "https://www.amazon.com/dp/B01600ASNC"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Owner calls the machine a little noisy but says it does a great job.",
             "url": "https://www.amazon.com/dp/B008L5FN4E"
           }
         ]
       },
       {
         "label": "Feet and accessories",
-        "voices": 9,
-        "ownerVoices": 7,
-        "sources": 5,
+        "voices": 7,
+        "ownerVoices": 6,
+        "sources": 4,
         "polarity": {
-          "positive": 3,
-          "negative": 2,
+          "positive": 4,
+          "negative": 1,
           "mixed": 0,
-          "neutral": 4
+          "neutral": 2
         },
         "classVoices": {
-          "retailer": 5,
-          "reddit": 4
+          "retailer": 6,
+          "reddit": 1
         },
         "recurrence": "recurring",
         "examples": [
@@ -700,11 +765,6 @@
             "polarity": "negative",
             "claim": "No dust cover is included in the box.",
             "url": "https://www.amazon.com/dp/B008L5FN4E"
-          },
-          {
-            "polarity": "negative",
-            "claim": "Machine uses HA-1SP needles, which the owner finds somewhat hard to source.",
-            "url": "https://www.reddit.com/r/sewing/comments/uhvu8r/buying_300_serger_between_juki_mo654de_or_janome/i78sra1/"
           },
           {
             "polarity": "positive",
@@ -730,8 +790,8 @@
           "neutral": 0
         },
         "classVoices": {
-          "retailer": 3,
-          "reddit": 4
+          "retailer": 4,
+          "reddit": 3
         },
         "recurrence": "recurring",
         "examples": [
@@ -759,44 +819,6 @@
             "polarity": "mixed",
             "claim": "Machine served the owner for almost ten years of fairly frequent use before failing.",
             "url": "https://www.reddit.com/r/sewhelp/comments/wmwvd0/replacement_for_janome_8002d_serger/"
-          }
-        ]
-      },
-      {
-        "label": "Noise and vibration",
-        "voices": 5,
-        "ownerVoices": 5,
-        "sources": 2,
-        "polarity": {
-          "positive": 2,
-          "negative": 1,
-          "mixed": 2,
-          "neutral": 0
-        },
-        "classVoices": {
-          "retailer": 5
-        },
-        "recurrence": "reported",
-        "examples": [
-          {
-            "polarity": "negative",
-            "claim": "The front cover rattles in use.",
-            "url": "https://www.amazon.com/dp/B008L5FN4E"
-          },
-          {
-            "polarity": "positive",
-            "claim": "Owner finds the machine easy to use and not loud.",
-            "url": "https://www.amazon.com/dp/B008L5FN4E"
-          },
-          {
-            "polarity": "mixed",
-            "claim": "Owner finds the machine a little noisy and clanky but the stitch is good.",
-            "url": "https://www.amazon.com/dp/B01600ASNC"
-          },
-          {
-            "polarity": "mixed",
-            "claim": "Owner calls the machine a little noisy but says it does a great job.",
-            "url": "https://www.amazon.com/dp/B008L5FN4E"
           }
         ]
       }

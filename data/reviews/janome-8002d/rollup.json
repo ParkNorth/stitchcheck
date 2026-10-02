@@ -5,19 +5,19 @@
   "reviewedOn": null,
   "generated": "2026-10-02",
   "method": {
-    "sources": 18,
-    "itemsCollected": 191,
-    "statements": 54,
-    "voices": 30,
-    "ownerVoices": 25,
+    "sources": 19,
+    "itemsCollected": 202,
+    "statements": 67,
+    "voices": 34,
+    "ownerVoices": 29,
     "dateRange": [
       2013,
       2026
     ],
     "byClass": {
       "retailer": {
-        "sources": 3,
-        "items": 21
+        "sources": 4,
+        "items": 32
       },
       "reddit": {
         "sources": 15,
@@ -42,23 +42,23 @@
     {
       "theme": "threading",
       "label": "Threading and loopers",
-      "statements": 16,
-      "voices": 14,
-      "ownerVoices": 14,
-      "sources": 5,
+      "statements": 19,
+      "voices": 16,
+      "ownerVoices": 16,
+      "sources": 6,
       "sourceClasses": [
         "reddit",
         "retailer"
       ],
       "classVoices": {
-        "retailer": 10,
+        "retailer": 12,
         "reddit": 4
       },
       "polarity": {
-        "positive": 8,
-        "negative": 1,
-        "mixed": 3,
-        "neutral": 2
+        "positive": 10,
+        "negative": 2,
+        "mixed": 4,
+        "neutral": 0
       },
       "years": [
         2013,
@@ -73,6 +73,14 @@
           "quote": "The lower looper is difficult to UNDERSTAND how to thread",
           "url": "https://www.amazon.com/dp/B008L5FN4E",
           "source_class": "retailer"
+        },
+        {
+          "claim_id": "c6a013e3e",
+          "polarity": "negative",
+          "claim": "8002D owner fixed bad stitching by rethreading after finding a thread guide had been missed ahead of the lower looper.",
+          "quote": "missed a thread guide before the thread went through a lower looper blade",
+          "url": "https://www.reddit.com/r/sewhelp/comments/9n1aav/newbie_to_sergers_all_i_can_do_is_flatlock_stitch/e7swult/",
+          "source_class": "reddit"
         },
         {
           "claim_id": "c7a0771c8",
@@ -99,18 +107,17 @@
           "source_class": "retailer"
         },
         {
-          "claim_id": "c675f4ef0",
+          "claim_id": "c5067b1b3",
           "polarity": "mixed",
-          "claim": "Changing thread color is a bit tricky, but the diagrams, including one inside the machine, help.",
-          "quote": "It's a bit tricky to thread it when you want to change the thread color",
-          "url": "https://www.amazon.com/dp/B008L5FN4E",
-          "source_class": "retailer"
+          "claim": "Owner of a used 8002D says it works great and is not terrible to thread.",
+          "quote": "It works great and isn't terrible to thread.",
+          "url": "https://www.reddit.com/r/sewing/comments/uhvu8r/buying_300_serger_between_juki_mo654de_or_janome/i7d3zyk/",
+          "source_class": "reddit"
         }
       ],
       "claimIds": [
         "cec01b1db",
         "ca5d0a1db",
-        "c9f851af3",
         "caa14bef1",
         "c675f4ef0",
         "cdc4afc9e",
@@ -122,34 +129,117 @@
         "c5074c014",
         "cc7f90a87",
         "c5067b1b3",
+        "c987c8e0c",
+        "c10acb4d1",
+        "c6e5e5134",
+        "c9424647a",
         "cd587954c",
         "c6a013e3e"
       ]
     },
     {
-      "theme": "feet_accessories",
-      "label": "Feet and accessories",
-      "statements": 9,
-      "voices": 9,
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 8,
+      "voices": 7,
       "ownerVoices": 7,
-      "sources": 5,
+      "sources": 4,
       "sourceClasses": [
         "reddit",
         "retailer"
       ],
       "classVoices": {
-        "retailer": 5,
-        "reddit": 4
+        "retailer": 6,
+        "reddit": 1
       },
       "polarity": {
-        "positive": 3,
-        "negative": 2,
+        "positive": 4,
+        "negative": 1,
+        "mixed": 2,
+        "neutral": 0
+      },
+      "years": [
+        2013,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c3034e659",
+          "polarity": "negative",
+          "claim": "The front cover rattles in use.",
+          "quote": "The front cover rattles too",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "caade5cc5",
+          "polarity": "positive",
+          "claim": "Owner describes the machine as quiet in use.",
+          "quote": "it is quiet,and",
+          "url": "https://www.sewingmachinesplus.com/Janome-8002D.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cddad37fc",
+          "polarity": "positive",
+          "claim": "Buyer of a used 8002D, last serviced in 2021 and stored unused, says it sounds normal when running.",
+          "quote": "mine sounds totally normal",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1popxpj/overlock_not_used_for_years_after_servicing/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c01a5c409",
+          "polarity": "mixed",
+          "claim": "Owner finds the machine a little noisy and clanky but the stitch is good.",
+          "quote": "It is a little noisy and clanky",
+          "url": "https://www.amazon.com/dp/B01600ASNC",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cfb0e212f",
+          "polarity": "mixed",
+          "claim": "Owner calls the machine a little noisy but says it does a great job.",
+          "quote": "little noisy but doing a great job",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cfb0e212f",
+        "c4a911e08",
+        "c86a94e71",
+        "c3034e659",
+        "c3e8c04ba",
+        "c01a5c409",
+        "caade5cc5",
+        "cddad37fc"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 7,
+      "voices": 7,
+      "ownerVoices": 6,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 6,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 1,
         "mixed": 0,
-        "neutral": 4
+        "neutral": 2
       },
       "years": [
         2015,
-        2026
+        2022
       ],
       "recurrence": "recurring",
       "examples": [
@@ -160,14 +250,6 @@
           "quote": "it doesn't come with a dust cover",
           "url": "https://www.amazon.com/dp/B008L5FN4E",
           "source_class": "retailer"
-        },
-        {
-          "claim_id": "cf4bc6b55",
-          "polarity": "negative",
-          "claim": "Machine uses HA-1SP needles, which the owner finds somewhat hard to source.",
-          "quote": "it uses a HA-1SP/Type E and they seem to be a bit rarer",
-          "url": "https://www.reddit.com/r/sewing/comments/uhvu8r/buying_300_serger_between_juki_mo654de_or_janome/i78sra1/",
-          "source_class": "reddit"
         },
         {
           "claim_id": "ca52a801d",
@@ -192,10 +274,8 @@
         "ca52a801d",
         "c8c9c8738",
         "cf43ec9f3",
-        "cf4bc6b55",
         "cadadc5a3",
-        "c4edc5817",
-        "c60963893"
+        "c39f70228"
       ]
     },
     {
@@ -210,8 +290,8 @@
         "retailer"
       ],
       "classVoices": {
-        "retailer": 3,
-        "reddit": 4
+        "retailer": 4,
+        "reddit": 3
       },
       "polarity": {
         "positive": 5,
@@ -221,7 +301,7 @@
       },
       "years": [
         2013,
-        2025
+        2022
       ],
       "recurrence": "recurring",
       "examples": [
@@ -273,75 +353,107 @@
         "c55072a6a",
         "c41223562",
         "c2ebf9f41",
-        "cc2b04ea1",
-        "cddad37fc"
+        "c66c31ccd",
+        "cc2b04ea1"
       ]
     },
     {
-      "theme": "noise_vibration",
-      "label": "Noise and vibration",
-      "statements": 6,
-      "voices": 5,
-      "ownerVoices": 5,
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 4,
       "sources": 2,
       "sourceClasses": [
         "retailer"
       ],
       "classVoices": {
-        "retailer": 5
+        "retailer": 4
       },
       "polarity": {
-        "positive": 2,
-        "negative": 1,
-        "mixed": 2,
+        "positive": 4,
+        "negative": 0,
+        "mixed": 0,
         "neutral": 0
       },
       "years": [
-        2013,
-        2025
+        2014,
+        2023
       ],
       "recurrence": "reported",
       "examples": [
         {
-          "claim_id": "c3034e659",
-          "polarity": "negative",
-          "claim": "The front cover rattles in use.",
-          "quote": "The front cover rattles too",
-          "url": "https://www.amazon.com/dp/B008L5FN4E",
-          "source_class": "retailer"
-        },
-        {
-          "claim_id": "c3e8c04ba",
+          "claim_id": "c3442e8d8",
           "polarity": "positive",
-          "claim": "Owner finds the machine easy to use and not loud.",
-          "quote": "It is very easy to use, not loud",
+          "claim": "Owner describes the machine as very lightweight.",
+          "quote": "It is very lightweight",
           "url": "https://www.amazon.com/dp/B008L5FN4E",
           "source_class": "retailer"
         },
         {
-          "claim_id": "c01a5c409",
-          "polarity": "mixed",
-          "claim": "Owner finds the machine a little noisy and clanky but the stitch is good.",
-          "quote": "It is a little noisy and clanky",
-          "url": "https://www.amazon.com/dp/B01600ASNC",
+          "claim_id": "c7242a6fc",
+          "polarity": "positive",
+          "claim": "Owner calls the machine compact and light.",
+          "quote": "compact and light weight",
+          "url": "https://www.sewingmachinesplus.com/Janome-8002D.php",
           "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c3442e8d8",
+        "c067e0964",
+        "c7fff00ea",
+        "c7242a6fc"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2022,
+        2023
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c033e35df",
+          "polarity": "negative",
+          "claim": "Owner feels the presser foot presses too hard at the start of a bulky edge, hindering feeding.",
+          "quote": "It's like the pressure foot puts too much pressure at the start",
+          "url": "https://www.reddit.com/r/sewhelp/comments/wcs17j/is_there_any_way_possible_to_get_an_even_feed_or/iioa5le/",
+          "source_class": "reddit"
         },
         {
-          "claim_id": "cfb0e212f",
-          "polarity": "mixed",
-          "claim": "Owner calls the machine a little noisy but says it does a great job.",
-          "quote": "little noisy but doing a great job",
+          "claim_id": "cb9d8786b",
+          "polarity": "positive",
+          "claim": "Owner says it cuts through two layers of upholstery fabric with cotton liners easily.",
+          "quote": "This easily chops through two layers of upholstery fabric with cotton liners.",
           "url": "https://www.amazon.com/dp/B008L5FN4E",
           "source_class": "retailer"
         }
       ],
       "claimIds": [
-        "cfb0e212f",
-        "c4a911e08",
-        "c86a94e71",
-        "c3034e659",
-        "c3e8c04ba",
-        "c01a5c409"
+        "cb9d8786b",
+        "c1a080602",
+        "c033e35df"
       ]
     },
     {
@@ -394,84 +506,6 @@
       ]
     },
     {
-      "theme": "cutting_trimming",
-      "label": "Cutting and trimming",
-      "statements": 2,
-      "voices": 2,
-      "ownerVoices": 2,
-      "sources": 1,
-      "sourceClasses": [
-        "retailer"
-      ],
-      "classVoices": {
-        "retailer": 2
-      },
-      "polarity": {
-        "positive": 2,
-        "negative": 0,
-        "mixed": 0,
-        "neutral": 0
-      },
-      "years": [
-        2017,
-        2023
-      ],
-      "recurrence": "one-off",
-      "examples": [
-        {
-          "claim_id": "c279dacc1",
-          "polarity": "positive",
-          "claim": "Owner likes that it trims the fabric as it sews, leaving a sharp seam finish.",
-          "quote": "I like the way it cuts the fabric as it sews",
-          "url": "https://www.amazon.com/dp/B008L5FN4E",
-          "source_class": "retailer"
-        }
-      ],
-      "claimIds": [
-        "cb9d8786b",
-        "c279dacc1"
-      ]
-    },
-    {
-      "theme": "weight_portability",
-      "label": "Weight and portability",
-      "statements": 2,
-      "voices": 2,
-      "ownerVoices": 2,
-      "sources": 1,
-      "sourceClasses": [
-        "retailer"
-      ],
-      "classVoices": {
-        "retailer": 2
-      },
-      "polarity": {
-        "positive": 2,
-        "negative": 0,
-        "mixed": 0,
-        "neutral": 0
-      },
-      "years": [
-        2017,
-        2023
-      ],
-      "recurrence": "one-off",
-      "examples": [
-        {
-          "claim_id": "c3442e8d8",
-          "polarity": "positive",
-          "claim": "Owner describes the machine as very lightweight.",
-          "quote": "It is very lightweight",
-          "url": "https://www.amazon.com/dp/B008L5FN4E",
-          "source_class": "retailer"
-        }
-      ],
-      "claimIds": [
-        "c3442e8d8",
-        "c067e0964"
-      ]
-    },
-    {
       "theme": "tension",
       "label": "Tension",
       "statements": 2,
@@ -513,6 +547,53 @@
       ]
     },
     {
+      "theme": "cutting_trimming",
+      "label": "Cutting and trimming",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2015,
+        2017
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cbc4bba38",
+          "polarity": "positive",
+          "claim": "Owner likes the retractable upper knife feature.",
+          "quote": "retractable knife option",
+          "url": "https://www.sewingmachinesplus.com/Janome-8002D.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c279dacc1",
+          "polarity": "positive",
+          "claim": "Owner likes that it trims the fabric as it sews, leaving a sharp seam finish.",
+          "quote": "I like the way it cuts the fabric as it sews",
+          "url": "https://www.amazon.com/dp/B008L5FN4E",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c279dacc1",
+        "cbc4bba38"
+      ]
+    },
+    {
       "theme": "differential_feed",
       "label": "Differential feed",
       "statements": 2,
@@ -543,42 +624,42 @@
       ]
     },
     {
-      "theme": "fabric_handling",
-      "label": "Fabric handling (knits, wovens)",
+      "theme": "lighting",
+      "label": "Lighting",
       "statements": 2,
       "voices": 2,
       "ownerVoices": 2,
       "sources": 1,
       "sourceClasses": [
-        "reddit"
+        "retailer"
       ],
       "classVoices": {
-        "reddit": 2
+        "retailer": 2
       },
       "polarity": {
-        "positive": 0,
-        "negative": 2,
+        "positive": 2,
+        "negative": 0,
         "mixed": 0,
         "neutral": 0
       },
       "years": [
-        2022,
-        2022
+        2014,
+        2015
       ],
       "recurrence": "one-off",
       "examples": [
         {
-          "claim_id": "c033e35df",
-          "polarity": "negative",
-          "claim": "Owner feels the presser foot presses too hard at the start of a bulky edge, hindering feeding.",
-          "quote": "It's like the pressure foot puts too much pressure at the start",
-          "url": "https://www.reddit.com/r/sewhelp/comments/wcs17j/is_there_any_way_possible_to_get_an_even_feed_or/iioa5le/",
-          "source_class": "reddit"
+          "claim_id": "cf119ff02",
+          "polarity": "positive",
+          "claim": "Owner says the built-in light is bright.",
+          "quote": "The light is bright",
+          "url": "https://www.sewingmachinesplus.com/Janome-8002D.php",
+          "source_class": "retailer"
         }
       ],
       "claimIds": [
-        "c1a080602",
-        "c033e35df"
+        "cf119ff02",
+        "ce398b3a0"
       ]
     },
     {
@@ -744,6 +825,22 @@
       },
       "lowRated": 1,
       "sampled": "8 top reviews (8 US, 0 other countries) of 77 ratings"
+    },
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://www.sewingmachinesplus.com/Janome-8002D.php",
+      "pageRating": 5,
+      "pageCount": 11,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 11
+      },
+      "lowRated": 0,
+      "sampled": null
     }
   ],
   "documentChecks": [

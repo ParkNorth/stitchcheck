@@ -437,5 +437,21 @@
       "r/sewing:Janome 8002D serger"
     ],
     "content_hash": "5a2f0d7c510c4479"
+  },
+  {
+    "id": "web:d9e189743feb0c2f",
+    "url": "https://www.sewingmachinesplus.com/Janome-8002D.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-02T05:14:30.213Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-02T05:14:30.213Z",
+    "status": "ok",
+    "site_rating": 5,
+    "site_review_count": 11,
+    "content_hash": "31a9b255540de2e7"
   }
 ]
