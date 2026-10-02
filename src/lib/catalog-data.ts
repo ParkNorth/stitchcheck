@@ -8368,10 +8368,10 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "manufacturerUrl": "https://www.singer.com/products/singer-profinish-14cg754-serger",
     "retailerUrl": "https://www.sewingmachinesplus.com/sewing-machines-sergers-singer-14cg754.php",
-    "priceUsdSeen": 239,
-    "priceSeenDate": "2026-09-29",
+    "priceUsdSeen": 210,
+    "priceSeenDate": "2026-10-02",
     "priceSeenAt": "another dealer",
-    "priceNote": "Walmart (listing shown out of stock in search snippet; previous price $179.99)",
+    "priceNote": "Singer product page, listed price (MSRP $349.99 on the page; page showed Out of Stock and Sold out)",
     "specs": {
       "stitchTypes": {
         "value": "6 stitch types with 2, 3 or 4 threads: overlock, mock stretch and mock stretch safety, flatlock, blind hem and rolled hems",
@@ -8438,21 +8438,25 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://sewingtrip.com/singer-14cg754/"
       },
       "warrantyUs": {
-        "value": "25 yr limited on machine head, 2 yr on motor, light, wiring, switches, speed control and electronics, 90 days on adjustments, belts, rings, bulbs and attachments",
-        "source": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+        "value": "Singer's 14CG754 page links a PDF stating 25 years limited on the product frame (free replacement parts, owner pays labor) and 1 year on parts and adjustments (parts and labor free); household use only",
+        "source": "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-d3361c80-1e88-4d01-9381-fe3e62f20ef4-singer%2025-1%20warranty%20471068326e.pdf"
       }
     },
     "claims": [
-      "\"Commercial Grade\" (Singer marketing name used on the Sewing Machines Plus and Office Depot listings; it is a household serger)",
+      "\"Commercial Grade\" (Singer marketing name used on the Sewing Machines Plus and Office Depot listings; it does not appear on Singer's page, and this is a household serger)",
       "\"ProFinish\" (Singer series name, product page)",
-      "\"heavy duty metal frame\" (third-party review copy; frame material not captured from Singer's page)",
-      "\"professional results every time\" (manufacturer claim, retailer copy)"
+      "\"Give all your projects a clean, store-bought look\" and \"professional results\" (Singer page copy)",
+      "\"heavy duty metal frame\" (third-party review copy; Singer's 14CG754 page does not state a frame)"
     ],
     "conflicts": [
-      "Price: $239.26 (Walmart, out of stock, previously $179.99) vs $199.99 (GoldStar Tool, sold out) vs $159.95 (Quality Sewing, recorded in the brand briefing). Sewing Machines Plus lists the machine but no price appeared in snippets. Catalog will use $239.26 flagged as an out-of-stock listing price.",
-      "Status: an AllBrands listing says the Heavy Duty 14HD854 replaces the 14CG754, while singer.com still has a live product page and Walmart, SMP and GoldStar keep listings. Catalog will mark it current and note the successor.",
-      "Stitch types: retailer copy says 6 stitch types, but one review lists mock stretch, mock stretch safety, overlock, flatlock and four rolled hems, which is more than 6. Catalog will use 6 flagged [verify].",
-      "Frame: reviews call it a heavy duty metal frame; Singer's spec was not captured. Left null."
+      "Warranty: the PDF linked from Singer's 14CG754 page says 25 years on the frame and 1 year on parts and adjustments, while Amazon and our earlier spec say 25 years head, 2 years electronics and 90 days adjustments. That 25/2/90 tier is on the 14HD854 page, and the coverage page text we retrieved does not name the 14CG754.",
+      "Weight: a third-party archive.org copy of an undated combined operator's guide (14SH744/14CG744/14SH754/14CG754) gives 6.0 kg (13.2 lb), while the Amazon listing gives 13.5 lb. Singer's own product page states no weight. We keep the Amazon figure on the spec and do not present either as a Singer figure.",
+      "Dimensions: the same archive guide gives 338 x 280 x 265 mm (13.3 x 11.0 x 10.4 in), while the Amazon listing gives 14 x 11 x 11.5 in. Singer's product page states none. Unit check: 265 mm is 10.4 in, not 11.5 in.",
+      "Stitch length: the archive guide gives 1 to 4 mm, while the Amazon listing gives 2.0 to 4.0 mm. Singer's product page states no figure.",
+      "Stitch types: the count of 6 comes from Office Depot copy and appears on Singer's 14HD854 page, not on the 14CG754 page, which says only 2, 3 or 4 threads. Treat 6 as retailer copy, not a Singer figure for this model.",
+      "Price: Singer's page showed MSRP $349.99 and a listed $209.99 on 2026-10-02 with Out of Stock and Sold out, while Walmart showed $239.26 (out of stock, previously $179.99) on 2026-09-29. The MSRP is Singer's own comparison figure, not a selling price.",
+      "Status: one dealer listing says the 14HD854 replaces the 14CG754, but no Singer page says so. Singer's 14CG754 page is live and says only Out of Stock.",
+      "Frame: Singer's 14CG754 page makes no frame or motor statement; the 14HD854 page claims a heavy duty metal frame and Amazon's table says Metal, Plastic. Left null."
     ],
     "ownerThemes": [
       {
@@ -8500,80 +8504,84 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The 14CG754 is the budget 2/3/4-thread serger with differential feed, rolled hem and a free arm, sold under a \"Commercial Grade\" label that describes the marketing, not the machine.",
-      "whoFor": "A first serger buyer who wants 2-thread capability, differential feed and a free arm at the lowest price with a 25-year Singer head warranty.",
-      "skipIf": "You want a brighter light, easier looper access, or a current model; the 14HD854 is Singer's own successor at a small premium.",
-      "keySpec": "2/3/4 thread · differential feed 0.7 to 2.0 · 1,300 spm · 13.5 lb",
+      "verdict": "A budget 2/3/4-thread serger with differential feed, rolled hem and free arm; Singer's page shows it out of stock, and owner evidence is thin.",
+      "whoFor": "A first serger buyer who wants 2-thread capability, differential feed and a free arm at an entry price, and accepts that the evidence base for this model is small.",
+      "skipIf": "You want a brighter light or a model with a published frame and motor: Singer's 14HD854 page lists two LED lights and a larger knife, and the 14CG754 page lists neither.",
+      "keySpec": "2/3/4 thread · differential feed 0.7 to 2.0 · 1,300 spm",
       "strengths": [
-        "2-thread stitches via the included spreader, which the Brother 1034D lacks.",
-        "Free arm, differential feed and built-in rolled hem at an entry price.",
-        "Uses the common Singer 2022 (ELx705) serger needle."
+        "Singer's page lists differential feed, a built-in rolled hem, free-arm sewing and 1,300 stitches per minute; the archive guide gives a 0.7 to 2.0 feed ratio.",
+        "2-thread stitches are possible through the included spreader, which the Brother 1034D lacks.",
+        "Uses Singer 2022 serger needles, sizes 80/11 and 90/14 per the archive guide, with a 90/14 set furnished."
       ],
       "weaknesses": [
-        "A dealer lists it as replaced by the 14HD854; stock is thin and prices swing by $80.",
-        "Dim work light is the repeated owner complaint.",
-        "Frame material and motor are not published in accessible sources."
+        "Owners report a stuck stitch width knob and occasional binding in six Reddit statements; these are mostly help threads, so problems are over-represented.",
+        "PatternReview owners most often complain about a dim light, and Singer's 14CG754 page lists no light at all.",
+        "Singer publishes no throat, motor or frame figure for this model, and its page shows Out of Stock."
       ],
       "checks": [
         {
-          "title": "Successor at a similar price",
-          "body": "The 14HD854 has a larger knife, brighter light and stronger motor per Singer, for about $20 more on singer.com. Confirm the 14CG754 price is a real discount before buying the older model."
+          "title": "Warranty tier differs by source",
+          "body": "The PDF linked from Singer's 14CG754 page says 25 years on the frame and 1 year on parts and adjustments. The 25/2/90 tier is on the 14HD854 page and in Amazon's copy. Ask the seller which document ships with the machine."
         },
         {
-          "title": "Combo listings",
-          "body": "SMP sells the 14CG754 mostly in combos with a Singer sewing machine. Price the serger alone; the free DVD is not worth a bundle premium."
+          "title": "Manual and weight figures are not model-specific",
+          "body": "The manual linked on Singer's page is an SE017 manual, not a 14CG754 one. The 14CG754 operator's guide is an undated archive.org copy of a combined guide, so its weight, size and stitch length figures are caveated, not Singer figures for this model."
         },
         {
-          "title": "Stock status",
-          "body": "Walmart and GoldStar showed the machine out of stock at the time of research. Check availability and return policy before ordering from a marketplace seller."
+          "title": "Stock and price",
+          "body": "Singer's page showed a listed $209.99 against MSRP $349.99 on 2026-10-02 with Out of Stock and Sold out, and Walmart showed $239.26 out of stock. Confirm availability and the return policy before ordering from a marketplace seller."
         }
       ],
       "realCost": [
         "4 cones of serger thread",
-        "Singer 2022 (ELx705) needles beyond the included set",
+        "Singer 2022 needles in 80/11 or 90/14 beyond the furnished 90/14 set",
         "Serger oil",
-        "A clip-on light if the built-in bulb is too dim"
+        "A clip-on light if the built-in light is too dim, as PatternReview owners report"
       ],
       "faqs": [
         {
           "q": "Is the Singer 14CG754 discontinued?",
-          "a": "Not officially. Singer's page is still live and retailers list it, but one dealer says the Heavy Duty 14HD854 replaces it and several listings show out of stock."
+          "a": "No Singer page says so. Singer's product page is live and shows Out of Stock and Sold out. One dealer listing says the 14HD854 replaces it, but we found no Singer page that confirms that."
         },
         {
           "q": "What is the difference between the 14CG754 and the 14HD854?",
-          "a": "Both are 2/3/4-thread 1,300 spm sergers. Singer gives the 14HD854 a larger cutting knife, a stronger motor and a brighter light, and the price difference on singer.com is about $20."
+          "a": "Singer lists the 14HD854 at MSRP $399.99 and $319.99, against MSRP $349.99 and $209.99 for the 14CG754, a listed gap of $110. Singer claims the 14HD854 has a 60% larger cutting knife and two LED lights; the 14CG754 page makes neither claim. The 14HD854 page says 6 stitch types and the 14CG754 page does not."
         },
         {
           "q": "Is the 14CG754 hard to thread?",
-          "a": "Owners disagree. Several PatternReview owners call it easy once the color-coded diagram is followed; one found it very hard. Threading is manual lay-in with no air system."
+          "a": "Owners disagree, and the evidence base is small. PatternReview owners call it fast once the color-coded diagram is followed; one found it very hard and could not get a rolled hem."
         },
         {
           "q": "Can it do a rolled hem?",
-          "a": "Yes, the rolled hem is built in. One owner reported not being able to get it to work."
+          "a": "Singer's page lists a built-in rolled hem. One PatternReview owner reported not getting it to work."
         },
         {
           "q": "Does it have a free arm?",
-          "a": "Yes, a built-in free arm for cuffs and sleeves."
+          "a": "Yes, Singer's page lists free-arm sewing."
         },
         {
           "q": "What needles does it use?",
-          "a": "Singer 2022 serger needles, equivalent to ELx705, in sizes 80/12 and 90/14."
+          "a": "Singer needle Cat. No. 2022 in sizes 80/11 and 90/14 per the archive operator's guide, which says a 90/14 set is furnished. The guide says Singer 2020 needles may be used in an emergency but may skip stitches unless tension is readjusted."
         },
         {
           "q": "How much does it weigh?",
-          "a": "13.5 lb per the Amazon listing; 14 x 11 x 11.5 in with the thread stand down."
+          "a": "Singer's page gives no weight. Amazon lists 13.5 lb; the undated third-party archive copy of a combined operator's guide gives 6.0 kg (13.2 lb), so treat the weight as a soft figure."
         },
         {
-          "q": "What is the differential feed range?",
-          "a": "0.7 to 2.0 per the Amazon listing. Stitch length is 2.0 to 4.0 mm and cutting width 3.0 to 6.7 mm."
-        },
-        {
-          "q": "Is it better than the Brother 1034D?",
-          "a": "It adds 2-thread stitches and a free arm; the Brother is praised for a brighter light and easier threading. Both run 1,300 spm with differential feed."
+          "q": "What are the stitch length and differential feed ranges?",
+          "a": "The archive guide gives a 0.7 to 2.0 feed ratio and 1 to 4 mm stitch length; Amazon lists 2.0 to 4.0 mm for stitch length. Singer's page gives neither range."
         },
         {
           "q": "What is the warranty?",
-          "a": "Singer's warranty page states 25 years on the head, 2 years on motor and electrical parts and 90 days on adjustments and attachments."
+          "a": "The PDF linked from Singer's 14CG754 page says 25 years on the frame and 1 year on parts and adjustments, for household use. The 25/2/90 tier on Amazon and the 14HD854 page may not apply to this model."
+        },
+        {
+          "q": "How good are the ratings?",
+          "a": "Amazon shows 4.5 from 2,063 ratings, pooled across three listings, so it is not specific to this one. Sewing Machines Plus shows 4.89 from 9 reviews, a very small base. Our owner evidence is limited to 15 first-hand voices, so do not generalise from it."
+        },
+        {
+          "q": "Is it better than the Brother 1034D?",
+          "a": "It adds 2-thread stitches through the spreader and a free arm. Both are listed at 1,300 spm with differential feed, and the Brother is more often praised for its light and threading."
         }
       ]
     },
@@ -8593,7 +8601,12 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/review/machine/3143",
       "https://sewing.patternreview.com/review/machine/5369",
       "https://sewing.patternreview.com/SewingDiscussions/topic/23518",
-      "https://sewing.patternreview.com/SewingDiscussions/topic/114880"
+      "https://sewing.patternreview.com/SewingDiscussions/topic/114880",
+      "https://www.singer.com/products/singer-14hd854-heavy-duty-serger",
+      "https://archive.org/details/manualzilla-id-7199880",
+      "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-d3361c80-1e88-4d01-9381-fe3e62f20ef4-singer%2025-1%20warranty%20471068326e.pdf",
+      "https://www.reddit.com/r/sewhelp/comments/pqtt44/stitch_width_knob_stuck/ht3ab03/",
+      "https://www.reddit.com/r/sewhelp/comments/1jtxz57/serger_jammedstuck_help/mm25ldk/"
     ]
   },
   "singer-14hd854": {
@@ -9090,31 +9103,31 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "throatIn": {
-        "value": 6.25,
-        "source": "https://leahday.com/products/singer-heavy-duty-4411"
+        "value": null,
+        "source": null
       },
       "needleSystem": {
-        "value": null,
-        "source": null
+        "value": "System code not published. Manual lists Singer 2020 standard, 2045 semi-ball point and 2032 leather needles, sizes 9 (70) to 18 (110); bobbin class 15 transparent",
+        "source": "https://svpworldwide.widen.net/content/corhvxojn2/pdf/4411_EN.pdf"
       },
       "presserFootLift": {
-        "value": null,
-        "source": null
+        "value": "Extra high presser foot position for thick fabric; lift height not published",
+        "source": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine"
       },
       "threadTrimmer": {
         "value": null,
         "source": null
       },
       "feedSystem": {
-        "value": null,
-        "source": null
+        "value": "Drop feed lever listed on the Singer product page and in the manual; no differential or walking feed listed",
+        "source": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine"
       },
       "buttonhole": {
         "value": "4-step buttonhole",
         "source": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine"
       },
       "motor": {
-        "value": "Singer describes the motor as 60 percent stronger than a standard sewing machine motor; wattage not published",
+        "value": "84 W, 0.7 A, 120 V, 60 Hz",
         "source": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine"
       },
       "frame": {
@@ -9122,34 +9135,39 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine"
       },
       "weightLb": {
-        "value": 14,
-        "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-4411-mechanical-sewing-machine"
+        "value": 14.5,
+        "source": "https://www.sewingmachinedirectory.com/sewing-machine/singer-4411/"
       },
       "dimensionsIn": {
-        "value": "15.5 x 6.2 x 12 (39.4 x 15.7 x 30.5 cm, third-party directory)",
-        "source": "https://www.sewingmachinedirectory.com/sewing-machine/singer-4411/"
+        "value": "15.5 x 6.25 x 12 (Singer prints no units on the 4411 page; 39.4 x 15.7 x 30.5 cm per a third-party directory)",
+        "source": "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine"
       },
       "includedFeet": {
         "value": "All purpose foot, zipper foot, buttonhole foot, button sewing foot, quilting guide, pack of needles, bobbins, spool caps, large and small spool holders, auxiliary spool pin, spool pin felt, screwdrivers, seam ripper and lint brush, soft dust cover",
         "source": "https://www.amazon.com/Accessory-Enhanced-Piercing-Applications-Buttonhole/dp/B003VWXZKG"
       },
       "warrantyUs": {
-        "value": "25 yr limited on machine head, 2 yr on motor, light, wiring, switches, speed control and electronics, 90 days on adjustments, belts, rings, bulbs and attachments",
-        "source": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+        "value": "Singer's generic SVP warranty (household use): limited 25 years on the product frame, limited 2 years on electronic and electrical parts, limited 90 days on mechanical parts and adjustments",
+        "source": "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-10e8219a-17a4-440f-bae4-9fe48a9ab4d5-singer%2025-2-90%20%20warranty%20471025847e.pdf"
       }
     },
     "claims": [
       "\"Heavy Duty\" (Singer series name, product page; it is a model line, not a duty rating)",
-      "\"60% stronger\" motor than a standard sewing machine motor (manufacturer claim, singer.com product page; baseline not defined)",
-      "\"50% more power for denim and canvas\" (Amazon listing title; a different figure from the same maker)",
-      "\"built to handle tough fabrics like denim, canvas, and leather\" (retailer copy, Michaels listing)",
-      "\"69 stitch applications\" (manufacturer count of techniques from 11 stitches)"
+      "\"60% stronger\" motor than a standard sewing machine motor (Singer specification line; baseline not defined)",
+      "\"50% more power\" (Singer highlights bullet and Amazon title; a different figure from the same maker)",
+      "\"Professional speed for faster results\" and \"a true workhorse\" (Singer marketing wording)",
+      "\"handle heavyweight fabrics like denim and leather\" (Singer marketing wording; the manual's only operational leather statement is its needle chart)",
+      "\"69 stitch applications\" (Singer count of techniques from 11 stitches)"
     ],
     "conflicts": [
-      "Weight: 14 lb (parts dealer) vs 14.5 lb / 6.6 kg (third-party directory). Catalog will use 14 lb and flag [verify].",
-      "Motor claim: '60% stronger' on singer.com vs '50% more power' in the Amazon title. Both are claims; neither defines the baseline.",
-      "Throat: 6.25 in comes from a dealer describing the harp as measured from the motor side to the needle. Singer does not publish a throat figure for the 4411. Flag [verify].",
-      "Price: $209.99 sale at Sewing Machines Plus vs a $179.99 Amazon deal post and a $90 clearance mentioned in a forum. Catalog will use the SMP figure."
+      "Throat: Singer prints 6.25 in as 'needle to tower' (the same figure is on the 4423, 4432 and 4452 pages), and a dealer described it as motor side to needle; neither says needle-to-body, so throat space stays [verify] under rule 11.",
+      "Motor: Singer's specification line says '60% stronger' and its highlights say '50% more power'; the Amazon title also says 50%. Both are claims and neither defines the baseline. The 84 W, 0.7 A figure is now published by Singer.",
+      "Warranty: the Singer warranty PDF is the generic SVP document (25 years frame, 2 years electrical, 90 days mechanical) and does not itemise components. The product page says 24 years in the specification line and 25 in the banner, and Amazon's listing says 1 year. Singer may reject claims on products bought from unauthorized dealers, including unauthorized internet sites.",
+      "Drop feed: the 4411 page and manual list a drop feed lever, while the same page says the newer 4511 'adds drop feed'. The two statements disagree; the 4411's own listing is used.",
+      "Weight: Singer prints 14 with no unit on the 4411 page (4423 and 4432 list 14.6); a third-party directory gives 14.5 lb (6.6 kg); Amazon's 0.6 kg is not credible. The directory figure is used because it carries a unit.",
+      "Price: Singer's page showed $219.99 sale against $269.99 MSRP with 'Sold out' on the variant fetched (page wording only); Sewing Machines Plus $209.99; an Amazon deal post $179.99. Price is a band, not a figure.",
+      "Ratings: Amazon's 4.4 from about 9,125 ratings (listing B003VWXZKG) is pooled with the Heavy Duty 4511 listing through a shared parent, so it is not a 4411-only rating. Sewing Machines Plus shows 4.65 from 79 reviews, of which only 2 name the 4411.",
+      "Stitches: Reddit comments say the 4452 has 52 stitches; Singer lists 32 for the 4452 and 11 for the 4411."
     ],
     "ownerThemes": [
       {
@@ -9197,76 +9215,84 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The 4411 is the base Heavy Duty head: 1,100 spm and a metal frame with 11 stitches, a 4-step buttonhole and no needle threader, so it only wins on a real price gap to the 4423.",
-      "whoFor": "A buyer who wants the 44-series frame and speed for hems, repairs and canvas and does not care about decorative stitches or a one-step buttonhole.",
-      "skipIf": "The 4423 is within $20; its automatic needle threader and 1-step buttonhole cost nothing in capability elsewhere.",
-      "keySpec": "1,100 spm · 11 stitches · 4-step buttonhole · 14 lb",
+      "verdict": "The base Heavy Duty head: 11 stitches, a four-step buttonhole and no needle threader on the 4423 frame, so it only makes sense on a real price gap to the 4423.",
+      "whoFor": "A buyer who wants the 44-series frame and 1,100 spm for hems, repairs and canvas and does not need decorative stitches, a one-step buttonhole or a threader.",
+      "skipIf": "The 4423 is within a small gap on price; Singer lists its built-in needle threader and one-step buttonhole with the same 1,100 spm and 84 W.",
+      "keySpec": "1,100 spm · 11 stitches · 4-step buttonhole · 84 W",
       "strengths": [
-        "Same 1,100 spm and metal interior frame Singer publishes for the whole 44 series.",
-        "Weight and dimensions are published, unlike the 4452.",
-        "Adjustable presser foot pressure and a free arm are listed by Singer."
+        "Singer lists 1,100 spm, an 84 W motor, a metal interior frame and a stainless steel bed plate, the same frame figures it prints for the 4423 and 4432.",
+        "Owners report it sews several layers and canvas, though reports on thick fabric are split.",
+        "Singer lists adjustable presser foot pressure, an extra high presser foot position, a drop feed lever and a free arm."
       ],
       "weaknesses": [
-        "4-step buttonhole and manual needle threading; both are upgraded on the 4423.",
-        "Only 4 presser feet; no walking or nonstick foot.",
-        "Forum owners report warranty friction and a decline in Singer build quality."
+        "Four-step buttonhole and no listed needle threader; Singer lists a one-step buttonhole and a threader on the 4423 and 4432.",
+        "Owners report mixed results on heavy fabric: some say it struggled with jeans and thick thread, others say it has serious power.",
+        "Owners report tension fuss with thick thread and some defects; one Quiltingboard thread reports a warranty refusal."
       ],
       "checks": [
         {
           "title": "Price gap to the 4423",
-          "body": "The two share a frame and motor. If the 4423 is within about $20, the needle threader and 1-step buttonhole are worth it. The 4411 only makes sense on a deep sale."
+          "body": "Singer lists the same 1,100 spm, 84 W and 6.25 in needle to tower on both. If the 4423 is close in price, its threader and one-step buttonhole are the difference."
         },
         {
-          "title": "Refurbished stock",
-          "body": "Singer sells a refurbished 4411 on its own site and SMP has listed factory-serviced 44-series units. Ask for the warranty term on refurbished stock before choosing."
+          "title": "Seller and warranty",
+          "body": "Singer's warranty PDF says it may reject claims on products bought from unauthorized dealers. The product page says 24 years in one line and 25 in the banner, and the Amazon listing says 1 year. Confirm the term with the seller."
         },
         {
-          "title": "Throat figure is a dealer measurement",
-          "body": "The 6.25 in harp comes from a dealer, not Singer. If you plan to quilt, confirm the measurement needle-to-body on the listing before buying."
+          "title": "Throat is not a needle-to-body figure",
+          "body": "Singer's 6.25 in is worded needle to tower, and the same number is on the 4423, 4432 and 4452 pages. Do not read it as quilting throat space."
         }
       ],
       "realCost": [
-        "Denim needles size 16 to 18 beyond the included pack",
-        "Extra Class 15 bobbins",
-        "Walking foot for layered projects, not included",
-        "Nonstick foot if sewing vinyl or leather"
+        "Denim needles for heavy layers: Singer's manual lists sizes up to 18 (110) and the pack supplied is standard",
+        "Extra class 15 bobbins",
+        "Optional feet such as a walking foot or even feed are not supplied; the manual lists even feed as optional",
+        "Leather needles (Singer 2032) if you sew leather"
       ],
       "faqs": [
         {
           "q": "What is the difference between the Singer 4411 and 4423?",
-          "a": "Same frame and 1,100 spm motor. The 4423 has 23 stitches, an automatic needle threader and a 1-step buttonhole; the 4411 has 11 stitches, a manual threader and a 4-step buttonhole."
+          "a": "Singer lists 11 stitches, 69 applications, a four-step buttonhole and no threader on the 4411, against 23 stitches, 97 applications, a one-step buttonhole and a built-in threader on the 4423. Both list 1,100 spm, 84 W and 6.25 in needle to tower."
         },
         {
           "q": "Is the 4411 buttonhole 1-step or 4-step?",
-          "a": "4-step, per Singer's product page."
+          "a": "Four-step, per Singer's product page, selected on the stitch selector dial."
         },
         {
           "q": "Does the 4411 have an automatic needle threader?",
-          "a": "No. Comparison sites and Singer's feature list for the 4423 confirm the threader is what separates the two models."
+          "a": "None is listed on the Singer 4411 page or in the manual's parts list. Singer's 4423 and 4432 pages list a built-in needle threader."
         },
         {
           "q": "How much does the Singer 4411 weigh?",
-          "a": "14 lb per the parts dealer; a third-party directory lists 14.5 lb (6.6 kg)."
+          "a": "Singer prints 14 with no unit on the 4411 page. A third-party directory lists 14.5 lb (6.6 kg). Amazon's 0.6 kg is not credible for this machine."
         },
         {
           "q": "What is the throat space on the 4411?",
-          "a": "Singer does not publish it. A dealer measures about 6.25 in from the machine body to the needle."
+          "a": "Singer prints 6.25 in worded needle to tower, the same on the 4423, 4432 and 4452 pages. That is not stated as needle-to-body, so throat space is [verify]."
         },
         {
           "q": "Can the 4411 sew leather?",
-          "a": "Singer's copy names denim and canvas; retailer copy adds leather. One owner review says the motor needed a hand start on leather. Treat leather as an occasional job, not the machine's purpose."
+          "a": "Singer's marketing wording names denim and leather; its manual lists leather needles 12 (80) to 18 (110) and says some leathers and vinyls fit size 18. One owner review says the machine needed a hand start on leather. Treat leather as an occasional job."
         },
         {
           "q": "Is the 4411 good for beginners?",
-          "a": "It is simple to set up with a top drop-in bobbin and dials, but the 4-step buttonhole and manual threading make the 4423 the easier first machine at a small premium."
+          "a": "It has a top drop-in bobbin and dial controls, but the four-step buttonhole and no listed threader make the 4423 an easier first machine if the price gap is small."
         },
         {
           "q": "What is the warranty?",
-          "a": "25 years on the head, 2 years on motor and electronics, 90 days on adjustments and attachments, per Singer's warranty page."
+          "a": "Singer's generic SVP warranty PDF lists 25 years on the product frame, 2 years on electrical parts and 90 days on mechanical parts and adjustments, for household use. The product page says 24 years in the specification line and 25 in the banner, and Amazon says 1 year. Singer may reject claims on products bought from unauthorized dealers."
         },
         {
-          "q": "Does the 4411 have a free arm?",
-          "a": "Yes. The removable storage compartment slides off to expose the free arm for cuffs and hems."
+          "q": "Does the 4411 have a free arm and a drop feed?",
+          "a": "Singer lists a free arm via the removable storage compartment and a drop feed lever. The same page says the newer 4511 adds drop feed, which disagrees with the 4411's own listing."
+        },
+        {
+          "q": "Are the 60% stronger and 50% more power claims the same thing?",
+          "a": "No. Singer's specification line says 60% stronger and its highlights say 50% more power. Neither defines the baseline, so both are claims. The published motor figure is 84 W, 0.7 A."
+        },
+        {
+          "q": "Is the Amazon rating for the 4411 alone?",
+          "a": "No. Amazon's 4.4 from about 9,125 ratings is shared with the Heavy Duty 4511 listing through a parent. Sewing Machines Plus shows 4.65 from 79 reviews, only 2 of which name the 4411."
         }
       ]
     },
@@ -9282,7 +9308,12 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/SewingDiscussions/topic/53758",
       "https://www.quiltingboard.com/main-f1/singer-heavy-duty-t201481.html",
       "https://ebay.com/itm/154447978095",
-      "https://slickdeals.net/f/19114468-singer-heavy-duty-4411-high-speed-sewing-machine-179-99-free-shipping-w-prime"
+      "https://slickdeals.net/f/19114468-singer-heavy-duty-4411-high-speed-sewing-machine-179-99-free-shipping-w-prime",
+      "https://svpworldwide.widen.net/content/corhvxojn2/pdf/4411_EN.pdf",
+      "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-10e8219a-17a4-440f-bae4-9fe48a9ab4d5-singer%2025-2-90%20%20warranty%20471025847e.pdf",
+      "https://www.singer.com/products/singer-heavy-duty-4423-sewing-machine",
+      "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine",
+      "https://www.amazon.com/dp/B003VWXZKG"
     ]
   },
   "singer-4423": {
@@ -9301,10 +9332,10 @@ export const catalogData: Record<string, CatalogEntry> = {
     "priceUsdSeen": 290,
     "priceSeenDate": "2026-09-29",
     "priceSeenAt": "Sewing Machines Plus",
-    "priceNote": "Sewing Machines Plus (regular price in search snippet; open box listed at $179)",
+    "priceNote": "Sewing Machines Plus listing singer4423.php, regular price for the new machine (search snippet)",
     "specs": {
       "stitchTypes": {
-        "value": "23 built-in stitches: 6 basic, 4 stretch, 12 decorative, 1 one-step buttonhole",
+        "value": "23 built-in stitches; 97 stitch applications (Singer's count of techniques, not stitches)",
         "source": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
       },
       "stitchCount": {
@@ -9332,7 +9363,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "presserFootLift": {
-        "value": "Adjustable presser foot pressure; lift height not published in snippet",
+        "value": "Extra high presser foot position for thick fabrics; adjustable presser foot pressure; lift height not published",
         "source": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
       },
       "threadTrimmer": {
@@ -9348,7 +9379,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
       },
       "motor": {
-        "value": "Singer describes the motor as stronger than a standard machine motor; wattage not published",
+        "value": "84 W, 0.7 A, 120 V, 60 Hz (rated electrical input)",
         "source": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
       },
       "frame": {
@@ -9360,28 +9391,33 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-4423-mechanical-sewing-machine"
       },
       "dimensionsIn": {
-        "value": "18.1 x 8.8 x 13.9 (W x D x H)",
-        "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-4423-mechanical-sewing-machine"
+        "value": "15.5 x 6.25 x 12 (machine size; Singer does not label the axes)",
+        "source": "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine"
       },
       "includedFeet": {
         "value": "All-purpose foot, zipper foot, buttonhole foot, button sewing foot, seam ripper and lint brush, quilting guide, needles, bobbins, screwdriver, auxiliary spool pin, spool pin felt, soft dust cover; 4 snap-on feet",
         "source": "https://www.singerco.co.uk/4423.html"
       },
       "warrantyUs": {
-        "value": "25 yr limited on machine head, 2 yr on motor, light, wiring, switches, speed control and electronics, 90 days on adjustments, belts, rings, bulbs and attachments",
-        "source": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+        "value": "Limited 25/2/90 Day (4423 Heavy Duty listed): 25 years frame, 2 years electronic/electrical parts, 90 days mechanical parts and adjustments; household use, first purchaser",
+        "source": "https://help.singer.com/en-US/singers-warranty-coverage-395288"
       }
     },
     "claims": [
       "\"Heavy Duty\" (Singer series name, product page; it is a model line, not a duty rating)",
-      "\"powerful motor\" with \"extra high sewing speed\" (manufacturer claim, singer.com product page)",
-      "\"heavy-duty metal frame ensures stability\" (manufacturer claim, singer.com product page)",
-      "\"50% more power\" or \"60% stronger\" motor than a standard machine (retailer copy repeating Singer marketing; baseline not defined)"
+      "\"a heavy duty metal frame and powerful motor make this machine a true workhorse\" and \"extra high sewing speed\" (manufacturer claims, singer.com product page)",
+      "\"a motor that is 60% stronger than a standard sewing machine motor\" (Singer product page; no baseline stated)",
+      "\"50% more power\" (retail copy repeating Singer-style marketing; conflicts with the 60% figure and has no baseline)",
+      "\"97 stitch applications\" (Singer marketing count; the machine has 23 built-in stitches)"
     ],
     "conflicts": [
-      "Price: $289.99 regular (Sewing Machines Plus) vs $229.99 (Michaels, Walmart). Catalog will show the SMP figure as the retailer of record and note the $60 spread.",
-      "Stitch count: Singer says 23 built-in stitches; retail titles say '97 stitch applications' or '44-stitch'. Catalog uses 23.",
-      "Weight: 14.6 lb (Sewing Parts Online) is the only machine weight found; Singer.com weight not in snippet."
+      "Throat: Singer gives 6.25 in measured needle to tower, the same figure on the 4411, 4432 and 4452 pages, not needle to body (rule 11), so throat space stays [verify].",
+      "Dimensions: Sewing Parts Online lists 18.1 x 8.8 x 13.9 in, close to Singer's box size of 18 x 8.5 x 13 in; Singer's machine size is 15.5 x 6.25 x 12 in, which the catalog now uses.",
+      "Warranty: Singer's product page prints 24 years in its spec line and up to 25 years in its text, and its coverage page lists the 4423 under Limited 25/2/90 Day.",
+      "Warranty: Singer's generic 25/2/90 PDF covers frame, electronic/electrical parts, and mechanical parts and adjustments, and does not name the 4423 or list motor, wiring, belts or bulbs, so the earlier component list is not carried.",
+      "Motor: Singer's page says 60% stronger than a standard sewing machine motor while retail copy says 50% more power; neither states a baseline and both are claims.",
+      "Stitch count: Singer lists 23 built-in stitches and 97 stitch applications; retail titles say 44 stitch or 97 stitch. Singer's page does not give the earlier 6 basic, 4 stretch, 12 decorative, 1 buttonhole breakdown, so it is dropped.",
+      "Price: Sewing Machines Plus showed $289.99 regular and Michaels and Walmart $229.99; Singer's page showed $229.99 on sale against a $289.99 MSRP on 2026-10-02. Price is a band, not a figure."
     ],
     "ownerThemes": [
       {
@@ -9400,7 +9436,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://sewing.patternreview.com/SewingDiscussions/topic/117318"
       }
     ],
-    "evidence": "mixed",
+    "evidence": "owner",
     "buyerQuestions": [
       "Is the Singer 4423 really heavy duty?",
       "Can the Singer 4423 sew leather?",
@@ -9430,40 +9466,81 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "An entry-level mechanical with a fast motor and a metal frame that handles denim hems and canvas totes but is not a substitute for an industrial.",
-      "whoFor": "Beginners and occasional sewists who want a cheap, fast utility machine with a one-step buttonhole and enough punch for jeans hems.",
-      "skipIf": "You sew leather, upholstery or webbing regularly, or you expect the 'Heavy Duty' name to mean industrial construction.",
-      "keySpec": "1,100 spm · 23 stitches · 1-step buttonhole · 14.6 lb",
+      "verdict": "Heavy Duty is a Singer line name: a 1,100 spm, 23 stitch mechanical with a metal interior frame, and owners report mixed reliability.",
+      "whoFor": "Beginners and occasional sewists who want a fast, inexpensive utility machine with a one-step buttonhole for jeans hems, mending and canvas bags.",
+      "skipIf": "You sew leather, upholstery or webbing regularly, need a walking foot in the box, or expect the Heavy Duty name to mean industrial construction.",
+      "keySpec": "1,100 spm · 23 stitches · 84 W motor · 14.6 lb",
       "strengths": [
-        "Singer publishes 1,100 spm, high for this price class.",
-        "Metal interior frame and stainless bedplate are listed by Singer.",
-        "Adjustable presser foot pressure lets it handle sheers as well as thick seams."
+        "Singer publishes 1,100 spm, an 84 W motor, a metal interior frame and a 14.6 lb machine weight.",
+        "Owners report hemming jeans, altering trouser waists and mending with it, and some report the built-in threader and bobbin winding working well.",
+        "Retailer ratings are positive: 4.5 from about 21,224 ratings on Amazon (pooled with a second ASIN of the same machine) and 4.25 from 16 at Sewing Machines Plus, though seller pages skew positive."
       ],
       "weaknesses": [
-        "Owner troubleshooting threads cluster around bobbin, tension and skipped stitches.",
-        "No walking foot in the box; the 4452 adds one.",
-        "Presser foot lift height, needle system and throat space are not published by Singer."
+        "Owners report reliability complaints such as timing and defects, though help threads on Reddit over-represent problems.",
+        "Owners report no speed control, a touchy pedal and tension that is hard to set, with some maxing out the dial.",
+        "No walking foot in the box and no published needle system, lift height or needle-to-body throat figure."
       ],
       "checks": [
         {
-          "title": "Bundle vs bare box",
-          "body": "Amazon bundles add presser feet kits and bobbin winders. The standard box has four feet. Compare the bare machine price first."
+          "title": "Pooled Amazon rating",
+          "body": "The 4.5 from about 21,224 ratings is shared by two listings of the 4423, so it is not specific to one colour or bundle."
         },
         {
-          "title": "Open box pricing",
-          "body": "SMP lists an open box unit around $179 against $289.99 new. Ask what warranty applies to open box units."
+          "title": "Warranty split",
+          "body": "Singer's coverage page lists the 4423 under Limited 25/2/90 Day, while its product page prints 24 years in the spec line and up to 25 years in the text. The generic PDF names frame, electronic and mechanical periods only."
         },
         {
-          "title": "Needle plan for thick work",
-          "body": "Singer ships universal needles. Buy size 16 or 18 denim needles before the first heavy project; owners report broken needles when forcing thick seams."
+          "title": "Refurbished listing",
+          "body": "Singer sells a refurbished 4423 as a separate listing with a different warranty (Limited 1 Year and Full Metal Frame Lifetime). Check which one you are buying."
         }
       ],
       "realCost": [
-        "Denim or jeans needles size 16 to 18",
-        "Extra Class 15 bobbins",
-        "Walking foot if you quilt or sew slippery layers"
+        "Heavier needles for denim; Singer's needle table runs size 9 to 18",
+        "Extra Class 15 bobbins; the page lists a Class 15 bobbin",
+        "A walking foot for slippery or layered work; Singer lists an even feed foot as an optional accessory, not in the box"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "Is the Singer 4423 really heavy duty?",
+          "a": "Heavy Duty is Singer's series name, not a rating. Singer claims a metal interior frame and a motor it calls 60% stronger than a standard motor, with no baseline, and publishes no fabric thickness or layer limit. Owners report denim hems and canvas going well and thick strap stacks going badly."
+        },
+        {
+          "q": "Can the Singer 4423 sew leather?",
+          "a": "Singer publishes no leather or thickness limit. Its manual lists a leather needle among its needle part numbers, but that is not a capability rating. If you sew leather regularly, skip this machine."
+        },
+        {
+          "q": "What is the difference between the Singer 4423 and 4432?",
+          "a": "Singer lists 23 built-in stitches and 97 stitch applications for the 4423 against 32 and 110 for the 4432, with the same 1,100 spm and 14.6 lb. Commenters describe the two as the same machine with different stitch counts and accessory packs."
+        },
+        {
+          "q": "What is the difference between the 4423, 4411 and 4452?",
+          "a": "Singer lists 11 stitches and a four-step buttonhole for the 4411, with no built-in threader, and 32 stitches for the 4452, which adds a walking foot, non-stick foot, clearance plate and heavy duty needles. A Reddit claim that the 4452 has 52 stitches is contradicted by Singer's pages."
+        },
+        {
+          "q": "Is the Singer 4423 good for beginners?",
+          "a": "It has a one-step buttonhole, a built-in needle threader and a top drop-in bobbin per Singer. Owners report the threader works for some and not for others, and many beginner help threads concern tension and bobbin seating."
+        },
+        {
+          "q": "Does the Singer 4423 have a walking foot?",
+          "a": "No. Singer's box list has no walking foot, and its manual lists an even feed foot as an optional accessory. The 4452 bundle includes one."
+        },
+        {
+          "q": "What needles does the Singer 4423 use?",
+          "a": "Singer does not publish a needle system name. Its manual needle table runs size 9 to 18 and uses Singer part numbers, which are not a system designation."
+        },
+        {
+          "q": "Why does my Singer 4423 keep jamming or looping thread?",
+          "a": "A troubleshooting roundup that pooled owner complaints finds bobbin case trouble, tension looping and skipped stitches, most traced to threading errors. Owners on Reddit also point to bobbin seating."
+        },
+        {
+          "q": "How heavy is the Singer 4423?",
+          "a": "Singer lists a 14.6 lb machine weight, and Sewing Parts Online lists the same figure. Singer's machine size is 15.5 x 6.25 x 12 in; its box is 18 x 8.5 x 13 in."
+        },
+        {
+          "q": "Can the Singer 4423 do free motion quilting?",
+          "a": "Singer lists a drop feed control, but its manual lists a darning foot as optional and none is in the box. Throat space is not published needle to body: Singer's 6.25 in is needle to tower, so it is not a quilting-space figure."
+        }
+      ]
     },
     "sources": [
       "https://www.singer.com/products/singer-4423-heavy-duty-sewing-machine",
@@ -9475,7 +9552,14 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://www.sewingmachinesplus.com/singer4423.php",
       "https://sewing.patternreview.com/SewingDiscussions/topic/111789",
       "https://threadedmachines.com/brands/singer/4423-review/problems/",
-      "https://sewways.com/brands/singer-heavy-duty-comparison/"
+      "https://sewways.com/brands/singer-heavy-duty-comparison/",
+      "https://help.singer.com/en-US/singers-warranty-coverage-395288",
+      "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-10e8219a-17a4-440f-bae4-9fe48a9ab4d5-singer%2025-2-90%20%20warranty%20471025847e.pdf",
+      "https://svpworldwide.widen.net/content/pwfntm3hxz/pdf/IM_4423Q50DSTEN.ES.FR140917.pdf",
+      "https://www.singer.com/products/singer-heavy-duty-4411-sewing-machine",
+      "https://www.singer.com/products/singer-heavy-duty-4432-sewing-machine",
+      "https://www.singer.com/products/singer-heavy-duty-4452-sewing-machine",
+      "https://www.amazon.com/dp/B0DQQPMZXJ"
     ]
   },
   "singer-4432": {

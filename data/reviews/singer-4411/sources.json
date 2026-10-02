@@ -1,0 +1,1231 @@
+[
+  {
+    "id": "web:9320aaa089013cc1",
+    "url": "https://www.amazon.com/dp/B003VWXZKG",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T04:35:07.045Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T04:35:07.045Z",
+    "status": "ok",
+    "site_rating": 4.4,
+    "site_review_count": 9125,
+    "asin": "B003VWXZKG",
+    "parent_asin": "B0HG1SPNYC",
+    "product_asins": [
+      "B003VWXZKG",
+      "B0HCCBJXDZ"
+    ],
+    "pooled_variations": true,
+    "sampled": "13 top reviews (8 US, 5 other countries) of 9125 ratings",
+    "listing": {
+      "title": "SINGER® 4411 (Grey) High Speed Heavy Duty Sewing Machine with Accessories",
+      "price_usd": null,
+      "best_sellers_rank": "#9,161 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #30 in Sewing Machines",
+      "details": {
+        "Model Number": "230421112.DI",
+        "Warranty Description": "1 year",
+        "Included Components": "Four Presser Feet (General Purpose Foot, Zipper Foot, Buttonhole Foot, Button Sewing Foot), Edge/Quilting Guide, Pack of Needles, Bobbins (Class 15 transparent), Spool Caps, Auxiliary Spool Pin, Spool Pin Felt, Screwdriver, Seam Ripper/Lint Brush and Soft Dust Cover",
+        "Manufacturer": "Singer",
+        "Part Number": "4411.CL",
+        "Color": "Grey",
+        "Material": "Metal, Plastic",
+        "Item Dimensions D x W x H": "6.25\"D x 15\"W x 12\"H",
+        "Item Weight": "0.6 kg"
+      }
+    }
+  },
+  {
+    "id": "web:318bfce92dfe2c3d",
+    "url": "https://www.sewingmachinesplus.com/singer4411.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-02T04:35:13.765Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-02T04:35:13.765Z",
+    "status": "ok",
+    "site_rating": 4.65,
+    "site_review_count": 79,
+    "content_hash": "6b0a0b1b552c80d0"
+  },
+  {
+    "id": "reddit:1ttfwsd",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ttfwsd/first_sewing_machinesinger_4411_limited_edition/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "First sewing machine—Singer 4411 (limited edition pink) or Singer 4452",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1ttfwsd",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1780717233,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/SewingForBeginners:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/SewingForBeginners:Singer Heavy Duty 4411",
+      "all:Singer Heavy Duty 4411 review",
+      "r/SewingForBeginners:Singer Heavy Duty 4411 review",
+      "r/SewingForBeginners:Singer 4411 problems"
+    ],
+    "content_hash": "0139477f3740e9dc"
+  },
+  {
+    "id": "reddit:1puj7ej",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1puj7ej/im_about_to_open_my_window_and_toss_my_singer/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "I’m about to open my window and toss my singer 4411 out. Can someone talk me down from the ledge?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1puj7ej",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1766860766,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/SewingForBeginners:Singer 4411",
+      "r/SewingForBeginners:Singer 4411 problems"
+    ],
+    "content_hash": "00906c41255ba244"
+  },
+  {
+    "id": "reddit:g1wr5l",
+    "url": "https://www.reddit.com/r/myog/comments/g1wr5l/got_my_first_sewing_machine_a_week_ago_singer/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Got my first sewing machine a week ago (singer 4411) First and 2nd bag that I made. Any tips?",
+    "subreddit": "myog",
+    "thread_id": "g1wr5l",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1587046234,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/myog:Singer 4411",
+      "r/myog:Singer 4411 problems"
+    ],
+    "content_hash": "416fc84d568840d5"
+  },
+  {
+    "id": "reddit:zw1dbf",
+    "url": "https://www.reddit.com/r/myog/comments/zw1dbf/need_a_heavierduty_machine_is_this_a_great_deal/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Need a heavier-duty machine, is this a “great” deal that I should jump at or does the Singer 4411 go on sale often?",
+    "subreddit": "myog",
+    "thread_id": "zw1dbf",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1675558555,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/myog:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/myog:Singer Heavy Duty 4411",
+      "r/myog:Singer Heavy Duty 4411 review",
+      "r/myog:Singer 4411 problems"
+    ],
+    "content_hash": "3abcfe49c8dfe348"
+  },
+  {
+    "id": "reddit:qz6nol",
+    "url": "https://www.reddit.com/r/myog/comments/qz6nol/brushless_higher_torque_motor_for_singer_4411/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Brushless / higher torque motor for Singer 4411?",
+    "subreddit": "myog",
+    "thread_id": "qz6nol",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1770952648,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/myog:Singer 4411",
+      "r/myog:Singer 4411 problems"
+    ],
+    "content_hash": "85b7ff2324531ddb"
+  },
+  {
+    "id": "reddit:1q6pu9p",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1q6pu9p/is_the_singer_heavy_duty_4411_worth_it/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Is the Singer Heavy Duty 4411 worth it??",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1q6pu9p",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1789327078,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/SewingForBeginners:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/SewingForBeginners:Singer Heavy Duty 4411",
+      "r/SewingForBeginners:Singer Heavy Duty 4411 review",
+      "r/SewingForBeginners:Singer 4411 problems"
+    ],
+    "content_hash": "8ad786e075863884"
+  },
+  {
+    "id": "reddit:1hlt8kp",
+    "url": "https://www.reddit.com/r/quilting/comments/1hlt8kp/my_3rs_and_4th_quilts_both_queens_sewn_and/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "My 3rs and 4th quilts, both queens, sewn and quilted on a Singer 4411",
+    "subreddit": "quilting",
+    "thread_id": "1hlt8kp",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1735406399,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/quilting:Singer 4411",
+      "r/quilting:Singer 4411 problems"
+    ],
+    "content_hash": "498c1d5359103ca9"
+  },
+  {
+    "id": "reddit:7d9gd7",
+    "url": "https://www.reddit.com/r/myog/comments/7d9gd7/singer_4411_problems_with_tera_40/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411 problems with Tera 40.",
+    "subreddit": "myog",
+    "thread_id": "7d9gd7",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1512167940,
+    "discovered_by": [
+      "r/myog:Singer 4411",
+      "all:Singer 4411 problems",
+      "r/myog:Singer 4411 problems"
+    ],
+    "content_hash": "dcebc69444737d17"
+  },
+  {
+    "id": "reddit:1b2qpv8",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1b2qpv8/please_help_singer_heavy_duty_4411/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Please help!!! Singer Heavy Duty 4411",
+    "subreddit": "sewhelp",
+    "thread_id": "1b2qpv8",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1709709832,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/sewhelp:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/sewhelp:Singer Heavy Duty 4411",
+      "r/sewhelp:Singer 4411 problems"
+    ],
+    "content_hash": "92b11f093391e3f1"
+  },
+  {
+    "id": "reddit:c6sji2",
+    "url": "https://www.reddit.com/r/myog/comments/c6sji2/singer_4411_vs_brother_xm3700/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411 vs Brother XM3700",
+    "subreddit": "myog",
+    "thread_id": "c6sji2",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1561947949,
+    "discovered_by": [
+      "r/myog:Singer 4411",
+      "r/myog:Singer 4411 problems",
+      "all:Singer 4411 vs 4423",
+      "r/myog:Singer 4411 vs 4423"
+    ],
+    "content_hash": "7e0fcc999d08a073"
+  },
+  {
+    "id": "reddit:1ueh6xo",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1ueh6xo/embroidery_on_singer_4411/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Embroidery on singer 4411",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1ueh6xo",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1782847299,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/SewingForBeginners:Singer 4411",
+      "r/SewingForBeginners:Singer 4411 problems"
+    ],
+    "content_hash": "8b0ee1685d444306"
+  },
+  {
+    "id": "reddit:1kfi5xn",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1kfi5xn/singer_4411_need_to_get_thread_for_a_first_time/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411 , Need to get thread for a first time project",
+    "subreddit": "sewhelp",
+    "thread_id": "1kfi5xn",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1746503896,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/sewhelp:Singer 4411",
+      "r/sewhelp:Singer 4411 problems"
+    ],
+    "content_hash": "7813c3fa22c4e589"
+  },
+  {
+    "id": "reddit:163pyly",
+    "url": "https://www.reddit.com/r/sewing/comments/163pyly/which_is_better_singer_hd_4411_or_4452/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Which is better singer HD 4411 or 4452",
+    "subreddit": "sewing",
+    "thread_id": "163pyly",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1695077577,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/sewing:Singer 4411",
+      "r/sewing:Singer 4411 problems"
+    ],
+    "content_hash": "b6c3703e56aaae9c"
+  },
+  {
+    "id": "reddit:1wcf4oj",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1wcf4oj/singer_4411_4432_or_janome_3112/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411, 4432, or Janome 3112?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1wcf4oj",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1789054208,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/SewingForBeginners:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/SewingForBeginners:Singer Heavy Duty 4411",
+      "r/SewingForBeginners:Singer Heavy Duty 4411 review",
+      "all:Singer 4411 problems",
+      "r/SewingForBeginners:Singer 4411 problems"
+    ],
+    "content_hash": "8fc86ce0057fb218"
+  },
+  {
+    "id": "reddit:1hhp6ub",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1hhp6ub/singer_4411_top_thread_jamming_in_bobbin_case/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411 top thread jamming in bobbin case",
+    "subreddit": "sewhelp",
+    "thread_id": "1hhp6ub",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1745069931,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/sewhelp:Singer 4411",
+      "r/sewhelp:Singer 4411 problems"
+    ],
+    "content_hash": "f23e6d99afab3a6f"
+  },
+  {
+    "id": "reddit:1h5zvg1",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1h5zvg1/singer_heavy_duty_4411_not_picking_up_thread/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer Heavy Duty 4411 not picking up thread ",
+    "subreddit": "sewhelp",
+    "thread_id": "1h5zvg1",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1741625312,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/sewhelp:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/sewhelp:Singer Heavy Duty 4411",
+      "r/sewhelp:Singer 4411 problems"
+    ],
+    "content_hash": "e2ce0da68319bc61"
+  },
+  {
+    "id": "reddit:1dsdf7z",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1dsdf7z/beginner_sewing_machine_singer_4411_4423/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Beginner sewing machine / singer 4411, 4423? ",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1dsdf7z",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1785109872,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/SewingForBeginners:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/SewingForBeginners:Singer Heavy Duty 4411",
+      "r/SewingForBeginners:Singer 4411 problems",
+      "all:Singer 4411 vs 4423",
+      "r/SewingForBeginners:Singer 4411 vs 4423"
+    ],
+    "content_hash": "bd89ddeba82694da"
+  },
+  {
+    "id": "reddit:1bb00ez",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1bb00ez/thread_keeps_getting_jammed_and_caught_around_the/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Thread keeps getting jammed and caught around the bobbin case stopper. Singer heavy duty 4411",
+    "subreddit": "sewhelp",
+    "thread_id": "1bb00ez",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1710129412,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/sewhelp:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/sewhelp:Singer Heavy Duty 4411",
+      "r/sewhelp:Singer 4411 problems"
+    ],
+    "content_hash": "077e56137cb0af66"
+  },
+  {
+    "id": "reddit:190zxa4",
+    "url": "https://www.reddit.com/r/myog/comments/190zxa4/singer_4411_or_4452/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411 or 4452.",
+    "subreddit": "myog",
+    "thread_id": "190zxa4",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1704665115,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/myog:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/myog:Singer Heavy Duty 4411",
+      "r/myog:Singer Heavy Duty 4411 review",
+      "r/myog:Singer 4411 problems"
+    ],
+    "content_hash": "578e1b8f241a5061"
+  },
+  {
+    "id": "reddit:xkjadx",
+    "url": "https://www.reddit.com/r/sewing/comments/xkjadx/bobbin_size_help_for_singer_4411_heavy_duty/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Bobbin size help for Singer 4411 heavy duty",
+    "subreddit": "sewing",
+    "thread_id": "xkjadx",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1663844737,
+    "discovered_by": [
+      "r/sewing:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/sewing:Singer Heavy Duty 4411",
+      "r/sewing:Singer 4411 problems"
+    ],
+    "content_hash": "4269a12399f02167"
+  },
+  {
+    "id": "reddit:sm568q",
+    "url": "https://www.reddit.com/r/sewing/comments/sm568q/is_the_singer_heavy_duty_4411_good_enough_for/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Is the Singer Heavy Duty 4411 good enough for these infrequent alterations (+ jeans)?",
+    "subreddit": "sewing",
+    "thread_id": "sm568q",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1644291126,
+    "discovered_by": [
+      "r/sewing:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/sewing:Singer Heavy Duty 4411",
+      "r/sewing:Singer 4411 problems"
+    ],
+    "content_hash": "c1093a4ad6f235cf"
+  },
+  {
+    "id": "reddit:rf07og",
+    "url": "https://www.reddit.com/r/sewing/comments/rf07og/help_crayon_emergency_singer_4411_heavy_duty/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help! Crayon emergency!! Singer 4411 heavy duty",
+    "subreddit": "sewing",
+    "thread_id": "rf07og",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1639363215,
+    "discovered_by": [
+      "r/sewing:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/sewing:Singer Heavy Duty 4411",
+      "r/sewing:Singer 4411 problems"
+    ],
+    "content_hash": "3143f9ffa344759e"
+  },
+  {
+    "id": "reddit:se5drj",
+    "url": "https://www.reddit.com/r/myog/comments/se5drj/sewing_machine_recs_singer_4411_hd_vs_9410/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing Machine Recs - Singer 4411 HD vs. 9410",
+    "subreddit": "myog",
+    "thread_id": "se5drj",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1736888920,
+    "discovered_by": [
+      "r/myog:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/myog:Singer Heavy Duty 4411",
+      "r/myog:Singer Heavy Duty 4411 review",
+      "r/myog:Singer 4411 problems",
+      "all:Singer 4411 vs 4423",
+      "r/myog:Singer 4411 vs 4423"
+    ],
+    "content_hash": "09c9744e4219d681"
+  },
+  {
+    "id": "reddit:1rple8u",
+    "url": "https://www.reddit.com/r/sewing/comments/1rple8u/singer_heavy_duty_4411_issues_right_out_of_the_box/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer Heavy Duty 4411 issues right out of the box?",
+    "subreddit": "sewing",
+    "thread_id": "1rple8u",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1773254824,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/sewing:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/sewing:Singer Heavy Duty 4411",
+      "r/sewing:Singer Heavy Duty 4411 review",
+      "r/sewing:Singer 4411 problems"
+    ],
+    "content_hash": "8c9ec793f1b005ba"
+  },
+  {
+    "id": "reddit:1eulkws",
+    "url": "https://www.reddit.com/r/sewing/comments/1eulkws/singer_4411_tension_issue/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411 - tension issue? ",
+    "subreddit": "sewing",
+    "thread_id": "1eulkws",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1723994557,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/sewing:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/sewing:Singer Heavy Duty 4411",
+      "r/sewing:Singer 4411 problems"
+    ],
+    "content_hash": "c55ab93c7c54549c"
+  },
+  {
+    "id": "reddit:1deh3w0",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1deh3w0/janome_memory_7_or_singer_heavy_duty_4411/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Janome Memory 7 or Singer Heavy duty 4411?",
+    "subreddit": "sewhelp",
+    "thread_id": "1deh3w0",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1718331373,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/sewhelp:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/sewhelp:Singer Heavy Duty 4411",
+      "r/sewhelp:Singer 4411 problems"
+    ],
+    "content_hash": "62f549b759a6e84d"
+  },
+  {
+    "id": "reddit:194ii72",
+    "url": "https://www.reddit.com/r/sewing/comments/194ii72/presser_foot_has_dropped_singer_hd_4411/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Presser foot has dropped (Singer HD 4411)",
+    "subreddit": "sewing",
+    "thread_id": "194ii72",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1709087408,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/sewing:Singer 4411",
+      "r/sewing:Singer 4411 problems"
+    ],
+    "content_hash": "d4881d702c25904c"
+  },
+  {
+    "id": "reddit:g5ll99",
+    "url": "https://www.reddit.com/r/sewing/comments/g5ll99/i_have_a_problem_with_my_sewing_machine_the/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "I have a problem with my sewing machine. The thread goes through the loop, but doesn’t sink it in. Anyone know how I can fix this? My machine is a Singer 4411 Heavy Duty",
+    "subreddit": "sewing",
+    "thread_id": "g5ll99",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1587512132,
+    "discovered_by": [
+      "r/sewing:Singer 4411",
+      "r/sewing:Singer Heavy Duty 4411",
+      "all:Singer 4411 problems",
+      "r/sewing:Singer 4411 problems"
+    ],
+    "content_hash": "33c9bed8e3053a44"
+  },
+  {
+    "id": "reddit:aksmsk",
+    "url": "https://www.reddit.com/r/sewing/comments/aksmsk/singer_4411_bobbin_winding_spindle_broken/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411 Bobbin Winding Spindle Broken?",
+    "subreddit": "sewing",
+    "thread_id": "aksmsk",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1548891743,
+    "discovered_by": [
+      "r/sewing:Singer 4411"
+    ],
+    "content_hash": "749dc6a37ec7d091"
+  },
+  {
+    "id": "reddit:gxu18i",
+    "url": "https://www.reddit.com/r/sewhelp/comments/gxu18i/stitches_started_snagging_all_of_a_sudden_during/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Stitches started snagging all of a sudden during a project. Took all apart, dusted, no obvious burrs or obstacles... then found this gunk underneath. Is this factory grease or oil and dust? Should I clean it off? [Singer Heavy Duty 4411]",
+    "subreddit": "sewhelp",
+    "thread_id": "gxu18i",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1591492540,
+    "discovered_by": [
+      "r/sewhelp:Singer 4411",
+      "r/sewhelp:Singer Heavy Duty 4411"
+    ],
+    "content_hash": "01fa6708dc08c081"
+  },
+  {
+    "id": "reddit:1uv74fa",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1uv74fa/singer_heavy_duty_4411_other_stitches_not_working/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer heavy duty 4411 other stitches not working",
+    "subreddit": "sewhelp",
+    "thread_id": "1uv74fa",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1783947842,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/sewhelp:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/sewhelp:Singer Heavy Duty 4411",
+      "r/sewhelp:Singer Heavy Duty 4411 review",
+      "r/sewhelp:Singer 4411 problems"
+    ],
+    "content_hash": "7533fb6466573d23"
+  },
+  {
+    "id": "reddit:1tjlbju",
+    "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1tjlbju/singer_heavy_duty_4411_or_janome_3300/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer heavy duty 4411 or Janome 3300?",
+    "subreddit": "SewingMachineEdu",
+    "thread_id": "1tjlbju",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1779566764,
+    "discovered_by": [
+      "all:Singer 4411",
+      "all:Singer Heavy Duty 4411"
+    ],
+    "content_hash": "6b8147f459a40765"
+  },
+  {
+    "id": "reddit:1sc7oxw",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1sc7oxw/need_help_with_a_greist_buttonholer_on_singer_4411/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Need help with a Greist Buttonholer on Singer 4411",
+    "subreddit": "sewhelp",
+    "thread_id": "1sc7oxw",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1775472666,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/sewhelp:Singer 4411",
+      "r/sewhelp:Singer 4411 problems"
+    ],
+    "content_hash": "eafdee01804d415b"
+  },
+  {
+    "id": "reddit:awzzbg",
+    "url": "https://www.reddit.com/r/sewing/comments/awzzbg/is_a_singer_4411_capable_of_sewing_leather_do_i/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Is a Singer 4411 capable of sewing leather? Do I need to change anything if so? [",
+    "subreddit": "sewing",
+    "thread_id": "awzzbg",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1551664484,
+    "discovered_by": [
+      "r/sewing:Singer 4411"
+    ],
+    "content_hash": "4a76c8ca49dd2360"
+  },
+  {
+    "id": "reddit:1kwqlkp",
+    "url": "https://www.reddit.com/r/myogtacticalgear/comments/1kwqlkp/singer_4411_or_4423_i_want_to_use_up_to_1000d/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411 or 4423, I want to use up to 1000D codura and jacquard  webbing",
+    "subreddit": "myogtacticalgear",
+    "thread_id": "1kwqlkp",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1748490410,
+    "discovered_by": [
+      "all:Singer 4411",
+      "all:Singer 4411 vs 4423"
+    ],
+    "content_hash": "b963666bbe735988"
+  },
+  {
+    "id": "reddit:1haumlt",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1haumlt/a_piece_came_out_of_my_singer_4411/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "A piece came out of my singer 4411",
+    "subreddit": "sewhelp",
+    "thread_id": "1haumlt",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1733809315,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/sewhelp:Singer 4411",
+      "r/sewhelp:Singer 4411 problems"
+    ],
+    "content_hash": "6965ce4064572087"
+  },
+  {
+    "id": "reddit:1bfsmlo",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1bfsmlo/singer_4411_issues/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411 issues",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1bfsmlo",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1735434423,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/SewingForBeginners:Singer 4411",
+      "r/SewingForBeginners:Singer 4411 problems"
+    ],
+    "content_hash": "c80720a8bd98b69b"
+  },
+  {
+    "id": "reddit:15nmq2s",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/15nmq2s/if_i_buy_a_singer_zipper_foot_with_vertical/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "If i buy a Singer zipper foot with vertical needle on Amazon, will it fit on my Singer Heavy Duty 4411 sewing machine?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "15nmq2s",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1732214448,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/SewingForBeginners:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/SewingForBeginners:Singer Heavy Duty 4411",
+      "r/SewingForBeginners:Singer 4411 problems"
+    ],
+    "content_hash": "9626221fb1052675"
+  },
+  {
+    "id": "reddit:j87jgi",
+    "url": "https://www.reddit.com/r/sewing/comments/j87jgi/singer_4411_or_brother_cs6000i/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411 or Brother Cs6000i?",
+    "subreddit": "sewing",
+    "thread_id": "j87jgi",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1602297709,
+    "discovered_by": [
+      "r/sewing:Singer 4411",
+      "r/sewing:Singer 4411 problems"
+    ],
+    "content_hash": "2a1fc4da9e00858e"
+  },
+  {
+    "id": "reddit:4yy88a",
+    "url": "https://www.reddit.com/r/sewing/comments/4yy88a/i_have_a_singer_4411_a_woman_i_was_close_with/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "I have a Singer 4411. A woman I was close with died and I inherited it basically. I've never sewed before in my life and really want to. How would you suggest I begin?",
+    "subreddit": "sewing",
+    "thread_id": "4yy88a",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1472003897,
+    "discovered_by": [
+      "r/sewing:Singer 4411"
+    ],
+    "content_hash": "788436fd314844fa"
+  },
+  {
+    "id": "reddit:h8tck1",
+    "url": "https://www.reddit.com/r/sewhelp/comments/h8tck1/singer_4411_needle_alignment/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411 needle alignment.",
+    "subreddit": "sewhelp",
+    "thread_id": "h8tck1",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1592202364,
+    "discovered_by": [
+      "r/sewhelp:Singer 4411"
+    ],
+    "content_hash": "3694f0894bf6232d"
+  },
+  {
+    "id": "reddit:vhme8b",
+    "url": "https://www.reddit.com/r/myog/comments/vhme8b/singer_4411_hd_question/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411 HD Question",
+    "subreddit": "myog",
+    "thread_id": "vhme8b",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1656248572,
+    "discovered_by": [
+      "r/myog:Singer 4411",
+      "r/myog:Singer Heavy Duty 4411",
+      "r/myog:Singer Heavy Duty 4411 review",
+      "r/myog:Singer 4411 problems"
+    ],
+    "content_hash": "87a530a5ee2b3758"
+  },
+  {
+    "id": "reddit:1hgu1xs",
+    "url": "https://www.reddit.com/r/sewhelp/comments/1hgu1xs/singer_4411_bobbin_casing_help/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411 bobbin casing help!",
+    "subreddit": "sewhelp",
+    "thread_id": "1hgu1xs",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1734561542,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/sewhelp:Singer 4411",
+      "r/sewhelp:Singer 4411 problems"
+    ],
+    "content_hash": "bd31c5e2801fdc91"
+  },
+  {
+    "id": "reddit:1tjlamm",
+    "url": "https://www.reddit.com/r/BuyItForLife/comments/1tjlamm/sewing_singer_heavy_duty_4411_or_janome_3300/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sewing: singer heavy duty 4411 or Janome 3300?",
+    "subreddit": "BuyItForLife",
+    "thread_id": "1tjlamm",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1779410919,
+    "discovered_by": [
+      "all:Singer 4411",
+      "all:Singer Heavy Duty 4411"
+    ],
+    "content_hash": "11d886b16016f6a1"
+  },
+  {
+    "id": "reddit:1sc7uhn",
+    "url": "https://www.reddit.com/r/sewing/comments/1sc7uhn/need_help_with_greist_buttonholer_on_a_singer_4411/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Need help with Greist Buttonholer on a Singer 4411",
+    "subreddit": "sewing",
+    "thread_id": "1sc7uhn",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1775582257,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/sewing:Singer 4411",
+      "r/sewing:Singer 4411 problems"
+    ],
+    "content_hash": "b02a41799c1e57ad"
+  },
+  {
+    "id": "reddit:1qty4zq",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1qty4zq/singer_4411/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1qty4zq",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1770299269,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/SewingForBeginners:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/SewingForBeginners:Singer Heavy Duty 4411",
+      "all:Singer Heavy Duty 4411 review",
+      "r/SewingForBeginners:Singer Heavy Duty 4411 review",
+      "r/SewingForBeginners:Singer 4411 problems"
+    ],
+    "content_hash": "9f41b09a58ff92b9"
+  },
+  {
+    "id": "reddit:1lut46m",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1lut46m/singer_heavy_duty_4411_vs_singer_mx231_vs_brother/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer Heavy Duty 4411 VS Singer MX231 VS Brother  CS5055 for plush/ what to get?",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1lut46m",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1752073252,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/SewingForBeginners:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/SewingForBeginners:Singer Heavy Duty 4411",
+      "r/SewingForBeginners:Singer 4411 problems",
+      "all:Singer 4411 vs 4423",
+      "r/SewingForBeginners:Singer 4411 vs 4423"
+    ],
+    "content_hash": "1d24f6c46191ee3b"
+  },
+  {
+    "id": "reddit:1iwkl2a",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/1iwkl2a/singer_4411_breaking_thread/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411 breaking thread",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "1iwkl2a",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1740579474,
+    "discovered_by": [
+      "all:Singer 4411",
+      "r/SewingForBeginners:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "r/SewingForBeginners:Singer Heavy Duty 4411",
+      "all:Singer 4411 problems",
+      "r/SewingForBeginners:Singer 4411 problems"
+    ],
+    "content_hash": "ef36893745cd9541"
+  },
+  {
+    "id": "reddit:ifua20",
+    "url": "https://www.reddit.com/r/sewhelp/comments/ifua20/how_do_i_move_my_needle_bar_backward_singer_4411/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "How do I move my needle bar backward? Singer 4411",
+    "subreddit": "sewhelp",
+    "thread_id": "ifua20",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1598666871,
+    "discovered_by": [
+      "r/sewhelp:Singer 4411"
+    ],
+    "content_hash": "ed2c5fc350bcd163"
+  },
+  {
+    "id": "reddit:cbmpky",
+    "url": "https://www.reddit.com/r/sewing/comments/cbmpky/why_does_my_top_thread_keep_jamming_i_suspect_i/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Why does my top thread keep jamming? [I suspect I seated the bobbin case incorrectly...] Help/Suggestions?? [Singer 4411 Heavy Duty]",
+    "subreddit": "sewing",
+    "thread_id": "cbmpky",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1562813176,
+    "discovered_by": [
+      "r/sewing:Singer 4411",
+      "r/sewing:Singer Heavy Duty 4411"
+    ],
+    "content_hash": "74d8340024bd3a34"
+  },
+  {
+    "id": "reddit:16zxgtk",
+    "url": "https://www.reddit.com/r/sewhelp/comments/16zxgtk/singer_hd_4411/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer HD 4411",
+    "subreddit": "sewhelp",
+    "thread_id": "16zxgtk",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1696802300,
+    "discovered_by": [
+      "r/sewhelp:Singer 4411",
+      "r/sewhelp:Singer 4411 problems"
+    ],
+    "content_hash": "e654150151ebcf8d"
+  },
+  {
+    "id": "reddit:xli71r",
+    "url": "https://www.reddit.com/r/sewhelp/comments/xli71r/buttonhole_thread_too_loose_fabric_is_stabilized/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Buttonhole thread too loose! Fabric is stabilized — using a Singer 4411 4-step buttonhole. Trying to figure how what adjustments to make after no luck with tension adjustments. Thank you!",
+    "subreddit": "sewhelp",
+    "thread_id": "xli71r",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1663943102,
+    "discovered_by": [
+      "r/sewhelp:Singer 4411",
+      "r/sewhelp:Singer 4411 problems"
+    ],
+    "content_hash": "170c7bc77afd2c6f"
+  },
+  {
+    "id": "reddit:b8eceb",
+    "url": "https://www.reddit.com/r/sewhelp/comments/b8eceb/singer_4411_is_now_constantly_breaking_needles/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411 is now constantly breaking needles after rough encounter with sequins.",
+    "subreddit": "sewhelp",
+    "thread_id": "b8eceb",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1554188371,
+    "discovered_by": [
+      "r/sewhelp:Singer 4411",
+      "r/sewhelp:Singer Heavy Duty 4411"
+    ],
+    "content_hash": "202b5bfd81de8400"
+  },
+  {
+    "id": "reddit:uw3sxx",
+    "url": "https://www.reddit.com/r/myog/comments/uw3sxx/bobbin_looping_help_hi_all_i_am_sewing_on_a/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Bobbin looping help. Hi all, I am sewing on a singer 4411. Just re wound a bobbin (using Mara 70 thread w/ 90/14 needle) and re threaded the machine but still getting loops on the bottom. Any advice? Tension is in the middle at 4 with a straight stitch set. Any help would be greatly appreciated!!",
+    "subreddit": "myog",
+    "thread_id": "uw3sxx",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1653332953,
+    "discovered_by": [
+      "r/myog:Singer 4411",
+      "r/myog:Singer 4411 problems"
+    ],
+    "content_hash": "50eb1545a5f9777f"
+  },
+  {
+    "id": "reddit:k825sa",
+    "url": "https://www.reddit.com/r/myog/comments/k825sa/singer_4411_and_18oz_canvas/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Singer 4411 and 18oz Canvas",
+    "subreddit": "myog",
+    "thread_id": "k825sa",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1607650911,
+    "discovered_by": [
+      "r/myog:Singer 4411",
+      "r/myog:Singer 4411 problems"
+    ],
+    "content_hash": "2715d98127ce0223"
+  },
+  {
+    "id": "reddit:1bwnbr7",
+    "url": "https://www.reddit.com/r/ThriftStoreHauls/comments/1bwnbr7/found_a_singer_4411_for_36_excited_to_add_a/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Found a Singer 4411 for $36! Excited to add a modern machine to my quilting \"studio\" (aka spare bedroom 💀)",
+    "subreddit": "ThriftStoreHauls",
+    "thread_id": "1bwnbr7",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1712355701,
+    "discovered_by": [
+      "all:Singer 4411",
+      "all:Singer Heavy Duty 4411",
+      "all:Singer 4411 vs 4423"
+    ],
+    "content_hash": "2b259095a1c8e9f1"
+  },
+  {
+    "id": "reddit:uw3jot",
+    "url": "https://www.reddit.com/r/sewhelp/comments/uw3jot/bottom_looping_help_hi_all_i_am_sewing_on_a/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Bottom looping help. Hi all, I am sewing on a singer 4411. Just re wound a bobbin (using Mara 70 thread w/ 90/14 needle) and re threaded the machine but still getting loops on the bottom. Any advice? Tension is in the middle at 4 with a straight stitch set. Any help would be greatly appreciated!!",
+    "subreddit": "sewhelp",
+    "thread_id": "uw3jot",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1653329300,
+    "discovered_by": [
+      "r/sewhelp:Singer 4411",
+      "r/sewhelp:Singer 4411 problems"
+    ],
+    "content_hash": "4fd44d839578c099"
+  },
+  {
+    "id": "reddit:eh0eyx",
+    "url": "https://www.reddit.com/r/sewhelp/comments/eh0eyx/has_anyone_used_a_singer_heavy_duty_4411/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Has anyone used a Singer Heavy Duty 4411?",
+    "subreddit": "sewhelp",
+    "thread_id": "eh0eyx",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1577598545,
+    "discovered_by": [
+      "r/sewhelp:Singer 4411",
+      "r/sewhelp:Singer Heavy Duty 4411"
+    ],
+    "content_hash": "44f49574954eeb47"
+  },
+  {
+    "id": "reddit:102olyz",
+    "url": "https://www.reddit.com/r/SewingForBeginners/comments/102olyz/help_with_singer_4411_bobbin_issue/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Help with Singer 4411 - Bobbin Issue??",
+    "subreddit": "SewingForBeginners",
+    "thread_id": "102olyz",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1672891664,
+    "discovered_by": [
+      "r/SewingForBeginners:Singer 4411",
+      "r/SewingForBeginners:Singer 4411 problems"
+    ],
+    "content_hash": "d834cd9ed27c3346"
+  },
+  {
+    "id": "reddit:1deh8rh",
+    "url": "https://www.reddit.com/r/FursuitMaking/comments/1deh8rh/cons_and_alternatives_to_singer_4411/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Cons and alternatives to singer 4411",
+    "subreddit": "FursuitMaking",
+    "thread_id": "1deh8rh",
+    "first_seen": "2026-10-02T04:35:20.563Z",
+    "last_fetched": "2026-10-02T04:35:20.563Z",
+    "status": "ok",
+    "cursor_utc": 1782540483,
+    "discovered_by": [
+      "all:Singer 4411"
+    ],
+    "content_hash": "e95e14ca0515a52d"
+  }
+]

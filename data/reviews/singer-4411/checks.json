@@ -1,0 +1,50 @@
+{
+  "slug": "singer-4411",
+  "generated": "2026-10-02T04:41:11.597Z",
+  "counts": {
+    "error": 0,
+    "warn": 4
+  },
+  "items": [
+    {
+      "level": "warn",
+      "id": "siblings",
+      "message": "9 difference claims compare against Singer Heavy Duty 4452 but editor.json siblings has no pattern for it"
+    },
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: of 79 sampled reviews, 2 name this model, 0 name a sibling only, 77 name neither"
+    },
+    {
+      "level": "warn",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: only 2 of 79 reviews name this model while siblings exist; confirm the listing is not pooled"
+    },
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 2 ASINs (B003VWXZKG, B0HCCBJXDZ); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 237, this 157, sibling 15, unclear 65"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "60 Reddit threads, 60 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 115 voices (78 first-hand), 62 sources, status draft"
+    }
+  ]
+}

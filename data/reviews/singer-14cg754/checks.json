@@ -1,0 +1,45 @@
+{
+  "slug": "singer-14cg754",
+  "generated": "2026-10-02T04:41:12.957Z",
+  "counts": {
+    "error": 0,
+    "warn": 4
+  },
+  "items": [
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 2 ASINs (B003H3J50S, B0085YBNM2); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 22, this 22, sibling 0, unclear 0"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "16 Reddit threads, 5 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"weightLb\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"dimensionsIn\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 18 voices (15 first-hand), 18 sources, status draft"
+    }
+  ]
+}
