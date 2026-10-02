@@ -1,0 +1,1185 @@
+{
+  "slug": "janome-hd5000",
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+  "reviewedOn": "2026-10-02",
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 60,
+    "itemsCollected": 519,
+    "statements": 73,
+    "voices": 60,
+    "ownerVoices": 39,
+    "dateRange": [
+      2020,
+      2026
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 58,
+        "items": 517
+      },
+      "retailer": {
+        "sources": 2,
+        "items": 0
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.1 from 80 ratings is the white HD5000 listing (B084M81BC6) and 4.1 from 141 ratings is the separate Black Edition listing (B09MDLYYPC); no pooled variations were flagged on either, and neither returned review text."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 15,
+      "voices": 15,
+      "ownerVoices": 11,
+      "sources": 9,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 15
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 7,
+        "mixed": 0,
+        "neutral": 4
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ce1565a8d",
+          "polarity": "negative",
+          "claim": "New unit arrived with a lid that would not close without the side cover popping out.",
+          "quote": "I cannot get the lid to close right",
+          "url": "https://www.reddit.com/r/sewing/comments/1n7sozl/lid_not_closing_janome_hd_5000/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c7e41cd3d",
+          "polarity": "negative",
+          "claim": "Refurbished unit starts clacking every 50 to 100 hours, then the bobbin jams, despite two services and a new bobbin case.",
+          "quote": "slowly starts to clack with every stitch",
+          "url": "https://www.reddit.com/r/sewingmachinerepair/comments/18kl6w0/reoccurring_bobbin_problem_with_janome_hd5000/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c311c3812",
+          "polarity": "positive",
+          "claim": "Owner has used the machine regularly for years with no complaints.",
+          "quote": "I've had mine for years, and use it regularly.",
+          "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/ludl6qp/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c7e41cd3d",
+        "c174dc995",
+        "c36556a4c",
+        "ce1565a8d",
+        "c7843b835",
+        "cf6a03eda",
+        "c883b6138",
+        "c7e627f94",
+        "c8796c3b8",
+        "c9d1c4d5b",
+        "c6bcf08f1",
+        "ccd4c2cd9",
+        "c311c3812",
+        "c70c308fe",
+        "c385c026b"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 12,
+      "voices": 10,
+      "ownerVoices": 3,
+      "sources": 7,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 10
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 3
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c400db851",
+          "polarity": "negative",
+          "claim": "Owner sewing handbags finds it weak on heavy leather and thick stabilizer.",
+          "quote": "It's not great for heavy leather or thick stabilizer",
+          "url": "https://www.reddit.com/r/sewing/comments/1ivo7tp/upgrade_to_janome_hd5000/me81680/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ce831dadb",
+          "polarity": "positive",
+          "claim": "Owner reports no trouble with canvas, denim and thin vinyl.",
+          "quote": "no problem using it with canvas, denim, and thin vinyl",
+          "url": "https://www.reddit.com/r/sewing/comments/1ivo7tp/upgrade_to_janome_hd5000/me81680/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cf954f47d",
+          "polarity": "positive",
+          "claim": "Owner reports sewing up to 8 layers of denim or canvas with no sound change, skipped stitches or slowing.",
+          "quote": "no problems sewing through up to 8 layers of denim or canvas",
+          "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/lud9p84/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c6eba5995",
+        "c400db851",
+        "ce831dadb",
+        "c8672eaed",
+        "c5e5633fe",
+        "c819c71f1",
+        "c2bc67dfa",
+        "cda6e4c0d",
+        "cce2eccbf",
+        "cdfcf6757",
+        "cf954f47d",
+        "c6ff5bd43"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 9,
+      "voices": 8,
+      "ownerVoices": 8,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 8
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 5,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c488a65ce",
+          "polarity": "negative",
+          "claim": "HD5000 owner had a wide polyester spool pop out of the thread guide; a smaller spool worked fine.",
+          "quote": "kept popping out of the guide",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1w6acsp/thread_jumps_out_of_thread_guide_on_janome_hd5000/p895z0e/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cf02afba6",
+          "polarity": "negative",
+          "claim": "Owner finds thread slipping out of the thread guide after sewing a while.",
+          "quote": "I'll find the thread is out from under the guide",
+          "url": "https://www.reddit.com/r/SewingMachineEdu/comments/1w6a8t6/thread_jumps_out_of_thread_guide_on_janome_hd5000/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c906e563f",
+          "polarity": "positive",
+          "claim": "Owner fixed the guide problem by using the small spool holder mount with the felt.",
+          "quote": "forgot there's a little spool holder mount",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1w6acsp/thread_jumps_out_of_thread_guide_on_janome_hd5000/p8fvfnu/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cf89a276c",
+          "polarity": "positive",
+          "claim": "Owner reports no bobbin issues when winding slowly and watching tension.",
+          "quote": "has never given me an issue with the bobbin!",
+          "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/ludnxpn/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c46897b42",
+          "polarity": "mixed",
+          "claim": "Owner notes thread leaves the guide when changing colours but sewing is not affected.",
+          "quote": "It doesn't cause problems with the sewing",
+          "url": "https://www.reddit.com/r/sewinghelp/comments/1w6abuh/thread_jumps_out_of_thread_guide_on_janome_hd5000/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cbb22fe5e",
+        "c488a65ce",
+        "c906e563f",
+        "cf02afba6",
+        "c46897b42",
+        "cf43db51f",
+        "cf89a276c",
+        "ca6d6bc83",
+        "c90de8a3d"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 3,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 6
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 4
+      },
+      "years": [
+        2021,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cacc050e1",
+          "polarity": "negative",
+          "claim": "Owner finds the HD5000 handles Eloflex stretch thread poorly, with zigzag bunching badly despite needle, tension and foot changes.",
+          "quote": "it appears to hate Eloflex thread",
+          "url": "https://www.reddit.com/r/sewing/comments/owjbsf/eloflex_failure/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c0cf2fc70",
+          "polarity": "positive",
+          "claim": "Owner says the buttonhole comes out very consistent.",
+          "quote": "super consistent buttonhole",
+          "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/lud9p84/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c0cf2fc70",
+        "c8e6d73d3",
+        "c1e4d1946",
+        "c5dd0ceb3",
+        "c1df47289",
+        "cacc050e1"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 3,
+      "sources": 4,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 5
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2020,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cf1ed821f",
+          "polarity": "positive",
+          "claim": "Owner finds the variety of included feet good.",
+          "quote": "good variety of feet",
+          "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/lud9p84/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cc6782ddf",
+          "polarity": "positive",
+          "claim": "Owner chose the Black Edition at the same price because it included extra free accessories.",
+          "quote": "came with extra free accessories",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1w6acsp/thread_jumps_out_of_thread_guide_on_janome_hd5000/p8u1opj/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cc6782ddf",
+        "ca083bd7a",
+        "c8e429cc5",
+        "cf1ed821f",
+        "c36ca6499"
+      ]
+    },
+    {
+      "theme": "learning_curve",
+      "label": "Learning curve",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 5,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 5
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c7fea136e",
+          "polarity": "negative",
+          "claim": "Owner found bobbin winding had a learning curve.",
+          "quote": "bit of a learning curve with bobbin winding for me",
+          "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/lud9p84/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cdab3a83e",
+          "polarity": "negative",
+          "claim": "New HD5000 owner says the manual has no table naming the stitches or explaining what each does.",
+          "quote": "there is no table to explain the name or what each stitch does",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1kh2cmy/resource_for_stitch_names_and_multiple/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c6184e8f9",
+          "polarity": "mixed",
+          "claim": "Owner says bobbin threading differs from most machines but is learnable from the manual.",
+          "quote": "the way you thread the bobbin is a bit different from most machines",
+          "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/ludddm4/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cedd132b5",
+        "c7fea136e",
+        "c6184e8f9",
+        "c03dfe2af",
+        "cdab3a83e"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 4
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c91ad42d5",
+          "polarity": "negative",
+          "claim": "Owner says the bobbin thread pops off the tension wheel during winding and uses a separate winder.",
+          "quote": "The thread pops off the tension wheel for the bobbin.",
+          "url": "https://www.reddit.com/r/sewing/comments/1ivo7tp/upgrade_to_janome_hd5000/me9opj1/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cb3480e00",
+          "polarity": "negative",
+          "claim": "New owner struggles to wind a bobbin from a large 1094 yard spool.",
+          "quote": "I'm trying to load the bobbin and it keeps coming out messed up",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1kvlu2o/can_you_use_1000_yard_spool_on_janome_hd5000/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cee9c51db",
+          "polarity": "mixed",
+          "claim": "Owner calls the bobbin winder finicky but likes the machine.",
+          "quote": "the bobbin winder is finicky",
+          "url": "https://www.reddit.com/r/sewing/comments/1ivo7tp/upgrade_to_janome_hd5000/me7dzvz/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cee9c51db",
+        "c91ad42d5",
+        "cb3480e00",
+        "c592e933e"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c64bb261c",
+          "polarity": "negative",
+          "claim": "Shopper says the HD5000 is louder, clunkier and less intuitive than the Brother ST150.",
+          "quote": "its louder, clunkier, and not as intuitive",
+          "url": "https://www.reddit.com/r/sewhelp/comments/1papf90/how_to_test_out_machines_when_shopping/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c14da5786",
+          "polarity": "positive",
+          "claim": "Owner finds the machine sound pleasant and not whirry.",
+          "quote": "pleasant sound - not too high pitched",
+          "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/lud9p84/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c8707b5ef",
+        "c14da5786",
+        "c64bb261c"
+      ]
+    },
+    {
+      "theme": "walking_foot",
+      "label": "Walking foot",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2023
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cc42ea23c",
+          "polarity": "negative",
+          "claim": "HD5000 owner with a walking foot attachment agrees it has little clearance.",
+          "quote": "I have a walking foot attachment for my HD5000",
+          "url": "https://www.reddit.com/r/myog/comments/14n7mnq/leatherwork_with_domestic_heavy_duty_machine/jq5wtgc/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c550c79ed",
+        "cc42ea23c"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2023,
+        2023
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c6c39b684",
+          "polarity": "negative",
+          "claim": "Owner says the manual gives no oiling instructions.",
+          "quote": "the manual has zero instructions on oiling",
+          "url": "https://www.reddit.com/r/sewingmachinerepair/comments/18kl6w0/reoccurring_bobbin_problem_with_janome_hd5000/kdy80k6/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c3dd1df6a",
+        "c6c39b684"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c939b1b3e",
+          "polarity": "negative",
+          "claim": "New owner could not get the lid to close properly because the side cover popped out.",
+          "quote": "I cannot get the lid to close right",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1n7snx3/can_anyone_help_me_identify_what_is_wrong/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c7c7786b6",
+          "polarity": "positive",
+          "claim": "Owner of a new Janome calls it a tank.",
+          "quote": "It’s a tank",
+          "url": "https://www.reddit.com/r/sewing/comments/1gexn8f/trying_to_decide_between_janome_hd500_or_baby/ludnxpn/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c7c7786b6",
+        "c939b1b3e"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c93089124"
+      ]
+    },
+    {
+      "theme": "free_motion",
+      "label": "Free-motion quilting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c1151c185",
+          "polarity": "positive",
+          "claim": "Owner quilted a full quilt on the HD5000, including some free-motion quilting.",
+          "quote": "quilted it myself sitting on my kitchen floor with my Janome HD5000",
+          "url": "https://www.reddit.com/r/quilting/comments/1uj78wu/first_quilt_wedding_gift_for_friends/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c1151c185"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c2185d6b3"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "cda61bb7a"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B084M81BC6",
+      "pageRating": 4.1,
+      "pageCount": 80,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "lowRated": 0,
+      "sampled": "0 top reviews (0 US, 0 other countries) of 80 ratings"
+    },
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B09MDLYYPC",
+      "pageRating": 4.1,
+      "pageCount": 141,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "lowRated": 0,
+      "sampled": "0 top reviews (0 US, 0 other countries) of 141 ratings"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Stitch count",
+      "juki": "18 (maker page and HD5000BE page)",
+      "others": "19 (Ken's spec block), 27 (comparison blog)",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome HD-5000 product page",
+          "url": "https://www.janome.com/product/hd-5000/"
+        }
+      ],
+      "field": "Stitch count",
+      "source": "maker-page"
+    },
+    {
+      "label": "Maximum stitch width",
+      "juki": "6.5 mm",
+      "others": "7 mm (earlier research, Ken's said 6.5 mm)",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome HD-5000 product page",
+          "url": "https://www.janome.com/product/hd-5000/"
+        },
+        {
+          "label": "Janome HD-3000 product page",
+          "url": "https://www.janome.com/product/hd-3000/"
+        }
+      ],
+      "field": "Maximum stitch width",
+      "source": "maker-page"
+    },
+    {
+      "label": "Maximum stitch length",
+      "juki": "4 mm",
+      "others": "",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome HD-5000 product page",
+          "url": "https://www.janome.com/product/hd-5000/"
+        }
+      ],
+      "field": "Maximum stitch length",
+      "source": "maker-page"
+    },
+    {
+      "label": "Feed dog",
+      "juki": "5-piece (Specifications) vs seven-piece (description text), same page",
+      "others": "5-piece (Amazon listing), 7-piece (sewingpartsonline)",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome HD-5000 product page",
+          "url": "https://www.janome.com/product/hd-5000/"
+        }
+      ],
+      "field": "Feed system",
+      "source": "maker-page"
+    },
+    {
+      "label": "Hook type",
+      "juki": "Top Loading Full Rotary Hook Bobbin",
+      "others": "Horizontal full rotary hook (dealer copy)",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome HD-5000 product page",
+          "url": "https://www.janome.com/product/hd-5000/"
+        }
+      ],
+      "field": "Hook",
+      "source": "maker-page"
+    },
+    {
+      "label": "Throat space",
+      "juki": "Workspace W 6.5 in x H 4.6 in (not labelled needle to arm)",
+      "others": "",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Janome HD-5000 product page",
+          "url": "https://www.janome.com/product/hd-5000/"
+        }
+      ],
+      "field": "Throat / workspace",
+      "source": "maker-page"
+    },
+    {
+      "label": "Weight",
+      "juki": "18.7",
+      "others": "18.7 lb (Ken's)",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome HD-5000 product page",
+          "url": "https://www.janome.com/product/hd-5000/"
+        }
+      ],
+      "field": "Weight",
+      "source": "maker-page"
+    },
+    {
+      "label": "Dimensions",
+      "juki": "W 16 x H 11.3 x D 7.2 in",
+      "others": "16 x 7 x 11 in (Ken's)",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome HD-5000 product page",
+          "url": "https://www.janome.com/product/hd-5000/"
+        }
+      ],
+      "field": "Dimensions",
+      "source": "maker-page"
+    },
+    {
+      "label": "Frame",
+      "juki": "Single-cast aluminum frame",
+      "others": "Single-cast aluminum frame (sewingpartsonline)",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome HD-5000 product page",
+          "url": "https://www.janome.com/product/hd-5000/"
+        }
+      ],
+      "field": "Frame",
+      "source": "maker-page"
+    },
+    {
+      "label": "Needle threader",
+      "juki": "Built-in, one-hand",
+      "others": "",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome HD-5000 product page",
+          "url": "https://www.janome.com/product/hd-5000/"
+        }
+      ],
+      "field": "Needle threader",
+      "source": "maker-page"
+    },
+    {
+      "label": "Presser foot lift",
+      "juki": "Extra-high; about 1/4 in above normal up (manual)",
+      "others": "Extra-high (dealer copy)",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "HD-5000 manual (PDF)",
+          "url": "https://www.janome.com/wp-content/uploads/2021/11/hd5000-instruction-manual.pdf"
+        }
+      ],
+      "field": "Presser foot lift",
+      "source": "manual"
+    },
+    {
+      "label": "Buttonhole",
+      "juki": "One-step (HD-5000 Key Features) vs 1 Four-Step (HD5000BE and HD-3000 Specifications)",
+      "others": "One-step (dealers)",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome HD-5000 product page",
+          "url": "https://www.janome.com/product/hd-5000/"
+        },
+        {
+          "label": "Janome HD5000BE product page",
+          "url": "https://www.janome.com/product/hd5000be/"
+        }
+      ],
+      "field": "Buttonhole",
+      "source": "maker-page"
+    },
+    {
+      "label": "Maximum speed",
+      "juki": "Not published",
+      "others": "860 spm (Ken's)",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Janome HD-5000 product page",
+          "url": "https://www.janome.com/product/hd-5000/"
+        }
+      ],
+      "field": "Speed",
+      "source": "maker-page"
+    },
+    {
+      "label": "Motor",
+      "juki": "Not published",
+      "others": "",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Janome HD-5000 product page",
+          "url": "https://www.janome.com/product/hd-5000/"
+        }
+      ],
+      "field": "Motor",
+      "source": "maker-page"
+    },
+    {
+      "label": "Included feet",
+      "juki": "7 feet; quilting guide bar standard; Quilting Attachment Kit is optional on the HD-5000, standard on the HD5000BE",
+      "others": "Quilting kit included (dealer copy)",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome HD-5000 product page",
+          "url": "https://www.janome.com/product/hd-5000/"
+        },
+        {
+          "label": "Janome HD5000BE product page",
+          "url": "https://www.janome.com/product/hd5000be/"
+        }
+      ],
+      "field": "Standard accessories (HD-5000 page)",
+      "source": "maker-page"
+    },
+    {
+      "label": "HD5000BE",
+      "juki": "Same specification block; Quilting Attachment Kit standard",
+      "others": "Amazon sells it as 'HD-5000 Black Edition'",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome HD5000BE product page",
+          "url": "https://www.janome.com/product/hd5000be/"
+        }
+      ],
+      "field": "Variant: HD5000BE (Black Edition)",
+      "source": "maker-page-be"
+    },
+    {
+      "label": "Warranty",
+      "juki": "25 yr materials and workmanship; 5 yr electronic parts; 1 yr labor; 1 yr if used commercially; authorized US dealer purchase only",
+      "others": "Amazon listing: 2 yr electrical",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome warranty PDF",
+          "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+        },
+        {
+          "label": "Janome warranty page",
+          "url": "https://www.janome.com/support/warranty/"
+        }
+      ],
+      "field": "Warranty",
+      "source": "warranty-pdf"
+    },
+    {
+      "label": "Price",
+      "juki": "Dealer pricing only",
+      "others": "",
+      "status": "dealer only",
+      "links": [
+        {
+          "label": "Janome HD-5000 product page",
+          "url": "https://www.janome.com/product/hd-5000/"
+        }
+      ],
+      "field": "Price",
+      "source": "maker-page"
+    },
+    {
+      "label": "Marketing claims",
+      "juki": "'Heavy-duty mechanical workhorse' (claim)",
+      "others": "'Sews 12 layers of denim' (dealer title)",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Janome HD-5000 product page",
+          "url": "https://www.janome.com/product/hd-5000/"
+        }
+      ],
+      "field": "Claims (marketing wording)",
+      "source": "maker-page"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "HD3000",
+      "label": "Janome HD3000",
+      "rows": [
+        {
+          "feature": "Market availability",
+          "urls": 2,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "Commenters say the HD5000 is sold in Canada and the HD3000 in the US. Janome's US site lists both.",
+          "check": "Reddit comments; Janome US pages list both machines",
+          "examples": [
+            {
+              "claim_id": "ccecb890e",
+              "claim": "Commenter says apart from stitch width the main difference is that the HD5000 is sold only in Canada.",
+              "quote": "the 5000HD is only available in Canada",
+              "url": "https://www.reddit.com/r/sewing/comments/sraxe6/difference_between_janome_machines/hwrnla1/"
+            },
+            {
+              "claim_id": "c3ed53425",
+              "claim": "Poster says the HD5000 is the Canadian equivalent of the HD3000.",
+              "quote": "the CDN equivalent of the HD3000",
+              "url": "https://www.reddit.com/r/sewing/comments/owjbsf/eloflex_failure/"
+            }
+          ],
+          "claimIds": [
+            "ccecb890e",
+            "c3ed53425"
+          ]
+        },
+        {
+          "feature": "Stitch width",
+          "urls": 1,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "One commenter lists the HD5000 at 7 mm and the HD3000 at 6.5 mm. Janome's pages list 6.5 mm for both, so the 7 mm figure is not supported.",
+          "check": "Reddit comment contradicted by Janome product pages, 2026-10-02",
+          "examples": [
+            {
+              "claim_id": "ca43a981f",
+              "claim": "Commenter says the only difference is max stitch width, 6.5 mm versus 7.00 mm; the order given is ambiguous about which model is which.",
+              "quote": "the only difference is the maximum stitch width. 6.5mm vs 7.00mm.",
+              "url": "https://www.reddit.com/r/sewing/comments/sraxe6/difference_between_janome_machines/hwqss8g/"
+            }
+          ],
+          "claimIds": [
+            "ca43a981f"
+          ]
+        },
+        {
+          "feature": "Overlock stitch",
+          "urls": 1,
+          "classes": [
+            "reddit"
+          ],
+          "summary": "One commenter says the HD5000 has an overlocking stitch and the HD3000 does not. Janome's pages do not list one for either.",
+          "check": "unverified, Reddit only",
+          "examples": [
+            {
+              "claim_id": "c4f50d51c",
+              "claim": "Poster chose HD5000 over HD3000 because the 5000 has an overlocking stitch and the 3000 does not.",
+              "quote": "the 5000 has the overlocking stitch and the 3000 doesn’t",
+              "url": "https://www.reddit.com/r/sewing/comments/1aidgy6/finally_moving_on_to_a_new_machine_need_advice/kotuihw/"
+            }
+          ],
+          "claimIds": [
+            "c4f50d51c"
+          ]
+        },
+        {
+          "feature": "Maker page spec block",
+          "urls": 0,
+          "classes": [],
+          "summary": "Janome lists 18 stitches, 5 piece feed dog, 6.5 mm max width, 4 mm max length, workspace W 6.5 x H 4.6 in, 18.7 lb and a four-step buttonhole.",
+          "check": "janome.com HD-3000 product page, fetched 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "HD1000",
+      "label": "Janome HD1000",
+      "rows": [
+        {
+          "feature": "Maker page spec block",
+          "urls": 0,
+          "classes": [],
+          "summary": "Janome lists 14 stitches plus a four-step buttonhole, a 3-piece feed dog, 4 mm max stitch length and a built-in needle threader.",
+          "check": "janome.com HD-1000 product page, fetched 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

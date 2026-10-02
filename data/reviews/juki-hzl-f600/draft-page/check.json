@@ -1,0 +1,14 @@
+{
+  "slug": "juki-hzl-f600",
+  "generated": "2026-10-02T11:48:17.170Z",
+  "counts": {
+    "error": 0,
+    "warn": 1
+  },
+  "items": [
+    {
+      "level": "warn",
+      "message": "numbers in the copy that are not in the evidence bundle: 0038, 299"
+    }
+  ]
+}

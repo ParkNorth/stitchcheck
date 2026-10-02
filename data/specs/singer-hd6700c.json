@@ -24,8 +24,8 @@
       "source": null
     },
     "maxSpm": {
-      "value": 1100,
-      "source": "https://www.amazon.com/SINGER-HD6700-Electronic-Machine-Applications/dp/B08JH88BRN"
+      "value": 1000,
+      "source": "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf"
     },
     "threads": {
       "value": null,
@@ -36,20 +36,20 @@
       "source": null
     },
     "throatIn": {
-      "value": 6.4,
-      "source": "https://www.sewingmachinesplus.com/230255112.php"
+      "value": null,
+      "source": null
     },
     "needleSystem": {
       "value": null,
       "source": null
     },
     "presserFootLift": {
-      "value": null,
-      "source": null
+      "value": "6 mm (shared HD 6700C and HD 6705C manual)",
+      "source": "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf"
     },
     "threadTrimmer": {
-      "value": "None; a tie-off button is included and the automatic thread cutter is listed as a 6800C feature",
-      "source": "https://bobbinhub.com/singer-6700c-vs-6800c/"
+      "value": "No thread cutter listed; a tie-off button is listed; the manual lists a hand thread knife for trimming ends (shared manual)",
+      "source": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
     },
     "feedSystem": {
       "value": null,
@@ -60,8 +60,8 @@
       "source": "https://www.kenssewingcenter.com/singer-heavy-duty-6700c-sewing-machine.html"
     },
     "motor": {
-      "value": "Singer describes a powerful motor with extra high sewing speed; wattage not published",
-      "source": "https://www.sewingmachinesplus.com/230255112.php"
+      "value": "Singer describes a powerful motor with extra high sewing speed; rated 0.7 A, 120 V, 60 Hz; wattage not published",
+      "source": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
     },
     "frame": {
       "value": "Full metal interior frame, stainless steel bedplate",
@@ -69,19 +69,19 @@
     },
     "weightLb": {
       "value": 15.4,
-      "source": "https://www.sewingpartsonline.com/products/singer-heavy-duty-66700c-mechanical-sewing-machine"
+      "source": "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf"
     },
     "dimensionsIn": {
-      "value": "17.5 x 7.5 x 11 (W x D x H, Amazon listing)",
-      "source": "https://www.amazon.com/SINGER-HD6700-Electronic-Machine-Applications/dp/B08JH88BRN"
+      "value": "17.3 x 7.5 x 10.9 (W x D x H, Singer product page; Amazon lists 17.5 x 7.5 x 11)",
+      "source": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
     },
     "includedFeet": {
       "value": "10 presser feet: all purpose, zipper, buttonhole, blind hem, button sewing, Sew Easy, satin stitch, even feed (walking), open toe and cording; 4 Class 15 transparent bobbins, large and small spool holders, spool pin felt, auxiliary spool pin, L screwdriver, brush and seam ripper, soft cover, pack of needles",
       "source": "https://www.amazon.com/SINGER-HD6700-Electronic-Machine-Applications/dp/B08JH88BRN"
     },
     "warrantyUs": {
-      "value": "25 yr limited on machine head, 2 yr on motor, light, wiring, switches, speed control and electronics, 90 days on adjustments, belts, rings, bulbs and attachments",
-      "source": "https://www.singer.com/pages/singer-sewing-machine-warranty-coverage"
+      "value": "Limited 25/1 per Singer's product page and linked PDF: 25 years on the frame, 1 year on parts and adjustments; original purchaser, authorized sellers, household use",
+      "source": "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-d3361c80-1e88-4d01-9381-fe3e62f20ef4-singer%2025-1%20warranty%20471068326e.pdf"
     },
     "needleThreader": {
       "value": "Built-in needle threader",
@@ -92,26 +92,42 @@
       "source": "https://www.amazon.com/SINGER-HD6700-Electronic-Machine-Applications/dp/B08JH88BRN"
     },
     "speedControl": {
-      "value": "Speed control slider; no needle up/down button (handwheel positions the needle)",
-      "source": "https://bobbinhub.com/singer-6700c-vs-6800c/"
+      "value": "Speed control lever sets the maximum sewing speed",
+      "source": "https://www.singer.com/products/singer-heavy-duty-6700c-sewing-machine"
     },
     "presserFootPressure": {
       "value": "Adjustable",
       "source": "https://www.sewingmachinesplus.com/230255112.php"
+    },
+    "needleUpDown": {
+      "value": null,
+      "source": null
+    },
+    "startStop": {
+      "value": null,
+      "source": null
     }
   },
   "claims": [
-    "\"Heavy Duty\" (Singer series name, product page; it is a model line, not a duty rating)",
-    "\"a workhorse with endless possibilities\" (manufacturer claim, repeated on the Sewing Machines Plus listing)",
-    "\"Strong Motor with Enhanced Piercing Power\" (manufacturer claim in the Walmart listing title)",
-    "\"able to sew through thick fabrics like denim and leather with ease\" (manufacturer claim, singer.com product page)",
-    "\"411 stitch applications\" (manufacturer count of techniques, not of built-in stitch patterns)"
+    "\"Heavy Duty\" (Singer series name; it is a model line, not a duty rating)",
+    "\"a workhorse with endless possibilities\" (Singer claim, repeated by dealers)",
+    "\"powerful motor\" with \"extra high sewing speed\" and \"Professional speed for faster results\" (Singer claims; no wattage published)",
+    "\"designed with your heavy duty projects in mind, from denim to canvas\" (Singer claim; no fabric thickness or layer rating published)",
+    "\"a generous C space allows you to sew larger projects like quilts with ease\" (Singer claim)",
+    "\"411 stitch applications\" (Singer count of techniques, not of built-in stitch patterns)",
+    "\"Up to 25 Year Warranty Coverage\" (Singer wording; the split is 25 years frame, 1 year parts)"
   ],
   "conflicts": [
-    "Stitch count: Singer's page is quoted as 200 built-in stitch applications while Amazon, Walmart and dealer titles say 411 stitch applications. No source gives a plain count of stitch patterns. Catalog leaves stitchCount null and quotes both numbers.",
-    "Weight: 15.4 lb (parts dealer) vs 14.6 lb (Amazon) vs 16.3 lb (a review blog). Catalog will use 15.4 lb and flag [verify].",
-    "Type label: sewingpartsonline titles the page 'Heavy Duty 6700C Mechanical Sewing Machine'. Singer, Amazon and every other source call it computerized. Treated as a dealer typo.",
-    "Buttonhole styles: 7 (Ken's Sewing Center) vs '1-step buttonhole' with no count (Amazon title). Catalog will use 7 flagged [verify]."
+    "Speed: Singer's product page says 1100/min; the shared HD 6700C and HD 6705C manual says 1000 +/- 50 rpm. We use the manual figure; Amazon and dealers repeat 1,100.",
+    "Warranty: Singer's product page and linked PDF say 25/1 (25-year frame, 1-year parts); our earlier 25/2/90 is a tier Singer assigns to the 4452, 4432 and 3342, and Singer's coverage page does not name the 6700C. Amazon shows '1 Year Manufacturer'. The PDF names no model.",
+    "Needle up/down: the shared manual documents a Needle Up/Down button, the 6700C product page does not list it, and the 6800C and 6620C pages do. Our earlier 'none' came from a blog. Unresolved, so left [verify].",
+    "Stitch count: Singer's comparison page gives 200 built-in stitches and 411 applications; the product page gives 411 applications, and its prose also says 586, a figure that matches the 6800C page. Left [verify]; 586 is not used.",
+    "Lettering: Singer's product page lists 1 lettering font and its comparison page lists 2; the manual shows a Block Font at 7 mm letter height.",
+    "Throat: 6.4 in is Singer's 'needle to tower' figure, not stated as needle to body, so throat is [verify] on the rule 11 scale.",
+    "Weight: 7 kg (15.4 lb) in the shared manual against 14.6 lb on Amazon and 16.3 lb on one blog.",
+    "Start/stop: the shared manual documents a Start/Stop button; the product page does not list one. Unverified for the 6700C alone.",
+    "Sibling pages: Singer's comparison page gives the 6800C 8.3 in of throat and 1,050 spm while its 6800C product page says 6.4 in and 1100/min; read sibling rows with that in mind.",
+    "Page status on 2026-10-02 (page wording only): the Singer 6600C page returned 404 and the 6800C and 6620C pages read Out of Stock; the 6700C page showed the machine for sale."
   ],
   "ownerThemes": [
     {
@@ -130,7 +146,7 @@
       "source": "https://sewing.patternreview.com/SewingDiscussions/topic/116413"
     }
   ],
-  "evidence": "mixed",
+  "evidence": "owner",
   "buyerQuestions": [
     "What is the difference between the Singer 6700C and 6800C?",
     "Does the Singer 6700C have a thread cutter?",
@@ -159,76 +175,87 @@
   "discontinued": false,
   "replacedBy": null,
   "editorial": {
-    "verdict": "The 6700C is the middle of Singer's computerized Heavy Duty line, adding lettering, a speed slider and a 10-foot kit with a walking foot to the 6600C head while leaving the thread cutter to the 6800C.",
-    "whoFor": "A beginner or returning sewer who wants a walking foot, speed control and monogram lettering on a 1,100 spm metal-frame machine under $350.",
-    "skipIf": "You want an automatic thread cutter or needle up/down button, or you would rather have dials than menus on a heavy fabric machine.",
-    "keySpec": "1,100 spm · 6.4 in throat · 10 feet incl. walking foot · 15.4 lb",
+    "verdict": "A metal-frame computerized machine with 10 feet and a walking foot, but Singer's own pages disagree on speed, stitch count and needle up/down.",
+    "whoFor": "A beginner or returning sewer who wants a walking foot, a speed lever and lettering on a metal-frame machine.",
+    "skipIf": "You want a confirmed thread cutter or needle up/down button, a plain stitch count before you buy, or dials rather than an LCD on a heavy fabric machine.",
+    "keySpec": "1,000 rpm (manual) · 6.4 in needle to tower · 10 feet incl. walking foot · 15.4 lb",
     "strengths": [
-      "10 presser feet including even feed, open toe and cording feet on Singer's accessory list.",
-      "Speed control slider and adjustable presser foot pressure, both absent on the 6600C.",
-      "Same 6.4 in throat and 1,100 spm as the 6800C at a lower price."
+      "Singer's accessory list has 10 presser feet, including even feed (walking), open toe and cording feet, plus 4 Class 15 bobbins and a soft cover.",
+      "Singer lists a speed control lever that caps the sewing speed, adjustable presser foot pressure per the dealer listing, and 7 one-step buttonhole styles.",
+      "Singer describes a metal interior frame and stainless steel bed plate (a maker claim, not a duty rating)."
     ],
     "weaknesses": [
-      "No automatic thread cutter and no needle up/down button.",
-      "Stitch count is marketed as 411 applications with no plain count of patterns.",
-      "Owner help threads cluster on top thread tension on new units."
+      "Owners report threading and looping trouble (6 voices, 3 sources, including a needle threader that does not work for one Amazon reviewer).",
+      "Owners report tension problems (5 voices, 4 sources), such as a top tension dial that seems to have no effect.",
+      "Singer's product page lists no thread cutter; the 6800C page lists one."
     ],
     "checks": [
       {
-        "title": "Extension table bundle",
-        "body": "Walmart lists an HD6700EXTBUN bundle with an extension table. The base box does not include one. If quilting, price the bundle against buying the table separately."
+        "title": "Needle up/down is unresolved",
+        "body": "The shared HD 6700C and HD 6705C manual documents a Needle Up/Down button. The 6700C product page does not list it, while the 6800C and 6620C pages do. Ask the seller to confirm for this exact model."
+      },
+      {
+        "title": "Speed is 1000 or 1100",
+        "body": "Singer's product page says 1100/min; the shared manual says 1000 +/- 50 rpm. We show the manual figure and list both."
       },
       {
         "title": "Applications are not stitches",
-        "body": "411 is Singer's count of techniques. Ask the dealer for the stitch chart or check the manual to see the actual pattern list before comparing with a machine that quotes built-in stitches."
-      },
-      {
-        "title": "Tension on first use",
-        "body": "Owner threads describe looping top thread on new machines. Thread with the presser foot up and confirm the take-up lever is engaged before assuming a fault."
+        "body": "Singer's comparison page says 200 built-in stitches and 411 applications. The product page prose also says 586, which looks like the 6800C figure. Check the stitch chart in the manual before comparing counts."
       }
     ],
     "realCost": [
-      "Extension table for quilting, sold separately or in the Walmart bundle",
-      "Extra Class 15 transparent bobbins beyond the 4 included",
-      "Denim and leather needles for heavy fabric",
-      "Hard case; only a soft cover is included"
+      "Extension table for quilting, sold separately or in a bundle; the base box does not include one.",
+      "Extra Class 15 transparent bobbins beyond the 4 included.",
+      "Hard case; only a soft cover is included."
     ],
     "faqs": [
       {
         "q": "How many stitches does the Singer 6700C have?",
-        "a": "Singer markets 411 stitch applications, and its own page is quoted at 200 built-in stitch applications. Neither is a plain count of stitch patterns, so we list both and flag the row."
+        "a": "Singer's comparison page says 200 built-in stitches and 411 stitch applications. The product page says 411 applications and its prose also says 586, which looks like the 6800C number. We list the disagreement and do not state a plain count."
       },
       {
         "q": "Does the 6700C have an automatic thread cutter?",
-        "a": "No. It has a tie-off button. The automatic thread cutter and needle up/down button are 6800C features."
+        "a": "Singer's product page lists a tie-off button and no thread cutter. The 6800C page lists a Thread Cutter Button that trims top and bottom threads. The manual's thread knife is a hand cutter."
+      },
+      {
+        "q": "Does the 6700C have needle up/down?",
+        "a": "Unresolved. The shared HD 6700C and HD 6705C manual documents a Needle Up/Down button, the 6700C product page does not list one, and the 6800C and 6620C pages do. Confirm with the seller."
       },
       {
         "q": "Does the 6700C come with a walking foot?",
-        "a": "Yes. The even feed (walking) foot is one of 10 feet on the accessory list, along with open toe and cording feet."
+        "a": "Yes. The even feed (walking) foot is one of 10 feet on Singer's accessory list, along with open toe and cording feet."
       },
       {
         "q": "What is the throat space?",
-        "a": "6.4 in (163 mm) from needle to tower, per the Sewing Machines Plus listing."
+        "a": "6.4 in (163 mm), which Singer words as needle to tower. Singer does not state it as needle to body, so we treat it as [verify] on our throat scale."
+      },
+      {
+        "q": "How fast does it sew?",
+        "a": "Singer's product page says 1100/min. The shared manual says 1000 +/- 50 rpm at default length, and we use that figure."
       },
       {
         "q": "How much does it weigh?",
-        "a": "15.4 lb per the parts dealer. Amazon lists 14.6 lb and one blog 16.3 lb, so treat the figure as approximate."
+        "a": "7 kg, which is 15.4 lb, in the shared manual. Amazon lists 14.6 lb and one blog 16.3 lb."
       },
       {
         "q": "Can the 6700C sew letters?",
-        "a": "Yes. A built-in lettering font is listed for monogramming; one comparison site counts 2 fonts."
+        "a": "Yes. Singer's product page lists 1 lettering font and its comparison page lists 2. The manual shows a Block Font at 7 mm letter height."
       },
       {
         "q": "Is the 6700C good for quilting?",
-        "a": "It has a 6.4 in throat, a walking foot and a speed slider, which suits piecing and small quilts. Owner reviews call it good for quilting; the harp is small for anything larger than a lap quilt."
+        "a": "Singer claims a generous C space for larger projects like quilts. The throat is 6.4 in needle to tower, and one Walmart reviewer group calls it good for quilting. Treat larger quilts with caution."
       },
       {
         "q": "What is the warranty?",
-        "a": "25 years on the head, 2 years on motor and electronics, 90 days on adjustments and attachments, per Singer's warranty page."
+        "a": "Singer's product page and linked PDF say Limited 25/1: 25 years on the frame and 1 year on parts and adjustments. Singer's coverage page does not name the 6700C and Amazon shows 1 year."
       },
       {
         "q": "What is the difference between the 6700C and the 6800C?",
-        "a": "Same motor, frame and throat. The 6800C adds an automatic thread cutter, needle up/down, start/stop button, stitch memory and more stitches."
+        "a": "On Singer's pages the 6800C adds a thread cutter button, Needle Up/Down and more stitch applications (586 on its page). Singer's pages also disagree on the 6800C throat (6.4 in on its product page, 8.3 in on the comparison page) and speed (1100/min against 1,050)."
+      },
+      {
+        "q": "How good is the evidence on owners?",
+        "a": "Thin. We have 17 voices, 16 first-hand, from 16 Reddit threads (5 with the model in the title) and one retailer page; Amazon's 4.4 from 980 ratings is pooled across listings of this machine, and the Sewing Machines Plus page has 0 reviews. Reddit skews to help requests, so problems are over-represented."
       }
     ]
   },
@@ -244,6 +271,13 @@
     "https://bobbinhub.com/singer-6700c-vs-6800c/",
     "https://www.justanswer.com/small-appliance/oazku-new-heavy-duty-6700c-i-ve-using-few.html",
     "https://www.walmart.com/reviews/product/454976108",
-    "https://sewing.patternreview.com/SewingDiscussions/topic/116413"
+    "https://sewing.patternreview.com/SewingDiscussions/topic/116413",
+    "https://svpworldwide.widen.net/content/gksv1ky7l5/pdf/HD6700C_EN.pdf",
+    "https://attachments.gorgias.help/r1WE86rbDle6J4Mv/hc/Q9r0k7BYW92vg13y/2025051516-d3361c80-1e88-4d01-9381-fe3e62f20ef4-singer%2025-1%20warranty%20471068326e.pdf",
+    "https://www.singer.com/pages/singer-good-better-best-heavy-duty",
+    "https://www.singer.com/products/singer-heavy-duty-6800c-sewing-machine",
+    "https://www.singer.com/products/singer-heavy-duty-6620c-sewing-machine",
+    "https://www.reddit.com/r/sewing/comments/1hextwu/help_singer_machine_not_working/",
+    "https://www.reddit.com/r/SewingForBeginners/comments/19exa5y/help_needed_top_stitch_issues/kjgdks8/"
   ]
 }

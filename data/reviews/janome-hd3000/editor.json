@@ -1,0 +1,158 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "The Black Edition (HD3000BE) is the same machine with a bonus accessory bundle on Janome's spec table; Janome lists $559 for the plain machine and $599 for the Black Edition. Amazon listing ratings below were read from the plain HD3000 listing B00916Y4YM (4.4 from 658) and the Black Edition bundle B07D7HFT9L (4.4 from 333).",
+    "Sewing Machines Plus lists 44 reviews at 4.68, but only 2 of the 44 name this model, so that listing's reviews look pooled across several machines and are not treated as HD3000 evidence."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "HD1000",
+      "label": "Janome HD1000",
+      "pattern": "hd1000(?![a-z0-9])"
+    },
+    {
+      "model": "HD5000",
+      "label": "Janome HD5000",
+      "pattern": "hd5000(?![a-z0-9])"
+    },
+    {
+      "model": "HD9",
+      "label": "Janome HD9",
+      "pattern": "hd9(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "feed dog",
+      "Feed dogs"
+    ],
+    [
+      "presser foot pressure",
+      "Presser foot pressure"
+    ],
+    [
+      "hook|bobbin",
+      "Hook and bobbin"
+    ],
+    [
+      "pedal",
+      "Foot pedal"
+    ],
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "heavy[\\s-]*duty[\\s-]*4423(?![a-z0-9])|4423(?![a-z0-9])",
+      "Singer Heavy Duty 4423"
+    ],
+    [
+      "st371hd(?![a-z0-9])|371hd(?![a-z0-9])",
+      "Brother ST371HD"
+    ],
+    [
+      "memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])",
+      "Janome Memory Craft 6650"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "hd1000(?![a-z0-9])|hd5000(?![a-z0-9])|hd9(?![a-z0-9])|heavy[\\s-]*duty[\\s-]*4423(?![a-z0-9])|4423(?![a-z0-9])|st371hd(?![a-z0-9])|371hd(?![a-z0-9])|memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {
+    "HD1000": {
+      "Feed dogs": {
+        "summary": "Commenters say the HD3000 has five-point feed dogs against three on the HD1000. Janome lists a 5-piece feed dog for the HD3000 and a 3-piece for the HD1000.",
+        "check": "Reddit comments confirmed by Janome product pages, 2026-10-02"
+      },
+      "Presser foot pressure": {
+        "summary": "Commenters say the HD3000 has adjustable presser foot pressure and the HD1000 does not. Janome lists foot pressure adjustment for the HD3000 and not for the HD1000.",
+        "check": "Reddit comments confirmed by Janome product pages, 2026-10-02"
+      },
+      "Hook and bobbin": {
+        "summary": "Commenters say the HD3000 has a rotary hook with a top-loading bobbin and the HD1000 an oscillating one. Janome lists a top-loading full rotary hook for the HD3000 and a front-loading vertical oscillating hook for the HD1000.",
+        "check": "Reddit comments confirmed by Janome product pages, 2026-10-02"
+      },
+      "Foot pedal": {
+        "summary": "One commenter says the HD3000's foot pedal is more sensitive than the HD1000's. Janome publishes no pedal figures.",
+        "check": "unverified, Reddit only"
+      }
+    }
+  },
+  "siblingExtras": {
+    "HD1000": [
+      {
+        "feature": "Stitches and buttonhole",
+        "summary": "Janome lists 14 stitches and a four-step buttonhole for the HD1000, against 18 for the HD3000.",
+        "check": "Janome HD-1000 and HD-3000 product pages, 2026-10-02"
+      },
+      {
+        "feature": "Hook and feed",
+        "summary": "The HD1000 has a front-loading vertical oscillating hook and a 3-piece feed dog; the HD3000 is listed with a top loading full rotary hook and a 5-piece feed dog.",
+        "check": "Janome HD-1000 and HD-3000 product pages, 2026-10-02"
+      },
+      {
+        "feature": "Width and weight",
+        "summary": "5 mm maximum width and 16.8 lbs for the HD1000; 6.5 mm and 18.7 lbs for the HD3000.",
+        "check": "Janome product pages, 2026-10-02"
+      },
+      {
+        "feature": "Maker MSRP",
+        "summary": "Janome shows $409 for the HD1000 and $559 for the HD3000.",
+        "check": "Janome product pages, 2026-10-02"
+      }
+    ],
+    "HD5000": [
+      {
+        "feature": "Maker spec table",
+        "summary": "Janome's HD5000 table matches the HD3000 line for line: 18 stitches, 6.5 mm, 18.7 lbs, 5-piece feed dog, workspace 6.5 x 4.6 in. The page names no difference.",
+        "check": "Janome HD-5000 and HD-3000 product pages, 2026-10-02"
+      },
+      {
+        "feature": "Feed dog wording",
+        "summary": "The HD5000 prose says seven-piece while its table says 5-piece, the same split as the HD3000 against its 2011 blog.",
+        "check": "Janome HD-5000 product page, 2026-10-02"
+      }
+    ],
+    "HD9": [
+      {
+        "feature": "Class",
+        "summary": "The HD9 Professional is a straight-stitch-only machine up to 1,600 spm with a thread cutter, 32 lbs and an 8 x 5.5 in workspace; Janome lists $2,499.",
+        "check": "Janome HD9 Professional product page excerpt, 2026-10-02"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "janome-hd3000",
+  "generated": "2026-10-02T04:56:05.964Z",
+  "counts": {
+    "error": 0,
+    "warn": 4
+  },
+  "items": [
+    {
+      "level": "warn",
+      "id": "siblings",
+      "message": "7 difference claims compare against Janome HD1000 but editor.json siblings has no pattern for it"
+    },
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: of 44 sampled reviews, 2 name this model, 0 name a sibling only, 42 name neither"
+    },
+    {
+      "level": "warn",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: only 2 of 44 reviews name this model while siblings exist; confirm the listing is not pooled"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 228, this 201, sibling 10, unclear 17"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "60 Reddit threads, 60 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"feedSystem\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"buttonhole\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 128 voices (86 first-hand), 63 sources, status draft"
+    }
+  ]
+}

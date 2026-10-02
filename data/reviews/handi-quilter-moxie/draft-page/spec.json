@@ -1,0 +1,164 @@
+{
+  "specs": {
+    "throatIn": {
+      "value": 15,
+      "source": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"
+    },
+    "stitchesPerInch": {
+      "value": "4 to 18 spi in regulated mode",
+      "source": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
+    },
+    "needleSystem": {
+      "value": "134, sizes 80/12 to 130/21 (maker manual, dealer-hosted copy); round shank not stated in the manual pages read",
+      "source": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
+    },
+    "display": {
+      "value": "Full color display, 1.44 in (128 x 128 pixels)",
+      "source": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
+    },
+    "motor": {
+      "value": "Brushless DC, servo controlled; 200 W maximum (maker manual)",
+      "source": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
+    },
+    "frameHeightAdjustIn": {
+      "value": "33 to 44 (HQ Little Foot frame only; the maker gives no range for the Loft frame)",
+      "source": "https://handiquilter.com/space-moxie-needs/"
+    },
+    "includedFeet": {
+      "value": "Maker page lists a ruler foot and open-toe foot in one bullet and a closed-toe foot and open-toe foot in another; Handi Feet compatible",
+      "source": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"
+    },
+    "warrantyUs": {
+      "value": "10 yr casting, 5 yr mechanical, 5 yr electronic, 90 day parts and labor (maker warranty page; not Moxie-specific, covers the HQ Quilting Machine)",
+      "source": "https://handiquilter.com/warranty/"
+    }
+  },
+  "conflicts": [
+    "Price: the Handi Quilter product page now shows a range starting at $5,495 and Amazon (B08P3SRX98, Moxie with 8 ft Loft frame) shows $5,495, while our earlier spec recorded $5,995 regular price at Village Sewing on 2026-09-29; the maker's base configuration behind $5,495 is not labelled, so the $5,495 figure is a seen price, not a confirmed bundle.",
+    "Needle sizes: the maker manual gives 80/12 to 130/21, while our earlier spec from a Handi Quilter support article said sizes 12 to 20; the manual figure is used and the support article was not re-fetched.",
+    "Included feet: the Handi Quilter product page lists a ruler foot and open-toe foot in one bullet and a closed-toe foot and open-toe foot in another, so the second included foot is unconfirmed; our earlier '20 needles included' came from a dealer and no maker document read supports it, so it is removed.",
+    "Frame height: our earlier spec attached 33 to 44 in to the frame generally, while the maker states that range for the Little Foot frame only and gives no range for the Loft frame.",
+    "Weight: the maker page gives 58 lb packaging weight, which is shipping weight, and an Amazon seller listing shows 50 lb item weight; no maker machine weight was found, so weight stays [verify].",
+    "Warranty: the 2020 maker manual says the 5 year electrical warranty is void if the machine is left plugged in when not in use, while the maker warranty page does not say so; both are listed and the warranty page is not Moxie-specific.",
+    "Throat: the maker says '15-inch throat space' and the manual gives a sewing opening of 8.25 x 15.00 in without labelling which figure is height, and neither says needle to body; the maker's own figure for safe usable quilting area on a frame is about 10 in.",
+    "Speed: 1,800 spm maximum (maker page and manual) against a 50 to 800 spm cruise range; the manual also gives 25 and 50 spm as the manual-mode floor in different places.",
+    "Manual source: the maker manual was read from a dealer-hosted copy (sewingmachinesplus.com, version 1.0, 10/2020) because handiquilter.com downloads returned a bot challenge, so it may not match the current maker file."
+  ],
+  "claims": [
+    "\"Designed by a Quilter, for Quilters\" (Handi Quilter claim, Moxie manual cover)",
+    "\"simple, spunky longarm\" and \"everything you need to get started quilting, including the frame\" (Handi Quilter product page claims)",
+    "\"All Handi Quilter machines are equipped with industry-leading stitch regulation technology\" (Handi Quilter blog claim)",
+    "\"Press play on precision quilting and perfect stitches\" (Handi Quilter claim about Pro-Stitcher Lite)"
+  ],
+  "evidence": "owner",
+  "price": {
+    "priceUsdSeen": 5495,
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "Handi Quilter product page (range starts at $5,495, base configuration not labelled) and Amazon B08P3SRX98 (Moxie with 8 ft Loft frame); earlier spec recorded $5,995 at Village Sewing on 2026-09-29"
+  },
+  "sources": [
+    "https://handiquilter.com/product/hq-moxie-15-quilt-machine/",
+    "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf",
+    "https://handiquilter.com/warranty/",
+    "https://handiquilter.com/space-moxie-needs/",
+    "https://handiquilter.com/machine-comparison-should-i-buy-the-moxie-or-the-amara/",
+    "https://handiquilter.com/product/moxie-xl/",
+    "https://handiquilter.com/product/hq-amara-20/",
+    "https://handiquilter.com/longarm-quilting-systems/",
+    "https://www.amazon.com/dp/B08P3SRX98",
+    "https://www.sewingmachinesplus.com/hq-moxie.php",
+    "https://www.stringandstory.com/blog/handiquiltermoxiereview2",
+    "https://quiltinginfo.com/handi-quilter-moxie-troubleshooting/",
+    "https://support.handiquilter.com/hc/en-us/articles/115001348752-Thread-shredding-or-breaking"
+  ],
+  "editorial": {
+    "verdict": "A 15 in head on a frame: Handi Quilter lists regulated stitching and an 8 ft Loft frame, but gives about 10 in of usable quilting area and tension reports recur.",
+    "whoFor": "A home quilter with room for an 8 ft frame who wants an entry long-arm on a frame with built-in stitch regulation and is not quilting for clients.",
+    "skipIf": "You want wide custom work (the maker puts usable area at about 10 in), have no room for a frame, or only quilt lap size and smaller on a sit-down machine.",
+    "keySpec": "15 in throat space · about 10 in usable (maker) · 1,800 spm · 8 ft Loft frame · stitch regulation built in",
+    "strengths": [
+      "Handi Quilter lists Precision, Cruise and Manual stitch modes on the machine, so regulation is not a separate add-on, though how well it holds up is not shown by the maker's page",
+      "The maker page says the 8 ft HQ Loft Frame is included, so the starting price is for a machine on a frame, though the base configuration behind $5,495 is not labelled",
+      "Retailer ratings are high: Amazon shows 4.8 from 17 ratings and Sewing Machines Plus 4.55 from 29, but both are seller-collected, Amazon pools a second ASIN and only 1 Sewing Machines Plus review names the Moxie"
+    ],
+    "weaknesses": [
+      "At 15 in the head is an entry long-arm on a frame; the maker puts safe usable quilting area at about 10 in because of the frame poles and take-up roll",
+      "Owner and troubleshooting sources keep returning to tension, thread breaking and shredding: one owner blog reports a rethread after moving the head, and Handi Quilter's own support page has a shredding checklist",
+      "Machine weight, throat height and the 10 ft frame price are not published by the maker, and the manual read is a 2020 dealer-hosted copy"
+    ],
+    "checks": [
+      {
+        "title": "Confirm the frame and price in writing",
+        "body": "The maker page starts at $5,495 and the options change the price, and the base configuration is not labelled. Ask the retailer for the exact frame (8 ft Loft, 10 ft Loft or Little Foot) and what the price includes."
+      },
+      {
+        "title": "Measure the room, not the frame",
+        "body": "Handi Quilter's guidance is roughly 12 to 13 ft by 7.5 to 8 ft for a 10 ft frame, and the 8 ft Loft needs about 2 ft of walking room on every side."
+      },
+      {
+        "title": "Read the warranty terms before you buy",
+        "body": "The warranty page covers the 'HQ Quilting Machine', not the Moxie by name, and the 2020 manual says the electrical warranty is void if the machine is left plugged in. The current warranty page does not say that, so ask the retailer."
+      }
+    ],
+    "realCost": [
+      {
+        "item": "Frame and options",
+        "note": "Handi Quilter shows a $5,495 to $12,690 range with frame and Pro-Stitcher options; Amazon lists the Moxie with an 8 ft Loft frame at $5,495"
+      },
+      {
+        "item": "Pro-Stitcher Lite",
+        "note": "Optional robotics the maker lists as compatible; its price was not published on the pages read, and dealer bundles with it were seen from $8,495 upward"
+      },
+      {
+        "item": "Needles and bobbins",
+        "note": "System 134 needles, sizes 80/12 to 130/21 per the maker manual, and M class bobbins"
+      },
+      {
+        "item": "Delivery and setup",
+        "note": "Not published by the maker; dealers handle freight and setup differently"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Handi Quilter Moxie cost?",
+        "a": "The Handi Quilter product page shows a range starting at $5,495, and Amazon lists the Moxie with an 8 ft Loft frame at $5,495 (seen 2026-10-02). Our earlier spec recorded $5,995 at Village Sewing. The maker does not label the base configuration, so confirm what is included."
+      },
+      {
+        "q": "Does the Moxie come with a frame?",
+        "a": "Handi Quilter says the Moxie includes the 8 ft HQ Loft Frame, upgradable to 10 ft with a 2 ft extension kit, and it is also compatible with the 5 ft Little Foot Frame. The maker page frame selector changes the price."
+      },
+      {
+        "q": "Is the Moxie a long-arm?",
+        "a": "Handi Quilter calls it a longarm, but at 15 in of throat space it is an entry long-arm on a frame. The maker puts safe usable quilting area at about 10 in."
+      },
+      {
+        "q": "What is the Moxie throat space?",
+        "a": "Handi Quilter lists 15 in of throat space, and the manual gives a sewing opening of 8.25 x 15.00 in without saying which figure is height. The maker does not state a needle-to-body measurement."
+      },
+      {
+        "q": "What needles does the Moxie take?",
+        "a": "The maker manual lists needle system 134, sizes 80/12 to 130/21. Our earlier spec said sizes 12 to 20, so the manual figure is used here."
+      },
+      {
+        "q": "How fast is the Moxie?",
+        "a": "Handi Quilter lists 1,800 stitches per minute maximum, and the manual gives a cruise range of 50 to 800 spm."
+      },
+      {
+        "q": "What is the Moxie warranty?",
+        "a": "The warranty page lists 90 days parts and labor, 10 years on casting, 5 years mechanical and 5 years electronic, with the customer paying labor and shipping after 90 days. It covers the HQ Quilting Machine rather than the Moxie by name. The 2020 manual says the electrical warranty is void if the machine is left plugged in; the warranty page does not."
+      },
+      {
+        "q": "How heavy is the Moxie?",
+        "a": "The maker does not publish a machine weight. The product page gives 58 lb packaging weight, which is shipping weight, so weight shows [verify]."
+      },
+      {
+        "q": "How does the Moxie compare with the Moxie XL and Amara 20?",
+        "a": "From maker pages, the Moxie XL lists 18 in of throat space and 2,100 spm, and the Amara 20 lists 20 in of throat space and up to 2,500 spm. The maker puts usable quilting area at about 10 in on the Moxie and about 14 in on the Amara 20."
+      },
+      {
+        "q": "What do owners say about the Moxie?",
+        "a": "The evidence is thin: 23 voices, 20 first-hand, and only 4 Reddit threads name the Moxie in the title. Reddit skews to help requests, and tension and thread breakage come up in the sources read, so these are not failure rates."
+      }
+    ]
+  }
+}

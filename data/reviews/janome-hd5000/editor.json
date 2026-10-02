@@ -1,0 +1,122 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.1 from 80 ratings is the white HD5000 listing (B084M81BC6) and 4.1 from 141 ratings is the separate Black Edition listing (B09MDLYYPC); no pooled variations were flagged on either, and neither returned review text."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "HD1000",
+      "label": "Janome HD1000",
+      "pattern": "hd[\\s-]?1000(?![a-z0-9])"
+    },
+    {
+      "model": "HD3000",
+      "label": "Janome HD3000",
+      "pattern": "hd[\\s-]?3000(?![a-z0-9])"
+    },
+    {
+      "model": "HD9",
+      "label": "Janome HD9",
+      "pattern": "hd[\\s-]?9(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "stitch width",
+      "Stitch width"
+    ],
+    [
+      "market availability|market equivalence",
+      "Market availability"
+    ],
+    [
+      "overlock",
+      "Overlock stitch"
+    ],
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "hd3000(?![a-z0-9])",
+      "Janome HD3000"
+    ],
+    [
+      "heavy[\\s-]*duty[\\s-]*4452(?![a-z0-9])|4452(?![a-z0-9])",
+      "Singer Heavy Duty 4452"
+    ],
+    [
+      "st371hd(?![a-z0-9])|371hd(?![a-z0-9])",
+      "Brother ST371HD"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "hd1000(?![a-z0-9])|hd3000(?![a-z0-9])|hd9(?![a-z0-9])|hd3000(?![a-z0-9])|heavy[\\s-]*duty[\\s-]*4452(?![a-z0-9])|4452(?![a-z0-9])|st371hd(?![a-z0-9])|371hd(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {
+    "HD3000": {
+      "Stitch width": {
+        "summary": "One commenter lists the HD5000 at 7 mm and the HD3000 at 6.5 mm. Janome's pages list 6.5 mm for both, so the 7 mm figure is not supported.",
+        "check": "Reddit comment contradicted by Janome product pages, 2026-10-02"
+      },
+      "Market availability": {
+        "summary": "Commenters say the HD5000 is sold in Canada and the HD3000 in the US. Janome's US site lists both.",
+        "check": "Reddit comments; Janome US pages list both machines"
+      },
+      "Overlock stitch": {
+        "summary": "One commenter says the HD5000 has an overlocking stitch and the HD3000 does not. Janome's pages do not list one for either.",
+        "check": "unverified, Reddit only"
+      }
+    }
+  },
+  "siblingExtras": {
+    "HD3000": [
+      {
+        "feature": "Maker page spec block",
+        "summary": "Janome lists 18 stitches, 5 piece feed dog, 6.5 mm max width, 4 mm max length, workspace W 6.5 x H 4.6 in, 18.7 lb and a four-step buttonhole.",
+        "check": "janome.com HD-3000 product page, fetched 2026-10-02"
+      }
+    ],
+    "HD1000": [
+      {
+        "feature": "Maker page spec block",
+        "summary": "Janome lists 14 stitches plus a four-step buttonhole, a 3-piece feed dog, 4 mm max stitch length and a built-in needle threader.",
+        "check": "janome.com HD-1000 product page, fetched 2026-10-02"
+      }
+    ]
+  }
+}

@@ -1,0 +1,508 @@
+[
+  {
+    "id": "reddit:tercsn",
+    "url": "https://www.reddit.com/r/quilting/comments/tercsn/should_i_cancel_my_order_for_a_handi_quilter/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Should I cancel my order for a Handi Quilter Moxie with frame? How hard is setting tension?",
+    "subreddit": "quilting",
+    "thread_id": "tercsn",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1657627760,
+    "discovered_by": [
+      "all:Handi Quilter Moxie",
+      "r/quilting:Handi Quilter Moxie",
+      "all:Handi Quilter Moxie review",
+      "r/quilting:Handi Quilter Moxie review",
+      "all:Handi Quilter Moxie problems",
+      "r/quilting:Handi Quilter Moxie problems",
+      "all:Moxie longarm",
+      "r/quilting:Moxie longarm",
+      "r/quilting:Moxie quilting machine tension",
+      "all:Handi Quilter Moxie vs",
+      "r/quilting:Handi Quilter Moxie vs"
+    ],
+    "content_hash": "343881f4f69ffcf3"
+  },
+  {
+    "id": "reddit:tesdgz",
+    "url": "https://www.reddit.com/r/longarm/comments/tesdgz/should_i_cancel_my_order_for_a_handi_quilter/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Should I cancel my order for a Handi Quilter Moxie with frame? How hard is setting tension?",
+    "subreddit": "longarm",
+    "thread_id": "tesdgz",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1741195360,
+    "discovered_by": [
+      "all:Handi Quilter Moxie",
+      "r/longarm:Handi Quilter Moxie",
+      "all:Handi Quilter Moxie review",
+      "r/longarm:Handi Quilter Moxie review",
+      "all:Handi Quilter Moxie problems",
+      "r/longarm:Handi Quilter Moxie problems",
+      "r/longarm:Moxie quilting machine tension",
+      "all:Handi Quilter Moxie vs",
+      "r/longarm:Handi Quilter Moxie vs"
+    ],
+    "content_hash": "a7161f2210d0c5e1"
+  },
+  {
+    "id": "reddit:16omiqz",
+    "url": "https://www.reddit.com/r/quilting/comments/16omiqz/hq_moxie_questionadvice/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "HQ Moxie question/advice",
+    "subreddit": "quilting",
+    "thread_id": "16omiqz",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1708198046,
+    "discovered_by": [
+      "all:HQ Moxie",
+      "r/quilting:HQ Moxie"
+    ],
+    "content_hash": "a327249eae14ca36"
+  },
+  {
+    "id": "reddit:1gjiyl0",
+    "url": "https://www.reddit.com/r/quilting/comments/1gjiyl0/qnique_16x_vs_hq_moxie/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Q’nique 16x Vs. HQ Moxie",
+    "subreddit": "quilting",
+    "thread_id": "1gjiyl0",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1730741581,
+    "discovered_by": [
+      "all:Handi Quilter Moxie",
+      "r/quilting:Handi Quilter Moxie",
+      "all:HQ Moxie",
+      "r/quilting:HQ Moxie",
+      "all:Handi Quilter Moxie review",
+      "r/quilting:Handi Quilter Moxie review",
+      "all:Handi Quilter Moxie problems",
+      "r/quilting:Handi Quilter Moxie problems",
+      "all:Handi Quilter Moxie vs",
+      "r/quilting:Handi Quilter Moxie vs"
+    ],
+    "content_hash": "d36a08a6b53c2432"
+  },
+  {
+    "id": "reddit:1ldv456",
+    "url": "https://www.reddit.com/r/quilting/comments/1ldv456/moxie_15_midarm/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Moxie 15” midarm",
+    "subreddit": "quilting",
+    "thread_id": "1ldv456",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "thin",
+    "cursor_utc": 1750185494,
+    "discovered_by": [
+      "all:Moxie longarm",
+      "r/quilting:Moxie longarm"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1p4yjsq",
+    "url": "https://www.reddit.com/r/quilting/comments/1p4yjsq/my_library_is_getting_a_long_armer/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "My library is getting a long armer!!",
+    "subreddit": "quilting",
+    "thread_id": "1p4yjsq",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1764090311,
+    "discovered_by": [
+      "all:Handi Quilter Moxie",
+      "r/quilting:Handi Quilter Moxie",
+      "all:Handi Quilter Moxie review",
+      "r/quilting:Handi Quilter Moxie review",
+      "all:Handi Quilter Moxie problems",
+      "r/quilting:Handi Quilter Moxie problems",
+      "all:Handi Quilter Moxie vs",
+      "r/quilting:Handi Quilter Moxie vs"
+    ],
+    "content_hash": "34b7fd54122b2d4b"
+  },
+  {
+    "id": "reddit:1nfeqso",
+    "url": "https://www.reddit.com/r/quilting/comments/1nfeqso/do_any_long_arm_softwares_not_crash/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Do any long arm softwares *not* crash???",
+    "subreddit": "quilting",
+    "thread_id": "1nfeqso",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1757811767,
+    "discovered_by": [
+      "all:HQ Moxie",
+      "r/quilting:HQ Moxie"
+    ],
+    "content_hash": "1aa453fe08b77da3"
+  },
+  {
+    "id": "reddit:1enjar8",
+    "url": "https://www.reddit.com/r/quilting/comments/1enjar8/sit_down_machines/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sit Down Machines",
+    "subreddit": "quilting",
+    "thread_id": "1enjar8",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1723300539,
+    "discovered_by": [
+      "all:Handi Quilter Moxie",
+      "r/quilting:Handi Quilter Moxie",
+      "all:Handi Quilter Moxie review",
+      "r/quilting:Handi Quilter Moxie review",
+      "all:Handi Quilter Moxie problems",
+      "r/quilting:Handi Quilter Moxie problems",
+      "all:Moxie longarm",
+      "r/quilting:Moxie longarm",
+      "all:Handi Quilter Moxie vs",
+      "r/quilting:Handi Quilter Moxie vs"
+    ],
+    "content_hash": "30f592347b1f0606"
+  },
+  {
+    "id": "reddit:14ip51z",
+    "url": "https://www.reddit.com/r/quilting/comments/14ip51z/here_is_my_giraffe_fully_quilted_and_bound/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Here is my giraffe fully quilted and bound",
+    "subreddit": "quilting",
+    "thread_id": "14ip51z",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1687747048,
+    "discovered_by": [
+      "all:Moxie longarm",
+      "r/quilting:Moxie longarm"
+    ],
+    "content_hash": "dd150306bb374d3a"
+  },
+  {
+    "id": "reddit:1nf4my9",
+    "url": "https://www.reddit.com/r/quilting/comments/1nf4my9/longarmers_do_your_hands_go_numb_from_the_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Longarmers: Do your hands go numb from the machine vibration?",
+    "subreddit": "quilting",
+    "thread_id": "1nf4my9",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1758065382,
+    "discovered_by": [
+      "all:Moxie longarm",
+      "r/quilting:Moxie longarm"
+    ],
+    "content_hash": "45d50466167484a5"
+  },
+  {
+    "id": "reddit:1mophgh",
+    "url": "https://www.reddit.com/r/quilting/comments/1mophgh/babylock_jewel_longarm_for_auction_in_my_area/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Babylock Jewel longarm for auction in my area starting @ $2k, is it worth it?",
+    "subreddit": "quilting",
+    "thread_id": "1mophgh",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1755229995,
+    "discovered_by": [
+      "r/quilting:HQ Moxie",
+      "all:Moxie longarm",
+      "r/quilting:Moxie longarm"
+    ],
+    "content_hash": "3867aac7e17d63ad"
+  },
+  {
+    "id": "reddit:1p8wdlv",
+    "url": "https://www.reddit.com/r/quilting/comments/1p8wdlv/rescuing_an_abandoned_crazy_quilt_top/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Rescuing an Abandoned Crazy Quilt Top",
+    "subreddit": "quilting",
+    "thread_id": "1p8wdlv",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1764511063,
+    "discovered_by": [
+      "all:Handi Quilter Moxie",
+      "r/quilting:Handi Quilter Moxie",
+      "all:Handi Quilter Moxie review",
+      "r/quilting:Handi Quilter Moxie review",
+      "all:Handi Quilter Moxie problems",
+      "r/quilting:Handi Quilter Moxie problems",
+      "all:Moxie longarm",
+      "r/quilting:Moxie longarm",
+      "all:Handi Quilter Moxie vs",
+      "r/quilting:Handi Quilter Moxie vs"
+    ],
+    "content_hash": "bf83dd28df6be7a2"
+  },
+  {
+    "id": "reddit:11vndph",
+    "url": "https://www.reddit.com/r/quilting/comments/11vndph/went_to_my_first_show_and_tried_out_long_arm/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Went to my first show and tried out long arm machines!",
+    "subreddit": "quilting",
+    "thread_id": "11vndph",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1679361222,
+    "discovered_by": [
+      "all:Handi Quilter Moxie",
+      "r/quilting:Handi Quilter Moxie",
+      "all:Handi Quilter Moxie review",
+      "r/quilting:Handi Quilter Moxie review",
+      "all:Handi Quilter Moxie problems",
+      "r/quilting:Handi Quilter Moxie problems",
+      "all:Handi Quilter Moxie vs",
+      "r/quilting:Handi Quilter Moxie vs"
+    ],
+    "content_hash": "fa00d5aea85b24e9"
+  },
+  {
+    "id": "reddit:yyzzxa",
+    "url": "https://www.reddit.com/r/quilting/comments/yyzzxa/i_tried_free_motion_quilting_for_the_first_time/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "I tried free motion quilting for the first time at my local Quilting Expo today.",
+    "subreddit": "quilting",
+    "thread_id": "yyzzxa",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1668924923,
+    "discovered_by": [
+      "r/quilting:Handi Quilter Moxie",
+      "all:Handi Quilter Moxie review",
+      "r/quilting:Handi Quilter Moxie review",
+      "all:Handi Quilter Moxie problems",
+      "r/quilting:Handi Quilter Moxie problems",
+      "all:Handi Quilter Moxie vs",
+      "r/quilting:Handi Quilter Moxie vs"
+    ],
+    "content_hash": "fb0219c3583dc9f5"
+  },
+  {
+    "id": "reddit:1mb4ixj",
+    "url": "https://www.reddit.com/r/quilting/comments/1mb4ixj/long_arm_recommendations/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Long Arm Recommendations",
+    "subreddit": "quilting",
+    "thread_id": "1mb4ixj",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1753749409,
+    "discovered_by": [
+      "r/quilting:HQ Moxie"
+    ],
+    "content_hash": "8d839d013d759b5f"
+  },
+  {
+    "id": "reddit:1skjzu2",
+    "url": "https://www.reddit.com/r/quilting/comments/1skjzu2/a_bookish_quilt_for_my_bookloving_daughter_the/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "A bookish quilt for my book-loving daughter! The panels are quotes from books I hope she'll read one day.",
+    "subreddit": "quilting",
+    "thread_id": "1skjzu2",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1776187747,
+    "discovered_by": [
+      "all:Handi Quilter Moxie",
+      "r/quilting:Handi Quilter Moxie",
+      "all:Handi Quilter Moxie review",
+      "r/quilting:Handi Quilter Moxie review",
+      "all:Handi Quilter Moxie problems",
+      "r/quilting:Handi Quilter Moxie problems",
+      "all:Handi Quilter Moxie vs",
+      "r/quilting:Handi Quilter Moxie vs"
+    ],
+    "content_hash": "476dc638726ae7d2"
+  },
+  {
+    "id": "reddit:q4rldu",
+    "url": "https://www.reddit.com/r/longarm/comments/q4rldu/moxie_idlerdead_bar_catching_on_ruler_base/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Moxie idler/dead bar catching on ruler base",
+    "subreddit": "longarm",
+    "thread_id": "q4rldu",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1647966263,
+    "discovered_by": [
+      "all:Handi Quilter Moxie",
+      "r/longarm:Handi Quilter Moxie",
+      "all:Handi Quilter Moxie review",
+      "r/longarm:Handi Quilter Moxie review",
+      "all:Handi Quilter Moxie problems",
+      "r/longarm:Handi Quilter Moxie problems",
+      "r/longarm:Moxie quilting machine tension",
+      "all:Handi Quilter Moxie vs",
+      "r/longarm:Handi Quilter Moxie vs"
+    ],
+    "content_hash": "55dac2e725cf37ec"
+  },
+  {
+    "id": "reddit:11rzthk",
+    "url": "https://www.reddit.com/r/quilting/comments/11rzthk/small_frame_vs_sit_down_long_arm/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Small Frame vs sit down long arm?",
+    "subreddit": "quilting",
+    "thread_id": "11rzthk",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1679252683,
+    "discovered_by": [
+      "all:Handi Quilter Moxie",
+      "r/quilting:Handi Quilter Moxie",
+      "all:Handi Quilter Moxie review",
+      "r/quilting:Handi Quilter Moxie review",
+      "all:Handi Quilter Moxie problems",
+      "r/quilting:Handi Quilter Moxie problems",
+      "all:Handi Quilter Moxie vs",
+      "r/quilting:Handi Quilter Moxie vs"
+    ],
+    "content_hash": "db6e88046526e885"
+  },
+  {
+    "id": "reddit:la4q1q",
+    "url": "https://www.reddit.com/r/quilting/comments/la4q1q/advice_for_aspiring_long_armer/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Advice for aspiring Long Armer",
+    "subreddit": "quilting",
+    "thread_id": "la4q1q",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1612271528,
+    "discovered_by": [
+      "r/quilting:HQ Moxie",
+      "all:Moxie longarm",
+      "r/quilting:Moxie longarm"
+    ],
+    "content_hash": "eeda1ff75cc7e12e"
+  },
+  {
+    "id": "reddit:1v6bagr",
+    "url": "https://www.reddit.com/r/Longarm_show_n_tell/comments/1v6bagr/waiting_for_my_longarm/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Waiting for my longarm...",
+    "subreddit": "Longarm_show_n_tell",
+    "thread_id": "1v6bagr",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1785005651,
+    "discovered_by": [
+      "all:Moxie longarm"
+    ],
+    "content_hash": "94c93bc5789d45e9"
+  },
+  {
+    "id": "reddit:15b7bac",
+    "url": "https://www.reddit.com/r/quilting/comments/15b7bac/mounting_cell_phone_on_my_long_arm_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Mounting cell phone on my long arm machine",
+    "subreddit": "quilting",
+    "thread_id": "15b7bac",
+    "first_seen": "2026-10-02T05:03:13.940Z",
+    "last_fetched": "2026-10-02T05:03:13.940Z",
+    "status": "ok",
+    "cursor_utc": 1690509666,
+    "discovered_by": [
+      "r/quilting:HQ Moxie"
+    ],
+    "content_hash": "a9740f999797b167"
+  },
+  {
+    "id": "web:d58aa5782de27cae",
+    "url": "https://www.sewingmachinesplus.com/hq-moxie.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-02T05:04:38.881Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-02T05:04:38.881Z",
+    "status": "ok",
+    "site_rating": 4.55,
+    "site_review_count": 29,
+    "content_hash": "6b862d5636a98c37"
+  },
+  {
+    "id": "web:95be7544a5cf66fb",
+    "url": "https://www.amazon.com/dp/B08P3SRX98",
+    "class": "retailer",
+    "title": "Amazon customer reviews",
+    "first_seen": "2026-10-02T05:05:14.334Z",
+    "discovered_by": [
+      "dataforseo-amazon"
+    ],
+    "method": "dataforseo-asin",
+    "last_fetched": "2026-10-02T05:05:14.334Z",
+    "status": "ok",
+    "site_rating": 4.8,
+    "site_review_count": 17,
+    "asin": "B08P3SRX98",
+    "parent_asin": "B08P3S7MTR",
+    "product_asins": [
+      "B08P3SRX98",
+      "B08P3SXPG1"
+    ],
+    "pooled_variations": true,
+    "sampled": "4 top reviews (4 US, 0 other countries) of 17 ratings",
+    "listing": {
+      "title": "Handi Quilter Moxie 15-inch Longarm Quilting Machine with 8-foot HQ Loft Frame | Quilting Machine and Quilting Frame | Handi Quilter Longarm",
+      "price_usd": 5495,
+      "best_sellers_rank": "#1,129,655 in Arts, Crafts & Sewing ( See Top 100 in Arts, Crafts & Sewing )\n #1,499 in Quilting Notions",
+      "details": {
+        "Model Number": "Moxie",
+        "Manufacturer": "Handi Quilter",
+        "Part Number": "QM09301-0105",
+        "Color": "Berry",
+        "Material": "Plastic",
+        "Item Dimensions D x W x H": "24\"D x 15\"W x 12\"H",
+        "Item Weight": "50 pounds"
+      }
+    }
+  }
+]

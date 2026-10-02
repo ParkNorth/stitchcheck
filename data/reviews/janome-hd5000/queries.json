@@ -1,0 +1,58 @@
+{
+  "slug": "janome-hd5000",
+  "model_names": [
+    "Janome HD5000",
+    "Janome HD-5000",
+    "HD5000 Black Edition",
+    "Janome HD5000BE",
+    "Janome HD5000 Heavy Duty",
+    "Janome Heavy Duty HD5000"
+  ],
+  "confusable_siblings": [
+    "HD1000",
+    "HD3000",
+    "HD9"
+  ],
+  "reddit": {
+    "searches": [
+      "Janome HD5000",
+      "Janome HD-5000",
+      "Janome HD5000 review",
+      "Janome HD5000 problems",
+      "Janome HD5000 vs HD3000",
+      "Janome HD5000 Black Edition"
+    ],
+    "subreddits": [
+      "sewing",
+      "sewhelp",
+      "SewingForBeginners",
+      "quilting",
+      "myog",
+      "BagMaking"
+    ]
+  },
+  "searchapi": [
+    "Janome HD5000 review",
+    "Janome HD5000 owner review problems",
+    "Janome HD5000 forum",
+    "Janome HD5000 vs",
+    "Janome HD5000 patternreview"
+  ],
+  "retailers": [
+    "amazon.com",
+    "walmart.com",
+    "sewingmachinesplus.com",
+    "brother-usa.com",
+    "jukijunkies.com",
+    "joann.com"
+  ],
+  "forums": [
+    "patternreview.com",
+    "quiltingboard.com",
+    "sewingmachineforum.com"
+  ],
+  "youtube": [
+    "Janome HD5000 review"
+  ],
+  "model_names_only": true
+}

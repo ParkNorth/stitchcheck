@@ -1,0 +1,62 @@
+{
+  "slug": "janome-hd3000",
+  "model_names": [
+    "Janome HD3000",
+    "Janome HD-3000",
+    "Janome HD 3000",
+    "HD3000BE",
+    "Janome HD3000 Black Edition",
+    "Janome HD3000BE"
+  ],
+  "confusable_siblings": [
+    "Janome HD1000",
+    "Janome HD5000",
+    "Janome HD9",
+    "HD1000",
+    "HD5000",
+    "HD9"
+  ],
+  "reddit": {
+    "searches": [
+      "Janome HD3000",
+      "Janome HD-3000",
+      "Janome HD3000 review",
+      "Janome HD3000 problems",
+      "Janome HD3000 vs",
+      "Janome HD3000 Black Edition",
+      "Janome HD3000BE"
+    ],
+    "subreddits": [
+      "sewing",
+      "sewhelp",
+      "SewingForBeginners",
+      "quilting",
+      "myog",
+      "BagMaking"
+    ]
+  },
+  "searchapi": [
+    "Janome HD3000 review",
+    "Janome HD3000 owner review problems",
+    "Janome HD3000 forum",
+    "Janome HD3000 vs",
+    "Janome HD3000 patternreview"
+  ],
+  "retailers": [
+    "amazon.com",
+    "walmart.com",
+    "sewingmachinesplus.com",
+    "brother-usa.com",
+    "jukijunkies.com",
+    "joann.com"
+  ],
+  "forums": [
+    "patternreview.com",
+    "quiltingboard.com",
+    "sewingmachineforum.com"
+  ],
+  "youtube": [
+    "Janome HD3000 review"
+  ],
+  "model_names_only": true
+}

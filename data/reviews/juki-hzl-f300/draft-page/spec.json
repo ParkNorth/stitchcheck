@@ -1,0 +1,158 @@
+{
+  "specs": {
+    "throatIn": {
+      "value": null,
+      "source": null
+    },
+    "harpHeightIn": {
+      "value": 4.4,
+      "source": "https://www.jukihome.com/media/catalog/product/j/u/juki_f-series_brochure_web_2.pdf"
+    },
+    "presserFootLift": {
+      "value": "Manual lift; knee lifter is an optional accessory on the F300 (standard on the F400 and F600)",
+      "source": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
+    },
+    "includedFeet": {
+      "value": "Standard (A), zipper (B), overcasting (C), blind stitch (D), buttonhole (E) and manual buttonhole (I) feet; hard case; 4 bobbins; 3 spool caps; screwdriver; seam ripper; foot controller; needle set; cleaning brush. Walking foot, quilt foot, patchwork foot, quilt guide, wide table and knee lifter are not in the F300 standard list",
+      "source": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
+    },
+    "warrantyUs": {
+      "value": "2 yr on motors, light assembly, wiring, switches, circuit boards and speed control; 5 yr on other parts for factory defects (Juki America FAQ; same wording for every model; service through the selling dealer)",
+      "source": "https://www.jukihome.com/faq/"
+    },
+    "weightLb": {
+      "value": 21.6,
+      "source": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
+    },
+    "dimensionsIn": {
+      "value": "17.5 x 8.25 x 11.5 (W x D x H, Juki page); 445 x 210 x 290 mm (brochure)",
+      "source": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
+    },
+    "stitchCount": {
+      "value": 106,
+      "source": "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html"
+    },
+    "motor": {
+      "value": null,
+      "source": null
+    },
+    "frame": {
+      "value": null,
+      "source": null
+    }
+  },
+  "conflicts": [
+    "Throat: Juki publishes no needle-to-arm figure for the F300. Dealer sheets (Juki Junkies, Premier Stitching) say 8.0 in and an Amazon bundle title says '9 inch Throat' (a seller's wording); Juki's brochure gives only 112 mm (4.5 in) underarm height and a 551 mm wide-table width. We list throat as [verify].",
+    "Knee lifter: one dealer lists it in the box, but Juki's F300 page and brochure list it as optional (standard on the F400 and F600).",
+    "Extension table and feet: Juki's F300 standard list has no wide table, walking foot or quilt foot; dealers and bundles (including Amazon's 'Quilters Package' listing B00F9K1FIM) add them, so bundle contents are the seller's.",
+    "Stitch count: Juki's page and brochure say 106; the 2009 manual (read by OCR, shared by the F600, F400 and F300) says 105 on its stitch-selection page. We use 106.",
+    "Weight: Juki says 21.6 lb; one dealer says 21 lb. We use Juki's figure.",
+    "Dimensions: height is 11.5 in on Juki's page and 29.1 cm (11.4 in) in the manual.",
+    "Price: Juki lists a $1,799 suggested retail price (F400 $1,999, F600 $2,369); our $799 is a Michaels sighting on 2026-09-29 and an eBay listing showed $699. Dealers set their own prices.",
+    "Ratings: Sewing Machines Plus shows 4.74 from 246 reviews; Amazon's single 'Quilters Package' bundle listing shows 4.2 from 40 ratings with no review text, and is not a rating of the base machine."
+  ],
+  "claims": [
+    "\"Exceed your sewing and quilting expectations\" and \"a home machine that brings an industrial touch\" (Juki claims, Juki product page)",
+    "\"Industrial Quality Buttonholes\" and \"Powerful Feeding\" (Juki claims, brochure and product page)",
+    "\"Able to handle heavy-duty fabrics and layers\" (Juki claim; no Juki document gives a layer rating)",
+    "\"Exceed Home Deco\" is Juki's series name for the F300 (F400 is Exceed Quilt & Pro, F600 Exceed Quilt & Pro Special), not a rating",
+    "\"Full Sized 9 inch Throat\" (Amazon bundle listing title, a seller's wording; Juki publishes no such figure)"
+  ],
+  "evidence": "owner",
+  "price": {
+    "priceUsdSeen": 799,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Michaels (a retailer sighting; Juki's own suggested retail price is $1,799)"
+  },
+  "sources": [
+    "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f300-exceed-home-deco.html",
+    "https://www.jukihome.com/media/catalog/product/j/u/juki_f-series_brochure_web_2.pdf",
+    "https://www.jukihome.com/media/catalog/product/h/z/hzl-f_instruction_manual.pdf",
+    "https://www.jukihome.com/faq/",
+    "https://www.jukihome.com/products/sewing/computerized-sewing/hzl-f400-exceed-quilt-pro.html",
+    "https://www.jukihome.com/products/sewing/exceed-f600-quilt-pro-special.html",
+    "https://www.sewingmachinesplus.com/hzl-f300.php",
+    "https://www.michaels.com/product/juki-hzlf300-computerized-sewing-and-quilting-machine-190229090562965517",
+    "https://www.amazon.com/Juki-HZL-F300-Exceed-Computer-Quilting/dp/B00F9K1FIM",
+    "https://jukijunkies.com/product/hzl-f300/",
+    "https://www.premierstitching.com/juki-exceed-hzl-f300-computerized-sewing-quilting-machine/",
+    "https://sewing.patternreview.com/review/machine/7001",
+    "https://sewing.patternreview.com/review/machine/6873",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/130106",
+    "https://www.quiltingboard.com/main-f1/juki-hzl-f300-t118168.html"
+  ],
+  "editorial": {
+    "verdict": "A 900 spm box-feed computerized machine with 106 stitches and 16 sensor buttonholes; Juki gives no throat figure, and the knee lifter, wide table and walking foot are extras.",
+    "whoFor": "A sewer stepping up from a beginner machine who wants Juki's box feed and sensor buttonholes and does not need 225 stitches or the F600's bundled accessories.",
+    "skipIf": "You need a published needle-to-arm figure for large quilts, or you want the knee lifter, walking foot and wide table included: Juki lists those as standard on the F600.",
+    "keySpec": "106 stitches · 900 spm · throat [verify] · box feed · 21.6 lb",
+    "strengths": [
+      "Juki confirms 900 spm, a 7 mm width, a 5 mm length, box feed and the 130R / 705H needle system.",
+      "16 sensor buttonholes that PatternReview owners single out as consistent, in a machine they describe as quiet.",
+      "Owners report thick layers feeding well on the box feed, though a few report glitches on very heavy fabric."
+    ],
+    "weaknesses": [
+      "The accessory set is thin: Juki lists the knee lifter, wide table, walking foot and quilt foot as not standard, and owners report buying them separately.",
+      "Juki publishes no throat figure; the 8 in on dealer sheets and the 9 in in one Amazon title are not Juki's, and Juki's only arm number is a 4.5 in underarm height.",
+      "Owner threads include breakage reports: a broken bobbin gear and a former owner calling it a lemon. Reddit skews toward help requests, so read these with care."
+    ],
+    "checks": [
+      {
+        "title": "Base machine or bundle",
+        "body": "Amazon B00F9K1FIM is a seller's 'Quilters Package' bundle titled '9 inch Throat', rated 4.2 from 40 ratings with no review text. Its rating is not a rating of the base machine and its contents are the seller's. Read the contents list."
+      },
+      {
+        "title": "List price against sightings",
+        "body": "Juki lists $1,799 for the F300, $1,999 for the F400 and $2,369 for the F600. Our $799 is a Michaels sighting on 2026-09-29, and dealers set their own prices. Compare what is in the box at each price."
+      },
+      {
+        "title": "Throat is not published",
+        "body": "Juki gives no needle-to-arm figure for the F300. Dealer sheets say 8 in, one Amazon title says 9 in, and Juki's brochure shows only a 4.5 in underarm height. Ask the dealer for a measurement before buying for large quilts."
+      }
+    ],
+    "realCost": [
+      "Knee lifter (optional on the F300)",
+      "Walking foot and quilt foot if quilting (not standard)",
+      "Wide extension table (551 mm wide; optional)",
+      "130R / 705H needles"
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between the Juki HZL-F300 and HZL-F600?",
+        "a": "Juki lists the F600 with 225 stitches, 4 fonts, dual LEDs and the walking foot, quilt foot, wide table and knee lifter as standard. The F300 has 106 stitches, 3 fonts and one LED, with those accessories optional. Both are 900 spm box-feed machines with 16 buttonholes."
+      },
+      {
+        "q": "How big is the throat on the HZL-F300?",
+        "a": "Juki publishes no needle-to-arm figure for the F300. Dealer sheets say 8 in and one Amazon bundle title says 9 in, neither from Juki. Juki's brochure shows a 4.5 in (112 mm) underarm height and a 551 mm wide-table width, neither of which is throat."
+      },
+      {
+        "q": "Does the HZL-F300 come with an extension table?",
+        "a": "Not in Juki's standard list: the wide table is optional on the F300. One dealer says a table is included and bundle listings add one, so check the contents of the listing you buy."
+      },
+      {
+        "q": "Does the HZL-F300 have a knee lifter?",
+        "a": "Juki lists the knee lifter as optional on the F300 and standard on the F400 and F600. Some dealer pages show one in the box; confirm on the listing."
+      },
+      {
+        "q": "Is the HZL-F300 good for quilting?",
+        "a": "QuiltingBoard members ask the same question, and owners report piecing working well. Juki gives no throat figure, and the walking foot and quilt foot are not standard, so check the arm space against your quilt size."
+      },
+      {
+        "q": "How many stitches does the HZL-F300 have?",
+        "a": "106 per Juki's product page and brochure, including 16 buttonholes and 3 fonts. The shared 2009 manual says 105 on its stitch-selection page."
+      },
+      {
+        "q": "What needles does the HZL-F300 use?",
+        "a": "Juki lists 130R / 705H needles with a low shank."
+      },
+      {
+        "q": "How heavy is the HZL-F300?",
+        "a": "21.6 lb (9.8 kg) per Juki; one dealer says 21 lb."
+      },
+      {
+        "q": "What is the warranty on the HZL-F300?",
+        "a": "Juki America's FAQ gives 2 years on motors, light assembly, wiring, switches, circuit boards and speed control, and 5 years on other parts for factory defects. The wording is the same for every Juki model, and service goes through the selling dealer."
+      }
+    ]
+  }
+}

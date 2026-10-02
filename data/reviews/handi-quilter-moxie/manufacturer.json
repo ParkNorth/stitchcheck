@@ -1,0 +1,313 @@
+{
+  "slug": "handi-quilter-moxie",
+  "collected": "2026-10-02",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/handi-quilter-moxie.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "page",
+      "url": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/",
+      "type": "product page (handiquilter.com)",
+      "fetched": "2026-10-02",
+      "note": "Maker page for the 15 in Moxie; price range, option selectors, spec table, 5 customer reviews, warranty summary. Page modified 2026-10-01 per page metadata."
+    },
+    {
+      "id": "manual",
+      "url": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf",
+      "type": "HQ Moxie User Manual, Version 1.0, 10/2020 (PDF, 66 pages, maker document hosted by dealer Sewing Machines Plus)",
+      "fetched": "2026-10-02",
+      "note": "handiquilter.com/download/88868 returned a bot-challenge page to curl, so the same maker manual was read from the dealer-hosted copy. Document footer is Handi Quilter, Inc., printed October 2020. Page 11 'General Specifications'; page 59 warranty."
+    },
+    {
+      "id": "warranty",
+      "url": "https://handiquilter.com/warranty/",
+      "type": "warranty terms page (handiquilter.com)",
+      "fetched": "2026-10-02",
+      "note": "HQ Quilting Machine Limited Warranty and Pro-Stitcher Limited Warranty; text dated 08/26/10 for the machine section. Not model-specific: 'HQ Quilting Machine'."
+    },
+    {
+      "id": "space",
+      "url": "https://handiquilter.com/space-moxie-needs/",
+      "type": "maker blog post, 'How Much Space Does the Moxie Need?' (March 2025, modified 2026-08-14)",
+      "fetched": "2026-10-02",
+      "note": "Moxie family (Moxie, Moxie XL, Moxie ST), frame footprints, Little Foot frame height range."
+    },
+    {
+      "id": "compare",
+      "url": "https://handiquilter.com/machine-comparison-should-i-buy-the-moxie-or-the-amara/",
+      "type": "maker blog post, Moxie vs Amara 20 (August 2024, modified 2026-08-14)",
+      "fetched": "2026-10-02",
+      "note": "Maker's own wording on throat space versus usable quilting area, frames, speeds, Amara 20 specs."
+    },
+    {
+      "id": "xl",
+      "url": "https://handiquilter.com/product/moxie-xl/",
+      "type": "sibling product page (Moxie XL)",
+      "fetched": "2026-10-02",
+      "note": "Fetched through a query extraction, not a full read."
+    },
+    {
+      "id": "amara",
+      "url": "https://handiquilter.com/product/hq-amara-20/",
+      "type": "sibling product page (Amara 20)",
+      "fetched": "2026-10-02",
+      "note": "Fetched through a query extraction, not a full read."
+    },
+    {
+      "id": "systems",
+      "url": "https://handiquilter.com/longarm-quilting-systems/",
+      "type": "maker page, Longarm Quilting Systems",
+      "fetched": "2026-10-02",
+      "note": "Throat space versus quilting space for Avante, Fusion and Sweet Sixteen. Query extraction only."
+    },
+    {
+      "id": "manuals",
+      "url": "https://handiquilter.com/manuals/",
+      "type": "maker manuals index",
+      "fetched": "2026-10-02",
+      "note": "Lists manuals for 'current and retired machines'. The Moxie Family Booklet (download/197111) and Quick Reference Guide (download/94263) are behind the same bot-challenge and were not read."
+    }
+  ],
+  "facts": [
+    {
+      "field": "throatIn",
+      "value": "Page: '15-inch throat space'; spec table 'Throat Size 15 inches'. Manual 'Sewing Opening Dimensions (210 mm X 383 mm) 8.25 inches X 15.00 inches'.",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": 15,
+      "note": "The maker's wording is 'throat space' and 'sewing opening'; it does not say needle to arm or needle to body. The manual's second figure (15.00 in, 383 mm) matches the page. Per rule 11 a 15 in head on a frame is an entry long-arm on a frame; the maker itself calls the Moxie a 'longarm' and the Moxie XL (18 in) part of the same family.",
+      "site": {
+        "label": "Throat space",
+        "juki": "15 inches of throat space. Manual: sewing opening 8.25 in by 15.00 in.",
+        "others": "Matches our 15 in; the maker does not say needle to body.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Handi Quilter product page",
+            "url": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"
+          },
+          {
+            "label": "Moxie manual (dealer-hosted copy)",
+            "url": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "throatUsable",
+      "value": "Maker blog: 'With the Moxie, the safe usable quilting area is approximately 10 inches.' It explains frame poles and the take-up roll through the throat reduce the area.",
+      "source": "compare",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Maker's own figure for usable quilting width on a frame. Not a spec field; useful for the 'throat versus usable' caveat. Amara 20: approximately 14 in of 20 per the same post.",
+      "site": {
+        "label": "Usable quilting area",
+        "juki": "Safe usable quilting area approximately 10 inches (of 15).",
+        "others": "Not in the spec table.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Handi Quilter comparison post",
+            "url": "https://handiquilter.com/machine-comparison-should-i-buy-the-moxie-or-the-amara/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "throatHeightIn",
+      "value": "Manual 'Sewing Opening Dimensions (210 mm X 383 mm) 8.25 inches X 15.00 inches'; the manual does not label which figure is height.",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The 8.25 in (210 mm) figure is presumably the height of the opening but the manual does not say so. Treat as unlabelled until the editor decides; do not publish as 'throat height' without that caveat."
+    },
+    {
+      "field": "maxSpm",
+      "value": "1,800 stitches per minute (page and manual).",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": 1800,
+      "note": "Manual General Specifications: manual mode 25 to 1800 spm, regulated mode 0 to full speed, cruise speed 50 to 800 spm. The manual's own display section says the SPM range is 50 to 1800 in increments of 25, so the manual disagrees with itself on the manual-mode floor (25 vs 50).",
+      "site": {
+        "label": "Speed",
+        "juki": "1,800 stitches per minute; cruise speed 50 to 800 spm.",
+        "others": "Matches our 1,800 spm.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Handi Quilter product page",
+            "url": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"
+          },
+          {
+            "label": "Moxie manual (dealer-hosted copy)",
+            "url": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchesPerInch",
+      "value": "4 to 18 (page); manual 'in regulated mode'.",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "4 to 18 spi",
+      "note": "Manual limits the 4 to 18 range to regulated mode."
+    },
+    {
+      "field": "needleSystem",
+      "value": "Needle system 134. Manual General Specifications: 'Needle Sizes (recommended) From 80/12 to 130/21'. Manual troubleshooting: 'needle system 134, sizes 12 through 21'.",
+      "source": "manual",
+      "vs_spec": "contradicts",
+      "spec_value": "134 (round shank), sizes 12 to 20",
+      "note": "Maker manual tops out at size 21 (130/21), not 20. Spec cites a Handi Quilter support article that was not re-fetched; the page-vs-manual question is the upper size only. Round shank is not stated in the manual pages read.",
+      "site": {
+        "label": "Needle system",
+        "juki": "System 134, sizes 80/12 to 130/21 (manual).",
+        "others": "Our spec says sizes 12 to 20.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Moxie manual (dealer-hosted copy)",
+            "url": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "bobbin",
+      "value": "Rotary hook, horizontal axis, M-class aluminum bobbin, bobbin case type MF (manual). Page: 'High-speed rotary hook with large-capacity M-class bobbin'.",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "M class, high speed rotary hook"
+    },
+    {
+      "field": "motor",
+      "value": "Brushless DC, servo controlled; maximum 200 watts, 100-240 VAC, 50-60 Hz; average 0.9 A at 115 VAC.",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Manual General Specifications, page 11."
+    },
+    {
+      "field": "display",
+      "value": "Page: 'high-resolution, full-color display'; spec table 'Display size 1.44 inches'. Manual: '1.44\" (128 x 128 pixels), built-in machine face cover'.",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "Full color display",
+      "note": "Adds the 1.44 in size and 128 x 128 pixel resolution."
+    },
+    {
+      "field": "lighting",
+      "value": "'Built-in LED lighting to illuminate quilting space'.",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "Built in LED lighting; optional Handi Light"
+    },
+    {
+      "field": "weightLb",
+      "value": "Page lists 'Packaging Weight 58 lbs' and 'Packaging Dimensions 36 x 16 x 26 in'. No machine weight in the manual pages read.",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Packaging weight is shipping weight, not machine weight; keep weightLb null (rule 6). The Amazon listing shows Item Weight 50 pounds and dimensions 24 x 15 x 12 in, but that is a seller listing, not the maker. Moxie XL packaging weight on the maker page is 72 lbs."
+    },
+    {
+      "field": "frame",
+      "value": "'Includes the 8-foot HQ Loft Frame'; 'easily upgrades to a 10-foot length with the 2-foot extension kit'; 'also compatible with the 5-foot HQ Little Foot Frame'. Spec table frame sizes: Little Foot 14 x 48 in, Loft 10 ft, Loft 8 ft.",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "8 ft HQ Loft Frame included; 2 ft extension kit upgrades to 10 ft; compatible with 5 ft HQ Little Foot Frame",
+      "note": "The page selector offers 'Loft Frame 8', 'Loft Frame 10' and 'Little Foot Frame' as options with a $5,495 to $12,690 price range, so the maker's own page shows the frame choice changes the price.",
+      "site": {
+        "label": "Frame",
+        "juki": "8 ft HQ Loft Frame included; 10 ft with 2 ft extension; 5 ft Little Foot Frame compatible.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Handi Quilter product page",
+            "url": "https://handiquilter.com/product/hq-moxie-15-quilt-machine/"
+          }
+        ]
+      }
+    },
+    {
+      "field": "frameHeightAdjustIn",
+      "value": "Maker space post: Little Foot frame 'adjustable from 33\" to 44\" in height'. The post gives no height range for the Loft frame.",
+      "source": "space",
+      "vs_spec": "contradicts",
+      "spec_value": "33 to 44",
+      "note": "Our spec attaches 33 to 44 in to the frame generally; the maker states it for the Little Foot frame only. The Compare post says 'all Handi Quilter frames are height-adjustable' without a range."
+    },
+    {
+      "field": "price",
+      "value": "Page: '$5,495.00 through $12,690.00 price range' with options for Pro-Stitcher and frame; the base configuration behind $5,495 is not labelled. Page also shows '$458/mo suggested payments'.",
+      "source": "page",
+      "vs_spec": "contradicts",
+      "spec_value": 5995,
+      "note": "Spec records $5,995 regular price seen at Village Sewing on 2026-09-29. Maker page now starts at $5,495 (same figure as the Amazon 8 ft Loft listing, B08P3SRX98). Price is a seen value with a date, not a chrome fact. The page says retailers provide local support and warranty fulfillment."
+    },
+    {
+      "field": "includedFeet",
+      "value": "Page bullets: 'Includes ruler foot and open-toe foot' and also 'Handi Feet-compatible; includes closed-toe foot and open-toe foot'. Maker blog: closed-toe foot and open-toe foot included.",
+      "source": "page",
+      "vs_spec": "contradicts",
+      "spec_value": "20 needles included; optional Pro-Stitcher Lite, Quilt from the Back Kit, ...",
+      "note": "The maker page contradicts itself on whether the second included foot is a ruler foot or a closed-toe foot; the manual diagram labels a 'Ruler foot' on the machine. No maker document read supports the spec's '20 needles included' (that came from a dealer)."
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Warranty page: '90-day Limited Warranty' parts and labor, then parts only; '10-year Limited Manufacturer's Warranty' on the sewing head for casting or machining imperfections; '5-year Mechanical Warranty' and '5-year electronic/electrical warranty' with free replacement parts, customer pays labor and shipping. Registration card must be received for the warranty to be valid.",
+      "source": "warranty",
+      "vs_spec": "confirms",
+      "spec_value": "10 yr casting, 5 yr mechanical, 5 yr electronic, 90 day full parts and labor",
+      "note": "Not Moxie-specific: the text covers the 'HQ Quilting Machine'. The 2020 manual adds that the 5-year electronic/electrical warranty is invalid if the machine is left plugged in when not in use; the current warranty page does not say so (page-vs-manual disagreement). Warranty page says machines bought before 11-1-14 had 2-year terms.",
+      "site": {
+        "label": "Warranty",
+        "juki": "90 days parts and labor, 10 years casting, 5 years mechanical, 5 years electronic/electrical; customer pays labor and shipping after 90 days.",
+        "others": "Matches our spec; not specific to the Moxie.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Handi Quilter warranty page",
+            "url": "https://handiquilter.com/warranty/"
+          },
+          {
+            "label": "Moxie manual (dealer-hosted copy)",
+            "url": "https://www.sewingmachinesplus.com/media/products/handi_quilter/hq-moxie/manual.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchRegulation",
+      "value": "'Choose from Cruise or Precision stitch regulation or Manual Mode.' Manual: Precision, Cruise and Manual stitch modes selected on the display.",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": "Built in (Precision and Cruise modes); not an add-on"
+    },
+    {
+      "field": "proStitcher",
+      "value": "Page spec table: 'Pro-Stitcher Compatibility: Pro-Stitcher Lite Compatible'. Compare post: 'All new Handi Quilter movable machines are Pro-Stitcher ready!' with cabling pre-installed.",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Spec lists Pro-Stitcher Lite as optional; the maker page sells it as an option at configuration."
+    },
+    {
+      "field": "availability",
+      "value": "Page is live with an 'Add to Cart' button and a 'Find a Retailer' link. No 'no longer available' wording on the Moxie page.",
+      "source": "page",
+      "vs_spec": "confirms",
+      "spec_value": null,
+      "note": "Maker calls Moxie, Moxie XL and Moxie ST 'the Moxie family'."
+    },
+    {
+      "field": "claims",
+      "value": "'Designed by a Quilter, for Quilters' (manual cover); 'simple, spunky longarm' and 'everything you need to get started quilting, including the frame' (product page); 'All Handi Quilter machines are equipped with industry-leading stitch regulation technology' (maker blog).",
+      "source": "page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Quote as maker claims, not facts."
+    }
+  ]
+}

@@ -1,0 +1,899 @@
+{
+  "slug": "juki-mo-1000",
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
+  "reviewedOn": "2026-10-02",
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 15,
+    "itemsCollected": 204,
+    "statements": 57,
+    "voices": 35,
+    "ownerVoices": 28,
+    "dateRange": [
+      2013,
+      2026
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 13,
+        "items": 166
+      },
+      "retailer": {
+        "sources": 2,
+        "items": 37
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "themes": [
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 25,
+      "voices": 20,
+      "ownerVoices": 17,
+      "sources": 6,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 7,
+        "retailer": 13
+      },
+      "polarity": {
+        "positive": 13,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 2
+      },
+      "years": [
+        2013,
+        2024
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c221a5367",
+          "polarity": "negative",
+          "claim": "Threading with the DVD took 20 minutes.",
+          "quote": "Threading with DVD took 20 min",
+          "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cfe544c27",
+          "polarity": "negative",
+          "claim": "The front cover will not close until the air-threading switch is disengaged.",
+          "quote": "front cover won’t close unless that switch is disengaged",
+          "url": "https://www.reddit.com/r/sewing/comments/cmz9ud/juki_mo1000_nothing_happens_when_foot_pedal_is/ewgcnpe/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cf1009280",
+          "polarity": "positive",
+          "claim": "Owner finds thread feeding easy.",
+          "quote": "easy thread feeding",
+          "url": "https://www.reddit.com/r/sewing/comments/1blt38h/serger_help_me_choose/kw7aoff/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c9a73fce0",
+          "polarity": "positive",
+          "claim": "Threading is a dream after a month of near-daily use.",
+          "quote": "threading is a dream",
+          "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cd41a05f2",
+          "polarity": "mixed",
+          "claim": "Threading the needles is harder than the loopers; the needle threader only partly works.",
+          "quote": "threading the one or two needles is not quite so easy",
+          "url": "https://www.amazon.com/dp/B00G2RX1BA",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "ca34f962f",
+        "c6662fcda",
+        "cde6d4c41",
+        "ccde5956a",
+        "c4a620ccd",
+        "c30ed8d8e",
+        "cfe544c27",
+        "cf035b343",
+        "cf1009280",
+        "c923048a2",
+        "cbc8853b0",
+        "c37801873",
+        "cd41a05f2",
+        "cd75743e4",
+        "cfc3a3d14",
+        "ce24fd7ff",
+        "c3dbd2821",
+        "c221a5367",
+        "ce3b43758",
+        "c4bbd91e6",
+        "c95f7d1e1",
+        "cff88f069",
+        "c32b53724",
+        "c9a73fce0",
+        "c2075093f"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 9,
+      "voices": 9,
+      "ownerVoices": 8,
+      "sources": 5,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 4,
+        "retailer": 5
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 5,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2015,
+        2024
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c7c49214b",
+          "polarity": "negative",
+          "claim": "Owner returned the unit after a dead-on-arrival problem, believing it was damaged in transit.",
+          "quote": "99% sure it just broke in transit",
+          "url": "https://www.reddit.com/r/sewing/comments/cmz9ud/juki_mo1000_nothing_happens_when_foot_pedal_is/ewgcnpe/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c6c1ca9f4",
+          "polarity": "negative",
+          "claim": "Plastic needle threader broke, and its replacement also broke within a week.",
+          "quote": "Needle threader is plastic, and it breaks.",
+          "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cea401115",
+          "polarity": "positive",
+          "claim": "Owner reports flawless performance on light to heavy fabrics.",
+          "quote": "been flawless",
+          "url": "https://www.reddit.com/r/sewing/comments/1blt38h/serger_help_me_choose/kw7aoff/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c36302110",
+          "polarity": "positive",
+          "claim": "Owner reports no problems.",
+          "quote": "Problem free and quiet",
+          "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cc9b45e9c",
+          "polarity": "mixed",
+          "claim": "Arrived with a broken part, a thread holder, otherwise worked well.",
+          "quote": "It has a broken part other than that everything is finw.",
+          "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c2a0a36f8",
+        "c7c49214b",
+        "c4a7c9658",
+        "cea401115",
+        "c74ac5cfa",
+        "c6c1ca9f4",
+        "cc9b45e9c",
+        "c36302110",
+        "c9013ce1a"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 6,
+      "sources": 2,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 6
+      },
+      "polarity": {
+        "positive": 6,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2017,
+        2022
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ccfb66fac",
+          "polarity": "positive",
+          "claim": "Owner finds it quiet.",
+          "quote": "Problem free and quiet",
+          "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c76821ed0",
+          "polarity": "positive",
+          "claim": "Owner found it quiet and steady in use, with no table vibration.",
+          "quote": "how quite and steady it ran",
+          "url": "https://www.amazon.com/dp/B00G2RX1BA",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c76821ed0",
+        "c25226793",
+        "cbcbd1642",
+        "c75f2dc5c",
+        "ccfb66fac",
+        "c6a20503e"
+      ]
+    },
+    {
+      "theme": "rolled_hem",
+      "label": "Rolled hem",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2013,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cdab232a8",
+          "polarity": "negative",
+          "claim": "Rolled hem requires engaging the upper looper converter; a DVD tutorial did not show how to disengage it afterward.",
+          "quote": "directed me to engage the upper looper converter",
+          "url": "https://www.amazon.com/dp/B00G2RX1BA",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c62ecf0e9",
+          "polarity": "negative",
+          "claim": "On a new machine, the stitch finger keeps coming loose during three-thread rolled hems.",
+          "quote": "it keeps getting caught in chain stitch with 3 thread rolled hems",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1jebvky/juki_mo_1000_help_piece_fell_out/mikedd2/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ccdcc9902",
+          "polarity": "positive",
+          "claim": "Beta tester at a show saw a beautiful rolled hem.",
+          "quote": "It did a beautiful rolled hem",
+          "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c62ecf0e9",
+        "cdab232a8",
+        "ccdcc9902"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 2,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2016,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c8f72ade4",
+          "polarity": "negative",
+          "claim": "Display-model unit has a looper cover that is loose and pushes open easily.",
+          "quote": "can easily push out and open",
+          "url": "https://www.reddit.com/r/sewing/comments/1g8e1o1/which_machine_should_i_keep/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cae3e9805",
+          "polarity": "positive",
+          "claim": "New owner calls it a very solid machine.",
+          "quote": "Very solid nice machine!!",
+          "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c8f72ade4",
+        "c24301db9",
+        "cae3e9805"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2019,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c04b6e687",
+          "polarity": "negative",
+          "claim": "Many bonus pack items, including the presser foot pack, were out of stock after purchase at this retailer.",
+          "quote": "many of the bonus pack items were not in stock",
+          "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c8d54ea78",
+          "polarity": "negative",
+          "claim": "If the foot is not snapped in perfectly, needles break when sewing; reviewer wants a sturdier foot connection.",
+          "quote": "If not snapped in properly the needles break when you try to sew.",
+          "url": "https://www.amazon.com/dp/B00G2RX1BA",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c1479099a",
+          "polarity": "positive",
+          "claim": "This display unit came with a 6-piece presser foot kit.",
+          "quote": "it did come with the 6 piece presser foot kit",
+          "url": "https://www.reddit.com/r/sewing/comments/1g8e1o1/which_machine_should_i_keep/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c1479099a",
+        "c8d54ea78",
+        "c04b6e687"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 1,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 2,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2019,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c43ca064b",
+          "polarity": "negative",
+          "claim": "Stitching started skipping and would not stop despite hours of trying tension settings.",
+          "quote": "the stitching started skipping",
+          "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cbb716d62",
+        "c6cf60a72",
+        "c43ca064b"
+      ]
+    },
+    {
+      "theme": "cutting_trimming",
+      "label": "Cutting and trimming",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2015,
+        2020
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c1e669cb7",
+          "polarity": "negative",
+          "claim": "The trimmings catcher does not fit flush and misses some trimmings.",
+          "quote": "The basket that catches the trimmings doesn't fit flush enough to catch everything.",
+          "url": "https://www.amazon.com/dp/B00G2RX1BA",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "ce29a80d3",
+          "polarity": "positive",
+          "claim": "Two knives that are easily adjusted to use or not.",
+          "quote": "two knives that can easily be adjusted to use or not",
+          "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c1e669cb7",
+        "ce29a80d3"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2021
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c8113f8f6",
+          "polarity": "positive",
+          "claim": "Owner finds the machine compact.",
+          "quote": "quite compact",
+          "url": "https://www.reddit.com/r/sewing/comments/oy9klo/after_5_years_of_sewing_my_mom_has_gifted_me_this/h7sq62q/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c8113f8f6"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2022,
+        2022
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c27d3ce04"
+      ]
+    },
+    {
+      "theme": "differential_feed",
+      "label": "Differential feed",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2020,
+        2020
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c643c345e",
+          "polarity": "positive",
+          "claim": "Differential is much more adaptable than on the reviewer's earlier Juki industrial serger.",
+          "quote": "the differential is much more adaptable",
+          "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c643c345e"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B00G2RX1BA",
+      "pageRating": 4.3,
+      "pageCount": 172,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 6
+      },
+      "lowRated": 1,
+      "sampled": "8 top reviews (8 US, 0 other countries) of 172 ratings"
+    },
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://www.sewingmachinesplus.com/juki-mo-1000.php",
+      "pageRating": 4.34,
+      "pageCount": 29,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 3,
+        "5": 21
+      },
+      "lowRated": 5,
+      "sampled": null
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "1,500 spm on the page and in the brochure.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "maker-page"
+    },
+    {
+      "label": "Differential feed",
+      "juki": "0.7 to 2.0 ratio, adjusted with a knob, even while sewing.",
+      "others": "Our spec said the ratio was not published; it is.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+        }
+      ],
+      "field": "differentialFeed",
+      "source": "maker-page"
+    },
+    {
+      "label": "Throat",
+      "juki": "72.4 mm throat height ('Ample Fabric Throat Area'). No needle-to-arm figure.",
+      "others": "Our spec shows 72.4 mm as throat height; keep that wording.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+        }
+      ],
+      "field": "throatIn",
+      "source": "maker-page"
+    },
+    {
+      "label": "Weight",
+      "juki": "20 lb on the page; 9.0 kg (19.8 lb) in the brochure.",
+      "others": "Spec notes dealer and review figures of 20, 23 and 25.4 lb.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+        },
+        {
+          "label": "Juki brochure",
+          "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_brochure_web.pdf"
+        }
+      ],
+      "field": "weightLb",
+      "source": "maker-page"
+    },
+    {
+      "label": "Size",
+      "juki": "13 x 11 x 12.25 in (W x D x H) on the page; 330 x 280 x 310 mm in the brochure.",
+      "others": "A review gave a larger figure that reads as carton size.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+        }
+      ],
+      "field": "dimensionsIn",
+      "source": "maker-page"
+    },
+    {
+      "label": "Presser foot lift",
+      "juki": "8 mm (0.3 in) maximum on the page; the brochure lists 5 mm with 8 mm as the max.",
+      "others": "Our spec said the lift was not published.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+        },
+        {
+          "label": "Juki brochure",
+          "url": "https://www.jukihome.com/media/catalog/product/m/o/mo-1000_brochure_web.pdf"
+        }
+      ],
+      "field": "presserFootLift",
+      "source": "maker-page"
+    },
+    {
+      "label": "Threading",
+      "juki": "Air threading for both loopers (not in order) and an automatic needle threader.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+        }
+      ],
+      "field": "threadingSystem",
+      "source": "maker-page"
+    },
+    {
+      "label": "In the box",
+      "juki": "Standard foot, waste collector, spare lower knife, guide bar, 2/3 selector, tools, foot control (full list on page).",
+      "others": "Our spec's DVD, foam pad and cone holders are not on Juki's list.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+        }
+      ],
+      "field": "includedFeet",
+      "source": "maker-page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "2 years on motor, light, wiring, switches, boards and speed control; 5 years on other parts (factory defects). Dealer provides service. General Juki wording, not model-specific.",
+      "others": "A dealer quoted '1 year service warranty'.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Juki FAQ",
+          "url": "https://www.jukihome.com/faq/"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "maker-faq"
+    },
+    {
+      "label": "Price",
+      "juki": "Suggested retail $2,299 (MSRP); dealer pricing by contacting a dealer.",
+      "others": "Our spec saw $1,499 at one dealer on 2026-09-29.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Juki product page",
+          "url": "https://www.jukihome.com/products/serging/mo-1000.html"
+        }
+      ],
+      "field": "price",
+      "source": "maker-page"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "MO-654DE",
+      "label": "Juki MO-654DE",
+      "rows": [
+        {
+          "feature": "Maker suggested price",
+          "urls": 0,
+          "classes": [],
+          "summary": "$1,399 against $2,299 for the MO-1000.",
+          "check": "Juki MO-654DE and MO-1000 product pages, MSRP, fetched 2026-10-02 (654DE cached 2026-10-01)",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Looper threading method",
+          "urls": 0,
+          "classes": [],
+          "summary": "Manual: the lower looper threader disengages for slide-in threading. No air threading.",
+          "check": "Juki MO-654DE product page, cached 2026-10-01",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Maximum overlock width",
+          "urls": 0,
+          "classes": [],
+          "summary": "6 mm against 9 mm on the MO-1000.",
+          "check": "Juki MO-654DE and MO-1000 product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Published weight",
+          "urls": 0,
+          "classes": [],
+          "summary": "15.5 lb against 20 lb on the MO-1000.",
+          "check": "Juki MO-654DE and MO-1000 product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "MO-644D",
+      "label": "Juki MO-644D",
+      "rows": [
+        {
+          "feature": "Maker suggested price",
+          "urls": 0,
+          "classes": [],
+          "summary": "$1,199 against $2,299 for the MO-1000.",
+          "check": "Juki MO-644D and MO-1000 product pages, MSRP, fetched 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Looper threading method",
+          "urls": 0,
+          "classes": [],
+          "summary": "Color-coded manual thread paths and a looper threader tool. No air threading.",
+          "check": "Juki MO-644D product page, fetched 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Maximum overlock width",
+          "urls": 0,
+          "classes": [],
+          "summary": "6 mm against 9 mm on the MO-1000.",
+          "check": "Juki MO-644D and MO-1000 product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Published weight",
+          "urls": 0,
+          "classes": [],
+          "summary": "15 lb against 20 lb on the MO-1000.",
+          "check": "Juki MO-644D and MO-1000 product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "juki-hzl-f300",
+  "generated": "2026-10-02T05:18:35.651Z",
+  "counts": {
+    "error": 0,
+    "warn": 1
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: of 246 sampled reviews, 15 name this model, 2 name a sibling only, 229 name neither"
+    },
+    {
+      "level": "warn",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: only 15 of 246 reviews name this model while siblings exist; confirm the listing is not pooled"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 215, this 180, sibling 21, unclear 14"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "46 Reddit threads, 10 with the model in the title"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 129 voices (113 first-hand), 48 sources, status draft"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "HZL-F600",
+      "label": "Juki HZL-F600",
+      "pattern": "hzl[\\s-]*f600(?![a-z0-9])"
+    },
+    {
+      "model": "HZL-F400",
+      "label": "Juki HZL-F400",
+      "pattern": "hzl[\\s-]*f400(?![a-z0-9])"
+    },
+    {
+      "model": "HZL-G220",
+      "label": "Juki HZL-G220",
+      "pattern": "hzl[\\s-]*g220(?![a-z0-9])"
+    },
+    {
+      "model": "HZL-G120",
+      "label": "Juki HZL-G120",
+      "pattern": "hzl[\\s-]*g120(?![a-z0-9])"
+    },
+    {
+      "model": "HZL-DX7",
+      "label": "Juki HZL-DX7",
+      "pattern": "hzl[\\s-]*dx7(?![a-z0-9])"
+    },
+    {
+      "model": "HZL-355ZR",
+      "label": "Juki HZL-355ZR",
+      "pattern": "hzl[\\s-]*355z[rw](?![a-z0-9])"
+    },
+    {
+      "model": "HZL-LB5020",
+      "label": "Juki HZL-LB5020",
+      "pattern": "hzl[\\s-]*lb5020(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "stitch count|stitch patterns|stitches",
+      "Stitches (owner reports)"
+    ],
+    [
+      "included accessories|included attachments|spool pin",
+      "Included accessories (owner reports)"
+    ],
+    [
+      "features|lights",
+      "Features (owner reports)"
+    ],
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "hzl[\\s-]*f600(?![a-z0-9])",
+      "Juki HZL-F600"
+    ],
+    [
+      "hd3000(?![a-z0-9])",
+      "Janome HD3000"
+    ],
+    [
+      "pq1600s(?![a-z0-9])|1600s(?![a-z0-9])",
+      "Brother PQ1600S"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "hzl[\\s-]*f600(?![a-z0-9])|hzl[\\s-]*f400(?![a-z0-9])|hzl[\\s-]*g220(?![a-z0-9])|hzl[\\s-]*g120(?![a-z0-9])|hzl[\\s-]*dx7(?![a-z0-9])|hzl[\\s-]*355z[rw](?![a-z0-9])|hzl[\\s-]*lb5020(?![a-z0-9])|hd3000(?![a-z0-9])|pq1600s(?![a-z0-9])|1600s(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {
+    "HZL-F400": {
+      "Stitches (owner reports)": {
+        "summary": "Commenters say the F400 has a handful more stitches and pattern stitches than the F300. Juki's F-series pages list the stitch libraries.",
+        "check": "owner comments; see Juki product pages for the counts"
+      },
+      "Included accessories (owner reports)": {
+        "summary": "Commenters say the F400 includes a plug-in automatic buttonhole foot, a walking foot, an extra spool pin and the knee lever that the F300 lacks. Juki lists the knee lifter as optional on the F300 and standard on the F400.",
+        "check": "owner comments; knee lifter confirmed by Juki product pages, 2026-10-02"
+      }
+    },
+    "HZL-F600": {
+      "Stitches (owner reports)": {
+        "summary": "Commenters say the F600 has extra stitches and a needle threader that the F300 lacks.",
+        "check": "owner comments; unverified for the needle threader"
+      },
+      "Features (owner reports)": {
+        "summary": "Commenters say the F600 has more features, two lights and extra accessories compared with the F300.",
+        "check": "owner comments; Juki lists one LED for the F300"
+      }
+    }
+  },
+  "siblingExtras": {
+    "HZL-F600": [
+      {
+        "feature": "Box contents",
+        "summary": "Juki lists the walking foot, quilt foot, wide table and knee lifter as F600 standard; on the F300 they are options.",
+        "check": "Juki F600 and F300 product pages and F-series brochure, 2026-10-02"
+      },
+      {
+        "feature": "Stitches and fonts",
+        "summary": "225 stitches and 4 fonts against 106 and 3 on the F300; random quilt stitches and dual LEDs are F600 only.",
+        "check": "Juki F600 product page and brochure comparison table, 2026-10-02"
+      },
+      {
+        "feature": "Juki list price",
+        "summary": "Juki's suggested retail price is $2,369.00 for the F600 and $1,799.00 for the F300; dealers set their own prices.",
+        "check": "Juki product pages, 2026-10-02"
+      }
+    ],
+    "HZL-F400": [
+      {
+        "feature": "Stitches and box contents",
+        "summary": "157 stitches and 3 fonts; walking foot, patchwork foot, quilt foot and knee lifter are standard, the wide table is an option.",
+        "check": "Juki F400 product page and brochure, 2026-10-02"
+      },
+      {
+        "feature": "Juki list price",
+        "summary": "Juki's suggested retail price is $1,999.00 for the F400, $200 above the F300's $1,799.00.",
+        "check": "Juki F400 and F300 product pages, 2026-10-02"
+      }
+    ]
+  }
+}

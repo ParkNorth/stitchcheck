@@ -1,0 +1,136 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "Amazon's 4.5 from 2,889 ratings is shared by several listings (B01E54NNSC plus 6 other ASINs including the ST531HD listing B076JLT9PG), so it pools machines and is not specific to the ST371HD."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "XM2701",
+      "label": "Brother XM2701",
+      "pattern": "(?<![a-z0-9])brother[\\s-]*xm2701(?![a-z0-9])|(?<![a-z0-9])xm2701(?![a-z0-9])"
+    },
+    {
+      "model": "CS7000X",
+      "label": "Brother CS7000X",
+      "pattern": "(?<![a-z0-9])brother[\\s-]*cs7000x(?![a-z0-9])|(?<![a-z0-9])cs7000x(?![a-z0-9])"
+    },
+    {
+      "model": "GX37",
+      "label": "Brother GX37",
+      "pattern": "(?<![a-z0-9])brother[\\s-]*gx37(?![a-z0-9])|(?<![a-z0-9])gx37(?![a-z0-9])"
+    },
+    {
+      "model": "XR3774",
+      "label": "Brother XR3774",
+      "pattern": "(?<![a-z0-9])brother[\\s-]*xr3774(?![a-z0-9])|(?<![a-z0-9])xr3774(?![a-z0-9])"
+    },
+    {
+      "model": "ST531HD",
+      "label": "Brother ST531HD",
+      "pattern": "st531hd"
+    }
+  ],
+  "features": [
+    [
+      "stitch options|stitch count",
+      "Stitches"
+    ],
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "motor|watt|amp|power",
+      "Motor power"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "heavy[\\s-]*duty[\\s-]*4423(?![a-z0-9])|4423(?![a-z0-9])",
+      "Singer Heavy Duty 4423"
+    ],
+    [
+      "heavy[\\s-]*duty[\\s-]*4452(?![a-z0-9])|4452(?![a-z0-9])",
+      "Singer Heavy Duty 4452"
+    ],
+    [
+      "hd3000(?![a-z0-9])",
+      "Janome HD3000"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "heavy[\\s-]*duty[\\s-]*4423(?![a-z0-9])|4423(?![a-z0-9])|heavy[\\s-]*duty[\\s-]*4452(?![a-z0-9])|4452(?![a-z0-9])|hd3000(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {
+    "ST531HD": {
+      "Stitches": {
+        "summary": "One commenter says the ST531HD has more stitch options than the ST371HD. Brother's pages were not checked for the ST531HD.",
+        "check": "one owner comment; unverified"
+      }
+    }
+  },
+  "siblingExtras": {
+    "XM2701": [
+      {
+        "feature": "Stitches",
+        "summary": "Brother lists 27 built-in stitches (63 stitch functions) for the XM2701 against 37 on the ST371HD.",
+        "check": "Brother product pages, 2026-10-02"
+      },
+      {
+        "feature": "Stitch size rows",
+        "summary": "The XM2701 page lists stitch width 5 and length 4; the ST371HD page lists 7 and 5. Units are not printed on either page.",
+        "check": "Brother product pages, 2026-10-02"
+      },
+      {
+        "feature": "Weight and price",
+        "summary": "12.6 lb and $149.99 on the XM2701 page against 14.3 lb and $239.99 on the ST371HD page.",
+        "check": "Brother product pages, 2026-10-02"
+      }
+    ],
+    "CS7000X": [
+      {
+        "feature": "Stitches and display",
+        "summary": "The CS7000X is computerized with an LCD and 70 built-in stitches; the ST371HD is a dial machine with 37.",
+        "check": "Brother product pages, 2026-10-02"
+      },
+      {
+        "feature": "Feet in the box",
+        "summary": "The CS7000X lists 10 feet including a walking foot and a quilting foot; the ST371HD lists 6 and no walking foot.",
+        "check": "Brother product pages, 2026-10-02"
+      },
+      {
+        "feature": "Speed row",
+        "summary": "Brother lists 750 for the CS7000X and 800 for the ST371HD.",
+        "check": "Brother product pages, 2026-10-02"
+      }
+    ]
+  }
+}
