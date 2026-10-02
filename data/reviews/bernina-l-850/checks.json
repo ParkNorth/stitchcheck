@@ -1,0 +1,30 @@
+{
+  "slug": "bernina-l-850",
+  "generated": "2026-10-02T11:58:13.189Z",
+  "counts": {
+    "error": 0,
+    "warn": 1
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 30, this 19, sibling 6, unclear 5"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "2 Reddit threads, 1 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "reddit",
+      "message": "few Reddit threads name the model in the title; collection may be on loose matches"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 5 voices (5 first-hand), 10 sources, status draft"
+    }
+  ]
+}

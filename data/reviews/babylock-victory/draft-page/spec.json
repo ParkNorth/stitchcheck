@@ -1,0 +1,165 @@
+{
+  "specs": {
+    "stitchTypes": {
+      "value": "4 thread and 3 thread overlock; 3 thread rolled hem and narrow hem; 2 thread and 3 thread flatlock; 2 thread blanket stitch; 2 thread ladder stitch",
+      "source": "https://babylock.com/resources/7612/download"
+    },
+    "maxSpm": {
+      "value": 1500,
+      "source": "https://babylock.com/victory-bls3-spec-sheet-2/"
+    },
+    "differentialFeed": {
+      "value": "Yes; manual gives N to 2.0 for gathering and N to 0.6 for stretching; single unit feed dog",
+      "source": "https://babylock.com/resources/7612/download"
+    },
+    "needleSystem": {
+      "value": "Organ or Schmetz HAx1SP/CR; 75/11 needles set up, 90/14 for heavyweight fabrics",
+      "source": "https://babylock.com/resources/7612/download"
+    },
+    "presserFootLift": {
+      "value": "Adjustable, up to 6 mm",
+      "source": "https://babylock.com/victory-bls3-spec-sheet-2/"
+    },
+    "threadTrimmer": {
+      "value": "Built-in side thread cutter for the thread chain (not an automatic trimmer)",
+      "source": "https://babylock.com/machines/serger/victory"
+    },
+    "weightLb": {
+      "value": 16,
+      "source": "https://babylock.com/machines/serger/victory"
+    },
+    "dimensionsIn": {
+      "value": "12.5 x 11 x 11.5 (machine only)",
+      "source": "https://babylock.com/machines/serger/victory"
+    },
+    "includedFeet": {
+      "value": "1 standard snap-on foot; spec sheet accessory list includes foot control, lint brush and needle insert tool, assorted needles, screwdrivers, tweezers, spare upper blade, looper threading tool, soft cover, thread nets, spool caps; optional feet sold separately",
+      "source": "https://babylock.com/victory-bls3-spec-sheet-2/"
+    },
+    "warrantyUs": {
+      "value": "25 yr limited; 10 yr parts, 5 yr circuit boards, 5 yr electrical, 1 yr labor (Victory spec sheet)",
+      "source": "https://babylock.com/victory-bls3-spec-sheet-2/"
+    },
+    "stitchWidthMm": {
+      "value": "1.5 to 7.5 (5.5 to 7.5 for 4 thread with the left needle; 1.5 is the rolled edge setting)",
+      "source": "https://babylock.com/victory-bls3-spec-sheet-2/"
+    },
+    "stitchLengthMm": {
+      "value": "0.75 to 4",
+      "source": "https://babylock.com/victory-bls3-spec-sheet-2/"
+    },
+    "lighting": {
+      "value": "2 LEDs",
+      "source": "https://babylock.com/machines/serger/victory"
+    }
+  },
+  "conflicts": [
+    "Differential feed: the Baby Lock manual gives N to 2.0 for gathering and N to 0.6 for stretching, while dealer pages state 2 to 1 and 3 to 4 for stretching; the dealer figure may be copied from the Imagine sheet, so the manual figures are used.",
+    "Needle system: the Baby Lock manual names only HAx1SP/CR, while a dealer needle page also lists ELx705CF and ELx705; the manual is used and the ELx705 pair is a dealer figure not found in Baby Lock documents.",
+    "Stitch types: the manual and Baby Lock's comparison chart list 2 thread blanket and ladder stitches that our earlier dealer based spec omitted; the manual list is used.",
+    "Weight: the Baby Lock product page says 16 lb machine only while the manual gives 7.6 kg (about 16.8 lb); 16 lb is used and neither says whether it includes the foot control or box.",
+    "Warranty: the Victory spec sheet adds a 5 year circuit board line that dealer statements omit; it is model sheet wording, so model specific.",
+    "Price: babylock.com showed $2,089 on 2026-10-02, a price shown on babylock.com and not an MSRP, while its warranty policy says only Authorized Retailers sell and warrant the machine; Sewing Machines Plus showed $1,899 sale against $2,599 regular on 2026-09-29, and dealers set their own prices."
+  ],
+  "claims": [
+    "\"Jet-Air Threading threads the lower loopers with the touch of a lever\" (manufacturer feature name, babylock.com product page)",
+    "\"Automatic Thread Delivery to thread in any order\" (manufacturer feature name, babylock.com product page)",
+    "\"A 6mm height that makes serging on thicker fabrics a breeze\" (manufacturer claim, babylock.com product page)",
+    "\"Stronger feeding as well as consistent gathering on all fabrics\" (manufacturer claim for the single unit feed dog)",
+    "\"Advanced knife driving and one-way clutch system\" with \"a larger cutting bite\" (manufacturer claim; the spec sheet says \"Heavy-duty cutting system\", a description of the knife, not a rating)",
+    "\"Solid internal frame\" and \"powerful, smooth performance\" (dealer copy; frame material and motor rating are not published by Baby Lock)",
+    "\"Best serger for beginners\" (dealer blog headline, sewandvac.com, not a manufacturer claim)"
+  ],
+  "evidence": "mixed",
+  "price": {
+    "priceUsdSeen": 2089,
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "babylock.com product page (price shown on babylock.com, not MSRP; dealers set their own price)"
+  },
+  "sources": [
+    "https://babylock.com/machines/serger/victory",
+    "https://babylock.com/victory-bls3-spec-sheet-2/",
+    "https://babylock.com/resources/7612/download",
+    "https://babylock.com/serging-comparison-charts",
+    "https://babylock.com/warranty-policy",
+    "https://babylock.com/celebrate"
+  ],
+  "editorial": {
+    "verdict": "Baby Lock's Jet-Air serger with Automatic Thread Delivery and no tension dials, sold through dealers; Baby Lock publishes no motor, frame or throat figure.",
+    "whoFor": "A sewist who wants air threading and no tension dials on a model Baby Lock still lists, and who will buy from an authorized dealer.",
+    "skipIf": "You want a buy button and a lower price (Juki MO-1000), are happy with tension dials and manual threading (Baby Lock Vibrant), or need coverstitch, which this overlock machine does not list.",
+    "keySpec": "4/3/2 thread · 1,500 spm · Jet-Air looper threading · Automatic Thread Delivery · 6 mm foot lift · 16 lb",
+    "strengths": [
+      "Owners report threading as quick, which fits Baby Lock's Jet-Air and Automatic Thread Delivery claims",
+      "Baby Lock lists 2 thread blanket and ladder stitches on the Victory and not on the Celebrate, plus 2 LEDs against the Celebrate's 1",
+      "Baby Lock's spec sheet states a 25 year limited warranty with 10 years on parts and 5 years on circuit boards"
+    ],
+    "weaknesses": [
+      "Owners report needle breakage, including both needles snapping on a first project and a right needle breaking on terry, from help-seeking threads, so it is not a failure rate",
+      "Owners report trouble finding ballpoint needles; the manual names only HAx1SP/CR needles",
+      "Baby Lock publishes no motor rating, frame material or throat figure, and the maker's workspace row is blank for the Victory"
+    ],
+    "checks": [
+      {
+        "title": "Price it at a dealer",
+        "body": "babylock.com showed $2,089 on 2026-10-02, not an MSRP, and dealers set their own price; Sewing Machines Plus showed $1,899 on sale on 2026-09-29. Ask for the machine only price."
+      },
+      {
+        "title": "Check the warranty with the seller",
+        "body": "Baby Lock's warranty policy says only Authorized Retailers can issue its warranties and that it is not extended to non-authorized sources, including online purchases."
+      },
+      {
+        "title": "Buy the right needles",
+        "body": "The manual names HAx1SP/CR needles and ships with 75/11 set up. A dealer page also lists ELx705 types that are not in Baby Lock's documents, so confirm before buying a box."
+      }
+    ],
+    "realCost": [
+      "Serger thread: four cones, with spool caps and thread nets on the accessory list",
+      "HAx1SP/CR needles; 75/11 set up, 90/14 for heavyweight fabrics, and owners report trouble finding ballpoint ones",
+      "Serger oil and a lint brush",
+      "Optional feet sold separately: the spec sheet lists a foot kit, and babylock.com showed the 10 foot kit at $494 and the 6 foot package at $241 on 2026-10-02"
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Baby Lock Victory cost?",
+        "a": "babylock.com showed $2,089 on 2026-10-02, a price shown there and not an MSRP, and dealers set their own price. Sewing Machines Plus showed $1,899 on sale against $2,599 regular on 2026-09-29."
+      },
+      {
+        "q": "Does the Victory have tension dials?",
+        "a": "Baby Lock markets Automatic Thread Delivery and no tension adjustments, which are its claims. The Celebrate is listed with manual tension on the maker's comparison chart."
+      },
+      {
+        "q": "Does the Victory do 2 thread stitches?",
+        "a": "Yes. The manual lists 2 thread flatlock, blanket and ladder stitches, plus 4 and 3 thread overlock and a 3 thread rolled edge."
+      },
+      {
+        "q": "Does the Victory do coverstitch?",
+        "a": "No coverstitch appears in the manual's stitch list. It is an overlock machine."
+      },
+      {
+        "q": "How fast is the Victory?",
+        "a": "The spec sheet and the manual both state 1,500 stitches per minute."
+      },
+      {
+        "q": "How heavy is the Victory?",
+        "a": "The product page says 16 lb machine only and the manual gives 7.6 kg, about 16.8 lb. Dimensions on the page are 12.5 x 11 x 11.5 in, machine only."
+      },
+      {
+        "q": "What needles does the Victory use?",
+        "a": "The manual names Organ or Schmetz HAx1SP/CR, set up with 75/11 and 90/14 for heavyweight fabrics. A dealer page also lists ELx705CF and ELx705, which are not in Baby Lock's documents."
+      },
+      {
+        "q": "Can I buy the Victory online?",
+        "a": "Baby Lock says its machines are found through Authorized Baby Lock Retailers. Stitch Check has no buy link or affiliate relationship with Baby Lock and points to the dealer locator."
+      },
+      {
+        "q": "What is the Victory warranty?",
+        "a": "The Victory spec sheet states 25 years limited, 10 years parts, 5 years circuit boards, 5 years electrical and 1 year labor. Baby Lock says only Authorized Retailers can issue its warranties."
+      },
+      {
+        "q": "What is the difference between the Victory and the Celebrate?",
+        "a": "Per Baby Lock's comparison chart, the Victory has Automatic Thread Delivery, 2 LEDs and 2 thread blanket and ladder stitches; the Celebrate has manual tension and 1 LED. Both list 6 mm lift and Jet-Air threading."
+      }
+    ]
+  }
+}

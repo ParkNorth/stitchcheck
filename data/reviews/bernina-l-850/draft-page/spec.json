@@ -1,0 +1,178 @@
+{
+  "specs": {
+    "stitchTypes": {
+      "value": "18 stitch variations per Bernina's flyer: 1 four-thread overlock; 8 three-thread (overlock wide and narrow, super-stretch, flatlock wide and narrow, narrow seam, rolled hem, picot); 9 two-thread (overlock wide and narrow, flatlock wide and narrow, rolled hem, wrapped overlock wide and narrow, blanket stitch wide and narrow). No coverstitch or chainstitch",
+      "source": "https://www.bernina.com/Bernina/media/products/Overlocker/L%20850/BERNINA_L850_Flyer_EN-US_v3_low-res.pdf"
+    },
+    "differentialFeed": {
+      "value": "Adjustable while sewing, range 0.7 to 2 (manual p. 101); gather at 1.5 to 2, prevent puckering at 0.7 to 1",
+      "source": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
+    },
+    "stitchLengthMm": {
+      "value": "0.8 to 4.5, adjustable while sewing; 0.8 to 1.5 fine adjustment for rolled hem",
+      "source": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
+    },
+    "needleSystem": {
+      "value": "ELx705 CF, sizes 70 to 90 (10 to 14); the manual also permits 130/705 H needles 'if required'",
+      "source": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
+    },
+    "motor": {
+      "value": "DC motor; energy consumption 140 W (not a rated motor output); input 100 to 240 V",
+      "source": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
+    },
+    "weightLb": {
+      "value": 27.1,
+      "source": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
+    },
+    "dimensionsIn": {
+      "value": "16.9 x 11.0 x 13.8 (43 x 28 x 35 cm) without thread stand; 22.4 x 13.8 x 13.8 (57 x 35 x 35 cm) with slide-on table and cut-offs bin",
+      "source": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
+    },
+    "maxFabricThickness": {
+      "value": "6.0 mm (0.23 in)",
+      "source": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
+    },
+    "threadTrimmer": {
+      "value": "Manual thread-chain cutter on the outside of the machine (manual p. 40); no automatic trimmer listed",
+      "source": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
+    },
+    "presserFootLift": {
+      "value": "2-step lifter with front-foot lift (front foot lifts a further 3 to 4 mm); knee lifter (Free Hand System); swing-out foot with auto swing back; 6-step presser foot pressure. No total lift height published",
+      "source": "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf"
+    },
+    "includedFeet": {
+      "value": "Flyer lists: standard overlock foot #L10 with tape guide, slide-on extension table, accessories box, cut-offs bin, right seam guide, tweezers, manual needle threader, ELX705 CF needle set, brush, screwdriver, dust cover. The standard accessories page lists only dust cover, power cable, foot control, knife cover insert, needle set, spool nets and discs, T10 screwdriver",
+      "source": "https://www.bernina.com/Bernina/media/products/Overlocker/L%20850/BERNINA_L850_Flyer_EN-US_v3_low-res.pdf"
+    },
+    "warrantyUs": {
+      "value": "Bernina's general US warranty, not model-specific: 20 yr mechanical parts, 5 yr printed circuit boards, 2 yr electrical parts; parts only, labor and shipping not covered; original purchaser, private use",
+      "source": "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty"
+    }
+  },
+  "conflicts": [
+    "Dimensions: a dealer listing gives 18 x 13 x 16 in, while Bernina's manual gives 43 x 28 x 35 cm (16.9 x 11.0 x 13.8 in) without the thread stand; we use Bernina's.",
+    "Stitch split: our earlier count was 1 four-thread, 8 three-thread and 8 two-thread, while Bernina's flyer table lists 1/8/9 (it adds wrapped overlock and blanket stitch to the two-thread group); the total of 18 agrees.",
+    "Included accessories: Bernina's flyer lists the overlock foot, extension table and accessories box, while the standard accessories page omits them; no Bernina L 850 document says the accessories box is optional.",
+    "Needles: a dealer listing names only ELx705 sizes 70 to 90, while Bernina's manual also permits 130/705 H needles if required.",
+    "Space right of the needle: Bernina quotes 5 5/8 in (143 mm) as 'space to the right of the needle' and never as needle-to-arm throat, so it is not comparable to the throat figures on other pages.",
+    "Warranty: Bernina's 20/5/2 terms come from its general warranty page that does not name the L 850; one dealer adds its own 1 year service warranty.",
+    "Price: $3,999 MSRP on Bernina's page against $2,499 that one PatternReview owner paid on a dealer promotion."
+  ],
+  "claims": [
+    "\"The ultimate Overlocker\" (Bernina product page subhead)",
+    "\"A true masterpiece among sergers\" (Bernina product page)",
+    "\"Extremely fast, precise and quiet\" (Bernina product page; no decibel figure is published)",
+    "\"Designed and engineered in Switzerland\" (Bernina product page)",
+    "More room to the right of the needle and more work space height than any other Bernina serger (Bernina product page)",
+    "\"Low price guarantee\" (dealer claim, meissnersewing.com); MSRP is set by Bernina and dealer prices vary"
+  ],
+  "evidence": "mixed",
+  "price": {
+    "priceUsdSeen": 3999,
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "Bernina US product page, Manufacturer Suggested Retail Price; Bernina is dealer only"
+  },
+  "sources": [
+    "https://www.bernina.com/en-US/Machines-US/Overlocker/Serger/BERNINA-L-850",
+    "https://www.bernina.com/Bernina/media/products/Overlocker/L%20850/BERNINA_L850_Flyer_EN-US_v3_low-res.pdf",
+    "https://www.bernina.com/Bernina/media/Support/Overlocker_Serger/L850/Documents/EN/1026045_10B_04_print_manual_L-850_2019-12-16_EN.pdf",
+    "https://www.bernina.com/en-US/Accessories-US/Overlocker-Accessories/Standard-Accessories-Overlocker/Standard-accessories-BERNINA-L-850",
+    "https://www.bernina.com/en-US/Support-US/BERNINA-Warranty",
+    "https://www.bernina.com/en-US/Machines-US/Overlocker/Serger/BERNINA-L-460",
+    "https://www.bernina.com/en-US/Machines-US/Overlocker/Serger/BERNINA-L-860",
+    "https://www.bernina.com/en-US/Machines-US/Overlocker/Overlock-Coverstitch-Combo/BERNINA-L-890",
+    "https://sewing.patternreview.com/review/machine/7332",
+    "https://sewing.patternreview.com/review/machine/7238",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/121627"
+  ],
+  "editorial": {
+    "verdict": "A dealer-only 2/3/4 thread air-threading serger at a $3,999 MSRP that buys mechanical refinement, not a touch screen or coverstitch.",
+    "whoFor": "A garment sewer who serges often, wants one-step air threading, a knee lifter and Bernina dealer support, and will ask the dealer for a written price.",
+    "skipIf": "You want coverstitch in the same machine (L 890), a touch screen (L 860), or a lower price: the Juki MO-1000 also air threads at 1,500 spm for well under half the Bernina MSRP.",
+    "keySpec": "2/3/4 thread \u00b7 1,500 spm \u00b7 18 stitches \u00b7 air threading \u00b7 knee lift \u00b7 27.1 lb",
+    "realCost": [
+      {
+        "item": "Accessory box",
+        "note": "Bernina's flyer lists an accessories box as standard but its accessories page does not; confirm with the dealer what is in the carton"
+      },
+      {
+        "item": "Needles",
+        "note": "ELx705 CF in sizes 70 to 90 come in the set; the manual also permits 130/705 H needles if required"
+      },
+      {
+        "item": "Dealer service",
+        "note": "Bernina warranty covers parts only, not labor or shipping; ask the dealer about labor and setup"
+      }
+    ],
+    "strengths": [
+      "One-step air threading of both loopers from the foot control, plus a built-in needle threader.",
+      "Differential feed adjustable while sewing across 0.7 to 2, with a knee lifter and 6-step presser foot pressure.",
+      "5 5/8 in of space right of the needle and 3 3/8 in of work height, the same as the L 860 and L 890 and far above the L 460's 2 in."
+    ],
+    "weaknesses": [
+      "$3,999 MSRP is double the L 460 and gives up the L 860's touch screen and the L 890's coverstitch; the Juki MO-1000 is the cheaper air-threading rival.",
+      "No coverstitch or chainstitch; the thread cutter is a manual chain cutter, not an automatic trimmer.",
+      "Owner evidence is thin: 5 voices, mostly PatternReview, and one report of a misaligned needle on arrival."
+    ],
+    "checks": [
+      {
+        "title": "Ask for a written price",
+        "body": "Bernina sets a $3,999 MSRP and dealers set the price; one PatternReview owner reports paying $2,499 on a promotion."
+      },
+      {
+        "title": "Sew a 4-thread chain before leaving",
+        "body": "One PatternReview owner reports a unit with a misaligned needle so the 4-thread stitch would not form until adjusted."
+      },
+      {
+        "title": "Confirm what is in the box",
+        "body": "Bernina's flyer and standard accessories page disagree on the overlock foot, extension table and accessories box."
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does the Bernina L 850 cost?",
+        "a": "Bernina's page lists a $3,999 MSRP. One PatternReview owner paid $2,499 on a dealer promotion. Bernina is dealer only, so the price is set at the counter."
+      },
+      {
+        "q": "How does the L 850 differ from the L 860?",
+        "a": "Per Bernina's pages, the L 860 adds a 4.3 in touch screen with guided mode, weighs 28.9 lb against 27.1 lb, and lists at $4,999 MSRP. Stitch count (18), speed (1,500 spm) and space right of the needle (5 5/8 in) match."
+      },
+      {
+        "q": "How does the L 850 differ from the L 460 and L 890?",
+        "a": "Bernina lists the L 460 with 16 stitches, a manual needle threader, 2 in right of the needle and $1,999 MSRP. The L 890 is an overlock and coverstitch combo with 27 stitches, 1,350 spm and $8,749 MSRP."
+      },
+      {
+        "q": "Does the L 850 have air threading?",
+        "a": "Yes. Bernina's One-Step Air Threader threads both loopers via the foot control, and there is a built-in needle threader."
+      },
+      {
+        "q": "Does the Bernina L 850 do coverstitch?",
+        "a": "No. Coverstitch is on the L 890, Bernina's overlock and coverstitch combo."
+      },
+      {
+        "q": "What needles does the L 850 use?",
+        "a": "ELx705 CF, sizes 70 to 90. Bernina's manual also permits 130/705 H needles if required."
+      },
+      {
+        "q": "How heavy is the L 850?",
+        "a": "27.1 lb (12.3 kg) per Bernina's manual. It measures 16.9 x 11.0 x 13.8 in without the thread stand."
+      },
+      {
+        "q": "How much room is there right of the needle?",
+        "a": "Bernina quotes 5 5/8 in (143 mm) of space to the right of the needle and 3 3/8 in (86 mm) of work space height. It is not a needle-to-arm throat figure."
+      },
+      {
+        "q": "Does the L 850 have a free arm?",
+        "a": "Yes. Bernina lists a free arm with a slide-on extension table."
+      },
+      {
+        "q": "Does it trim the thread chain automatically?",
+        "a": "No. Bernina's manual lists a thread cutter on the outside of the machine for cutting the chain by hand."
+      },
+      {
+        "q": "What is the warranty?",
+        "a": "Bernina's general US warranty, not specific to this model: 20 years on mechanical parts, 5 on circuit boards and 2 on electrical parts. Parts only; labor and shipping are not covered."
+      }
+    ]
+  }
+}

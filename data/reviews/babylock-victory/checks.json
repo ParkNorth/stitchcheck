@@ -1,0 +1,30 @@
+{
+  "slug": "babylock-victory",
+  "generated": "2026-10-02T11:58:22.304Z",
+  "counts": {
+    "error": 0,
+    "warn": 1
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 41, this 32, sibling 4, unclear 5"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "13 Reddit threads, 4 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "reddit",
+      "message": "few Reddit threads name the model in the title; collection may be on loose matches"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 24 voices (10 first-hand), 14 sources, status draft"
+    }
+  ]
+}
