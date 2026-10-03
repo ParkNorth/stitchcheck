@@ -16,10 +16,12 @@ export function StickyBuyBar({
   product: p,
   watch = "verdict",
   eyebrow,
+  buyHref,
 }: {
   product: Product;
   watch?: string;
   eyebrow?: string;
+  buyHref?: string;
 }) {
   const [show, setShow] = useState(false);
 
@@ -57,7 +59,7 @@ export function StickyBuyBar({
             </div>
           )}
         </div>
-        <BuyButton product={p} size="sm" className="!min-h-[48px] !text-[15px]" label="Check lowest price" />
+        <BuyButton product={p} size="sm" className="!min-h-[48px] !text-[15px]" label="Check lowest price" hrefOverride={buyHref} />
       </div>
       {SHOW_AFFILIATE_LABEL && (
         <div className="m text-[13px] text-steel text-right">Affiliate link to {site.retailer.name}</div>

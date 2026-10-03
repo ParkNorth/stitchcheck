@@ -5,7 +5,7 @@ import { PriceBandBadge, TypeBadge } from "./Badges";
 import { BuyButton, LastSeen } from "./BuyButton";
 import { Score, StitchMeter } from "./StitchMeter";
 
-export function VerdictBox({ product: p, id = "verdict" }: { product: Product; id?: string }) {
+export function VerdictBox({ product: p, id = "verdict", buyHref }: { product: Product; id?: string; buyHref?: string }) {
   return (
     <section id={id} className="card flex flex-col scroll-mt-24" aria-labelledby={`${id}-title`}>
       <div className="cap bg-graphite text-paper px-4 md:px-6 py-2 md:py-2.5 flex justify-between gap-4">
@@ -60,7 +60,7 @@ export function VerdictBox({ product: p, id = "verdict" }: { product: Product; i
             <PriceBandBadge band={p.priceBand} />
             <TypeBadge type={p.type} />
           </div>
-          <BuyButton product={p} size="lg" className="w-full" />
+          <BuyButton product={p} size="lg" className="w-full" hrefOverride={buyHref} />
           <LastSeen product={p} />
         </div>
       </div>

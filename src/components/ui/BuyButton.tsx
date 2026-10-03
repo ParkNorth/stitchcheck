@@ -23,14 +23,18 @@ export function BuyButton({
   label,
   className = "",
   graphite = false,
+  hrefOverride,
 }: {
   product: Product;
   size?: "lg" | "md" | "sm";
   label?: string;
   className?: string;
   graphite?: boolean;
+  /** Per-page replacement for the /out/ hop. Retailer buttons only. */
+  hrefOverride?: string;
 }) {
-  const link = outboundLinkProps(product.slug, product.buy);
+  const baseLink = outboundLinkProps(product.slug, product.buy);
+  const link = baseLink && product.buy.kind === "retailer" && hrefOverride ? { ...baseLink, href: hrefOverride } : baseLink;
   if (!link) {
     return (
       <span className={`sec cursor-default ${className}`} aria-disabled="true">

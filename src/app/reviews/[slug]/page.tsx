@@ -29,6 +29,11 @@ import { site } from "@/lib/site";
 
 export const dynamicParams = false;
 
+/** Per-review replacement for the /out/ price link. */
+const BUY_HREF_OVERRIDE: Record<string, string> = {
+  "juki-tl-2010q": "https://update.stitchcheck.com/mDiD",
+};
+
 export async function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
 }
@@ -56,6 +61,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
   const { slug } = await params;
   const p = getProduct(slug);
   if (!p) notFound();
+  const buyHref = BUY_HREF_OVERRIDE[p.slug];
 
   const brandSlug = brandSlugFor(p.brand);
   const series = brandSlug ? seriesForProduct(brandSlug, p.series) : undefined;
@@ -124,7 +130,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
 
           <DiscontinuedBanner product={p} />
           <AtAGlance glance={glance} hasOwners={Boolean(rollup)} />
-          <VerdictBox product={p} />
+          <VerdictBox product={p} buyHref={buyHref} />
 
           <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_360px] gap-10 lg:gap-16 items-start">
             <div className="flex flex-col gap-12 md:gap-14 min-w-0">
@@ -276,7 +282,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
                   </span>
                 </div>
               </div>
-              <BuyButton product={p} size="lg" className="w-full !min-h-[56px]" label="Check lowest price" />
+              <BuyButton product={p} size="lg" className="w-full !min-h-[56px]" label="Check lowest price" hrefOverride={buyHref} />
               <div className="seam my-1" />
               <TableOfContents items={toc} />
             </aside>
@@ -285,7 +291,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
           <Alternatives product={p} />
         </Container>
       </main>
-      <StickyBuyBar product={p} />
+      <StickyBuyBar product={p} buyHref={buyHref} />
       <JsonLd data={reviewSchema(p, { description, dateModified: p.lastUpdated, reviewBody: glance.reviewBody })} />
       <JsonLd data={breadcrumbSchema(crumbs.filter((c) => c.href).map((c) => ({ name: c.label, path: c.href! })).concat([{ name: p.model, path: `/reviews/${p.slug}` }]))} />
       {faqs.length > 0 && <JsonLd data={faqSchema(faqs)} />}
