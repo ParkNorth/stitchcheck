@@ -3360,7 +3360,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "why": "A lower cost 10 in throat domestic option for table quilting"
       }
     ],
-    "discontinued": false,
+    "discontinued": true,
     "replacedBy": null,
     "editorial": {
       "verdict": "A 15 in, 1,800 spm regulated head that Grace no longer sells new; owners report tension work, a short reach and some electronics faults, with praised support.",
@@ -4799,7 +4799,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf"
       },
       "warrantyUs": {
-        "value": "25 years against defects in materials or workmanship; electronic component parts 5 years; labor 1 year; commercial use 1 year; void if not bought from an authorized Janome dealer in the United States (Janome America limited warranty PDF, OCR reading)",
+        "value": "25 years against defects in materials or workmanship; electronic component parts 5 years; labor 1 year; commercial use 1 year; void if not bought from an authorized Janome dealer in the United States (Janome America Limited 25 Year Warranty PDF)",
         "source": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
       }
     },
@@ -4813,7 +4813,7 @@ export const catalogData: Record<string, CatalogEntry> = {
     "conflicts": [
       "Weight: Janome's page says 19 lb; a dealer comparison chart prints 17.8 lb under the 2000CPX and 19 lb under the 1000CPX, and an Amazon listing says 23 lb, probably a shipping weight. The Janome figure is used.",
       "Needles in the box: our earlier spec said 90/14 supplied. Janome's manual says the machine arrives with 80/12 installed and the standard set is 2 x 80/12 and 3 x 90/14; Janome's page lists assorted ELx705 needles as optional; two dealers list five 80/12 and five 90/14. The manual is used.",
-      "Warranty: our earlier spec and one dealer say 2 years on electrical parts; Janome's warranty PDF says 5 years for electronic component parts (OCR reading) and two other dealers say 5. The Janome figure is used, and the warranty is void without an authorized-dealer purchase.",
+      "Warranty: our earlier spec and one dealer say 2 years on electrical parts; Janome's warranty PDF says 5 years for electronic component parts (read from the PDF text, 2026-10-02) and two other dealers say 5. The Janome figure is used, and the warranty is void without an authorized-dealer purchase.",
       "Throat: Janome publishes a 4 x 5.5 in bed (sewing area), not a needle-to-body throat; a dealer calls 5.5 in throat space to the right of the needle. One review puts free arm clearance at no more than an inch. Throat stays null.",
       "Differential feed: Janome says 0.5 to 2.25; one dealer page prints 0.5 to 2.5. The Janome figure is used.",
       "Tension lever: a dealer chart marks Tension Level Control for the 2000CPX only and a tension release device for the 2000CPX, 1000CPX and 900CPX; one forum member says her 900CPX has the tension lever too; Janome's manual lists a looper thread tension switching lever on the 2000CPX. Sibling features are dealer and owner statements, not Janome documents.",
@@ -7806,7 +7806,7 @@ export const catalogData: Record<string, CatalogEntry> = {
     "crossShop": [
       {
         "slug": "juki-mo-654de",
-        "why": "The next model up: same 1,500 spm and 2/3/4 thread, with the 2-thread converter included, external dials and a lower looper lever, for about $100 more."
+        "why": "The next model up: same 1,500 spm and 2/3/4 thread, with the 2-thread converter included, external dials and a lower looper lever, at a higher list price (Juki lists $1,199 for the MO-644D and $1,399 for the MO-654DE)."
       },
       {
         "slug": "brother-1034d",
@@ -10747,7 +10747,7 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       {
         "slug": "singer-hd6700c",
-        "why": "The next step in the HD computerized line adds lettering, a speed slider and 10 feet for about $30 more."
+        "why": "The next step in the HD computerized line adds lettering, a speed slider and 10 feet at a small price step; compare listings on the day you buy."
       },
       {
         "slug": "janome-hd3000",
@@ -10983,7 +10983,7 @@ export const catalogData: Record<string, CatalogEntry> = {
     "crossShop": [
       {
         "slug": "singer-hd6600c",
-        "why": "Same head and frame with fewer stitches, no lettering and 5 feet, for about $30 less."
+        "why": "The same Heavy Duty line with fewer stitches, no lettering and 5 feet, at a small price step down; owners and dealers call the two close relatives, which our files do not confirm."
       },
       {
         "slug": "singer-4452",

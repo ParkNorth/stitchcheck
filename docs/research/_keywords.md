@@ -75,6 +75,10 @@ Note on `/best-heavy-duty-sewing-machines`: "heavy duty sewing machine" (6,000) 
 | brother-1034d-vs-1034dx | brother 1034d vs 1034dx | 250 | 0 | 250 | Clean head-to-head query. |
 | juki-tl-2010q-vs-tl-2000qi | juki tl-2010q vs tl-2000qi | 0 (10 to 20 est.) | n/a | n/a | Low volume but high CPC ($0.70) and it is the decision every TL buyer makes. Feeds both reviews. |
 | brother-1034d-vs-juki-mo-654de | brother 1034d vs juki mo654de | 0 | n/a | n/a | Cross-brand value vs quality split; the home page value pick links here. |
+| singer-4411-vs-4452 | singer 4411 vs 4452 | 150 | n/a | n/a | Ahrefs US monthly volume per task; KD and TP not pulled. Related: singer 4452 vs 4411 (80, from singer-4452 paa.json), singer 4411 vs 4423 (90), singer 4411 vs 4432 (40). Feeds both reviews and the three-way compare. |
+| singer-4411-vs-4423 | singer 4411 vs 4423 | 90 | n/a | n/a | Clean head-to-head. Same Singer 44 series frame; 4411 vs 4452 is a separate compare drafted elsewhere. Feeds both reviews (the 4411 review's "skip if the 4423 is close" check). |
+| janome-hd3000-vs-hd5000 | janome hd3000 vs hd5000 | 100 | n/a | 150 | Near-identical pair by Janome's own spec tables; answer is bundle, needle threader and dealer price. Feeds both reviews; the HD3000 review FAQ already answers "same as the HD5000". |
+| janome-hd1000-vs-hd3000 | janome hd1000 vs hd3000 | 90 | n/a | n/a | Ahrefs US 90 a month. Decision: HD3000 adds 18 stitches, rotary hook, 5-piece feed dog, 6.5 mm width, listed foot pressure adjustment for $409 vs $559 MSRP. Sibling compare janome-hd3000-vs-hd5000 drafted separately. |
 | brother-vs-singer-sewing-machine (built as a guide) | brother vs singer sewing machine | 400 | 0 | 500 | singer vs brother sewing machine (200), brother or singer sewing machine (150, TP 600). Decision 2026-09-29: brand-level compare built with guide blocks at `/guides/brother-vs-singer-sewing-machine`; no new page type. |
 | serger-vs-overlock (fold into guide) | serger vs overlock | 300 | 0 | 90 | overlock vs serger (250). Same thing, answer inside `/guides/what-is-a-serger`. |
 
