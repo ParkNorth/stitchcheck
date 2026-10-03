@@ -812,9 +812,9 @@ const siteFields: Record<string, SiteFields> = {
     reason: "The entry HD: a first machine with an aluminum frame, not a heavy-fabric tool.",
     context: "Mechanical · in First serious machine hub",
     alternatives: [
-      { slug: "janome-hd3000", label: "Step up", note: "18 stitches and a one-step buttonhole." },
+      { slug: "janome-hd3000", label: "Step up", note: "18 stitches and an automatic buttonhole." },
       { slug: "singer-4423", label: "Same Singer family", note: "A related Singer heavy duty model." },
-      { slug: "janome-hd5000", label: "Top HD", note: "7 mm zigzag and seven feet." },
+      { slug: "janome-hd5000", label: "Top HD", note: "Top of the HD line; Janome lists the same stitch count and width as the HD3000." },
     ],
     imageAlt: "Janome HD1000 mechanical sewing machine",
     lastUpdated: "2026-10-02",
@@ -1012,7 +1012,7 @@ const siteFields: Record<string, SiteFields> = {
     alternatives: [
       { slug: "handi-quilter-moxie", label: "Dealer depth", note: "15 in with Handi Quilter service." },
       { slug: "grace-qnique-15r", label: "15 in head", note: "Grace's 15 in head." },
-      { slug: "handi-quilter-amara", label: "Step up", note: "20 in, twice the price." },
+      { slug: "handi-quilter-amara", label: "Step up", note: "20 in throat; the maker's starting price is more than double." },
     ],
     imageAlt: "Grace Q'nique 19X long-arm quilting machine",
     lastUpdated: "2026-10-02",
