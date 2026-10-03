@@ -142,14 +142,14 @@
   ],
   "evidence": "owner",
   "buyerQuestions": [
-    "What is the difference between the Juki DNU-1541 and DNU-1541S?",
+    "What is the difference between the Juki 1541 and 1541S sewing machines?",
+    "What is the price of the Juki 1541 S sewing machine?",
+    "What are the specifications of the Juki DNU-1541S?",
     "Can the DNU-1541S sew leather?",
-    "How thick can the DNU-1541S sew?",
-    "How much does the DNU-1541S weigh?",
     "Does the DNU-1541S come with a servo motor?",
     "Does the DNU-1541S have a thread trimmer?",
     "What needles does the DNU-1541S use?",
-    "Does the safety clutch on the 1541S cause timing problems?",
+    "how to oil juki dnu 1541s",
     "Can I run the DNU-1541S at home?"
   ],
   "crossShop": [
@@ -228,47 +228,39 @@
     "faqs": [
       {
         "q": "What is the difference between the Juki DNU-1541 and DNU-1541S?",
-        "a": "The S adds a safety mechanism that disengages the hook drive when thread is caught. Some leather workers say the clutch trips on bulky seams; others recommend the S without reservation."
+        "a": "Juki's page lists the S as the DNU-1541 plus a safety mechanism that disengages the hook drive when thread jams; the other listed specs are the same. The DNU-1541-7 is a separate variant with an automatic trimmer at 3,000 spm. Owners are split on the S clutch: some leather workers say it trips on bulky seams, while others recommend the S without reservation."
+      },
+      {
+        "q": "What does the Juki DNU-1541S cost?",
+        "a": "Juki publishes dealer pricing only, so there is no list price to quote [verify]. A third-party Amazon bundle was $2,407.62 on 2026-10-01, and bundles differ in what ships with the head, such as the table, stand and servo motor. Compare what is in the box before comparing prices."
+      },
+      {
+        "q": "What are the specifications of the Juki DNU-1541S?",
+        "a": "Juki lists a single-needle unison-feed lockstitch at up to 2,500 spm with a 9 mm maximum stitch length and a 16 mm foot lift with the knee lifter. The needle system is 135x17, and Juki gives 264 mm (about 10.4 in) from needle to machine arm. The head weighs 36.5 kg (80.5 lb by our conversion), straight stitch only, with no trimmer on the S."
       },
       {
         "q": "Can the DNU-1541S sew leather?",
-        "a": "Juki's page claims it responds outstandingly to heavy materials, and dealers list a 135x16 leather needle. Owners report leather and waxed canvas work. Juki publishes no thickness rating."
-      },
-      {
-        "q": "How thick can the DNU-1541S sew?",
-        "a": "Juki publishes 16 mm clearance under the foot with the knee lift and a 2.5 to 6.5 mm alternating foot movement, but no material thickness rating. Owner figures vary and are anecdotes."
-      },
-      {
-        "q": "How much does the DNU-1541S weigh?",
-        "a": "Juki publishes 36.5 kg for the head, which is about 80.5 lb by our conversion. The DNU-1541-7 head is 42.5 kg. Table and motor add more."
+        "a": "Juki's page claims it responds outstandingly to heavy materials, and Juki publishes no thickness rating. Owners report leather and waxed canvas work, and in the owner evidence 11 of 12 voices on power with heavy fabric are positive. Dealers list a 135x16 leather needle, which is a dealer figure rather than one from a Juki document [verify]."
       },
       {
         "q": "Does the DNU-1541S come with a servo motor?",
-        "a": "Not from Juki, which sells the head and publishes dealer pricing only. Dealer bundles add a table, stand and servo motor, and one dealer quotes a 3/4 HP servo as its own claim."
+        "a": "Not from Juki, which sells the head and publishes dealer pricing only. Dealer bundles add a table, stand and servo motor, and Juki's catalog shows 750 W in an ambiguous cell while its Engineer's Manual lists a 2P 400 W motor, so confirm the motor with the dealer [verify]. Some owners find a stock production-line servo touchy at low speed."
       },
       {
         "q": "Does the DNU-1541S have a thread trimmer?",
-        "a": "No. The DNU-1541-7 variant adds an automatic trimmer and 3,000 spm; the 1541S runs at 2,500 spm."
+        "a": "No. Juki lists the automatic trimmer only on the DNU-1541-7, which also runs at 3,000 spm; the DNU-1541S runs at 2,500 spm with none. The -7 head weighs 42.5 kg against 36.5 kg for the DNU-1541S."
       },
       {
         "q": "What needles does the DNU-1541S use?",
-        "a": "System 135x17 per Juki, Nm125 to Nm180. Dealers add 135x16 for leather."
+        "a": "Juki's catalog lists system 135x17, Nm125 to Nm180, with Nm160 fitted at delivery. Dealers also list 135x16 for leather, a dealer figure that we did not find in a Juki document [verify]."
       },
       {
-        "q": "How much throat space does the DNU-1541S have?",
-        "a": "Juki gives the distance from needle to machine arm as 264 mm, about 10.4 in. The Engineer's Manual lists free space of 255 x 99 mm."
-      },
-      {
-        "q": "How fast is the DNU-1541S?",
-        "a": "Up to 2,500 stitches per minute per Juki. Owners report a servo lets you run it far slower for control."
+        "q": "How do you oil the Juki DNU-1541S?",
+        "a": "Juki's catalog specifies centralized oil wick lubrication and names Juki New Defrix Oil No. 2, an ISO VG32 equivalent. Oiling and maintenance is a recurring owner topic, and one buyer reported no oil in the bundle, so ask the dealer. We did not record an oiling interval, so follow the Juki manual [verify]."
       },
       {
         "q": "Can I run the DNU-1541S at home?",
-        "a": "Owners run servo bundles at home. You need floor space for an industrial table and a way to move a 36.5 kg head, and the motor you receive depends on the dealer."
-      },
-      {
-        "q": "Does the DNU-1541S have a warranty?",
-        "a": "Juki does not publish a warranty in the page, catalog or manuals we read, so we list it as [verify]. Ask the dealer for terms in writing, since a Juki Engineer's Manual is hosted by a third-party dealer and says nothing on it either."
+        "a": "Owners run servo bundles at home. You need floor space for an industrial table and a way to move a 36.5 kg head, and the motor you receive depends on the dealer. Owners who sew light garment fabric report that a drop-feed straight stitch machine suits that work better."
       }
     ]
   }

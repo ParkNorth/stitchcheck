@@ -1,0 +1,245 @@
+{
+  "slug": "bernina-570-qe",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "bernina 570 qe",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "bernina 570 qe",
+        "bernina 570qe",
+        "bernina 570"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/bernina-570-qe.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "Is the Bernina 570 a good machine?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 50,
+      "volumeKeyword": "bernina 570 qe reviews",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Bernina 570 QE?",
+      "answeredFrom": "rollup.json themes and method"
+    },
+    {
+      "q": "How much does a Bernina 570 qe cost?",
+      "sources": [
+        "paa",
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 200,
+      "volumeKeyword": "bernina 570 qe price",
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Bernina 570 QE cost?",
+      "answeredFrom": "manufacturer.json msrp; data/specs/bernina-570-qe.json priceUsdSeen with date"
+    },
+    {
+      "q": "What are some common problems with the Bernina 570 QE sewing machine?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 50,
+      "volumeKeyword": "bernina 570 qe problems",
+      "scope": "this",
+      "use": true,
+      "faq": "What problems do owners report with the Bernina 570 QE?",
+      "answeredFrom": "rollup.json Reliability, Oiling and Noise themes"
+    },
+    {
+      "q": "What is the difference between Bernina 570 and 590?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Bernina 570 QE and the 590?",
+      "answeredFrom": "rollup.json siblings (B 590); manufacturer.json"
+    },
+    {
+      "q": "Does the Bernina 570 have an embroidery module?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 40,
+      "volumeKeyword": "bernina 570 qe embroidery module",
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Bernina 570 QE have an embroidery module?",
+      "answeredFrom": "manufacturer.json embroidery"
+    },
+    {
+      "q": "Does the Bernina 570 QE come with the BSR?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Bernina 570 QE come with the BSR foot?",
+      "answeredFrom": "manufacturer.json stitchRegulation and includedFeet"
+    },
+    {
+      "q": "What is the throat space on the Bernina 570 QE?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How much throat space does the Bernina 570 QE have?",
+      "answeredFrom": "manufacturer.json throatIn; rollup.json siblings (570 QE before 2017)"
+    },
+    {
+      "q": "What is the difference between the old and new Bernina 570 QE?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What is the difference between the old and new Bernina 570 QE?",
+      "answeredFrom": "manufacturer.json generation; rollup.json siblings (570 QE before 2017)"
+    },
+    {
+      "q": "Does the 570 QE have a walking foot built in?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 10,
+      "volumeKeyword": "bernina 570 qe walking foot",
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Bernina 570 QE have a walking foot built in?",
+      "answeredFrom": "manufacturer.json feedSystem; rollup.json Walking foot and Differential feed themes"
+    },
+    {
+      "q": "What is the difference between the 570 QE and 570 QE E?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 20,
+      "volumeKeyword": "bernina 570 qe e",
+      "scope": "this",
+      "use": false,
+      "reason": "Folded into the embroidery module entry: Bernina US pages name no 570 QE E model."
+    },
+    {
+      "q": "What is the Bernina warranty in the US?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Generic Bernina US warranty, not model specific; kept in the spec table and Check before you buy block."
+    },
+    {
+      "q": "Is the Bernina 570 QE good for free motion quilting?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "We have no maker or owner evidence strong enough for a quilting verdict beyond the BSR and feed entries."
+    },
+    {
+      "q": "Bernina 570 QE or a longarm for the same money?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category comparison; belongs on a guide."
+    },
+    {
+      "q": "what accessories come with a bernina 570?",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "what accessories come with a bernina 570?",
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the includedFeet spec row and the BSR entry; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "how much does a bernina 570 weight",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "bernina 570 qe weight",
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the weight row of the spec table; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "how does the bernina 570 compare to bernina 770?",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how does the bernina 570 compare to bernina 770?",
+      "scope": "sibling",
+      "use": false,
+      "reason": "No Bernina 770 maker document in hand on this review."
+    },
+    {
+      "q": "What embroidery format does Bernina 570 qe use?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Embroidery file format is not in the Bernina pages we extracted."
+    },
+    {
+      "q": "Which Bernina quilting machine is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "What are common problems with Bernina sewing machines?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; belongs on a guide."
+    },
+    {
+      "q": "Which vintage Bernina sewing machine is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    }
+  ]
+}

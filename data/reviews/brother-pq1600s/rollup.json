@@ -1,0 +1,1227 @@
+{
+  "slug": "brother-pq1600s",
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy (instructed 2026-10-02, via Claude; human review after live)",
+  "reviewedOn": "2026-10-02",
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 20,
+    "itemsCollected": 183,
+    "statements": 64,
+    "voices": 37,
+    "ownerVoices": 26,
+    "dateRange": [
+      2023,
+      2026
+    ],
+    "byClass": {
+      "retailer": {
+        "sources": 3,
+        "items": 32
+      },
+      "reddit": {
+        "sources": 10,
+        "items": 144
+      },
+      "editorial": {
+        "sources": 3,
+        "items": 3
+      },
+      "forum": {
+        "sources": 3,
+        "items": 3
+      },
+      "youtube": {
+        "sources": 1,
+        "items": 0
+      }
+    },
+    "blocked": 5,
+    "evidence": "strong",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above. Most of the Walmart reviews we read say they were collected as part of a promotion, so they are the least independent voices on this page.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented. The model is new (2024), so owner discussion is thin: much of the older forum talk is about its predecessor, the PQ1500S and PQ1500SL, and those statements are kept out of the PQ1600S counts.",
+    "Amazon's top 8 reviews of 49 ratings were read, Walmart's 22 of 33 reviews, and two Facebook group posts, a Macy's page and a JustAnswer page could not be read.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. The Reddit threads are mostly people asking whether to buy this machine, so worries are over-represented there, while most of the first-hand praise comes from retailer reviews, which are seller-collected and about a third of them say they were promotional. The retailers' own ratings under 'How we collected this' show satisfaction but skew high.",
+  "summary": "Owners of the Brother PQ1600S mostly praise the same things: it is fast, owners call it quiet for its speed, and the big throat and wide table give a large quilt room to move. The thread cutter gets good marks, and several say it takes thick layers and heavy fabric without fuss. The repeated complaints are practical. No walking foot comes in the box, so buyers source a high shank one themselves, the side loading bobbin and threading are fiddly for some, and tension takes patience, with two reviewers reporting trouble free motion quilting flannel on it. Bag making threads add a caution that a domestic motor limits heavy leather and webbing, though those voices are weighing the machine, not using it. This read covers 10 Reddit threads, 3 retailer listings, 3 forum pages and 3 blog or editorial write-ups, from 2023 to 2026 for this model; the older forum pages are about its predecessor. Most first-hand voices are retailer reviews, and about a third of the Walmart ones are promotional. Reddit threads lean toward people asking for help, so problems are over-represented here.",
+  "themes": [
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 6,
+      "sources": 2,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 6
+      },
+      "polarity": {
+        "positive": 5,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c3e335a15",
+          "polarity": "positive",
+          "claim": "One week owner finds the machine quiet, sturdy and a good stitcher.",
+          "quote": "is quiet, sturdy, stitches nicely",
+          "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c5de127d0",
+          "polarity": "positive",
+          "claim": "Walmart owner calls it solid and powerful but quiet.",
+          "quote": "it's so solid and powerful (but quiet!)",
+          "url": "https://www.walmart.com/reviews/product/5196827300",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c07229c3c",
+          "polarity": "mixed",
+          "claim": "Promotional reviewer says it is not very loud though audible.",
+          "quote": "You can hear it but it's not real loud.",
+          "url": "https://www.walmart.com/reviews/product/5196827300",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c07ec1892",
+        "c3e335a15",
+        "c5de127d0",
+        "c02e39c73",
+        "c50d42b42",
+        "c07229c3c"
+      ]
+    },
+    {
+      "theme": "power_heavy_fabric",
+      "label": "Power on heavy fabric",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 2,
+      "sources": 4,
+      "sourceClasses": [
+        "editorial",
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 3,
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cf6efc108",
+          "polarity": "positive",
+          "claim": "Walmart buyer calls it one strong machine for quilting and bag making.",
+          "quote": "this is one strong machine",
+          "url": "https://www.walmart.com/reviews/product/5196827300",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c66dbf7e3",
+          "polarity": "positive",
+          "claim": "Owner says it handles the thickest quilts and heavy home dec fabric easily.",
+          "quote": "it flies through even the thickest quilts and heavy home dec fabrics with ease",
+          "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c66dbf7e3",
+        "c298b2a9b",
+        "cc6587c63",
+        "c155f6e29",
+        "c69a75a5b",
+        "cf6efc108"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 5,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 4,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 4,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cbd9fe9eb",
+          "polarity": "positive",
+          "claim": "Owner on their fourth Brother calls the PQ1600S very fast.",
+          "quote": "I do sew a lot. And it’s very fast",
+          "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c64ae6ff3",
+          "polarity": "positive",
+          "claim": "Owner calls the machine really fast.",
+          "quote": "The machine is really fast, which has been wonderful.",
+          "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c32d84664",
+          "polarity": "mixed",
+          "claim": "Promotional reviewer wishes the speed could be dialed down; there is no speed slider.",
+          "quote": "I do wish I could dial down the speed a bit",
+          "url": "https://www.walmart.com/reviews/product/5196827300",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cbd9fe9eb",
+        "c73572d89",
+        "c64ae6ff3",
+        "c14563729",
+        "c32d84664"
+      ]
+    },
+    {
+      "theme": "walking_foot",
+      "label": "Walking foot",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 3,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cc5e81642",
+          "polarity": "negative",
+          "claim": "Buyer is disappointed that no walking foot comes with it at this price.",
+          "quote": "I didn’t get a walking foot",
+          "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "ce9c36ea3",
+          "polarity": "negative",
+          "claim": "Owner could not find a Brother branded high shank walking foot and uses a generic one.",
+          "quote": "searching to no avail for a branded Brother High-shank walking foot",
+          "url": "https://www.reddit.com/r/quilting/comments/1jkjvcn/hi_shank_brotherbrand_evenfeedwalking_foot/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cc43bd34d",
+        "cc5e81642",
+        "ce9c36ea3",
+        "c7888effa",
+        "c9a0653ac"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 3,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cdcdc27ed",
+          "polarity": "negative",
+          "claim": "Owner finds the bobbin location a little awkward.",
+          "quote": "the location of the bobbin is a little awkward",
+          "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cd0088917",
+          "polarity": "positive",
+          "claim": "Promotional reviewer found threading simple.",
+          "quote": "The process of getting it threaded was simple",
+          "url": "https://www.walmart.com/reviews/product/5196827300",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c10080b0c",
+          "polarity": "mixed",
+          "claim": "Bobbin and threading are fiddly at first but the owner got used to them.",
+          "quote": "Yes the bobbin and threading mechanisms are fiddly, but you get used to it.",
+          "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c10080b0c",
+        "cdcdc27ed",
+        "cd696f585",
+        "c28662346",
+        "cd0088917"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 3,
+      "sources": 4,
+      "sourceClasses": [
+        "editorial",
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "editorial": 2,
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cbf628480",
+          "polarity": "positive",
+          "claim": "Owner calls the throat huge.",
+          "quote": "The throat is huge.",
+          "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cc7022aa5",
+          "polarity": "positive",
+          "claim": "Walmart buyer calls the throat space huge for a large quilt.",
+          "quote": "The throat space is huge.",
+          "url": "https://www.walmart.com/reviews/product/5196827300",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cbf628480",
+        "caa149853",
+        "c76d114e2",
+        "cc7022aa5",
+        "c48b5d2e7"
+      ]
+    },
+    {
+      "theme": "thread_trimmer",
+      "label": "Thread trimmer",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 3,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ca57fecb2",
+          "polarity": "negative",
+          "claim": "The cutter left thread pulled out of the needle until tension was sorted.",
+          "quote": "the thread kept coming out of the needle after using it",
+          "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c353d0708",
+          "polarity": "positive",
+          "claim": "Walmart buyer notes the button that cuts thread.",
+          "quote": "Has a button to cut your thread.",
+          "url": "https://www.walmart.com/reviews/product/5196827300",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cc968cf2c",
+          "polarity": "positive",
+          "claim": "Owner after a year calls the automatic thread cutter amazing.",
+          "quote": "The automatic thread cutter is amazing!",
+          "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cc968cf2c",
+        "ca57fecb2",
+        "ca9abc2da",
+        "c353d0708"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 4,
+      "sourceClasses": [
+        "editorial",
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 2,
+        "reddit": 1,
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c75075fcf",
+          "polarity": "positive",
+          "claim": "Promotional reviewer says it handles a variety of thick materials.",
+          "quote": "can handle a variety of thick materials",
+          "url": "https://www.walmart.com/reviews/product/5196827300",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cfc4b6944",
+          "polarity": "positive",
+          "claim": "Owner reports no trouble with many quilt layers, vinyl, pleather and cork.",
+          "quote": "No problem with many layers in quilting and vinyl",
+          "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "ce93d160e",
+          "polarity": "mixed",
+          "claim": "Owner says the pin feed does what it advertises but is not a game changer.",
+          "quote": "I can’t say that the pin feed is exactly a game changer",
+          "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cfc4b6944",
+        "ce93d160e",
+        "c11414265",
+        "c75075fcf"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 2,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c9bb2b973",
+          "polarity": "negative",
+          "claim": "Promotional reviewer says no cover came in the box; Brother lists a dust cover and semi hard cover.",
+          "quote": "It does not have that cap/cover to store it.",
+          "url": "https://www.walmart.com/reviews/product/5196827300",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c76301588",
+          "polarity": "negative",
+          "claim": "The knee lift is wobbly and sits too far away for comfort, so the poster printed a stabilizer.",
+          "quote": "it was pretty wobbly and too far for a comfortable operation",
+          "url": "https://www.reddit.com/r/functionalprint/comments/1qygtn2/brother_pq1600s_sewing_machine_knee_lift/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cd3cf10d1",
+          "polarity": "positive",
+          "claim": "Owner says every included foot has a groove for the pin feed.",
+          "quote": "all included feet have a groove for the pin feed",
+          "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/nqaz5qb/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c76301588",
+        "cd3cf10d1",
+        "c9bb2b973"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 1,
+      "sources": 3,
+      "sourceClasses": [
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 2,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c5f849794",
+          "polarity": "positive",
+          "claim": "Walmart buyer calls the unit heavy and well made.",
+          "quote": "The unit itself is heavy and well made.",
+          "url": "https://www.walmart.com/reviews/product/5196827300",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c5f8f2b0e",
+        "c3e2da5fc",
+        "c5f849794"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 4,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "editorial",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2,
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c922800fe",
+          "polarity": "negative",
+          "claim": "Blogger lists tension and stitch length drift over time as a repeated Brother issue.",
+          "quote": "Tension and stitch-length drift over time",
+          "url": "https://bobbinhub.com/brother-pq1600s-vs-juki-tl2010q",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "caaa119a8",
+          "polarity": "negative",
+          "claim": "Owner needed some fiddling to get tension right.",
+          "quote": "It took me some futzing to get the tension just right.",
+          "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "caaa119a8",
+        "cf5915ede",
+        "c854b26c1",
+        "c922800fe"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cc75f20ba",
+          "polarity": "positive",
+          "claim": "Owner expects the machine to last a very long time.",
+          "quote": "This thing is going to outlast me.",
+          "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c7203150c",
+          "polarity": "positive",
+          "claim": "Commenter bought the PQ1600S and says they are very happy with it.",
+          "quote": "I bought the brother pq 1600s and am very happy with it.",
+          "url": "https://www.reddit.com/r/quilting/comments/1saj55n/graduating_to_a_new_better_machine_help/odxeym0/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cc75f20ba",
+        "c7203150c"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "editorial",
+        "retailer"
+      ],
+      "classVoices": {
+        "editorial": 1,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ca47c2ed8",
+          "polarity": "mixed",
+          "claim": "Walmart buyer calls it kinda heavy but a great machine.",
+          "quote": "kinda heavy but a truly amazing machine",
+          "url": "https://www.walmart.com/reviews/product/5196827300",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c72c78f44",
+        "ca47c2ed8"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "editorial",
+        "retailer"
+      ],
+      "classVoices": {
+        "editorial": 1,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c698c20d4",
+          "polarity": "negative",
+          "claim": "Two star owner says Brother live chat did not help.",
+          "quote": "even did live chat 2 or 3 times and they are no help",
+          "url": "https://www.walmart.com/reviews/product/5196827300",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c8ff0333b",
+        "c698c20d4"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c4011c62d",
+          "polarity": "positive",
+          "claim": "Professional seamstress reports no skipped stitches or hiccups through long use.",
+          "quote": "it never hiccups, it never skips a stitch",
+          "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c4011c62d"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "editorial"
+      ],
+      "classVoices": {
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": null,
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c49c497a2"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "editorial"
+      ],
+      "classVoices": {
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": null,
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "cea119762"
+      ]
+    },
+    {
+      "theme": "free_motion",
+      "label": "Free-motion quilting",
+      "statements": 2,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c254bd03a",
+          "polarity": "negative",
+          "claim": "Two star Walmart owner cannot free motion quilt flannel on it.",
+          "quote": "It doesn't free motion Quilt on flannel at all",
+          "url": "https://www.walmart.com/reviews/product/5196827300",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c254bd03a",
+        "c2e3e78b9"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+      "pageRating": 4.4,
+      "pageCount": 49,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 1,
+        "5": 6
+      },
+      "lowRated": 1,
+      "sampled": "8 top reviews (8 US, 0 other countries) of 49 ratings"
+    },
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://www.sewingmachinesplus.com/PQ1600S.php",
+      "pageRating": 5,
+      "pageCount": 2,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "lowRated": 0,
+      "sampled": null
+    },
+    {
+      "retailer": "walmart.com",
+      "url": "https://www.walmart.com/reviews/product/5196827300",
+      "pageRating": 4.757575757575758,
+      "pageCount": 33,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 30
+      },
+      "lowRated": 2,
+      "sampled": "22 of 33 reviews: every 1 to 3 star page plus the top relevance pages (5 pages read)"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "others": "Dealers agree on 1,500.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother product page",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        },
+        {
+          "label": "Brother manual PDF p.28",
+          "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+        }
+      ],
+      "juki": "Up to 1,500 spm; manual gives a 40 to 1,500 range.",
+      "field": "maxSpm",
+      "source": "brother-page Specifications; brother-manual PDF p.28"
+    },
+    {
+      "label": "Stitch length",
+      "others": "Sewing Machines Plus lists 5 mm, which matches the reverse cap, not the dial maximum.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Brother manual PDF p.10",
+          "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+        },
+        {
+          "label": "Sewing Machines Plus",
+          "url": "https://www.sewingmachinesplus.com/PQ1600S.php"
+        }
+      ],
+      "juki": "Dial to 7 mm; reverse is fixed at 5 mm above a 5 mm setting.",
+      "field": "maxStitchLengthMm",
+      "source": "brother-manual PDF p.10 (printed p.8)"
+    },
+    {
+      "label": "Throat space",
+      "others": "A parts retailer lists 8.5 in wide and 5.75 in tall.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother product page",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        }
+      ],
+      "juki": "5.7 in tall x 8.7 in wide needle-to-arm space.",
+      "field": "throatIn",
+      "source": "brother-page Main Features (Extra Large Workspace); dealer copy repeats it"
+    },
+    {
+      "label": "Needle",
+      "others": "Dealer pages do not state a needle system.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother manual PDF p.19",
+          "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+        }
+      ],
+      "juki": "HLX5 recommended; 130/705H also usable under normal sewing. Needle threader handles #11 to #16.",
+      "field": "needleSystem",
+      "source": "brother-manual PDF p.19 (needle chart) and p.8 (accessories: needles HLX5 sizes 9, 11, 11, 14, 16 and one ballpoint)"
+    },
+    {
+      "label": "Thread cutter",
+      "others": "Owners in the Missouri Star thread praise it.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother product page",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        },
+        {
+          "label": "Brother manual PDF p.22",
+          "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+        }
+      ],
+      "juki": "Push-button cutter for upper and bobbin thread.",
+      "field": "threadTrimmer",
+      "source": "brother-page Main Features; brother-manual PDF p.12 and p.22"
+    },
+    {
+      "label": "Needle stop",
+      "others": "Dealers repeat the up or down line.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Brother manual PDF p.12",
+          "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+        },
+        {
+          "label": "Brother product page",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        }
+      ],
+      "juki": "Manual describes a needle-down stop button; the product page says up or down and its own table says No.",
+      "field": "needleStop",
+      "source": "brother-manual PDF p.12; brother-page Main Features and Specifications"
+    },
+    {
+      "label": "Feet and box",
+      "others": "Dealers copy Brother's box list.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother manual PDF p.8",
+          "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+        },
+        {
+          "label": "Brother product page",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        }
+      ],
+      "juki": "7 feet including the free motion quilting foot and pin feed foot, plus knee lifter and wide table.",
+      "field": "includedFeet",
+      "source": "brother-manual PDF p.8; brother-page In the Box"
+    },
+    {
+      "label": "Oiling",
+      "others": "Not stated on dealer pages.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Brother manual PDF p.28",
+          "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+        }
+      ],
+      "juki": "A few drops at each marked point twice a month with daily use.",
+      "field": "maintenance",
+      "source": "brother-manual PDF p.26 and p.28"
+    },
+    {
+      "label": "Price",
+      "others": "Amazon 899.99; Sewing Machines Plus 999.99, crossed from 1,299.99. The earlier 579.99 figure did not survive a page read.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Brother product page",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        },
+        {
+          "label": "Sewing Machines Plus",
+          "url": "https://www.sewingmachinesplus.com/PQ1600S.php"
+        }
+      ],
+      "juki": "Brother lists 999.99.",
+      "field": "msrp",
+      "source": "brother-page; amazon B0CFYQZX5Q; sewingmachinesplus.com"
+    },
+    {
+      "label": "Warranty",
+      "others": "Dealer copy reads 1 year labor, 2 year electrical, 25 year chassis.",
+      "status": "dealer only",
+      "links": [
+        {
+          "label": "Brother product page",
+          "url": "https://www.brother-usa.com/products/pq1600s"
+        }
+      ],
+      "juki": "1/2/25 year limited warranty, no breakdown on the product page.",
+      "field": "warrantyUs",
+      "source": "brother-page; sewingmachinesplus.com"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "PQ1500SL",
+      "label": "Brother PQ1500SL (and PQ1500S)",
+      "rows": [
+        {
+          "feature": "Knee lifter",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "One comparison blog says the PQ1600S has a built-in knee lifter where the older model's was removable. Brother's own box list and manual treat the PQ1600S knee lifter as a separate item you attach.",
+          "check": "single blog source; Brother manual PDF p.8 and p.11 list the knee lifter as an accessory",
+          "examples": [
+            {
+              "claim_id": "ccaab3e8b",
+              "claim": "Blog says the PQ1600S is the direct successor with a built-in knee lifter, a tension dial and a larger table.",
+              "quote": "It’s the direct successor, with a built-in (not removable) knee lifter",
+              "url": "https://bobbinhub.com/brother-pq1600s-vs-juki-tl2010q"
+            }
+          ],
+          "claimIds": [
+            "ccaab3e8b"
+          ]
+        },
+        {
+          "feature": "Tension dial",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "The same blog says the PQ1600S adds a dedicated tension dial. Not checked against a PQ1500SL document.",
+          "check": "single blog source; no PQ1500SL maker document in hand",
+          "examples": [
+            {
+              "claim_id": "ccaab3e8b",
+              "claim": "Blog says the PQ1600S is the direct successor with a built-in knee lifter, a tension dial and a larger table.",
+              "quote": "It’s the direct successor, with a built-in (not removable) knee lifter",
+              "url": "https://bobbinhub.com/brother-pq1600s-vs-juki-tl2010q"
+            }
+          ],
+          "claimIds": [
+            "ccaab3e8b"
+          ]
+        },
+        {
+          "feature": "Table",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "The same blog says the PQ1600S has a larger table. Brother lists 11.1 x 23.3 in for the PQ1600S; no PQ1500SL figure in hand.",
+          "check": "single blog source; Brother product page for the PQ1600S figure",
+          "examples": [
+            {
+              "claim_id": "ccaab3e8b",
+              "claim": "Blog says the PQ1600S is the direct successor with a built-in knee lifter, a tension dial and a larger table.",
+              "quote": "It’s the direct successor, with a built-in (not removable) knee lifter",
+              "url": "https://bobbinhub.com/brother-pq1600s-vs-juki-tl2010q"
+            }
+          ],
+          "claimIds": [
+            "ccaab3e8b"
+          ]
+        },
+        {
+          "feature": "Walking foot",
+          "urls": 0,
+          "classes": [],
+          "summary": "A PQ1500SL owner lists a walking foot among the feet in the box. Brother's PQ1600S box list and manual show none, and Amazon buyers of the PQ1600S say none came. A dealer lists one walking foot as fitting both models.",
+          "check": "Brother manual PDF p.8 and product page; one PQ1500SL owner review; Ken's Sewing Center listing quoted on Reddit",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Price",
+          "urls": 0,
+          "classes": [],
+          "summary": "A 2016 forum post puts the PQ1500S near 550 dollars on Amazon. Today the PQ1600S lists at 899.99 to 999.99.",
+          "check": "Missouri Star forum post dated 2016; Brother, Amazon and Walmart pages 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

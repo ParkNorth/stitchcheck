@@ -1,9 +1,9 @@
 {
   "slug": "singer-14cg754",
-  "generated": "2026-10-02T04:41:12.957Z",
+  "generated": "2026-10-03T02:51:35.244Z",
   "counts": {
     "error": 0,
-    "warn": 4
+    "warn": 2
   },
   "items": [
     {
@@ -23,23 +23,13 @@
     },
     {
       "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"weightLb\" but the spec's conflicts do not mention it"
-    },
-    {
-      "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"dimensionsIn\" but the spec's conflicts do not mention it"
-    },
-    {
-      "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 18 voices (15 first-hand), 18 sources, status draft"
+      "message": "evidence moderate, 18 voices (15 first-hand), 18 sources, status approved"
     }
   ]
 }

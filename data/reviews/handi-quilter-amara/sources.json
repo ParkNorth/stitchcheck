@@ -1,0 +1,538 @@
+[
+  {
+    "id": "reddit:1loer2v",
+    "url": "https://www.reddit.com/r/quilting/comments/1loer2v/for_the_library_qnique_vs_hq_amara/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "For the Library: Q'nique vs HQ Amara",
+    "subreddit": "quilting",
+    "thread_id": "1loer2v",
+    "first_seen": "2026-10-03T02:40:06.053Z",
+    "last_fetched": "2026-10-03T02:40:06.053Z",
+    "status": "ok",
+    "cursor_utc": 1751326258,
+    "discovered_by": [
+      "all:HQ Amara longarm",
+      "r/quilting:HQ Amara longarm",
+      "all:Amara 20 longarm quilting",
+      "r/quilting:Amara 20 longarm quilting",
+      "all:HQ Amara tension",
+      "r/quilting:HQ Amara tension",
+      "all:Handi Quilter Amara vs",
+      "r/quilting:Handi Quilter Amara vs",
+      "all:HQ Amara vs Moxie",
+      "r/quilting:HQ Amara vs Moxie",
+      "all:Amara longarm quilting machine",
+      "r/quilting:Amara longarm quilting machine"
+    ],
+    "content_hash": "527ead20247faa4e"
+  },
+  {
+    "id": "reddit:a50q1b",
+    "url": "https://www.reddit.com/r/quilting/comments/a50q1b/i_got_to_learn_how_to_use_the_longarm_machine/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "I got to learn how to use the Longarm machine last week. This was my first try at microquilting on the Handiquilter Amara. Can\u2019t wait to learn more!",
+    "subreddit": "quilting",
+    "thread_id": "a50q1b",
+    "first_seen": "2026-10-03T02:40:06.053Z",
+    "last_fetched": "2026-10-03T02:40:06.053Z",
+    "status": "ok",
+    "cursor_utc": 1544568446,
+    "discovered_by": [
+      "all:HQ Amara longarm",
+      "r/quilting:HQ Amara longarm"
+    ],
+    "content_hash": "fe2c6548320715f7"
+  },
+  {
+    "id": "reddit:1dfd2j6",
+    "url": "https://www.reddit.com/r/quilting/comments/1dfd2j6/hi_considering_purchasing_a_prostitcher_for_my_hq/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Hi, considering purchasing a prostitcher for my HQ Amara. Anyone have any regrets purchasing? Found a good deal during their sale this month for 8995 with 1 year financing, is that reasonable?",
+    "subreddit": "quilting",
+    "thread_id": "1dfd2j6",
+    "first_seen": "2026-10-03T02:40:06.053Z",
+    "last_fetched": "2026-10-03T02:40:06.053Z",
+    "status": "ok",
+    "cursor_utc": 1718332104,
+    "discovered_by": [
+      "all:HQ Amara longarm",
+      "r/quilting:HQ Amara longarm",
+      "r/quilting:HQ Amara tension"
+    ],
+    "content_hash": "d43c322ea09162d5"
+  },
+  {
+    "id": "reddit:1r0yaln",
+    "url": "https://www.reddit.com/r/longarmmachines/comments/1r0yaln/hq_handi_quilter_amara_20_longarm_quilting/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "HQ Handi Quilter Amara 20 Longarm Quilting Machine with Pro-Stitcher Premium",
+    "subreddit": "longarmmachines",
+    "thread_id": "1r0yaln",
+    "first_seen": "2026-10-03T02:40:06.053Z",
+    "last_fetched": "2026-10-03T02:40:06.053Z",
+    "status": "thin",
+    "cursor_utc": 1770722996,
+    "discovered_by": [
+      "all:Handi Quilter Amara 20",
+      "all:HQ Amara longarm",
+      "all:Amara 20 longarm quilting",
+      "all:Handi Quilter Amara review",
+      "all:Handi Quilter Amara problems",
+      "all:HQ Amara tension",
+      "all:Handi Quilter Amara vs",
+      "all:Amara longarm quilting machine"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1mvkivh",
+    "url": "https://www.reddit.com/r/longarmmachines/comments/1mvkivh/hq_handi_quilter_amara_20_longarm_quilting/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "HQ Handi Quilter Amara 20 Longarm Quilting Machine with Pro-Stitcher",
+    "subreddit": "longarmmachines",
+    "thread_id": "1mvkivh",
+    "first_seen": "2026-10-03T02:40:06.053Z",
+    "last_fetched": "2026-10-03T02:40:06.053Z",
+    "status": "thin",
+    "cursor_utc": 1755709176,
+    "discovered_by": [
+      "all:Handi Quilter Amara 20",
+      "all:HQ Amara longarm",
+      "all:Amara 20 longarm quilting",
+      "all:Handi Quilter Amara review",
+      "all:Handi Quilter Amara problems",
+      "all:HQ Amara tension",
+      "all:Handi Quilter Amara vs",
+      "all:Amara longarm quilting machine"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1wtgzhi",
+    "url": "https://www.reddit.com/r/longarmmachines/comments/1wtgzhi/hq_amara_24_longarm_quilting_machine_with/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "HQ Amara 24 Longarm Quilting Machine with Pro-Stitcher Premium",
+    "subreddit": "longarmmachines",
+    "thread_id": "1wtgzhi",
+    "first_seen": "2026-10-03T02:40:06.053Z",
+    "last_fetched": "2026-10-03T02:40:06.053Z",
+    "status": "thin",
+    "cursor_utc": 1790704234,
+    "discovered_by": [
+      "all:Handi Quilter Amara 20",
+      "all:HQ Amara longarm",
+      "all:Amara 20 longarm quilting",
+      "all:Handi Quilter Amara review",
+      "all:Handi Quilter Amara problems",
+      "all:HQ Amara tension",
+      "all:Handi Quilter Amara vs",
+      "all:Amara longarm quilting machine"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:1cjwzp5",
+    "url": "https://www.reddit.com/r/longarmmachines/comments/1cjwzp5/hq_amara_longarm_quilting_machine_for_sale/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "HQ Amara Longarm Quilting Machine For Sale",
+    "subreddit": "longarmmachines",
+    "thread_id": "1cjwzp5",
+    "first_seen": "2026-10-03T02:40:06.053Z",
+    "last_fetched": "2026-10-03T02:40:06.053Z",
+    "status": "thin",
+    "cursor_utc": 1714817616,
+    "discovered_by": [
+      "all:Handi Quilter Amara 20",
+      "all:HQ Amara longarm",
+      "all:Amara 20 longarm quilting",
+      "all:Handi Quilter Amara review",
+      "all:Handi Quilter Amara problems",
+      "all:Handi Quilter Amara vs",
+      "all:Amara longarm quilting machine"
+    ],
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:la4q1q",
+    "url": "https://www.reddit.com/r/quilting/comments/la4q1q/advice_for_aspiring_long_armer/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Advice for aspiring Long Armer",
+    "subreddit": "quilting",
+    "thread_id": "la4q1q",
+    "first_seen": "2026-10-03T02:40:06.053Z",
+    "last_fetched": "2026-10-03T02:40:06.053Z",
+    "status": "ok",
+    "cursor_utc": 1612271528,
+    "discovered_by": [
+      "all:HQ Amara longarm",
+      "r/quilting:HQ Amara longarm",
+      "r/quilting:Amara 20 longarm quilting",
+      "r/quilting:HQ Amara tension",
+      "all:HQ Amara vs Moxie",
+      "r/quilting:HQ Amara vs Moxie",
+      "all:Amara longarm quilting machine",
+      "r/quilting:Amara longarm quilting machine"
+    ],
+    "content_hash": "eeda1ff75cc7e12e"
+  },
+  {
+    "id": "reddit:1tys5sm",
+    "url": "https://www.reddit.com/r/quilting/comments/1tys5sm/has_anyone_upgraded_a_sit_down_longarm_to_a_frame/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Has anyone upgraded a sit down longarm to a frame?",
+    "subreddit": "quilting",
+    "thread_id": "1tys5sm",
+    "first_seen": "2026-10-03T02:40:06.053Z",
+    "last_fetched": "2026-10-03T02:40:06.053Z",
+    "status": "ok",
+    "cursor_utc": 1780878231,
+    "discovered_by": [
+      "all:HQ Amara longarm",
+      "r/quilting:HQ Amara longarm",
+      "all:Amara 20 longarm quilting",
+      "r/quilting:Amara 20 longarm quilting",
+      "r/quilting:HQ Amara tension"
+    ],
+    "content_hash": "c5622224b5cee423"
+  },
+  {
+    "id": "reddit:1egr9qb",
+    "url": "https://www.reddit.com/r/quilting/comments/1egr9qb/long_arm_purchase_advice_needed/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Long Arm Purchase Advice Needed",
+    "subreddit": "quilting",
+    "thread_id": "1egr9qb",
+    "first_seen": "2026-10-03T02:41:14.595Z",
+    "last_fetched": "2026-10-03T02:41:14.595Z",
+    "status": "ok",
+    "cursor_utc": 1723117265,
+    "discovered_by": [
+      "manual-thread"
+    ],
+    "content_hash": "b4d99913fe5fac81"
+  },
+  {
+    "id": "reddit:d00sxs",
+    "url": "https://www.reddit.com/r/quilting/comments/d00sxs/2019_longarmmidarm_review_thread/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "2019 Longarm/Midarm Review Thread",
+    "subreddit": "quilting",
+    "thread_id": "d00sxs",
+    "first_seen": "2026-10-03T02:41:14.595Z",
+    "last_fetched": "2026-10-03T02:41:14.595Z",
+    "status": "ok",
+    "cursor_utc": 1567886882,
+    "discovered_by": [
+      "manual-thread"
+    ],
+    "content_hash": "ed2b01a7743a7839"
+  },
+  {
+    "id": "web:73781ed69d0e3af9",
+    "url": "https://www.quiltingboard.com/main-f1/help-advice-longarm-machine-t321795.html",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Help - advice on which longarm machine - Quiltingboard Forums",
+    "first_seen": "2026-10-03T02:41:22.397Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:41:22.397Z",
+    "content_hash": "0448aa391020a3d9",
+    "chars": 16960,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:1626cdfd65b5a7ff",
+    "url": "https://www.quiltingboard.com/main-f1/long-arm-opinions-t325026.html",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Long arm opinions - Quiltingboard Forums",
+    "first_seen": "2026-10-03T02:41:23.172Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:41:23.172Z",
+    "content_hash": "ed8d4be081c17bd5",
+    "chars": 15080,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:c614859321721086",
+    "url": "https://www.mkquilts.com/amara-20-longarm-machine-lp.html",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "HQ Amara 20 Longarm Machine - MK Quilts | Handi Quilter Longarms | Pro-Stitcher | Quilting Classes | Quilt Finishing",
+    "first_seen": "2026-10-03T02:41:23.839Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:41:23.839Z",
+    "content_hash": "e5449067bac040e9",
+    "chars": 5962,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:63e76cc45b1732e5",
+    "url": "https://www.stringandstory.com/blog/hqamara",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "Handi Quilter Amara Longarm Review &mdash; String & Story",
+    "first_seen": "2026-10-03T02:41:24.618Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:41:24.618Z",
+    "content_hash": "92069fffeac59719",
+    "chars": 8121,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:d215e94a8b84856e",
+    "url": "https://craftyolo.com/handi-quilter-amara-review",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "Handi Quilter Amara Review: Is It Worth The Price?",
+    "first_seen": "2026-10-03T02:41:25.433Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:41:25.433Z",
+    "content_hash": "89ff5c1975d1f930",
+    "chars": 9599,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:af4364ab645b2f53",
+    "url": "https://stitchmachineledger.com/comparisons/handi-quilter-moxie-vs-amara",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "Handi Quilter Moxie vs Amara | Stitch Machine Ledger",
+    "first_seen": "2026-10-03T02:41:27.499Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:41:27.499Z",
+    "content_hash": "13425698eff6a017",
+    "chars": 14533,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:07b982082fa6df5a",
+    "url": "https://handiquilter.com/compare/hq-machine-comparison",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "HQ Machine Comparison - Handi Quilter",
+    "first_seen": "2026-10-03T02:41:28.290Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:41:49.261Z",
+    "note": "http-page: 403",
+    "content_hash": "77f905a317c2280b",
+    "chars": 15743,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:c752e67c266670b1",
+    "url": "https://handiquilter.com/machine-comparison-amara-or-infinity",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "",
+    "first_seen": "2026-10-03T02:41:28.898Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "blocked",
+    "last_fetched": "2026-10-03T02:41:28.898Z",
+    "note": "http-page: 403"
+  },
+  {
+    "id": "web:2af4cecc31415d53",
+    "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+    "class": "retailer",
+    "method": "http-judgeme",
+    "title": "Handi Quilter Amara 20 inch Longarm Quilting Machine",
+    "first_seen": "2026-10-03T02:41:29.431Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:41:56.195Z",
+    "content_hash": "44956f8715a89353",
+    "chars": 30919,
+    "page_kind": "comparison",
+    "site_rating": 4,
+    "site_review_count": 5
+  },
+  {
+    "id": "web:64e61b22c99425c9",
+    "url": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/2120292-longarm-recommendation",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Longarm recommendation - The Quilting Forum - Missouri Star's Quilt Community",
+    "first_seen": "2026-10-03T02:41:47.974Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:41:47.974Z",
+    "content_hash": "c7df0d510b431fac",
+    "chars": 11531,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:f03dd098da4b2cf0",
+    "url": "https://sewing.patternreview.com/SewingDiscussions/topic/127484",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Long Arm Quilting Machine. Moxie? sewing discussion topic @ PatternReview.com",
+    "first_seen": "2026-10-03T02:41:48.478Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:41:48.478Z",
+    "content_hash": "a8d6d8e8c7611546",
+    "chars": 7703,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:3a633d13415cc419",
+    "url": "https://www.youtube.com/watch?v=J1xZnt2Tcr4",
+    "class": "youtube",
+    "method": "firecrawl",
+    "title": "HandiQuilter Amara Vs HandiQuilter Moxie Longarm Quilting",
+    "first_seen": "2026-10-03T02:42:21.750Z",
+    "last_fetched": null,
+    "status": "thin",
+    "content_hash": null,
+    "discovered_by": [
+      "Handi Quilter Amara 20 review owner"
+    ],
+    "note": "title, channel and URL only; comments and transcripts out of scope"
+  },
+  {
+    "id": "web:4aa9ca593a407b67",
+    "url": "https://www.youtube.com/watch?v=H2kI_-569Vk",
+    "class": "youtube",
+    "method": "firecrawl",
+    "title": "HQ AMARA 20 - BEFORE BUYING, WATCH THIS",
+    "first_seen": "2026-10-03T02:42:21.750Z",
+    "last_fetched": null,
+    "status": "thin",
+    "content_hash": null,
+    "discovered_by": [
+      "Handi Quilter Amara 20 review owner"
+    ],
+    "note": "title, channel and URL only; comments and transcripts out of scope"
+  },
+  {
+    "id": "web:0882f90c9e1e38d3",
+    "url": "https://www.youtube.com/watch?v=V3AIy1PEFvc",
+    "class": "youtube",
+    "method": "firecrawl",
+    "title": "HandiQuilter Amara Longarm Quilting Machine Review",
+    "first_seen": "2026-10-03T02:42:21.750Z",
+    "last_fetched": null,
+    "status": "thin",
+    "content_hash": null,
+    "discovered_by": [
+      "Handi Quilter Amara 20 review owner"
+    ],
+    "note": "title, channel and URL only; comments and transcripts out of scope"
+  },
+  {
+    "id": "web:cb5f20fce639c17c",
+    "url": "https://www.facebook.com/groups/1199808553537539/posts/3194566820728359",
+    "class": "forum",
+    "method": "firecrawl",
+    "title": "First longarm quilting machine, HQ Amara 20",
+    "first_seen": "2026-10-03T02:42:21.750Z",
+    "last_fetched": null,
+    "status": "blocked",
+    "content_hash": null,
+    "discovered_by": [
+      "Handi Quilter Amara 20 review owner"
+    ],
+    "note": "Facebook groups unsupported by Firecrawl"
+  },
+  {
+    "id": "web:21259db9c46bd00d",
+    "url": "https://www.facebook.com/groups/quiltforbeginner/posts/1302050874611941",
+    "class": "forum",
+    "method": "firecrawl",
+    "title": "Quilting issue with Amara 20 machine?",
+    "first_seen": "2026-10-03T02:42:21.750Z",
+    "last_fetched": null,
+    "status": "blocked",
+    "content_hash": null,
+    "discovered_by": [
+      "Handi Quilter Amara 20 review owner"
+    ],
+    "note": "Facebook groups unsupported by Firecrawl"
+  },
+  {
+    "id": "web:84ca0fb2ff05f2a7",
+    "url": "https://www.facebook.com/groups/MyHobbyIsQuilting/posts/454805818371547",
+    "class": "forum",
+    "method": "firecrawl",
+    "title": "Handiquilter 20in Amara reviews and advice needed",
+    "first_seen": "2026-10-03T02:42:21.750Z",
+    "last_fetched": null,
+    "status": "blocked",
+    "content_hash": null,
+    "discovered_by": [
+      "Handi Quilter Amara 20 review owner"
+    ],
+    "note": "Facebook groups unsupported by Firecrawl"
+  },
+  {
+    "id": "web:70fa19e8c9d9b5d2",
+    "url": "https://www.facebook.com/groups/369911552860280/posts/373351552516280",
+    "class": "forum",
+    "method": "firecrawl",
+    "title": "Learning with Amara and Pro Stitcher Premium",
+    "first_seen": "2026-10-03T02:42:21.750Z",
+    "last_fetched": null,
+    "status": "blocked",
+    "content_hash": null,
+    "discovered_by": [
+      "Handi Quilter Amara 20 review owner"
+    ],
+    "note": "Facebook groups unsupported by Firecrawl"
+  },
+  {
+    "id": "web:fae6f2e667328ffa",
+    "url": "https://www.facebook.com/groups/piecenquiltshowntell/posts/3149526158540946",
+    "class": "forum",
+    "method": "firecrawl",
+    "title": "Which HQ Amara 24 mode is best for free motion quilting?",
+    "first_seen": "2026-10-03T02:42:21.750Z",
+    "last_fetched": null,
+    "status": "blocked",
+    "content_hash": null,
+    "discovered_by": [
+      "Handi Quilter Amara 20 review owner"
+    ],
+    "note": "Facebook groups unsupported by Firecrawl"
+  }
+]

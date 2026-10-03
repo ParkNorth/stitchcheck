@@ -1,9 +1,9 @@
 {
   "slug": "brother-1034dx",
-  "generated": "2026-10-01T13:40:04.321Z",
+  "generated": "2026-10-03T02:42:35.933Z",
   "counts": {
     "error": 0,
-    "warn": 0
+    "warn": 1
   },
   "items": [
     {
@@ -20,6 +20,11 @@
       "level": "info",
       "id": "reddit",
       "message": "84 Reddit threads, 32 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",

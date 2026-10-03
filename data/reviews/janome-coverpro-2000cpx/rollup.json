@@ -1,0 +1,1414 @@
+{
+  "slug": "janome-coverpro-2000cpx",
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy (instructed 2026-10-02, via Claude; human review after live)",
+  "reviewedOn": "2026-10-02",
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 27,
+    "itemsCollected": 162,
+    "statements": 101,
+    "voices": 20,
+    "ownerVoices": 14,
+    "dateRange": [
+      2012,
+      2026
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 11,
+        "items": 139
+      },
+      "retailer": {
+        "sources": 3,
+        "items": 10
+      },
+      "editorial": {
+        "sources": 8,
+        "items": 8
+      },
+      "forum": {
+        "sources": 5,
+        "items": 5
+      }
+    },
+    "blocked": 0,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Amazon's 4.5 from 67 ratings sits on a listing that shares a parent with the CoverPro 1000CPX (and its reviews name the 900CPX and 1000CPX), so it is not a 2000CPX rating and none of its text counts toward the themes below. The Walmart listing shows one 4-star review. Neither retailer's average is quoted as a 2000CPX rating. Both retailer sources are sampled: 8 top Amazon reviews of 67 ratings, and the 1 Walmart review.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented. Skipped stitches are the most repeated complaint; owners are split between never seeing them and fighting them for years.",
+    "Many Reddit and forum posts say 'my CoverPro' or 'the 2000' without a suffix. Where a post names the 1000CPX, 900CPX or 3000 it is a sibling claim and is not counted as 2000CPX evidence; where the model is unclear it is also left out.",
+    "Two names need care: the Janome page and manual are for the CoverPro 2000CPX only. 'Cover Pro 2000' without the CPX, and a '2 needle 2000CPX', appear in a few posts but no Janome document we read lists either one.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "PatternReview reviews written more than six months ago are login-gated, so only their comment threads were read. Facebook groups, YouTube comments and eBay were not collected."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "summary": "Owner and buyer signals on the Janome CoverPro 2000CPX are split. People who like it call it a solid, quiet machine that threads easily and gives clean cover hems once the needles and tension are right, and several say they have never had a skipped stitch. Others describe skipped stitches, tunnelling and a long learning curve, and a few gave up and moved to another brand. The repeated advice is the same: use ELx705 needles (ballpoint for knits), check the threading and the tension discs, and expect to spend time on settings. Some owners find the free arm too small to be useful, and Janome's manual does not mention oiling, which one owner says cured her skipping. This read covers 11 Reddit threads, 5 PatternReview pages, 4 blog write-ups and 3 retailer listings, from 2012 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
+  "themes": [
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 17,
+      "voices": 10,
+      "ownerVoices": 9,
+      "sources": 10,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 3,
+        "editorial": 3,
+        "retailer": 1,
+        "forum": 3
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 6
+      },
+      "years": [
+        2018,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c3e2e52c9",
+          "polarity": "negative",
+          "claim": "Owner notes it needs special needles while the Juki uses regular ones.",
+          "quote": "It needs special needles",
+          "url": "https://www.reddit.com/r/sewing/comments/8bvz6n/will_a_home_serger_or_coverstitch_machine_work_on/dxb910a/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cdab09aeb",
+          "polarity": "negative",
+          "claim": "Commenter says the supplied Schmetz EL needles skipped a lot on knits.",
+          "quote": "on knits I had lots of skipped stitches",
+          "url": "https://sewing.patternreview.com/review/machine/6869",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "cb992ae5e",
+          "polarity": "positive",
+          "claim": "Commenter says raising the foot pressure knob to a set height transformed the machine.",
+          "quote": "I turned the pressure so the knob is raised exactly",
+          "url": "https://sewing.patternreview.com/review/machine/6332",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "cfdda969a",
+          "polarity": "positive",
+          "claim": "Owner says ELx705 SUK ball point needles gave even stitches with no skips, even over thicker seams.",
+          "quote": "nice even stitches and none skipped, even over thicker seams",
+          "url": "https://sewing.patternreview.com/review/machine/6869",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c52dde763",
+        "c38956438",
+        "c3e2e52c9",
+        "cf7d9f7b2",
+        "c763462a0",
+        "c902f93e1",
+        "c95bb0f30",
+        "cd83ba26f",
+        "c59d0cf04",
+        "ce1d5a098",
+        "cf0ec1f60",
+        "c65035931",
+        "cb992ae5e",
+        "cbfba50b9",
+        "ca3cef524",
+        "cfdda969a",
+        "cdab09aeb"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 21,
+      "voices": 9,
+      "ownerVoices": 9,
+      "sources": 9,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 4,
+        "editorial": 3,
+        "forum": 2
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 1,
+        "mixed": 5,
+        "neutral": 0
+      },
+      "years": [
+        2018,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c657f14d8",
+          "polarity": "negative",
+          "claim": "Commenter says she is glad to have got rid of hers and changed brand.",
+          "quote": "I am soooo glad I got rid of mine",
+          "url": "https://sewing.patternreview.com/review/machine/6332",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "c79ce5757",
+          "polarity": "negative",
+          "claim": "Commenter owner finds skipped stitches annoying when sewing knits over seams.",
+          "quote": "The skipping stitches has been annoying",
+          "url": "https://sewinginsight.com/reviews/janome-cover-pro-2000-cpx-review",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "c5c053a9b",
+          "polarity": "positive",
+          "claim": "Owner reports three years of use on all their knits.",
+          "quote": "I use it for all my knits",
+          "url": "https://www.reddit.com/r/sewing/comments/r3vic6/coverstitch_brother_cv3550_vs_janome_coverpro/hmj0wbb/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cada05b44",
+          "polarity": "positive",
+          "claim": "Owner of the Janome 2000 CPX says they have never had a problem with it, using the right needles bought in bulk.",
+          "quote": "never had a single problem with it",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1q226xi/can_i_realistically_learn_cover_stitch_just_to/nxdxsm2/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cf4fa94bf",
+          "polarity": "mixed",
+          "claim": "Commenter owner of a couple of years has mixed feelings.",
+          "quote": "mixed feelings about it",
+          "url": "https://sewing.patternreview.com/review/machine/6869",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "cf6da87af",
+          "polarity": "mixed",
+          "claim": "Owner concedes some machines are bad examples.",
+          "quote": "there are not some bad eggs out there",
+          "url": "https://www.thelaststitch.com/video-janome-coverpro-2000cpx-review",
+          "source_class": "editorial"
+        }
+      ],
+      "claimIds": [
+        "c5c053a9b",
+        "cd55895eb",
+        "cada05b44",
+        "ce466936e",
+        "c23b46048",
+        "c453383b2",
+        "cbe42de8a",
+        "c79ce5757",
+        "cd6e94aa6",
+        "cad23d8d6",
+        "c930d0d59",
+        "c8dcfbe78",
+        "c3e42f4c2",
+        "c088fd1a8",
+        "cf6da87af",
+        "ccabf2594",
+        "cc4a7f4c7",
+        "cf2056bb9",
+        "c657f14d8",
+        "c79f37947",
+        "cf4fa94bf"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 10,
+      "voices": 8,
+      "ownerVoices": 6,
+      "sources": 8,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "editorial": 3,
+        "retailer": 1,
+        "forum": 3
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2018,
+        2018
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c040a5914",
+          "polarity": "negative",
+          "claim": "Owner says tension is often a little off out of the box, so buying in person helps.",
+          "quote": "the tension to be a little off right out of the box",
+          "url": "https://www.reddit.com/r/sewing/comments/8bvz6n/will_a_home_serger_or_coverstitch_machine_work_on/dxb910a/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c09ea7d7c",
+          "polarity": "negative",
+          "claim": "A 2000CPX owner says they still have difficulty getting tension right.",
+          "quote": "I still have difficulties getting the tension right",
+          "url": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "c97b9a36e",
+          "polarity": "positive",
+          "claim": "Owner says skipping the lower looper tension disc fixed an overly tight looper thread.",
+          "quote": "not put the looper thread through the lower tension disc",
+          "url": "https://sewing.patternreview.com/review/machine/6869",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c040a5914",
+        "c09ea7d7c",
+        "c5c78da17",
+        "c9ead4499",
+        "c6cb9ad25",
+        "c9bc81e56",
+        "c4e16b34c",
+        "caabe12ef",
+        "cd9d81709",
+        "c97b9a36e"
+      ]
+    },
+    {
+      "theme": "stitch_quality",
+      "label": "Stitch quality",
+      "statements": 10,
+      "voices": 6,
+      "ownerVoices": 5,
+      "sources": 5,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2,
+        "editorial": 3,
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 2,
+        "mixed": 3,
+        "neutral": 0
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c70413daa",
+          "polarity": "negative",
+          "claim": "Owner finds the chain stitch not sturdy enough for hemming knits.",
+          "quote": "not sturdy enough for hemming knits",
+          "url": "https://www.thelaststitch.com/janome-coverpro-2000-review",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "c73f48e41",
+          "polarity": "negative",
+          "claim": "Owner finds round chain stitches unravel, usually after a few washes, despite the ending tricks.",
+          "quote": "it usually unravels after a few washes",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1r6ng5r/unravelling_chain_stitch_on_coverpro_2000cpx/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cbdca5667",
+          "polarity": "positive",
+          "claim": "Blogger says the 3 needle stitch with serged seams works as a mock flatlock.",
+          "quote": "It functions just like a flatlock",
+          "url": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "c9d5c1126",
+          "polarity": "positive",
+          "claim": "Owner suggests woolly nylon in the lower looper for better seam coverage.",
+          "quote": "you can use woolly nylon in the lower looper",
+          "url": "https://www.thelaststitch.com/janome-coverpro-2000-review",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "c33290784",
+          "polarity": "mixed",
+          "claim": "Owner says chain stitch unravelling is less of a problem with two needles on a lighter knit.",
+          "quote": "less of a problem when I'm using two needles rather than just one",
+          "url": "https://www.reddit.com/r/SewingForBeginners/comments/1r6ng5r/unravelling_chain_stitch_on_coverpro_2000cpx/o5slde7/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c73f48e41",
+        "c33290784",
+        "c6c713e72",
+        "c03fb7a15",
+        "cbdca5667",
+        "cb719c86d",
+        "c70413daa",
+        "c9d5c1126",
+        "c06edf35d",
+        "cf7429b8f"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 6,
+      "voices": 6,
+      "ownerVoices": 3,
+      "sources": 6,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "editorial": 4,
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 3
+      },
+      "years": [
+        2018,
+        2018
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c90a18ab0",
+          "polarity": "negative",
+          "claim": "Commenter says the free arm is not much use.",
+          "quote": "The free arm is not much use",
+          "url": "https://sewing.patternreview.com/review/machine/6869",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "c451dc348",
+          "polarity": "negative",
+          "claim": "Blogger does not use the free arm because it can stretch garments, and flips small circles instead.",
+          "quote": "I find it can stretch stuff out too much",
+          "url": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx",
+          "source_class": "editorial"
+        }
+      ],
+      "claimIds": [
+        "c19477ee7",
+        "c451dc348",
+        "ccb5a0f97",
+        "c4dbbf78f",
+        "c4c7480d4",
+        "c90a18ab0"
+      ]
+    },
+    {
+      "theme": "threading",
+      "label": "Threading and loopers",
+      "statements": 5,
+      "voices": 4,
+      "ownerVoices": 3,
+      "sources": 4,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "editorial": 2,
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2018,
+        2018
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c7691ed1e",
+          "polarity": "negative",
+          "claim": "Owner says it does not tolerate wooly nylon thread.",
+          "quote": "it also does not tolerate Wooly Nylon thread",
+          "url": "https://www.reddit.com/r/sewing/comments/8bvz6n/will_a_home_serger_or_coverstitch_machine_work_on/dxb910a/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c6a461cee",
+          "polarity": "positive",
+          "claim": "Blogger says the single looper is very easy to thread, like a sewing machine.",
+          "quote": "There is only 1 looper to thread",
+          "url": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "c2a13396a",
+          "polarity": "positive",
+          "claim": "Commenter owner improved results by ensuring thread sat in the tension disc.",
+          "quote": "I had some improvement when I ensured it was in the tension disc",
+          "url": "https://sewing.patternreview.com/review/machine/6869",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c7691ed1e",
+        "c6a461cee",
+        "c281b5e7f",
+        "c55553b04",
+        "c2a13396a"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 5,
+      "voices": 4,
+      "ownerVoices": 0,
+      "sources": 4,
+      "sourceClasses": [
+        "editorial",
+        "reddit"
+      ],
+      "classVoices": {
+        "editorial": 3,
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 4
+      },
+      "years": [
+        2026,
+        2026
+      ],
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "c18f87ab2",
+        "cc447396e",
+        "c77f94c46",
+        "cf56c0896",
+        "c57e8613d"
+      ]
+    },
+    {
+      "theme": "differential_feed",
+      "label": "Differential feed",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "editorial"
+      ],
+      "classVoices": {
+        "editorial": 3
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": null,
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cc8b908ce",
+          "polarity": "positive",
+          "claim": "Owner says differential feed stops the hem from growing on stretchy knits.",
+          "quote": "The differential feed keeps the hem from growing",
+          "url": "https://www.thelaststitch.com/janome-coverpro-2000-review",
+          "source_class": "editorial"
+        }
+      ],
+      "claimIds": [
+        "cc8b908ce",
+        "ca9081450",
+        "c511e5efe"
+      ]
+    },
+    {
+      "theme": "noise_vibration",
+      "label": "Noise and vibration",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 2,
+      "sources": 3,
+      "sourceClasses": [
+        "editorial",
+        "forum"
+      ],
+      "classVoices": {
+        "editorial": 1,
+        "forum": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": null,
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c55f28ae9",
+          "polarity": "negative",
+          "claim": "Same buyer reports an intermittent rattle while sewing.",
+          "quote": "rattle while sewing",
+          "url": "https://sewing.patternreview.com/SewingDiscussions/topic/117042",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "c70e489e8",
+          "polarity": "positive",
+          "claim": "Owner of one month calls it a solid machine that chugs along quietly with a learning curve.",
+          "quote": "a solid machine that chugs quietly along",
+          "url": "https://sewing.patternreview.com/review/machine/6869",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c7456b845",
+        "c55f28ae9",
+        "c70e489e8"
+      ]
+    },
+    {
+      "theme": "fabric_handling",
+      "label": "Fabric handling (knits, wovens)",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "editorial",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2018,
+        2018
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ca42ae36a",
+          "polarity": "negative",
+          "claim": "Owner says it will not sew over a serged seam for a flat double-layer look.",
+          "quote": "it won't work over a serged seam",
+          "url": "https://www.reddit.com/r/sewing/comments/8bvz6n/will_a_home_serger_or_coverstitch_machine_work_on/dxb910a/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c14025418",
+          "polarity": "negative",
+          "claim": "Commenter owner says it runs smoothly but has trouble with multiple layers.",
+          "quote": "I have been having issues with doing multiple layers",
+          "url": "https://sewinginsight.com/reviews/janome-cover-pro-2000-cpx-review",
+          "source_class": "editorial"
+        }
+      ],
+      "claimIds": [
+        "ca42ae36a",
+        "c14025418"
+      ]
+    },
+    {
+      "theme": "learning_curve",
+      "label": "Learning curve",
+      "statements": 5,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "editorial",
+        "forum"
+      ],
+      "classVoices": {
+        "editorial": 1,
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 2,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": null,
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c8ca20a14",
+          "polarity": "negative",
+          "claim": "Owner calls the instruction manual too basic.",
+          "quote": "a too basic instruction manual",
+          "url": "https://sewing.patternreview.com/review/machine/6869",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "cc2d5640f",
+          "polarity": "negative",
+          "claim": "Blogger says learning the manual tension was a steep curve.",
+          "quote": "definitely a steep learning curve for me",
+          "url": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx",
+          "source_class": "editorial"
+        }
+      ],
+      "claimIds": [
+        "c9e822bc9",
+        "cc2d5640f",
+        "ce30be7e3",
+        "c8ca20a14",
+        "c265f2840"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 0,
+      "sources": 2,
+      "sourceClasses": [
+        "editorial"
+      ],
+      "classVoices": {
+        "editorial": 2
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": null,
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "c1558806b",
+        "c7c9906c9"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 3,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "editorial",
+        "forum"
+      ],
+      "classVoices": {
+        "editorial": 1,
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": null,
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ce8922d46",
+          "polarity": "positive",
+          "claim": "Owner says skipped stitches improved after the oil spread.",
+          "quote": "after the oil had spread properly the stitches became better",
+          "url": "https://sewing.patternreview.com/SewingDiscussions/topic/105008",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c4d91836a",
+        "c9d7dbb26",
+        "ce8922d46"
+      ]
+    },
+    {
+      "theme": "thread_trimmer",
+      "label": "Thread trimmer",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 0,
+      "sources": 2,
+      "sourceClasses": [
+        "editorial"
+      ],
+      "classVoices": {
+        "editorial": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": null,
+      "recurrence": "reported",
+      "examples": [],
+      "claimIds": [
+        "c84f84ec1",
+        "c3c2216f9"
+      ]
+    },
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 2,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "editorial"
+      ],
+      "classVoices": {
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": null,
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c43f9d540",
+          "polarity": "negative",
+          "claim": "Owner complains that the bed has no seam guide lines.",
+          "quote": "No seam guides on the sewing bed",
+          "url": "https://www.thelaststitch.com/janome-coverpro-2000-review",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "c441ceac2",
+          "polarity": "positive",
+          "claim": "Owner calls it a sturdy, high-quality machine that is fairly reliable.",
+          "quote": "a sturdy high-quality machine that is fairly reliable",
+          "url": "https://www.thelaststitch.com/janome-coverpro-2000-review",
+          "source_class": "editorial"
+        }
+      ],
+      "claimIds": [
+        "c441ceac2",
+        "c43f9d540"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "editorial"
+      ],
+      "classVoices": {
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": null,
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c191ad9e5"
+      ]
+    },
+    {
+      "theme": "cutting_trimming",
+      "label": "Cutting and trimming",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "editorial"
+      ],
+      "classVoices": {
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": null,
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "cee831dfb"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 2,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "editorial"
+      ],
+      "classVoices": {
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": null,
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c1c76810d",
+        "c28ad915b"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "amazon.com",
+      "url": "https://www.amazon.com/dp/B013I7MB1M",
+      "pageRating": 4.5,
+      "pageCount": 67,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 1,
+        "5": 6
+      },
+      "lowRated": 1,
+      "sampled": "8 top reviews (8 US, 0 other countries) of 67 ratings"
+    },
+    {
+      "retailer": "walmart.com",
+      "url": "https://www.walmart.com/reviews/product/10589669074",
+      "pageRating": 4,
+      "pageCount": 1,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0
+      },
+      "lowRated": 0,
+      "sampled": "1 of 1 reviews: every 1 to 3 star page plus the top relevance pages (1 pages read)"
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "Page: up to 1,000 spm.",
+      "others": "Matches our spec. Dealer chart gives 1,000 for the 2000CPX, 1000CPX and 900CPX alike.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome product page",
+          "url": "https://www.janome.com/product/coverpro-2000cpx/"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "page"
+    },
+    {
+      "label": "Differential feed",
+      "juki": "Page: 0.5 to 2.25.",
+      "others": "Matches our spec.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Janome product page",
+          "url": "https://www.janome.com/product/coverpro-2000cpx/"
+        },
+        {
+          "label": "Janome instruction book",
+          "url": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf"
+        }
+      ],
+      "field": "differentialFeed",
+      "source": "page"
+    },
+    {
+      "label": "Needles in the box",
+      "juki": "Manual: installed with #80/12; standard set 2 x #80/12 and 3 x #90/14 (ELx705). Page: needles listed as an optional accessory.",
+      "others": "Our spec said 90/14 supplied.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome instruction book",
+          "url": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf"
+        },
+        {
+          "label": "Janome product page",
+          "url": "https://www.janome.com/product/coverpro-2000cpx/"
+        }
+      ],
+      "field": "needleSystem",
+      "source": "manual"
+    },
+    {
+      "label": "Weight",
+      "juki": "Page: 19 lb.",
+      "others": "Dealer chart: 17.8 lb for the 2000CPX and 19 lb for the 1000CPX. Amazon listing: 23 lb.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome product page",
+          "url": "https://www.janome.com/product/coverpro-2000cpx/"
+        },
+        {
+          "label": "Ken's Sewing Center comparison chart",
+          "url": "https://www.kenssewingcenter.com/media/sparsh/product_attachment/CoverPro_Comp_Chart.pdf"
+        }
+      ],
+      "field": "weightLb",
+      "source": "page"
+    },
+    {
+      "label": "US warranty",
+      "juki": "Limited 25 year (materials and workmanship), 5 year electronic components, 1 year labor; void if not bought from an authorized US dealer.",
+      "others": "Our spec said 2 years on electrical parts.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Janome warranty PDF",
+          "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+        },
+        {
+          "label": "Janome warranty page",
+          "url": "https://www.janome.com/support/warranty/"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "warranty-pdf"
+    },
+    {
+      "label": "CoverPro 1000CPX",
+      "juki": "Dealer chart: no Tension Level Control mark; otherwise the same feature list.",
+      "others": "1000CPX weight on the chart is 19 lb.",
+      "status": "dealer only",
+      "links": [
+        {
+          "label": "Ken's Sewing Center comparison chart",
+          "url": "https://www.kenssewingcenter.com/media/sparsh/product_attachment/CoverPro_Comp_Chart.pdf"
+        }
+      ],
+      "field": "siblingCoverPro1000CPX",
+      "source": "dealer-chart"
+    },
+    {
+      "label": "CoverPro 900CPX",
+      "juki": "Dealer chart: 1 or 2 needles, 5 mm width, no three-needle width.",
+      "others": "Weight 18.7 lb on the chart.",
+      "status": "dealer only",
+      "links": [
+        {
+          "label": "Ken's Sewing Center comparison chart",
+          "url": "https://www.kenssewingcenter.com/media/sparsh/product_attachment/CoverPro_Comp_Chart.pdf"
+        }
+      ],
+      "field": "siblingCoverPro900CPX",
+      "source": "dealer-chart"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "1000CPX",
+      "label": "Janome CoverPro 1000CPX",
+      "rows": [
+        {
+          "feature": "Looper tension lever (TLC)",
+          "urls": 3,
+          "classes": [
+            "editorial",
+            "forum"
+          ],
+          "summary": "Sewing Insight (quoting a shop owner), a dealer page and a PatternReview member say the 2000CPX adds the looper tension switching lever, sold as Tension Level Control. A dealer chart marks Tension Level Control for the 2000CPX only. Janome's 2000CPX manual lists the lever.",
+          "check": "Janome 2000CPX manual and page confirm the lever; no Janome 1000CPX document read",
+          "examples": [
+            {
+              "claim_id": "c216502aa",
+              "claim": "Review says the 2000 CPX has a looper tension switching lever the 1000 CPX lacks.",
+              "quote": "The 2000 CPX has a looper tension switching lever",
+              "url": "https://sewinginsight.com/reviews/janome-cover-pro-2000-cpx-review"
+            },
+            {
+              "claim_id": "cbdece187",
+              "claim": "Shop owner says the only real difference from the 1000 CPX is the looper tension switching lever.",
+              "quote": "the only real difference between the 2000 CPX and the Janome 1000 CPX",
+              "url": "https://sewinginsight.com/reviews/janome-cover-pro-2000-cpx-review"
+            },
+            {
+              "claim_id": "cf07e7076",
+              "claim": "Dealer says the 2000CPX adds Tension Level Control over the 1000CPX.",
+              "quote": "The 2000CPX adds the Tension Level Control (TLC) system over the 1000CPX",
+              "url": "https://www.bohofabrics.com/products/janome-coverpro-2000cpx-coverstitch-machine"
+            }
+          ],
+          "claimIds": [
+            "c216502aa",
+            "cbdece187",
+            "cf07e7076",
+            "ca74798d4"
+          ]
+        },
+        {
+          "feature": "Overall",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "A blogger who bought the 2000CPX says the two have minimal differences, and a 1000CPX owner doubts the 2000 works much differently.",
+          "check": "two comments on one blog page",
+          "examples": [
+            {
+              "claim_id": "cecd59435",
+              "claim": "Blogger who bought the 2000CPX says it has minimal differences from the 1000CPX, mainly a little easier threading.",
+              "quote": "It has minimal differences from the 1000CPX",
+              "url": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx"
+            },
+            {
+              "claim_id": "c3535fb53",
+              "claim": "A 1000CPX owner doubts the 2000 works much differently from the 1000.",
+              "quote": "I can’t imagine that the 2000 works much differently from the 1000",
+              "url": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx"
+            }
+          ],
+          "claimIds": [
+            "cecd59435",
+            "c3535fb53"
+          ]
+        },
+        {
+          "feature": "Lighting",
+          "urls": 1,
+          "classes": [
+            "forum"
+          ],
+          "summary": "One forum member says the 1000CPX has an incandescent bulb and the 2000CPX an LED; another says the 1000 bulb can be swapped for an LED. Janome lists an LED light on the 2000CPX.",
+          "check": "PatternReview, one thread; no 1000CPX maker document read",
+          "examples": [
+            {
+              "claim_id": "c33027a3d",
+              "claim": "Forum member says the 1000CPX has incandescent lighting and the 2000CPX LED.",
+              "quote": "the 1000CPX has incandescent lighting and the 2000CPX has LED lighting",
+              "url": "https://sewing.patternreview.com/SewingDiscussions/topic/116862"
+            },
+            {
+              "claim_id": "c24521396",
+              "claim": "Forum member says the 1000 can have its bulb switched to LED.",
+              "quote": "easily switch out the bulb on the 1000",
+              "url": "https://sewing.patternreview.com/SewingDiscussions/topic/116862"
+            }
+          ],
+          "claimIds": [
+            "c33027a3d",
+            "c24521396"
+          ]
+        },
+        {
+          "feature": "Dealer-only sale",
+          "urls": 1,
+          "classes": [
+            "forum"
+          ],
+          "summary": "A forum poster relays a dealer saying the only difference is that the 2000 is packaged as a dealer only machine; another poster says the 1000CPX and 1000CP were dealer only as well. Janome says the 2000CPX is sold through authorized dealers.",
+          "check": "unverified, one PatternReview thread",
+          "examples": [
+            {
+              "claim_id": "c0bd49120",
+              "claim": "A poster relays a dealer saying the 2000 is packaged as a dealer only machine.",
+              "quote": "the 2000 is packaged as a dealer only machine",
+              "url": "https://sewing.patternreview.com/SewingDiscussions/topic/116862"
+            }
+          ],
+          "claimIds": [
+            "c0bd49120"
+          ]
+        },
+        {
+          "feature": "Threading",
+          "urls": 1,
+          "classes": [
+            "forum"
+          ],
+          "summary": "A forum member and a blogger who bought the 2000CPX say it is a little easier to thread than the 1000CPX. A 1000CPX owner says theirs is easy to thread too.",
+          "check": "opinion only; no maker claim",
+          "examples": [
+            {
+              "claim_id": "c2fce1d7a",
+              "claim": "Forum member says the 2000 is considered slightly easier to thread.",
+              "quote": "The 2000 is considered slightly easier to thread",
+              "url": "https://sewing.patternreview.com/SewingDiscussions/topic/116862"
+            }
+          ],
+          "claimIds": [
+            "c2fce1d7a"
+          ]
+        },
+        {
+          "feature": "Body size",
+          "urls": 1,
+          "classes": [
+            "forum"
+          ],
+          "summary": "One forum member says the 2000CPX has a squarer body with extra space compared with the roomy 1000 body. The dealer chart lists the same 4 x 5.5 in bed for both.",
+          "check": "PatternReview opinion against a dealer chart",
+          "examples": [
+            {
+              "claim_id": "c295714f3",
+              "claim": "Forum member says the 2000CPX body gives extra space even against the roomy 1000 body.",
+              "quote": "the square style body provides extra space even vs the roomy 1000 body",
+              "url": "https://sewing.patternreview.com/SewingDiscussions/topic/116862"
+            }
+          ],
+          "claimIds": [
+            "c295714f3"
+          ]
+        },
+        {
+          "feature": "Dealer chart feature list",
+          "urls": 0,
+          "classes": [],
+          "summary": "Ken's Sewing Center's chart gives the 1000CPX the same stitch types, 1 to 4 mm length, 0.5 to 2.25 differential feed, 1,000 spm and 4 x 5.5 in bed as the 2000CPX, with no Tension Level Control mark, and lists 19 lb against 17.8 lb for the 2000CPX. Janome's own page gives 19 lb for the 2000CPX.",
+          "check": "dealer chart, 2026-10-02; not a Janome document",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Cover Pro 2000",
+      "label": "Janome Cover Pro 2000 (no CPX, or the reported 2 needle 2000CPX)",
+      "rows": [
+        {
+          "feature": "Needle count",
+          "urls": 2,
+          "classes": [
+            "editorial",
+            "forum"
+          ],
+          "summary": "A blogger and a forum member say a 2 needle 2000CPX also exists and advise against it. Janome's 2000CPX page and manual describe one machine that sews with 1, 2 or 3 needles, and no Janome document we read lists a separate 2 needle version or a plain Cover Pro 2000.",
+          "check": "two reports, no maker document",
+          "examples": [
+            {
+              "claim_id": "c5e750951",
+              "claim": "Blogger says a 2 needle 2000CPX also exists and chose the 3 needle one.",
+              "quote": "There is also a 2 needle 2000CPX",
+              "url": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx"
+            },
+            {
+              "claim_id": "cf9cf13d4",
+              "claim": "Forum member thinks a 2 needle version of the 2000 may exist and advises against it.",
+              "quote": "there may also be a 2 needle version of the 2000",
+              "url": "https://sewing.patternreview.com/SewingDiscussions/topic/116862"
+            }
+          ],
+          "claimIds": [
+            "c5e750951",
+            "cf9cf13d4"
+          ]
+        }
+      ]
+    },
+    {
+      "model": "3000CPX",
+      "label": "Janome CoverPro 3000 (3000CPX, 3000P)",
+      "rows": [
+        {
+          "feature": "Top cover stitch",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "A dealer page says buyers who want a top cover stitch should look at the CoverPro 3000P. The 2000CPX pages we read list chain, cover and triple cover only.",
+          "check": "dealer copy only; no Janome 3000 document read",
+          "examples": [
+            {
+              "claim_id": "c08195e23",
+              "claim": "Dealer says buyers wanting industrial-quality top cover hems should look at the 3000P.",
+              "quote": "if you want industrial-quality top cover hems",
+              "url": "https://www.bohofabrics.com/products/janome-coverpro-2000cpx-coverstitch-machine"
+            }
+          ],
+          "claimIds": [
+            "c08195e23"
+          ]
+        }
+      ]
+    },
+    {
+      "model": "900CPX",
+      "label": "Janome CoverPro 900CPX",
+      "rows": [
+        {
+          "feature": "Looper tension lever (TLC)",
+          "urls": 1,
+          "classes": [
+            "forum"
+          ],
+          "summary": "One PatternReview member says her 900CPX has the tension lever too. The dealer chart marks Tension Level Control for the 2000CPX only and gives the 900CPX 1 or 2 needles.",
+          "check": "conflict, unverified, one forum post",
+          "examples": [
+            {
+              "claim_id": "cf064c027",
+              "claim": "Forum member says her 900CPX has that tension lever too, which conflicts with the dealer chart.",
+              "quote": "My 900CPX has that tension lever on it too",
+              "url": "https://sewing.patternreview.com/SewingDiscussions/topic/116862"
+            }
+          ],
+          "claimIds": [
+            "cf064c027"
+          ]
+        },
+        {
+          "feature": "Dealer chart feature list",
+          "urls": 0,
+          "classes": [],
+          "summary": "The same dealer chart gives the 900CPX 1 or 2 needles, a 5 mm two-needle width, no three-needle width, no Tension Level Control and 18.7 lb, with the same 4 x 5.5 in bed and 1,000 spm.",
+          "check": "dealer chart, 2026-10-02; not a Janome document",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": [
+    {
+      "model": "Baby Lock coverstitch",
+      "claims": 7,
+      "sources": 5,
+      "favors": {
+        "this": 1,
+        "other": 6,
+        "mixed": 0
+      },
+      "dimensions": {
+        "this": [
+          {
+            "dimension": "price",
+            "n": 1
+          }
+        ],
+        "other": [
+          {
+            "dimension": "reliability",
+            "n": 3
+          },
+          {
+            "dimension": "overall",
+            "n": 2
+          },
+          {
+            "dimension": "ease of use",
+            "n": 1
+          }
+        ]
+      },
+      "examples": [
+        {
+          "claim_id": "ca166f3d8",
+          "dimension": "reliability",
+          "favors": "other",
+          "claim": "Commenter says the Baby Lock coverstitch she bought has been bulletproof.",
+          "quote": "been bullet proof",
+          "url": "https://sewing.patternreview.com/review/machine/6332"
+        },
+        {
+          "claim_id": "c6b568dbb",
+          "dimension": "price",
+          "favors": "this",
+          "claim": "Poster says price is the only reason to pick the Janome over the Baby Lock.",
+          "quote": "price was the only reason I would go for the Janome",
+          "url": "https://www.reddit.com/r/sewing/comments/1ks47n2/advice_for_cover_stitch/mtm3iz2/"
+        }
+      ],
+      "claimIds": [
+        "c6b568dbb",
+        "cf469c1db",
+        "cc102417e",
+        "c9df80620",
+        "c2fafbbe3",
+        "c6e6732e3",
+        "ca166f3d8"
+      ]
+    }
+  ]
+}

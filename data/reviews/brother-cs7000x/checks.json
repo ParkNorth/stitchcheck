@@ -1,6 +1,6 @@
 {
   "slug": "brother-cs7000x",
-  "generated": "2026-10-02T12:23:17.952Z",
+  "generated": "2026-10-03T02:42:36.536Z",
   "counts": {
     "error": 0,
     "warn": 2
@@ -23,13 +23,13 @@
     },
     {
       "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"Included feet\" but the spec's conflicts do not mention it"
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 55 voices (36 first-hand), 62 sources, status draft"
+      "message": "evidence moderate, 55 voices (36 first-hand), 62 sources, status approved"
     }
   ]
 }

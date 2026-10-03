@@ -42,6 +42,8 @@ Read first: `docs/00-foundations.md` (scope, money), `docs/02-ia-and-linking.md`
 22. **The research loop writes `data/specs/{slug}.json` and `docs/research/{slug}.md`; the editor writes `siteFields` in `products.ts`.** Run `npm run build:catalog` after any change under `data/specs/`. Reason: provenance stays separate from judgment.
 23. **Gates are gates.** `check:catalog`, `typecheck`, `lint`, `build` green before a PR. Reason: a red push costs a cycle.
 24. **Corrections ratchet.** When a review corrects a rule, fold it into this file in the same PR. Reason: the mistake cannot recur.
+25. **Every review opens with an "At a glance" overview, and a rollup is not done without its `summary`.** The lead is built from catalog data in `src/lib/glance.ts` (nulls left out, no owner claim without a rollup); the owner paragraph is the editor-written `summary` in `data/reviews/{slug}/editor.json`, compiled through the rollup. It leads with what owners said, states where we read it and how far back, says problems are over-represented where the `ownerNote` does. The same text feeds the schema `reviewBody`, never `AggregateRating`. Reason: the top of the page is what snippet extractors and LLMs read, and our owner evidence is the part nobody else has.
+26. **Every review FAQ answers a question people ask, and the question is on file.** Each model has `data/reviews/{slug}/paa.json` (People Also Ask from the SERP, question keywords from Ahrefs, the briefing's buyer questions), 6 to 9 rows marked `use`, each answered from our own evidence (rollup, maker document, spec) and nothing else. Dealer figures and soft sources are labelled as such and end in `[verify]`. Generic brand or category questions go to guides, not reviews. Reason: an FAQ written from our own idea of what to ask answers nobody, and an answer with no source is a spec we invented. The owner block also carries the counted Good / Not good split (`goodNotGood` in `src/lib/rollups.ts`), which shows statement counts, never a score and never `AggregateRating`.
 
 ## Tooling map
 
@@ -51,6 +53,16 @@ Read first: `docs/00-foundations.md` (scope, money), `docs/02-ia-and-linking.md`
 - Product images: `scripts/fetch-images.ts` (`npm run fetch:images`) fills `public/images/products/` and `src/lib/images-manifest.json` from `data/images.json`; process and rights in `docs/07-images.md`.
 - Open Graph cards: `scripts/build-og.ts` (`npm run build:og`) renders `public/og/*.png` and `src/lib/og-manifest.json`; re-run after adding a page or changing a title. Commit the PNGs; the deploy runner has no browser.
 - Favicons: `public/icon.svg` is the source (full-bleed tile, mark inside the centre circle, since Google crops to a circle); `scripts/build-icons.ts` (`npm run build:icons`) renders `favicon.ico`, `icon-192.png` and `apple-touch-icon.png`. Commit the output; the deploy runner has no browser.
-- Review collection and rollups: `.claude/skills/collect-reviews/SKILL.md`; scripts `reddit-collect.ts`, `reviews-fetch.ts`, `reviews-page.ts`, `reviews-claims.ts`, `reviews-rollup.ts` (`npm run collect:reddit`, `reviews:*`); data in `data/reviews/{slug}/`; approved rollups compile into `src/lib/rollup-data.ts` via `npm run build:catalog`, only with a human sign-off in `data/reviews/_plan.json`. Plan and status: `npm run reviews:plan -- status`; gates: `reviews:checks`; human read: `reviews:sheet`; unattended-run rules: `.claude/skills/collect-reviews/RUNBOOK.md`.
+- Review collection and rollups: `.claude/skills/collect-reviews/SKILL.md`; scripts `reddit-collect.ts`, `reviews-fetch.ts`, `reviews-page.ts`, `reviews-claims.ts`, `reviews-rollup.ts` (`npm run collect:reddit`, `reviews:*`); data in `data/reviews/{slug}/`; approved rollups compile into `src/lib/rollup-data.ts` via `npm run build:catalog`, only with a human sign-off in `data/reviews/_plan.json`. Plan and status: `npm run reviews:plan -- status`; page overview: `src/lib/glance.ts` and `src/components/ui/AtAGlance.tsx` (`summary` in `editor.json`); buyer questions: `paa.json` per model (SKILL.md step E; DataForSEO SERP for People Also Ask, Ahrefs question keywords; the SearchAPI MCP drops `related_questions`); gates: `reviews:checks`; human read: `reviews:sheet`; unattended-run rules: `.claude/skills/collect-reviews/RUNBOOK.md`.
 - Research template: `docs/research/_template.md`; JSON schema: `docs/research/_spec-json-schema.md`.
 - Keyword data: `docs/research/_keywords.md` (Ahrefs, re-pull monthly).
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

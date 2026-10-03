@@ -1,9 +1,9 @@
 {
   "slug": "janome-8002d",
-  "generated": "2026-10-02T05:10:27.326Z",
+  "generated": "2026-10-03T02:43:00.262Z",
   "counts": {
     "error": 0,
-    "warn": 5
+    "warn": 4
   },
   "items": [
     {
@@ -24,7 +24,7 @@
     {
       "level": "info",
       "id": "scope",
-      "message": "spec claims: 61, this 54, sibling 4, unclear 3"
+      "message": "spec claims: 74, this 67, sibling 4, unclear 3"
     },
     {
       "level": "info",
@@ -33,18 +33,13 @@
     },
     {
       "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"stitchTypes\" but the spec's conflicts do not mention it"
-    },
-    {
-      "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"includedFeet\" but the spec's conflicts do not mention it"
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 30 voices (25 first-hand), 18 sources, status draft"
+      "message": "evidence moderate, 34 voices (29 first-hand), 19 sources, status approved"
     }
   ]
 }

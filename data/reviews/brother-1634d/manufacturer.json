@@ -1,0 +1,309 @@
+{
+  "slug": "brother-1634d",
+  "collected": "2026-10-02",
+  "purpose": "First-party facts from Brother's 1634D product page, the family handbook, and the US and international serger warranty PDFs, compared against data/specs/brother-1634d.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "brother-page",
+      "url": "https://www.brother-usa.com/products/1634d",
+      "type": "product page",
+      "fetched": "2026-10-02",
+      "note": "Features, specifications, price"
+    },
+    {
+      "id": "brother-handbook",
+      "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf",
+      "type": "family handbook, 884-345",
+      "fetched": "2026-10-02",
+      "note": "Image-only PDF, OCR; names the 1634D only in the foot controller note (KD-1902); family values for speed, weight, needles, stitch width"
+    },
+    {
+      "id": "brother-warranty",
+      "url": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf",
+      "type": "Brother Limited Warranty (Serger), US",
+      "fetched": "2026-10-02",
+      "note": "Same PDF as the 1034D"
+    },
+    {
+      "id": "brother-intl-warranty",
+      "url": "https://assets.brother.com/asset/3e5bcfe0-2c88-4b35-8ec9-26698a105a4c/6020_International-Warranty-LAD-Final-serger-1-pdf.pdf",
+      "type": "International Warranty (Latin America and Caribbean)",
+      "fetched": "2026-10-02",
+      "note": "The PDF the product page links as its warranty; states 1 year"
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1,300 spm",
+      "source": "brother-page; brother-handbook spec page",
+      "vs_spec": "confirms",
+      "spec_value": 1300,
+      "site": {
+        "label": "Speed",
+        "juki": "1,300 stitches per minute on Brother's page and in the family handbook.",
+        "others": "Dealers and review blogs agree.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          },
+          {
+            "label": "Brother handbook",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "lighting",
+      "value": "Bulb (page Lighting Type); handbook names a replaceable lamp",
+      "source": "brother-page Basic Features",
+      "vs_spec": "adds",
+      "note": "Spec holds no lighting value. The 1034DX has LED; the 1634D page says bulb.",
+      "site": {
+        "label": "Work light",
+        "juki": "A bulb, per Brother's page. The 1034DX has an LED.",
+        "others": "No dealer figure collected.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          }
+        ]
+      }
+    },
+    {
+      "field": "threads",
+      "value": "3 or 4 thread, two needles; page spec '2/3/4 Thread Change: No' (no 2-thread stitch); handbook 'Three/Four threads convertible'",
+      "source": "brother-page Features and Serger table; brother-handbook spec page",
+      "vs_spec": "confirms",
+      "spec_value": "3 or 4 thread, 2 needles",
+      "site": {
+        "label": "Thread modes",
+        "juki": "3 or 4 thread with two needles. The page says no 2/3/4 thread change, so there is no 2-thread stitch.",
+        "others": "Retail copy says 3 or 4 thread.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          },
+          {
+            "label": "Brother handbook",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchWidthMm",
+      "value": "Page: overlock seam width 5.0 to 7.0 mm from the left needle. Handbook: 2.3 to 7 mm (two-needle), 3.0 to 3.5 mm (one-needle)",
+      "source": "brother-page Serger table; brother-handbook spec page",
+      "vs_spec": "confirms",
+      "spec_value": "5 to 7",
+      "note": "Spec 5 to 7 matches the 1634D page. The family handbook gives a wider range for two-needle models.",
+      "site": {
+        "label": "Stitch width",
+        "juki": "5.0 to 7.0 mm on the 1634D page. The family handbook lists 2.3 to 7 mm for two-needle models.",
+        "others": "A review blog says 5 to 7 mm.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          },
+          {
+            "label": "Brother handbook",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchLengthMm",
+      "value": "2 to 4 mm",
+      "source": "brother-handbook spec page",
+      "vs_spec": "adds",
+      "note": "Family handbook; the manual lists 1634D with the foot controller note."
+    },
+    {
+      "field": "presserFootLift",
+      "value": "5 to 6 mm (page also: adjustable presser foot pressure, Yes)",
+      "source": "brother-handbook spec page; brother-page Basic Features",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Spec holds null. The handbook is the family handbook, which names the 1634D only in the foot controller note.",
+      "site": {
+        "label": "Presser foot lift",
+        "juki": "5 to 6 mm per the family handbook. Brother's page lists adjustable presser foot pressure.",
+        "others": "No dealer figure collected.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother handbook",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          },
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          }
+        ]
+      }
+    },
+    {
+      "field": "needleSystem",
+      "value": "SCHMETZ 130/705H; set supplied is #80 (2) and #90 (2)",
+      "source": "brother-handbook spec page",
+      "vs_spec": "confirms",
+      "spec_value": "SCHMETZ 130/705H (standard household needle)",
+      "site": {
+        "label": "Needles",
+        "juki": "SCHMETZ 130/705H, with a set of two size 80 and two size 90 per the family handbook.",
+        "others": "A parts dealer lists the same system.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother handbook",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "includedFeet",
+      "value": "Standard foot, blindstitch foot, gathering foot; soft cover, instructional video and printed manual in the copy",
+      "source": "brother-page",
+      "vs_spec": "confirms",
+      "spec_value": "Standard foot, blind stitch foot, gathering foot; soft cover and instructional video",
+      "site": {
+        "label": "Feet in the box",
+        "juki": "Standard, blindstitch and gathering feet, plus a soft cover. Brother says 3 included accessory feet.",
+        "others": "Dealers list the same three feet.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          }
+        ]
+      }
+    },
+    {
+      "field": "weightLb",
+      "value": "Not on Brother's 1634D page. Family handbook: net 7.0 kg (15.4 lb)",
+      "source": "brother-handbook spec page",
+      "vs_spec": "contradicts",
+      "spec_value": 17.3,
+      "note": "Spec 17.3 lb comes from a review blog. The handbook is a family document (names 1634D only in the foot controller note); treat 15.4 lb as the family figure, not the 1634D's.",
+      "site": {
+        "label": "Weight",
+        "juki": "Brother's 1634D page gives none. The family handbook says 7.0 kg net (15.4 lb).",
+        "others": "A review blog says 17.3 lb, possibly shipping weight.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother handbook",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "Carton 15 x 13 x 14 in; machine dimensions not on Brother's page",
+      "source": "brother-page Dimensions",
+      "vs_spec": "adds",
+      "spec_value": "12.5 x 13.5 x 15",
+      "note": "Brother lists only a carton size. The blog machine size has no stated axis order."
+    },
+    {
+      "field": "threadingSystem",
+      "value": "Brother: 'color-coded lay-in threading'; Main Features: color-coded guides, fast lower loop threading",
+      "source": "brother-page",
+      "vs_spec": "confirms",
+      "spec_value": "Color-coded lay-in threading (Brother page)",
+      "note": "One PatternReview owner says the 1634D lacks the color coding of the 1034D. Listed, not resolved.",
+      "site": {
+        "label": "Color-coded threading",
+        "juki": "Brother's page says color-coded lay-in guides.",
+        "others": "A PatternReview owner says the 1634D lacks the 1034D's color coding.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          },
+          {
+            "label": "PatternReview review",
+            "url": "https://sewing.patternreview.com/review/machine/6163"
+          }
+        ]
+      }
+    },
+    {
+      "field": "cutting",
+      "value": "Retractable knife blade, lower-drive knife, 1 stitch finger, removable trim trap, removable free arm",
+      "source": "brother-page",
+      "vs_spec": "adds",
+      "note": "One stitch finger matches the 1034D page; the PatternReview owner says the 1634D has two where the 1034D has one."
+    },
+    {
+      "field": "stitchCount",
+      "value": "Brother lists stitch types, no count",
+      "source": "brother-page",
+      "vs_spec": "adds",
+      "spec_value": 22,
+      "note": "Spec 22 is a blog figure; Brother publishes no count."
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Page label '1/5/25 Year Limited Serger Warranty' but the link is the International (Latin America and Caribbean) PDF, which states 1 year. The US Brother Limited Warranty (Serger) PDF states 1 year parts, labor and accessories, 5 years electronics (labor excluded), 25 years chassis casting",
+      "source": "brother-page; brother-warranty; brother-intl-warranty",
+      "vs_spec": "contradicts",
+      "spec_value": "25-year limited (Brother)",
+      "note": "Spec says 25-year limited. That term is the chassis casting only. The page links the international PDF; the US PDF carries the 1/5/25 terms.",
+      "site": {
+        "label": "Warranty",
+        "juki": "1 year parts, labor and accessories; 5 years electronic components; 25 years chassis casting (US PDF). The page's own link goes to an international PDF that says 1 year.",
+        "others": "A review blog says 25-year limited.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          },
+          {
+            "label": "Brother US serger warranty",
+            "url": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf"
+          },
+          {
+            "label": "Brother international warranty",
+            "url": "https://assets.brother.com/asset/3e5bcfe0-2c88-4b35-8ec9-26698a105a4c/6020_International-Warranty-LAD-Final-serger-1-pdf.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "USD 299.99 on brother-usa.com 2026-10-02",
+      "source": "brother-page",
+      "vs_spec": "adds",
+      "note": "Brother's 1034D page showed 319.99 on 2026-10-01, so the 1634D is listed $20 under it. Price band only; not a spec.",
+      "site": {
+        "label": "Price",
+        "juki": "$299.99 at Brother USA on 2026-10-02. The 1034D was $319.99 there on 2026-10-01.",
+        "others": "A 2019 forum post puts it at $154 at Walmart, stale.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          }
+        ]
+      }
+    }
+  ]
+}

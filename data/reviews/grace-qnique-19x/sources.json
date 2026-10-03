@@ -1,0 +1,462 @@
+[
+  {
+    "id": "reddit:1q0q5io",
+    "url": "https://www.reddit.com/r/quilting/comments/1q0q5io/yalllll_i_finally_did_it/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Y'alllll, I finally did it!",
+    "subreddit": "quilting",
+    "thread_id": "1q0q5io",
+    "first_seen": "2026-10-03T02:38:14.012Z",
+    "last_fetched": "2026-10-03T02:38:14.012Z",
+    "status": "ok",
+    "cursor_utc": 1767387043,
+    "discovered_by": [
+      "all:Grace Q'nique 19X",
+      "r/quilting:Grace Q'nique 19X",
+      "all:Qnique 19X",
+      "r/quilting:Qnique 19X",
+      "all:Grace 19X longarm",
+      "r/quilting:Grace 19X longarm",
+      "all:Grace 19X Elite",
+      "r/quilting:Grace 19X Elite",
+      "all:Qnique 19X review",
+      "r/quilting:Qnique 19X review",
+      "r/quilting:Qnique 19X problems",
+      "all:Grace Qnique longarm",
+      "r/quilting:Grace Qnique longarm"
+    ],
+    "content_hash": "64ba19f4e583c8d5"
+  },
+  {
+    "id": "reddit:1enjar8",
+    "url": "https://www.reddit.com/r/quilting/comments/1enjar8/sit_down_machines/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Sit Down Machines",
+    "subreddit": "quilting",
+    "thread_id": "1enjar8",
+    "first_seen": "2026-10-03T02:38:14.012Z",
+    "last_fetched": "2026-10-03T02:38:14.012Z",
+    "status": "ok",
+    "cursor_utc": 1723300539,
+    "discovered_by": [
+      "all:Grace Q'nique 19X",
+      "r/quilting:Grace Q'nique 19X",
+      "r/quilting:Grace 19X longarm",
+      "r/quilting:Grace 19X Elite",
+      "all:Grace Qnique longarm",
+      "r/quilting:Grace Qnique longarm"
+    ],
+    "content_hash": "30f592347b1f0606"
+  },
+  {
+    "id": "reddit:1cq8bmx",
+    "url": "https://www.reddit.com/r/quilting/comments/1cq8bmx/pinwheel_finished/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Pinwheel, finished!",
+    "subreddit": "quilting",
+    "thread_id": "1cq8bmx",
+    "first_seen": "2026-10-03T02:38:14.012Z",
+    "last_fetched": "2026-10-03T02:38:14.012Z",
+    "status": "ok",
+    "cursor_utc": 1715683466,
+    "discovered_by": [
+      "all:Grace Q'nique 19X",
+      "r/quilting:Grace Q'nique 19X",
+      "all:Grace Qnique longarm",
+      "r/quilting:Grace Qnique longarm"
+    ],
+    "content_hash": "9e6081995cefd9e1"
+  },
+  {
+    "id": "reddit:16w9b4z",
+    "url": "https://www.reddit.com/r/quilting/comments/16w9b4z/machine_recommendations/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Machine recommendations",
+    "subreddit": "quilting",
+    "thread_id": "16w9b4z",
+    "first_seen": "2026-10-03T02:38:14.012Z",
+    "last_fetched": "2026-10-03T02:38:14.012Z",
+    "status": "ok",
+    "cursor_utc": 1696104699,
+    "discovered_by": [
+      "all:Grace Q'nique 19X",
+      "r/quilting:Grace Q'nique 19X",
+      "all:Qnique 19X",
+      "r/quilting:Qnique 19X",
+      "all:Qnique 19X review",
+      "r/quilting:Qnique 19X review",
+      "r/quilting:Qnique 19X problems"
+    ],
+    "content_hash": "40d2327beea84c04"
+  },
+  {
+    "id": "web:9695c189320c4318",
+    "url": "https://www.sewingmachinesplus.com/16034.php",
+    "class": "retailer",
+    "title": "www.sewingmachinesplus.com product reviews",
+    "first_seen": "2026-10-03T02:41:45.756Z",
+    "discovered_by": [
+      "user-supplied"
+    ],
+    "method": "http-judgeme",
+    "last_fetched": "2026-10-03T02:41:45.756Z",
+    "status": "thin",
+    "site_rating": null,
+    "site_review_count": 0,
+    "content_hash": "4f53cda18c2baa0c"
+  },
+  {
+    "id": "reddit:11zrafl",
+    "url": "https://www.reddit.com/r/quilting/comments/11zrafl/handi_quilter_vs_qnique/",
+    "class": "reddit",
+    "method": "reddit-api",
+    "title": "Handi quilter vs Q\u2019nique?",
+    "subreddit": "quilting",
+    "thread_id": "11zrafl",
+    "first_seen": "2026-10-03T02:42:42.363Z",
+    "last_fetched": "2026-10-03T02:42:42.363Z",
+    "status": "ok",
+    "cursor_utc": 1679820923,
+    "discovered_by": [
+      "manual-thread"
+    ],
+    "content_hash": "289c52cdbfc91f37"
+  },
+  {
+    "id": "web:e873b604e02f7acd",
+    "url": "https://www.quiltingboard.com/main-f1/qnique-19-long-arm-machine-t310290.html",
+    "class": "forum",
+    "method": "http-page",
+    "title": "qnique 19 long arm machine - Quiltingboard Forums",
+    "first_seen": "2026-10-03T02:42:44.784Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:42:44.784Z",
+    "content_hash": "73315f700eefb1bf",
+    "chars": 4552,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:73781ed69d0e3af9",
+    "url": "https://www.quiltingboard.com/main-f1/help-advice-longarm-machine-t321795.html",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Help - advice on which longarm machine - Quiltingboard Forums",
+    "first_seen": "2026-10-03T02:42:45.829Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:42:45.829Z",
+    "content_hash": "0448aa391020a3d9",
+    "chars": 16960,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:67b6d2ef80949737",
+    "url": "https://www.quiltingboard.com/main-f1/having-problems-stitch-regulator-thread-cutter-t298173.html",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Having problems with stitch regulator and thread cutter - Quiltingboard Forums",
+    "first_seen": "2026-10-03T02:42:46.882Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:42:46.882Z",
+    "content_hash": "49a7c9ad4b4d8bd0",
+    "chars": 7778,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:3df17ff2fe0484b4",
+    "url": "https://www.quiltingboard.com/main-f1/qnique-quilting-machine-t291385.html",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Q'nique Quilting machine - Quiltingboard Forums",
+    "first_seen": "2026-10-03T02:42:47.921Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:42:47.921Z",
+    "content_hash": "626ebcef8e8af98b",
+    "chars": 7474,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:9a0c85e6cfe8554f",
+    "url": "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "Troubleshoot Tension Issues on a Grace Qnique longarm",
+    "first_seen": "2026-10-03T02:42:49.002Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:42:49.002Z",
+    "content_hash": "eb9129df090250e7",
+    "chars": 16931,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:6a879cc860a2ed9f",
+    "url": "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "How Does the Grace Qnique 19 Compare with the Qnique 15R and 15PRO? &ndash; LeahDay.com",
+    "first_seen": "2026-10-03T02:42:51.068Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:42:51.068Z",
+    "content_hash": "d237d5e0d4d2cdda",
+    "chars": 5894,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:7dd6afd8531642b6",
+    "url": "https://stitchmachineledger.com/comparisons/grace-qnique-vs-handi-quilter",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "Grace Q\u2019nique vs Handi Quilter | Stitch Machine Ledger",
+    "first_seen": "2026-10-03T02:42:52.194Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:42:52.194Z",
+    "content_hash": "9030c79fcedeafe2",
+    "chars": 18937,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:3d3c3f022008e513",
+    "url": "https://cottagequiltingonline.com/pages/qnique-elite-longarm-comparison-guide",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "Q'nique Elite Longarm Machine Comparison: Q16X vs Q19X vs Q21X | Cottage Quilting",
+    "first_seen": "2026-10-03T02:42:53.274Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:42:53.274Z",
+    "content_hash": "a8562167e30b1521",
+    "chars": 4423,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:2be7560d6012e0f0",
+    "url": "https://graceframe.com/en/resources/blog/graceframe-faq-top-10-q-nique-frequently-asked-questions",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "Q\u2019nique Quilting Machine Buying Guide - GraceFrame",
+    "first_seen": "2026-10-03T02:42:54.598Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:42:54.598Z",
+    "content_hash": "95bac4be0ecb2549",
+    "chars": 7071,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:32cc133d0943ec94",
+    "url": "https://quiltingroomwithmel.com/long-arm-quilting-machines",
+    "class": "editorial",
+    "method": "http-page",
+    "title": "Discover the Power of Long Arm Quilting Machines!",
+    "first_seen": "2026-10-03T02:42:55.758Z",
+    "discovered_by": [
+      "comparison-search:comparison"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:42:55.758Z",
+    "content_hash": "b14429516885efb8",
+    "chars": 22368,
+    "page_kind": "comparison"
+  },
+  {
+    "id": "web:b788cdca9d039455",
+    "url": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/76114-grace-q-nique-long-arm",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Grace Q'nique Long Arm - The Quilting Forum - Missouri Star's Quilt Community",
+    "first_seen": "2026-10-03T02:43:28.081Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:43:28.081Z",
+    "content_hash": "3020562a31e4564f",
+    "chars": 13842,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:c0a78685d248e564",
+    "url": "https://www.quiltingboard.com/main-f1/need-reviews-qnique-21-setup-t306732.html",
+    "class": "forum",
+    "method": "http-page",
+    "title": "Need Reviews on Q'nique 21 setup - Quiltingboard Forums",
+    "first_seen": "2026-10-03T02:43:28.874Z",
+    "discovered_by": [
+      "comparison-search:review"
+    ],
+    "status": "ok",
+    "last_fetched": "2026-10-03T02:43:28.874Z",
+    "content_hash": "af52e6018c9a923a",
+    "chars": 4962,
+    "page_kind": "review"
+  },
+  {
+    "id": "web:35873e157a154039",
+    "url": "https://www.facebook.com/groups/quiltingwithgrace/posts/28298262246486643",
+    "class": "forum",
+    "method": "firecrawl",
+    "title": "Looking to read reviews on the q'nique 19x machine (Quilting with Grace Facebook group)",
+    "first_seen": "2026-10-03T02:43:38.258Z",
+    "last_fetched": null,
+    "status": "blocked",
+    "content_hash": null,
+    "discovered_by": [
+      "Qnique 19x owner review problems"
+    ]
+  },
+  {
+    "id": "web:a3fc75f587195657",
+    "url": "https://www.facebook.com/groups/quiltingwithgrace/posts/24720833084229595",
+    "class": "forum",
+    "method": "firecrawl",
+    "title": "What are solutions for Q'nique 19x Elite quilting issues? (Facebook group)",
+    "first_seen": "2026-10-03T02:43:38.258Z",
+    "last_fetched": null,
+    "status": "blocked",
+    "content_hash": null,
+    "discovered_by": [
+      "Qnique 19x owner review problems"
+    ]
+  },
+  {
+    "id": "web:54caa55527f8c729",
+    "url": "https://www.facebook.com/groups/quiltingwithgrace/posts/25123891810590385",
+    "class": "forum",
+    "method": "firecrawl",
+    "title": "Q'nique 21X elite vs Amara 20 (Facebook group)",
+    "first_seen": "2026-10-03T02:43:38.258Z",
+    "last_fetched": null,
+    "status": "blocked",
+    "content_hash": null,
+    "discovered_by": [
+      "Qnique 19x owner review problems"
+    ]
+  },
+  {
+    "id": "web:f64616e5990422dd",
+    "url": "https://www.youtube.com/watch?v=bDgIo8IF0O4",
+    "class": "youtube",
+    "method": "firecrawl",
+    "title": "Grace Qnique 19x Longarm Quilting Machine Feature Overview (Ken's Sewing Center)",
+    "first_seen": "2026-10-03T02:43:38.258Z",
+    "last_fetched": null,
+    "status": "ok",
+    "content_hash": null,
+    "discovered_by": [
+      "Qnique 19x owner review problems"
+    ],
+    "note": "title, channel and URL only; comments and transcripts out of scope"
+  },
+  {
+    "id": "web:22152fd31024f6a7",
+    "url": "https://www.youtube.com/watch?v=ZAkgPCEXWR0",
+    "class": "youtube",
+    "method": "firecrawl",
+    "title": "Quilting live on my Q'nique 19X Elite",
+    "first_seen": "2026-10-03T02:43:38.258Z",
+    "last_fetched": null,
+    "status": "ok",
+    "content_hash": null,
+    "discovered_by": [
+      "Qnique 19x owner review problems"
+    ],
+    "note": "title, channel and URL only; comments and transcripts out of scope"
+  },
+  {
+    "id": "web:0c1b4a6dd550fbbb",
+    "url": "https://www.moores-sew.com/shop/grace-qnique-19x-quilting-machine",
+    "class": "retailer",
+    "method": "firecrawl",
+    "title": "Grace Q'nique 19X Quilting Machine, Moore's Sewing",
+    "first_seen": "2026-10-03T02:43:38.258Z",
+    "last_fetched": null,
+    "status": "thin",
+    "content_hash": null,
+    "discovered_by": [
+      "Qnique 19x owner review problems"
+    ],
+    "note": "product page fetched 2026-10-02; 0 reviews"
+  },
+  {
+    "id": "web:9563894764e4f2a8",
+    "url": "https://topsvacuumandsewing.com/grace-qnique-19-x-longarm-quilting-machine",
+    "class": "retailer",
+    "method": "firecrawl",
+    "title": "Grace Q'nique 19 X Longarm Quilting Machine, Tops Vacuum and Sewing",
+    "first_seen": "2026-10-03T02:43:38.258Z",
+    "last_fetched": null,
+    "status": "thin",
+    "content_hash": null,
+    "discovered_by": [
+      "Qnique 19x owner review problems"
+    ],
+    "note": "product page fetched 2026-10-02; 0 reviews"
+  },
+  {
+    "id": "web:272d3c29764c4e04",
+    "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine",
+    "class": "retailer",
+    "method": "firecrawl",
+    "title": "Recertified Grace 19X Quilting Machine, Grace Company (maker; no reviews yet)",
+    "first_seen": "2026-10-03T02:43:38.258Z",
+    "last_fetched": null,
+    "status": "thin",
+    "content_hash": null,
+    "discovered_by": [
+      "Qnique 19x owner review problems"
+    ],
+    "note": "product page fetched 2026-10-02; 0 reviews"
+  },
+  {
+    "id": "web:0222597b3f9804fc",
+    "url": "https://www.sewingpartsonline.com/products/qnique-19x-longarm-quilting-machine-grace-company",
+    "class": "retailer",
+    "title": "Sewing Parts Online, Q'nique 19X Longarm Quilting Machine, Grace Company (Loox reviews)",
+    "first_seen": "2026-10-03T03:06:08.457Z",
+    "discovered_by": [
+      "web-search"
+    ],
+    "method": "http-loox",
+    "last_fetched": "2026-10-03T03:06:08.457Z",
+    "status": "ok",
+    "site_rating": 5.0,
+    "site_review_count": 3,
+    "site_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 3
+    },
+    "sampled": "all 3 reviews (loox.io widget for Shopify product 8714215293215), no sampling",
+    "listing_note": "Page title and SKU 19X (base Q'nique 19X, not Elite); schema AggregateRating 5.0 from 3 and Loox widget agree. Product copy on the page mentions the Q'nique 16X in one paragraph (dealer copy-paste), so the 3 reviews are the dealer's own and none names a model. Review dates Oct and Nov 2023. Listing shows out of stock."
+  }
+]

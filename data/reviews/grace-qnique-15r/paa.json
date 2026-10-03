@@ -1,0 +1,251 @@
+{
+  "slug": "grace-qnique-15r",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "grace qnique 15r",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search drops related_questions, so DataForSEO is the PAA source. Only 9 PAA questions came back and most are about Grace frames or the brand."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "grace qnique 15r",
+        "qnique 15r",
+        "q'nique 15r"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Every question keyword is volume 0 (too small to estimate); the head terms run 20 to 40 a month."
+    },
+    "briefing": "data/specs/grace-qnique-15r.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "What are people saying about the Qnique quilting machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Grace Q'nique 15R?",
+      "answeredFrom": "rollup.json themes and summary"
+    },
+    {
+      "q": "What is the difference between the Q'nique 15R and the Q'nique 14+?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Grace Q'nique 15R the same as the Q'nique 14+?",
+      "answeredFrom": "rollup.json notes and Leah Day review (items.jsonl, sources.json); data/specs naming note",
+      "volume": 0
+    },
+    {
+      "q": "Is the Grace Q'nique 15R discontinued?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Grace Q'nique 15R discontinued?",
+      "answeredFrom": "manufacturer.json fact 'status' (Grace 15R page)"
+    },
+    {
+      "q": "What is the difference between the Q'nique 15R, 15M and 15 PRO?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Q'nique 15R, 15M and 15 PRO?",
+      "answeredFrom": "rollup.json siblingSummaries and siblingExtras; manufacturer.json fact 'siblings15'",
+      "volume": 0,
+      "volumeKeyword": "qnique 15r pro"
+    },
+    {
+      "q": "Does the Q'nique 15R have a stitch regulator?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Q'nique 15R have a stitch regulator?",
+      "answeredFrom": "manufacturer.json fact 'stitchRegulation' (manual p27 to p29)"
+    },
+    {
+      "q": "How much does the Q'nique 15R cost?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Q'nique 15R cost?",
+      "answeredFrom": "manufacturer.json fact 'msrp'; data/specs priceUsdSeen with date",
+      "volume": 0,
+      "volumeKeyword": "qnique 15r for sale"
+    },
+    {
+      "q": "What needle does the Q'nique 15R use?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What needle does the Q'nique 15R use?",
+      "answeredFrom": "manufacturer.json fact 'needleSystem' (manual does not state it; dealer 15 Pro page lists 135x5)"
+    },
+    {
+      "q": "What is the warranty on the Q'nique 15R?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What is the warranty on the Grace Q'nique 15R?",
+      "answeredFrom": "manufacturer.json fact 'warrantyUs' (Grace machine and warranty pages)"
+    },
+    {
+      "q": "What is the difference between the Q'nique 15R and the Q'nique 19X?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "How does the Q'nique 15R compare with the Q'nique 19 and 19X?",
+      "answeredFrom": "rollup.json siblingSummaries (Q'nique 19), one reviewer, 19X page not fetched"
+    },
+    {
+      "q": "What is the best quilting machine for home quilters in 2026?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "Who makes Grace sewing machines?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; belongs on the Grace brand hub."
+    },
+    {
+      "q": "Is Grace Company legit?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; belongs on the Grace brand hub."
+    },
+    {
+      "q": "What are people saying about the Grace Cutie quilting frame?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "About a frame we do not review."
+    },
+    {
+      "q": "What is the difference between the Cutie Frame and the Cutie Breeze quilting frame?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Frame question; no evidence in this ledger."
+    },
+    {
+      "q": "What size table do you need for the Cutie Breeze frame?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Frame question; no evidence in this ledger."
+    },
+    {
+      "q": "Which brand makes the best hand quilting frames?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model."
+    },
+    {
+      "q": "How to use a Grace quilting frame?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Frame how-to; not about this model."
+    },
+    {
+      "q": "Where to try out a Q'nique 15R?",
+      "sources": [
+        "ahrefs"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "No dealer or demo evidence in this ledger; Grace's dealer locator is the answer.",
+      "volume": 0
+    },
+    {
+      "q": "What is the take up lever on a Q'nique 15R?",
+      "sources": [
+        "ahrefs"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Manual diagram only; not enough evidence for a sourced answer.",
+      "volume": 0
+    },
+    {
+      "q": "What is the upper tensioner on a Qnique 15R?",
+      "sources": [
+        "ahrefs"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Manual diagram only; tension answer is covered by the owners question.",
+      "volume": 0
+    },
+    {
+      "q": "What foot comes with a Qnique 15R?",
+      "sources": [
+        "ahrefs"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Manual kit list names no presser foot; not enough evidence for a sourced answer.",
+      "volume": 0
+    },
+    {
+      "q": "Best thread for a Qnique 15R",
+      "sources": [
+        "ahrefs"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Owner opinions conflict by thread; covered by the owners question.",
+      "volume": 0
+    }
+  ]
+}

@@ -1,20 +1,20 @@
 {
   "slug": "brother-2340cv",
-  "generated": "2026-10-02T11:58:43.184Z",
+  "generated": "2026-10-03T02:42:36.235Z",
   "counts": {
     "error": 0,
-    "warn": 6
+    "warn": 3
   },
   "items": [
     {
       "level": "info",
       "id": "pooled-listing",
-      "message": "sewingmachinesplus.com: of 40 sampled reviews, 2 name this model, 0 name a sibling only, 38 name neither"
+      "message": "sewingmachinesplus.com: of 40 sampled reviews, 0 name this model, 0 name a sibling only, 40 name neither"
     },
     {
       "level": "warn",
       "id": "pooled-listing",
-      "message": "sewingmachinesplus.com: only 2 of 40 reviews name this model while siblings exist; confirm the listing is not pooled"
+      "message": "sewingmachinesplus.com: only 0 of 40 reviews name this model while siblings exist; confirm the listing is not pooled"
     },
     {
       "level": "warn",
@@ -33,28 +33,13 @@
     },
     {
       "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"weightLb\" but the spec's conflicts do not mention it"
-    },
-    {
-      "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"frame\" but the spec's conflicts do not mention it"
-    },
-    {
-      "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"includedFeet\" but the spec's conflicts do not mention it"
-    },
-    {
-      "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 46 voices (38 first-hand), 24 sources, status draft"
+      "message": "evidence moderate, 46 voices (38 first-hand), 24 sources, status approved"
     }
   ]
 }

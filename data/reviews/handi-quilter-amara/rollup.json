@@ -1,0 +1,1203 @@
+{
+  "slug": "handi-quilter-amara",
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy (instructed 2026-10-02, via Claude; human review after live)",
+  "reviewedOn": "2026-10-02",
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 17,
+    "itemsCollected": 86,
+    "statements": 44,
+    "voices": 14,
+    "ownerVoices": 11,
+    "dateRange": [
+      2018,
+      2026
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 7,
+        "items": 68
+      },
+      "forum": {
+        "sources": 4,
+        "items": 4
+      },
+      "editorial": {
+        "sources": 5,
+        "items": 5
+      },
+      "retailer": {
+        "sources": 1,
+        "items": 5
+      }
+    },
+    "blocked": 6,
+    "evidence": "moderate",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "This is a thin evidence base. Most Reddit and forum threads are general longarm buying threads where only a few commenters own an Amara 20, and many owner posts live in Facebook groups, which could not be read.",
+    "The String & Story review is by a Moxie owner whose Amara is on loan from Handi Quilter under a content agreement, and the Craftyolo page carries affiliate links and gets the included frame wrong against Handi Quilter's own page. Both are counted as buyer or editorial signal, not as independent owner evidence.",
+    "Amazon has no listing for the Amara 20 (the Amara ST listing has no rating), so there is no Amazon rating here. The Sewing Machines Plus page shows 5 reviews, the oldest from 2018, so it is not a current gauge.",
+    "Several forum comments say only 'HQ' or 'Handi Quilter' with no model; those are labelled as unclear scope and are not credited to the Amara 20."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "summary": "Owners and buyers of the Handi Quilter Amara 20 who are happy with it say that once tension is set they are good to go, that free motion and ruler work both feel easy, and that upkeep is a drop of oil on the hook and keeping the rails clean. The complaints are about tension that drifts or needs constant adjustment, a regulator and top speed that some quilters say they outgrew, usable space well under the 20 inch throat once a quilt is on the frame, a head one reviewer calls heavy, and uneven dealer support, which was the most repeated problem. This read covers 7 Reddit threads, 4 forum threads, 1 retailer page and 5 blog or maker pages from 2018 to 2026, a small sample that leans on a handful of owners. Reddit threads lean toward people asking for help, so problems are over-represented here.",
+  "themes": [
+    {
+      "theme": "build_quality",
+      "label": "Build quality",
+      "statements": 6,
+      "voices": 5,
+      "ownerVoices": 5,
+      "sources": 4,
+      "sourceClasses": [
+        "editorial",
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 2,
+        "editorial": 1,
+        "retailer": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 2,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2019,
+        2023
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cacf7984a",
+          "polarity": "negative",
+          "claim": "Owner prefers APQS solid frames to the Handi Quilter frame, which she describes as pinned together.",
+          "quote": "as opposed to HQ's pinned together frame",
+          "url": "https://www.reddit.com/r/quilting/comments/la4q1q/advice_for_aspiring_long_armer/glm0y0s/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c7be409d7",
+          "polarity": "negative",
+          "claim": "Compares the HQ frame to APQS, calling the HQ frame pieced rather than solid.",
+          "quote": "as opposed to the HQ frame, which is pieced",
+          "url": "https://www.reddit.com/r/quilting/comments/d00sxs/2019_longarmmidarm_review_thread/ez53m5y/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cbd08bb84",
+          "polarity": "positive",
+          "claim": "New longarm quilter says the machine runs very smoothly on the tracks.",
+          "quote": "runs very smoothly on the tracks",
+          "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "c442e4260",
+          "polarity": "mixed",
+          "claim": "Reviewer says the Studio3 frame has many little screws and recommends dealer assembly.",
+          "quote": "there are a lot of little screws on this thing",
+          "url": "https://www.stringandstory.com/blog/hqamara",
+          "source_class": "editorial"
+        }
+      ],
+      "claimIds": [
+        "cacf7984a",
+        "c7be409d7",
+        "ce2b80f5c",
+        "c442e4260",
+        "c89dfa670",
+        "cbd08bb84"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 5,
+      "voices": 5,
+      "ownerVoices": 4,
+      "sources": 5,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 2,
+        "editorial": 1,
+        "forum": 1,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2019,
+        2021
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "ce1afd4fd",
+          "polarity": "negative",
+          "claim": "Owner describes poor after-sale support from the dealer she bought her Amara from.",
+          "quote": "support after the purchase was terrible",
+          "url": "https://www.reddit.com/r/quilting/comments/la4q1q/advice_for_aspiring_long_armer/glm0y0s/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c7de6bf3a",
+          "polarity": "negative",
+          "claim": "Owner found the dealer she bought from unresponsive and difficult, and notes the dealer is often the service person.",
+          "quote": "They are unresponsive, and very difficult to work with.",
+          "url": "https://www.reddit.com/r/quilting/comments/d00sxs/2019_longarmmidarm_review_thread/ez4y785/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "ca950fe8f",
+          "polarity": "positive",
+          "claim": "Owner praises Handi Quilter customer service and its help line.",
+          "quote": "They have excellent customer service",
+          "url": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/2120292-longarm-recommendation",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "ce1afd4fd",
+        "c7de6bf3a",
+        "cea1ee9cb",
+        "ca950fe8f",
+        "ca33b7d56"
+      ]
+    },
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 3,
+      "sources": 4,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "editorial": 1,
+        "forum": 2
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 2,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2021
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c4305e016",
+          "polarity": "positive",
+          "claim": "Reviewer finds 20 inches a good fit for hand guided quilting.",
+          "quote": "throat is perfect for hand guided quilting",
+          "url": "https://www.stringandstory.com/blog/hqamara",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "c7cca49e4",
+          "polarity": "mixed",
+          "claim": "A 20 inch Amara owner finds 20 inches about the limit her arms can reach for free motion.",
+          "quote": "the 20” workspace is about the limit of what my arms can reach",
+          "url": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/2120292-longarm-recommendation",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "cd8689f79",
+          "polarity": "mixed",
+          "claim": "An Amara owner puts usable quilting space at 15 to 18 inches of the 20 inch throat and finds it limiting.",
+          "quote": "The Amara is 20 inches (15-18 inches of usable space) and can be limiting.",
+          "url": "https://www.reddit.com/r/quilting/comments/la4q1q/advice_for_aspiring_long_armer/glm0y0s/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cd8689f79",
+        "c4305e016",
+        "c7cca49e4",
+        "c458aae33"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 4,
+      "sourceClasses": [
+        "forum",
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 2,
+        "forum": 1,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2019,
+        2021
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c74b133d4",
+          "polarity": "negative",
+          "claim": "A two star reviewer received the machine with a carriage wheel missing.",
+          "quote": "a wheel on the carriage was missing",
+          "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+          "source_class": "retailer"
+        },
+        {
+          "claim_id": "cf65617ea",
+          "polarity": "negative",
+          "claim": "After two years the owner would not buy the Amara again and would prefer a different brand, though she calls it a nice machine that gets the job done.",
+          "quote": "I would MUCH prefer a different brand",
+          "url": "https://www.reddit.com/r/quilting/comments/d00sxs/2019_longarmmidarm_review_thread/ez4y785/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cf6669036",
+          "polarity": "positive",
+          "claim": "A 20 inch Amara owner with Pro-Stitcher, who also rented one for two years, reports very little trouble.",
+          "quote": "have had very little issues even learning how to use the ProStitcher",
+          "url": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/2120292-longarm-recommendation",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "cee052e04",
+        "cf65617ea",
+        "cf6669036",
+        "c74b133d4"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 4,
+      "voices": 4,
+      "ownerVoices": 3,
+      "sources": 4,
+      "sourceClasses": [
+        "forum",
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "forum": 2,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2021,
+        2023
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c45f8d5d2",
+          "polarity": "positive",
+          "claim": "Owner finds routine upkeep simple: keep rails and wheels free of lint and oil the bobbin case.",
+          "quote": "basically keep the rails and wheels free of dust and lint",
+          "url": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/2120292-longarm-recommendation",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "c22603f02",
+          "polarity": "positive",
+          "claim": "Retailer reviewer oils only the hook with a drop of machine oil before loading a quilt.",
+          "quote": "Just a drop of machine oil on the hook before I load a quilt",
+          "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c98f22fb7",
+        "c196164b7",
+        "c45f8d5d2",
+        "c22603f02"
+      ]
+    },
+    {
+      "theme": "feet_accessories",
+      "label": "Feet and accessories",
+      "statements": 6,
+      "voices": 4,
+      "ownerVoices": 3,
+      "sources": 4,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "editorial": 2,
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 1,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "ca6d82649",
+          "polarity": "positive",
+          "claim": "The back shelf is an add on for the Moxie but comes with the Studio3 frame.",
+          "quote": "it comes with the Studio3 Frame",
+          "url": "https://www.stringandstory.com/blog/hqamara",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "c1b28fa62",
+          "polarity": "positive",
+          "claim": "Owner of both a Sweet 16 and an Amara says feet and bobbins are shared across the two.",
+          "quote": "I can use the same specialty feet, bobbins and they thread the same way",
+          "url": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/2120292-longarm-recommendation",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "ca6856c50",
+          "polarity": "mixed",
+          "claim": "Amara 20 owner paid extra for rear handlebars to run pantographs and thinks it was worth it.",
+          "quote": "it was an extra add-on cost for me but worth it at the time",
+          "url": "https://www.reddit.com/r/quilting/comments/1egr9qb/long_arm_purchase_advice_needed/lfu6zd1/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ca6856c50",
+        "c1ec9b8f1",
+        "ca6d82649",
+        "c11696866",
+        "c321f4281",
+        "c1b28fa62"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 5,
+      "voices": 4,
+      "ownerVoices": 4,
+      "sources": 4,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "editorial": 1,
+        "forum": 1,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 1,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2019,
+        2023
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c24522f53",
+          "polarity": "negative",
+          "claim": "Amara owner calls tension extremely finicky.",
+          "quote": "Tension is extremely finicky.",
+          "url": "https://www.reddit.com/r/quilting/comments/d00sxs/2019_longarmmidarm_review_thread/ez4y785/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cdc1c2bb8",
+          "polarity": "positive",
+          "claim": "Amara owner of seven months says that once tension is set she is good to go.",
+          "quote": "Once you set your tension, you’re good to go",
+          "url": "https://sewing.patternreview.com/SewingDiscussions/topic/127484",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "c321d766e",
+          "polarity": "positive",
+          "claim": "Reviewer says top tension is set with a manual knob on the side, with an on-screen number as a reference.",
+          "quote": "is adjusted with a manual knob on the side of the machine",
+          "url": "https://www.stringandstory.com/blog/hqamara",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "c891a68a0",
+          "polarity": "mixed",
+          "claim": "Reviewer says adjusting tensions for bobbin, top thread and fabric is a bit of a learning curve.",
+          "quote": "tensions on the bobbin, machine thread, and fabric is a bit of a learning curve",
+          "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "c24522f53",
+        "c1127b218",
+        "c321d766e",
+        "cdc1c2bb8",
+        "c891a68a0"
+      ]
+    },
+    {
+      "theme": "speed",
+      "label": "Speed and speed control",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 2,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2019,
+        2021
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c581f3861",
+          "polarity": "negative",
+          "claim": "A two year Amara owner says the stitches per minute ceiling is lower than she would like.",
+          "quote": "the stitch per minute count is lower than I would like",
+          "url": "https://www.reddit.com/r/quilting/comments/d00sxs/2019_longarmmidarm_review_thread/ez4y785/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c3a03c93c",
+          "polarity": "negative",
+          "claim": "Owner says the Amara stitch regulator tops out around 2,500 stitches per minute, which she compares unfavorably with APQS.",
+          "quote": "the amara's stitch regulator maxes out around 2500/stitches per minute",
+          "url": "https://www.reddit.com/r/quilting/comments/la4q1q/advice_for_aspiring_long_armer/glm0y0s/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c3a03c93c",
+        "c581f3861",
+        "c0c6dfe41"
+      ]
+    },
+    {
+      "theme": "weight_portability",
+      "label": "Weight and portability",
+      "statements": 4,
+      "voices": 2,
+      "ownerVoices": 1,
+      "sources": 2,
+      "sourceClasses": [
+        "editorial"
+      ],
+      "classVoices": {
+        "editorial": 2
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": null,
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c5d338b13",
+          "polarity": "negative",
+          "claim": "Reviewer's tricep was sore over the first few quilts before endurance built.",
+          "quote": "my tricep was sore the first few quilts I worked on",
+          "url": "https://www.stringandstory.com/blog/hqamara",
+          "source_class": "editorial"
+        }
+      ],
+      "claimIds": [
+        "c23515d8b",
+        "c5d338b13",
+        "c319809f1",
+        "c0e0ed1a4"
+      ]
+    },
+    {
+      "theme": "free_motion",
+      "label": "Free-motion quilting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "forum"
+      ],
+      "classVoices": {
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": null,
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c7c19cc87",
+          "polarity": "positive",
+          "claim": "Same owner finds free motion and ruler work equally easy on the Amara.",
+          "quote": "both are equally easy",
+          "url": "https://sewing.patternreview.com/SewingDiscussions/topic/127484",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c7c19cc87"
+      ]
+    },
+    {
+      "theme": "learning_curve",
+      "label": "Learning curve",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "forum"
+      ],
+      "classVoices": {
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": null,
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "c00f62850",
+          "polarity": "positive",
+          "claim": "Owner solves most user issues herself with a short online video.",
+          "quote": "Most of my user issues have been solved by myself with a quick YouTube video",
+          "url": "https://sewing.patternreview.com/SewingDiscussions/topic/127484",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c00f62850"
+      ]
+    },
+    {
+      "theme": "lighting",
+      "label": "Lighting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "retailer"
+      ],
+      "classVoices": {
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2018,
+        2018
+      ],
+      "recurrence": "one-off",
+      "examples": [
+        {
+          "claim_id": "cb283247d",
+          "polarity": "negative",
+          "claim": "Four star reviewer finds the magnetic strip and laser light of limited use.",
+          "quote": "The magnetic strip and laser light are limited in usefulness to me.",
+          "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+          "source_class": "retailer"
+        }
+      ],
+      "claimIds": [
+        "cb283247d"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+      "pageRating": 4,
+      "pageCount": 5,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 2,
+        "5": 2
+      },
+      "lowRated": 1,
+      "sampled": null
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Throat space",
+      "juki": "20 inches of throat space. Manual: sewing opening 9 in by 20.5 in (228 by 521 mm).",
+      "others": "Matches our 20 in and 9 in height; the maker does not say needle to body.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Handi Quilter Amara 20 page",
+          "url": "https://handiquilter.com/product/hq-amara-20/"
+        },
+        {
+          "label": "Handi Quilter Amara specifications",
+          "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+        },
+        {
+          "label": "Amara 20 and 24 User Manual v1.6",
+          "url": "https://handiquilter.com/download/158320/"
+        }
+      ],
+      "field": "throatIn",
+      "source": "page"
+    },
+    {
+      "label": "Usable quilting area",
+      "juki": "Safe usable quilting area approximately 14 inches (of 20).",
+      "others": "Not in the spec table.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Handi Quilter Moxie vs Amara post",
+          "url": "https://handiquilter.com/machine-comparison-should-i-buy-the-moxie-or-the-amara/"
+        }
+      ],
+      "field": "throatUsable",
+      "source": "compare"
+    },
+    {
+      "label": "Speed",
+      "juki": "Up to 2,500 stitches per minute (manual mode 25 to 2,500).",
+      "others": "Matches our 2,500 spm.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Handi Quilter Amara 20 page",
+          "url": "https://handiquilter.com/product/hq-amara-20/"
+        },
+        {
+          "label": "Handi Quilter Amara specifications",
+          "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+        },
+        {
+          "label": "Amara 20 and 24 User Manual v1.6",
+          "url": "https://handiquilter.com/download/158320/"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "manual"
+    },
+    {
+      "label": "Needle system",
+      "juki": "System 134, sizes 80/12 to 130/21 (manual); the support article says 12/80 to 20/125.",
+      "others": "Our spec takes the support article (to 20/125).",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Handi Quilter Amara specifications",
+          "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+        },
+        {
+          "label": "Amara 20 and 24 User Manual v1.6",
+          "url": "https://handiquilter.com/download/158320/"
+        }
+      ],
+      "field": "needleSystem",
+      "source": "manual"
+    },
+    {
+      "label": "Frame",
+      "juki": "Studio3 frame, 10 ft or 12 ft, included. Little Foot frame listed as compatible.",
+      "others": "Matches our spec; Little Foot is the addition.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Handi Quilter Amara 20 page",
+          "url": "https://handiquilter.com/product/hq-amara-20/"
+        },
+        {
+          "label": "Handi Quilter Moxie vs Amara post",
+          "url": "https://handiquilter.com/machine-comparison-should-i-buy-the-moxie-or-the-amara/"
+        }
+      ],
+      "field": "frame",
+      "source": "page"
+    },
+    {
+      "label": "Warranty",
+      "juki": "10 years casting, 5 years mechanical, 5 years electrical. Parts free after 90 days; labor and shipping are the owner's cost (manual).",
+      "others": "Matches our spec; the labor and freight cost is the addition.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Amara 20 and 24 User Manual v1.6",
+          "url": "https://handiquilter.com/download/158320/"
+        },
+        {
+          "label": "Handi Quilter warranty page",
+          "url": "https://handiquilter.com/warranty/"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "manual"
+    },
+    {
+      "label": "Service schedule",
+      "juki": "Oil the bobbin hook at each bobbin change; technician service every 24 months or 10 million stitches.",
+      "others": "Not in the spec table.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Handi Quilter Amara specifications",
+          "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+        },
+        {
+          "label": "Amara 20 and 24 User Manual v1.6",
+          "url": "https://handiquilter.com/download/158320/"
+        }
+      ],
+      "field": "service",
+      "source": "manual"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "Moxie",
+      "label": "HQ Moxie (15 in)",
+      "rows": [
+        {
+          "feature": "Throat space",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "A comparison site lists 20 in for the Amara 20 and 15 in for the Moxie; Handi Quilter's own post puts safe usable area at about 14 in against about 10 in.",
+          "check": "Stitch Machine Ledger restates maker figures; usable area is Handi Quilter's marketing figure",
+          "examples": [
+            {
+              "claim_id": "cb67d20c2",
+              "claim": "A comparison site lists 20 inches for the Amara 20 and 15 for the Moxie.",
+              "quote": "Amara 20: 20 inches. Amara 24: 24 inches.",
+              "url": "https://stitchmachineledger.com/comparisons/handi-quilter-moxie-vs-amara"
+            }
+          ],
+          "claimIds": [
+            "cb67d20c2"
+          ]
+        },
+        {
+          "feature": "Speed and stitch range",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "Handi Quilter lists up to 2,500 spm and 4 to 24 stitches per inch on the Amara 20, against 1,800 spm and 4 to 18 on the Moxie.",
+          "check": "maker figures, matched on Handi Quilter's comparison page",
+          "examples": [
+            {
+              "claim_id": "c6e4c146a",
+              "claim": "The comparison site gives the Amara a higher top speed and wider stitch length range than the Moxie.",
+              "quote": "Amara 20 and 24 list speeds up to 2,500 SPM and 4–24 SPI.",
+              "url": "https://stitchmachineledger.com/comparisons/handi-quilter-moxie-vs-amara"
+            }
+          ],
+          "claimIds": [
+            "c6e4c146a"
+          ]
+        },
+        {
+          "feature": "Pro-Stitcher compatibility",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "The Amara 20 is listed as Pro-Stitcher Premium compatible; the Moxie takes Pro-Stitcher Lite.",
+          "check": "Handi Quilter's comparison page; compatible is not the same as included",
+          "examples": [
+            {
+              "claim_id": "c2510fd5c",
+              "claim": "The comparison site says the Amara 20 takes Pro-Stitcher Premium where the Moxie takes Lite.",
+              "quote": "Amara 20 and Amara 24 are Pro-Stitcher Premium compatible",
+              "url": "https://stitchmachineledger.com/comparisons/handi-quilter-moxie-vs-amara"
+            }
+          ],
+          "claimIds": [
+            "c2510fd5c"
+          ]
+        },
+        {
+          "feature": "Frame or table",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "The Amara 20 comes with a Studio3 frame in 10 or 12 ft; the Moxie comes with the 8 ft Loft frame, and both list the 5 ft Little Foot frame as compatible.",
+          "check": "Handi Quilter product pages and comparison post",
+          "examples": [
+            {
+              "claim_id": "c5fffe432",
+              "claim": "The comparison site gives the Amara 20 the Studio3 frame family and the Moxie the Loft and Little Foot.",
+              "quote": "Amara 20 uses Studio3 / compatible frame options",
+              "url": "https://stitchmachineledger.com/comparisons/handi-quilter-moxie-vs-amara"
+            }
+          ],
+          "claimIds": [
+            "c5fffe432"
+          ]
+        },
+        {
+          "feature": "Maker price",
+          "urls": 0,
+          "classes": [],
+          "summary": "Handi Quilter lists the Moxie from $5,495 and the Amara 20 from $12,995; the Amara 20 page shows a packaging weight of 98 lb, which is box weight, not machine weight.",
+          "check": "Handi Quilter comparison and product pages, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Amara ST",
+      "label": "HQ Amara ST (20 in sit down)",
+      "rows": [
+        {
+          "feature": "Frame or table",
+          "urls": 2,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "The Amara ST is the 20 in sit down version on a lift table or InSight table; the Amara 20 is frame mounted.",
+          "check": "Handi Quilter comparison page and FAQ",
+          "examples": [
+            {
+              "claim_id": "c47feebf9",
+              "claim": "The comparison site describes the Amara ST as a 20 inch stationary table machine.",
+              "quote": "20-inch stationary/table longarm path.",
+              "url": "https://stitchmachineledger.com/comparisons/handi-quilter-moxie-vs-amara"
+            },
+            {
+              "claim_id": "cdda92a1b",
+              "claim": "Handi Quilter's FAQ calls the Amara ST the sit down version of the Amara line.",
+              "quote": "The Amara ST is a sit-down longarm version of the Amara line.",
+              "url": "https://handiquilter.com/compare/hq-machine-comparison"
+            }
+          ],
+          "claimIds": [
+            "c47feebf9",
+            "cdda92a1b"
+          ]
+        },
+        {
+          "feature": "Pro-Stitcher compatibility",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "Handi Quilter says its sit down models do not work with Pro-Stitcher; the Amara 20 is Premium compatible.",
+          "check": "Handi Quilter FAQ and comparison table",
+          "examples": [
+            {
+              "claim_id": "c48fc32db",
+              "claim": "Handi Quilter says its sit down models do not work with Pro-Stitcher.",
+              "quote": "The sit-down models are not compatible with Pro-Stitcher systems.",
+              "url": "https://handiquilter.com/compare/hq-machine-comparison"
+            }
+          ],
+          "claimIds": [
+            "c48fc32db"
+          ]
+        },
+        {
+          "feature": "Maker price",
+          "urls": 0,
+          "classes": [],
+          "summary": "Handi Quilter lists the Amara ST from $8,495 and the Amara 20 from $12,995.",
+          "check": "Handi Quilter comparison page, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Moxie XL",
+      "label": "HQ Moxie XL (18 in)",
+      "rows": [
+        {
+          "feature": "Throat space",
+          "urls": 1,
+          "classes": [
+            "forum"
+          ],
+          "summary": "One forum member who tested an Amara says its harp is 2 in longer than the Moxie XL (20 in vs 18 in).",
+          "check": "forum comment; the 18 in figure is Handi Quilter's",
+          "examples": [
+            {
+              "claim_id": "c0c28a729",
+              "claim": "A forum member who tested an Amara says it has a 2 inch longer harp and takes a 12 foot frame; the Moxie XL tops out at 10 feet.",
+              "quote": "The Amara has a 2” longer harp and will work with a 12’ frame",
+              "url": "https://sewing.patternreview.com/SewingDiscussions/topic/127484"
+            }
+          ],
+          "claimIds": [
+            "c0c28a729"
+          ]
+        },
+        {
+          "feature": "Frame or table",
+          "urls": 1,
+          "classes": [
+            "forum"
+          ],
+          "summary": "The same member says the Moxie XL tops out at a 10 ft frame while the Amara takes 12 ft. Handi Quilter lists the Moxie XL on the 8 ft Loft frame with a 2 ft extension.",
+          "check": "forum comment, consistent with Handi Quilter's FAQ",
+          "examples": [
+            {
+              "claim_id": "c0c28a729",
+              "claim": "A forum member who tested an Amara says it has a 2 inch longer harp and takes a 12 foot frame; the Moxie XL tops out at 10 feet.",
+              "quote": "The Amara has a 2” longer harp and will work with a 12’ frame",
+              "url": "https://sewing.patternreview.com/SewingDiscussions/topic/127484"
+            }
+          ],
+          "claimIds": [
+            "c0c28a729"
+          ]
+        }
+      ]
+    },
+    {
+      "model": "Amara 24",
+      "label": "HQ Amara 24 (formerly Forte 24)",
+      "rows": [
+        {
+          "feature": "Throat space",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "Handi Quilter lists 24 in of throat on the Amara 24 against 20 in; the manual gives the sewing opening as 9 x 24.5 in against 9 x 20.5 in.",
+          "check": "Handi Quilter FAQ and the Amara 20 and 24 manual v1.6",
+          "examples": [
+            {
+              "claim_id": "ca2fbd3af",
+              "claim": "Handi Quilter's FAQ says the Amara 24 widens the throat to 24 inches against 20 on the Amara 20.",
+              "quote": "The Amara 24 expands the throat to 24″",
+              "url": "https://handiquilter.com/compare/hq-machine-comparison"
+            }
+          ],
+          "claimIds": [
+            "ca2fbd3af"
+          ]
+        },
+        {
+          "feature": "Frame or table",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "Handi Quilter's description gives the Amara 24 a Gallery3 frame in 10, 12 or 15 ft; its comparison table lists Gallery2 in 10, 12 or 14 ft. The Amara 20 is listed on Studio3 in 10 or 12 ft.",
+          "check": "Handi Quilter's page contradicts itself on Gallery2 vs Gallery3 and the longest length",
+          "examples": [
+            {
+              "claim_id": "cdbb076a6",
+              "claim": "Handi Quilter's description gives the Amara 24 a Gallery3 frame in 10, 12 or 15 foot lengths and the Amara 20 a Studio3 in 10 or 12.",
+              "quote": "HQ Gallery3 Frame (available in 10-foot, 12-foot, or 15-foot lengths)",
+              "url": "https://handiquilter.com/compare/hq-machine-comparison"
+            }
+          ],
+          "claimIds": [
+            "cdbb076a6"
+          ]
+        },
+        {
+          "feature": "Stitch regulation",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "A Handi Quilter FAQ says the Amara 24 and Infinity have more refined sensors and extra modes. Both Amara pages list Precision and Cruise.",
+          "check": "single maker FAQ line; not confirmed elsewhere",
+          "examples": [
+            {
+              "claim_id": "c4a00110b",
+              "claim": "A Handi Quilter FAQ says the Amara 24 and Infinity have more refined regulation sensors and additional modes than lower models.",
+              "quote": "Higher-end machines like the Amara 24 and Infinity offer more refined sensors and additional modes",
+              "url": "https://handiquilter.com/compare/hq-machine-comparison"
+            }
+          ],
+          "claimIds": [
+            "c4a00110b"
+          ]
+        },
+        {
+          "feature": "Maker sewing opening",
+          "urls": 0,
+          "classes": [],
+          "summary": "The shared Amara manual lists a 9 x 20.5 in sewing opening for the Amara 20 and 9 x 24.5 in for the Amara 24; the marketed throats are 20 and 24 in.",
+          "check": "Amara 20 and 24 User Manual v1.6, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": [
+    {
+      "model": "Grace Company Q'nique (19X, 21X Elite and others)",
+      "claims": 10,
+      "sources": 3,
+      "favors": {
+        "this": 6,
+        "other": 4,
+        "mixed": 0
+      },
+      "dimensions": {
+        "this": [
+          {
+            "dimension": "vibration",
+            "n": 2
+          },
+          {
+            "dimension": "build and longevity",
+            "n": 1
+          },
+          {
+            "dimension": "market positioning",
+            "n": 1
+          },
+          {
+            "dimension": "throat space",
+            "n": 1
+          }
+        ],
+        "other": [
+          {
+            "dimension": "owner maintenance",
+            "n": 1
+          },
+          {
+            "dimension": "computerized upgrade price",
+            "n": 1
+          },
+          {
+            "dimension": "price with computerization",
+            "n": 1
+          },
+          {
+            "dimension": "price",
+            "n": 1
+          }
+        ]
+      },
+      "examples": [
+        {
+          "claim_id": "ca8813bd2",
+          "dimension": "vibration",
+          "favors": "this",
+          "claim": "After brief use of both, buyer found the Handi Quilter vibrated less than the Grace.",
+          "quote": "The HandiQuilter seemed to vibrate less than the Grace",
+          "url": "https://www.quiltingboard.com/main-f1/help-advice-longarm-machine-t321795.html"
+        },
+        {
+          "claim_id": "c6ee46af1",
+          "dimension": "price with computerization",
+          "favors": "other",
+          "claim": "A quilter who owned both says her Grace cost half as much as the similar size HQ with Pro-Stitcher.",
+          "quote": "it was half as much as the similar size HQ + Pro-Stitcher",
+          "url": "https://www.quiltingboard.com/main-f1/help-advice-longarm-machine-t321795.html"
+        }
+      ],
+      "claimIds": [
+        "caf987b1b",
+        "ce2f078e9",
+        "cb03fbcdb",
+        "c49db3ed2",
+        "ca8813bd2",
+        "c75ddd444",
+        "cf6a74214",
+        "c6ee46af1",
+        "cd542e65c",
+        "c8780a3bf"
+      ]
+    }
+  ]
+}

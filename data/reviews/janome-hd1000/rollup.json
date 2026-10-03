@@ -3,7 +3,7 @@
   "status": "approved",
   "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
   "reviewedOn": "2026-10-01",
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "method": {
     "sources": 55,
     "itemsCollected": 866,
@@ -36,6 +36,7 @@
     "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
   ],
   "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "summary": "Owners of the Janome HD1000 praise how solid and heavy it feels and say oiling and cleaning are easy, and some sew denim and layered cotton duck with it. The repeated complaints are about reliability and heavy-fabric power: owners report jams and failures, some within the first year, and a machine that groans or stops on heavy seams, Cordura or webbing. Others describe threading trouble and knots on the underside, tension that needs adjusting, speed that is hard to keep slow, a black body that reflects the lamp poorly, and plastic inside. This read covers 53 Reddit threads and 2 retailer pages from 2010 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
   "themes": [
     {
       "theme": "reliability_defects",

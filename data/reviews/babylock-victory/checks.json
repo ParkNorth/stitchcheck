@@ -1,9 +1,9 @@
 {
   "slug": "babylock-victory",
-  "generated": "2026-10-02T11:58:22.304Z",
+  "generated": "2026-10-03T02:42:11.714Z",
   "counts": {
     "error": 0,
-    "warn": 1
+    "warn": 2
   },
   "items": [
     {
@@ -22,9 +22,14 @@
       "message": "few Reddit threads name the model in the title; collection may be on loose matches"
     },
     {
+      "level": "warn",
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
+    },
+    {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 24 voices (10 first-hand), 14 sources, status draft"
+      "message": "evidence moderate, 24 voices (10 first-hand), 14 sources, status approved"
     }
   ]
 }

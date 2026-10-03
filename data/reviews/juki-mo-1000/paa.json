@@ -1,0 +1,269 @@
+{
+  "slug": "juki-mo-1000",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "juki mo-1000",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "juki mo-1000",
+        "juki mo1000",
+        "juki mo 1000"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/juki-mo-1000.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "What is the price of the Juki MO-1000 serger?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "juki mo-1000 price",
+      "scope": "this",
+      "use": true,
+      "faq": "What is the price of the Juki MO-1000?",
+      "answeredFrom": "manufacturer.json price; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "Can you provide a review of the Juki MO-1000 serger?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "juki mo 1000 review",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Juki MO-1000?",
+      "answeredFrom": "rollup.json themes and summary"
+    },
+    {
+      "q": "how to thread juki mo 1000",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": true,
+      "faq": "How do you thread the Juki MO-1000?",
+      "answeredFrom": "manufacturer.json threadingSystem"
+    },
+    {
+      "q": "Does the Juki MO-1000 thread the needles automatically too?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Juki MO-1000 thread the needles automatically too?",
+      "answeredFrom": "manufacturer.json threadingSystem; rollup.json Threading and loopers theme"
+    },
+    {
+      "q": "Is air threading worth the price jump from the MO-654DE?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "How does the Juki MO-1000 compare with the MO-654DE and MO-644D?",
+      "answeredFrom": "rollup.json siblings (MO-654DE, MO-644D)"
+    },
+    {
+      "q": "Is the MO-1000 loud?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Juki MO-1000 loud?",
+      "answeredFrom": "rollup.json Noise and vibration theme; manufacturer.json claims"
+    },
+    {
+      "q": "How much does the MO-1000 weigh?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Juki MO-1000 weigh and how big is it?",
+      "answeredFrom": "manufacturer.json weightLb and dimensionsIn"
+    },
+    {
+      "q": "What comes in the box with the MO-1000?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What is in the box with the Juki MO-1000?",
+      "answeredFrom": "manufacturer.json includedFeet"
+    },
+    {
+      "q": "What is the MO-1000 warranty?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What is the Juki MO-1000 warranty?",
+      "answeredFrom": "manufacturer.json warrantyUs"
+    },
+    {
+      "q": "What is the price of the Juki MO-1000 overlocker?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Duplicate of the price question."
+    },
+    {
+      "q": "Which Juki serger is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand-level question; belongs on a guide."
+    },
+    {
+      "q": "What is the best serger for your money?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "Which serger is better for my money, Juki or Babylock?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "Which Juki model is best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand-level question; belongs on a guide."
+    },
+    {
+      "q": "What is the easiest serger to operate?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "Is Juki made in Japan or China?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand-level question; not in our evidence for this model."
+    },
+    {
+      "q": "Can you thread the MO-1000 by hand if the air system fails?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "No maker or owner evidence on a manual fallback."
+    },
+    {
+      "q": "Does the MO-1000 have a free arm?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Not published; the spec table shows [verify]."
+    },
+    {
+      "q": "Can the MO-1000 do a 2-thread stitch?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Juki lists a 2/3 thread selector; kept to the spec table."
+    },
+    {
+      "q": "how to oil juki mo1000",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "The rollup holds one neutral oiling statement; the Juki manual is the answer."
+    },
+    {
+      "q": "how to repair juki mo 1000 needle threader",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Repair procedure; no repair evidence in our files."
+    },
+    {
+      "q": "where to buy the juki mo 1000 serger",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Buy intent; handled by the buy block."
+    },
+    {
+      "q": "how do you change the foot on juki mo 1000",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Operating instructions; the Juki manual is the answer."
+    },
+    {
+      "q": "juki mo 1000 serger air",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 90,
+      "volumeKeyword": "juki mo 1000 serger air",
+      "scope": "this",
+      "use": false,
+      "reason": "Head term; the page itself."
+    }
+  ]
+}

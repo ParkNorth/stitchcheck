@@ -1,0 +1,266 @@
+{
+  "slug": "juki-mo-644d",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "juki mo-644d",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "juki mo-644d",
+        "juki mo644d",
+        "juki mo 644d"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/juki-mo-644d.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "Can you provide a review of the Juki MO-644D serger?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "juki mo-644d review",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Juki MO-644D?",
+      "answeredFrom": "rollup.json themes and summary"
+    },
+    {
+      "q": "Which serger is better, the Juki MO654DE or the Brother 1034D?",
+      "sources": [
+        "paa",
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 10,
+      "volumeKeyword": "juki mo-644d vs mo-654de difference",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Juki MO-644D and MO-654DE?",
+      "answeredFrom": "rollup.json siblings (MO-654DE); manufacturer.json facts"
+    },
+    {
+      "q": "Does the MO-644D do 2-thread stitches?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Juki MO-644D do 2-thread stitches?",
+      "answeredFrom": "manufacturer.json stitchTypes (catalog)"
+    },
+    {
+      "q": "Can the MO-644D do a rolled hem?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can the Juki MO-644D do a rolled hem?",
+      "answeredFrom": "manufacturer.json rolledHem"
+    },
+    {
+      "q": "juki mo-644d price",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "juki mo-644d price",
+      "scope": "this",
+      "use": true,
+      "faq": "What is the price of the Juki MO-644D?",
+      "answeredFrom": "manufacturer.json msrp; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "how to thread juki mo-644d serger",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": true,
+      "faq": "How do you thread the Juki MO-644D?",
+      "answeredFrom": "manufacturer.json threadingSystem; rollup.json Threading and loopers theme"
+    },
+    {
+      "q": "What needles does the MO-644D use?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "juki mo644d portable serger what kind of needles",
+      "scope": "this",
+      "use": true,
+      "faq": "What needles does the Juki MO-644D use?",
+      "answeredFrom": "manufacturer.json needleSystem"
+    },
+    {
+      "q": "Is Juki MO-644D serger good for beginners?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Juki MO-644D good for beginners?",
+      "answeredFrom": "rollup.json Threading and loopers and Reliability themes; manufacturer.json claims"
+    },
+    {
+      "q": "How heavy is the MO-644D?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How heavy is the Juki MO-644D?",
+      "answeredFrom": "manufacturer.json weightLb and dimensionsIn"
+    },
+    {
+      "q": "Which JUKI serger is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand-level question; belongs on a guide."
+    },
+    {
+      "q": "What is the best overlock sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "What is the most trouble-free sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "Which serger is better for my money, Juki or Babylock?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "Which Juki model is best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand-level question; belongs on a guide."
+    },
+    {
+      "q": "What are people saying about the Juki MO654DE serger?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "About the MO-654DE, which has its own page."
+    },
+    {
+      "q": "Is Babylock made by Juki?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; not about this model."
+    },
+    {
+      "q": "Is the MO-644D better than the Brother 1034D?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "The rollup holds no rival tally for the Brother 1034D, so we cannot answer from our own evidence."
+    },
+    {
+      "q": "Does the MO-644D have a free arm?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Juki does not state it either way; the spec table shows [verify]."
+    },
+    {
+      "q": "where is juki mo644d portable serger made?",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Country of manufacture is not in our evidence."
+    },
+    {
+      "q": "how i can make wider stitch on juki mo644d portable serger",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Operating instructions; we hold only the 6 mm width figure."
+    },
+    {
+      "q": "how to adjust thread tension on a juki mo-644d",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Procedure question; the rollup holds tension complaints, not a fix."
+    },
+    {
+      "q": "how to change the light bulb on juki mo644d",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Service procedure; no evidence in our files."
+    },
+    {
+      "q": "juki mo-644d manual",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "juki mo-644d manual",
+      "scope": "this",
+      "use": false,
+      "reason": "Manual links are in the research sources; the linked manual is a related MO-644DN/654DEN edition."
+    }
+  ]
+}

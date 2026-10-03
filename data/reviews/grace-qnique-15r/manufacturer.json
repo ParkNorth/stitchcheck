@@ -1,0 +1,301 @@
+{
+  "slug": "grace-qnique-15r",
+  "collected": "2026-10-02",
+  "purpose": "First-party facts from the maker's own documents, compared against data/specs/grace-qnique-15r.json. Research input for the editor; not a spec file.",
+  "documents": [
+    {
+      "id": "maker-page",
+      "url": "https://graceframe.com/en/sewing-machines/grace-15r",
+      "type": "product page",
+      "fetched": "2026-10-02",
+      "note": "Banner reads 'No longer available for new purchase'; dealers may still sell it. Carries the 15 Pro / 15R / 15M comparison table, machine-only MSRP and frame package prices. The older direct product page (graceframe.com/en/product/grace-15r-quilting-machine) now redirects to the Grace home page."
+    },
+    {
+      "id": "manual",
+      "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf",
+      "type": "instruction manual PDF (file dated 2018-12-17, 44 pages)",
+      "fetched": "2026-10-02",
+      "note": "Text extracted with pymupdf; page 5 technical data, page 7 included parts, pages 27 to 29 sewing modes, page 42 to 43 oiling. The manual does not state a needle system or size anywhere in its text or in OCR of the needle pages."
+    },
+    {
+      "id": "warranty",
+      "url": "https://graceframe.com/en/page/warranty",
+      "type": "warranty page",
+      "fetched": "2026-10-02",
+      "note": "Lists the 15R under the 2 Year and 5 Year limited warranties; shared with 15M, 15 Pro, 19, 19X and 21."
+    },
+    {
+      "id": "maker-15pro",
+      "url": "https://graceframe.com/en/sewing-machines/grace-15pro",
+      "type": "sibling product page",
+      "fetched": "2026-10-02",
+      "note": "Sibling comparison table identical to the 15R page; page shows a promo banner so the live price may differ."
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1,800 stitches per minute (minimum 90 spm per manual; speed indicator runs 5 to 100 percent of 1,800)",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": 1800,
+      "note": "Manual p5 and p29; the 15 Pro is 2,000 and the 15M is 1,800 per the maker table.",
+      "site": {
+        "label": "Speed",
+        "juki": "1,800 stitches per minute maximum, 90 minimum (manual).",
+        "others": "Dealers repeat 1,800.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Grace 15R page",
+            "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+          },
+          {
+            "label": "Grace 15R manual",
+            "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "throatIn",
+      "value": "15 in wide by 8.5 in high work area (381 mm by 215.9 mm); Grace says the 15 in runs from the needle to the back of the work area",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": 15,
+      "note": "Manual p5 'Quilting Arm Length 15 in W 8.5 in H'. Grace's wording (needle to back of the work area) matches rule 11 needle-to-body, so 15 in head on a frame is an entry long-arm.",
+      "site": {
+        "label": "Throat space",
+        "juki": "15 in wide by 8.5 in high, needle to back of the work area.",
+        "others": "Dealers call it a midarm; Grace's own page also says midarm.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Grace 15R page",
+            "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+          },
+          {
+            "label": "Grace 15R manual",
+            "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "throatHeightIn",
+      "value": "8.5 in",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": 8.5,
+      "note": "Manual p5."
+    },
+    {
+      "field": "weightLb",
+      "value": "42 lb / 19 kg",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": 42,
+      "note": "Manual p5.",
+      "site": {
+        "label": "Weight",
+        "juki": "42 lb (19 kg) per the manual.",
+        "others": "Sew Vac Direct lists 42 lb.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Grace 15R manual",
+            "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "19 in high x 15.5 in wide x 23 in long (480 x 395 x 585 mm)",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Manual p5 lists Height 480 mm, Width 395 mm, Length 585 mm. Spec was null; the 'width' is the head width and is not the 15 in throat.",
+      "site": {
+        "label": "Overall size",
+        "juki": "480 mm high, 395 mm wide, 585 mm long (19 x 15.5 x 23 in).",
+        "others": "No dealer lists dimensions.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Grace 15R manual",
+            "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "stitchRegulation",
+      "value": "Stitch regulation with Precise and Cruise modes, plus Manual (fixed speed) and Baste; stitches per inch 4 to 16",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "Built in stitch regulator",
+      "note": "Manual p27 to p29. Precise stops stitching when the machine is not moved; Cruise keeps a floor of about 5 percent speed. The Leah Day sit down review says its 14+/15R configuration has no regulator; the manual supports regulation on a frame with an encoder.",
+      "site": {
+        "label": "Stitch regulation",
+        "juki": "Regulated Precise and Cruise modes, Manual and Baste, 4 to 16 stitches per inch.",
+        "others": "Leah Day describes the sit down 14+ / 15R as unregulated (foot pedal).",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Grace 15R page",
+            "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+          },
+          {
+            "label": "Grace 15R manual",
+            "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "field": "motor",
+      "value": "Peak power consumption 300 W; timing belt system; input 110 to 220 VAC; separate built-in bobbin winder motor",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": "High power motor rated to 1,800 spm",
+      "note": "Manual p5; the winder motor is on the maker page. 'High power motor' is a Grace claim."
+    },
+    {
+      "field": "bobbin",
+      "value": "Large M class bobbin; 3 bobbins and 1 bobbin case in the kit",
+      "source": "manual",
+      "vs_spec": "confirms",
+      "spec_value": "M class, easy access bobbin, automatic bobbin winder",
+      "note": "Manual p5 and p7."
+    },
+    {
+      "field": "display",
+      "value": "OLED screen (full color per the maker table) on a cable between the handlebars; 15 Pro has a full-color touch-screen",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "Full color OLED screen between the handlebars",
+      "note": "Maker table and manual p5."
+    },
+    {
+      "field": "lighting",
+      "value": "High powered daylight color-balanced LED work lights with adjustable brightness",
+      "source": "maker-page",
+      "vs_spec": "confirms",
+      "spec_value": "LED needle light",
+      "note": "Maker page says brightness is controllable; spec only says LED."
+    },
+    {
+      "field": "needleSystem",
+      "value": "Not stated in the manual. Kit includes 10 needles; the manual says to install with the scarf toward the throat and the eye facing the bobbin opening",
+      "source": "manual",
+      "vs_spec": "contradicts",
+      "spec_value": "135x5 / DPx5 (equivalents 134, 135x7, 797, SY 1955)",
+      "note": "data/specs cites this manual for the needle system but the manual carries no needle size or system text (checked text extraction and OCR of pages 7, 15, 41). Treat the spec value as dealer-sourced until a Grace document names it."
+    },
+    {
+      "field": "warrantyUs",
+      "value": "Warranty page: 15R is listed under the 2 Year Limited Warranty and the 5 Year Limited Warranty (cast body); 'All Grace Qnique Quilting Machine Electronic Parts' sit under the 2 Year list. Product page: electronics 1 year, non-moving parts 2 years, body 5 years. 90 day replacement of defective parts and 30 day money-back apply to direct purchases only. Warranties do not transfer to a second owner",
+      "source": "warranty",
+      "vs_spec": "contradicts",
+      "spec_value": "1 yr limited electrical parts, 2 yr mechanical parts, 5 yr cast body",
+      "note": "Two Grace pages disagree on electronics (1 yr on the machine page, 2 yr on the warranty page) and the machine page says 'non-moving parts' where our spec says mechanical. The 5 yr body term is consistent. Warranty is not transferable, which matters for used and recertified units.",
+      "site": {
+        "label": "Warranty",
+        "juki": "Machine page: electronics 1 yr, non-moving parts 2 yr, body 5 yr. Warranty page: 2 yr on electronic parts and 5 yr on the cast body. Not transferable.",
+        "others": "Dealers repeat 1 / 2 / 5.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Grace warranty page",
+            "url": "https://graceframe.com/en/page/warranty"
+          },
+          {
+            "label": "Grace 15R page",
+            "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+          }
+        ]
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "$4,499.95 machine only (maker table). With frame: $6,499.90 Q-Zone Hoop, $6,699.90 Q-Zone Queen, $7,499.90 Continuum II",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": "priceUsdSeen 5198 (dealer bundle with Q-Zone Queen)",
+      "note": "Maker MSRP and package prices; the page now says the 15R is no longer available for new purchase, so these are list figures, not live prices. Spec's $5,198 dealer bundle sits $1,500 under Grace's own Queen package.",
+      "site": {
+        "label": "Price",
+        "juki": "Machine-only MSRP $4,499.95; $6,499.90 with the Q-Zone Hoop, $6,699.90 with the Q-Zone Queen.",
+        "others": "Sew Vac Direct bundle with Q-Zone Queen seen at $5,198 on 2026-09-29; Google Shopping showed a recertified 15R at $3,099 (Sewing Machine Outlet).",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Grace 15R page",
+            "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+          }
+        ]
+      }
+    },
+    {
+      "field": "status",
+      "value": "'No longer available for new purchase'; Grace still honors service and warranties and says the 15R may be bought from a dealer; compatible accessories stay available",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": "discontinued false; legacy, still sold",
+      "note": "The 15R page points buyers to the 15 Pro. The same page's menu lists 16X, 16X Elite, 19SD, 19X Elite, 21X Elite and Little Rebel as current machines; the 15 Pro page was still live on 2026-10-02 with a $4,999.95 MSRP and a promo banner. This differs from the briefing statement that the 15 Pro was discontinued and replaced by the 16X: the pages fetched do not say so.",
+      "site": {
+        "label": "Availability",
+        "juki": "Grace marks the 15R 'no longer available for new purchase'; service and warranty support continue.",
+        "others": "Dealers and recertified sellers still list it.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Grace 15R page",
+            "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+          }
+        ]
+      }
+    },
+    {
+      "field": "includedFeet",
+      "value": "No presser feet are listed in the kit; the kit list names a hopping foot height gauge",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Manual p7 kit list: 10 needles, 3 bobbins, bobbin case, oil bottle, lint brush, Allen wrenches (2, 2.5, 3, 4 mm), screwdriver, thread mast, encoder cables and springs, power cord, hopping foot height gauge. Frame-mounted free motion has no feed dogs."
+    },
+    {
+      "field": "oiling",
+      "value": "1 to 2 drops in each hole on top of the head at the start of each project, or before use after 30 idle days; 1 to 2 drops on the hook assembly every other bobbin change; clean every 20 hours of use",
+      "source": "manual",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Manual p42 to p43."
+    },
+    {
+      "field": "frame",
+      "value": "Qualifying frames named by Grace: Q'one Hoop-Frame, Q-Zone Hoop-Frame Pro, Q-Zone Queen, Cutie Tabletop Fabric Frame; package pages show Q-Zone Hoop (54 in), Q-Zone Queen (103.5 in with hand-wheel) and Continuum II (up to 135.5 in)",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": "compatible with all Grace frames and most other frames",
+      "note": "Maker page; 'most other frames' is dealer wording, not on the maker page."
+    },
+    {
+      "field": "siblings15",
+      "value": "15 Pro: 2,000 spm, full-color touch-screen, $4,999.95. 15R: 1,800 spm, full-color OLED, $4,499.95. 15M: 1,800 spm, no stitch regulation, LCD number read-out, $3,499.95",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Maker comparison table; all three share the 15 in throat, LED lights, built-in bobbin winder and M class bobbin."
+    },
+    {
+      "field": "claims",
+      "value": "'superior stitching quality'; 'high-power motor'; 'perfect mid-arm quilting machine'; 'Superior Live Technical Support'",
+      "source": "maker-page",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Marketing wording; state as Grace's claims only."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "slug": "juki-tl-2000qi",
-  "generated": "2026-10-02T02:49:01.991Z",
+  "generated": "2026-10-03T02:51:34.925Z",
   "counts": {
     "error": 0,
     "warn": 2
@@ -9,12 +9,12 @@
     {
       "level": "info",
       "id": "pooled-listing",
-      "message": "sewingmachinesplus.com: of 207 sampled reviews, 15 name this model, 1 name a sibling only, 191 name neither"
+      "message": "sewingmachinesplus.com: of 207 sampled reviews, 0 name this model, 0 name a sibling only, 207 name neither"
     },
     {
       "level": "warn",
       "id": "pooled-listing",
-      "message": "sewingmachinesplus.com: only 15 of 207 reviews name this model while siblings exist; confirm the listing is not pooled"
+      "message": "sewingmachinesplus.com: only 0 of 207 reviews name this model while siblings exist; confirm the listing is not pooled"
     },
     {
       "level": "info",
@@ -28,13 +28,13 @@
     },
     {
       "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"throatIn\" but the spec's conflicts do not mention it"
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 135 voices (109 first-hand), 49 sources, status draft"
+      "message": "evidence moderate, 135 voices (109 first-hand), 49 sources, status approved"
     }
   ]
 }

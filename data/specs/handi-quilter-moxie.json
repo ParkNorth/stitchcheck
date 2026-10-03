@@ -147,16 +147,16 @@
   ],
   "evidence": "owner",
   "buyerQuestions": [
+    "What is the difference between Moxie and Moxie XL?",
+    "What are people saying about the Handi Quilter Moxie XL quilter?",
+    "How much does a Moxie machine cost?",
     "Does the Moxie price include a frame?",
     "Is stitch regulation built into the Moxie or an add-on?",
-    "How much room does a Moxie on the 8 ft Loft frame need?",
-    "Can the Moxie quilt a king size quilt?",
-    "What is the difference between the Moxie and the Moxie XL?",
-    "Does the Moxie use M class or L class bobbins?",
-    "What needle does the Moxie take?",
     "Can you add Pro-Stitcher to a Moxie?",
-    "How does the Moxie compare with the Grace Q'nique 15R?",
-    "What is the Moxie warranty?"
+    "What needle does the Moxie take?",
+    "Does the Moxie use M class or L class bobbins?",
+    "What is the Moxie warranty?",
+    "handi quilter moxie st"
   ],
   "crossShop": [
     {
@@ -227,44 +227,40 @@
     ],
     "faqs": [
       {
+        "q": "What is the difference between the Handi Quilter Moxie and the Moxie XL?",
+        "a": "From Handi Quilter's product pages, the Moxie XL lists 18 in of throat space and 2,100 stitches per minute, against 15 in and 1,800 on the Moxie. The XL also lists a 4.3 in display and a 72 lb packaging weight, against a 1.44 in display and 58 lb on the Moxie. Packaging weight is shipping weight, not machine weight. These are maker figures; we have not collected an owner read for the XL."
+      },
+      {
+        "q": "What do owners say about the Handi Quilter Moxie?",
+        "a": "Owners who are happy with it point to the built-in stitch regulator, and some report tension they like once the machine is set up. Complaints cluster around the frame (sagging, hard to move smoothly), a clunky sound, numb hands after long sessions and no automatic threading or thread cutting. The read covers 20 Reddit threads and 2 retailer pages from 2021 to 2026, a small sample, and Reddit leans toward people asking for help, so problems are over-represented. Amazon shows 4.8 from 17 ratings, which is seller-collected and pools a second ASIN; the Sewing Machines Plus page (4.55 from 29) is not counted here because none of its sampled reviews name the Moxie."
+      },
+      {
         "q": "How much does the Handi Quilter Moxie cost?",
-        "a": "The Handi Quilter product page shows a range starting at $5,495, and Amazon lists the Moxie with an 8 ft Loft frame at $5,495 (seen 2026-10-02). Our earlier spec recorded $5,995 at Village Sewing. The maker does not label the base configuration, so confirm what is included."
+        "a": "Handi Quilter's product page shows a range of $5,495 to $12,690, depending on the frame and Pro-Stitcher options (seen 2026-10-02). Amazon listed the Moxie with an 8 ft Loft frame at $5,495 on the same date, and an earlier dealer figure was $5,995 at Village Sewing (seen 2026-09-29). The maker does not label the base configuration behind $5,495, so confirm what is included [verify]."
       },
       {
-        "q": "Does the Moxie come with a frame?",
-        "a": "Handi Quilter says the Moxie includes the 8 ft HQ Loft Frame, upgradable to 10 ft with a 2 ft extension kit, and it is also compatible with the 5 ft Little Foot Frame. The maker page frame selector changes the price."
+        "q": "Does the Handi Quilter Moxie come with a frame?",
+        "a": "Handi Quilter says the Moxie includes the 8 ft HQ Loft Frame, which upgrades to 10 ft with a 2 ft extension kit, and that it is also compatible with the 5 ft Little Foot Frame. The maker page frame selector changes the price, and the base configuration behind the $5,495 starting price is not labelled. Ask the retailer which frame the quoted price includes [verify]."
       },
       {
-        "q": "Is the Moxie a long-arm?",
-        "a": "Handi Quilter calls it a longarm, but at 15 in of throat space it is an entry long-arm on a frame. The maker puts safe usable quilting area at about 10 in."
+        "q": "Is stitch regulation built into the Handi Quilter Moxie?",
+        "a": "Yes, per Handi Quilter. The page and manual list Precision and Cruise regulation plus a Manual mode, selected on the display, at 4 to 18 stitches per inch in regulated mode. Owners who mention it like it: one advises prioritising it above other extras and another says it goes down to 4 stitches per inch for basting. The maker does not show how well regulation tracks, so that part is not verified."
       },
       {
-        "q": "What is the Moxie throat space?",
-        "a": "Handi Quilter lists 15 in of throat space, and the manual gives a sewing opening of 8.25 x 15.00 in without saying which figure is height. The maker does not state a needle-to-body measurement."
+        "q": "Can you add Pro-Stitcher to the Handi Quilter Moxie?",
+        "a": "Handi Quilter lists the Moxie as Pro-Stitcher Lite compatible, and says all new Handi Quilter movable machines are Pro-Stitcher ready with cabling pre-installed. Pro-Stitcher is an option on the maker's configurator. Its price was not published on the pages we read [verify]."
       },
       {
-        "q": "What needles does the Moxie take?",
-        "a": "The maker manual lists needle system 134, sizes 80/12 to 130/21. Our earlier spec said sizes 12 to 20, so the manual figure is used here."
+        "q": "What needles does the Handi Quilter Moxie take?",
+        "a": "The maker manual lists needle system 134 in sizes 80/12 to 130/21. An earlier spec from a Handi Quilter support article said sizes 12 to 20, so we use the manual figure. The manual was read from a dealer-hosted 2020 copy, so confirm against the current file [verify]."
       },
       {
-        "q": "How fast is the Moxie?",
-        "a": "Handi Quilter lists 1,800 stitches per minute maximum, and the manual gives a cruise range of 50 to 800 spm."
+        "q": "Does the Handi Quilter Moxie use M class or L class bobbins?",
+        "a": "M class. Handi Quilter lists a high-speed rotary hook with a large-capacity M class bobbin, and the manual specifies an aluminum M class bobbin with a type MF bobbin case."
       },
       {
-        "q": "What is the Moxie warranty?",
-        "a": "The warranty page lists 90 days parts and labor, 10 years on casting, 5 years mechanical and 5 years electronic, with the customer paying labor and shipping after 90 days. It covers the HQ Quilting Machine rather than the Moxie by name. The 2020 manual says the electrical warranty is void if the machine is left plugged in; the warranty page does not."
-      },
-      {
-        "q": "How heavy is the Moxie?",
-        "a": "The maker does not publish a machine weight. The product page gives 58 lb packaging weight, which is shipping weight, so weight shows [verify]."
-      },
-      {
-        "q": "How does the Moxie compare with the Moxie XL and Amara 20?",
-        "a": "From maker pages, the Moxie XL lists 18 in of throat space and 2,100 spm, and the Amara 20 lists 20 in of throat space and up to 2,500 spm. The maker puts usable quilting area at about 10 in on the Moxie and about 14 in on the Amara 20."
-      },
-      {
-        "q": "What do owners say about the Moxie?",
-        "a": "The evidence is thin: 23 voices, 20 first-hand, and only 4 Reddit threads name the Moxie in the title. Reddit skews to help requests, and tension and thread breakage come up in the sources read, so these are not failure rates."
+        "q": "What warranty does the Handi Quilter Moxie have?",
+        "a": "Handi Quilter's warranty page lists 90 days parts and labor, 10 years on casting or machining defects in the sewing head, and 5 years each on mechanical and electrical parts, with the customer paying labor and shipping after the first 90 days. The text covers the 'HQ Quilting Machine', not the Moxie by name. The 2020 manual also says the electrical warranty is void if the machine is left plugged in when not in use; the warranty page does not say so [verify]."
       }
     ]
   },

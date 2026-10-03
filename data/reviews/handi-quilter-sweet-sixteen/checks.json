@@ -1,9 +1,9 @@
 {
   "slug": "handi-quilter-sweet-sixteen",
-  "generated": "2026-10-02T12:19:48.713Z",
+  "generated": "2026-10-03T02:42:59.886Z",
   "counts": {
     "error": 0,
-    "warn": 2
+    "warn": 1
   },
   "items": [
     {
@@ -18,18 +18,13 @@
     },
     {
       "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"hookBobbin\" but the spec's conflicts do not mention it"
-    },
-    {
-      "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"motor\" but the spec's conflicts do not mention it"
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 32 voices (27 first-hand), 14 sources, status draft"
+      "message": "evidence moderate, 32 voices (27 first-hand), 14 sources, status approved"
     }
   ]
 }

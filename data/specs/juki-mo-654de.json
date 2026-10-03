@@ -133,15 +133,16 @@
   ],
   "evidence": "owner",
   "buyerQuestions": [
+    "What are people saying about the Juki MO654DE serger?",
+    "What is the price of the Juki MO-654DE?",
+    "Which serger is better, the Juki MO654DE or the Brother 1034D?",
+    "What are the key differences between the Juki Mo 644D and 654DE sergers?",
+    "how to thread juki mo-654de",
     "Is the Juki MO-654DE good for beginners?",
     "Can the MO-654DE do a rolled hem?",
-    "Does the MO-654DE have a free arm?",
-    "What thread should I use in the MO-654DE?",
-    "What is the difference between the MO-654DE and MO-644D?",
-    "Is the MO-654DE worth the extra money over the Brother 1034D?",
     "How loud is the MO-654DE?",
-    "What needles does the MO-654DE take?",
-    "Does the MO-654DE include a 2-thread converter?"
+    "which needles do i use for the juki pearl line mo-654de",
+    "Can you provide a review of the Juki MO-644D serger?"
   ],
   "crossShop": [
     {
@@ -201,40 +202,40 @@
     ],
     "faqs": [
       {
+        "q": "What do owners say about the Juki MO-654DE?",
+        "a": "Across 33 Reddit threads and 2 retailer pages, owners mostly describe a sturdy serger that copes with thick layers such as fleece, canvas and denim. Threading splits opinion: color-coded guides and videos help many, while others call it a chore. The repeated complaints are tension that would not settle after a long idle period or a thread change, and a lower looper that kept snapping on one machine. Reddit leans toward people asking for help, so problems are over-represented."
+      },
+      {
+        "q": "What is the price of the Juki MO-654DE?",
+        "a": "Juki lists a suggested retail of $1,399 and tells buyers to contact an authorized dealer. Michaels showed $399.99 on 2026-09-29, so most buyers pay far less than list. Bundles and kits cost more, so check what is in the box before you compare. Prices drift weekly, so use the price band on this page as the stable guide."
+      },
+      {
+        "q": "Is the Juki MO-654DE worth the extra money over the Brother 1034D?",
+        "a": "Owners who have used both say the Juki is sturdier and easier to service yourself, at a higher price. One owner who moved up from a 1034D calls the Juki a whole new world, and another says it runs quieter than their Brother. These are owner opinions, not a hands-on comparison."
+      },
+      {
+        "q": "What is the difference between the Juki MO-654DE and the MO-644D?",
+        "a": "Owners on PatternReview say the 654DE puts the differential and stitch length dials outside the door and handles thicker layers, while the 644D needs a separate 2-thread converter. One owner of a 644D found the 654DE better after one use. We have not checked this against a 644D spec sheet [verify]."
+      },
+      {
+        "q": "How do you thread the Juki MO-654DE, and is it hard?",
+        "a": "Juki lists color-coded threading guides and a lower looper threader that disengages, and the front cover opens for looper access. Juki's own words for threading are marketing claims, so judge it by owners: 11 of the 16 voices who mention threading are positive and say the color coding and videos helped, while others call it a chore typical of sergers without air threading. Plan on learning it from the manual."
+      },
+      {
         "q": "Is the Juki MO-654DE good for beginners?",
-        "a": "Owners are split on threading: color-coded guides help, but several call it a chore. It suits a beginner willing to learn manual threading from the manual or videos."
+        "a": "It suits a beginner who is willing to learn manual threading from the manual or videos. Owners are split on threading, and the machine has no free arm and no air threading. Juki's color-coded guides help once you know the thread path."
       },
       {
-        "q": "Can the MO-654DE do a rolled hem?",
-        "a": "Yes. Juki lists a built-in rolled hem, in 3-thread and 2-thread forms, with a 2 mm rolled hem needle position in the manual."
+        "q": "Can the Juki MO-654DE do a rolled hem?",
+        "a": "Yes. Juki lists a built-in rolled hem, in 3-thread and 2-thread forms, and its manual gives a 2 mm rolled hem stitch width."
       },
       {
-        "q": "Does the MO-654DE have a free arm?",
-        "a": "No. The machine has no free arm."
+        "q": "How loud is the Juki MO-654DE?",
+        "a": "Owners disagree. Of the 10 voices who mention noise, 8 are positive, with several calling it quiet, and 2 are negative, including one who calls it very noisy and the machine's one drawback. All 10 come from retailer reviews that do not name the model, so treat this as soft [verify]. Juki publishes no noise figure we could source."
       },
       {
-        "q": "What needles does the MO-654DE take?",
-        "a": "Juki's page lists household HAx1 #11 to 14 and the manual lists 130/705H. These are the same household flat-shank family."
-      },
-      {
-        "q": "Does the MO-654DE include a 2-thread converter?",
-        "a": "Yes. Juki's page lists the 2/3 thread converter as a standard accessory, and the machine also has a built-in 2-thread converter per our spec sources."
-      },
-      {
-        "q": "What is the difference between the MO-654DE and MO-644D?",
-        "a": "Owners on PatternReview say the 654DE moves the differential and length dials outside the door and handles thicker layers. We have not verified this against a 644D spec sheet."
-      },
-      {
-        "q": "Is the MO-654DE worth the extra money over the Brother 1034D?",
-        "a": "Owners who have used both say the Juki is sturdier and easier to service yourself, at a higher price. It also adds 2-thread stitches."
-      },
-      {
-        "q": "How loud is the MO-654DE?",
-        "a": "Owner reports conflict: one retailer's reviewers split between calling it quiet and very noisy. Juki publishes no noise figure we could source."
-      },
-      {
-        "q": "How fast is the MO-654DE?",
-        "a": "Juki lists a maximum of 1,500 stitches per minute in both the product page and the manual."
+        "q": "What needles does the Juki MO-654DE take?",
+        "a": "Juki's page lists household HAx1 needles in sizes 11 to 14 and the manual lists 130/705H, the same household flat-shank family. One owner traced a no-serge fault to timing and wrong-sized needles, so match the size to the manual before blaming the machine."
       }
     ],
     "realCost": [

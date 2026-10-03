@@ -1,0 +1,910 @@
+{
+  "slug": "grace-qnique-15r",
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy (instructed 2026-10-02, via Claude; human review after live)",
+  "reviewedOn": "2026-10-02",
+  "generated": "2026-10-02",
+  "method": {
+    "sources": 25,
+    "itemsCollected": 192,
+    "statements": 58,
+    "voices": 23,
+    "ownerVoices": 17,
+    "dateRange": [
+      2014,
+      2025
+    ],
+    "byClass": {
+      "reddit": {
+        "sources": 9,
+        "items": 96
+      },
+      "editorial": {
+        "sources": 9,
+        "items": 9
+      },
+      "forum": {
+        "sources": 6,
+        "items": 6
+      },
+      "retailer": {
+        "sources": 1,
+        "items": 79
+      }
+    },
+    "blocked": 9,
+    "evidence": "strong",
+    "pooledExcluded": 0,
+    "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+  },
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "The 15R was renamed from the Q'nique 14+ (Leah Day says it is the same machine) and dealers sold it as the BlockRockIt, so older posts under those names are included where the writer says it is the same machine. Posts about the 15 PRO, 15M, 19 and 21 are kept out of the 15R counts.",
+    "Sewing Machines Plus's Q'nique listing (4.49 of 5 across 79 reviews, 2014 to 2024) pools buyers of several Q'nique heads and now sells a recertified 15 PRO. Only the review that names the 15R is counted here, so the listing's rating describes the Q'nique family, not the 15R alone.",
+    "Facebook group posts (the largest Q'nique community) could not be read. Amazon and Walmart have no 15R listing, and Grace's own 15R product page no longer sells the machine, so there are no rating pages for the 15R itself. YouTube comments are not collected.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented. Several of the longer voices are Grace dealers or partners (Leah Day discloses a dealer and partner relationship).",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Many of these threads are people asking for help with tension or a fault, so problems are over-represented, and the one retailer rating we have (Sewing Machines Plus, 4.49 of 5) covers the whole Q'nique family, not the 15R. Counts are per page or thread, so a long forum thread is one voice.",
+  "summary": "Owners of the Grace Q'nique 15R describe a simple, affordable machine with stitch regulation, and the same three topics come up again and again. Those who like it praise Grace's phone support, call it a good machine to learn on, and say it glides well once the thread and tension are dialed in. The repeated complaints are that tension takes a lot of thread and patience to set, that the 15 in throat limits how much of a block fits in one pass so people outgrow it, and that some units had electronics trouble such as motherboard, sensor or bobbin winder failures that meant shipping the machine back to Grace. This read covers 9 Reddit threads, 9 blog, dealer and maker pages, 6 forum threads and one retailer listing, from 2014 to 2025, and a few of the longer voices are Grace dealers or partners. Reddit and forum threads lean toward people asking for help, so problems are over-represented here.",
+  "themes": [
+    {
+      "theme": "throat_workspace",
+      "label": "Throat and workspace",
+      "statements": 17,
+      "voices": 10,
+      "ownerVoices": 7,
+      "sources": 8,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3,
+        "editorial": 4,
+        "forum": 3
+      },
+      "polarity": {
+        "positive": 1,
+        "negative": 4,
+        "mixed": 3,
+        "neutral": 2
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c589f290b",
+          "polarity": "negative",
+          "claim": "On the 10 ft Continuum frame she is limited to about a 90 by 90 inch quilt.",
+          "quote": "I'm limited to a 90 x 90 quilt",
+          "url": "https://forum.missouriquiltco.com/forum/missouri-star-quilt-company/product-discussion/1990241-q-nique-15r-long-arm",
+          "source_class": "forum"
+        },
+        {
+          "claim_id": "c258c94c6",
+          "polarity": "negative",
+          "claim": "A 15R owner wishes they had more space than the 15 in throat gives.",
+          "quote": "I have a 15r and definitely wish I had more space",
+          "url": "https://www.reddit.com/r/quilting/comments/1kaaj92/joanns_qnique_15r_floor_model/mpn6zgl/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c6336cadc",
+          "polarity": "positive",
+          "claim": "She says the 15R is a perfect fit for people who make small quilts with small blocks and do not need speed.",
+          "quote": "then a Qnique 15R will be a perfect fit",
+          "url": "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "c71bd1d82",
+          "polarity": "positive",
+          "claim": "A UK owner of the 14+ (15R) calls the large arm space the best thing about it, the main reason she bought it.",
+          "quote": "the best thing has to be the huge arm space",
+          "url": "https://graceframe.com/en/resources/blog/great-qnique-quilter-review",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "cd3a30649",
+          "polarity": "mixed",
+          "claim": "The same owner says the quilting area of a 15 in machine is not that big and moved up to a 10 ft frame and larger machine.",
+          "quote": "is not that big.",
+          "url": "https://www.quiltingboard.com/main-f1/handiquilter-16-qnique-15-16%94-t314884.html",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "ceb455b29",
+        "c258c94c6",
+        "c5e3b0657",
+        "cdda9990f",
+        "c71bd1d82",
+        "c357ce64a",
+        "cd3a30649",
+        "c13222fef",
+        "ce87edaf8",
+        "c6b91c028",
+        "ca1422484",
+        "c589f290b",
+        "c8e80ff59",
+        "c9936a9ee",
+        "cbf319507",
+        "c6336cadc",
+        "c8a9301e5"
+      ]
+    },
+    {
+      "theme": "reliability_defects",
+      "label": "Reliability and defects",
+      "statements": 15,
+      "voices": 8,
+      "ownerVoices": 8,
+      "sources": 7,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3,
+        "editorial": 2,
+        "forum": 3
+      },
+      "polarity": {
+        "positive": 3,
+        "negative": 4,
+        "mixed": 1,
+        "neutral": 0
+      },
+      "years": [
+        2023,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "ca6d0291b",
+          "polarity": "negative",
+          "claim": "An owner of a used 15R and frame says a large number of these machines had motherboard failures that need factory repair.",
+          "quote": "An insane amount of them had the motherboards go out",
+          "url": "https://www.reddit.com/r/quilting/comments/1kaaj92/joanns_qnique_15r_floor_model/mpm6xu9/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c763c665f",
+          "polarity": "negative",
+          "claim": "A reader with a Grace 14+ reports skipped stitches going up and down despite cleaning and checking tension.",
+          "quote": "I have an issue with skipping of stitches going up & down.",
+          "url": "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "ccd3a29a2",
+          "polarity": "positive",
+          "claim": "The reviewer says she loves her Qnique 15R / 14+ and has finished many more quilts on it.",
+          "quote": "I love my Grace Qnique 15R / 14+",
+          "url": "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "c991ecc81",
+          "polarity": "positive",
+          "claim": "A second owner of the same machine calls it a gem.",
+          "quote": "I have the same machine and it's been a gem.",
+          "url": "https://www.reddit.com/r/quilting/comments/16x41xc/eek_qnique_15r_issues/k37hrn7/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c7997470c",
+          "polarity": "mixed",
+          "claim": "A 15R owner had the tension assembly spring break and Grace sent a replacement and talked her through the fix.",
+          "quote": "the spring on the tension assembly broke",
+          "url": "https://forum.missouriquiltco.com/forum/missouri-star-quilt-company/product-discussion/1990241-q-nique-15r-long-arm",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "cb31765f9",
+        "cc09e1bee",
+        "cf2c99bef",
+        "c991ecc81",
+        "ca6d0291b",
+        "ccd3a29a2",
+        "c763c665f",
+        "c18bc110a",
+        "c5641e159",
+        "cd133b9bd",
+        "cdc1b1cc0",
+        "c7997470c",
+        "c736997fe",
+        "c3ba01d59",
+        "ca5bdc422"
+      ]
+    },
+    {
+      "theme": "support_service",
+      "label": "Dealer support and service",
+      "statements": 8,
+      "voices": 8,
+      "ownerVoices": 6,
+      "sources": 7,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit",
+        "retailer"
+      ],
+      "classVoices": {
+        "reddit": 3,
+        "editorial": 2,
+        "forum": 2,
+        "retailer": 1
+      },
+      "polarity": {
+        "positive": 5,
+        "negative": 3,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2021,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "cbb832d88",
+          "polarity": "negative",
+          "claim": "The owner paid a little over $300 to ship the machine back to Grace for repair and says the original box is required.",
+          "quote": "It was a little over $300 for me to ship mine",
+          "url": "https://www.reddit.com/r/quilting/comments/1kaaj92/joanns_qnique_15r_floor_model/mpm6xu9/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c3fe474be",
+          "polarity": "positive",
+          "claim": "She says customer support has been fantastic.",
+          "quote": "customer support has been fantastic",
+          "url": "https://graceframe.com/en/resources/blog/great-qnique-quilter-review",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "c5dae61ee",
+          "polarity": "positive",
+          "claim": "The same owner says Grace's customer service is very good at walking owners through troubleshooting.",
+          "quote": "Their customer service is actually very good.",
+          "url": "https://www.reddit.com/r/quilting/comments/16x41xc/eek_qnique_15r_issues/k37hrn7/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "c5dae61ee",
+        "c08347902",
+        "cbb832d88",
+        "c833d135e",
+        "c3fe474be",
+        "c4031e68a",
+        "c8592adb4",
+        "c183828a4"
+      ]
+    },
+    {
+      "theme": "tension",
+      "label": "Tension",
+      "statements": 9,
+      "voices": 6,
+      "ownerVoices": 5,
+      "sources": 6,
+      "sourceClasses": [
+        "editorial",
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 3,
+        "editorial": 2,
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 3,
+        "mixed": 3,
+        "neutral": 0
+      },
+      "years": [
+        2024,
+        2025
+      ],
+      "recurrence": "recurring",
+      "examples": [
+        {
+          "claim_id": "c915d98d4",
+          "polarity": "negative",
+          "claim": "A 15R owner under a year old says the recommended Finesse thread frays and breaks and setting tension is a nightmare.",
+          "quote": "Setting the tension is a nightmare!",
+          "url": "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "c407eb1de",
+          "polarity": "negative",
+          "claim": "A 15R owner reports breaking thread and uneven tension despite changing bobbins, needles, thread and settings.",
+          "quote": "I am having breaking thread and uneven tension.",
+          "url": "https://www.reddit.com/r/quilting/comments/1hk3ai0/at_a_loss_man_vs_machine/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "cc5f242a5",
+          "polarity": "mixed",
+          "claim": "The reviewer found the machine fussy about thread and says poly core quilting thread was too linty.",
+          "quote": "the machine can be a bit fussy with the threads it likes",
+          "url": "https://graceframe.com/en/resources/blog/great-qnique-quilter-review",
+          "source_class": "editorial"
+        },
+        {
+          "claim_id": "ca9e51f43",
+          "polarity": "mixed",
+          "claim": "An owner of a refurbished unit fought tension problems for over a year until resetting the timing, then had smooth quilting.",
+          "quote": "I fought with tension issues for over a year until I reset the timing",
+          "url": "https://www.reddit.com/r/Longarm_show_n_tell/comments/1fm9ujn/longarm_beginner_help/lofce7p/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "ca9e51f43",
+        "c407eb1de",
+        "c1e7f1aa1",
+        "ccd21f427",
+        "c0fb329db",
+        "c42184428",
+        "c915d98d4",
+        "cc5f242a5",
+        "c940c0c56"
+      ]
+    },
+    {
+      "theme": "oiling_maintenance",
+      "label": "Oiling and maintenance",
+      "statements": 3,
+      "voices": 3,
+      "ownerVoices": 3,
+      "sources": 2,
+      "sourceClasses": [
+        "editorial",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 2,
+        "editorial": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 1,
+        "mixed": 0,
+        "neutral": 2
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "cea2c0a14",
+          "polarity": "negative",
+          "claim": "The owner warns that the machine and its parts are about to be obsolete within a few years.",
+          "quote": "about to be obsolete in a few years along with the parts",
+          "url": "https://www.reddit.com/r/quilting/comments/1kaaj92/joanns_qnique_15r_floor_model/mpm6xu9/",
+          "source_class": "reddit"
+        }
+      ],
+      "claimIds": [
+        "cea2c0a14",
+        "c1b094ebb",
+        "c21807177"
+      ]
+    },
+    {
+      "theme": "learning_curve",
+      "label": "Learning curve",
+      "statements": 2,
+      "voices": 2,
+      "ownerVoices": 2,
+      "sources": 2,
+      "sourceClasses": [
+        "forum",
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1,
+        "forum": 1
+      },
+      "polarity": {
+        "positive": 2,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 0
+      },
+      "years": [
+        2025,
+        2025
+      ],
+      "recurrence": "reported",
+      "examples": [
+        {
+          "claim_id": "c173cf5c0",
+          "polarity": "positive",
+          "claim": "The same owner calls it a great machine to learn on.",
+          "quote": "It has been a great machine to learn on",
+          "url": "https://www.reddit.com/r/quilting/comments/1kaaj92/joanns_qnique_15r_floor_model/mpm6xu9/",
+          "source_class": "reddit"
+        },
+        {
+          "claim_id": "c76717eb9",
+          "polarity": "positive",
+          "claim": "An owner of the BlockRockIt 15R, which she says is the same machine, finds it user friendly and almost 100 percent happy.",
+          "quote": "It is very user friendly and I'm almost 100% happy with it.",
+          "url": "https://forum.missouriquiltco.com/forum/missouri-star-quilt-company/product-discussion/1990241-q-nique-15r-long-arm",
+          "source_class": "forum"
+        }
+      ],
+      "claimIds": [
+        "c173cf5c0",
+        "c76717eb9"
+      ]
+    },
+    {
+      "theme": "free_motion",
+      "label": "Free-motion quilting",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 1,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2024,
+        2024
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "c4262e5ef"
+      ]
+    },
+    {
+      "theme": "value_price",
+      "label": "Value and price",
+      "statements": 1,
+      "voices": 1,
+      "ownerVoices": 0,
+      "sources": 1,
+      "sourceClasses": [
+        "reddit"
+      ],
+      "classVoices": {
+        "reddit": 1
+      },
+      "polarity": {
+        "positive": 0,
+        "negative": 0,
+        "mixed": 0,
+        "neutral": 1
+      },
+      "years": [
+        2021,
+        2021
+      ],
+      "recurrence": "one-off",
+      "examples": [],
+      "claimIds": [
+        "cdffbfb16"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "retailer": "sewingmachinesplus.com",
+      "url": "https://sewingmachinesplus.com/products/qnique-long-arm-quilter",
+      "pageRating": 4.49,
+      "pageCount": 79,
+      "fetched": "2026-10-02",
+      "distribution": {
+        "1": 4,
+        "2": 2,
+        "3": 4,
+        "4": 10,
+        "5": 59
+      },
+      "lowRated": 10,
+      "sampled": null
+    }
+  ],
+  "documentChecks": [
+    {
+      "label": "Speed",
+      "juki": "1,800 stitches per minute maximum, 90 minimum (manual).",
+      "others": "Dealers repeat 1,800.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Grace 15R page",
+          "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+        },
+        {
+          "label": "Grace 15R manual",
+          "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+        }
+      ],
+      "field": "maxSpm",
+      "source": "manual"
+    },
+    {
+      "label": "Throat space",
+      "juki": "15 in wide by 8.5 in high, needle to back of the work area.",
+      "others": "Dealers call it a midarm; Grace's own page also says midarm.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Grace 15R page",
+          "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+        },
+        {
+          "label": "Grace 15R manual",
+          "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+        }
+      ],
+      "field": "throatIn",
+      "source": "manual"
+    },
+    {
+      "label": "Weight",
+      "juki": "42 lb (19 kg) per the manual.",
+      "others": "Sew Vac Direct lists 42 lb.",
+      "status": "confirmed",
+      "links": [
+        {
+          "label": "Grace 15R manual",
+          "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+        }
+      ],
+      "field": "weightLb",
+      "source": "manual"
+    },
+    {
+      "label": "Overall size",
+      "juki": "480 mm high, 395 mm wide, 585 mm long (19 x 15.5 x 23 in).",
+      "others": "No dealer lists dimensions.",
+      "status": "unverified",
+      "links": [
+        {
+          "label": "Grace 15R manual",
+          "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+        }
+      ],
+      "field": "dimensionsIn",
+      "source": "manual"
+    },
+    {
+      "label": "Stitch regulation",
+      "juki": "Regulated Precise and Cruise modes, Manual and Baste, 4 to 16 stitches per inch.",
+      "others": "Leah Day describes the sit down 14+ / 15R as unregulated (foot pedal).",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace 15R page",
+          "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+        },
+        {
+          "label": "Grace 15R manual",
+          "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+        }
+      ],
+      "field": "stitchRegulation",
+      "source": "manual"
+    },
+    {
+      "label": "Warranty",
+      "juki": "Machine page: electronics 1 yr, non-moving parts 2 yr, body 5 yr. Warranty page: 2 yr on electronic parts and 5 yr on the cast body. Not transferable.",
+      "others": "Dealers repeat 1 / 2 / 5.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace warranty page",
+          "url": "https://graceframe.com/en/page/warranty"
+        },
+        {
+          "label": "Grace 15R page",
+          "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+        }
+      ],
+      "field": "warrantyUs",
+      "source": "warranty"
+    },
+    {
+      "label": "Price",
+      "juki": "Machine-only MSRP $4,499.95; $6,499.90 with the Q-Zone Hoop, $6,699.90 with the Q-Zone Queen.",
+      "others": "Sew Vac Direct bundle with Q-Zone Queen seen at $5,198 on 2026-09-29; Google Shopping showed a recertified 15R at $3,099 (Sewing Machine Outlet).",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace 15R page",
+          "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+        }
+      ],
+      "field": "msrp",
+      "source": "maker-page"
+    },
+    {
+      "label": "Availability",
+      "juki": "Grace marks the 15R 'no longer available for new purchase'; service and warranty support continue.",
+      "others": "Dealers and recertified sellers still list it.",
+      "status": "differs",
+      "links": [
+        {
+          "label": "Grace 15R page",
+          "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+        }
+      ],
+      "field": "status",
+      "source": "maker-page"
+    }
+  ],
+  "siblings": [
+    {
+      "model": "Q'nique 15 PRO",
+      "label": "Grace Q'nique 15 PRO",
+      "rows": [
+        {
+          "feature": "Speed",
+          "urls": 3,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "The 15 PRO runs to 2,000 spm; the 15R to 1,800 spm.",
+          "check": "Grace comparison table and two dealer pages agree",
+          "examples": [
+            {
+              "claim_id": "cdaccb045",
+              "claim": "Leah Day lists the 15R at 1,800 spm with handlebar controls and the 15 PRO at 2,000 spm with a touchscreen.",
+              "quote": "can quilt 1800 stitches per minute and has the original handlebar controls",
+              "url": "https://freemotionproject.com/2021/10/which-longarm-machine-is-better"
+            },
+            {
+              "claim_id": "cacd1de0e",
+              "claim": "The same dealer page says the 15 Pro sews up to 2,000 spm.",
+              "quote": "Sews up to 2,000 stitches per minute",
+              "url": "https://reddeersewing.com/grace-qnique-15-pro-mid-arm-quilting-machine"
+            },
+            {
+              "claim_id": "c0100cbf7",
+              "claim": "A second dealer page states the 15R ran at 1,800 spm against 2,000 for the 15 PRO.",
+              "quote": "The Q'nique 15R boasted an impressive 1,800 stitches per minute",
+              "url": "https://www.sewingpartsonline.com/products/qnique-15-pro-midarm-quilting-machine-grace-company"
+            }
+          ],
+          "claimIds": [
+            "cdaccb045",
+            "cacd1de0e",
+            "c0100cbf7"
+          ]
+        },
+        {
+          "feature": "Screen",
+          "urls": 2,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "The 15 PRO has a full-color touch screen; the 15R has a full-color OLED screen and is driven from the handlebar buttons.",
+          "check": "Grace comparison table, 2026-10-02; Leah Day agrees",
+          "examples": [
+            {
+              "claim_id": "ca5a7a914",
+              "claim": "Leah Day says the 15R has no touchscreen and navigates menus with handlebar buttons, while the 15 PRO has a touchscreen.",
+              "quote": "The 15R and 21 I'm using don't have a touchscreen.",
+              "url": "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro"
+            },
+            {
+              "claim_id": "c01723a53",
+              "claim": "A dealer page lists a new touch screen as the first major difference of the 15 Pro over the 15R.",
+              "quote": "New convenient touch screen",
+              "url": "https://reddeersewing.com/grace-qnique-15-pro-mid-arm-quilting-machine"
+            }
+          ],
+          "claimIds": [
+            "ca5a7a914",
+            "c01723a53"
+          ]
+        },
+        {
+          "feature": "Motor power",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "Dealers call the 15 PRO motor more powerful. The 15 PRO listing and the 15R manual both give 300 W peak power, so the difference is a speed rating, not a published wattage.",
+          "check": "dealer wording; 300 W figures from the 15R manual and a dealer 15 PRO page",
+          "examples": [
+            {
+              "claim_id": "c737cb7d5",
+              "claim": "The dealer page lists a more powerful motor as another 15 Pro difference.",
+              "quote": "More powerful motor",
+              "url": "https://reddeersewing.com/grace-qnique-15-pro-mid-arm-quilting-machine"
+            }
+          ],
+          "claimIds": [
+            "c737cb7d5"
+          ]
+        },
+        {
+          "feature": "Price",
+          "urls": 0,
+          "classes": [],
+          "summary": "Grace lists the 15 PRO at $4,999.95 machine only against $4,499.95 for the 15R.",
+          "check": "Grace 15R and 15 Pro pages, 2026-10-02; list prices, not live prices",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Stitch regulation",
+          "urls": 0,
+          "classes": [],
+          "summary": "Both have stitch regulation with Precise, Cruise, Baste and Manual modes and the same 15 in throat.",
+          "check": "Grace comparison table, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Q'nique 19",
+      "label": "Grace Q'nique 19 (now 19X)",
+      "rows": [
+        {
+          "feature": "Screen",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "The 19 and 15 PRO have touchscreens that are easier to use than the 15R's handlebar buttons.",
+          "check": "one reviewer; Grace's 19X page not fetched",
+          "examples": [
+            {
+              "claim_id": "cef589690",
+              "claim": "She says the 19 and 15 PRO have touchscreen monitors that are easier to navigate than the 15R.",
+              "quote": "both come with touchscreen monitors that are easier to navigate",
+              "url": "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro"
+            }
+          ],
+          "claimIds": [
+            "cef589690"
+          ]
+        },
+        {
+          "feature": "Throat space",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "The Q'nique 19 (now the 19X) has 19 in of throat against 15 in. Leah Day frames the gap as barely fitting a 10 in block versus easily quilting a 14 in block.",
+          "check": "one reviewer who is a Grace partner; 19X not checked against Grace's own page",
+          "examples": [
+            {
+              "claim_id": "cd4cfb059",
+              "claim": "She frames the four inch throat gap as the difference between barely fitting a 10 in block and easily quilting a 14 in block.",
+              "quote": "That four inches of difference between the Qnique 19 and Qnique 15 longarms",
+              "url": "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro"
+            }
+          ],
+          "claimIds": [
+            "cd4cfb059"
+          ]
+        },
+        {
+          "feature": "Speed",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "Leah Day calls the 15R, 15 PRO and 19 very similar on speed in one post and gives 1,800 against 2,000 spm in another.",
+          "check": "one reviewer, two posts that disagree; not checked against Grace's 19X page",
+          "examples": [
+            {
+              "claim_id": "ca49a5b49",
+              "claim": "She says the 15R, 15 PRO and 19 are very similar on speed.",
+              "quote": "these longarms are very similar on speed",
+              "url": "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro"
+            }
+          ],
+          "claimIds": [
+            "ca49a5b49"
+          ]
+        }
+      ]
+    },
+    {
+      "model": "Q'nique 16X",
+      "label": "Grace Q'nique 16X",
+      "rows": [
+        {
+          "feature": "Naming and status",
+          "urls": 1,
+          "classes": [
+            "editorial"
+          ],
+          "summary": "Leah Day lists the 15R as now the 16X and a dealer says the 15 PRO was replaced by the 16X. Grace's 15R page does not name a replacement and points buyers to the 15 Pro.",
+          "check": "naming sources disagree with Grace's own pages",
+          "examples": [
+            {
+              "claim_id": "c13cb57d8",
+              "claim": "Leah Day's naming note lists the 15R as now the 16x and the 15 PRO as now the 16X Elite.",
+              "quote": "Qnique 15R (Now 16x)",
+              "url": "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro"
+            }
+          ],
+          "claimIds": [
+            "c13cb57d8"
+          ]
+        },
+        {
+          "feature": "Availability",
+          "urls": 0,
+          "classes": [],
+          "summary": "Grace's 15R page says the 15R is no longer available for new purchase and lists the 16X among current machines.",
+          "check": "Grace 15R page, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    },
+    {
+      "model": "Q'nique 15M",
+      "label": "Grace Q'nique 15M",
+      "rows": [
+        {
+          "feature": "Stitch regulation",
+          "urls": 0,
+          "classes": [],
+          "summary": "The 15M has no stitch regulation (constant speed manual mode only); the 15R regulates stitch length in Precise and Cruise modes.",
+          "check": "Grace comparison table, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Screen",
+          "urls": 0,
+          "classes": [],
+          "summary": "The 15M has an LCD number read-out; the 15R has a full-color OLED screen.",
+          "check": "Grace comparison table, 2026-10-02",
+          "examples": [],
+          "claimIds": []
+        },
+        {
+          "feature": "Price",
+          "urls": 0,
+          "classes": [],
+          "summary": "Grace lists the 15M at $3,499.95 machine only against $4,499.95 for the 15R. Both run to 1,800 spm.",
+          "check": "Grace 15R page, 2026-10-02; list prices, not live prices",
+          "examples": [],
+          "claimIds": []
+        }
+      ]
+    }
+  ],
+  "rivals": []
+}

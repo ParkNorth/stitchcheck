@@ -1,0 +1,297 @@
+{
+  "slug": "handi-quilter-sweet-sixteen",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "handi quilter sweet sixteen",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "handi quilter sweet sixteen",
+        "hq sweet sixteen",
+        "hq sweet 16"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/handi-quilter-sweet-sixteen.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "Is the Handi Quilter Sweet Sixteen discontinued?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Handi Quilter Sweet Sixteen discontinued?",
+      "answeredFrom": "manufacturer.json status; data/specs conflicts",
+      "note": "Also appears as a Google related search on the bare model query."
+    },
+    {
+      "q": "What replaced the Sweet Sixteen?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What replaced the Handi Quilter Sweet Sixteen?",
+      "answeredFrom": "manufacturer.json status; rollup.json siblings (Moxie, Moxie ST)"
+    },
+    {
+      "q": "how much does a hq sweet sixteen cost",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how much does a hq sweet sixteen cost",
+      "scope": "this",
+      "use": true,
+      "faq": "How much does a Handi Quilter Sweet Sixteen cost?",
+      "answeredFrom": "manufacturer.json price; data/specs priceUsdSeen with date",
+      "note": "Also a Google related search ('price') and the briefing's used-machine value question."
+    },
+    {
+      "q": "handi quilter sweet sixteen reviews",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "handi quilter sweet sixteen reviews",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Handi Quilter Sweet Sixteen?",
+      "answeredFrom": "rollup.json themes and ratings"
+    },
+    {
+      "q": "Does the Sweet Sixteen have a stitch regulator?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Handi Quilter Sweet Sixteen have a stitch regulator?",
+      "answeredFrom": "manufacturer.json stitchRegulation; rollup.json free_motion theme",
+      "note": "The SERP also asks 'Do I need a stitch regulator?' and 'Which sit down quilting machines have a stitch regulator?', both category questions."
+    },
+    {
+      "q": "How big is the Sweet Sixteen throat?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How big is the throat on the Handi Quilter Sweet Sixteen?",
+      "answeredFrom": "manufacturer.json throatIn, throatHeightIn"
+    },
+    {
+      "q": "How fast does the Sweet Sixteen sew?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How fast does the Handi Quilter Sweet Sixteen sew?",
+      "answeredFrom": "manufacturer.json maxSpm; data/specs conflicts"
+    },
+    {
+      "q": "Can you put a Sweet Sixteen on a frame?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to convert hq sweet sixteen to standup machine",
+      "scope": "this",
+      "use": true,
+      "faq": "Can you put a Handi Quilter Sweet Sixteen on a frame?",
+      "answeredFrom": "data/specs frame; rollup.json throat_workspace theme (owner report)"
+    },
+    {
+      "q": "What bobbin and needle does the Sweet Sixteen use?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What needle and bobbin does the Handi Quilter Sweet Sixteen use?",
+      "answeredFrom": "manufacturer.json needleSystem, hookBobbin"
+    },
+    {
+      "q": "Is the Sweet Sixteen a longarm or a midarm?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered inside the throat answer (16 in sits in the mid-arm band)."
+    },
+    {
+      "q": "How does the Sweet Sixteen compare with the Juki Miyabi or a Juki TL?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "No head-to-head evidence in the rollup; the Juki TL read is on its own page."
+    },
+    {
+      "q": "what is the difference between a handi quilter sweet sixteen and a handi quilter sweet sixteen plus",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "what is the difference between a handi quilter sweet sixteen and a handi quilter sweet sixteen plus",
+      "scope": "sibling",
+      "use": false,
+      "reason": "No maker document or owner evidence on a Sweet Sixteen Plus."
+    },
+    {
+      "q": "how to oil hq sweet sixteen",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to oil hq sweet sixteen",
+      "scope": "this",
+      "use": false,
+      "reason": "Oiling steps are in the maker manual we did not summarise; owners only say it is fairly easy to maintain."
+    },
+    {
+      "q": "what causes thread to skip and shred on hq sweet sixteen",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "what causes thread to skip and shred on hq sweet sixteen",
+      "scope": "this",
+      "use": false,
+      "reason": "Troubleshooting answer; our evidence is owner themes, not a diagnosis."
+    },
+    {
+      "q": "how much setup room is needed for an hq sweet sixteen longarm",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how much setup room is needed for an hq sweet sixteen longarm",
+      "scope": "this",
+      "use": false,
+      "reason": "The maker gives no table footprint we could confirm."
+    },
+    {
+      "q": "handi quilter sweet sixteen for sale",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 50,
+      "volumeKeyword": "handi quilter sweet sixteen for sale",
+      "scope": "this",
+      "use": false,
+      "reason": "Retail-intent search; the price and discontinued answers carry the answerable part."
+    },
+    {
+      "q": "used handi quilter sweet sixteen for sale",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 30,
+      "volumeKeyword": "used handi quilter sweet sixteen for sale",
+      "scope": "this",
+      "use": false,
+      "reason": "Retail-intent search; no used-market price evidence."
+    },
+    {
+      "q": "Which long arm quilting machine is best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "What is the 60 30 10 rule for quilting?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model."
+    },
+    {
+      "q": "What format does Handi Quilter use?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model."
+    },
+    {
+      "q": "Do I need a stitch regulator?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; the model-specific regulator answer is in the FAQ."
+    },
+    {
+      "q": "What stitch length should I set for free motion quilting?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model."
+    },
+    {
+      "q": "Which sewing machines have a built-in stitch regulator?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "What is the most trouble-free sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "Which sit down quilting machines have a stitch regulator?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "Does Brother have a stitch regulator for quilting?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model."
+    }
+  ]
+}

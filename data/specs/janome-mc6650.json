@@ -119,15 +119,16 @@
   ],
   "evidence": "owner",
   "buyerQuestions": [
+    "What are people saying about the Janome MC6650 sewing machine?",
+    "What is the price of a Janome MC6650 sewing machine?",
     "Does the Janome MC6650 have a free arm?",
     "Does the Janome MC6650 come with a walking foot?",
     "How much throat space does the Janome MC6650 have?",
     "Is the Janome MC6650 good for quilting?",
     "Is the Janome MC6650 heavy duty enough for denim?",
-    "What is the difference between the Janome MC6650 and the Skyline S5?",
-    "Does the MC6650 have a knee lifter?",
+    "What is the difference between the Janome MC6650 and the MC6700P?",
     "How much does the Janome MC6650 weigh?",
-    "Does the Janome MC6650 have AcuFeed?"
+    "What is the difference between the Janome MC6650 and the Skyline S5?"
   ],
   "crossShop": [
     {
@@ -182,44 +183,40 @@
     ],
     "faqs": [
       {
-        "q": "Does the Janome MC6650 have a free arm?",
-        "a": "No. Janome describes a 10 in all-metal seamless flatbed, and review roundups flag the lack of a free arm as a limit for cuffs and sleeves."
+        "q": "What do owners say about the Janome Memory Craft 6650?",
+        "a": "Across 28 Reddit threads and 2 retailer pages from 2019 to 2026, owners mostly praise the wide throat for quilting, the stitch quality and the automatic thread cutter. The repeated complaints are a needle threader that does not always work, a cutter that sometimes does not cut, and no walking foot in the box. Reddit leans toward people asking for help, so problems are over-represented. Amazon showed 4.6 from 312 ratings as of 2026-10-01; retailer ratings are seller-collected and skew positive."
       },
       {
-        "q": "Does the Janome MC6650 come with a walking foot?",
-        "a": "Not as a standard accessory. Janome lists AcuFeed as optional on the 6650, and owners report buying a walking foot separately."
+        "q": "How much does the Janome Memory Craft 6650 cost?",
+        "a": "Janome lists a suggested retail of $2,999 and says to contact a dealer. Amazon showed $2,099 on 2026-10-01, so buyers can pay well under list. Check what a listing includes before comparing prices."
       },
       {
-        "q": "How much throat space does the Janome MC6650 have?",
-        "a": "Janome does not publish a needle-to-arm figure. It gives a 10 in wide by 4.7 in high workspace and a 10 in flatbed, so our throat spec shows [verify]."
+        "q": "Does the Janome Memory Craft 6650 have a free arm?",
+        "a": "No. Janome describes a 10 in all-metal seamless flatbed and lists no free arm. Review roundups flag the lack of a free arm as a limit for cuffs and sleeves."
       },
       {
-        "q": "Is the Janome MC6650 good for quilting?",
-        "a": "Owners report the wide workspace works for large quilts, and Janome lists 1,000 spm and a free motion quilting foot set. Treat the 10 in as workspace width, not a long-arm throat."
+        "q": "Does the Janome Memory Craft 6650 come with a walking foot?",
+        "a": "Not as a standard accessory. Janome lists AcuFeed as an optional accessory on the 6650 and as built in on the 6700P, and one owner notes that no even feed (walking) foot came with the machine and wishes it had. A quilter's long-form review says her experience was poor until she bought the walking foot that is not in the box."
       },
       {
-        "q": "Is the Janome MC6650 heavy duty enough for denim?",
-        "a": "Janome does not put it in its HD series; the Heavy Duty title is a retailer listing claim. Main motor type and wattage are not published, so we cannot spec-check denim capability."
+        "q": "How much throat space does the Janome Memory Craft 6650 have?",
+        "a": "Janome does not publish a needle-to-arm figure, so throat is [verify]. It gives a workspace of W 10 in x H 4.7 in and a 10 in all-metal seamless flatbed. Dealers and owners call it a 10 in throat, but that is Janome's workspace wording, and owners praise it as very wide."
       },
       {
-        "q": "What is the difference between the Janome MC6650 and the MC6700P?",
-        "a": "Per Janome's pages, the 6700P adds 200 stitches and 5 alphabets, 1,200 spm, built-in AcuFeed and 17 feet, at $3,999 MSRP against $2,999. Janome gives it the same size, weight and 10 in flatbed."
+        "q": "Is the Janome Memory Craft 6650 good for quilting?",
+        "a": "Owners report the wide workspace works for large quilts, including a three-year owner who made quilts up to king size, and Janome lists 1,000 spm and a free motion quilting foot set. One owner reports the machine struggles when quilt top seams stack three or more deep. Treat the 10 in as workspace width, not a long-arm throat."
       },
       {
-        "q": "Does the Janome MC6650 have a knee lifter?",
-        "a": "Janome lists a knee lift on the 6700P. For the 6650, Janome lists an extra high presser foot lift of about 7 mm above the normal raised position."
+        "q": "Is the Janome Memory Craft 6650 heavy duty enough for denim?",
+        "a": "One owner sewed four layers of heavy denim plus two layers of interfacing without trouble. Janome does not put it in its HD series; the Heavy Duty title is a Walmart listing claim, and Janome publishes no main motor type or wattage, so we cannot spec-check denim capability."
       },
       {
-        "q": "How much does the Janome MC6650 weigh?",
-        "a": "Janome lists 24.25 lb and W 20.3 x H 11.8 x D 8.6 in."
+        "q": "What is the difference between the Janome Memory Craft 6650 and the 6700P?",
+        "a": "Per Janome's pages, the 6700P has 200 stitches plus 5 alphabets against the 6650's 170 plus 2, 1,200 spm against 1,000, and built-in AcuFeed where the 6650 has it as an option. Janome lists $3,999 MSRP for the 6700P against $2,999 for the 6650, with the same size, weight and 10 in flatbed."
       },
       {
-        "q": "Does the Janome MC6650 have AcuFeed?",
-        "a": "Not built in. Janome lists AcuFeed as an optional accessory on the 6650 and as built in on the 6700P."
-      },
-      {
-        "q": "Is the warranty valid if I buy on Amazon or at Costco?",
-        "a": "Per OCR of Janome's warranty PDF, it is void if the machine is not bought from an authorized Janome dealer in the United States. Verify the wording against the PDF and confirm the seller is authorized."
+        "q": "How much does the Janome Memory Craft 6650 weigh?",
+        "a": "Janome lists 24.25 lb and W 20.3 x H 11.8 x D 8.6 in. One owner values the machine weight for quilting stability compared with a small Brother."
       }
     ]
   },

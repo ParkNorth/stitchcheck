@@ -1,0 +1,277 @@
+{
+  "slug": "janome-8002d",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "janome 8002d",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "janome 8002d",
+        "janome 8002 d"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/janome-8002d.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "What is the price of the Janome 8002D overlocker?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "janome 8002d serger price",
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Janome 8002D cost?",
+      "answeredFrom": "manufacturer.json price, warrantyUs; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "janome 8002d serger reviews",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 30,
+      "volumeKeyword": "janome 8002d serger reviews",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Janome 8002D?",
+      "answeredFrom": "rollup.json themes and ratings"
+    },
+    {
+      "q": "how to thread janome serger 8002d",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to thread janome serger 8002d",
+      "scope": "this",
+      "use": true,
+      "faq": "How do you thread the Janome 8002D?",
+      "answeredFrom": "manufacturer.json threadingSystem; rollup.json threading theme"
+    },
+    {
+      "q": "what needles does janome 8002d serger use",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "volumeKeyword": "what needles does janome 8002d serger use",
+      "scope": "this",
+      "use": true,
+      "faq": "What needles does the Janome 8002D use?",
+      "answeredFrom": "manufacturer.json needleSystem"
+    },
+    {
+      "q": "Is the Janome 8002D good for beginners?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Janome 8002D good for beginners?",
+      "answeredFrom": "manufacturer.json threadingSystem; rollup.json threading and learning_curve themes"
+    },
+    {
+      "q": "Does the Janome 8002D do a rolled hem?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Janome 8002D do a rolled hem?",
+      "answeredFrom": "manufacturer.json rolledHem; rollup.json rolled_hem theme"
+    },
+    {
+      "q": "Does the Janome 8002D do 2-thread stitches?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Janome 8002D do 2-thread stitches?",
+      "answeredFrom": "manufacturer.json threads; rollup.json siblings (AirThread 2000D)"
+    },
+    {
+      "q": "Does the Janome 8002D have a free arm?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Janome 8002D have a free arm?",
+      "answeredFrom": "manufacturer.json freeArm, throatIn"
+    },
+    {
+      "q": "How fast is the Janome 8002D?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "One figure (1,300 spm) that the spec table and key spec already show; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "Is the Janome 8002D the same as the Magnolia 7034D?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Janome has no page for a 7034D, so no equivalence can be stated from our evidence."
+    },
+    {
+      "q": "Janome 8002D vs Brother 1034D, which is better?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "volumeKeyword": "what is the difference between a brother 1034d serger and a janome 8002d serger?",
+      "scope": "sibling",
+      "use": false,
+      "reason": "No Brother 1034D head-to-head tally in this rollup (rivals are empty); the compare page carries it."
+    },
+    {
+      "q": "how do i do decorative stitches with my janome 8002d serger",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how do i do decorative stitches with my janome 8002d serger",
+      "scope": "this",
+      "use": false,
+      "reason": "A how-to; we hold no manual walkthrough and Janome lists no decorative stitch."
+    },
+    {
+      "q": "how to fix the differential on a janome 8002d",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to fix the differential on a janome 8002d",
+      "scope": "this",
+      "use": false,
+      "reason": "Troubleshooting how-to; our evidence is the 0.5 to 2.25 range only."
+    },
+    {
+      "q": "janome 8002d what fabric can be used",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "janome 8002d what fabric can be used",
+      "scope": "this",
+      "use": false,
+      "reason": "Janome publishes no fabric rating; owner evidence is thin (3 voices)."
+    },
+    {
+      "q": "who carries janome serger 8002d",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "who carries janome serger 8002d",
+      "scope": "this",
+      "use": false,
+      "reason": "Dealer lookup; the dealer locator carries it."
+    },
+    {
+      "q": "janome 8002d serger manual",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 30,
+      "volumeKeyword": "janome 8002d serger manual",
+      "scope": "this",
+      "use": false,
+      "reason": "A link, not an answer."
+    },
+    {
+      "q": "Which Janome sewing machine is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "What serger machine is best for a beginner?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "Which Janome overlocker is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "What are common problems with Janome?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; belongs on a guide."
+    },
+    {
+      "q": "Which is the easiest overlocker to use?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "What is the best overlocker for a beginner?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "Is there a difference between a serger and an overlock machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "What is the best overlock machine for home use?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    }
+  ]
+}

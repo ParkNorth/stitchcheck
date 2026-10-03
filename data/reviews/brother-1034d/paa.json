@@ -1,0 +1,250 @@
+{
+  "slug": "brother-1034d",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "brother 1034d",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search drops related_questions, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "brother 1034d",
+        "brother 1034 d",
+        "brother 1034d serger"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/brother-1034d.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "Is the Brother 1034D a good serger?",
+      "sources": [
+        "paa"
+      ],
+      "volume": 60,
+      "volumeKeyword": "brother 1034d serger reviews",
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Brother 1034D a good serger, according to owners?",
+      "answeredFrom": "rollup.json themes (reliability_defects, threading), ratings and ownerNote"
+    },
+    {
+      "q": "What's the difference between Brother 1034D and 1034dx?",
+      "sources": [
+        "paa",
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 250,
+      "volumeKeyword": "brother 1034d vs 1034dx",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Brother 1034D and the 1034DX?",
+      "answeredFrom": "rollup.json siblingSummaries (1034DX), Brother product pages 2026-10-01"
+    },
+    {
+      "q": "Can a Brother 1034D do a cover stitch?",
+      "sources": [
+        "paa",
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can the Brother 1034D do a coverstitch?",
+      "answeredFrom": "data/specs stitchTypes, threads; manufacturer.json threads"
+    },
+    {
+      "q": "How much does a Brother 1034D serger cost?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 60,
+      "volumeKeyword": "brother 1034d price",
+      "scope": "this",
+      "use": true,
+      "faq": "What is the price of the Brother 1034D?",
+      "answeredFrom": "manufacturer.json msrp; data/specs priceUsdSeen with date; conflicts"
+    },
+    {
+      "q": "Is the Brother 1034D serger discontinued?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Brother 1034D discontinued?",
+      "answeredFrom": "manufacturer.json msrp (Brother USA listing 2026-10-01); data/specs discontinued"
+    },
+    {
+      "q": "how to thread brother 1034d",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 60,
+      "volumeKeyword": "how to thread brother 1034d",
+      "scope": "this",
+      "use": true,
+      "faq": "How do you thread the Brother 1034D?",
+      "answeredFrom": "manufacturer.json features; rollup.json threading theme"
+    },
+    {
+      "q": "Is the 1034D a good first serger?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Brother 1034D good for beginners?",
+      "answeredFrom": "rollup.json threading theme; data/specs editorial checks"
+    },
+    {
+      "q": "Can the 1034D do a rolled hem without changing plates?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can the Brother 1034D do a rolled hem?",
+      "answeredFrom": "data/specs rolledHem; rollup.json rolled_hem theme"
+    },
+    {
+      "q": "How loud is the 1034D?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How loud is the Brother 1034D?",
+      "answeredFrom": "rollup.json noise_vibration theme"
+    },
+    {
+      "q": "Is the Brother 1034D an overlock machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Folded into the coverstitch answer, which states the stitch list."
+    },
+    {
+      "q": "Should I buy a serger or coverstitch?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "Which serger is better, Singer or Brother?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "Which Brother serger is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand line question; belongs on a guide."
+    },
+    {
+      "q": "brother 1034d manual",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 100,
+      "volumeKeyword": "brother 1034d manual",
+      "scope": "this",
+      "use": false,
+      "reason": "A download intent; the Brother handbook URL is in the sources."
+    },
+    {
+      "q": "brother 1034d parts",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 40,
+      "volumeKeyword": "brother 1034d parts",
+      "scope": "this",
+      "use": false,
+      "reason": "A parts-diagram intent; we hold no parts data."
+    },
+    {
+      "q": "What needles does the 1034D take?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 30,
+      "volumeKeyword": "brother 1034d needles",
+      "scope": "this",
+      "use": false,
+      "reason": "A plain spec row (SCHMETZ 130/705H, #80 and #90 supplied); the spec table and real cost list answer it."
+    },
+    {
+      "q": "Can the Brother 1034D serge denim?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Brother publishes no fabric weight rating; the spec table and owner reports on thick fabric are too thin for a verdict."
+    },
+    {
+      "q": "Does the 1034D have a free arm?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "A plain spec row (built-in free arm); the spec table answers it."
+    },
+    {
+      "q": "What thread cones should I buy for the 1034D?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Shopping advice with no maker or owner evidence behind it; the real cost list covers thread."
+    },
+    {
+      "q": "How many feet come in the box?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "A plain spec row (three feet); the spec table answers it."
+    },
+    {
+      "q": "which better 1034d or 1634d brother serger",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "which better 1034d or 1634d brother serger",
+      "scope": "sibling",
+      "use": false,
+      "reason": "The 1634D is not in this catalog."
+    }
+  ]
+}

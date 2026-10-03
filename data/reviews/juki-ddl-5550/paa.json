@@ -1,0 +1,280 @@
+{
+  "slug": "juki-ddl-5550",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "juki ddl-5550",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "juki ddl-5550",
+        "juki ddl5550",
+        "juki 5550"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/juki-ddl-5550.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "how good is juki ddl 5550 sewing machine",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how good is juki ddl 5550 sewing machine",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Juki DDL-5550?",
+      "answeredFrom": "rollup.json themes and summary"
+    },
+    {
+      "q": "Is the Juki DDL 5550 a walking foot machine?",
+      "sources": [
+        "paa",
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Juki DDL-5550 a walking foot machine?",
+      "answeredFrom": "data/specs feedSystem; rollup.json walking foot and power on heavy fabric themes"
+    },
+    {
+      "q": "Can a Juki DDL-555 sew leather?",
+      "sources": [
+        "paa",
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can the Juki DDL-5550 sew leather or denim?",
+      "answeredFrom": "rollup.json fabric handling and power on heavy fabric themes; manufacturer.json NA and NH classes"
+    },
+    {
+      "q": "What is the difference between the Juki DDL-5550 and DDL-5550N?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "juki ddl-5550-6",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Juki DDL-5550, the DDL-5550N and the -7?",
+      "answeredFrom": "rollup.json siblings (DDL-5550N-7, NA, NH); manufacturer.json model naming"
+    },
+    {
+      "q": "juki ddl-5550 price",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 50,
+      "volumeKeyword": "juki ddl-5550 price",
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Juki DDL-5550 cost?",
+      "answeredFrom": "manufacturer.json price; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "Does the DDL-5550 have a thread trimmer?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Juki DDL-5550 have an automatic thread trimmer?",
+      "answeredFrom": "manufacturer.json thread trimmer; rollup.json trimmer theme and sibling rows"
+    },
+    {
+      "q": "what needle system is juki ddl 5550",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "what needle system is juki ddl 5550",
+      "scope": "this",
+      "use": true,
+      "faq": "What needles does the Juki DDL-5550 use?",
+      "answeredFrom": "manufacturer.json needle system and conflicts"
+    },
+    {
+      "q": "Does the DDL-5550 come with a servo motor or a clutch motor?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Juki DDL-5550 come with a motor, and can I run it at home?",
+      "answeredFrom": "manufacturer.json motor; data/specs motor and includedFeet"
+    },
+    {
+      "q": "Is the DDL-5550 made in Japan?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "juki ddl-5550 made in japan price",
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Juki DDL-5550 made in Japan?",
+      "answeredFrom": "manufacturer.json country of manufacture; data/specs conflicts"
+    },
+    {
+      "q": "Can I use the DDL-5550 at home on a regular outlet?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Folded into the motor answer; Juki lists single-phase 100 to 120 V on the -7 table only."
+    },
+    {
+      "q": "How much does the DDL-5550 weigh with the table?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Juki publishes no head weight; the spec table shows [verify] and the 81 kg figure covers an unstated bundle."
+    },
+    {
+      "q": "How wide is the space to the right of the needle?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Juki publishes no throat figure and the spec table shows [verify]; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "What is Juki DDL-555 used for?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the spec table and the leather and walking foot answers; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "juki ddl-5550 manual",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 40,
+      "volumeKeyword": "juki ddl-5550 manual",
+      "scope": "this",
+      "use": false,
+      "reason": "Juki hosts the manual; the review links it and we have no answer to add."
+    },
+    {
+      "q": "how to thread juki ddl 5550",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "how to thread juki ddl 5550",
+      "scope": "this",
+      "use": false,
+      "reason": "A how-to belongs in Juki's manual; our evidence holds one owner tip on thread fraying only."
+    },
+    {
+      "q": "what size bobbin does juki ddl 5550 use",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "what size bobbin does juki ddl 5550 use",
+      "scope": "this",
+      "use": false,
+      "reason": "Neither the spec json nor the maker facts state the bobbin class, so we have nothing sourced to answer with."
+    },
+    {
+      "q": "how to use juki ddl 5550 servo motor",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to use juki ddl 5550 servo motor",
+      "scope": "this",
+      "use": false,
+      "reason": "Motor setup is dealer bundle specific and outside our spec evidence."
+    },
+    {
+      "q": "how to change the oil in a juki 5550 industrial",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to change the oil in a juki 5550 industrial",
+      "scope": "this",
+      "use": false,
+      "reason": "A how-to belongs in Juki's manual; we hold the oil grade only."
+    },
+    {
+      "q": "Which Juki sewing machine is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "What is the lifespan of a Juki machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "Are Juki sewing machines as good as Bernina?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "Is Juki still made in Japan?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand level; the model-level question is used instead."
+    },
+    {
+      "q": "Which sewing machine has the least problems?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "Is Janome better than Juki?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    }
+  ]
+}

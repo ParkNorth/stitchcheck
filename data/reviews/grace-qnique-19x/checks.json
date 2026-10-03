@@ -1,0 +1,50 @@
+{
+  "slug": "grace-qnique-19x",
+  "generated": "2026-10-03T03:08:33.041Z",
+  "counts": {
+    "error": 0,
+    "warn": 5
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 18, this 5, sibling 5, unclear 8"
+    },
+    {
+      "level": "warn",
+      "id": "scope",
+      "message": "28% of spec claims are about a sibling: collection is pulling the wrong model's threads"
+    },
+    {
+      "level": "warn",
+      "id": "scope",
+      "message": "44% of spec claims have unclear scope: many threads cover several machines"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "5 Reddit threads, 0 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "reddit",
+      "message": "few Reddit threads name the model in the title; collection may be on loose matches"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"display\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence thin, 4 voices (0 first-hand), 20 sources, status draft"
+    }
+  ]
+}

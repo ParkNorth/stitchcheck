@@ -1,0 +1,30 @@
+{
+  "slug": "brother-pq1600s",
+  "generated": "2026-10-03T02:50:37.719Z",
+  "counts": {
+    "error": 0,
+    "warn": 0
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "walmart.com: of 22 sampled reviews, 3 name this model, 0 name a sibling only, 19 name neither"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 78, this 64, sibling 14, unclear 0"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "10 Reddit threads, 6 with the model in the title"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence strong, 37 voices (26 first-hand), 20 sources, status draft"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "slug": "bernina-1008",
-  "generated": "2026-10-01T20:15:33.902Z",
+  "generated": "2026-10-03T02:42:12.019Z",
   "counts": {
     "error": 0,
-    "warn": 0
+    "warn": 1
   },
   "items": [
     {
@@ -17,9 +17,14 @@
       "message": "53 Reddit threads, 23 with the model in the title"
     },
     {
+      "level": "warn",
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
+    },
+    {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 98 voices (49 first-hand), 54 sources, status draft"
+      "message": "evidence moderate, 98 voices (49 first-hand), 54 sources, status approved"
     }
   ]
 }

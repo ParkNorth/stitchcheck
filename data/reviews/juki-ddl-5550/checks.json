@@ -1,9 +1,9 @@
 {
   "slug": "juki-ddl-5550",
-  "generated": "2026-10-02T12:34:19.163Z",
+  "generated": "2026-10-03T02:43:01.288Z",
   "counts": {
     "error": 0,
-    "warn": 0
+    "warn": 1
   },
   "items": [
     {
@@ -17,9 +17,14 @@
       "message": "53 Reddit threads, 50 with the model in the title"
     },
     {
+      "level": "warn",
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
+    },
+    {
       "level": "info",
       "id": "evidence",
-      "message": "evidence strong, 79 voices (52 first-hand), 60 sources, status draft"
+      "message": "evidence strong, 79 voices (52 first-hand), 60 sources, status approved"
     }
   ]
 }

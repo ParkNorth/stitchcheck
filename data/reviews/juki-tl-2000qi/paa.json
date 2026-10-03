@@ -1,0 +1,269 @@
+{
+  "slug": "juki-tl-2000qi",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "juki tl-2000qi",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "juki tl-2000qi",
+        "juki tl2000qi",
+        "juki 2000qi"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/juki-tl-2000qi.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "What do owners say about the Juki TL-2000Qi?",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 50,
+      "volumeKeyword": "juki tl-2000qi review",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Juki TL-2000Qi?",
+      "answeredFrom": "rollup.json themes and summary"
+    },
+    {
+      "q": "What is the difference between Juki TL 2000 and 2010?",
+      "sources": [
+        "paa",
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 20,
+      "volumeKeyword": "juki tl-2000qi vs juki tl-2010q",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the TL-2000Qi and the TL-2010Q?",
+      "answeredFrom": "rollup.json siblings (TL-2010Q); manufacturer.json; Juki product pages"
+    },
+    {
+      "q": "juki tl-2000qi price",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 40,
+      "volumeKeyword": "juki tl-2000qi price",
+      "scope": "this",
+      "use": true,
+      "faq": "What is the price of the Juki TL-2000Qi?",
+      "answeredFrom": "manufacturer.json msrp; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "What is the throat space on a Juki TL-2000Qi quilting machine?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "juki tl-2000qi throat space",
+      "scope": "this",
+      "use": true,
+      "faq": "How big is the throat on the Juki TL-2000Qi?",
+      "answeredFrom": "manufacturer.json throatIn; data/specs conflicts"
+    },
+    {
+      "q": "Is the Juki TL-2000Qi a long-arm machine?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 150,
+      "volumeKeyword": "juki tl-2000qi long-arm quilting & sewing machine",
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Juki TL-2000Qi a long-arm machine?",
+      "answeredFrom": "data/specs claims; manufacturer.json throatIn and workspace"
+    },
+    {
+      "q": "Where can I find the manual for the Juki TL-2000Qi appliance?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "juki tl-2000qi manual",
+      "scope": "this",
+      "use": true,
+      "faq": "Where can I find the Juki TL-2000Qi manual?",
+      "answeredFrom": "manufacturer.json documents"
+    },
+    {
+      "q": "how to thread juki tl-2000qi",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "how to thread juki tl-2000qi",
+      "scope": "this",
+      "use": true,
+      "faq": "How do you thread the Juki TL-2000Qi, and does the needle threader work?",
+      "answeredFrom": "manufacturer.json threadTrimmer (threader); rollup.json Threading and loopers theme"
+    },
+    {
+      "q": "Can the TL-2000Qi do free motion quilting?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can the Juki TL-2000Qi do free motion quilting?",
+      "answeredFrom": "data/specs claims; manufacturer.json includedFeet; rollup.json Free-motion quilting theme"
+    },
+    {
+      "q": "Does the TL-2000Qi have a speed control slider?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Juki TL-2000Qi have a speed control slider?",
+      "answeredFrom": "rollup.json siblings (TL-2010Q); manufacturer.json motor"
+    },
+    {
+      "q": "Which Juki to buy?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "What is the price of the Juki Pico Fall sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "A different model."
+    },
+    {
+      "q": "What are some common problems with JUKI sewing machines?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; belongs on a guide."
+    },
+    {
+      "q": "Which Juki sewing machine is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "Is the Juki TL series high or low shank?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "Family question; the needle system (HA x 1, high shank) sits in the spec table."
+    },
+    {
+      "q": "Are Juki sewing machines as good as Bernina?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "how to put the juki 2000qi on a quilting frame",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "No maker mounting statement for the TL-2000Qi in our evidence."
+    },
+    {
+      "q": "why are juki 2000qi feet so expensive",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "No foot pricing in our evidence."
+    },
+    {
+      "q": "juki 2000qi what way does the handwheel turn",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "A manual how-to with no figure in our evidence."
+    },
+    {
+      "q": "Is the Juki TL-2000Qi discontinued?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Juki's product page is live and states nothing either way; no answer beyond that."
+    },
+    {
+      "q": "How much does the Juki TL-2000Qi weigh?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the spec table (25.4 lb) and the sources-disagree block."
+    },
+    {
+      "q": "Does the TL-2000Qi come with a walking foot?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Covered by the feet check card."
+    },
+    {
+      "q": "Can the Juki TL-2000Qi sew zigzag?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the spec table: straight stitch only."
+    },
+    {
+      "q": "Is the TL-2000Qi good for heavy fabrics like denim and canvas?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Covered by the owner themes on the page."
+    }
+  ]
+}

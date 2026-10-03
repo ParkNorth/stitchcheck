@@ -1,0 +1,45 @@
+{
+  "slug": "grace-qnique-15r",
+  "generated": "2026-10-03T02:52:28.748Z",
+  "counts": {
+    "error": 0,
+    "warn": 3
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: of 79 sampled reviews, 3 name this model, 0 name a sibling only, 76 name neither"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 78, this 58, sibling 5, unclear 13"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "9 Reddit threads, 2 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "reddit",
+      "message": "few Reddit threads name the model in the title; collection may be on loose matches"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"needleSystem\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence strong, 23 voices (17 first-hand), 25 sources, status draft"
+    }
+  ]
+}

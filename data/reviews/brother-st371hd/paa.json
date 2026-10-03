@@ -1,0 +1,216 @@
+{
+  "slug": "brother-st371hd",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "brother st371hd",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "brother st371hd",
+        "brother st 371hd"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/brother-st371hd.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "Is the Brother ST371HD a good sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Brother ST371HD a good sewing machine, according to owners?",
+      "answeredFrom": "rollup.json themes (power on heavy fabric, reliability, stitch quality) and ratings"
+    },
+    {
+      "q": "Is the Brother ST371HD really heavy duty?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Brother ST371HD really heavy duty?",
+      "answeredFrom": "manufacturer.json claims; rollup.json Power on heavy fabric theme"
+    },
+    {
+      "q": "What are the key differences between the Brother ST371HD and ST531HD sewing machines?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "brother st371hd vs st531hd",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Brother ST371HD and the ST531HD?",
+      "answeredFrom": "rollup.json siblings (ST531HD); manufacturer.json"
+    },
+    {
+      "q": "Brother ST371HD vs Singer 4423: which is better for denim?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "brother st371hd vs singer 4423",
+      "scope": "sibling",
+      "use": true,
+      "faq": "How does the Brother ST371HD compare with the Singer 4423 for denim?",
+      "answeredFrom": "data/specs ownerThemes (bobbinhub comparison); manufacturer.json presserFootPressure"
+    },
+    {
+      "q": "Is the Brother ST371HD sewing machine for sale?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 50,
+      "volumeKeyword": "brother st371hd price",
+      "scope": "this",
+      "use": true,
+      "faq": "What is the price of the Brother ST371HD?",
+      "answeredFrom": "manufacturer.json price; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "Does the Brother ST371HD have adjustable presser foot pressure?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Brother ST371HD have adjustable presser foot pressure?",
+      "answeredFrom": "manufacturer.json presserFootPressure; rollup.json Feet and accessories theme"
+    },
+    {
+      "q": "Does the Brother ST371HD have a walking foot?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Brother ST371HD have a walking foot?",
+      "answeredFrom": "manufacturer.json includedFeet (accessories notification)"
+    },
+    {
+      "q": "how to thread a brother st371hd",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to thread a brother st371hd",
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Brother ST371HD easy to thread and good for beginners?",
+      "answeredFrom": "manufacturer.json needleThreader; rollup.json themes (threading, oiling, stitch quality)"
+    },
+    {
+      "q": "What is the Brother ST371HD warranty?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What is the Brother ST371HD warranty?",
+      "answeredFrom": "manufacturer.json warrantyUs; data/specs conflicts"
+    },
+    {
+      "q": "Does the Brother ST371HD have free arm sewing?",
+      "sources": [
+        "paa",
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Brother's page and the family manual in our evidence do not state a free arm."
+    },
+    {
+      "q": "How fast is the Brother ST371HD?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the spec table (an 800 row, no unit printed); kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "Can the Brother ST371HD sew leather or vinyl?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "No sourced capability figure; owner reports are anecdotes."
+    },
+    {
+      "q": "How to use a Brother ST371HD?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Manual procedure; the only manual is a family manual that never names the ST371HD."
+    },
+    {
+      "q": "brother st371hd vs singer 4432",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "brother st371hd vs singer 4432",
+      "scope": "sibling",
+      "use": false,
+      "reason": "No Singer 4432 rows in our evidence."
+    },
+    {
+      "q": "Which model of Brother sewing machine is best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Which sewing machine is better, a Brother or a Bernina?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Which sewing machine has the least problems?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "What are the common problems with Brother sewing machines?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    }
+  ]
+}

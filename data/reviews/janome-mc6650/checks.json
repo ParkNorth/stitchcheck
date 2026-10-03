@@ -1,6 +1,6 @@
 {
   "slug": "janome-mc6650",
-  "generated": "2026-10-01T18:25:19.249Z",
+  "generated": "2026-10-03T02:43:00.964Z",
   "counts": {
     "error": 0,
     "warn": 2
@@ -9,12 +9,12 @@
     {
       "level": "info",
       "id": "pooled-listing",
-      "message": "sewingmachinesplus.com: of 32 sampled reviews, 3 name this model, 0 name a sibling only, 29 name neither"
+      "message": "sewingmachinesplus.com: of 32 sampled reviews, 0 name this model, 0 name a sibling only, 32 name neither"
     },
     {
       "level": "warn",
       "id": "pooled-listing",
-      "message": "sewingmachinesplus.com: only 3 of 32 reviews name this model while siblings exist; confirm the listing is not pooled"
+      "message": "sewingmachinesplus.com: only 0 of 32 reviews name this model while siblings exist; confirm the listing is not pooled"
     },
     {
       "level": "info",
@@ -28,13 +28,13 @@
     },
     {
       "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"throatIn\" but the spec's conflicts do not mention it"
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 49 voices (34 first-hand), 30 sources, status draft"
+      "message": "evidence moderate, 49 voices (34 first-hand), 30 sources, status approved"
     }
   ]
 }

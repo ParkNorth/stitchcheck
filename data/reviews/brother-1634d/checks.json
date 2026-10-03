@@ -1,0 +1,40 @@
+{
+  "slug": "brother-1634d",
+  "generated": "2026-10-03T03:09:20.224Z",
+  "counts": {
+    "error": 0,
+    "warn": 2
+  },
+  "items": [
+    {
+      "level": "info",
+      "id": "pooled-listing",
+      "message": "ebay.com: of 35 sampled reviews, 3 name this model, 0 name a sibling only, 32 name neither"
+    },
+    {
+      "level": "warn",
+      "id": "pooled-listing",
+      "message": "ebay.com: only 3 of 35 reviews name this model while siblings exist; confirm the listing is not pooled"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 78, this 73, sibling 1, unclear 4"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "11 Reddit threads, 8 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence strong, 35 voices (30 first-hand), 26 sources, status draft"
+    }
+  ]
+}

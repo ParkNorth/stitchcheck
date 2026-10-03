@@ -78,6 +78,8 @@ export interface Rollup {
   generated: string;
   notes?: string[];
   ownerNote?: string | null;
+  /** Editor-written plain-language overview shown under the H1 (editor.json `summary`). Optional until every approved rollup has one. */
+  summary?: string | null;
   method: {
     sources: number;
     itemsCollected: number;
@@ -100,6 +102,38 @@ export interface Rollup {
 
 export function getRollup(slug: string): Rollup | undefined {
   return rollupData[slug];
+}
+
+export interface GoodNotGoodRow {
+  label: string;
+  /** Statements on the theme that took a side (positive, mixed or negative). */
+  judged: number;
+  /** Statements on the winning side. */
+  count: number;
+  ownerVoices: number;
+}
+
+/**
+ * Splits visible themes into what owners mostly like, mostly dislike, and where they disagree.
+ * A theme needs at least `minJudged` statements that took a side. "Good" is 60 percent or more positive,
+ * "not good" is 60 percent or more negative (mixed counts against neither), the rest are split.
+ * Counts only; never an aggregate score (AGENTS.md rule 25).
+ */
+export function goodNotGood(r: Rollup, minJudged = 8): { good: GoodNotGoodRow[]; notGood: GoodNotGoodRow[]; split: string[] } {
+  const good: GoodNotGoodRow[] = [];
+  const notGood: GoodNotGoodRow[] = [];
+  const split: { label: string; judged: number }[] = [];
+  for (const t of visibleThemes(r)) {
+    const { positive, negative, mixed } = t.polarity;
+    const judged = positive + negative + mixed;
+    if (judged < minJudged) continue;
+    const row = { label: t.label, judged, ownerVoices: t.ownerVoices };
+    if (positive / judged >= 0.6) good.push({ ...row, count: positive });
+    else if (negative / judged >= 0.6) notGood.push({ ...row, count: negative });
+    else split.push({ label: t.label, judged });
+  }
+  const byWeight = (a: GoodNotGoodRow, b: GoodNotGoodRow) => b.count - a.count || b.judged - a.judged;
+  return { good: good.sort(byWeight), notGood: notGood.sort(byWeight), split: split.sort((a, b) => b.judged - a.judged).map((s) => s.label) };
 }
 
 /** Themes worth a row: enough voices to be a pattern, never the catch-all. */

@@ -1,0 +1,214 @@
+{
+  "slug": "grace-qnique-19x",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "grace qnique 19x",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search drops related_questions, so DataForSEO is the PAA source. A second pull on 'qnique 19x review' returned error 40101 and was not retried. The PAA box was brand-level (Grace Company), so most rows are generic."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "qnique 19x",
+        "q'nique 19x",
+        "grace 19x",
+        "grace qnique 19x"
+      ],
+      "terms": [
+        "questions (no rows)",
+        "all (phrase)"
+      ],
+      "note": "The questions pull returned no rows; the phrase pull returned four terms. Zero means too small to estimate."
+    },
+    "briefing": "data/specs/grace-qnique-19x.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "What are people saying about the Qnique quilting machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Grace Q'nique 19X?",
+      "answeredFrom": "rollup.json themes and summary"
+    },
+    {
+      "q": "Is the Q'nique 19X the same as the Grace 19X?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Q'nique 19X the same machine as the Grace 19X?",
+      "answeredFrom": "manufacturer.json (grace-19x-recert, grace-warranty)"
+    },
+    {
+      "q": "What is the difference between the 19X and the 19X Elite?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "volume": 20,
+      "volumeKeyword": "grace 19x elite",
+      "faq": "What is the difference between the Q'nique 19X and the 19X Elite?",
+      "answeredFrom": "rollup.json siblingExtras (Q'nique 19X Elite) and manufacturer.json"
+    },
+    {
+      "q": "Does the 19X price include a frame?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Q'nique 19X price include a frame?",
+      "answeredFrom": "manufacturer.json frame fact"
+    },
+    {
+      "q": "Does the 19X have a built in stitch regulator?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Q'nique 19X have a built in stitch regulator?",
+      "answeredFrom": "manufacturer.json stitchRegulation fact"
+    },
+    {
+      "q": "How much does the 19X weigh?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Q'nique 19X weigh?",
+      "answeredFrom": "manufacturer.json weightLb fact (manual p.9)"
+    },
+    {
+      "q": "What is the Grace warranty?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What warranty comes with the Q'nique 19X?",
+      "answeredFrom": "manufacturer.json warrantyUs fact (Grace warranty page)"
+    },
+    {
+      "q": "What bobbin and needles does the 19X use?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What bobbin and needles does the Q'nique 19X use?",
+      "answeredFrom": "manufacturer.json bobbin and needleSystem facts (manual p.92)"
+    },
+    {
+      "q": "Is Grace Company legit?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; belongs on a guide, not a review."
+    },
+    {
+      "q": "Is Grace a good brand?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; belongs on a guide."
+    },
+    {
+      "q": "Who makes Grace sewing machines?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; belongs on a guide."
+    },
+    {
+      "q": "Where is Grace Company located?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; belongs on a guide."
+    },
+    {
+      "q": "What is Grace company known for?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; belongs on a guide."
+    },
+    {
+      "q": "Who is Grace owned by?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; belongs on a guide."
+    },
+    {
+      "q": "How long has the Grace Company been in business?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; belongs on a guide."
+    },
+    {
+      "q": "What is the best quilting machine for home quilters in 2026?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "Which Grace frames fit the 19X?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Folded into the frame answer; kept inside the nine cap."
+    },
+    {
+      "q": "How does the 19X compare with the Handi Quilter Moxie and Amara?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "No owner comparison in our evidence; only a dealer-site framing, so no sourced answer."
+    },
+    {
+      "q": "Can you add computerized quilting (QCT) to the 19X?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Our evidence is dealer option lists and owner threads about the Elite; no Grace document on the base 19X read."
+    }
+  ]
+}

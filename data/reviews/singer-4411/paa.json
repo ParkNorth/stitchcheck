@@ -1,0 +1,231 @@
+{
+  "slug": "singer-4411",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": [
+        "singer 4411"
+      ],
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "People Also Ask returned 9 questions, mostly generic Singer ones. The SearchAPI MCP google_search drops related_questions, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "singer 4411",
+        "singer 4411 heavy duty",
+        "singer heavy duty 4411"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/singer-4411.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "What are people saying about the Singer 4411 heavy duty sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Singer 4411?",
+      "answeredFrom": "rollup.json themes and summary"
+    },
+    {
+      "q": "What is the difference between the Singer 4411 and 4423?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 90,
+      "volumeKeyword": "singer 4411 vs 4423",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Singer 4411 and the 4423?",
+      "answeredFrom": "rollup.json siblings (Heavy Duty 4423); manufacturer.json siblingLine"
+    },
+    {
+      "q": "singer 4411 vs 4452",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 150,
+      "volumeKeyword": "singer 4411 vs 4452",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Singer 4411 and the 4452?",
+      "answeredFrom": "rollup.json siblings (Heavy Duty 4452)"
+    },
+    {
+      "q": "singer 4411 vs 4432",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 40,
+      "volumeKeyword": "singer 4411 vs 4432",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Singer 4411 and the 4432?",
+      "answeredFrom": "rollup.json siblings (Heavy Duty 4432)"
+    },
+    {
+      "q": "singer 4411 price",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 30,
+      "volumeKeyword": "singer 4411 price",
+      "scope": "this",
+      "use": true,
+      "faq": "What is the price of the Singer 4411?",
+      "answeredFrom": "manufacturer.json price; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "Can the Singer 4411 sew leather?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 30,
+      "volumeKeyword": "singer 4411 leather",
+      "scope": "this",
+      "use": true,
+      "faq": "Can the Singer 4411 sew leather?",
+      "answeredFrom": "manufacturer.json claims and Needle system; rollup.json Power on heavy fabric theme"
+    },
+    {
+      "q": "What Needles does a Singer 4411 use?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What needles does the Singer 4411 use?",
+      "answeredFrom": "manufacturer.json Needle system (manual); rollup.json Power on heavy fabric theme"
+    },
+    {
+      "q": "What class bobbin does Singer heavy-duty use?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "what bobbin for singer 4411",
+      "scope": "this",
+      "use": true,
+      "faq": "What bobbin does the Singer 4411 use?",
+      "answeredFrom": "manufacturer.json bobbinSystem"
+    },
+    {
+      "q": "how to oil singer heavy duty 4411",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "how to oil singer heavy duty 4411",
+      "scope": "this",
+      "use": false,
+      "reason": "manufacturer.json holds no oiling schedule for the 4411, so we cannot answer it from our evidence."
+    },
+    {
+      "q": "Is the Singer 4411 good for beginners?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Covered by the verdict and the 4423 price-gap check; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "Does the Singer 4411 have an automatic needle threader?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Covered by the 4423 comparison answer and the document check."
+    },
+    {
+      "q": "What is the throat space on the Singer 4411?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Covered by the throat check card (needle to tower, not needle to body)."
+    },
+    {
+      "q": "singer heavy duty 4411 how to use",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "singer heavy duty 4411 how to use",
+      "scope": "this",
+      "use": false,
+      "reason": "A how-to; the manual is the better source."
+    },
+    {
+      "q": "Is Singer better or usha?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "Is there a Singer heavy-duty sewing machine for sale?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Retail availability; not an evidence question."
+    },
+    {
+      "q": "What is the most sought after Singer model?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "Which Singer sewing machine is the best quality?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "Which sewing machine has the least problems?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "What is the #1 sewing machine manufacturer in the US?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model."
+    }
+  ]
+}

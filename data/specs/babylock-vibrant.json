@@ -141,13 +141,14 @@
   "evidence": "owner",
   "buyerQuestions": [
     "How much does the Baby Lock Vibrant cost?",
-    "Is the Vibrant good for beginners?",
+    "Is the Baby Lock Vibrant good for beginners?",
+    "how to thread baby lock vibrant serger",
     "Does the Vibrant have air threading?",
-    "What is the difference between the Vibrant and the Celebrate?",
-    "Is the Vibrant BL460B or BLS1?",
+    "baby lock vibrant serger reviews",
+    "Can you buy the Vibrant online or only from a dealer?",
+    "baby lock vibrant serger bl460b",
     "Does the Vibrant do 2-thread stitches?",
-    "How heavy is the Vibrant?",
-    "Can you buy the Vibrant online or only from a dealer?"
+    "What is the difference between the Vibrant and the Celebrate?"
   ],
   "crossShop": [
     {
@@ -216,43 +217,35 @@
     "faqs": [
       {
         "q": "How much does the Baby Lock Vibrant cost?",
-        "a": "babylock.com showed $524 on 2026-10-01. Baby Lock's spec sheet gives no price, and authorized retailers set their own, so quotes vary by store."
+        "a": "babylock.com showed $524 on 2026-10-01, a price shown on the maker's page and not a dealer price. Baby Lock's spec sheet gives no price and authorized retailers set their own, so quotes vary by store; earlier dealer listings we saw showed $499 regular and some showed $799 [verify]."
       },
       {
-        "q": "Can you buy the Vibrant online or only from a dealer?",
-        "a": "babylock.com showed an add-to-cart at $524, but Baby Lock's warranty page says machines are only available through Authorized Retailers and warranties are not extended to online purchases. Buy from an authorized retailer to keep the warranty."
+        "q": "Is the Baby Lock Vibrant good for beginners?",
+        "a": "Baby Lock calls it the perfect introduction to serging; that is a maker claim. Of the owners who judged threading, most call it easy, but the machine has manual needle threading and manual tension discs, and help posts include a cutting blade lever that would not re-engage and a rolled hem that would not form on satin."
       },
       {
-        "q": "Does the Vibrant have air threading?",
-        "a": "No. Baby Lock's comparison chart lists no Jet-Air, manual needle threading and manual tension discs on the Vibrant. The Victory lists Jet-Air, a needle threader and automatic tension."
+        "q": "How do you thread the Baby Lock Vibrant?",
+        "a": "Baby Lock describes color-coded threading in a set order, with manual needle threading and manual lay-in tension discs and no Jet-Air; the color coding is its marketing wording. Most owners who comment call threading easy, though one finds it a bit difficult, as sergers generally are."
       },
       {
-        "q": "How fast is the Vibrant?",
-        "a": "Baby Lock's manual says 1200 +/- 50 stitches per minute. Dealer sheets say 1,500, which has no maker source."
+        "q": "Does the Baby Lock Vibrant have air threading, and how does it differ from the Victory?",
+        "a": "No. Baby Lock's comparison chart lists no Jet-Air on the Vibrant, with manual needle threading and manual tension discs. The Victory lists Jet-Air, a built-in needle threader, Automatic Thread Delivery, two LEDs and a 6 mm presser foot lift, against one LED and no published lift on the Vibrant. babylock.com showed the Victory at $2,089 and the Vibrant at $524 on 2026-10-01, shown prices and not dealer quotes."
       },
       {
-        "q": "Does the Vibrant do 2-thread stitches?",
-        "a": "Baby Lock lists 4, 3 and 2-thread serging, with a two-thread converter among the included accessories."
+        "q": "What do owners say about the Baby Lock Vibrant?",
+        "a": "Owners mostly say it is easy to thread for a serger, and some find it quiet, with one calling it much quieter than a previous serger, though two call it noisy or shaky. Complaints are specific: a cutting blade lever that would not re-engage, a dim light, and one unit whose upper looper rubbed the needles. Our read covers 27 Reddit threads and 1 retailer page from 2019 to 2026, and Reddit leans toward people asking for help, so problems are over-represented."
       },
       {
-        "q": "What stitch length does the Vibrant have?",
-        "a": "Baby Lock's spec sheet says 1 to 4 mm; its manual says 1 to 4.5 mm. We show the manual figure and flag the conflict."
+        "q": "Can you buy the Baby Lock Vibrant online or only from a dealer?",
+        "a": "babylock.com showed an add-to-cart at $524, but Baby Lock's warranty page says machines are only available through Authorized Retailers and warranties are not extended to online purchases. Stitch Check has no buy link or affiliate relationship with Baby Lock; use the dealer locator."
       },
       {
-        "q": "Is the Vibrant good for beginners?",
-        "a": "Baby Lock calls it the perfect introduction to serging; that is a maker claim. Owners report threading is mostly easy, with a few help-request posts about loopers and the cutting blade."
-      },
-      {
-        "q": "Is the Vibrant BL460B or BLS1?",
+        "q": "Is the Baby Lock Vibrant the BL460B or the BLS1?",
         "a": "BL460B. BLS1 is the Celebrate, which has jet air threading."
       },
       {
-        "q": "How heavy is the Vibrant?",
-        "a": "Baby Lock lists 19.84 lb (9 kg), machine only."
-      },
-      {
-        "q": "What is the Vibrant's warranty?",
-        "a": "Baby Lock's spec sheet lists 25-year limited, with 10-year parts, 2-year electrical and 1-year labor. Baby Lock's warranty page says only Authorized Retailers issue warranties."
+        "q": "Does the Baby Lock Vibrant do 2-thread stitches?",
+        "a": "Yes. Baby Lock lists 4, 3 and 2-thread serging, and a two-thread converter is among the included accessories per its manual."
       }
     ]
   }

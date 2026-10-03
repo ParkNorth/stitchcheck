@@ -1,15 +1,20 @@
 {
   "slug": "juki-mo-644d",
-  "generated": "2026-10-02T12:29:40.525Z",
+  "generated": "2026-10-03T02:48:37.845Z",
   "counts": {
     "error": 0,
-    "warn": 3
+    "warn": 2
   },
   "items": [
     {
       "level": "info",
       "id": "pooled-listing",
-      "message": "sewingmachinesplus.com: of 34 sampled reviews, 6 name this model, 0 name a sibling only, 28 name neither"
+      "message": "sewingmachinesplus.com: of 34 sampled reviews, 0 name this model, 0 name a sibling only, 34 name neither"
+    },
+    {
+      "level": "warn",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: only 0 of 34 reviews name this model while siblings exist; confirm the listing is not pooled"
     },
     {
       "level": "info",
@@ -23,23 +28,13 @@
     },
     {
       "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"dimensionsIn\" but the spec's conflicts do not mention it"
-    },
-    {
-      "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"freeArm\" but the spec's conflicts do not mention it"
-    },
-    {
-      "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 35 voices (24 first-hand), 26 sources, status draft"
+      "message": "evidence moderate, 35 voices (24 first-hand), 26 sources, status approved"
     }
   ]
 }

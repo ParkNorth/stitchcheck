@@ -1,20 +1,20 @@
 {
   "slug": "janome-hd1000",
-  "generated": "2026-10-01T23:45:19.528Z",
+  "generated": "2026-10-03T02:43:00.621Z",
   "counts": {
     "error": 0,
-    "warn": 1
+    "warn": 2
   },
   "items": [
     {
       "level": "info",
       "id": "pooled-listing",
-      "message": "sewingmachinesplus.com: of 23 sampled reviews, 1 name this model, 0 name a sibling only, 22 name neither"
+      "message": "sewingmachinesplus.com: of 23 sampled reviews, 0 name this model, 0 name a sibling only, 23 name neither"
     },
     {
       "level": "warn",
       "id": "pooled-listing",
-      "message": "sewingmachinesplus.com: only 1 of 23 reviews name this model while siblings exist; confirm the listing is not pooled"
+      "message": "sewingmachinesplus.com: only 0 of 23 reviews name this model while siblings exist; confirm the listing is not pooled"
     },
     {
       "level": "info",
@@ -27,9 +27,14 @@
       "message": "53 Reddit threads, 44 with the model in the title"
     },
     {
+      "level": "warn",
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
+    },
+    {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 106 voices (76 first-hand), 55 sources, status draft"
+      "message": "evidence moderate, 106 voices (76 first-hand), 55 sources, status approved"
     }
   ]
 }

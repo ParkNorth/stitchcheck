@@ -1,16 +1,11 @@
 {
   "slug": "juki-tl-2010q",
-  "generated": "2026-10-01T13:40:04.332Z",
+  "generated": "2026-10-03T02:36:29.567Z",
   "counts": {
-    "error": 2,
+    "error": 0,
     "warn": 0
   },
   "items": [
-    {
-      "level": "error",
-      "id": "config",
-      "message": "editor.json missing \"scopeRules\""
-    },
     {
       "level": "info",
       "id": "pooled-listing",
@@ -30,11 +25,6 @@
       "level": "info",
       "id": "reddit",
       "message": "69 Reddit threads, 17 with the model in the title"
-    },
-    {
-      "level": "error",
-      "id": "owner-note",
-      "message": "87% of items are Reddit and rollup has no ownerNote (editor.json ownerNote)"
     },
     {
       "level": "info",

@@ -1,0 +1,234 @@
+{
+  "slug": "babylock-victory",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "baby lock victory",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "baby lock victory",
+        "babylock victory",
+        "baby lock victory serger"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/babylock-victory.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "What are people saying about the Baby Lock Victory Serger?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 40,
+      "volumeKeyword": "baby lock victory serger reviews",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners and buyers say about the Baby Lock Victory?",
+      "answeredFrom": "rollup.json themes and method"
+    },
+    {
+      "q": "What is the price of the Baby Lock Victory serger?",
+      "sources": [
+        "paa",
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 10,
+      "volumeKeyword": "baby lock victory serger price",
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Baby Lock Victory cost?",
+      "answeredFrom": "data/specs/babylock-victory.json priceUsdSeen with date; manufacturer.json msrp"
+    },
+    {
+      "q": "how to thread babylock victory",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to thread babylock victory",
+      "scope": "this",
+      "use": true,
+      "faq": "How do you thread the Baby Lock Victory?",
+      "answeredFrom": "manufacturer.json threadingSystem; rollup.json Threading and loopers theme"
+    },
+    {
+      "q": "Does the Victory have tension dials?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Baby Lock Victory have tension dials?",
+      "answeredFrom": "manufacturer.json threadingSystem and compareCelebrate; rollup.json Tension theme"
+    },
+    {
+      "q": "Did the Victory replace the Imagine?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "volumeKeyword": "babylock victory vs imagine",
+      "scope": "sibling",
+      "use": true,
+      "faq": "Did the Baby Lock Victory replace the Imagine, and how do they differ?",
+      "answeredFrom": "rollup.json siblings (Imagine); data/specs/babylock-imagine.json (replacedBy, spec sheet)"
+    },
+    {
+      "q": "Victory vs Celebrate: which one?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Baby Lock Victory and the Celebrate?",
+      "answeredFrom": "rollup.json siblings (Celebrate); manufacturer.json compareCelebrate"
+    },
+    {
+      "q": "What needles does the Victory use?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What needles does the Baby Lock Victory use?",
+      "answeredFrom": "manufacturer.json needleSystem; rollup.json Feet and accessories theme"
+    },
+    {
+      "q": "Can I buy the Victory online?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can I buy the Baby Lock Victory online?",
+      "answeredFrom": "manufacturer.json retailChannel and msrp"
+    },
+    {
+      "q": "Does the Victory do 2 thread stitches?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Baby Lock Victory do 2 thread stitches or coverstitch?",
+      "answeredFrom": "manufacturer.json stitchTypes (manual)"
+    },
+    {
+      "q": "Does the Victory do coverstitch?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Folded into the 2 thread stitches entry: the manual stitch list has no coverstitch."
+    },
+    {
+      "q": "What is the Victory warranty?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the warranty row of the spec table and the Check before you buy block; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "Victory vs Acclaim or Accolade: is the step up worth it?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "No Acclaim or Accolade maker document in hand on this review; not answerable from our evidence."
+    },
+    {
+      "q": "how much does the babylock victory cost?",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how much does the babylock victory cost?",
+      "scope": "this",
+      "use": false,
+      "reason": "Same question as the price entry."
+    },
+    {
+      "q": "Is Baby Lock better than Janome?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "What is the top of the line Baby Lock sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "Is Baby Lock better than Brother?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "What is the most trouble-free sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "What is considered the best sewing machine ever made?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "What is the #1 sewing machine manufacturer in the US?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model."
+    },
+    {
+      "q": "What is the best sewing machine at a reasonable price?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    }
+  ]
+}

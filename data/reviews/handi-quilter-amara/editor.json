@@ -1,0 +1,177 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "This is a thin evidence base. Most Reddit and forum threads are general longarm buying threads where only a few commenters own an Amara 20, and many owner posts live in Facebook groups, which could not be read.",
+    "The String & Story review is by a Moxie owner whose Amara is on loan from Handi Quilter under a content agreement, and the Craftyolo page carries affiliate links and gets the included frame wrong against Handi Quilter's own page. Both are counted as buyer or editorial signal, not as independent owner evidence.",
+    "Amazon has no listing for the Amara 20 (the Amara ST listing has no rating), so there is no Amazon rating here. The Sewing Machines Plus page shows 5 reviews, the oldest from 2018, so it is not a current gauge.",
+    "Several forum comments say only 'HQ' or 'Handi Quilter' with no model; those are labelled as unclear scope and are not credited to the Amara 20."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "Moxie XL",
+      "label": "HQ Moxie XL (18 in)",
+      "pattern": "moxie[\\s-]*xl(?![a-z0-9])"
+    },
+    {
+      "model": "Moxie",
+      "label": "HQ Moxie (15 in)",
+      "pattern": "moxie(?![a-z0-9])"
+    },
+    {
+      "model": "Amara 24",
+      "label": "HQ Amara 24 (formerly Forte 24)",
+      "pattern": "(?:amara[\\s-]*24(?![a-z0-9])|forte)"
+    },
+    {
+      "model": "Amara ST",
+      "label": "HQ Amara ST (20 in sit down)",
+      "pattern": "amara[\\s-]*st(?![a-z0-9])"
+    },
+    {
+      "model": "Sweet Sixteen",
+      "label": "HQ Sweet Sixteen and Simply Sixteen",
+      "pattern": "(?:sweet|simply)[\\s-]*(?:sixteen|16)(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "throat|harp|opening|usable",
+      "Throat space"
+    ],
+    [
+      "speed|spm|stitches per",
+      "Speed and stitch range"
+    ],
+    [
+      "frame|mount|table",
+      "Frame or table"
+    ],
+    [
+      "pro-stitcher|automation|robot",
+      "Pro-Stitcher compatibility"
+    ],
+    [
+      "regulat",
+      "Stitch regulation"
+    ],
+    [
+      "price|\\$|cost",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav",
+      "Weight"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "q.?nique",
+      "Grace Company Q'nique (19X, 21X Elite and others)"
+    ],
+    [
+      "apqs",
+      "APQS (Millie, Lenni)"
+    ],
+    [
+      "bernina[\\s-]*q",
+      "Bernina Q20"
+    ],
+    [
+      "tl[\\s-]*18qvp(?![a-z0-9])",
+      "Juki TL-18QVP"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "q.?nique|apqs|bernina[\\s-]*q|tl[\\s-]*18qvp(?![a-z0-9])|innova|gammill",
+  "scopeRules": [],
+  "siblingSummaries": {
+    "Moxie": {
+      "Throat space": {
+        "summary": "A comparison site lists 20 in for the Amara 20 and 15 in for the Moxie; Handi Quilter's own post puts safe usable area at about 14 in against about 10 in.",
+        "check": "Stitch Machine Ledger restates maker figures; usable area is Handi Quilter's marketing figure"
+      },
+      "Speed and stitch range": {
+        "summary": "Handi Quilter lists up to 2,500 spm and 4 to 24 stitches per inch on the Amara 20, against 1,800 spm and 4 to 18 on the Moxie.",
+        "check": "maker figures, matched on Handi Quilter's comparison page"
+      },
+      "Pro-Stitcher compatibility": {
+        "summary": "The Amara 20 is listed as Pro-Stitcher Premium compatible; the Moxie takes Pro-Stitcher Lite.",
+        "check": "Handi Quilter's comparison page; compatible is not the same as included"
+      },
+      "Frame or table": {
+        "summary": "The Amara 20 comes with a Studio3 frame in 10 or 12 ft; the Moxie comes with the 8 ft Loft frame, and both list the 5 ft Little Foot frame as compatible.",
+        "check": "Handi Quilter product pages and comparison post"
+      }
+    },
+    "Moxie XL": {
+      "Throat space": {
+        "summary": "One forum member who tested an Amara says its harp is 2 in longer than the Moxie XL (20 in vs 18 in).",
+        "check": "forum comment; the 18 in figure is Handi Quilter's"
+      },
+      "Frame or table": {
+        "summary": "The same member says the Moxie XL tops out at a 10 ft frame while the Amara takes 12 ft. Handi Quilter lists the Moxie XL on the 8 ft Loft frame with a 2 ft extension.",
+        "check": "forum comment, consistent with Handi Quilter's FAQ"
+      }
+    },
+    "Amara 24": {
+      "Throat space": {
+        "summary": "Handi Quilter lists 24 in of throat on the Amara 24 against 20 in; the manual gives the sewing opening as 9 x 24.5 in against 9 x 20.5 in.",
+        "check": "Handi Quilter FAQ and the Amara 20 and 24 manual v1.6"
+      },
+      "Frame or table": {
+        "summary": "Handi Quilter's description gives the Amara 24 a Gallery3 frame in 10, 12 or 15 ft; its comparison table lists Gallery2 in 10, 12 or 14 ft. The Amara 20 is listed on Studio3 in 10 or 12 ft.",
+        "check": "Handi Quilter's page contradicts itself on Gallery2 vs Gallery3 and the longest length"
+      },
+      "Stitch regulation": {
+        "summary": "A Handi Quilter FAQ says the Amara 24 and Infinity have more refined sensors and extra modes. Both Amara pages list Precision and Cruise.",
+        "check": "single maker FAQ line; not confirmed elsewhere"
+      }
+    },
+    "Amara ST": {
+      "Frame or table": {
+        "summary": "The Amara ST is the 20 in sit down version on a lift table or InSight table; the Amara 20 is frame mounted.",
+        "check": "Handi Quilter comparison page and FAQ"
+      },
+      "Pro-Stitcher compatibility": {
+        "summary": "Handi Quilter says its sit down models do not work with Pro-Stitcher; the Amara 20 is Premium compatible.",
+        "check": "Handi Quilter FAQ and comparison table"
+      }
+    }
+  },
+  "siblingExtras": {
+    "Amara 24": [
+      {
+        "feature": "Maker sewing opening",
+        "summary": "The shared Amara manual lists a 9 x 20.5 in sewing opening for the Amara 20 and 9 x 24.5 in for the Amara 24; the marketed throats are 20 and 24 in.",
+        "check": "Amara 20 and 24 User Manual v1.6, 2026-10-02"
+      }
+    ],
+    "Moxie": [
+      {
+        "feature": "Maker price",
+        "summary": "Handi Quilter lists the Moxie from $5,495 and the Amara 20 from $12,995; the Amara 20 page shows a packaging weight of 98 lb, which is box weight, not machine weight.",
+        "check": "Handi Quilter comparison and product pages, 2026-10-02"
+      }
+    ],
+    "Amara ST": [
+      {
+        "feature": "Maker price",
+        "summary": "Handi Quilter lists the Amara ST from $8,495 and the Amara 20 from $12,995.",
+        "check": "Handi Quilter comparison page, 2026-10-02"
+      }
+    ]
+  },
+  "summary": "Owners and buyers of the Handi Quilter Amara 20 who are happy with it say that once tension is set they are good to go, that free motion and ruler work both feel easy, and that upkeep is a drop of oil on the hook and keeping the rails clean. The complaints are about tension that drifts or needs constant adjustment, a regulator and top speed that some quilters say they outgrew, usable space well under the 20 inch throat once a quilt is on the frame, a head one reviewer calls heavy, and uneven dealer support, which was the most repeated problem. This read covers 7 Reddit threads, 4 forum threads, 1 retailer page and 5 blog or maker pages from 2018 to 2026, a small sample that leans on a handful of owners. Reddit threads lean toward people asking for help, so problems are over-represented here."
+}

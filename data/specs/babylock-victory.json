@@ -149,17 +149,16 @@
   ],
   "evidence": "mixed",
   "buyerQuestions": [
-    "How much does the Baby Lock Victory cost?",
-    "Did the Victory replace the Imagine?",
-    "What is the difference between the Victory and the Imagine?",
+    "What are people saying about the Baby Lock Victory Serger?",
+    "What is the price of the Baby Lock Victory serger?",
+    "how to thread babylock victory",
     "Does the Victory have tension dials?",
-    "Does the Victory do 2 thread stitches?",
-    "Does the Victory do coverstitch?",
+    "Did the Victory replace the Imagine?",
     "Victory vs Celebrate: which one?",
-    "Victory vs Acclaim or Accolade: is the step up worth it?",
     "What needles does the Victory use?",
     "Can I buy the Victory online?",
-    "What is the Victory warranty?"
+    "Does the Victory do 2 thread stitches?",
+    "Victory vs Acclaim or Accolade: is the step up worth it?"
   ],
   "crossShop": [
     {
@@ -218,44 +217,40 @@
     ],
     "faqs": [
       {
+        "q": "What do owners and buyers say about the Baby Lock Victory?",
+        "a": "Owner and buyer signals are mostly positive on threading and tension: one owner says threading takes seconds, another likes the auto tension, one finds it much quieter than a Brother 1034DX, and one has serged denim layers without breaking needles. The worries are a few needle breaks on terry and cotton flannel, a fiddly needle threading mechanism and ballpoint serger needles that were hard to find. We read 13 Reddit threads and 1 retailer page from 2020 to 2026 and only 10 of the 24 voices are owners, so this is thin evidence; Reddit leans toward help requests, so problems are over-represented."
+      },
+      {
         "q": "How much does the Baby Lock Victory cost?",
-        "a": "babylock.com showed $2,089 on 2026-10-02, a price shown there and not an MSRP, and dealers set their own price. Sewing Machines Plus showed $1,899 on sale against $2,599 regular on 2026-09-29."
+        "a": "babylock.com showed $2,089 on 2026-10-02, a price shown there and not an MSRP, and dealers set their own price. Sewing Machines Plus showed $1,899 on sale against $2,599 regular on 2026-09-29, a dealer figure."
       },
       {
-        "q": "Does the Victory have tension dials?",
-        "a": "Baby Lock markets Automatic Thread Delivery and no tension adjustments, which are its claims. The Celebrate is listed with manual tension on the maker's comparison chart."
+        "q": "How do you thread the Baby Lock Victory?",
+        "a": "Baby Lock claims Jet-Air threading of the lower loopers with a lever and Automatic Thread Delivery so threads go in any order, plus a built-in needle threader held by a lever; those are maker claims. Owner reports are split: one says threading the Victory takes seconds and another finds the needle threading mechanism fiddly."
       },
       {
-        "q": "Does the Victory do 2 thread stitches?",
-        "a": "Yes. The manual lists 2 thread flatlock, blanket and ladder stitches, plus 4 and 3 thread overlock and a 3 thread rolled edge."
+        "q": "Does the Baby Lock Victory have tension dials?",
+        "a": "Baby Lock markets Automatic Thread Delivery and no tension adjustments, which are its claims. One owner finds the auto tension nice. The Celebrate is listed with manual tension on the maker's comparison chart."
       },
       {
-        "q": "Does the Victory do coverstitch?",
-        "a": "No coverstitch appears in the manual's stitch list. It is an overlock machine."
+        "q": "Did the Baby Lock Victory replace the Imagine, and how do they differ?",
+        "a": "A PatternReview thread says the Victory replaced the Imagine, though we found no Baby Lock statement saying so [verify]. Both list 4, 3 and 2 thread serging, Jet-Air threading, Automatic Thread Delivery and 1,500 stitches per minute on their maker documents. One difference in the documents is needles: the Imagine spec sheet lists HAx1SP, 130/705H and ELx705CF, while the Victory manual names only HAx1SP/CR."
       },
       {
-        "q": "How fast is the Victory?",
-        "a": "The spec sheet and the manual both state 1,500 stitches per minute."
+        "q": "What is the difference between the Baby Lock Victory and the Celebrate?",
+        "a": "Per Baby Lock's comparison chart, the Victory has Automatic Thread Delivery, 2 LEDs and 2 thread blanket and ladder stitches; the Celebrate has manual tension and 1 LED. Both list 6 mm presser foot lift and Jet-Air threading. babylock.com showed the Celebrate at $1,352 and the Victory at $2,089 on 2026-10-02, shown prices and not dealer quotes."
       },
       {
-        "q": "How heavy is the Victory?",
-        "a": "The product page says 16 lb machine only and the manual gives 7.6 kg, about 16.8 lb. Dimensions on the page are 12.5 x 11 x 11.5 in, machine only."
+        "q": "What needles does the Baby Lock Victory use?",
+        "a": "The manual names Organ or Schmetz HAx1SP/CR, set up with 75/11 and 90/14 for heavyweight fabrics. A dealer page also lists ELx705CF and ELx705, which are not in Baby Lock's documents. One owner reports they could not find ballpoint serger needles for it, and the serger needles they found were all sharp."
       },
       {
-        "q": "What needles does the Victory use?",
-        "a": "The manual names Organ or Schmetz HAx1SP/CR, set up with 75/11 and 90/14 for heavyweight fabrics. A dealer page also lists ELx705CF and ELx705, which are not in Baby Lock's documents."
+        "q": "Can I buy the Baby Lock Victory online?",
+        "a": "Baby Lock says its machines are found through Authorized Baby Lock Retailers, and babylock.com also showed a price and cart on 2026-10-02. Stitch Check has no buy link or affiliate relationship with Baby Lock and points to the dealer locator."
       },
       {
-        "q": "Can I buy the Victory online?",
-        "a": "Baby Lock says its machines are found through Authorized Baby Lock Retailers. Stitch Check has no buy link or affiliate relationship with Baby Lock and points to the dealer locator."
-      },
-      {
-        "q": "What is the Victory warranty?",
-        "a": "The Victory spec sheet states 25 years limited, 10 years parts, 5 years circuit boards, 5 years electrical and 1 year labor. Baby Lock says only Authorized Retailers can issue its warranties."
-      },
-      {
-        "q": "What is the difference between the Victory and the Celebrate?",
-        "a": "Per Baby Lock's comparison chart, the Victory has Automatic Thread Delivery, 2 LEDs and 2 thread blanket and ladder stitches; the Celebrate has manual tension and 1 LED. Both list 6 mm lift and Jet-Air threading."
+        "q": "Does the Baby Lock Victory do 2 thread stitches or coverstitch?",
+        "a": "Yes to 2 thread stitches. The manual lists 2 thread flatlock, blanket and ladder stitches, plus 4 and 3 thread overlock and a 3 thread rolled edge. No coverstitch appears in the manual's stitch list, so it is an overlock machine."
       }
     ]
   },

@@ -1,0 +1,239 @@
+{
+  "slug": "singer-4452",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": [
+        "singer 4452"
+      ],
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "People Also Ask returned 9 questions, 5 about this model or its siblings. The SearchAPI MCP google_search drops related_questions, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "singer 4452",
+        "singer 4452 heavy duty",
+        "singer heavy duty 4452"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/singer-4452.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "Is the Singer 4452 a good machine?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 70,
+      "volumeKeyword": "singer 4452 review",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Singer 4452?",
+      "answeredFrom": "rollup.json themes and summary"
+    },
+    {
+      "q": "Is Singer 4452 better than 4432?",
+      "sources": [
+        "paa",
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 200,
+      "volumeKeyword": "singer 4452 vs 4432",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Singer 4452 and the 4432?",
+      "answeredFrom": "rollup.json siblings (Heavy Duty 4432)"
+    },
+    {
+      "q": "Which is better, singer 4423 vs 4452?",
+      "sources": [
+        "paa",
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 150,
+      "volumeKeyword": "singer 4452 vs 4423",
+      "scope": "sibling",
+      "use": true,
+      "faq": "How does the Singer 4452 compare with the 4423?",
+      "answeredFrom": "rollup.json siblings (Heavy Duty 4423); rollup.json ratings"
+    },
+    {
+      "q": "Is the Singer 4411 or 4452 better?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 80,
+      "volumeKeyword": "singer 4452 vs 4411",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Singer 4452 and the 4411?",
+      "answeredFrom": "rollup.json siblings (Heavy Duty 4411)"
+    },
+    {
+      "q": "What is the best price for the Singer 4452?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 70,
+      "volumeKeyword": "singer 4452 price",
+      "scope": "this",
+      "use": true,
+      "faq": "What is the price of the Singer 4452?",
+      "answeredFrom": "manufacturer.json msrp; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "Can a Singer 4452 sew leather?",
+      "sources": [
+        "paa",
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can the Singer 4452 sew leather and vinyl?",
+      "answeredFrom": "data/specs claims; rollup.json Power on heavy fabric theme"
+    },
+    {
+      "q": "singer 4452 problems",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 40,
+      "volumeKeyword": "singer 4452 problems",
+      "scope": "this",
+      "use": true,
+      "faq": "What are the common problems with the Singer 4452?",
+      "answeredFrom": "rollup.json Reliability, Threading, Noise and Tension themes"
+    },
+    {
+      "q": "how to thread singer heavy duty 4452",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "how to thread singer heavy duty 4452",
+      "scope": "this",
+      "use": true,
+      "faq": "How hard is the Singer 4452 to thread?",
+      "answeredFrom": "rollup.json Threading and loopers theme"
+    },
+    {
+      "q": "Does the Singer 4452 come with a walking foot?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Singer 4452 come with a walking foot?",
+      "answeredFrom": "manufacturer.json includedFeet; rollup.json Walking foot theme"
+    },
+    {
+      "q": "what size bobbin for singer heavy duty 4452",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "what size bobbin for singer heavy duty 4452",
+      "scope": "this",
+      "use": false,
+      "reason": "In the spec table (Class 15 top drop-in); kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "how to oil a 4452 singer sewing machine",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "how to oil a 4452 singer sewing machine",
+      "scope": "this",
+      "use": false,
+      "reason": "manufacturer.json holds no oiling schedule for the 4452."
+    },
+    {
+      "q": "Is the Singer 4452 good for quilting?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Throat is needle to tower, not a quilting figure; covered by the throat note."
+    },
+    {
+      "q": "How much does the Singer 4452 weigh?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "In the spec table (14.6 lb); kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "Is the Singer 4452 good for beginners?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Covered by the verdict and Who it is for; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "What is the clearance plate for on the Singer 4452?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Our sources do not explain its use, so we cannot answer it."
+    },
+    {
+      "q": "What needles does the Singer 4452 use?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "No needle system is published in our sources."
+    },
+    {
+      "q": "What is the most sought after singer model?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "Which SINGER heavy duty model is best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "Which model of Singer sewing machine is best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    }
+  ]
+}

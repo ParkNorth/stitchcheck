@@ -1,0 +1,40 @@
+{
+  "slug": "janome-coverpro-2000cpx",
+  "generated": "2026-10-03T02:54:35.036Z",
+  "counts": {
+    "error": 0,
+    "warn": 3
+  },
+  "items": [
+    {
+      "level": "warn",
+      "id": "amazon-parent",
+      "message": "www.amazon.com: listing shares a parent with 3 ASINs (B004H6T1JY, B00T7ZFWWU, B013I7MB1M); its rating pools them, so say so beside the number"
+    },
+    {
+      "level": "info",
+      "id": "scope",
+      "message": "spec claims: 150, this 101, sibling 27, unclear 22"
+    },
+    {
+      "level": "info",
+      "id": "reddit",
+      "message": "11 Reddit threads, 3 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "reddit",
+      "message": "few Reddit threads name the model in the title; collection may be on loose matches"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+    },
+    {
+      "level": "info",
+      "id": "evidence",
+      "message": "evidence moderate, 20 voices (14 first-hand), 27 sources, status draft"
+    }
+  ]
+}

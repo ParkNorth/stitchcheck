@@ -1,0 +1,226 @@
+{
+  "slug": "brother-2340cv",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "brother 2340cv",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "brother 2340cv",
+        "brother 2340 cv"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/brother-2340cv.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "Can the Brother 2340CV do a chain stitch?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can the Brother 2340CV do a chain stitch?",
+      "answeredFrom": "manufacturer.json stitchTypes; rollup.json Stitch quality theme"
+    },
+    {
+      "q": "Can the 2340CV serge or overlock?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "why buy brother serger 1034d vs brother 2340cv",
+      "scope": "this",
+      "use": true,
+      "faq": "Can the Brother 2340CV serge or overlock?",
+      "answeredFrom": "manufacturer.json stitchTypes, claims; data/specs conflicts"
+    },
+    {
+      "q": "What needles does the 2340CV use?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "what kind of needles for brother 2340cv",
+      "scope": "this",
+      "use": true,
+      "faq": "What needles does the Brother 2340CV use?",
+      "answeredFrom": "manufacturer.json needleSystem (User's Guide)"
+    },
+    {
+      "q": "Is the Brother 2340cv good for beginners?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Brother 2340CV good for beginners?",
+      "answeredFrom": "rollup.json themes (threading, tension, reliability)"
+    },
+    {
+      "q": "Why does the 2340CV skip stitches on knits?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Why does the Brother 2340CV skip stitches on knits?",
+      "answeredFrom": "data/specs ownerThemes (PatternReview); manufacturer.json needleSystem"
+    },
+    {
+      "q": "What's the difference between the 2340cv and other models?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Brother 2340CV and the CV3440?",
+      "answeredFrom": "rollup.json siblings (CV3440); manufacturer.json siblingCV3440"
+    },
+    {
+      "q": "How does the 2340CV compare with the Janome CoverPro 2000CPX?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "janome cover pro vs brother 2340cv",
+      "scope": "sibling",
+      "use": true,
+      "faq": "How does the Brother 2340CV compare with the Janome CoverPro 2000CPX?",
+      "answeredFrom": "manufacturer.json siblingCoverPro2000CPX"
+    },
+    {
+      "q": "What feet come with the 2340CV?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "brother coverstitch 2340cv what accessories to buy",
+      "scope": "this",
+      "use": true,
+      "faq": "What feet come with the Brother 2340CV?",
+      "answeredFrom": "manufacturer.json includedFeet (User's Guide box list)"
+    },
+    {
+      "q": "Where can I buy a Brother 2340cv?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Brother 2340CV cost?",
+      "answeredFrom": "manufacturer.json price; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "Does the 2340CV have a free arm?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Not stated for the 2340CV by Brother; covered in the CV3440 and CoverPro answers."
+    },
+    {
+      "q": "How do you unpick a coverstitch from the 2340CV?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Kept out of the nine to stay inside the cap; the beginner answer covers removing work from under the foot."
+    },
+    {
+      "q": "how to thread a brother coverstitch 2340cv",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to thread a brother coverstitch 2340cv",
+      "scope": "this",
+      "use": false,
+      "reason": "Manual procedure; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "brother coverstitch 2340cv how to use",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "brother coverstitch 2340cv how to use",
+      "scope": "this",
+      "use": false,
+      "reason": "Manual procedure; we hold no step-by-step evidence."
+    },
+    {
+      "q": "What is the best coverstitch machine to buy?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Is it worth buying a coverstitch machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Should I buy a serger or coverstitch?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Can you use a serger as a coverstitch machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "What is the best home serger for my money?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "How much does a coverstitch machine cost?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; the price answer for this model is used instead."
+    }
+  ]
+}

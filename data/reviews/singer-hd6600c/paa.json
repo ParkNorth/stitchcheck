@@ -1,0 +1,267 @@
+{
+  "slug": "singer-hd6600c",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "singer hd6600c, singer hd6600c review (second pull, no model PAA on the first)",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search drops related_questions, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "singer 6600c",
+        "singer hd6600c",
+        "singer heavy duty 6600c"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/singer-hd6600c.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "What are people saying about the Singer 6600c heavy duty sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "volume": 100,
+      "volumeKeyword": "singer 6600c reviews",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Singer 6600C?",
+      "answeredFrom": "rollup.json themes (build_quality, reliability_defects, noise_vibration, threading) and ratings"
+    },
+    {
+      "q": "singer 6600c problems",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 30,
+      "volumeKeyword": "singer 6600c problems",
+      "scope": "this",
+      "use": true,
+      "faq": "What are the common problems with the Singer 6600C?",
+      "answeredFrom": "rollup.json themes reliability_defects, build_quality, noise_vibration"
+    },
+    {
+      "q": "What is the difference between the Singer 6600C and 6700C?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Singer 6600C and the 6700C?",
+      "answeredFrom": "data/specs singer-hd6600c and singer-hd6700c; manufacturer.json msrp and price rows; dealer and maker pages, flagged where soft"
+    },
+    {
+      "q": "How many stitches does the Singer 6600C really have?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How many stitches does the Singer 6600C have?",
+      "answeredFrom": "data/specs conflicts; manufacturer.json stitchCount"
+    },
+    {
+      "q": "Does the Singer 6600C have an automatic thread cutter?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Singer 6600C have an automatic thread cutter?",
+      "answeredFrom": "manufacturer.json threadTrimmer"
+    },
+    {
+      "q": "Is the Singer 6600C good for beginners?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Singer 6600C good for beginners?",
+      "answeredFrom": "manufacturer.json features; rollup.json threading and reliability_defects themes"
+    },
+    {
+      "q": "Can the Singer 6600C sew denim and canvas?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can the Singer 6600C sew denim and canvas?",
+      "answeredFrom": "data/specs claims; rollup.json power_heavy_fabric theme"
+    },
+    {
+      "q": "singer hd6600c price",
+      "sources": [
+        "serp-related"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What is the price of the Singer 6600C?",
+      "answeredFrom": "manufacturer.json msrp; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "What is the throat space on the Singer 6600C?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Covered by the throat conflict in the spec table and the Check before you buy block; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "How much does the Singer 6600C weigh?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "A plain spec row (15.4 lb from the manual's 7 kg); the spec table answers it."
+    },
+    {
+      "q": "What presser feet come with the Singer 6600C?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Covered by the spec table feet row and the realCost list."
+    },
+    {
+      "q": "What is the Singer 6600C Sterling?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "A bundle name; the answer is a retailer SKU question, not a spec we hold."
+    },
+    {
+      "q": "how to use singer 6600c",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to use singer 6600c",
+      "scope": "this",
+      "use": false,
+      "reason": "Operating steps; we do not publish how-to steps and the volume is too small to estimate."
+    },
+    {
+      "q": "singer 6600c vs 6800c",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "singer 6600c vs 6800c",
+      "scope": "sibling",
+      "use": false,
+      "reason": "No 6800C review or data file in this catalog to answer from."
+    },
+    {
+      "q": "singer 6600c vs 4452",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "singer 6600c vs 4452",
+      "scope": "sibling",
+      "use": false,
+      "reason": "Belongs on a head-to-head, not this FAQ; the 4452 is not read in this briefing."
+    },
+    {
+      "q": "singer 6600c manual",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 30,
+      "volumeKeyword": "singer 6600c manual",
+      "scope": "this",
+      "use": false,
+      "reason": "A download intent, not a question we answer; the manual URL is in the sources."
+    },
+    {
+      "q": "What are people saying about the Singer 6800C sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "About the 6800C, which this page does not cover."
+    },
+    {
+      "q": "What is the most sought after Singer model?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide."
+    },
+    {
+      "q": "What is the most trouble-free sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Which Singer heavy duty model is best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand line comparison; belongs on a guide."
+    },
+    {
+      "q": "Which model of Singer sewing machine is best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide."
+    },
+    {
+      "q": "What's better, brother or Singer?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "Which Singer sewing machine is best for home use?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide."
+    },
+    {
+      "q": "What is the most reliable brand of sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide."
+    }
+  ]
+}

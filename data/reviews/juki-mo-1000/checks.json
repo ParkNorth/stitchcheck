@@ -1,15 +1,20 @@
 {
   "slug": "juki-mo-1000",
-  "generated": "2026-10-02T04:51:06.807Z",
+  "generated": "2026-10-03T02:48:37.479Z",
   "counts": {
     "error": 0,
-    "warn": 5
+    "warn": 3
   },
   "items": [
     {
       "level": "info",
       "id": "pooled-listing",
-      "message": "sewingmachinesplus.com: of 29 sampled reviews, 3 name this model, 0 name a sibling only, 26 name neither"
+      "message": "sewingmachinesplus.com: of 29 sampled reviews, 0 name this model, 0 name a sibling only, 29 name neither"
+    },
+    {
+      "level": "warn",
+      "id": "pooled-listing",
+      "message": "sewingmachinesplus.com: only 0 of 29 reviews name this model while siblings exist; confirm the listing is not pooled"
     },
     {
       "level": "info",
@@ -28,28 +33,13 @@
     },
     {
       "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"differentialFeed\" but the spec's conflicts do not mention it"
-    },
-    {
-      "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"presserFootLift\" but the spec's conflicts do not mention it"
-    },
-    {
-      "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"includedFeet\" but the spec's conflicts do not mention it"
-    },
-    {
-      "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"claims\" but the spec's conflicts do not mention it"
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 35 voices (28 first-hand), 15 sources, status draft"
+      "message": "evidence moderate, 35 voices (28 first-hand), 15 sources, status approved"
     }
   ]
 }

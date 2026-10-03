@@ -139,14 +139,15 @@
   ],
   "evidence": "owner",
   "buyerQuestions": [
+    "What is the price of the Janome 8002D overlocker?",
+    "janome 8002d serger reviews",
+    "how to thread janome serger 8002d",
+    "what needles does janome 8002d serger use",
     "Is the Janome 8002D good for beginners?",
     "Does the Janome 8002D do a rolled hem?",
-    "What needles does the Janome 8002D use?",
-    "Janome 8002D vs Brother 1034D, which is better?",
     "Does the Janome 8002D do 2-thread stitches?",
-    "How fast is the Janome 8002D?",
-    "Is the Janome 8002D the same as the Magnolia 7034D?",
-    "Does the Janome 8002D have a free arm?"
+    "Does the Janome 8002D have a free arm?",
+    "Janome 8002D vs Brother 1034D, which is better?"
   ],
   "crossShop": [
     {
@@ -221,48 +222,36 @@
     ],
     "faqs": [
       {
+        "q": "How much does the Janome 8002D cost?",
+        "a": "Janome lists an MSRP of $399 and says to see a dealer for pricing (seen on the Janome product page, 2026-10-02). Janome sells through authorized dealers. Its warranty says it is void unless the machine is bought from an authorized US Janome dealer, so check the seller before you compare prices [verify]."
+      },
+      {
+        "q": "What do owners say about the Janome 8002D?",
+        "a": "Owners mostly describe a light, easy entry serger, and some like the rolled edge and the way it trims as it sews. Threading comes up most: many find it manageable, while the lower looper steps are the hard part. Others report a rattling front cover (against a quiet run for some), no dust cover in the box, lint in the tension discs and, for one owner after nearly ten years of frequent use, skipped stitches and thread breaks. The read covers 15 Reddit threads and 4 retailer pages from 2013 to 2026, and Reddit leans toward people asking for help, so problems are over-represented. Three Amazon listings show 4.2 to 4.6, which is seller-collected and pools several listings."
+      },
+      {
+        "q": "How do you thread the Janome 8002D?",
+        "a": "Janome lists lay-in threading with color-coded guides, a threading chart and external tension dials, and says the machine comes pre-threaded with 4 starter spools, so you tie new thread to the pre-set threads and pull it through. There is no air or automatic threading; the AirThread 2000D is the sibling that has it. Owners find the lower looper the hard part, and one fixed bad stitching by rethreading after missing a thread guide ahead of it."
+      },
+      {
+        "q": "What needles does the Janome 8002D use?",
+        "a": "The manual specifies HA-1 SP needles in No. 11 and No. 14, with No. 11 for lightweight fabrics, No. 11 to 14 for mid weights and No. 14 for heavy fabrics. Some dealers write HAx1SP, which is the same needle family. Owner threads mention 130/705H household needles, which is not a Janome statement [verify]."
+      },
+      {
         "q": "Is the Janome 8002D good for beginners?",
-        "a": "Janome lists color-coded tension dials and a threading chart, and says it ships pre-threaded with 4 starter spools. Owners report the lower looper is the hard part to thread. This is a spec check, not a field test."
+        "a": "Janome lists color-coded tension dials and a threading chart, and says the machine ships pre-threaded. Owners say threading is manageable once learned, but the lower looper steps are the part they find hard to follow. This is a spec check against Janome's documents and owner reports, not a field test."
       },
       {
-        "q": "Does the 8002D do a rolled hem?",
-        "a": "Yes. Janome lists a quick change rolled hem, and the manual sets the needle plate knob and stitch length dial to R. 'No plate change' is our inference, not Janome's wording."
+        "q": "Does the Janome 8002D do a rolled hem?",
+        "a": "Yes. Janome lists a quick change rolled hem, and the manual sets the needle plate knob and the stitch length dial to R for rolled and narrow hems and picot edging. One owner reports using it for a rolled edge, which was the goal at this price."
       },
       {
-        "q": "What needles does the 8002D use?",
-        "a": "The manual specifies HA-1 SP needles, No. 11 and No. 14. Owner threads also mention 130/705H household needles, which is not a Janome statement."
+        "q": "Does the Janome 8002D do 2-thread stitches?",
+        "a": "No. Janome lists 3 and 4 thread stitches and no 2-thread converter. The AirThread 2000D, a sibling, is listed by Janome as a 2, 3 or 4 thread serger with air threading, 17.4 lb and a $1,799 MSRP, against 13.4 lb and $399 MSRP for the 8002D."
       },
       {
-        "q": "Can the 8002D sew 2-thread stitches?",
-        "a": "Janome lists 4 thread, 3 thread (wide) and narrow hem and no 2-thread converter. The AirThread 2000D page lists 2, 3 or 4 thread."
-      },
-      {
-        "q": "Does the 8002D do flatlock or blind hem?",
-        "a": "Janome lists neither as a stitch. Those come from dealer and review copy. The manual names a blind stitch foot as an optional accessory."
-      },
-      {
-        "q": "How fast is the 8002D?",
-        "a": "Janome lists a maximum of 1,300 spm."
-      },
-      {
-        "q": "What is the differential feed range?",
-        "a": "Janome's page says 0.5 to 2.25; the manual text says 2.2. Cutting width is 3.1 to 7.3 mm and stitch length 1 to 4 mm."
-      },
-      {
-        "q": "Does the 8002D have a free arm?",
-        "a": "Janome publishes no free arm or throat figure, so it shows [verify]. Ask the dealer."
-      },
-      {
-        "q": "How much does the 8002D weigh and how big is it?",
-        "a": "Janome lists 13.4 lb and W 12.5 x H 10.5 x D 11 in. Amazon item weights of 14 to 19 lb are likely shipping weights."
-      },
-      {
-        "q": "How does it differ from the AirThread 2000D?",
-        "a": "Per Janome's pages the AirThread 2000D is 2, 3 or 4 thread with air threading, 17.4 lb and a $1,799 MSRP; the 8002D is 3 or 4 thread with lay-in manual threading, 13.4 lb and $399 MSRP."
-      },
-      {
-        "q": "Is the 8002D the same as the Magnolia 7034D?",
-        "a": "Owners describe the two as near-identical. Janome has no page for the 7034D or an 8002DX, so no equivalence is stated."
+        "q": "Does the Janome 8002D have a free arm?",
+        "a": "Janome does not state a free arm on the product page or in the manual, and it publishes no throat or needle-to-body figure, so both show [verify]. Dealer copy may say otherwise, but we found no maker support for it. Ask the dealer before relying on one."
       }
     ]
   }

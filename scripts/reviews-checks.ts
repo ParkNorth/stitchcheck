@@ -127,6 +127,22 @@ function check(slug: string) {
     for (const f of man?.facts ?? []) if (f.site && !["confirmed", "differs", "unverified", "dealer only"].includes(f.site.status)) add("error", "config", `manufacturer fact ${f.field}: site.status "${f.site.status}" is not one of confirmed, differs, unverified, dealer only`);
     if (redditShare > 0.8 && !roll.ownerNote) add("error", "owner-note", `${Math.round(redditShare * 100)}% of items are Reddit and rollup has no ownerNote (editor.json ownerNote)`);
     if (roll.ratings?.some((r: any) => r.sampled) && !(roll.notes ?? []).some((n: string) => /sampled/i.test(n))) add("warn", "owner-note", "a retailer source is sampled but notes do not say so");
+    if (roll.status === "approved" && !roll.summary) add("warn", "summary", "approved rollup has no summary (editor.json summary, then reviews:rollup build)");
+    // Buyer questions (SKILL.md step E): paa.json grounds the FAQ in people-also-ask and question keywords.
+    const paaFile = path.join(D, "paa.json");
+    if (!fs.existsSync(paaFile)) {
+      if (roll.status === "approved") add("warn", "paa", "no paa.json: the FAQ is not grounded in people-also-ask or question keywords (SKILL.md step E)");
+    } else {
+      const paa = JSON.parse(fs.readFileSync(paaFile, "utf8"));
+      const used = (paa.questions ?? []).filter((q: any) => q.use);
+      if (!paa.pulled) add("error", "paa", "paa.json has no pulled date");
+      if (!(paa.questions ?? []).some((q: any) => (q.sources ?? []).includes("paa"))) add("warn", "paa", "paa.json holds no people-also-ask question (the SERP showed none, or the pull was skipped)");
+      if (used.length < 6 || used.length > 9) add("error", "paa", `paa.json marks ${used.length} questions as use; the FAQ takes 6 to 9`);
+      for (const q of paa.questions ?? []) {
+        if (q.use && !q.faq) add("error", "paa", `question marked use has no faq text: "${q.q}"`);
+        if (!q.use && !q.reason) add("warn", "paa", `skipped question has no reason: "${q.q}"`);
+      }
+    }
     add("info", "evidence", `evidence ${roll.method?.evidence}, ${roll.method?.voices} voices (${roll.method?.ownerVoices} first-hand), ${roll.method?.sources} sources, status ${roll.status}`);
   }
 

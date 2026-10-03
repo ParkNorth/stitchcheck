@@ -136,7 +136,7 @@ function productNode(p: Product) {
 }
 
 /** Spec-check review: Review wrapping Product, with our editorial rating. */
-export function reviewSchema(p: Product, opts: { description: string; dateModified: string }) {
+export function reviewSchema(p: Product, opts: { description: string; dateModified: string; reviewBody?: string }) {
   const url = `${site.url}/reviews/${p.slug}`;
   return {
     "@context": "https://schema.org",
@@ -154,7 +154,7 @@ export function reviewSchema(p: Product, opts: { description: string; dateModifi
       bestRating: "10",
       worstRating: "0",
     },
-    reviewBody: opts.description,
+    reviewBody: opts.reviewBody ?? opts.description,
   };
 }
 

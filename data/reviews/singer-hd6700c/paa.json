@@ -1,0 +1,249 @@
+{
+  "slug": "singer-hd6700c",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "singer hd6700c",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search drops related_questions, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "singer 6700c",
+        "singer hd6700c",
+        "singer heavy duty 6700c"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/singer-hd6700c.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "Is the Singer HD6700C a good sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "volume": 40,
+      "volumeKeyword": "singer hd6700c review",
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Singer HD6700C a good sewing machine, according to owners?",
+      "answeredFrom": "rollup.json themes (threading, tension, noise_vibration) and ratings"
+    },
+    {
+      "q": "What is the difference between the Singer 6700C and 6800C?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 20,
+      "volumeKeyword": "singer 6700c vs 6800c",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Singer 6700C and the 6800C?",
+      "answeredFrom": "rollup.json siblingSummaries (Singer 6800C), Singer product and comparison pages"
+    },
+    {
+      "q": "Does the Singer 6700C have a thread cutter?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Singer 6700C have an automatic thread cutter?",
+      "answeredFrom": "manufacturer.json threadTrimmer"
+    },
+    {
+      "q": "Does the Singer 6700C have needle up/down?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Singer 6700C have needle up/down?",
+      "answeredFrom": "manufacturer.json needleUpDown; data/specs conflicts"
+    },
+    {
+      "q": "Does the Singer 6700C come with a walking foot?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Singer 6700C come with a walking foot?",
+      "answeredFrom": "manufacturer.json includedFeet"
+    },
+    {
+      "q": "How many stitches does the Singer 6700C have?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How many stitches does the Singer 6700C have?",
+      "answeredFrom": "manufacturer.json stitchCount; data/specs conflicts"
+    },
+    {
+      "q": "Is the Singer 6700C good for quilting?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Singer 6700C good for quilting?",
+      "answeredFrom": "manufacturer.json throatIn and claims; rollup.json throat_workspace theme"
+    },
+    {
+      "q": "singer 6700c specs",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "singer 6700c specs",
+      "scope": "this",
+      "use": true,
+      "faq": "What are the specs of the Singer 6700C?",
+      "answeredFrom": "manufacturer.json maxSpm, weightLb, throatIn, presserFootLift, motor; data/specs conflicts"
+    },
+    {
+      "q": "singer hd6700c price",
+      "sources": [
+        "serp-related"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What is the price of the Singer 6700C?",
+      "answeredFrom": "manufacturer.json price; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "Is the Singer 6700C good for beginners?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Kept out of the nine; the whoFor line and the owner summary cover it."
+    },
+    {
+      "q": "Can the Singer 6700C do lettering?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the spec table lettering row; maker pages disagree on 1 or 2 fonts."
+    },
+    {
+      "q": "How much does the Singer 6700C weigh?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Folded into the specs question."
+    },
+    {
+      "q": "singer 6700c manual",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 40,
+      "volumeKeyword": "singer 6700c manual",
+      "scope": "this",
+      "use": false,
+      "reason": "A download intent; the shared 6700C and 6705C manual URL is in the sources."
+    },
+    {
+      "q": "singer 6700c vs 4452",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "singer 6700c vs 4452",
+      "scope": "sibling",
+      "use": false,
+      "reason": "Belongs on a head-to-head; the 4452 is not read in this briefing."
+    },
+    {
+      "q": "What is the most sought after Singer sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Is a 60 year old singer sewing machine worth anything?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Vintage machines; not about this model."
+    },
+    {
+      "q": "What is the most trouble-free sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide."
+    },
+    {
+      "q": "What is a good but cheap sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide."
+    },
+    {
+      "q": "What is the #1 sewing machine manufacturer in the US?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model."
+    },
+    {
+      "q": "What is the best Singer sewing machine model?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Are there any sewing machines made in the United States?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model."
+    },
+    {
+      "q": "What sewing machine is not made in China?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model."
+    }
+  ]
+}

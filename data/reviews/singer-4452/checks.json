@@ -1,20 +1,20 @@
 {
   "slug": "singer-4452",
-  "generated": "2026-10-01T14:46:58.109Z",
+  "generated": "2026-10-03T02:49:21.307Z",
   "counts": {
     "error": 0,
-    "warn": 1
+    "warn": 2
   },
   "items": [
     {
       "level": "info",
       "id": "pooled-listing",
-      "message": "sewingmachinesplus.com: of 59 sampled reviews, 5 name this model, 0 name a sibling only, 54 name neither"
+      "message": "sewingmachinesplus.com: of 59 sampled reviews, 0 name this model, 0 name a sibling only, 59 name neither"
     },
     {
       "level": "warn",
       "id": "pooled-listing",
-      "message": "sewingmachinesplus.com: only 5 of 59 reviews name this model while siblings exist; confirm the listing is not pooled"
+      "message": "sewingmachinesplus.com: only 0 of 59 reviews name this model while siblings exist; confirm the listing is not pooled"
     },
     {
       "level": "info",
@@ -27,9 +27,14 @@
       "message": "56 Reddit threads, 56 with the model in the title"
     },
     {
+      "level": "warn",
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
+    },
+    {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 97 voices (72 first-hand), 58 sources, status draft"
+      "message": "evidence moderate, 97 voices (72 first-hand), 58 sources, status approved"
     }
   ]
 }

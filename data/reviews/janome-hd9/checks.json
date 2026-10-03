@@ -1,6 +1,6 @@
 {
   "slug": "janome-hd9",
-  "generated": "2026-10-01T20:36:58.587Z",
+  "generated": "2026-10-03T02:43:00.649Z",
   "counts": {
     "error": 0,
     "warn": 2
@@ -23,13 +23,13 @@
     },
     {
       "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"presserFootPressure\" but the spec's conflicts do not mention it"
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 37 voices (19 first-hand), 36 sources, status draft"
+      "message": "evidence moderate, 37 voices (19 first-hand), 36 sources, status approved"
     }
   ]
 }

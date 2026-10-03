@@ -3,7 +3,7 @@
   "status": "approved",
   "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
   "reviewedOn": "2026-10-01",
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "method": {
     "sources": 21,
     "itemsCollected": 247,
@@ -36,6 +36,7 @@
     "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
   ],
   "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "summary": "Owners of the Singer Heavy Duty 6600C report more problems than praise in what we read. Build quality is the largest theme: several owners say it is not the all-metal machine the name suggests, though one reports a metal frame with only the cover in plastic. Defects come up often, including an error message on day one, a needle that sticks down and a machine that starts and stops in bursts, and one owner reports loud shaking and seizing at thick denim seams. Others find it quiet, easy to thread and stronger on thick fabric than their old machines. Heavy Duty is Singer's series name, not a duty rating. This read covers 20 Reddit threads and 1 retailer page from 2021 to 2026, with 17 owner voices. Reddit threads lean toward people asking for help, so problems are over-represented here.",
   "themes": [
     {
       "theme": "build_quality",

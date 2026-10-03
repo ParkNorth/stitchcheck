@@ -1,6 +1,6 @@
 {
   "slug": "juki-tl-18qvp",
-  "generated": "2026-10-02T02:02:18.793Z",
+  "generated": "2026-10-03T02:51:34.609Z",
   "counts": {
     "error": 0,
     "warn": 1
@@ -18,13 +18,13 @@
     },
     {
       "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"presserFootLift\" but the spec's conflicts do not mention it"
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 57 voices (41 first-hand), 33 sources, status draft"
+      "message": "evidence moderate, 57 voices (41 first-hand), 33 sources, status approved"
     }
   ]
 }
