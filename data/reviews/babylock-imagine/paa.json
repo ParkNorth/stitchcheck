@@ -1,0 +1,266 @@
+{
+  "slug": "babylock-imagine",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "baby lock imagine",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "baby lock imagine",
+        "babylock imagine",
+        "baby lock imagine serger"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/babylock-imagine.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "Is Baby Lock Imagine discontinued?",
+      "sources": [
+        "paa",
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "volumeKeyword": "when was babylock imagine discontinued",
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Baby Lock Imagine discontinued?",
+      "answeredFrom": "data/specs/babylock-imagine.json editorial and sources (babylock.com previous-model page, PatternReview thread)"
+    },
+    {
+      "q": "What replaced the Baby Lock Imagine?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "What replaced the Baby Lock Imagine?",
+      "answeredFrom": "data/specs/babylock-imagine.json (replacedBy); rollup.json siblings (Victory)"
+    },
+    {
+      "q": "How much does a Baby Lock Imagine serger cost?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 40,
+      "volumeKeyword": "babylock imagine serger price",
+      "scope": "this",
+      "use": true,
+      "faq": "How much does a Baby Lock Imagine cost?",
+      "answeredFrom": "data/specs/babylock-imagine.json conflicts (price); rollup.json siblings (Victory price belief)"
+    },
+    {
+      "q": "Does the Baby Lock Imagine have tension dials?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Baby Lock Imagine have tension dials?",
+      "answeredFrom": "manufacturer.json threadingSystem (maker claim); rollup.json Tension theme"
+    },
+    {
+      "q": "how to thread the baby lock imagine",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "threading babylock imagine serger",
+      "scope": "this",
+      "use": true,
+      "faq": "How do you thread the Baby Lock Imagine, and does the air threading work?",
+      "answeredFrom": "manufacturer.json threadingSystem; rollup.json Threading and loopers theme"
+    },
+    {
+      "q": "Does the Imagine do 2 thread stitches?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Baby Lock Imagine do 2 thread stitches or coverstitch?",
+      "answeredFrom": "manufacturer.json threads (maker spec sheet)"
+    },
+    {
+      "q": "Is the Imagine the same as the Imagine Wave?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 10,
+      "volumeKeyword": "babylock imagine wave",
+      "scope": "sibling",
+      "use": true,
+      "faq": "Is the Baby Lock Imagine the same as the Imagine Wave?",
+      "answeredFrom": "data/specs/babylock-imagine.json conflicts (model revisions)"
+    },
+    {
+      "q": "Is a used Imagine worth buying?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is a used Baby Lock Imagine worth buying?",
+      "answeredFrom": "rollup.json Reliability and defects and Threading themes; manufacturer.json ownerThemes"
+    },
+    {
+      "q": "What do owners say about the Baby Lock Imagine?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Baby Lock Imagine?",
+      "answeredFrom": "rollup.json themes and method"
+    },
+    {
+      "q": "Does the Imagine do coverstitch?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Folded into the 2 thread stitches entry: the maker spec sheet lists no coverstitch."
+    },
+    {
+      "q": "What is the difference between the Imagine BLE1AT and BLE1AT-2?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "A PatternReview thread calls the revisions minor and we did not compare the two maker documents; not answerable from our evidence."
+    },
+    {
+      "q": "What needles does the Imagine use?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the needle system row of the spec table (HAx1SP, 130/705H, ELx705CF); kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "how to clean and oil babylock imagine",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to clean and oil babylock imagine",
+      "scope": "this",
+      "use": false,
+      "reason": "The manual was not fetched, so we have no maker oiling interval; owners only mention an occasional service."
+    },
+    {
+      "q": "how to change a light bulb baby lock imagine",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to change a light bulb baby lock imagine",
+      "scope": "this",
+      "use": false,
+      "reason": "No maker document in hand covers the bulb; the manual was not fetched."
+    },
+    {
+      "q": "what is the msrp on the babylock imagine serger",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "what is the msrp on the babylock imagine serger",
+      "scope": "this",
+      "use": false,
+      "reason": "Same question as the price entry; Baby Lock publishes no price."
+    },
+    {
+      "q": "What is the top of the line Baby Lock sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "Which is better, Janome or Baby Lock?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "Are Baby Lock sewing machines any good?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "Is Baby Lock better than Brother?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "What is the most trouble-free sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "What is the best sewing machine for the money?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "What is the #1 sewing machine manufacturer in the US?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model."
+    },
+    {
+      "q": "What is the life expectancy of a sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    }
+  ]
+}

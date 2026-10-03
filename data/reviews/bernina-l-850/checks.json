@@ -1,9 +1,9 @@
 {
   "slug": "bernina-l-850",
-  "generated": "2026-10-02T11:58:13.189Z",
+  "generated": "2026-10-03T02:42:35.603Z",
   "counts": {
     "error": 0,
-    "warn": 1
+    "warn": 2
   },
   "items": [
     {
@@ -22,9 +22,14 @@
       "message": "few Reddit threads name the model in the title; collection may be on loose matches"
     },
     {
+      "level": "warn",
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
+    },
+    {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 5 voices (5 first-hand), 10 sources, status draft"
+      "message": "evidence moderate, 5 voices (5 first-hand), 10 sources, status approved"
     }
   ]
 }

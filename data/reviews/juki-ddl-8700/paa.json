@@ -1,0 +1,333 @@
+{
+  "slug": "juki-ddl-8700",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "juki ddl-8700",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "extraPull": "extra pull on \"juki ddl-8700 review\" (first pull had only generic Juki questions)",
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "juki ddl-8700",
+        "juki ddl8700",
+        "juki 8700"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/juki-ddl-8700.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "juki ddl-8700 industrial sewing machine reviews",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 30,
+      "volumeKeyword": "juki ddl-8700 industrial sewing machine reviews",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Juki DDL-8700?",
+      "answeredFrom": "rollup.json themes and summary"
+    },
+    {
+      "q": "What is a Juki DDL 8700 used for?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What is the Juki DDL-8700 used for?",
+      "answeredFrom": "manufacturer.json variants; rollup.json fabric handling and power themes; data/specs ownerThemes"
+    },
+    {
+      "q": "What is the price of a new Juki DDL 8700 industrial sewing machine?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 200,
+      "volumeKeyword": "juki ddl-8700 price",
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Juki DDL-8700 cost?",
+      "answeredFrom": "manufacturer.json price; data/specs priceUsdSeen with date and conflicts"
+    },
+    {
+      "q": "Can a Juki DDL 8700 sew leather?",
+      "sources": [
+        "paa",
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can the Juki DDL-8700 sew leather?",
+      "answeredFrom": "rollup.json fabric handling theme; manufacturer.json variants; data/specs ownerThemes"
+    },
+    {
+      "q": "What is the difference between the Juki DDL-8700, DDL-8700-7 and DDL-8700-H?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 100,
+      "volumeKeyword": "juki ddl-8700-7",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Juki DDL-8700, the -7 and the -H?",
+      "answeredFrom": "rollup.json siblings (8700-7, 8700A, 8700H); manufacturer.json variants and thread trimmer"
+    },
+    {
+      "q": "Does the Juki DDL-8700 come with a table and motor?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 20,
+      "volumeKeyword": "juki ddl-8700 with table",
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Juki DDL-8700 come with a table and motor?",
+      "answeredFrom": "data/specs motor and includedFeet"
+    },
+    {
+      "q": "Should I get a servo motor or a clutch motor on a DDL-8700?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 40,
+      "volumeKeyword": "juki ddl-8700 industrial lockstitch servo motor",
+      "scope": "this",
+      "use": true,
+      "faq": "Should I get a servo motor or a clutch motor on a Juki DDL-8700?",
+      "answeredFrom": "rollup.json speed theme; data/specs motor and ownerThemes"
+    },
+    {
+      "q": "How fast is the Juki DDL-8700 and can it be slowed down?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How fast is the Juki DDL-8700, and can it be slowed down?",
+      "answeredFrom": "manufacturer.json maxSpm; rollup.json speed theme"
+    },
+    {
+      "q": "What needles does the DDL-8700 use?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "volumeKeyword": "what are the different needles of a juki ddl 8700 db x 1 #14 #9 to #18",
+      "scope": "this",
+      "use": true,
+      "faq": "What needles does the Juki DDL-8700 use?",
+      "answeredFrom": "manufacturer.json needle system"
+    },
+    {
+      "q": "Does the Juki DDL-8700 use home sewing machine feet?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "The only support is a forum remark in ownerThemes and one owner's free-motion foot; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "How heavy is a Juki DDL-8700 with the table?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how much does the juki ddl-8700 weigh",
+      "scope": "this",
+      "use": false,
+      "reason": "Juki publishes no weight, so the answer is the spec table's [verify]; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "Is the Juki DDL-8700 self oiling?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the spec table (automatic lubrication, sealed oil pan, New Defrix Oil No. 1); kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "Is the Juki DDL-8700 discontinued or replaced by the DDL-8000A?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Our evidence holds no discontinuation or DDL-8000A statement, so we cannot answer it."
+    },
+    {
+      "q": "What feet fit a juki ddl 8700",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "what feet fit a juki ddl 8700",
+      "scope": "this",
+      "use": false,
+      "reason": "Same thin evidence as the home feet question."
+    },
+    {
+      "q": "juki ddl-8700 price usd",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 100,
+      "volumeKeyword": "juki ddl-8700 price usd",
+      "scope": "this",
+      "use": false,
+      "reason": "Folded into the price answer."
+    },
+    {
+      "q": "juki ddl-8700 manual",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 40,
+      "volumeKeyword": "juki ddl-8700 manual",
+      "scope": "this",
+      "use": false,
+      "reason": "Juki hosts the manual; the review links it and we have no answer to add."
+    },
+    {
+      "q": "how to thread juki ddl 8700",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "how to thread a juki ddl 8700",
+      "scope": "this",
+      "use": false,
+      "reason": "A how-to belongs in Juki's manual; our evidence has no threading instructions."
+    },
+    {
+      "q": "juki ddl-9000cfms bag making or ddl 8700 which is better for bag making",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "juki ddl-9000cfms bag making or ddl 8700 which is better for bag making",
+      "scope": "sibling",
+      "use": false,
+      "reason": "The DDL-9000C is not a model we cover."
+    },
+    {
+      "q": "Which Juki to buy?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "What is the price of a Juki Silai machine made in Japan?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "A different Juki product line; not this model."
+    },
+    {
+      "q": "What are the dimensions of a Juki sewing table?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Table size varies by dealer bundle and is not a Juki spec for this head."
+    },
+    {
+      "q": "What are the main differences between Juki and Jack sewing machines?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "Which Juki sewing machine is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "Are Juki sewing machines as good as Bernina?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "What is the number one rated sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "Is Juki still made in Japan?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "Is Janome better than Juki?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "Is Juki better than Brother?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "Which sewing machine has the least problems?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    }
+  ]
+}

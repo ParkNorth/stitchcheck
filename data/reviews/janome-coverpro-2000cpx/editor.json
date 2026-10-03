@@ -1,0 +1,169 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Amazon's 4.5 from 67 ratings sits on a listing that shares a parent with the CoverPro 1000CPX (and its reviews name the 900CPX and 1000CPX), so it is not a 2000CPX rating and none of its text counts toward the themes below. The Walmart listing shows one 4-star review. Neither retailer's average is quoted as a 2000CPX rating. Both retailer sources are sampled: 8 top Amazon reviews of 67 ratings, and the 1 Walmart review.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented. Skipped stitches are the most repeated complaint; owners are split between never seeing them and fighting them for years.",
+    "Many Reddit and forum posts say 'my CoverPro' or 'the 2000' without a suffix. Where a post names the 1000CPX, 900CPX or 3000 it is a sibling claim and is not counted as 2000CPX evidence; where the model is unclear it is also left out.",
+    "Two names need care: the Janome page and manual are for the CoverPro 2000CPX only. 'Cover Pro 2000' without the CPX, and a '2 needle 2000CPX', appear in a few posts but no Janome document we read lists either one.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+    "PatternReview reviews written more than six months ago are login-gated, so only their comment threads were read. Facebook groups, YouTube comments and eBay were not collected."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "siblings": [
+    {
+      "model": "1000CPX",
+      "label": "Janome CoverPro 1000CPX",
+      "pattern": "1000\\s*-?\\s*cpx|cover\\s*-?pro\\s*1000(?![a-z0-9])"
+    },
+    {
+      "model": "900CPX",
+      "label": "Janome CoverPro 900CPX",
+      "pattern": "900\\s*-?\\s*cpx|cover\\s*-?pro\\s*900(?![a-z0-9])"
+    },
+    {
+      "model": "3000CPX",
+      "label": "Janome CoverPro 3000 (3000CPX, 3000P)",
+      "pattern": "3000"
+    },
+    {
+      "model": "Cover Pro 2000",
+      "label": "Janome Cover Pro 2000 (no CPX, or the reported 2 needle 2000CPX)",
+      "pattern": "2[\\s-]*needle\\s*2000|cover\\s*-?pro\\s*2000(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "looper tension|tension lever|tension level|tlc|tension adjustment",
+      "Looper tension lever (TLC)"
+    ],
+    [
+      "light",
+      "Lighting"
+    ],
+    [
+      "threading",
+      "Threading"
+    ],
+    [
+      "needle count|needle",
+      "Needle count"
+    ],
+    [
+      "availability|dealer",
+      "Dealer-only sale"
+    ],
+    [
+      "body size|bed",
+      "Body size"
+    ],
+    [
+      "top cover",
+      "Top cover stitch"
+    ],
+    [
+      "overall",
+      "Overall"
+    ],
+    [
+      "weight",
+      "Weight"
+    ],
+    [
+      "price",
+      "Price"
+    ]
+  ],
+  "rivals": [
+    [
+      "cv\\s*-?3550|brother cv|2340",
+      "Brother CV3550 and 2340CV"
+    ],
+    [
+      "baby\\s*-?lock",
+      "Baby Lock coverstitch"
+    ],
+    [
+      "juki",
+      "Juki coverstitch"
+    ],
+    [
+      "3000",
+      "Janome CoverPro 3000"
+    ],
+    [
+      "pfaff",
+      "Pfaff Coverstyle"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "1000\\s*-?\\s*cpx|900\\s*-?\\s*cpx|3000(?![0-9])|cv\\s*-?3550|2340\\s*-?cv|euphoria|blcs\\s*-?2|juki|babylock|baby lock",
+  "scopeRules": [
+    {
+      "sourceUrl": "amazon.com/dp/B013I7MB1M",
+      "requireText": "2000\\s*-?\\s*cpx|cover\\s*-?pro\\s*2000"
+    }
+  ],
+  "siblingSummaries": {
+    "1000CPX": {
+      "Looper tension lever (TLC)": {
+        "summary": "Sewing Insight (quoting a shop owner), a dealer page and a PatternReview member say the 2000CPX adds the looper tension switching lever, sold as Tension Level Control. A dealer chart marks Tension Level Control for the 2000CPX only. Janome's 2000CPX manual lists the lever.",
+        "check": "Janome 2000CPX manual and page confirm the lever; no Janome 1000CPX document read"
+      },
+      "Lighting": {
+        "summary": "One forum member says the 1000CPX has an incandescent bulb and the 2000CPX an LED; another says the 1000 bulb can be swapped for an LED. Janome lists an LED light on the 2000CPX.",
+        "check": "PatternReview, one thread; no 1000CPX maker document read"
+      },
+      "Threading": {
+        "summary": "A forum member and a blogger who bought the 2000CPX say it is a little easier to thread than the 1000CPX. A 1000CPX owner says theirs is easy to thread too.",
+        "check": "opinion only; no maker claim"
+      },
+      "Overall": {
+        "summary": "A blogger who bought the 2000CPX says the two have minimal differences, and a 1000CPX owner doubts the 2000 works much differently.",
+        "check": "two comments on one blog page"
+      },
+      "Dealer-only sale": {
+        "summary": "A forum poster relays a dealer saying the only difference is that the 2000 is packaged as a dealer only machine; another poster says the 1000CPX and 1000CP were dealer only as well. Janome says the 2000CPX is sold through authorized dealers.",
+        "check": "unverified, one PatternReview thread"
+      },
+      "Body size": {
+        "summary": "One forum member says the 2000CPX has a squarer body with extra space compared with the roomy 1000 body. The dealer chart lists the same 4 x 5.5 in bed for both.",
+        "check": "PatternReview opinion against a dealer chart"
+      }
+    },
+    "900CPX": {
+      "Looper tension lever (TLC)": {
+        "summary": "One PatternReview member says her 900CPX has the tension lever too. The dealer chart marks Tension Level Control for the 2000CPX only and gives the 900CPX 1 or 2 needles.",
+        "check": "conflict, unverified, one forum post"
+      }
+    },
+    "3000CPX": {
+      "Top cover stitch": {
+        "summary": "A dealer page says buyers who want a top cover stitch should look at the CoverPro 3000P. The 2000CPX pages we read list chain, cover and triple cover only.",
+        "check": "dealer copy only; no Janome 3000 document read"
+      }
+    },
+    "Cover Pro 2000": {
+      "Needle count": {
+        "summary": "A blogger and a forum member say a 2 needle 2000CPX also exists and advise against it. Janome's 2000CPX page and manual describe one machine that sews with 1, 2 or 3 needles, and no Janome document we read lists a separate 2 needle version or a plain Cover Pro 2000.",
+        "check": "two reports, no maker document"
+      }
+    }
+  },
+  "siblingExtras": {
+    "1000CPX": [
+      {
+        "feature": "Dealer chart feature list",
+        "summary": "Ken's Sewing Center's chart gives the 1000CPX the same stitch types, 1 to 4 mm length, 0.5 to 2.25 differential feed, 1,000 spm and 4 x 5.5 in bed as the 2000CPX, with no Tension Level Control mark, and lists 19 lb against 17.8 lb for the 2000CPX. Janome's own page gives 19 lb for the 2000CPX.",
+        "check": "dealer chart, 2026-10-02; not a Janome document"
+      }
+    ],
+    "900CPX": [
+      {
+        "feature": "Dealer chart feature list",
+        "summary": "The same dealer chart gives the 900CPX 1 or 2 needles, a 5 mm two-needle width, no three-needle width, no Tension Level Control and 18.7 lb, with the same 4 x 5.5 in bed and 1,000 spm.",
+        "check": "dealer chart, 2026-10-02; not a Janome document"
+      }
+    ]
+  },
+  "summary": "Owner and buyer signals on the Janome CoverPro 2000CPX are split. People who like it call it a solid, quiet machine that threads easily and gives clean cover hems once the needles and tension are right, and several say they have never had a skipped stitch. Others describe skipped stitches, tunnelling and a long learning curve, and a few gave up and moved to another brand. The repeated advice is the same: use ELx705 needles (ballpoint for knits), check the threading and the tension discs, and expect to spend time on settings. Some owners find the free arm too small to be useful, and Janome's manual does not mention oiling, which one owner says cured her skipping. This read covers 11 Reddit threads, 5 PatternReview pages, 4 blog write-ups and 3 retailer listings, from 2012 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here."
+}

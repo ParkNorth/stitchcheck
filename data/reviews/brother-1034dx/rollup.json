@@ -3,7 +3,7 @@
   "status": "approved",
   "reviewedBy": "Claude (editor pass: exemplars, pooled-listing exclusion, sibling extras checked against Brother pages and sources). Human review still recommended.",
   "reviewedOn": "2026-10-01",
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "method": {
     "sources": 88,
     "itemsCollected": 991,
@@ -44,6 +44,7 @@
     "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
   ],
   "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, and there are far fewer owner reports for the DX than for the 1034D. Walmart's DX listing pools reviews that name the 1034D, so its star rating is shown under 'How we collected this' with that caveat and its generic reviews are not counted here.",
+  "summary": "Owners of the Brother 1034DX are split on how easy it is to live with. Reliability reports are the largest theme and lean negative, with owners describing a machine that stopped serging or a repair quote not worth paying, while others report no problems at all. Threading divides them: some call it very easy and others rethread many times and still get tangles. Tension trouble such as loose, wobbly edges on a new machine comes up often, and a few owners find it loud and clattery even after oiling. This read covers 84 Reddit threads, 1 retailer page, 2 editorial pieces and 1 forum page from 2014 to 2026, with 75 owner voices. Walmart's listing pools reviews that name the 1034D, so its generic reviews are left out. Reddit threads lean toward people asking for help, so problems are over-represented here.",
   "themes": [
     {
       "theme": "reliability_defects",

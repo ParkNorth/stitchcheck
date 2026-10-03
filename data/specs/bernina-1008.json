@@ -153,14 +153,13 @@
   "evidence": "owner",
   "buyerQuestions": [
     "Is the Bernina 1008 discontinued?",
-    "What replaced the Bernina 1008?",
-    "How much did the Bernina 1008 cost new?",
-    "Is the Bernina 1008 heavy duty?",
-    "What is the difference between the Bernina 1008 and 1008S?",
+    "How heavy is the BERNINA 1008?",
+    "How much does a bernina 1008 sewing machine cost",
     "How many stitches does the Bernina 1008 have?",
-    "How fast does the Bernina 1008 sew?",
-    "Does the Bernina 1008 have a needle threader?",
-    "What is a used Bernina 1008 worth?"
+    "What do owners say about the Bernina 1008?",
+    "how to thread a bernina 1008",
+    "Is the Bernina 1008 heavy duty?",
+    "What is the difference between the Bernina 1008 and 1008S?"
   ],
   "crossShop": [
     {
@@ -260,43 +259,35 @@
     "faqs": [
       {
         "q": "Is the Bernina 1008 discontinued?",
-        "a": "Bernina's US product page says 'This product is no longer available' and points to local Bernina stores. One third-party site says it was discontinued in 2020; Bernina's page gives no date."
+        "a": "Bernina's US product page says 'This product is no longer available' and points to local Bernina stores; Bernina still publishes the manual and warranty. One third-party site says it was discontinued in 2020, but Bernina's page gives no date."
       },
       {
-        "q": "What replaced the Bernina 1008?",
-        "a": "No successor appears on the pages found. One dealer pointed a PatternReview reviewer to the bernette 05 Academy as a school machine."
+        "q": "How heavy is the Bernina 1008?",
+        "a": "Bernina publishes no weight on its page or in its manual. A European dealer lists 9.5 kg, about 20.9 lb, which is a non-maker figure [verify]."
       },
       {
-        "q": "How much did the Bernina 1008 cost new?",
-        "a": "Bernina's page gives no price. Undated forum reports put dealer prices at $1,000 to $1,100 with sales near $950, and some buyers paid $649 to $700."
-      },
-      {
-        "q": "Is the Bernina 1008 heavy duty?",
-        "a": "Bernina does not rate it that way; Heavy Duty appears in used-dealer listing titles. Bernina's manual says it is intended for household use only. Owners describe a sturdy machine that has lasted in classes."
-      },
-      {
-        "q": "What is the difference between the 1008 and 1008S?",
-        "a": "A UK dealer lists the 1008S with 16 stitches against 17 for the 1008 and describes it as the portable variant. Bernina US pages cover the 1008 only."
+        "q": "How much does a Bernina 1008 cost?",
+        "a": "Bernina's page gives no price, so we show none. We have no dated current price on record, and used and old stock is sold through dealers and marketplaces, so get a quote for the specific unit [verify]."
       },
       {
         "q": "How many stitches does the Bernina 1008 have?",
-        "a": "17, including a buttonhole and two decorative stitches, per Bernina's product page."
+        "a": "17, including a buttonhole and two decorative stitches, per Bernina's product page. A UK dealer lists the 1008S with 16, which is a different listing."
       },
       {
-        "q": "How fast does the Bernina 1008 sew?",
-        "a": "Bernina publishes no speed. Review sites quote 900 spm and one quotes 1050; treat both as non-maker figures to verify."
+        "q": "What do owners say about the Bernina 1008?",
+        "a": "Owners mostly praise a sturdy mechanical machine: a student and a teacher describe class 1008s that keep working, and one owner sewed six layers of denim without trouble. Complaints are about stretch knits and zigzag, a foot that presses hard and cannot be adjusted for pressure per one owner, jammed feed dogs on one eBay-bought unit, and oiling advice that ranges from after every bobbin to never. Our read covers 53 Reddit threads and 1 retailer page from 2011 to 2026, and Reddit leans toward help requests, so problems are over-represented."
       },
       {
-        "q": "What is the maximum stitch width?",
-        "a": "Bernina's manual says up to 5 mm, infinitely variable, while its product page says five steps. The manual text is OCR, so check the PDF."
+        "q": "How do you thread the Bernina 1008?",
+        "a": "Follow the threading diagram in Bernina's manual, which Bernina still publishes as a PDF. Owner reports on threading are a few tips: one advises holding the thread tails at the start of sewing because the needle kept unthreading, and one owner's top thread pulls out of the needle when stitch width is turned to 5."
       },
       {
-        "q": "What does the Bernina warranty cover?",
-        "a": "Bernina's US page lists 2 years electrical parts, 5 years circuit boards and 20 years mechanical parts, with liability limited to the cost of the part. Verify the conditions on the page."
+        "q": "Is the Bernina 1008 heavy duty?",
+        "a": "Bernina does not rate it that way; Heavy Duty appears in used-dealer listing titles. Bernina's manual says it is intended for household use only. Owners describe a sturdy machine that has lasted in classes, though others report jams in denim zigzag and weak results on cap brims."
       },
       {
-        "q": "How much does the Bernina 1008 weigh?",
-        "a": "Bernina publishes no weight. A European dealer lists 9.5 kg, about 20.9 lb; verify before relying on it."
+        "q": "What is the difference between the Bernina 1008 and 1008S?",
+        "a": "A UK dealer lists the 1008S with 16 stitches against 17 for the 1008 and describes it as the portable variant. Bernina US pages cover the 1008 only, so we have no maker comparison of the two [verify]."
       }
     ]
   }

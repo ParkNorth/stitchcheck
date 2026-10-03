@@ -1,0 +1,262 @@
+{
+  "slug": "handi-quilter-moxie",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "handi quilter moxie",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "handi quilter moxie",
+        "hq moxie"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/handi-quilter-moxie.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "What is the difference between Moxie and Moxie XL?",
+      "sources": [
+        "paa",
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 80,
+      "volumeKeyword": "handi quilter moxie xl",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Handi Quilter Moxie and the Moxie XL?",
+      "answeredFrom": "rollup.json siblings (Moxie XL); manufacturer.json xl (maker product pages)"
+    },
+    {
+      "q": "What are people saying about the Handi Quilter Moxie XL quilter?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 40,
+      "volumeKeyword": "handi quilter moxie reviews",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Handi Quilter Moxie?",
+      "answeredFrom": "rollup.json themes and ratings",
+      "note": "The SERP question names the Moxie XL; we hold no XL owner read, so the FAQ answers the owner question for the Moxie, matching the 40 a month 'handi quilter moxie reviews' demand."
+    },
+    {
+      "q": "How much does a Moxie machine cost?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "handi quilter moxie price",
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Handi Quilter Moxie cost?",
+      "answeredFrom": "manufacturer.json price; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "Does the Moxie price include a frame?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 20,
+      "volumeKeyword": "handi quilter moxie w loft frame",
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Handi Quilter Moxie come with a frame?",
+      "answeredFrom": "manufacturer.json frame"
+    },
+    {
+      "q": "Is stitch regulation built into the Moxie or an add-on?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is stitch regulation built into the Handi Quilter Moxie?",
+      "answeredFrom": "manufacturer.json stitchRegulation; rollup.json stitch_quality theme"
+    },
+    {
+      "q": "Can you add Pro-Stitcher to a Moxie?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 10,
+      "volumeKeyword": "handi quilter moxie pro stitcher lite",
+      "scope": "this",
+      "use": true,
+      "faq": "Can you add Pro-Stitcher to the Handi Quilter Moxie?",
+      "answeredFrom": "manufacturer.json proStitcher"
+    },
+    {
+      "q": "What needle does the Moxie take?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What needles does the Handi Quilter Moxie take?",
+      "answeredFrom": "manufacturer.json needleSystem"
+    },
+    {
+      "q": "Does the Moxie use M class or L class bobbins?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Handi Quilter Moxie use M class or L class bobbins?",
+      "answeredFrom": "manufacturer.json bobbin"
+    },
+    {
+      "q": "What is the Moxie warranty?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What warranty does the Handi Quilter Moxie have?",
+      "answeredFrom": "manufacturer.json warrantyUs"
+    },
+    {
+      "q": "Who makes Moxie quilting machines?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the page byline and the Handi Quilter brand hub; no evidence work to add."
+    },
+    {
+      "q": "How much room does a Moxie on the 8 ft Loft frame need?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Covered by the 'Measure the room, not the frame' check card; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "Can the Moxie quilt a king size quilt?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "No maker figure or owner evidence on finished quilt size; the maker's usable area (about 10 in) is on the check cards."
+    },
+    {
+      "q": "How does the Moxie compare with the Grace Q'nique 15R?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "No Grace maker documents or head-to-head owner evidence collected."
+    },
+    {
+      "q": "handi quilter moxie manual",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 30,
+      "volumeKeyword": "handi quilter moxie manual",
+      "scope": "this",
+      "use": false,
+      "reason": "A link, not an answer; the manual we read is a dealer-hosted 2020 copy."
+    },
+    {
+      "q": "handi quilter moxie accessories",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 30,
+      "volumeKeyword": "handi quilter moxie accessories",
+      "scope": "this",
+      "use": false,
+      "reason": "No sourced accessory list beyond the Pro-Stitcher and frame options already covered."
+    },
+    {
+      "q": "handi quilter moxie for sale",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 40,
+      "volumeKeyword": "handi quilter moxie for sale",
+      "scope": "this",
+      "use": false,
+      "reason": "Retail-intent search; the price and frame questions carry the answerable part."
+    },
+    {
+      "q": "handi quilter moxie st",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "handi quilter moxie st",
+      "scope": "sibling",
+      "use": false,
+      "reason": "No maker comparison page read for the Moxie ST."
+    },
+    {
+      "q": "What is the best quilting machine for home quilters in 2026?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "What is the best quilting machine for home use?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "What sewing machine do most quilters use?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "What is dirty quilting?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model."
+    },
+    {
+      "q": "What is the average cost of having a quilt machine quilted?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model."
+    }
+  ]
+}

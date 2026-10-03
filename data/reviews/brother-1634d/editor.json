@@ -1,0 +1,161 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "One retailer rating exists for the 1634D: the eBay catalog page for the model shows 4.8 from 45 ratings, with 35 written reviews (a sampled set, since 45 buyers rated it), mostly from 2016 to 2019. It is catalog-level across eBay sellers and conditions (new, pre-owned, refurbished), so many of those buyers had refurbished units, and the ratings are older than the Reddit threads. Amazon shows no 1634D listing, the Walmart listing found in a 2019 forum thread no longer resolves, and Brother's own review widget has no reviews.",
+    "The evidence base is small: nine Reddit threads that name the 1634D, two PatternReview owner reviews (full text gated), a few forum threads, blog write-ups and 35 eBay buyer reviews. Most items are still Reddit, and many of those voices are people asking for help with a secondhand or inherited machine, so problems are over-represented.",
+    "The 1634D shares its platform with the 1034D, and forum owners treat the two as near identical. Most owner praise online is for the 1034D, not the 1634D, and is not counted here unless the writer names the 1634D.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The one retailer rating is the eBay catalog page for the model, 4.8 from 45 ratings with 35 written reviews, mostly from 2016 to 2019 and covering new and refurbished units, so it is an older and friendlier record than the Reddit threads.",
+  "siblings": [
+    {
+      "model": "1034D",
+      "label": "Brother 1034D",
+      "pattern": "1034\\s*-?d(?![a-z0-9])"
+    },
+    {
+      "model": "1034DX",
+      "label": "Brother 1034DX",
+      "pattern": "1034\\s*-?dx(?![a-z0-9])"
+    },
+    {
+      "model": "1634DX",
+      "label": "Brother 1634DX",
+      "pattern": "1634\\s*-?dx(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "stitch finger",
+      "Stitch fingers"
+    ],
+    [
+      "color.?cod|colou?r",
+      "Color-coded threading"
+    ],
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav|light(er)? ?weight",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "plastic|metal|build|sturdy|flimsy|durab",
+      "Build"
+    ],
+    [
+      "part|plate|blade|clamp|interchang",
+      "Parts compatibility"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "1034\\s*-?d(?![a-z0-9])",
+      "Brother 1034D"
+    ],
+    [
+      "1034\\s*-?dx(?![a-z0-9])",
+      "Brother 1034DX"
+    ],
+    [
+      "1634\\s*-?dx(?![a-z0-9])",
+      "Brother 1634DX"
+    ],
+    [
+      "mo[\\s-]*654de(?![a-z0-9])|654de(?![a-z0-9])",
+      "Juki MO-654DE"
+    ],
+    [
+      "st4031",
+      "Brother ST4031HD"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "1034\\s*-?dx?(?![a-z0-9])|1634\\s*-?dx(?![a-z0-9])|mo[\\s-]*654|st4031|1134|babylock|imagine|janome|singer|juki|pfaff|elna",
+  "scopeRules": [],
+  "siblingSummaries": {
+    "1034D": {
+      "Stitch fingers": {
+        "summary": "A PatternReview poster and a reviewer's commenter say the 1634D has two stitch fingers where the 1034D has one. Brother's own 1634D page lists one stitch finger.",
+        "check": "disputed: forum reports say two, Brother's page says 1"
+      },
+      "Color-coded threading": {
+        "summary": "A PatternReview commenter says the 1634D lacks the 1034D's color coded threading. A comparison blog says both have color-coded guides and the 1634D's colors are more noticeable. Brother's 1634D page says color-coded lay-in threading.",
+        "check": "disputed between sources; Brother's page says color-coded"
+      }
+    }
+  },
+  "siblingExtras": {
+    "1034D": [
+      {
+        "feature": "Price",
+        "summary": "Brother USA lists the 1634D at $299.99 and the 1034D at $319.99 (seen 2026-10-02 and 2026-10-01).",
+        "check": "Brother product pages"
+      },
+      {
+        "feature": "Work light",
+        "summary": "Both Brother pages list a bulb. Two blogs say the 1634D has an LED; Brother's page does not.",
+        "check": "Brother product pages; blogs disagree"
+      },
+      {
+        "feature": "Feet",
+        "summary": "The same three feet on both: standard, blindstitch and gathering.",
+        "check": "Brother product pages"
+      },
+      {
+        "feature": "Weight",
+        "summary": "Brother's 1034D page gives 13.45 lb. Brother's 1634D page gives no weight; a review blog says 17.3 lb.",
+        "check": "Brother product pages; 1634D figure is a blog number"
+      }
+    ],
+    "1034DX": [
+      {
+        "feature": "Work light",
+        "summary": "The 1034DX has an LED; the 1634D page lists a bulb.",
+        "check": "Brother product pages"
+      },
+      {
+        "feature": "Price",
+        "summary": "Brother USA lists the 1034DX at $289.99 (2026-10-01), against $299.99 for the 1634D (2026-10-02).",
+        "check": "Brother product pages"
+      }
+    ],
+    "1634DX": [
+      {
+        "feature": "Work light",
+        "summary": "Brother lists the 1634DX with an LED and the 1634D with a bulb.",
+        "check": "Brother product pages, 2026-10-02"
+      },
+      {
+        "feature": "Price",
+        "summary": "Brother USA showed the 1634DX at $199.99 (was $259.00) and the 1634D at $299.99 on 2026-10-02.",
+        "check": "Brother product pages"
+      },
+      {
+        "feature": "Feet",
+        "summary": "The same three feet and the same 1,300 spm, 5.0 to 7.0 mm seam width and one stitch finger on both Brother pages.",
+        "check": "Brother product pages"
+      },
+      {
+        "feature": "Relationship",
+        "summary": "Forum and Reddit posters say the 1634DX is the 1034DX sold under a retail model number; one says Brother confirmed it by email. Treat as owner reports.",
+        "check": "owner reports, not a maker statement"
+      }
+    ]
+  },
+  "summary": "Owners of the Brother 1634D describe a simple entry-level serger that is easy to thread for most, though a struggle for some. Praise goes to the lay-in threading, a metal interior, a quiet motor and even stitches once the tension dials sit near the middle, set against plastic accessories and a plastic feel. The repeated complaints are practical: looper and needle threads that break or drop out of the chain, tension that takes patience to dial in, a messy trim trap, and mechanical faults on secondhand or inherited machines, such as a front cover that will not close, a jammed handwheel and a knife that will not engage. One owner could not find a replacement bulb that fits, and review blogs disagree with Brother's own page on whether the light is a bulb or an LED. Forum owners treat it as a near copy of the 1034D, so much of the praise online is really for the 1034D. This read covers 11 Reddit threads, 7 forum pages and 7 blog or editorial write-ups from 2018 to 2026, plus 35 buyer reviews on the eBay catalog page for the model, mostly from 2016 to 2019 and many on refurbished units, which rates it 4.8 from 45 ratings. Reddit threads lean toward people asking for help, so problems are over-represented here."
+}

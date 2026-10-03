@@ -142,16 +142,15 @@
   ],
   "evidence": "owner",
   "buyerQuestions": [
-    "Is the Baby Lock Imagine discontinued?",
+    "Is Baby Lock Imagine discontinued?",
     "What replaced the Baby Lock Imagine?",
-    "How much did the Baby Lock Imagine cost new?",
-    "Does the Imagine have tension dials?",
-    "What is the difference between the Imagine BLE1AT and BLE1AT-2?",
+    "How much does a Baby Lock Imagine serger cost?",
+    "Does the Baby Lock Imagine have tension dials?",
+    "how to thread the baby lock imagine",
     "Does the Imagine do 2 thread stitches?",
-    "Does the Imagine do coverstitch?",
-    "What needles does the Imagine use?",
+    "Is the Imagine the same as the Imagine Wave?",
     "Is a used Imagine worth buying?",
-    "Is the Imagine the same as the Imagine Wave?"
+    "What do owners say about the Baby Lock Imagine?"
   ],
   "crossShop": [
     {
@@ -211,47 +210,39 @@
     "faqs": [
       {
         "q": "Is the Baby Lock Imagine discontinued?",
-        "a": "Yes. Baby Lock lists the Imagine under previous model accessories, and a PatternReview thread on the new lineup says the Victory replaced it, though dealer pages still show Imagine listings."
+        "a": "Baby Lock lists the Imagine under previous model accessories, and a PatternReview thread on the new lineup says the Victory replaced it, though dealer pages still show Imagine listings. We found no Baby Lock statement of a discontinuation date [verify]."
       },
       {
-        "q": "What replaced the Imagine?",
-        "a": "A PatternReview thread says the Victory replaced it. One Reddit commenter put the Imagine near $2,000 and the Victory near $3,500; Baby Lock publishes dealer pricing only, so treat that as a belief."
+        "q": "What replaced the Baby Lock Imagine?",
+        "a": "A PatternReview thread says the Victory replaced it. One Reddit commenter put the Imagine near $2,000 and the Victory near $3,500; Baby Lock publishes dealer pricing only, so treat that as a belief [verify]."
       },
       {
-        "q": "How much does the Imagine cost?",
-        "a": "Baby Lock does not publish prices and no current new price was found, so it shows [verify]. Owners reported paying $950 and $1,800 new in earlier years, and a used unit sold on eBay near $550."
+        "q": "How much does a Baby Lock Imagine cost?",
+        "a": "Baby Lock publishes no price for the Imagine and no current new dealer price was found, so the catalog shows [verify]. One Reddit commenter put the Imagine near $2,000, which is a belief, not a quote. Ask a dealer for a quote and ask whether the unit is new, demo or used."
       },
       {
-        "q": "Does the Imagine have tension dials?",
-        "a": "Baby Lock markets Automatic Thread Delivery and no tension adjustments, which are its claims. Owner reports are mixed: some report no tension issues in about six years, others report tension trouble on stretchy fabrics."
+        "q": "Does the Baby Lock Imagine have tension dials?",
+        "a": "Baby Lock markets Automatic Thread Delivery and no tension adjustments, which are its claims. Owner reports are mixed: one owner reports no tension issues in about six years, while others report tension trouble on stretchy fabrics and one says manual tensioning is the real annoyance."
       },
       {
-        "q": "How fast is the Imagine?",
-        "a": "The Baby Lock BLE1AT-2 spec sheet gives 1,500 stitches per minute."
+        "q": "How do you thread the Baby Lock Imagine, and does the air threading work?",
+        "a": "Baby Lock claims Jet-Air threading of the lower loopers by lever and lists a built-in needle threader; both are maker claims. Of the owners who judged threading, most call it easy, but one buyer of a used original BLE1AT found the air threader dead, one owner had thread feed problems with taller cones that Maxi-Loc cones solved, and a service technician advised one owner to pull threads through by hand."
       },
       {
-        "q": "Does the Imagine do 2 thread stitches or coverstitch?",
+        "q": "Does the Baby Lock Imagine do 2 thread stitches or coverstitch?",
         "a": "The spec sheet lists 4, 3 and 2 thread serging, with rolled hem and flatlock using 2 or 3 threads. It does not list coverstitch."
       },
       {
-        "q": "What is the difference between BLE1AT and BLE1AT-2?",
-        "a": "The BLE1AT is the older version and the BLE1AT-2 the later one. A PatternReview thread describes the difference as minor, but our spec sheet is for the BLE1AT-2 only and we did not compare the two documents."
+        "q": "Is the Baby Lock Imagine the same as the Imagine Wave?",
+        "a": "No. The Imagine Wave (BLE3ATW) is a separate wave stitch model, and our spec sheet covers the BLE1AT-2 only. PatternReview and Reddit posts mix BLE1AT, BLE1AT-2 and Wave units, so owner evidence here is not all BLE1AT-2."
       },
       {
-        "q": "How heavy is the Imagine?",
-        "a": "The Baby Lock spec sheet says 16 lb. An Amazon listing snippet gave 7.8 kg (17.2 lb); the maker figure is used here."
+        "q": "Is a used Baby Lock Imagine worth buying?",
+        "a": "It depends on the unit. Some owners report Imagines still running after six years or more, and one PatternReview owner reports a 1998 unit in daily use. Against that, one buyer of a used BLE1AT-1 found the air threader dead and one owner's tension springs wore out after about two and a half years with a repair that was not cheap. Confirm it is a BLE1AT-2 and ask what coverage remains on a used unit; the 25 year limited terms on the spec sheet are the maker's, not a promise for a resale."
       },
       {
-        "q": "What needles does the Imagine take?",
-        "a": "The Baby Lock spec sheet lists the household needle system HAx1SP, 130/705H and ELx705CF. The manual was not fetched."
-      },
-      {
-        "q": "What is the Imagine warranty?",
-        "a": "The spec sheet states 25 years limited, 10 years parts, 5 years electrical and 1 year labor. The warranty PDF was not fetched, so check transfer terms with the dealer."
-      },
-      {
-        "q": "Is the Imagine the same as the Imagine Wave?",
-        "a": "No. The Imagine Wave (BLE3ATW) is a separate wave stitch model, and its reviews are mixed in with the Imagine on PatternReview."
+        "q": "What do owners say about the Baby Lock Imagine?",
+        "a": "Owners mostly describe a machine that is easy to thread and reliable, with some units in use for six years or more. The repeated complaints are tension on stretchy fabrics, air threader or looper thread problems on some units, and worn tension springs on one. Our read covers 27 Reddit threads, 2 forum pages and 1 write-up from 2016 to 2026, mixing several Imagine versions, and Reddit leans toward people asking for help, so problems are over-represented."
       }
     ]
   },

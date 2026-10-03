@@ -138,15 +138,16 @@
   ],
   "evidence": "owner",
   "buyerQuestions": [
-    "How much does the Bernina 570 QE cost?",
+    "Is the Bernina 570 a good machine?",
+    "How much does a Bernina 570 qe cost?",
+    "What are some common problems with the Bernina 570 QE sewing machine?",
+    "What is the difference between Bernina 570 and 590?",
+    "Does the Bernina 570 have an embroidery module?",
     "Does the Bernina 570 QE come with the BSR?",
     "What is the throat space on the Bernina 570 QE?",
-    "What is the difference between the 570 QE and 570 QE E?",
-    "Is the Bernina 570 QE good for free motion quilting?",
     "What is the difference between the old and new Bernina 570 QE?",
     "Does the 570 QE have a walking foot built in?",
-    "What is the Bernina warranty in the US?",
-    "Bernina 570 QE or a longarm for the same money?"
+    "how does the bernina 570 compare to bernina 770?"
   ],
   "crossShop": [
     {
@@ -217,40 +218,40 @@
     ],
     "faqs": [
       {
-        "q": "What is the throat space on the Bernina 570 QE?",
-        "a": "Bernina's wording is 8.5 in right of the needle. The manual's technical data gives no throat figure, and the earlier 570 QE page says 7.5 in."
-      },
-      {
-        "q": "Does the Bernina 570 QE come with the BSR?",
-        "a": "Bernina says BSR functionality is built into the machine and the BSR foot is an optional accessory. The manual's supplied list has no BSR foot, and dealer bundles vary."
-      },
-      {
-        "q": "What is the difference between the old and new Bernina 570 QE?",
-        "a": "Bernina says two models share the name. The 2017 and later machine (Type: VIO) lists 8.5 in, 9 mm, 1,000 spm, 1,450 stitches and 16 buttonholes; the earlier one (Type: LUN) lists 7.5 in, 5.5 mm, 900 spm, 642 stitches and 11 buttonholes."
+        "q": "What do owners say about the Bernina 570 QE?",
+        "a": "Owners mostly praise how it sews: one reports reliably great buttonholes across at least 100 made, another says the dual feed works well, and one traded up from two Pfaffs that skipped stitches and reports no issues. Repeated topics are feet and accessories, oiling as a routine, and a few defects. Our read covers 53 Reddit threads, 2 forum pages and 1 retailer page from 2015 to 2026, and owner posts rarely say whether it is the 2017 and later machine or the earlier one, so treat reports as unsorted; Reddit leans toward help requests, so problems are over-represented."
       },
       {
         "q": "How much does the Bernina 570 QE cost?",
-        "a": "Bernina US shows $5,499 as the manufacturer suggested retail price and dealers set their own prices. We show no buy link because Bernina is sold through dealers."
+        "a": "Bernina US shows $5,499 as the manufacturer suggested retail price on 2026-10-02, and dealers set their own prices. Bernina is dealer only, so we show no buy button; use the dealer locator. Dealer bundles vary, for example in whether the BSR foot is included."
       },
       {
-        "q": "Does the 570 QE have a walking foot built in?",
-        "a": "Bernina describes a built-in Dual Feed that tucks away when not in use. It is Bernina's feed system, so check the maker's description against what you need."
+        "q": "What problems do owners report with the Bernina 570 QE?",
+        "a": "Reported problems are scattered rather than one repeated fault: a bobbin sensor that came off and a broken arm part while refitting it, a top thread error about every inch and a half for one owner, and a thread nest at the start point when the embroidery module is used for quilting. Several owners describe a start-up noise that gets louder when the machine has not been oiled recently, and one says regular de-linting, cleaning and oiling should prevent problems while repairs are expensive. Reddit leans toward help requests, so problems are over-represented."
       },
       {
-        "q": "What is in the box with the Bernina 570 QE?",
-        "a": "Bernina's manual lists seven standard feet including the #97D patchwork foot, a slide-on table with seam guide, a knee lifter, a touchscreen pen and 4 bobbins. No BSR foot is listed."
+        "q": "What is the difference between the Bernina 570 QE and the 590?",
+        "a": "Bernina lists 1,774 stitch patterns and $8,499 manufacturer suggested retail for the 590, against 1,450 and $5,499 for the 570 QE. The 590 lists 60 quilting stitches and 18 buttonholes or eyelets, against 73 and 16. Both pages show the same 8.5 in right of the needle, 1,000 spm and 9 mm width."
       },
       {
-        "q": "What is the Bernina warranty in the US?",
-        "a": "Bernina's US warranty page lists 20 years on mechanical parts, 5 years on printed circuit boards and 2 years on electrical parts. It is not model-specific."
+        "q": "Does the Bernina 570 QE have an embroidery module?",
+        "a": "Bernina's US page covers sewing and embroidery, with the embroidery module (Module M SDT) optional and its price not on the page [verify]. The page lists a 15.7 x 5.9 in embroidery area and 250 built-in designs. No separate 570 QE E model is named on the Bernina US pages we fetched, so confirm what a 570 QE E listing includes."
       },
       {
-        "q": "How does the 570 QE compare with the Bernina 590 and 540?",
-        "a": "Bernina lists 1,774 stitches and $8,499 for the 590, and 1,048 stitches for the 540, against 1,450 and $5,499 for the 570 QE. The 540 page says no longer available. All three pages show 8.5 in, 1,000 spm and 9 mm."
+        "q": "Does the Bernina 570 QE come with the BSR foot?",
+        "a": "Bernina says BSR functionality is built into the machine and the BSR foot is an optional accessory. The manual's supplied list has no BSR foot, and dealer bundles vary; one owner of a five year old 570 says their BSR did not include a ruler foot."
       },
       {
-        "q": "Do owner reports on the 570 QE apply to the current model?",
-        "a": "Owner posts rarely say which generation they own, so treat reports as unsorted. We do not attribute the earlier Type: LUN machine's figures to the current one."
+        "q": "How much throat space does the Bernina 570 QE have?",
+        "a": "Bernina's wording is 8.5 in right of the needle. The manual's technical data gives no throat figure, and the earlier 570 QE page says 7.5 in."
+      },
+      {
+        "q": "What is the difference between the old and new Bernina 570 QE?",
+        "a": "Bernina says two models share the name. The 2017 and later machine (Type: VIO) lists 8.5 in, 9 mm, 1,000 spm, 1,450 stitches and 16 buttonholes; the earlier one (Type: LUN) lists 7.5 in, 5.5 mm, 900 spm, 642 stitches and 11 buttonholes. Check the rear label before you buy used."
+      },
+      {
+        "q": "Does the Bernina 570 QE have a walking foot built in?",
+        "a": "Bernina describes a built-in Dual Feed that tucks away when not in use; 'walking foot' is our shorthand, not Bernina's wording. One owner says the dual feed works well, and another saw odd feeding at first that improved with a patchwork foot and fabric grain checks. One owner also used a walking foot on a 570 to quilt a coat."
       }
     ]
   },

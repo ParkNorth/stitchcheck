@@ -1,0 +1,115 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above. Most of the Walmart reviews we read say they were collected as part of a promotion, so they are the least independent voices on this page.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented. The model is new (2024), so owner discussion is thin: much of the older forum talk is about its predecessor, the PQ1500S and PQ1500SL, and those statements are kept out of the PQ1600S counts.",
+    "Amazon's top 8 reviews of 49 ratings were read, Walmart's 22 of 33 reviews, and two Facebook group posts, a Macy's page and a JustAnswer page could not be read.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. The Reddit threads are mostly people asking whether to buy this machine, so worries are over-represented there, while most of the first-hand praise comes from retailer reviews, which are seller-collected and about a third of them say they were promotional. The retailers' own ratings under 'How we collected this' show satisfaction but skew high.",
+  "siblings": [
+    {
+      "model": "PQ1500SL",
+      "label": "Brother PQ1500SL (and PQ1500S)",
+      "pattern": "pq[\\s-]*1500|nouvelle[\\s-]*1500"
+    }
+  ],
+  "features": [
+    [
+      "knee",
+      "Knee lifter"
+    ],
+    [
+      "tension",
+      "Tension dial"
+    ],
+    [
+      "table",
+      "Table"
+    ],
+    [
+      "walking",
+      "Walking foot"
+    ],
+    [
+      "price|\\$|cost|cheap|expens",
+      "Price"
+    ],
+    [
+      "weight|lbs|pounds|heav",
+      "Weight"
+    ],
+    [
+      "led|light|bulb|lamp",
+      "Work light"
+    ],
+    [
+      "feet|foot|accessor|bundle|box|included",
+      "Accessories and box contents"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "tl[\\s-]*2010q(?![a-z0-9])|2010q(?![a-z0-9])",
+      "Juki TL-2010Q"
+    ],
+    [
+      "tl[\\s-]*18qvp(?![a-z0-9])",
+      "Juki TL-18QVP"
+    ],
+    [
+      "memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])",
+      "Janome Memory Craft 6650"
+    ],
+    [
+      "moxie(?![a-z0-9])",
+      "Handi Quilter Moxie"
+    ],
+    [
+      "hd[\\s-]*9(?![a-z0-9])",
+      "Janome HD9"
+    ],
+    [
+      "ddl[\\s-]*8700|8700(?![a-z0-9])",
+      "Juki DDL-8700"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "pq[\\s-]*1500|nouvelle[\\s-]*1500|tl[\\s-]*2010q(?![a-z0-9])|2010q(?![a-z0-9])|tl[\\s-]*18qvp(?![a-z0-9])|memory[\\s-]*craft[\\s-]*6650(?![a-z0-9])|6650(?![a-z0-9])|moxie(?![a-z0-9])|hd[\\s-]*9(?![a-z0-9])|8700(?![a-z0-9])",
+  "scopeRules": [],
+  "siblingSummaries": {
+    "PQ1500SL": {
+      "Knee lifter": {
+        "summary": "One comparison blog says the PQ1600S has a built-in knee lifter where the older model's was removable. Brother's own box list and manual treat the PQ1600S knee lifter as a separate item you attach.",
+        "check": "single blog source; Brother manual PDF p.8 and p.11 list the knee lifter as an accessory"
+      },
+      "Tension dial": {
+        "summary": "The same blog says the PQ1600S adds a dedicated tension dial. Not checked against a PQ1500SL document.",
+        "check": "single blog source; no PQ1500SL maker document in hand"
+      },
+      "Table": {
+        "summary": "The same blog says the PQ1600S has a larger table. Brother lists 11.1 x 23.3 in for the PQ1600S; no PQ1500SL figure in hand.",
+        "check": "single blog source; Brother product page for the PQ1600S figure"
+      }
+    }
+  },
+  "siblingExtras": {
+    "PQ1500SL": [
+      {
+        "feature": "Walking foot",
+        "summary": "A PQ1500SL owner lists a walking foot among the feet in the box. Brother's PQ1600S box list and manual show none, and Amazon buyers of the PQ1600S say none came. A dealer lists one walking foot as fitting both models.",
+        "check": "Brother manual PDF p.8 and product page; one PQ1500SL owner review; Ken's Sewing Center listing quoted on Reddit"
+      },
+      {
+        "feature": "Price",
+        "summary": "A 2016 forum post puts the PQ1500S near 550 dollars on Amazon. Today the PQ1600S lists at 899.99 to 999.99.",
+        "check": "Missouri Star forum post dated 2016; Brother, Amazon and Walmart pages 2026-10-02"
+      }
+    ]
+  },
+  "summary": "Owners of the Brother PQ1600S mostly praise the same things: it is fast, owners call it quiet for its speed, and the big throat and wide table give a large quilt room to move. The thread cutter gets good marks, and several say it takes thick layers and heavy fabric without fuss. The repeated complaints are practical. No walking foot comes in the box, so buyers source a high shank one themselves, the side loading bobbin and threading are fiddly for some, and tension takes patience, with two reviewers reporting trouble free motion quilting flannel on it. Bag making threads add a caution that a domestic motor limits heavy leather and webbing, though those voices are weighing the machine, not using it. This read covers 10 Reddit threads, 3 retailer listings, 3 forum pages and 3 blog or editorial write-ups, from 2023 to 2026 for this model; the older forum pages are about its predecessor. Most first-hand voices are retailer reviews, and about a third of the Walmart ones are promotional. Reddit threads lean toward people asking for help, so problems are over-represented here."
+}

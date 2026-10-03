@@ -1,9 +1,9 @@
 {
   "slug": "singer-hd6700c",
-  "generated": "2026-10-02T04:57:25.600Z",
+  "generated": "2026-10-03T02:48:03.340Z",
   "counts": {
     "error": 0,
-    "warn": 4
+    "warn": 2
   },
   "items": [
     {
@@ -23,23 +23,13 @@
     },
     {
       "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"maxSpm\" but the spec's conflicts do not mention it"
-    },
-    {
-      "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
-    },
-    {
-      "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"needleUpDown\" but the spec's conflicts do not mention it"
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 17 voices (16 first-hand), 17 sources, status draft"
+      "message": "evidence moderate, 17 voices (16 first-hand), 17 sources, status approved"
     }
   ]
 }

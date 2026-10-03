@@ -140,13 +140,13 @@
   "buyerQuestions": [
     "Can the Brother 2340CV do a chain stitch?",
     "Can the 2340CV serge or overlock?",
-    "How do you unpick a coverstitch from the 2340CV?",
     "What needles does the 2340CV use?",
-    "Does the 2340CV have a free arm?",
+    "Is the Brother 2340cv good for beginners?",
     "Why does the 2340CV skip stitches on knits?",
+    "What's the difference between the 2340cv and other models?",
     "How does the 2340CV compare with the Janome CoverPro 2000CPX?",
     "What feet come with the 2340CV?",
-    "Is the 2340CV worth it for hemming t-shirts?"
+    "Where can I buy a Brother 2340cv?"
   ],
   "crossShop": [
     {
@@ -218,47 +218,39 @@
     "faqs": [
       {
         "q": "Can the Brother 2340CV do a chain stitch?",
-        "a": "Yes. Brother lists a 1 needle, 2 thread chain stitch. One owner reports a new unit that would not form it, and another can chain off only about an inch before the thread fails."
+        "a": "Yes. Brother lists a 1 needle, 2 thread chain stitch. One owner reports a new unit that would not form it, though cover stitches worked, and another can chain off only about an inch before the thread fails."
       },
       {
-        "q": "Can the 2340CV serge or overlock?",
-        "a": "No. Brother's page body calls it 'an advanced serger', but its own spec table lists overlock seam width as N/A and its documents list no overlock stitch. It has no knife."
+        "q": "Can the Brother 2340CV serge or overlock?",
+        "a": "No. Brother's page body calls it 'an advanced serger', but its own spec table lists overlock seam width as N/A and its documents list no overlock stitch. It has no knife, so seams still need a serger or a sewing machine."
       },
       {
-        "q": "What needles does the 2340CV use?",
+        "q": "What needles does the Brother 2340CV use?",
         "a": "The User's Guide names SCHMETZ 130/705H 90/14, with 3 needles supplied. It suggests the SUK ball point 130/705H 90/14 to reduce fabric damage; that is a suggestion, not a requirement."
       },
       {
-        "q": "Does the 2340CV have a free arm?",
-        "a": "Not listed by Brother. The page, User's Guide and brochure are silent, while the CV3440 page lists a free arm, so treat it as [verify] rather than as absent."
+        "q": "Is the Brother 2340CV good for beginners?",
+        "a": "Owner accounts are mixed. Threading is mostly reported as easy (7 of 10 statements positive) and some owners find it easier than a serger, but reliability reports lean negative (14 of 19 statements) and owners describe tight tension that needs adjusting per fabric and work that is awkward to remove from under the foot. No Brother document in our read lists a tension release lever for the 2340CV. Reddit leans toward people asking for help, so problems are over-represented."
       },
       {
-        "q": "Does the 2340CV have a tension release lever?",
-        "a": "No Brother document lists one for the 2340CV; the CV3440 page lists a one-touch lever tension release. Owners report removing work from under the foot as the trickiest part."
+        "q": "Why does the Brother 2340CV skip stitches on knits?",
+        "a": "Owner accounts tie it to setup. One owner who replaced a Baby Lock coverstitch says it has never skipped a stitch, while others call it finicky and say it skips until needles are fresh and matched to the fabric. A long PatternReview thread says the split tracks with setup, needle choice and stabilizer on thin knits. Brother's User's Guide names SCHMETZ 130/705H 90/14 needles and suggests a ball point SUK for knits."
       },
       {
-        "q": "How fast is the 2340CV?",
-        "a": "Brother's page and 2015 brochure say 1,100 stitches per minute, while the User's Guide gives 1,000 for normal sewing speed. Treat the speed as 1,000 to 1,100."
+        "q": "What is the difference between the Brother 2340CV and the CV3440?",
+        "a": "Brother lists a one-touch lever tension release and a free arm on the CV3440; the 2340CV page, manual and brochure list neither. The CV3440 page lists a 1,000 maximum sewing speed and a thread cutter, while the 2340CV page lists 1,100 and its manual says 1,000. On Brother's pages checked 2026-10-02 the CV3440 showed $699.00 and Out of Stock, against $579.99 for the 2340CV."
       },
       {
-        "q": "How heavy is the 2340CV?",
-        "a": "The User's Guide gives a machine net weight of 7.0 kg, about 15.4 lb. A retailer listing gave 16.7 lb, which may be a shipping weight."
+        "q": "How does the Brother 2340CV compare with the Janome CoverPro 2000CPX?",
+        "a": "Janome's page, as recorded in our briefing, lists the CoverPro 2000CPX with a tension release lever, a free arm, a 4 x 5.5 in bed, 1,000 spm, differential feed 0.5 to 2.25 and an MSRP of $1,099. Brother's 2340CV pages list no tension release lever, no free arm and no bed size, and Brother lists it at $579.99 (seen 2026-10-02)."
       },
       {
-        "q": "What feet come with the 2340CV?",
-        "a": "Brother's page lists a 'Special Presser Foot' and the User's Guide box list shows a snap-on foot and a special presser foot (C1) used with an optional attachment. No Brother document lists a hem foot, though one dealer page does."
+        "q": "What feet come with the Brother 2340CV?",
+        "a": "Brother's page lists a 'Special Presser Foot'. The User's Guide box list shows a snap-on presser foot on the machine and a special presser foot (C1) used with an optional attachment, plus an accessory bag with a needle set (3 pcs), 4 thread nets, tweezers, 4 spool caps, 4 spool mats, a cleaning brush, a hex wrench and a soft cover. No Brother document lists a hem foot."
       },
       {
-        "q": "What is the 2340CV warranty?",
-        "a": "Brother's page says '1/5/25 Year Limited Serger Warranty' without a breakdown. The linked PDF is a 1 year Latin America and Caribbean warranty, so the split by part is unconfirmed."
-      },
-      {
-        "q": "How is the 2340CV rated by buyers?",
-        "a": "Amazon shows 4.3 from 1,204 ratings, but that rating pools several listings of this machine that share a parent, so it is not a single-listing score. Only 13 written reviews were readable."
-      },
-      {
-        "q": "How does the 2340CV compare with the Brother CV3440?",
-        "a": "On Brother's pages the CV3440 lists a one-touch tension release, a free arm and a thread cutter and is priced at $699.00, against $579.99 for the 2340CV. The CV3440 page showed Out of Stock on 2026-10-02."
+        "q": "How much does the Brother 2340CV cost?",
+        "a": "Brother USA lists the 2340CV at $579.99 (seen 2026-10-02), and its page also links a dealer locator. Prices drift, so use the price band on this page as the stable guide."
       }
     ]
   }

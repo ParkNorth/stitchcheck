@@ -1,0 +1,256 @@
+{
+  "slug": "brother-cs7000x",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "brother cs7000x",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "brother cs7000x",
+        "brother cs 7000x"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/brother-cs7000x.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "can brother cs7000x sew denim",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 20,
+      "volumeKeyword": "can brother cs7000x sew denim",
+      "scope": "this",
+      "use": true,
+      "faq": "Can the Brother CS7000X sew denim or canvas?",
+      "answeredFrom": "rollup.json Power on heavy fabric theme; manufacturer.json fabric guidance"
+    },
+    {
+      "q": "What is the best price for the Brother CS7000X?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 150,
+      "volumeKeyword": "brother cs7000x price",
+      "scope": "this",
+      "use": true,
+      "faq": "What is the price of the Brother CS7000X?",
+      "answeredFrom": "manufacturer.json price; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "Is the Brother CS7000X good for quilting?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Brother CS7000X good for quilting?",
+      "answeredFrom": "manufacturer.json feed system, wide table; data/specs ownerThemes"
+    },
+    {
+      "q": "What is the throat space on the Brother CS7000X?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What is the throat space on the Brother CS7000X?",
+      "answeredFrom": "manufacturer.json throat space; data/specs conflicts"
+    },
+    {
+      "q": "What feet come with the CS7000X?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What feet come with the Brother CS7000X?",
+      "answeredFrom": "manufacturer.json included feet; rollup.json Feet and accessories theme"
+    },
+    {
+      "q": "brother cs7000x vs cs7205",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 60,
+      "volumeKeyword": "brother cs7000x vs cs7205",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Brother CS7000X and the CS7205?",
+      "answeredFrom": "rollup.json siblings (CS7205), Brother product pages"
+    },
+    {
+      "q": "brother cs7000x vs xr9550",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 80,
+      "volumeKeyword": "brother cs7000x vs xr9550",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Brother CS7000X and the XR9550?",
+      "answeredFrom": "rollup.json siblings (XR9550), Brother product pages"
+    },
+    {
+      "q": "What bobbins for Brother CS7000X?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "brother cs7000x bobbin size",
+      "scope": "this",
+      "use": true,
+      "faq": "What bobbins does the Brother CS7000X use?",
+      "answeredFrom": "manufacturer.json bobbin; data/specs bobbin"
+    },
+    {
+      "q": "how to thread brother cs7000x",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "how to thread brother cs7000x",
+      "scope": "this",
+      "use": true,
+      "faq": "How do you thread the Brother CS7000X, and does the needle threader work?",
+      "answeredFrom": "manufacturer.json needle threader; rollup.json Threading and loopers theme"
+    },
+    {
+      "q": "How fast does the Brother CS7000X sew?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the spec table (a 750 row, no unit printed); kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "Does the CS7000X have a metal frame?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Brother names no frame material on the CS7000X page; covered by the check on the review."
+    },
+    {
+      "q": "What is the Brother warranty on the CS7000X?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Kept out of the nine to stay inside the cap; the review lists the warranty terms."
+    },
+    {
+      "q": "What is the difference between the CS7000X and CS7000i?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "The rollup holds no sourced CS7000i rows to answer from."
+    },
+    {
+      "q": "brother cs7000x vs singer heavy duty",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 30,
+      "volumeKeyword": "brother cs7000x vs singer heavy duty",
+      "scope": "sibling",
+      "use": false,
+      "reason": "No Singer comparison rows in our rollup for this model."
+    },
+    {
+      "q": "How to set up a Brother CS7000X sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Manual procedure; the manual is a shared-platform document and we do not give steps."
+    },
+    {
+      "q": "brother cs7000x refurbished",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 60,
+      "volumeKeyword": "brother cs7000x refurbished",
+      "scope": "this",
+      "use": false,
+      "reason": "Used and refurbished pricing is outside our evidence."
+    },
+    {
+      "q": "What is the lifespan of a Brother machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Which is the best sewing machine to buy?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Can I use Singer bobbins on a Brother sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Do all Brother machines use the same bobbins?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Is it better to use plastic or metal bobbins?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "What are the common problems with Brother sewing machines?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    }
+  ]
+}

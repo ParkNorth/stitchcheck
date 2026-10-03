@@ -1,0 +1,234 @@
+{
+  "slug": "babylock-vibrant",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "baby lock vibrant",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source. The SERP showed nine questions, all brand or category level; no model-specific PAA question appeared."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "baby lock vibrant",
+        "babylock vibrant",
+        "baby lock vibrant serger"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/babylock-vibrant.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "How much does the Baby Lock Vibrant cost?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 20,
+      "volumeKeyword": "baby lock vibrant serger price",
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Baby Lock Vibrant cost?",
+      "answeredFrom": "data/specs/babylock-vibrant.json priceUsdSeen with date; manufacturer.json msrp"
+    },
+    {
+      "q": "Is the Baby Lock Vibrant good for beginners?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 30,
+      "volumeKeyword": "baby lock vibrant serger machine for beginners",
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Baby Lock Vibrant good for beginners?",
+      "answeredFrom": "manufacturer.json claims; rollup.json Threading and Cutting themes"
+    },
+    {
+      "q": "how to thread baby lock vibrant serger",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to thread baby lock vibrant serger",
+      "scope": "this",
+      "use": true,
+      "faq": "How do you thread the Baby Lock Vibrant?",
+      "answeredFrom": "manufacturer.json threadingSystem and tension; rollup.json Threading and loopers theme"
+    },
+    {
+      "q": "Does the Vibrant have air threading?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "Does the Baby Lock Vibrant have air threading, and how does it differ from the Victory?",
+      "answeredFrom": "manufacturer.json threadingSystem; rollup.json siblings (Victory)"
+    },
+    {
+      "q": "baby lock vibrant serger reviews",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 60,
+      "volumeKeyword": "baby lock vibrant serger reviews",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Baby Lock Vibrant?",
+      "answeredFrom": "rollup.json themes and method"
+    },
+    {
+      "q": "Can you buy the Vibrant online or only from a dealer?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can you buy the Baby Lock Vibrant online or only from a dealer?",
+      "answeredFrom": "manufacturer.json retailChannel and msrp"
+    },
+    {
+      "q": "baby lock vibrant serger bl460b",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 30,
+      "volumeKeyword": "baby lock vibrant serger bl460b",
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Baby Lock Vibrant the BL460B or the BLS1?",
+      "answeredFrom": "data/specs/babylock-vibrant.json conflicts (model number)"
+    },
+    {
+      "q": "Does the Vibrant do 2-thread stitches?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Baby Lock Vibrant do 2-thread stitches?",
+      "answeredFrom": "manufacturer.json threads"
+    },
+    {
+      "q": "What is the difference between the Vibrant and the Celebrate?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "The Celebrate is not a model whose maker documents we hold on this review; the Victory page carries that chart row."
+    },
+    {
+      "q": "How heavy is the Vibrant?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the weight row of the spec table and the Check before you buy block; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "babylock vibrant manual",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "babylock vibrant manual",
+      "scope": "this",
+      "use": false,
+      "reason": "A document request, not a question we answer; the manual is linked from the review sources."
+    },
+    {
+      "q": "Which is better, Janome or Baby Lock?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "Which Baby Lock serger is the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Which sewing machine is better, Baby Lock or Brother?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "Are Baby Lock sewing machines any good?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "Which is better, Bernina or Baby Lock?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "What is the most trouble-free sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "What is the best sewing machine for the money?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "What is the #1 sewing machine manufacturer in the US?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model."
+    },
+    {
+      "q": "What is the average lifespan of a sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    }
+  ]
+}

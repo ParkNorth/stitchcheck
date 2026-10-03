@@ -1,0 +1,303 @@
+{
+  "slug": "janome-coverpro-2000cpx",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": [
+        "janome coverpro 2000cpx",
+        "janome coverpro 2000cpx review"
+      ],
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search drops related_questions, so DataForSEO is the PAA source. The bare-model pull gave 9 questions and only one was about this model, so a second pull with 'review' was run; it gave the same lead question and category questions. Related searches on the SERP: price, review youtube, vs 1000CPX, manual, CoverPro 3000, 1000CPX, used, accessories."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "janome coverpro 2000cpx",
+        "janome 2000cpx",
+        "janome cover pro 2000cpx"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes are 0 (too small to estimate, not zero demand). Phrase pull: model name 80, 2000cpx 40, cover pro spelling 20, price 10, review 10, manual 10."
+    },
+    "briefing": "data/specs/janome-coverpro-2000cpx.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "What are the key differences between the Janome CoverPro 1000CPX and 2000CPX?",
+      "sources": [
+        "paa",
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "volumeKeyword": "what is the difference between janome coverpro 1000cpx and 2000cpx",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the CoverPro 2000CPX and the 1000CPX?",
+      "answeredFrom": "rollup.json siblingSummaries (1000CPX); manufacturer.json siblingCoverPro1000CPX"
+    },
+    {
+      "q": "Can the 2000CPX do a top cover stitch?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can the CoverPro 2000CPX do a top cover stitch?",
+      "answeredFrom": "manufacturer.json stitchTypes; rollup.json siblingSummaries (3000CPX)"
+    },
+    {
+      "q": "Can the 2000CPX serge?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can the CoverPro 2000CPX serge or cut fabric?",
+      "answeredFrom": "manufacturer.json stitchTypes and thread cutter facts"
+    },
+    {
+      "q": "What needles does the 2000CPX use?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What needles does the CoverPro 2000CPX use?",
+      "answeredFrom": "manufacturer.json needleSystem (manual); rollup.json needles theme"
+    },
+    {
+      "q": "Why does my 2000CPX skip stitches?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Why do some owners report skipped stitches on the CoverPro 2000CPX?",
+      "answeredFrom": "rollup.json reliability, tension and needle themes"
+    },
+    {
+      "q": "How heavy is the 2000CPX?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the CoverPro 2000CPX weigh?",
+      "answeredFrom": "manufacturer.json weightLb and dimensionsIn"
+    },
+    {
+      "q": "Does the 2000CPX have a free arm?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the CoverPro 2000CPX have a free arm, and how much room is there?",
+      "answeredFrom": "manufacturer.json freeArm and throatIn; rollup.json throat_workspace theme"
+    },
+    {
+      "q": "janome 2000cpx does the thread tension release when the pressor foot is raised",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "janome 2000cpx does the thread tension release when the pressor foot is raised",
+      "scope": "this",
+      "use": true,
+      "faq": "Does the thread tension release when the presser foot is raised on the 2000CPX?",
+      "answeredFrom": "manufacturer.json presserFootLift and threadingSystem (manual printed p. 11)"
+    },
+    {
+      "q": "Is there a binder attachment for the 2000CPX?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is there a binder attachment for the CoverPro 2000CPX?",
+      "answeredFrom": "manufacturer.json includedFeet (optional accessories on the Janome page)"
+    },
+    {
+      "q": "how to thread janome coverpro 2000cpx",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Kept out of the nine for the cap; owners' threading comments are in the rollup (threading theme) and the manual has the diagram."
+    },
+    {
+      "q": "how to use my janome coverpro 2000cpx",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Too broad for one FAQ answer; manual and owner themes cover it."
+    },
+    {
+      "q": "janome cover pro 2000cpx + how to turn on the light",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "The Janome page lists an LED light but the instruction book parts list names no lamp, so we cannot answer how to switch it on."
+    },
+    {
+      "q": "how much is a janome coverpro 2000cpx",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Price answers belong in the Last seen line and price bands (rule 10), not in an FAQ."
+    },
+    {
+      "q": "janome coverpro 2000cpx price",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "janome coverpro 2000cpx price",
+      "scope": "this",
+      "use": false,
+      "reason": "Price stays in the Last seen line and bands (rule 10)."
+    },
+    {
+      "q": "janome coverpro 2000cpx manual",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "janome coverpro 2000cpx manual",
+      "scope": "this",
+      "use": false,
+      "reason": "Answer is a link to Janome's manual PDF (listed in manufacturer.json); not a spec question."
+    },
+    {
+      "q": "janome 2000cpx where to buy",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Buy information lives in the buy block; Janome sells through authorized dealers only."
+    },
+    {
+      "q": "why isn't the janome 2000cpx coverpro available",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "No evidence on stock or availability in our sources; it would be a guess."
+    },
+    {
+      "q": "janome coverpro 2000cpx compared to babylock blcs",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "sibling",
+      "use": false,
+      "reason": "Rival we do not cover on a review; owner comparisons to Baby Lock are in the rollup rivals block."
+    },
+    {
+      "q": "Is Janome a better brand than Brother?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; belongs on a guide, not a model review."
+    },
+    {
+      "q": "What are common problems with Janome?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; the model-specific version is the skipped stitches question."
+    },
+    {
+      "q": "Should I buy a serger or coverstitch?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; the coverstitch vs serger guide owns it."
+    },
+    {
+      "q": "Is it worth buying a coverstitch machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question for the coverstitch vs serger guide."
+    },
+    {
+      "q": "What is the best coverstitch machine to buy?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question for the best serger and coverstitch pages."
+    },
+    {
+      "q": "Which Janome sewing machine is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; belongs on a brand hub."
+    },
+    {
+      "q": "Can you use coverstitch instead of serger?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question for the coverstitch vs serger guide."
+    },
+    {
+      "q": "Can a regular sewing machine do a coverstitch?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question for a guide."
+    },
+    {
+      "q": "Is the 2000CPX worth more than the Brother 2340CV?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "Our evidence is one Reddit thread of shop talk (no substantial difference in quality, Janome does less) and price talk; too thin to answer without a figure we cannot source."
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "status": "approved",
   "reviewedBy": "Claude (editor pass: exemplars, contradictions, sibling extras checked against Brother pages and sources). Human review still recommended.",
   "reviewedOn": "2026-10-01",
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "method": {
     "sources": 127,
     "itemsCollected": 1851,
@@ -34,6 +34,7 @@
     },
     "blocked": 0,
     "evidence": "strong",
+    "pooledExcluded": 0,
     "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
   },
   "notes": [
@@ -43,6 +44,7 @@
     "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
   ],
   "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, and Walmart's low-star reviews were sampled on purpose, so problems are over-represented. The better gauge of overall satisfaction is the retailers' own ratings under 'How we collected this': 4.6 of 5 across 1,723 Walmart ratings (78% five-star) and 4.45 of 5 across 55 at Sewing Machines Plus.",
+  "summary": "Owners of the Brother 1034D are split on how easy it is to live with, and reliability is the largest theme. It leans negative, with owners describing timing that failed, knives that broke or stopped moving and machines that went to the shop, while others report no trouble. Threading divides them almost evenly: some call it easy and others find it nearly impossible. Many owners find it loud compared with a sewing machine and some call the body cheap plastic, while the differential feed gets praise for keeping knits from going wavy. This read covers 111 Reddit threads, 2 retailer pages, 10 blog or editorial write-ups and 4 forum pages from 2008 to 2026, with 227 owner voices. Reddit threads lean toward people asking for help and Walmart's low-star reviews were sampled on purpose, so problems are over-represented here.",
   "themes": [
     {
       "theme": "reliability_defects",

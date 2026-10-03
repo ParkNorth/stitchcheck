@@ -1,0 +1,285 @@
+{
+  "slug": "juki-hzl-f300",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "juki hzl-f300",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "juki hzl-f300",
+        "juki hzl f300",
+        "juki f300"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/juki-hzl-f300.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "What is the price of the JUKI HZL-F300 sewing quilting machine?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 70,
+      "volumeKeyword": "juki hzl-f300 price",
+      "scope": "this",
+      "use": true,
+      "faq": "What is the price of the Juki HZL-F300?",
+      "answeredFrom": "manufacturer.json msrp; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "What is the throat space on the Juki HZL-F300?",
+      "sources": [
+        "paa",
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How big is the throat on the Juki HZL-F300?",
+      "answeredFrom": "data/specs conflicts; manufacturer.json throatIn and harpHeightIn"
+    },
+    {
+      "q": "juki f300 vs f600",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 10,
+      "volumeKeyword": "juki f300 vs f600",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Juki HZL-F300 and HZL-F600?",
+      "answeredFrom": "rollup.json siblings (HZL-F600); manufacturer.json msrp"
+    },
+    {
+      "q": "juki hzl f300 vs f400",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "juki hzl f300 vs f400",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Juki HZL-F300 and HZL-F400?",
+      "answeredFrom": "rollup.json siblings (HZL-F400); Juki product pages"
+    },
+    {
+      "q": "Is the HZL-F300 good for quilting?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Juki HZL-F300 good for quilting?",
+      "answeredFrom": "rollup.json themes; data/specs conflicts; manufacturer.json includedFeet"
+    },
+    {
+      "q": "juki f300 problems",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "juki f300 problems",
+      "scope": "this",
+      "use": true,
+      "faq": "What problems do owners report with the Juki HZL-F300?",
+      "answeredFrom": "rollup.json Reliability and defects and Feet and accessories themes"
+    },
+    {
+      "q": "what does juki hzl-f300 weight",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": true,
+      "faq": "How heavy is the Juki HZL-F300?",
+      "answeredFrom": "manufacturer.json weightLb and dimensionsIn"
+    },
+    {
+      "q": "what bobbins for juki hzl-f300",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": true,
+      "faq": "What bobbins and needles does the Juki HZL-F300 use?",
+      "answeredFrom": "manufacturer.json needleSystem"
+    },
+    {
+      "q": "Does the HZL-F300 come with an extension table?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Juki HZL-F300 come with an extension table?",
+      "answeredFrom": "manufacturer.json includedFeet; data/specs conflicts"
+    },
+    {
+      "q": "Which Juki sewing machine is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand-level question; belongs on a guide."
+    },
+    {
+      "q": "What is the lifespan of a Juki machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand-level question; our evidence holds no lifespan figure."
+    },
+    {
+      "q": "Which sewing machine has the best large throat for quilting?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "What is a good throat size for quilting?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "What is dirty quilting?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model."
+    },
+    {
+      "q": "What sewing machine do most quilters use?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "What is the 60 30 10 rule for quilting?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model."
+    },
+    {
+      "q": "Is the HZL-F300 a good first computerized machine?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Covered by the verdict and who-for lines; the rollup has one learning-curve statement."
+    },
+    {
+      "q": "Does the HZL-F300 have an automatic thread cutter?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "In the spec table; Juki lists trimming by button, program or foot controller heel."
+    },
+    {
+      "q": "What needles does the HZL-F300 use?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Merged into the bobbins and needles answer."
+    },
+    {
+      "q": "How many buttonholes does the HZL-F300 have?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "In the spec table (16 sensor buttonholes)."
+    },
+    {
+      "q": "How to use juki f300",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Operating instructions; the Juki manual is the answer."
+    },
+    {
+      "q": "how to machine quilt juki hzl f300",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Technique question; the quilting answer covers what our evidence supports."
+    },
+    {
+      "q": "where can i buy juki f300",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Buy intent; handled by the buy block."
+    },
+    {
+      "q": "juki hzl-f300 manual",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "juki hzl-f300 manual",
+      "scope": "this",
+      "use": false,
+      "reason": "Manual links are in the research sources, not a FAQ."
+    },
+    {
+      "q": "juki hzl-f300 review",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 50,
+      "volumeKeyword": "juki hzl-f300 review",
+      "scope": "this",
+      "use": false,
+      "reason": "Review intent; the owner summary and rollup on the page answer it."
+    }
+  ]
+}

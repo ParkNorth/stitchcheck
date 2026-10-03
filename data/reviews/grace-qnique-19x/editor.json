@@ -1,0 +1,149 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "Very few threads name the Q'nique 19X itself. Most Q'nique talk online is about the 15R, 21, 21X Elite or 19X Elite, or about an earlier machine called the Q'nique 19. Statements about a sibling or an unclear model are kept out of the 19X counts.",
+    "Grace has stopped listing the base 19X as a new machine on its own site; it still sells recertified 19X units and still publishes the 19X manual. Dealers still list it, some on closeout.",
+    "One retailer carries buyer reviews of the base 19X: Sewing Parts Online shows 5.0 from 3 verified buyer reviews (Oct to Nov 2023), all 3 read in full and none sampled out, one a complaint about the power switch position on a Cutie frame. None of the three names a model, so the base 19X rests on the page title and SKU. Moore's, Tops, Sewing Machines Plus and Grace's recertified page show no reviews, Amazon lists Elite bundles only, and Facebook groups could not be read.",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The one retailer rating under 'How we collected this' is better for overall satisfaction, but it rests on only 3 reviews.",
+  "siblings": [
+    {
+      "model": "Q'nique 19X Elite",
+      "label": "Grace Company Q'nique 19X Elite",
+      "pattern": "(q'?nique|grace)[\\s-]*19\\s*x[\\s-]*elite"
+    },
+    {
+      "model": "Q'nique 15R",
+      "label": "Grace Company Q'nique 15R",
+      "pattern": "(q'?nique|grace)[\\s-]*15\\s*r(?![a-z0-9])"
+    },
+    {
+      "model": "Q'nique 19",
+      "label": "Grace Company Q'nique 19 (earlier name)",
+      "pattern": "(q'?nique|grace)[\\s-]*19(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "name|naming|rename",
+      "Model name"
+    ],
+    [
+      "touch|screen|display|monitor",
+      "Screen"
+    ],
+    [
+      "block|throat|width",
+      "Block width and throat"
+    ],
+    [
+      "speed|spm",
+      "Speed"
+    ],
+    [
+      "price|\\$|cost",
+      "Price"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ],
+    [
+      "light|led",
+      "Needle light"
+    ],
+    [
+      "bobbin",
+      "Bobbin winder"
+    ]
+  ],
+  "rivals": [
+    [
+      "moxie(?![a-z0-9])",
+      "Handi Quilter Moxie"
+    ],
+    [
+      "q'?nique[\\s-]*15r(?![a-z0-9])",
+      "Grace Company Q'nique 15R"
+    ],
+    [
+      "amara",
+      "Handi Quilter Amara"
+    ],
+    [
+      "tl[\\s-]*18qvp(?![a-z0-9])",
+      "Juki TL-18QVP"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "q'?nique[\\s-]*15r|q'?nique[\\s-]*21|21x|19x[\\s-]*elite|16x|moxie|amara|tl[\\s-]*18|little rebel|tin lizzie|innova|hq ?16|sweet sixteen",
+  "scopeRules": [],
+  "siblingSummaries": {
+    "Q'nique 15R": {
+      "Screen": {
+        "summary": "Leah Day says the Qnique 19 has a touchscreen and the 15R does not, so the 15R is driven by handlebar buttons.",
+        "check": "one blogger; Leah Day owns a 15R and a 21, not a 19X"
+      },
+      "Block width and throat": {
+        "summary": "The same blogger puts the 19 at 12 inch blocks in one pass and the 15R at 9 1/2 inches before a design must be split.",
+        "check": "one blogger, written about the older Qnique 19 she calls 'now 19X'; Grace's own pages give 19 in of throat for the 19X"
+      }
+    },
+    "Q'nique 19": {
+      "Model name": {
+        "summary": "Leah Day's page treats the Qnique 19 as the machine now sold as the 19X. Grace's warranty page lists both names.",
+        "check": "blogger and Grace warranty page; Grace does not say what changed between the two"
+      }
+    }
+  },
+  "siblingExtras": {
+    "Q'nique 19X Elite": [
+      {
+        "feature": "Speed",
+        "summary": "Grace lists 2,000 spm for the 19X and 2,600 spm for the 19X Elite. One Canadian dealer chart gives the Elite 1,700 spm, which does not match Grace.",
+        "check": "Grace 19X Elite page, 2026-10-02"
+      },
+      {
+        "feature": "Screen",
+        "summary": "Grace lists a 2.4 in color touchscreen on the 19X and a 7 in display on the Elite. Dealer copy calls the 19X screen OLED; Grace does not.",
+        "check": "Grace 19X Elite page and 19X manual p.9"
+      },
+      {
+        "feature": "Warranty",
+        "summary": "Grace's warranty page gives the 19X 5 years on the cast body and 2 years on the machine; it gives the 19X Elite 10 years on the cast body.",
+        "check": "Grace warranty page, 2026-10-02"
+      },
+      {
+        "feature": "Price",
+        "summary": "Grace's own comparison table shows $5,999.00 for the 19X and $7,999.00 for the 19X Elite, machine only. Dealer prices vary.",
+        "check": "Grace page prices seen 2026-10-02; not binding"
+      },
+      {
+        "feature": "Needle light",
+        "summary": "Grace lists dimmable LED lights as a 19X Elite feature. The 19X manual describes the lamp as on or off.",
+        "check": "Grace 19X Elite page and 19X manual p.62; dealer copy says the 19X dims"
+      },
+      {
+        "feature": "Bobbin winder",
+        "summary": "The 19X manual lists a built-in bobbin winder. Some dealer copy treats it as an Elite extra.",
+        "check": "Grace 19X manual p.9 and p.48"
+      }
+    ],
+    "Q'nique 15R": [
+      {
+        "feature": "Warranty",
+        "summary": "Grace's warranty page lists the 15R and the 19X under the same 2 year and 5 year cast body terms.",
+        "check": "Grace warranty page, 2026-10-02"
+      }
+    ],
+    "Q'nique 19": [
+      {
+        "feature": "Warranty",
+        "summary": "Grace's warranty page lists the Q'nique 19 and the 19X under the same 2 year and 5 year cast body terms.",
+        "check": "Grace warranty page, 2026-10-02"
+      }
+    ]
+  },
+  "summary": "Buyer signals for the Grace Q'nique 19X, now sold by Grace as the 19X, are thin: we found no first-hand write-up that names the base 19X. What exists is mostly shopping talk. The 19 inch throat is the draw: one blogger who owns other Q'nique models says it covers a 12 inch block in one pass, and dealers repeat the 19 inch figure. One shopper says the reviews she has read of these machines are mixed, and the thread gives her no owner answer. Most of what owners say online is about the 19X Elite, the 21 or an earlier Q'nique 19, and is kept out of these counts. One dealer page shows 3 verified buyer reviews from 2023, rated 5.0, with one complaint that the power switch sits at the far end of the machine and is hard to reach on a Cutie frame. This read covers 5 Reddit threads, 6 forum pages, 6 blog or dealer write-ups and that dealer page, dated 2023 to 2026 where a date shows. Reddit threads lean toward people asking for help, so problems are over-represented here."
+}

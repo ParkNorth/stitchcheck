@@ -1,0 +1,253 @@
+{
+  "slug": "janome-mc6650",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "janome mc6650",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "janome mc6650",
+        "janome mc 6650",
+        "janome memory craft 6650"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/janome-mc6650.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "What are people saying about the Janome MC6650 sewing machine?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 40,
+      "volumeKeyword": "janome mc6650 reviews",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Janome Memory Craft 6650?",
+      "answeredFrom": "rollup.json themes and summary"
+    },
+    {
+      "q": "What is the price of a Janome MC6650 sewing machine?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "janome mc6650 price",
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Janome Memory Craft 6650 cost?",
+      "answeredFrom": "manufacturer.json msrp; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "Does the Janome MC6650 have a free arm?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Janome Memory Craft 6650 have a free arm?",
+      "answeredFrom": "data/specs frame; owner themes"
+    },
+    {
+      "q": "Does the Janome MC6650 come with a walking foot?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "janome mc6650 walking foot",
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Janome Memory Craft 6650 come with a walking foot?",
+      "answeredFrom": "manufacturer.json feed system; rollup.json walking foot theme and sibling feed row"
+    },
+    {
+      "q": "How much throat space does the Janome MC6650 have?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How much throat space does the Janome Memory Craft 6650 have?",
+      "answeredFrom": "manufacturer.json workspace; data/specs conflicts; rollup.json throat theme"
+    },
+    {
+      "q": "Is the Janome MC6650 good for quilting?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Janome Memory Craft 6650 good for quilting?",
+      "answeredFrom": "rollup.json throat, free-motion and fabric handling themes; data/specs includedFeet"
+    },
+    {
+      "q": "Is the Janome MC6650 heavy duty enough for denim?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Janome Memory Craft 6650 heavy duty enough for denim?",
+      "answeredFrom": "rollup.json power on heavy fabric theme; data/specs claims and motor"
+    },
+    {
+      "q": "What is the difference between the Janome MC6650 and the MC6700P?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Janome Memory Craft 6650 and the 6700P?",
+      "answeredFrom": "rollup.json siblings (MC6700P); manufacturer.json vsMC6700P"
+    },
+    {
+      "q": "How much does the Janome MC6650 weigh?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Janome Memory Craft 6650 weigh?",
+      "answeredFrom": "manufacturer.json weight and dimensions; rollup.json weight theme"
+    },
+    {
+      "q": "Does the MC6650 have a knee lifter?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Kept out of the nine to stay inside the cap; Janome lists a knee lift on the 6700P only, covered in the 6700P comparison."
+    },
+    {
+      "q": "Does the Janome MC6650 have AcuFeed?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Folded into the walking foot answer (AcuFeed is optional on the 6650)."
+    },
+    {
+      "q": "What is the difference between the Janome MC6650 and the Skyline S5?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "Our evidence holds no Skyline S5 comparison, so we cannot answer from our own research."
+    },
+    {
+      "q": "Is Janome MC6650 high or low shank?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Neither the spec json nor the maker facts state the shank type, so we have nothing sourced to answer with."
+    },
+    {
+      "q": "how to drop the feed dog on a janome mc6650",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to drop the feed dog on a janome mc6650",
+      "scope": "this",
+      "use": false,
+      "reason": "A how-to belongs in Janome's manual; our evidence does not cover it."
+    },
+    {
+      "q": "janome mc6650 extension table",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "janome mc6650 extension table",
+      "scope": "this",
+      "use": false,
+      "reason": "We hold no maker fact on a 6650 extension table (Janome lists one for the 6700P)."
+    },
+    {
+      "q": "janome memory craft 6650 manual",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "janome memory craft 6650 manual",
+      "scope": "this",
+      "use": false,
+      "reason": "Janome hosts the manual; the review links it and we have no answer to add."
+    },
+    {
+      "q": "What is the lifespan of a Janome machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "What are common problems with Janome?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "What is the most trouble-free sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "What is the most reliable brand of sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "Which sewing machine is better, Janome or Husqvarna?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "What is the #1 sewing machine manufacturer in the US?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    }
+  ]
+}

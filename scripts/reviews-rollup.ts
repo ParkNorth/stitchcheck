@@ -22,7 +22,7 @@
  * taxonomy had no slot for). The tags file itself is not changed.
  *
  * Per-model config lives in data/reviews/{slug}/editor.json (hand-written, committed):
- *   notes, siblingSummaries, themeRemap, siblings [{model,label,pattern}], features [[pattern,label]],
+ *   notes, ownerNote, summary (the plain-language overview under the H1; WEB-142), siblingSummaries, themeRemap, siblings [{model,label,pattern}], features [[pattern,label]],
  *   rivals [[pattern,label]], others (extra regex for the claims prep), scopeRules [{sourceUrl, requireText}]
  *   (pooled listings: statements from sources whose URL contains sourceUrl count only if the text matches requireText).
  *
@@ -318,6 +318,7 @@ if (mode === "build") {
     },
     notes: editor.notes,
     ownerNote: editor.ownerNote ?? null,
+    summary: editor.summary ?? null,
     themes,
     ratings,
     documentChecks,

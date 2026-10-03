@@ -1,0 +1,217 @@
+{
+  "slug": "brother-1034dx",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "brother 1034dx",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "brother 1034dx",
+        "brother 1034 dx"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/brother-1034dx.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "What's the difference between brother 1034D and 1034dx?",
+      "sources": [
+        "paa",
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 50,
+      "volumeKeyword": "brother 1034dx vs 1034d",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Brother 1034DX and the 1034D?",
+      "answeredFrom": "rollup.json siblings (1034D); manufacturer.json msrp, weightLb, storage, lighting"
+    },
+    {
+      "q": "Is the brother 1034DX a good serger?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Brother 1034DX a good serger, according to owners?",
+      "answeredFrom": "rollup.json themes (reliability, threading) and ratings"
+    },
+    {
+      "q": "how to thread brother 1034dx",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "how to thread brother 1034dx",
+      "scope": "this",
+      "use": true,
+      "faq": "How do you thread the Brother 1034DX?",
+      "answeredFrom": "manufacturer.json threadingSystem; rollup.json Threading and loopers theme; data/specs ownerThemes"
+    },
+    {
+      "q": "What is the price of the Brother 1034D serger?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 50,
+      "volumeKeyword": "brother 1034dx serger price",
+      "scope": "this",
+      "use": true,
+      "faq": "What is the price of the Brother 1034DX?",
+      "answeredFrom": "manufacturer.json msrp; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "Is the Brother 1034DX a serger and overlock machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Brother 1034DX a serger, and does it do 2-thread stitches?",
+      "answeredFrom": "data/specs stitchTypes, threads, conflicts; manufacturer.json threads"
+    },
+    {
+      "q": "What comes in the box with the 1034DX?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "what feet come with the brother 1034dx serger",
+      "scope": "this",
+      "use": true,
+      "faq": "What comes in the box with the Brother 1034DX?",
+      "answeredFrom": "manufacturer.json includedFeet; rollup.json Oiling and maintenance theme"
+    },
+    {
+      "q": "What is the 1034DX warranty?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What is the Brother 1034DX warranty?",
+      "answeredFrom": "manufacturer.json warrantyUs (Brother warranty PDF)"
+    },
+    {
+      "q": "Is the 1034DX good for beginners?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Brother 1034DX good for beginners?",
+      "answeredFrom": "rollup.json themes (threading, tension); manufacturer.json threadingSystem"
+    },
+    {
+      "q": "Can the 1034DX do a rolled hem?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can the Brother 1034DX do a rolled hem?",
+      "answeredFrom": "manufacturer.json / data/specs rolledHem; rollup.json Rolled hem theme"
+    },
+    {
+      "q": "Does the 1034DX have a free arm?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the spec table; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "Does the 1034DX have an LED light?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Covered in the difference answer and the spec table; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "Is the Brother 1034D serger discontinued?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "Asks about the 1034D; we hold no availability evidence for it."
+    },
+    {
+      "q": "Can brother 1034D do a coverstitch?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "Asks about the 1034D; the DX stitch list in our spec names no coverstitch, covered in the serger answer."
+    },
+    {
+      "q": "how do i put the cutter up on the brother 1034 dx serger",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how do i put the cutter up on the brother 1034 dx serger",
+      "scope": "this",
+      "use": false,
+      "reason": "Manual procedure; we hold no manual steps for it."
+    },
+    {
+      "q": "brother 1034dx vs 1634dx",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "brother 1034dx vs 1634dx",
+      "scope": "sibling",
+      "use": false,
+      "reason": "No 1634DX data in our evidence."
+    },
+    {
+      "q": "Which Brother serger is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "What is the best serger for your money?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Is singer or Brother a better serger machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    }
+  ]
+}

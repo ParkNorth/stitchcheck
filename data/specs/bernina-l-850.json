@@ -145,13 +145,14 @@
   "buyerQuestions": [
     "How much does the Bernina L 850 cost?",
     "What is the difference between the Bernina L 850 and L 860?",
-    "Bernina L 850 or Baby Lock Acclaim?",
-    "Does the Bernina L 850 have air threading?",
     "Does the Bernina L 850 do coverstitch?",
+    "Does the Bernina L 850 have air threading?",
     "What needles does the Bernina L 850 use?",
     "How heavy is the Bernina L 850?",
     "Does the L 850 have a free arm?",
-    "What is the Bernina serger warranty?"
+    "What is the Bernina serger warranty?",
+    "Bernina L 850 or Baby Lock Acclaim?",
+    "bernina l850 vs l890"
   ],
   "crossShop": [
     {
@@ -242,47 +243,35 @@
     "faqs": [
       {
         "q": "How much does the Bernina L 850 cost?",
-        "a": "Bernina's page lists a $3,999 MSRP. One PatternReview owner paid $2,499 on a dealer promotion. Bernina is dealer only, so the price is set at the counter."
+        "a": "Bernina's US page lists a manufacturer suggested retail price of $3,999 (seen 2026-10-02). Bernina is a dealer-only brand, so the price at the counter is set by the dealer. One PatternReview owner reports paying $2,499 on a dealer promotion, an owner figure [verify]."
       },
       {
-        "q": "How does the L 850 differ from the L 860?",
-        "a": "Per Bernina's pages, the L 860 adds a 4.3 in touch screen with guided mode, weighs 28.9 lb against 27.1 lb, and lists at $4,999 MSRP. Stitch count (18), speed (1,500 spm) and space right of the needle (5 5/8 in) match."
-      },
-      {
-        "q": "How does the L 850 differ from the L 460 and L 890?",
-        "a": "Bernina lists the L 460 with 16 stitches, a manual needle threader, 2 in right of the needle and $1,999 MSRP. The L 890 is an overlock and coverstitch combo with 27 stitches, 1,350 spm and $8,749 MSRP."
-      },
-      {
-        "q": "Does the L 850 have air threading?",
-        "a": "Yes. Bernina's One-Step Air Threader threads both loopers via the foot control, and there is a built-in needle threader."
+        "q": "What is the difference between the Bernina L 850 and the L 860?",
+        "a": "Per Bernina's pages, the L 860 adds a 4.3 in color touch screen with guided mode, weighs 28.9 lb against 27.1 lb, and lists at a $4,999 MSRP. Stitch count (18), speed (1,500 spm) and the 5 5/8 in of space right of the needle match the L 850."
       },
       {
         "q": "Does the Bernina L 850 do coverstitch?",
-        "a": "No. Coverstitch is on the L 890, Bernina's overlock and coverstitch combo."
+        "a": "No. Bernina's flyer lists 18 overlock, flatlock and rolled hem stitches on 2, 3 and 4 threads, with no coverstitch or chainstitch. Coverstitch is on the L 890, Bernina's overlock and coverstitch combo, which lists 27 stitches, 1,350 spm and an $8,749 MSRP."
       },
       {
-        "q": "What needles does the L 850 use?",
-        "a": "ELx705 CF, sizes 70 to 90. Bernina's manual also permits 130/705 H needles if required."
+        "q": "Does the Bernina L 850 have air threading?",
+        "a": "Yes. Bernina's One-Step Air Threader threads both loopers from the foot control, and there is a built-in needle threader. Owners in our read like the built-in needle threader and the pedal control for needle up and down, and one expert-level owner was very happy with it after nine months. One owner suspects the thread tubes behind a wooly nylon problem."
       },
       {
-        "q": "How heavy is the L 850?",
-        "a": "27.1 lb (12.3 kg) per Bernina's manual. It measures 16.9 x 11.0 x 13.8 in without the thread stand."
+        "q": "What needles does the Bernina L 850 use?",
+        "a": "ELx705 CF in sizes 70 to 90 (10 to 14), and the standard set is 3 x size 80 and 2 x size 90. Bernina's manual also permits 130/705 H needles if required, while one dealer listing names only the ELx705 sizes."
       },
       {
-        "q": "How much room is there right of the needle?",
-        "a": "Bernina quotes 5 5/8 in (143 mm) of space to the right of the needle and 3 3/8 in (86 mm) of work space height. It is not a needle-to-arm throat figure."
+        "q": "How heavy is the Bernina L 850?",
+        "a": "Bernina's manual gives 27.1 lb (12.3 kg), with a boxed weight of about 37.5 lb (17 kg). The machine measures 16.9 x 11.0 x 13.8 in without the thread stand. A dealer listing gave 18 x 13 x 16 in, which does not match the manual."
       },
       {
-        "q": "Does the L 850 have a free arm?",
-        "a": "Yes. Bernina lists a free arm with a slide-on extension table."
+        "q": "Does the Bernina L 850 have a free arm?",
+        "a": "Yes. Bernina lists a free arm with a slide-on extension table. Bernina quotes 5 5/8 in of space to the right of the needle, which is not a needle-to-arm throat figure."
       },
       {
-        "q": "Does it trim the thread chain automatically?",
-        "a": "No. Bernina's manual lists a thread cutter on the outside of the machine for cutting the chain by hand."
-      },
-      {
-        "q": "What is the warranty?",
-        "a": "Bernina's general US warranty, not specific to this model: 20 years on mechanical parts, 5 on circuit boards and 2 on electrical parts. Parts only; labor and shipping are not covered."
+        "q": "What is the warranty on the Bernina L 850?",
+        "a": "Bernina's general limited warranty gives 2 years on electrical parts, 5 years on printed circuit boards and 20 years on mechanical parts. It covers parts only, not labor or shipping, applies to the original purchaser for private use, and does not name the L 850. Ask the dealer for the terms in writing [verify]."
       }
     ]
   }

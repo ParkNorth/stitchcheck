@@ -141,15 +141,15 @@
   ],
   "evidence": "owner",
   "buyerQuestions": [
+    "What is the price of the Juki MO-1000 serger?",
+    "Can you provide a review of the Juki MO-1000 serger?",
+    "how to thread juki mo 1000",
     "Does the Juki MO-1000 thread the needles automatically too?",
-    "Can you thread the MO-1000 by hand if the air system fails?",
-    "Is the MO-1000 loud?",
-    "What comes in the box with the MO-1000?",
     "Is air threading worth the price jump from the MO-654DE?",
+    "Is the MO-1000 loud?",
     "How much does the MO-1000 weigh?",
-    "What is the MO-1000 warranty?",
-    "Does the MO-1000 have a free arm?",
-    "Can the MO-1000 do a 2-thread stitch?"
+    "What comes in the box with the MO-1000?",
+    "What is the MO-1000 warranty?"
   ],
   "crossShop": [
     {
@@ -220,44 +220,40 @@
     ],
     "faqs": [
       {
-        "q": "Is the Juki MO-1000 air threaded?",
-        "a": "Yes. Juki's page describes push-button air threading for both loopers, in any order, plus an automatic needle threader. Juki's wording is a claim; owners report the needle threader is the less reliable part."
+        "q": "What is the price of the Juki MO-1000?",
+        "a": "Juki's suggested retail price is $2,299, and Juki tells buyers to ask an authorized dealer for pricing. Sewing Machines Plus showed about $1,499 on 2026-09-29. Dealers set their own prices, so confirm the price and what is included in writing."
       },
       {
-        "q": "What is the MO-1000 throat space?",
-        "a": "Juki publishes a throat height of 72.4 mm (2.85 in) and calls it 'Ample Fabric Throat Area'. It gives no needle-to-arm figure, so the needle-to-body throat stays [verify] here."
+        "q": "What do owners say about the Juki MO-1000?",
+        "a": "The owner read is thin, with 35 voices from Reddit and retailer reviews. Owners mostly praise the air threading, with 13 of the 20 voices on threading positive, and the quiet running. The needle threader is the weak point, a few owners report defects, and tension and rolled hem draw some criticism. Reddit leans toward people asking for help, so problems are over-represented."
       },
       {
-        "q": "How much does the MO-1000 weigh and how big is it?",
-        "a": "Juki's page gives 20 lb and 13 x 11 x 12.25 in (W x D x H). The brochure gives 9.0 kg (19.8 lb) and 330 x 280 x 310 mm. Larger figures in reviews read as shipping weight and carton size."
+        "q": "How do you thread the Juki MO-1000?",
+        "a": "Per Juki's page, push 1/2 to 1 in of thread into each looper threading hole and press the air-control pushbutton; the brochure says 1 to 2 cm, so the exact length is [verify]. Juki says you do not need to thread in order, which is Juki's claim. The needles use a lever-operated automatic threader."
       },
       {
-        "q": "What is the MO-1000 differential feed range?",
-        "a": "Juki gives 0.7 to 2.0 on its page and brochure, adjustable with a knob while sewing."
+        "q": "Does the Juki MO-1000 thread the needles automatically too?",
+        "a": "Yes per Juki, which lists an automatic needle threader that works by a lower lever. Owners report it as the weak point: needle threading was described as harder than the loopers, and one retailer review had a plastic threader break twice."
       },
       {
-        "q": "What is the MO-1000 warranty?",
-        "a": "Juki America's general home-machine wording is 2 years on motors, light assembly, wiring, switches, circuit boards and speed control, and 5 years on other parts for factory defects, with service through the selling dealer. That wording is not stated as MO-1000 specific, and one dealer quotes a 1 year service warranty. Get the terms in writing."
-      },
-      {
-        "q": "What needles does the MO-1000 use?",
-        "a": "Juki's page and brochure say household machine size 11 or 14 and name no needle system code. The manual, read by OCR (verify against the PDF), gives needle guidance of No. 70 to 90."
-      },
-      {
-        "q": "What is in the box with the MO-1000?",
-        "a": "Juki lists a standard presser foot, waste collector, spare lower knife, guide bar, 2/3 thread selector, screwdrivers, oiler, thread nets, needle pack, tools, accessory pouch, foot control and manual. An instructional DVD, foam thread pad and cone holders are not on Juki's list."
-      },
-      {
-        "q": "How does the MO-1000 compare with the MO-654DE and MO-644D?",
+        "q": "How does the Juki MO-1000 compare with the MO-654DE and MO-644D?",
         "a": "From Juki's pages: the MO-654DE ($1,399 suggested) and MO-644D ($1,199) thread the loopers manually, have a 6 mm maximum overlock width against 9 mm, and weigh 15.5 lb and 15 lb against 20 lb. The MO-1000 lists at $2,299."
       },
       {
-        "q": "How much owner evidence is there for the MO-1000?",
-        "a": "Limited. The rollup holds 35 voices, 28 of them first-hand, drawn from Reddit and retailer reviews, and only 3 Reddit threads name the model in the title. Amazon shows 4.3 from 172 ratings and Sewing Machines Plus 4.34 from 29. Treat themes as signals, not failure rates."
+        "q": "Is the Juki MO-1000 loud?",
+        "a": "Juki claims amazingly quiet operation and says its sound reducing design minimizes noise, which are Juki's claims. In the owner evidence, 6 voices describe quiet running or little vibration and none are negative, but all 6 are retailer reviews."
       },
       {
-        "q": "Is the MO-1000 discontinued?",
-        "a": "Juki's page presents it for sale with a dealer lookup and does not say it is discontinued."
+        "q": "How much does the Juki MO-1000 weigh and how big is it?",
+        "a": "Juki's page gives 20 lb and 13 x 11 x 12.25 in (W x D x H). The brochure gives 9.0 kg (19.8 lb) and 330 x 280 x 310 mm. Larger figures in reviews read as shipping weight and carton size."
+      },
+      {
+        "q": "What is in the box with the Juki MO-1000?",
+        "a": "Juki lists a standard presser foot, waste collector, spare lower knife, guide bar, 2/3 thread selector, screwdrivers, oiler, thread nets, needle pack, tools, accessory pouch, foot control and manual. An instructional DVD, foam thread pad and cone holders are not on Juki's list."
+      },
+      {
+        "q": "What is the Juki MO-1000 warranty?",
+        "a": "Juki America's general home-machine wording is 2 years on motors, light assembly, wiring, switches, circuit boards and speed control, and 5 years on other parts for factory defects, with service through the selling dealer. That wording is not stated as MO-1000 specific, and one dealer quotes a 1 year service warranty. Get the terms in writing [verify]."
       }
     ]
   }

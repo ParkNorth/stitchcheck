@@ -1,0 +1,295 @@
+{
+  "slug": "singer-14cg754",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "singer 14cg754",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source. A second pull on 'singer 14cg754 review' was made because only one People Also Ask question was about this model."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "singer 14cg754",
+        "singer 14cg 754",
+        "singer profinish 14cg754"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/singer-14cg754.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "singer 14cg754 serger reviews",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "singer 14cg754 serger reviews",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Singer 14CG754?",
+      "answeredFrom": "rollup.json themes and summary"
+    },
+    {
+      "q": "What is the price of the Singer 14CG754 serger?",
+      "sources": [
+        "paa",
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What is the price of the Singer 14CG754?",
+      "answeredFrom": "manufacturer.json priceMsrp; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "Is the Singer 14CG754 good for beginners?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Singer 14CG754 good for beginners?",
+      "answeredFrom": "rollup.json Tension, Threading and Learning curve themes; manufacturer.json threadingSystem"
+    },
+    {
+      "q": "how to thread singer profinish serger 14cg754",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Singer 14CG754 hard to thread?",
+      "answeredFrom": "rollup.json Threading and loopers theme; manufacturer.json threadingSystem"
+    },
+    {
+      "q": "Is the Singer 14CG754 discontinued?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Singer 14CG754 discontinued?",
+      "answeredFrom": "manufacturer.json status"
+    },
+    {
+      "q": "What is the difference between the Singer 14CG754 and 14HD854?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the 14CG754 and the 14HD854?",
+      "answeredFrom": "rollup.json siblings (Heavy Duty 14HD854); manufacturer.json priceMsrp"
+    },
+    {
+      "q": "what needles fit singer 14cg754",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": true,
+      "faq": "What needles does the Singer 14CG754 use?",
+      "answeredFrom": "manufacturer.json needleSystem"
+    },
+    {
+      "q": "does singer 14cg754 do cover stitch",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Singer 14CG754 do a cover stitch?",
+      "answeredFrom": "manufacturer.json stitchCount and threads; data/specs stitchTypes"
+    },
+    {
+      "q": "How much does the Singer 14CG754 weigh?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Singer 14CG754 weigh?",
+      "answeredFrom": "manufacturer.json weightLb; data/specs conflicts"
+    },
+    {
+      "q": "Which Singer overlocker is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "What serger machine is best for a beginner?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "Are Singer overlockers any good?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; belongs on a guide."
+    },
+    {
+      "q": "Which serger is better, brother or Singer?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "What is the price of the Singer Overlocker 14SH754?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "A different model."
+    },
+    {
+      "q": "Can you provide a review of the Singer 14SH754 overlocker?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "A different model."
+    },
+    {
+      "q": "What is the price of the Singer 14SH654 Serger?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "A different model."
+    },
+    {
+      "q": "Where can I find the manual for my Singer 14SH654 sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "A different model."
+    },
+    {
+      "q": "What is the best home serger machine for my money?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "What is the easiest serger to operate?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "What is the most affordable brand of serger?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "what is the difference between singer 14cg754 and singer 14et754?",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "generic",
+      "use": false,
+      "reason": "A model we do not cover."
+    },
+    {
+      "q": "which on is better singer 14cg754 or singer 14sh764",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "generic",
+      "use": false,
+      "reason": "A model we do not cover."
+    },
+    {
+      "q": "14cg754 singer serger where to oil the machine tutorial",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "No maker oiling schedule or owner consensus in our evidence."
+    },
+    {
+      "q": "brother serger 1034dx vs singer 14cg754",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "sibling",
+      "use": false,
+      "reason": "No sourced Brother-side figures in this model's files; belongs on a compare page."
+    },
+    {
+      "q": "Is the Singer 14CG754 better than the Brother 1034D?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "No sourced Brother-side figures in this model's files; belongs on a compare page."
+    },
+    {
+      "q": "Can the Singer 14CG754 do a rolled hem?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the spec table: Singer lists a built-in rolled hem."
+    },
+    {
+      "q": "Does the Singer 14CG754 have a free arm?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the spec table: Singer lists free-arm sewing."
+    }
+  ]
+}

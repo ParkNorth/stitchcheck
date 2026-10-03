@@ -3,7 +3,7 @@
   "status": "approved",
   "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
   "reviewedOn": "2026-10-01",
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "method": {
     "sources": 35,
     "itemsCollected": 356,
@@ -36,6 +36,7 @@
     "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
   ],
   "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "summary": "Owners of the Juki MO-654DE mostly describe a sturdy serger that copes with thick layers, with fleece, canvas and denim mentioned. Threading is the topic that splits them: color-coded guides and videos help many owners, while others call manual threading a chore that comes with any serger without air threading. Noise is mixed, with some owners calling it quiet and one calling it the single drawback. The repeated complaints are practical: tension that would not settle after a long idle period or a thread change, and a lower looper that kept snapping on one machine. This read covers 33 Reddit threads and 2 retailer pages, from 2014 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
   "themes": [
     {
       "theme": "threading",

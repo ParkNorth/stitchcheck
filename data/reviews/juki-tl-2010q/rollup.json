@@ -3,7 +3,7 @@
   "status": "approved",
   "reviewedBy": "Claude (editor pass: exemplar quotes, contradictions, sibling rows and rival tallies read against sources). Human review still recommended.",
   "reviewedOn": "2026-09-30",
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "method": {
     "sources": 99,
     "itemsCollected": 2148,
@@ -38,6 +38,7 @@
     },
     "blocked": 2,
     "evidence": "strong",
+    "pooledExcluded": 0,
     "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
   },
   "notes": [
@@ -46,7 +47,8 @@
     "Retailer reviews are seller-collected and skew positive; Reddit and forum posts are self-selected. Two Facebook group posts could not be read, and Amazon, eBay and YouTube comments are not yet collected.",
     "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
   ],
-  "ownerNote": null,
+  "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+  "summary": "Owners of the Juki TL-2010Q mostly praise the same things: it is fast, it feels solid, it handles heavy fabric and thick quilt layers well, and the throat is roomy enough for home quilting. The repeated complaints are practical. The automatic needle threader is the most common gripe, the supplied walking foot is noisy and gets mixed reviews, the built-in light is weak, and oiling is a daily habit on a machine in daily use. The pedal thread trimmer splits opinion: some owners love it and others report it firing mid seam. This read covers 69 Reddit threads, 13 forum pages, 6 retailer pages and 10 blog or editorial write-ups, from 2011 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
   "themes": [
     {
       "theme": "feet_accessories",

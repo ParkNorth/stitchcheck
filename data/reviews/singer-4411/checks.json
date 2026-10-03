@@ -1,6 +1,6 @@
 {
   "slug": "singer-4411",
-  "generated": "2026-10-02T04:41:11.597Z",
+  "generated": "2026-10-03T02:49:14.331Z",
   "counts": {
     "error": 0,
     "warn": 4
@@ -14,12 +14,12 @@
     {
       "level": "info",
       "id": "pooled-listing",
-      "message": "sewingmachinesplus.com: of 79 sampled reviews, 2 name this model, 0 name a sibling only, 77 name neither"
+      "message": "sewingmachinesplus.com: of 79 sampled reviews, 0 name this model, 0 name a sibling only, 79 name neither"
     },
     {
       "level": "warn",
       "id": "pooled-listing",
-      "message": "sewingmachinesplus.com: only 2 of 79 reviews name this model while siblings exist; confirm the listing is not pooled"
+      "message": "sewingmachinesplus.com: only 0 of 79 reviews name this model while siblings exist; confirm the listing is not pooled"
     },
     {
       "level": "warn",
@@ -38,13 +38,13 @@
     },
     {
       "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 115 voices (78 first-hand), 62 sources, status draft"
+      "message": "evidence moderate, 115 voices (78 first-hand), 62 sources, status approved"
     }
   ]
 }

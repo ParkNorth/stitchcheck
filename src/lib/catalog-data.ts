@@ -41,7 +41,7 @@ export interface CatalogEntry {
   sources: string[];
 }
 
-export const CATALOG_BUILT = "2026-10-02";
+export const CATALOG_BUILT = "2026-10-03";
 
 export const catalogData: Record<string, CatalogEntry> = {
   "babylock-imagine": {
@@ -169,16 +169,15 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "Is the Baby Lock Imagine discontinued?",
+      "Is Baby Lock Imagine discontinued?",
       "What replaced the Baby Lock Imagine?",
-      "How much did the Baby Lock Imagine cost new?",
-      "Does the Imagine have tension dials?",
-      "What is the difference between the Imagine BLE1AT and BLE1AT-2?",
+      "How much does a Baby Lock Imagine serger cost?",
+      "Does the Baby Lock Imagine have tension dials?",
+      "how to thread the baby lock imagine",
       "Does the Imagine do 2 thread stitches?",
-      "Does the Imagine do coverstitch?",
-      "What needles does the Imagine use?",
+      "Is the Imagine the same as the Imagine Wave?",
       "Is a used Imagine worth buying?",
-      "Is the Imagine the same as the Imagine Wave?"
+      "What do owners say about the Baby Lock Imagine?"
     ],
     "crossShop": [
       {
@@ -238,47 +237,39 @@ export const catalogData: Record<string, CatalogEntry> = {
       "faqs": [
         {
           "q": "Is the Baby Lock Imagine discontinued?",
-          "a": "Yes. Baby Lock lists the Imagine under previous model accessories, and a PatternReview thread on the new lineup says the Victory replaced it, though dealer pages still show Imagine listings."
+          "a": "Baby Lock lists the Imagine under previous model accessories, and a PatternReview thread on the new lineup says the Victory replaced it, though dealer pages still show Imagine listings. We found no Baby Lock statement of a discontinuation date [verify]."
         },
         {
-          "q": "What replaced the Imagine?",
-          "a": "A PatternReview thread says the Victory replaced it. One Reddit commenter put the Imagine near $2,000 and the Victory near $3,500; Baby Lock publishes dealer pricing only, so treat that as a belief."
+          "q": "What replaced the Baby Lock Imagine?",
+          "a": "A PatternReview thread says the Victory replaced it. One Reddit commenter put the Imagine near $2,000 and the Victory near $3,500; Baby Lock publishes dealer pricing only, so treat that as a belief [verify]."
         },
         {
-          "q": "How much does the Imagine cost?",
-          "a": "Baby Lock does not publish prices and no current new price was found, so it shows [verify]. Owners reported paying $950 and $1,800 new in earlier years, and a used unit sold on eBay near $550."
+          "q": "How much does a Baby Lock Imagine cost?",
+          "a": "Baby Lock publishes no price for the Imagine and no current new dealer price was found, so the catalog shows [verify]. One Reddit commenter put the Imagine near $2,000, which is a belief, not a quote. Ask a dealer for a quote and ask whether the unit is new, demo or used."
         },
         {
-          "q": "Does the Imagine have tension dials?",
-          "a": "Baby Lock markets Automatic Thread Delivery and no tension adjustments, which are its claims. Owner reports are mixed: some report no tension issues in about six years, others report tension trouble on stretchy fabrics."
+          "q": "Does the Baby Lock Imagine have tension dials?",
+          "a": "Baby Lock markets Automatic Thread Delivery and no tension adjustments, which are its claims. Owner reports are mixed: one owner reports no tension issues in about six years, while others report tension trouble on stretchy fabrics and one says manual tensioning is the real annoyance."
         },
         {
-          "q": "How fast is the Imagine?",
-          "a": "The Baby Lock BLE1AT-2 spec sheet gives 1,500 stitches per minute."
+          "q": "How do you thread the Baby Lock Imagine, and does the air threading work?",
+          "a": "Baby Lock claims Jet-Air threading of the lower loopers by lever and lists a built-in needle threader; both are maker claims. Of the owners who judged threading, most call it easy, but one buyer of a used original BLE1AT found the air threader dead, one owner had thread feed problems with taller cones that Maxi-Loc cones solved, and a service technician advised one owner to pull threads through by hand."
         },
         {
-          "q": "Does the Imagine do 2 thread stitches or coverstitch?",
+          "q": "Does the Baby Lock Imagine do 2 thread stitches or coverstitch?",
           "a": "The spec sheet lists 4, 3 and 2 thread serging, with rolled hem and flatlock using 2 or 3 threads. It does not list coverstitch."
         },
         {
-          "q": "What is the difference between BLE1AT and BLE1AT-2?",
-          "a": "The BLE1AT is the older version and the BLE1AT-2 the later one. A PatternReview thread describes the difference as minor, but our spec sheet is for the BLE1AT-2 only and we did not compare the two documents."
+          "q": "Is the Baby Lock Imagine the same as the Imagine Wave?",
+          "a": "No. The Imagine Wave (BLE3ATW) is a separate wave stitch model, and our spec sheet covers the BLE1AT-2 only. PatternReview and Reddit posts mix BLE1AT, BLE1AT-2 and Wave units, so owner evidence here is not all BLE1AT-2."
         },
         {
-          "q": "How heavy is the Imagine?",
-          "a": "The Baby Lock spec sheet says 16 lb. An Amazon listing snippet gave 7.8 kg (17.2 lb); the maker figure is used here."
+          "q": "Is a used Baby Lock Imagine worth buying?",
+          "a": "It depends on the unit. Some owners report Imagines still running after six years or more, and one PatternReview owner reports a 1998 unit in daily use. Against that, one buyer of a used BLE1AT-1 found the air threader dead and one owner's tension springs wore out after about two and a half years with a repair that was not cheap. Confirm it is a BLE1AT-2 and ask what coverage remains on a used unit; the 25 year limited terms on the spec sheet are the maker's, not a promise for a resale."
         },
         {
-          "q": "What needles does the Imagine take?",
-          "a": "The Baby Lock spec sheet lists the household needle system HAx1SP, 130/705H and ELx705CF. The manual was not fetched."
-        },
-        {
-          "q": "What is the Imagine warranty?",
-          "a": "The spec sheet states 25 years limited, 10 years parts, 5 years electrical and 1 year labor. The warranty PDF was not fetched, so check transfer terms with the dealer."
-        },
-        {
-          "q": "Is the Imagine the same as the Imagine Wave?",
-          "a": "No. The Imagine Wave (BLE3ATW) is a separate wave stitch model, and its reviews are mixed in with the Imagine on PatternReview."
+          "q": "What do owners say about the Baby Lock Imagine?",
+          "a": "Owners mostly describe a machine that is easy to thread and reliable, with some units in use for six years or more. The repeated complaints are tension on stretchy fabrics, air threader or looper thread problems on some units, and worn tension springs on one. Our read covers 27 Reddit threads, 2 forum pages and 1 write-up from 2016 to 2026, mixing several Imagine versions, and Reddit leans toward people asking for help, so problems are over-represented."
         }
       ]
     },
@@ -424,13 +415,14 @@ export const catalogData: Record<string, CatalogEntry> = {
     "evidence": "owner",
     "buyerQuestions": [
       "How much does the Baby Lock Vibrant cost?",
-      "Is the Vibrant good for beginners?",
+      "Is the Baby Lock Vibrant good for beginners?",
+      "how to thread baby lock vibrant serger",
       "Does the Vibrant have air threading?",
-      "What is the difference between the Vibrant and the Celebrate?",
-      "Is the Vibrant BL460B or BLS1?",
+      "baby lock vibrant serger reviews",
+      "Can you buy the Vibrant online or only from a dealer?",
+      "baby lock vibrant serger bl460b",
       "Does the Vibrant do 2-thread stitches?",
-      "How heavy is the Vibrant?",
-      "Can you buy the Vibrant online or only from a dealer?"
+      "What is the difference between the Vibrant and the Celebrate?"
     ],
     "crossShop": [
       {
@@ -485,43 +477,35 @@ export const catalogData: Record<string, CatalogEntry> = {
       "faqs": [
         {
           "q": "How much does the Baby Lock Vibrant cost?",
-          "a": "babylock.com showed $524 on 2026-10-01. Baby Lock's spec sheet gives no price, and authorized retailers set their own, so quotes vary by store."
+          "a": "babylock.com showed $524 on 2026-10-01, a price shown on the maker's page and not a dealer price. Baby Lock's spec sheet gives no price and authorized retailers set their own, so quotes vary by store; earlier dealer listings we saw showed $499 regular and some showed $799 [verify]."
         },
         {
-          "q": "Can you buy the Vibrant online or only from a dealer?",
-          "a": "babylock.com showed an add-to-cart at $524, but Baby Lock's warranty page says machines are only available through Authorized Retailers and warranties are not extended to online purchases. Buy from an authorized retailer to keep the warranty."
+          "q": "Is the Baby Lock Vibrant good for beginners?",
+          "a": "Baby Lock calls it the perfect introduction to serging; that is a maker claim. Of the owners who judged threading, most call it easy, but the machine has manual needle threading and manual tension discs, and help posts include a cutting blade lever that would not re-engage and a rolled hem that would not form on satin."
         },
         {
-          "q": "Does the Vibrant have air threading?",
-          "a": "No. Baby Lock's comparison chart lists no Jet-Air, manual needle threading and manual tension discs on the Vibrant. The Victory lists Jet-Air, a needle threader and automatic tension."
+          "q": "How do you thread the Baby Lock Vibrant?",
+          "a": "Baby Lock describes color-coded threading in a set order, with manual needle threading and manual lay-in tension discs and no Jet-Air; the color coding is its marketing wording. Most owners who comment call threading easy, though one finds it a bit difficult, as sergers generally are."
         },
         {
-          "q": "How fast is the Vibrant?",
-          "a": "Baby Lock's manual says 1200 +/- 50 stitches per minute. Dealer sheets say 1,500, which has no maker source."
+          "q": "Does the Baby Lock Vibrant have air threading, and how does it differ from the Victory?",
+          "a": "No. Baby Lock's comparison chart lists no Jet-Air on the Vibrant, with manual needle threading and manual tension discs. The Victory lists Jet-Air, a built-in needle threader, Automatic Thread Delivery, two LEDs and a 6 mm presser foot lift, against one LED and no published lift on the Vibrant. babylock.com showed the Victory at $2,089 and the Vibrant at $524 on 2026-10-01, shown prices and not dealer quotes."
         },
         {
-          "q": "Does the Vibrant do 2-thread stitches?",
-          "a": "Baby Lock lists 4, 3 and 2-thread serging, with a two-thread converter among the included accessories."
+          "q": "What do owners say about the Baby Lock Vibrant?",
+          "a": "Owners mostly say it is easy to thread for a serger, and some find it quiet, with one calling it much quieter than a previous serger, though two call it noisy or shaky. Complaints are specific: a cutting blade lever that would not re-engage, a dim light, and one unit whose upper looper rubbed the needles. Our read covers 27 Reddit threads and 1 retailer page from 2019 to 2026, and Reddit leans toward people asking for help, so problems are over-represented."
         },
         {
-          "q": "What stitch length does the Vibrant have?",
-          "a": "Baby Lock's spec sheet says 1 to 4 mm; its manual says 1 to 4.5 mm. We show the manual figure and flag the conflict."
+          "q": "Can you buy the Baby Lock Vibrant online or only from a dealer?",
+          "a": "babylock.com showed an add-to-cart at $524, but Baby Lock's warranty page says machines are only available through Authorized Retailers and warranties are not extended to online purchases. Stitch Check has no buy link or affiliate relationship with Baby Lock; use the dealer locator."
         },
         {
-          "q": "Is the Vibrant good for beginners?",
-          "a": "Baby Lock calls it the perfect introduction to serging; that is a maker claim. Owners report threading is mostly easy, with a few help-request posts about loopers and the cutting blade."
-        },
-        {
-          "q": "Is the Vibrant BL460B or BLS1?",
+          "q": "Is the Baby Lock Vibrant the BL460B or the BLS1?",
           "a": "BL460B. BLS1 is the Celebrate, which has jet air threading."
         },
         {
-          "q": "How heavy is the Vibrant?",
-          "a": "Baby Lock lists 19.84 lb (9 kg), machine only."
-        },
-        {
-          "q": "What is the Vibrant's warranty?",
-          "a": "Baby Lock's spec sheet lists 25-year limited, with 10-year parts, 2-year electrical and 1-year labor. Baby Lock's warranty page says only Authorized Retailers issue warranties."
+          "q": "Does the Baby Lock Vibrant do 2-thread stitches?",
+          "a": "Yes. Baby Lock lists 4, 3 and 2-thread serging, and a two-thread converter is among the included accessories per its manual."
         }
       ]
     },
@@ -672,17 +656,16 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "mixed",
     "buyerQuestions": [
-      "How much does the Baby Lock Victory cost?",
-      "Did the Victory replace the Imagine?",
-      "What is the difference between the Victory and the Imagine?",
+      "What are people saying about the Baby Lock Victory Serger?",
+      "What is the price of the Baby Lock Victory serger?",
+      "how to thread babylock victory",
       "Does the Victory have tension dials?",
-      "Does the Victory do 2 thread stitches?",
-      "Does the Victory do coverstitch?",
+      "Did the Victory replace the Imagine?",
       "Victory vs Celebrate: which one?",
-      "Victory vs Acclaim or Accolade: is the step up worth it?",
       "What needles does the Victory use?",
       "Can I buy the Victory online?",
-      "What is the Victory warranty?"
+      "Does the Victory do 2 thread stitches?",
+      "Victory vs Acclaim or Accolade: is the step up worth it?"
     ],
     "crossShop": [
       {
@@ -741,44 +724,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
+          "q": "What do owners and buyers say about the Baby Lock Victory?",
+          "a": "Owner and buyer signals are mostly positive on threading and tension: one owner says threading takes seconds, another likes the auto tension, one finds it much quieter than a Brother 1034DX, and one has serged denim layers without breaking needles. The worries are a few needle breaks on terry and cotton flannel, a fiddly needle threading mechanism and ballpoint serger needles that were hard to find. We read 13 Reddit threads and 1 retailer page from 2020 to 2026 and only 10 of the 24 voices are owners, so this is thin evidence; Reddit leans toward help requests, so problems are over-represented."
+        },
+        {
           "q": "How much does the Baby Lock Victory cost?",
-          "a": "babylock.com showed $2,089 on 2026-10-02, a price shown there and not an MSRP, and dealers set their own price. Sewing Machines Plus showed $1,899 on sale against $2,599 regular on 2026-09-29."
+          "a": "babylock.com showed $2,089 on 2026-10-02, a price shown there and not an MSRP, and dealers set their own price. Sewing Machines Plus showed $1,899 on sale against $2,599 regular on 2026-09-29, a dealer figure."
         },
         {
-          "q": "Does the Victory have tension dials?",
-          "a": "Baby Lock markets Automatic Thread Delivery and no tension adjustments, which are its claims. The Celebrate is listed with manual tension on the maker's comparison chart."
+          "q": "How do you thread the Baby Lock Victory?",
+          "a": "Baby Lock claims Jet-Air threading of the lower loopers with a lever and Automatic Thread Delivery so threads go in any order, plus a built-in needle threader held by a lever; those are maker claims. Owner reports are split: one says threading the Victory takes seconds and another finds the needle threading mechanism fiddly."
         },
         {
-          "q": "Does the Victory do 2 thread stitches?",
-          "a": "Yes. The manual lists 2 thread flatlock, blanket and ladder stitches, plus 4 and 3 thread overlock and a 3 thread rolled edge."
+          "q": "Does the Baby Lock Victory have tension dials?",
+          "a": "Baby Lock markets Automatic Thread Delivery and no tension adjustments, which are its claims. One owner finds the auto tension nice. The Celebrate is listed with manual tension on the maker's comparison chart."
         },
         {
-          "q": "Does the Victory do coverstitch?",
-          "a": "No coverstitch appears in the manual's stitch list. It is an overlock machine."
+          "q": "Did the Baby Lock Victory replace the Imagine, and how do they differ?",
+          "a": "A PatternReview thread says the Victory replaced the Imagine, though we found no Baby Lock statement saying so [verify]. Both list 4, 3 and 2 thread serging, Jet-Air threading, Automatic Thread Delivery and 1,500 stitches per minute on their maker documents. One difference in the documents is needles: the Imagine spec sheet lists HAx1SP, 130/705H and ELx705CF, while the Victory manual names only HAx1SP/CR."
         },
         {
-          "q": "How fast is the Victory?",
-          "a": "The spec sheet and the manual both state 1,500 stitches per minute."
+          "q": "What is the difference between the Baby Lock Victory and the Celebrate?",
+          "a": "Per Baby Lock's comparison chart, the Victory has Automatic Thread Delivery, 2 LEDs and 2 thread blanket and ladder stitches; the Celebrate has manual tension and 1 LED. Both list 6 mm presser foot lift and Jet-Air threading. babylock.com showed the Celebrate at $1,352 and the Victory at $2,089 on 2026-10-02, shown prices and not dealer quotes."
         },
         {
-          "q": "How heavy is the Victory?",
-          "a": "The product page says 16 lb machine only and the manual gives 7.6 kg, about 16.8 lb. Dimensions on the page are 12.5 x 11 x 11.5 in, machine only."
+          "q": "What needles does the Baby Lock Victory use?",
+          "a": "The manual names Organ or Schmetz HAx1SP/CR, set up with 75/11 and 90/14 for heavyweight fabrics. A dealer page also lists ELx705CF and ELx705, which are not in Baby Lock's documents. One owner reports they could not find ballpoint serger needles for it, and the serger needles they found were all sharp."
         },
         {
-          "q": "What needles does the Victory use?",
-          "a": "The manual names Organ or Schmetz HAx1SP/CR, set up with 75/11 and 90/14 for heavyweight fabrics. A dealer page also lists ELx705CF and ELx705, which are not in Baby Lock's documents."
+          "q": "Can I buy the Baby Lock Victory online?",
+          "a": "Baby Lock says its machines are found through Authorized Baby Lock Retailers, and babylock.com also showed a price and cart on 2026-10-02. Stitch Check has no buy link or affiliate relationship with Baby Lock and points to the dealer locator."
         },
         {
-          "q": "Can I buy the Victory online?",
-          "a": "Baby Lock says its machines are found through Authorized Baby Lock Retailers. Stitch Check has no buy link or affiliate relationship with Baby Lock and points to the dealer locator."
-        },
-        {
-          "q": "What is the Victory warranty?",
-          "a": "The Victory spec sheet states 25 years limited, 10 years parts, 5 years circuit boards, 5 years electrical and 1 year labor. Baby Lock says only Authorized Retailers can issue its warranties."
-        },
-        {
-          "q": "What is the difference between the Victory and the Celebrate?",
-          "a": "Per Baby Lock's comparison chart, the Victory has Automatic Thread Delivery, 2 LEDs and 2 thread blanket and ladder stitches; the Celebrate has manual tension and 1 LED. Both list 6 mm lift and Jet-Air threading."
+          "q": "Does the Baby Lock Victory do 2 thread stitches or coverstitch?",
+          "a": "Yes to 2 thread stitches. The manual lists 2 thread flatlock, blanket and ladder stitches, plus 4 and 3 thread overlock and a 3 thread rolled edge. No coverstitch appears in the manual's stitch list, so it is an overlock machine."
         }
       ]
     },
@@ -945,14 +924,13 @@ export const catalogData: Record<string, CatalogEntry> = {
     "evidence": "owner",
     "buyerQuestions": [
       "Is the Bernina 1008 discontinued?",
-      "What replaced the Bernina 1008?",
-      "How much did the Bernina 1008 cost new?",
-      "Is the Bernina 1008 heavy duty?",
-      "What is the difference between the Bernina 1008 and 1008S?",
+      "How heavy is the BERNINA 1008?",
+      "How much does a bernina 1008 sewing machine cost",
       "How many stitches does the Bernina 1008 have?",
-      "How fast does the Bernina 1008 sew?",
-      "Does the Bernina 1008 have a needle threader?",
-      "What is a used Bernina 1008 worth?"
+      "What do owners say about the Bernina 1008?",
+      "how to thread a bernina 1008",
+      "Is the Bernina 1008 heavy duty?",
+      "What is the difference between the Bernina 1008 and 1008S?"
     ],
     "crossShop": [
       {
@@ -1012,43 +990,35 @@ export const catalogData: Record<string, CatalogEntry> = {
       "faqs": [
         {
           "q": "Is the Bernina 1008 discontinued?",
-          "a": "Bernina's US product page says 'This product is no longer available' and points to local Bernina stores. One third-party site says it was discontinued in 2020; Bernina's page gives no date."
+          "a": "Bernina's US product page says 'This product is no longer available' and points to local Bernina stores; Bernina still publishes the manual and warranty. One third-party site says it was discontinued in 2020, but Bernina's page gives no date."
         },
         {
-          "q": "What replaced the Bernina 1008?",
-          "a": "No successor appears on the pages found. One dealer pointed a PatternReview reviewer to the bernette 05 Academy as a school machine."
+          "q": "How heavy is the Bernina 1008?",
+          "a": "Bernina publishes no weight on its page or in its manual. A European dealer lists 9.5 kg, about 20.9 lb, which is a non-maker figure [verify]."
         },
         {
-          "q": "How much did the Bernina 1008 cost new?",
-          "a": "Bernina's page gives no price. Undated forum reports put dealer prices at $1,000 to $1,100 with sales near $950, and some buyers paid $649 to $700."
-        },
-        {
-          "q": "Is the Bernina 1008 heavy duty?",
-          "a": "Bernina does not rate it that way; Heavy Duty appears in used-dealer listing titles. Bernina's manual says it is intended for household use only. Owners describe a sturdy machine that has lasted in classes."
-        },
-        {
-          "q": "What is the difference between the 1008 and 1008S?",
-          "a": "A UK dealer lists the 1008S with 16 stitches against 17 for the 1008 and describes it as the portable variant. Bernina US pages cover the 1008 only."
+          "q": "How much does a Bernina 1008 cost?",
+          "a": "Bernina's page gives no price, so we show none. We have no dated current price on record, and used and old stock is sold through dealers and marketplaces, so get a quote for the specific unit [verify]."
         },
         {
           "q": "How many stitches does the Bernina 1008 have?",
-          "a": "17, including a buttonhole and two decorative stitches, per Bernina's product page."
+          "a": "17, including a buttonhole and two decorative stitches, per Bernina's product page. A UK dealer lists the 1008S with 16, which is a different listing."
         },
         {
-          "q": "How fast does the Bernina 1008 sew?",
-          "a": "Bernina publishes no speed. Review sites quote 900 spm and one quotes 1050; treat both as non-maker figures to verify."
+          "q": "What do owners say about the Bernina 1008?",
+          "a": "Owners mostly praise a sturdy mechanical machine: a student and a teacher describe class 1008s that keep working, and one owner sewed six layers of denim without trouble. Complaints are about stretch knits and zigzag, a foot that presses hard and cannot be adjusted for pressure per one owner, jammed feed dogs on one eBay-bought unit, and oiling advice that ranges from after every bobbin to never. Our read covers 53 Reddit threads and 1 retailer page from 2011 to 2026, and Reddit leans toward help requests, so problems are over-represented."
         },
         {
-          "q": "What is the maximum stitch width?",
-          "a": "Bernina's manual says up to 5 mm, infinitely variable, while its product page says five steps. The manual text is OCR, so check the PDF."
+          "q": "How do you thread the Bernina 1008?",
+          "a": "Follow the threading diagram in Bernina's manual, which Bernina still publishes as a PDF. Owner reports on threading are a few tips: one advises holding the thread tails at the start of sewing because the needle kept unthreading, and one owner's top thread pulls out of the needle when stitch width is turned to 5."
         },
         {
-          "q": "What does the Bernina warranty cover?",
-          "a": "Bernina's US page lists 2 years electrical parts, 5 years circuit boards and 20 years mechanical parts, with liability limited to the cost of the part. Verify the conditions on the page."
+          "q": "Is the Bernina 1008 heavy duty?",
+          "a": "Bernina does not rate it that way; Heavy Duty appears in used-dealer listing titles. Bernina's manual says it is intended for household use only. Owners describe a sturdy machine that has lasted in classes, though others report jams in denim zigzag and weak results on cap brims."
         },
         {
-          "q": "How much does the Bernina 1008 weigh?",
-          "a": "Bernina publishes no weight. A European dealer lists 9.5 kg, about 20.9 lb; verify before relying on it."
+          "q": "What is the difference between the Bernina 1008 and 1008S?",
+          "a": "A UK dealer lists the 1008S with 16 stitches against 17 for the 1008 and describes it as the portable variant. Bernina US pages cover the 1008 only, so we have no maker comparison of the two [verify]."
         }
       ]
     },
@@ -1198,15 +1168,16 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "How much does the Bernina 570 QE cost?",
+      "Is the Bernina 570 a good machine?",
+      "How much does a Bernina 570 qe cost?",
+      "What are some common problems with the Bernina 570 QE sewing machine?",
+      "What is the difference between Bernina 570 and 590?",
+      "Does the Bernina 570 have an embroidery module?",
       "Does the Bernina 570 QE come with the BSR?",
       "What is the throat space on the Bernina 570 QE?",
-      "What is the difference between the 570 QE and 570 QE E?",
-      "Is the Bernina 570 QE good for free motion quilting?",
       "What is the difference between the old and new Bernina 570 QE?",
       "Does the 570 QE have a walking foot built in?",
-      "What is the Bernina warranty in the US?",
-      "Bernina 570 QE or a longarm for the same money?"
+      "how does the bernina 570 compare to bernina 770?"
     ],
     "crossShop": [
       {
@@ -1265,40 +1236,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "What is the throat space on the Bernina 570 QE?",
-          "a": "Bernina's wording is 8.5 in right of the needle. The manual's technical data gives no throat figure, and the earlier 570 QE page says 7.5 in."
-        },
-        {
-          "q": "Does the Bernina 570 QE come with the BSR?",
-          "a": "Bernina says BSR functionality is built into the machine and the BSR foot is an optional accessory. The manual's supplied list has no BSR foot, and dealer bundles vary."
-        },
-        {
-          "q": "What is the difference between the old and new Bernina 570 QE?",
-          "a": "Bernina says two models share the name. The 2017 and later machine (Type: VIO) lists 8.5 in, 9 mm, 1,000 spm, 1,450 stitches and 16 buttonholes; the earlier one (Type: LUN) lists 7.5 in, 5.5 mm, 900 spm, 642 stitches and 11 buttonholes."
+          "q": "What do owners say about the Bernina 570 QE?",
+          "a": "Owners mostly praise how it sews: one reports reliably great buttonholes across at least 100 made, another says the dual feed works well, and one traded up from two Pfaffs that skipped stitches and reports no issues. Repeated topics are feet and accessories, oiling as a routine, and a few defects. Our read covers 53 Reddit threads, 2 forum pages and 1 retailer page from 2015 to 2026, and owner posts rarely say whether it is the 2017 and later machine or the earlier one, so treat reports as unsorted; Reddit leans toward help requests, so problems are over-represented."
         },
         {
           "q": "How much does the Bernina 570 QE cost?",
-          "a": "Bernina US shows $5,499 as the manufacturer suggested retail price and dealers set their own prices. We show no buy link because Bernina is sold through dealers."
+          "a": "Bernina US shows $5,499 as the manufacturer suggested retail price on 2026-10-02, and dealers set their own prices. Bernina is dealer only, so we show no buy button; use the dealer locator. Dealer bundles vary, for example in whether the BSR foot is included."
         },
         {
-          "q": "Does the 570 QE have a walking foot built in?",
-          "a": "Bernina describes a built-in Dual Feed that tucks away when not in use. It is Bernina's feed system, so check the maker's description against what you need."
+          "q": "What problems do owners report with the Bernina 570 QE?",
+          "a": "Reported problems are scattered rather than one repeated fault: a bobbin sensor that came off and a broken arm part while refitting it, a top thread error about every inch and a half for one owner, and a thread nest at the start point when the embroidery module is used for quilting. Several owners describe a start-up noise that gets louder when the machine has not been oiled recently, and one says regular de-linting, cleaning and oiling should prevent problems while repairs are expensive. Reddit leans toward help requests, so problems are over-represented."
         },
         {
-          "q": "What is in the box with the Bernina 570 QE?",
-          "a": "Bernina's manual lists seven standard feet including the #97D patchwork foot, a slide-on table with seam guide, a knee lifter, a touchscreen pen and 4 bobbins. No BSR foot is listed."
+          "q": "What is the difference between the Bernina 570 QE and the 590?",
+          "a": "Bernina lists 1,774 stitch patterns and $8,499 manufacturer suggested retail for the 590, against 1,450 and $5,499 for the 570 QE. The 590 lists 60 quilting stitches and 18 buttonholes or eyelets, against 73 and 16. Both pages show the same 8.5 in right of the needle, 1,000 spm and 9 mm width."
         },
         {
-          "q": "What is the Bernina warranty in the US?",
-          "a": "Bernina's US warranty page lists 20 years on mechanical parts, 5 years on printed circuit boards and 2 years on electrical parts. It is not model-specific."
+          "q": "Does the Bernina 570 QE have an embroidery module?",
+          "a": "Bernina's US page covers sewing and embroidery, with the embroidery module (Module M SDT) optional and its price not on the page [verify]. The page lists a 15.7 x 5.9 in embroidery area and 250 built-in designs. No separate 570 QE E model is named on the Bernina US pages we fetched, so confirm what a 570 QE E listing includes."
         },
         {
-          "q": "How does the 570 QE compare with the Bernina 590 and 540?",
-          "a": "Bernina lists 1,774 stitches and $8,499 for the 590, and 1,048 stitches for the 540, against 1,450 and $5,499 for the 570 QE. The 540 page says no longer available. All three pages show 8.5 in, 1,000 spm and 9 mm."
+          "q": "Does the Bernina 570 QE come with the BSR foot?",
+          "a": "Bernina says BSR functionality is built into the machine and the BSR foot is an optional accessory. The manual's supplied list has no BSR foot, and dealer bundles vary; one owner of a five year old 570 says their BSR did not include a ruler foot."
         },
         {
-          "q": "Do owner reports on the 570 QE apply to the current model?",
-          "a": "Owner posts rarely say which generation they own, so treat reports as unsorted. We do not attribute the earlier Type: LUN machine's figures to the current one."
+          "q": "How much throat space does the Bernina 570 QE have?",
+          "a": "Bernina's wording is 8.5 in right of the needle. The manual's technical data gives no throat figure, and the earlier 570 QE page says 7.5 in."
+        },
+        {
+          "q": "What is the difference between the old and new Bernina 570 QE?",
+          "a": "Bernina says two models share the name. The 2017 and later machine (Type: VIO) lists 8.5 in, 9 mm, 1,000 spm, 1,450 stitches and 16 buttonholes; the earlier one (Type: LUN) lists 7.5 in, 5.5 mm, 900 spm, 642 stitches and 11 buttonholes. Check the rear label before you buy used."
+        },
+        {
+          "q": "Does the Bernina 570 QE have a walking foot built in?",
+          "a": "Bernina describes a built-in Dual Feed that tucks away when not in use; 'walking foot' is our shorthand, not Bernina's wording. One owner says the dual feed works well, and another saw odd feeding at first that improved with a patchwork foot and fabric grain checks. One owner also used a walking foot on a 570 to quilt a coat."
         }
       ]
     },
@@ -1447,13 +1418,14 @@ export const catalogData: Record<string, CatalogEntry> = {
     "buyerQuestions": [
       "How much does the Bernina L 850 cost?",
       "What is the difference between the Bernina L 850 and L 860?",
-      "Bernina L 850 or Baby Lock Acclaim?",
-      "Does the Bernina L 850 have air threading?",
       "Does the Bernina L 850 do coverstitch?",
+      "Does the Bernina L 850 have air threading?",
       "What needles does the Bernina L 850 use?",
       "How heavy is the Bernina L 850?",
       "Does the L 850 have a free arm?",
-      "What is the Bernina serger warranty?"
+      "What is the Bernina serger warranty?",
+      "Bernina L 850 or Baby Lock Acclaim?",
+      "bernina l850 vs l890"
     ],
     "crossShop": [
       {
@@ -1512,47 +1484,35 @@ export const catalogData: Record<string, CatalogEntry> = {
       "faqs": [
         {
           "q": "How much does the Bernina L 850 cost?",
-          "a": "Bernina's page lists a $3,999 MSRP. One PatternReview owner paid $2,499 on a dealer promotion. Bernina is dealer only, so the price is set at the counter."
+          "a": "Bernina's US page lists a manufacturer suggested retail price of $3,999 (seen 2026-10-02). Bernina is a dealer-only brand, so the price at the counter is set by the dealer. One PatternReview owner reports paying $2,499 on a dealer promotion, an owner figure [verify]."
         },
         {
-          "q": "How does the L 850 differ from the L 860?",
-          "a": "Per Bernina's pages, the L 860 adds a 4.3 in touch screen with guided mode, weighs 28.9 lb against 27.1 lb, and lists at $4,999 MSRP. Stitch count (18), speed (1,500 spm) and space right of the needle (5 5/8 in) match."
-        },
-        {
-          "q": "How does the L 850 differ from the L 460 and L 890?",
-          "a": "Bernina lists the L 460 with 16 stitches, a manual needle threader, 2 in right of the needle and $1,999 MSRP. The L 890 is an overlock and coverstitch combo with 27 stitches, 1,350 spm and $8,749 MSRP."
-        },
-        {
-          "q": "Does the L 850 have air threading?",
-          "a": "Yes. Bernina's One-Step Air Threader threads both loopers via the foot control, and there is a built-in needle threader."
+          "q": "What is the difference between the Bernina L 850 and the L 860?",
+          "a": "Per Bernina's pages, the L 860 adds a 4.3 in color touch screen with guided mode, weighs 28.9 lb against 27.1 lb, and lists at a $4,999 MSRP. Stitch count (18), speed (1,500 spm) and the 5 5/8 in of space right of the needle match the L 850."
         },
         {
           "q": "Does the Bernina L 850 do coverstitch?",
-          "a": "No. Coverstitch is on the L 890, Bernina's overlock and coverstitch combo."
+          "a": "No. Bernina's flyer lists 18 overlock, flatlock and rolled hem stitches on 2, 3 and 4 threads, with no coverstitch or chainstitch. Coverstitch is on the L 890, Bernina's overlock and coverstitch combo, which lists 27 stitches, 1,350 spm and an $8,749 MSRP."
         },
         {
-          "q": "What needles does the L 850 use?",
-          "a": "ELx705 CF, sizes 70 to 90. Bernina's manual also permits 130/705 H needles if required."
+          "q": "Does the Bernina L 850 have air threading?",
+          "a": "Yes. Bernina's One-Step Air Threader threads both loopers from the foot control, and there is a built-in needle threader. Owners in our read like the built-in needle threader and the pedal control for needle up and down, and one expert-level owner was very happy with it after nine months. One owner suspects the thread tubes behind a wooly nylon problem."
         },
         {
-          "q": "How heavy is the L 850?",
-          "a": "27.1 lb (12.3 kg) per Bernina's manual. It measures 16.9 x 11.0 x 13.8 in without the thread stand."
+          "q": "What needles does the Bernina L 850 use?",
+          "a": "ELx705 CF in sizes 70 to 90 (10 to 14), and the standard set is 3 x size 80 and 2 x size 90. Bernina's manual also permits 130/705 H needles if required, while one dealer listing names only the ELx705 sizes."
         },
         {
-          "q": "How much room is there right of the needle?",
-          "a": "Bernina quotes 5 5/8 in (143 mm) of space to the right of the needle and 3 3/8 in (86 mm) of work space height. It is not a needle-to-arm throat figure."
+          "q": "How heavy is the Bernina L 850?",
+          "a": "Bernina's manual gives 27.1 lb (12.3 kg), with a boxed weight of about 37.5 lb (17 kg). The machine measures 16.9 x 11.0 x 13.8 in without the thread stand. A dealer listing gave 18 x 13 x 16 in, which does not match the manual."
         },
         {
-          "q": "Does the L 850 have a free arm?",
-          "a": "Yes. Bernina lists a free arm with a slide-on extension table."
+          "q": "Does the Bernina L 850 have a free arm?",
+          "a": "Yes. Bernina lists a free arm with a slide-on extension table. Bernina quotes 5 5/8 in of space to the right of the needle, which is not a needle-to-arm throat figure."
         },
         {
-          "q": "Does it trim the thread chain automatically?",
-          "a": "No. Bernina's manual lists a thread cutter on the outside of the machine for cutting the chain by hand."
-        },
-        {
-          "q": "What is the warranty?",
-          "a": "Bernina's general US warranty, not specific to this model: 20 years on mechanical parts, 5 on circuit boards and 2 on electrical parts. Parts only; labor and shipping are not covered."
+          "q": "What is the warranty on the Bernina L 850?",
+          "a": "Bernina's general limited warranty gives 2 years on electrical parts, 5 years on printed circuit boards and 20 years on mechanical parts. It covers parts only, not labor or shipping, applies to the original purchaser for private use, and does not name the L 850. Ask the dealer for the terms in writing [verify]."
         }
       ]
     },
@@ -1699,16 +1659,16 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "Can the Brother 1034D sew a coverstitch?",
-      "Is the 1034D a good first serger?",
-      "What needles does the 1034D take?",
-      "How loud is the 1034D?",
-      "Can the 1034D serge denim?",
-      "What is the difference between the 1034D and the 1034DX?",
-      "Does the 1034D have a free arm?",
-      "Can the 1034D do a rolled hem without changing plates?",
-      "What thread cones should I buy for the 1034D?",
-      "How many feet come in the box?"
+      "Is the Brother 1034D a good serger, according to owners?",
+      "What is the difference between the Brother 1034D and the 1034DX?",
+      "Can the Brother 1034D do a coverstitch?",
+      "What is the price of the Brother 1034D?",
+      "Is the Brother 1034D discontinued?",
+      "How do you thread the Brother 1034D?",
+      "Is the Brother 1034D good for beginners?",
+      "Can the Brother 1034D do a rolled hem?",
+      "How loud is the Brother 1034D?",
+      "which better 1034d or 1634d brother serger"
     ],
     "crossShop": [
       {
@@ -1763,36 +1723,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
+          "q": "Is the Brother 1034D a good serger, according to owners?",
+          "a": "Owner accounts are split. Of 111 reliability statements in our read, 87 are negative and 21 positive, with owners describing timing that failed, knives that broke and machines that went to the shop, while others report no trouble. Threading is the most discussed topic: of 81 statements, 35 are positive and 33 negative. Reddit leans toward people asking for help and Walmart's low-star reviews were sampled on purpose, so problems are over-represented; retailer ratings are 4.6 of 5 across 1,723 Walmart ratings and 4.45 of 5 across 55 at Sewing Machines Plus (seen 2026-10-01)."
+        },
+        {
+          "q": "What is the difference between the Brother 1034D and the 1034DX?",
+          "a": "Brother lists the 1034D at $319.99 and the 1034DX at $289.99 on 2026-10-01, so the D costs more there. On Brother's pages the D has a bulb work light (15 W per Brother's handbook) where the DX has an LED, weighs 13.45 lb against 12.57 lb, and lists an accessory storage compartment that the DX does not. Speed (1,300 spm), differential feed and the three snap-on feet match. Brother's DX spec table lists 2/3/4 thread change as Yes against No here, which may be a data error, and commenters disagree on whether parts such as the needle clamp are interchangeable, so check the part number before ordering spares [verify]."
+        },
+        {
+          "q": "Can the Brother 1034D do a coverstitch?",
+          "a": "No. Brother lists it as a 3 or 4 thread overlock serger with 2 needles, and its stitch list is 4-thread overlock, 3-thread overlock, narrow hem, rolled hem and ribbon lock, with no coverstitch. Brother lists 2/3/4 thread change as No, so there are no 2-thread stitches either. Buyers who want a coverstitch compare this machine plus a coverstitch machine against one combo unit."
+        },
+        {
+          "q": "What is the price of the Brother 1034D?",
+          "a": "Brother USA listed the 1034D at $319.99 on 2026-10-01, the same day it listed the 1034DX at $289.99, so the DX is the cheaper of the two there. Dealer bundles ran from $249.99 to $579.99 and Brother offers a refurbished option. Prices drift weekly, so use the price band on this page as the stable guide."
+        },
+        {
+          "q": "Is the Brother 1034D discontinued?",
+          "a": "We found no discontinuation notice. Brother USA still listed the 1034D new at $319.99 on 2026-10-01, with a refurbished option, and our catalog marks it as current [verify]."
+        },
+        {
+          "q": "How do you thread the Brother 1034D?",
+          "a": "Brother lists lay-in threading with color-coded upper thread guides and a lower looper threading lever. Owners are split on how it goes: of 81 threading statements, 35 are positive, 33 negative, 6 mixed and 7 neutral, and the lower looper is the usual sticking point. Use Brother's handbook for the step order, as we do not give a thread path here."
+        },
+        {
           "q": "Is the Brother 1034D good for beginners?",
-          "a": "It is the entry serger many people start with, and Brother's color-coded lay-in guides help. Threading, especially the lower looper, is still the most common owner complaint, so budget time for videos before your first project."
+          "a": "It is the entry serger many people start with, and Brother's color-coded lay-in guides help. Threading is the most discussed owner topic and many help threads are about stitches not forming after a rethread, so budget time for videos before your first project."
         },
         {
-          "q": "How fast is the Brother 1034D?",
-          "a": "Brother publishes a top speed of 1,300 stitches per minute. That is the spec, not a promise of finished quality at that speed on thick or stretchy fabric."
+          "q": "Can the Brother 1034D do a rolled hem?",
+          "a": "Yes. Brother lists the rolled hem as built in, with no plate change stated. Owners are split on it: of 14 statements, 6 are positive, 5 negative, 1 mixed and 2 neutral, including one owner who could not get it to sew after converting by removing the left needle and a finger. We have not read conversion steps written for this exact model, since Brother's handbook is a family document that never names the 1034D [verify]."
         },
         {
-          "q": "Does the 1034D do 2-thread stitches or a rolled hem?",
-          "a": "It sews 3 or 4 threads only: Brother lists 2/3/4 thread change as No. A rolled hem is built in, and Brother lists the rolled-hem change as Yes."
-        },
-        {
-          "q": "What is the difference between the 1034D and the 1034DX?",
-          "a": "Brother lists the 1034DX at $289.99 against $319.99 for the 1034D. The DX is lighter (12.57 lb against 13.45 lb) and has an LED work light where the D has a bulb, but it lists no accessory storage. Both are 3/4 thread at 1,300 spm with the same three feet. See the sibling table on this page."
-        },
-        {
-          "q": "What is the Brother 1034D warranty?",
-          "a": "Brother's limited warranty is 1 year for parts, labor and accessories, 5 years for electronic components and circuit boards (labor excluded) and 25 years for the chassis casting only. It covers the original buyer from an authorized seller."
-        },
-        {
-          "q": "How often does the 1034D need oiling?",
-          "a": "Brother's handbook says to oil it once or twice a month for normal use and weekly if it is used more often, after cleaning off lint."
-        },
-        {
-          "q": "What needles does the 1034D use?",
-          "a": "SCHMETZ 130/705H household needles. Brother supplies sizes 80 and 90."
-        },
-        {
-          "q": "Who should skip the 1034D?",
-          "a": "Anyone who wants 2-thread stitches, a quiet machine or a coverstitch."
+          "q": "How loud is the Brother 1034D?",
+          "a": "Many owners call it loud: of 33 noise statements, 25 are negative, 5 positive and 3 mixed, including one owner who finds it somewhat loud compared with a sewing machine. We hold no maker noise figure, so a decibel comparison is [verify]."
         }
       ]
     },
@@ -1925,14 +1889,18 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "Is the 1034DX worth more than the 1034D?",
-      "Does the 1034DX have a free arm?",
-      "How do you thread the lower looper on the 1034DX?",
-      "Can the 1034DX do a rolled hem?",
-      "Does the 1034DX have an LED light?",
+      "What's the difference between brother 1034D and 1034dx?",
+      "Is the brother 1034DX a good serger?",
+      "how to thread brother 1034dx",
+      "What is the price of the Brother 1034D serger?",
+      "Is the Brother 1034DX a serger and overlock machine?",
       "What comes in the box with the 1034DX?",
       "What is the 1034DX warranty?",
-      "Is the 1034DX good for beginners?"
+      "Is the 1034DX good for beginners?",
+      "Can the 1034DX do a rolled hem?",
+      "Is the Brother 1034D serger discontinued?",
+      "Can brother 1034D do a coverstitch?",
+      "brother 1034dx vs 1634dx"
     ],
     "crossShop": [
       {
@@ -1987,36 +1955,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "Is the Brother 1034DX worth more than the 1034D?",
-          "a": "Brother lists the DX at $289.99 and the 1034D at $319.99, so it costs less there. The DX adds an LED light and weighs 0.9 lb less but lists no accessory storage tray. Stitch specs match, so buy whichever is cheaper unless you want the LED."
+          "q": "What is the difference between the Brother 1034DX and the 1034D?",
+          "a": "Brother lists the DX at $289.99 and the 1034D at $319.99 on 2026-10-01, so the DX costs less there. On Brother's pages the DX adds an LED work light (the 1034D has a bulb) and weighs 12.57 lb against 13.45 lb, but it lists no accessory storage where the 1034D does. Speed (1,300 spm), differential feed and the three snap-on feet match. Commenters say some parts such as the needle plate differ, so check the part number before ordering spares."
         },
         {
-          "q": "Does the 1034DX have an LED light?",
-          "a": "Yes. Brother lists an LED work area. The 1034D has a bulb."
+          "q": "Is the Brother 1034DX a good serger, according to owners?",
+          "a": "Owner accounts are split. Of 39 reliability statements in our read, 27 are negative and 10 positive, with owners describing a machine that stopped serging or a repair quote not worth paying, and 7 of 15 threading statements are positive against 5 negative. Reddit leans toward people asking for help, so problems are over-represented. Walmart shows 4.5 from 1,914 reviews (seen 2026-10-01), but that listing pools reviews that name the 1034D, so treat it as a soft figure [verify]."
         },
         {
-          "q": "Can the 1034DX do a rolled hem?",
-          "a": "Yes. Brother lists the rolled-hem change as built in, with the same three snap-on feet as the 1034D: standard, blindstitch and gathering."
+          "q": "How do you thread the Brother 1034DX?",
+          "a": "Brother lists lay-in threading with color-coded guides printed on the machine, and one walkthrough says to route the lower looper thread left and under the foot. Owners are split on how it goes: some call it very easy or say it is hard at first and gets easier, while others cannot keep the upper looper thread in place or rethread many times and still get tangles. Use the manual or the instructional CD in the box for the step order, as we do not give a thread path here."
         },
         {
-          "q": "Does the 1034DX do 2-thread stitches?",
-          "a": "We do not claim it. Brother's DX spec table lists 2/3/4 thread change as Yes, but the DX copy says 3 or 4 threads and its 1034D page lists the same row as No."
+          "q": "What is the price of the Brother 1034DX?",
+          "a": "Brother USA lists the 1034DX at $289.99 (seen 2026-10-01) and the 1034D at $319.99 the same day. That makes the DX the cheaper of the two on Brother's own store, the reverse of the usual claim. Prices drift, so use the price band on this page as the stable guide."
         },
         {
-          "q": "What comes in the box with the 1034DX?",
-          "a": "Brother lists the three feet, 4 mini spools of thread, a soft cover, an instructional CD, a needle set and a trim trap. It uses standard household sewing machine needles."
+          "q": "Is the Brother 1034DX a serger, and does it do 2-thread stitches?",
+          "a": "It is a 3 or 4 thread overlock serger with 2 needles. Brother's page lists 22 stitches, including 4-thread and 3-thread overlock, ribbon lock and rolled hem, and the list names no coverstitch. We do not claim 2-thread stitches: Brother's DX spec table lists 2/3/4 thread change as Yes, but the DX copy says 3 or 4 threads and its 1034D page lists the same row as No."
         },
         {
-          "q": "What is the 1034DX warranty?",
-          "a": "Brother's limited warranty is 1 year for parts, labor and accessories, 5 years for electronic components and circuit boards (labor excluded) and 25 years for the chassis casting only, to the original buyer from an authorized seller. Free lifetime phone support is not in Brother's warranty PDF."
+          "q": "What comes in the box with the Brother 1034DX?",
+          "a": "Brother lists a standard foot on the machine, a blindstitch foot and a gathering foot, plus 4 mini spools of thread, a soft cover, an instructional CD, a needle set and a trim trap. It uses standard household sewing machine needles. One new owner found no oil in the box and the oiling instruction deep in the manual."
         },
         {
-          "q": "Do 1034D parts fit the 1034DX?",
-          "a": "Sources disagree. Commenters say the needle plate and lower blade differ; one expert answer says the needle clamp is interchangeable while another block says it is not. Check the part number before you order."
+          "q": "What is the Brother 1034DX warranty?",
+          "a": "Brother's limited warranty is 1 year for parts, labor and accessories, 5 years for electronic components and circuit boards (labor excluded) and 25 years for the chassis casting only, to the original buyer from an authorized seller. Free lifetime phone support, which some blogs and dealers mention, is not in Brother's warranty PDF."
         },
         {
-          "q": "Is the 1034DX good for beginners?",
-          "a": "It is the same entry class as the 1034D, with color-coded guides printed on the machine. Threading is still the most discussed owner topic, so plan time for videos before your first project."
+          "q": "Is the Brother 1034DX good for beginners?",
+          "a": "It is entry-class, with color-coded guides printed on the machine. Threading is still the most discussed owner topic, and owners report help threads about tension and loose, wobbly edges on a new machine. Plan time for the instructional CD and videos before your first project."
+        },
+        {
+          "q": "Can the Brother 1034DX do a rolled hem?",
+          "a": "Yes. Brother lists the rolled hem as built in. Owner reports on it are few in our read: 2 statements, 1 negative and 1 neutral."
         }
       ]
     },
@@ -2390,13 +2362,13 @@ export const catalogData: Record<string, CatalogEntry> = {
     "buyerQuestions": [
       "Can the Brother 2340CV do a chain stitch?",
       "Can the 2340CV serge or overlock?",
-      "How do you unpick a coverstitch from the 2340CV?",
       "What needles does the 2340CV use?",
-      "Does the 2340CV have a free arm?",
+      "Is the Brother 2340cv good for beginners?",
       "Why does the 2340CV skip stitches on knits?",
+      "What's the difference between the 2340cv and other models?",
       "How does the 2340CV compare with the Janome CoverPro 2000CPX?",
       "What feet come with the 2340CV?",
-      "Is the 2340CV worth it for hemming t-shirts?"
+      "Where can I buy a Brother 2340cv?"
     ],
     "crossShop": [
       {
@@ -2451,47 +2423,39 @@ export const catalogData: Record<string, CatalogEntry> = {
       "faqs": [
         {
           "q": "Can the Brother 2340CV do a chain stitch?",
-          "a": "Yes. Brother lists a 1 needle, 2 thread chain stitch. One owner reports a new unit that would not form it, and another can chain off only about an inch before the thread fails."
+          "a": "Yes. Brother lists a 1 needle, 2 thread chain stitch. One owner reports a new unit that would not form it, though cover stitches worked, and another can chain off only about an inch before the thread fails."
         },
         {
-          "q": "Can the 2340CV serge or overlock?",
-          "a": "No. Brother's page body calls it 'an advanced serger', but its own spec table lists overlock seam width as N/A and its documents list no overlock stitch. It has no knife."
+          "q": "Can the Brother 2340CV serge or overlock?",
+          "a": "No. Brother's page body calls it 'an advanced serger', but its own spec table lists overlock seam width as N/A and its documents list no overlock stitch. It has no knife, so seams still need a serger or a sewing machine."
         },
         {
-          "q": "What needles does the 2340CV use?",
+          "q": "What needles does the Brother 2340CV use?",
           "a": "The User's Guide names SCHMETZ 130/705H 90/14, with 3 needles supplied. It suggests the SUK ball point 130/705H 90/14 to reduce fabric damage; that is a suggestion, not a requirement."
         },
         {
-          "q": "Does the 2340CV have a free arm?",
-          "a": "Not listed by Brother. The page, User's Guide and brochure are silent, while the CV3440 page lists a free arm, so treat it as [verify] rather than as absent."
+          "q": "Is the Brother 2340CV good for beginners?",
+          "a": "Owner accounts are mixed. Threading is mostly reported as easy (7 of 10 statements positive) and some owners find it easier than a serger, but reliability reports lean negative (14 of 19 statements) and owners describe tight tension that needs adjusting per fabric and work that is awkward to remove from under the foot. No Brother document in our read lists a tension release lever for the 2340CV. Reddit leans toward people asking for help, so problems are over-represented."
         },
         {
-          "q": "Does the 2340CV have a tension release lever?",
-          "a": "No Brother document lists one for the 2340CV; the CV3440 page lists a one-touch lever tension release. Owners report removing work from under the foot as the trickiest part."
+          "q": "Why does the Brother 2340CV skip stitches on knits?",
+          "a": "Owner accounts tie it to setup. One owner who replaced a Baby Lock coverstitch says it has never skipped a stitch, while others call it finicky and say it skips until needles are fresh and matched to the fabric. A long PatternReview thread says the split tracks with setup, needle choice and stabilizer on thin knits. Brother's User's Guide names SCHMETZ 130/705H 90/14 needles and suggests a ball point SUK for knits."
         },
         {
-          "q": "How fast is the 2340CV?",
-          "a": "Brother's page and 2015 brochure say 1,100 stitches per minute, while the User's Guide gives 1,000 for normal sewing speed. Treat the speed as 1,000 to 1,100."
+          "q": "What is the difference between the Brother 2340CV and the CV3440?",
+          "a": "Brother lists a one-touch lever tension release and a free arm on the CV3440; the 2340CV page, manual and brochure list neither. The CV3440 page lists a 1,000 maximum sewing speed and a thread cutter, while the 2340CV page lists 1,100 and its manual says 1,000. On Brother's pages checked 2026-10-02 the CV3440 showed $699.00 and Out of Stock, against $579.99 for the 2340CV."
         },
         {
-          "q": "How heavy is the 2340CV?",
-          "a": "The User's Guide gives a machine net weight of 7.0 kg, about 15.4 lb. A retailer listing gave 16.7 lb, which may be a shipping weight."
+          "q": "How does the Brother 2340CV compare with the Janome CoverPro 2000CPX?",
+          "a": "Janome's page, as recorded in our briefing, lists the CoverPro 2000CPX with a tension release lever, a free arm, a 4 x 5.5 in bed, 1,000 spm, differential feed 0.5 to 2.25 and an MSRP of $1,099. Brother's 2340CV pages list no tension release lever, no free arm and no bed size, and Brother lists it at $579.99 (seen 2026-10-02)."
         },
         {
-          "q": "What feet come with the 2340CV?",
-          "a": "Brother's page lists a 'Special Presser Foot' and the User's Guide box list shows a snap-on foot and a special presser foot (C1) used with an optional attachment. No Brother document lists a hem foot, though one dealer page does."
+          "q": "What feet come with the Brother 2340CV?",
+          "a": "Brother's page lists a 'Special Presser Foot'. The User's Guide box list shows a snap-on presser foot on the machine and a special presser foot (C1) used with an optional attachment, plus an accessory bag with a needle set (3 pcs), 4 thread nets, tweezers, 4 spool caps, 4 spool mats, a cleaning brush, a hex wrench and a soft cover. No Brother document lists a hem foot."
         },
         {
-          "q": "What is the 2340CV warranty?",
-          "a": "Brother's page says '1/5/25 Year Limited Serger Warranty' without a breakdown. The linked PDF is a 1 year Latin America and Caribbean warranty, so the split by part is unconfirmed."
-        },
-        {
-          "q": "How is the 2340CV rated by buyers?",
-          "a": "Amazon shows 4.3 from 1,204 ratings, but that rating pools several listings of this machine that share a parent, so it is not a single-listing score. Only 13 written reviews were readable."
-        },
-        {
-          "q": "How does the 2340CV compare with the Brother CV3440?",
-          "a": "On Brother's pages the CV3440 lists a one-touch tension release, a free arm and a thread cutter and is priced at $699.00, against $579.99 for the 2340CV. The CV3440 page showed Out of Stock on 2026-10-02."
+          "q": "How much does the Brother 2340CV cost?",
+          "a": "Brother USA lists the 2340CV at $579.99 (seen 2026-10-02), and its page also links a dealer locator. Prices drift, so use the price band on this page as the stable guide."
         }
       ]
     },
@@ -2630,14 +2594,17 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
+      "can brother cs7000x sew denim",
+      "What is the best price for the Brother CS7000X?",
       "Is the Brother CS7000X good for quilting?",
       "What is the throat space on the Brother CS7000X?",
-      "What is the difference between the CS7000X and CS7000i?",
-      "How fast does the Brother CS7000X sew?",
-      "Can the Brother CS7000X sew denim or canvas?",
       "What feet come with the CS7000X?",
-      "Does the CS7000X have a metal frame?",
-      "What is the Brother warranty on the CS7000X?"
+      "brother cs7000x vs cs7205",
+      "brother cs7000x vs xr9550",
+      "What bobbins for Brother CS7000X?",
+      "how to thread brother cs7000x",
+      "What is the difference between the CS7000X and CS7000i?",
+      "brother cs7000x vs singer heavy duty"
     ],
     "crossShop": [
       {
@@ -2696,40 +2663,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
+          "q": "Can the Brother CS7000X sew denim or canvas?",
+          "a": "Brother's product page makes no thick-fabric claim. The shared manual lists denim of 12 ounces or more and canvas with a 100/16 needle, as general guidance rather than a layer count. Owners are split (4 positive and 5 negative statements on heavy fabric): one reports thick repairs and kimono mending without trouble, while a reviewer calls it not heavy duty for industrial level materials."
+        },
+        {
+          "q": "What is the price of the Brother CS7000X?",
+          "a": "Brother USA shows a $279.99 MSRP (seen 2026-10-02), on the maker's own store rather than a dealer price. Prices drift weekly, so use the price band on this page as the stable guide."
+        },
+        {
           "q": "Is the Brother CS7000X good for quilting?",
-          "a": "It has a drop feed for free motion quilting and a detachable wide table that Brother calls perfect for larger quilting projects. No throat figure is published and top speed is 750 spm, so it suits lap and baby quilts better than bed quilts."
+          "a": "It has a drop feed for free motion quilting and a detachable wide table that Brother calls perfect for larger quilting projects. No throat figure is published, and Brother's speed row is 750. One blogger's first impressions call it workable for lap and baby quilts."
         },
         {
-          "q": "What is the throat space on the CS7000X?",
-          "a": "Not published. The CS7000X page gives no inch figure. The phrase 'large needle-to-arm workspace' is on the CP100X page, not this one."
+          "q": "What is the throat space on the Brother CS7000X?",
+          "a": "Not published. The CS7000X page gives no inch figure and says only 'detachable wide table'. The phrase 'large needle-to-arm workspace' is on the CP100X page, not this one."
         },
         {
-          "q": "Does the CS7000X have a free arm?",
-          "a": "Yes per Brother: the page and manual say remove the flat bed attachment to use it. Some Reddit posters say it has no free arm, which disagrees with the maker."
+          "q": "What feet come with the Brother CS7000X?",
+          "a": "The Brother 'In the Box' list says 10 sewing feet but names nine feet plus a quilt guide, and the spec table adds a 1/4 in foot. The shared manual sells the walking foot, quilting foot, piecing foot and quilt guide separately with some models, so the count is soft. One owner found an overcasting foot among the accessories and used it for a faux serged edge."
         },
         {
-          "q": "How fast does the CS7000X sew?",
-          "a": "The Brother spec table lists a maximum sewing speed of 750, with no unit printed; dealers list it as 750 stitches per minute."
+          "q": "What is the difference between the Brother CS7000X and the CS7205?",
+          "a": "On Brother's pages checked 2026-10-02, the CS7205 lists 205 built-in stitches, an 850 speed row, 8 buttonholes and $289.99, with the same stitch width (7) and length (5) rows. The CS7000X lists 70 stitches, a 750 speed row, 7 buttonholes and $279.99. The CS7205 page names a walking foot, a spring action quilting foot, a stitch guide foot and a 1/4 in foot among its feet."
         },
         {
-          "q": "What feet come with the CS7000X?",
-          "a": "The Brother 'In the Box' list says 10 sewing feet but names nine feet plus a quilt guide, and the spec table adds a 1/4 in foot. The shared manual sells the walking foot, quilting foot, piecing foot and quilt guide separately with some models, so the count is soft."
+          "q": "What is the difference between the Brother CS7000X and the XR9550?",
+          "a": "On Brother's pages checked 2026-10-02, the XR9550 lists 165 built-in stitches including 55 alphanumeric, 8 buttonholes, a backlit LCD and $269.99, with a 1/2/25 year warranty split. The CS7000X lists 70 stitches, 7 buttonholes, an LCD with no brightness adjustment and $279.99."
         },
         {
-          "q": "Does the CS7000X have a metal frame?",
-          "a": "Brother's CS7000X page names no frame material. Walmart listing titles say Durable Metal Frame, and that wording appears on Brother's CP100X page, so it is recorded as a listing claim."
+          "q": "What bobbins does the Brother CS7000X use?",
+          "a": "Brother describes a Quick-Set drop-in top bobbin, and its manual says to open the bobbin cover and drop the bobbin in. One owner reports no bobbin winding problems after following the manual. The bobbin class is not published in the sources we hold, so check the manual or the bobbins in the box before buying a pack [verify]."
         },
         {
-          "q": "Can the CS7000X sew denim or canvas?",
-          "a": "The product page makes no thick-fabric claim. The shared manual lists denim of 12 ounces or more and canvas with a 100/16 needle. Owners are split: some report thick repairs without trouble, others call it not heavy duty."
-        },
-        {
-          "q": "What is the warranty on the CS7000X?",
-          "a": "Brother lists a 25 Year Limited Warranty. The standard warranty PDF splits it into 25 years on the chassis casting, 2 years on electronic components and circuit boards (replacement labor excluded) and 1 year on parts, labor and accessories."
-        },
-        {
-          "q": "What do buyers rate the CS7000X on Amazon?",
-          "a": "Amazon shows 4.6 from 3,642 ratings, but that rating is pooled across several variations sharing a parent listing, so it does not describe this exact configuration alone. Sewing Machines Plus shows 4.75 from 16 reviews."
+          "q": "How do you thread the Brother CS7000X, and does the needle threader work?",
+          "a": "Brother lists an automatic needle threader and a Quick-Set drop-in top bobbin. Owner reports on threading are mixed (5 statements: 2 positive, 2 negative, 1 mixed): a sewing blogger found threading easy but says the needle threader takes practice, and owners mention a hidden take-up lever catch and unclear threader instructions. The manual covers the thread path, and we do not give steps here."
         }
       ]
     },
@@ -3067,15 +3034,16 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
+      "Is the Brother ST371HD a good sewing machine?",
       "Is the Brother ST371HD really heavy duty?",
+      "What are the key differences between the Brother ST371HD and ST531HD sewing machines?",
       "Brother ST371HD vs Singer 4423: which is better for denim?",
-      "Can the Brother ST371HD sew leather or vinyl?",
-      "How fast is the Brother ST371HD?",
+      "Is the Brother ST371HD sewing machine for sale?",
       "Does the Brother ST371HD have adjustable presser foot pressure?",
       "Does the Brother ST371HD have a walking foot?",
+      "how to thread a brother st371hd",
       "What is the Brother ST371HD warranty?",
-      "Is the Brother ST371HD good for beginners?",
-      "Does the Brother ST371HD have a free arm?"
+      "brother st371hd vs singer 4432"
     ],
     "crossShop": [
       {
@@ -3130,40 +3098,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
+          "q": "Is the Brother ST371HD a good sewing machine, according to owners?",
+          "a": "Owner accounts lean positive. In our read, 15 of 26 statements about power on heavy fabric are positive and 6 negative, and 12 of 18 reliability statements are positive and 5 negative, with several beginners reporting no issues. The complaints are stretch stitches that would not sew, a finicky one-step buttonhole and a heavy duty label some owners think is overstated. Reddit leans toward people asking for help, so problems are over-represented; Amazon shows 4.5 from 2,889 ratings (seen 2026-10-02), but that figure is shared across listings including the ST531HD, so treat it as a soft figure [verify]."
+        },
+        {
           "q": "Is the Brother ST371HD really heavy duty?",
           "a": "Heavy Duty and Strong & Tough are Brother's own labels; Brother publishes no layer count, thickness or motor figure. Owner voices are mixed: some report tote bags and jeans without trouble, others report a broken needle or call it not heavy duty."
         },
         {
-          "q": "How fast is the ST371HD?",
-          "a": "Brother's page has a Maximum Sewing Speed row of 800 with no unit printed. We read it as stitches per minute, but treat that as unconfirmed. The manual gives no speed figure."
+          "q": "What is the difference between the Brother ST371HD and the ST531HD?",
+          "a": "Brother's pages for the ST371HD list 37 stitches, 6 feet and 14.3 lb. One commenter says the ST531HD is an upgraded model with more stitch options, not a newer replacement, an owner comment we have not checked against Brother's pages for the ST531HD [verify]."
         },
         {
-          "q": "Does it have adjustable presser foot pressure?",
-          "a": "No. Brother's spec rows list adjustable presser foot pressure as No, and a third-party comparison also describes it as fixed. Lift height is not published."
+          "q": "How does the Brother ST371HD compare with the Singer 4423 for denim?",
+          "a": "One comparison review sewing four layers of denim and five layers of duck cloth found the ST371HD completed the hems but needed slower feeding at thick seams, because presser foot pressure is fixed and the motor is slower than the Singer 4423's. Brother's own page lists adjustable presser foot pressure as No. That is a single third-party comparison [verify]."
         },
         {
-          "q": "Does it have a walking foot?",
-          "a": "No. Brother's accessories notification lists six feet and none is a walking foot."
+          "q": "What is the price of the Brother ST371HD?",
+          "a": "Brother's own page lists $239.99 and showed Out of Stock on 2026-10-02. Prices drift, so use the price band on this page as the stable guide."
         },
         {
-          "q": "What is the ST371HD warranty?",
-          "a": "Sources disagree. Brother's page label reads 1/5/25 Year Limited Serger Warranty but links to an International PDF that says 1 year; the US standard PDF says 1 year parts and labor, 2 years electronics and 25 years chassis casting. Neither names the ST371HD."
+          "q": "Does the Brother ST371HD have adjustable presser foot pressure?",
+          "a": "No. Brother's spec rows list adjustable presser foot pressure as No, and a third-party comparison also describes it as fixed. Lift height is not published, though one owner notes the presser foot has an extra height setting for thick fabric."
         },
         {
-          "q": "Does it have an LCD or a shift key?",
-          "a": "Brother's page rows say so, but the manual describes a pattern selection dial and window with no LCD. We treat it as a dial machine."
+          "q": "Does the Brother ST371HD have a walking foot?",
+          "a": "No. Brother's accessories notification lists six feet (spring action zigzag, nonstick, blind stitch, zipper, buttonhole and button sewing) and none is a walking foot. Thick or slippery layers need an extra purchase."
         },
         {
-          "q": "How many stitches does it have, 27 or 37?",
-          "a": "Brother's page spec row and text say 37; one gallery alt text says 27. The family manual says 37 stitches are only on certain models and does not name the ST371HD, though Brother's support page lists the manual under it."
+          "q": "Is the Brother ST371HD easy to thread and good for beginners?",
+          "a": "Brother lists an automatic needle threader and a Quick-Set drop-in top bobbin. Owners lean positive on threading (3 of 6 statements positive, 2 negative), four of 5 oiling statements are positive, and several beginners report no issues. One owner found it fussy about needle choice and fabric grip, and another found the one-step buttonhole finicky."
         },
         {
-          "q": "How does it compare with the XM2701 and CS7000X?",
-          "a": "From Brother's pages: the XM2701 lists 27 stitches and 12.6 lb against 37 and 14.3 lb here; the CS7000X is computerized with 70 stitches, 10 feet including a walking foot, and a 750 speed row. Units are not printed on either page."
-        },
-        {
-          "q": "How do owners rate it?",
-          "a": "Amazon shows 4.5 from 2,889 ratings, but that figure is shared by 7 listings including the ST531HD, so it pools machines and is not specific to the ST371HD. Reddit threads skew toward people asking for help."
+          "q": "What is the Brother ST371HD warranty?",
+          "a": "Sources disagree. Brother's page label reads 1/5/25 Year Limited Serger Warranty but links to an International PDF that says 1 year; the US standard PDF says 1 year parts, labor and accessories, 2 years electronics and 25 years chassis casting. Neither PDF names the ST371HD, so get the term in writing from the seller."
         }
       ]
     },
@@ -4016,16 +3984,16 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
+      "What is the difference between Moxie and Moxie XL?",
+      "What are people saying about the Handi Quilter Moxie XL quilter?",
+      "How much does a Moxie machine cost?",
       "Does the Moxie price include a frame?",
       "Is stitch regulation built into the Moxie or an add-on?",
-      "How much room does a Moxie on the 8 ft Loft frame need?",
-      "Can the Moxie quilt a king size quilt?",
-      "What is the difference between the Moxie and the Moxie XL?",
-      "Does the Moxie use M class or L class bobbins?",
-      "What needle does the Moxie take?",
       "Can you add Pro-Stitcher to a Moxie?",
-      "How does the Moxie compare with the Grace Q'nique 15R?",
-      "What is the Moxie warranty?"
+      "What needle does the Moxie take?",
+      "Does the Moxie use M class or L class bobbins?",
+      "What is the Moxie warranty?",
+      "handi quilter moxie st"
     ],
     "crossShop": [
       {
@@ -4084,44 +4052,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
+          "q": "What is the difference between the Handi Quilter Moxie and the Moxie XL?",
+          "a": "From Handi Quilter's product pages, the Moxie XL lists 18 in of throat space and 2,100 stitches per minute, against 15 in and 1,800 on the Moxie. The XL also lists a 4.3 in display and a 72 lb packaging weight, against a 1.44 in display and 58 lb on the Moxie. Packaging weight is shipping weight, not machine weight. These are maker figures; we have not collected an owner read for the XL."
+        },
+        {
+          "q": "What do owners say about the Handi Quilter Moxie?",
+          "a": "Owners who are happy with it point to the built-in stitch regulator, and some report tension they like once the machine is set up. Complaints cluster around the frame (sagging, hard to move smoothly), a clunky sound, numb hands after long sessions and no automatic threading or thread cutting. The read covers 20 Reddit threads and 2 retailer pages from 2021 to 2026, a small sample, and Reddit leans toward people asking for help, so problems are over-represented. Amazon shows 4.8 from 17 ratings, which is seller-collected and pools a second ASIN; the Sewing Machines Plus page (4.55 from 29) is not counted here because none of its sampled reviews name the Moxie."
+        },
+        {
           "q": "How much does the Handi Quilter Moxie cost?",
-          "a": "The Handi Quilter product page shows a range starting at $5,495, and Amazon lists the Moxie with an 8 ft Loft frame at $5,495 (seen 2026-10-02). Our earlier spec recorded $5,995 at Village Sewing. The maker does not label the base configuration, so confirm what is included."
+          "a": "Handi Quilter's product page shows a range of $5,495 to $12,690, depending on the frame and Pro-Stitcher options (seen 2026-10-02). Amazon listed the Moxie with an 8 ft Loft frame at $5,495 on the same date, and an earlier dealer figure was $5,995 at Village Sewing (seen 2026-09-29). The maker does not label the base configuration behind $5,495, so confirm what is included [verify]."
         },
         {
-          "q": "Does the Moxie come with a frame?",
-          "a": "Handi Quilter says the Moxie includes the 8 ft HQ Loft Frame, upgradable to 10 ft with a 2 ft extension kit, and it is also compatible with the 5 ft Little Foot Frame. The maker page frame selector changes the price."
+          "q": "Does the Handi Quilter Moxie come with a frame?",
+          "a": "Handi Quilter says the Moxie includes the 8 ft HQ Loft Frame, which upgrades to 10 ft with a 2 ft extension kit, and that it is also compatible with the 5 ft Little Foot Frame. The maker page frame selector changes the price, and the base configuration behind the $5,495 starting price is not labelled. Ask the retailer which frame the quoted price includes [verify]."
         },
         {
-          "q": "Is the Moxie a long-arm?",
-          "a": "Handi Quilter calls it a longarm, but at 15 in of throat space it is an entry long-arm on a frame. The maker puts safe usable quilting area at about 10 in."
+          "q": "Is stitch regulation built into the Handi Quilter Moxie?",
+          "a": "Yes, per Handi Quilter. The page and manual list Precision and Cruise regulation plus a Manual mode, selected on the display, at 4 to 18 stitches per inch in regulated mode. Owners who mention it like it: one advises prioritising it above other extras and another says it goes down to 4 stitches per inch for basting. The maker does not show how well regulation tracks, so that part is not verified."
         },
         {
-          "q": "What is the Moxie throat space?",
-          "a": "Handi Quilter lists 15 in of throat space, and the manual gives a sewing opening of 8.25 x 15.00 in without saying which figure is height. The maker does not state a needle-to-body measurement."
+          "q": "Can you add Pro-Stitcher to the Handi Quilter Moxie?",
+          "a": "Handi Quilter lists the Moxie as Pro-Stitcher Lite compatible, and says all new Handi Quilter movable machines are Pro-Stitcher ready with cabling pre-installed. Pro-Stitcher is an option on the maker's configurator. Its price was not published on the pages we read [verify]."
         },
         {
-          "q": "What needles does the Moxie take?",
-          "a": "The maker manual lists needle system 134, sizes 80/12 to 130/21. Our earlier spec said sizes 12 to 20, so the manual figure is used here."
+          "q": "What needles does the Handi Quilter Moxie take?",
+          "a": "The maker manual lists needle system 134 in sizes 80/12 to 130/21. An earlier spec from a Handi Quilter support article said sizes 12 to 20, so we use the manual figure. The manual was read from a dealer-hosted 2020 copy, so confirm against the current file [verify]."
         },
         {
-          "q": "How fast is the Moxie?",
-          "a": "Handi Quilter lists 1,800 stitches per minute maximum, and the manual gives a cruise range of 50 to 800 spm."
+          "q": "Does the Handi Quilter Moxie use M class or L class bobbins?",
+          "a": "M class. Handi Quilter lists a high-speed rotary hook with a large-capacity M class bobbin, and the manual specifies an aluminum M class bobbin with a type MF bobbin case."
         },
         {
-          "q": "What is the Moxie warranty?",
-          "a": "The warranty page lists 90 days parts and labor, 10 years on casting, 5 years mechanical and 5 years electronic, with the customer paying labor and shipping after 90 days. It covers the HQ Quilting Machine rather than the Moxie by name. The 2020 manual says the electrical warranty is void if the machine is left plugged in; the warranty page does not."
-        },
-        {
-          "q": "How heavy is the Moxie?",
-          "a": "The maker does not publish a machine weight. The product page gives 58 lb packaging weight, which is shipping weight, so weight shows [verify]."
-        },
-        {
-          "q": "How does the Moxie compare with the Moxie XL and Amara 20?",
-          "a": "From maker pages, the Moxie XL lists 18 in of throat space and 2,100 spm, and the Amara 20 lists 20 in of throat space and up to 2,500 spm. The maker puts usable quilting area at about 10 in on the Moxie and about 14 in on the Amara 20."
-        },
-        {
-          "q": "What do owners say about the Moxie?",
-          "a": "The evidence is thin: 23 voices, 20 first-hand, and only 4 Reddit threads name the Moxie in the title. Reddit skews to help requests, and tension and thread breakage come up in the sources read, so these are not failure rates."
+          "q": "What warranty does the Handi Quilter Moxie have?",
+          "a": "Handi Quilter's warranty page lists 90 days parts and labor, 10 years on casting or machining defects in the sewing head, and 5 years each on mechanical and electrical parts, with the customer paying labor and shipping after the first 90 days. The text covers the 'HQ Quilting Machine', not the Moxie by name. The 2020 manual also says the electrical warranty is void if the machine is left plugged in when not in use; the warranty page does not say so [verify]."
         }
       ]
     },
@@ -4280,14 +4244,14 @@ export const catalogData: Record<string, CatalogEntry> = {
     "buyerQuestions": [
       "Is the Handi Quilter Sweet Sixteen discontinued?",
       "What replaced the Sweet Sixteen?",
+      "how much does a hq sweet sixteen cost",
+      "handi quilter sweet sixteen reviews",
       "Does the Sweet Sixteen have a stitch regulator?",
-      "Is the Sweet Sixteen a longarm or a midarm?",
       "How big is the Sweet Sixteen throat?",
       "How fast does the Sweet Sixteen sew?",
       "Can you put a Sweet Sixteen on a frame?",
-      "What is a used Sweet Sixteen worth?",
       "What bobbin and needle does the Sweet Sixteen use?",
-      "How does the Sweet Sixteen compare with the Juki Miyabi or a Juki TL?"
+      "what is the difference between a handi quilter sweet sixteen and a handi quilter sweet sixteen plus"
     ],
     "crossShop": [
       {
@@ -4347,43 +4311,39 @@ export const catalogData: Record<string, CatalogEntry> = {
       "faqs": [
         {
           "q": "Is the Handi Quilter Sweet Sixteen discontinued?",
-          "a": "A dealer page (Rocky Mountain Sewing) says so. Handi Quilter's own wording is that the machine is on the secondary used-machine market, and its site carries no machine page for it, only parts."
+          "a": "A dealer page (Rocky Mountain Sewing) says so. Handi Quilter's own wording, in a support article, is that the machine is on the secondary used-machine market, and its site carries no machine page for it, only parts and accessories. The maker never uses the word discontinued for it in the pages we read [verify]."
         },
         {
-          "q": "How big is the Sweet Sixteen throat?",
-          "a": "The maker prints throat dimensions of 8.25 x 16 in (245 x 610 mm) and calls it a 16-inch sit-down longarm. It does not say needle to body."
+          "q": "What replaced the Handi Quilter Sweet Sixteen?",
+          "a": "Handi Quilter staff comments name the Moxie ST and Amara ST as the stationary machines still offered, and the maker does not call either a direct replacement. handiquilter.com lists the Moxie ST at $6,495.00, with an 18 in throat, 2,100 spm and built-in stitch regulation on a 38 x 38 in InSight table. These are maker figures for the Moxie ST, not for the Sweet Sixteen [verify]."
         },
         {
-          "q": "Is the Sweet Sixteen a long-arm?",
-          "a": "The maker calls it a sit-down longarm. In our tiering a 16 in head sits in the mid-arm band, so treat the maker's term as marketing wording rather than a throat class."
+          "q": "How much does a Handi Quilter Sweet Sixteen cost?",
+          "a": "Handi Quilter publishes no price for the Sweet Sixteen because it has no current machine page. The last figure we saw was a dealer listing of $6,495 (Fig Leaf Quilting, 2026-09-29), which is unconfirmed and is the same number as the Moxie ST maker price. Handi Quilter lists the Lift Table for the Sweet Sixteen at $2,645.00. Used prices are not in our evidence [verify]."
         },
         {
-          "q": "How fast does the Sweet Sixteen sew?",
-          "a": "The manual lists 1500 spm maximum, in both the v3.3 and v3.1 copies. One dealer page says up to 1,800 spm; this page uses the manual figure."
+          "q": "What do owners say about the Handi Quilter Sweet Sixteen?",
+          "a": "Owners who are happy with it point to the sit-down format: several say moving the fabric by hand does not bother them, and one loves the InSight table with its built-in regulator. Recurring complaints include heavier quilts being hard to support on the table, tension that takes time to settle and one report of timing knocked out by very heavy seams. The read covers 13 Reddit threads and 1 retailer page from 2012 to 2026, and Reddit leans toward people asking for help, so problems are over-represented. Sewing Machines Plus shows 4.76 from 17 reviews, which is seller-collected."
         },
         {
-          "q": "Does the Sweet Sixteen have a stitch regulator?",
-          "a": "Not built in. The manual lists TruStitch as an optional accessory, and Handi Quilter sells a lift table with built-in InSight regulation for compatible machines. One dealer says TruStitch is included with its package."
+          "q": "Does the Handi Quilter Sweet Sixteen have a stitch regulator?",
+          "a": "Not built in. The manual lists TruStitch as an optional accessory, and Handi Quilter sells a lift table with built-in InSight regulation for compatible machines on firmware 3.18 or higher. One dealer says TruStitch is included with its package, which differs from the manual [verify]. One owner says they prefer the InSight table's built-in regulator over a magnetic puck regulator."
         },
         {
-          "q": "What power does it need?",
-          "a": "The manual gives 105 to 120 VAC at 47 to 63 Hz for the US and Canada, with a brushless DC motor at 300 W peak."
+          "q": "How big is the throat on the Handi Quilter Sweet Sixteen?",
+          "a": "The manual prints throat dimensions of 8.25 x 16 in (245 x 610 mm) and the cover calls it a 16-inch sit-down longarm; the maker does not say needle to body. In our tiering a 16 in head sits in the mid-arm band, so treat 'longarm' as the maker's wording. The manual does not label which figure is height; dealer copy says 8 inches of vertical space [verify]."
         },
         {
-          "q": "What needle and bobbin does the Sweet Sixteen use?",
-          "a": "The manual lists 134 (135x7) needles in sizes 12/80 to 20/125 and an M class aluminum bobbin with a type MF case."
+          "q": "How fast does the Handi Quilter Sweet Sixteen sew?",
+          "a": "The manual lists a maximum of 1500 spm, in both the v3.3 and the v3.1 copies, with a My Speed range of 5 % to 100 %. One dealer page says up to 1,800 spm, which the manual does not support, so we use the manual figure."
         },
         {
-          "q": "How much does a Sweet Sixteen weigh?",
-          "a": "Handi Quilter does not publish the machine weight. The manual says the table weighs nearly 50 lb."
+          "q": "Can you put a Handi Quilter Sweet Sixteen on a frame?",
+          "a": "Handi Quilter's manual describes a sit-down machine with its own height-adjustable folding table, and the pages we read give no frame-mounting instructions. One owner on Reddit says they mounted theirs on a Grace Q-Zone frame and like it most there. That is an owner report, not a maker statement [verify]."
         },
         {
-          "q": "What is the warranty?",
-          "a": "The maker's warranty page lists 90 days, 10 years on the casting, 5 years mechanical and 5 years electrical, with registration required. The text is not model-specific."
-        },
-        {
-          "q": "What replaced the Sweet Sixteen?",
-          "a": "Handi Quilter staff comments name the Moxie ST and Amara ST as the stationary machines still offered. The maker does not call either a direct replacement."
+          "q": "What needle and bobbin does the Handi Quilter Sweet Sixteen use?",
+          "a": "The manual lists needle system 134 (135 x 7) in sizes 12/80 to 20/125 and an M class aluminum bobbin with a type MF bobbin case."
         }
       ]
     },
@@ -4534,14 +4494,15 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
+      "What is the price of the Janome 8002D overlocker?",
+      "janome 8002d serger reviews",
+      "how to thread janome serger 8002d",
+      "what needles does janome 8002d serger use",
       "Is the Janome 8002D good for beginners?",
       "Does the Janome 8002D do a rolled hem?",
-      "What needles does the Janome 8002D use?",
-      "Janome 8002D vs Brother 1034D, which is better?",
       "Does the Janome 8002D do 2-thread stitches?",
-      "How fast is the Janome 8002D?",
-      "Is the Janome 8002D the same as the Magnolia 7034D?",
-      "Does the Janome 8002D have a free arm?"
+      "Does the Janome 8002D have a free arm?",
+      "Janome 8002D vs Brother 1034D, which is better?"
     ],
     "crossShop": [
       {
@@ -4596,48 +4557,36 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
+          "q": "How much does the Janome 8002D cost?",
+          "a": "Janome lists an MSRP of $399 and says to see a dealer for pricing (seen on the Janome product page, 2026-10-02). Janome sells through authorized dealers. Its warranty says it is void unless the machine is bought from an authorized US Janome dealer, so check the seller before you compare prices [verify]."
+        },
+        {
+          "q": "What do owners say about the Janome 8002D?",
+          "a": "Owners mostly describe a light, easy entry serger, and some like the rolled edge and the way it trims as it sews. Threading comes up most: many find it manageable, while the lower looper steps are the hard part. Others report a rattling front cover (against a quiet run for some), no dust cover in the box, lint in the tension discs and, for one owner after nearly ten years of frequent use, skipped stitches and thread breaks. The read covers 15 Reddit threads and 4 retailer pages from 2013 to 2026, and Reddit leans toward people asking for help, so problems are over-represented. Three Amazon listings show 4.2 to 4.6, which is seller-collected and pools several listings."
+        },
+        {
+          "q": "How do you thread the Janome 8002D?",
+          "a": "Janome lists lay-in threading with color-coded guides, a threading chart and external tension dials, and says the machine comes pre-threaded with 4 starter spools, so you tie new thread to the pre-set threads and pull it through. There is no air or automatic threading; the AirThread 2000D is the sibling that has it. Owners find the lower looper the hard part, and one fixed bad stitching by rethreading after missing a thread guide ahead of it."
+        },
+        {
+          "q": "What needles does the Janome 8002D use?",
+          "a": "The manual specifies HA-1 SP needles in No. 11 and No. 14, with No. 11 for lightweight fabrics, No. 11 to 14 for mid weights and No. 14 for heavy fabrics. Some dealers write HAx1SP, which is the same needle family. Owner threads mention 130/705H household needles, which is not a Janome statement [verify]."
+        },
+        {
           "q": "Is the Janome 8002D good for beginners?",
-          "a": "Janome lists color-coded tension dials and a threading chart, and says it ships pre-threaded with 4 starter spools. Owners report the lower looper is the hard part to thread. This is a spec check, not a field test."
+          "a": "Janome lists color-coded tension dials and a threading chart, and says the machine ships pre-threaded. Owners say threading is manageable once learned, but the lower looper steps are the part they find hard to follow. This is a spec check against Janome's documents and owner reports, not a field test."
         },
         {
-          "q": "Does the 8002D do a rolled hem?",
-          "a": "Yes. Janome lists a quick change rolled hem, and the manual sets the needle plate knob and stitch length dial to R. 'No plate change' is our inference, not Janome's wording."
+          "q": "Does the Janome 8002D do a rolled hem?",
+          "a": "Yes. Janome lists a quick change rolled hem, and the manual sets the needle plate knob and the stitch length dial to R for rolled and narrow hems and picot edging. One owner reports using it for a rolled edge, which was the goal at this price."
         },
         {
-          "q": "What needles does the 8002D use?",
-          "a": "The manual specifies HA-1 SP needles, No. 11 and No. 14. Owner threads also mention 130/705H household needles, which is not a Janome statement."
+          "q": "Does the Janome 8002D do 2-thread stitches?",
+          "a": "No. Janome lists 3 and 4 thread stitches and no 2-thread converter. The AirThread 2000D, a sibling, is listed by Janome as a 2, 3 or 4 thread serger with air threading, 17.4 lb and a $1,799 MSRP, against 13.4 lb and $399 MSRP for the 8002D."
         },
         {
-          "q": "Can the 8002D sew 2-thread stitches?",
-          "a": "Janome lists 4 thread, 3 thread (wide) and narrow hem and no 2-thread converter. The AirThread 2000D page lists 2, 3 or 4 thread."
-        },
-        {
-          "q": "Does the 8002D do flatlock or blind hem?",
-          "a": "Janome lists neither as a stitch. Those come from dealer and review copy. The manual names a blind stitch foot as an optional accessory."
-        },
-        {
-          "q": "How fast is the 8002D?",
-          "a": "Janome lists a maximum of 1,300 spm."
-        },
-        {
-          "q": "What is the differential feed range?",
-          "a": "Janome's page says 0.5 to 2.25; the manual text says 2.2. Cutting width is 3.1 to 7.3 mm and stitch length 1 to 4 mm."
-        },
-        {
-          "q": "Does the 8002D have a free arm?",
-          "a": "Janome publishes no free arm or throat figure, so it shows [verify]. Ask the dealer."
-        },
-        {
-          "q": "How much does the 8002D weigh and how big is it?",
-          "a": "Janome lists 13.4 lb and W 12.5 x H 10.5 x D 11 in. Amazon item weights of 14 to 19 lb are likely shipping weights."
-        },
-        {
-          "q": "How does it differ from the AirThread 2000D?",
-          "a": "Per Janome's pages the AirThread 2000D is 2, 3 or 4 thread with air threading, 17.4 lb and a $1,799 MSRP; the 8002D is 3 or 4 thread with lay-in manual threading, 13.4 lb and $399 MSRP."
-        },
-        {
-          "q": "Is the 8002D the same as the Magnolia 7034D?",
-          "a": "Owners describe the two as near-identical. Janome has no page for the 7034D or an 8002DX, so no equivalence is stated."
+          "q": "Does the Janome 8002D have a free arm?",
+          "a": "Janome does not state a free arm on the product page or in the manual, and it publishes no throat or needle-to-body figure, so both show [verify]. Dealer copy may say otherwise, but we found no maker support for it. Ask the dealer before relying on one."
         }
       ]
     },
@@ -4968,14 +4917,18 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "Is the Janome HD1000 good for beginners?",
-      "Can the Janome HD1000 sew leather or canvas?",
-      "What is the difference between the Janome HD1000 and HD3000?",
-      "Does the Janome HD1000 have a one-step buttonhole?",
-      "How fast is the Janome HD1000?",
-      "Is the Janome HD1000 Black Edition different from the white one?",
+      "Is Janome HD1000 a good sewing machine?",
+      "What is the difference between Janome HD1000 and HD3000?",
+      "janome hd1000 price",
+      "how to thread janome hd 1000",
+      "how is janome hd 1000 for leather",
+      "janome hd1000 black edition",
+      "which walker foot is best for janome hd 1000",
       "Does the HD1000 have adjustable presser foot pressure?",
-      "Janome HD1000 vs Singer 4423, which should I buy?"
+      "Does the Janome HD1000 have a one-step buttonhole?",
+      "Janome HD1000 vs Singer 4423, which should I buy?",
+      "Is Janome HD 3000 a good machine?",
+      "What are the common problems with the Janome HD3000?"
     ],
     "crossShop": [
       {
@@ -5029,40 +4982,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "Is the Janome HD1000 good for beginners?",
-          "a": "Owners on PatternReview describe it as a beginner machine with simple mechanical controls. Janome lists 14 stitches, a 4-step buttonhole and a built-in needle threader."
+          "q": "What do owners say about the Janome HD1000?",
+          "a": "Owners praise how solid and heavy it feels, and several say oiling and cleaning are easy. The two big themes are less happy: reliability (36 voices, 25 negative against 9 positive, with jams and failures reported, some within the first year) and power on heavy fabric (28 voices, 16 negative against 10 positive). The read covers 53 Reddit threads and 2 retailer pages from 2010 to 2026, and Reddit leans toward people asking for help, so problems are over-represented. Amazon shows 4.1 from 565 ratings, which is seller-collected; the Sewing Machines Plus page (4.17 from 23) is not counted here because none of its sampled reviews name the HD1000."
         },
         {
-          "q": "Can the HD1000 sew canvas or leather?",
-          "a": "Owner reports split: one thread and a retailer reviewer report jeans, canvas, leather and nylon webbing sewn without problems, while other owners report stops on Cordura and webbing layers. Janome publishes no layer or thickness rating and its manual says household use only."
+          "q": "What is the difference between the Janome HD1000 and the HD3000?",
+          "a": "From Janome's pages, the HD3000 lists 18 stitches, a 5-piece feed dog, a top-loading full rotary hook, 6.5 mm width, 18.7 lb and a $559 MSRP. The HD1000 lists 14 stitches, a 3-piece feed dog, a front-loading vertical oscillating hook, 5 mm width, 16.8 lb and a $409 MSRP. Commenters add that the HD3000 has adjustable presser foot pressure and a more sensitive pedal, and Janome's pages list pressure adjustment only for the HD3000; the pedal claim is Reddit only [verify]."
         },
         {
-          "q": "Is the HD1000 heavy duty or all metal?",
-          "a": "Those are series and dealer labels, not Janome's page wording. Janome's HD1000 page says 'all-aluminum interior frame and body' and 'super sturdy construction'. Some owners note plastic parts inside."
+          "q": "How much does the Janome HD1000 cost?",
+          "a": "Janome lists an MSRP of $409 and says to see a dealer for pricing. Amazon showed $399 for the base HD1000 on 2026-10-01. The Black Edition is a separate SKU with a $550 MSRP, so check which one a price refers to."
         },
         {
-          "q": "What is the difference between the HD1000 and HD3000?",
-          "a": "Janome's pages list the HD3000 with 18 stitches, a 5-piece feed dog, foot pressure adjustment and a top-loading hook, against 14 stitches, a 3-piece feed dog and a front-loading oscillating hook on the HD1000. Claims about bobbin loading ease and motor differences are Reddit reports that Janome does not confirm."
+          "q": "How do you thread the Janome HD1000?",
+          "a": "Janome lists a built-in needle threader and a front-loading vertical oscillating hook. Threading is a recurring owner complaint (8 voices, 6 negative): one new owner gets a knot underneath when backstitching despite rethreading, and one reviewer could not use taller thread spools because the thread guide sits on top of the machine. Janome's manual covers the thread path, so follow it line by line before blaming the machine."
         },
         {
-          "q": "How fast does the HD1000 sew?",
-          "a": "Janome lists 860 stitches per minute."
+          "q": "Can the Janome HD1000 sew leather or canvas?",
+          "a": "Janome publishes no layer or thickness rating for the HD1000, and its manual says the machine is designed for household use only. Owner reports are split on heavy fabric (28 voices, 16 negative against 10 positive): some sew denim and layered cotton duck, while one reports constant mid-sew stops on 2 layers of 500d Cordura, 2 layers of webbing and a zipper and another says it groans on heavy seams and needed hand wheel help on denim. Treat it as a light to medium machine [verify]."
         },
         {
-          "q": "How much throat space does the HD1000 have?",
-          "a": "Janome publishes a workspace of 6.4 x 4.7 in, which is not a needle-to-arm figure, so throat space is [verify]."
+          "q": "Is the Janome HD1000 Black Edition different from the white one?",
+          "a": "Janome lists the Black Edition with the same specs as the base HD1000, plus a special accessories pack, at a $550 MSRP against $409. It is a separate SKU, so a listing price for one is not a price for the other. Amazon's 4.1 from 565 ratings is the base listing."
         },
         {
-          "q": "What is the HD1000 Black Edition?",
-          "a": "HD1000BE is a separate SKU with the same listed specs plus a special accessories pack, MSRP $550. Amazon's 4.1 from 565 ratings is the base listing."
+          "q": "Does the Janome HD1000 come with a walking foot?",
+          "a": "Janome's page lists an even feed foot (front loading) among the included feet, along with ultra glide, zig-zag, zipper and hemmer feet. One owner added a walking foot attachment for about $20 and says it works well. Janome does not name a best foot, so confirm the box contents with the seller [verify]."
         },
         {
-          "q": "What warranty does the HD1000 carry?",
-          "a": "Janome's HD1000 pages name none. Janome's generic 25-year household warranty lists electronics 5 years and labor 1 year, and Amazon says 25/2/1. We assume the generic terms apply, so confirm with the seller."
+          "q": "Does the Janome HD1000 have adjustable presser foot pressure?",
+          "a": "Janome's pages list foot pressure adjustment for the HD3000 but not for the HD1000, and commenters say the HD1000 has none. Janome states no HD1000 position either way, so our spec leaves it unrecorded [verify]."
         },
         {
-          "q": "Can the HD1000 be used commercially?",
-          "a": "Janome's manual says the machine is designed and manufactured for household use only."
+          "q": "Does the Janome HD1000 have a one-step buttonhole?",
+          "a": "No. Janome lists one four-step buttonhole on the HD1000. The HD5000 is listed with an automatic one-step buttonhole, against the HD1000's four-step one."
         }
       ]
     },
@@ -5204,15 +5157,16 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "Is the Janome HD3000 better than the Singer 4423?",
+      "Is Janome HD 3000 a good machine?",
+      "Is the Janome HD3000 discontinued?",
+      "How much does a Janome HD3000 cost?",
+      "What is the difference between Janome HD1000 and HD3000?",
+      "janome hd3000 vs hd5000",
+      "which walking foot should i use on janome hd3000",
       "Can the Janome HD3000 sew leather?",
-      "Is the Janome HD3000 good for beginners?",
+      "janome hd3000 black edition sewing machine",
       "How many stitches does the Janome HD3000 have, 18 or 19?",
-      "What is the difference between the Janome HD3000 and HD1000?",
-      "Does the Janome HD3000 have a walking foot?",
-      "How much does the Janome HD3000 weigh?",
-      "Is the Janome HD3000 good for quilting?",
-      "What is the Janome HD3000 Black Edition?"
+      "Is the Janome HD3000 better than the Singer 4423?"
     ],
     "crossShop": [
       {
@@ -5266,44 +5220,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "Is the Janome HD3000 better than the Singer 4423?",
-          "a": "Head-to-head owner claims in our rollup (4 in all) lean to the HD3000 on reliability, build and range of fabrics, which is a small sample. A PatternReview thread called the Singer the value buy and the HD3000 the smoother, quieter machine. Janome publishes no top speed for the HD3000."
+          "q": "What do owners say about the Janome HD3000?",
+          "a": "Owners are split. Some say the machine feels solid and comes with plenty of feet; others report it would not sew denim or heavy leather, and heavy-fabric power is the most discussed theme (47 voices, 18 positive and 19 negative). Reliability splits the same way (38 voices, 16 positive and 19 negative), with jamming and bobbin trouble on one side and steady use on the other. Tension trouble, a weak machine light and noise also recur. The read covers 60 Reddit threads and 3 retailer pages from 2012 to 2026, and Reddit leans toward people asking for help, so problems are over-represented."
         },
         {
-          "q": "Can the Janome HD3000 sew leather?",
-          "a": "Janome's leather guide says to use leather thinner than 4 mm, under 2 mm when sewing through more than 4 layers, with a 3 mm stitch length, pressure dial at 3 and a 90/14 needle for seams. The manual says household use only. Owners report mixed results: one says feed dogs marked leather, and another says it will not handle heavy leather."
+          "q": "Is the Janome HD3000 discontinued?",
+          "a": "Janome's HD3000 product page shows an MSRP and 'Available at Authorized Janome Dealers' and carries no discontinued or no longer available wording. The Black Edition is also listed. We found no maker statement either way, so ask a dealer about stock [verify]."
         },
         {
-          "q": "Is the Janome HD3000 good for beginners?",
-          "a": "Janome calls it a heavy duty machine perfect for a beginner, which is its claim. It is a mechanical dial machine with a foot-pressure dial. Owners report tension trouble in 5 of 9 voices on that theme, so check the bobbin winding and tension on a new unit."
+          "q": "How much does the Janome HD3000 cost?",
+          "a": "Janome lists an MSRP of $559 for the plain HD-3000 (seen on janome.com, 2026-10-02) and $599 for the Black Edition, and says to see a dealer for pricing. Janome sells through authorized dealers rather than direct. Our recorded figure is the maker's MSRP, not a dealer sale price."
         },
         {
-          "q": "How many stitches does the Janome HD3000 have, 18 or 19?",
-          "a": "18. Janome's product page, brochure and manual all say 18, with the manual dial running patterns 1 to 18 plus the buttonhole. Only Janome's 2011 launch blog says 19."
-        },
-        {
-          "q": "What is the difference between the Janome HD3000 and HD1000?",
-          "a": "From Janome's pages: the HD3000 lists 18 stitches, a 5-piece feed dog, a top loading full rotary hook, 6.5 mm width, 18.7 lb and $559 MSRP. The HD1000 lists 14 stitches, a 3-piece feed dog, a front-loading oscillating hook, 5 mm width, 16.8 lb and $409 MSRP. Owners also say the HD3000 pedal is more sensitive, which is Reddit only."
-        },
-        {
-          "q": "Does the Janome HD3000 have a walking foot?",
-          "a": "Not in Janome's standard accessory list. An even feed foot is optional, and the Black Edition lists one as a bonus item. Owner reports differ: one says there is no true walking foot, and others say one came with their machine."
-        },
-        {
-          "q": "Is the Janome HD3000 good for quilting?",
-          "a": "Janome lists a quilting guide bar and publishes a workspace of 6.5 in wide by 4.6 in high, not a needle-to-arm throat, so it is not a mid-arm machine. One former owner on Reddit reports making queen quilts on it and calling it very solid."
-        },
-        {
-          "q": "What is the Janome HD3000 Black Edition?",
-          "a": "Janome's spec table matches the plain machine. The Black Edition lists $599 MSRP against $559 and adds bonus items such as an Ultra Glide foot, a leather needle set and an even feed foot. Dealer SKU HD3000BE is the Black Edition."
-        },
-        {
-          "q": "How fast is the Janome HD3000?",
-          "a": "Janome's current page, brochure and manual publish no speed. The 860 spm figure appears only in Janome's 2011 launch blog and on the HD1000 page, so it is not stated here as an HD3000 spec."
+          "q": "What is the difference between the Janome HD3000 and the HD1000?",
+          "a": "From Janome's pages, the HD3000 lists 18 stitches, a 5-piece feed dog, a top loading full rotary hook, 6.5 mm width, 18.7 lb and a $559 MSRP. The HD1000 lists 14 stitches, a 3-piece feed dog, a front-loading oscillating hook, 5 mm width, 16.8 lb and a $409 MSRP. Owners also say the HD3000 pedal is more sensitive, which is Reddit only [verify]."
         },
         {
           "q": "Is the Janome HD3000 the same as the HD5000?",
-          "a": "Janome's HD5000 spec table matches the HD3000 line for line, and the page names no difference. Treat any claimed difference as unverified."
+          "a": "Janome's HD5000 spec table matches the HD3000 line for line: 18 stitches, 6.5 mm width, 18.7 lb, a 5-piece feed dog and a workspace of 6.5 x 4.6 in. The HD5000 page names no difference, and its prose says seven-piece feed dog while its table says 5-piece. Treat any claimed difference as unverified [verify]."
+        },
+        {
+          "q": "Does the Janome HD3000 have a walking foot?",
+          "a": "Not in Janome's standard accessory list. An even feed foot is optional, and the Black Edition lists one as a bonus item. Owner reports differ: some say there is no true walking foot and others say one came with their machine, so confirm the box contents with the seller [verify]."
+        },
+        {
+          "q": "Can the Janome HD3000 sew leather?",
+          "a": "Janome's guide says to use leather thinner than 4 mm, and thinner than 2 mm when sewing through more than 4 layers, with a 3 mm stitch length, the pressure dial at 3 and a 90/14 needle for seams. The manual says household use only. Owners report mixed results: one says it will not handle heavy leather and another could not sew through denim."
+        },
+        {
+          "q": "What is the Janome HD3000 Black Edition?",
+          "a": "Janome's spec table matches the plain machine. The Black Edition lists a $599 MSRP against $559 and adds bonus items: an Ultra Glide foot, a leather needle set and an even feed foot. Dealer SKU HD3000BE is the Black Edition."
+        },
+        {
+          "q": "How many stitches does the Janome HD3000 have, 18 or 19?",
+          "a": "18. Janome's product page, brochure and manual all say 18, and the manual dial runs patterns 1 to 18 plus the buttonhole. Only Janome's 2011 launch blog says 19."
         }
       ]
     },
@@ -5453,14 +5403,15 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "What is the difference between the Janome HD5000 and HD3000?",
+      "janome hd5000 review",
+      "What are the key differences between the Janome HD3000 and HD5000 sewing machines?",
       "How many stitches does the Janome HD5000 have, 18 or 19?",
       "Is the Janome HD5000 good for quilting?",
       "Can the Janome HD5000 sew denim and canvas?",
-      "Does the Janome HD5000 have a needle threader?",
       "Is the Janome HD5000 good for beginners?",
       "What is the Janome HD5000 Black Edition?",
-      "How much does the Janome HD5000 weigh?"
+      "Does the Janome HD5000 have a needle threader?",
+      "janome hd5000 vs singer heavy duty"
     ],
     "crossShop": [
       {
@@ -5514,48 +5465,36 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "How many stitches does the HD5000 have?",
-          "a": "Janome's page lists 18 stitches. Some dealer spec blocks count 19 and one blog says 27."
+          "q": "What do owners say about the Janome HD5000?",
+          "a": "Across 58 Reddit threads and 2 retailer pages from 2020 to 2026, owners are split on heavy fabric: some report no trouble with canvas, denim and thin vinyl, others find it weak on heavy leather and thick stabilizer. Repeated complaints are thread slipping out of the thread guide, bobbin winding and a manual with no stitch table, and defect reports are the most discussed theme. Reddit leans toward people asking for help, so problems are over-represented. Amazon showed 4.1 from 80 ratings on the white listing and 4.1 from 141 on the Black Edition listing as of 2026-10-02."
         },
         {
-          "q": "What is the difference between the HD5000 and HD3000?",
-          "a": "Janome's spec tables match line for line: 18 stitches, 6.5 mm width, 4 mm length, 18.7 lb and workspace W 6.5 x H 4.6 in. Reddit commenters claim a 7 mm width and an overlock stitch on the HD5000; Janome's pages do not support either. Compare bundle and price."
+          "q": "What is the difference between the Janome HD5000 and HD3000?",
+          "a": "Janome's own spec tables match line for line: 18 stitches, 6.5 mm width, 4 mm length, 18.7 lb and a W 6.5 x H 4.6 in workspace. Reddit commenters say the HD5000 is the Canadian model and claim a 7 mm width and an overlock stitch on it, but Janome's US site lists both machines and its pages support neither claim. Treat the choice as one of bundle and price."
         },
         {
-          "q": "What is the maximum stitch width?",
-          "a": "6.5 mm, per Janome's HD-5000 and HD5000BE pages and the manual. An earlier 7 mm figure is not supported by Janome."
+          "q": "How many stitches does the Janome HD5000 have, 18 or 19?",
+          "a": "Janome lists 18 stitches, including a one-step buttonhole, on its HD-5000 page and its Black Edition page. A dealer spec block counts 19 and one comparison blog says 27, which are dealer and blog figures, not Janome's. Janome's pages also disagree on the buttonhole (one-step on one page, four-step on the Black Edition and HD-3000 specifications), so treat that detail as soft [verify]."
         },
         {
-          "q": "Is the HD5000 good for quilting?",
-          "a": "It has a drop feed lever for free motion and a quilting guide bar as standard. The Quilting Attachment Kit is optional on the HD-5000 and standard on the Black Edition. Janome labels 6.5 x 4.6 in as workspace, not needle-to-arm throat, so the throat is [verify]."
+          "q": "Is the Janome HD5000 good for quilting?",
+          "a": "It has a drop feed lever for free motion and a quilting guide bar as standard, and one owner reports quilting a full quilt on it, including some free-motion work. The Quilting Attachment Kit is optional on the HD-5000 and standard on the Black Edition. An owner with a walking foot attachment says clearance is tight, and Janome labels 6.5 x 4.6 in as workspace rather than needle-to-arm throat, so throat is [verify]."
         },
         {
-          "q": "Can the HD5000 sew denim?",
-          "a": "Janome claims it handles multiple layers of fabric but gives no layer count. Dealer copy says 12 layers of denim. Some owners report canvas and denim are fine and others report weakness on heavy leather and thick stabilizer."
+          "q": "Can the Janome HD5000 sew denim and canvas?",
+          "a": "Owners report no trouble with canvas, denim and thin vinyl, while one owner sewing handbags finds it weak on heavy leather and thick stabilizer. Janome calls it a heavy-duty mechanical workhorse, a claim with no layer count or fabric weight limit behind it, and publishes no motor rating. A dealer title says it sews 12 layers of denim, which is dealer copy and not a Janome figure [verify]."
         },
         {
-          "q": "How fast is the HD5000?",
-          "a": "Janome does not publish a speed for the HD-5000, so it is [verify]."
+          "q": "Is the Janome HD5000 good for beginners?",
+          "a": "It is a mechanical machine with dial controls, 18 stitches and a built-in one-hand needle threader. Owner frustrations are small ones: bobbin winding has a learning curve, thread can slip out of the thread guide, and one new owner says the manual has no table naming the stitches. One owner finds the buttonhole very consistent."
         },
         {
-          "q": "How much does the HD5000 weigh?",
-          "a": "18.7 per Janome's page (unit not printed there; the HD-3000 page prints 18.7 lbs). Footprint is W 16 x H 11.3 x D 7.2 in."
+          "q": "What is the Janome HD5000 Black Edition?",
+          "a": "Janome's HD5000BE page lists the same specification block as the HD-5000: 18 stitches, 6.5 mm width, 4 mm length and 18.7 lb. The difference Janome shows is that the Quilting Attachment Kit is standard on the Black Edition and optional on the HD-5000. Amazon sells it as a separate listing, rated 4.1 from 141 ratings as of 2026-10-02, and one owner chose it at the same price for the extra free accessories."
         },
         {
-          "q": "Does the HD5000 have a needle threader?",
-          "a": "Yes, Janome lists a built-in one-hand needle threader."
-        },
-        {
-          "q": "What does the HD5000 cost?",
-          "a": "Janome publishes no price and says to see a dealer. Amazon listing B084M81BC6 (HD5000) showed 4.1 from 80 ratings; get a dealer quote for price."
-        },
-        {
-          "q": "What is the HD5000 warranty?",
-          "a": "Janome America's limited warranty is 25 years materials and workmanship, 5 years electronic parts and 1 year labor, void without an authorized US dealer purchase. The wording is read from an image PDF by OCR, so verify it. Amazon quotes 2 years electrical."
-        },
-        {
-          "q": "What is the HD5000 Black Edition?",
-          "a": "Janome's HD5000BE page lists the same specification block as the HD-5000, with the Quilting Attachment Kit as standard."
+          "q": "Does the Janome HD5000 have a needle threader?",
+          "a": "Yes. Janome lists a built-in, one-hand needle threader. Threading complaints in our owner read are about the thread guide letting a spool slip, not about the threader."
         }
       ]
     },
@@ -5709,15 +5648,18 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "Is the Janome HD9 an industrial sewing machine?",
+      "janome hd9 reviews",
+      "Is Janome HD9 an industrial machine?",
       "What is the difference between the Janome HD9 V1 and V2?",
+      "How much does a janome hd9 cost",
       "Does the Janome HD9 do zigzag?",
+      "How heavy is Janome HD9?",
+      "Does the HD9 come with a walking foot?",
       "What needles does the Janome HD9 use?",
       "How much throat space does the Janome HD9 have?",
-      "Is the Janome HD9 good for quilting?",
       "Janome HD9 vs Juki TL-2010Q, which is better?",
-      "Does the HD9 come with a walking foot?",
-      "How heavy is the Janome HD9?"
+      "janome hd9 qcp",
+      "bernette 08 vs janome hd9"
     ],
     "crossShop": [
       {
@@ -5772,44 +5714,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
+          "q": "What do owners say about the Janome HD9 Professional?",
+          "a": "Across 35 Reddit threads and 1 retailer page from 2018 to 2026, owners mostly report that it keeps stitching through demanding work, including about ten layers of raw denim and garment and backpack repairs. Thread weight splits opinion: one owner says Janome states Tex 100 thread works, while another capped a second-hand unit at Tex 90 for car seat upholstery. Reported problems include a bobbin that locks up and a needle sitting off center on a new machine. Reddit leans toward people asking for help, so problems are over-represented."
+        },
+        {
           "q": "Is the Janome HD9 an industrial machine?",
-          "a": "Janome sells it as a home machine and uses words like industrial strength in its marketing; those are Janome claims, not a rating. Janome publishes no main motor wattage or type, and the machine runs from a household plug."
+          "a": "Janome sells it as a home machine and uses the word industrial for its needle, hook bobbin and pretension threading, which is Janome wording and not a rating. Janome publishes no main motor wattage or type, though it lists eight enclosed ball bearings in the main shaft. Its generic warranty covers household use only and drops to 1 year if the machine is used commercially."
         },
         {
-          "q": "What is the difference between the HD9 V1 and V2?",
-          "a": "Dealers say the V2 uses a different bobbin from V1, and the two are not interchangeable. Janome shows an HD9 V2 bobbin page but no V2 machine page, so what else changes is not established here. A Black Edition (HD9BE) is a separate limited release."
+          "q": "What is the difference between the Janome HD9 V1 and V2?",
+          "a": "Dealers say the V2 uses a different bobbin from the V1, and the two are not interchangeable. Janome shows an HD9 V2 bobbin accessory page but no V2 machine page, so what else changes is not established here [verify]. A Black Edition (HD9BE) is a separate limited release."
         },
         {
-          "q": "Does the HD9 sew zigzag or buttonholes?",
-          "a": "No. Janome lists it as straight stitch only. One owner says high shank buttonhole attachments can be used, but the machine itself makes no buttonhole."
+          "q": "How much does the Janome HD9 Professional cost?",
+          "a": "Janome lists a suggested retail of $2,499 and says to see a dealer. Village Sewing showed $2,099 on 2026-09-29 and Amazon showed $1,599 on 2026-10-01, so buyers can pay well under list. Amazon pools several versions under one rating, so check which version and seller a low price belongs to."
         },
         {
-          "q": "How much throat space does the HD9 have?",
-          "a": "Janome does not publish a needle-to-arm figure. Its product page table gives a workspace of 8 x 5.5 in and its feature page says nearly 9 x 6 in to the right of the needle. Those are Janome's wording for workspace, not throat space."
+          "q": "Does the Janome HD9 do zigzag or buttonholes?",
+          "a": "No. Janome lists it as a straight-stitch-only, single-needle lockstitch machine. One owner says high shank buttonhole attachments can be used on it, but the machine itself makes no buttonhole."
         },
         {
-          "q": "How big and heavy is the HD9?",
-          "a": "Janome's US product page lists 19.6 x 7.2 x 12.7 in (W x D x H) and 32 lb (14.5 kg)."
+          "q": "How big and heavy is the Janome HD9?",
+          "a": "Janome's US product page lists 19.6 x 7.2 x 12.7 in (W x D x H) and 32 lb (14.5 kg). An earlier 19.6 x 8.6 x 13.3 in figure came from Janome's UK page and a non-maker source and is superseded."
         },
         {
-          "q": "What needles does the HD9 take?",
-          "a": "Janome lists an HLx5 needle, which it calls industrial. The manual chart gives #14 for medium fabric and #14 to 18 for denim."
+          "q": "Does the Janome HD9 come with a walking foot?",
+          "a": "Not on Janome's list of what ships with it, which names a hemmer foot, cloth guide, knee lifter and jumbo bobbins. A writer with some HD9 experience says Janome's walking foot is sold separately, and another commenter says the HD9 has none. Janome's page says the machine uses a 3-piece feed dog with no drop feed."
         },
         {
-          "q": "Can I use the HD9 for a business making bags or leather goods?",
-          "a": "Check the warranty first. Janome's generic 25-year PDF is for household use only and drops to 1 year if the machine is used commercially. Janome markets the HD9 for bags and layered materials, but that marketing does not change the warranty terms."
+          "q": "What needles does the Janome HD9 use?",
+          "a": "Janome lists an HLx5 needle, which it calls industrial. The manual chart gives #14 for medium fabric and #14 to 18 for denim. One owner uses both needle types and has never bent or broken an HLx5."
         },
         {
-          "q": "What is the HD9 warranty?",
-          "a": "Per Janome's generic PDF (OCR text): 25 years limited for household use, 5 years electronics, 1 year labor, and 1 year if used commercially. It is void if not bought from an authorized US Janome dealer. Verify against the PDF before buying."
-        },
-        {
-          "q": "How fast is the HD9, and what stitch length does it do?",
-          "a": "Janome publishes up to 1,600 stitches per minute and a stitch length up to 6 mm. Calling it the fastest home-use machine on the market is Janome's claim."
-        },
-        {
-          "q": "What thread weight can the HD9 use?",
-          "a": "One owner says Janome states the machine can use Tex 100 thread, while another capped thread at Tex 90 on a second-hand machine for car seat upholstery. Check the manual for your thread and needle."
+          "q": "How much throat space does the Janome HD9 have?",
+          "a": "Janome does not publish a needle-to-arm figure, so throat is [verify]. Its product page table gives a workspace of 8 x 5.5 in and its feature page says nearly 9 x 6 in to the right of the needle, which are Janome's workspace wording. One owner calls the space under the needle the machine's main drawback."
         }
       ]
     },
@@ -5960,15 +5898,16 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
+      "What are people saying about the Janome MC6650 sewing machine?",
+      "What is the price of a Janome MC6650 sewing machine?",
       "Does the Janome MC6650 have a free arm?",
       "Does the Janome MC6650 come with a walking foot?",
       "How much throat space does the Janome MC6650 have?",
       "Is the Janome MC6650 good for quilting?",
       "Is the Janome MC6650 heavy duty enough for denim?",
-      "What is the difference between the Janome MC6650 and the Skyline S5?",
-      "Does the MC6650 have a knee lifter?",
+      "What is the difference between the Janome MC6650 and the MC6700P?",
       "How much does the Janome MC6650 weigh?",
-      "Does the Janome MC6650 have AcuFeed?"
+      "What is the difference between the Janome MC6650 and the Skyline S5?"
     ],
     "crossShop": [
       {
@@ -6023,44 +5962,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "Does the Janome MC6650 have a free arm?",
-          "a": "No. Janome describes a 10 in all-metal seamless flatbed, and review roundups flag the lack of a free arm as a limit for cuffs and sleeves."
+          "q": "What do owners say about the Janome Memory Craft 6650?",
+          "a": "Across 28 Reddit threads and 2 retailer pages from 2019 to 2026, owners mostly praise the wide throat for quilting, the stitch quality and the automatic thread cutter. The repeated complaints are a needle threader that does not always work, a cutter that sometimes does not cut, and no walking foot in the box. Reddit leans toward people asking for help, so problems are over-represented. Amazon showed 4.6 from 312 ratings as of 2026-10-01; retailer ratings are seller-collected and skew positive."
         },
         {
-          "q": "Does the Janome MC6650 come with a walking foot?",
-          "a": "Not as a standard accessory. Janome lists AcuFeed as optional on the 6650, and owners report buying a walking foot separately."
+          "q": "How much does the Janome Memory Craft 6650 cost?",
+          "a": "Janome lists a suggested retail of $2,999 and says to contact a dealer. Amazon showed $2,099 on 2026-10-01, so buyers can pay well under list. Check what a listing includes before comparing prices."
         },
         {
-          "q": "How much throat space does the Janome MC6650 have?",
-          "a": "Janome does not publish a needle-to-arm figure. It gives a 10 in wide by 4.7 in high workspace and a 10 in flatbed, so our throat spec shows [verify]."
+          "q": "Does the Janome Memory Craft 6650 have a free arm?",
+          "a": "No. Janome describes a 10 in all-metal seamless flatbed and lists no free arm. Review roundups flag the lack of a free arm as a limit for cuffs and sleeves."
         },
         {
-          "q": "Is the Janome MC6650 good for quilting?",
-          "a": "Owners report the wide workspace works for large quilts, and Janome lists 1,000 spm and a free motion quilting foot set. Treat the 10 in as workspace width, not a long-arm throat."
+          "q": "Does the Janome Memory Craft 6650 come with a walking foot?",
+          "a": "Not as a standard accessory. Janome lists AcuFeed as an optional accessory on the 6650 and as built in on the 6700P, and one owner notes that no even feed (walking) foot came with the machine and wishes it had. A quilter's long-form review says her experience was poor until she bought the walking foot that is not in the box."
         },
         {
-          "q": "Is the Janome MC6650 heavy duty enough for denim?",
-          "a": "Janome does not put it in its HD series; the Heavy Duty title is a retailer listing claim. Main motor type and wattage are not published, so we cannot spec-check denim capability."
+          "q": "How much throat space does the Janome Memory Craft 6650 have?",
+          "a": "Janome does not publish a needle-to-arm figure, so throat is [verify]. It gives a workspace of W 10 in x H 4.7 in and a 10 in all-metal seamless flatbed. Dealers and owners call it a 10 in throat, but that is Janome's workspace wording, and owners praise it as very wide."
         },
         {
-          "q": "What is the difference between the Janome MC6650 and the MC6700P?",
-          "a": "Per Janome's pages, the 6700P adds 200 stitches and 5 alphabets, 1,200 spm, built-in AcuFeed and 17 feet, at $3,999 MSRP against $2,999. Janome gives it the same size, weight and 10 in flatbed."
+          "q": "Is the Janome Memory Craft 6650 good for quilting?",
+          "a": "Owners report the wide workspace works for large quilts, including a three-year owner who made quilts up to king size, and Janome lists 1,000 spm and a free motion quilting foot set. One owner reports the machine struggles when quilt top seams stack three or more deep. Treat the 10 in as workspace width, not a long-arm throat."
         },
         {
-          "q": "Does the Janome MC6650 have a knee lifter?",
-          "a": "Janome lists a knee lift on the 6700P. For the 6650, Janome lists an extra high presser foot lift of about 7 mm above the normal raised position."
+          "q": "Is the Janome Memory Craft 6650 heavy duty enough for denim?",
+          "a": "One owner sewed four layers of heavy denim plus two layers of interfacing without trouble. Janome does not put it in its HD series; the Heavy Duty title is a Walmart listing claim, and Janome publishes no main motor type or wattage, so we cannot spec-check denim capability."
         },
         {
-          "q": "How much does the Janome MC6650 weigh?",
-          "a": "Janome lists 24.25 lb and W 20.3 x H 11.8 x D 8.6 in."
+          "q": "What is the difference between the Janome Memory Craft 6650 and the 6700P?",
+          "a": "Per Janome's pages, the 6700P has 200 stitches plus 5 alphabets against the 6650's 170 plus 2, 1,200 spm against 1,000, and built-in AcuFeed where the 6650 has it as an option. Janome lists $3,999 MSRP for the 6700P against $2,999 for the 6650, with the same size, weight and 10 in flatbed."
         },
         {
-          "q": "Does the Janome MC6650 have AcuFeed?",
-          "a": "Not built in. Janome lists AcuFeed as an optional accessory on the 6650 and as built in on the 6700P."
-        },
-        {
-          "q": "Is the warranty valid if I buy on Amazon or at Costco?",
-          "a": "Per OCR of Janome's warranty PDF, it is void if the machine is not bought from an authorized Janome dealer in the United States. Verify the wording against the PDF and confirm the seller is authorized."
+          "q": "How much does the Janome Memory Craft 6650 weigh?",
+          "a": "Janome lists 24.25 lb and W 20.3 x H 11.8 x D 8.6 in. One owner values the machine weight for quilting stability compared with a small Brother."
         }
       ]
     },
@@ -6207,15 +6142,15 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
+      "how good is juki ddl 5550 sewing machine",
+      "Is the Juki DDL 5550 a walking foot machine?",
+      "Can a Juki DDL-555 sew leather?",
       "What is the difference between the Juki DDL-5550 and DDL-5550N?",
-      "Is the DDL-5550 a walking foot machine?",
-      "Can I use the DDL-5550 at home on a regular outlet?",
-      "How much does the DDL-5550 weigh with the table?",
+      "juki ddl-5550 price",
+      "Does the DDL-5550 have a thread trimmer?",
+      "what needle system is juki ddl 5550",
       "Does the DDL-5550 come with a servo motor or a clutch motor?",
-      "Does the DDL-5550 sew leather or denim?",
-      "How wide is the space to the right of the needle?",
-      "Is the DDL-5550 made in Japan?",
-      "Does the DDL-5550 have a thread trimmer?"
+      "Is the DDL-5550 made in Japan?"
     ],
     "crossShop": [
       {
@@ -6270,44 +6205,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "What is the difference between the Juki DDL-5550 and DDL-5550N?",
-          "a": "Juki lists the DDL-5550N, NA, NH and the -7 trimmer versions as one series, and dealers mix the DDL-5550 and DDL-5550N names. The NA is the light-weight setup, the NH the heavy-weight setup, and the -7 adds an automatic thread trimmer."
+          "q": "What do owners say about the Juki DDL-5550?",
+          "a": "Across 53 Reddit threads, 5 forum pages, 1 retailer page and 1 editorial write-up from 2013 to 2026, owners praise the clean, balanced straight stitch and often say it was worth moving up from a domestic machine. The limits are thick stacks and grippy material, and recurring problems include oil leaks, a loud clutch motor and machines arriving with broken parts. Reddit leans toward people asking for help, so problems are over-represented. Amazon showed 3.4 from 10 ratings as of 2026-10-02."
         },
         {
-          "q": "Is there a DDL-5550-6?",
-          "a": "Reddit owners often say DDL-5550-6, but no Juki document we fetched separates a -6 version. We treat those threads as the same head family, not the exact model."
+          "q": "Is the Juki DDL-5550 a walking foot machine?",
+          "a": "No. Juki lists a drop feed with a maximum stitch length of 5 mm on the base DDL-5550N, and commenters note the 5550 is not a walking foot machine. For heavy cordura, webbing and upholstery, owners recommend walking foot machines such as the Juki DNU-1541 instead."
         },
         {
-          "q": "How fast does the DDL-5550N sew?",
-          "a": "Juki lists 5,500 stitches per minute for the base DDL-5550N, 5,000 for the -7 with trimmer and 4,000 for the NA and NH. A servo motor lets you sew slower."
+          "q": "Can the Juki DDL-5550 sew leather or denim?",
+          "a": "Owner reports are mixed and lean cautious. One owner says it will not stitch grippy material such as rubber sheet or leather, and others report failures on six or more layers of duck or three or more layers of webbing. Juki lists a heavy-weight NH version at 4,000 spm with a DBx1 size 21 needle at delivery, which is a different head from the base N."
         },
         {
-          "q": "Does the DDL-5550 have an automatic thread trimmer?",
-          "a": "Not on the base DDL-5550N. Juki lists only the DDL-5550N-7 as the version with an automatic thread trimmer, at 5,000 spm and 4 mm stitch length."
+          "q": "What is the difference between the Juki DDL-5550, the DDL-5550N and the -7?",
+          "a": "Juki lists the DDL-5550N, NA, NH and the -7 trimmer versions as one series, and dealers mix the DDL-5550 and DDL-5550N names. The -7 adds an automatic thread trimmer and is listed at 5,000 spm and 4 mm, against 5,500 spm and 5 mm for the base N. The NA is the light-weight setup and the NH the heavy-weight setup, both at 4,000 spm. Reddit owners often say DDL-5550-6, but no Juki document we fetched separates a -6 version."
         },
         {
-          "q": "What needles does it use?",
-          "a": "DBx1 needles. The base N ships with a size 14 and takes sizes 9 to 18. The Juki page and catalog disagree on the metric equivalent of size 14, Nm75 against Nm90, so check the needle packet."
+          "q": "How much does the Juki DDL-5550 cost?",
+          "a": "Juki does not publish a price and sells through dealers. A Walmart marketplace listing for the head with table, servo motor and lamp, assembly required, showed $1,265.99 on 2026-09-29. Dealer bundles vary in what they include, so check the listing."
         },
         {
-          "q": "Does it come with a motor?",
-          "a": "Juki lists the head with a servomotor and control box on the -7, and an older manual names a 400 W clutch motor as standard. Dealer bundles add a table, stand and motor, so check the listing."
+          "q": "Does the Juki DDL-5550 have an automatic thread trimmer?",
+          "a": "Not on the base DDL-5550N. Juki lists only the DDL-5550N-7 as the version with an automatic thread trimmer. One new owner of the base machine finds the lack of a trimmer the hardest adjustment."
         },
         {
-          "q": "How much does it weigh?",
-          "a": "[verify]. Juki lists 81 kg total weight in the -7 table without saying what it includes, and one dealer snippet said about 75 lb for the head. Neither is a confirmed head weight."
+          "q": "What needles does the Juki DDL-5550 use?",
+          "a": "DBx1 needles. The base N ships with a size 14 and takes sizes 9 to 18, while the NH takes sizes 20 to 23 and the NA takes DAx1 sizes 9 to 11. The Juki page and catalog disagree on the metric equivalent of size 14, Nm75 against Nm90, so check the needle packet."
         },
         {
-          "q": "How much room is there to the right of the needle?",
-          "a": "[verify]. Juki publishes no arm space or throat figure for this model. One dealer lists a 10 1/4 in workspace without saying how it is measured."
+          "q": "Does the Juki DDL-5550 come with a motor, and can I run it at home?",
+          "a": "Not from the maker: it is sold as a head, and dealer bundles add a table, stand and a servo or clutch motor. Juki presents the SC-920C control box and M92 servomotor with the -7, and an older manual names a 400 W clutch motor as standard. The -7 table lists single-phase 100 to 120 V or 200 to 240 V power, so check which motor and voltage a listing includes."
         },
         {
-          "q": "Is the DDL-5550 made in Japan?",
-          "a": "Unverified. No Juki document we fetched states the country of manufacture. A Juki reply quoted in an Amazon Q&A and dealer titles say Made in Japan, but we do not publish it as fact."
-        },
-        {
-          "q": "What warranty does it carry?",
-          "a": "Juki publishes no model-specific warranty. Juki Americas lists a 90-day warranty on spare parts and refers equipment to separate sales order terms, so the dealer sets the machine warranty."
+          "q": "Is the Juki DDL-5550 made in Japan?",
+          "a": "Unverified. No Juki document we fetched states the country of manufacture. A Juki reply quoted in an Amazon Q&A and dealer titles say Made in Japan, but we do not publish it as fact [verify]."
         }
       ]
     },
@@ -6459,16 +6390,16 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
+      "juki ddl-8700 industrial sewing machine reviews",
+      "What is a Juki DDL 8700 used for?",
+      "What is the price of a new Juki DDL 8700 industrial sewing machine?",
+      "Can a Juki DDL 8700 sew leather?",
+      "What is the difference between the Juki DDL-8700, DDL-8700-7 and DDL-8700-H?",
       "Does the Juki DDL-8700 come with a table and motor?",
       "Should I get a servo motor or a clutch motor on a DDL-8700?",
-      "Can the Juki DDL-8700 sew leather?",
       "How fast is the Juki DDL-8700 and can it be slowed down?",
       "What needles does the DDL-8700 use?",
-      "Is the DDL-8700 self oiling?",
-      "What is the difference between the DDL-8700, DDL-8700-7 and DDL-8700-H?",
-      "Is the Juki DDL-8700 discontinued or replaced by the DDL-8000A?",
-      "Does the DDL-8700 use home sewing machine feet?",
-      "How heavy is a Juki DDL-8700 with the table?"
+      "juki ddl-9000cfms bag making or ddl 8700 which is better for bag making"
     ],
     "crossShop": [
       {
@@ -6523,40 +6454,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "Does the Juki DDL-8700 come with a table and motor?",
-          "a": "Not from the maker: it is sold as a head only. Dealer bundles add a table, stand and a clutch or servo motor, so check what a listing includes."
+          "q": "What do owners say about the Juki DDL-8700?",
+          "a": "Across 60 Reddit threads and 2 retailer pages from 2010 to 2026, owners most often praise the build and the smooth, quiet running. Recurring complaints are tension and top-thread trouble on heavy thread, fabric limits on thick or grippy material, and motor faults. Reddit leans toward people asking for help, so problems are over-represented."
         },
         {
-          "q": "Should I get a servo motor or a clutch motor?",
-          "a": "Owners on Quiltingboard and Backpacking Light recommend a servo for slow, controllable sewing, and the servo has a speed dial under the table."
+          "q": "What is the Juki DDL-8700 used for?",
+          "a": "It is a straight-stitch, single-needle lockstitch machine. Juki's variant table calls the base DDL-8700 medium-weight, the 8700A light-weight and the 8700H heavy-weight. Owners report bag making, where one no longer hand cranks through bulky seams, and one owner says a lockstitch machine like it is unsuited to jersey because the stitch breaks when stretched."
+        },
+        {
+          "q": "How much does the Juki DDL-8700 cost?",
+          "a": "Juki does not publish a price and sells through dealers. A Walmart marketplace listing with servo motor and table, assembly required, showed $999 on 2026-09-29, with a second listing at $899.99 and a DDL-8700-H listing at $1,004.40. Dealer bundles differ in what they include, so check the listing."
         },
         {
           "q": "Can the Juki DDL-8700 sew leather?",
-          "a": "Owner reports are mixed: a tailor sewed vegetable-tanned leather to suede on the base machine, while another owner could not sew split leather. Juki positions the DDL-8700H as the heavy-weight variant."
+          "a": "Owner reports lean cautious. One owner could not sew split or deer leather, as the top thread frayed and snapped after about ten stitches despite heavy needles and bonded nylon thread. Buyers asking about leather coats are steered to a servo motor and to the -H heavy variant, which Juki lists as heavy-weight at 4,000 spm."
         },
         {
-          "q": "How fast is it and can it be slowed down?",
-          "a": "Juki lists 5,500 stitches per minute for the base DDL-8700; the DDL-8700A and DDL-8700H are 4,000. Slow control depends on the motor, and owners point to a servo."
+          "q": "What is the difference between the Juki DDL-8700, the -7 and the -H?",
+          "a": "Per Juki's page the base DDL-8700 is medium-weight at 5,500 spm, the 8700A is light-weight and the 8700H is heavy-weight, both at 4,000 spm. The -7 is the trimmer variant per dealer and owner sources, since Juki's page names no trimmer on the base machine, and listings often mix the versions up. Marketplace titles pool these variants, so a quoted speed may belong to a different one [verify]."
         },
         {
-          "q": "What needles does the base DDL-8700 use?",
-          "a": "Juki's page lists DB x 1 in sizes 9 to 18, with 14 as standard. The DDL-8700A uses DA x 1 and the DDL-8700H uses DB x 1 in sizes 19 to 23."
+          "q": "Does the Juki DDL-8700 come with a table and motor?",
+          "a": "Not from the maker: it is sold as a head only. Dealer bundles add a table, stand, sewing light and a clutch or servo motor, so check what a listing includes. Sewing Machines Plus lists the table as shipped assembled."
         },
         {
-          "q": "Is it self oiling?",
-          "a": "Juki describes automatic lubrication of the hook with a sealed oil pan, and its manual names Juki New Defrix Oil No. 1."
+          "q": "Should I get a servo motor or a clutch motor on a Juki DDL-8700?",
+          "a": "Owners on Quiltingboard and Backpacking Light recommend a servo for slow, controllable sewing, and one owner says the servo handles slow precision stitching through to very fast stitching. Another owner whose machine has a clutch motor says they want a servo. The servo has a speed dial under the table."
         },
         {
-          "q": "What is the difference between the DDL-8700, -7 and -H?",
-          "a": "Per Juki's page the base is medium-weight at 5,500 spm and the H is heavy-weight at 4,000 spm. The -7 is the trimmer variant per dealer sources, and listings often mix them up."
+          "q": "How fast is the Juki DDL-8700, and can it be slowed down?",
+          "a": "Juki lists 5,500 stitches per minute for the base DDL-8700, while the DDL-8700A and DDL-8700H are 4,000. Slow control depends on the motor, and owners point to a servo with its speed dial."
         },
         {
-          "q": "Does it use home sewing machine feet?",
-          "a": "Quiltingboard members say the head takes standard high shank feet, and one Reddit owner reports a $30 free-motion foot worked very well."
-        },
-        {
-          "q": "How heavy is it?",
-          "a": "Juki does not publish a weight in its page or manual, so we show [verify]. A table and motor add to the head weight."
+          "q": "What needles does the Juki DDL-8700 use?",
+          "a": "Juki's page lists DB x 1 in sizes 9 to 18, with 14 as standard. The DDL-8700A uses DA x 1 and the DDL-8700H uses DB x 1 in sizes 19 to 23, so do not mix the variants up. One owner could not use the larger needle size wanted on heavy denim."
         }
       ]
     },
@@ -6701,14 +6632,14 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "What is the difference between the Juki DNU-1541 and DNU-1541S?",
+      "What is the difference between the Juki 1541 and 1541S sewing machines?",
+      "What is the price of the Juki 1541 S sewing machine?",
+      "What are the specifications of the Juki DNU-1541S?",
       "Can the DNU-1541S sew leather?",
-      "How thick can the DNU-1541S sew?",
-      "How much does the DNU-1541S weigh?",
       "Does the DNU-1541S come with a servo motor?",
       "Does the DNU-1541S have a thread trimmer?",
       "What needles does the DNU-1541S use?",
-      "Does the safety clutch on the 1541S cause timing problems?",
+      "how to oil juki dnu 1541s",
       "Can I run the DNU-1541S at home?"
     ],
     "crossShop": [
@@ -6765,47 +6696,39 @@ export const catalogData: Record<string, CatalogEntry> = {
       "faqs": [
         {
           "q": "What is the difference between the Juki DNU-1541 and DNU-1541S?",
-          "a": "The S adds a safety mechanism that disengages the hook drive when thread is caught. Some leather workers say the clutch trips on bulky seams; others recommend the S without reservation."
+          "a": "Juki's page lists the S as the DNU-1541 plus a safety mechanism that disengages the hook drive when thread jams; the other listed specs are the same. The DNU-1541-7 is a separate variant with an automatic trimmer at 3,000 spm. Owners are split on the S clutch: some leather workers say it trips on bulky seams, while others recommend the S without reservation."
+        },
+        {
+          "q": "What does the Juki DNU-1541S cost?",
+          "a": "Juki publishes dealer pricing only, so there is no list price to quote [verify]. A third-party Amazon bundle was $2,407.62 on 2026-10-01, and bundles differ in what ships with the head, such as the table, stand and servo motor. Compare what is in the box before comparing prices."
+        },
+        {
+          "q": "What are the specifications of the Juki DNU-1541S?",
+          "a": "Juki lists a single-needle unison-feed lockstitch at up to 2,500 spm with a 9 mm maximum stitch length and a 16 mm foot lift with the knee lifter. The needle system is 135x17, and Juki gives 264 mm (about 10.4 in) from needle to machine arm. The head weighs 36.5 kg (80.5 lb by our conversion), straight stitch only, with no trimmer on the S."
         },
         {
           "q": "Can the DNU-1541S sew leather?",
-          "a": "Juki's page claims it responds outstandingly to heavy materials, and dealers list a 135x16 leather needle. Owners report leather and waxed canvas work. Juki publishes no thickness rating."
-        },
-        {
-          "q": "How thick can the DNU-1541S sew?",
-          "a": "Juki publishes 16 mm clearance under the foot with the knee lift and a 2.5 to 6.5 mm alternating foot movement, but no material thickness rating. Owner figures vary and are anecdotes."
-        },
-        {
-          "q": "How much does the DNU-1541S weigh?",
-          "a": "Juki publishes 36.5 kg for the head, which is about 80.5 lb by our conversion. The DNU-1541-7 head is 42.5 kg. Table and motor add more."
+          "a": "Juki's page claims it responds outstandingly to heavy materials, and Juki publishes no thickness rating. Owners report leather and waxed canvas work, and in the owner evidence 11 of 12 voices on power with heavy fabric are positive. Dealers list a 135x16 leather needle, which is a dealer figure rather than one from a Juki document [verify]."
         },
         {
           "q": "Does the DNU-1541S come with a servo motor?",
-          "a": "Not from Juki, which sells the head and publishes dealer pricing only. Dealer bundles add a table, stand and servo motor, and one dealer quotes a 3/4 HP servo as its own claim."
+          "a": "Not from Juki, which sells the head and publishes dealer pricing only. Dealer bundles add a table, stand and servo motor, and Juki's catalog shows 750 W in an ambiguous cell while its Engineer's Manual lists a 2P 400 W motor, so confirm the motor with the dealer [verify]. Some owners find a stock production-line servo touchy at low speed."
         },
         {
           "q": "Does the DNU-1541S have a thread trimmer?",
-          "a": "No. The DNU-1541-7 variant adds an automatic trimmer and 3,000 spm; the 1541S runs at 2,500 spm."
+          "a": "No. Juki lists the automatic trimmer only on the DNU-1541-7, which also runs at 3,000 spm; the DNU-1541S runs at 2,500 spm with none. The -7 head weighs 42.5 kg against 36.5 kg for the DNU-1541S."
         },
         {
           "q": "What needles does the DNU-1541S use?",
-          "a": "System 135x17 per Juki, Nm125 to Nm180. Dealers add 135x16 for leather."
+          "a": "Juki's catalog lists system 135x17, Nm125 to Nm180, with Nm160 fitted at delivery. Dealers also list 135x16 for leather, a dealer figure that we did not find in a Juki document [verify]."
         },
         {
-          "q": "How much throat space does the DNU-1541S have?",
-          "a": "Juki gives the distance from needle to machine arm as 264 mm, about 10.4 in. The Engineer's Manual lists free space of 255 x 99 mm."
-        },
-        {
-          "q": "How fast is the DNU-1541S?",
-          "a": "Up to 2,500 stitches per minute per Juki. Owners report a servo lets you run it far slower for control."
+          "q": "How do you oil the Juki DNU-1541S?",
+          "a": "Juki's catalog specifies centralized oil wick lubrication and names Juki New Defrix Oil No. 2, an ISO VG32 equivalent. Oiling and maintenance is a recurring owner topic, and one buyer reported no oil in the bundle, so ask the dealer. We did not record an oiling interval, so follow the Juki manual [verify]."
         },
         {
           "q": "Can I run the DNU-1541S at home?",
-          "a": "Owners run servo bundles at home. You need floor space for an industrial table and a way to move a 36.5 kg head, and the motor you receive depends on the dealer."
-        },
-        {
-          "q": "Does the DNU-1541S have a warranty?",
-          "a": "Juki does not publish a warranty in the page, catalog or manuals we read, so we list it as [verify]. Ask the dealer for terms in writing, since a Juki Engineer's Manual is hosted by a third-party dealer and says nothing on it either."
+          "a": "Owners run servo bundles at home. You need floor space for an industrial table and a way to move a 36.5 kg head, and the motor you receive depends on the dealer. Owners who sew light garment fabric report that a drop-feed straight stitch machine suits that work better."
         }
       ]
     },
@@ -6960,14 +6883,15 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "What is the difference between the Juki HZL-F300 and HZL-F600?",
-      "How big is the throat on the HZL-F300?",
-      "Does the HZL-F300 come with an extension table?",
+      "What is the price of the JUKI HZL-F300 sewing quilting machine?",
+      "What is the throat space on the Juki HZL-F300?",
+      "juki f300 vs f600",
+      "juki hzl f300 vs f400",
       "Is the HZL-F300 good for quilting?",
-      "Is the HZL-F300 a good first computerized machine?",
-      "Does the HZL-F300 have an automatic thread cutter?",
-      "What needles does the HZL-F300 use?",
-      "How many buttonholes does the HZL-F300 have?"
+      "juki f300 problems",
+      "what does juki hzl-f300 weight",
+      "what bobbins for juki hzl-f300",
+      "Does the HZL-F300 come with an extension table?"
     ],
     "crossShop": [
       {
@@ -7022,40 +6946,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
+          "q": "What is the price of the Juki HZL-F300?",
+          "a": "Juki's suggested retail price is $1,799, and dealers set their own prices. Michaels showed $799 on 2026-09-29, so most buyers will see a figure well under list. Check what is in the box before comparing, since the walking foot, quilt foot, wide table and knee lifter are not standard."
+        },
+        {
+          "q": "How big is the throat on the Juki HZL-F300?",
+          "a": "Juki publishes no needle-to-arm figure for the F300. Dealer sheets say 8 in and one Amazon bundle title says 9 in, neither from Juki, so we show throat as [verify]. Juki's brochure shows a 112 mm (4.5 in) underarm height and a 551 mm wide-table width, and neither is throat."
+        },
+        {
           "q": "What is the difference between the Juki HZL-F300 and HZL-F600?",
-          "a": "Juki lists the F600 with 225 stitches, 4 fonts, dual LEDs and the walking foot, quilt foot, wide table and knee lifter as standard. The F300 has 106 stitches, 3 fonts and one LED, with those accessories optional. Both are 900 spm box-feed machines with 16 buttonholes."
+          "a": "Per Juki's pages and brochure, the F600 has 225 stitches and 4 fonts against 106 and 3 on the F300, and two LED lights against one. The F600 lists the walking foot, quilt foot, wide table and knee lifter as standard, while they are options on the F300. Juki lists $2,369 for the F600 and $1,799 for the F300."
         },
         {
-          "q": "How big is the throat on the HZL-F300?",
-          "a": "Juki publishes no needle-to-arm figure for the F300. Dealer sheets say 8 in and one Amazon bundle title says 9 in, neither from Juki. Juki's brochure shows a 4.5 in (112 mm) underarm height and a 551 mm wide-table width, neither of which is throat."
+          "q": "What is the difference between the Juki HZL-F300 and HZL-F400?",
+          "a": "Juki lists the F400 with 157 stitches and 3 fonts against 106 and 3 on the F300. The walking foot, patchwork foot, quilt foot and knee lifter are standard on the F400, and the wide table is an option. Juki's suggested retail is $1,999 for the F400, $200 above the F300's $1,799."
         },
         {
-          "q": "Does the HZL-F300 come with an extension table?",
+          "q": "Is the Juki HZL-F300 good for quilting?",
+          "a": "Owners report thick layers feeding well on the box feed, with a few reporting glitches on very heavy fabric. Juki publishes no throat figure, and its standard list has no walking foot, quilt foot or wide table, so check arm space against your quilt size and price the extras. Dealer throat figures are not Juki numbers [verify]."
+        },
+        {
+          "q": "What problems do owners report with the Juki HZL-F300?",
+          "a": "Reliability and defects is a recurring owner theme: 13 of the 18 voices on it are negative, with reports such as a broken bobbin gear and one former owner calling the machine a lemon. Accessories are the other repeated complaint, as owners report buying the walking foot, quilt foot and table separately. Reddit leans toward people asking for help, so problems are over-represented."
+        },
+        {
+          "q": "How heavy is the Juki HZL-F300?",
+          "a": "Juki gives 21.6 lb (9.8 kg), and one dealer says 21 lb. Juki's page lists 17.5 in wide, 11.5 in high and 8.25 in deep."
+        },
+        {
+          "q": "What bobbins and needles does the Juki HZL-F300 use?",
+          "a": "Juki's page lists a class 15 bobbin and 130R / 705H needles with a low shank. The box holds 4 bobbins and a needle set."
+        },
+        {
+          "q": "Does the Juki HZL-F300 come with an extension table?",
           "a": "Not in Juki's standard list: the wide table is optional on the F300. One dealer says a table is included and bundle listings add one, so check the contents of the listing you buy."
-        },
-        {
-          "q": "Does the HZL-F300 have a knee lifter?",
-          "a": "Juki lists the knee lifter as optional on the F300 and standard on the F400 and F600. Some dealer pages show one in the box; confirm on the listing."
-        },
-        {
-          "q": "Is the HZL-F300 good for quilting?",
-          "a": "QuiltingBoard members ask the same question, and owners report piecing working well. Juki gives no throat figure, and the walking foot and quilt foot are not standard, so check the arm space against your quilt size."
-        },
-        {
-          "q": "How many stitches does the HZL-F300 have?",
-          "a": "106 per Juki's product page and brochure, including 16 buttonholes and 3 fonts. The shared 2009 manual says 105 on its stitch-selection page."
-        },
-        {
-          "q": "What needles does the HZL-F300 use?",
-          "a": "Juki lists 130R / 705H needles with a low shank."
-        },
-        {
-          "q": "How heavy is the HZL-F300?",
-          "a": "21.6 lb (9.8 kg) per Juki; one dealer says 21 lb."
-        },
-        {
-          "q": "What is the warranty on the HZL-F300?",
-          "a": "Juki America's FAQ gives 2 years on motors, light assembly, wiring, switches, circuit boards and speed control, and 5 years on other parts for factory defects. The wording is the same for every Juki model, and service goes through the selling dealer."
         }
       ]
     },
@@ -7210,15 +7134,16 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
+      "What are people saying about the Juki HZL-F600 sewing machine?",
+      "What is the price of the Juki HZL-F600 sewing machine?",
+      "What are the features of the Juki HZL-F600 quilting and sewing machine?",
+      "How much does the Juki HZL-F600 weigh?",
+      "juki f600 and f300 series",
       "How big is the throat on the Juki HZL-F600?",
-      "Is the HZL-F600 good for free motion quilting?",
-      "What is the difference between the HZL-F300 and HZL-F600?",
       "Does the HZL-F600 come with a walking foot and extension table?",
       "Can the HZL-F600 sew denim and thick layers?",
-      "What needles does the HZL-F600 use?",
-      "Does the HZL-F600 have a knee lifter?",
-      "How heavy is the HZL-F600?",
-      "What is the warranty on the HZL-F600?"
+      "what needles for juki f600",
+      "juki f600 vs dx7"
     ],
     "crossShop": [
       {
@@ -7273,48 +7198,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
+          "q": "What do owners say about the Juki HZL-F600?",
+          "a": "Owners mostly praise how quiet it runs, how it feeds knits and heavier fabric, the threading, the workspace and the lights. The repeated complaints are reliability reports such as timing, bobbin case and tension problems, and oiling and maintenance, which draw more criticism than praise. Reddit leans toward people asking for help, so problems are over-represented."
+        },
+        {
+          "q": "What is the price of the Juki HZL-F600?",
+          "a": "Juki's suggested retail price is $2,369, and Juki tells buyers to ask a dealer for pricing. Michaels showed $1,399 on 2026-09-29, and a second Michaels listing showed $1,499 the same day. Dealers set their own prices, so compare dated listings and what is included."
+        },
+        {
+          "q": "What are the features of the Juki HZL-F600?",
+          "a": "Juki lists 225 stitches including 16 sensor buttonholes and 4 lettering fonts, a 900 spm top speed and a box feed with a 7-point feed dog. It trims thread by button, programmed trim or the heel of the foot controller, and the brochure lists dual LED lights. Juki's page lists 12 presser feet, a wide table, a hard case and a knee lift lever as standard."
+        },
+        {
+          "q": "How heavy is the Juki HZL-F600?",
+          "a": "21.6 lb (9.8 kg) per Juki's page, brochure and manual, the same as the F300 and F400. Juki's page gives 17.5 in wide, 11.5 in high and 8.25 in deep."
+        },
+        {
+          "q": "What is the difference between the Juki HZL-F300 and HZL-F600?",
+          "a": "Per Juki pages and brochure: 225 stitches and 4 fonts against 106 and 3, two LED lights against one, random stitches on the F600 only, and the wide table and knee lever standard on the F600 but optional on the F300. Speed, needle, weight and size are identical. Juki lists $2,369 against $1,799."
+        },
+        {
           "q": "How big is the throat on the Juki HZL-F600?",
           "a": "Juki does not publish one. Dealers quote 8 in to the right of the needle and one QuiltingBoard owner measured about 7.75 in, so we show it as [verify]. Juki's brochure marks 551 mm and 112 mm on a wide-table picture without defining them."
         },
         {
-          "q": "Is the HZL-F600 good for free motion quilting?",
-          "a": "Owners are split. It has a drop feed switch and a knee lifter, and several owners quilt on it; others say the harp is small for large tops. With no published throat, check the size yourself."
-        },
-        {
-          "q": "What is the difference between the HZL-F300 and HZL-F600?",
-          "a": "Per Juki pages and brochure: 225 stitches and 4 fonts against 106 and 3, two LED lights against one, random stitches on the F600 only, and the wide table standard on the F600 and optional on the F300. Speed, needle, weight and size are identical. Juki lists $2,369 against $1,799."
-        },
-        {
-          "q": "Does the HZL-F600 come with a walking foot and extension table?",
+          "q": "Does the Juki HZL-F600 come with a walking foot and extension table?",
           "a": "Yes per Juki's page: 12 presser feet including a walking foot and a quilt foot, a wide table, a hard case and a knee lift lever. Juki calls one foot 'smooth'; some dealers call it Teflon."
         },
         {
-          "q": "Can the HZL-F600 sew denim and thick layers?",
-          "a": "Owners report denim aprons, four layers of denim and multi-layer quilting cotton, and one says a very thick seam may need hand walking. Juki's brochure claims heavy projects like denim hems sew with ease and publishes no motor rating or maximum thickness."
+          "q": "Can the Juki HZL-F600 sew denim and thick layers?",
+          "a": "Owners report denim aprons, four layers of denim and multi-layer quilting cotton, and one says a very thick seam may need hand walking. Juki's brochure claims heavy projects like denim hems sew with ease, and Juki publishes no motor rating or maximum thickness."
         },
         {
-          "q": "What needles does the HZL-F600 use?",
-          "a": "130R / 705H, low shank, per Juki's page."
-        },
-        {
-          "q": "How heavy is the HZL-F600?",
-          "a": "21.6 lb (9.8 kg) per Juki's page, brochure and manual, the same as the F300 and F400."
-        },
-        {
-          "q": "What is the warranty on the HZL-F600?",
-          "a": "Juki America's general home-machine wording: 2 years on motor and electrical parts, 5 years on all other parts, original purchaser, household use, service through the selling dealer. Juki's text has no 90-day adjustment term; only dealers state that."
-        },
-        {
-          "q": "Does the HZL-F600 have an automatic thread cutter?",
-          "a": "Yes. It trims by button or by pressing the heel of the foot controller. Some owners report occasional misses and a small thread nest at the next seam start."
-        },
-        {
-          "q": "What is the HZL-F600 manual and are the Juki documents current?",
-          "a": "The manual is a 104-page image PDF shared by the F600, F400 and F300, read by OCR, with a 2009 copyright. The brochure is dated 0904. Both are family documents; the product page is current."
-        },
-        {
-          "q": "What do buyers rate it?",
-          "a": "One Amazon listing (B00JGCAHWE) showed 4.5 from 235 ratings. A second listing (B0038KOX8O, 4.5 from 299) was not fetched. Sewing Machines Plus showed 4.81 from 153. Retailer ratings are seller-collected and skew positive."
+          "q": "What needles and bobbins does the Juki HZL-F600 use?",
+          "a": "Juki's page lists 130R / 705H needles with a low shank and a class 15 drop-in bobbin. The box holds 4 bobbins."
         }
       ]
     },
@@ -7470,15 +7387,15 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
+      "What is the price of the Juki MO-1000 serger?",
+      "Can you provide a review of the Juki MO-1000 serger?",
+      "how to thread juki mo 1000",
       "Does the Juki MO-1000 thread the needles automatically too?",
-      "Can you thread the MO-1000 by hand if the air system fails?",
-      "Is the MO-1000 loud?",
-      "What comes in the box with the MO-1000?",
       "Is air threading worth the price jump from the MO-654DE?",
+      "Is the MO-1000 loud?",
       "How much does the MO-1000 weigh?",
-      "What is the MO-1000 warranty?",
-      "Does the MO-1000 have a free arm?",
-      "Can the MO-1000 do a 2-thread stitch?"
+      "What comes in the box with the MO-1000?",
+      "What is the MO-1000 warranty?"
     ],
     "crossShop": [
       {
@@ -7533,44 +7450,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "Is the Juki MO-1000 air threaded?",
-          "a": "Yes. Juki's page describes push-button air threading for both loopers, in any order, plus an automatic needle threader. Juki's wording is a claim; owners report the needle threader is the less reliable part."
+          "q": "What is the price of the Juki MO-1000?",
+          "a": "Juki's suggested retail price is $2,299, and Juki tells buyers to ask an authorized dealer for pricing. Sewing Machines Plus showed about $1,499 on 2026-09-29. Dealers set their own prices, so confirm the price and what is included in writing."
         },
         {
-          "q": "What is the MO-1000 throat space?",
-          "a": "Juki publishes a throat height of 72.4 mm (2.85 in) and calls it 'Ample Fabric Throat Area'. It gives no needle-to-arm figure, so the needle-to-body throat stays [verify] here."
+          "q": "What do owners say about the Juki MO-1000?",
+          "a": "The owner read is thin, with 35 voices from Reddit and retailer reviews. Owners mostly praise the air threading, with 13 of the 20 voices on threading positive, and the quiet running. The needle threader is the weak point, a few owners report defects, and tension and rolled hem draw some criticism. Reddit leans toward people asking for help, so problems are over-represented."
         },
         {
-          "q": "How much does the MO-1000 weigh and how big is it?",
-          "a": "Juki's page gives 20 lb and 13 x 11 x 12.25 in (W x D x H). The brochure gives 9.0 kg (19.8 lb) and 330 x 280 x 310 mm. Larger figures in reviews read as shipping weight and carton size."
+          "q": "How do you thread the Juki MO-1000?",
+          "a": "Per Juki's page, push 1/2 to 1 in of thread into each looper threading hole and press the air-control pushbutton; the brochure says 1 to 2 cm, so the exact length is [verify]. Juki says you do not need to thread in order, which is Juki's claim. The needles use a lever-operated automatic threader."
         },
         {
-          "q": "What is the MO-1000 differential feed range?",
-          "a": "Juki gives 0.7 to 2.0 on its page and brochure, adjustable with a knob while sewing."
+          "q": "Does the Juki MO-1000 thread the needles automatically too?",
+          "a": "Yes per Juki, which lists an automatic needle threader that works by a lower lever. Owners report it as the weak point: needle threading was described as harder than the loopers, and one retailer review had a plastic threader break twice."
         },
         {
-          "q": "What is the MO-1000 warranty?",
-          "a": "Juki America's general home-machine wording is 2 years on motors, light assembly, wiring, switches, circuit boards and speed control, and 5 years on other parts for factory defects, with service through the selling dealer. That wording is not stated as MO-1000 specific, and one dealer quotes a 1 year service warranty. Get the terms in writing."
-        },
-        {
-          "q": "What needles does the MO-1000 use?",
-          "a": "Juki's page and brochure say household machine size 11 or 14 and name no needle system code. The manual, read by OCR (verify against the PDF), gives needle guidance of No. 70 to 90."
-        },
-        {
-          "q": "What is in the box with the MO-1000?",
-          "a": "Juki lists a standard presser foot, waste collector, spare lower knife, guide bar, 2/3 thread selector, screwdrivers, oiler, thread nets, needle pack, tools, accessory pouch, foot control and manual. An instructional DVD, foam thread pad and cone holders are not on Juki's list."
-        },
-        {
-          "q": "How does the MO-1000 compare with the MO-654DE and MO-644D?",
+          "q": "How does the Juki MO-1000 compare with the MO-654DE and MO-644D?",
           "a": "From Juki's pages: the MO-654DE ($1,399 suggested) and MO-644D ($1,199) thread the loopers manually, have a 6 mm maximum overlock width against 9 mm, and weigh 15.5 lb and 15 lb against 20 lb. The MO-1000 lists at $2,299."
         },
         {
-          "q": "How much owner evidence is there for the MO-1000?",
-          "a": "Limited. The rollup holds 35 voices, 28 of them first-hand, drawn from Reddit and retailer reviews, and only 3 Reddit threads name the model in the title. Amazon shows 4.3 from 172 ratings and Sewing Machines Plus 4.34 from 29. Treat themes as signals, not failure rates."
+          "q": "Is the Juki MO-1000 loud?",
+          "a": "Juki claims amazingly quiet operation and says its sound reducing design minimizes noise, which are Juki's claims. In the owner evidence, 6 voices describe quiet running or little vibration and none are negative, but all 6 are retailer reviews."
         },
         {
-          "q": "Is the MO-1000 discontinued?",
-          "a": "Juki's page presents it for sale with a dealer lookup and does not say it is discontinued."
+          "q": "How much does the Juki MO-1000 weigh and how big is it?",
+          "a": "Juki's page gives 20 lb and 13 x 11 x 12.25 in (W x D x H). The brochure gives 9.0 kg (19.8 lb) and 330 x 280 x 310 mm. Larger figures in reviews read as shipping weight and carton size."
+        },
+        {
+          "q": "What is in the box with the Juki MO-1000?",
+          "a": "Juki lists a standard presser foot, waste collector, spare lower knife, guide bar, 2/3 thread selector, screwdrivers, oiler, thread nets, needle pack, tools, accessory pouch, foot control and manual. An instructional DVD, foam thread pad and cone holders are not on Juki's list."
+        },
+        {
+          "q": "What is the Juki MO-1000 warranty?",
+          "a": "Juki America's general home-machine wording is 2 years on motors, light assembly, wiring, switches, circuit boards and speed control, and 5 years on other parts for factory defects, with service through the selling dealer. That wording is not stated as MO-1000 specific, and one dealer quotes a 1 year service warranty. Get the terms in writing [verify]."
         }
       ]
     },
@@ -7717,14 +7630,17 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "What is the difference between the Juki MO-644D and MO-654DE?",
+      "Can you provide a review of the Juki MO-644D serger?",
+      "Which serger is better, the Juki MO654DE or the Brother 1034D?",
       "Does the MO-644D do 2-thread stitches?",
-      "Is the MO-644D good for beginners?",
       "Can the MO-644D do a rolled hem?",
-      "Does the MO-644D have a free arm?",
+      "juki mo-644d price",
+      "how to thread juki mo-644d serger",
       "What needles does the MO-644D use?",
-      "Is the MO-644D better than the Brother 1034D?",
-      "How heavy is the MO-644D?"
+      "Is Juki MO-644D serger good for beginners?",
+      "How heavy is the MO-644D?",
+      "What are people saying about the Juki MO654DE serger?",
+      "Is the MO-644D better than the Brother 1034D?"
     ],
     "crossShop": [
       {
@@ -7779,44 +7695,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
+          "q": "What do owners say about the Juki MO-644D?",
+          "a": "Owners are mixed but mostly kind. Threading draws the most comments, with some calling it manageable and others reporting thread breakage or chaining trouble, and build quality gets praise. Oiling and maintenance, tension and units that lock up draw the complaints. The read is thin, and Reddit leans toward people asking for help, so problems are over-represented."
+        },
+        {
           "q": "What is the difference between the Juki MO-644D and MO-654DE?",
-          "a": "Juki's catalog lists the 2/3 thread converter as optional on the MO-644D and standard on the MO-654DE. The 654DE page also lists a lower looper threader, and Juki prints a higher suggested retail price for it."
+          "a": "Juki's catalog lists the 2/3 thread converter as optional on the MO-644D and standard on the MO-654DE. The 654DE page also lists a lower looper threader, and it publishes 15.5 lb against the MO-644D's 15 lb. Juki prints a higher suggested retail price for the 654DE."
         },
         {
-          "q": "Does the MO-644D do 2-thread stitches?",
-          "a": "Juki's page lists 2/3/4 thread, but the catalog lists the 2/3 thread converter as optional, so 2-thread stitches need that converter."
+          "q": "Does the Juki MO-644D do 2-thread stitches?",
+          "a": "Juki's page lists 2/3/4 thread, but the catalog lists the 2/3 thread converter as optional and it is not in the standard accessory list, so 2-thread stitches need that converter."
         },
         {
-          "q": "Can the MO-644D do a rolled hem?",
-          "a": "Juki says rolled hemming is built in, with no needle plate or foot change. Juki publishes a 2 mm rolled hem width; the rolled hem stitch length is not confirmed for this model."
+          "q": "Can the Juki MO-644D do a rolled hem?",
+          "a": "Juki says rolled hemming is built in, set by a switch with no needle plate or foot change. Juki publishes a 2 mm rolled hem width; the rolled hem stitch length is not confirmed for this model [verify]."
         },
         {
-          "q": "Does the MO-644D have a free arm?",
-          "a": "[verify] Juki's page, catalog and manual do not state it either way. An owner site says no."
+          "q": "What is the price of the Juki MO-644D?",
+          "a": "Juki prints a suggested retail price of $1,199 and tells buyers to contact an authorized dealer. Michaels showed $449 on 2026-09-29, a wide gap from list, so dealers set their own prices. Check what is in the box when you compare."
         },
         {
-          "q": "What needles does the MO-644D use?",
+          "q": "How do you thread the Juki MO-644D?",
+          "a": "Juki describes color-coded guides, a manual lay-in path and a lower looper threaded through the front door, with a looper threader in the accessory list. Owners are split: 5 of the 10 voices on threading and loopers are positive and 2 are negative, and one retailer review says it arrived threaded. Follow the diagram in the manual, which is a related MO-644DN/654DEN edition."
+        },
+        {
+          "q": "What needles does the Juki MO-644D use?",
           "a": "Juki's page lists household HAx1 needles in sizes 11 to 14. The linked manual, a related MO-644DN/654DEN edition, names 130/705H, the same household family."
         },
         {
-          "q": "How heavy is the MO-644D?",
-          "a": "Juki's page and catalog give 15 lb; the manual gives 7.0 kg."
+          "q": "Is the Juki MO-644D good for beginners?",
+          "a": "Owners report mixed experiences with threading: some call it easy and others had thread breakage or chaining trouble. Juki calls it easy to operate, which is a maker claim. A beginner should also price the optional 2-thread converter if 2-thread stitches matter."
         },
         {
-          "q": "How fast is the MO-644D?",
-          "a": "Juki publishes a maximum of 1,500 stitches per minute."
-        },
-        {
-          "q": "How big is the MO-644D?",
-          "a": "Juki's page gives 10.6 W x 13.5 H x 11.5 D in, while its catalog labels height and depth the other way round, so treat size as soft. Throat space is not published."
-        },
-        {
-          "q": "What do buyers rate it at the retailer?",
-          "a": "Amazon shows 4.4 from 632 ratings for the MO644D listing. Sewing Machines Plus shows 4.82 from 34 reviews, but that count is pooled across models, so it is not a rating for this machine."
-        },
-        {
-          "q": "Is the MO-644D good for beginners?",
-          "a": "Owners report mixed experiences with threading: some call it easy and others had thread breakage or chaining trouble. Juki calls it easy to operate, which is a maker claim."
+          "q": "How heavy is the Juki MO-644D?",
+          "a": "Juki's page and catalog give 15 lb; the manual gives 7.0 kg. Juki's page gives 10.6 W x 13.5 H x 11.5 D in, while its catalog labels height and depth the other way round, so treat size as soft."
         }
       ]
     },
@@ -7960,15 +7872,16 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
+      "What are people saying about the Juki MO654DE serger?",
+      "What is the price of the Juki MO-654DE?",
+      "Which serger is better, the Juki MO654DE or the Brother 1034D?",
+      "What are the key differences between the Juki Mo 644D and 654DE sergers?",
+      "how to thread juki mo-654de",
       "Is the Juki MO-654DE good for beginners?",
       "Can the MO-654DE do a rolled hem?",
-      "Does the MO-654DE have a free arm?",
-      "What thread should I use in the MO-654DE?",
-      "What is the difference between the MO-654DE and MO-644D?",
-      "Is the MO-654DE worth the extra money over the Brother 1034D?",
       "How loud is the MO-654DE?",
-      "What needles does the MO-654DE take?",
-      "Does the MO-654DE include a 2-thread converter?"
+      "which needles do i use for the juki pearl line mo-654de",
+      "Can you provide a review of the Juki MO-644D serger?"
     ],
     "crossShop": [
       {
@@ -8017,40 +7930,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
+          "q": "What do owners say about the Juki MO-654DE?",
+          "a": "Across 33 Reddit threads and 2 retailer pages, owners mostly describe a sturdy serger that copes with thick layers such as fleece, canvas and denim. Threading splits opinion: color-coded guides and videos help many, while others call it a chore. The repeated complaints are tension that would not settle after a long idle period or a thread change, and a lower looper that kept snapping on one machine. Reddit leans toward people asking for help, so problems are over-represented."
+        },
+        {
+          "q": "What is the price of the Juki MO-654DE?",
+          "a": "Juki lists a suggested retail of $1,399 and tells buyers to contact an authorized dealer. Michaels showed $399.99 on 2026-09-29, so most buyers pay far less than list. Bundles and kits cost more, so check what is in the box before you compare. Prices drift weekly, so use the price band on this page as the stable guide."
+        },
+        {
+          "q": "Is the Juki MO-654DE worth the extra money over the Brother 1034D?",
+          "a": "Owners who have used both say the Juki is sturdier and easier to service yourself, at a higher price. One owner who moved up from a 1034D calls the Juki a whole new world, and another says it runs quieter than their Brother. These are owner opinions, not a hands-on comparison."
+        },
+        {
+          "q": "What is the difference between the Juki MO-654DE and the MO-644D?",
+          "a": "Owners on PatternReview say the 654DE puts the differential and stitch length dials outside the door and handles thicker layers, while the 644D needs a separate 2-thread converter. One owner of a 644D found the 654DE better after one use. We have not checked this against a 644D spec sheet [verify]."
+        },
+        {
+          "q": "How do you thread the Juki MO-654DE, and is it hard?",
+          "a": "Juki lists color-coded threading guides and a lower looper threader that disengages, and the front cover opens for looper access. Juki's own words for threading are marketing claims, so judge it by owners: 11 of the 16 voices who mention threading are positive and say the color coding and videos helped, while others call it a chore typical of sergers without air threading. Plan on learning it from the manual."
+        },
+        {
           "q": "Is the Juki MO-654DE good for beginners?",
-          "a": "Owners are split on threading: color-coded guides help, but several call it a chore. It suits a beginner willing to learn manual threading from the manual or videos."
+          "a": "It suits a beginner who is willing to learn manual threading from the manual or videos. Owners are split on threading, and the machine has no free arm and no air threading. Juki's color-coded guides help once you know the thread path."
         },
         {
-          "q": "Can the MO-654DE do a rolled hem?",
-          "a": "Yes. Juki lists a built-in rolled hem, in 3-thread and 2-thread forms, with a 2 mm rolled hem needle position in the manual."
+          "q": "Can the Juki MO-654DE do a rolled hem?",
+          "a": "Yes. Juki lists a built-in rolled hem, in 3-thread and 2-thread forms, and its manual gives a 2 mm rolled hem stitch width."
         },
         {
-          "q": "Does the MO-654DE have a free arm?",
-          "a": "No. The machine has no free arm."
+          "q": "How loud is the Juki MO-654DE?",
+          "a": "Owners disagree. Of the 10 voices who mention noise, 8 are positive, with several calling it quiet, and 2 are negative, including one who calls it very noisy and the machine's one drawback. All 10 come from retailer reviews that do not name the model, so treat this as soft [verify]. Juki publishes no noise figure we could source."
         },
         {
-          "q": "What needles does the MO-654DE take?",
-          "a": "Juki's page lists household HAx1 #11 to 14 and the manual lists 130/705H. These are the same household flat-shank family."
-        },
-        {
-          "q": "Does the MO-654DE include a 2-thread converter?",
-          "a": "Yes. Juki's page lists the 2/3 thread converter as a standard accessory, and the machine also has a built-in 2-thread converter per our spec sources."
-        },
-        {
-          "q": "What is the difference between the MO-654DE and MO-644D?",
-          "a": "Owners on PatternReview say the 654DE moves the differential and length dials outside the door and handles thicker layers. We have not verified this against a 644D spec sheet."
-        },
-        {
-          "q": "Is the MO-654DE worth the extra money over the Brother 1034D?",
-          "a": "Owners who have used both say the Juki is sturdier and easier to service yourself, at a higher price. It also adds 2-thread stitches."
-        },
-        {
-          "q": "How loud is the MO-654DE?",
-          "a": "Owner reports conflict: one retailer's reviewers split between calling it quiet and very noisy. Juki publishes no noise figure we could source."
-        },
-        {
-          "q": "How fast is the MO-654DE?",
-          "a": "Juki lists a maximum of 1,500 stitches per minute in both the product page and the manual."
+          "q": "What needles does the Juki MO-654DE take?",
+          "a": "Juki's page lists household HAx1 needles in sizes 11 to 14 and the manual lists 130/705H, the same household flat-shank family. One owner traced a no-serge fault to timing and wrong-sized needles, so match the size to the manual before blaming the machine."
         }
       ],
       "realCost": [
@@ -8189,15 +8102,17 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "What is the difference between the Juki TL-18QVP and the TL-2010Q?",
-      "Is the TL-18QVP a long arm?",
-      "How big is the throat on the TL-18QVP?",
+      "What are people saying about the Juki TL-18QVP sewing machine?",
+      "What are the differences between the Juki TL-18 and TL-2010Q sewing machines?",
+      "juki tl-18qvp price",
       "What is the Float function on the Haruka?",
-      "Does the TL-18QVP do zigzag or only straight stitch?",
-      "What needles does the TL-18QVP use?",
+      "How big is the throat on the TL-18QVP?",
+      "Is the TL-18QVP a long arm?",
+      "how to thread juki tl-18qvp",
+      "juki tl-18qvp accessories",
       "Can the TL-18QVP go on a quilting frame?",
-      "What is the Juki QVP warranty?",
-      "How much does the TL-18QVP cost and why does the price vary by dealer?"
+      "Is the Juki TL series high or low shank?",
+      "janome hd9 vs juki tl18qvp"
     ],
     "crossShop": [
       {
@@ -8256,40 +8171,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "What is the difference between the Juki TL-18QVP and the TL-2010Q?",
-          "a": "Juki lists a float function and a mounting plate for the TL-18QVP and not for the TL-2010Q. Owners say it also has nine feet to four, a micro lifter and better lighting. A retailer explainer says throat and speed match."
+          "q": "What do owners say about the Juki TL-18QVP?",
+          "a": "Owners praise its speed and its power through thick layers such as vinyl bag panels, and several find the throat plentiful. Four owners call it very heavy. The repeated complaints are a walking foot that sheds black dust or shavings, thread trimmer limits (one owner says it handles only Tex 30 to 40 thread, and one unit's sensor cut at random) and an automatic threader that never worked for one owner. The read covers 41 first-hand voices from 32 Reddit threads, 2021 to 2026, and Reddit leans toward people asking for help, so problems are over-represented."
         },
         {
-          "q": "Is the TL-18QVP a long arm?",
-          "a": "No. The 18 is a model designation. The 8.5 in figure is a domestic-class throat, well under the 16 to 18 in mid-arm range."
+          "q": "What is the difference between the TL-18QVP and the TL-2010Q?",
+          "a": "Juki lists a float function (micro lifter) and an attachment mounting plate for the TL-18QVP and not for the TL-2010Q, and its brochure lists nine standard feet for the 18QVP. Owners say the 18QVP has nine feet against four on the 2010Q and better lighting, and Juki lists 4-step adjustable LED lighting for it. Juki lists $2,369 for the TL-18QVP and $2,169 for the TL-2010Q. One owner found the micro lifter not useful for bag making and recommends the 2010Q for that. Feet and lighting comparisons rest on owner comments and Juki pages, not a side-by-side test [verify]."
         },
         {
-          "q": "How big is the throat on the TL-18QVP?",
-          "a": "Dealers give 8.5 in. Juki's own documents say 'arm size' 8.5 x 6 in and jukiquilting.com gives no figure, so treat 8.5 in as dealer-sourced."
+          "q": "What is the price of the Juki TL-18QVP?",
+          "a": "Juki lists a suggested retail of $2,369 and tells buyers to contact an authorized Juki QVP dealer. Amazon showed $1,899 on 2026-10-01, so most buyers pay under list. Dealer prices vary with the kit, so check what is included before you compare. Prices drift weekly, so use the price band on this page as the stable guide."
         },
         {
-          "q": "What is the Float function on the Haruka?",
-          "a": "Juki describes it as a micro lifter: the presser foot floats 0 to 2 mm above the material. Owners are split: one finds it handy on very thick seams, another found it not useful for bag making."
+          "q": "What is the float function on the Juki TL-18QVP?",
+          "a": "Juki describes it as a micro lifter: the presser foot floats 0 to 2 mm above the material. Owners are split. One uses it rarely, mostly for free motion quilting over very thick seams such as appliqué, another calls it occasionally useful with heavy leather, and a third found it not useful for bag making and says the TL-2010Q is the better recommendation."
         },
         {
-          "q": "Does the TL-18QVP do zigzag or only straight stitch?",
-          "a": "Straight stitch only, single needle lockstitch, per Juki's page."
+          "q": "How much throat space does the Juki TL-18QVP have?",
+          "a": "Dealers give 8.5 in. Juki Japan's Collector's Edition page and the Juki brochure diagram give an 'arm size' of 8.5 x 6 in, jukiquilting.com gives no figure, and Juki does not say the 8.5 in is measured needle to body, so treat it as soft [verify]. The 23 in Juki lists is the work area with the auxiliary table attached, not throat space."
         },
         {
-          "q": "What needles does the TL-18QVP use?",
-          "a": "HA x 1 (130/705H) in sizes #9 to #18, high shank, per Juki's page."
+          "q": "Is the Juki TL-18QVP a long-arm machine?",
+          "a": "No. The 18 is a model designation, not inches. The 8.5 in figure is a domestic-class throat, well under the 16 to 18 in mid-arm range, and the 23 in work area depends on the auxiliary table."
         },
         {
-          "q": "Can the TL-18QVP go on a quilting frame?",
-          "a": "Juki's pages list a mounting plate for it. The machine has no stitch regulator, so confirm frame fit and what you would control by hand with your dealer."
+          "q": "How do you thread the Juki TL-18QVP, and does the needle threader work?",
+          "a": "Juki lists an automatic needle threader, and owners are not fond of it: of the 3 voices who mention threading, 2 are negative. One owner never got it working and is considering a separate threader, another found the semi-automatic threader easy to use, and one notes the thread stand cannot be removed without taking off the side panel."
         },
         {
-          "q": "What is the Juki warranty?",
-          "a": "Juki America's general FAQ gives 2 years on motor and electrical parts and 5 years on other factory defects. That is not TL-18QVP-specific wording, so confirm it with the seller."
+          "q": "What feet and accessories come with the Juki TL-18QVP?",
+          "a": "Juki lists nine presser feet: standard, hemming, zipper, even feed, 1/5 in and 1/4 in quilting, open-toe quilting, 1/4 in compensating and 1/4 in. It also lists a quilt guide, an auxiliary table and a knee lifter. One owner says neither this machine nor the TL-2010Q includes a free motion ruler foot or the narrow hinge foot, and owners report walking foot problems."
         },
         {
-          "q": "Why does the TL-18QVP price vary by dealer?",
-          "a": "Juki publishes a suggested retail price and tells buyers to contact an authorized QVP dealer. Amazon showed a lower price on 2026-10-01. Check the Last seen line for the date."
+          "q": "Can the Juki TL-18QVP go on a quilting frame?",
+          "a": "Juki lists an attachment mounting plate for it, and owners describe a replaceable mounting plate on the right. The machine has no stitch regulator, so confirm frame fit and what you would control by hand with your dealer."
         }
       ]
     },
@@ -8435,14 +8350,16 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "What is the difference between the Juki TL-2000Qi and the TL-2010Q?",
-      "Is the Juki TL-2000Qi discontinued?",
-      "Does the TL-2000Qi have a speed control slider?",
-      "How much does the Juki TL-2000Qi weigh?",
+      "What do owners say about the Juki TL-2000Qi?",
+      "What is the difference between Juki TL 2000 and 2010?",
+      "juki tl-2000qi price",
+      "What is the throat space on a Juki TL-2000Qi quilting machine?",
+      "Is the Juki TL-2000Qi a long-arm machine?",
+      "Where can I find the manual for the Juki TL-2000Qi appliance?",
+      "how to thread juki tl-2000qi",
       "Can the TL-2000Qi do free motion quilting?",
-      "Does the TL-2000Qi come with a walking foot?",
-      "Can the Juki TL-2000Qi sew zigzag?",
-      "Is the TL-2000Qi good for heavy fabrics like denim and canvas?"
+      "Does the TL-2000Qi have a speed control slider?",
+      "Is the Juki TL series high or low shank?"
     ],
     "crossShop": [
       {
@@ -8496,44 +8413,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "How big is the throat on the Juki TL-2000Qi?",
-          "a": "Juki does not publish a throat, arm or needle-to-arm figure for this model. Its page says 'Mid-Arm' and a work area up to 23 in with the auxiliary table. Dealers quote 9 in, but that has no Juki source, so we show the throat as [verify]."
-        },
-        {
-          "q": "Is the TL-2000Qi a long-arm machine?",
-          "a": "Juki calls it Mid-Arm. A dealer listing title says 'Long-Arm', which is a retailer label, not a measurement. The 23 in figure is the work area with the auxiliary table attached."
+          "q": "What do owners say about the Juki TL-2000Qi?",
+          "a": "Owners mostly praise the speed, the power through heavy fabric and a roomy throat, and many call it quiet for a fast machine. The repeated complaints are the automatic needle threader (11 of the 15 voices who mention threading are negative), the free motion foot not being in the box, and the pedal trimmer cutting thread by accident. The read covers 109 first-hand voices from 47 Reddit threads and 2 retailer pages, 2011 to 2026, and Reddit leans toward people asking for help, so problems are over-represented."
         },
         {
           "q": "What is the difference between the TL-2000Qi and the TL-2010Q?",
-          "a": "Owners repeatedly say the TL-2010Q's main addition is a speed control, and some add a sub-tension dial; that dial is not confirmed by a Juki document. Juki's TL-2000Qi page lists microcomputer speed control with foot control only. Juki lists $2,169 for the TL-2010Q and $1,799 for the TL-2000Qi."
+          "a": "Owners repeatedly say the TL-2010Q's main addition is a speed control, and some add a sub-tension (pretension) dial. Juki's TL-2000Qi page lists microcomputer speed control with foot control only and no slider, while the sub-tension dial is not confirmed by a Juki document for the 2000Qi [verify]. Juki lists $2,169 for the TL-2010Q and $1,799 for the TL-2000Qi, and owners put the gap at $200 to $300 at a local dealer."
         },
         {
-          "q": "Does the TL-2000Qi have a speed control slider?",
-          "a": "Juki's page describes microcomputer-based speed control with foot control only. Owners confirm there is no front slider and ask how to sew slower on pedal control."
+          "q": "What is the price of the Juki TL-2000Qi?",
+          "a": "Juki lists a suggested retail of $1,799 and tells buyers to contact an authorized dealer. Amazon showed $899 on 2026-10-01, so most buyers pay far less than list. Prices drift weekly, so use the price band on this page as the stable guide."
         },
         {
-          "q": "Does it have a thread trimmer?",
-          "a": "Yes. Juki lists an automatic trimmer by foot-controller heel rock and a push-button switch. Owners report accidental cuts at first, and some say it can unthread the needle unless the needle is up."
+          "q": "How big is the throat on the Juki TL-2000Qi?",
+          "a": "Juki does not publish a throat, arm or needle-to-arm figure for this model. Its page says Mid-Arm and a work area up to 23 in with the auxiliary table. Dealers quote 9 in, but that has no Juki source, so we show the throat as [verify]; one owner finds it narrower than expected, and others quilted a king size quilt on it."
         },
         {
-          "q": "How much does the Juki TL-2000Qi weigh?",
-          "a": "25.4 lb (11.5 kg) on Juki's page, manual and catalog. One dealer listing shows 37.8 lb, likely a shipping weight."
+          "q": "Is the Juki TL-2000Qi a long-arm machine?",
+          "a": "No. Juki calls it Mid-Arm. A dealer listing title says Long-Arm, which is a retailer label, not a measurement, and the 23 in figure is the work area with the auxiliary table attached."
         },
         {
-          "q": "What are the dimensions and extension table size?",
-          "a": "The manual and catalog give 452 x 219 x 350 mm (17.8 x 8.6 x 13.8 in). Juki's page lists the height as 9 in, which disagrees. The auxiliary table is 590 mm wide, and its depth is 355 mm on Juki's page and 277 mm in the manual."
+          "q": "Where can I find the Juki TL-2000Qi manual?",
+          "a": "Juki publishes a 40-page instruction manual PDF for the TL-2000Qi on its product page, with the specification table on page 12, and a two-page catalog. Juki's own documents disagree on some figures, such as the auxiliary table depth, 355 mm on the product page and 277 mm in the manual."
         },
         {
-          "q": "Can the TL-2000Qi do free motion quilting?",
-          "a": "Juki's page claims 'Nothing Free Motion Quilts Better than a Juki'. That is a maker claim. Owners report the free motion foot is not included, and one says the foot drags with the foot down."
+          "q": "How do you thread the Juki TL-2000Qi, and does the needle threader work?",
+          "a": "Juki lists a push-lever automatic needle threader. Owners are not fond of it: 11 of the 15 voices who mention threading are negative, and one says it never works, even after a dealer needed four tries. Many owners skip it and thread the needle by hand."
         },
         {
-          "q": "Can it sew zigzag or heavy fabric?",
-          "a": "It is straight stitch only. Owners report it handling heavy fabric well, while Juki describes the aluminum die-cast frame as ensuring 'industrial-quality sewing', which is a maker claim."
+          "q": "Can the Juki TL-2000Qi do free motion quilting?",
+          "a": "Juki's page claims 'Nothing Free Motion Quilts Better than a Juki', which is a maker claim. Juki's list of what is in the box has no free motion foot, and 5 of the 7 owners who mention free motion report the foot is not included and must be bought separately. Others report no tension problems in free motion quilting."
         },
         {
-          "q": "What does the warranty cover, and is the rating sample representative?",
-          "a": "Juki America's general FAQ gives 2 years on motor and electrical parts and 5 years on other factory defects; it is not model-specific, and Amazon's listing says '5 year limited warranty'. Sewing Machines Plus shows 4.83 from 207 reviews, but only 15 of those name this model."
+          "q": "Does the Juki TL-2000Qi have a speed control slider?",
+          "a": "No front slider is listed. Juki's page describes microcomputer-based speed control with foot control only, and owners say the TL-2010Q is the model with the speed control. Some owners ask how to sew slower on pedal control alone."
         }
       ]
     },
@@ -8691,16 +8604,18 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
+      "What are people saying about the Juki TL-2010Q sewing machine?",
+      "What is the difference between Juki TL 2000 and 2010?",
+      "What is the price of the Juki TL-2010Q?",
+      "What are the differences between the Juki TL-18 and TL-2010Q sewing machines?",
+      "What type of projects is the Juki TL2010Q best suited for?",
       "Is the Juki TL-2010Q good for beginners?",
-      "Is the Juki TL-2010Q an industrial machine?",
-      "What is the difference between the Juki TL-2010Q and TL-2000Qi?",
-      "How much throat space does the TL-2010Q have?",
-      "Can the TL-2010Q sew a zigzag or buttonhole?",
-      "Can the Juki TL-2010Q sew leather or canvas?",
-      "Does the TL-2010Q use regular home sewing needles?",
-      "Does the TL-2010Q have a walking foot included?",
-      "Does the TL-2010Q need to be oiled?",
-      "Can the TL-2010Q be mounted on a quilting frame?"
+      "how to thread juki tl 2010q",
+      "where to oil juki tl 2010q",
+      "juki tl-2010q throat space",
+      "what is the warrenty on a juki tl2010q",
+      "what size needle for quiliting on juki 2010q",
+      "Does the TL-2010Q have a walking foot included?"
     ],
     "crossShop": [
       {
@@ -8754,36 +8669,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "How fast is the Juki TL-2010Q?",
-          "a": "Juki publishes a top speed of 1,500 stitches per minute, with a slider that sets any speed from 200 spm. That is the spec, not a promise of finished quality at that speed; heavy layers want a slower setting."
+          "q": "What do owners say about the Juki TL-2010Q?",
+          "a": "Across 69 Reddit threads plus forums, retailer pages and blog write-ups, owners mostly praise the speed, the solid build and the power on heavy fabric, and many find the throat roomy enough for home quilting. The repeated complaints are the automatic needle threader, the noisy supplied walking foot, weak lighting and daily oiling. Reddit leans toward people asking for help, so problems are over-represented."
         },
         {
-          "q": "What stitches does the TL-2010Q have?",
-          "a": "Straight stitch only, single needle lockstitch, up to 6 mm long. There is no zigzag or buttonhole; plan a second machine for those."
-        },
-        {
-          "q": "How much throat space does the TL-2010Q have?",
-          "a": "Dealers quote 8.5 in by 6 in from the needle to the body. Juki publishes no throat figure, and its machine depth is 8.6 in, so treat 8.5 in as a dealer number. About 6 in is a typical beginner machine; 16 in and up is mid-arm territory."
-        },
-        {
-          "q": "Does the TL-2010Q come with the 1/5 in quilting foot?",
-          "a": "Juki's manual lists a zipper foot, an even feed foot and a 1/4 in quilting foot as standard, and Juki's accessory list shows the 1/5 in quilting foot as optional. Several dealers and reviewers say both ship, so ask the seller for the packing list."
-        },
-        {
-          "q": "How often does the TL-2010Q need oiling?",
-          "a": "Juki's manual says to apply a few drops of the supplied oil at each marked point once a day if you use the machine every day, then test sew. Owners also describe oiling as a habit to learn."
+          "q": "What is the price of the Juki TL-2010Q?",
+          "a": "Juki lists a suggested retail of $2,169. Dealers sold new units around $1,239 on 2026-09-30, so most buyers pay well under list. A much lower price is usually a show model, an open box or a bundle; check which before you compare. Prices drift weekly, so use the price band on this page as the stable guide."
         },
         {
           "q": "What is the difference between the TL-2010Q and the TL-2000Qi?",
           "a": "Sources agree that the 2010Q adds the front speed slider and a sub-tension unit, for roughly $300 more at dealers. Whether the 2010Q also ships with extra quilting feet is disputed; see the sibling table on this page and the head-to-head."
         },
         {
-          "q": "What is the TL-2010Q warranty?",
-          "a": "Dealers publish 5 years limited on parts except electrical and 2 years on motors, light, wiring, switches, circuit boards and speed control. Juki's product page and manual do not state terms, and service runs through authorized dealers, so confirm the seller's status before you buy."
+          "q": "What is the difference between the TL-2010Q and the TL-18QVP?",
+          "a": "Dealer charts say the TL-18QVP adds a float (micro-lift) function, adjustable LED brightness, a mounting plate for frames and, per one forum poster, more feet. Both show the same 1,500 spm top speed, a sub-tension unit and a knee lifter, and Weidner's chart gives both an 8.5 x 6 in throat. Those are dealer figures, not Juki documents [verify]."
         },
         {
-          "q": "Who should skip the TL-2010Q?",
-          "a": "Anyone for whom it would be the only machine. No zigzag, no buttonholes, no stretch stitch."
+          "q": "What is the Juki TL-2010Q best suited for?",
+          "a": "Fast straight-stitch piecing, quilting and bag making through heavy layers. Juki pitches it for quilting, tailoring, apparel and home decor, and owners rate its power on heavy fabric highly. It sews one stitch, so anyone who also makes garments needs a zigzag machine alongside it."
+        },
+        {
+          "q": "Is the TL-2010Q good for beginners?",
+          "a": "It suits a beginner who already knows they want to piece or quilt: there are few settings and the speed slider starts at 200 spm. As a first and only machine it falls short, because there is no zigzag, buttonhole or stretch stitch. Rocky Mountain Sewing, a Juki dealer, calls it a machine for intermediate to advanced sewists, and advice in owner threads is mixed."
+        },
+        {
+          "q": "How do you thread the Juki TL-2010Q, and does the needle threader work?",
+          "a": "Juki's manual covers threading the head and the sub-tension path, so follow its diagram rather than a video for another Juki. Juki lists an automatic needle threader, but owners are not fond of it: 14 of the 20 voices who mention it are negative, and many thread the needle by hand."
+        },
+        {
+          "q": "How often does the TL-2010Q need oiling?",
+          "a": "Juki's manual says to apply a few drops of the supplied oil at each marked point once a day if you use the machine every day, then test sew. Owners also describe oiling as a habit to learn, and one owner reports over-oiling leaving smudges at the exhaust vent."
+        },
+        {
+          "q": "How much throat space does the TL-2010Q have?",
+          "a": "Dealers quote 8.5 in by 6 in from the needle to the body. Juki publishes no throat figure, and its machine depth is 8.6 in, so treat 8.5 in as a dealer number [verify]. About 6 in is a typical beginner machine; 16 in and up is mid-arm territory."
         }
       ]
     },
@@ -8925,14 +8844,16 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
+      "singer 14cg754 serger reviews",
+      "What is the price of the Singer 14CG754 serger?",
+      "Is the Singer 14CG754 good for beginners?",
+      "how to thread singer profinish serger 14cg754",
       "Is the Singer 14CG754 discontinued?",
       "What is the difference between the Singer 14CG754 and 14HD854?",
-      "Is the Singer 14CG754 hard to thread?",
-      "Can the Singer 14CG754 do a rolled hem?",
-      "Does the Singer 14CG754 have a free arm?",
-      "What needles does the Singer 14CG754 use?",
-      "Is the Singer 14CG754 good for beginners?",
+      "what needles fit singer 14cg754",
+      "does singer 14cg754 do cover stitch",
       "How much does the Singer 14CG754 weigh?",
+      "brother serger 1034dx vs singer 14cg754",
       "Is the Singer 14CG754 better than the Brother 1034D?"
     ],
     "crossShop": [
@@ -8988,48 +8909,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
+          "q": "What do owners say about the Singer 14CG754?",
+          "a": "The evidence is small: 15 first-hand voices from 16 Reddit threads and 2 retailer pages, 2010 to 2025. Owners say tension and threading take trial and error, after which the machine runs smoothly, and one handled several layers of denim as well as very light organza. The repeated complaints are a stuck stitch width knob with occasional binding, plus noise and table shake. Reddit leans toward people asking for help, so problems are over-represented."
+        },
+        {
+          "q": "What is the price of the Singer 14CG754?",
+          "a": "Singer's page showed a $349.99 figure and a listed $209.99 on 2026-10-02, with the machine shown as Out of Stock and Sold out. The $349.99 is Singer's own comparison price, not a selling price. Prices drift weekly, so use the price band on this page as the stable guide and confirm availability before you order."
+        },
+        {
+          "q": "Is the Singer 14CG754 good for beginners?",
+          "a": "It can suit a first serger buyer who accepts a learning curve. Singer lists color-coded lay-in threading and a free arm, and owners say tension and threading took trial and error before the machine ran smoothly. One owner found a looper very hard to thread, so the evidence is mixed and thin."
+        },
+        {
+          "q": "Is the Singer 14CG754 hard to thread?",
+          "a": "Owners disagree, and the evidence base is small. One five-year owner found the color-coded threading very helpful but docked a star because one looper is very hard to thread and needs more room around it. A new owner reports that after trial and error with tension and threading the machine runs smoothly."
+        },
+        {
           "q": "Is the Singer 14CG754 discontinued?",
-          "a": "No Singer page says so. Singer's product page is live and shows Out of Stock and Sold out. One dealer listing says the 14HD854 replaces it, but we found no Singer page that confirms that."
+          "a": "No Singer page says so. Singer's product page is live and shows Out of Stock and Sold out, with back-orders shipping on a date to be determined. One dealer listing says the 14HD854 replaces it, but we found no Singer page that confirms that."
         },
         {
           "q": "What is the difference between the 14CG754 and the 14HD854?",
-          "a": "Singer lists the 14HD854 at MSRP $399.99 and $319.99, against MSRP $349.99 and $209.99 for the 14CG754, a listed gap of $110. Singer claims the 14HD854 has a 60% larger cutting knife and two LED lights; the 14CG754 page makes neither claim. The 14HD854 page says 6 stitch types and the 14CG754 page does not."
+          "a": "Singer lists the 14HD854 at MSRP $399.99 and $319.99, against MSRP $349.99 and $209.99 for the 14CG754, a listed gap of $110, on 2026-10-02. Singer claims the 14HD854 has a 60% larger cutting knife and two LED lights; the 14CG754 page makes neither claim. Singer's pages list the same 1,300 stitches per minute for both, while the 14HD854 manual says 1,200 +/- 150 spm."
         },
         {
-          "q": "Is the 14CG754 hard to thread?",
-          "a": "Owners disagree, and the evidence base is small. PatternReview owners call it fast once the color-coded diagram is followed; one found it very hard and could not get a rolled hem."
+          "q": "What needles does the Singer 14CG754 use?",
+          "a": "Singer needle Cat. No. 2022 in sizes 80/11 and 90/14 per the archive operator's guide, which says a 90/14 set is furnished. The guide says Singer 2020 needles may be used in an emergency but may skip stitches unless tension is readjusted. No maker document names the ELx705 equivalence; that comes from a parts retailer [verify]."
         },
         {
-          "q": "Can it do a rolled hem?",
-          "a": "Singer's page lists a built-in rolled hem. One PatternReview owner reported not getting it to work."
+          "q": "Does the Singer 14CG754 do a cover stitch?",
+          "a": "Singer's page lists 2, 3 or 4 thread overlock, a built-in rolled hem and differential feed, and no cover stitch. The six-stitch list in our spec, from a retailer, covers overlock, mock stretch and mock stretch safety, flatlock, blind hem and rolled hems, also with no cover stitch [verify]."
         },
         {
-          "q": "Does it have a free arm?",
-          "a": "Yes, Singer's page lists free-arm sewing."
-        },
-        {
-          "q": "What needles does it use?",
-          "a": "Singer needle Cat. No. 2022 in sizes 80/11 and 90/14 per the archive operator's guide, which says a 90/14 set is furnished. The guide says Singer 2020 needles may be used in an emergency but may skip stitches unless tension is readjusted."
-        },
-        {
-          "q": "How much does it weigh?",
-          "a": "Singer's page gives no weight. Amazon lists 13.5 lb; the undated third-party archive copy of a combined operator's guide gives 6.0 kg (13.2 lb), so treat the weight as a soft figure."
-        },
-        {
-          "q": "What are the stitch length and differential feed ranges?",
-          "a": "The archive guide gives a 0.7 to 2.0 feed ratio and 1 to 4 mm stitch length; Amazon lists 2.0 to 4.0 mm for stitch length. Singer's page gives neither range."
-        },
-        {
-          "q": "What is the warranty?",
-          "a": "The PDF linked from Singer's 14CG754 page says 25 years on the frame and 1 year on parts and adjustments, for household use. The 25/2/90 tier on Amazon and the 14HD854 page may not apply to this model."
-        },
-        {
-          "q": "How good are the ratings?",
-          "a": "Amazon shows 4.5 from 2,063 ratings, pooled across three listings, so it is not specific to this one. Sewing Machines Plus shows 4.89 from 9 reviews, a very small base. Our owner evidence is limited to 15 first-hand voices, so do not generalise from it."
-        },
-        {
-          "q": "Is it better than the Brother 1034D?",
-          "a": "It adds 2-thread stitches through the spreader and a free arm. Both are listed at 1,300 spm with differential feed, and the Brother is more often praised for its light and threading."
+          "q": "How much does the Singer 14CG754 weigh?",
+          "a": "Singer's page gives no weight. Amazon lists 13.5 lb, and an undated third-party archive copy of a combined operator's guide gives 6.0 kg (13.2 lb), so treat the weight as a soft figure."
         }
       ]
     },
@@ -9184,15 +9097,14 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "mixed",
     "buyerQuestions": [
+      "singer 14hd854 heavy duty serger reviews",
+      "What are the features of the Singer 14HD854 overlocker sewing machine?",
+      "singer 14hd854 price",
+      "singer serger 14hd854 how to thread",
       "Does the Singer 14HD854 replace the 14CG754?",
-      "What is the difference between the Singer 14HD854 and the 14CG754?",
       "Is the Singer 14HD854 really heavy duty?",
-      "Is the Singer 14HD854 hard to thread?",
       "Is the Singer 14HD854 loud?",
-      "Can the Singer 14HD854 do a rolled hem?",
-      "Does the Singer 14HD854 have a free arm?",
       "What needles does the Singer 14HD854 use?",
-      "How much does the Singer 14HD854 weigh?",
       "Singer 14HD854 vs Brother 1034D: which one?"
     ],
     "crossShop": [
@@ -9252,44 +9164,36 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
+          "q": "What do owners and buyers say about the Singer 14HD854?",
+          "a": "The evidence is thin: 12 first-hand voices from 14 Reddit threads and 3 retailer pages, 2017 to 2026. The repeated concerns are unit defects (a drive belt that arrived unconnected, a pedal that stopped responding on a secondhand unit), a build two people called cheap or sloppy, and trouble finding ballpoint or stretch needles. One owner lists the free arm as a plus. Singer's own page shows 4.3 from 44 reviews, with many flagged Received Free Product, and Reddit leans toward people asking for help, so problems are over-represented."
+        },
+        {
+          "q": "What are the features of the Singer 14HD854?",
+          "a": "Singer's documents list 2, 3 or 4 thread capability and six stitch types, including a 2-thread rolled hem and a 3-thread flatlock, differential feed at 1:0.7 to 1:2 in the manual, a free arm, two LED lights, and a spare lower knife in the box. Singer's claims of a '60% larger cutting knife' and a 'heavy duty metal frame' are maker claims measured against other Singer sergers. The page says 1,300 spm and the manual says 1,200 +/- 150 spm."
+        },
+        {
+          "q": "What does the Singer 14HD854 cost?",
+          "a": "Singer showed a $399.99 MSRP and a listed $319.99 on 2026-10-02, with the page showing Out of Stock. Sewing Machines Plus showed $349.95 on 2026-09-29, a dealer sale price from a search snippet. Prices drift weekly, so use the price band on this page as the stable guide."
+        },
+        {
+          "q": "Is the Singer 14HD854 hard to thread?",
+          "a": "Singer lists color coded lay-in threading with a diagram on the machine, and the loopers are threaded manually. The 2 owners who mention threading are both negative: one found a looper thread came off its hooks during a jam, another says a thread inside unhooks easily because one hook sits in a different plane. The evidence is small."
+        },
+        {
+          "q": "Does the Singer 14HD854 replace the 14CG754, and how do they differ?",
+          "a": "No Singer page says so, and both pages show Out of Stock. Singer lists the 14HD854 at MSRP $399.99 and $319.99, against MSRP $349.99 and $209.99 for the 14CG754, on 2026-10-02. Singer claims the 14HD854 has a 60% larger cutting knife and two LED lights; the 14CG754 page lists neither. Both pages list 1,300 stitches per minute."
+        },
+        {
           "q": "Is the Singer 14HD854 really heavy duty?",
-          "a": "Heavy Duty is Singer's series name, a claim and not a rating. Singer says the interior frame is metal and calls the motor high performance, but publishes no motor output (the 120 W on the page is an electrical line) and no frame alloy."
+          "a": "Heavy Duty is Singer's series name, a claim and not a rating. Singer says the interior frame is metal and calls the motor high performance, but publishes no motor output (the 120 W on the page is an electrical line) and no frame alloy. Owner reports include a build two people called cheap or sloppy."
         },
         {
-          "q": "How fast does the 14HD854 sew?",
-          "a": "Singer's product page says 1,300 spm. The manual spec table says 1,200 +/- 150 spm. Both are Singer documents and the manual may be an older revision."
+          "q": "Is the Singer 14HD854 loud?",
+          "a": "Two owners raise noise. One says the machine moves across the table in use, and one secondhand unit made a clicking noise and did not advance the fabric well. Singer's documents that we read give no noise figure."
         },
         {
-          "q": "How many stitch types does it have?",
-          "a": "Six, per both the Singer page and the manual: 2 thread wrapped overlock, 2 thread rolled hem, 3 thread overlock, 3 thread flatlock, 3 thread wrapped overlock and 4 thread stretch mock safety. Retailer claims of 8 or 10 are not supported by either Singer document."
-        },
-        {
-          "q": "What differential feed ratio does it have?",
-          "a": "Singer's manual spec table gives 1:0.7 to 1:2. The product page says only that it is fully adjustable."
-        },
-        {
-          "q": "What needles does it use?",
-          "a": "The manual names Singer 2022 in #14 and #16 (90/14 and 100/16), with 100/16 mounted. Dealers call this equivalent to ELx705; that is a dealer statement, not in the manual. One owner reports difficulty finding ballpoint or stretch needles in this type."
-        },
-        {
-          "q": "How much does it weigh and how big is it?",
-          "a": "The page says 13.5 lb and 14 x 11 x 11.5 in. The manual says 6.2 kg, about 13.7 lb, and 338 x 280 x 265 mm, or 13.3 x 11.0 x 10.4 in. The inch figures from the manual are our conversion."
-        },
-        {
-          "q": "Does it have a free arm?",
-          "a": "Yes. Singer's page says to remove the storage compartment and the manual says to remove the cloth plate to expose the free arm. Neither document publishes a throat or workspace figure."
-        },
-        {
-          "q": "What do buyers rate it?",
-          "a": "Singer's page shows 4.3 from 44 reviews, with many flagged Received Free Product and an Ease of Use score of 2.7 of 5, per the page's own figures. Amazon shows 4.5 from 63 ratings on a listing pooled with other Singer Heavy Duty listings (0420 and 0460), so it is not this model's own rating."
-        },
-        {
-          "q": "Is it discontinued?",
-          "a": "Singer's page shows Out of Stock and Sold out with back-orders on a date to be determined. It does not say the model is discontinued. We attribute the wording and make no further claim."
-        },
-        {
-          "q": "What does it cost?",
-          "a": "Singer's page showed a $399.99 MSRP and a lower price on 2026-10-02, and it was out of stock. Check the Last seen line for a dated retailer price; prices move often."
+          "q": "What needles does the Singer 14HD854 use?",
+          "a": "The manual names Singer 2022 in #14 and #16 (90/14 and 100/16), with 100/16 mounted. Dealers call this equivalent to ELx705; that is a dealer statement, not in the manual [verify]. One owner reports difficulty finding ballpoint or stretch needles in this type."
         }
       ]
     },
@@ -9442,15 +9346,19 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
+      "singer 14t968dc reviews",
+      "how to thread a singer 14t968dc",
+      "what kind of needles does the singer serger 14t968dc take",
       "How long does it take to convert the 14T968DC from serger to coverstitch?",
-      "Is a serger and coverstitch combo worth it?",
-      "What needles does the Singer 14T968DC use?",
       "Can the 14T968DC do a 5-thread safety stitch?",
       "Does the 14T968DC have a free arm?",
       "Why does the 14T968DC skip stitches in coverstitch mode?",
       "How heavy is the 14T968DC?",
+      "Is the self-adjusting tension really automatic?",
       "What is the 14T968DC warranty?",
-      "Is the self-adjusting tension really automatic?"
+      "singer 14t968dc manual",
+      "diffetence between the singer 14t968dc professional 5 serger and the singer 14t948ds",
+      "brother 3234dt vs singer 14t968dc"
     ],
     "crossShop": [
       {
@@ -9505,48 +9413,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "Does the Singer 14T968DC do coverstitch?",
-          "a": "Yes. Singer's page says it comes with coverstitch, and the manual shows a clutch change and cover stitch needles. Cover stitch needle gauges are 2.8 mm and 5.6 mm."
+          "q": "What do owners say about the Singer 14T968DC?",
+          "a": "Reports are split. Some owners report clean stitches once it is set up and some call it sturdy, while the loudest complaints are threading and looper trouble (21 voices, 20 of them owners), skipped or bunched stitches, and tension that still needs adjusting. The read covers 32 Reddit threads and 2 retailer pages from 2010 to 2026. Reddit leans toward people asking for help, so problems are over-represented."
         },
         {
-          "q": "How long does it take to switch from serger to coverstitch?",
-          "a": "Singer does not publish a changeover time, so it is [verify]. Owners report switching often is painful."
+          "q": "How hard is the Singer 14T968DC to thread?",
+          "a": "Owners say threading is the hard part: 21 voices, 20 of them owners, mention threading or the loopers, and 9 of those statements are negative. One owner reports the upper and lower looper threads never crossing in serger mode despite repeated rethreading. Singer describes color-coded threading and the manual covers it, so follow the manual diagram for each mode."
         },
         {
-          "q": "What needles does it use?",
-          "a": "Singer 2022 (EL x 705), with 14/90 supplied; the manual says use only 14/90 and 11/80."
+          "q": "What needles does the Singer 14T968DC use?",
+          "a": "Singer 2022 (EL x 705), with size 14/90 supplied. The manual says to use only 14/90 and 11/80 and warns against standard household needles. Cover stitch needle gauges are 2.8 mm (narrow) and 5.6 mm (wide and triple). One PatternReview owner says the 2022 needles are hard to find, especially size 11."
         },
         {
-          "q": "Is the tension really automatic?",
-          "a": "Singer calls it a self-adjusting tension system. The manual shows an Auto Tension Dial that you set per stitch, based on medium weight fabric and 60 polyester spun thread, with small adjustments if results differ."
+          "q": "How long does it take to switch the Singer 14T968DC between serger and coverstitch?",
+          "a": "Singer does not publish a changeover time, so it is [verify]. The manual covers sewing a cover stitch with a clutch change and cover stitch needles. Owners in our read describe frequent switching between serger and coverstitch as painful, so plan your sewing in batches."
         },
         {
-          "q": "How heavy is it?",
-          "a": "The manual gives 9.0 kg, which is 19.84 lb. Singer's page shows 18.6 with no unit, so the sources disagree."
+          "q": "Does the Singer 14T968DC do a 5-thread overlock?",
+          "a": "Singer lists 2, 3, 4 or 5 thread capability and 14 built-in stitches, and its manual lists 2/3/4/5-thread overlock. Singer does not use the words safety stitch in the figures we recorded, so confirm that in the manual before you buy [verify]. Threading is where owners struggle, so expect a learning period on the 5-thread setup."
         },
         {
-          "q": "How big is it?",
-          "a": "The manual gives 360 x 290 x 300 mm, about 14.2 x 11.4 x 11.8 in (W x D x H). The page shows 13.5 x 10.5 x 11.5 with no unit or axis labels."
+          "q": "Does the Singer 14T968DC have a free arm or a thread trimmer?",
+          "a": "Singer's page and manual do not state a free arm, and neither publishes a thread trimmer, so both are [verify]. The knife trims the fabric edge only. Singer's 14CG754 page does state a built-in free arm, so do not assume it carries over to this model."
         },
         {
-          "q": "Does it have a free arm or thread trimmer?",
-          "a": "Singer publishes neither for this model, so both are [verify]. The knife trims the fabric edge only."
+          "q": "Why does the Singer 14T968DC skip stitches?",
+          "a": "Owners report it: one describes skipped stitches on a 3-thread overlock after four needle changes, and another reports cover stitch K bunching at looper A despite rethreading. Defects and skipped stitches are 15 voices, mostly from help-seeking Reddit threads, so this is not a failure rate. Singer's manual allows only Singer 2022 needles in 14/90 and 11/80, so check the needle first."
         },
         {
-          "q": "What is the warranty?",
-          "a": "Singer's generic document gives 25 years on the frame, 2 years on electrical parts and 90 days on mechanical parts, for household use, to the first purchaser. Singer may reject claims on machines from unauthorized dealers."
+          "q": "How much does the Singer 14T968DC weigh?",
+          "a": "Singer's manual gives 9.0 kg, which is 19.84 lb. Singer's product page shows 18.6 with no unit, so the sources disagree. We use the manual figure."
         },
         {
-          "q": "What do buyers rate it?",
-          "a": "Amazon shows 4.2 from 1,501 ratings, pooled with the B0GM81RNCC listing, so it is not for this model alone. Sewing Machines Plus shows 4.78 from 9 reviews, and Singer's own page shows 4.3 from 62 (the page's own figure)."
-        },
-        {
-          "q": "Is it heavy duty?",
-          "a": "Singer's page says Heavy Duty Metal Frame but states only the interior frame is metal. Heavy duty is a Singer claim, and one owner calls it mostly plastic."
-        },
-        {
-          "q": "What is the motor?",
-          "a": "Singer does not publish motor type or output. The page lists 0.5 amps, 114 watts, 120 volts and 60 Hz as electrical input."
+          "q": "Is the tension on the Singer 14T968DC really automatic?",
+          "a": "Singer calls it a self-adjusting tension system, but the manual shows an Auto Tension Dial that you set per stitch. The automatic settings are based on medium weight fabric and standard 60 polyester spun thread, with small adjustments if results differ. One owner calls the auto tension frustrating, and 11 voices in our read discuss tension."
         }
       ]
     },
@@ -9693,15 +9593,19 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
+      "What are people saying about the Singer 4411 heavy duty sewing machine?",
       "What is the difference between the Singer 4411 and 4423?",
-      "Does the Singer 4411 have an automatic needle threader?",
-      "Is the Singer 4411 buttonhole 1-step or 4-step?",
+      "singer 4411 vs 4452",
+      "singer 4411 vs 4432",
+      "singer 4411 price",
       "Can the Singer 4411 sew leather?",
-      "How much does the Singer 4411 weigh?",
+      "What Needles does a Singer 4411 use?",
+      "What class bobbin does Singer heavy-duty use?",
+      "how to oil singer heavy duty 4411",
       "Is the Singer 4411 good for beginners?",
+      "Does the Singer 4411 have an automatic needle threader?",
       "What is the throat space on the Singer 4411?",
-      "Does the Singer 4411 have a free arm?",
-      "Is the Singer 4411 worth it or should I buy the 4423?"
+      "singer heavy duty 4411 how to use"
     ],
     "crossShop": [
       {
@@ -9756,48 +9660,36 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "What is the difference between the Singer 4411 and 4423?",
-          "a": "Singer lists 11 stitches, 69 applications, a four-step buttonhole and no threader on the 4411, against 23 stitches, 97 applications, a one-step buttonhole and a built-in threader on the 4423. Both list 1,100 spm, 84 W and 6.25 in needle to tower."
+          "q": "What do owners say about the Singer 4411?",
+          "a": "Owners are split on thick fabric. Some report it sews several layers and canvas with real power, while others say it struggled with jeans, thick thread or heavy layers and needed a bigger needle. Defects are the largest theme (43 voices, 32 of them owners). The read covers 60 Reddit threads and 2 retailer pages from 2011 to 2026, and Reddit leans toward people asking for help, so problems are over-represented."
         },
         {
-          "q": "Is the 4411 buttonhole 1-step or 4-step?",
-          "a": "Four-step, per Singer's product page, selected on the stitch selector dial."
+          "q": "What is the difference between the Singer 4411 and the 4423?",
+          "a": "Singer lists 11 stitches, 69 applications, a four-step buttonhole and no built-in needle threader on the 4411, against 23 stitches, 97 applications, a one-step buttonhole and a built-in threader on the 4423. Both list 1,100 spm, 84 W and 6.25 in needle to tower. Singer's list prices are $269.99 for the 4411 and $289.99 for the 4423."
         },
         {
-          "q": "Does the 4411 have an automatic needle threader?",
-          "a": "None is listed on the Singer 4411 page or in the manual's parts list. Singer's 4423 and 4432 pages list a built-in needle threader."
+          "q": "What is the difference between the Singer 4411 and the 4452?",
+          "a": "Singer lists 11 built-in stitches and a four-step buttonhole on the 4411, against 32 stitches and a one-step buttonhole on the 4452. The 4452 bundle also adds a walking foot, non-stick foot, clearance plate and heavy duty needles, and both list the same 84 W motor and 1,100 spm. A Reddit comment that the 4452 has 52 stitches does not match Singer's pages."
         },
         {
-          "q": "How much does the Singer 4411 weigh?",
-          "a": "Singer prints 14 with no unit on the 4411 page. A third-party directory lists 14.5 lb (6.6 kg). Amazon's 0.6 kg is not credible for this machine."
+          "q": "What is the difference between the Singer 4411 and the 4432?",
+          "a": "Singer lists 32 built-in stitches, 110 stitch applications, a one-step buttonhole and a built-in needle threader on the 4432, against 11, 69, a four-step buttonhole and no threader on the 4411. Singer prints 1,100 spm, 6.25 in needle to tower, 84 W and a Class 15 bobbin on both pages."
         },
         {
-          "q": "What is the throat space on the 4411?",
-          "a": "Singer prints 6.25 in worded needle to tower, the same on the 4423, 4432 and 4452 pages. That is not stated as needle-to-body, so throat space is [verify]."
+          "q": "What is the price of the Singer 4411?",
+          "a": "Singer lists a suggested retail of $269.99 on its page. Sewing Machines Plus showed $209.99 on 2026-09-29, against a regular price of $269.99. Prices drift weekly, so use the price band on this page as the stable guide."
         },
         {
-          "q": "Can the 4411 sew leather?",
+          "q": "Can the Singer 4411 sew leather?",
           "a": "Singer's marketing wording names denim and leather; its manual lists leather needles 12 (80) to 18 (110) and says some leathers and vinyls fit size 18. One owner review says the machine needed a hand start on leather. Treat leather as an occasional job."
         },
         {
-          "q": "Is the 4411 good for beginners?",
-          "a": "It has a top drop-in bobbin and dial controls, but the four-step buttonhole and no listed threader make the 4423 an easier first machine if the price gap is small."
+          "q": "What needles does the Singer 4411 use?",
+          "a": "Singer does not publish a needle system code for the 4411 in the pages we read, so the system is [verify]. Its manual lists Singer 2020 standard, 2045 semi-ball point and 2032 leather needles in sizes 9 (70) to 18 (110). One owner used a size 90 on heavy layers and thinks a 110 was needed."
         },
         {
-          "q": "What is the warranty?",
-          "a": "Singer's generic SVP warranty PDF lists 25 years on the product frame, 2 years on electrical parts and 90 days on mechanical parts and adjustments, for household use. The product page says 24 years in the specification line and 25 in the banner, and Amazon says 1 year. Singer may reject claims on products bought from unauthorized dealers."
-        },
-        {
-          "q": "Does the 4411 have a free arm and a drop feed?",
-          "a": "Singer lists a free arm via the removable storage compartment and a drop feed lever. The same page says the newer 4511 adds drop feed, which disagrees with the 4411's own listing."
-        },
-        {
-          "q": "Are the 60% stronger and 50% more power claims the same thing?",
-          "a": "No. Singer's specification line says 60% stronger and its highlights say 50% more power. Neither defines the baseline, so both are claims. The published motor figure is 84 W, 0.7 A."
-        },
-        {
-          "q": "Is the Amazon rating for the 4411 alone?",
-          "a": "No. Amazon's 4.4 from about 9,125 ratings is shared with the Heavy Duty 4511 listing through a parent. Sewing Machines Plus shows 4.65 from 79 reviews, only 2 of which name the 4411."
+          "q": "What bobbin does the Singer 4411 use?",
+          "a": "Singer lists a Class 15 transparent bobbin, loaded top drop-in under a clear cover. That is the same Class 15 bobbin Singer prints on its 4423, 4432 and 4452 pages."
         }
       ]
     },
@@ -9943,16 +9835,21 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
+      "Is the Singer 4423 a good machine?",
+      "What are the common problems with the Singer Heavy Duty 4423?",
+      "What is the best price for Singer Heavy Duty 4423?",
+      "Which is better, singer 4432 vs 4423?",
+      "singer 4423 vs 4452",
+      "Which is better, singer 4411 vs 4423?",
+      "how to thread singer 4423",
+      "Is the Singer 4423 good for beginners?",
       "Is the Singer 4423 really heavy duty?",
       "Can the Singer 4423 sew leather?",
-      "Can the Singer 4423 sew through multiple layers of denim?",
-      "What is the difference between the Singer 4423 and 4432?",
-      "Is the Singer 4423 good for beginners?",
       "Does the Singer 4423 have a walking foot?",
       "What needles does the Singer 4423 use?",
-      "Why does my Singer 4423 keep jamming or looping thread?",
-      "How heavy is the Singer 4423?",
-      "Can the Singer 4423 do free motion quilting?"
+      "how to oil singer heavy duty 4423",
+      "how wide is singer 4423 sewing",
+      "What are people saying about the Singer 4423?"
     ],
     "crossShop": [
       {
@@ -10006,44 +9903,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "Is the Singer 4423 really heavy duty?",
-          "a": "Heavy Duty is Singer's series name, not a rating. Singer claims a metal interior frame and a motor it calls 60% stronger than a standard motor, with no baseline, and publishes no fabric thickness or layer limit. Owners report denim hems and canvas going well and thick strap stacks going badly."
+          "q": "What do owners say about the Singer 4423?",
+          "a": "Owners are divided. Some report it handles heavy fabric for the price, but defects are the largest theme (40 voices, 27 of them owners), followed by tension that clumps or loops thread, a pedal with little speed control and stitches that look off at slow speed. The read covers 60 Reddit threads and 2 retailer pages from 2010 to 2026, and Reddit leans toward people asking for help, so problems are over-represented. Amazon shows 4.5 from 21,224 ratings, pooled with a second listing of the same machine."
         },
         {
-          "q": "Can the Singer 4423 sew leather?",
-          "a": "Singer publishes no leather or thickness limit. Its manual lists a leather needle among its needle part numbers, but that is not a capability rating. If you sew leather regularly, skip this machine."
+          "q": "What are the common problems with the Singer 4423?",
+          "a": "Owners report defects and timing trouble (40 voices), tension problems (13 voices, 11 negative statements), no speed control (13 voices, 8 negative) and stitches that look off at slow speed (9 voices, 8 negative). A troubleshooting roundup that pooled owner complaints traces most bobbin case trouble, tension looping and skipped stitches to threading errors. Most reports come from help-seeking threads, so this is not a failure rate."
         },
         {
-          "q": "What is the difference between the Singer 4423 and 4432?",
-          "a": "Singer lists 23 built-in stitches and 97 stitch applications for the 4423 against 32 and 110 for the 4432, with the same 1,100 spm and 14.6 lb. Commenters describe the two as the same machine with different stitch counts and accessory packs."
+          "q": "What is the price of the Singer 4423?",
+          "a": "Singer lists a suggested retail of $289.99. Sewing Machines Plus showed $289.99 regular on 2026-09-29, and Singer's own page showed $229.99 on sale against that $289.99 on 2026-10-02. Prices drift weekly, so use the price band on this page as the stable guide."
         },
         {
-          "q": "What is the difference between the 4423, 4411 and 4452?",
-          "a": "Singer lists 11 stitches and a four-step buttonhole for the 4411, with no built-in threader, and 32 stitches for the 4452, which adds a walking foot, non-stick foot, clearance plate and heavy duty needles. A Reddit claim that the 4452 has 52 stitches is contradicted by Singer's pages."
+          "q": "What is the difference between the Singer 4423 and the 4432?",
+          "a": "Singer lists 23 built-in stitches and 97 stitch applications for the 4423 against 32 and 110 for the 4432, with the same 1,100 spm, 6.25 in needle to tower and 14.6 lb. Singer's list prices are $289.99 for the 4423 and $299.99 for the 4432. Commenters describe the 4432 as the 4423 with a different accessory package."
+        },
+        {
+          "q": "What is the difference between the Singer 4423 and the 4452?",
+          "a": "Singer lists 32 built-in stitches for the 4452 against 23 for the 4423. The 4452 adds a walking foot, non-stick foot, clearance plate and heavy duty needles ($120 of accessories per Singer) against the 4423's $60 box. Singer's list prices are $319.99 for the 4452 and $289.99 for the 4423."
+        },
+        {
+          "q": "What is the difference between the Singer 4423 and the 4411?",
+          "a": "Singer lists 23 built-in stitches and 97 applications for the 4423 against 11 and 69 for the 4411. The 4423 lists a one-step buttonhole and a built-in needle threader; the 4411 lists a four-step buttonhole and no threader."
+        },
+        {
+          "q": "How do you thread the Singer 4423, and does the needle threader work?",
+          "a": "Singer's manual contents list an automatic needle threader, and one owner says the threading steps are numbered on the machine, which makes it easy for a beginner. Owners are mixed on the threader itself: one says it worked once and then stopped. In our read, 10 voices discuss threading, 3 positive and 2 negative."
         },
         {
           "q": "Is the Singer 4423 good for beginners?",
-          "a": "It has a one-step buttonhole, a built-in needle threader and a top drop-in bobbin per Singer. Owners report the threader works for some and not for others, and many beginner help threads concern tension and bobbin seating."
+          "a": "It has a one-step buttonhole, a built-in needle threader and a top drop-in bobbin per Singer, and two owners call it easy to learn. Owners report the threader works for some and not others, and many help threads concern tension and bobbin seating. Owners also report almost no speed control (13 voices, 8 negative), which matters when you are learning."
         },
         {
-          "q": "Does the Singer 4423 have a walking foot?",
-          "a": "No. Singer's box list has no walking foot, and its manual lists an even feed foot as an optional accessory. The 4452 bundle includes one."
-        },
-        {
-          "q": "What needles does the Singer 4423 use?",
-          "a": "Singer does not publish a needle system name. Its manual needle table runs size 9 to 18 and uses Singer part numbers, which are not a system designation."
-        },
-        {
-          "q": "Why does my Singer 4423 keep jamming or looping thread?",
-          "a": "A troubleshooting roundup that pooled owner complaints finds bobbin case trouble, tension looping and skipped stitches, most traced to threading errors. Owners on Reddit also point to bobbin seating."
-        },
-        {
-          "q": "How heavy is the Singer 4423?",
-          "a": "Singer lists a 14.6 lb machine weight, and Sewing Parts Online lists the same figure. Singer's machine size is 15.5 x 6.25 x 12 in; its box is 18 x 8.5 x 13 in."
-        },
-        {
-          "q": "Can the Singer 4423 do free motion quilting?",
-          "a": "Singer lists a drop feed control, but its manual lists a darning foot as optional and none is in the box. Throat space is not published needle to body: Singer's 6.25 in is needle to tower, so it is not a quilting-space figure."
+          "q": "Is the Singer 4423 really heavy duty?",
+          "a": "Heavy Duty is Singer's series name, not a rating. Singer claims a metal interior frame and a motor it calls 60% stronger than a standard motor, with no baseline, and publishes no fabric thickness or layer limit. Owners are split on heavy fabric (17 voices: 7 positive, 8 negative, 2 mixed), reporting denim hems going well and thick stacks going badly."
         }
       ]
     },
@@ -10189,11 +10082,18 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "What is the difference between the Singer 4432 and 4452?",
-      "Is the Singer 4432 better than the 4423?",
-      "Can the Singer 4432 sew leather or canvas?",
+      "Is the Singer 4432 a good sewing machine?",
+      "What are common problems with the Singer 4432?",
+      "Which is better, Singer 4423 or 4432?",
+      "singer 4432 vs 4452",
+      "singer 4432 vs 4411",
+      "Can Singer 4432 sew leather?",
+      "what comes with singer 4432",
+      "singer 4432 price",
+      "how to thread singer heavy duty 4432",
+      "Can the Singer 4432 sew denim?",
+      "how to oil singer heavy duty 4432",
       "How many stitches does the Singer 4432 have?",
-      "Does the Singer 4432 come with a walking foot?",
       "Is the Singer 4432 good for quilting?",
       "How much does the Singer 4432 weigh?",
       "What bobbins does the Singer 4432 use?"
@@ -10250,48 +10150,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "How many stitches does the Singer 4432 have?",
-          "a": "Singer lists 32 built-in stitches and 110 stitch applications. The applications figure is a marketing count, not a stitch count."
+          "q": "What do owners say about the Singer 4432?",
+          "a": "Reports are mixed and lean toward early trouble. Defects are the largest theme (42 voices, 35 of them owners), followed by stitch quality (15 voices), threading (14), power on heavy fabric (14, split 7 positive to 5 negative) and build quality (13, split 6 to 5). The read covers 60 Reddit threads and 2 retailer pages from 2015 to 2026, and Reddit leans toward people asking for help, so problems are over-represented. Amazon shows 4.4 from 11,960 ratings, pooled across listings."
         },
         {
-          "q": "What is the difference between the Singer 4432 and 4452?",
-          "a": "Singer's own pages list the same 32 stitches and 110 applications for both. The 4452 differs by bundle: it adds a walking foot, non-stick foot, clearance plate and heavy duty needles, at an MSRP of $319.99 against $299.99. Forum commenters who say the 4452 has more stitches are not supported by Singer's pages."
+          "q": "What are the common problems with the Singer 4432?",
+          "a": "Owners report defects on new units such as a bobbin winder that does not turn, stitch selection stuck on straight stitch and buttonhole lever faults, plus tension and top-thread seating problems, and a machine that runs fast with a touchy pedal. Most reports come from help-seeking threads, so this is not a failure rate. Check the stitch dial, buttonhole and bobbin winding inside the return window."
         },
         {
           "q": "Is the Singer 4432 better than the 4423?",
-          "a": "It has more stitches on paper: Singer lists 32 against 23 for the 4423, and an MSRP of $299.99 against $289.99. Whether that is worth it depends on the street price gap."
+          "a": "It has more stitches on paper: Singer lists 32 against 23 for the 4423, and a list price of $299.99 against $289.99. The speed, motor and weight figures Singer prints are the same on both. Whether the extra stitches are worth it depends on the street price gap."
         },
         {
-          "q": "How does the 4432 compare with the 4411?",
-          "a": "Singer lists the 4411 with 11 stitches and a four-step buttonhole, and no built-in needle threader. The 4432 has 32 stitches, a one-step buttonhole and a needle threader."
+          "q": "What is the difference between the Singer 4432 and the 4452?",
+          "a": "Singer's own pages list the same 32 stitches and 110 applications for both. The 4452 differs by bundle: it adds a walking foot, non-stick foot, clearance plate and heavy duty needles, at a list price of $319.99 against $299.99. Forum commenters who say the 4452 has more stitches are not supported by Singer's pages."
         },
         {
-          "q": "Does the Singer 4432 come with a walking foot?",
-          "a": "No. The box has a general purpose, zipper, buttonhole and button sewing foot plus an edge and quilting guide. An even feed foot is listed as optional in the manual."
+          "q": "How does the Singer 4432 compare with the 4411?",
+          "a": "Singer lists the 4411 with 11 stitches and a four-step buttonhole, and no built-in needle threader. The 4432 lists 32 stitches, a one-step buttonhole and a needle threader."
         },
         {
-          "q": "Can the Singer 4432 sew leather or canvas?",
-          "a": "Singer markets it for projects 'from denim to canvas' and claims a motor '60% stronger' than standard, but those are its claims, and its highlights say '50% more power', a different figure with no baseline. Owner reports are split: some say it handles thick fabric and leather, others hand-turn the wheel through thick layers."
+          "q": "Can the Singer 4432 sew leather or denim?",
+          "a": "Singer markets it for projects \"from denim to canvas\" and claims a motor \"60% stronger\" than standard, but those are its claims, and its highlights say \"50% more power\", a different figure with no baseline. Owner reports are split: some say it handles thick fabric and leather, others hand-turn the wheel through thick layers. Singer publishes no leather or thickness rating."
         },
         {
-          "q": "How much does the Singer 4432 weigh and how big is it?",
-          "a": "Singer lists 14.6 lb and 15.5 x 6.25 x 12 in. An earlier Amazon-derived figure of 17.42 lb is likely a shipping weight."
+          "q": "What comes in the box with the Singer 4432, and is there a walking foot?",
+          "a": "No walking foot. The box has a general purpose, zipper, buttonhole and button sewing foot, an edge and quilting guide, a pack of needles, Class 15 transparent bobbins and spool caps. An even feed foot is listed as optional in the manual, and the 4452 bundle includes a walking foot."
         },
         {
-          "q": "What is the throat space of the Singer 4432?",
-          "a": "Singer gives 6.25 in as 'needle to tower', not needle to body, so we do not list a throat figure and it shows as [verify]."
+          "q": "What is the price of the Singer 4432?",
+          "a": "Singer lists a suggested retail of $299.99, and its own price was $239.99 on 2026-10-01. Amazon showed $199.99 on the grey listing that day and $239.99 on the black one. Prices drift weekly, so use the price band on this page as the stable guide."
         },
         {
-          "q": "What bobbins does the Singer 4432 use?",
-          "a": "Class 15 transparent bobbins, loaded top drop-in."
-        },
-        {
-          "q": "Does the Singer 4432 have a speed control?",
-          "a": "Singer does not state one for the 4432, and its page says the 4532 adds speed control. Owners report the machine running fast, with a touchy pedal."
-        },
-        {
-          "q": "What warranty does the Singer 4432 have?",
-          "a": "Singer's coverage page lists it under Limited 25/2/90 Day, while its product page shows 90 day, 2 yr and 24 yr. The 24 against 25 years is a Singer discrepancy."
+          "q": "How hard is the Singer 4432 to thread?",
+          "a": "Owners say it is touchy: 14 voices discuss threading, 12 of them owners, and 7 statements are negative, such as thread that is hard to seat in the tension discs. Some re-thread before each use. Singer lists a built-in needle threader on the 4432, and its manual covers the threading path."
         }
       ]
     },
@@ -10432,14 +10324,21 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "What is the difference between the Singer 4452 and 4432?",
+      "Is the Singer 4452 a good machine?",
+      "Is Singer 4452 better than 4432?",
+      "Which is better, singer 4423 vs 4452?",
+      "Is the Singer 4411 or 4452 better?",
+      "What is the best price for the Singer 4452?",
+      "Can a Singer 4452 sew leather?",
+      "singer 4452 problems",
+      "how to thread singer heavy duty 4452",
       "Does the Singer 4452 come with a walking foot?",
-      "Can the Singer 4452 sew leather and vinyl?",
+      "what size bobbin for singer heavy duty 4452",
+      "how to oil a 4452 singer sewing machine",
       "Is the Singer 4452 good for quilting?",
       "How much does the Singer 4452 weigh?",
       "Is the Singer 4452 good for beginners?",
       "What is the clearance plate for on the Singer 4452?",
-      "Is the Singer 4452 worth the extra money over the 4423?",
       "What needles does the Singer 4452 use?"
     ],
     "crossShop": [
@@ -10494,48 +10393,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "What is the difference between the Singer 4452 and 4432?",
-          "a": "PatternReview members and a review roundup describe the two as the same head, with the 4452 adding the walking foot, nonstick foot and clearance plate that Singer lists. These are third-party reports, not a Singer document."
+          "q": "What do owners say about the Singer 4452?",
+          "a": "Owners are split on how it holds up. Defects are the largest theme (34 voices, 31 of them owners, 29 negative statements), and opinion on heavy fabric is split (18 voices: 6 positive, 7 negative, 3 mixed). The read covers 56 Reddit threads and 2 retailer pages from 2018 to 2026, and Reddit leans toward people asking for help, so problems are over-represented. Amazon shows 4.3 from 1,122 ratings on the 4452 bundle listing, a seller page that skews positive."
         },
         {
-          "q": "Does the Singer 4452 come with a walking foot?",
-          "a": "Yes. Singer's accessory list includes an even feed (walking) foot, a nonstick foot and a clearance plate."
+          "q": "What is the difference between the Singer 4452 and the 4432?",
+          "a": "Singer's own pages list the same 32 stitches and 110 applications for both. The 4452 differs by bundle: it adds a walking foot, non-stick foot, clearance plate and heavy duty needles ($120 of accessories per Singer), at a list price of $319.99 against $299.99. Commenters who say the 4452 has more stitches are not supported by Singer's pages."
+        },
+        {
+          "q": "How does the Singer 4452 compare with the 4423?",
+          "a": "Singer lists 32 built-in stitches for the 4452 against 23 for the 4423, and the 4452 adds a walking foot, non-stick foot, clearance plate and heavy duty needles. Singer's list prices are $319.99 for the 4452 and $289.99 for the 4423. On Amazon on 2026-10-01 the 4452 bundle showed 4.3 from 1,122 ratings and the 4423 4.5 from over 21,000, and both are seller listings."
+        },
+        {
+          "q": "What is the difference between the Singer 4452 and the 4411?",
+          "a": "Singer lists 32 built-in stitches (110 applications) and a one-step buttonhole on the 4452, against 11 (69) and a four-step buttonhole on the 4411. One commenter says the two share the same frame and motor, and Singer lists the same 84 W and 1,100 spm for both. A Reddit comment that the 4452 has 52 stitches does not match Singer's pages."
+        },
+        {
+          "q": "What is the price of the Singer 4452?",
+          "a": "Singer lists a suggested retail of $319.99, and its own page showed $219.99 on 2026-10-01. Sewing Machines Plus showed $299.00 regular on 2026-09-29. Prices drift weekly, so use the price band on this page as the stable guide."
         },
         {
           "q": "Can the Singer 4452 sew leather and vinyl?",
-          "a": "Singer publishes no leather rating we could source, and it ships a nonstick foot. Owners report sewing denim, duck and canvas but struggling with interfaced straps and strap connectors."
+          "a": "Singer publishes no leather rating we could source, and it ships a non-stick foot. Owners report sewing denim, duck and canvas but struggling with interfaced straps and strap connectors. Heavy fabric is split in our read (18 voices: 6 positive, 7 negative, 3 mixed), and those are owner reports, not a Singer capability figure."
         },
         {
-          "q": "Is the Singer 4452 good for quilting?",
-          "a": "Singer gives 6.25 in measured needle to tower, not needle to body, so the throat space stays [verify] here. That is far from mid-arm size, which starts at 16 in."
+          "q": "What are the common problems with the Singer 4452?",
+          "a": "Defects are the largest theme: 34 voices, 31 of them owners, 29 negative statements, including a needle that would not move left after it was reinstalled. Owners also report needle threader failures (threading, 12 voices, 7 negative), thread birdnesting and tension trouble, and clicking noise (9 voices, 7 negative). Most reports come from help-seeking threads, so this is not a failure rate."
         },
         {
-          "q": "How much does the Singer 4452 weigh?",
-          "a": "Singer's product page lists 14.6 lb. Dealers were not checked for a second figure."
+          "q": "How hard is the Singer 4452 to thread?",
+          "a": "Owners report trouble: 12 voices discuss threading and the loopers, 10 of them owners, and 7 statements are negative. One owner says the needle threader never worked and arrived defective, and others report birdnesting. Reddit help threads over-represent problems."
         },
         {
-          "q": "Is the Singer 4452 good for beginners?",
-          "a": "Owners are split. Some like numbered threading and the drop-in bobbin, while others report a needle threader that never worked and tension loops. Reddit help threads skew toward problems."
-        },
-        {
-          "q": "What is the clearance plate for on the Singer 4452?",
-          "a": "Singer lists a clearance plate in the box, but our sources do not explain its use. Check the manual."
-        },
-        {
-          "q": "Is the Singer 4452 worth the extra money over the 4423?",
-          "a": "PatternReview members suggest buying on price, and roundups say the walking and nonstick feet are the reason to pick the 4452. These are third-party reports."
-        },
-        {
-          "q": "What needles does the Singer 4452 use?",
-          "a": "Singer's sheet lists two packs of needles in the box, but the needle system is not published in our sources, so it stays [verify]."
-        },
-        {
-          "q": "Is the Singer 4452 motor really 60% stronger?",
-          "a": "That is Singer's marketing wording, alongside \"50% more power for thick fabrics\", with no defined baseline. The published figure is 84 W, and owners report it slows over thick seams."
-        },
-        {
-          "q": "What warranty does the Singer 4452 have?",
-          "a": "Singer lists a Limited 25/2/90 Day warranty, while its product page shows 90 day, 2 yr and 24 yr. Which period covers which part is not confirmed."
+          "q": "Does the Singer 4452 come with a walking foot?",
+          "a": "Yes, per Singer's accessory list: an even feed (walking) foot, a non-stick foot, a clearance plate and two packs of needles. Owner reports on the walking foot are few (4 voices) and mixed, and one owner says the feed dogs and walking foot stopped feeding fabric."
         }
       ]
     },
@@ -10676,15 +10567,17 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "What is the difference between the Singer 6600C and 6700C?",
-      "How many stitches does the Singer 6600C really have?",
+      "What do owners say about the Singer 6600C?",
+      "What are the common problems with the Singer 6600C?",
+      "What is the difference between the Singer 6600C and the 6700C?",
+      "How many stitches does the Singer 6600C have?",
       "Does the Singer 6600C have an automatic thread cutter?",
       "Is the Singer 6600C good for beginners?",
       "Can the Singer 6600C sew denim and canvas?",
-      "What is the throat space on the Singer 6600C?",
-      "How much does the Singer 6600C weigh?",
-      "What is the Singer 6600C Sterling?",
-      "What presser feet come with the Singer 6600C?"
+      "What is the price of the Singer 6600C?",
+      "singer 6600c vs 6800c",
+      "singer 6600c vs 4452",
+      "What are people saying about the Singer 6800C sewing machine?"
     ],
     "crossShop": [
       {
@@ -10739,44 +10632,36 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
+          "q": "What do owners say about the Singer 6600C?",
+          "a": "Owner reports are mixed and lean toward problems. Of 11 statements on build quality, 9 are negative, with some owners saying it is not the all-metal machine the name suggests, and 9 of 10 on defects are negative, including an error on day one, a needle that sticks down and a machine that stopped and started in bursts. A smaller group finds it quiet, easy to thread and stronger on thick fabric than their old machines. Reddit leans toward people asking for help, so problems are over-represented; Amazon shows 4.4 of 5 from 158 ratings (seen 2026-10-01)."
+        },
+        {
+          "q": "What are the common problems with the Singer 6600C?",
+          "a": "Defects (10 voices) and build quality (11 voices) are the two recurring themes, nearly all negative. Examples are an EL error on day one, a needle that sticks in the down position, tension that stopped holding after a needle change, and loud shaking at thick folded denim seams. Noise is split, with 4 of 6 voices calling the machine quiet. These are mostly help-seeking posts, not a failure rate."
+        },
+        {
+          "q": "What is the difference between the Singer 6600C and the 6700C?",
+          "a": "On Singer's pages the 6600C lists 215 stitch applications, 6 one-step buttonhole styles and 5 feet with no walking foot, while the 6700C lists 411 applications, 7 buttonhole styles, a lettering font, 10 feet including an even feed (walking) foot and a speed control lever. Both list a metal interior frame, 15.4 lb and a manual speed of 1000 +/- 50 stitches per minute, though the 6700C manual is shared with the 6705C. Seen prices were $319.99 for the 6600C on 2026-10-01 (extension-table bundle page) and $329.99 for the 6700C on 2026-09-29 (dealer sale price against a $419.99 list), so confirm what is in each box. Stitch counts are application counts, not built-in patterns [verify]."
+        },
+        {
           "q": "How many stitches does the Singer 6600C have?",
           "a": "Singer advertises 215 stitch applications and publishes no separate stitch count, so the built-in figure is [verify]. Dealers quote 100 and one comparison site 200. Applications count techniques, not patterns."
         },
         {
-          "q": "What is the throat space on the 6600C?",
-          "a": "Singer's bundle page says 6.4 in throat space and does not say whether that is needle to body, so we hold it as [verify]. It is not in the manual's spec table."
+          "q": "Does the Singer 6600C have an automatic thread cutter?",
+          "a": "None is published. Singer's manual lists a manual thread knife for trimming ends, and one comparison site lists the automatic cutter as a 6800C feature."
         },
         {
-          "q": "How fast does the Singer 6600C sew?",
-          "a": "Singer's manual gives 1000 +/- 50 stitches per minute at default length. A Singer Canada page excerpt says up to 1,100, so the two maker documents disagree."
+          "q": "Is the Singer 6600C good for beginners?",
+          "a": "Singer sells it into that market: LCD stitch selection, a top drop-in bobbin and a built-in needle threader. Of 4 owner voices on threading, 3 are positive, but defects and build quality are the larger themes, so check the return terms."
         },
         {
-          "q": "Does the 6600C have an automatic thread cutter?",
-          "a": "None is published. The manual lists a manual thread knife, and one comparison site lists the automatic cutter as a 6800C feature."
+          "q": "Can the Singer 6600C sew denim and canvas?",
+          "a": "Singer's copy says it is designed with heavy duty projects in mind, from denim to canvas, which is a claim; Heavy Duty is a series name, not a duty rating. Owners are split: 2 voices say it sews thicker fabric better than their other machines and 2 report seizing, a jammed needle or loud shaking at thick folded denim seams. Singer publishes a 6 mm presser foot lift and no motor wattage, and lists no walking foot [verify]."
         },
         {
-          "q": "How much does the Singer 6600C weigh?",
-          "a": "15.4 lb, converted from the 7 kg in Singer's manual. Size is 17.3 x 7.5 x 11.0 in, converted from 440 x 190 x 280 mm."
-        },
-        {
-          "q": "What presser feet come with the 6600C?",
-          "a": "Singer lists all-purpose, zipper, buttonhole, blind hem and satin stitch feet, plus 4 Class 15 bobbins. No walking foot is listed."
-        },
-        {
-          "q": "Is the 6600C good for beginners?",
-          "a": "It is sold into that market: LCD stitch selection, a top drop-in bobbin and a built-in needle threader. Owners report defects such as pedal, bobbin winding and error faults, so check the return terms."
-        },
-        {
-          "q": "Can the 6600C sew denim and canvas?",
-          "a": "Singer's copy says it is designed with heavy duty projects in mind, from denim to canvas, which is a claim. One owner reports loud noise and needle shaking at thick folded denim seams."
-        },
-        {
-          "q": "What is the warranty?",
-          "a": "Singer's warranty page lists the 6600C Heavy Duty under Limited 25/1 Year. Some retailer copy quotes 2 years on electrical parts, so confirm the term with the seller."
-        },
-        {
-          "q": "Is the 6600C discontinued?",
-          "a": "Singer's standalone 6600C page redirects to its homepage, but the extension-table bundle page (6600CTABLE) is live. That is a page status, not a stated end of production."
+          "q": "What is the price of the Singer 6600C?",
+          "a": "Singer's extension-table bundle page showed $319.99 on 2026-10-01, against a $448.98 strike-through list price that is a comparison figure, not a selling price. The standalone machine page redirects to Singer's homepage, so the machine is currently listed there as a bundle. Prices drift weekly, so use the price band on this page as the stable guide."
         }
       ]
     },
@@ -10923,15 +10808,16 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "evidence": "owner",
     "buyerQuestions": [
-      "What is the difference between the Singer 6700C and 6800C?",
-      "Does the Singer 6700C have a thread cutter?",
+      "Is the Singer HD6700C a good sewing machine, according to owners?",
+      "What is the difference between the Singer 6700C and the 6800C?",
+      "Does the Singer 6700C have an automatic thread cutter?",
       "Does the Singer 6700C have needle up/down?",
       "Does the Singer 6700C come with a walking foot?",
       "How many stitches does the Singer 6700C have?",
       "Is the Singer 6700C good for quilting?",
-      "How much does the Singer 6700C weigh?",
-      "Can the Singer 6700C do lettering?",
-      "Is the Singer 6700C good for beginners?"
+      "What are the specs of the Singer 6700C?",
+      "What is the price of the Singer 6700C?",
+      "singer 6700c vs 4452"
     ],
     "crossShop": [
       {
@@ -10985,52 +10871,40 @@ export const catalogData: Record<string, CatalogEntry> = {
       ],
       "faqs": [
         {
-          "q": "How many stitches does the Singer 6700C have?",
-          "a": "Singer's comparison page says 200 built-in stitches and 411 stitch applications. The product page says 411 applications and its prose also says 586, which looks like the 6800C number. We list the disagreement and do not state a plain count."
+          "q": "Is the Singer HD6700C a good sewing machine, according to owners?",
+          "a": "The evidence is thin: 17 voices, 16 first-hand, from 16 Reddit threads and 1 retailer page. Threading (6 voices, 3 positive and 3 negative) and tension (5 voices, all negative) are the recurring themes, with owners describing a top thread that slips out of place and a top tension dial that seems to do nothing. One Amazon owner hemmed work pants and stitched a canvas tote without trouble, and 3 voices praise low noise. Amazon shows 4.4 of 5 from 980 ratings (seen 2026-10-02), pooled across listings of this machine, and Reddit leans toward help requests, so problems are over-represented."
         },
         {
-          "q": "Does the 6700C have an automatic thread cutter?",
+          "q": "What is the difference between the Singer 6700C and the 6800C?",
+          "a": "On Singer's pages the 6800C adds a thread cutter button, Needle Up/Down and more stitch applications (586 on its page against 411 for the 6700C). Singer's pages also disagree on the 6800C throat (6.4 in on its product page, 8.3 in on the comparison page) and speed (1100/min against 1,050), and the 6800C page showed out of stock on 2026-10-02. These are maker-page figures that do not agree with each other [verify]."
+        },
+        {
+          "q": "Does the Singer 6700C have an automatic thread cutter?",
           "a": "Singer's product page lists a tie-off button and no thread cutter. The 6800C page lists a Thread Cutter Button that trims top and bottom threads. The manual's thread knife is a hand cutter."
         },
         {
-          "q": "Does the 6700C have needle up/down?",
-          "a": "Unresolved. The shared HD 6700C and HD 6705C manual documents a Needle Up/Down button, the 6700C product page does not list one, and the 6800C and 6620C pages do. Confirm with the seller."
+          "q": "Does the Singer 6700C have needle up/down?",
+          "a": "Unresolved. The shared HD 6700C and HD 6705C manual documents a Needle Up/Down button, the 6700C product page does not list one, and the 6800C and 6620C pages do. Confirm with the seller [verify]."
         },
         {
-          "q": "Does the 6700C come with a walking foot?",
-          "a": "Yes. The even feed (walking) foot is one of 10 feet on Singer's accessory list, along with open toe and cording feet."
+          "q": "Does the Singer 6700C come with a walking foot?",
+          "a": "Yes. The even feed (walking) foot is one of 10 feet on Singer's accessory list, along with open toe and cording feet. One Reddit thread mentions the walking foot without a verdict, so we hold no owner view on it."
         },
         {
-          "q": "What is the throat space?",
-          "a": "6.4 in (163 mm), which Singer words as needle to tower. Singer does not state it as needle to body, so we treat it as [verify] on our throat scale."
+          "q": "How many stitches does the Singer 6700C have?",
+          "a": "Singer's comparison page says 200 built-in stitches and 411 stitch applications. The product page says 411 applications and its prose also says 586, which looks like the 6800C number. We list the disagreement and do not state a plain count [verify]."
         },
         {
-          "q": "How fast does it sew?",
-          "a": "Singer's product page says 1100/min. The shared manual says 1000 +/- 50 rpm at default length, and we use that figure."
+          "q": "Is the Singer 6700C good for quilting?",
+          "a": "Singer claims a generous C space for larger projects like quilts, and gives the throat as 6.4 in, worded needle to tower rather than needle to body [verify]. One Amazon owner wishes the throat were bigger and uses a quilting machine for larger projects. Treat larger quilts with caution."
         },
         {
-          "q": "How much does it weigh?",
-          "a": "7 kg, which is 15.4 lb, in the shared manual. Amazon lists 14.6 lb and one blog 16.3 lb."
+          "q": "What are the specs of the Singer 6700C?",
+          "a": "Singer's product page says 1100 stitches per minute and the shared HD 6700C and HD 6705C manual says 1000 +/- 50, so speed is [verify]. The manual gives 7 kg (15.4 lb) against 14.6 lb on Amazon, a 6 mm presser foot lift and a 0.7 A, 120 V electrical rating with no wattage published. Heavy Duty is a series name, not a duty rating, and the 6.4 in throat is needle to tower [verify]."
         },
         {
-          "q": "Can the 6700C sew letters?",
-          "a": "Yes. Singer's product page lists 1 lettering font and its comparison page lists 2. The manual shows a Block Font at 7 mm letter height."
-        },
-        {
-          "q": "Is the 6700C good for quilting?",
-          "a": "Singer claims a generous C space for larger projects like quilts. The throat is 6.4 in needle to tower, and one Walmart reviewer group calls it good for quilting. Treat larger quilts with caution."
-        },
-        {
-          "q": "What is the warranty?",
-          "a": "Singer's product page and linked PDF say Limited 25/1: 25 years on the frame and 1 year on parts and adjustments. Singer's coverage page does not name the 6700C and Amazon shows 1 year."
-        },
-        {
-          "q": "What is the difference between the 6700C and the 6800C?",
-          "a": "On Singer's pages the 6800C adds a thread cutter button, Needle Up/Down and more stitch applications (586 on its page). Singer's pages also disagree on the 6800C throat (6.4 in on its product page, 8.3 in on the comparison page) and speed (1100/min against 1,050)."
-        },
-        {
-          "q": "How good is the evidence on owners?",
-          "a": "Thin. We have 17 voices, 16 first-hand, from 16 Reddit threads (5 with the model in the title) and one retailer page; Amazon's 4.4 from 980 ratings is pooled across listings of this machine, and the Sewing Machines Plus page has 0 reviews. Reddit skews to help requests, so problems are over-represented."
+          "q": "What is the price of the Singer 6700C?",
+          "a": "Singer's page showed a $419.99 list price with a $329.99 sale price, and Sewing Machines Plus showed $329.99 on 2026-09-29 against a $419.99 regular price. Singer's extension table bundle was $349.99 against $488.98 original. Prices drift weekly, so use the price band on this page as the stable guide."
         }
       ]
     },

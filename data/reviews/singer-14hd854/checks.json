@@ -1,9 +1,9 @@
 {
   "slug": "singer-14hd854",
-  "generated": "2026-10-02T12:28:58.276Z",
+  "generated": "2026-10-03T02:51:35.578Z",
   "counts": {
     "error": 0,
-    "warn": 5
+    "warn": 4
   },
   "items": [
     {
@@ -33,18 +33,13 @@
     },
     {
       "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"Needles\" but the spec's conflicts do not mention it"
-    },
-    {
-      "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"Dimensions\" but the spec's conflicts do not mention it"
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 18 voices (12 first-hand), 17 sources, status draft"
+      "message": "evidence moderate, 18 voices (12 first-hand), 17 sources, status approved"
     }
   ]
 }

@@ -1,0 +1,1184 @@
+{
+  "slug": "handi-quilter-amara",
+  "today": "2026-10-02",
+  "rules": "AGENTS.md rules 1 to 12 apply: spec-check not field-test, owner evidence labelled, paraphrase and attribute, no em or en dashes, never invent a spec, claims quoted not asserted, every spec sourced, model name is not a spec, conflicts listed, price bands not live prices.",
+  "spec": {
+    "slug": "handi-quilter-amara",
+    "brand": "Handi Quilter",
+    "model": "Amara 20",
+    "series": "Amara",
+    "type": "long-arm",
+    "industrial": false,
+    "jobs": [
+      "quilting"
+    ],
+    "manufacturerUrl": "https://handiquilter.com/product/hq-amara-20/",
+    "retailerUrl": "https://www.sewingmachinesplus.com/hq-amara.php",
+    "priceUsdSeen": 12995,
+    "priceSeenDate": "2026-09-29",
+    "priceSeenAt": "Village Sewing (listed as from $12,995 with HQ Studio3 frame; Fig Leaf Quilting showed $12,495 on the same date)",
+    "specs": {
+      "stitchTypes": {
+        "value": "Straight stitch only; stitch regulation modes Precision and Cruise plus Manual; five built in tie-off stitches",
+        "source": "https://handiquilter.com/product/hq-amara-20/"
+      },
+      "stitchCount": {
+        "value": 1,
+        "source": "https://handiquilter.com/product/hq-amara-20/"
+      },
+      "maxSpm": {
+        "value": 2500,
+        "source": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+      },
+      "threads": {
+        "value": null,
+        "source": null
+      },
+      "differentialFeed": {
+        "value": null,
+        "source": null
+      },
+      "throatIn": {
+        "value": 20,
+        "source": "https://handiquilter.com/product/hq-amara-20/"
+      },
+      "throatHeightIn": {
+        "value": 9,
+        "source": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+      },
+      "sewingOpeningIn": {
+        "value": "9 x 20.5 (228 x 521 mm)",
+        "source": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+      },
+      "stitchRegulation": {
+        "value": "Built in (QuiltMaster servo controlled, Precision and Cruise modes); not an add-on",
+        "source": "https://handiquilter.com/product/hq-amara-20/"
+      },
+      "stitchesPerInch": {
+        "value": "4 to 24 spi",
+        "source": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+      },
+      "minSpm": {
+        "value": 25,
+        "source": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+      },
+      "needleSystem": {
+        "value": "134 (135x7), sizes 12/80 to 20/125",
+        "source": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+      },
+      "bobbin": {
+        "value": "M class, high speed rotary hook; stand alone bobbin winder included",
+        "source": "https://handiquilter.com/product/hq-amara-20/"
+      },
+      "lighting": {
+        "value": "Menu controlled LED lighting at throat, needle bar and bobbin; needle laser",
+        "source": "https://handiquilter.com/product/hq-amara-20/"
+      },
+      "display": {
+        "value": "7 in color touchscreen",
+        "source": "https://handiquilter.com/product/hq-amara-20/"
+      },
+      "presserFootLift": {
+        "value": null,
+        "source": null
+      },
+      "threadTrimmer": {
+        "value": null,
+        "source": null
+      },
+      "feedSystem": {
+        "value": "Frame mounted free motion (no feed dogs); needle up/down, walking stitch and on-screen handwheel",
+        "source": "https://handiquilter.com/product/hq-amara-20/"
+      },
+      "buttonhole": {
+        "value": null,
+        "source": null
+      },
+      "motor": {
+        "value": "48 V brushless DC; 120 W maximum outlet power",
+        "source": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+      },
+      "frame": {
+        "value": "HQ Studio3 frame, 10 ft or 12 ft, in the standard system",
+        "source": "https://handiquilter.com/product/hq-amara-20/"
+      },
+      "weightLb": {
+        "value": null,
+        "source": null
+      },
+      "dimensionsIn": {
+        "value": null,
+        "source": null
+      },
+      "includedFeet": {
+        "value": "Stand alone bobbin winder; QuiltMaster adjustable front handlebars with programmable buttons; full accessory list not published in results",
+        "source": "https://handiquilter.com/product/hq-amara-20/"
+      },
+      "warrantyUs": {
+        "value": "10 yr casting, 5 yr electrical, 5 yr mechanical",
+        "source": "https://handiquilter.com/warranty/"
+      }
+    },
+    "claims": [
+      "\"Everything you need for free-motion quilting comes right out of the box\" (manufacturer claim, product page)",
+      "\"Pinpoint accurate needle laser that shows exactly where your next stitch will land\" (manufacturer claim, product page)",
+      "\"Easy-Set Tension\" (manufacturer feature name, product page)",
+      "\"Designed by a Quilter, for Quilters\" (manufacturer tagline, user manual)"
+    ],
+    "conflicts": [
+      "Price: Village Sewing lists the Amara 20 from $12,995; Fig Leaf Quilting lists $12,495; Pocono Sew and Vac lists $14,995 for the Amara with a 12 ft table. Frame length is the likely variable. Catalog will use $12,995 as the 10 ft system price and flag 12 ft as [verify].",
+      "Speed: 2,500 spm is the manual mode maximum on the Handi Quilter spec page; dealer copy repeats up to 2,500 spm. Regulated working speed is set by hand speed and is not published as a range.",
+      "Throat: Handi Quilter markets 20 in of throat space; the spec page gives the sewing opening as 9 x 20.5 in. Catalog will use 20 in width and 9 in height and note the 20.5 in opening figure.",
+      "Weight and head dimensions: not published on any page found. Render as [verify]. One owner review calls the head heavy compared with the Moxie.",
+      "Naming: Handi Quilter renamed the Forte 24 as the Amara 24. The Amara ST is the sit down version. This entry covers the Amara 20 stand up machine only."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "An owner who traded a sit down Bernina Q20 for an Amara on a 12 ft frame reports no regrets after seven months, finding free motion and ruler work equally easy and solving most questions with Handi Quilter's online videos.",
+        "tone": "positive",
+        "source": "https://sewing.patternreview.com/SewingDiscussions/topic/127484"
+      },
+      {
+        "theme": "A quilter who moved up from a Moxie describes the Amara head as noticeably heavier, with arm fatigue over the first few quilts before building endurance.",
+        "tone": "mixed",
+        "source": "https://www.stringandstory.com/blog/hqamara"
+      },
+      {
+        "theme": "An aggregator that collected five verified owner reviews reports an average of 4.75 out of 5, with price the main hesitation.",
+        "tone": "positive",
+        "source": "https://craftyolo.com/handi-quilter-amara-review/"
+      }
+    ],
+    "evidence": "owner",
+    "buyerQuestions": [
+      "Does the Amara 20 price include the frame?",
+      "How much room does an Amara on a 10 ft or 12 ft Studio3 frame need?",
+      "Is stitch regulation built into the Amara?",
+      "What is the difference between the Amara 20 and the Amara 24?",
+      "Can you add Pro-Stitcher to the Amara later?",
+      "What is the difference between the Amara 20 and the Amara ST?",
+      "How heavy is the Amara head?",
+      "What bobbin and needle does the Amara take?",
+      "How does the Amara compare with the Grace Q'nique 19X?",
+      "What is the Amara warranty?"
+    ],
+    "crossShop": [
+      {
+        "slug": "grace-qnique-19x",
+        "why": "The 19 in Grace is the closest throat for roughly half the system price; the Amara adds a heavier frame, a bigger touchscreen and Handi Quilter's dealer network"
+      },
+      {
+        "slug": "handi-quilter-moxie",
+        "why": "Same brand, same bobbin and needle; the Moxie is 15 in on a lighter frame at less than half the price"
+      },
+      {
+        "slug": "handi-quilter-sweet-sixteen",
+        "why": "Buyers deciding between a stand up 20 in system and a sit down 16 in machine with no frame footprint"
+      },
+      {
+        "slug": "juki-tl-18qvp",
+        "why": "The domestic straight stitch alternative for quilters who cannot commit a room to a frame"
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "editorial": {
+      "verdict": "The Amara 20 is Handi Quilter's entry point into true long-arm throat: 20 in, 2,500 spm and built in regulation on a 10 or 12 ft Studio3 frame for about $13,000, which is the first tier where quilting for others becomes practical.",
+      "whoFor": "A quilter with a 14 by 8 ft room who wants to finish queen and king tops in fewer passes, do ruler and custom work, and possibly take in customer quilts.",
+      "skipIf": "You only quilt your own lap and throw sizes (a Moxie or a sit down machine costs far less), you have no room for a 10 ft frame, or you want computerized quilting from day one and have not priced Pro-Stitcher into the total.",
+      "keySpec": "20 in throat · 2,500 spm · Studio3 10 or 12 ft frame · stitch regulation built in",
+      "strengths": [
+        "20 in throat with a 9 in high sewing opening clears the mid-arm band and sits in the published long-arm tier",
+        "QuiltMaster stitch regulation, needle laser, 7 in touchscreen and a stand alone M class bobbin winder are in the standard system",
+        "Same 134 needle and M class bobbin consumables as the rest of the Handi Quilter frame lineup"
+      ],
+      "weaknesses": [
+        "Head weight and dimensions are not published; one owner moving up from a Moxie reports real arm fatigue at first",
+        "Dealer prices span $12,495 to $14,995 depending on frame length, and the frame length is not always stated in the price",
+        "Pro-Stitcher robotics roughly double the system price; dealer bundles were seen at $25,990 to $28,990"
+      ],
+      "checks": [
+        {
+          "title": "Get the frame length in the quote",
+          "body": "Handi Quilter sells the Amara 20 with a 10 ft or 12 ft Studio3 frame. Dealer prices from $12,495 to $14,995 appear to track frame length. Confirm which one is priced and whether the bobbin winder is included."
+        },
+        {
+          "title": "Measure for a 12 ft frame before choosing it",
+          "body": "A dealer size guide says a 10 ft frame wants 12 by 8 ft of floor and a 12 ft frame wants 14 by 8 ft, with 2 ft of walking room on every side. Only a 12 ft frame loads a king quilt in one width."
+        },
+        {
+          "title": "Price Pro-Stitcher now, even if you buy it later",
+          "body": "Authorized dealers list Pro-Stitcher at $10,995 and Amara plus Pro-Stitcher bundles at $25,990 to $28,990. Ask whether the bundle discount survives if you add it in a year."
+        }
+      ],
+      "realCost": [
+        "Frame: included; 10 ft or 12 ft Studio3 in the standard system, and the 12 ft length was seen priced about $2,000 higher at one dealer",
+        "Stitch regulator: included; no add-on cost",
+        "Robotics: Pro-Stitcher listed at $10,995 by an authorized dealer; Amara plus Pro-Stitcher systems seen at $25,990 to $28,990",
+        "Delivery and setup: not published; Handi Quilter dealers quote freight and setup individually",
+        "Consumables: M class bobbins and 134 system needles, sizes 12 to 20, widely stocked",
+        "Rulers, ruler base and Handi Feet: optional and priced separately by dealers"
+      ],
+      "faqs": [
+        {
+          "q": "Does the Amara 20 price include a frame?",
+          "a": "Yes. Handi Quilter sells the Amara 20 as a system with the HQ Studio3 frame in 10 ft or 12 ft. Dealer prices from $12,495 to $14,995 appear to differ by frame length, so confirm which length is quoted."
+        },
+        {
+          "q": "Is stitch regulation built into the Amara?",
+          "a": "Yes. Handi Quilter's QuiltMaster stitch regulation with Precision and Cruise modes is standard, with 4 to 24 stitches per inch. There is also a manual mode."
+        },
+        {
+          "q": "How fast does the Amara sew?",
+          "a": "Handi Quilter's spec page gives a manual mode range of 25 to 2,500 stitches per minute. On a frame the working speed is governed by the regulator and your hand speed."
+        },
+        {
+          "q": "How big is the Amara throat?",
+          "a": "Handi Quilter states 20 in of throat space and a sewing opening of 9 x 20.5 in (228 x 521 mm). That is needle to body width; usable quilting depth per pass on a frame is less because of the take up roller."
+        },
+        {
+          "q": "How heavy is the Amara head?",
+          "a": "Not published on any page found. One owner who moved up from a Moxie describes it as noticeably heavier to push."
+        },
+        {
+          "q": "What needle and bobbin does the Amara use?",
+          "a": "Needle system 134 (135x7) in sizes 12/80 to 20/125, and M class bobbins in a high speed rotary hook. A stand alone bobbin winder is included."
+        },
+        {
+          "q": "How much room does an Amara need?",
+          "a": "A dealer frame size guide says a 10 ft frame needs about 12 by 8 ft of floor and a 12 ft frame about 14 by 8 ft, leaving 2 ft of walking room on each side."
+        },
+        {
+          "q": "Can I add Pro-Stitcher to the Amara later?",
+          "a": "Yes, Pro-Stitcher is the compatible robotics. An authorized dealer lists it at $10,995, and Amara plus Pro-Stitcher systems were seen at $25,990 to $28,990."
+        },
+        {
+          "q": "What is the difference between the Amara 20 and the Amara 24?",
+          "a": "Throat width. The Amara 24 is the renamed Forte 24 with a 24 in throat; the Amara 20 is 20 in. The Amara ST is the sit down version."
+        },
+        {
+          "q": "What is the Amara warranty?",
+          "a": "Handi Quilter's longarm warranty is 10 years on the casting, 5 years electrical and 5 years mechanical."
+        }
+      ]
+    },
+    "sources": [
+      "https://handiquilter.com/product/hq-amara-20/",
+      "https://handiquilter.com/product/hq-amara-20-quilt-machine/",
+      "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications",
+      "https://handiquilter.com/warranty/",
+      "https://handiquilter.com/product/hq-amara-24/",
+      "https://handiquilter.com/product/amara-st/",
+      "https://www.sewingmachinesplus.com/hq-amara.php",
+      "https://villagesewing.com/products/handi-quilter-amara",
+      "https://www.thefigleafquilting.com/shop/Sewing-Machines/Handi-Quilter-Machines.htm",
+      "https://www.poconosewandvac.com/products/handi-quilter/machines/amara",
+      "https://www.qualitysewing.com/products/handi-quilter-amara-20-long-arm-machine",
+      "https://www.qualitysewing.com/products/pink-limited-edition-handi-quilter-amara-20",
+      "https://www.mkquilts.com/amara-20-longarm-machine-lp-908862.html",
+      "https://rockymountainsewing.com/longarm-quilting-frame-size-guide/",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/127484",
+      "https://www.stringandstory.com/blog/hqamara",
+      "https://craftyolo.com/handi-quilter-amara-review/"
+    ]
+  },
+  "manufacturer": {
+    "documents": [
+      {
+        "id": "page",
+        "url": "https://handiquilter.com/product/hq-amara-20/",
+        "type": "product page (handiquilter.com)",
+        "fetched": "2026-10-02",
+        "note": "Maker page for the Amara 20: price range, option selectors, feature list, spec table (packaging weight, throat, speed), resource list. Page modified 2026-10-02 per page metadata. The 3.88 of 17 customer ratings shown lower on the page belongs to a related product card, not the Amara 20 (its own tab shows 0 reviews)."
+      },
+      {
+        "id": "manual",
+        "url": "https://handiquilter.com/download/158320/",
+        "type": "Amara 20 and 24 User Manual, Version 1.6 (PDF, 87 pages, handiquilter.com)",
+        "fetched": "2026-10-02",
+        "note": "curl returned a bot-challenge page; Firecrawl with the pdf parser returned the full text. General Specifications; box contents; warranty p. 80; oiling and service. Shared by the Amara 20 and 24."
+      },
+      {
+        "id": "support",
+        "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications",
+        "type": "Amara Specifications (support.handiquilter.com)",
+        "fetched": "2026-10-02",
+        "note": "Maker spec list: sewing opening, speed, spi, needle system and sizes, hook, motor 48 V, outlet power, service schedule."
+      },
+      {
+        "id": "compare",
+        "url": "https://handiquilter.com/machine-comparison-should-i-buy-the-moxie-or-the-amara/",
+        "type": "maker blog (Moxie vs Amara, Aug 2024, modified 2026-08-14)",
+        "fetched": "2026-10-02",
+        "note": "Maker's own comparison: usable quilting area about 14 in on the Amara 20 vs 10 in on the Moxie; frame widths; shared features. Marketing context, quote as maker claims."
+      },
+      {
+        "id": "warranty",
+        "url": "https://handiquilter.com/warranty/",
+        "type": "warranty page (not re-fetched)",
+        "fetched": null,
+        "note": "Terms were read from the manual (p. 80) instead; the page is the source our spec cites."
+      },
+      {
+        "id": "hq-compare",
+        "url": "https://handiquilter.com/compare/hq-machine-comparison/",
+        "type": "maker comparison page and FAQ (handiquilter.com)",
+        "fetched": "2026-10-02",
+        "note": "Fetched through Firecrawl rawHtml. Machine comparison table (price, display, frame, Pro-Stitcher, speed, spi, throat) and a FAQ with floor space guidance and sit down model notes."
+      }
+    ],
+    "facts": [
+      {
+        "field": "throatIn",
+        "value": "Page: '20 inches of brightly-lit throat space'; spec table 'Throat Size 20 inches'. Manual and support article: sewing opening 9 in x 20.5 in (228 mm x 521 mm); the Amara 24 row reads 9 x 24.5 in.",
+        "source": "page",
+        "vs_spec": "confirms",
+        "spec_value": 20,
+        "note": "The maker's wording is 'throat space' and 'sewing opening'; it does not say needle to body. The 20.5 in opening width is 0.5 in wider than the 20 in marketed throat, same pattern on the Amara 24 (24 vs 24.5). Per rule 11 a 20 in head is a long-arm (18 in and up).",
+        "site": {
+          "label": "Throat space",
+          "juki": "20 inches of throat space. Manual: sewing opening 9 in by 20.5 in (228 by 521 mm).",
+          "others": "Matches our 20 in and 9 in height; the maker does not say needle to body.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Handi Quilter Amara 20 page",
+              "url": "https://handiquilter.com/product/hq-amara-20/"
+            },
+            {
+              "label": "Handi Quilter Amara specifications",
+              "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+            },
+            {
+              "label": "Amara 20 and 24 User Manual v1.6",
+              "url": "https://handiquilter.com/download/158320/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "throatHeightIn",
+        "value": "Manual and support article: sewing opening 9 in x 20.5 in (228 mm x 521 mm).",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": 9,
+        "note": "The 9 in figure is the first (height) dimension of the opening; the pairing with 20.5 in width is consistent with the 228 x 521 mm figures."
+      },
+      {
+        "field": "throatUsable",
+        "value": "Maker blog: 'With the Amara 20, the safe usable quilting area is approximately 14 inches' (Moxie: approximately 10 inches). The take-up roll through the throat shrinks the area as the quilt advances.",
+        "source": "compare",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Maker's own figure for usable quilting width on a frame. Not a spec field; the throat versus usable caveat for the Amara.",
+        "site": {
+          "label": "Usable quilting area",
+          "juki": "Safe usable quilting area approximately 14 inches (of 20).",
+          "others": "Not in the spec table.",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Handi Quilter Moxie vs Amara post",
+              "url": "https://handiquilter.com/machine-comparison-should-i-buy-the-moxie-or-the-amara/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "maxSpm",
+        "value": "Page: 'up to 2,500 stitches per minute'. Manual and support article: manual mode 25 to 2,500 spm; regulated mode 0 spm to full speed.",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": 2500,
+        "note": "Matches. No cruise range is published; the manual advises beginning cruise at a setting of 200.",
+        "site": {
+          "label": "Speed",
+          "juki": "Up to 2,500 stitches per minute (manual mode 25 to 2,500).",
+          "others": "Matches our 2,500 spm.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Handi Quilter Amara 20 page",
+              "url": "https://handiquilter.com/product/hq-amara-20/"
+            },
+            {
+              "label": "Handi Quilter Amara specifications",
+              "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+            },
+            {
+              "label": "Amara 20 and 24 User Manual v1.6",
+              "url": "https://handiquilter.com/download/158320/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "stitchesPerInch",
+        "value": "Page and manual: 4 to 24 stitches per inch; basting modes of 1 stitch per 1/4 in, 1/2 in, 1 in, 2 in and 4 in.",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "4 to 24 spi",
+        "note": "Matches."
+      },
+      {
+        "field": "needleSystem",
+        "value": "System 134 (135x7 on the support article). Support article: recommended sizes 12/80 to 20/125. Manual General Specifications: recommended 80/12 to 130/21. Box: two packs of 10, size 100/16 and 110/18.",
+        "source": "manual",
+        "vs_spec": "contradicts",
+        "spec_value": "134 (135x7), sizes 12/80 to 20/125",
+        "note": "Two maker documents disagree on the top size: 20/125 (support article) vs 21/130 (manual v1.6). Listed under Where sources disagree. Same split as the Moxie manual.",
+        "site": {
+          "label": "Needle system",
+          "juki": "System 134, sizes 80/12 to 130/21 (manual); the support article says 12/80 to 20/125.",
+          "others": "Our spec takes the support article (to 20/125).",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Handi Quilter Amara specifications",
+              "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+            },
+            {
+              "label": "Amara 20 and 24 User Manual v1.6",
+              "url": "https://handiquilter.com/download/158320/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "bobbin",
+        "value": "Hook: rotary, horizontal axis, M-class aluminum bobbin, bobbin case type MF (manual and support article). Page: 'High-speed rotary hook with large-capacity M-class bobbin'. Stand-alone bobbin winder in the box. Five bobbins in the box.",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "M class, high speed rotary hook; stand alone bobbin winder included",
+        "note": "Matches."
+      },
+      {
+        "field": "motor",
+        "value": "Support article: 48V brushless DC, outlet power 120 watts maximum, 100-240 VAC, 50-60 Hz, 1.5 to 3.3 A. Manual gives 'Brushless DC' and 120 watts maximum (no 48 V).",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "48 V brushless DC; 120 W maximum outlet power",
+        "note": "Matches; the 48 V figure is only on the support article."
+      },
+      {
+        "field": "display",
+        "value": "Page: 7-inch color touchscreen (add Pro-Stitcher and its tablet replaces the machine display).",
+        "source": "page",
+        "vs_spec": "confirms",
+        "spec_value": "7 in color touchscreen",
+        "note": "Matches."
+      },
+      {
+        "field": "lighting",
+        "value": "Page: menu-controlled QuiltMaster LED package at throat, needle bar and bobbin; pinpoint needle laser. Blog: each of the three light sets switches on and off and dims.",
+        "source": "page",
+        "vs_spec": "confirms",
+        "spec_value": "Menu controlled LED lighting at throat, needle bar and bobbin; needle laser",
+        "note": "Matches."
+      },
+      {
+        "field": "weightLb",
+        "value": "Page lists packaging weight 98 lbs and packaging dimensions 40 x 16 x 28 in. The manual and support article give no machine weight or dimensions.",
+        "source": "page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "98 lb is packaging weight (box and contents), not the head weight. weightLb stays null. Owner threads mention the head being heavier than a Moxie; no figure."
+      },
+      {
+        "field": "frame",
+        "value": "Page: 'Studio3 frame included (10 or 12 feet long)'; option selector also offers the HQ Little Foot Frame, 'compatible with the Amara 20'. Blog: 10 ft Studio3 quilts up to 108 in wide, 12 ft up to 132 in; the 12 ft frame is 3 sections of 4 ft, the 10 ft frame is 2 x 4 ft plus a 2 ft section.",
+        "source": "page",
+        "vs_spec": "confirms",
+        "spec_value": "HQ Studio3 frame, 10 ft or 12 ft, in the standard system",
+        "note": "Matches, plus the Little Foot option the spec omits.",
+        "site": {
+          "label": "Frame",
+          "juki": "Studio3 frame, 10 ft or 12 ft, included. Little Foot frame listed as compatible.",
+          "others": "Matches our spec; Little Foot is the addition.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Handi Quilter Amara 20 page",
+              "url": "https://handiquilter.com/product/hq-amara-20/"
+            },
+            {
+              "label": "Handi Quilter Moxie vs Amara post",
+              "url": "https://handiquilter.com/machine-comparison-should-i-buy-the-moxie-or-the-amara/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "price",
+        "value": "Page: price range $12,995.00 through $27,990.00 across option selectors (frame: Studio3 10 ft, Studio3 12 ft, Little Foot; Pro-Stitcher: add or none). The selector's default state showed $25,990.00.",
+        "source": "page",
+        "vs_spec": "confirms",
+        "spec_value": 12995,
+        "note": "The $12,995 floor matches our price. The maker page does not state which frame the floor applies to; treat the frame behind $12,995 as [verify]. Seen 2026-10-02."
+      },
+      {
+        "field": "includedFeet",
+        "value": "Manual box list: closed-toe Handi Foot installed plus open-toe Handi Foot, 5 bobbins, bobbin case, needles 134 size 100/16 and 110/18 (10 each), thread tray and mast, EZ Pen Oiler, power cord, hex wrenches 2, 2.5, 3 and 5 mm, screwdriver, HQ Longarm Quilting Pins, decal sheet, Quick Reference Card, HQ Bobbin Winder. Page: Handi Feet compatible, includes closed-toe and open-toe foot; magnetic Tool Minder Collar.",
+        "source": "manual",
+        "vs_spec": "adds",
+        "spec_value": "Stand alone bobbin winder; QuiltMaster adjustable front handlebars with programmable buttons; full accessory list not published in results",
+        "note": "Fills the box contents our spec lacked. Sure Foot for rulers and the Steady-Fit Ruler Base are optional (manual and blog)."
+      },
+      {
+        "field": "warrantyUs",
+        "value": "Manual p. 80: 90 day limited warranty (parts and labor), 5 year mechanical, 5 year electronic/electrical (free parts; customer pays labor and shipping), 10 year limited on sewing head casting and machining. Registration card must be received for the warranty to be valid. Blog states the same terms for all Handi Quilter longarms.",
+        "source": "manual",
+        "vs_spec": "confirms",
+        "spec_value": "10 yr casting, 5 yr electrical, 5 yr mechanical",
+        "note": "Matches; the manual adds the 90 day term and that labor and freight are the owner's cost after 90 days.",
+        "site": {
+          "label": "Warranty",
+          "juki": "10 years casting, 5 years mechanical, 5 years electrical. Parts free after 90 days; labor and shipping are the owner's cost (manual).",
+          "others": "Matches our spec; the labor and freight cost is the addition.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Amara 20 and 24 User Manual v1.6",
+              "url": "https://handiquilter.com/download/158320/"
+            },
+            {
+              "label": "Handi Quilter warranty page",
+              "url": "https://handiquilter.com/warranty/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "stitchRegulation",
+        "value": "Page: QuiltMaster servo-controlled stitch regulation; blog and manual: Precision, Cruise and Manual modes, Easy-Set Tension with a digital tension readout.",
+        "source": "page",
+        "vs_spec": "confirms",
+        "spec_value": "Built in (QuiltMaster servo controlled, Precision and Cruise modes); not an add-on",
+        "note": "Matches."
+      },
+      {
+        "field": "service",
+        "value": "Support article: service and lubricate every 24 months or 10 million stitches, whichever comes first. Manual: the only routine oiling point is the bobbin hook assembly, oiled with each bobbin change; internal lubrication is by a technician; main components are permanently lubricated (Kluber).",
+        "source": "manual",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Maintenance schedule the spec does not hold.",
+        "site": {
+          "label": "Service schedule",
+          "juki": "Oil the bobbin hook at each bobbin change; technician service every 24 months or 10 million stitches.",
+          "others": "Not in the spec table.",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Handi Quilter Amara specifications",
+              "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+            },
+            {
+              "label": "Amara 20 and 24 User Manual v1.6",
+              "url": "https://handiquilter.com/download/158320/"
+            }
+          ]
+        }
+      },
+      {
+        "field": "proStitcher",
+        "value": "Page: 'Pro-Stitcher ready! All necessary cabling is pre-installed inside'; Pro-Stitcher Premium compatible. Pro-Stitcher option raises the page price range to $27,990 at the top.",
+        "source": "page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Computerized add-on; its price as a separate line is a dealer figure (see briefing)."
+      },
+      {
+        "field": "siblings",
+        "value": "Maker: Amara 24 shares the manual and has a 24 in throat (opening 9 x 24.5 in); the Amara 20 and 24 share one manual and Quick Reference Card. Blog: Moxie XL is 18 in. The Amara ST (sit down) has its own page not read here.",
+        "source": "page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Family context for the sibling rows."
+      },
+      {
+        "field": "claims",
+        "value": "'Experience quality, precision, and a world of quilting possibilities' and 'Everything you need for free-motion quilting right out of the box' (page); 'The Amara 20 is lightning fast' and 'perfect stitches, every time' (page and blog); 'Designed by a Quilter, for Quilters' (manual).",
+        "source": "page",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Quote as maker claims, not facts."
+      },
+      {
+        "field": "footprint",
+        "value": "Maker FAQ floor space guidance: 10 ft Studio or Gallery frame approx. 12 ft x 7 ft; 12 ft frame approx. 14 ft x 7 ft; leave room at front and back for movement and maintenance access.",
+        "source": "hq-compare",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "A dealer size guide (Rocky Mountain Sewing) gives 12 x 8 ft and 14 x 8 ft with 2 ft walking room on every side; the maker figure is the floor of the frame, not the working room. Not a spec field."
+      },
+      {
+        "field": "priceFrame",
+        "value": "Dealer shopping listings seen in the Google SERP 2026-10-02: $12,995 is the price for the Little Foot 5 ft frame package at Village Sewing and Ken's Sewing Center; MK Quilts lists $14,995 with the 12 ft Studio3 frame; Creative Sewing Center $25,990 (likely with Pro-Stitcher).",
+        "source": "page",
+        "vs_spec": "contradicts",
+        "spec_value": 12995,
+        "note": "Our spec treats $12,995 as the 10 ft Studio3 system price. The maker page default selector is the Little Foot frame, and dealer listings suggest $12,995 is the Little Foot price. Studio3 pricing is [verify]. Soft: SERP shopping snippets, not fetched dealer pages."
+      }
+    ]
+  },
+  "rollup": {
+    "status": "draft",
+    "method": {
+      "sources": 17,
+      "itemsCollected": 86,
+      "statements": 44,
+      "voices": 14,
+      "ownerVoices": 11,
+      "dateRange": [
+        2018,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 7,
+          "items": 68
+        },
+        "forum": {
+          "sources": 4,
+          "items": 4
+        },
+        "editorial": {
+          "sources": 5,
+          "items": 5
+        },
+        "retailer": {
+          "sources": 1,
+          "items": 5
+        }
+      },
+      "blocked": 6,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "This is a thin evidence base. Most Reddit and forum threads are general longarm buying threads where only a few commenters own an Amara 20, and many owner posts live in Facebook groups, which could not be read.",
+      "The String & Story review is by a Moxie owner whose Amara is on loan from Handi Quilter under a content agreement, and the Craftyolo page carries affiliate links and gets the included frame wrong against Handi Quilter's own page. Both are counted as buyer or editorial signal, not as independent owner evidence.",
+      "Amazon has no listing for the Amara 20 (the Amara ST listing has no rating), so there is no Amazon rating here. The Sewing Machines Plus page shows 5 reviews, the oldest from 2018, so it is not a current gauge.",
+      "Several forum comments say only 'HQ' or 'Handi Quilter' with no model; those are labelled as unclear scope and are not credited to the Amara 20."
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+        "pageRating": 4,
+        "pageCount": 5,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 2,
+          "5": 2
+        },
+        "lowRated": 1,
+        "sampled": null
+      }
+    ],
+    "themes": [
+      {
+        "label": "Build quality",
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 4,
+        "polarity": {
+          "positive": 2,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "classVoices": {
+          "reddit": 2,
+          "editorial": 1,
+          "retailer": 2
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner prefers APQS solid frames to the Handi Quilter frame, which she describes as pinned together.",
+            "url": "https://www.reddit.com/r/quilting/comments/la4q1q/advice_for_aspiring_long_armer/glm0y0s/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Compares the HQ frame to APQS, calling the HQ frame pieced rather than solid.",
+            "url": "https://www.reddit.com/r/quilting/comments/d00sxs/2019_longarmmidarm_review_thread/ez53m5y/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "New longarm quilter says the machine runs very smoothly on the tracks.",
+            "url": "https://www.sewingmachinesplus.com/hq-amara.php"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Reviewer says the Studio3 frame has many little screws and recommends dealer assembly.",
+            "url": "https://www.stringandstory.com/blog/hqamara"
+          }
+        ]
+      },
+      {
+        "label": "Dealer support and service",
+        "voices": 5,
+        "ownerVoices": 4,
+        "sources": 5,
+        "polarity": {
+          "positive": 1,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "reddit": 2,
+          "editorial": 1,
+          "forum": 1,
+          "retailer": 1
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "Owner describes poor after-sale support from the dealer she bought her Amara from.",
+            "url": "https://www.reddit.com/r/quilting/comments/la4q1q/advice_for_aspiring_long_armer/glm0y0s/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Owner found the dealer she bought from unresponsive and difficult, and notes the dealer is often the service person.",
+            "url": "https://www.reddit.com/r/quilting/comments/d00sxs/2019_longarmmidarm_review_thread/ez4y785/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner praises Handi Quilter customer service and its help line.",
+            "url": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/2120292-longarm-recommendation"
+          }
+        ]
+      }
+    ],
+    "siblings": [
+      {
+        "label": "HQ Moxie (15 in)",
+        "rows": [
+          {
+            "feature": "Throat space",
+            "summary": "A comparison site lists 20 in for the Amara 20 and 15 in for the Moxie; Handi Quilter's own post puts safe usable area at about 14 in against about 10 in.",
+            "check": "Stitch Machine Ledger restates maker figures; usable area is Handi Quilter's marketing figure"
+          },
+          {
+            "feature": "Speed and stitch range",
+            "summary": "Handi Quilter lists up to 2,500 spm and 4 to 24 stitches per inch on the Amara 20, against 1,800 spm and 4 to 18 on the Moxie.",
+            "check": "maker figures, matched on Handi Quilter's comparison page"
+          },
+          {
+            "feature": "Pro-Stitcher compatibility",
+            "summary": "The Amara 20 is listed as Pro-Stitcher Premium compatible; the Moxie takes Pro-Stitcher Lite.",
+            "check": "Handi Quilter's comparison page; compatible is not the same as included"
+          },
+          {
+            "feature": "Frame or table",
+            "summary": "The Amara 20 comes with a Studio3 frame in 10 or 12 ft; the Moxie comes with the 8 ft Loft frame, and both list the 5 ft Little Foot frame as compatible.",
+            "check": "Handi Quilter product pages and comparison post"
+          },
+          {
+            "feature": "Maker price",
+            "summary": "Handi Quilter lists the Moxie from $5,495 and the Amara 20 from $12,995; the Amara 20 page shows a packaging weight of 98 lb, which is box weight, not machine weight.",
+            "check": "Handi Quilter comparison and product pages, 2026-10-02"
+          }
+        ]
+      },
+      {
+        "label": "HQ Amara ST (20 in sit down)",
+        "rows": [
+          {
+            "feature": "Frame or table",
+            "summary": "The Amara ST is the 20 in sit down version on a lift table or InSight table; the Amara 20 is frame mounted.",
+            "check": "Handi Quilter comparison page and FAQ"
+          },
+          {
+            "feature": "Pro-Stitcher compatibility",
+            "summary": "Handi Quilter says its sit down models do not work with Pro-Stitcher; the Amara 20 is Premium compatible.",
+            "check": "Handi Quilter FAQ and comparison table"
+          },
+          {
+            "feature": "Maker price",
+            "summary": "Handi Quilter lists the Amara ST from $8,495 and the Amara 20 from $12,995.",
+            "check": "Handi Quilter comparison page, 2026-10-02"
+          }
+        ]
+      },
+      {
+        "label": "HQ Moxie XL (18 in)",
+        "rows": [
+          {
+            "feature": "Throat space",
+            "summary": "One forum member who tested an Amara says its harp is 2 in longer than the Moxie XL (20 in vs 18 in).",
+            "check": "forum comment; the 18 in figure is Handi Quilter's"
+          },
+          {
+            "feature": "Frame or table",
+            "summary": "The same member says the Moxie XL tops out at a 10 ft frame while the Amara takes 12 ft. Handi Quilter lists the Moxie XL on the 8 ft Loft frame with a 2 ft extension.",
+            "check": "forum comment, consistent with Handi Quilter's FAQ"
+          }
+        ]
+      },
+      {
+        "label": "HQ Amara 24 (formerly Forte 24)",
+        "rows": [
+          {
+            "feature": "Throat space",
+            "summary": "Handi Quilter lists 24 in of throat on the Amara 24 against 20 in; the manual gives the sewing opening as 9 x 24.5 in against 9 x 20.5 in.",
+            "check": "Handi Quilter FAQ and the Amara 20 and 24 manual v1.6"
+          },
+          {
+            "feature": "Frame or table",
+            "summary": "Handi Quilter's description gives the Amara 24 a Gallery3 frame in 10, 12 or 15 ft; its comparison table lists Gallery2 in 10, 12 or 14 ft. The Amara 20 is listed on Studio3 in 10 or 12 ft.",
+            "check": "Handi Quilter's page contradicts itself on Gallery2 vs Gallery3 and the longest length"
+          },
+          {
+            "feature": "Stitch regulation",
+            "summary": "A Handi Quilter FAQ says the Amara 24 and Infinity have more refined sensors and extra modes. Both Amara pages list Precision and Cruise.",
+            "check": "single maker FAQ line; not confirmed elsewhere"
+          },
+          {
+            "feature": "Maker sewing opening",
+            "summary": "The shared Amara manual lists a 9 x 20.5 in sewing opening for the Amara 20 and 9 x 24.5 in for the Amara 24; the marketed throats are 20 and 24 in.",
+            "check": "Amara 20 and 24 User Manual v1.6, 2026-10-02"
+          }
+        ]
+      }
+    ],
+    "rivals": [
+      {
+        "model": "Grace Company Q'nique (19X, 21X Elite and others)",
+        "claims": 10,
+        "favors": {
+          "this": 6,
+          "other": 4,
+          "mixed": 0
+        },
+        "dimensions": {
+          "this": [
+            {
+              "dimension": "vibration",
+              "n": 2
+            },
+            {
+              "dimension": "build and longevity",
+              "n": 1
+            },
+            {
+              "dimension": "market positioning",
+              "n": 1
+            },
+            {
+              "dimension": "throat space",
+              "n": 1
+            }
+          ],
+          "other": [
+            {
+              "dimension": "owner maintenance",
+              "n": 1
+            },
+            {
+              "dimension": "computerized upgrade price",
+              "n": 1
+            },
+            {
+              "dimension": "price with computerization",
+              "n": 1
+            },
+            {
+              "dimension": "price",
+              "n": 1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "checks": [
+    {
+      "level": "warn",
+      "id": "reddit",
+      "message": "few Reddit threads name the model in the title; collection may be on loose matches"
+    }
+  ],
+  "editorNotes": {
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "This is a thin evidence base. Most Reddit and forum threads are general longarm buying threads where only a few commenters own an Amara 20, and many owner posts live in Facebook groups, which could not be read.",
+      "The String & Story review is by a Moxie owner whose Amara is on loan from Handi Quilter under a content agreement, and the Craftyolo page carries affiliate links and gets the included frame wrong against Handi Quilter's own page. Both are counted as buyer or editorial signal, not as independent owner evidence.",
+      "Amazon has no listing for the Amara 20 (the Amara ST listing has no rating), so there is no Amazon rating here. The Sewing Machines Plus page shows 5 reviews, the oldest from 2018, so it is not a current gauge.",
+      "Several forum comments say only 'HQ' or 'Handi Quilter' with no model; those are labelled as unclear scope and are not credited to the Amara 20."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction."
+  },
+  "questions": {
+    "pulled": "2026-10-02",
+    "items": [
+      {
+        "q": "What is the price of the Handi Quilter Amara 20?",
+        "sources": [
+          "paa",
+          "ahrefs"
+        ],
+        "volume": 10,
+        "scope": "this",
+        "use": true,
+        "faq": "What is the price of the Handi Quilter Amara 20?",
+        "answeredFrom": "manufacturer.json price and priceFrame facts; data/specs priceUsdSeen with date"
+      },
+      {
+        "q": "Does the Amara 20 price include a frame?",
+        "sources": [
+          "briefing"
+        ],
+        "volume": null,
+        "scope": "this",
+        "use": true,
+        "faq": "Does the Amara 20 price include a frame?",
+        "answeredFrom": "manufacturer.json frame and priceFrame facts"
+      },
+      {
+        "q": "What is the difference between the Amara 20 and the Amara 24?",
+        "sources": [
+          "briefing",
+          "ahrefs"
+        ],
+        "volume": 70,
+        "scope": "sibling",
+        "use": true,
+        "faq": "What is the difference between the Amara 20 and the Amara 24?",
+        "answeredFrom": "rollup.json siblingSummaries (Amara 24); manufacturer.json"
+      },
+      {
+        "q": "What is the difference between the Amara 20 and the Amara ST?",
+        "sources": [
+          "briefing",
+          "ahrefs"
+        ],
+        "volume": 10,
+        "scope": "sibling",
+        "use": true,
+        "faq": "What is the difference between the Amara 20 and the Amara ST?",
+        "answeredFrom": "rollup.json siblingSummaries (Amara ST)"
+      },
+      {
+        "q": "Should I buy the Moxie or the Amara?",
+        "sources": [
+          "briefing"
+        ],
+        "volume": null,
+        "scope": "sibling",
+        "use": true,
+        "faq": "Should I buy the Moxie or the Amara 20?",
+        "answeredFrom": "rollup.json siblingSummaries (Moxie) and siblingExtras"
+      },
+      {
+        "q": "Can you add Pro-Stitcher to the Amara later?",
+        "sources": [
+          "briefing",
+          "ahrefs"
+        ],
+        "volume": 40,
+        "scope": "this",
+        "use": true,
+        "faq": "Can Pro-Stitcher be added to the Amara 20 later?",
+        "answeredFrom": "manufacturer.json proStitcher fact; rollup.json siblingSummaries (Pro-Stitcher compatibility)"
+      },
+      {
+        "q": "What do owners say about the Handi Quilter Amara?",
+        "sources": [
+          "ahrefs",
+          "paa"
+        ],
+        "volume": 10,
+        "scope": "this",
+        "use": true,
+        "faq": "What do owners say about the Handi Quilter Amara 20?",
+        "answeredFrom": "rollup.json themes and summary"
+      },
+      {
+        "q": "How much room does an Amara on a 10 ft or 12 ft frame need?",
+        "sources": [
+          "briefing"
+        ],
+        "volume": null,
+        "scope": "this",
+        "use": true,
+        "faq": "How much room does an Amara 20 need?",
+        "answeredFrom": "manufacturer.json footprint fact"
+      },
+      {
+        "q": "What bobbin and needle does the Amara take?",
+        "sources": [
+          "briefing",
+          "ahrefs"
+        ],
+        "volume": 0,
+        "scope": "this",
+        "use": true,
+        "faq": "What needle and bobbin does the Amara 20 use?",
+        "answeredFrom": "manufacturer.json needleSystem and bobbin facts"
+      },
+      {
+        "q": "What is the Amara warranty?",
+        "sources": [
+          "briefing"
+        ],
+        "volume": null,
+        "scope": "this",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "How heavy is the Amara head?",
+        "sources": [
+          "briefing"
+        ],
+        "volume": null,
+        "scope": "this",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "How to clean Handi Quilter Amara?",
+        "sources": [
+          "ahrefs"
+        ],
+        "volume": 0,
+        "scope": "this",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "How much did you pay for your Amara Handi Quilter?",
+        "sources": [
+          "ahrefs"
+        ],
+        "volume": 0,
+        "scope": "this",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "Handi Quilter Amara 20 manual",
+        "sources": [
+          "ahrefs"
+        ],
+        "volume": 10,
+        "scope": "this",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "Used Handi Quilter Amara for sale",
+        "sources": [
+          "ahrefs"
+        ],
+        "volume": 40,
+        "scope": "this",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "How much does a Handi Quilter machine cost?",
+        "sources": [
+          "paa"
+        ],
+        "volume": null,
+        "scope": "generic",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "Which brand is better for longarm quilting, Handi Quilter or Bernina?",
+        "sources": [
+          "paa"
+        ],
+        "volume": null,
+        "scope": "generic",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "What is the highest rated long arm quilting machine?",
+        "sources": [
+          "paa"
+        ],
+        "volume": null,
+        "scope": "generic",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "What is the best quilting machine for home quilters in 2026?",
+        "sources": [
+          "paa"
+        ],
+        "volume": null,
+        "scope": "generic",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "What is the most trouble-free sewing machine?",
+        "sources": [
+          "paa"
+        ],
+        "volume": null,
+        "scope": "generic",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "What is the #1 sewing machine manufacturer in the US?",
+        "sources": [
+          "paa"
+        ],
+        "volume": null,
+        "scope": "generic",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "What is dirty quilting?",
+        "sources": [
+          "paa"
+        ],
+        "volume": null,
+        "scope": "generic",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      }
+    ]
+  },
+  "siteFieldsNow": "  \"handi-quilter-amara\": {\n    score: 8.6,\n    scoredFor: \"quilting\",\n    reason: \"The first true long-arm throat in the Handi Quilter line.\",\n    context: \"20 in stand-up long-arm · in Quilting hub\",\n    alternatives: [\n      { slug: \"grace-qnique-19x\", label: \"19 in head\", note: \"Grace's 19 in quilting arm width, per Grace.\" },\n      { slug: \"handi-quilter-moxie\", label: \"Entry tier\", note: \"15 in on an 8 ft frame.\" },\n      { slug: \"handi-quilter-sweet-sixteen\", label: \"Sit-down\", note: \"16 in at a table, no frame.\" },\n    ],\n    imageAlt: \"Handi Quilter Amara 20 long-arm quilting machine on a frame\",\n    lastUpdated: \"2026-10-02\",\n  },",
+  "comparesNow": []
+}

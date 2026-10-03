@@ -148,15 +148,16 @@
   ],
   "evidence": "owner",
   "buyerQuestions": [
-    "What is the difference between the Singer 6700C and 6800C?",
-    "Does the Singer 6700C have a thread cutter?",
+    "Is the Singer HD6700C a good sewing machine, according to owners?",
+    "What is the difference between the Singer 6700C and the 6800C?",
+    "Does the Singer 6700C have an automatic thread cutter?",
     "Does the Singer 6700C have needle up/down?",
     "Does the Singer 6700C come with a walking foot?",
     "How many stitches does the Singer 6700C have?",
     "Is the Singer 6700C good for quilting?",
-    "How much does the Singer 6700C weigh?",
-    "Can the Singer 6700C do lettering?",
-    "Is the Singer 6700C good for beginners?"
+    "What are the specs of the Singer 6700C?",
+    "What is the price of the Singer 6700C?",
+    "singer 6700c vs 4452"
   ],
   "crossShop": [
     {
@@ -210,52 +211,40 @@
     ],
     "faqs": [
       {
-        "q": "How many stitches does the Singer 6700C have?",
-        "a": "Singer's comparison page says 200 built-in stitches and 411 stitch applications. The product page says 411 applications and its prose also says 586, which looks like the 6800C number. We list the disagreement and do not state a plain count."
+        "q": "Is the Singer HD6700C a good sewing machine, according to owners?",
+        "a": "The evidence is thin: 17 voices, 16 first-hand, from 16 Reddit threads and 1 retailer page. Threading (6 voices, 3 positive and 3 negative) and tension (5 voices, all negative) are the recurring themes, with owners describing a top thread that slips out of place and a top tension dial that seems to do nothing. One Amazon owner hemmed work pants and stitched a canvas tote without trouble, and 3 voices praise low noise. Amazon shows 4.4 of 5 from 980 ratings (seen 2026-10-02), pooled across listings of this machine, and Reddit leans toward help requests, so problems are over-represented."
       },
       {
-        "q": "Does the 6700C have an automatic thread cutter?",
+        "q": "What is the difference between the Singer 6700C and the 6800C?",
+        "a": "On Singer's pages the 6800C adds a thread cutter button, Needle Up/Down and more stitch applications (586 on its page against 411 for the 6700C). Singer's pages also disagree on the 6800C throat (6.4 in on its product page, 8.3 in on the comparison page) and speed (1100/min against 1,050), and the 6800C page showed out of stock on 2026-10-02. These are maker-page figures that do not agree with each other [verify]."
+      },
+      {
+        "q": "Does the Singer 6700C have an automatic thread cutter?",
         "a": "Singer's product page lists a tie-off button and no thread cutter. The 6800C page lists a Thread Cutter Button that trims top and bottom threads. The manual's thread knife is a hand cutter."
       },
       {
-        "q": "Does the 6700C have needle up/down?",
-        "a": "Unresolved. The shared HD 6700C and HD 6705C manual documents a Needle Up/Down button, the 6700C product page does not list one, and the 6800C and 6620C pages do. Confirm with the seller."
+        "q": "Does the Singer 6700C have needle up/down?",
+        "a": "Unresolved. The shared HD 6700C and HD 6705C manual documents a Needle Up/Down button, the 6700C product page does not list one, and the 6800C and 6620C pages do. Confirm with the seller [verify]."
       },
       {
-        "q": "Does the 6700C come with a walking foot?",
-        "a": "Yes. The even feed (walking) foot is one of 10 feet on Singer's accessory list, along with open toe and cording feet."
+        "q": "Does the Singer 6700C come with a walking foot?",
+        "a": "Yes. The even feed (walking) foot is one of 10 feet on Singer's accessory list, along with open toe and cording feet. One Reddit thread mentions the walking foot without a verdict, so we hold no owner view on it."
       },
       {
-        "q": "What is the throat space?",
-        "a": "6.4 in (163 mm), which Singer words as needle to tower. Singer does not state it as needle to body, so we treat it as [verify] on our throat scale."
+        "q": "How many stitches does the Singer 6700C have?",
+        "a": "Singer's comparison page says 200 built-in stitches and 411 stitch applications. The product page says 411 applications and its prose also says 586, which looks like the 6800C number. We list the disagreement and do not state a plain count [verify]."
       },
       {
-        "q": "How fast does it sew?",
-        "a": "Singer's product page says 1100/min. The shared manual says 1000 +/- 50 rpm at default length, and we use that figure."
+        "q": "Is the Singer 6700C good for quilting?",
+        "a": "Singer claims a generous C space for larger projects like quilts, and gives the throat as 6.4 in, worded needle to tower rather than needle to body [verify]. One Amazon owner wishes the throat were bigger and uses a quilting machine for larger projects. Treat larger quilts with caution."
       },
       {
-        "q": "How much does it weigh?",
-        "a": "7 kg, which is 15.4 lb, in the shared manual. Amazon lists 14.6 lb and one blog 16.3 lb."
+        "q": "What are the specs of the Singer 6700C?",
+        "a": "Singer's product page says 1100 stitches per minute and the shared HD 6700C and HD 6705C manual says 1000 +/- 50, so speed is [verify]. The manual gives 7 kg (15.4 lb) against 14.6 lb on Amazon, a 6 mm presser foot lift and a 0.7 A, 120 V electrical rating with no wattage published. Heavy Duty is a series name, not a duty rating, and the 6.4 in throat is needle to tower [verify]."
       },
       {
-        "q": "Can the 6700C sew letters?",
-        "a": "Yes. Singer's product page lists 1 lettering font and its comparison page lists 2. The manual shows a Block Font at 7 mm letter height."
-      },
-      {
-        "q": "Is the 6700C good for quilting?",
-        "a": "Singer claims a generous C space for larger projects like quilts. The throat is 6.4 in needle to tower, and one Walmart reviewer group calls it good for quilting. Treat larger quilts with caution."
-      },
-      {
-        "q": "What is the warranty?",
-        "a": "Singer's product page and linked PDF say Limited 25/1: 25 years on the frame and 1 year on parts and adjustments. Singer's coverage page does not name the 6700C and Amazon shows 1 year."
-      },
-      {
-        "q": "What is the difference between the 6700C and the 6800C?",
-        "a": "On Singer's pages the 6800C adds a thread cutter button, Needle Up/Down and more stitch applications (586 on its page). Singer's pages also disagree on the 6800C throat (6.4 in on its product page, 8.3 in on the comparison page) and speed (1100/min against 1,050)."
-      },
-      {
-        "q": "How good is the evidence on owners?",
-        "a": "Thin. We have 17 voices, 16 first-hand, from 16 Reddit threads (5 with the model in the title) and one retailer page; Amazon's 4.4 from 980 ratings is pooled across listings of this machine, and the Sewing Machines Plus page has 0 reviews. Reddit skews to help requests, so problems are over-represented."
+        "q": "What is the price of the Singer 6700C?",
+        "a": "Singer's page showed a $419.99 list price with a $329.99 sale price, and Sewing Machines Plus showed $329.99 on 2026-09-29 against a $419.99 regular price. Singer's extension table bundle was $349.99 against $488.98 original. Prices drift weekly, so use the price band on this page as the stable guide."
       }
     ]
   },

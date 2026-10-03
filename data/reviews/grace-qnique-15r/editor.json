@@ -1,0 +1,176 @@
+{
+  "notes": [
+    "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+    "The 15R was renamed from the Q'nique 14+ (Leah Day says it is the same machine) and dealers sold it as the BlockRockIt, so older posts under those names are included where the writer says it is the same machine. Posts about the 15 PRO, 15M, 19 and 21 are kept out of the 15R counts.",
+    "Sewing Machines Plus's Q'nique listing (4.49 of 5 across 79 reviews, 2014 to 2024) pools buyers of several Q'nique heads and now sells a recertified 15 PRO. Only the review that names the 15R is counted here, so the listing's rating describes the Q'nique family, not the 15R alone.",
+    "Facebook group posts (the largest Q'nique community) could not be read. Amazon and Walmart have no 15R listing, and Grace's own 15R product page no longer sells the machine, so there are no rating pages for the 15R itself. YouTube comments are not collected.",
+    "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented. Several of the longer voices are Grace dealers or partners (Leah Day discloses a dealer and partner relationship).",
+    "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+  ],
+  "ownerNote": "Read the problem counts below with care. Many of these threads are people asking for help with tension or a fault, so problems are over-represented, and the one retailer rating we have (Sewing Machines Plus, 4.49 of 5) covers the whole Q'nique family, not the 15R. Counts are per page or thread, so a long forum thread is one voice.",
+  "siblings": [
+    {
+      "model": "Q'nique 15 PRO",
+      "label": "Grace Q'nique 15 PRO",
+      "pattern": "15\\s*-?\\s*pro(?![a-z0-9])"
+    },
+    {
+      "model": "Q'nique 15M",
+      "label": "Grace Q'nique 15M",
+      "pattern": "15\\s*-?\\s*m(?![a-z0-9])"
+    },
+    {
+      "model": "Q'nique 19",
+      "label": "Grace Q'nique 19 (now 19X)",
+      "pattern": "q['\u2019]?nique\\s*19(\\s*-?\\s*x)?(?![a-z0-9])"
+    },
+    {
+      "model": "Q'nique 16X",
+      "label": "Grace Q'nique 16X",
+      "pattern": "16\\s*-?\\s*x(?![a-z0-9])"
+    }
+  ],
+  "features": [
+    [
+      "speed|spm|stitches per minute",
+      "Speed"
+    ],
+    [
+      "screen|touch|display|monitor",
+      "Screen"
+    ],
+    [
+      "throat|reach",
+      "Throat space"
+    ],
+    [
+      "motor|power",
+      "Motor power"
+    ],
+    [
+      "regulat",
+      "Stitch regulation"
+    ],
+    [
+      "price|msrp|\\$|cost",
+      "Price"
+    ],
+    [
+      "successor|replac|status|naming",
+      "Naming and status"
+    ],
+    [
+      "warrant",
+      "Warranty"
+    ]
+  ],
+  "rivals": [
+    [
+      "moxie(?![a-z0-9])|handi ?quilter",
+      "Handi Quilter Moxie"
+    ],
+    [
+      "tl[\\s-]*18qvp(?![a-z0-9])|juki",
+      "Juki (TL-18QVP and other)"
+    ],
+    [
+      "570(?![a-z0-9])|bernina",
+      "Bernina"
+    ],
+    [
+      "memory[\\s-]*craft[\\s-]*6650|6650(?![a-z0-9])|janome",
+      "Janome"
+    ],
+    [
+      "brother",
+      "Brother"
+    ],
+    [
+      "babylock|baby lock",
+      "Baby Lock"
+    ]
+  ],
+  "themeRemap": [],
+  "others": "19\\s*-?x|15\\s*-?\\s*pro|15\\s*-?m(?![a-z0-9])|16\\s*-?x|moxie|handi ?quilter|tl[\\s-]*18|bernina|6650|janome|brother|baby ?lock|apqs|innova|gammill|continuum|qnique 19|q'nique 19|21x|little rebel|juki",
+  "scopeRules": [
+    {
+      "sourceUrl": "sewingmachinesplus.com",
+      "requireText": "q['\u2019]?nique\\s*15\\s*-?r(?![a-z0-9])|\\b15\\s*-?r(?![a-z0-9])"
+    }
+  ],
+  "siblingSummaries": {
+    "Q'nique 15 PRO": {
+      "Speed": {
+        "summary": "The 15 PRO runs to 2,000 spm; the 15R to 1,800 spm.",
+        "check": "Grace comparison table and two dealer pages agree"
+      },
+      "Screen": {
+        "summary": "The 15 PRO has a full-color touch screen; the 15R has a full-color OLED screen and is driven from the handlebar buttons.",
+        "check": "Grace comparison table, 2026-10-02; Leah Day agrees"
+      },
+      "Motor power": {
+        "summary": "Dealers call the 15 PRO motor more powerful. The 15 PRO listing and the 15R manual both give 300 W peak power, so the difference is a speed rating, not a published wattage.",
+        "check": "dealer wording; 300 W figures from the 15R manual and a dealer 15 PRO page"
+      }
+    },
+    "Q'nique 16X": {
+      "Naming and status": {
+        "summary": "Leah Day lists the 15R as now the 16X and a dealer says the 15 PRO was replaced by the 16X. Grace's 15R page does not name a replacement and points buyers to the 15 Pro.",
+        "check": "naming sources disagree with Grace's own pages"
+      }
+    },
+    "Q'nique 19": {
+      "Throat space": {
+        "summary": "The Q'nique 19 (now the 19X) has 19 in of throat against 15 in. Leah Day frames the gap as barely fitting a 10 in block versus easily quilting a 14 in block.",
+        "check": "one reviewer who is a Grace partner; 19X not checked against Grace's own page"
+      },
+      "Screen": {
+        "summary": "The 19 and 15 PRO have touchscreens that are easier to use than the 15R's handlebar buttons.",
+        "check": "one reviewer; Grace's 19X page not fetched"
+      },
+      "Speed": {
+        "summary": "Leah Day calls the 15R, 15 PRO and 19 very similar on speed in one post and gives 1,800 against 2,000 spm in another.",
+        "check": "one reviewer, two posts that disagree; not checked against Grace's 19X page"
+      }
+    }
+  },
+  "siblingExtras": {
+    "Q'nique 15 PRO": [
+      {
+        "feature": "Price",
+        "summary": "Grace lists the 15 PRO at $4,999.95 machine only against $4,499.95 for the 15R.",
+        "check": "Grace 15R and 15 Pro pages, 2026-10-02; list prices, not live prices"
+      },
+      {
+        "feature": "Stitch regulation",
+        "summary": "Both have stitch regulation with Precise, Cruise, Baste and Manual modes and the same 15 in throat.",
+        "check": "Grace comparison table, 2026-10-02"
+      }
+    ],
+    "Q'nique 15M": [
+      {
+        "feature": "Stitch regulation",
+        "summary": "The 15M has no stitch regulation (constant speed manual mode only); the 15R regulates stitch length in Precise and Cruise modes.",
+        "check": "Grace comparison table, 2026-10-02"
+      },
+      {
+        "feature": "Screen",
+        "summary": "The 15M has an LCD number read-out; the 15R has a full-color OLED screen.",
+        "check": "Grace comparison table, 2026-10-02"
+      },
+      {
+        "feature": "Price",
+        "summary": "Grace lists the 15M at $3,499.95 machine only against $4,499.95 for the 15R. Both run to 1,800 spm.",
+        "check": "Grace 15R page, 2026-10-02; list prices, not live prices"
+      }
+    ],
+    "Q'nique 16X": [
+      {
+        "feature": "Availability",
+        "summary": "Grace's 15R page says the 15R is no longer available for new purchase and lists the 16X among current machines.",
+        "check": "Grace 15R page, 2026-10-02"
+      }
+    ]
+  },
+  "summary": "Owners of the Grace Q'nique 15R describe a simple, affordable machine with stitch regulation, and the same three topics come up again and again. Those who like it praise Grace's phone support, call it a good machine to learn on, and say it glides well once the thread and tension are dialed in. The repeated complaints are that tension takes a lot of thread and patience to set, that the 15 in throat limits how much of a block fits in one pass so people outgrow it, and that some units had electronics trouble such as motherboard, sensor or bobbin winder failures that meant shipping the machine back to Grace. This read covers 9 Reddit threads, 9 blog, dealer and maker pages, 6 forum threads and one retailer listing, from 2014 to 2025, and a few of the longer voices are Grace dealers or partners. Reddit and forum threads lean toward people asking for help, so problems are over-represented here."
+}

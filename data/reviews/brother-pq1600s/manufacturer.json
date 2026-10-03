@@ -1,0 +1,323 @@
+{
+  "slug": "brother-pq1600s",
+  "collected": "2026-10-02",
+  "purpose": "First-party facts from Brother's own documents, compared against data/specs/brother-pq1600s.json. Research input for the editor; not a spec file. Values are as printed, with units. Manual page numbers are PDF page numbers (printed page plus 2).",
+  "documents": [
+    {
+      "id": "brother-page",
+      "url": "https://www.brother-usa.com/products/pq1600s",
+      "type": "product page",
+      "fetched": "2026-10-02",
+      "note": "Fetched with Firecrawl; redirects to /p/quilting/PQ1600S. Price 999.99 on the day."
+    },
+    {
+      "id": "brother-manual",
+      "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf",
+      "type": "instruction manual, 60 pages (English and French), model 884-T79",
+      "fetched": "2026-10-02",
+      "note": "Text extracted; cached locally, not committed."
+    },
+    {
+      "id": "brother-qrg",
+      "url": "https://download.brother.com/welcome/doch102860/884t79_qg01endefrnliteszhtko.pdf",
+      "type": "quick reference guide, 2 pages",
+      "fetched": "2026-10-02",
+      "note": "Threading and bobbin diagrams; no spec figures read from it."
+    },
+    {
+      "id": "smp-page",
+      "url": "https://www.sewingmachinesplus.com/PQ1600S.php",
+      "type": "dealer page",
+      "fetched": "2026-10-02",
+      "note": "Dealer copy of Brother features; price 999.99, 2 on-page reviews."
+    }
+  ],
+  "facts": [
+    {
+      "field": "maxSpm",
+      "value": "1,500 spm (manual: 40 to 1,500 stitches per minute)",
+      "source": "brother-page Specifications; brother-manual PDF p.28",
+      "vs_spec": "confirms",
+      "spec_value": 1500,
+      "site": {
+        "label": "Speed",
+        "others": "Dealers agree on 1,500.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/pq1600s"
+          },
+          {
+            "label": "Brother manual PDF p.28",
+            "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+          }
+        ],
+        "juki": "Up to 1,500 spm; manual gives a 40 to 1,500 range."
+      }
+    },
+    {
+      "field": "maxStitchLengthMm",
+      "value": "7 mm (dial runs to 7 mm; reverse stitch is always 5 mm when the dial is set between 5 and 7 mm)",
+      "source": "brother-manual PDF p.10 (printed p.8)",
+      "vs_spec": "confirms",
+      "spec_value": 7,
+      "note": "Sewing Machines Plus lists stitch length as 5 mm; the manual's dial range and the Brother page support 7 mm. The 5 mm is the reverse stitch cap.",
+      "site": {
+        "label": "Stitch length",
+        "others": "Sewing Machines Plus lists 5 mm, which matches the reverse cap, not the dial maximum.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother manual PDF p.10",
+            "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+          },
+          {
+            "label": "Sewing Machines Plus",
+            "url": "https://www.sewingmachinesplus.com/PQ1600S.php"
+          }
+        ],
+        "juki": "Dial to 7 mm; reverse is fixed at 5 mm above a 5 mm setting."
+      }
+    },
+    {
+      "field": "throatIn",
+      "value": "5.7 in tall x 8.7 in wide needle-to-arm space",
+      "source": "brother-page Main Features (Extra Large Workspace); dealer copy repeats it",
+      "vs_spec": "confirms",
+      "spec_value": 8.7,
+      "note": "A parts retailer lists 8.5 in and a UK dealer (thesewingstudio.co.uk) lists 8.6 in wide; Brother's 8.7 in is the figure carried. The manual gives machine width 18-1/8 in, depth 7-11/16 in, height 12-19/32 in, which is not a throat figure.",
+      "site": {
+        "label": "Throat space",
+        "others": "A parts retailer lists 8.5 in wide and 5.75 in tall.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/pq1600s"
+          }
+        ],
+        "juki": "5.7 in tall x 8.7 in wide needle-to-arm space."
+      }
+    },
+    {
+      "field": "needleSystem",
+      "value": "ORGAN HLX5 recommended; Schmetz 130/705H may also be used under normal sewing conditions; needle threader works with #11 to #16",
+      "source": "brother-manual PDF p.19 (needle chart) and p.8 (accessories: needles HLX5 sizes 9, 11, 11, 14, 16 and one ballpoint)",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "The briefing said the needle system was not published. The manual publishes it. Do not carry the PQ1500SL needle across; this is the PQ1600S manual.",
+      "site": {
+        "label": "Needle",
+        "others": "Dealer pages do not state a needle system.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother manual PDF p.19",
+            "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+          }
+        ],
+        "juki": "HLX5 recommended; 130/705H also usable under normal sewing. Needle threader handles #11 to #16."
+      }
+    },
+    {
+      "field": "needleThreader",
+      "value": "Needle threader, usable with needles #11 to #16; use #9 or thinner by hand",
+      "source": "brother-manual PDF p.19",
+      "vs_spec": "adds",
+      "note": "The spec calls it F.A.S.T. from a dealer page; the manual says only 'needle threader'."
+    },
+    {
+      "field": "threadTrimmer",
+      "value": "Push-button thread cutter that trims upper and bobbin thread and leaves the needle up",
+      "source": "brother-page Main Features; brother-manual PDF p.12 and p.22",
+      "vs_spec": "confirms",
+      "note": "The spec row says owner reports; Brother's own page and manual confirm the button cutter.",
+      "site": {
+        "label": "Thread cutter",
+        "others": "Owners in the Missouri Star thread praise it.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/pq1600s"
+          },
+          {
+            "label": "Brother manual PDF p.22",
+            "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+          }
+        ],
+        "juki": "Push-button cutter for upper and bobbin thread."
+      }
+    },
+    {
+      "field": "needleStop",
+      "value": "Manual: needle stop button, lamp on means the needle stops down; lamp off means it stops wherever the pedal is released. Brother page: needle can be preprogrammed up or down.",
+      "source": "brother-manual PDF p.12; brother-page Main Features and Specifications",
+      "vs_spec": "adds",
+      "note": "Brother's own page is inconsistent: Main Features says up or down, while its spec table lists Needle Stop Position Up/Down as No and Start/Stop Button as No. The manual describes a down-only needle stop button.",
+      "site": {
+        "label": "Needle stop",
+        "others": "Dealers repeat the up or down line.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother manual PDF p.12",
+            "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+          },
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/pq1600s"
+          }
+        ],
+        "juki": "Manual describes a needle-down stop button; the product page says up or down and its own table says No."
+      }
+    },
+    {
+      "field": "presserFootLift",
+      "value": "Presser foot lever plus included knee lifter; presser foot pressure dial; 4 colour coded levels",
+      "source": "brother-manual PDF p.11 and p.13; brother-page",
+      "vs_spec": "confirms",
+      "note": "Dealers and one blog call the knee lifter built in; the manual lists it as accessory XA0830-051 with a setup section, so it is supplied loose and fitted by the user."
+    },
+    {
+      "field": "feedSystem",
+      "value": "Feed dog adjustment knob with feed dog levels including a pin feed position; feed pin passes up through the layers; feed pin is lowered automatically when the presser foot is raised",
+      "source": "brother-manual PDF p.12, p.13, p.22",
+      "vs_spec": "confirms"
+    },
+    {
+      "field": "bobbin",
+      "value": "Bobbin case in a shuttle race behind a bobbin door and slide plate; quick bobbin thread device; manual says always use the supplied bobbin case; 5 bobbins in the box",
+      "source": "brother-manual PDF p.8 and p.16",
+      "vs_spec": "confirms",
+      "note": "Consistent with the spec's side loading description; the manual does not use the phrase side loading."
+    },
+    {
+      "field": "weightLb",
+      "value": "10.8 kg (about 24 lb); Brother page 23.81",
+      "source": "brother-manual PDF p.28; brother-page Dimensions",
+      "vs_spec": "confirms",
+      "spec_value": 23.8
+    },
+    {
+      "field": "dimensionsIn",
+      "value": "460 x 195 x 320 mm (18-1/8 x 7-11/16 x 12-19/32 in) W x D x H",
+      "source": "brother-manual PDF p.28; brother-page lists 7.7 x 18.1 x 12.6 in",
+      "vs_spec": "confirms",
+      "note": "Amazon lists a packed or listing size of 25 x 11.5 x 15 in; that is not the machine."
+    },
+    {
+      "field": "includedFeet",
+      "value": "7 feet: general purpose, rolled hem, zipper, invisible zipper, 1/4 in, free motion quilting, pin feed (pin feed foot is on the machine); plus knee lifter, fabric separator, feed pin and changer, seam guide, fabric extension table, 5 bobbins, needles",
+      "source": "brother-manual PDF p.8; brother-page In the Box",
+      "vs_spec": "confirms",
+      "note": "Brother's spec table says Free Motion Quilting Foot: No in the Quilting block while the box list includes one. Treat the box list and manual as correct.",
+      "site": {
+        "label": "Feet and box",
+        "others": "Dealers copy Brother's box list.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother manual PDF p.8",
+            "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+          },
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/pq1600s"
+          }
+        ],
+        "juki": "7 feet including the free motion quilting foot and pin feed foot, plus knee lifter and wide table."
+      }
+    },
+    {
+      "field": "bed",
+      "value": "Wide table 11.1 x 23.3 in (283 x 593 mm, per dealer)",
+      "source": "brother-page Main Features",
+      "vs_spec": "confirms"
+    },
+    {
+      "field": "lighting",
+      "value": "Manual refers to a light unit that must be replaced by an authorized service center if damaged; no lamp type or brightness stated. Dealer says 1 lamp.",
+      "source": "brother-manual PDF p.4 (safety); sewingmachinesplus.com",
+      "vs_spec": "adds",
+      "spec_value": null,
+      "note": "Lamp type not published. Stays null."
+    },
+    {
+      "field": "maintenance",
+      "value": "Oil the lubrication points about twice a month when used every day; oil the free motion foot area about once a month if used often; manual tells you to oil the hook after cleaning",
+      "source": "brother-manual PDF p.26 and p.28",
+      "vs_spec": "adds",
+      "note": "A mechanical machine with oil points. Compare Juki, where owners talk about daily oiling.",
+      "site": {
+        "label": "Oiling",
+        "others": "Not stated on dealer pages.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother manual PDF p.28",
+            "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+          }
+        ],
+        "juki": "A few drops at each marked point twice a month with daily use."
+      }
+    },
+    {
+      "field": "msrp",
+      "value": "USD 999.99 on brother-usa.com (seen 2026-10-02); Amazon listing 899.99; Sewing Machines Plus 999.99 (compare at 1,299.99)",
+      "source": "brother-page; amazon B0CFYQZX5Q; sewingmachinesplus.com",
+      "vs_spec": "contradicts",
+      "spec_value": 579.99,
+      "note": "data/specs holds 579.99 from a search snippet that was never read on a page. Brother's own page lists 579.99 for the SE700 in its similar products block, which is the likely source of the mix-up. Every PQ1600S listing read today is 899.99 to 999.99.",
+      "site": {
+        "label": "Price",
+        "others": "Amazon 899.99; Sewing Machines Plus 999.99, crossed from 1,299.99. The earlier 579.99 figure did not survive a page read.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/pq1600s"
+          },
+          {
+            "label": "Sewing Machines Plus",
+            "url": "https://www.sewingmachinesplus.com/PQ1600S.php"
+          }
+        ],
+        "juki": "Brother lists 999.99."
+      }
+    },
+    {
+      "field": "warrantyUs",
+      "value": "1/2/25 year limited warranty (Brother page); breakdown 1 year labor, 2 year electrical, 25 year chassis per dealer",
+      "source": "brother-page; sewingmachinesplus.com",
+      "vs_spec": "confirms",
+      "note": "Brother's page gives only the 1/2/25 label. The split by component is dealer copy; no Brother warranty document was found.",
+      "site": {
+        "label": "Warranty",
+        "others": "Dealer copy reads 1 year labor, 2 year electrical, 25 year chassis.",
+        "status": "dealer only",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/pq1600s"
+          }
+        ],
+        "juki": "1/2/25 year limited warranty, no breakdown on the product page."
+      }
+    },
+    {
+      "field": "stitchTypes",
+      "value": "1 built-in stitch (straight); 0 buttonhole styles; 0 lettering fonts",
+      "source": "brother-page Specifications",
+      "vs_spec": "confirms"
+    },
+    {
+      "field": "claims",
+      "value": "Brother wording: 'maximum fabric control' (feed dog and pressure), 'optimum machine for speed and precision', 'serious quilter'; page title says Straight Stitch Sewing & Quilting Machine",
+      "source": "brother-page",
+      "vs_spec": "confirms",
+      "note": "Marketing words stay under claims, not specs."
+    }
+  ]
+}

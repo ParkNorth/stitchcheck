@@ -1,0 +1,307 @@
+{
+ "slug": "janome-coverpro-2000cpx",
+ "collected": "2026-10-02",
+ "purpose": "First-party facts from the maker's own documents, compared against data/specs/janome-coverpro-2000cpx.json. Research input for the editor; not a spec file.",
+ "documents": [
+  {
+   "id": "page",
+   "url": "https://www.janome.com/product/coverpro-2000cpx/",
+   "type": "product page (janome.com)",
+   "fetched": "2026-10-02",
+   "note": "Key features, standard and optional accessory lists, spec list, MSRP $1,099, dealer-only sales. Page was last modified 2025-06-30 per its metadata. No reviews on the page."
+  },
+  {
+   "id": "manual",
+   "url": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf",
+   "type": "Instruction book (PDF, 60 pages, English, French and Spanish)",
+   "fetched": "2026-10-02",
+   "note": "Text layer read directly. English pages are printed pp. 2 to 48 (PDF page = printed page + 6). It has no specification table: no weight, dimensions, motor or power rating, and no oiling instructions (care section covers cleaning feed dogs and looper area only). Standard accessories on printed p. 4."
+  },
+  {
+   "id": "warranty-pdf",
+   "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+   "type": "Janome America Limited 25 Year Warranty (PDF, 1 page, image-only, read by OCR at 200 dpi)",
+   "fetched": "2026-10-02",
+   "note": "Linked from janome.com/support/warranty/. Figures are OCR readings, verify against the PDF."
+  },
+  {
+   "id": "dealer-chart",
+   "url": "https://www.kenssewingcenter.com/media/sparsh/product_attachment/CoverPro_Comp_Chart.pdf",
+   "type": "Dealer comparison chart (Ken's Sewing Center PDF: 2000CPX, 1000CPX, 900CPX)",
+   "fetched": "2026-10-02",
+   "note": "Not a Janome document; a dealer chart that appears to be Janome artwork. Read from the rendered page because the text layer loses the columns. Used for sibling differences only, labelled dealer figures."
+  }
+ ],
+ "facts": [
+  {
+   "field": "maxSpm",
+   "value": "1,000 spm (page)",
+   "source": "page",
+   "vs_spec": "confirms",
+   "spec_value": 1000,
+   "site": {
+    "label": "Speed",
+    "juki": "Page: up to 1,000 spm.",
+    "others": "Matches our spec. Dealer chart gives 1,000 for the 2000CPX, 1000CPX and 900CPX alike.",
+    "status": "confirmed",
+    "links": [
+     {
+      "label": "Janome product page",
+      "url": "https://www.janome.com/product/coverpro-2000cpx/"
+     }
+    ]
+   }
+  },
+  {
+   "field": "stitchTypes",
+   "value": "1 needle 2 thread chain stitch; 2 needle 3 thread cover stitch (6 mm standard, 3 mm narrow); 3 needle 4 thread triple cover stitch (6 mm, 3 + 3)",
+   "source": "page",
+   "vs_spec": "confirms",
+   "spec_value": "2-thread chain stitch, 3-thread cover stitch (3 mm narrow or 6 mm wide), 4-thread triple cover stitch (6 mm)",
+   "note": "Manual printed pp. 28 to 38 shows the same three families. No maker document lists a top cover (decorative looper) stitch or an overlock stitch; the page says Cutting Width Adjustment: Not Available."
+  },
+  {
+   "field": "threads",
+   "value": "2, 3 or 4 thread; 1, 2 or 3 needles",
+   "source": "page",
+   "vs_spec": "confirms",
+   "spec_value": "1, 2 or 3 needles plus 1 looper (2, 3 or 4 threads)"
+  },
+  {
+   "field": "differentialFeed",
+   "value": "0.5 mm to 2.25 mm (page spec list); 0.5 to 2.25 ratio (key features)",
+   "source": "page",
+   "vs_spec": "confirms",
+   "spec_value": "0.5 to 2.25",
+   "note": "Our spec cited a dealer; the maker page now confirms it. Manual: dial value is the ratio of main to sub feed; 1.0 for regular sewing, lower for fine fabrics that pucker, higher for stretch fabrics (printed p. 12).",
+   "site": {
+    "label": "Differential feed",
+    "juki": "Page: 0.5 to 2.25.",
+    "others": "Matches our spec.",
+    "status": "confirmed",
+    "links": [
+     {
+      "label": "Janome product page",
+      "url": "https://www.janome.com/product/coverpro-2000cpx/"
+     },
+     {
+      "label": "Janome instruction book",
+      "url": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "field": "stitchLengthMm",
+   "value": "1.0 to 4.0 mm",
+   "source": "page",
+   "vs_spec": "confirms",
+   "spec_value": "1 to 4"
+  },
+  {
+   "field": "stitchWidthMm",
+   "value": "Two needles 6 mm (standard) or 3 mm (narrow); three needles 6 mm (3 + 3)",
+   "source": "page",
+   "vs_spec": "confirms",
+   "spec_value": "6 (two needles standard), 3 (two needles narrow), 6 with three needles (3 + 3)"
+  },
+  {
+   "field": "needleSystem",
+   "value": "Organ ELx705, size 80/12 or 90/14. Machine arrives installed with #80/12 needles; the standard set is 2 x #80/12 and 3 x #90/14 (Schmetz EL X 705), manual printed pp. 4, 14 and 15",
+   "source": "manual",
+   "vs_spec": "contradicts",
+   "spec_value": "SCHMETZ ELx705, 90/14 supplied",
+   "note": "Our spec says 90/14 supplied. The manual says the machine is installed with 80/12 and the set holds both sizes. The product page lists assorted ELx705 needles under Optional Accessories, not standard; the manual is the better source for the box.",
+   "site": {
+    "label": "Needles in the box",
+    "juki": "Manual: installed with #80/12; standard set 2 x #80/12 and 3 x #90/14 (ELx705). Page: needles listed as an optional accessory.",
+    "others": "Our spec said 90/14 supplied.",
+    "status": "differs",
+    "links": [
+     {
+      "label": "Janome instruction book",
+      "url": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf"
+     },
+     {
+      "label": "Janome product page",
+      "url": "https://www.janome.com/product/coverpro-2000cpx/"
+     }
+    ]
+   }
+  },
+  {
+   "field": "presserFootLift",
+   "value": "Snap-on foot; presser foot lifter; tension released when the lifter is raised (manual printed p. 11). Lift height not published",
+   "source": "manual",
+   "vs_spec": "confirms",
+   "spec_value": "Snap-on foot; lift height not published"
+  },
+  {
+   "field": "weightLb",
+   "value": "19 lbs (page spec list)",
+   "source": "page",
+   "vs_spec": "confirms",
+   "spec_value": 19.0,
+   "note": "Dealer chart (Ken's Sewing Center) prints 17.8 lb under the 2000CPX column and 19 lb under the 1000CPX column; the Amazon listing detail says 23 pounds (probably shipping weight). The maker page value stands; list the dealer and Amazon figures under where sources disagree.",
+   "site": {
+    "label": "Weight",
+    "juki": "Page: 19 lb.",
+    "others": "Dealer chart: 17.8 lb for the 2000CPX and 19 lb for the 1000CPX. Amazon listing: 23 lb.",
+    "status": "differs",
+    "links": [
+     {
+      "label": "Janome product page",
+      "url": "https://www.janome.com/product/coverpro-2000cpx/"
+     },
+     {
+      "label": "Ken's Sewing Center comparison chart",
+      "url": "https://www.kenssewingcenter.com/media/sparsh/product_attachment/CoverPro_Comp_Chart.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "field": "dimensionsIn",
+   "value": "Not published by Janome (manual has no spec table). Amazon listing detail: 20 x 17 x 15 in",
+   "source": "page",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "The Amazon figure is probably carton size. Do not fill the spec."
+  },
+  {
+   "field": "throatIn",
+   "value": "Page: extra large bed space 4 x 5.5 in. Not a needle-to-body figure",
+   "source": "page",
+   "vs_spec": "confirms",
+   "spec_value": null,
+   "note": "Rule 11: the 4 x 5.5 in is the bed (sewing area), not a throat. Throat stays null."
+  },
+  {
+   "field": "freeArm",
+   "value": "Yes, free arm (page key feature); manual p. 43 hems with the free arm",
+   "source": "page",
+   "vs_spec": "confirms",
+   "spec_value": "Yes, built-in"
+  },
+  {
+   "field": "threadTrimmer",
+   "value": "Manual parts list names a thread cutter on the machine (printed p. 2). No automatic trimmer is listed",
+   "source": "manual",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "A hand cutter on the frame, not a motorised trimmer. Leave the trimmer spec null."
+  },
+  {
+   "field": "lighting",
+   "value": "LED light (page key features). The instruction book parts list names no lamp",
+   "source": "page",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "The Janome page lists an LED light; Ken's chart does not."
+  },
+  {
+   "field": "includedFeet",
+   "value": "Page standard accessories: foot control, lint brush, needle threader, large and small screwdriver, large spool holder; key features add 4 cones of thread and a dust cover. Manual standard: needle set (2 x 80/12, 3 x 90/14), two screwdrivers, tweezers, nets, spool holder caps, lint brush, needle threader, attachment screws, accessory box. Snap-on presser foot is on the machine",
+   "source": "manual",
+   "vs_spec": "adds",
+   "spec_value": "Standard foot; needle set ELx705; electronic foot control; dust cover (standard accessories per dealer listing)",
+   "note": "Both maker documents agree on the foot, foot control and dust cover items our spec lists; they add thread cones, tweezers, nets and an accessory box. Extension table is shown in the manual parts list but the page lists it under Optional Accessories. Seam guide, gathering attachment, binder and clear view foot are optional on the page."
+  },
+  {
+   "field": "warrantyUs",
+   "value": "25 years from purchase against defects in materials or workmanship; electronic component parts 5 years; labor 1 year free then at cost; machines used commercially 1 year parts and service; void if not bought from an authorized Janome dealer in the United States; excludes needles, needle plates, bobbin cases, fuses, light bulbs, knives, loopers and belts",
+   "source": "warranty-pdf",
+   "vs_spec": "contradicts",
+   "spec_value": "25 yr parts, 2 yr electrical, 1 yr labor (Janome America)",
+   "note": "Our spec says 2 years electrical; Janome's own PDF says 5 years for electronic component parts (OCR reading, verify). Janome says it does not sell direct and the warranty needs an authorized-dealer purchase: say so where a marketplace listing is discussed.",
+   "site": {
+    "label": "US warranty",
+    "juki": "Limited 25 year (materials and workmanship), 5 year electronic components, 1 year labor; void if not bought from an authorized US dealer.",
+    "others": "Our spec said 2 years on electrical parts.",
+    "status": "differs",
+    "links": [
+     {
+      "label": "Janome warranty PDF",
+      "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+     },
+     {
+      "label": "Janome warranty page",
+      "url": "https://www.janome.com/support/warranty/"
+     }
+    ]
+   }
+  },
+  {
+   "field": "price",
+   "value": "MSRP $1,099 (page). Janome says see a dealer for pricing; dealers sell $799 seen",
+   "source": "page",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "Spec price is a dealer sale price seen 2026-09-29 ($799). The MSRP is the maker's list figure. Prices stay out of chrome (rule 10)."
+  },
+  {
+   "field": "threadingSystem",
+   "value": "Color coded thread guides: yes; tension release lever: yes; looper thread tension switching lever (printed p. 2 parts list); manual tension dials, no air threading",
+   "source": "page",
+   "vs_spec": "confirms",
+   "spec_value": "Manual, color-coded; tension release lever (added over 1000CPX)",
+   "note": "Dealer chart lists a 'Tension Release Device' on all three of the 2000CPX, 1000CPX and 900CPX, so a release device itself is not a 2000CPX-only feature. The chart gives only the 2000CPX 'Tension Level Control'."
+  },
+  {
+   "field": "claims",
+   "value": "Page copy: 'long arm, heavy-duty cover hem machine'; 'the most advanced Cover Hem machine available'; 'Extra large bed space 4\" x 5.5\"'; trademarks Tension Level Control (TLC) and Seam Tightening System",
+   "source": "page",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "Marketing words: quote as claims. The 'long arm' wording refers to the bed, which is 4 x 5.5 in; it is not a quilting long-arm and not a needle-to-body throat."
+  },
+  {
+   "field": "availability",
+   "value": "Sold through authorized Janome dealers; Janome America does not sell direct (warranty page). Page: 'Please see Dealer for pricing'",
+   "source": "page",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "Marketplace listings (Amazon, Walmart) are third-party or dealer storefronts; the manufacturer page does not say which count as authorized."
+  },
+  {
+   "field": "siblingCoverPro1000CPX",
+   "value": "Dealer chart: same stitch families, 1 to 4 mm length, 0.5 to 2.25 differential, 1,000 spm, 4 x 5.5 in bed, free arm, tension release device and Seam Tightening System; no Tension Level Control and no Cover mark; weight 19 lb. Janome category page snippet (search result, not fetched) lists MSRP $999",
+   "source": "dealer-chart",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "The chart marks Tension Level Control and Cover for the 2000CPX only. Owners say the practical gain is the looper tension switching lever. Dealer figures, label them so.",
+   "site": {
+    "label": "CoverPro 1000CPX",
+    "juki": "Dealer chart: no Tension Level Control mark; otherwise the same feature list.",
+    "others": "1000CPX weight on the chart is 19 lb.",
+    "status": "dealer only",
+    "links": [
+     {
+      "label": "Ken's Sewing Center comparison chart",
+      "url": "https://www.kenssewingcenter.com/media/sparsh/product_attachment/CoverPro_Comp_Chart.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "field": "siblingCoverPro900CPX",
+   "value": "Dealer chart: 1 or 2 needles, 5 mm two-needle width, no three-needle width, no Tension Level Control; weight 18.7 lb; same 4 x 5.5 in bed and 1,000 spm",
+   "source": "dealer-chart",
+   "vs_spec": "adds",
+   "spec_value": null,
+   "note": "The chart still marks triple cover stitch for the 900CPX although its needle row says 1 or 2. Treat the 900CPX needle count as unconfirmed beyond the chart.",
+   "site": {
+    "label": "CoverPro 900CPX",
+    "juki": "Dealer chart: 1 or 2 needles, 5 mm width, no three-needle width.",
+    "others": "Weight 18.7 lb on the chart.",
+    "status": "dealer only",
+    "links": [
+     {
+      "label": "Ken's Sewing Center comparison chart",
+      "url": "https://www.kenssewingcenter.com/media/sparsh/product_attachment/CoverPro_Comp_Chart.pdf"
+     }
+    ]
+   }
+  }
+ ]
+}

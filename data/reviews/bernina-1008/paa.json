@@ -1,0 +1,232 @@
+{
+  "slug": "bernina-1008",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "bernina 1008",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "bernina 1008",
+        "bernina 1008 sewing machine"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/bernina-1008.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "Is the Bernina 1008 discontinued?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Bernina 1008 discontinued?",
+      "answeredFrom": "manufacturer.json msrp; data/specs/bernina-1008.json conflicts (availability)"
+    },
+    {
+      "q": "How heavy is the BERNINA 1008?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How heavy is the Bernina 1008?",
+      "answeredFrom": "manufacturer.json weightLb; data/specs conflicts (weight)"
+    },
+    {
+      "q": "How much does a bernina 1008 sewing machine cost",
+      "sources": [
+        "paa",
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 100,
+      "volumeKeyword": "bernina 1008 price",
+      "scope": "this",
+      "use": true,
+      "faq": "How much does a Bernina 1008 cost?",
+      "answeredFrom": "manufacturer.json msrp; data/specs/bernina-1008.json conflicts (price history)"
+    },
+    {
+      "q": "How many stitches does the Bernina 1008 have?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How many stitches does the Bernina 1008 have?",
+      "answeredFrom": "manufacturer.json stitchCount; rollup.json documentChecks"
+    },
+    {
+      "q": "What do owners say about the Bernina 1008?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Bernina 1008?",
+      "answeredFrom": "rollup.json themes and method"
+    },
+    {
+      "q": "how to thread a bernina 1008",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "how to thread a bernina 1008",
+      "scope": "this",
+      "use": true,
+      "faq": "How do you thread the Bernina 1008?",
+      "answeredFrom": "rollup.json Threading and loopers theme; manufacturer.json documents"
+    },
+    {
+      "q": "Is the Bernina 1008 heavy duty?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Bernina 1008 heavy duty?",
+      "answeredFrom": "manufacturer.json use and claims; rollup.json Build quality theme"
+    },
+    {
+      "q": "What is the difference between the Bernina 1008 and 1008S?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Bernina 1008 and 1008S?",
+      "answeredFrom": "data/specs/bernina-1008.json conflicts (stitch count)"
+    },
+    {
+      "q": "What year was the bernina 1008 made?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "what year was the bernina 1008 made",
+      "scope": "this",
+      "use": false,
+      "reason": "No Bernina document gives an introduction or discontinuation date; only a third-party 2020 claim, so not answerable beyond the discontinued entry."
+    },
+    {
+      "q": "Is there a BERNINA 1008 sewing machine for sale?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "bernina 1008 for sale",
+      "scope": "this",
+      "use": false,
+      "reason": "A shopping query, not a question we answer; Bernina is dealer only and we show no buy link."
+    },
+    {
+      "q": "How to tell what year a BERNINA was made?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question about serial numbers; belongs on a guide."
+    },
+    {
+      "q": "How much is my BERNINA worth?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Valuation of used machines in general; no sourced model figure."
+    },
+    {
+      "q": "What replaced the Bernina 1008?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "No successor appears in Bernina documents; folded into the discontinued entry."
+    },
+    {
+      "q": "How fast does the Bernina 1008 sew?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Bernina publishes no speed; the figure sits as [verify] in the spec table."
+    },
+    {
+      "q": "Does the Bernina 1008 have a needle threader?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the spec table and the Check before you buy block; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "how to oil a bernina 1008 sewing machine",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to oil a bernina 1008 sewing machine",
+      "scope": "this",
+      "use": false,
+      "reason": "Owners disagree (after every bobbin to never) and we have no extracted maker interval."
+    },
+    {
+      "q": "How much do Bernina sewing machines cost?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Are BERNINA the best sewing machines?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "Which is the best vintage Bernina sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "What are common problems with Bernina sewing machines?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand question; belongs on a guide."
+    }
+  ]
+}

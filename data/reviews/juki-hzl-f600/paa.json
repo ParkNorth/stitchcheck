@@ -1,0 +1,268 @@
+{
+  "slug": "juki-hzl-f600",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "juki hzl-f600",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "juki hzl-f600",
+        "juki hzl f600",
+        "juki f600"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/juki-hzl-f600.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "What are people saying about the Juki HZL-F600 sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Juki HZL-F600?",
+      "answeredFrom": "rollup.json themes and summary"
+    },
+    {
+      "q": "What is the price of the Juki HZL-F600 sewing machine?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 60,
+      "volumeKeyword": "juki hzl-f600 price",
+      "scope": "this",
+      "use": true,
+      "faq": "What is the price of the Juki HZL-F600?",
+      "answeredFrom": "manufacturer.json msrp; data/specs priceUsdSeen with date"
+    },
+    {
+      "q": "What are the features of the Juki HZL-F600 quilting and sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What are the features of the Juki HZL-F600?",
+      "answeredFrom": "manufacturer.json facts (page and brochure)"
+    },
+    {
+      "q": "How much does the Juki HZL-F600 weigh?",
+      "sources": [
+        "paa",
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How heavy is the Juki HZL-F600?",
+      "answeredFrom": "manufacturer.json weightLb and dimensionsIn"
+    },
+    {
+      "q": "juki f600 and f300 series",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 50,
+      "volumeKeyword": "juki f600 and f300 series",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Juki HZL-F300 and HZL-F600?",
+      "answeredFrom": "rollup.json siblings (HZL-F300); manufacturer.json siblingDiff"
+    },
+    {
+      "q": "How big is the throat on the Juki HZL-F600?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How big is the throat on the Juki HZL-F600?",
+      "answeredFrom": "data/specs conflicts; manufacturer.json throatIn"
+    },
+    {
+      "q": "Does the HZL-F600 come with a walking foot and extension table?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to install a walking foot juki f600",
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Juki HZL-F600 come with a walking foot and extension table?",
+      "answeredFrom": "manufacturer.json includedFeet"
+    },
+    {
+      "q": "Can the HZL-F600 sew denim and thick layers?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can the Juki HZL-F600 sew denim and thick layers?",
+      "answeredFrom": "rollup.json Power on heavy fabric theme; manufacturer.json claims"
+    },
+    {
+      "q": "what needles for juki f600",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": true,
+      "faq": "What needles and bobbins does the Juki HZL-F600 use?",
+      "answeredFrom": "manufacturer.json needleSystem and bobbin"
+    },
+    {
+      "q": "What is the best Juki sewing machine to buy?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand-level question; belongs on a guide."
+    },
+    {
+      "q": "How much does a new Juki sewing machine cost?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand-level question; belongs on a guide."
+    },
+    {
+      "q": "What is the lifespan of a Juki machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand-level question; our evidence holds no lifespan figure."
+    },
+    {
+      "q": "Which is best, Juki or brother?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "Is Juki made in Japan or China?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand-level question; not in our evidence for this model."
+    },
+    {
+      "q": "what is the life of a juki f600?",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "No lifespan figure in our evidence."
+    },
+    {
+      "q": "Is the HZL-F600 good for free motion quilting?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Only 2 free-motion statements in the rollup; the throat answer covers the reach question."
+    },
+    {
+      "q": "Does the HZL-F600 have a knee lifter?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered in the walking foot and table answer (knee lift lever is in Juki's standard list)."
+    },
+    {
+      "q": "What is the warranty on the HZL-F600?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Generic Juki America wording, not model specific; in the spec table."
+    },
+    {
+      "q": "auto needle threader juki f600 quit how does it work",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Repair question; no repair evidence in our files."
+    },
+    {
+      "q": "how much is a used juki f600 worth?",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Used-market value; no sourced figure."
+    },
+    {
+      "q": "juki f600 vs dx7",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "juki f600 vs dx7",
+      "scope": "sibling",
+      "use": false,
+      "reason": "One unverified owner comment on the DX7 only; we hold no DX7 specs."
+    },
+    {
+      "q": "juki hzl-f600 review",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 80,
+      "volumeKeyword": "juki hzl-f600 review",
+      "scope": "this",
+      "use": false,
+      "reason": "Review intent; the owner summary and rollup on the page answer it."
+    },
+    {
+      "q": "juki hzl-f600 manual",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "juki hzl-f600 manual",
+      "scope": "this",
+      "use": false,
+      "reason": "Manual links are in the research sources, not a FAQ."
+    }
+  ]
+}

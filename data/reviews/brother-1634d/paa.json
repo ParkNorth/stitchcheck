@@ -1,0 +1,209 @@
+{
+  "slug": "brother-1634d",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "brother 1634d",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search drops related_questions, so DataForSEO is the PAA source. The nine PAA questions Google showed all name the 1034D, 1034DX or 1634DX, none the 1634D; they are adapted to the 1634D where used. Google AI overview answers were not returned."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "brother 1634d",
+        "brother 1634 d",
+        "1634d serger"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "All question keywords returned volume 0 (too small to estimate). Phrase pull: brother 1634d serger 200, brother 1634d 100, brother 1634d 3 or 4 thread serger 60, review 30, price 30, vs 1034d 10."
+    },
+    "briefing": "data/specs/brother-1634d.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "What are the key differences between the Brother 1034D and 1634D sergers?",
+      "sources": [
+        "paa",
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 10,
+      "volumeKeyword": "brother 1634d vs 1034d",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Brother 1634D and the 1034D?",
+      "answeredFrom": "rollup.json siblingSummaries and siblingExtras (1034D); manufacturer.json"
+    },
+    {
+      "q": "Is the Brother 1634DX a serger or sewing machine?",
+      "sources": [
+        "paa",
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "How does the Brother 1634D differ from the 1634DX?",
+      "answeredFrom": "rollup.json siblingExtras (1634DX); manufacturer.json"
+    },
+    {
+      "q": "how much does brother 1634d cost",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 30,
+      "volumeKeyword": "brother 1634d serger price",
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Brother 1634D cost?",
+      "answeredFrom": "manufacturer.json msrp; data/specs price fields"
+    },
+    {
+      "q": "Can brother 1034D do a coverstitch?",
+      "sources": [
+        "paa",
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "Can the Brother 1634D do a coverstitch?",
+      "answeredFrom": "data/specs stitchTypes; rollup.json claims (two sources say no coverstitch)"
+    },
+    {
+      "q": "Is the Brother 1034D serger discontinued?",
+      "sources": [
+        "paa",
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "Is the Brother 1634D discontinued?",
+      "answeredFrom": "manufacturer.json brother-page (listed and priced 2026-10-02); data/specs discontinued"
+    },
+    {
+      "q": "how to thread brother 1634d",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Brother 1634D hard to thread?",
+      "answeredFrom": "rollup.json threading theme"
+    },
+    {
+      "q": "what is included in brother 1634d",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": true,
+      "faq": "What comes in the box with the Brother 1634D?",
+      "answeredFrom": "manufacturer.json includedFeet; data/specs includedFeet"
+    },
+    {
+      "q": "Is the Brother 1034D serger worth it?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "Is the Brother 1634D worth buying?",
+      "answeredFrom": "rollup.json summary and themes; manufacturer.json msrp"
+    },
+    {
+      "q": "What needles does the Brother 1634D take?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What needles does the Brother 1634D take?",
+      "answeredFrom": "manufacturer.json needleSystem (family handbook)"
+    },
+    {
+      "q": "Which Brother serger is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand and category question; belongs on a guide."
+    },
+    {
+      "q": "What is the best serger for your money?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Category question; belongs on a guide."
+    },
+    {
+      "q": "Which Brother serger is better, the 1034D or the 1034DX?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "About two other models; belongs on the 1034D or 1034DX pages."
+    },
+    {
+      "q": "How much does a Brother 1034D cost?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "About the 1034D; the 1634D price question is used."
+    },
+    {
+      "q": "how do i remove the stitch finger on a brother serger 1634d",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Manual procedure; the handbook text we hold is not model specific and we do not write how-to steps."
+    },
+    {
+      "q": "how do i change the knife blade in a brother 1634d serger",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Manual procedure with no sourced steps for this model."
+    },
+    {
+      "q": "what year is made brother serger 1634d",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "No maker release date found; would be a [verify] with nothing behind it."
+    },
+    {
+      "q": "Is the Brother 1634D discontinued? (briefing wording)",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Duplicate of the used discontinued question."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "specs": {
+    "display": {
+      "value": "2.4 in color touch display (Grace manual and pages); dealer copy calls it OLED, Grace does not; the 19X Elite has a 7 in display",
+      "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+    },
+    "throatHeightIn": {
+      "value": 8.9,
+      "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+    },
+    "weightLb": {
+      "value": 41.5,
+      "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+    },
+    "dimensionsIn": {
+      "value": "Body 32.8 L x 15.6 W x 26.8 H in; quilting arm 19 W x 8.9 H in",
+      "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+    },
+    "motor": {
+      "value": "Peak power consumption 300 W at 110 to 220 VAC; motor type not published",
+      "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+    },
+    "needleSystem": {
+      "value": "Grace-approved styles DPX5 MR, 134 MR and 1955 MR",
+      "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+    },
+    "bobbin": {
+      "value": "M class; built-in winder with automatic stop; 3 bobbins in the box",
+      "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+    },
+    "threadTrimmer": {
+      "value": "Cutter on the hopping foot trims thread after threading; no automatic trimmer described in the manual",
+      "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+    },
+    "includedFeet": {
+      "value": "Hopping foot with height tool; 10 size 16 and 10 size 18 needles; 3 M class bobbins; oil; sample thread; maintenance tools. Dealer bonus kits vary and are not box contents",
+      "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+    },
+    "stitchTypes": {
+      "value": "Straight stitch only; four stitch modes: Manual, Cruise, Precise, Baste",
+      "source": "https://graceframe.com/en/sewing-machines/qnique19xelite"
+    },
+    "maxSpm": {
+      "value": 2000,
+      "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+    },
+    "warrantyUs": {
+      "value": "2 yr limited (machine and electronic parts), 5 yr on the cast metal body; original owner only",
+      "source": "https://graceframe.com/en/page/warranty"
+    }
+  },
+  "conflicts": [
+    "Model naming: Grace's recertified listing is titled 'Grace 19X' and lists the brand as Q'nique, its manual is titled 'Q'nique 19 X', and dealers say Q'nique 19X. Grace's warranty page also lists an earlier 'Q'nique 19' as a separate model.",
+    "Availability: Grace's own site no longer has a new 19X product page or shop listing (the old page redirects to the home page), but still sells it recertified and still shows it in the 19X Elite comparison table. Dealers still list new units, some marked closeout.",
+    "Screen: Grace and its manual say 2.4 in color touch display; dealer copy says full color OLED. This entry uses the Grace wording.",
+    "Warranty: Grace's warranty page gives 2 years on the machine and its electronic parts and 5 years on the cast body; a Grace dealer page says 1 year on electrical parts.",
+    "Needle light: dealer copy for the 19X says the needle light dims; the Grace manual describes the lamp as on or off, and Grace lists dimmable LEDs under the 19X Elite.",
+    "Bobbin winder: the 19X manual lists a built-in winder; dealer copy for the Elite lists the winder as an Elite extra.",
+    "Block size: Grace pages say blocks up to 17 in on the 19X recertified page and up to 15 in on the Elite page, while Leah Day writes about 12 to 14 in blocks. Block size is not throat space; throat is 19 in.",
+    "Speed: 2,000 spm for the 19X against 2,600 for the 19X Elite at Grace; one Canadian dealer chart gives the Elite 1,700. The Elite must not be mixed into the 19X table.",
+    "Price: Grace's comparison table shows $5,999.00 for the 19X and the recertified unit is $4,999.00; Moore's Sewing showed $3,999.00 on closeout, and earlier dealer ranges ran higher. Frame bundles change the figure."
+  ],
+  "claims": [
+    "\"A level of quality in precision stitching, user-friendly features, and designed engineering never available before in such an affordable package\" (manufacturer claim, graceframe.com)",
+    "\"Quilt up to 2000 stitches in just 60 seconds\" (dealer copy repeating manufacturer language, meissnersewing.com)",
+    "\"For quilters who want to transition from a shortarm or midarm machine but are concerned about the weight, size, and complexity of longarm machines\" (retailer positioning, sewingmachinesplus.com, about the 19X Elite)"
+  ],
+  "evidence": "positioning",
+  "price": {
+    "priceUsdSeen": 3999,
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "Moore's Sewing closeout, machine only option (Grace recertified unit $4,999.00 the same day; low end shown, frame extra)"
+  },
+  "sources": [
+    "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/76114-grace-q-nique-long-arm",
+    "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm/",
+    "https://graceframe.com/en/page/warranty",
+    "https://graceframe.com/en/product/grace-19x-elite-quilting-machine",
+    "https://graceframe.com/en/product/grace-19x-quilting-machine",
+    "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine",
+    "https://graceframe.com/en/sewing-machines/qnique19xelite",
+    "https://graceframe.com/en/shop/quilting-machines",
+    "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf",
+    "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro",
+    "https://leahday.com/pages/warranty",
+    "https://leahday.com/products/qnique-19x-elite-longarm",
+    "https://meissnersewing.com/products/grace-19x-long-arm-machine",
+    "https://quiltingroomwithmel.com/long-arm-quilting-machines/",
+    "https://rockymountainsewing.com/products/grace-company-quiltmotion-qct5/",
+    "https://rockymountainsewing.com/products/grace-qnique-19x-elite-longarm/",
+    "https://rockymountainsewing.com/products/grace-qnique-19x-longarm/",
+    "https://www.kenssewingcenter.com/grace-qnique-19-x-quilting-machine.html",
+    "https://www.moores-sew.com/shop/grace-qnique-19x-quilting-machine/",
+    "https://www.qualitysewing.com/products/grace-q-zone-queen-frame",
+    "https://www.quiltingboard.com/main-f1/having-problems-stitch-regulator-thread-cutter-t298173.html",
+    "https://www.quiltingboard.com/main-f1/help-advice-longarm-machine-t321795.html",
+    "https://www.quiltingboard.com/main-f1/qnique-19-long-arm-machine-t310290.html",
+    "https://www.sewingmachinesplus.com/16034.php",
+    "https://www.sewingmachinesplus.com/16075.php",
+    "https://www.sewingmachinesplus.com/recert-qnique-19x.php",
+    "https://www.sewingpartsonline.com/products/q-zone-hoop-frame-grace-company",
+    "https://www.sewingpartsonline.com/products/qnique-19x-elite-longarm-quilting-machine-grace-company",
+    "https://www.sewingpartsonline.com/products/qnique-19x-longarm-quilting-machine-grace-company"
+  ],
+  "editorial": {
+    "verdict": "The 19X gives 19 in of throat, 2,000 spm and built in regulation, but Grace no longer lists it new and we found no first-hand owner write-up of this exact model.",
+    "whoFor": "A buyer who wants 19 in of throat on a hoop or rail frame and will pick up a dealer closeout or a recertified unit, comfortable with Grace phone support and owner assembly.",
+    "skipIf": "You want a machine Grace still sells new, a dealer installed package, a 7 in screen or the faster motor, in which case price the 19X Elite instead.",
+    "keySpec": "19 in throat · 2,000 spm · M class bobbin · 41.5 lb body · regulation built in",
+    "strengths": [
+      "Grace publishes 19 in of arm width and 8.9 in of arm height in the manual, which is 4 in more throat than a 15 in head",
+      "Regulated stitching with four stitch modes (Manual, Cruise, Precise, Baste) and Edge Warning is listed for the base 19X, not only the Elite",
+      "Grace says all current Grace frames work with its X Series machines, so the frame can grow with the room"
+    ],
+    "weaknesses": [
+      "Grace's own site no longer lists the base 19X as a new machine; it sells it recertified and shows it in the Elite comparison table",
+      "Buyer signals for this exact model are thin: one dealer page shows 3 buyer reviews (5.0, 2023), none naming a model, one noting the power switch is hard to reach on a Cutie frame; one shopper reports reading mixed reviews",
+      "Grace gives the 19X a 2 year limited warranty and the 19X Elite a 10 year cast body warranty, and the warranty does not transfer to a second owner"
+    ],
+    "checks": [
+      {
+        "title": "Confirm 19X, not 19X Elite, on the quote",
+        "body": "Grace lists 2,000 spm and a 2.4 in color touchscreen for the 19X, against 2,600 spm and a 7 in display for the Elite. Dealers carry both, plus recertified units of each."
+      },
+      {
+        "title": "Ask whether the frame is in the price",
+        "body": "Grace's recertified listing sells the frame as a separate choice: Cutie, Q-Zone Hoop-Frame, Q-Zone Queen, Quilter's Evolution Hoop-Frame or an Evolution Elite rolling frame. Ask which one a bundle includes and what it costs alone."
+      },
+      {
+        "title": "Check the warranty terms before a dealer or closeout buy",
+        "body": "Grace's page says the warranty is for the original owner only and that machines go back in the original box at the owner's cost. A Grace dealer page quotes 1 year on electrical parts where Grace's own page says 2 years on electronic parts [verify]."
+      }
+    ],
+    "realCost": [
+      "Frame: not in the machine only price; Grace's recertified listing shows choices from the Cutie tabletop to the Evolution Elite 8, 10 or 12 ft rolling frame as add-ons",
+      "Hopping feet: one hopping foot is in the box; Grace sells a 3 piece hopping foot set for $127.46 on the recertified page",
+      "Needles and oil: 10 size 16 and 10 size 18 needles and oil are in the box; the manual says change the needle after 8 hours of use and oil after 20 hours",
+      "Return shipping: Grace's warranty says machines go back in the original box, or the owner buys a box from Grace"
+    ],
+    "faqs": [
+      {
+        "q": "What do owners say about the Grace Q'nique 19X?",
+        "a": "Very little that names this exact model. We found no first-hand write-up that names the base 19X; the closest is a dealer page with 3 buyer reviews from 2023, rated 5.0, which name no model. One of them dislikes the power switch at the far end of the machine, hard to reach on a Cutie frame. Most owner talk online is about the 19X Elite, the 21 or an earlier Q'nique 19, and is not counted here. Treat this as thin evidence."
+      },
+      {
+        "q": "Is the Q'nique 19X the same machine as the Grace 19X?",
+        "a": "Grace's recertified listing is titled Grace 19X and lists the brand as Q'nique, and its manual is titled Q'nique 19 X, so the names point to one machine. Dealers still sell it as the Q'nique 19X. Grace's warranty page also lists an earlier Q'nique 19 as a separate model."
+      },
+      {
+        "q": "What is the difference between the Q'nique 19X and the 19X Elite?",
+        "a": "Grace lists 2,000 spm and a 2.4 in color touchscreen for the 19X, and 2,600 spm and a 7 in display for the Elite. Grace lists dimmable LED lights as an Elite feature, while the 19X manual describes the lamp as on or off. Grace's warranty page gives the Elite 10 years on the cast body against 5 for the 19X. Throat is 19 in on both."
+      },
+      {
+        "q": "Does the Q'nique 19X price include a frame?",
+        "a": "Not on Grace's own listing: the recertified 19X sells the frame as a separate choice, from a Cutie tabletop frame to Evolution Elite rolling frames. Some dealers bundle a frame, so ask what is in the price. Grace says all current Grace frames work with its X Series machines, except the 21X Elite."
+      },
+      {
+        "q": "Does the Q'nique 19X have a built in stitch regulator?",
+        "a": "Yes. Grace's manual lists regulated stitching with a speed range of 90 to 2000 stitches per minute, and Grace lists four stitch modes: Manual, Cruise, Precise and Baste. It also lists Edge Warning on the 19X."
+      },
+      {
+        "q": "How much does the Q'nique 19X weigh?",
+        "a": "The Grace manual gives the body as 41.5 lb (18.8 kg), 32.8 in long, 15.6 in wide and 26.8 in high. That is the machine body, not a shipped weight with packaging."
+      },
+      {
+        "q": "What warranty comes with the Q'nique 19X?",
+        "a": "Grace's warranty page lists the Q'nique 19X at 2 years limited and 5 years on the cast metal body, for the original owner only. A Grace dealer page says 1 year on electrical parts, where Grace's page puts electronic parts at 2 years [verify]."
+      },
+      {
+        "q": "What bobbin and needles does the Q'nique 19X use?",
+        "a": "It takes M class bobbins, and the box holds three. The manual lists DPX5 MR, 134 MR and 1955 MR needle styles, and the box holds 10 size 16 and 10 size 18 needles. The manual says to change the needle after 8 hours of use."
+      }
+    ]
+  }
+}

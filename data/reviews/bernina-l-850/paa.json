@@ -1,0 +1,214 @@
+{
+  "slug": "bernina-l-850",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "bernina l 850",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "bernina l 850",
+        "bernina l850"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/bernina-l-850.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "How much does the Bernina L 850 cost?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how much is the bernina l850",
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Bernina L 850 cost?",
+      "answeredFrom": "manufacturer.json price; data/specs priceUsdSeen with date; one PatternReview owner figure"
+    },
+    {
+      "q": "What is the difference between the Bernina L 850 and L 860?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Bernina L 850 and the L 860?",
+      "answeredFrom": "rollup.json siblings (L 860), Bernina product pages"
+    },
+    {
+      "q": "Does the Bernina L 850 do coverstitch?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Bernina L 850 do coverstitch?",
+      "answeredFrom": "data/specs stitchTypes; rollup.json siblings (L 890)"
+    },
+    {
+      "q": "Does the Bernina L 850 have air threading?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Bernina L 850 have air threading?",
+      "answeredFrom": "manufacturer.json threadingSystem; rollup.json Threading and loopers theme"
+    },
+    {
+      "q": "What needles does the Bernina L 850 use?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What needles does the Bernina L 850 use?",
+      "answeredFrom": "manufacturer.json needleSystem (manual p. 48)"
+    },
+    {
+      "q": "How heavy is the Bernina L 850?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How heavy is the Bernina L 850?",
+      "answeredFrom": "manufacturer.json weightLb and dimensionsIn (manual)"
+    },
+    {
+      "q": "Does the L 850 have a free arm?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Bernina L 850 have a free arm?",
+      "answeredFrom": "manufacturer.json freeArm; throatIn note"
+    },
+    {
+      "q": "What is the Bernina serger warranty?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What is the warranty on the Bernina L 850?",
+      "answeredFrom": "manufacturer.json warrantyUs (general Bernina warranty, flagged)"
+    },
+    {
+      "q": "Bernina L 850 or Baby Lock Acclaim?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "Rival comparison: no sourced Baby Lock Acclaim figures in our evidence, only one forum thread of buyer views."
+    },
+    {
+      "q": "bernina l850 vs l890",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "bernina l850 vs l890",
+      "scope": "sibling",
+      "use": false,
+      "reason": "Folded into the coverstitch answer, which names the L 890."
+    },
+    {
+      "q": "Which vintage Bernina sewing machine is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "What are some common problems with Bernina sewing machines?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "How much is a used Bernina sewing machine worth today?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Is a BERNINA worth the money?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "What is the best Bernina model?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Which is better, Pfaff or Bernina?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "What is the most trouble-free sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "Is Janome better than Bernina?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    },
+    {
+      "q": "Why are Bernina sewing machines so expensive?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand or category question; belongs on a guide."
+    }
+  ]
+}

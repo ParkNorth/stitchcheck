@@ -1,6 +1,6 @@
 {
   "slug": "bernina-570-qe",
-  "generated": "2026-10-02T11:58:26.555Z",
+  "generated": "2026-10-03T02:42:12.344Z",
   "counts": {
     "error": 0,
     "warn": 1
@@ -18,13 +18,13 @@
     },
     {
       "level": "warn",
-      "id": "conflicts",
-      "message": "maker documents contradict our \"weightLb\" but the spec's conflicts do not mention it"
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",
       "id": "evidence",
-      "message": "evidence moderate, 62 voices (39 first-hand), 56 sources, status draft"
+      "message": "evidence moderate, 62 voices (39 first-hand), 56 sources, status approved"
     }
   ]
 }

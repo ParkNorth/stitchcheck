@@ -1,0 +1,273 @@
+{
+  "slug": "janome-hd9",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "janome hd9",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "extraPull": "extra pull on \"janome hd9 review\" (first pull returned no People Also Ask block)",
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "janome hd9",
+        "janome hd-9",
+        "janome hd9 professional"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/janome-hd9.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "janome hd9 reviews",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 50,
+      "volumeKeyword": "janome hd9 reviews",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Janome HD9 Professional?",
+      "answeredFrom": "rollup.json themes and summary"
+    },
+    {
+      "q": "Is Janome HD9 an industrial machine?",
+      "sources": [
+        "paa",
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the Janome HD9 an industrial machine?",
+      "answeredFrom": "data/specs claims and motor field; manufacturer.json motor, bearings and warranty facts"
+    },
+    {
+      "q": "What is the difference between the Janome HD9 V1 and V2?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "janome hd9 v1 vs v2",
+      "scope": "this",
+      "use": true,
+      "faq": "What is the difference between the Janome HD9 V1 and V2?",
+      "answeredFrom": "data/specs conflicts (version) and bobbin field; manufacturer.json variants"
+    },
+    {
+      "q": "How much does a janome hd9 cost",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 100,
+      "volumeKeyword": "janome hd9 price",
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Janome HD9 Professional cost?",
+      "answeredFrom": "manufacturer.json msrp; data/specs priceUsdSeen with date and conflicts"
+    },
+    {
+      "q": "Does the Janome HD9 do zigzag?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Janome HD9 do zigzag or buttonholes?",
+      "answeredFrom": "data/specs stitchTypes; rollup.json feet and accessories theme"
+    },
+    {
+      "q": "How heavy is Janome HD9?",
+      "sources": [
+        "paa",
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How big and heavy is the Janome HD9?",
+      "answeredFrom": "manufacturer.json weight and dimensions"
+    },
+    {
+      "q": "Does the HD9 come with a walking foot?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "janome hd9 walking foot",
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Janome HD9 come with a walking foot?",
+      "answeredFrom": "data/specs includedFeet; rollup.json walking foot theme"
+    },
+    {
+      "q": "What needles does the Janome HD9 use?",
+      "sources": [
+        "briefing",
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "janome hd9 needles",
+      "scope": "this",
+      "use": true,
+      "faq": "What needles does the Janome HD9 use?",
+      "answeredFrom": "manufacturer.json needle system; rollup.json feet and accessories theme"
+    },
+    {
+      "q": "How much throat space does the Janome HD9 have?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How much throat space does the Janome HD9 have?",
+      "answeredFrom": "manufacturer.json workspace; rollup.json throat theme"
+    },
+    {
+      "q": "Janome HD9 vs Juki TL-2010Q, which is better?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": false,
+      "reason": "This rollup holds no rival tally for the TL-2010Q; the head-to-head page carries that comparison."
+    },
+    {
+      "q": "Is the Janome HD9 good for quilting?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Covered by the throat and workspace answer and the Which version check; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "hd9 janome replaced what machine",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "hd9 janome replaced what machine",
+      "scope": "this",
+      "use": false,
+      "reason": "Our evidence holds no replacement history for the HD9, so we cannot answer it."
+    },
+    {
+      "q": "janome hd9 what accessories",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "janome hd9 what accessories",
+      "scope": "this",
+      "use": false,
+      "reason": "Covered by the walking foot answer and the included feet line in the spec table."
+    },
+    {
+      "q": "how to thread janome hd9",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to thread janome hd9",
+      "scope": "this",
+      "use": false,
+      "reason": "A how-to belongs in Janome's manual; our evidence has one owner remark on the two thread paths only."
+    },
+    {
+      "q": "janome hd9 qcp",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 30,
+      "volumeKeyword": "janome hd9 qcp",
+      "scope": "sibling",
+      "use": false,
+      "reason": "The HD9 QCP is a newer model we have no maker page for, so there is nothing sourced to answer with."
+    },
+    {
+      "q": "bernette 08 vs janome hd9",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 20,
+      "volumeKeyword": "bernette 08 vs janome hd9",
+      "scope": "sibling",
+      "use": false,
+      "reason": "The Bernette 08 is not a model we cover."
+    },
+    {
+      "q": "What category is Janome HD9?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the spec table (straight stitch only, mechanical) and the industrial question."
+    },
+    {
+      "q": "Which Janome sewing machine is considered the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "What are common problems with Janome?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "Which straight stitch machine is the best?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "What is the most trouble-free sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "What sewing machine do most quilters use?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    },
+    {
+      "q": "What is a good heavy-duty straight stitch sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic brand or category question; belongs on a guide, not this review."
+    }
+  ]
+}

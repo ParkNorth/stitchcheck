@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import type { Rollup, RollupDocumentCheck, RollupExample } from "@/lib/rollups";
-import { visibleThemes } from "@/lib/rollups";
+import { goodNotGood, visibleThemes } from "@/lib/rollups";
 import { HeaderCard } from "./Panels";
 
 const host = (u: string) => new URL(u).hostname.replace(/^www\./, "");
@@ -42,6 +42,38 @@ function PolarityBar({ p }: { p: { positive: number; negative: number; mixed: nu
       <span style={{ width: pct(p.positive) }} className="bg-enamel" />
       <span style={{ width: pct(p.mixed) }} className="bg-rule-soft" />
       <span style={{ width: pct(p.negative) }} className="bg-brass" />
+    </div>
+  );
+}
+
+const GOOD_NOT_GOOD_BAR = "60 percent of the statements on a theme, from at least 8 that took a side";
+
+/** What owners mostly like and mostly dislike, from theme polarity. Counts of statements, never a score. */
+export function GoodNotGood({ rollup }: { rollup: Rollup }) {
+  const { good, notGood, split } = goodNotGood(rollup);
+  if (!good.length && !notGood.length) return null;
+  const column = (title: string, tone: string, rows: typeof good, verb: string) => (
+    <div className="flex flex-col gap-3">
+      <h3 className={`cap m-0 ${tone}`}>{title}</h3>
+      {rows.length === 0 && <span className="text-[15px] leading-[1.5] text-ink-soft">No theme clears the bar: {GOOD_NOT_GOOD_BAR}.</span>}
+      {rows.slice(0, 6).map((r) => (
+        <div key={r.label} className="flex flex-col gap-0.5">
+          <strong className="text-[16px]">{r.label}</strong>
+          <span className="m text-[13px] text-steel leading-[1.5]">
+            {r.count} of {r.judged} {verb} · {r.ownerVoices} owner voices
+          </span>
+        </div>
+      ))}
+    </div>
+  );
+  return (
+    <div className="card px-5 py-4 md:px-6 md:py-5 flex flex-col gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
+        {column("Good", "text-enamel", good, "positive")}
+        {column("Not good", "text-brass-ink", notGood, "negative")}
+      </div>
+      {split.length > 0 && <p className="m-0 text-[15px] leading-[1.55] text-ink-soft">Owners split on: {split.join(", ")}.</p>}
+      <p className="m m-0 text-[13px] text-steel leading-[1.5]">{rollup.notes?.[0] ?? "Counts are statements grouped by theme. They are not a poll, a rating or a failure rate."}</p>
     </div>
   );
 }

@@ -138,15 +138,17 @@
   ],
   "evidence": "owner",
   "buyerQuestions": [
-    "What is the difference between the Singer 6600C and 6700C?",
-    "How many stitches does the Singer 6600C really have?",
+    "What do owners say about the Singer 6600C?",
+    "What are the common problems with the Singer 6600C?",
+    "What is the difference between the Singer 6600C and the 6700C?",
+    "How many stitches does the Singer 6600C have?",
     "Does the Singer 6600C have an automatic thread cutter?",
     "Is the Singer 6600C good for beginners?",
     "Can the Singer 6600C sew denim and canvas?",
-    "What is the throat space on the Singer 6600C?",
-    "How much does the Singer 6600C weigh?",
-    "What is the Singer 6600C Sterling?",
-    "What presser feet come with the Singer 6600C?"
+    "What is the price of the Singer 6600C?",
+    "singer 6600c vs 6800c",
+    "singer 6600c vs 4452",
+    "What are people saying about the Singer 6800C sewing machine?"
   ],
   "crossShop": [
     {
@@ -201,44 +203,36 @@
     ],
     "faqs": [
       {
+        "q": "What do owners say about the Singer 6600C?",
+        "a": "Owner reports are mixed and lean toward problems. Of 11 statements on build quality, 9 are negative, with some owners saying it is not the all-metal machine the name suggests, and 9 of 10 on defects are negative, including an error on day one, a needle that sticks down and a machine that stopped and started in bursts. A smaller group finds it quiet, easy to thread and stronger on thick fabric than their old machines. Reddit leans toward people asking for help, so problems are over-represented; Amazon shows 4.4 of 5 from 158 ratings (seen 2026-10-01)."
+      },
+      {
+        "q": "What are the common problems with the Singer 6600C?",
+        "a": "Defects (10 voices) and build quality (11 voices) are the two recurring themes, nearly all negative. Examples are an EL error on day one, a needle that sticks in the down position, tension that stopped holding after a needle change, and loud shaking at thick folded denim seams. Noise is split, with 4 of 6 voices calling the machine quiet. These are mostly help-seeking posts, not a failure rate."
+      },
+      {
+        "q": "What is the difference between the Singer 6600C and the 6700C?",
+        "a": "On Singer's pages the 6600C lists 215 stitch applications, 6 one-step buttonhole styles and 5 feet with no walking foot, while the 6700C lists 411 applications, 7 buttonhole styles, a lettering font, 10 feet including an even feed (walking) foot and a speed control lever. Both list a metal interior frame, 15.4 lb and a manual speed of 1000 +/- 50 stitches per minute, though the 6700C manual is shared with the 6705C. Seen prices were $319.99 for the 6600C on 2026-10-01 (extension-table bundle page) and $329.99 for the 6700C on 2026-09-29 (dealer sale price against a $419.99 list), so confirm what is in each box. Stitch counts are application counts, not built-in patterns [verify]."
+      },
+      {
         "q": "How many stitches does the Singer 6600C have?",
         "a": "Singer advertises 215 stitch applications and publishes no separate stitch count, so the built-in figure is [verify]. Dealers quote 100 and one comparison site 200. Applications count techniques, not patterns."
       },
       {
-        "q": "What is the throat space on the 6600C?",
-        "a": "Singer's bundle page says 6.4 in throat space and does not say whether that is needle to body, so we hold it as [verify]. It is not in the manual's spec table."
+        "q": "Does the Singer 6600C have an automatic thread cutter?",
+        "a": "None is published. Singer's manual lists a manual thread knife for trimming ends, and one comparison site lists the automatic cutter as a 6800C feature."
       },
       {
-        "q": "How fast does the Singer 6600C sew?",
-        "a": "Singer's manual gives 1000 +/- 50 stitches per minute at default length. A Singer Canada page excerpt says up to 1,100, so the two maker documents disagree."
+        "q": "Is the Singer 6600C good for beginners?",
+        "a": "Singer sells it into that market: LCD stitch selection, a top drop-in bobbin and a built-in needle threader. Of 4 owner voices on threading, 3 are positive, but defects and build quality are the larger themes, so check the return terms."
       },
       {
-        "q": "Does the 6600C have an automatic thread cutter?",
-        "a": "None is published. The manual lists a manual thread knife, and one comparison site lists the automatic cutter as a 6800C feature."
+        "q": "Can the Singer 6600C sew denim and canvas?",
+        "a": "Singer's copy says it is designed with heavy duty projects in mind, from denim to canvas, which is a claim; Heavy Duty is a series name, not a duty rating. Owners are split: 2 voices say it sews thicker fabric better than their other machines and 2 report seizing, a jammed needle or loud shaking at thick folded denim seams. Singer publishes a 6 mm presser foot lift and no motor wattage, and lists no walking foot [verify]."
       },
       {
-        "q": "How much does the Singer 6600C weigh?",
-        "a": "15.4 lb, converted from the 7 kg in Singer's manual. Size is 17.3 x 7.5 x 11.0 in, converted from 440 x 190 x 280 mm."
-      },
-      {
-        "q": "What presser feet come with the 6600C?",
-        "a": "Singer lists all-purpose, zipper, buttonhole, blind hem and satin stitch feet, plus 4 Class 15 bobbins. No walking foot is listed."
-      },
-      {
-        "q": "Is the 6600C good for beginners?",
-        "a": "It is sold into that market: LCD stitch selection, a top drop-in bobbin and a built-in needle threader. Owners report defects such as pedal, bobbin winding and error faults, so check the return terms."
-      },
-      {
-        "q": "Can the 6600C sew denim and canvas?",
-        "a": "Singer's copy says it is designed with heavy duty projects in mind, from denim to canvas, which is a claim. One owner reports loud noise and needle shaking at thick folded denim seams."
-      },
-      {
-        "q": "What is the warranty?",
-        "a": "Singer's warranty page lists the 6600C Heavy Duty under Limited 25/1 Year. Some retailer copy quotes 2 years on electrical parts, so confirm the term with the seller."
-      },
-      {
-        "q": "Is the 6600C discontinued?",
-        "a": "Singer's standalone 6600C page redirects to its homepage, but the extension-table bundle page (6600CTABLE) is live. That is a page status, not a stated end of production."
+        "q": "What is the price of the Singer 6600C?",
+        "a": "Singer's extension-table bundle page showed $319.99 on 2026-10-01, against a $448.98 strike-through list price that is a comparison figure, not a selling price. The standalone machine page redirects to Singer's homepage, so the machine is currently listed there as a bundle. Prices drift weekly, so use the price band on this page as the stable guide."
       }
     ]
   },

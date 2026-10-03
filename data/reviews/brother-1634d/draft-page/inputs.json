@@ -1,0 +1,1118 @@
+{
+  "slug": "brother-1634d",
+  "today": "2026-10-02",
+  "rules": "AGENTS.md rules 1 to 12 apply: spec-check not field-test, owner evidence labelled, paraphrase and attribute, no em or en dashes, never invent a spec, claims quoted not asserted, every spec sourced, model name is not a spec, conflicts listed, price bands not live prices.",
+  "spec": {
+    "slug": "brother-1634d",
+    "brand": "Brother",
+    "model": "1634D",
+    "series": "1034",
+    "type": "serger",
+    "industrial": false,
+    "jobs": [
+      "serger"
+    ],
+    "manufacturerUrl": "https://www.brother-usa.com/products/1634d",
+    "retailerUrl": null,
+    "priceUsdSeen": null,
+    "priceSeenDate": null,
+    "priceSeenAt": null,
+    "specs": {
+      "stitchTypes": {
+        "value": "4-thread overlock, 3-thread overlock, rolled hem, blind hem, gathering (1-needle 3-thread or 2-needle 4-thread)",
+        "source": "https://www.brother-usa.com/products/1634d"
+      },
+      "stitchCount": {
+        "value": 22,
+        "source": "https://sergerpro.com/brother-1634d-serger-review/"
+      },
+      "maxSpm": {
+        "value": 1300,
+        "source": "https://www.brother-usa.com/products/1634d"
+      },
+      "threads": {
+        "value": "3 or 4 thread, 2 needles",
+        "source": "https://www.brother-usa.com/products/1634d"
+      },
+      "differentialFeed": {
+        "value": "Adjustable by dial; ratio not published on pages found",
+        "source": "https://www.brother-usa.com/products/1634d"
+      },
+      "throatIn": {
+        "value": null,
+        "source": null
+      },
+      "needleSystem": {
+        "value": "SCHMETZ 130/705H (standard household needle)",
+        "source": "https://www.sewingpartsonline.com/products/instruction-manual-brother-1634d"
+      },
+      "presserFootLift": {
+        "value": null,
+        "source": null
+      },
+      "threadTrimmer": {
+        "value": null,
+        "source": null
+      },
+      "feedSystem": {
+        "value": "Differential feed; removable free arm; removable trim trap",
+        "source": "https://www.brother-usa.com/products/1634d"
+      },
+      "buttonhole": {
+        "value": null,
+        "source": null
+      },
+      "motor": {
+        "value": null,
+        "source": null
+      },
+      "frame": {
+        "value": null,
+        "source": null
+      },
+      "weightLb": {
+        "value": 17.3,
+        "source": "https://sergerpro.com/brother-1634d-serger-review/"
+      },
+      "dimensionsIn": {
+        "value": "12.5 x 13.5 x 15",
+        "source": "https://mashupfabric.com/brother-1634d-serger-review/"
+      },
+      "includedFeet": {
+        "value": "Standard foot, blind stitch foot, gathering foot; soft cover and instructional video",
+        "source": "https://www.brother-usa.com/products/1634d"
+      },
+      "warrantyUs": {
+        "value": "25-year limited (Brother)",
+        "source": "https://sergerpro.com/brother-1634d-serger-review/"
+      },
+      "stitchWidthMm": {
+        "value": "5 to 7",
+        "source": "https://sergerpro.com/brother-1634d-serger-review/"
+      },
+      "threadingSystem": {
+        "value": "Color-coded lay-in threading (Brother page); one owner review says the 1634D lacks the color coding of the 1034D",
+        "source": "https://www.brother-usa.com/products/1634d"
+      },
+      "freeArm": {
+        "value": "Yes, removable",
+        "source": "https://www.brother-usa.com/products/1634d"
+      }
+    },
+    "claims": [
+      "\"Easy to follow, color-coded lay-in threading system\" (manufacturer claim, product page)",
+      "\"Perfect for finishing, creating rolled hems, inserting zippers, stitching neat blind hems, and creating ruffles\" (manufacturer claim, product page)",
+      "\"One of the bestselling and most popular home serger machines\" (review-blog claim, mashupfabric.com)",
+      "\"Cover Stitch Serger\" appears in one dealer listing title (mistersewvac.com); the 1634D has no coverstitch function per Brother"
+    ],
+    "conflicts": [
+      "Weight: 17.3 lb appears only in review-blog snippets (sergerpro.com, mashupfabric.com); Brother page value not captured. The related 1034D is listed at 13.88 lb by a dealer, so 17.3 lb may include packaging. Catalog will show 17.3 lb flagged [verify].",
+      "Dimensions: 12.5 x 13.5 x 15 in from a review blog; axis order not stated. Catalog will show it flagged [verify].",
+      "Stitch count: 22 (sergerpro.com) vs Brother, which lists stitch types without a count. Catalog will show 22 as a blog figure.",
+      "Threading color coding: Brother says color-coded; a PatternReview owner says the 1634D does not have color coded threading but has two stitch fingers where the 1034D has one. Catalog will list Brother's wording and note the owner report.",
+      "Differential feed ratio: not published for the 1634D in any snippet. Brother lists 0.7 to 2.0 for the 1034DX; do not carry that number across models.",
+      "Price: $154 at Walmart in a 2019 PatternReview thread (stale). The 1634DX is $259 at Joann per the same forum. No 2026 1634D price captured; none recorded."
+    ],
+    "ownerThemes": [
+      {
+        "theme": "Owners call it plasticky but simple to thread and set up, and describe the small Brother sergers as workhorses.",
+        "tone": "mixed",
+        "source": "https://sewing.patternreview.com/review/machine/6163"
+      },
+      {
+        "theme": "One owner reports a rolled hem problem specific to the 1634D; another found it as easy to use as the 1034D.",
+        "tone": "mixed",
+        "source": "https://sewing.patternreview.com/review/machine/5807"
+      },
+      {
+        "theme": "The 1634D is the Walmart variant of the 1034D family; forum members note the models are functionally the same and priced about the same, with differences in dial location, color coding and stitch fingers.",
+        "tone": "positive",
+        "source": "https://sewing.patternreview.com/SewingDiscussions/topic/116994"
+      }
+    ],
+    "evidence": "owner",
+    "buyerQuestions": [
+      "What is the difference between the Brother 1634D and the 1034D?",
+      "Is the Brother 1634D discontinued?",
+      "What is the difference between the 1634D and the 1634DX?",
+      "Does the Brother 1634D have a free arm?",
+      "Can the Brother 1634D do a coverstitch?",
+      "What needles does the Brother 1634D take?",
+      "Which presser feet come with the 1634D?",
+      "How fast does the Brother 1634D sew?"
+    ],
+    "crossShop": [
+      {
+        "slug": "brother-1034d",
+        "why": "Same 3/4 thread, 1,300 spm platform; the 1034D has far more owner reviews and wider dealer stock."
+      },
+      {
+        "slug": "brother-1034dx",
+        "why": "The current Brother refresh with right-side dials, LED light and a published 0.7 to 2.0 differential range."
+      },
+      {
+        "slug": "juki-mo-654de",
+        "why": "The step-up buyers weigh against any Brother 3/4 thread serger: 2/3/4 thread and 1,500 spm."
+      }
+    ],
+    "discontinued": false,
+    "replacedBy": null,
+    "sources": [
+      "https://www.brother-usa.com/products/1634d",
+      "https://www.brother-usa.com/products/1634dx",
+      "https://www.brother-usa.com/products/r1634d",
+      "https://sergerpro.com/brother-1634d-serger-review/",
+      "https://mashupfabric.com/brother-1634d-serger-review/",
+      "https://sewingmachinegreeks.com/brother-1634d-serger-machine-review/",
+      "https://www.sewingpartsonline.com/products/instruction-manual-brother-1634d",
+      "https://www.mistersewvac.com/product/brother-1634d-cover-stitch-serger/",
+      "https://sewing.patternreview.com/SewingMachine/1829",
+      "https://sewing.patternreview.com/review/machine/6163",
+      "https://sewing.patternreview.com/review/machine/5807",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/110523",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/116994",
+      "https://www.walmart.com/reviews/product/46270970",
+      "https://ilovequiltingforever.com/brother-serger-1034d-vs-1634d/"
+    ],
+    "editorial": {
+      "verdict": "The 1634D is the 1034D in mass-retail clothing: the same 3/4 thread, 1,300 spm, differential feed serger with a removable free arm, worth buying only when it is cheaper than the 1034D on the day.",
+      "whoFor": "A first serger buyer who finds the 1634D on sale at a big-box store and wants the Brother platform with the 25-year limited warranty.",
+      "skipIf": "You want 2-thread stitches, air threading, a coverstitch, or a published differential feed range; the 1034DX and Juki MO-654DE answer those.",
+      "keySpec": "3/4 thread · 1,300 spm · differential feed · removable free arm",
+      "strengths": [
+        "Same 3/4 thread, 1,300 spm core as the well-reviewed 1034D, with a removable free arm and trim trap.",
+        "Standard 130/705H household needles and three feet in the box.",
+        "Brother 25-year limited warranty at a big-box price."
+      ],
+      "weaknesses": [
+        "Very thin owner record: two PatternReview reviews against 66 for the 1034D, one reporting a rolled hem problem.",
+        "Weight, dimensions and differential feed ratio are not published by Brother on pages found; the figures online come from review blogs.",
+        "No 2-thread mode and no coverstitch, despite one dealer listing calling it a cover stitch serger."
+      ],
+      "checks": [
+        {
+          "title": "Compare the day's price with the 1034D",
+          "body": "Forum members describe the 1034D, 1634D and 1634DX as the same function at about the same money. Buy whichever variant is cheapest that day."
+        },
+        {
+          "title": "Check for color-coded threading",
+          "body": "Brother's page says color-coded lay-in threading; one owner says her 1634D lacked the color coding of the 1034D. Look at the thread path on the unit before buying."
+        },
+        {
+          "title": "Ignore the cover stitch label",
+          "body": "One dealer lists this as a cover stitch serger. The 1634D is a 3/4 thread overlocker only; a coverstitch needs a separate machine such as the Brother 2340CV."
+        }
+      ],
+      "realCost": [
+        "4 cones of serger thread in a neutral color",
+        "Spare 130/705H needles, size 80/12 and 90/14",
+        "Tweezers and a lint brush if the box lacks them",
+        "Serger oil"
+      ],
+      "faqs": [
+        {
+          "q": "What is the difference between the Brother 1634D and 1034D?",
+          "a": "Both are 3/4 thread sergers with differential feed and 1,300 spm. Forum owners report differences in dial location, color coding of the thread path and the number of stitch fingers, with the same function at about the same price."
+        },
+        {
+          "q": "Is the Brother 1634D discontinued?",
+          "a": "Brother still lists a 1634D product page and a refurbished R1634D, and a newer 1634DX exists. No discontinuation notice appeared in search results."
+        },
+        {
+          "q": "What is the difference between the 1634D and the 1634DX?",
+          "a": "Forum reports say the 1634DX is an updated variant sold through Joann at about $259. Published differences are limited; treat them as the same platform."
+        },
+        {
+          "q": "Does the Brother 1634D have a free arm?",
+          "a": "Yes. Brother describes a removable free arm for cuffs, sleeves and cylindrical work."
+        },
+        {
+          "q": "Can the Brother 1634D do a coverstitch?",
+          "a": "No. It is a 3/4 thread overlocker. One dealer listing title says cover stitch, but that function is not on Brother's page."
+        },
+        {
+          "q": "What needles does the Brother 1634D use?",
+          "a": "Standard SCHMETZ 130/705H household needles, per the instruction manual listing."
+        },
+        {
+          "q": "How much does the Brother 1634D weigh?",
+          "a": "Brother does not publish the weight on pages found. Review blogs give 17.3 lb; treat it as unverified."
+        },
+        {
+          "q": "What is the differential feed range on the 1634D?",
+          "a": "Not published for the 1634D in any source found. Brother publishes 0.7 to 2.0 for the 1034DX only."
+        },
+        {
+          "q": "What feet come with the Brother 1634D?",
+          "a": "Brother lists a standard foot, blind stitch foot and gathering foot, plus a soft cover and instructional video."
+        }
+      ]
+    }
+  },
+  "manufacturer": {
+    "documents": [
+      {
+        "id": "brother-page",
+        "url": "https://www.brother-usa.com/products/1634d",
+        "type": "product page",
+        "fetched": "2026-10-02",
+        "note": "Features, specifications, price"
+      },
+      {
+        "id": "brother-handbook",
+        "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf",
+        "type": "family handbook, 884-345",
+        "fetched": "2026-10-02",
+        "note": "Image-only PDF, OCR; names the 1634D only in the foot controller note (KD-1902); family values for speed, weight, needles, stitch width"
+      },
+      {
+        "id": "brother-warranty",
+        "url": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf",
+        "type": "Brother Limited Warranty (Serger), US",
+        "fetched": "2026-10-02",
+        "note": "Same PDF as the 1034D"
+      },
+      {
+        "id": "brother-intl-warranty",
+        "url": "https://assets.brother.com/asset/3e5bcfe0-2c88-4b35-8ec9-26698a105a4c/6020_International-Warranty-LAD-Final-serger-1-pdf.pdf",
+        "type": "International Warranty (Latin America and Caribbean)",
+        "fetched": "2026-10-02",
+        "note": "The PDF the product page links as its warranty; states 1 year"
+      }
+    ],
+    "facts": [
+      {
+        "field": "maxSpm",
+        "value": "1,300 spm",
+        "source": "brother-page; brother-handbook spec page",
+        "vs_spec": "confirms",
+        "spec_value": 1300,
+        "site": {
+          "label": "Speed",
+          "juki": "1,300 stitches per minute on Brother's page and in the family handbook.",
+          "others": "Dealers and review blogs agree.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother product page",
+              "url": "https://www.brother-usa.com/products/1634d"
+            },
+            {
+              "label": "Brother handbook",
+              "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "lighting",
+        "value": "Bulb (page Lighting Type); handbook names a replaceable lamp",
+        "source": "brother-page Basic Features",
+        "vs_spec": "adds",
+        "note": "Spec holds no lighting value. The 1034DX has LED; the 1634D page says bulb.",
+        "site": {
+          "label": "Work light",
+          "juki": "A bulb, per Brother's page. The 1034DX has an LED.",
+          "others": "No dealer figure collected.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother product page",
+              "url": "https://www.brother-usa.com/products/1634d"
+            }
+          ]
+        }
+      },
+      {
+        "field": "threads",
+        "value": "3 or 4 thread, two needles; page spec '2/3/4 Thread Change: No' (no 2-thread stitch); handbook 'Three/Four threads convertible'",
+        "source": "brother-page Features and Serger table; brother-handbook spec page",
+        "vs_spec": "confirms",
+        "spec_value": "3 or 4 thread, 2 needles",
+        "site": {
+          "label": "Thread modes",
+          "juki": "3 or 4 thread with two needles. The page says no 2/3/4 thread change, so there is no 2-thread stitch.",
+          "others": "Retail copy says 3 or 4 thread.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother product page",
+              "url": "https://www.brother-usa.com/products/1634d"
+            },
+            {
+              "label": "Brother handbook",
+              "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "stitchWidthMm",
+        "value": "Page: overlock seam width 5.0 to 7.0 mm from the left needle. Handbook: 2.3 to 7 mm (two-needle), 3.0 to 3.5 mm (one-needle)",
+        "source": "brother-page Serger table; brother-handbook spec page",
+        "vs_spec": "confirms",
+        "spec_value": "5 to 7",
+        "note": "Spec 5 to 7 matches the 1634D page. The family handbook gives a wider range for two-needle models.",
+        "site": {
+          "label": "Stitch width",
+          "juki": "5.0 to 7.0 mm on the 1634D page. The family handbook lists 2.3 to 7 mm for two-needle models.",
+          "others": "A review blog says 5 to 7 mm.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother product page",
+              "url": "https://www.brother-usa.com/products/1634d"
+            },
+            {
+              "label": "Brother handbook",
+              "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "stitchLengthMm",
+        "value": "2 to 4 mm",
+        "source": "brother-handbook spec page",
+        "vs_spec": "adds",
+        "note": "Family handbook; the manual lists 1634D with the foot controller note."
+      },
+      {
+        "field": "presserFootLift",
+        "value": "5 to 6 mm (page also: adjustable presser foot pressure, Yes)",
+        "source": "brother-handbook spec page; brother-page Basic Features",
+        "vs_spec": "adds",
+        "spec_value": null,
+        "note": "Spec holds null. The handbook is the family handbook, which names the 1634D only in the foot controller note.",
+        "site": {
+          "label": "Presser foot lift",
+          "juki": "5 to 6 mm per the family handbook. Brother's page lists adjustable presser foot pressure.",
+          "others": "No dealer figure collected.",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Brother handbook",
+              "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+            },
+            {
+              "label": "Brother product page",
+              "url": "https://www.brother-usa.com/products/1634d"
+            }
+          ]
+        }
+      },
+      {
+        "field": "needleSystem",
+        "value": "SCHMETZ 130/705H; set supplied is #80 (2) and #90 (2)",
+        "source": "brother-handbook spec page",
+        "vs_spec": "confirms",
+        "spec_value": "SCHMETZ 130/705H (standard household needle)",
+        "site": {
+          "label": "Needles",
+          "juki": "SCHMETZ 130/705H, with a set of two size 80 and two size 90 per the family handbook.",
+          "others": "A parts dealer lists the same system.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother handbook",
+              "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "includedFeet",
+        "value": "Standard foot, blindstitch foot, gathering foot; soft cover, instructional video and printed manual in the copy",
+        "source": "brother-page",
+        "vs_spec": "confirms",
+        "spec_value": "Standard foot, blind stitch foot, gathering foot; soft cover and instructional video",
+        "site": {
+          "label": "Feet in the box",
+          "juki": "Standard, blindstitch and gathering feet, plus a soft cover. Brother says 3 included accessory feet.",
+          "others": "Dealers list the same three feet.",
+          "status": "confirmed",
+          "links": [
+            {
+              "label": "Brother product page",
+              "url": "https://www.brother-usa.com/products/1634d"
+            }
+          ]
+        }
+      },
+      {
+        "field": "weightLb",
+        "value": "Not on Brother's 1634D page. Family handbook: net 7.0 kg (15.4 lb)",
+        "source": "brother-handbook spec page",
+        "vs_spec": "contradicts",
+        "spec_value": 17.3,
+        "note": "Spec 17.3 lb comes from a review blog. The handbook is a family document (names 1634D only in the foot controller note); treat 15.4 lb as the family figure, not the 1634D's.",
+        "site": {
+          "label": "Weight",
+          "juki": "Brother's 1634D page gives none. The family handbook says 7.0 kg net (15.4 lb).",
+          "others": "A review blog says 17.3 lb, possibly shipping weight.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Brother handbook",
+              "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "dimensionsIn",
+        "value": "Carton 15 x 13 x 14 in; machine dimensions not on Brother's page",
+        "source": "brother-page Dimensions",
+        "vs_spec": "adds",
+        "spec_value": "12.5 x 13.5 x 15",
+        "note": "Brother lists only a carton size. The blog machine size has no stated axis order."
+      },
+      {
+        "field": "threadingSystem",
+        "value": "Brother: 'color-coded lay-in threading'; Main Features: color-coded guides, fast lower loop threading",
+        "source": "brother-page",
+        "vs_spec": "confirms",
+        "spec_value": "Color-coded lay-in threading (Brother page)",
+        "note": "One PatternReview owner says the 1634D lacks the color coding of the 1034D. Listed, not resolved.",
+        "site": {
+          "label": "Color-coded threading",
+          "juki": "Brother's page says color-coded lay-in guides.",
+          "others": "A PatternReview owner says the 1634D lacks the 1034D's color coding.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Brother product page",
+              "url": "https://www.brother-usa.com/products/1634d"
+            },
+            {
+              "label": "PatternReview review",
+              "url": "https://sewing.patternreview.com/review/machine/6163"
+            }
+          ]
+        }
+      },
+      {
+        "field": "cutting",
+        "value": "Retractable knife blade, lower-drive knife, 1 stitch finger, removable trim trap, removable free arm",
+        "source": "brother-page",
+        "vs_spec": "adds",
+        "note": "One stitch finger matches the 1034D page; the PatternReview owner says the 1634D has two where the 1034D has one."
+      },
+      {
+        "field": "stitchCount",
+        "value": "Brother lists stitch types, no count",
+        "source": "brother-page",
+        "vs_spec": "adds",
+        "spec_value": 22,
+        "note": "Spec 22 is a blog figure; Brother publishes no count."
+      },
+      {
+        "field": "warrantyUs",
+        "value": "Page label '1/5/25 Year Limited Serger Warranty' but the link is the International (Latin America and Caribbean) PDF, which states 1 year. The US Brother Limited Warranty (Serger) PDF states 1 year parts, labor and accessories, 5 years electronics (labor excluded), 25 years chassis casting",
+        "source": "brother-page; brother-warranty; brother-intl-warranty",
+        "vs_spec": "contradicts",
+        "spec_value": "25-year limited (Brother)",
+        "note": "Spec says 25-year limited. That term is the chassis casting only. The page links the international PDF; the US PDF carries the 1/5/25 terms.",
+        "site": {
+          "label": "Warranty",
+          "juki": "1 year parts, labor and accessories; 5 years electronic components; 25 years chassis casting (US PDF). The page's own link goes to an international PDF that says 1 year.",
+          "others": "A review blog says 25-year limited.",
+          "status": "differs",
+          "links": [
+            {
+              "label": "Brother product page",
+              "url": "https://www.brother-usa.com/products/1634d"
+            },
+            {
+              "label": "Brother US serger warranty",
+              "url": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf"
+            },
+            {
+              "label": "Brother international warranty",
+              "url": "https://assets.brother.com/asset/3e5bcfe0-2c88-4b35-8ec9-26698a105a4c/6020_International-Warranty-LAD-Final-serger-1-pdf.pdf"
+            }
+          ]
+        }
+      },
+      {
+        "field": "msrp",
+        "value": "USD 299.99 on brother-usa.com 2026-10-02",
+        "source": "brother-page",
+        "vs_spec": "adds",
+        "note": "Brother's 1034D page showed 319.99 on 2026-10-01, so the 1634D is listed $20 under it. Price band only; not a spec.",
+        "site": {
+          "label": "Price",
+          "juki": "$299.99 at Brother USA on 2026-10-02. The 1034D was $319.99 there on 2026-10-01.",
+          "others": "A 2019 forum post puts it at $154 at Walmart, stale.",
+          "status": "unverified",
+          "links": [
+            {
+              "label": "Brother product page",
+              "url": "https://www.brother-usa.com/products/1634d"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "rollup": {
+    "status": "draft",
+    "method": {
+      "sources": 26,
+      "itemsCollected": 142,
+      "statements": 73,
+      "voices": 35,
+      "ownerVoices": 30,
+      "dateRange": [
+        2016,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 11,
+          "items": 92
+        },
+        "editorial": {
+          "sources": 7,
+          "items": 7
+        },
+        "forum": {
+          "sources": 7,
+          "items": 7
+        },
+        "retailer": {
+          "sources": 1,
+          "items": 35
+        }
+      },
+      "blocked": 1,
+      "evidence": "strong",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The one retailer rating is the eBay catalog page for the model, 4.8 from 45 ratings with 35 written reviews, mostly from 2016 to 2019 and covering new and refurbished units, so it is an older and friendlier record than the Reddit threads.",
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "One retailer rating exists for the 1634D: the eBay catalog page for the model shows 4.8 from 45 ratings, with 35 written reviews (a sampled set, since 45 buyers rated it), mostly from 2016 to 2019. It is catalog-level across eBay sellers and conditions (new, pre-owned, refurbished), so many of those buyers had refurbished units, and the ratings are older than the Reddit threads. Amazon shows no 1634D listing, the Walmart listing found in a 2019 forum thread no longer resolves, and Brother's own review widget has no reviews.",
+      "The evidence base is small: nine Reddit threads that name the 1634D, two PatternReview owner reviews (full text gated), a few forum threads, blog write-ups and 35 eBay buyer reviews. Most items are still Reddit, and many of those voices are people asking for help with a secondhand or inherited machine, so problems are over-represented.",
+      "The 1634D shares its platform with the 1034D, and forum owners treat the two as near identical. Most owner praise online is for the 1034D, not the 1634D, and is not counted here unless the writer names the 1634D.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ratings": [
+      {
+        "retailer": "ebay.com",
+        "url": "https://www.ebay.com/p/9032778488",
+        "pageRating": 4.8,
+        "pageCount": 45,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 4,
+          "5": 40
+        },
+        "lowRated": 1,
+        "sampled": "35 written reviews of 45 product ratings (page states 35 reviews); all pages of ebay.com/urw/product-reviews/9032778488 fetched"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Threading and loopers",
+        "voices": 14,
+        "ownerVoices": 12,
+        "sources": 7,
+        "polarity": {
+          "positive": 10,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "reddit": 4,
+          "editorial": 1,
+          "forum": 1,
+          "retailer": 8
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "An owner who sews denim on the 1634D calls it the worst serger to rethread.",
+            "url": "https://www.reddit.com/r/sewing/comments/zzc0ik/brothers_serger_1634d_mesh_fabric_problems/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "The owner fixed the breaking by changing how the lower looper was threaded, even though the original path followed the manual.",
+            "url": "https://www.reddit.com/r/sewing/comments/8eux57/brother_1634d_serger_lower_looper_thread_keeps/dxyds7v/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Says a refurbished unit was not too difficult to thread.",
+            "url": "https://www.ebay.com/p/9032778488"
+          },
+          {
+            "polarity": "positive",
+            "claim": "A PatternReview owner calls it extremely simple to thread and set up.",
+            "url": "https://sewing.patternreview.com/review/machine/6163"
+          }
+        ]
+      },
+      {
+        "label": "Build quality",
+        "voices": 8,
+        "ownerVoices": 4,
+        "sources": 7,
+        "polarity": {
+          "positive": 2,
+          "negative": 5,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "classVoices": {
+          "reddit": 3,
+          "editorial": 3,
+          "forum": 1,
+          "retailer": 1
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "The same owner calls the machine plasticy.",
+            "url": "https://sewing.patternreview.com/review/machine/6163"
+          },
+          {
+            "polarity": "negative",
+            "claim": "Says several parts that are metal on the buyer's other machines are plastic here, including the scrap catcher and thread stand.",
+            "url": "https://www.ebay.com/p/9032778488"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "The owner says the plastic scrap bucket and bed extension feel cheap but the internals are all metal.",
+            "url": "https://www.reddit.com/r/sewing/comments/1b0mq1t/tell_me_about_your_serger/ks911hw/"
+          }
+        ]
+      },
+      {
+        "label": "Reliability and defects",
+        "voices": 8,
+        "ownerVoices": 8,
+        "sources": 6,
+        "polarity": {
+          "positive": 1,
+          "negative": 7,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "classVoices": {
+          "reddit": 6,
+          "forum": 1,
+          "retailer": 1
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "An inherited 1634D has a handwheel that will not turn.",
+            "url": "https://www.reddit.com/r/CosplayHelp/comments/1f6nw1b/overlock_machine_help/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "An owner says one thread stopped joining the chain after the machine worked perfectly at first, despite rethreading and new needles.",
+            "url": "https://www.reddit.com/r/sewing/comments/i3xpzl/please_help_i_just_got_a_brother_1634d_serger_and/"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Owner of several Brother products had not needed service on this one and fixed the few minor issues themselves.",
+            "url": "https://www.ebay.com/p/9032778488"
+          }
+        ]
+      },
+      {
+        "label": "Tension",
+        "voices": 6,
+        "ownerVoices": 5,
+        "sources": 5,
+        "polarity": {
+          "positive": 2,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "classVoices": {
+          "reddit": 4,
+          "editorial": 1,
+          "forum": 1
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "After rethreading, the upper looper thread started breaking and the owner considered servicing.",
+            "url": "https://www.reddit.com/r/sewing/comments/8eux57/brother_1634d_serger_lower_looper_thread_keeps/dxyay6s/"
+          },
+          {
+            "polarity": "negative",
+            "claim": "The owner says the left needle thread keeps breaking unless tension is exactly right.",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/105563"
+          },
+          {
+            "polarity": "positive",
+            "claim": "Thread nets on the cones helped a commenter with tension and thread snapping.",
+            "url": "https://www.reddit.com/r/sewing/comments/10bt630/i_just_got_a_used_brother_1634d_serger_any_tips/j4byom5/"
+          },
+          {
+            "polarity": "mixed",
+            "claim": "Tension takes time to dial in, but once set the commenter calls it a good machine.",
+            "url": "https://www.reddit.com/r/sewing/comments/1vr3oa5/newused_brother_1634d_serger_front_cover_wont/p4ak3sx/"
+          }
+        ]
+      },
+      {
+        "label": "Lighting",
+        "voices": 5,
+        "ownerVoices": 1,
+        "sources": 5,
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "classVoices": {
+          "reddit": 1,
+          "editorial": 4
+        },
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "polarity": "negative",
+            "claim": "An owner could not find a standard replacement bulb that fits the 1634D.",
+            "url": "https://www.reddit.com/r/sewing/comments/j2719i/light_bulb_for_brother_1634d/"
+          }
+        ]
+      }
+    ],
+    "siblings": [
+      {
+        "label": "Brother 1034D",
+        "rows": [
+          {
+            "feature": "Stitch fingers",
+            "summary": "A PatternReview poster and a reviewer's commenter say the 1634D has two stitch fingers where the 1034D has one. Brother's own 1634D page lists one stitch finger.",
+            "check": "disputed: forum reports say two, Brother's page says 1"
+          },
+          {
+            "feature": "Color-coded threading",
+            "summary": "A PatternReview commenter says the 1634D lacks the 1034D's color coded threading. A comparison blog says both have color-coded guides and the 1634D's colors are more noticeable. Brother's 1634D page says color-coded lay-in threading.",
+            "check": "disputed between sources; Brother's page says color-coded"
+          },
+          {
+            "feature": "Price",
+            "summary": "Brother USA lists the 1634D at $299.99 and the 1034D at $319.99 (seen 2026-10-02 and 2026-10-01).",
+            "check": "Brother product pages"
+          },
+          {
+            "feature": "Work light",
+            "summary": "Both Brother pages list a bulb. Two blogs say the 1634D has an LED; Brother's page does not.",
+            "check": "Brother product pages; blogs disagree"
+          },
+          {
+            "feature": "Feet",
+            "summary": "The same three feet on both: standard, blindstitch and gathering.",
+            "check": "Brother product pages"
+          },
+          {
+            "feature": "Weight",
+            "summary": "Brother's 1034D page gives 13.45 lb. Brother's 1634D page gives no weight; a review blog says 17.3 lb.",
+            "check": "Brother product pages; 1634D figure is a blog number"
+          }
+        ]
+      },
+      {
+        "label": "Brother 1034DX",
+        "rows": [
+          {
+            "feature": "Work light",
+            "summary": "The 1034DX has an LED; the 1634D page lists a bulb.",
+            "check": "Brother product pages"
+          },
+          {
+            "feature": "Price",
+            "summary": "Brother USA lists the 1034DX at $289.99 (2026-10-01), against $299.99 for the 1634D (2026-10-02).",
+            "check": "Brother product pages"
+          }
+        ]
+      },
+      {
+        "label": "Brother 1634DX",
+        "rows": [
+          {
+            "feature": "Work light",
+            "summary": "Brother lists the 1634DX with an LED and the 1634D with a bulb.",
+            "check": "Brother product pages, 2026-10-02"
+          },
+          {
+            "feature": "Price",
+            "summary": "Brother USA showed the 1634DX at $199.99 (was $259.00) and the 1634D at $299.99 on 2026-10-02.",
+            "check": "Brother product pages"
+          },
+          {
+            "feature": "Feet",
+            "summary": "The same three feet and the same 1,300 spm, 5.0 to 7.0 mm seam width and one stitch finger on both Brother pages.",
+            "check": "Brother product pages"
+          },
+          {
+            "feature": "Relationship",
+            "summary": "Forum and Reddit posters say the 1634DX is the 1034DX sold under a retail model number; one says Brother confirmed it by email. Treat as owner reports.",
+            "check": "owner reports, not a maker statement"
+          }
+        ]
+      }
+    ],
+    "rivals": [
+      {
+        "model": "Brother 1034D",
+        "claims": 10,
+        "favors": {
+          "this": 0,
+          "other": 1,
+          "mixed": 9
+        },
+        "dimensions": {
+          "this": [],
+          "other": [
+            {
+              "dimension": "build quality",
+              "n": 1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "checks": [
+    {
+      "level": "warn",
+      "id": "pooled-listing",
+      "message": "ebay.com: only 3 of 35 reviews name this model while siblings exist; confirm the listing is not pooled"
+    },
+    {
+      "level": "warn",
+      "id": "conflicts",
+      "message": "maker documents contradict our \"warrantyUs\" but the spec's conflicts do not mention it"
+    }
+  ],
+  "editorNotes": {
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "One retailer rating exists for the 1634D: the eBay catalog page for the model shows 4.8 from 45 ratings, with 35 written reviews (a sampled set, since 45 buyers rated it), mostly from 2016 to 2019. It is catalog-level across eBay sellers and conditions (new, pre-owned, refurbished), so many of those buyers had refurbished units, and the ratings are older than the Reddit threads. Amazon shows no 1634D listing, the Walmart listing found in a 2019 forum thread no longer resolves, and Brother's own review widget has no reviews.",
+      "The evidence base is small: nine Reddit threads that name the 1634D, two PatternReview owner reviews (full text gated), a few forum threads, blog write-ups and 35 eBay buyer reviews. Most items are still Reddit, and many of those voices are people asking for help with a secondhand or inherited machine, so problems are over-represented.",
+      "The 1634D shares its platform with the 1034D, and forum owners treat the two as near identical. Most owner praise online is for the 1034D, not the 1634D, and is not counted here unless the writer names the 1634D.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The one retailer rating is the eBay catalog page for the model, 4.8 from 45 ratings with 35 written reviews, mostly from 2016 to 2019 and covering new and refurbished units, so it is an older and friendlier record than the Reddit threads."
+  },
+  "questions": {
+    "pulled": "2026-10-02",
+    "items": [
+      {
+        "q": "What are the key differences between the Brother 1034D and 1634D sergers?",
+        "sources": [
+          "paa",
+          "ahrefs",
+          "briefing"
+        ],
+        "volume": 10,
+        "scope": "sibling",
+        "use": true,
+        "faq": "What is the difference between the Brother 1634D and the 1034D?",
+        "answeredFrom": "rollup.json siblingSummaries and siblingExtras (1034D); manufacturer.json"
+      },
+      {
+        "q": "Is the Brother 1634DX a serger or sewing machine?",
+        "sources": [
+          "paa",
+          "briefing"
+        ],
+        "volume": null,
+        "scope": "sibling",
+        "use": true,
+        "faq": "How does the Brother 1634D differ from the 1634DX?",
+        "answeredFrom": "rollup.json siblingExtras (1634DX); manufacturer.json"
+      },
+      {
+        "q": "how much does brother 1634d cost",
+        "sources": [
+          "ahrefs"
+        ],
+        "volume": 30,
+        "scope": "this",
+        "use": true,
+        "faq": "How much does the Brother 1634D cost?",
+        "answeredFrom": "manufacturer.json msrp; data/specs price fields"
+      },
+      {
+        "q": "Can brother 1034D do a coverstitch?",
+        "sources": [
+          "paa",
+          "briefing"
+        ],
+        "volume": null,
+        "scope": "sibling",
+        "use": true,
+        "faq": "Can the Brother 1634D do a coverstitch?",
+        "answeredFrom": "data/specs stitchTypes; rollup.json claims (two sources say no coverstitch)"
+      },
+      {
+        "q": "Is the Brother 1034D serger discontinued?",
+        "sources": [
+          "paa",
+          "briefing"
+        ],
+        "volume": null,
+        "scope": "sibling",
+        "use": true,
+        "faq": "Is the Brother 1634D discontinued?",
+        "answeredFrom": "manufacturer.json brother-page (listed and priced 2026-10-02); data/specs discontinued"
+      },
+      {
+        "q": "how to thread brother 1634d",
+        "sources": [
+          "ahrefs",
+          "briefing"
+        ],
+        "volume": 0,
+        "scope": "this",
+        "use": true,
+        "faq": "Is the Brother 1634D hard to thread?",
+        "answeredFrom": "rollup.json threading theme"
+      },
+      {
+        "q": "what is included in brother 1634d",
+        "sources": [
+          "ahrefs",
+          "briefing"
+        ],
+        "volume": 0,
+        "scope": "this",
+        "use": true,
+        "faq": "What comes in the box with the Brother 1634D?",
+        "answeredFrom": "manufacturer.json includedFeet; data/specs includedFeet"
+      },
+      {
+        "q": "Is the Brother 1034D serger worth it?",
+        "sources": [
+          "paa"
+        ],
+        "volume": null,
+        "scope": "sibling",
+        "use": true,
+        "faq": "Is the Brother 1634D worth buying?",
+        "answeredFrom": "rollup.json summary and themes; manufacturer.json msrp"
+      },
+      {
+        "q": "What needles does the Brother 1634D take?",
+        "sources": [
+          "briefing"
+        ],
+        "volume": null,
+        "scope": "this",
+        "use": true,
+        "faq": "What needles does the Brother 1634D take?",
+        "answeredFrom": "manufacturer.json needleSystem (family handbook)"
+      },
+      {
+        "q": "Which Brother serger is considered the best?",
+        "sources": [
+          "paa"
+        ],
+        "volume": null,
+        "scope": "generic",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "What is the best serger for your money?",
+        "sources": [
+          "paa"
+        ],
+        "volume": null,
+        "scope": "generic",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "Which Brother serger is better, the 1034D or the 1034DX?",
+        "sources": [
+          "paa"
+        ],
+        "volume": null,
+        "scope": "sibling",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "How much does a Brother 1034D cost?",
+        "sources": [
+          "paa"
+        ],
+        "volume": null,
+        "scope": "sibling",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "how do i remove the stitch finger on a brother serger 1634d",
+        "sources": [
+          "ahrefs"
+        ],
+        "volume": 0,
+        "scope": "this",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "how do i change the knife blade in a brother 1634d serger",
+        "sources": [
+          "ahrefs"
+        ],
+        "volume": 0,
+        "scope": "this",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "what year is made brother serger 1634d",
+        "sources": [
+          "ahrefs"
+        ],
+        "volume": 0,
+        "scope": "this",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      },
+      {
+        "q": "Is the Brother 1634D discontinued? (briefing wording)",
+        "sources": [
+          "briefing"
+        ],
+        "volume": null,
+        "scope": "this",
+        "use": false,
+        "faq": null,
+        "answeredFrom": null
+      }
+    ]
+  },
+  "siteFieldsNow": "  \"brother-1634d\": {\n    score: 7.5,\n    scoredFor: \"serger\",\n    priceBand: 1,\n    reason: \"The 1034D in mass-retail clothing; buy whichever is cheaper today.\",\n    context: \"Overlocker · the 1034D's mass-retail sibling\",\n    alternatives: [\n      { slug: \"brother-1034d\", label: \"Sibling\", note: \"Same platform, our value pick.\" },\n      { slug: \"brother-1034dx\", label: \"Sibling\", note: \"The bundle variant.\" },\n      { slug: \"juki-mo-654de\", label: \"1,500 spm, 5-year warranty\", note: \"Per Juki's spec: 1,500 spm and a 5-year mechanical warranty.\" },\n    ],\n    imageAlt: \"Brother 1634D serger\",\n    lastUpdated: \"2026-10-02\",\n  },",
+  "comparesNow": []
+}

@@ -6,17 +6,19 @@ import { Breadcrumb, Container } from "@/components/layout/Container";
 import { PriceBandBadge, TypeBadge, DiscontinuedBadge } from "@/components/ui/Badges";
 import { BuyButton } from "@/components/ui/BuyButton";
 import { PhotoWell } from "@/components/ui/PhotoWell";
+import { AtAGlance } from "@/components/ui/AtAGlance";
 import { VerdictBox } from "@/components/ui/VerdictBox";
 import { SpecTable, Verify } from "@/components/ui/SpecTable";
 import { SizeDiagram } from "@/components/ui/SizeDiagram";
 import { Alternatives, CheckBeforeYouBuy, DiscontinuedBanner, HeadToHeads, ProsCons, RetailerBlock } from "@/components/ui/ReviewBlocks";
-import { DocumentChecks, MethodologyBox, OwnerSignals, RivalSignals, SiblingDifferences } from "@/components/ui/RollupBlocks";
+import { DocumentChecks, GoodNotGood, MethodologyBox, OwnerSignals, RivalSignals, SiblingDifferences } from "@/components/ui/RollupBlocks";
 import { StickyBuyBar } from "@/components/ui/StickyBuyBar";
 import { TableOfContents } from "@/components/ui/TableOfContents";
 import { FAQ } from "@/components/ui/FAQ";
 import { JsonLd } from "@/components/schema/JsonLd";
 import { brandSlugFor, seriesForProduct } from "@/lib/brands";
 import { comparisonsForProduct } from "@/lib/comparisons";
+import { glanceFor } from "@/lib/glance";
 import { hubForJob } from "@/lib/hubs";
 import { bandLabel } from "@/lib/price-bands";
 import { formatSpec, getProduct, products, JOB_LABEL } from "@/lib/products";
@@ -62,6 +64,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
   const rollup = getRollup(p.slug);
   const faqs = p.faqs.length ? p.faqs : buildFaqs(p);
   const description = reviewMetaDescription(p);
+  const glance = glanceFor(p, rollup);
 
   const crumbs = [
     { label: "Home", href: "/" },
@@ -120,6 +123,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
           </div>
 
           <DiscontinuedBanner product={p} />
+          <AtAGlance glance={glance} hasOwners={Boolean(rollup)} />
           <VerdictBox product={p} />
 
           <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_360px] gap-10 lg:gap-16 items-start">
@@ -203,9 +207,10 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
                     <h2 id="owners-title" className="d m-0 text-[28px] md:text-[32px]">
                       {p.evidence === "positioning" ? "Buyer signals" : p.evidence === "mixed" ? "Owner and buyer signals" : "What owners say"}
                     </h2>
-                    <span className="m text-[14px] text-steel">Counted from {rollup.method.voices} voices. Paraphrased, attributed. We did not operate this machine.</span>
+                    <span className="m text-[14px] text-steel">Counted from {rollup.method.voices} voices. Paraphrased, attributed.</span>
                   </div>
                   {rollup.ownerNote && <p className="m-0 text-[15px] leading-[1.55] text-ink-soft">{rollup.ownerNote}</p>}
+                  <GoodNotGood rollup={rollup} />
                   <OwnerSignals rollup={rollup} />
                   <MethodologyBox rollup={rollup} />
                 </section>
@@ -230,7 +235,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
                     <h2 id="owners-title" className="d m-0 text-[28px] md:text-[32px]">
                       {p.evidence === "positioning" ? "Buyer signals" : p.evidence === "mixed" ? "Owner and buyer signals" : "What owners say"}
                     </h2>
-                    <span className="m text-[14px] text-steel">Paraphrased, attributed. We did not operate this machine.</span>
+                    <span className="m text-[14px] text-steel">Paraphrased, attributed.</span>
                   </div>
                   <div className="card flex flex-col">
                     {p.ownerThemes.map((t, i) => (
@@ -281,7 +286,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ slug: s
         </Container>
       </main>
       <StickyBuyBar product={p} />
-      <JsonLd data={reviewSchema(p, { description, dateModified: p.lastUpdated })} />
+      <JsonLd data={reviewSchema(p, { description, dateModified: p.lastUpdated, reviewBody: glance.reviewBody })} />
       <JsonLd data={breadcrumbSchema(crumbs.filter((c) => c.href).map((c) => ({ name: c.label, path: c.href! })).concat([{ name: p.model, path: `/reviews/${p.slug}` }]))} />
       {faqs.length > 0 && <JsonLd data={faqSchema(faqs)} />}
     </>

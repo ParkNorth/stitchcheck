@@ -1,0 +1,262 @@
+{
+  "slug": "juki-dnu-1541s",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": "juki dnu-1541s",
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The SearchAPI MCP google_search returns organic, knowledge_graph and ai_overview only; related_questions is dropped, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "juki dnu-1541s",
+        "juki dnu 1541s",
+        "juki 1541s"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/juki-dnu-1541s.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "What is the difference between the Juki 1541 and 1541S sewing machines?",
+      "sources": [
+        "paa",
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "volumeKeyword": "what does the s mean juki 1541s",
+      "scope": "sibling",
+      "use": true,
+      "faq": "What is the difference between the Juki DNU-1541 and DNU-1541S?",
+      "answeredFrom": "manufacturer.json variants; rollup.json siblings (DNU-1541, DNU-1541-7)"
+    },
+    {
+      "q": "What is the price of the Juki 1541 S sewing machine?",
+      "sources": [
+        "paa",
+        "ahrefs"
+      ],
+      "volume": 30,
+      "volumeKeyword": "juki 1541s price",
+      "scope": "this",
+      "use": true,
+      "faq": "What does the Juki DNU-1541S cost?",
+      "answeredFrom": "data/specs priceUsdSeen with date; manufacturer.json msrp"
+    },
+    {
+      "q": "What are the specifications of the Juki DNU-1541S?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What are the specifications of the Juki DNU-1541S?",
+      "answeredFrom": "manufacturer.json facts (catalog and page)"
+    },
+    {
+      "q": "Can the DNU-1541S sew leather?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can the DNU-1541S sew leather?",
+      "answeredFrom": "manufacturer.json claims; rollup.json Power on heavy fabric theme"
+    },
+    {
+      "q": "Does the DNU-1541S come with a servo motor?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the DNU-1541S come with a servo motor?",
+      "answeredFrom": "manufacturer.json motor; data/specs conflicts; rollup.json Speed theme"
+    },
+    {
+      "q": "Does the DNU-1541S have a thread trimmer?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "sibling",
+      "use": true,
+      "faq": "Does the DNU-1541S have a thread trimmer?",
+      "answeredFrom": "manufacturer.json threadTrimmer and variants; rollup.json siblings (DNU-1541-7)"
+    },
+    {
+      "q": "What needles does the DNU-1541S use?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "What needles does the DNU-1541S use?",
+      "answeredFrom": "manufacturer.json needleSystem"
+    },
+    {
+      "q": "how to oil juki dnu 1541s",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": true,
+      "faq": "How do you oil the Juki DNU-1541S?",
+      "answeredFrom": "manufacturer.json lubrication; rollup.json Oiling and maintenance theme"
+    },
+    {
+      "q": "Can I run the DNU-1541S at home?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Can I run the DNU-1541S at home?",
+      "answeredFrom": "manufacturer.json weightLb and motor; rollup.json themes"
+    },
+    {
+      "q": "What size bobbin does a Juki 1541S use?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Our evidence names a horizontal-axis double-capacity hook but no bobbin class, so we cannot answer it."
+    },
+    {
+      "q": "Does Juki use class 15 bobbins?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand-level bobbin question; no bobbin class in our evidence."
+    },
+    {
+      "q": "Is it better to use plastic or metal bobbins?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic sewing question; belongs on a guide."
+    },
+    {
+      "q": "How do I know if my bobbin is class 15?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic sewing question; belongs on a guide."
+    },
+    {
+      "q": "Are metal and plastic bobbins interchangeable?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic sewing question; belongs on a guide."
+    },
+    {
+      "q": "What can I use in place of a bobbin?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Generic sewing question; belongs on a guide."
+    },
+    {
+      "q": "How thick can the DNU-1541S sew?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Juki publishes no thickness rating; the 16 mm knee lift is in the spec answer and the leather answer covers owner reports."
+    },
+    {
+      "q": "How much does the DNU-1541S weigh?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "In the spec answer (36.5 kg head, 80.5 lb by our conversion)."
+    },
+    {
+      "q": "Does the safety clutch on the 1541S cause timing problems?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Owner opinion on the clutch is split and the rollup holds no timing statements; covered by one sentence in the 1541 vs 1541S answer."
+    },
+    {
+      "q": "how to thread the juki 1541s",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Threading and loopers has only 3 neutral statements; the manual diagram is the better answer."
+    },
+    {
+      "q": "how to time juki dnu 1541s",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "Service procedure; no evidence in our files."
+    },
+    {
+      "q": "what size thread does a juki dnu 1541s use",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": false,
+      "reason": "No maker thread size in our evidence."
+    },
+    {
+      "q": "juki 1541s for sale",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 200,
+      "volumeKeyword": "juki 1541s for sale",
+      "scope": "this",
+      "use": false,
+      "reason": "Buy intent; price band and Last seen line handle it."
+    },
+    {
+      "q": "juki dnu-1541s manual",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 30,
+      "volumeKeyword": "juki dnu-1541s manual",
+      "scope": "this",
+      "use": false,
+      "reason": "Manual links are in the research sources, not a FAQ."
+    }
+  ]
+}

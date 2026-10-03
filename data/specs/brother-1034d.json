@@ -136,16 +136,16 @@
   ],
   "evidence": "owner",
   "buyerQuestions": [
-    "Can the Brother 1034D sew a coverstitch?",
-    "Is the 1034D a good first serger?",
-    "What needles does the 1034D take?",
-    "How loud is the 1034D?",
-    "Can the 1034D serge denim?",
-    "What is the difference between the 1034D and the 1034DX?",
-    "Does the 1034D have a free arm?",
-    "Can the 1034D do a rolled hem without changing plates?",
-    "What thread cones should I buy for the 1034D?",
-    "How many feet come in the box?"
+    "Is the Brother 1034D a good serger, according to owners?",
+    "What is the difference between the Brother 1034D and the 1034DX?",
+    "Can the Brother 1034D do a coverstitch?",
+    "What is the price of the Brother 1034D?",
+    "Is the Brother 1034D discontinued?",
+    "How do you thread the Brother 1034D?",
+    "Is the Brother 1034D good for beginners?",
+    "Can the Brother 1034D do a rolled hem?",
+    "How loud is the Brother 1034D?",
+    "which better 1034d or 1634d brother serger"
   ],
   "crossShop": [
     {
@@ -214,36 +214,40 @@
     ],
     "faqs": [
       {
+        "q": "Is the Brother 1034D a good serger, according to owners?",
+        "a": "Owner accounts are split. Of 111 reliability statements in our read, 87 are negative and 21 positive, with owners describing timing that failed, knives that broke and machines that went to the shop, while others report no trouble. Threading is the most discussed topic: of 81 statements, 35 are positive and 33 negative. Reddit leans toward people asking for help and Walmart's low-star reviews were sampled on purpose, so problems are over-represented; retailer ratings are 4.6 of 5 across 1,723 Walmart ratings and 4.45 of 5 across 55 at Sewing Machines Plus (seen 2026-10-01)."
+      },
+      {
+        "q": "What is the difference between the Brother 1034D and the 1034DX?",
+        "a": "Brother lists the 1034D at $319.99 and the 1034DX at $289.99 on 2026-10-01, so the D costs more there. On Brother's pages the D has a bulb work light (15 W per Brother's handbook) where the DX has an LED, weighs 13.45 lb against 12.57 lb, and lists an accessory storage compartment that the DX does not. Speed (1,300 spm), differential feed and the three snap-on feet match. Brother's DX spec table lists 2/3/4 thread change as Yes against No here, which may be a data error, and commenters disagree on whether parts such as the needle clamp are interchangeable, so check the part number before ordering spares [verify]."
+      },
+      {
+        "q": "Can the Brother 1034D do a coverstitch?",
+        "a": "No. Brother lists it as a 3 or 4 thread overlock serger with 2 needles, and its stitch list is 4-thread overlock, 3-thread overlock, narrow hem, rolled hem and ribbon lock, with no coverstitch. Brother lists 2/3/4 thread change as No, so there are no 2-thread stitches either. Buyers who want a coverstitch compare this machine plus a coverstitch machine against one combo unit."
+      },
+      {
+        "q": "What is the price of the Brother 1034D?",
+        "a": "Brother USA listed the 1034D at $319.99 on 2026-10-01, the same day it listed the 1034DX at $289.99, so the DX is the cheaper of the two there. Dealer bundles ran from $249.99 to $579.99 and Brother offers a refurbished option. Prices drift weekly, so use the price band on this page as the stable guide."
+      },
+      {
+        "q": "Is the Brother 1034D discontinued?",
+        "a": "We found no discontinuation notice. Brother USA still listed the 1034D new at $319.99 on 2026-10-01, with a refurbished option, and our catalog marks it as current [verify]."
+      },
+      {
+        "q": "How do you thread the Brother 1034D?",
+        "a": "Brother lists lay-in threading with color-coded upper thread guides and a lower looper threading lever. Owners are split on how it goes: of 81 threading statements, 35 are positive, 33 negative, 6 mixed and 7 neutral, and the lower looper is the usual sticking point. Use Brother's handbook for the step order, as we do not give a thread path here."
+      },
+      {
         "q": "Is the Brother 1034D good for beginners?",
-        "a": "It is the entry serger many people start with, and Brother's color-coded lay-in guides help. Threading, especially the lower looper, is still the most common owner complaint, so budget time for videos before your first project."
+        "a": "It is the entry serger many people start with, and Brother's color-coded lay-in guides help. Threading is the most discussed owner topic and many help threads are about stitches not forming after a rethread, so budget time for videos before your first project."
       },
       {
-        "q": "How fast is the Brother 1034D?",
-        "a": "Brother publishes a top speed of 1,300 stitches per minute. That is the spec, not a promise of finished quality at that speed on thick or stretchy fabric."
+        "q": "Can the Brother 1034D do a rolled hem?",
+        "a": "Yes. Brother lists the rolled hem as built in, with no plate change stated. Owners are split on it: of 14 statements, 6 are positive, 5 negative, 1 mixed and 2 neutral, including one owner who could not get it to sew after converting by removing the left needle and a finger. We have not read conversion steps written for this exact model, since Brother's handbook is a family document that never names the 1034D [verify]."
       },
       {
-        "q": "Does the 1034D do 2-thread stitches or a rolled hem?",
-        "a": "It sews 3 or 4 threads only: Brother lists 2/3/4 thread change as No. A rolled hem is built in, and Brother lists the rolled-hem change as Yes."
-      },
-      {
-        "q": "What is the difference between the 1034D and the 1034DX?",
-        "a": "Brother lists the 1034DX at $289.99 against $319.99 for the 1034D. The DX is lighter (12.57 lb against 13.45 lb) and has an LED work light where the D has a bulb, but it lists no accessory storage. Both are 3/4 thread at 1,300 spm with the same three feet. See the sibling table on this page."
-      },
-      {
-        "q": "What is the Brother 1034D warranty?",
-        "a": "Brother's limited warranty is 1 year for parts, labor and accessories, 5 years for electronic components and circuit boards (labor excluded) and 25 years for the chassis casting only. It covers the original buyer from an authorized seller."
-      },
-      {
-        "q": "How often does the 1034D need oiling?",
-        "a": "Brother's handbook says to oil it once or twice a month for normal use and weekly if it is used more often, after cleaning off lint."
-      },
-      {
-        "q": "What needles does the 1034D use?",
-        "a": "SCHMETZ 130/705H household needles. Brother supplies sizes 80 and 90."
-      },
-      {
-        "q": "Who should skip the 1034D?",
-        "a": "Anyone who wants 2-thread stitches, a quiet machine or a coverstitch."
+        "q": "How loud is the Brother 1034D?",
+        "a": "Many owners call it loud: of 33 noise statements, 25 are negative, 5 positive and 3 mixed, including one owner who finds it somewhat loud compared with a sewing machine. We hold no maker noise figure, so a decibel comparison is [verify]."
       }
     ]
   }

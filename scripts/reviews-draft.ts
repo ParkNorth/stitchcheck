@@ -62,6 +62,7 @@ if (cmd === "prep") {
   const man = readJson(path.join(D, "manufacturer.json"));
   const checks = readJson(path.join(D, "checks.json"));
   const ed = readJson(path.join(D, "editor.json"));
+  const paa = readJson(path.join(D, "paa.json"));
   const src = fs.readFileSync(PRODUCTS, "utf8");
   const cmpSrc = fs.readFileSync(COMPARES, "utf8");
   const cmps = [...cmpSrc.matchAll(/\n  \{\n    slug: "([a-z0-9-]+)",[\s\S]*?\n  \},/g)].filter((m) => m[0].includes(`"${slug}"`)).map((m) => m[0]);
@@ -83,6 +84,8 @@ if (cmd === "prep") {
     },
     checks: checks?.items?.filter((i: any) => i.level !== "info") ?? [],
     editorNotes: ed && { notes: ed.notes, ownerNote: ed.ownerNote },
+    // Buyer questions for the FAQ (people also ask plus question keywords); null means the PAA harvest has not run for this model.
+    questions: paa ? { pulled: paa.pulled, items: (paa.questions ?? []).map((q: any) => ({ q: q.q, sources: q.sources, volume: q.volume ?? null, scope: q.scope, use: q.use, faq: q.faq ?? null, answeredFrom: q.answeredFrom ?? null })) } : null,
     siteFieldsNow: productBlock(src).text,
     comparesNow: cmps,
   };
@@ -112,7 +115,13 @@ if (cmd === "check") {
     if (!(ed.realCost ?? []).length) add("error", "editorial.realCost needs 1 to 4 items (what the buyer also needs to buy)");
     for (const k of ["strengths", "weaknesses", "checks"]) if ((ed[k] ?? []).length !== 3) add("error", `editorial.${k} needs exactly 3 entries (has ${(ed[k] ?? []).length})`);
     const nf = (ed.faqs ?? []).length;
-    if (nf < 6 || nf > 12) add("error", `editorial.faqs needs 6 to 12 entries (has ${nf})`);
+    if (nf < 6 || nf > 9) add("error", `editorial.faqs needs 6 to 9 entries (has ${nf})`);
+    if (!inputs?.questions) add("warn", "no paa.json for this model: the FAQ is not grounded in people-also-ask or question keywords (run the PAA harvest in SKILL.md step E)");
+    else {
+      const have = new Set((ed.faqs ?? []).map((f: any) => String(f.q).trim().toLowerCase()));
+      for (const q of inputs.questions.items.filter((x: any) => x.use)) if (!have.has(String(q.faq ?? "").trim().toLowerCase())) add("error", `PAA question marked use has no matching FAQ: "${q.q}" (expected faq "${q.faq}")`);
+      for (const f of ed.faqs ?? []) if (!inputs.questions.items.some((x: any) => x.use && String(x.faq ?? "").trim().toLowerCase() === String(f.q).trim().toLowerCase())) add("warn", `FAQ not traced to a PAA question or keyword: "${f.q}"`);
+    }
     for (const f of ed.faqs ?? []) if (!f.q || !f.a) add("error", "a faq is missing q or a");
     if (String(ed.verdict ?? "").length > 220) add("warn", "verdict is long; one sentence");
   }

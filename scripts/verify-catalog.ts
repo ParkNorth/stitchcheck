@@ -15,10 +15,12 @@ import path from "node:path";
 import { brands, brandSlugFor, seriesHubs } from "../src/lib/brands";
 import ogManifest from "../src/lib/og-manifest.json";
 import { comparisons } from "../src/lib/comparisons";
+import { glanceFor } from "../src/lib/glance";
 import { guides } from "../src/lib/guides";
 import { hubs, allHubEntries } from "../src/lib/hubs";
 import { bandForPrice } from "../src/lib/price-bands";
 import { MACHINE_TYPES, SPEC_KEYS, products, getProduct } from "../src/lib/products";
+import { getRollup } from "../src/lib/rollups";
 import { nav } from "../src/lib/site";
 
 const ROOT = path.resolve(__dirname, "..");
@@ -227,6 +229,22 @@ if (seriesHubs().length === 0) warn("series-hub", "brands", "no series hubs regi
     if (!og[w]) warn("og-card", w, "no Open Graph card in og-manifest.json; run npm run build:og");
     else if (!fs.existsSync(path.join(ROOT, "public", og[w]))) fail("og-card", w, `manifest points at ${og[w]} but the file is missing`);
   }
+}
+
+// At a glance overview (WEB-142): the lead is built from catalog data; the owner paragraph is editor.json `summary` on an approved rollup.
+// A missing summary is a warning until every approved rollup has one; then promote it to an error.
+for (const p of products) {
+  const subject = `glance:${p.slug}`;
+  const r = getRollup(p.slug);
+  checkCopy("glance", subject, glanceFor(p, r).lead);
+  if (!r) continue;
+  if (!r.summary) {
+    warn("glance", subject, "approved rollup has no summary yet (editor.json summary, then reviews:rollup build)");
+    continue;
+  }
+  checkCopy("glance", subject, r.summary);
+  const key = p.model.split(/\s+/)[0].toLowerCase();
+  if (!r.summary.slice(0, 240).toLowerCase().includes(key)) warn("glance", subject, `summary does not name "${key}" near the start; the passage should stand alone`);
 }
 
 // ------------------------------------------------------------------ routes

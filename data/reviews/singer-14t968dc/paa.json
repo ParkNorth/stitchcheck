@@ -1,0 +1,226 @@
+{
+  "slug": "singer-14t968dc",
+  "pulled": "2026-10-02",
+  "sources": {
+    "dataforseo": {
+      "endpoint": "/v3/serp/google/organic/live/advanced",
+      "keyword": [
+        "singer 14t968dc",
+        "singer 14t968dc review"
+      ],
+      "location": "US",
+      "language": "en",
+      "people_also_ask_click_depth": 2,
+      "note": "The bare-model SERP showed no People Also Ask block. The review SERP showed People Also Ask, all generic serger or Singer questions. The SearchAPI MCP google_search drops related_questions, so DataForSEO is the PAA source."
+    },
+    "ahrefs": {
+      "tool": "keywords-explorer-matching-terms",
+      "country": "us",
+      "keywords": [
+        "singer 14t968dc",
+        "singer 14t968",
+        "singer professional 5 14t968dc"
+      ],
+      "terms": [
+        "questions",
+        "all (phrase)"
+      ],
+      "note": "Question volumes under 50 a month are Ahrefs long tail; zero means too small to estimate, not zero demand."
+    },
+    "briefing": "data/specs/singer-14t968dc.json buyerQuestions"
+  },
+  "questions": [
+    {
+      "q": "singer 14t968dc reviews",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 30,
+      "volumeKeyword": "singer 14t968dc reviews",
+      "scope": "this",
+      "use": true,
+      "faq": "What do owners say about the Singer 14T968DC?",
+      "answeredFrom": "rollup.json themes and summary"
+    },
+    {
+      "q": "how to thread a singer 14t968dc",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "volumeKeyword": "how to thread a singer 14t968dc",
+      "scope": "this",
+      "use": true,
+      "faq": "How hard is the Singer 14T968DC to thread?",
+      "answeredFrom": "rollup.json Threading and loopers theme; data/specs threadingSystem"
+    },
+    {
+      "q": "what kind of needles does the singer serger 14t968dc take",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "this",
+      "use": true,
+      "faq": "What needles does the Singer 14T968DC use?",
+      "answeredFrom": "data/specs needleSystem; manufacturer.json Needle system (manual p9)"
+    },
+    {
+      "q": "How long does it take to convert the 14T968DC from serger to coverstitch?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How long does it take to switch the Singer 14T968DC between serger and coverstitch?",
+      "answeredFrom": "manufacturer.json Cover stitch and conversion; rollup.json Threading and loopers theme"
+    },
+    {
+      "q": "Can the 14T968DC do a 5-thread safety stitch?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Singer 14T968DC do a 5-thread overlock?",
+      "answeredFrom": "manufacturer.json Threads; data/specs stitchTypes"
+    },
+    {
+      "q": "Does the 14T968DC have a free arm?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Does the Singer 14T968DC have a free arm or a thread trimmer?",
+      "answeredFrom": "manufacturer.json Free arm and Thread trimmer; rollup.json siblings (14CG754)"
+    },
+    {
+      "q": "Why does the 14T968DC skip stitches in coverstitch mode?",
+      "sources": [
+        "ahrefs",
+        "briefing"
+      ],
+      "volume": 0,
+      "volumeKeyword": "singer 14t968dc professional 5 coverstitch serger skipping",
+      "scope": "this",
+      "use": true,
+      "faq": "Why does the Singer 14T968DC skip stitches?",
+      "answeredFrom": "rollup.json Reliability and defects and Stitch quality themes; manufacturer.json Needle system"
+    },
+    {
+      "q": "How heavy is the 14T968DC?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "How much does the Singer 14T968DC weigh?",
+      "answeredFrom": "manufacturer.json Weight; data/specs conflicts"
+    },
+    {
+      "q": "Is the self-adjusting tension really automatic?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": true,
+      "faq": "Is the tension on the Singer 14T968DC really automatic?",
+      "answeredFrom": "manufacturer.json Auto tension (manual wording); rollup.json Tension theme"
+    },
+    {
+      "q": "Is a serger and coverstitch combo worth it?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "A category judgment, not answerable from this model's evidence; the verdict and Who it is for cover it."
+    },
+    {
+      "q": "What is the 14T968DC warranty?",
+      "sources": [
+        "briefing"
+      ],
+      "scope": "this",
+      "use": false,
+      "reason": "Answered by the Seller and warranty check card; kept out of the nine to stay inside the cap."
+    },
+    {
+      "q": "singer 14t968dc manual",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 10,
+      "volumeKeyword": "singer 14t968dc manual",
+      "scope": "this",
+      "use": false,
+      "reason": "Navigational; the manual is linked from the review."
+    },
+    {
+      "q": "diffetence between the singer 14t968dc professional 5 serger and the singer 14t948ds",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "sibling",
+      "use": false,
+      "reason": "The 14T948DS is not a model we cover, so we have no evidence to answer from."
+    },
+    {
+      "q": "brother 3234dt vs singer 14t968dc",
+      "sources": [
+        "ahrefs"
+      ],
+      "volume": 0,
+      "scope": "sibling",
+      "use": false,
+      "reason": "No Brother 3234DT briefing here; belongs on a head-to-head."
+    },
+    {
+      "q": "What is the best home serger machine for my money?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "Which serger is better, brother or Singer?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Brand comparison; belongs on a guide."
+    },
+    {
+      "q": "Is Singer tiny serger worth it?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "About a different Singer model."
+    },
+    {
+      "q": "Which Singer sewing machine is the best quality?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    },
+    {
+      "q": "What is the average lifespan of a sewing machine?",
+      "sources": [
+        "paa"
+      ],
+      "scope": "generic",
+      "use": false,
+      "reason": "Not about this model; belongs on a guide."
+    }
+  ]
+}

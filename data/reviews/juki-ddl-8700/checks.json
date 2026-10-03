@@ -1,9 +1,9 @@
 {
   "slug": "juki-ddl-8700",
-  "generated": "2026-10-01T14:38:34.961Z",
+  "generated": "2026-10-03T02:43:01.601Z",
   "counts": {
     "error": 0,
-    "warn": 1
+    "warn": 2
   },
   "items": [
     {
@@ -25,6 +25,11 @@
       "level": "info",
       "id": "reddit",
       "message": "60 Reddit threads, 60 with the model in the title"
+    },
+    {
+      "level": "warn",
+      "id": "summary",
+      "message": "approved rollup has no summary (editor.json summary, then reviews:rollup build)"
     },
     {
       "level": "info",

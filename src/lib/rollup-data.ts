@@ -9,7 +9,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
     "reviewedOn": "2026-10-01",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 30,
       "itemsCollected": 251,
@@ -46,6 +46,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Baby Lock Imagine mostly describe a machine that is easy to thread and runs without fuss, with some reporting years of use without trouble. The complaints cluster around a few spots: tension on stretchy or mismatched fabrics, where one owner says manual tensioning is still the real annoyance, a lower looper thread that keeps breaking for one owner, and an air threader that did not work on one used unit. Owners also say it needs only an occasional service. This read covers 27 Reddit threads, 2 forum pages and 1 write-up from 2016 to 2026, and some posts concern the older BLE1AT or the Imagine Wave rather than the BLE1AT-2. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "threading",
@@ -671,7 +672,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
     "reviewedOn": "2026-10-01",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 28,
       "itemsCollected": 512,
@@ -704,6 +705,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Baby Lock Vibrant mostly say it is easy to thread for a serger, and some find it quiet, with one calling it much quieter than a previous serger, though two call it noisy or shaky. The complaints are specific: one owner needed a lot of adjustment to get tension right, one new owner could not re-engage the cutting blade lever, the light is dim, and a handful of posts report an upper looper rubbing the needles or a rolled hem that would not form on slippery fabric. This read covers 27 Reddit threads and 1 retailer page from 2019 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "threading",
@@ -1462,6 +1464,7 @@ export const rollupData: Record<string, Rollup> = {
       "No marketplace listing: Baby Lock is dealer-only (AGENTS rule 15). Retailer ratings, where shown, come from dealer sites that list the machine online, not from a Baby Lock channel."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owner and buyer signals on the Baby Lock Victory lean positive on what Baby Lock markets: threading takes seconds for one owner, the automatic tension gets praise, one owner finds it much quieter than a Brother 1034DX, and another serged layers of denim without breaking needles. The practical worries are a few reports of needles snapping on terry or cotton flannel, a needle threading mechanism one owner finds fiddly, and ballpoint serger needles that were hard to find. This read covers 13 Reddit threads and 1 retailer page from 2020 to 2026, and only 10 of the 24 voices are owners, so it is thinner than for most models. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "feet_accessories",
@@ -2213,7 +2216,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
     "reviewedOn": "2026-10-01",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 54,
       "itemsCollected": 544,
@@ -2246,6 +2249,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Bernina 1008 mostly praise it as a sturdy mechanical machine: a student and a home ec teacher describe class machines that keep working, and one owner sewed six layers of denim without trouble. The complaints are about specific jobs and units. Feet and accessories draw the most complaints (one owner says presser foot pressure cannot be adjusted on this old model, another found several supplied feet misaligned), stretch knits and zigzag come next (skipped stitches, thread cutting on lycra), and one eBay buyer found the feed dogs jammed. Oiling advice ranges from after every bobbin to never. This read covers 53 Reddit threads and 1 retailer page from 2011 to 2026, and one owner outside the US was told the discontinued model gets no local support. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "feet_accessories",
@@ -3010,6 +3014,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Bernina 570 QE mostly praise how it sews: one reports reliably great buttonholes across at least 100 made, another says the dual feed works well, and a third moved up from two Pfaffs that skipped stitches and reports no issues. The repeated complaints are practical. Feet and accessories come up often, including a BSR that arrived without a ruler foot, owners describe oiling as a routine that keeps start-up noise down, and a few report defects such as a bobbin sensor that came off or a top thread error every inch and a half. This read covers 53 Reddit threads, 2 forum pages and 1 retailer page from 2015 to 2026, and owner posts rarely say whether the machine is the 2017 and later model or the earlier one. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "feet_accessories",
@@ -3956,6 +3961,7 @@ export const rollupData: Record<string, Rollup> = {
       "Bernina is dealer only in this catalog: no marketplace listing was found for the machine itself (Amazon search returns only machine covers and other brands), so no marketplace rating is shown."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owner and buyer signals on the Bernina L 850 are few but mostly positive. Owners say it runs quietly and steadily, one noting it is quieter than an older Baby Lock and hums along without bouncing, and they like the built-in needle threader and the pedal control for needle up and down. One expert-level owner reports being very happy with the air-threaded serger after nine months. The cautions are small: one owner suspects the thread tubes behind a wooly nylon problem, and one owner's looper had to be replaced, which helped. This read covers 2 Reddit threads and 8 forum pages from 2020 to 2023, with 5 owner voices, so treat it as a thin sample. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "threading",
@@ -4407,7 +4413,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude (editor pass: exemplars, contradictions, sibling extras checked against Brother pages and sources). Human review still recommended.",
     "reviewedOn": "2026-10-01",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 127,
       "itemsCollected": 1851,
@@ -4438,6 +4444,7 @@ export const rollupData: Record<string, Rollup> = {
       },
       "blocked": 0,
       "evidence": "strong",
+      "pooledExcluded": 0,
       "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
     },
     "notes": [
@@ -4447,6 +4454,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, and Walmart's low-star reviews were sampled on purpose, so problems are over-represented. The better gauge of overall satisfaction is the retailers' own ratings under 'How we collected this': 4.6 of 5 across 1,723 Walmart ratings (78% five-star) and 4.45 of 5 across 55 at Sewing Machines Plus.",
+    "summary": "Owners of the Brother 1034D are split on how easy it is to live with, and reliability is the largest theme. It leans negative, with owners describing timing that failed, knives that broke or stopped moving and machines that went to the shop, while others report no trouble. Threading divides them almost evenly: some call it easy and others find it nearly impossible. Many owners find it loud compared with a sewing machine and some call the body cheap plastic, while the differential feed gets praise for keeping knits from going wavy. This read covers 111 Reddit threads, 2 retailer pages, 10 blog or editorial write-ups and 4 forum pages from 2008 to 2026, with 227 owner voices. Reddit threads lean toward people asking for help and Walmart's low-star reviews were sampled on purpose, so problems are over-represented here.",
     "themes": [
       {
         "theme": "reliability_defects",
@@ -5955,7 +5963,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude (editor pass: exemplars, pooled-listing exclusion, sibling extras checked against Brother pages and sources). Human review still recommended.",
     "reviewedOn": "2026-10-01",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 88,
       "itemsCollected": 991,
@@ -5996,6 +6004,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, and there are far fewer owner reports for the DX than for the 1034D. Walmart's DX listing pools reviews that name the 1034D, so its star rating is shown under 'How we collected this' with that caveat and its generic reviews are not counted here.",
+    "summary": "Owners of the Brother 1034DX are split on how easy it is to live with. Reliability reports are the largest theme and lean negative, with owners describing a machine that stopped serging or a repair quote not worth paying, while others report no problems at all. Threading divides them: some call it very easy and others rethread many times and still get tangles. Tension trouble such as loose, wobbly edges on a new machine comes up often, and a few owners find it loud and clattery even after oiling. This read covers 84 Reddit threads, 1 retailer page, 2 editorial pieces and 1 forum page from 2014 to 2026, with 75 owner voices. Walmart's listing pools reviews that name the 1034D, so its generic reviews are left out. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "reliability_defects",
@@ -6995,6 +7004,7 @@ export const rollupData: Record<string, Rollup> = {
       "Amazon's 4.3 from 1,204 ratings is shared by several listings of this machine (pooled variations), and only 13 written reviews were readable, so treat the average as a rating of the pooled listing rather than of one seller."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Brother 2340CV coverstitch machine describe a machine that rewards patience. Once it is set up, they praise even, stretchy cover stitch hems, and many find it easier to thread than a serger. The repeated complaints are fussiness: tight tension that needs adjusting per fabric, work that is awkward to pull out from under the foot, and reliability reports ranging from a returned unit to a chain stitch that would not form. Some owners report no problems at all. This read covers 22 Reddit threads and 2 retailer pages from 2011 to 2026, with 38 owner voices. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "reliability_defects",
@@ -7781,6 +7791,7 @@ export const rollupData: Record<string, Rollup> = {
       "Amazon's 4.6 from 3,642 ratings is shared by several listings of this machine (pooled variations, ASIN B08BH5GTNC); only 13 written reviews were retrieved, so the rating reflects the pooled variation set and not this exact configuration alone."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Brother CS7000X mostly describe a quiet, easy first machine with limits on thick fabric. Several report it running quietly with easy pedal control, consistent even stitches and a good run of feet in the box, including an overcasting foot used for a faux serged edge. Heavy fabric splits them: one owner reports thick repairs and kimono mending without trouble, while a reviewer calls it not heavy duty for industrial level materials. The cautions in help threads are a needle hitting the hook, a replacement unit that squeaks and threading catches. This read covers 60 Reddit threads and 2 retailer pages from 2021 to 2026, with 36 owner voices. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "reliability_defects",
@@ -8720,6 +8731,7 @@ export const rollupData: Record<string, Rollup> = {
       "Amazon's 4.5 from 2,889 ratings is shared by several listings (B01E54NNSC plus 6 other ASINs including the ST531HD listing B076JLT9PG), so it pools machines and is not specific to the ST371HD."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Brother ST371HD mostly describe a simple dial machine that copes with light heavy fabric work. Several report tote bags, jeans and multiple thick layers going through without trouble, and many beginners report no issues, with owners saying it needs little oiling and is easy to thread. The repeated complaints are the heavy duty label, which some owners think is overstated after a broken needle on thick layered fabric, stretch stitches that would not sew, a finicky one-step buttonhole and a fussy response to needle choice. This read covers 56 Reddit threads and 1 retailer page from 2017 to 2026, with 38 owner voices. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "power_heavy_fabric",
@@ -9788,6 +9800,7 @@ export const rollupData: Record<string, Rollup> = {
       "Sewing Machines Plus shows 4.55 from 29 reviews on its Moxie page. Only 1 review names the Moxie in its text, but the page is the Moxie product page and the sampled reviews describe a Moxie setup, so treat the rating as Moxie-page feedback, not a verified Moxie-only count."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Handi Quilter Moxie who are happy with it point to the built-in stitch regulator, and some report tension they like once the machine is set up. The complaints cluster around the frame and the feel in the hands: owners describe a frame that sags or is hard to move smoothly, a clunky sound, and numb hands after hours of hand-guided quilting. Some also note the machine has no automatic threading or thread cutting, and one found the supplied ruler foot is not a true ruler foot. This read covers 20 Reddit threads and 2 retailer pages from 2021 to 2026, a small sample. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "build_quality",
@@ -10516,6 +10529,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Handi Quilter Sweet Sixteen who are happy with it point to the sit-down format: several say moving the fabric by hand does not bother them, and one loves the InSight table with its built-in stitch regulator. The recurring complaints are practical. Heavier quilts are hard to support on the table, tension can take a while to settle, and owners disagree on whether the machine is fussy about thread. One shop worker reports timing knocked out by very heavy seams, one owner finished on a domestic machine to get a presser foot and feed dogs, and a buyer says a promised accessory package was not in the box. This read covers 13 Reddit threads and 1 retailer page from 2012 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "throat_workspace",
@@ -11373,6 +11387,7 @@ export const rollupData: Record<string, Rollup> = {
       "Janome's 25 year warranty is void if the machine was not bought from an authorized US Janome dealer; one Amazon listing states a shorter 5 year mechanical warranty instead."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Janome 8002D mostly describe a light, easy entry serger that does the job at its price, and some like the rolled edge and the way it trims as it sews. Threading is the topic that comes up most: many find it manageable, helped by the pre-threaded start, while the lower looper steps are the part owners find hard to follow. Other themes are a rattling front cover against a quiet run for others, no dust cover in the box, lint collecting in the tension discs, and long service for some owners against skipped stitches after nearly ten years of frequent use for one. This read covers 15 Reddit threads and 4 retailer pages from 2013 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "threading",
@@ -12217,7 +12232,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
     "reviewedOn": "2026-10-01",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 55,
       "itemsCollected": 866,
@@ -12250,6 +12265,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Janome HD1000 praise how solid and heavy it feels and say oiling and cleaning are easy, and some sew denim and layered cotton duck with it. The repeated complaints are about reliability and heavy-fabric power: owners report jams and failures, some within the first year, and a machine that groans or stops on heavy seams, Cordura or webbing. Others describe threading trouble and knots on the underside, tension that needs adjusting, speed that is hard to keep slow, a black body that reflects the lamp poorly, and plastic inside. This read covers 53 Reddit threads and 2 retailer pages from 2010 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "reliability_defects",
@@ -13410,6 +13426,7 @@ export const rollupData: Record<string, Rollup> = {
       "Sewing Machines Plus lists 44 reviews at 4.68, but only 2 of the 44 name this model, so that listing's reviews look pooled across several machines and are not treated as HD3000 evidence."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Janome HD3000 are split on heavy fabric: some say it feels solid and comes with plenty of feet, while others say it would not sew denim or heavy leather. Reliability splits the same way, with owners reporting steady use alongside jamming and bobbin problems. The other recurring complaints are tension trouble, a weak machine light and noise, and owners disagree on whether a walking foot comes with it. This read covers 60 Reddit threads and 3 retailer pages from 2012 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "power_heavy_fabric",
@@ -14764,6 +14781,7 @@ export const rollupData: Record<string, Rollup> = {
       "Amazon's 4.1 from 80 ratings is the white HD5000 listing (B084M81BC6) and 4.1 from 141 ratings is the separate Black Edition listing (B09MDLYYPC); no pooled variations were flagged on either, and neither returned review text."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Janome HD5000 are split on how heavy a job it takes. Some report no trouble with canvas, denim and thin vinyl, while others find it weak on heavy leather and thick stabilizer. The repeated frustrations are small and practical: thread slipping out of the thread guide, fiddly bobbin winding, and a manual with no table naming the stitches. Defect reports, such as a lid that would not close or a bobbin that keeps jamming, are the most discussed theme, though a few owners say they have used theirs for years with no complaints. This read covers 58 Reddit threads and 2 retailer pages from 2020 to 2026. Reddit threads about this machine are mostly people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "reliability_defects",
@@ -15804,7 +15822,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
     "reviewedOn": "2026-10-01",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 36,
       "itemsCollected": 438,
@@ -15838,6 +15856,7 @@ export const rollupData: Record<string, Rollup> = {
       "Amazon's 4.1 from 31 ratings is shared by six listings under one parent (HD9 white and black editions, V2, V3 and the HD8), so it is not specific to one variant."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Janome HD9 Professional mostly talk about what it will push through. Several report about ten layers of raw denim and regular garment and backpack work without struggling, while one owner of a second-hand unit used for car seat upholstery had to stop at Tex 90 thread and wanted something thicker. The reported problems are a bobbin that locks up and a needle that sits off center on a new machine, and one owner calls the space under the needle the main drawback. A daily sewer reports no tension problems. This read covers 35 Reddit threads and 1 retailer page from 2018 to 2026. Reddit threads about this machine are mostly people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "power_heavy_fabric",
@@ -16382,7 +16401,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
     "reviewedOn": "2026-10-01",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 30,
       "itemsCollected": 781,
@@ -16415,6 +16434,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Janome Memory Craft 6650 mostly praise the wide throat for quilting. It is the most repeated theme and almost entirely positive, including a three-year owner who made quilts up to king size. Praise also covers the stitch quality, the automatic thread cutter and the machine's weight for quilting stability. The repeated complaints are a needle threader that does not always work, a cutter that sometimes does not cut, and no walking foot in the box. Reported defects include a broken foot pedal and a spool spindle that snapped in shipping. This read covers 28 Reddit threads and 2 retailer pages from 2019 to 2026. Reddit threads about this machine are mostly people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "throat_workspace",
@@ -17408,6 +17428,7 @@ export const rollupData: Record<string, Rollup> = {
       "The Juki page covers DDL-5550N, NA, NH and the -7 trimmer versions together. Reddit threads often say DDL-5550-6 or DDL-5550N-7, which the maker documents fetched here do not separate from the family; read those threads as the same head family, not the exact model."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Juki DDL-5550 describe a fast straight-stitch workhorse with limits they hit on thick material. Those who moved up from a domestic machine praise the clean, balanced straight stitch, and one first industrial machine owner says it sews beautifully. The limits are thick stacks and grippy material: owners report it failing on six or more layers of duck or three or more layers of nylon webbing, and one says it will not stitch rubber sheet or leather. Problems that recur are oil leaks and spray, a very loud clutch motor, and machines arriving with broken parts, and one new owner finds the missing automatic trimmer the hardest adjustment. This read covers 53 Reddit threads, 5 forum pages, 1 retailer page and 1 editorial write-up from 2013 to 2026. Reddit threads about this machine are mostly people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "reliability_defects",
@@ -18485,7 +18506,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
     "reviewedOn": "2026-10-01",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 62,
       "itemsCollected": 620,
@@ -18518,6 +18539,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Juki DDL-8700 split on how much it will take. Several praise the build and the smooth, quiet running, but the heavy end is contested: one owner has run 15 oz denim and would not do so repeatedly, and another could not sew split or deer leather. Thread is the recurring headache, with owners reporting top-thread knots left on the underside and top thread showing underneath on heavy bonded nylon even with the tension nearly fully tightened. Reported faults include a motor that turned backward at first, a needle that did not stop in the up position, and a hook assembly with slight play. This read covers 60 Reddit threads and 2 retailer pages from 2010 to 2026. Reddit threads about this machine are mostly people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "reliability_defects",
@@ -19385,7 +19407,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
     "reviewedOn": "2026-10-02",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 60,
       "itemsCollected": 887,
@@ -19419,6 +19441,7 @@ export const rollupData: Record<string, Rollup> = {
       "Amazon's 3.7 from 31 ratings is a third-party bundle listing and may pool variants, so it is shown with that caveat."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Juki DNU-1541S mostly praise how it handles heavy material: leather, canvas and thick layers go through with little fuss, and the build feels solid. The repeated complaints are about setup and running rather than the stitch. Noise and vibration, tension trouble tied to thread choice, a touchy pedal or servo at low speed, and oiling routines come up often, and owners who sew light garment fabric say it is the wrong tool for that. Reliability reports lean positive, with a minority describing stuck bobbins or a worn part. This read covers 58 Reddit threads and 2 retailer pages, from 2016 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "reliability_defects",
@@ -20386,6 +20409,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Juki HZL-F300 mostly praise how quietly and smoothly it runs, the thread trimmer, the threading, the way it feeds knits and thick layers, and how light it is to carry. The repeated complaints are the thin accessory set, with owners buying the walking foot, quilt foot and table separately, and a run of reliability reports such as broken parts and tension trouble. A few owners report glitches on very heavy fabric. This read covers 46 Reddit threads and 2 retailer pages, from 2010 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "feet_accessories",
@@ -21657,6 +21681,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Juki HZL-F600 mostly praise how quietly and smoothly it runs, the way it feeds knits and heavier fabric, the threading, the workspace and the lights, and they like the accessories that come with it. The repeated complaints are about trouble and upkeep. Reliability reports such as timing, bobbin case and tension problems come up often, and oiling and maintenance draw more criticism than praise. The thread trimmer gets mostly good reviews with occasional misses. This read covers 57 Reddit threads and 2 retailer pages, from 2010 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "reliability_defects",
@@ -23096,6 +23121,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Juki MO-1000 mostly praise the air threading, which they describe as quick and easy for the loopers, and a quiet machine that stays steady on the table. The repeated complaints are narrower. The needle threader is the weak point, a few owners report defects or parts that arrived broken, and tension and rolled hem results draw some criticism. This read is thinner than for most models: 13 Reddit threads and 2 retailer pages, from 2013 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "threading",
@@ -23908,6 +23934,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Juki MO-644D give it mixed but mostly kind reviews. The most repeated theme is threading, where some owners find it manageable and others report thread breakage or chaining trouble. Build quality gets praise, while oiling and maintenance, tension and some units that lock up or fail draw the complaints. This read is thin: 24 Reddit threads and 2 retailer pages, from 2010 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "threading",
@@ -24788,7 +24815,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
     "reviewedOn": "2026-10-01",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 35,
       "itemsCollected": 356,
@@ -24821,6 +24848,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Juki MO-654DE mostly describe a sturdy serger that copes with thick layers, with fleece, canvas and denim mentioned. Threading is the topic that splits them: color-coded guides and videos help many owners, while others call manual threading a chore that comes with any serger without air threading. Noise is mixed, with some owners calling it quiet and one calling it the single drawback. The repeated complaints are practical: tension that would not settle after a long idle period or a thread change, and a lower looper that kept snapping on one machine. This read covers 33 Reddit threads and 2 retailer pages, from 2014 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "threading",
@@ -25368,7 +25396,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
     "reviewedOn": "2026-10-01",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 33,
       "itemsCollected": 464,
@@ -25401,6 +25429,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Juki TL-18QVP praise its speed and its power through thick layers such as vinyl bag panels, and several find the throat plentiful, though one who quilts large quilts says rolling them is hard on the hands. Four owners call it very heavy. The float function (micro lifter) draws mixed views: some use it over very thick seams, and one found it of little use for bag making. The repeated complaints are practical: the supplied walking foot throwing off black dust or shavings, thread trimmer limits (one owner says the cutter handles only Tex 30 to 40 thread, and one unit's sensor cut at random), and an automatic needle threader that never worked for one owner. This read covers 32 Reddit threads and 1 retailer page, from 2021 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "feet_accessories",
@@ -26351,7 +26380,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
     "reviewedOn": "2026-10-01",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 49,
       "itemsCollected": 749,
@@ -26384,6 +26413,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Juki TL-2000Qi mostly praise the same things: it sews fast and answers the pedal quickly, it powers through heavy fabric, many call it quiet for a fast machine, and a roomy throat has let owners quilt king size quilts on it. The repeated complaints are practical. The automatic needle threader is the most common gripe and some owners skip it, the free motion foot is not in the box and owners buy one separately, and the pedal thread trimmer catches some owners out by cutting thread by accident. Tension needs attention for some owners, and a few report skipped stitches or a part that failed. This read covers 47 Reddit threads and 2 retailer pages, from 2011 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "speed",
@@ -27623,7 +27653,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude (editor pass: exemplar quotes, contradictions, sibling rows and rival tallies read against sources). Human review still recommended.",
     "reviewedOn": "2026-09-30",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 99,
       "itemsCollected": 2148,
@@ -27658,6 +27688,7 @@ export const rollupData: Record<string, Rollup> = {
       },
       "blocked": 2,
       "evidence": "strong",
+      "pooledExcluded": 0,
       "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
     },
     "notes": [
@@ -27666,7 +27697,8 @@ export const rollupData: Record<string, Rollup> = {
       "Retailer reviews are seller-collected and skew positive; Reddit and forum posts are self-selected. Two Facebook group posts could not be read, and Amazon, eBay and YouTube comments are not yet collected.",
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
-    "ownerNote": null,
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Juki TL-2010Q mostly praise the same things: it is fast, it feels solid, it handles heavy fabric and thick quilt layers well, and the throat is roomy enough for home quilting. The repeated complaints are practical. The automatic needle threader is the most common gripe, the supplied walking foot is noisy and gets mixed reviews, the built-in light is weak, and oiling is a daily habit on a machine in daily use. The pedal thread trimmer splits opinion: some owners love it and others report it firing mid seam. This read covers 69 Reddit threads, 13 forum pages, 6 retailer pages and 10 blog or editorial write-ups, from 2011 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "feet_accessories",
@@ -29791,6 +29823,7 @@ export const rollupData: Record<string, Rollup> = {
       "Amazon's 4.5 from 2063 ratings is shared by several listings (parent ASIN B076BJ48G8, child ASINs B003H3J50S and B0085YBNM2), so it is not specific to one colour or listing; no review text could be sampled."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Singer ProFinish 14CG754 describe a basic serger that rewards patience. Several say tension and threading took trial and error, after which it runs smoothly, and one handled several layers of denim as well as very light organza. Color-coded threading helps, though one owner finds a looper very hard to reach. The repeated complaints are a stitch width knob that sticks, with occasional binding, noise and table shake under pedal pressure, and trouble finding replacement blades. The owner pool is small. This read covers 16 Reddit threads and 2 retailer pages, from 2010 to 2025. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "reliability_defects",
@@ -30340,6 +30373,7 @@ export const rollupData: Record<string, Rollup> = {
       "Amazon's 4.5 from 63 ratings on B00EF1ICNC is shared by several listings (the same figure appears on unrelated Singer Heavy Duty 0420 and 0460 listings), so it is a pooled rating, not this model's own. B00IXPWNNG (4.4 from 12) names the 14HD854 in its title and is not pooled."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owner and buyer signals on the Singer Heavy Duty 14HD854 are thin and lean negative. The most repeated concerns are unit defects, such as a drive belt that arrived unconnected and a pedal that stopped responding on a secondhand machine, a build that two people called cheap or sloppy, and trouble finding ballpoint or stretch needles in the Singer 2022 type. Others say the machine moves across the table in use, that a thread inside the looper path unhooks easily, and that gathering with differential feed gave little effect on voile. One owner lists the free arm as a plus. This read covers 14 Reddit threads and 3 retailer pages, from 2017 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "feet_accessories",
@@ -30913,6 +30947,7 @@ export const rollupData: Record<string, Rollup> = {
       "Amazon's 4.2 from 1,501 ratings is shared by several listings (pooled variations), so it is not a rating for this model alone."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Singer Professional 5 14T968DC are split. Some report clean overlock and cover stitches once it is set up, and some call it sturdy, while others call it mostly plastic. The repeated complaints are about setup and upkeep: threading the loopers is the most common struggle, switching between serger and coverstitch is described as painful, skipped or bunched stitches come up often, and the automatic tension still needs adjusting for some owners. This read covers 32 Reddit threads and 2 retailer pages, from 2010 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "threading",
@@ -31857,6 +31892,7 @@ export const rollupData: Record<string, Rollup> = {
       "Sewing Machines Plus shows 4.65 from 79 reviews, but only 2 of the 79 name the 4411 in their text; the Judge.me feed on that page may pool several Singer models, so the rating is not a 4411-only figure."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Singer Heavy Duty 4411 are split on thick fabric. Some report it sews several layers and canvas with real power, while others say it struggled with jeans, thick thread or heavy layers and needed a bigger needle. The most repeated complaints are defects and failed parts, tension fuss with thicker thread, and build problems such as a presser foot hook that broke off. This read covers 60 Reddit threads and 2 retailer pages, from 2011 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "reliability_defects",
@@ -32977,6 +33013,7 @@ export const rollupData: Record<string, Rollup> = {
       "Amazon's 4.5 from about 21,200 ratings is shared by two listings of the 4423 (the Meltwater Blue listing and one other ASIN under the same parent), so it is not specific to one colour."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Singer Heavy Duty 4423 are divided. Some report it sews heavy fabric well for the price, while many describe a machine that is hard to keep running. The repeated complaints are defects and timing trouble, tension that clumps or loops thread, a pedal with almost no speed control that runs very fast, stitches that look off at slow speed, and a needle threader that works for some owners and then stops. This read covers 60 Reddit threads and 2 retailer pages, from 2010 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "reliability_defects",
@@ -34170,7 +34207,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
     "reviewedOn": "2026-10-01",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 62,
       "itemsCollected": 586,
@@ -34204,6 +34241,7 @@ export const rollupData: Record<string, Rollup> = {
       "Amazon's 4.4 from about 11,960 ratings is shared by the grey, black and Sterling listings of the 4432, so it is not specific to one colour."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Singer Heavy Duty 4432 report a lot of early trouble and a split verdict on thick fabric. The most repeated complaints are defects on new machines, such as a bobbin winder that does not turn, disappointing stitch results, thread that is hard to seat in the tension discs, and a machine that runs too fast to control on thick material. Others rate the build well and say it handles heavy fabric. This read covers 60 Reddit threads and 2 retailer pages, from 2015 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "reliability_defects",
@@ -35159,7 +35197,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude editor pass, sibling row corrected after human sign-off by Jeremy",
     "reviewedOn": "2026-10-01",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 58,
       "itemsCollected": 554,
@@ -35192,6 +35230,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Singer Heavy Duty 4452 are split on how it holds up. Some report it sews heavy fabric, while others say it could not handle interfaced straps on bags, and many describe defects, such as a needle that would not move left after it was reinstalled. The repeated complaints are a needle threader that never worked, thread birdnesting and tension trouble, and clicking noise at high tension. This read covers 56 Reddit threads and 2 retailer pages, from 2018 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "reliability_defects",
@@ -36265,7 +36304,7 @@ export const rollupData: Record<string, Rollup> = {
     "status": "approved",
     "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy",
     "reviewedOn": "2026-10-01",
-    "generated": "2026-10-01",
+    "generated": "2026-10-02",
     "method": {
       "sources": 21,
       "itemsCollected": 247,
@@ -36298,6 +36337,7 @@ export const rollupData: Record<string, Rollup> = {
       "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Singer Heavy Duty 6600C report more problems than praise in what we read. Build quality is the largest theme: several owners say it is not the all-metal machine the name suggests, though one reports a metal frame with only the cover in plastic. Defects come up often, including an error message on day one, a needle that sticks down and a machine that starts and stops in bursts, and one owner reports loud shaking and seizing at thick denim seams. Others find it quiet, easy to thread and stronger on thick fabric than their old machines. Heavy Duty is Singer's series name, not a duty rating. This read covers 20 Reddit threads and 1 retailer page from 2021 to 2026, with 17 owner voices. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "build_quality",
@@ -36921,6 +36961,7 @@ export const rollupData: Record<string, Rollup> = {
       "The only Singer manual is a joint HD 6700C and HD 6705C manual. Rows sourced from it are shared-manual evidence and are not confirmed for the 6700C alone."
     ],
     "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners of the Singer Heavy Duty 6700C mostly talk about threading and tension. Several say the needle threader does not work or the top thread keeps slipping out of place, while another lists automatic threading as a plus. Tension is the most one-sided theme: owners describe a top tension dial that seems to do nothing and uneven stitches. Smaller notes include a feed foot that sits too low, a presser foot lever on the right, plastic parts and low noise, and one owner hemmed work pants and stitched a canvas tote without trouble. Heavy Duty is Singer's series name, not a duty rating. This read is thin: 17 voices from 16 Reddit threads and 1 retailer page, from 2022 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
     "themes": [
       {
         "theme": "threading",
