@@ -521,7 +521,7 @@ const siteFields: Record<string, SiteFields> = {
     series: "PQ",
     score: 8.4,
     scoredFor: "quilting",
-    reason: "Brother's straight-stitch quilter, cross-shopped against the Juki TL.",
+    reason: "Fast, quiet straight stitcher with a big throat; add a walking foot and expect to learn its tension.",
     context: "Straight-stitch quilter · in Quilting hub",
     alternatives: [
       { slug: "juki-tl-2010q", label: "Cross-shop", note: "The TL it is priced against." },
@@ -530,6 +530,8 @@ const siteFields: Record<string, SiteFields> = {
     ],
     imageAlt: "Brother PQ1600S straight-stitch quilting machine",
     lastUpdated: "2026-10-02",
+    verdict: "Straight stitch only at 1,500 spm with a pin feed and wide table. Owners praise speed and quiet and report no walking foot in the box.",
+    specsVerified: "2026-10-02",
   },
   // ------------------------------------------------------------------ Singer
   "singer-4423": {
@@ -639,14 +641,16 @@ const siteFields: Record<string, SiteFields> = {
     series: "CoverPro",
     score: 8.2,
     scoredFor: "serger",
-    reason: "More room right of the needle than the Brother.",
+    reason: "Roomy bed and free arm on paper; owners split on skipped stitches.",
     context: "Coverstitch · in Sergers hub (coverstitch section)",
     alternatives: [
-      { slug: "brother-2340cv", label: "Smaller bed", note: "A smaller bed than the CoverPro." },
+      { slug: "brother-2340cv", label: "Smaller bed", note: "A lower-priced dedicated coverstitch; Brother publishes no bed size for it." },
       { slug: "singer-14t968dc", label: "Combo", note: "Serger and coverstitch in one." },
     ],
     imageAlt: "Janome CoverPro 2000CPX coverstitch machine",
     lastUpdated: "2026-10-02",
+    verdict: "A dedicated coverstitch with a published 4 x 5.5 in bed, a free arm and a tension release lever, but owners are split on skipped stitches, so budget time for setup.",
+    specsVerified: "2026-10-02",
   },
   // ------------------------------------------------------------ Long-arm tier
   "handi-quilter-moxie": {
@@ -669,14 +673,16 @@ const siteFields: Record<string, SiteFields> = {
     series: "Qnique",
     score: 8.0,
     scoredFor: "quilting",
-    reason: "The frame maker's own 15 in head, usually sold as a bundle.",
+    reason: "The frame maker's legacy 15 in head: regulated, 1,800 spm, now found through dealers and recertified listings.",
     context: "Long-arm on a frame · in Quilting hub",
     alternatives: [
       { slug: "handi-quilter-moxie", label: "Cross-shop", note: "The other 15 in entry long-arm." },
       { slug: "juki-tl-18qvp", label: "Sit-down", note: "8.5 in TL arm per dealers, no frame." },
     ],
     imageAlt: "Grace Q'nique 15R long-arm quilting machine",
-    lastUpdated: "2026-09-29",
+    lastUpdated: "2026-10-02",
+    verdict: "Legacy 15 in head. Grace no longer sells it new, and owners report tension work and a short reach.",
+    specsVerified: "2026-10-02",
   },
   // ----------------------------------------------------------- Dealer-only
   "babylock-vibrant": {
@@ -910,15 +916,17 @@ const siteFields: Record<string, SiteFields> = {
     score: 7.5,
     scoredFor: "serger",
     priceBand: 1,
-    reason: "The 1034D in mass-retail clothing; buy whichever is cheaper today.",
+    reason: "The 1034D's retail twin: same 3/4 thread core, 4.8 from 45 eBay ratings, buy on price.",
     context: "Overlocker · the 1034D's mass-retail sibling",
     alternatives: [
-      { slug: "brother-1034d", label: "Sibling", note: "Same platform, our value pick." },
-      { slug: "brother-1034dx", label: "Sibling", note: "The bundle variant." },
+      { slug: "brother-1034d", label: "Sibling", note: "Same core on Brother's pages and far more owner reviews; Brother USA listed it above the 1634D on 2026-10-01." },
+      { slug: "brother-1034dx", label: "Sibling", note: "Brother lists an LED light where the 1634D page lists a bulb." },
       { slug: "juki-mo-654de", label: "1,500 spm, 5-year warranty", note: "Per Juki's spec: 1,500 spm and a 5-year mechanical warranty." },
     ],
     imageAlt: "Brother 1634D serger",
     lastUpdated: "2026-10-02",
+    verdict: "Brother's 3/4 thread, 1,300 spm serger sold as the 1034D's retail twin, rated 4.8 by eBay buyers but with a thin owner record and thread-path complaints in help posts.",
+    specsVerified: "2026-10-02",
   },
   "brother-cs7000x": {
     score: 7.1,
@@ -969,7 +977,7 @@ const siteFields: Record<string, SiteFields> = {
   "handi-quilter-amara": {
     score: 8.6,
     scoredFor: "quilting",
-    reason: "The first true long-arm throat in the Handi Quilter line.",
+    reason: "Long-arm class at 20 in; about 14 in usable per the maker, 15 to 18 in per one owner.",
     context: "20 in stand-up long-arm · in Quilting hub",
     alternatives: [
       { slug: "grace-qnique-19x", label: "19 in head", note: "Grace's 19 in quilting arm width, per Grace." },
@@ -978,6 +986,8 @@ const siteFields: Record<string, SiteFields> = {
     ],
     imageAlt: "Handi Quilter Amara 20 long-arm quilting machine on a frame",
     lastUpdated: "2026-10-02",
+    verdict: "A 20 in head on a frame: Handi Quilter lists built in regulation and 2,500 spm, but owners report finicky tension, uneven dealer support and under 20 in of usable space.",
+    specsVerified: "2026-10-02",
   },
   "handi-quilter-sweet-sixteen": {
     score: 7.8,
@@ -997,7 +1007,7 @@ const siteFields: Record<string, SiteFields> = {
   "grace-qnique-19x": {
     score: 8.3,
     scoredFor: "quilting",
-    reason: "The most throat per dollar in the entry frame class.",
+    reason: "19 in of throat and built in regulation, but Grace no longer lists it new.",
     context: "19 in long-arm head · in Quilting hub",
     alternatives: [
       { slug: "handi-quilter-moxie", label: "Dealer depth", note: "15 in with Handi Quilter service." },
@@ -1006,6 +1016,8 @@ const siteFields: Record<string, SiteFields> = {
     ],
     imageAlt: "Grace Q'nique 19X long-arm quilting machine",
     lastUpdated: "2026-10-02",
+    verdict: "The 19X gives 19 in of throat, 2,000 spm and built in regulation, but Grace no longer lists it new and owner evidence for this exact model is thin.",
+    specsVerified: "2026-10-02",
   },
   "babylock-imagine": {
     score: 7.7,

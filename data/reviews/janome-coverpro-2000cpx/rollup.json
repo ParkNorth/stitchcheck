@@ -1,8 +1,8 @@
 {
   "slug": "janome-coverpro-2000cpx",
-  "status": "draft",
-  "reviewedBy": null,
-  "reviewedOn": null,
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy (instructed 2026-10-02, via Claude; human review after live)",
+  "reviewedOn": "2026-10-02",
   "generated": "2026-10-02",
   "method": {
     "sources": 27,

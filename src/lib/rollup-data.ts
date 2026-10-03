@@ -6965,6 +6965,1087 @@ export const rollupData: Record<string, Rollup> = {
       }
     ]
   },
+  "brother-1634d": {
+    "slug": "brother-1634d",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy (instructed 2026-10-02, via Claude; human review after live)",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 26,
+      "itemsCollected": 142,
+      "statements": 73,
+      "voices": 35,
+      "ownerVoices": 30,
+      "dateRange": [
+        2016,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 11,
+          "items": 92
+        },
+        "editorial": {
+          "sources": 7,
+          "items": 7
+        },
+        "forum": {
+          "sources": 7,
+          "items": 7
+        },
+        "retailer": {
+          "sources": 1,
+          "items": 35
+        }
+      },
+      "blocked": 1,
+      "evidence": "strong",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "One retailer rating exists for the 1634D: the eBay catalog page for the model shows 4.8 from 45 ratings, with 35 written reviews (a sampled set, since 45 buyers rated it), mostly from 2016 to 2019. It is catalog-level across eBay sellers and conditions (new, pre-owned, refurbished), so many of those buyers had refurbished units, and the ratings are older than the Reddit threads. Amazon shows no 1634D listing, the Walmart listing found in a 2019 forum thread no longer resolves, and Brother's own review widget has no reviews.",
+      "The evidence base is small: nine Reddit threads that name the 1634D, two PatternReview owner reviews (full text gated), a few forum threads, blog write-ups and 35 eBay buyer reviews. Most items are still Reddit, and many of those voices are people asking for help with a secondhand or inherited machine, so problems are over-represented.",
+      "The 1634D shares its platform with the 1034D, and forum owners treat the two as near identical. Most owner praise online is for the 1034D, not the 1634D, and is not counted here unless the writer names the 1634D.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The one retailer rating is the eBay catalog page for the model, 4.8 from 45 ratings with 35 written reviews, mostly from 2016 to 2019 and covering new and refurbished units, so it is an older and friendlier record than the Reddit threads.",
+    "summary": "Owners of the Brother 1634D describe a simple entry-level serger that is easy to thread for most, though a struggle for some. Praise goes to the lay-in threading, a metal interior, a quiet motor and even stitches once the tension dials sit near the middle, set against plastic accessories and a plastic feel. The repeated complaints are practical: looper and needle threads that break or drop out of the chain, tension that takes patience to dial in, a messy trim trap, and mechanical faults on secondhand or inherited machines, such as a front cover that will not close, a jammed handwheel and a knife that will not engage. One owner could not find a replacement bulb that fits, and review blogs disagree with Brother's own page on whether the light is a bulb or an LED. Forum owners treat it as a near copy of the 1034D, so much of the praise online is really for the 1034D. This read covers 11 Reddit threads, 7 forum pages and 7 blog or editorial write-ups from 2018 to 2026, plus 35 buyer reviews on the eBay catalog page for the model, mostly from 2016 to 2019 and many on refurbished units, which rates it 4.8 from 45 ratings. Reddit threads lean toward people asking for help, so problems are over-represented here.",
+    "themes": [
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 14,
+        "voices": 14,
+        "ownerVoices": 12,
+        "sources": 7,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 4,
+          "editorial": 1,
+          "forum": 1,
+          "retailer": 8
+        },
+        "polarity": {
+          "positive": 10,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2016,
+          2024
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ca96c95fd",
+            "polarity": "negative",
+            "claim": "An owner who sews denim on the 1634D calls it the worst serger to rethread.",
+            "quote": "the serger is the worst to reThread",
+            "url": "https://www.reddit.com/r/sewing/comments/zzc0ik/brothers_serger_1634d_mesh_fabric_problems/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c8cfb2647",
+            "polarity": "negative",
+            "claim": "The owner fixed the breaking by changing how the lower looper was threaded, even though the original path followed the manual.",
+            "quote": "even though that’s how the manual says to thread it",
+            "url": "https://www.reddit.com/r/sewing/comments/8eux57/brother_1634d_serger_lower_looper_thread_keeps/dxyds7v/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c9877943d",
+            "polarity": "positive",
+            "claim": "Says a refurbished unit was not too difficult to thread.",
+            "quote": "not too difficult to thread",
+            "url": "https://www.ebay.com/p/9032778488",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c8f8f1456",
+            "polarity": "positive",
+            "claim": "A PatternReview owner calls it extremely simple to thread and set up.",
+            "quote": "extremely simple to thread and set up",
+            "url": "https://sewing.patternreview.com/review/machine/6163",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 10,
+        "voices": 8,
+        "ownerVoices": 4,
+        "sources": 7,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 3,
+          "editorial": 3,
+          "forum": 1,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 5,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2017,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ca166372a",
+            "polarity": "negative",
+            "claim": "The same owner calls the machine plasticy.",
+            "quote": "Plasticy",
+            "url": "https://sewing.patternreview.com/review/machine/6163",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "c9352a70e",
+            "polarity": "negative",
+            "claim": "Says several parts that are metal on the buyer's other machines are plastic here, including the scrap catcher and thread stand.",
+            "quote": "The Plastic Parts are very cheap.",
+            "url": "https://www.ebay.com/p/9032778488",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cd075c97c",
+            "polarity": "mixed",
+            "claim": "The owner says the plastic scrap bucket and bed extension feel cheap but the internals are all metal.",
+            "quote": "the guts are all solid metal",
+            "url": "https://www.reddit.com/r/sewing/comments/1b0mq1t/tell_me_about_your_serger/ks911hw/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 9,
+        "voices": 8,
+        "ownerVoices": 8,
+        "sources": 6,
+        "sourceClasses": [
+          "forum",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 6,
+          "forum": 1,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 7,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2018,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c95b5d769",
+            "polarity": "negative",
+            "claim": "An inherited 1634D has a handwheel that will not turn.",
+            "quote": "the wheel won’t turn",
+            "url": "https://www.reddit.com/r/CosplayHelp/comments/1f6nw1b/overlock_machine_help/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c689828bd",
+            "polarity": "negative",
+            "claim": "An owner says one thread stopped joining the chain after the machine worked perfectly at first, despite rethreading and new needles.",
+            "quote": "one thread won’t join the chain",
+            "url": "https://www.reddit.com/r/sewing/comments/i3xpzl/please_help_i_just_got_a_brother_1634d_serger_and/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c25e60770",
+            "polarity": "positive",
+            "claim": "Owner of several Brother products had not needed service on this one and fixed the few minor issues themselves.",
+            "quote": "I have not had the need for service yet.",
+            "url": "https://www.ebay.com/p/9032778488",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 6,
+        "voices": 6,
+        "ownerVoices": 5,
+        "sources": 5,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 4,
+          "editorial": 1,
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2018,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cac115ca0",
+            "polarity": "negative",
+            "claim": "After rethreading, the upper looper thread started breaking and the owner considered servicing.",
+            "quote": "now the upper looper thread is breaking",
+            "url": "https://www.reddit.com/r/sewing/comments/8eux57/brother_1634d_serger_lower_looper_thread_keeps/dxyay6s/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c033e26ff",
+            "polarity": "negative",
+            "claim": "The owner says the left needle thread keeps breaking unless tension is exactly right.",
+            "quote": "the left needle thread constantly breaks",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/105563",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "c2ab9051a",
+            "polarity": "positive",
+            "claim": "Thread nets on the cones helped a commenter with tension and thread snapping.",
+            "quote": "Made a big difference for my tension and thread snapping issues",
+            "url": "https://www.reddit.com/r/sewing/comments/10bt630/i_just_got_a_used_brother_1634d_serger_any_tips/j4byom5/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c41323929",
+            "polarity": "mixed",
+            "claim": "Tension takes time to dial in, but once set the commenter calls it a good machine.",
+            "quote": "It takes some time, but once you've got it dialed it's a good machine",
+            "url": "https://www.reddit.com/r/sewing/comments/1vr3oa5/newused_brother_1634d_serger_front_cover_wont/p4ak3sx/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 6,
+        "voices": 5,
+        "ownerVoices": 1,
+        "sources": 5,
+        "sourceClasses": [
+          "editorial",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "editorial": 4
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "years": [
+          2020,
+          2020
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ccec1007c",
+            "polarity": "negative",
+            "claim": "An owner could not find a standard replacement bulb that fits the 1634D.",
+            "quote": "all the standard sized lightbulbs do not fit my machine",
+            "url": "https://www.reddit.com/r/sewing/comments/j2719i/light_bulb_for_brother_1634d/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 5,
+        "voices": 4,
+        "ownerVoices": 2,
+        "sources": 3,
+        "sourceClasses": [
+          "editorial",
+          "retailer"
+        ],
+        "classVoices": {
+          "editorial": 2,
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2017,
+          2019
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c5c930ece",
+            "polarity": "positive",
+            "claim": "Describes the serger as quiet.",
+            "quote": "This serger is quiet",
+            "url": "https://www.ebay.com/p/9032778488",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 3
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2016,
+          2020
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cc81c4bb9",
+            "polarity": "positive",
+            "claim": "Bought it to sew emergency face masks for donation and says it worked well.",
+            "quote": "it works great!",
+            "url": "https://www.ebay.com/p/9032778488",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "cutting_trimming",
+        "label": "Cutting and trimming",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2017,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ca5e9e569",
+            "polarity": "negative",
+            "claim": "Notes the machine throws a lot of trimmings, enough that a mini vacuum became useful.",
+            "quote": "It's also very messy!",
+            "url": "https://www.ebay.com/p/9032778488",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c63a9a5e0",
+            "polarity": "negative",
+            "claim": "After long storage the knife stayed disengaged even with the engage switch set.",
+            "quote": "the knife is disengaged even when the switch is turned to engage",
+            "url": "https://www.reddit.com/r/sewhelp/comments/1qz5j2s/brother_1634d_serger_knife_disengaged/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "editorial",
+          "retailer"
+        ],
+        "classVoices": {
+          "editorial": 1,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2017,
+          2017
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ca129c0a8",
+            "polarity": "positive",
+            "claim": "Says the serger sews fast, finishing about 20 quilt squares in roughly half the usual time.",
+            "quote": "It sews so fast!",
+            "url": "https://www.ebay.com/p/9032778488",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 0,
+        "sources": 2,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": null,
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 0,
+        "sources": 2,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2022,
+          2022
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cb23a7a6b",
+            "polarity": "negative",
+            "claim": "On power mesh the machine either cut without sewing or secured only three threads.",
+            "quote": "either cutting and not sewing or only threee of the threads are securing",
+            "url": "https://www.reddit.com/r/sewing/comments/zzc0ik/brothers_serger_1634d_mesh_fabric_problems/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "rolled_hem",
+        "label": "Rolled hem",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "differential_feed",
+        "label": "Differential feed",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "thread_trimmer",
+        "label": "Thread trimmer",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "ebay.com",
+        "url": "https://www.ebay.com/p/9032778488",
+        "pageRating": 4.8,
+        "pageCount": 45,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 4,
+          "5": 40
+        },
+        "lowRated": 1,
+        "sampled": "35 written reviews of 45 product ratings (page states 35 reviews); all pages of ebay.com/urw/product-reviews/9032778488 fetched"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "juki": "1,300 stitches per minute on Brother's page and in the family handbook.",
+        "others": "Dealers and review blogs agree.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          },
+          {
+            "label": "Brother handbook",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "brother-page; brother-handbook spec page"
+      },
+      {
+        "label": "Work light",
+        "juki": "A bulb, per Brother's page. The 1034DX has an LED.",
+        "others": "No dealer figure collected.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          }
+        ],
+        "field": "lighting",
+        "source": "brother-page Basic Features"
+      },
+      {
+        "label": "Thread modes",
+        "juki": "3 or 4 thread with two needles. The page says no 2/3/4 thread change, so there is no 2-thread stitch.",
+        "others": "Retail copy says 3 or 4 thread.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          },
+          {
+            "label": "Brother handbook",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ],
+        "field": "threads",
+        "source": "brother-page Features and Serger table; brother-handbook spec page"
+      },
+      {
+        "label": "Stitch width",
+        "juki": "5.0 to 7.0 mm on the 1634D page. The family handbook lists 2.3 to 7 mm for two-needle models.",
+        "others": "A review blog says 5 to 7 mm.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          },
+          {
+            "label": "Brother handbook",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ],
+        "field": "stitchWidthMm",
+        "source": "brother-page Serger table; brother-handbook spec page"
+      },
+      {
+        "label": "Presser foot lift",
+        "juki": "5 to 6 mm per the family handbook. Brother's page lists adjustable presser foot pressure.",
+        "others": "No dealer figure collected.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother handbook",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          },
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          }
+        ],
+        "field": "presserFootLift",
+        "source": "brother-handbook spec page; brother-page Basic Features"
+      },
+      {
+        "label": "Needles",
+        "juki": "SCHMETZ 130/705H, with a set of two size 80 and two size 90 per the family handbook.",
+        "others": "A parts dealer lists the same system.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother handbook",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ],
+        "field": "needleSystem",
+        "source": "brother-handbook spec page"
+      },
+      {
+        "label": "Feet in the box",
+        "juki": "Standard, blindstitch and gathering feet, plus a soft cover. Brother says 3 included accessory feet.",
+        "others": "Dealers list the same three feet.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          }
+        ],
+        "field": "includedFeet",
+        "source": "brother-page"
+      },
+      {
+        "label": "Weight",
+        "juki": "Brother's 1634D page gives none. The family handbook says 7.0 kg net (15.4 lb).",
+        "others": "A review blog says 17.3 lb, possibly shipping weight.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother handbook",
+            "url": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
+          }
+        ],
+        "field": "weightLb",
+        "source": "brother-handbook spec page"
+      },
+      {
+        "label": "Color-coded threading",
+        "juki": "Brother's page says color-coded lay-in guides.",
+        "others": "A PatternReview owner says the 1634D lacks the 1034D's color coding.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          },
+          {
+            "label": "PatternReview review",
+            "url": "https://sewing.patternreview.com/review/machine/6163"
+          }
+        ],
+        "field": "threadingSystem",
+        "source": "brother-page"
+      },
+      {
+        "label": "Warranty",
+        "juki": "1 year parts, labor and accessories; 5 years electronic components; 25 years chassis casting (US PDF). The page's own link goes to an international PDF that says 1 year.",
+        "others": "A review blog says 25-year limited.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          },
+          {
+            "label": "Brother US serger warranty",
+            "url": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf"
+          },
+          {
+            "label": "Brother international warranty",
+            "url": "https://assets.brother.com/asset/3e5bcfe0-2c88-4b35-8ec9-26698a105a4c/6020_International-Warranty-LAD-Final-serger-1-pdf.pdf"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "brother-page; brother-warranty; brother-intl-warranty"
+      },
+      {
+        "label": "Price",
+        "juki": "$299.99 at Brother USA on 2026-10-02. The 1034D was $319.99 there on 2026-10-01.",
+        "others": "A 2019 forum post puts it at $154 at Walmart, stale.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/1634d"
+          }
+        ],
+        "field": "msrp",
+        "source": "brother-page"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "1034D",
+        "label": "Brother 1034D",
+        "rows": [
+          {
+            "feature": "Stitch fingers",
+            "urls": 2,
+            "classes": [
+              "forum"
+            ],
+            "summary": "A PatternReview poster and a reviewer's commenter say the 1634D has two stitch fingers where the 1034D has one. Brother's own 1634D page lists one stitch finger.",
+            "check": "disputed: forum reports say two, Brother's page says 1",
+            "examples": [
+              {
+                "claim_id": "cee81ccb1",
+                "claim": "A PatternReview poster says the 1634D supposedly has two stitch fingers where the 1034D family differs in minor ways.",
+                "quote": "the 1634D supposedly has two stitch fingers",
+                "url": "https://sewing.patternreview.com/SewingDiscussions/topic/116994"
+              },
+              {
+                "claim_id": "cd6ff9428",
+                "claim": "The same commenter says the 1634D has two stitch fingers instead of one.",
+                "quote": "does have two stitch fingers instead of one",
+                "url": "https://sewing.patternreview.com/review/machine/6163"
+              }
+            ]
+          },
+          {
+            "feature": "Color-coded threading",
+            "urls": 2,
+            "classes": [
+              "editorial",
+              "forum"
+            ],
+            "summary": "A PatternReview commenter says the 1634D lacks the 1034D's color coded threading. A comparison blog says both have color-coded guides and the 1634D's colors are more noticeable. Brother's 1634D page says color-coded lay-in threading.",
+            "check": "disputed between sources; Brother's page says color-coded",
+            "examples": [
+              {
+                "claim_id": "ce0768c29",
+                "claim": "A 1034D owner says her research found the 1634D lacks the color coded threading.",
+                "quote": "the 1634D does not have the color coded threading",
+                "url": "https://sewing.patternreview.com/review/machine/6163"
+              },
+              {
+                "claim_id": "c3f67970b",
+                "claim": "The page says both have color-coded guides but the 1634D colors are more noticeable.",
+                "quote": "the 1634d's colors are more noticeable",
+                "url": "https://ilovequiltingforever.com/brother-serger-1034d-vs-1634d"
+              }
+            ]
+          },
+          {
+            "feature": "Price",
+            "urls": 0,
+            "classes": [],
+            "summary": "Brother USA lists the 1634D at $299.99 and the 1034D at $319.99 (seen 2026-10-02 and 2026-10-01).",
+            "check": "Brother product pages",
+            "examples": []
+          },
+          {
+            "feature": "Work light",
+            "urls": 0,
+            "classes": [],
+            "summary": "Both Brother pages list a bulb. Two blogs say the 1634D has an LED; Brother's page does not.",
+            "check": "Brother product pages; blogs disagree",
+            "examples": []
+          },
+          {
+            "feature": "Feet",
+            "urls": 0,
+            "classes": [],
+            "summary": "The same three feet on both: standard, blindstitch and gathering.",
+            "check": "Brother product pages",
+            "examples": []
+          },
+          {
+            "feature": "Weight",
+            "urls": 0,
+            "classes": [],
+            "summary": "Brother's 1034D page gives 13.45 lb. Brother's 1634D page gives no weight; a review blog says 17.3 lb.",
+            "check": "Brother product pages; 1634D figure is a blog number",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "1034DX",
+        "label": "Brother 1034DX",
+        "rows": [
+          {
+            "feature": "Work light",
+            "urls": 0,
+            "classes": [],
+            "summary": "The 1034DX has an LED; the 1634D page lists a bulb.",
+            "check": "Brother product pages",
+            "examples": []
+          },
+          {
+            "feature": "Price",
+            "urls": 0,
+            "classes": [],
+            "summary": "Brother USA lists the 1034DX at $289.99 (2026-10-01), against $299.99 for the 1634D (2026-10-02).",
+            "check": "Brother product pages",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "1634DX",
+        "label": "Brother 1634DX",
+        "rows": [
+          {
+            "feature": "Work light",
+            "urls": 0,
+            "classes": [],
+            "summary": "Brother lists the 1634DX with an LED and the 1634D with a bulb.",
+            "check": "Brother product pages, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Price",
+            "urls": 0,
+            "classes": [],
+            "summary": "Brother USA showed the 1634DX at $199.99 (was $259.00) and the 1634D at $299.99 on 2026-10-02.",
+            "check": "Brother product pages",
+            "examples": []
+          },
+          {
+            "feature": "Feet",
+            "urls": 0,
+            "classes": [],
+            "summary": "The same three feet and the same 1,300 spm, 5.0 to 7.0 mm seam width and one stitch finger on both Brother pages.",
+            "check": "Brother product pages",
+            "examples": []
+          },
+          {
+            "feature": "Relationship",
+            "urls": 0,
+            "classes": [],
+            "summary": "Forum and Reddit posters say the 1634DX is the 1034DX sold under a retail model number; one says Brother confirmed it by email. Treat as owner reports.",
+            "check": "owner reports, not a maker statement",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": [
+      {
+        "model": "Brother 1034D",
+        "claims": 10,
+        "sources": 6,
+        "favors": {
+          "this": 0,
+          "other": 1,
+          "mixed": 9
+        },
+        "dimensions": {
+          "this": [],
+          "other": [
+            {
+              "dimension": "build quality",
+              "n": 1
+            }
+          ]
+        },
+        "examples": [
+          {
+            "claim_id": "cd45b0162",
+            "dimension": "build quality",
+            "favors": "other",
+            "claim": "A 1034D owner speculates, and says she may be wrong, that the Walmart 1634D skimped on build.",
+            "quote": "wonder if Brother skimped on quality (or heftiness) a little to sell through Walmart",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/110523"
+          }
+        ]
+      }
+    ]
+  },
   "brother-2340cv": {
     "slug": "brother-2340cv",
     "status": "approved",
@@ -8692,6 +9773,1125 @@ export const rollupData: Record<string, Rollup> = {
     ],
     "rivals": []
   },
+  "brother-pq1600s": {
+    "slug": "brother-pq1600s",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy (instructed 2026-10-02, via Claude; human review after live)",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 20,
+      "itemsCollected": 183,
+      "statements": 64,
+      "voices": 37,
+      "ownerVoices": 26,
+      "dateRange": [
+        2023,
+        2026
+      ],
+      "byClass": {
+        "retailer": {
+          "sources": 3,
+          "items": 32
+        },
+        "reddit": {
+          "sources": 10,
+          "items": 144
+        },
+        "editorial": {
+          "sources": 3,
+          "items": 3
+        },
+        "forum": {
+          "sources": 3,
+          "items": 3
+        },
+        "youtube": {
+          "sources": 1,
+          "items": 0
+        }
+      },
+      "blocked": 5,
+      "evidence": "strong",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above. Most of the Walmart reviews we read say they were collected as part of a promotion, so they are the least independent voices on this page.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented. The model is new (2024), so owner discussion is thin: much of the older forum talk is about its predecessor, the PQ1500S and PQ1500SL, and those statements are kept out of the PQ1600S counts.",
+      "Amazon's top 8 reviews of 49 ratings were read, Walmart's 22 of 33 reviews, and two Facebook group posts, a Macy's page and a JustAnswer page could not be read.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. The Reddit threads are mostly people asking whether to buy this machine, so worries are over-represented there, while most of the first-hand praise comes from retailer reviews, which are seller-collected and about a third of them say they were promotional. The retailers' own ratings under 'How we collected this' show satisfaction but skew high.",
+    "summary": "Owners of the Brother PQ1600S mostly praise the same things: it is fast, owners call it quiet for its speed, and the big throat and wide table give a large quilt room to move. The thread cutter gets good marks, and several say it takes thick layers and heavy fabric without fuss. The repeated complaints are practical. No walking foot comes in the box, so buyers source a high shank one themselves, the side loading bobbin and threading are fiddly for some, and tension takes patience, with two reviewers reporting trouble free motion quilting flannel on it. Bag making threads add a caution that a domestic motor limits heavy leather and webbing, though those voices are weighing the machine, not using it. This read covers 10 Reddit threads, 3 retailer listings, 3 forum pages and 3 blog or editorial write-ups, from 2023 to 2026 for this model; the older forum pages are about its predecessor. Most first-hand voices are retailer reviews, and about a third of the Walmart ones are promotional. Reddit threads lean toward people asking for help, so problems are over-represented here.",
+    "themes": [
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 6,
+        "voices": 6,
+        "ownerVoices": 6,
+        "sources": 2,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 6
+        },
+        "polarity": {
+          "positive": 5,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c3e335a15",
+            "polarity": "positive",
+            "claim": "One week owner finds the machine quiet, sturdy and a good stitcher.",
+            "quote": "is quiet, sturdy, stitches nicely",
+            "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c5de127d0",
+            "polarity": "positive",
+            "claim": "Walmart owner calls it solid and powerful but quiet.",
+            "quote": "it's so solid and powerful (but quiet!)",
+            "url": "https://www.walmart.com/reviews/product/5196827300",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c07229c3c",
+            "polarity": "mixed",
+            "claim": "Promotional reviewer says it is not very loud though audible.",
+            "quote": "You can hear it but it's not real loud.",
+            "url": "https://www.walmart.com/reviews/product/5196827300",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "power_heavy_fabric",
+        "label": "Power on heavy fabric",
+        "statements": 6,
+        "voices": 6,
+        "ownerVoices": 2,
+        "sources": 4,
+        "sourceClasses": [
+          "editorial",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 3,
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cf6efc108",
+            "polarity": "positive",
+            "claim": "Walmart buyer calls it one strong machine for quilting and bag making.",
+            "quote": "this is one strong machine",
+            "url": "https://www.walmart.com/reviews/product/5196827300",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c66dbf7e3",
+            "polarity": "positive",
+            "claim": "Owner says it handles the thickest quilts and heavy home dec fabric easily.",
+            "quote": "it flies through even the thickest quilts and heavy home dec fabrics with ease",
+            "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 4,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 4,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cbd9fe9eb",
+            "polarity": "positive",
+            "claim": "Owner on their fourth Brother calls the PQ1600S very fast.",
+            "quote": "I do sew a lot. And it’s very fast",
+            "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c64ae6ff3",
+            "polarity": "positive",
+            "claim": "Owner calls the machine really fast.",
+            "quote": "The machine is really fast, which has been wonderful.",
+            "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c32d84664",
+            "polarity": "mixed",
+            "claim": "Promotional reviewer wishes the speed could be dialed down; there is no speed slider.",
+            "quote": "I do wish I could dial down the speed a bit",
+            "url": "https://www.walmart.com/reviews/product/5196827300",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "walking_foot",
+        "label": "Walking foot",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 3,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cc5e81642",
+            "polarity": "negative",
+            "claim": "Buyer is disappointed that no walking foot comes with it at this price.",
+            "quote": "I didn’t get a walking foot",
+            "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "ce9c36ea3",
+            "polarity": "negative",
+            "claim": "Owner could not find a Brother branded high shank walking foot and uses a generic one.",
+            "quote": "searching to no avail for a branded Brother High-shank walking foot",
+            "url": "https://www.reddit.com/r/quilting/comments/1jkjvcn/hi_shank_brotherbrand_evenfeedwalking_foot/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 3,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cdcdc27ed",
+            "polarity": "negative",
+            "claim": "Owner finds the bobbin location a little awkward.",
+            "quote": "the location of the bobbin is a little awkward",
+            "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cd0088917",
+            "polarity": "positive",
+            "claim": "Promotional reviewer found threading simple.",
+            "quote": "The process of getting it threaded was simple",
+            "url": "https://www.walmart.com/reviews/product/5196827300",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c10080b0c",
+            "polarity": "mixed",
+            "claim": "Bobbin and threading are fiddly at first but the owner got used to them.",
+            "quote": "Yes the bobbin and threading mechanisms are fiddly, but you get used to it.",
+            "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 3,
+        "sources": 4,
+        "sourceClasses": [
+          "editorial",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "editorial": 2,
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cbf628480",
+            "polarity": "positive",
+            "claim": "Owner calls the throat huge.",
+            "quote": "The throat is huge.",
+            "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cc7022aa5",
+            "polarity": "positive",
+            "claim": "Walmart buyer calls the throat space huge for a large quilt.",
+            "quote": "The throat space is huge.",
+            "url": "https://www.walmart.com/reviews/product/5196827300",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "thread_trimmer",
+        "label": "Thread trimmer",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 3,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ca57fecb2",
+            "polarity": "negative",
+            "claim": "The cutter left thread pulled out of the needle until tension was sorted.",
+            "quote": "the thread kept coming out of the needle after using it",
+            "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c353d0708",
+            "polarity": "positive",
+            "claim": "Walmart buyer notes the button that cuts thread.",
+            "quote": "Has a button to cut your thread.",
+            "url": "https://www.walmart.com/reviews/product/5196827300",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cc968cf2c",
+            "polarity": "positive",
+            "claim": "Owner after a year calls the automatic thread cutter amazing.",
+            "quote": "The automatic thread cutter is amazing!",
+            "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 4,
+        "sourceClasses": [
+          "editorial",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 2,
+          "reddit": 1,
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c75075fcf",
+            "polarity": "positive",
+            "claim": "Promotional reviewer says it handles a variety of thick materials.",
+            "quote": "can handle a variety of thick materials",
+            "url": "https://www.walmart.com/reviews/product/5196827300",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cfc4b6944",
+            "polarity": "positive",
+            "claim": "Owner reports no trouble with many quilt layers, vinyl, pleather and cork.",
+            "quote": "No problem with many layers in quilting and vinyl",
+            "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "ce93d160e",
+            "polarity": "mixed",
+            "claim": "Owner says the pin feed does what it advertises but is not a game changer.",
+            "quote": "I can’t say that the pin feed is exactly a game changer",
+            "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 2,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c9bb2b973",
+            "polarity": "negative",
+            "claim": "Promotional reviewer says no cover came in the box; Brother lists a dust cover and semi hard cover.",
+            "quote": "It does not have that cap/cover to store it.",
+            "url": "https://www.walmart.com/reviews/product/5196827300",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c76301588",
+            "polarity": "negative",
+            "claim": "The knee lift is wobbly and sits too far away for comfort, so the poster printed a stabilizer.",
+            "quote": "it was pretty wobbly and too far for a comfortable operation",
+            "url": "https://www.reddit.com/r/functionalprint/comments/1qygtn2/brother_pq1600s_sewing_machine_knee_lift/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cd3cf10d1",
+            "polarity": "positive",
+            "claim": "Owner says every included foot has a groove for the pin feed.",
+            "quote": "all included feet have a groove for the pin feed",
+            "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/nqaz5qb/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 1,
+        "sources": 3,
+        "sourceClasses": [
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 2,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c5f849794",
+            "polarity": "positive",
+            "claim": "Walmart buyer calls the unit heavy and well made.",
+            "quote": "The unit itself is heavy and well made.",
+            "url": "https://www.walmart.com/reviews/product/5196827300",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 4,
+        "voices": 3,
+        "ownerVoices": 2,
+        "sources": 3,
+        "sourceClasses": [
+          "editorial",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2,
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c922800fe",
+            "polarity": "negative",
+            "claim": "Blogger lists tension and stitch length drift over time as a repeated Brother issue.",
+            "quote": "Tension and stitch-length drift over time",
+            "url": "https://bobbinhub.com/brother-pq1600s-vs-juki-tl2010q",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "caaa119a8",
+            "polarity": "negative",
+            "claim": "Owner needed some fiddling to get tension right.",
+            "quote": "It took me some futzing to get the tension just right.",
+            "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cc75f20ba",
+            "polarity": "positive",
+            "claim": "Owner expects the machine to last a very long time.",
+            "quote": "This thing is going to outlast me.",
+            "url": "https://www.reddit.com/r/quilting/comments/1ozgs3s/brother_pq1600s_pin_feed/o03rb7e/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c7203150c",
+            "polarity": "positive",
+            "claim": "Commenter bought the PQ1600S and says they are very happy with it.",
+            "quote": "I bought the brother pq 1600s and am very happy with it.",
+            "url": "https://www.reddit.com/r/quilting/comments/1saj55n/graduating_to_a_new_better_machine_help/odxeym0/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "editorial",
+          "retailer"
+        ],
+        "classVoices": {
+          "editorial": 1,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2024,
+          2024
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ca47c2ed8",
+            "polarity": "mixed",
+            "claim": "Walmart buyer calls it kinda heavy but a great machine.",
+            "quote": "kinda heavy but a truly amazing machine",
+            "url": "https://www.walmart.com/reviews/product/5196827300",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "editorial",
+          "retailer"
+        ],
+        "classVoices": {
+          "editorial": 1,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2024,
+          2024
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c698c20d4",
+            "polarity": "negative",
+            "claim": "Two star owner says Brother live chat did not help.",
+            "quote": "even did live chat 2 or 3 times and they are no help",
+            "url": "https://www.walmart.com/reviews/product/5196827300",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c4011c62d",
+            "polarity": "positive",
+            "claim": "Professional seamstress reports no skipped stitches or hiccups through long use.",
+            "quote": "it never hiccups, it never skips a stitch",
+            "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "free_motion",
+        "label": "Free-motion quilting",
+        "statements": 2,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2024
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c254bd03a",
+            "polarity": "negative",
+            "claim": "Two star Walmart owner cannot free motion quilt flannel on it.",
+            "quote": "It doesn't free motion Quilt on flannel at all",
+            "url": "https://www.walmart.com/reviews/product/5196827300",
+            "source_class": "retailer"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B0CFYQZX5Q",
+        "pageRating": 4.4,
+        "pageCount": 49,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 6
+        },
+        "lowRated": 1,
+        "sampled": "8 top reviews (8 US, 0 other countries) of 49 ratings"
+      },
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/PQ1600S.php",
+        "pageRating": 5,
+        "pageCount": 2,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 2
+        },
+        "lowRated": 0,
+        "sampled": null
+      },
+      {
+        "retailer": "walmart.com",
+        "url": "https://www.walmart.com/reviews/product/5196827300",
+        "pageRating": 4.757575757575758,
+        "pageCount": 33,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 1,
+          "2": 1,
+          "3": 0,
+          "4": 1,
+          "5": 30
+        },
+        "lowRated": 2,
+        "sampled": "22 of 33 reviews: every 1 to 3 star page plus the top relevance pages (5 pages read)"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "others": "Dealers agree on 1,500.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/pq1600s"
+          },
+          {
+            "label": "Brother manual PDF p.28",
+            "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+          }
+        ],
+        "juki": "Up to 1,500 spm; manual gives a 40 to 1,500 range.",
+        "field": "maxSpm",
+        "source": "brother-page Specifications; brother-manual PDF p.28"
+      },
+      {
+        "label": "Stitch length",
+        "others": "Sewing Machines Plus lists 5 mm, which matches the reverse cap, not the dial maximum.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother manual PDF p.10",
+            "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+          },
+          {
+            "label": "Sewing Machines Plus",
+            "url": "https://www.sewingmachinesplus.com/PQ1600S.php"
+          }
+        ],
+        "juki": "Dial to 7 mm; reverse is fixed at 5 mm above a 5 mm setting.",
+        "field": "maxStitchLengthMm",
+        "source": "brother-manual PDF p.10 (printed p.8)"
+      },
+      {
+        "label": "Throat space",
+        "others": "A parts retailer lists 8.5 in wide and 5.75 in tall.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/pq1600s"
+          }
+        ],
+        "juki": "5.7 in tall x 8.7 in wide needle-to-arm space.",
+        "field": "throatIn",
+        "source": "brother-page Main Features (Extra Large Workspace); dealer copy repeats it"
+      },
+      {
+        "label": "Needle",
+        "others": "Dealer pages do not state a needle system.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother manual PDF p.19",
+            "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+          }
+        ],
+        "juki": "HLX5 recommended; 130/705H also usable under normal sewing. Needle threader handles #11 to #16.",
+        "field": "needleSystem",
+        "source": "brother-manual PDF p.19 (needle chart) and p.8 (accessories: needles HLX5 sizes 9, 11, 11, 14, 16 and one ballpoint)"
+      },
+      {
+        "label": "Thread cutter",
+        "others": "Owners in the Missouri Star thread praise it.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/pq1600s"
+          },
+          {
+            "label": "Brother manual PDF p.22",
+            "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+          }
+        ],
+        "juki": "Push-button cutter for upper and bobbin thread.",
+        "field": "threadTrimmer",
+        "source": "brother-page Main Features; brother-manual PDF p.12 and p.22"
+      },
+      {
+        "label": "Needle stop",
+        "others": "Dealers repeat the up or down line.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother manual PDF p.12",
+            "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+          },
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/pq1600s"
+          }
+        ],
+        "juki": "Manual describes a needle-down stop button; the product page says up or down and its own table says No.",
+        "field": "needleStop",
+        "source": "brother-manual PDF p.12; brother-page Main Features and Specifications"
+      },
+      {
+        "label": "Feet and box",
+        "others": "Dealers copy Brother's box list.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother manual PDF p.8",
+            "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+          },
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/pq1600s"
+          }
+        ],
+        "juki": "7 feet including the free motion quilting foot and pin feed foot, plus knee lifter and wide table.",
+        "field": "includedFeet",
+        "source": "brother-manual PDF p.8; brother-page In the Box"
+      },
+      {
+        "label": "Oiling",
+        "others": "Not stated on dealer pages.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Brother manual PDF p.28",
+            "url": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
+          }
+        ],
+        "juki": "A few drops at each marked point twice a month with daily use.",
+        "field": "maintenance",
+        "source": "brother-manual PDF p.26 and p.28"
+      },
+      {
+        "label": "Price",
+        "others": "Amazon 899.99; Sewing Machines Plus 999.99, crossed from 1,299.99. The earlier 579.99 figure did not survive a page read.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/pq1600s"
+          },
+          {
+            "label": "Sewing Machines Plus",
+            "url": "https://www.sewingmachinesplus.com/PQ1600S.php"
+          }
+        ],
+        "juki": "Brother lists 999.99.",
+        "field": "msrp",
+        "source": "brother-page; amazon B0CFYQZX5Q; sewingmachinesplus.com"
+      },
+      {
+        "label": "Warranty",
+        "others": "Dealer copy reads 1 year labor, 2 year electrical, 25 year chassis.",
+        "status": "dealer only",
+        "links": [
+          {
+            "label": "Brother product page",
+            "url": "https://www.brother-usa.com/products/pq1600s"
+          }
+        ],
+        "juki": "1/2/25 year limited warranty, no breakdown on the product page.",
+        "field": "warrantyUs",
+        "source": "brother-page; sewingmachinesplus.com"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "PQ1500SL",
+        "label": "Brother PQ1500SL (and PQ1500S)",
+        "rows": [
+          {
+            "feature": "Knee lifter",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "One comparison blog says the PQ1600S has a built-in knee lifter where the older model's was removable. Brother's own box list and manual treat the PQ1600S knee lifter as a separate item you attach.",
+            "check": "single blog source; Brother manual PDF p.8 and p.11 list the knee lifter as an accessory",
+            "examples": [
+              {
+                "claim_id": "ccaab3e8b",
+                "claim": "Blog says the PQ1600S is the direct successor with a built-in knee lifter, a tension dial and a larger table.",
+                "quote": "It’s the direct successor, with a built-in (not removable) knee lifter",
+                "url": "https://bobbinhub.com/brother-pq1600s-vs-juki-tl2010q"
+              }
+            ]
+          },
+          {
+            "feature": "Tension dial",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "The same blog says the PQ1600S adds a dedicated tension dial. Not checked against a PQ1500SL document.",
+            "check": "single blog source; no PQ1500SL maker document in hand",
+            "examples": [
+              {
+                "claim_id": "ccaab3e8b",
+                "claim": "Blog says the PQ1600S is the direct successor with a built-in knee lifter, a tension dial and a larger table.",
+                "quote": "It’s the direct successor, with a built-in (not removable) knee lifter",
+                "url": "https://bobbinhub.com/brother-pq1600s-vs-juki-tl2010q"
+              }
+            ]
+          },
+          {
+            "feature": "Table",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "The same blog says the PQ1600S has a larger table. Brother lists 11.1 x 23.3 in for the PQ1600S; no PQ1500SL figure in hand.",
+            "check": "single blog source; Brother product page for the PQ1600S figure",
+            "examples": [
+              {
+                "claim_id": "ccaab3e8b",
+                "claim": "Blog says the PQ1600S is the direct successor with a built-in knee lifter, a tension dial and a larger table.",
+                "quote": "It’s the direct successor, with a built-in (not removable) knee lifter",
+                "url": "https://bobbinhub.com/brother-pq1600s-vs-juki-tl2010q"
+              }
+            ]
+          },
+          {
+            "feature": "Walking foot",
+            "urls": 0,
+            "classes": [],
+            "summary": "A PQ1500SL owner lists a walking foot among the feet in the box. Brother's PQ1600S box list and manual show none, and Amazon buyers of the PQ1600S say none came. A dealer lists one walking foot as fitting both models.",
+            "check": "Brother manual PDF p.8 and product page; one PQ1500SL owner review; Ken's Sewing Center listing quoted on Reddit",
+            "examples": []
+          },
+          {
+            "feature": "Price",
+            "urls": 0,
+            "classes": [],
+            "summary": "A 2016 forum post puts the PQ1500S near 550 dollars on Amazon. Today the PQ1600S lists at 899.99 to 999.99.",
+            "check": "Missouri Star forum post dated 2016; Brother, Amazon and Walmart pages 2026-10-02",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
   "brother-st371hd": {
     "slug": "brother-st371hd",
     "status": "approved",
@@ -9759,6 +11959,2339 @@ export const rollupData: Record<string, Rollup> = {
       }
     ],
     "rivals": []
+  },
+  "grace-qnique-15r": {
+    "slug": "grace-qnique-15r",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy (instructed 2026-10-02, via Claude; human review after live)",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 25,
+      "itemsCollected": 192,
+      "statements": 58,
+      "voices": 23,
+      "ownerVoices": 17,
+      "dateRange": [
+        2014,
+        2025
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 9,
+          "items": 96
+        },
+        "editorial": {
+          "sources": 9,
+          "items": 9
+        },
+        "forum": {
+          "sources": 6,
+          "items": 6
+        },
+        "retailer": {
+          "sources": 1,
+          "items": 79
+        }
+      },
+      "blocked": 9,
+      "evidence": "strong",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "The 15R was renamed from the Q'nique 14+ (Leah Day says it is the same machine) and dealers sold it as the BlockRockIt, so older posts under those names are included where the writer says it is the same machine. Posts about the 15 PRO, 15M, 19 and 21 are kept out of the 15R counts.",
+      "Sewing Machines Plus's Q'nique listing (4.49 of 5 across 79 reviews, 2014 to 2024) pools buyers of several Q'nique heads and now sells a recertified 15 PRO. Only the review that names the 15R is counted here, so the listing's rating describes the Q'nique family, not the 15R alone.",
+      "Facebook group posts (the largest Q'nique community) could not be read. Amazon and Walmart have no 15R listing, and Grace's own 15R product page no longer sells the machine, so there are no rating pages for the 15R itself. YouTube comments are not collected.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented. Several of the longer voices are Grace dealers or partners (Leah Day discloses a dealer and partner relationship).",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Many of these threads are people asking for help with tension or a fault, so problems are over-represented, and the one retailer rating we have (Sewing Machines Plus, 4.49 of 5) covers the whole Q'nique family, not the 15R. Counts are per page or thread, so a long forum thread is one voice.",
+    "summary": "Owners of the Grace Q'nique 15R describe a simple, affordable machine with stitch regulation, and the same three topics come up again and again. Those who like it praise Grace's phone support, call it a good machine to learn on, and say it glides well once the thread and tension are dialed in. The repeated complaints are that tension takes a lot of thread and patience to set, that the 15 in throat limits how much of a block fits in one pass so people outgrow it, and that some units had electronics trouble such as motherboard, sensor or bobbin winder failures that meant shipping the machine back to Grace. This read covers 9 Reddit threads, 9 blog, dealer and maker pages, 6 forum threads and one retailer listing, from 2014 to 2025, and a few of the longer voices are Grace dealers or partners. Reddit and forum threads lean toward people asking for help, so problems are over-represented here.",
+    "themes": [
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 17,
+        "voices": 10,
+        "ownerVoices": 7,
+        "sources": 8,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3,
+          "editorial": 4,
+          "forum": 3
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 4,
+          "mixed": 3,
+          "neutral": 2
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c589f290b",
+            "polarity": "negative",
+            "claim": "On the 10 ft Continuum frame she is limited to about a 90 by 90 inch quilt.",
+            "quote": "I'm limited to a 90 x 90 quilt",
+            "url": "https://forum.missouriquiltco.com/forum/missouri-star-quilt-company/product-discussion/1990241-q-nique-15r-long-arm",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "c258c94c6",
+            "polarity": "negative",
+            "claim": "A 15R owner wishes they had more space than the 15 in throat gives.",
+            "quote": "I have a 15r and definitely wish I had more space",
+            "url": "https://www.reddit.com/r/quilting/comments/1kaaj92/joanns_qnique_15r_floor_model/mpn6zgl/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c6336cadc",
+            "polarity": "positive",
+            "claim": "She says the 15R is a perfect fit for people who make small quilts with small blocks and do not need speed.",
+            "quote": "then a Qnique 15R will be a perfect fit",
+            "url": "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c71bd1d82",
+            "polarity": "positive",
+            "claim": "A UK owner of the 14+ (15R) calls the large arm space the best thing about it, the main reason she bought it.",
+            "quote": "the best thing has to be the huge arm space",
+            "url": "https://graceframe.com/en/resources/blog/great-qnique-quilter-review",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "cd3a30649",
+            "polarity": "mixed",
+            "claim": "The same owner says the quilting area of a 15 in machine is not that big and moved up to a 10 ft frame and larger machine.",
+            "quote": "is not that big.",
+            "url": "https://www.quiltingboard.com/main-f1/handiquilter-16-qnique-15-16%94-t314884.html",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 15,
+        "voices": 8,
+        "ownerVoices": 8,
+        "sources": 7,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3,
+          "editorial": 2,
+          "forum": 3
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 4,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ca6d0291b",
+            "polarity": "negative",
+            "claim": "An owner of a used 15R and frame says a large number of these machines had motherboard failures that need factory repair.",
+            "quote": "An insane amount of them had the motherboards go out",
+            "url": "https://www.reddit.com/r/quilting/comments/1kaaj92/joanns_qnique_15r_floor_model/mpm6xu9/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c763c665f",
+            "polarity": "negative",
+            "claim": "A reader with a Grace 14+ reports skipped stitches going up and down despite cleaning and checking tension.",
+            "quote": "I have an issue with skipping of stitches going up & down.",
+            "url": "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "ccd3a29a2",
+            "polarity": "positive",
+            "claim": "The reviewer says she loves her Qnique 15R / 14+ and has finished many more quilts on it.",
+            "quote": "I love my Grace Qnique 15R / 14+",
+            "url": "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c991ecc81",
+            "polarity": "positive",
+            "claim": "A second owner of the same machine calls it a gem.",
+            "quote": "I have the same machine and it's been a gem.",
+            "url": "https://www.reddit.com/r/quilting/comments/16x41xc/eek_qnique_15r_issues/k37hrn7/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c7997470c",
+            "polarity": "mixed",
+            "claim": "A 15R owner had the tension assembly spring break and Grace sent a replacement and talked her through the fix.",
+            "quote": "the spring on the tension assembly broke",
+            "url": "https://forum.missouriquiltco.com/forum/missouri-star-quilt-company/product-discussion/1990241-q-nique-15r-long-arm",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 8,
+        "voices": 8,
+        "ownerVoices": 6,
+        "sources": 7,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 3,
+          "editorial": 2,
+          "forum": 2,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 5,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2021,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cbb832d88",
+            "polarity": "negative",
+            "claim": "The owner paid a little over $300 to ship the machine back to Grace for repair and says the original box is required.",
+            "quote": "It was a little over $300 for me to ship mine",
+            "url": "https://www.reddit.com/r/quilting/comments/1kaaj92/joanns_qnique_15r_floor_model/mpm6xu9/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c3fe474be",
+            "polarity": "positive",
+            "claim": "She says customer support has been fantastic.",
+            "quote": "customer support has been fantastic",
+            "url": "https://graceframe.com/en/resources/blog/great-qnique-quilter-review",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c5dae61ee",
+            "polarity": "positive",
+            "claim": "The same owner says Grace's customer service is very good at walking owners through troubleshooting.",
+            "quote": "Their customer service is actually very good.",
+            "url": "https://www.reddit.com/r/quilting/comments/16x41xc/eek_qnique_15r_issues/k37hrn7/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 9,
+        "voices": 6,
+        "ownerVoices": 5,
+        "sources": 6,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3,
+          "editorial": 2,
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 3,
+          "neutral": 0
+        },
+        "years": [
+          2024,
+          2025
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c915d98d4",
+            "polarity": "negative",
+            "claim": "A 15R owner under a year old says the recommended Finesse thread frays and breaks and setting tension is a nightmare.",
+            "quote": "Setting the tension is a nightmare!",
+            "url": "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c407eb1de",
+            "polarity": "negative",
+            "claim": "A 15R owner reports breaking thread and uneven tension despite changing bobbins, needles, thread and settings.",
+            "quote": "I am having breaking thread and uneven tension.",
+            "url": "https://www.reddit.com/r/quilting/comments/1hk3ai0/at_a_loss_man_vs_machine/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cc5f242a5",
+            "polarity": "mixed",
+            "claim": "The reviewer found the machine fussy about thread and says poly core quilting thread was too linty.",
+            "quote": "the machine can be a bit fussy with the threads it likes",
+            "url": "https://graceframe.com/en/resources/blog/great-qnique-quilter-review",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "ca9e51f43",
+            "polarity": "mixed",
+            "claim": "An owner of a refurbished unit fought tension problems for over a year until resetting the timing, then had smooth quilting.",
+            "quote": "I fought with tension issues for over a year until I reset the timing",
+            "url": "https://www.reddit.com/r/Longarm_show_n_tell/comments/1fm9ujn/longarm_beginner_help/lofce7p/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 2,
+        "sourceClasses": [
+          "editorial",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2,
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cea2c0a14",
+            "polarity": "negative",
+            "claim": "The owner warns that the machine and its parts are about to be obsolete within a few years.",
+            "quote": "about to be obsolete in a few years along with the parts",
+            "url": "https://www.reddit.com/r/quilting/comments/1kaaj92/joanns_qnique_15r_floor_model/mpm6xu9/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "learning_curve",
+        "label": "Learning curve",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2025,
+          2025
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c173cf5c0",
+            "polarity": "positive",
+            "claim": "The same owner calls it a great machine to learn on.",
+            "quote": "It has been a great machine to learn on",
+            "url": "https://www.reddit.com/r/quilting/comments/1kaaj92/joanns_qnique_15r_floor_model/mpm6xu9/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c76717eb9",
+            "polarity": "positive",
+            "claim": "An owner of the BlockRockIt 15R, which she says is the same machine, finds it user friendly and almost 100 percent happy.",
+            "quote": "It is very user friendly and I'm almost 100% happy with it.",
+            "url": "https://forum.missouriquiltco.com/forum/missouri-star-quilt-company/product-discussion/1990241-q-nique-15r-long-arm",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "free_motion",
+        "label": "Free-motion quilting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2024,
+          2024
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "value_price",
+        "label": "Value and price",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2021,
+          2021
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://sewingmachinesplus.com/products/qnique-long-arm-quilter",
+        "pageRating": 4.49,
+        "pageCount": 79,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 4,
+          "2": 2,
+          "3": 4,
+          "4": 10,
+          "5": 59
+        },
+        "lowRated": 10,
+        "sampled": null
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "juki": "1,800 stitches per minute maximum, 90 minimum (manual).",
+        "others": "Dealers repeat 1,800.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Grace 15R page",
+            "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+          },
+          {
+            "label": "Grace 15R manual",
+            "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "manual"
+      },
+      {
+        "label": "Throat space",
+        "juki": "15 in wide by 8.5 in high, needle to back of the work area.",
+        "others": "Dealers call it a midarm; Grace's own page also says midarm.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Grace 15R page",
+            "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+          },
+          {
+            "label": "Grace 15R manual",
+            "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+          }
+        ],
+        "field": "throatIn",
+        "source": "manual"
+      },
+      {
+        "label": "Weight",
+        "juki": "42 lb (19 kg) per the manual.",
+        "others": "Sew Vac Direct lists 42 lb.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Grace 15R manual",
+            "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+          }
+        ],
+        "field": "weightLb",
+        "source": "manual"
+      },
+      {
+        "label": "Overall size",
+        "juki": "480 mm high, 395 mm wide, 585 mm long (19 x 15.5 x 23 in).",
+        "others": "No dealer lists dimensions.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Grace 15R manual",
+            "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+          }
+        ],
+        "field": "dimensionsIn",
+        "source": "manual"
+      },
+      {
+        "label": "Stitch regulation",
+        "juki": "Regulated Precise and Cruise modes, Manual and Baste, 4 to 16 stitches per inch.",
+        "others": "Leah Day describes the sit down 14+ / 15R as unregulated (foot pedal).",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Grace 15R page",
+            "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+          },
+          {
+            "label": "Grace 15R manual",
+            "url": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+          }
+        ],
+        "field": "stitchRegulation",
+        "source": "manual"
+      },
+      {
+        "label": "Warranty",
+        "juki": "Machine page: electronics 1 yr, non-moving parts 2 yr, body 5 yr. Warranty page: 2 yr on electronic parts and 5 yr on the cast body. Not transferable.",
+        "others": "Dealers repeat 1 / 2 / 5.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Grace warranty page",
+            "url": "https://graceframe.com/en/page/warranty"
+          },
+          {
+            "label": "Grace 15R page",
+            "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "warranty"
+      },
+      {
+        "label": "Price",
+        "juki": "Machine-only MSRP $4,499.95; $6,499.90 with the Q-Zone Hoop, $6,699.90 with the Q-Zone Queen.",
+        "others": "Sew Vac Direct bundle with Q-Zone Queen seen at $5,198 on 2026-09-29; Google Shopping showed a recertified 15R at $3,099 (Sewing Machine Outlet).",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Grace 15R page",
+            "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+          }
+        ],
+        "field": "msrp",
+        "source": "maker-page"
+      },
+      {
+        "label": "Availability",
+        "juki": "Grace marks the 15R 'no longer available for new purchase'; service and warranty support continue.",
+        "others": "Dealers and recertified sellers still list it.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Grace 15R page",
+            "url": "https://graceframe.com/en/sewing-machines/grace-15r"
+          }
+        ],
+        "field": "status",
+        "source": "maker-page"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "Q'nique 15 PRO",
+        "label": "Grace Q'nique 15 PRO",
+        "rows": [
+          {
+            "feature": "Speed",
+            "urls": 3,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "The 15 PRO runs to 2,000 spm; the 15R to 1,800 spm.",
+            "check": "Grace comparison table and two dealer pages agree",
+            "examples": [
+              {
+                "claim_id": "cdaccb045",
+                "claim": "Leah Day lists the 15R at 1,800 spm with handlebar controls and the 15 PRO at 2,000 spm with a touchscreen.",
+                "quote": "can quilt 1800 stitches per minute and has the original handlebar controls",
+                "url": "https://freemotionproject.com/2021/10/which-longarm-machine-is-better"
+              },
+              {
+                "claim_id": "cacd1de0e",
+                "claim": "The same dealer page says the 15 Pro sews up to 2,000 spm.",
+                "quote": "Sews up to 2,000 stitches per minute",
+                "url": "https://reddeersewing.com/grace-qnique-15-pro-mid-arm-quilting-machine"
+              },
+              {
+                "claim_id": "c0100cbf7",
+                "claim": "A second dealer page states the 15R ran at 1,800 spm against 2,000 for the 15 PRO.",
+                "quote": "The Q'nique 15R boasted an impressive 1,800 stitches per minute",
+                "url": "https://www.sewingpartsonline.com/products/qnique-15-pro-midarm-quilting-machine-grace-company"
+              }
+            ]
+          },
+          {
+            "feature": "Screen",
+            "urls": 2,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "The 15 PRO has a full-color touch screen; the 15R has a full-color OLED screen and is driven from the handlebar buttons.",
+            "check": "Grace comparison table, 2026-10-02; Leah Day agrees",
+            "examples": [
+              {
+                "claim_id": "ca5a7a914",
+                "claim": "Leah Day says the 15R has no touchscreen and navigates menus with handlebar buttons, while the 15 PRO has a touchscreen.",
+                "quote": "The 15R and 21 I'm using don't have a touchscreen.",
+                "url": "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro"
+              },
+              {
+                "claim_id": "c01723a53",
+                "claim": "A dealer page lists a new touch screen as the first major difference of the 15 Pro over the 15R.",
+                "quote": "New convenient touch screen",
+                "url": "https://reddeersewing.com/grace-qnique-15-pro-mid-arm-quilting-machine"
+              }
+            ]
+          },
+          {
+            "feature": "Motor power",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "Dealers call the 15 PRO motor more powerful. The 15 PRO listing and the 15R manual both give 300 W peak power, so the difference is a speed rating, not a published wattage.",
+            "check": "dealer wording; 300 W figures from the 15R manual and a dealer 15 PRO page",
+            "examples": [
+              {
+                "claim_id": "c737cb7d5",
+                "claim": "The dealer page lists a more powerful motor as another 15 Pro difference.",
+                "quote": "More powerful motor",
+                "url": "https://reddeersewing.com/grace-qnique-15-pro-mid-arm-quilting-machine"
+              }
+            ]
+          },
+          {
+            "feature": "Price",
+            "urls": 0,
+            "classes": [],
+            "summary": "Grace lists the 15 PRO at $4,999.95 machine only against $4,499.95 for the 15R.",
+            "check": "Grace 15R and 15 Pro pages, 2026-10-02; list prices, not live prices",
+            "examples": []
+          },
+          {
+            "feature": "Stitch regulation",
+            "urls": 0,
+            "classes": [],
+            "summary": "Both have stitch regulation with Precise, Cruise, Baste and Manual modes and the same 15 in throat.",
+            "check": "Grace comparison table, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "Q'nique 19",
+        "label": "Grace Q'nique 19 (now 19X)",
+        "rows": [
+          {
+            "feature": "Screen",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "The 19 and 15 PRO have touchscreens that are easier to use than the 15R's handlebar buttons.",
+            "check": "one reviewer; Grace's 19X page not fetched",
+            "examples": [
+              {
+                "claim_id": "cef589690",
+                "claim": "She says the 19 and 15 PRO have touchscreen monitors that are easier to navigate than the 15R.",
+                "quote": "both come with touchscreen monitors that are easier to navigate",
+                "url": "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro"
+              }
+            ]
+          },
+          {
+            "feature": "Throat space",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "The Q'nique 19 (now the 19X) has 19 in of throat against 15 in. Leah Day frames the gap as barely fitting a 10 in block versus easily quilting a 14 in block.",
+            "check": "one reviewer who is a Grace partner; 19X not checked against Grace's own page",
+            "examples": [
+              {
+                "claim_id": "cd4cfb059",
+                "claim": "She frames the four inch throat gap as the difference between barely fitting a 10 in block and easily quilting a 14 in block.",
+                "quote": "That four inches of difference between the Qnique 19 and Qnique 15 longarms",
+                "url": "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro"
+              }
+            ]
+          },
+          {
+            "feature": "Speed",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "Leah Day calls the 15R, 15 PRO and 19 very similar on speed in one post and gives 1,800 against 2,000 spm in another.",
+            "check": "one reviewer, two posts that disagree; not checked against Grace's 19X page",
+            "examples": [
+              {
+                "claim_id": "ca49a5b49",
+                "claim": "She says the 15R, 15 PRO and 19 are very similar on speed.",
+                "quote": "these longarms are very similar on speed",
+                "url": "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "model": "Q'nique 16X",
+        "label": "Grace Q'nique 16X",
+        "rows": [
+          {
+            "feature": "Naming and status",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "Leah Day lists the 15R as now the 16X and a dealer says the 15 PRO was replaced by the 16X. Grace's 15R page does not name a replacement and points buyers to the 15 Pro.",
+            "check": "naming sources disagree with Grace's own pages",
+            "examples": [
+              {
+                "claim_id": "c13cb57d8",
+                "claim": "Leah Day's naming note lists the 15R as now the 16x and the 15 PRO as now the 16X Elite.",
+                "quote": "Qnique 15R (Now 16x)",
+                "url": "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro"
+              }
+            ]
+          },
+          {
+            "feature": "Availability",
+            "urls": 0,
+            "classes": [],
+            "summary": "Grace's 15R page says the 15R is no longer available for new purchase and lists the 16X among current machines.",
+            "check": "Grace 15R page, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "Q'nique 15M",
+        "label": "Grace Q'nique 15M",
+        "rows": [
+          {
+            "feature": "Stitch regulation",
+            "urls": 0,
+            "classes": [],
+            "summary": "The 15M has no stitch regulation (constant speed manual mode only); the 15R regulates stitch length in Precise and Cruise modes.",
+            "check": "Grace comparison table, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Screen",
+            "urls": 0,
+            "classes": [],
+            "summary": "The 15M has an LCD number read-out; the 15R has a full-color OLED screen.",
+            "check": "Grace comparison table, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Price",
+            "urls": 0,
+            "classes": [],
+            "summary": "Grace lists the 15M at $3,499.95 machine only against $4,499.95 for the 15R. Both run to 1,800 spm.",
+            "check": "Grace 15R page, 2026-10-02; list prices, not live prices",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "grace-qnique-19x": {
+    "slug": "grace-qnique-19x",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy (instructed 2026-10-02, via Claude; human review after live)",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 20,
+      "itemsCollected": 65,
+      "statements": 5,
+      "voices": 4,
+      "ownerVoices": 0,
+      "dateRange": [
+        2023,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 5,
+          "items": 50
+        },
+        "forum": {
+          "sources": 6,
+          "items": 6
+        },
+        "editorial": {
+          "sources": 6,
+          "items": 6
+        },
+        "youtube": {
+          "sources": 2,
+          "items": 0
+        },
+        "retailer": {
+          "sources": 1,
+          "items": 3
+        }
+      },
+      "blocked": 3,
+      "evidence": "thin",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Very few threads name the Q'nique 19X itself. Most Q'nique talk online is about the 15R, 21, 21X Elite or 19X Elite, or about an earlier machine called the Q'nique 19. Statements about a sibling or an unclear model are kept out of the 19X counts.",
+      "Grace has stopped listing the base 19X as a new machine on its own site; it still sells recertified 19X units and still publishes the 19X manual. Dealers still list it, some on closeout.",
+      "One retailer carries buyer reviews of the base 19X: Sewing Parts Online shows 5.0 from 3 verified buyer reviews (Oct to Nov 2023), all 3 read in full and none sampled out, one a complaint about the power switch position on a Cutie frame. None of the three names a model, so the base 19X rests on the page title and SKU. Moore's, Tops, Sewing Machines Plus and Grace's recertified page show no reviews, Amazon lists Elite bundles only, and Facebook groups could not be read.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The one retailer rating under 'How we collected this' is better for overall satisfaction, but it rests on only 3 reviews.",
+    "summary": "Buyer signals for the Grace Q'nique 19X, now sold by Grace as the 19X, are thin: we found no first-hand write-up that names the base 19X. What exists is mostly shopping talk. The 19 inch throat is the draw: one blogger who owns other Q'nique models says it covers a 12 inch block in one pass, and dealers repeat the 19 inch figure. One shopper says the reviews she has read of these machines are mixed, and the thread gives her no owner answer. Most of what owners say online is about the 19X Elite, the 21 or an earlier Q'nique 19, and is kept out of these counts. One dealer page shows 3 verified buyer reviews from 2023, rated 5.0, with one complaint that the power switch sits at the far end of the machine and is hard to reach on a Cutie frame. This read covers 5 Reddit threads, 6 forum pages, 6 blog or dealer write-ups and that dealer page, dated 2023 to 2026 where a date shows. Reddit threads lean toward people asking for help, so problems are over-represented here.",
+    "themes": [
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 0,
+        "sources": 2,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2023,
+          2023
+        ],
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingpartsonline.com",
+        "url": "https://www.sewingpartsonline.com/products/qnique-19x-longarm-quilting-machine-grace-company",
+        "pageRating": 5,
+        "pageCount": 3,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 3
+        },
+        "lowRated": 0,
+        "sampled": "all 3 reviews (loox.io widget for Shopify product 8714215293215), no sampling"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Throat",
+        "others": "Dealers say 19 in. One Grace page says blocks up to 17 in, another up to 19 in; block size is not throat space.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Grace manual p.9",
+            "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+          },
+          {
+            "label": "Grace recertified 19X page",
+            "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+          }
+        ],
+        "field": "throatIn",
+        "source": "grace-19x-manual PDF p.9 (Machine Specifications); grace-19x-elite-page",
+        "juki": "19 in arm width, 8.9 in arm height (manual)."
+      },
+      {
+        "label": "Speed",
+        "others": "Dealers agree on 2000.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Grace manual p.9",
+            "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+          },
+          {
+            "label": "Grace 19X Elite comparison",
+            "url": "https://graceframe.com/en/sewing-machines/qnique19xelite"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "grace-19x-manual PDF p.9; grace-19x-recert; grace-19x-elite-page",
+        "juki": "90 to 2000 stitches per minute (manual). The Elite is 2600."
+      },
+      {
+        "label": "Weight and body size",
+        "others": "No dealer page found lists weight.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Grace manual p.9",
+            "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+          }
+        ],
+        "field": "weightLb",
+        "source": "grace-19x-manual PDF p.9",
+        "juki": "41.5 lb (18.8 kg). Body 26.8 high x 15.6 wide x 32.8 long in."
+      },
+      {
+        "label": "Screen",
+        "others": "Dealer copy says 'full color OLED touchscreen'; Grace does not.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Grace manual p.9",
+            "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+          },
+          {
+            "label": "Grace recertified 19X page",
+            "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+          }
+        ],
+        "field": "display",
+        "source": "grace-19x-manual PDF p.9, p.15; grace-19x-recert; grace-19x-elite-page",
+        "juki": "2.4 in color touch display."
+      },
+      {
+        "label": "Needle",
+        "others": "Dealers list only the included sizes 16 and 18.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Grace manual p.92",
+            "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+          }
+        ],
+        "field": "needleSystem",
+        "source": "grace-19x-manual PDF p.92 and p.111",
+        "juki": "DPX5 MR, 134 MR or 1955 MR (multi-directional); size 16 for 60 wt, size 18 for 50 wt polyester."
+      },
+      {
+        "label": "Bobbin winder",
+        "others": "Dealer copy treats the built-in winder as an Elite feature.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Grace manual p.9 and p.48",
+            "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+          }
+        ],
+        "field": "bobbin",
+        "source": "grace-19x-manual PDF p.15, p.48, p.9; grace-19x-recert",
+        "juki": "Built-in winder with automatic stop (19X manual)."
+      },
+      {
+        "label": "Oiling",
+        "others": "Not stated at dealers.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Grace manual p.81 and p.88",
+            "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+          }
+        ],
+        "field": "oiling",
+        "source": "grace-19x-manual PDF p.81, p.88",
+        "juki": "After 20 hours of use, at project start and after 30 days idle; hook every other bobbin change."
+      },
+      {
+        "label": "Warranty",
+        "others": "Grace dealer page says 5 / 2 / 1 yr (casting, mechanical, electrical).",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Grace warranty page",
+            "url": "https://graceframe.com/en/page/warranty"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "grace-warranty (seen 2026-10-02)",
+        "juki": "2 yr limited on the machine and its electronic parts; 5 yr on the cast metal body; original owner only. (19X Elite: 10 yr cast body.)"
+      },
+      {
+        "label": "Availability",
+        "others": "Dealers still list new 19X units.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Grace machine listing",
+            "url": "https://graceframe.com/en/shop/quilting-machines"
+          },
+          {
+            "label": "Grace recertified 19X page",
+            "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
+          }
+        ],
+        "field": "status",
+        "source": "grace-shop; grace-19x-page redirect; grace-19x-elite-page; graceframe.com/en/sewing-machines",
+        "juki": "No new 19X listing on graceframe.com; recertified units and the Elite comparison page remain."
+      },
+      {
+        "label": "Needle light",
+        "others": "Dealer copy for the 19X says the needle light dims.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Grace manual",
+            "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
+          }
+        ],
+        "field": "lighting",
+        "source": "grace-19x-manual PDF p.62 (Machine Settings screen)",
+        "juki": "On or off from the touch display (manual); dimming is listed for the 19X Elite."
+      }
+    ],
+    "siblings": [
+      {
+        "model": "Q'nique 19",
+        "label": "Grace Company Q'nique 19 (earlier name)",
+        "rows": [
+          {
+            "feature": "Model name",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "Leah Day's page treats the Qnique 19 as the machine now sold as the 19X. Grace's warranty page lists both names.",
+            "check": "blogger and Grace warranty page; Grace does not say what changed between the two",
+            "examples": [
+              {
+                "claim_id": "c149d6e49",
+                "claim": "Leah Day's page labels the older Qnique 19 as now sold as the 19X, tying the two names together; Grace's warranty page still lists both.",
+                "quote": "Qnique 19 (Now 19X)",
+                "url": "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro"
+              }
+            ]
+          },
+          {
+            "feature": "Warranty",
+            "urls": 0,
+            "classes": [],
+            "summary": "Grace's warranty page lists the Q'nique 19 and the 19X under the same 2 year and 5 year cast body terms.",
+            "check": "Grace warranty page, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "Q'nique 15R",
+        "label": "Grace Company Q'nique 15R",
+        "rows": [
+          {
+            "feature": "Screen",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "Leah Day says the Qnique 19 has a touchscreen and the 15R does not, so the 15R is driven by handlebar buttons.",
+            "check": "one blogger; Leah Day owns a 15R and a 21, not a 19X",
+            "examples": [
+              {
+                "claim_id": "cba80afff",
+                "claim": "Leah Day says the Qnique 19 and 15 Pro have touchscreen monitors that are easier to navigate than the 15R, which has none.",
+                "quote": "The Qnique 19 and 15 PRO both come with touchscreen monitors",
+                "url": "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro"
+              }
+            ]
+          },
+          {
+            "feature": "Block width and throat",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "The same blogger puts the 19 at 12 inch blocks in one pass and the 15R at 9 1/2 inches before a design must be split.",
+            "check": "one blogger, written about the older Qnique 19 she calls 'now 19X'; Grace's own pages give 19 in of throat for the 19X",
+            "examples": [
+              {
+                "claim_id": "c560f154f",
+                "claim": "Leah Day says a 15R or 15 Pro quilter must split designs on blocks wider than 9 1/2 inches, while the 19 can cover a 12 inch block in one pass.",
+                "quote": "split your design in half when quilting across any block bigger than 9 1/2 inches",
+                "url": "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro"
+              }
+            ]
+          },
+          {
+            "feature": "Warranty",
+            "urls": 0,
+            "classes": [],
+            "summary": "Grace's warranty page lists the 15R and the 19X under the same 2 year and 5 year cast body terms.",
+            "check": "Grace warranty page, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "Q'nique 19X Elite",
+        "label": "Grace Company Q'nique 19X Elite",
+        "rows": [
+          {
+            "feature": "Speed",
+            "urls": 0,
+            "classes": [],
+            "summary": "Grace lists 2,000 spm for the 19X and 2,600 spm for the 19X Elite. One Canadian dealer chart gives the Elite 1,700 spm, which does not match Grace.",
+            "check": "Grace 19X Elite page, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Screen",
+            "urls": 0,
+            "classes": [],
+            "summary": "Grace lists a 2.4 in color touchscreen on the 19X and a 7 in display on the Elite. Dealer copy calls the 19X screen OLED; Grace does not.",
+            "check": "Grace 19X Elite page and 19X manual p.9",
+            "examples": []
+          },
+          {
+            "feature": "Warranty",
+            "urls": 0,
+            "classes": [],
+            "summary": "Grace's warranty page gives the 19X 5 years on the cast body and 2 years on the machine; it gives the 19X Elite 10 years on the cast body.",
+            "check": "Grace warranty page, 2026-10-02",
+            "examples": []
+          },
+          {
+            "feature": "Price",
+            "urls": 0,
+            "classes": [],
+            "summary": "Grace's own comparison table shows $5,999.00 for the 19X and $7,999.00 for the 19X Elite, machine only. Dealer prices vary.",
+            "check": "Grace page prices seen 2026-10-02; not binding",
+            "examples": []
+          },
+          {
+            "feature": "Needle light",
+            "urls": 0,
+            "classes": [],
+            "summary": "Grace lists dimmable LED lights as a 19X Elite feature. The 19X manual describes the lamp as on or off.",
+            "check": "Grace 19X Elite page and 19X manual p.62; dealer copy says the 19X dims",
+            "examples": []
+          },
+          {
+            "feature": "Bobbin winder",
+            "urls": 0,
+            "classes": [],
+            "summary": "The 19X manual lists a built-in bobbin winder. Some dealer copy treats it as an Elite extra.",
+            "check": "Grace 19X manual p.9 and p.48",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": []
+  },
+  "handi-quilter-amara": {
+    "slug": "handi-quilter-amara",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy (instructed 2026-10-02, via Claude; human review after live)",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 17,
+      "itemsCollected": 86,
+      "statements": 44,
+      "voices": 14,
+      "ownerVoices": 11,
+      "dateRange": [
+        2018,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 7,
+          "items": 68
+        },
+        "forum": {
+          "sources": 4,
+          "items": 4
+        },
+        "editorial": {
+          "sources": 5,
+          "items": 5
+        },
+        "retailer": {
+          "sources": 1,
+          "items": 5
+        }
+      },
+      "blocked": 6,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Where a retailer listing was sampled, the page's own totals are shown above.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "This is a thin evidence base. Most Reddit and forum threads are general longarm buying threads where only a few commenters own an Amara 20, and many owner posts live in Facebook groups, which could not be read.",
+      "The String & Story review is by a Moxie owner whose Amara is on loan from Handi Quilter under a content agreement, and the Craftyolo page carries affiliate links and gets the included frame wrong against Handi Quilter's own page. Both are counted as buyer or editorial signal, not as independent owner evidence.",
+      "Amazon has no listing for the Amara 20 (the Amara ST listing has no rating), so there is no Amazon rating here. The Sewing Machines Plus page shows 5 reviews, the oldest from 2018, so it is not a current gauge.",
+      "Several forum comments say only 'HQ' or 'Handi Quilter' with no model; those are labelled as unclear scope and are not credited to the Amara 20."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owners and buyers of the Handi Quilter Amara 20 who are happy with it say that once tension is set they are good to go, that free motion and ruler work both feel easy, and that upkeep is a drop of oil on the hook and keeping the rails clean. The complaints are about tension that drifts or needs constant adjustment, a regulator and top speed that some quilters say they outgrew, usable space well under the 20 inch throat once a quilt is on the frame, a head one reviewer calls heavy, and uneven dealer support, which was the most repeated problem. This read covers 7 Reddit threads, 4 forum threads, 1 retailer page and 5 blog or maker pages from 2018 to 2026, a small sample that leans on a handful of owners. Reddit threads lean toward people asking for help, so problems are over-represented here.",
+    "themes": [
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 6,
+        "voices": 5,
+        "ownerVoices": 5,
+        "sources": 4,
+        "sourceClasses": [
+          "editorial",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 2,
+          "editorial": 1,
+          "retailer": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2019,
+          2023
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "cacf7984a",
+            "polarity": "negative",
+            "claim": "Owner prefers APQS solid frames to the Handi Quilter frame, which she describes as pinned together.",
+            "quote": "as opposed to HQ's pinned together frame",
+            "url": "https://www.reddit.com/r/quilting/comments/la4q1q/advice_for_aspiring_long_armer/glm0y0s/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c7be409d7",
+            "polarity": "negative",
+            "claim": "Compares the HQ frame to APQS, calling the HQ frame pieced rather than solid.",
+            "quote": "as opposed to the HQ frame, which is pieced",
+            "url": "https://www.reddit.com/r/quilting/comments/d00sxs/2019_longarmmidarm_review_thread/ez53m5y/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cbd08bb84",
+            "polarity": "positive",
+            "claim": "New longarm quilter says the machine runs very smoothly on the tracks.",
+            "quote": "runs very smoothly on the tracks",
+            "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "c442e4260",
+            "polarity": "mixed",
+            "claim": "Reviewer says the Studio3 frame has many little screws and recommends dealer assembly.",
+            "quote": "there are a lot of little screws on this thing",
+            "url": "https://www.stringandstory.com/blog/hqamara",
+            "source_class": "editorial"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 5,
+        "voices": 5,
+        "ownerVoices": 4,
+        "sources": 5,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 2,
+          "editorial": 1,
+          "forum": 1,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": [
+          2019,
+          2021
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "ce1afd4fd",
+            "polarity": "negative",
+            "claim": "Owner describes poor after-sale support from the dealer she bought her Amara from.",
+            "quote": "support after the purchase was terrible",
+            "url": "https://www.reddit.com/r/quilting/comments/la4q1q/advice_for_aspiring_long_armer/glm0y0s/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c7de6bf3a",
+            "polarity": "negative",
+            "claim": "Owner found the dealer she bought from unresponsive and difficult, and notes the dealer is often the service person.",
+            "quote": "They are unresponsive, and very difficult to work with.",
+            "url": "https://www.reddit.com/r/quilting/comments/d00sxs/2019_longarmmidarm_review_thread/ez4y785/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "ca950fe8f",
+            "polarity": "positive",
+            "claim": "Owner praises Handi Quilter customer service and its help line.",
+            "quote": "They have excellent customer service",
+            "url": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/2120292-longarm-recommendation",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 3,
+        "sources": 4,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "editorial": 1,
+          "forum": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 2,
+          "neutral": 0
+        },
+        "years": [
+          2021,
+          2021
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c4305e016",
+            "polarity": "positive",
+            "claim": "Reviewer finds 20 inches a good fit for hand guided quilting.",
+            "quote": "throat is perfect for hand guided quilting",
+            "url": "https://www.stringandstory.com/blog/hqamara",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c7cca49e4",
+            "polarity": "mixed",
+            "claim": "A 20 inch Amara owner finds 20 inches about the limit her arms can reach for free motion.",
+            "quote": "the 20” workspace is about the limit of what my arms can reach",
+            "url": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/2120292-longarm-recommendation",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "cd8689f79",
+            "polarity": "mixed",
+            "claim": "An Amara owner puts usable quilting space at 15 to 18 inches of the 20 inch throat and finds it limiting.",
+            "quote": "The Amara is 20 inches (15-18 inches of usable space) and can be limiting.",
+            "url": "https://www.reddit.com/r/quilting/comments/la4q1q/advice_for_aspiring_long_armer/glm0y0s/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 4,
+        "sourceClasses": [
+          "forum",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 2,
+          "forum": 1,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2019,
+          2021
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c74b133d4",
+            "polarity": "negative",
+            "claim": "A two star reviewer received the machine with a carriage wheel missing.",
+            "quote": "a wheel on the carriage was missing",
+            "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+            "source_class": "retailer"
+          },
+          {
+            "claim_id": "cf65617ea",
+            "polarity": "negative",
+            "claim": "After two years the owner would not buy the Amara again and would prefer a different brand, though she calls it a nice machine that gets the job done.",
+            "quote": "I would MUCH prefer a different brand",
+            "url": "https://www.reddit.com/r/quilting/comments/d00sxs/2019_longarmmidarm_review_thread/ez4y785/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cf6669036",
+            "polarity": "positive",
+            "claim": "A 20 inch Amara owner with Pro-Stitcher, who also rented one for two years, reports very little trouble.",
+            "quote": "have had very little issues even learning how to use the ProStitcher",
+            "url": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/2120292-longarm-recommendation",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 4,
+        "voices": 4,
+        "ownerVoices": 3,
+        "sources": 4,
+        "sourceClasses": [
+          "forum",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "forum": 2,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": [
+          2021,
+          2023
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c45f8d5d2",
+            "polarity": "positive",
+            "claim": "Owner finds routine upkeep simple: keep rails and wheels free of lint and oil the bobbin case.",
+            "quote": "basically keep the rails and wheels free of dust and lint",
+            "url": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/2120292-longarm-recommendation",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "c22603f02",
+            "polarity": "positive",
+            "claim": "Retailer reviewer oils only the hook with a drop of machine oil before loading a quilt.",
+            "quote": "Just a drop of machine oil on the hook before I load a quilt",
+            "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 6,
+        "voices": 4,
+        "ownerVoices": 3,
+        "sources": 4,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "editorial": 2,
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 1
+        },
+        "years": [
+          2024,
+          2024
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ca6d82649",
+            "polarity": "positive",
+            "claim": "The back shelf is an add on for the Moxie but comes with the Studio3 frame.",
+            "quote": "it comes with the Studio3 Frame",
+            "url": "https://www.stringandstory.com/blog/hqamara",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c1b28fa62",
+            "polarity": "positive",
+            "claim": "Owner of both a Sweet 16 and an Amara says feet and bobbins are shared across the two.",
+            "quote": "I can use the same specialty feet, bobbins and they thread the same way",
+            "url": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/2120292-longarm-recommendation",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "ca6856c50",
+            "polarity": "mixed",
+            "claim": "Amara 20 owner paid extra for rear handlebars to run pantographs and thinks it was worth it.",
+            "quote": "it was an extra add-on cost for me but worth it at the time",
+            "url": "https://www.reddit.com/r/quilting/comments/1egr9qb/long_arm_purchase_advice_needed/lfu6zd1/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 5,
+        "voices": 4,
+        "ownerVoices": 4,
+        "sources": 4,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "editorial": 1,
+          "forum": 1,
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 1,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": [
+          2019,
+          2023
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c24522f53",
+            "polarity": "negative",
+            "claim": "Amara owner calls tension extremely finicky.",
+            "quote": "Tension is extremely finicky.",
+            "url": "https://www.reddit.com/r/quilting/comments/d00sxs/2019_longarmmidarm_review_thread/ez4y785/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cdc1c2bb8",
+            "polarity": "positive",
+            "claim": "Amara owner of seven months says that once tension is set she is good to go.",
+            "quote": "Once you set your tension, you’re good to go",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/127484",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "c321d766e",
+            "polarity": "positive",
+            "claim": "Reviewer says top tension is set with a manual knob on the side, with an on-screen number as a reference.",
+            "quote": "is adjusted with a manual knob on the side of the machine",
+            "url": "https://www.stringandstory.com/blog/hqamara",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c891a68a0",
+            "polarity": "mixed",
+            "claim": "Reviewer says adjusting tensions for bobbin, top thread and fabric is a bit of a learning curve.",
+            "quote": "tensions on the bobbin, machine thread, and fabric is a bit of a learning curve",
+            "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+            "source_class": "retailer"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 3,
+        "sources": 2,
+        "sourceClasses": [
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 3
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2019,
+          2021
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c581f3861",
+            "polarity": "negative",
+            "claim": "A two year Amara owner says the stitches per minute ceiling is lower than she would like.",
+            "quote": "the stitch per minute count is lower than I would like",
+            "url": "https://www.reddit.com/r/quilting/comments/d00sxs/2019_longarmmidarm_review_thread/ez4y785/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c3a03c93c",
+            "polarity": "negative",
+            "claim": "Owner says the Amara stitch regulator tops out around 2,500 stitches per minute, which she compares unfavorably with APQS.",
+            "quote": "the amara's stitch regulator maxes out around 2500/stitches per minute",
+            "url": "https://www.reddit.com/r/quilting/comments/la4q1q/advice_for_aspiring_long_armer/glm0y0s/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 4,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": null,
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c5d338b13",
+            "polarity": "negative",
+            "claim": "Reviewer's tricep was sore over the first few quilts before endurance built.",
+            "quote": "my tricep was sore the first few quilts I worked on",
+            "url": "https://www.stringandstory.com/blog/hqamara",
+            "source_class": "editorial"
+          }
+        ]
+      },
+      {
+        "theme": "free_motion",
+        "label": "Free-motion quilting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "forum"
+        ],
+        "classVoices": {
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c7c19cc87",
+            "polarity": "positive",
+            "claim": "Same owner finds free motion and ruler work equally easy on the Amara.",
+            "quote": "both are equally easy",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/127484",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "learning_curve",
+        "label": "Learning curve",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "forum"
+        ],
+        "classVoices": {
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c00f62850",
+            "polarity": "positive",
+            "claim": "Owner solves most user issues herself with a short online video.",
+            "quote": "Most of my user issues have been solved by myself with a quick YouTube video",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/127484",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "retailer"
+        ],
+        "classVoices": {
+          "retailer": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2018,
+          2018
+        ],
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "cb283247d",
+            "polarity": "negative",
+            "claim": "Four star reviewer finds the magnetic strip and laser light of limited use.",
+            "quote": "The magnetic strip and laser light are limited in usefulness to me.",
+            "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+            "source_class": "retailer"
+          }
+        ]
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "sewingmachinesplus.com",
+        "url": "https://www.sewingmachinesplus.com/hq-amara.php",
+        "pageRating": 4,
+        "pageCount": 5,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 1,
+          "3": 0,
+          "4": 2,
+          "5": 2
+        },
+        "lowRated": 1,
+        "sampled": null
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Throat space",
+        "juki": "20 inches of throat space. Manual: sewing opening 9 in by 20.5 in (228 by 521 mm).",
+        "others": "Matches our 20 in and 9 in height; the maker does not say needle to body.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Handi Quilter Amara 20 page",
+            "url": "https://handiquilter.com/product/hq-amara-20/"
+          },
+          {
+            "label": "Handi Quilter Amara specifications",
+            "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+          },
+          {
+            "label": "Amara 20 and 24 User Manual v1.6",
+            "url": "https://handiquilter.com/download/158320/"
+          }
+        ],
+        "field": "throatIn",
+        "source": "page"
+      },
+      {
+        "label": "Usable quilting area",
+        "juki": "Safe usable quilting area approximately 14 inches (of 20).",
+        "others": "Not in the spec table.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Handi Quilter Moxie vs Amara post",
+            "url": "https://handiquilter.com/machine-comparison-should-i-buy-the-moxie-or-the-amara/"
+          }
+        ],
+        "field": "throatUsable",
+        "source": "compare"
+      },
+      {
+        "label": "Speed",
+        "juki": "Up to 2,500 stitches per minute (manual mode 25 to 2,500).",
+        "others": "Matches our 2,500 spm.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Handi Quilter Amara 20 page",
+            "url": "https://handiquilter.com/product/hq-amara-20/"
+          },
+          {
+            "label": "Handi Quilter Amara specifications",
+            "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+          },
+          {
+            "label": "Amara 20 and 24 User Manual v1.6",
+            "url": "https://handiquilter.com/download/158320/"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "manual"
+      },
+      {
+        "label": "Needle system",
+        "juki": "System 134, sizes 80/12 to 130/21 (manual); the support article says 12/80 to 20/125.",
+        "others": "Our spec takes the support article (to 20/125).",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Handi Quilter Amara specifications",
+            "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+          },
+          {
+            "label": "Amara 20 and 24 User Manual v1.6",
+            "url": "https://handiquilter.com/download/158320/"
+          }
+        ],
+        "field": "needleSystem",
+        "source": "manual"
+      },
+      {
+        "label": "Frame",
+        "juki": "Studio3 frame, 10 ft or 12 ft, included. Little Foot frame listed as compatible.",
+        "others": "Matches our spec; Little Foot is the addition.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Handi Quilter Amara 20 page",
+            "url": "https://handiquilter.com/product/hq-amara-20/"
+          },
+          {
+            "label": "Handi Quilter Moxie vs Amara post",
+            "url": "https://handiquilter.com/machine-comparison-should-i-buy-the-moxie-or-the-amara/"
+          }
+        ],
+        "field": "frame",
+        "source": "page"
+      },
+      {
+        "label": "Warranty",
+        "juki": "10 years casting, 5 years mechanical, 5 years electrical. Parts free after 90 days; labor and shipping are the owner's cost (manual).",
+        "others": "Matches our spec; the labor and freight cost is the addition.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Amara 20 and 24 User Manual v1.6",
+            "url": "https://handiquilter.com/download/158320/"
+          },
+          {
+            "label": "Handi Quilter warranty page",
+            "url": "https://handiquilter.com/warranty/"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "manual"
+      },
+      {
+        "label": "Service schedule",
+        "juki": "Oil the bobbin hook at each bobbin change; technician service every 24 months or 10 million stitches.",
+        "others": "Not in the spec table.",
+        "status": "unverified",
+        "links": [
+          {
+            "label": "Handi Quilter Amara specifications",
+            "url": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+          },
+          {
+            "label": "Amara 20 and 24 User Manual v1.6",
+            "url": "https://handiquilter.com/download/158320/"
+          }
+        ],
+        "field": "service",
+        "source": "manual"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "Moxie",
+        "label": "HQ Moxie (15 in)",
+        "rows": [
+          {
+            "feature": "Throat space",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "A comparison site lists 20 in for the Amara 20 and 15 in for the Moxie; Handi Quilter's own post puts safe usable area at about 14 in against about 10 in.",
+            "check": "Stitch Machine Ledger restates maker figures; usable area is Handi Quilter's marketing figure",
+            "examples": [
+              {
+                "claim_id": "cb67d20c2",
+                "claim": "A comparison site lists 20 inches for the Amara 20 and 15 for the Moxie.",
+                "quote": "Amara 20: 20 inches. Amara 24: 24 inches.",
+                "url": "https://stitchmachineledger.com/comparisons/handi-quilter-moxie-vs-amara"
+              }
+            ]
+          },
+          {
+            "feature": "Speed and stitch range",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "Handi Quilter lists up to 2,500 spm and 4 to 24 stitches per inch on the Amara 20, against 1,800 spm and 4 to 18 on the Moxie.",
+            "check": "maker figures, matched on Handi Quilter's comparison page",
+            "examples": [
+              {
+                "claim_id": "c6e4c146a",
+                "claim": "The comparison site gives the Amara a higher top speed and wider stitch length range than the Moxie.",
+                "quote": "Amara 20 and 24 list speeds up to 2,500 SPM and 4 to 24 SPI.",
+                "url": "https://stitchmachineledger.com/comparisons/handi-quilter-moxie-vs-amara"
+              }
+            ]
+          },
+          {
+            "feature": "Pro-Stitcher compatibility",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "The Amara 20 is listed as Pro-Stitcher Premium compatible; the Moxie takes Pro-Stitcher Lite.",
+            "check": "Handi Quilter's comparison page; compatible is not the same as included",
+            "examples": [
+              {
+                "claim_id": "c2510fd5c",
+                "claim": "The comparison site says the Amara 20 takes Pro-Stitcher Premium where the Moxie takes Lite.",
+                "quote": "Amara 20 and Amara 24 are Pro-Stitcher Premium compatible",
+                "url": "https://stitchmachineledger.com/comparisons/handi-quilter-moxie-vs-amara"
+              }
+            ]
+          },
+          {
+            "feature": "Frame or table",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "The Amara 20 comes with a Studio3 frame in 10 or 12 ft; the Moxie comes with the 8 ft Loft frame, and both list the 5 ft Little Foot frame as compatible.",
+            "check": "Handi Quilter product pages and comparison post",
+            "examples": [
+              {
+                "claim_id": "c5fffe432",
+                "claim": "The comparison site gives the Amara 20 the Studio3 frame family and the Moxie the Loft and Little Foot.",
+                "quote": "Amara 20 uses Studio3 / compatible frame options",
+                "url": "https://stitchmachineledger.com/comparisons/handi-quilter-moxie-vs-amara"
+              }
+            ]
+          },
+          {
+            "feature": "Maker price",
+            "urls": 0,
+            "classes": [],
+            "summary": "Handi Quilter lists the Moxie from $5,495 and the Amara 20 from $12,995; the Amara 20 page shows a packaging weight of 98 lb, which is box weight, not machine weight.",
+            "check": "Handi Quilter comparison and product pages, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "Amara ST",
+        "label": "HQ Amara ST (20 in sit down)",
+        "rows": [
+          {
+            "feature": "Frame or table",
+            "urls": 2,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "The Amara ST is the 20 in sit down version on a lift table or InSight table; the Amara 20 is frame mounted.",
+            "check": "Handi Quilter comparison page and FAQ",
+            "examples": [
+              {
+                "claim_id": "c47feebf9",
+                "claim": "The comparison site describes the Amara ST as a 20 inch stationary table machine.",
+                "quote": "20-inch stationary/table longarm path.",
+                "url": "https://stitchmachineledger.com/comparisons/handi-quilter-moxie-vs-amara"
+              },
+              {
+                "claim_id": "cdda92a1b",
+                "claim": "Handi Quilter's FAQ calls the Amara ST the sit down version of the Amara line.",
+                "quote": "The Amara ST is a sit-down longarm version of the Amara line.",
+                "url": "https://handiquilter.com/compare/hq-machine-comparison"
+              }
+            ]
+          },
+          {
+            "feature": "Pro-Stitcher compatibility",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "Handi Quilter says its sit down models do not work with Pro-Stitcher; the Amara 20 is Premium compatible.",
+            "check": "Handi Quilter FAQ and comparison table",
+            "examples": [
+              {
+                "claim_id": "c48fc32db",
+                "claim": "Handi Quilter says its sit down models do not work with Pro-Stitcher.",
+                "quote": "The sit-down models are not compatible with Pro-Stitcher systems.",
+                "url": "https://handiquilter.com/compare/hq-machine-comparison"
+              }
+            ]
+          },
+          {
+            "feature": "Maker price",
+            "urls": 0,
+            "classes": [],
+            "summary": "Handi Quilter lists the Amara ST from $8,495 and the Amara 20 from $12,995.",
+            "check": "Handi Quilter comparison page, 2026-10-02",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "Moxie XL",
+        "label": "HQ Moxie XL (18 in)",
+        "rows": [
+          {
+            "feature": "Throat space",
+            "urls": 1,
+            "classes": [
+              "forum"
+            ],
+            "summary": "One forum member who tested an Amara says its harp is 2 in longer than the Moxie XL (20 in vs 18 in).",
+            "check": "forum comment; the 18 in figure is Handi Quilter's",
+            "examples": [
+              {
+                "claim_id": "c0c28a729",
+                "claim": "A forum member who tested an Amara says it has a 2 inch longer harp and takes a 12 foot frame; the Moxie XL tops out at 10 feet.",
+                "quote": "The Amara has a 2” longer harp and will work with a 12’ frame",
+                "url": "https://sewing.patternreview.com/SewingDiscussions/topic/127484"
+              }
+            ]
+          },
+          {
+            "feature": "Frame or table",
+            "urls": 1,
+            "classes": [
+              "forum"
+            ],
+            "summary": "The same member says the Moxie XL tops out at a 10 ft frame while the Amara takes 12 ft. Handi Quilter lists the Moxie XL on the 8 ft Loft frame with a 2 ft extension.",
+            "check": "forum comment, consistent with Handi Quilter's FAQ",
+            "examples": [
+              {
+                "claim_id": "c0c28a729",
+                "claim": "A forum member who tested an Amara says it has a 2 inch longer harp and takes a 12 foot frame; the Moxie XL tops out at 10 feet.",
+                "quote": "The Amara has a 2” longer harp and will work with a 12’ frame",
+                "url": "https://sewing.patternreview.com/SewingDiscussions/topic/127484"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "model": "Amara 24",
+        "label": "HQ Amara 24 (formerly Forte 24)",
+        "rows": [
+          {
+            "feature": "Throat space",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "Handi Quilter lists 24 in of throat on the Amara 24 against 20 in; the manual gives the sewing opening as 9 x 24.5 in against 9 x 20.5 in.",
+            "check": "Handi Quilter FAQ and the Amara 20 and 24 manual v1.6",
+            "examples": [
+              {
+                "claim_id": "ca2fbd3af",
+                "claim": "Handi Quilter's FAQ says the Amara 24 widens the throat to 24 inches against 20 on the Amara 20.",
+                "quote": "The Amara 24 expands the throat to 24″",
+                "url": "https://handiquilter.com/compare/hq-machine-comparison"
+              }
+            ]
+          },
+          {
+            "feature": "Frame or table",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "Handi Quilter's description gives the Amara 24 a Gallery3 frame in 10, 12 or 15 ft; its comparison table lists Gallery2 in 10, 12 or 14 ft. The Amara 20 is listed on Studio3 in 10 or 12 ft.",
+            "check": "Handi Quilter's page contradicts itself on Gallery2 vs Gallery3 and the longest length",
+            "examples": [
+              {
+                "claim_id": "cdbb076a6",
+                "claim": "Handi Quilter's description gives the Amara 24 a Gallery3 frame in 10, 12 or 15 foot lengths and the Amara 20 a Studio3 in 10 or 12.",
+                "quote": "HQ Gallery3 Frame (available in 10-foot, 12-foot, or 15-foot lengths)",
+                "url": "https://handiquilter.com/compare/hq-machine-comparison"
+              }
+            ]
+          },
+          {
+            "feature": "Stitch regulation",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "A Handi Quilter FAQ says the Amara 24 and Infinity have more refined sensors and extra modes. Both Amara pages list Precision and Cruise.",
+            "check": "single maker FAQ line; not confirmed elsewhere",
+            "examples": [
+              {
+                "claim_id": "c4a00110b",
+                "claim": "A Handi Quilter FAQ says the Amara 24 and Infinity have more refined regulation sensors and additional modes than lower models.",
+                "quote": "Higher-end machines like the Amara 24 and Infinity offer more refined sensors and additional modes",
+                "url": "https://handiquilter.com/compare/hq-machine-comparison"
+              }
+            ]
+          },
+          {
+            "feature": "Maker sewing opening",
+            "urls": 0,
+            "classes": [],
+            "summary": "The shared Amara manual lists a 9 x 20.5 in sewing opening for the Amara 20 and 9 x 24.5 in for the Amara 24; the marketed throats are 20 and 24 in.",
+            "check": "Amara 20 and 24 User Manual v1.6, 2026-10-02",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": [
+      {
+        "model": "Grace Company Q'nique (19X, 21X Elite and others)",
+        "claims": 10,
+        "sources": 3,
+        "favors": {
+          "this": 6,
+          "other": 4,
+          "mixed": 0
+        },
+        "dimensions": {
+          "this": [
+            {
+              "dimension": "vibration",
+              "n": 2
+            },
+            {
+              "dimension": "build and longevity",
+              "n": 1
+            },
+            {
+              "dimension": "market positioning",
+              "n": 1
+            },
+            {
+              "dimension": "throat space",
+              "n": 1
+            }
+          ],
+          "other": [
+            {
+              "dimension": "owner maintenance",
+              "n": 1
+            },
+            {
+              "dimension": "computerized upgrade price",
+              "n": 1
+            },
+            {
+              "dimension": "price with computerization",
+              "n": 1
+            },
+            {
+              "dimension": "price",
+              "n": 1
+            }
+          ]
+        },
+        "examples": [
+          {
+            "claim_id": "ca8813bd2",
+            "dimension": "vibration",
+            "favors": "this",
+            "claim": "After brief use of both, buyer found the Handi Quilter vibrated less than the Grace.",
+            "quote": "The HandiQuilter seemed to vibrate less than the Grace",
+            "url": "https://www.quiltingboard.com/main-f1/help-advice-longarm-machine-t321795.html"
+          },
+          {
+            "claim_id": "c6ee46af1",
+            "dimension": "price with computerization",
+            "favors": "other",
+            "claim": "A quilter who owned both says her Grace cost half as much as the similar size HQ with Pro-Stitcher.",
+            "quote": "it was half as much as the similar size HQ + Pro-Stitcher",
+            "url": "https://www.quiltingboard.com/main-f1/help-advice-longarm-machine-t321795.html"
+          }
+        ]
+      }
+    ]
   },
   "handi-quilter-moxie": {
     "slug": "handi-quilter-moxie",
@@ -12226,6 +16759,1240 @@ export const rollupData: Record<string, Rollup> = {
       }
     ],
     "rivals": []
+  },
+  "janome-coverpro-2000cpx": {
+    "slug": "janome-coverpro-2000cpx",
+    "status": "approved",
+    "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy (instructed 2026-10-02, via Claude; human review after live)",
+    "reviewedOn": "2026-10-02",
+    "generated": "2026-10-02",
+    "method": {
+      "sources": 27,
+      "itemsCollected": 162,
+      "statements": 101,
+      "voices": 20,
+      "ownerVoices": 14,
+      "dateRange": [
+        2012,
+        2026
+      ],
+      "byClass": {
+        "reddit": {
+          "sources": 11,
+          "items": 139
+        },
+        "retailer": {
+          "sources": 3,
+          "items": 10
+        },
+        "editorial": {
+          "sources": 8,
+          "items": 8
+        },
+        "forum": {
+          "sources": 5,
+          "items": 5
+        }
+      },
+      "blocked": 0,
+      "evidence": "moderate",
+      "pooledExcluded": 0,
+      "thresholds": "strong = at least 15 owner voices, 3 source classes and a 3 year span; recurring theme = at least 5 voices from 3 sources in 2 source classes"
+    },
+    "notes": [
+      "Counts are statements extracted from each review, comment or page and grouped by theme. They are not a poll, a rating or a failure rate.",
+      "Retailer reviews are seller-collected and skew positive. Amazon's 4.5 from 67 ratings sits on a listing that shares a parent with the CoverPro 1000CPX (and its reviews name the 900CPX and 1000CPX), so it is not a 2000CPX rating and none of its text counts toward the themes below. The Walmart listing shows one 4-star review. Neither retailer's average is quoted as a 2000CPX rating. Both retailer sources are sampled: 8 top Amazon reviews of 67 ratings, and the 1 Walmart review.",
+      "Reddit and forum posts are self-selected, and many are people asking for help, so problems are over-represented. Skipped stitches are the most repeated complaint; owners are split between never seeing them and fighting them for years.",
+      "Many Reddit and forum posts say 'my CoverPro' or 'the 2000' without a suffix. Where a post names the 1000CPX, 900CPX or 3000 it is a sibling claim and is not counted as 2000CPX evidence; where the model is unclear it is also left out.",
+      "Two names need care: the Janome page and manual are for the CoverPro 2000CPX only. 'Cover Pro 2000' without the CPX, and a '2 needle 2000CPX', appear in a few posts but no Janome document we read lists either one.",
+      "Themes were tagged by a model and the quotes behind them were machine-checked against the source text. Examples link to the original post.",
+      "PatternReview reviews written more than six months ago are login-gated, so only their comment threads were read. Facebook groups, YouTube comments and eBay were not collected."
+    ],
+    "ownerNote": "Read the problem counts below with care. Reddit threads about this machine are mostly people asking for help, so problems are over-represented. The retailers' own ratings under 'How we collected this' are the better gauge of overall satisfaction.",
+    "summary": "Owner and buyer signals on the Janome CoverPro 2000CPX are split. People who like it call it a solid, quiet machine that threads easily and gives clean cover hems once the needles and tension are right, and several say they have never had a skipped stitch. Others describe skipped stitches, tunnelling and a long learning curve, and a few gave up and moved to another brand. The repeated advice is the same: use ELx705 needles (ballpoint for knits), check the threading and the tension discs, and expect to spend time on settings. Some owners find the free arm too small to be useful, and Janome's manual does not mention oiling, which one owner says cured her skipping. This read covers 11 Reddit threads, 5 PatternReview pages, 4 blog write-ups and 3 retailer listings, from 2012 to 2026. Reddit threads lean toward people asking for help, so problems are over-represented here.",
+    "themes": [
+      {
+        "theme": "feet_accessories",
+        "label": "Feet and accessories",
+        "statements": 17,
+        "voices": 10,
+        "ownerVoices": 9,
+        "sources": 10,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 3,
+          "editorial": 3,
+          "retailer": 1,
+          "forum": 3
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 1,
+          "neutral": 6
+        },
+        "years": [
+          2018,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c3e2e52c9",
+            "polarity": "negative",
+            "claim": "Owner notes it needs special needles while the Juki uses regular ones.",
+            "quote": "It needs special needles",
+            "url": "https://www.reddit.com/r/sewing/comments/8bvz6n/will_a_home_serger_or_coverstitch_machine_work_on/dxb910a/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cdab09aeb",
+            "polarity": "negative",
+            "claim": "Commenter says the supplied Schmetz EL needles skipped a lot on knits.",
+            "quote": "on knits I had lots of skipped stitches",
+            "url": "https://sewing.patternreview.com/review/machine/6869",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "cb992ae5e",
+            "polarity": "positive",
+            "claim": "Commenter says raising the foot pressure knob to a set height transformed the machine.",
+            "quote": "I turned the pressure so the knob is raised exactly",
+            "url": "https://sewing.patternreview.com/review/machine/6332",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "cfdda969a",
+            "polarity": "positive",
+            "claim": "Owner says ELx705 SUK ball point needles gave even stitches with no skips, even over thicker seams.",
+            "quote": "nice even stitches and none skipped, even over thicker seams",
+            "url": "https://sewing.patternreview.com/review/machine/6869",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "reliability_defects",
+        "label": "Reliability and defects",
+        "statements": 21,
+        "voices": 9,
+        "ownerVoices": 9,
+        "sources": 9,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 4,
+          "editorial": 3,
+          "forum": 2
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 1,
+          "mixed": 5,
+          "neutral": 0
+        },
+        "years": [
+          2018,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c657f14d8",
+            "polarity": "negative",
+            "claim": "Commenter says she is glad to have got rid of hers and changed brand.",
+            "quote": "I am soooo glad I got rid of mine",
+            "url": "https://sewing.patternreview.com/review/machine/6332",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "c79ce5757",
+            "polarity": "negative",
+            "claim": "Commenter owner finds skipped stitches annoying when sewing knits over seams.",
+            "quote": "The skipping stitches has been annoying",
+            "url": "https://sewinginsight.com/reviews/janome-cover-pro-2000-cpx-review",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c5c053a9b",
+            "polarity": "positive",
+            "claim": "Owner reports three years of use on all their knits.",
+            "quote": "I use it for all my knits",
+            "url": "https://www.reddit.com/r/sewing/comments/r3vic6/coverstitch_brother_cv3550_vs_janome_coverpro/hmj0wbb/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cada05b44",
+            "polarity": "positive",
+            "claim": "Owner of the Janome 2000 CPX says they have never had a problem with it, using the right needles bought in bulk.",
+            "quote": "never had a single problem with it",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1q226xi/can_i_realistically_learn_cover_stitch_just_to/nxdxsm2/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cf4fa94bf",
+            "polarity": "mixed",
+            "claim": "Commenter owner of a couple of years has mixed feelings.",
+            "quote": "mixed feelings about it",
+            "url": "https://sewing.patternreview.com/review/machine/6869",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "cf6da87af",
+            "polarity": "mixed",
+            "claim": "Owner concedes some machines are bad examples.",
+            "quote": "there are not some bad eggs out there",
+            "url": "https://www.thelaststitch.com/video-janome-coverpro-2000cpx-review",
+            "source_class": "editorial"
+          }
+        ]
+      },
+      {
+        "theme": "tension",
+        "label": "Tension",
+        "statements": 10,
+        "voices": 8,
+        "ownerVoices": 6,
+        "sources": 8,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit",
+          "retailer"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "editorial": 3,
+          "retailer": 1,
+          "forum": 3
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "years": [
+          2018,
+          2018
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c040a5914",
+            "polarity": "negative",
+            "claim": "Owner says tension is often a little off out of the box, so buying in person helps.",
+            "quote": "the tension to be a little off right out of the box",
+            "url": "https://www.reddit.com/r/sewing/comments/8bvz6n/will_a_home_serger_or_coverstitch_machine_work_on/dxb910a/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c09ea7d7c",
+            "polarity": "negative",
+            "claim": "A 2000CPX owner says they still have difficulty getting tension right.",
+            "quote": "I still have difficulties getting the tension right",
+            "url": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c97b9a36e",
+            "polarity": "positive",
+            "claim": "Owner says skipping the lower looper tension disc fixed an overly tight looper thread.",
+            "quote": "not put the looper thread through the lower tension disc",
+            "url": "https://sewing.patternreview.com/review/machine/6869",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "stitch_quality",
+        "label": "Stitch quality",
+        "statements": 10,
+        "voices": 6,
+        "ownerVoices": 5,
+        "sources": 5,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 2,
+          "editorial": 3,
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 2,
+          "mixed": 3,
+          "neutral": 0
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c70413daa",
+            "polarity": "negative",
+            "claim": "Owner finds the chain stitch not sturdy enough for hemming knits.",
+            "quote": "not sturdy enough for hemming knits",
+            "url": "https://www.thelaststitch.com/janome-coverpro-2000-review",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c73f48e41",
+            "polarity": "negative",
+            "claim": "Owner finds round chain stitches unravel, usually after a few washes, despite the ending tricks.",
+            "quote": "it usually unravels after a few washes",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1r6ng5r/unravelling_chain_stitch_on_coverpro_2000cpx/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "cbdca5667",
+            "polarity": "positive",
+            "claim": "Blogger says the 3 needle stitch with serged seams works as a mock flatlock.",
+            "quote": "It functions just like a flatlock",
+            "url": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c9d5c1126",
+            "polarity": "positive",
+            "claim": "Owner suggests woolly nylon in the lower looper for better seam coverage.",
+            "quote": "you can use woolly nylon in the lower looper",
+            "url": "https://www.thelaststitch.com/janome-coverpro-2000-review",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c33290784",
+            "polarity": "mixed",
+            "claim": "Owner says chain stitch unravelling is less of a problem with two needles on a lighter knit.",
+            "quote": "less of a problem when I'm using two needles rather than just one",
+            "url": "https://www.reddit.com/r/SewingForBeginners/comments/1r6ng5r/unravelling_chain_stitch_on_coverpro_2000cpx/o5slde7/",
+            "source_class": "reddit"
+          }
+        ]
+      },
+      {
+        "theme": "throat_workspace",
+        "label": "Throat and workspace",
+        "statements": 6,
+        "voices": 6,
+        "ownerVoices": 3,
+        "sources": 6,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "editorial": 4,
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 3,
+          "mixed": 0,
+          "neutral": 3
+        },
+        "years": [
+          2018,
+          2018
+        ],
+        "recurrence": "recurring",
+        "examples": [
+          {
+            "claim_id": "c90a18ab0",
+            "polarity": "negative",
+            "claim": "Commenter says the free arm is not much use.",
+            "quote": "The free arm is not much use",
+            "url": "https://sewing.patternreview.com/review/machine/6869",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "c451dc348",
+            "polarity": "negative",
+            "claim": "Blogger does not use the free arm because it can stretch garments, and flips small circles instead.",
+            "quote": "I find it can stretch stuff out too much",
+            "url": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx",
+            "source_class": "editorial"
+          }
+        ]
+      },
+      {
+        "theme": "threading",
+        "label": "Threading and loopers",
+        "statements": 5,
+        "voices": 4,
+        "ownerVoices": 3,
+        "sources": 4,
+        "sourceClasses": [
+          "editorial",
+          "forum",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "editorial": 2,
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 3,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2018,
+          2018
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c7691ed1e",
+            "polarity": "negative",
+            "claim": "Owner says it does not tolerate wooly nylon thread.",
+            "quote": "it also does not tolerate Wooly Nylon thread",
+            "url": "https://www.reddit.com/r/sewing/comments/8bvz6n/will_a_home_serger_or_coverstitch_machine_work_on/dxb910a/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c6a461cee",
+            "polarity": "positive",
+            "claim": "Blogger says the single looper is very easy to thread, like a sewing machine.",
+            "quote": "There is only 1 looper to thread",
+            "url": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c2a13396a",
+            "polarity": "positive",
+            "claim": "Commenter owner improved results by ensuring thread sat in the tension disc.",
+            "quote": "I had some improvement when I ensured it was in the tension disc",
+            "url": "https://sewing.patternreview.com/review/machine/6869",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "support_service",
+        "label": "Dealer support and service",
+        "statements": 5,
+        "voices": 4,
+        "ownerVoices": 0,
+        "sources": 4,
+        "sourceClasses": [
+          "editorial",
+          "reddit"
+        ],
+        "classVoices": {
+          "editorial": 3,
+          "reddit": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 4
+        },
+        "years": [
+          2026,
+          2026
+        ],
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "differential_feed",
+        "label": "Differential feed",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 2,
+        "sources": 3,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 3
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": null,
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "cc8b908ce",
+            "polarity": "positive",
+            "claim": "Owner says differential feed stops the hem from growing on stretchy knits.",
+            "quote": "The differential feed keeps the hem from growing",
+            "url": "https://www.thelaststitch.com/janome-coverpro-2000-review",
+            "source_class": "editorial"
+          }
+        ]
+      },
+      {
+        "theme": "noise_vibration",
+        "label": "Noise and vibration",
+        "statements": 3,
+        "voices": 3,
+        "ownerVoices": 2,
+        "sources": 3,
+        "sourceClasses": [
+          "editorial",
+          "forum"
+        ],
+        "classVoices": {
+          "editorial": 1,
+          "forum": 2
+        },
+        "polarity": {
+          "positive": 2,
+          "negative": 1,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c55f28ae9",
+            "polarity": "negative",
+            "claim": "Same buyer reports an intermittent rattle while sewing.",
+            "quote": "rattle while sewing",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/117042",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "c70e489e8",
+            "polarity": "positive",
+            "claim": "Owner of one month calls it a solid machine that chugs along quietly with a learning curve.",
+            "quote": "a solid machine that chugs quietly along",
+            "url": "https://sewing.patternreview.com/review/machine/6869",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "fabric_handling",
+        "label": "Fabric handling (knits, wovens)",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "editorial",
+          "reddit"
+        ],
+        "classVoices": {
+          "reddit": 1,
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": [
+          2018,
+          2018
+        ],
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ca42ae36a",
+            "polarity": "negative",
+            "claim": "Owner says it will not sew over a serged seam for a flat double-layer look.",
+            "quote": "it won't work over a serged seam",
+            "url": "https://www.reddit.com/r/sewing/comments/8bvz6n/will_a_home_serger_or_coverstitch_machine_work_on/dxb910a/",
+            "source_class": "reddit"
+          },
+          {
+            "claim_id": "c14025418",
+            "polarity": "negative",
+            "claim": "Commenter owner says it runs smoothly but has trouble with multiple layers.",
+            "quote": "I have been having issues with doing multiple layers",
+            "url": "https://sewinginsight.com/reviews/janome-cover-pro-2000-cpx-review",
+            "source_class": "editorial"
+          }
+        ]
+      },
+      {
+        "theme": "learning_curve",
+        "label": "Learning curve",
+        "statements": 5,
+        "voices": 2,
+        "ownerVoices": 2,
+        "sources": 2,
+        "sourceClasses": [
+          "editorial",
+          "forum"
+        ],
+        "classVoices": {
+          "editorial": 1,
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 2,
+          "mixed": 0,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "c8ca20a14",
+            "polarity": "negative",
+            "claim": "Owner calls the instruction manual too basic.",
+            "quote": "a too basic instruction manual",
+            "url": "https://sewing.patternreview.com/review/machine/6869",
+            "source_class": "forum"
+          },
+          {
+            "claim_id": "cc2d5640f",
+            "polarity": "negative",
+            "claim": "Blogger says learning the manual tension was a steep curve.",
+            "quote": "definitely a steep learning curve for me",
+            "url": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx",
+            "source_class": "editorial"
+          }
+        ]
+      },
+      {
+        "theme": "lighting",
+        "label": "Lighting",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 0,
+        "sources": 2,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 2
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": null,
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "oiling_maintenance",
+        "label": "Oiling and maintenance",
+        "statements": 3,
+        "voices": 2,
+        "ownerVoices": 1,
+        "sources": 2,
+        "sourceClasses": [
+          "editorial",
+          "forum"
+        ],
+        "classVoices": {
+          "editorial": 1,
+          "forum": 1
+        },
+        "polarity": {
+          "positive": 1,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": null,
+        "recurrence": "reported",
+        "examples": [
+          {
+            "claim_id": "ce8922d46",
+            "polarity": "positive",
+            "claim": "Owner says skipped stitches improved after the oil spread.",
+            "quote": "after the oil had spread properly the stitches became better",
+            "url": "https://sewing.patternreview.com/SewingDiscussions/topic/105008",
+            "source_class": "forum"
+          }
+        ]
+      },
+      {
+        "theme": "thread_trimmer",
+        "label": "Thread trimmer",
+        "statements": 2,
+        "voices": 2,
+        "ownerVoices": 0,
+        "sources": 2,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 2
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 2
+        },
+        "years": null,
+        "recurrence": "reported",
+        "examples": []
+      },
+      {
+        "theme": "build_quality",
+        "label": "Build quality",
+        "statements": 2,
+        "voices": 1,
+        "ownerVoices": 1,
+        "sources": 1,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 1,
+          "neutral": 0
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": [
+          {
+            "claim_id": "c43f9d540",
+            "polarity": "negative",
+            "claim": "Owner complains that the bed has no seam guide lines.",
+            "quote": "No seam guides on the sewing bed",
+            "url": "https://www.thelaststitch.com/janome-coverpro-2000-review",
+            "source_class": "editorial"
+          },
+          {
+            "claim_id": "c441ceac2",
+            "polarity": "positive",
+            "claim": "Owner calls it a sturdy, high-quality machine that is fairly reliable.",
+            "quote": "a sturdy high-quality machine that is fairly reliable",
+            "url": "https://www.thelaststitch.com/janome-coverpro-2000-review",
+            "source_class": "editorial"
+          }
+        ]
+      },
+      {
+        "theme": "speed",
+        "label": "Speed and speed control",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "cutting_trimming",
+        "label": "Cutting and trimming",
+        "statements": 1,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      },
+      {
+        "theme": "weight_portability",
+        "label": "Weight and portability",
+        "statements": 2,
+        "voices": 1,
+        "ownerVoices": 0,
+        "sources": 1,
+        "sourceClasses": [
+          "editorial"
+        ],
+        "classVoices": {
+          "editorial": 1
+        },
+        "polarity": {
+          "positive": 0,
+          "negative": 0,
+          "mixed": 0,
+          "neutral": 1
+        },
+        "years": null,
+        "recurrence": "one-off",
+        "examples": []
+      }
+    ],
+    "ratings": [
+      {
+        "retailer": "amazon.com",
+        "url": "https://www.amazon.com/dp/B013I7MB1M",
+        "pageRating": 4.5,
+        "pageCount": 67,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 1,
+          "4": 1,
+          "5": 6
+        },
+        "lowRated": 1,
+        "sampled": "8 top reviews (8 US, 0 other countries) of 67 ratings"
+      },
+      {
+        "retailer": "walmart.com",
+        "url": "https://www.walmart.com/reviews/product/10589669074",
+        "pageRating": 4,
+        "pageCount": 1,
+        "fetched": "2026-10-02",
+        "distribution": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "5": 0
+        },
+        "lowRated": 0,
+        "sampled": "1 of 1 reviews: every 1 to 3 star page plus the top relevance pages (1 pages read)"
+      }
+    ],
+    "documentChecks": [
+      {
+        "label": "Speed",
+        "juki": "Page: up to 1,000 spm.",
+        "others": "Matches our spec. Dealer chart gives 1,000 for the 2000CPX, 1000CPX and 900CPX alike.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome product page",
+            "url": "https://www.janome.com/product/coverpro-2000cpx/"
+          }
+        ],
+        "field": "maxSpm",
+        "source": "page"
+      },
+      {
+        "label": "Differential feed",
+        "juki": "Page: 0.5 to 2.25.",
+        "others": "Matches our spec.",
+        "status": "confirmed",
+        "links": [
+          {
+            "label": "Janome product page",
+            "url": "https://www.janome.com/product/coverpro-2000cpx/"
+          },
+          {
+            "label": "Janome instruction book",
+            "url": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf"
+          }
+        ],
+        "field": "differentialFeed",
+        "source": "page"
+      },
+      {
+        "label": "Needles in the box",
+        "juki": "Manual: installed with #80/12; standard set 2 x #80/12 and 3 x #90/14 (ELx705). Page: needles listed as an optional accessory.",
+        "others": "Our spec said 90/14 supplied.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome instruction book",
+            "url": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf"
+          },
+          {
+            "label": "Janome product page",
+            "url": "https://www.janome.com/product/coverpro-2000cpx/"
+          }
+        ],
+        "field": "needleSystem",
+        "source": "manual"
+      },
+      {
+        "label": "Weight",
+        "juki": "Page: 19 lb.",
+        "others": "Dealer chart: 17.8 lb for the 2000CPX and 19 lb for the 1000CPX. Amazon listing: 23 lb.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome product page",
+            "url": "https://www.janome.com/product/coverpro-2000cpx/"
+          },
+          {
+            "label": "Ken's Sewing Center comparison chart",
+            "url": "https://www.kenssewingcenter.com/media/sparsh/product_attachment/CoverPro_Comp_Chart.pdf"
+          }
+        ],
+        "field": "weightLb",
+        "source": "page"
+      },
+      {
+        "label": "US warranty",
+        "juki": "Limited 25 year (materials and workmanship), 5 year electronic components, 1 year labor; void if not bought from an authorized US dealer.",
+        "others": "Our spec said 2 years on electrical parts.",
+        "status": "differs",
+        "links": [
+          {
+            "label": "Janome warranty PDF",
+            "url": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
+          },
+          {
+            "label": "Janome warranty page",
+            "url": "https://www.janome.com/support/warranty/"
+          }
+        ],
+        "field": "warrantyUs",
+        "source": "warranty-pdf"
+      },
+      {
+        "label": "CoverPro 1000CPX",
+        "juki": "Dealer chart: no Tension Level Control mark; otherwise the same feature list.",
+        "others": "1000CPX weight on the chart is 19 lb.",
+        "status": "dealer only",
+        "links": [
+          {
+            "label": "Ken's Sewing Center comparison chart",
+            "url": "https://www.kenssewingcenter.com/media/sparsh/product_attachment/CoverPro_Comp_Chart.pdf"
+          }
+        ],
+        "field": "siblingCoverPro1000CPX",
+        "source": "dealer-chart"
+      },
+      {
+        "label": "CoverPro 900CPX",
+        "juki": "Dealer chart: 1 or 2 needles, 5 mm width, no three-needle width.",
+        "others": "Weight 18.7 lb on the chart.",
+        "status": "dealer only",
+        "links": [
+          {
+            "label": "Ken's Sewing Center comparison chart",
+            "url": "https://www.kenssewingcenter.com/media/sparsh/product_attachment/CoverPro_Comp_Chart.pdf"
+          }
+        ],
+        "field": "siblingCoverPro900CPX",
+        "source": "dealer-chart"
+      }
+    ],
+    "siblings": [
+      {
+        "model": "1000CPX",
+        "label": "Janome CoverPro 1000CPX",
+        "rows": [
+          {
+            "feature": "Looper tension lever (TLC)",
+            "urls": 3,
+            "classes": [
+              "editorial",
+              "forum"
+            ],
+            "summary": "Sewing Insight (quoting a shop owner), a dealer page and a PatternReview member say the 2000CPX adds the looper tension switching lever, sold as Tension Level Control. A dealer chart marks Tension Level Control for the 2000CPX only. Janome's 2000CPX manual lists the lever.",
+            "check": "Janome 2000CPX manual and page confirm the lever; no Janome 1000CPX document read",
+            "examples": [
+              {
+                "claim_id": "c216502aa",
+                "claim": "Review says the 2000 CPX has a looper tension switching lever the 1000 CPX lacks.",
+                "quote": "The 2000 CPX has a looper tension switching lever",
+                "url": "https://sewinginsight.com/reviews/janome-cover-pro-2000-cpx-review"
+              },
+              {
+                "claim_id": "cbdece187",
+                "claim": "Shop owner says the only real difference from the 1000 CPX is the looper tension switching lever.",
+                "quote": "the only real difference between the 2000 CPX and the Janome 1000 CPX",
+                "url": "https://sewinginsight.com/reviews/janome-cover-pro-2000-cpx-review"
+              },
+              {
+                "claim_id": "cf07e7076",
+                "claim": "Dealer says the 2000CPX adds Tension Level Control over the 1000CPX.",
+                "quote": "The 2000CPX adds the Tension Level Control (TLC) system over the 1000CPX",
+                "url": "https://www.bohofabrics.com/products/janome-coverpro-2000cpx-coverstitch-machine"
+              }
+            ]
+          },
+          {
+            "feature": "Overall",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "A blogger who bought the 2000CPX says the two have minimal differences, and a 1000CPX owner doubts the 2000 works much differently.",
+            "check": "two comments on one blog page",
+            "examples": [
+              {
+                "claim_id": "cecd59435",
+                "claim": "Blogger who bought the 2000CPX says it has minimal differences from the 1000CPX, mainly a little easier threading.",
+                "quote": "It has minimal differences from the 1000CPX",
+                "url": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx"
+              },
+              {
+                "claim_id": "c3535fb53",
+                "claim": "A 1000CPX owner doubts the 2000 works much differently from the 1000.",
+                "quote": "I can’t imagine that the 2000 works much differently from the 1000",
+                "url": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx"
+              }
+            ]
+          },
+          {
+            "feature": "Lighting",
+            "urls": 1,
+            "classes": [
+              "forum"
+            ],
+            "summary": "One forum member says the 1000CPX has an incandescent bulb and the 2000CPX an LED; another says the 1000 bulb can be swapped for an LED. Janome lists an LED light on the 2000CPX.",
+            "check": "PatternReview, one thread; no 1000CPX maker document read",
+            "examples": [
+              {
+                "claim_id": "c33027a3d",
+                "claim": "Forum member says the 1000CPX has incandescent lighting and the 2000CPX LED.",
+                "quote": "the 1000CPX has incandescent lighting and the 2000CPX has LED lighting",
+                "url": "https://sewing.patternreview.com/SewingDiscussions/topic/116862"
+              },
+              {
+                "claim_id": "c24521396",
+                "claim": "Forum member says the 1000 can have its bulb switched to LED.",
+                "quote": "easily switch out the bulb on the 1000",
+                "url": "https://sewing.patternreview.com/SewingDiscussions/topic/116862"
+              }
+            ]
+          },
+          {
+            "feature": "Dealer-only sale",
+            "urls": 1,
+            "classes": [
+              "forum"
+            ],
+            "summary": "A forum poster relays a dealer saying the only difference is that the 2000 is packaged as a dealer only machine; another poster says the 1000CPX and 1000CP were dealer only as well. Janome says the 2000CPX is sold through authorized dealers.",
+            "check": "unverified, one PatternReview thread",
+            "examples": [
+              {
+                "claim_id": "c0bd49120",
+                "claim": "A poster relays a dealer saying the 2000 is packaged as a dealer only machine.",
+                "quote": "the 2000 is packaged as a dealer only machine",
+                "url": "https://sewing.patternreview.com/SewingDiscussions/topic/116862"
+              }
+            ]
+          },
+          {
+            "feature": "Threading",
+            "urls": 1,
+            "classes": [
+              "forum"
+            ],
+            "summary": "A forum member and a blogger who bought the 2000CPX say it is a little easier to thread than the 1000CPX. A 1000CPX owner says theirs is easy to thread too.",
+            "check": "opinion only; no maker claim",
+            "examples": [
+              {
+                "claim_id": "c2fce1d7a",
+                "claim": "Forum member says the 2000 is considered slightly easier to thread.",
+                "quote": "The 2000 is considered slightly easier to thread",
+                "url": "https://sewing.patternreview.com/SewingDiscussions/topic/116862"
+              }
+            ]
+          },
+          {
+            "feature": "Body size",
+            "urls": 1,
+            "classes": [
+              "forum"
+            ],
+            "summary": "One forum member says the 2000CPX has a squarer body with extra space compared with the roomy 1000 body. The dealer chart lists the same 4 x 5.5 in bed for both.",
+            "check": "PatternReview opinion against a dealer chart",
+            "examples": [
+              {
+                "claim_id": "c295714f3",
+                "claim": "Forum member says the 2000CPX body gives extra space even against the roomy 1000 body.",
+                "quote": "the square style body provides extra space even vs the roomy 1000 body",
+                "url": "https://sewing.patternreview.com/SewingDiscussions/topic/116862"
+              }
+            ]
+          },
+          {
+            "feature": "Dealer chart feature list",
+            "urls": 0,
+            "classes": [],
+            "summary": "Ken's Sewing Center's chart gives the 1000CPX the same stitch types, 1 to 4 mm length, 0.5 to 2.25 differential feed, 1,000 spm and 4 x 5.5 in bed as the 2000CPX, with no Tension Level Control mark, and lists 19 lb against 17.8 lb for the 2000CPX. Janome's own page gives 19 lb for the 2000CPX.",
+            "check": "dealer chart, 2026-10-02; not a Janome document",
+            "examples": []
+          }
+        ]
+      },
+      {
+        "model": "Cover Pro 2000",
+        "label": "Janome Cover Pro 2000 (no CPX, or the reported 2 needle 2000CPX)",
+        "rows": [
+          {
+            "feature": "Needle count",
+            "urls": 2,
+            "classes": [
+              "editorial",
+              "forum"
+            ],
+            "summary": "A blogger and a forum member say a 2 needle 2000CPX also exists and advise against it. Janome's 2000CPX page and manual describe one machine that sews with 1, 2 or 3 needles, and no Janome document we read lists a separate 2 needle version or a plain Cover Pro 2000.",
+            "check": "two reports, no maker document",
+            "examples": [
+              {
+                "claim_id": "c5e750951",
+                "claim": "Blogger says a 2 needle 2000CPX also exists and chose the 3 needle one.",
+                "quote": "There is also a 2 needle 2000CPX",
+                "url": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx"
+              },
+              {
+                "claim_id": "cf9cf13d4",
+                "claim": "Forum member thinks a 2 needle version of the 2000 may exist and advises against it.",
+                "quote": "there may also be a 2 needle version of the 2000",
+                "url": "https://sewing.patternreview.com/SewingDiscussions/topic/116862"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "model": "3000CPX",
+        "label": "Janome CoverPro 3000 (3000CPX, 3000P)",
+        "rows": [
+          {
+            "feature": "Top cover stitch",
+            "urls": 1,
+            "classes": [
+              "editorial"
+            ],
+            "summary": "A dealer page says buyers who want a top cover stitch should look at the CoverPro 3000P. The 2000CPX pages we read list chain, cover and triple cover only.",
+            "check": "dealer copy only; no Janome 3000 document read",
+            "examples": [
+              {
+                "claim_id": "c08195e23",
+                "claim": "Dealer says buyers wanting industrial-quality top cover hems should look at the 3000P.",
+                "quote": "if you want industrial-quality top cover hems",
+                "url": "https://www.bohofabrics.com/products/janome-coverpro-2000cpx-coverstitch-machine"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "model": "900CPX",
+        "label": "Janome CoverPro 900CPX",
+        "rows": [
+          {
+            "feature": "Looper tension lever (TLC)",
+            "urls": 1,
+            "classes": [
+              "forum"
+            ],
+            "summary": "One PatternReview member says her 900CPX has the tension lever too. The dealer chart marks Tension Level Control for the 2000CPX only and gives the 900CPX 1 or 2 needles.",
+            "check": "conflict, unverified, one forum post",
+            "examples": [
+              {
+                "claim_id": "cf064c027",
+                "claim": "Forum member says her 900CPX has that tension lever too, which conflicts with the dealer chart.",
+                "quote": "My 900CPX has that tension lever on it too",
+                "url": "https://sewing.patternreview.com/SewingDiscussions/topic/116862"
+              }
+            ]
+          },
+          {
+            "feature": "Dealer chart feature list",
+            "urls": 0,
+            "classes": [],
+            "summary": "The same dealer chart gives the 900CPX 1 or 2 needles, a 5 mm two-needle width, no three-needle width, no Tension Level Control and 18.7 lb, with the same 4 x 5.5 in bed and 1,000 spm.",
+            "check": "dealer chart, 2026-10-02; not a Janome document",
+            "examples": []
+          }
+        ]
+      }
+    ],
+    "rivals": [
+      {
+        "model": "Baby Lock coverstitch",
+        "claims": 7,
+        "sources": 5,
+        "favors": {
+          "this": 1,
+          "other": 6,
+          "mixed": 0
+        },
+        "dimensions": {
+          "this": [
+            {
+              "dimension": "price",
+              "n": 1
+            }
+          ],
+          "other": [
+            {
+              "dimension": "reliability",
+              "n": 3
+            },
+            {
+              "dimension": "overall",
+              "n": 2
+            },
+            {
+              "dimension": "ease of use",
+              "n": 1
+            }
+          ]
+        },
+        "examples": [
+          {
+            "claim_id": "ca166f3d8",
+            "dimension": "reliability",
+            "favors": "other",
+            "claim": "Commenter says the Baby Lock coverstitch she bought has been bulletproof.",
+            "quote": "been bullet proof",
+            "url": "https://sewing.patternreview.com/review/machine/6332"
+          },
+          {
+            "claim_id": "c6b568dbb",
+            "dimension": "price",
+            "favors": "this",
+            "claim": "Poster says price is the only reason to pick the Janome over the Baby Lock.",
+            "quote": "price was the only reason I would go for the Janome",
+            "url": "https://www.reddit.com/r/sewing/comments/1ks47n2/advice_for_cover_stitch/mtm3iz2/"
+          }
+        ]
+      }
+    ]
   },
   "janome-hd1000": {
     "slug": "janome-hd1000",

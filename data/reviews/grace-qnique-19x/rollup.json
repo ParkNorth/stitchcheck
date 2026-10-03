@@ -1,8 +1,8 @@
 {
   "slug": "grace-qnique-19x",
-  "status": "draft",
-  "reviewedBy": null,
-  "reviewedOn": null,
+  "status": "approved",
+  "reviewedBy": "Claude editor pass, draft applied after human sign-off by Jeremy (instructed 2026-10-02, via Claude; human review after live)",
+  "reviewedOn": "2026-10-02",
   "generated": "2026-10-02",
   "method": {
     "sources": 20,
@@ -155,7 +155,6 @@
   "documentChecks": [
     {
       "label": "Throat",
-      "grace": "19 in arm width, 8.9 in arm height (manual).",
       "others": "Dealers say 19 in. One Grace page says blocks up to 17 in, another up to 19 in; block size is not throat space.",
       "status": "confirmed",
       "links": [
@@ -169,11 +168,11 @@
         }
       ],
       "field": "throatIn",
-      "source": "grace-19x-manual PDF p.9 (Machine Specifications); grace-19x-elite-page"
+      "source": "grace-19x-manual PDF p.9 (Machine Specifications); grace-19x-elite-page",
+      "juki": "19 in arm width, 8.9 in arm height (manual)."
     },
     {
       "label": "Speed",
-      "grace": "90 to 2000 stitches per minute (manual). The Elite is 2600.",
       "others": "Dealers agree on 2000.",
       "status": "confirmed",
       "links": [
@@ -187,11 +186,11 @@
         }
       ],
       "field": "maxSpm",
-      "source": "grace-19x-manual PDF p.9; grace-19x-recert; grace-19x-elite-page"
+      "source": "grace-19x-manual PDF p.9; grace-19x-recert; grace-19x-elite-page",
+      "juki": "90 to 2000 stitches per minute (manual). The Elite is 2600."
     },
     {
       "label": "Weight and body size",
-      "grace": "41.5 lb (18.8 kg). Body 26.8 high x 15.6 wide x 32.8 long in.",
       "others": "No dealer page found lists weight.",
       "status": "confirmed",
       "links": [
@@ -201,11 +200,11 @@
         }
       ],
       "field": "weightLb",
-      "source": "grace-19x-manual PDF p.9"
+      "source": "grace-19x-manual PDF p.9",
+      "juki": "41.5 lb (18.8 kg). Body 26.8 high x 15.6 wide x 32.8 long in."
     },
     {
       "label": "Screen",
-      "grace": "2.4 in color touch display.",
       "others": "Dealer copy says 'full color OLED touchscreen'; Grace does not.",
       "status": "differs",
       "links": [
@@ -219,11 +218,11 @@
         }
       ],
       "field": "display",
-      "source": "grace-19x-manual PDF p.9, p.15; grace-19x-recert; grace-19x-elite-page"
+      "source": "grace-19x-manual PDF p.9, p.15; grace-19x-recert; grace-19x-elite-page",
+      "juki": "2.4 in color touch display."
     },
     {
       "label": "Needle",
-      "grace": "DPX5 MR, 134 MR or 1955 MR (multi-directional); size 16 for 60 wt, size 18 for 50 wt polyester.",
       "others": "Dealers list only the included sizes 16 and 18.",
       "status": "confirmed",
       "links": [
@@ -233,11 +232,11 @@
         }
       ],
       "field": "needleSystem",
-      "source": "grace-19x-manual PDF p.92 and p.111"
+      "source": "grace-19x-manual PDF p.92 and p.111",
+      "juki": "DPX5 MR, 134 MR or 1955 MR (multi-directional); size 16 for 60 wt, size 18 for 50 wt polyester."
     },
     {
       "label": "Bobbin winder",
-      "grace": "Built-in winder with automatic stop (19X manual).",
       "others": "Dealer copy treats the built-in winder as an Elite feature.",
       "status": "differs",
       "links": [
@@ -247,11 +246,11 @@
         }
       ],
       "field": "bobbin",
-      "source": "grace-19x-manual PDF p.15, p.48, p.9; grace-19x-recert"
+      "source": "grace-19x-manual PDF p.15, p.48, p.9; grace-19x-recert",
+      "juki": "Built-in winder with automatic stop (19X manual)."
     },
     {
       "label": "Oiling",
-      "grace": "After 20 hours of use, at project start and after 30 days idle; hook every other bobbin change.",
       "others": "Not stated at dealers.",
       "status": "confirmed",
       "links": [
@@ -261,11 +260,11 @@
         }
       ],
       "field": "oiling",
-      "source": "grace-19x-manual PDF p.81, p.88"
+      "source": "grace-19x-manual PDF p.81, p.88",
+      "juki": "After 20 hours of use, at project start and after 30 days idle; hook every other bobbin change."
     },
     {
       "label": "Warranty",
-      "grace": "2 yr limited on the machine and its electronic parts; 5 yr on the cast metal body; original owner only. (19X Elite: 10 yr cast body.)",
       "others": "Grace dealer page says 5 / 2 / 1 yr (casting, mechanical, electrical).",
       "status": "differs",
       "links": [
@@ -275,11 +274,11 @@
         }
       ],
       "field": "warrantyUs",
-      "source": "grace-warranty (seen 2026-10-02)"
+      "source": "grace-warranty (seen 2026-10-02)",
+      "juki": "2 yr limited on the machine and its electronic parts; 5 yr on the cast metal body; original owner only. (19X Elite: 10 yr cast body.)"
     },
     {
       "label": "Availability",
-      "grace": "No new 19X listing on graceframe.com; recertified units and the Elite comparison page remain.",
       "others": "Dealers still list new 19X units.",
       "status": "differs",
       "links": [
@@ -293,11 +292,11 @@
         }
       ],
       "field": "status",
-      "source": "grace-shop; grace-19x-page redirect; grace-19x-elite-page; graceframe.com/en/sewing-machines"
+      "source": "grace-shop; grace-19x-page redirect; grace-19x-elite-page; graceframe.com/en/sewing-machines",
+      "juki": "No new 19X listing on graceframe.com; recertified units and the Elite comparison page remain."
     },
     {
       "label": "Needle light",
-      "grace": "On or off from the touch display (manual); dimming is listed for the 19X Elite.",
       "others": "Dealer copy for the 19X says the needle light dims.",
       "status": "differs",
       "links": [
@@ -307,7 +306,8 @@
         }
       ],
       "field": "lighting",
-      "source": "grace-19x-manual PDF p.62 (Machine Settings screen)"
+      "source": "grace-19x-manual PDF p.62 (Machine Settings screen)",
+      "juki": "On or off from the touch display (manual); dimming is listed for the 19X Elite."
     }
   ],
   "siblings": [

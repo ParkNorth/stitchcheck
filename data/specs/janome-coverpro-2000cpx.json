@@ -10,8 +10,8 @@
   ],
   "manufacturerUrl": "https://www.janome.com/product/coverpro-2000cpx/",
   "retailerUrl": "https://www.sewingmachinesplus.com/janome-2000cpx.php",
-  "priceUsdSeen": 799.0,
-  "priceSeenDate": "2026-09-29",
+  "priceUsdSeen": 799,
+  "priceSeenDate": "2026-10-02",
   "priceSeenAt": "Sewing Machines Plus",
   "specs": {
     "stitchTypes": {
@@ -32,23 +32,23 @@
     },
     "differentialFeed": {
       "value": "0.5 to 2.25",
-      "source": "https://www.qualitysewing.com/products/janome-coverpro-2000cpx-coverstitch-machine"
+      "source": "https://www.janome.com/product/coverpro-2000cpx/"
     },
     "throatIn": {
       "value": null,
       "source": null
     },
     "needleSystem": {
-      "value": "SCHMETZ ELx705, 90/14 supplied",
-      "source": "https://www.janome.com/product/coverpro-2000cpx/"
+      "value": "Organ or Schmetz ELx705, size 80/12 or 90/14. Machine arrives with 80/12 installed; the standard set in the manual is 2 x 80/12 and 3 x 90/14",
+      "source": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf"
     },
     "presserFootLift": {
-      "value": "Snap-on foot; lift height not published",
-      "source": "https://www.janome.com/product/coverpro-2000cpx/"
+      "value": "Snap-on foot; the presser foot lifter also releases thread tension (manual); lift height not published",
+      "source": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf"
     },
     "threadTrimmer": {
-      "value": null,
-      "source": null
+      "value": "Manual thread cutter on the machine (manual parts list); no automatic trimmer listed",
+      "source": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf"
     },
     "feedSystem": {
       "value": "Differential feed; Seam Tightening System (STS); Tension Level Control (TLC); no knife",
@@ -67,20 +67,20 @@
       "source": null
     },
     "weightLb": {
-      "value": 19.0,
-      "source": "https://www.sewingpartsonline.com/products/janome-coverpro-2000cpx-coverstitch-machine"
+      "value": 19,
+      "source": "https://www.janome.com/product/coverpro-2000cpx/"
     },
     "dimensionsIn": {
       "value": null,
       "source": null
     },
     "includedFeet": {
-      "value": "Standard foot; needle set ELx705; electronic foot control; dust cover (standard accessories per dealer listing)",
-      "source": "https://www.qualitysewing.com/products/janome-coverpro-2000cpx-coverstitch-machine"
+      "value": "Snap-on presser foot on the machine. Janome page standard accessories: foot control, lint brush, needle threader, large and small screwdriver, large spool holder, with 4 cones of thread and a dust cover. Manual standard set: needles (2 x 80/12, 3 x 90/14), screwdrivers, tweezers, nets, spool holder caps, lint brush, needle threader, attachment screws, accessory box. Seam guide, binder, gathering attachments, clear view foot and extension table are listed as optional on the page",
+      "source": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf"
     },
     "warrantyUs": {
-      "value": "25 yr parts, 2 yr electrical, 1 yr labor (Janome America)",
-      "source": "https://www.kenssewingcenter.com/janome-coverpro-2000cpx-coverhem-machine.html"
+      "value": "25 years against defects in materials or workmanship; electronic component parts 5 years; labor 1 year; commercial use 1 year; void if not bought from an authorized Janome dealer in the United States (Janome America limited warranty PDF, OCR reading)",
+      "source": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
     },
     "stitchWidthMm": {
       "value": "6 (two needles standard), 3 (two needles narrow), 6 with three needles (3 + 3)",
@@ -106,12 +106,21 @@
   "claims": [
     "\"Seam Tightening System\" and \"Tension Level Control\" (manufacturer trademarks, product page)",
     "\"Extra large bed space\" (manufacturer claim, product page)",
-    "\"Advanced coverstitch machine\" (dealer listing title)"
+    "\"Advanced coverstitch machine\" (dealer listing title)",
+    "\"Long arm, heavy-duty cover hem machine\" (Janome product page; the bed is 4 x 5.5 in, not a quilting long arm and not a needle-to-body throat)",
+    "\"The most advanced Cover Hem machine available\" (Janome product page)"
   ],
   "conflicts": [
-    "Weight: dealer listing 19 lb (8.6 kg); Janome page value not captured. Catalog will use 19 lb flagged [verify].",
-    "Top cover stitch: the 2000CPX does not do a top cover; reviewers note the 3000CPX-class machines add it. Confirm if a listing implies otherwise.",
-    "Throat space: a dealer snippet gave Sewing area 4 x 5.5 in with built-in free arm which is not a needle-to-body throat figure (likely bed width or a metric value). Catalog leaves throat null for this coverstitch until a manufacturer sheet confirms."
+    "Weight: Janome's page says 19 lb; a dealer comparison chart prints 17.8 lb under the 2000CPX and 19 lb under the 1000CPX, and an Amazon listing says 23 lb, probably a shipping weight. The Janome figure is used.",
+    "Needles in the box: our earlier spec said 90/14 supplied. Janome's manual says the machine arrives with 80/12 installed and the standard set is 2 x 80/12 and 3 x 90/14; Janome's page lists assorted ELx705 needles as optional; two dealers list five 80/12 and five 90/14. The manual is used.",
+    "Warranty: our earlier spec and one dealer say 2 years on electrical parts; Janome's warranty PDF says 5 years for electronic component parts (OCR reading) and two other dealers say 5. The Janome figure is used, and the warranty is void without an authorized-dealer purchase.",
+    "Throat: Janome publishes a 4 x 5.5 in bed (sewing area), not a needle-to-body throat; a dealer calls 5.5 in throat space to the right of the needle. One review puts free arm clearance at no more than an inch. Throat stays null.",
+    "Differential feed: Janome says 0.5 to 2.25; one dealer page prints 0.5 to 2.5. The Janome figure is used.",
+    "Tension lever: a dealer chart marks Tension Level Control for the 2000CPX only and a tension release device for the 2000CPX, 1000CPX and 900CPX; one forum member says her 900CPX has the tension lever too; Janome's manual lists a looper thread tension switching lever on the 2000CPX. Sibling features are dealer and owner statements, not Janome documents.",
+    "Lighting: Janome's page lists an LED light, one forum member says the 1000CPX has an incandescent bulb, and the instruction book parts list names no lamp.",
+    "Stitch types: one blogger describes two and three thread overlock stitches on the machine's chart; Janome lists chain, cover and triple cover stitch only, and says cutting width adjustment is not available (no knife).",
+    "Naming: Janome's page and manual cover the CoverPro 2000CPX. A few posts mention a plain Cover Pro 2000 or a 2 needle 2000CPX; no Janome document we read lists either, and the page lists 1, 2 or 3 needles on one machine.",
+    "Ratings: Amazon's 4.5 from 67 ratings sits on a listing that shares a parent with the CoverPro 1000CPX and its reviews name the 900CPX and 1000CPX, so it is not quoted as a 2000CPX rating."
   ],
   "ownerThemes": [
     {
@@ -130,7 +139,7 @@
       "source": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx/"
     }
   ],
-  "evidence": "owner",
+  "evidence": "mixed",
   "buyerQuestions": [
     "What is the difference between the Janome 1000CPX, 2000CPX and 3000CPX?",
     "Can the 2000CPX do a top cover stitch?",
@@ -163,42 +172,89 @@
     "https://sewing.patternreview.com/SewingDiscussions/topic/105008",
     "https://sewing.patternreview.com/review/machine/6332",
     "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx/",
-    "https://www.thelaststitch.com/janome-coverpro-2000-review/"
+    "https://www.thelaststitch.com/janome-coverpro-2000-review/",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/116862",
+    "https://sewing.patternreview.com/SewingDiscussions/topic/117042",
+    "https://sewing.patternreview.com/review/machine/6869",
+    "https://sewinginsight.com/reviews/janome-cover-pro-2000-cpx-review/",
+    "https://www.bohofabrics.com/products/janome-coverpro-2000cpx-coverstitch-machine",
+    "https://www.janome.com/support/warranty/",
+    "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf",
+    "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+    "https://www.kenssewingcenter.com/media/sparsh/product_attachment/CoverPro_Comp_Chart.pdf"
   ],
   "editorial": {
-    "verdict": "The CoverPro 2000CPX is the dedicated coverstitch with the largest published work area in its class, a free arm and a tension release lever, at about $799.",
-    "whoFor": "A garment sewist hemming knits regularly who wants room to the right of the needle and industrial-style ELx705 needles.",
-    "skipIf": "You hem occasionally and the Brother 2340CV at a lower price covers it, or you want a top cover stitch.",
-    "keySpec": "1/2/3 needle \u00b7 3 or 6 mm cover \u00b7 4 x 5.5 in bed \u00b7 1,000 spm",
+    "verdict": "A dedicated coverstitch with a 4 x 5.5 in bed and a free arm, but owners are split on skipped stitches and setup, so budget time for needles and tension.",
+    "whoFor": "A knit sewist who hems often, already owns a serger and will spend time on needles, threading and tension to get clean cover hems.",
+    "skipIf": "You want a top cover stitch (a dealer points to the CoverPro 3000P), you need a knife, or you cannot buy from an authorized Janome dealer, because the warranty is void without one.",
+    "keySpec": "1/2/3 needle · 3 or 6 mm cover · 4 x 5.5 in bed · 1,000 spm",
     "strengths": [
-      "4 x 5.5 in sewing area with a free arm, published by Janome.",
-      "Differential feed 0.5 to 2.25, the widest range in this set.",
-      "Tension release lever and Janome's TLC and STS tension aids, per the product page."
+      "Owners who report no trouble describe a quiet machine that gives clean cover hems once ELx705 needles and tension are right; the reliability theme is split, with several saying they never saw a skipped stitch.",
+      "Janome's page and manual confirm a free arm, a 4 x 5.5 in bed, differential feed 0.5 to 2.25 and 1 to 4 mm stitch length, 1,000 spm and a snap-on foot.",
+      "Janome's manual lists a looper thread tension switching lever and tension released when the presser foot lifter is raised; owners and a shop owner credit the lever as the main change over the 1000CPX."
     ],
     "weaknesses": [
-      "1,000 spm is the slowest of the coverstitch options here.",
-      "ELx705 needles are a specialty item compared with 130/705H household needles.",
-      "Weight and dimensions are not published on the Janome page captured."
+      "Owners report skipped stitches and tunnelling as the repeated complaint, from none at all to years of trouble, and some moved to another brand; the sample skews toward people asking for help.",
+      "Owners report tension and setup take time: tension a little off out of the box, ELx705 needles to hunt down, and manual settings that may not work; Janome's manual has no oiling section, and one owner says oiling a new machine cured her skipping.",
+      "Owners call the free arm too small to be useful and the manual too basic; Janome publishes no throat, dimensions, motor power or frame, so those stay [verify]."
     ],
     "checks": [
       {
-        "title": "ELx705 needle supply",
-        "body": "The machine ships with 90/14 ELx705 needles. Stock spares before the first project; big-box stores rarely carry them."
+        "title": "Authorized dealer and warranty",
+        "body": "Janome says it sells through authorized dealers and does not sell direct. Its warranty PDF says the 25 year coverage is void if the machine was not bought from an authorized US dealer. Marketplace listings are not shown by Janome as authorized, so ask the seller before you buy."
       },
       {
-        "title": "Standard versus bonus kit",
-        "body": "Standard accessories per dealers are a needle set, foot control and dust cover. Seam guides, gathering attachments and binders are dealer bonuses."
+        "title": "Needles and box contents",
+        "body": "Janome's manual says the machine arrives with 80/12 ELx705 needles installed and a set of 2 x 80/12 and 3 x 90/14, while the product page lists assorted ELx705 needles as optional and dealers list five of each. Owners advise ELx705 needles, ballpoint SUK for knits, and a few say the supplied needles skipped on knits."
       },
       {
-        "title": "No top cover stitch",
-        "body": "The 2000CPX does chain, narrow and wide cover and triple cover. If you want a decorative top side, look at the 3000-series."
+        "title": "Name check across the CoverPro line",
+        "body": "Janome's page and manual cover the 2000CPX only. A dealer chart gives the 1000CPX the same 4 x 5.5 in bed and 1,000 spm and marks Tension Level Control for the 2000CPX only; a few posts mention a 2 needle 2000CPX or a plain Cover Pro 2000 that no Janome document we read lists. Amazon's 4.5 from 67 ratings pools the 1000CPX listing."
       }
     ],
     "realCost": [
-      "3 to 4 cones of thread",
-      "ELx705 needles, 90/14",
-      "Sewing machine oil for the points Janome specifies",
-      "Stabilizer tape for light knits"
+      "ELx705 needles in 80/12 and 90/14 (ballpoint SUK for knits per owners); Janome's page lists extra needles as optional",
+      "Thread: Janome's page says 4 cones are included; a 3 needle cover hem uses four spools",
+      "Optional accessories listed by Janome: seam guide, extension table, clear view foot, elastic gathering attachment and tape binder",
+      "Oil: Janome's manual gives no oiling schedule; one owner reports oiling helped"
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between the CoverPro 2000CPX and the 1000CPX?",
+        "a": "A shop owner quoted by Sewing Insight, a dealer page and a forum member say the main change is the looper tension switching lever, sold as Tension Level Control. A dealer chart marks Tension Level Control for the 2000CPX only and gives both the same 4 x 5.5 in bed and 1,000 spm [verify]. One forum post says the 1000CPX has an incandescent bulb and the 2000CPX an LED, while Janome lists LED for the 2000CPX; we read no Janome 1000CPX document, so treat these as dealer and owner figures [verify]."
+      },
+      {
+        "q": "Can the CoverPro 2000CPX do a top cover stitch?",
+        "a": "No Janome document we read lists a top cover (decorative looper) stitch for the 2000CPX. Janome lists a 2 thread chain stitch, a 3 thread cover stitch (3 or 6 mm) and a 4 thread triple cover stitch (6 mm). A dealer page says buyers who want a top cover hem should look at the CoverPro 3000P; we did not read a Janome page for it [verify]."
+      },
+      {
+        "q": "Can the CoverPro 2000CPX serge or cut fabric?",
+        "a": "No. Janome lists cutting width adjustment as not available, a dealer says the machine does not cut the material, and no overlock stitch is listed. Janome's manual names a thread cutter on the frame, which is a hand cutter, not an automatic trimmer. You still need a serger or a sewing machine for seams."
+      },
+      {
+        "q": "What needles does the CoverPro 2000CPX use?",
+        "a": "Janome's manual says to use Organ ELx705 needles in size 80/12 or 90/14. The machine arrives with 80/12 installed and the standard set is 2 x 80/12 and 3 x 90/14, while Janome's page lists assorted ELx705 needles as optional. Owners say wrong needles are a common cause of skipped stitches, and some use ballpoint SUK ELx705 needles for knits."
+      },
+      {
+        "q": "Why do some owners report skipped stitches on the CoverPro 2000CPX?",
+        "a": "Reports split: some owners say they never see skipped stitches, others call them their biggest problem, especially over seams and thicker layers. Owners most often point to needles (ELx705, ballpoint for knits), threading and seating thread in the tension discs, tension settings and foot pressure. One owner says oiling a new machine fixed it, though Janome's manual has no oiling section. Reddit and forum threads lean toward people asking for help, so problems are over-represented here."
+      },
+      {
+        "q": "How much does the CoverPro 2000CPX weigh?",
+        "a": "Janome's page lists 19 lb. A dealer comparison chart prints 17.8 lb under the 2000CPX and 19 lb under the 1000CPX, and an Amazon listing says 23 lb, probably a shipping weight [verify]. Janome publishes no dimensions, so those stay [verify]."
+      },
+      {
+        "q": "Does the CoverPro 2000CPX have a free arm, and how much room is there?",
+        "a": "Yes. Janome lists a free arm and a 4 x 5.5 in bed it calls extra large; that is bed area, not a needle-to-body throat, and Janome publishes no throat figure. Owners are lukewarm on the free arm: one reviewer puts its clearance at no more than an inch, another calls it not much use, and a blogger skips it and sews small circles inside out."
+      },
+      {
+        "q": "Does the thread tension release when the presser foot is raised on the 2000CPX?",
+        "a": "Yes. Janome's manual says thread tension is released when the presser foot lifter is raised. One owner notes that lifting the foot mid seam can cause a skipped stitch. The machine also has a looper thread tension switching lever, sold as Tension Level Control, and Janome's page lists a tension release lever."
+      },
+      {
+        "q": "Is there a binder attachment for the CoverPro 2000CPX?",
+        "a": "Yes. Janome lists a tape binder for 3 needle use, a binder foot with guide and a tape stand as optional accessories. A blogger who bought the binder calls it fast but a steep learning curve and not cheap, and a commenter says theirs came without instructions and was hard to position."
+      }
     ]
   }
 }

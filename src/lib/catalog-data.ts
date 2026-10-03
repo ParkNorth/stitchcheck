@@ -2015,10 +2015,10 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "manufacturerUrl": "https://www.brother-usa.com/products/1634d",
     "retailerUrl": null,
-    "priceUsdSeen": null,
-    "priceSeenDate": null,
-    "priceSeenAt": "Sewing Machines Plus",
-    "priceNote": null,
+    "priceUsdSeen": 300,
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "another dealer",
+    "priceNote": "brother-usa.com",
     "specs": {
       "stitchTypes": {
         "value": "4-thread overlock, 3-thread overlock, rolled hem, blind hem, gathering (1-needle 3-thread or 2-needle 4-thread)",
@@ -2045,12 +2045,12 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "needleSystem": {
-        "value": "SCHMETZ 130/705H (standard household needle)",
-        "source": "https://www.sewingpartsonline.com/products/instruction-manual-brother-1634d"
+        "value": "SCHMETZ 130/705H (standard household needle); set listed in the family handbook is two size 80 and two size 90",
+        "source": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
       },
       "presserFootLift": {
-        "value": null,
-        "source": null
+        "value": "5 to 6 mm (family handbook); adjustable presser foot pressure (Brother page)",
+        "source": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
       },
       "threadTrimmer": {
         "value": null,
@@ -2073,8 +2073,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "weightLb": {
-        "value": 17.3,
-        "source": "https://sergerpro.com/brother-1634d-serger-review/"
+        "value": 15.4,
+        "source": "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf"
       },
       "dimensionsIn": {
         "value": "12.5 x 13.5 x 15",
@@ -2085,8 +2085,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.brother-usa.com/products/1634d"
       },
       "warrantyUs": {
-        "value": "25-year limited (Brother)",
-        "source": "https://sergerpro.com/brother-1634d-serger-review/"
+        "value": "1 year parts, labor and accessories; 5 years electronic components and circuit boards (replacement labor excluded); 25 years chassis casting (US Brother Limited Warranty, Serger)",
+        "source": "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf"
       }
     },
     "claims": [
@@ -2096,12 +2096,15 @@ export const catalogData: Record<string, CatalogEntry> = {
       "\"Cover Stitch Serger\" appears in one dealer listing title (mistersewvac.com); the 1634D has no coverstitch function per Brother"
     ],
     "conflicts": [
-      "Weight: 17.3 lb appears only in review-blog snippets (sergerpro.com, mashupfabric.com); Brother page value not captured. The related 1034D is listed at 13.88 lb by a dealer, so 17.3 lb may include packaging. Catalog will show 17.3 lb flagged [verify].",
-      "Dimensions: 12.5 x 13.5 x 15 in from a review blog; axis order not stated. Catalog will show it flagged [verify].",
-      "Stitch count: 22 (sergerpro.com) vs Brother, which lists stitch types without a count. Catalog will show 22 as a blog figure.",
-      "Threading color coding: Brother says color-coded; a PatternReview owner says the 1634D does not have color coded threading but has two stitch fingers where the 1034D has one. Catalog will list Brother's wording and note the owner report.",
-      "Differential feed ratio: not published for the 1634D in any snippet. Brother lists 0.7 to 2.0 for the 1034DX; do not carry that number across models.",
-      "Price: $154 at Walmart in a 2019 PatternReview thread (stale). The 1634DX is $259 at Joann per the same forum. No 2026 1634D price captured; none recorded."
+      "Weight: the family handbook gives 7.0 kg net (15.4 lb) and a review blog gives 17.3 lb; Brother's 1634D page gives no weight and its 1034D page gives 13.45 lb. The handbook names the 1634D only in its foot controller note, so the 15.4 lb figure is a family figure, not confirmed for this model.",
+      "Warranty: Brother's page label reads 1/5/25 Year Limited Serger Warranty but links to the International PDF, which states 1 year; the US Brother Limited Warranty (Serger) PDF states 1 year parts, labor and accessories, 5 years electronics and 25 years chassis casting. A review blog states only a 25-year limited warranty. We use the US PDF terms.",
+      "Work light: Brother's page lists a bulb; two review blogs list an LED. We state a bulb and show the blog LED claims as unverified.",
+      "Color-coded threading and stitch fingers: Brother's page says color-coded lay-in guides and lists 1 stitch finger; a PatternReview commenter says the 1634D lacks the 1034D's color coding and has two stitch fingers, and a comparison blog says the 1634D's colors are more noticeable. Listed, not resolved.",
+      "Differential feed range: one blog gives 0.7 to 2.0 mm for the 1634D; Brother does not publish a range on the 1634D page, so the figure is not carried across from the 1034DX.",
+      "Rolled hem: one blog says the machine is not capable of rolled hemming; Brother's page lists Change for Rolled Hemming: Yes.",
+      "Dimensions: Brother lists only a carton size (15 x 13 x 14 in); the machine size 12.5 x 13.5 x 15 in comes from a review blog with no stated axis order.",
+      "Stitch count: 22 appears only in review blogs; Brother lists stitch types and no count.",
+      "Price: Brother USA lists $299.99 on 2026-10-02; the only other price on record is $154 at Walmart in a 2019 forum post, which is stale, and the Walmart listing no longer resolves. The eBay catalog page for the model carries ratings but no price we use."
     ],
     "ownerThemes": [
       {
@@ -2148,76 +2151,76 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The 1634D is the 1034D in mass-retail clothing: the same 3/4 thread, 1,300 spm, differential feed serger with a removable free arm, worth buying only when it is cheaper than the 1034D on the day.",
-      "whoFor": "A first serger buyer who finds the 1634D on sale at a big-box store and wants the Brother platform with the 25-year limited warranty.",
-      "skipIf": "You want 2-thread stitches, air threading, a coverstitch, or a published differential feed range; the 1034DX and Juki MO-654DE answer those.",
+      "verdict": "A 3/4 thread, 1,300 spm Brother serger sold as the 1034D's retail twin, with a 4.8 eBay buyer rating and thread-path faults in most help posts.",
+      "whoFor": "A first serger buyer who finds the 1634D at a good price and accepts a plastic-bodied, fully manual machine with dial tension.",
+      "skipIf": "You want a 2-thread stitch, a coverstitch, air threading, automatic tension or a published differential feed range.",
       "keySpec": "3/4 thread · 1,300 spm · differential feed · removable free arm",
       "strengths": [
-        "Same 3/4 thread, 1,300 spm core as the well-reviewed 1034D, with a removable free arm and trim trap.",
-        "Standard 130/705H household needles and three feet in the box.",
-        "Brother 25-year limited warranty at a big-box price."
+        "Owners and eBay buyers report simple lay-in threading and easy setup, and one beginner owner calls it similar to the 1034D.",
+        "Brother lists 1,300 spm, adjustable presser foot pressure, a removable free arm, a trim trap and three feet in the box.",
+        "Owners report a metal interior, though the scrap bucket and bed extension feel plastic."
       ],
       "weaknesses": [
-        "Very thin owner record: two PatternReview reviews against 66 for the 1034D, one reporting a rolled hem problem.",
-        "Weight, dimensions and differential feed ratio are not published by Brother on pages found; the figures online come from review blogs.",
-        "No 2-thread mode and no coverstitch, despite one dealer listing calling it a cover stitch serger."
+        "Owners report thread breaks, threads dropping out of the chain and, on used machines, a jammed wheel, a cover that will not close and a knife that will not engage.",
+        "Owners report tension takes patience to dial in, and several threading problems traced to the lower looper path.",
+        "Evidence is small and uneven: two PatternReview reviews, 11 Reddit threads and 35 eBay buyer reviews (4.8 from 45 ratings, mostly 2016 to 2019), and most online praise is for the 1034D."
       ],
       "checks": [
         {
-          "title": "Compare the day's price with the 1034D",
-          "body": "Forum members describe the 1034D, 1634D and 1634DX as the same function at about the same money. Buy whichever variant is cheapest that day."
+          "title": "Confirm the light type",
+          "body": "Brother's page lists a bulb, two review blogs say LED, and one owner could not find a replacement bulb that fits. Check the light and ask about spares."
         },
         {
-          "title": "Check for color-coded threading",
-          "body": "Brother's page says color-coded lay-in threading; one owner says her 1634D lacked the color coding of the 1034D. Look at the thread path on the unit before buying."
+          "title": "Look at the thread path and stitch finger",
+          "body": "A forum commenter says the 1634D lacks the 1034D's color coding and has two stitch fingers. Brother's page says color-coded guides and 1 stitch finger. Look at the unit before buying."
         },
         {
-          "title": "Ignore the cover stitch label",
-          "body": "One dealer lists this as a cover stitch serger. The 1634D is a 3/4 thread overlocker only; a coverstitch needs a separate machine such as the Brother 2340CV."
+          "title": "Compare the day's price across the family",
+          "body": "Brother USA listed the 1634D below the 1034D, and the 1634DX lower still, on 2026-10-02. Forum owners call them the same platform, so buy the cheapest."
         }
       ],
       "realCost": [
-        "4 cones of serger thread in a neutral color",
-        "Spare 130/705H needles, size 80/12 and 90/14",
-        "Tweezers and a lint brush if the box lacks them",
-        "Serger oil"
+        "Thread: four cones for a 4-thread stitch; one owner says thread nets on the cones helped tension and thread snapping.",
+        "Needles: SCHMETZ 130/705H; the family handbook set is two size 80 and two size 90.",
+        "Oil: the family handbook says to oil periodically and clean lint first.",
+        "Spare bulb: Brother lists a bulb, and one owner could not find a fitting replacement locally."
       ],
       "faqs": [
         {
-          "q": "What is the difference between the Brother 1634D and 1034D?",
-          "a": "Both are 3/4 thread sergers with differential feed and 1,300 spm. Forum owners report differences in dial location, color coding of the thread path and the number of stitch fingers, with the same function at about the same price."
+          "q": "What is the difference between the Brother 1634D and the 1034D?",
+          "a": "Brother's pages list the same core: 3/4 thread, 1,300 spm, one stitch finger and the same three feet. Brother USA listed the 1634D at $299.99 and the 1034D at $319.99 on dated visits (2026-10-02 and 2026-10-01). Forum owners call the 1634D the mass-retail twin and report differences in color coding and stitch fingers, but those reports conflict with Brother's 1634D page [verify]."
         },
         {
-          "q": "Is the Brother 1634D discontinued?",
-          "a": "Brother still lists a 1634D product page and a refurbished R1634D, and a newer 1634DX exists. No discontinuation notice appeared in search results."
+          "q": "How does the Brother 1634D differ from the 1634DX?",
+          "a": "Brother lists the 1634DX with an LED light and the 1634D with a bulb; the feet, 1,300 spm, 5.0 to 7.0 mm seam width and 1 stitch finger match. Brother USA showed the 1634DX at $199.99 (marked down from $259.00) and the 1634D at $299.99 on 2026-10-02. Owners say the 1634DX is the 1034DX under a retail model number, which is an owner report, not a maker statement [verify]."
         },
         {
-          "q": "What is the difference between the 1634D and the 1634DX?",
-          "a": "Forum reports say the 1634DX is an updated variant sold through Joann at about $259. Published differences are limited; treat them as the same platform."
-        },
-        {
-          "q": "Does the Brother 1634D have a free arm?",
-          "a": "Yes. Brother describes a removable free arm for cuffs, sleeves and cylindrical work."
+          "q": "How much does the Brother 1634D cost?",
+          "a": "Brother USA listed the 1634D at $299.99 on 2026-10-02. A 2019 forum post put it at $154 at Walmart, which is stale, and that listing no longer resolves. We found no Amazon listing for the 1634D. Prices drift, so treat this as a last-seen figure [verify]."
         },
         {
           "q": "Can the Brother 1634D do a coverstitch?",
-          "a": "No. It is a 3/4 thread overlocker. One dealer listing title says cover stitch, but that function is not on Brother's page."
+          "a": "No. Brother lists it as a 3/4 thread overlock serger with no 2/3/4 thread change, and two review blogs say it has no coverstitch function. A coverstitch needs a separate machine such as the Brother 2340CV."
         },
         {
-          "q": "What needles does the Brother 1634D use?",
-          "a": "Standard SCHMETZ 130/705H household needles, per the instruction manual listing."
+          "q": "Is the Brother 1634D discontinued?",
+          "a": "Not as of 2026-10-02: Brother USA lists the 1634D with a price and a support page, and we found no discontinuation notice. Stock at other retailers varies, so check before relying on it [verify]."
         },
         {
-          "q": "How much does the Brother 1634D weigh?",
-          "a": "Brother does not publish the weight on pages found. Review blogs give 17.3 lb; treat it as unverified."
+          "q": "Is the Brother 1634D hard to thread?",
+          "a": "Brother describes color-coded lay-in threading, and several owners and eBay buyers call it simple to thread. Others report trouble: one traced a breaking lower looper thread to threading the lower looper wrongly even though it followed the manual, and another calls it the worst serger to rethread. The lower looper is the usual sticking point."
         },
         {
-          "q": "What is the differential feed range on the 1634D?",
-          "a": "Not published for the 1634D in any source found. Brother publishes 0.7 to 2.0 for the 1034DX only."
+          "q": "What comes in the box with the Brother 1634D?",
+          "a": "Brother lists a standard foot, a blindstitch foot and a gathering foot, plus a soft cover. Its copy also mentions an instructional video and a printed manual."
         },
         {
-          "q": "What feet come with the Brother 1634D?",
-          "a": "Brother lists a standard foot, blind stitch foot and gathering foot, plus a soft cover and instructional video."
+          "q": "Is the Brother 1634D worth buying?",
+          "a": "Owners describe a simple, fully manual entry-level serger. Praise goes to easy threading and a metal interior; the repeated complaints are thread breaks, tension that takes patience and faults on secondhand units. The one retailer rating is the eBay catalog page for the model, 4.8 from 45 ratings, mostly from 2016 to 2019 and including refurbished units, while Reddit is mostly help requests. Weigh the price against the 1034D [verify]."
+        },
+        {
+          "q": "What needles does the Brother 1634D take?",
+          "a": "SCHMETZ 130/705H household needles, per Brother's family handbook, which lists two size 80 and two size 90. The handbook names the 1634D only in its foot controller note, so confirm against the manual in the box [verify]."
         }
       ]
     },
@@ -2236,7 +2239,12 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/SewingDiscussions/topic/110523",
       "https://sewing.patternreview.com/SewingDiscussions/topic/116994",
       "https://www.walmart.com/reviews/product/46270970",
-      "https://ilovequiltingforever.com/brother-serger-1034d-vs-1634d/"
+      "https://ilovequiltingforever.com/brother-serger-1034d-vs-1634d/",
+      "https://assets.brother.com/asset/3e5bcfe0-2c88-4b35-8ec9-26698a105a4c/6020_International-Warranty-LAD-Final-serger-1-pdf.pdf",
+      "https://assets.brother.com/asset/491ef925-f630-4669-876c-9b225e78f68f/9794_Brother-Limited-Warranty-Serger-pdf.pdf",
+      "https://download.brother.com/welcome/doch000100/884-345_om07a_enes.pdf",
+      "https://www.ebay.com/p/9032778488",
+      "https://www.reddit.com/r/sewing/comments/1b0mq1t/tell_me_about_your_serger/"
     ]
   },
   "brother-2340cv": {
@@ -2734,10 +2742,10 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "manufacturerUrl": "https://www.brother-usa.com/products/pq1600s",
     "retailerUrl": "https://www.sewingmachinesplus.com/PQ1600S.php",
-    "priceUsdSeen": 580,
-    "priceSeenDate": "2026-09-29",
-    "priceSeenAt": "another dealer",
-    "priceNote": "Search snippet across Brother and Sewing Machines Plus listings; confirm on the SMP page before publishing",
+    "priceUsdSeen": 1000,
+    "priceSeenDate": "2026-10-02",
+    "priceSeenAt": "Brother USA",
+    "priceNote": null,
     "specs": {
       "stitchTypes": {
         "value": "Straight stitch only",
@@ -2764,16 +2772,16 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.brother-usa.com/products/pq1600s"
       },
       "needleSystem": {
-        "value": null,
-        "source": null
+        "value": "ORGAN HLX5 recommended; Schmetz 130/705H also usable under normal sewing conditions",
+        "source": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
       },
       "presserFootLift": {
-        "value": "Built in knee lifter; presser foot pressure dial with 4 color coded levels",
-        "source": "https://www.brother-usa.com/products/pq1600s"
+        "value": "Knee lifter supplied in the box (listed as an accessory in the manual); presser foot pressure dial with 4 color coded levels",
+        "source": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
       },
       "threadTrimmer": {
-        "value": "Thread cutter (owner reports; Brother page lists automatic features)",
-        "source": "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/67733-juki-2010q-vs-brother-1500-pq-1500s"
+        "value": "Push button thread cutter that trims upper and bobbin thread",
+        "source": "https://www.brother-usa.com/products/pq1600s"
       },
       "feedSystem": {
         "value": "Pin feed mechanism, swaps feed dogs for a single pin; 4 color coded feed dog height levels",
@@ -2792,16 +2800,16 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "weightLb": {
-        "value": 23.8,
-        "source": "https://www.amazon.com/Brother-PQ1600S-High-Speed-Straight-Quilting/dp/B0CFYQZX5Q"
+        "value": 23.81,
+        "source": "https://www.brother-usa.com/products/pq1600s"
       },
       "dimensionsIn": {
         "value": "18.1 W x 7.7 D x 12.6 H",
-        "source": "https://www.amazon.com/Brother-PQ1600S-High-Speed-Straight-Quilting/dp/B0CFYQZX5Q"
+        "source": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
       },
       "includedFeet": {
-        "value": "7 accessory feet; 11.1 x 23.3 in wide table",
-        "source": "https://www.brother-usa.com/products/pq1600s"
+        "value": "7 feet: general purpose, rolled hem, zipper, invisible zipper, 1/4 in, free motion quilting, pin feed; knee lifter, fabric separator, feed pin and changer, seam guide, 5 bobbins, 11.1 x 23.3 in extension table; no walking foot listed",
+        "source": "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf"
       },
       "warrantyUs": {
         "value": "1 yr labor, 2 yr electrical, 25 yr chassis (1/2/25 limited)",
@@ -2809,14 +2817,21 @@ export const catalogData: Record<string, CatalogEntry> = {
       }
     },
     "claims": [
+      "\"maximum fabric control\" (Brother product page, about feed dog and presser foot adjustment)",
+      "\"optimum machine for speed and precision\" (Brother product page copy)",
       "\"Heavy-Duty Quilting\" (dealer listing title, premierstitching.com)",
-      "\"maximum fabric control\" (manufacturer claim, brother-usa.com)",
-      "\"powerhouse\" (owner and retailer language, not a rating)"
+      "\"heavy-duty straight stitch only\" and \"powers through 8-12 layers of denim\" (a UK dealer's copy, thesewingstudio.co.uk; a dealer claim, not a measured capability)"
     ],
     "conflicts": [
-      "Throat: Brother lists a 5.7 x 8.7 in needle to arm space; a parts retailer lists throat height 5.75 in and throat space 8.5 in. Catalog will use Brother's 8.7 x 5.7 in and note the 8.5 in figure.",
-      "Price: $579.99 appeared in the search snippet for the Brother and Sewing Machines Plus listing set but the page that carried it was not confirmed. Mark [verify] until the SMP page is read directly.",
-      "Needle system: not published on pages found. Predecessor PQ1500SL used standard 130/705H needles, but do not carry that over without a source."
+      "Price: Brother and Sewing Machines Plus list 999.99 and Amazon lists 899.99 (all 2026-10-02), while our earlier 579.99 came from a search snippet never read on a page; Brother's own similar products block lists 579.99 for the SE700, which is the likely mix-up.",
+      "Throat: Brother lists 8.7 in wide and 5.7 in tall needle to arm space, a UK dealer lists 8.6 in, and a parts retailer lists 8.5 in wide and 5.75 in tall; Brother's figure is used.",
+      "Stitch length: Sewing Machines Plus lists 5 mm while Brother's page and manual give a dial to 7 mm with reverse fixed at 5 mm above a 5 mm setting; 7 mm is used.",
+      "Needle stop: Brother's feature copy says the needle can be preprogrammed up or down, its own spec table says Needle Stop Position Up/Down: No, and its manual describes a needle stop button that stops the needle down only.",
+      "Knee lifter: a comparison blog and some dealers call it built in, while Brother's box list and manual treat it as a separate accessory you attach.",
+      "Free motion foot: Brother's spec table says Free Motion Quilting Foot: No in the quilting block, while its box list and manual include one; the box list is used.",
+      "Warranty: Brother's page gives only 1/2/25 year limited; the split into labor, electrical and chassis is dealer copy, and a UK dealer lists a 3 year term that does not apply in the US.",
+      "Lighting: Brother's US pages do not state a lamp type; a UK dealer lists LED and Sewing Machines Plus lists 1 lamp, so lighting stays [verify].",
+      "Cover: one promotional Walmart reviewer says no cover came with the machine, while Brother lists a dust cover and a semi hard cover in the box."
     ],
     "ownerThemes": [
       {
@@ -2835,7 +2850,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://www.facebook.com/groups/quiltforbeginner/posts/1181044963379200/"
       }
     ],
-    "evidence": "mixed",
+    "evidence": "owner",
     "buyerQuestions": [
       "Is the Brother PQ1600S the same as the PQ1500SL?",
       "Brother PQ1600S or Juki TL-2010Q for quilting?",
@@ -2867,41 +2882,74 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The PQ1600S is the lowest cost route to 1,500 spm straight stitching with a knee lifter and a wide table. It competes on price with the Juki TL class and gives up the die cast body and dealer network in exchange.",
-      "whoFor": "A piecer or table quilter who wants speed, a knee lifter and a big table for the least money, and does not need decorative stitches.",
-      "skipIf": "You want one machine for garments and quilts (no zigzag or buttonhole), you want frame quilting with regulated stitches, or you value dealer service over online price.",
-      "keySpec": "8.7 x 5.7 in throat · 1,500 spm · straight stitch only · 7 feet and wide table included",
+      "verdict": "A straight stitch only machine with an 8.7 in throat, pin feed and wide table; owners praise speed and quiet, and report no walking foot in the box.",
+      "whoFor": "A piecer or table quilter who wants speed, a knee lifter, a pin feed and a wide table, and does not need zigzag or decorative stitches.",
+      "skipIf": "You want one machine for garments and quilts, plan heavy leather or webbing work, or expect a walking foot in the box.",
+      "keySpec": "8.7 x 5.7 in throat · 1,500 spm · straight stitch only · 7 feet and wide table in the box",
       "strengths": [
-        "1,500 spm and 7 mm max stitch length at a domestic price",
-        "Pin feed option for slippery or thin fabrics, plus 4 level feed dog and pressure adjustment",
-        "Knee lifter, automatic needle threader, 7 feet and a 23.3 in wide table in the box"
+        "Owners report it is fast; Brother lists 1,500 spm, and the manual gives a 40 to 1,500 range.",
+        "Owners report it is quiet for its speed, with little vibration from the weight.",
+        "Owners report the 8.7 x 5.7 in throat and the wide table give a large quilt room to move."
       ],
       "weaknesses": [
-        "Straight stitch only",
-        "Needle system, lighting and motor specs are not published on pages found",
-        "Throat figures differ by source (8.7 vs 8.5 in)"
+        "Owners report no walking foot in the box; buyers source a high shank one themselves.",
+        "Owners report the side loading bobbin and threading are fiddly and tension takes patience; two reviewers could not free motion quilt flannel on it.",
+        "Straight stitch only: owners say they keep a second machine for zigzag, and bag makers doubt it for heavy leather."
       ],
       "checks": [
         {
-          "title": "Confirm the current price on the listing",
-          "body": "$579.99 was seen in a search snippet, not on a read page. Prices in this class move with promotions."
+          "title": "Confirm the price on the day",
+          "body": "Brother and Sewing Machines Plus listed 999.99 and Amazon 899.99 on 2026-10-02. An earlier 579.99 figure in our research did not survive a page read."
         },
         {
-          "title": "Check the throat dimension you care about",
-          "body": "Brother says 8.7 in wide and 5.7 in tall. If you roll large quilts, the 5.7 in height is the limit more often than the width."
+          "title": "Budget for a walking foot",
+          "body": "Brother's box list and manual show none. Owners report buying a high shank walking foot separately, and a dealer lists one as fitting the PQ1500S and PQ1600S [verify]."
         },
         {
-          "title": "Decide on the Juki before you decide on the Brother",
-          "body": "Owners cross shop these directly. Price the TL-2010Q at the same retailer on the same day."
+          "title": "Plan how you will mount it",
+          "body": "The bobbin loads from the side. One buyer who sets the machine in a table worries about tilting it out to reload, so check your setup before you buy."
         }
       ],
       "realCost": [
-        "Table: Wide table included; no extra cost",
-        "Stitch regulator: Not available for this machine",
-        "Frame: Optional third party frame; the machine is not sold as a frame system",
-        "Needles and bobbins: Standard domestic consumables; confirm needle system with Brother before bulk buying"
+        "Walking foot: Not in the box; high shank, sourced separately, fit not confirmed by Brother [verify]",
+        "Needles: Brother's manual recommends HLX5 and allows Schmetz 130/705H under normal sewing",
+        "Oil: Manual: a few drops at each marked point about twice a month with daily use",
+        "Table: The 11.1 x 23.3 in extension table is in the box"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "What do owners say about the Brother PQ1600S?",
+          "a": "Owners mostly praise its speed, its quiet running and the roomy throat and table. The repeated complaints are the missing walking foot, a fiddly side loading bobbin and threading, and tension that takes patience. Our read covers 10 Reddit threads, 3 retailer listings, 3 forum pages and 3 write-ups; most first-hand voices are retailer reviews and about a third of the Walmart ones say they were promotional, while Reddit leans toward people asking for help."
+        },
+        {
+          "q": "How much does the Brother PQ1600S cost?",
+          "a": "On 2026-10-02 Brother and Sewing Machines Plus listed it at 999.99 dollars and Amazon at 899.99. An earlier 579.99 figure in our research came from a search snippet and did not hold up when we read the pages. Prices move with promotions, so treat these as a band and check the listing [verify]."
+        },
+        {
+          "q": "Is the Brother PQ1600S or the Juki TL-2010Q better for quilting?",
+          "a": "Both are straight stitch machines listed at 1,500 spm. A comparison blog and some forum posters favor the Brother for layered and mixed fabric work because of the pin feed and its lower retail price, and the Juki for free motion work because of its speed slider and needle up and down button. Those are blog and forum claims, not Brother or Juki documents, and Brother's manual describes a needle stop button of its own, so check the feature you need on both [verify]."
+        },
+        {
+          "q": "Is the Brother PQ1600S the same as the PQ1500SL?",
+          "a": "Brother lists the PQ1600S as its own model with its own manual. One comparison blog calls it the direct successor with a built-in knee lifter, a dedicated tension dial and a larger table, but that is a single source and Brother's manual treats the knee lifter as a separate accessory [verify]. A dealer lists one walking foot as fitting both models, and a PQ1500SL owner reports a walking foot in the box where the PQ1600S lists none. Much older owner talk online is about the PQ1500S and PQ1500SL, so check the model name before trusting a review."
+        },
+        {
+          "q": "Does the Brother PQ1600S come with a walking foot?",
+          "a": "No walking foot appears in Brother's box list or manual, which show seven feet: general purpose, rolled hem, zipper, invisible zipper, 1/4 in, free motion quilting and pin feed. Amazon and Reddit buyers report sourcing a high shank walking foot separately, and a dealer lists one as fitting both the PQ1500S and PQ1600S [verify]."
+        },
+        {
+          "q": "How much throat space does the Brother PQ1600S have?",
+          "a": "Brother lists 5.7 in tall by 8.7 in wide needle to arm space. A UK dealer lists 8.6 in and a parts retailer 8.5 in wide, so the width is soft by a tenth or two [verify]. The extension table is 11.1 x 23.3 in per Brother, and the machine's outside size of 18.1 x 7.7 x 12.6 in is not a throat figure."
+        },
+        {
+          "q": "What is the pin feed on the Brother PQ1600S for?",
+          "a": "Brother's manual says a feed pin passes up through all layers and moves with the feed dog motion, for hard to handle fabrics, and the pin lowers automatically when the presser foot is raised. One owner says it does what it advertises but is not a game changer, another notes every included foot has a groove for the pin, and a comparison blog finds it helps layered bags."
+        },
+        {
+          "q": "Does the Brother PQ1600S do zigzag or buttonholes?",
+          "a": "No. Brother lists one built-in stitch, straight, and no buttonhole styles. Owners say they keep a second machine for zigzag or stabilizing, and the stitch length dial runs to 7 mm."
+        }
+      ]
     },
     "sources": [
       "https://www.brother-usa.com/products/pq1600s",
@@ -2913,7 +2961,15 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://www.brother.eu/-/media/product-downloads/bsme/uk/pq1600s-leaflet-en-web.pdf",
       "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/67733-juki-2010q-vs-brother-1500-pq-1500s",
       "https://sewing.patternreview.com/SewingDiscussions/topic/106516",
-      "https://www.facebook.com/groups/quiltforbeginner/posts/1181044963379200/"
+      "https://www.facebook.com/groups/quiltforbeginner/posts/1181044963379200/",
+      "https://download.brother.com/welcome/doch102857/884t79_om02enfr.pdf",
+      "https://download.brother.com/welcome/doch102860/884t79_qg01endefrnliteszhtko.pdf",
+      "https://www.amazon.com/dp/B0CFYQZX5Q",
+      "https://www.walmart.com/reviews/product/5196827300",
+      "https://www.thesewingstudio.co.uk/products/brother-pq1600s-straight-stitch-sewing-machine",
+      "https://bobbinhub.com/brother-pq1600s-vs-juki-tl2010q/",
+      "https://www.reddit.com/r/quilting/comments/1ozgs3s/",
+      "https://www.reddit.com/r/sewing/comments/1ienwyg/brother_pq1600sl_opinions/"
     ]
   },
   "brother-st371hd": {
@@ -3167,10 +3223,10 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "manufacturerUrl": "https://graceframe.com/en/sewing-machines/grace-15r",
     "retailerUrl": "https://www.sewingmachinesplus.com/qnique-long-arm-quilter.php",
-    "priceUsdSeen": 5198,
-    "priceSeenDate": "2026-09-29",
+    "priceUsdSeen": 4500,
+    "priceSeenDate": "2026-10-02",
     "priceSeenAt": "another dealer",
-    "priceNote": "Sew Vac Direct (bundle: 15R with Q-Zone Queen frame and bonus pack; no machine only price found)",
+    "priceNote": "Grace Company list price, machine only (graceframe.com 15R page, out of stock online); a recertified unit showed $3,099 via Google Shopping",
     "specs": {
       "stitchTypes": {
         "value": "Straight stitch only; four stitch modes Precision, Cruise, Baste, Manual",
@@ -3197,8 +3253,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://graceframe.com/en/sewing-machines/grace-15r"
       },
       "needleSystem": {
-        "value": "135x5 / DPx5 (equivalents 134, 135x7, 797, SY 1955)",
-        "source": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
+        "value": "135x5 / DPx5 (equivalents 134, 135x7, 797, SY 1955) per a dealer's 15 PRO page; Grace's 15R manual does not state a needle system",
+        "source": "https://reddeersewing.com/grace-qnique-15-pro-mid-arm-quilting-machine/"
       },
       "presserFootLift": {
         "value": null,
@@ -3217,40 +3273,45 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "motor": {
-        "value": "High power motor rated to 1,800 spm",
-        "source": "https://www.sewvacdirect.com/grace-qnique-15r-midarm-quilting-machine-with-q-zone-queen-frame-with-bonus-bundle/"
+        "value": "High power motor rated to 1,800 spm; the manual lists 300 W peak power consumption and a timing belt system",
+        "source": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
       },
       "frame": {
-        "value": "Sold machine only or bundled; compatible with all Grace frames (Q-Zone Hoop, Q-Zone Queen, Continuum, Continuum II) and most other frames",
+        "value": "Sold machine only or bundled; Grace names the Q'one Hoop-Frame, Q-Zone Hoop-Frame Pro, Q-Zone Queen and Cutie as qualifying frames, and shows packages with the Q-Zone Hoop, Q-Zone Queen and Continuum II",
         "source": "https://graceframe.com/en/sewing-machines/grace-15r"
       },
       "weightLb": {
         "value": 42,
-        "source": "https://www.sewvacdirect.com/grace-qnique-15r-midarm-quilting-machine-with-q-zone-queen-frame-with-bonus-bundle/"
+        "source": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
       },
       "dimensionsIn": {
-        "value": null,
-        "source": null
+        "value": "23 long x 15.5 wide x 19 high (585 x 395 x 480 mm)",
+        "source": "https://graceframe.com/frontend/images/instruction-pdfs/quilting-machines/qnique-15r-instructions-18-12-17.pdf"
       },
       "includedFeet": {
         "value": null,
         "source": null
       },
       "warrantyUs": {
-        "value": "1 yr limited electrical parts, 2 yr mechanical parts, 5 yr cast body",
-        "source": "https://www.allbrands.com/categories/4253"
+        "value": "Grace warranty page: 2 yr limited on electronic parts and 5 yr on the cast body; the machine page says electronics 1 yr, non-moving parts 2 yr, body 5 yr; not transferable to a second owner",
+        "source": "https://graceframe.com/en/page/warranty"
       }
     },
     "claims": [
-      "\"superior stitch quality\" (dealer copy repeating manufacturer language, premierstitching.com)",
-      "\"economical price tag\" (manufacturer language quoted by dealers)",
-      "\"Grace continues to honor and fully support services and warranties for the 15R\" (manufacturer statement, graceframe.com 15R page)"
+      "\"Superior stitching quality\" (Grace marketing heading, 15R page)",
+      "\"high-power motor\" (Grace wording relayed by dealers; the manual gives 300 W peak power consumption)",
+      "\"the perfect mid-arm quilting machine\" (Grace page description)",
+      "\"Superior Live Technical Support\" (Grace marketing heading, 15R page)"
     ],
     "conflicts": [
-      "Stitch regulation: graceframe.com says the 15R features stitch regulation; the LeahDay.com review of the \"Qnique 14+ / 15R sit down\" says that configuration has no stitch regulator and is controlled by foot pedal. The Leah Day page describes the sit down (table) configuration, where a regulator has nothing to track. Catalog will use: built in stitch regulation on a frame, per Grace.",
-      "Model status: Grace says the Q'nique 15 PRO was discontinued and replaced by the 16X, and that the 15R \"may still be purchased from a Grace dealer\". The 15R is a legacy model, not the current mid range machine. Catalog will mark it as legacy, still sold, with the 16X as the successor to check.",
-      "Price: only bundle prices were found ($5,198 with Q-Zone Queen frame at Sew Vac Direct; a used 15R with Continuum King frame at $6,000 on the APQS forum). Machine only MSRP was not visible. Render machine only price as [verify].",
-      "Class naming: dealers call the 15R a \"midarm\"; the task and Grace's own frame marketing treat 15 in machines as entry longarms. Catalog will use long-arm type with a note that 15 in sits at the mid-arm / long-arm boundary."
+      "Needle: our earlier spec cited Grace's 15R manual for 135x5 / DPx5, but the manual names no needle system; the figure comes from a dealer's 15 PRO page, so it stays a dealer figure [verify].",
+      "Warranty: Grace's machine page gives electronics 1 yr, non-moving parts 2 yr and body 5 yr, while its warranty page lists the 15R and its electronic parts under the 2 Year and the body under the 5 Year warranty; a dealer's 15 PRO page says 1 yr electrical and 2 yr mechanical.",
+      "Status: Grace's 15R page says no longer available for new purchase and points to the 15 Pro, a dealer page says the 15 PRO was discontinued and replaced by the 16X, and Leah Day lists the 15R as now the 16x; Grace names no replacement for the 15R, so the successor is unconfirmed.",
+      "Price: Grace lists $4,499.95 machine only, a dealer bundle with the Q-Zone Queen was seen at $5,198 on 2026-09-29 (that listing now redirects) against Grace's own $6,699.90 Queen package, and a recertified 15R showed $3,099 via Google Shopping on 2026-10-02.",
+      "Stitch regulation: Grace's page and manual describe regulated stitching on a frame, while Leah Day says the sit down 14+ / 15R setup has no regulator and runs from a foot pedal; sit down use is manual.",
+      "Usable width: Leah Day says a 15 in head barely fits a 10 in block, a forum buyer estimates a 12 to 13 in comfortable pattern area, and Grace says only 15 in throat and 8.5 in height; the usable figures are owner estimates [verify].",
+      "Class: dealers and Grace call the 15R a midarm; by rule 11 a 15 in head is an entry long-arm on a frame.",
+      "Naming: Leah Day says the Q'nique 14+ was renamed the 15R and forum owners say the BlockRockIt is the same machine; Grace's pages do not state either."
     ],
     "ownerThemes": [
       {
@@ -3269,7 +3330,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm/"
       }
     ],
-    "evidence": "mixed",
+    "evidence": "owner",
     "buyerQuestions": [
       "Is the Grace Q'nique 15R discontinued?",
       "What is the difference between the Q'nique 15R, 15M and 15 PRO?",
@@ -3302,41 +3363,78 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The Q'nique 15R is a legacy 15 in, 1,800 spm stitch regulated machine that Grace still sells through dealers while the 16X takes its place in the lineup. Its case is price flexibility: it can sit on a $1,399 hoop frame or a full Continuum, so the entry cost can be lower than a Moxie bundle.",
-      "whoFor": "A budget focused quilter who wants a regulated 15 in machine, is comfortable buying a superseded model, and wants to choose the frame size to fit the room.",
-      "skipIf": "You want the current model with the longest support horizon (16X or 19X), you need more than about 8 in of vertical clearance, or you would rather have a single bundled price from one brand.",
-      "keySpec": "15 in throat · 8.5 in height · 1,800 spm · stitch regulation built in · frame sold separately or bundled",
+      "verdict": "A 15 in, 1,800 spm regulated head that Grace no longer sells new; owners report tension work, a short reach and some electronics faults, with praised support.",
+      "whoFor": "A budget quilter who wants a regulated 15 in head on a hoop frame, buys with a warranty, and mostly quilts small blocks.",
+      "skipIf": "You want a machine Grace still sells new, you quilt large blocks or wide panels, or you would buy a used unit with no warranty, since Grace warranties do not transfer.",
+      "keySpec": "15 in throat · 8.5 in high · 1,800 spm · stitch regulation · 42 lb head",
       "strengths": [
-        "Built in stitch regulation with Precision, Cruise, Baste and Manual modes",
-        "Works on every Grace frame including the 54 in wide Q-Zone Hoop for small rooms",
-        "42 lb head with M class bobbin and industry standard 134 class needles"
+        "Grace publishes 1,800 spm, regulated Precise and Cruise modes with Manual and Baste, a 15 in by 8.5 in work area and an M class bobbin wound by its own motor.",
+        "Owners report Grace's phone support walking them through faults and sending replacement parts quickly.",
+        "Owners call it a good machine to learn on and say it glides smoothly on its carriage once thread and tension are set."
       ],
       "weaknesses": [
-        "Superseded model; Grace says it may still be purchased but the 15 PRO was replaced by the 16X",
-        "Machine only price and dimensions were not published on pages found",
-        "Warranty is shorter than Handi Quilter's (1 yr electrical, 2 yr mechanical, 5 yr casting)"
+        "Owners report tension taking a lot of thread and patience to set, with breaking thread and skipped stitches in help threads.",
+        "Owners report outgrowing the 15 in throat, with one reviewer saying a 15 in head barely fits a 10 in block.",
+        "Some owners report electronics faults such as motherboard, sensor or bobbin winder failures that meant shipping the machine back to Grace."
       ],
       "checks": [
         {
-          "title": "Ask which frame the quote includes",
-          "body": "Grace bundles range from the Q-Zone Hoop ($1,399) to Continuum II; the frame can be a quarter to half of the total."
+          "title": "Warranty and transfer",
+          "body": "Grace's warranty page says warranties do not transfer to a second owner, and its machine page and warranty page disagree on the electronics term (1 yr versus 2 yr). Get the term in writing for a used or recertified unit."
         },
         {
-          "title": "Confirm new versus recertified",
-          "body": "Several listings for Q'nique 15 class machines are recertified units with a new warranty. Check the box label and warranty paperwork."
+          "title": "Local service",
+          "body": "Owners report that missing local service meant shipping the machine to Grace; Grace requires the original box and one owner paid a little over $300 to ship. Ask the dealer who services it."
         },
         {
-          "title": "Compare against the 16X before buying",
-          "body": "Grace names the 16X as the replacement for the 15 PRO. Price the current model so you know what the legacy discount actually is."
+          "title": "Price and what is in it",
+          "body": "Grace lists $4,499.95 machine only and the page says the 15R is no longer available for new purchase, so check whether a quote is new, recertified or used, and which frame is included."
         }
       ],
       "realCost": [
-        "Frame: Q-Zone Hoop $1,399; Q-Zone Queen $1,899 (one dealer showed $2,199.95 regular); Continuum II price not shown on manufacturer site",
-        "Stitch regulator: Built in on the 15R; the 15M is the manual only version",
-        "Robotics: Quilter's Creative Touch: QCT5 was listed $2,294 to $3,654 and is discontinued in favor of QCT6; QCT6 price not found",
-        "Delivery and setup: Some online dealers ship free; frames arrive flat packed for owner assembly"
+        "Frame: Grace lists $6,499.90 with the Q-Zone Hoop and $6,699.90 with the Q-Zone Queen against $4,499.95 machine only",
+        "Shipping a unit to Grace for repair: one owner paid a little over $300 and the original box is required",
+        "A tune up on a used unit: one buyer paid $229 for oil and timing, plus $100 for missing frame pieces",
+        "Rear handles and a laser pointer, which one commenter describes as add ons"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "What do owners say about the Grace Q'nique 15R?",
+          "a": "Owners praise Grace's phone support, call it a good machine to learn on and say it glides well once tension is set. The repeated complaints are tension that takes a lot of thread to dial in, a 15 in throat people outgrow, and some electronics faults. Help threads over-represent problems."
+        },
+        {
+          "q": "Is the Grace Q'nique 15R the same as the Q'nique 14+?",
+          "a": "Leah Day, who discloses she is a Grace dealer and partner, says the 14+ was renamed the 15R and is the exact same machine. Forum owners also describe the dealer-branded BlockRockIt as the same machine. Grace's current 15R page does not say so [verify]."
+        },
+        {
+          "q": "Is the Grace Q'nique 15R discontinued?",
+          "a": "Grace's 15R page says it is no longer available for new purchase, that Grace still supports service and warranties, and that a dealer may still sell it. The page points buyers to the 15 Pro, while a dealer page says the 15 PRO was replaced by the 16X, so the successor is not confirmed [verify]."
+        },
+        {
+          "q": "What is the difference between the Q'nique 15R, 15M and 15 PRO?",
+          "a": "All three share a 15 in throat, LED lights and an M class bobbin. Grace's table lists the 15 PRO at 2,000 spm with a touch screen and $4,999.95, the 15R at 1,800 spm with an OLED screen and $4,499.95, and the 15M at 1,800 spm with no stitch regulation, an LCD read-out and $3,499.95."
+        },
+        {
+          "q": "Does the Q'nique 15R have a stitch regulator?",
+          "a": "Grace's manual describes regulated Precise and Cruise modes plus Manual and Baste, with 4 to 16 stitches per inch. A reviewer says the sit down 14+ / 15R setup has no regulator and runs from a foot pedal, so regulation applies to the frame setup."
+        },
+        {
+          "q": "How much does the Q'nique 15R cost?",
+          "a": "Grace lists $4,499.95 machine only, $6,499.90 with the Q-Zone Hoop and $6,699.90 with the Q-Zone Queen, but says the 15R is no longer available for new purchase. A recertified unit showed $3,099 via Google Shopping on 2026-10-02, a dealer figure that moves [verify]."
+        },
+        {
+          "q": "What needle does the Q'nique 15R use?",
+          "a": "Grace's 15R manual does not name a needle system and the kit holds 10 needles. A dealer's 15 PRO page lists 135x5 or DPX5 with equivalents, and a 15 PRO owner reports changing needles to stop thread shredding, so treat the figure as a dealer number [verify]."
+        },
+        {
+          "q": "What is the warranty on the Grace Q'nique 15R?",
+          "a": "Grace's warranty page lists the 15R under its 2 year and 5 year limited warranties, with the 5 year term on the cast body, and says warranties do not transfer to a second owner. Grace's machine page gives electronics as 1 year, so the electronics term differs between pages [verify]."
+        },
+        {
+          "q": "How does the Q'nique 15R compare with the Q'nique 19 and 19X?",
+          "a": "Leah Day says the Q'nique 19 (now the 19X) has 19 in against 15 in of throat, which she frames as barely fitting a 10 in block versus easily quilting a 14 in block, and that the 19 has a touchscreen. These are one reviewer's figures and Grace's 19X page was not checked [verify]."
+        }
+      ]
     },
     "sources": [
       "https://graceframe.com/en/sewing-machines/grace-15r",
@@ -3352,7 +3450,11 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://leahday.com/pages/sewing-machine-review-grace-qnique-14-sit-down-longarm",
       "https://sewnbysophia.com/grace-qnique-quilting-machine-review/",
       "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm/",
-      "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro"
+      "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro",
+      "https://graceframe.com/en/page/warranty",
+      "https://reddeersewing.com/grace-qnique-15-pro-mid-arm-quilting-machine/",
+      "https://graceframe.com/en/sewing-machines/grace-15pro",
+      "https://www.sewingpartsonline.com/products/qnique-15-pro-midarm-quilting-machine-grace-company"
     ]
   },
   "grace-qnique-19x": {
@@ -3367,14 +3469,14 @@ export const catalogData: Record<string, CatalogEntry> = {
     ],
     "manufacturerUrl": "https://graceframe.com/en/product/grace-19x-quilting-machine",
     "retailerUrl": "https://www.sewingmachinesplus.com/16034.php",
-    "priceUsdSeen": 5499,
-    "priceSeenDate": "2026-09-29",
+    "priceUsdSeen": 3999,
+    "priceSeenDate": "2026-10-02",
     "priceSeenAt": "another dealer",
-    "priceNote": "Rocky Mountain Sewing and Vacuum (range $5,499 to $7,599 by frame option; low end shown)",
+    "priceNote": "Moore's Sewing closeout, machine only option (Grace recertified unit $4,999.00 the same day; low end shown, frame extra)",
     "specs": {
       "stitchTypes": {
-        "value": "Straight stitch only; built in stitch regulator plus manual speed mode",
-        "source": "https://www.sewingpartsonline.com/products/qnique-19x-longarm-quilting-machine-grace-company"
+        "value": "Straight stitch only; four stitch modes: Manual, Cruise, Precise, Baste",
+        "source": "https://graceframe.com/en/sewing-machines/qnique19xelite"
       },
       "stitchCount": {
         "value": 1,
@@ -3382,7 +3484,7 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "maxSpm": {
         "value": 2000,
-        "source": "https://www.sewingpartsonline.com/products/qnique-19x-longarm-quilting-machine-grace-company"
+        "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
       },
       "threads": {
         "value": null,
@@ -3397,16 +3499,16 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://graceframe.com/en/product/grace-19x-quilting-machine"
       },
       "needleSystem": {
-        "value": null,
-        "source": null
+        "value": "Grace-approved styles DPX5 MR, 134 MR and 1955 MR",
+        "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
       },
       "presserFootLift": {
         "value": null,
         "source": null
       },
       "threadTrimmer": {
-        "value": null,
-        "source": null
+        "value": "Cutter on the hopping foot trims thread after threading; no automatic trimmer described in the manual",
+        "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
       },
       "feedSystem": {
         "value": "Frame mounted free motion (no feed dogs); needle up/down and single stitch from handle buttons",
@@ -3417,28 +3519,28 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "motor": {
-        "value": null,
-        "source": null
+        "value": "Peak power consumption 300 W at 110 to 220 VAC; motor type not published",
+        "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
       },
       "frame": {
         "value": "Sold machine only or bundled; fits all Grace frames including Cutie, Q-Zone Hoop, Q-Zone Queen and Continuum",
         "source": "https://www.sewingpartsonline.com/products/qnique-19x-longarm-quilting-machine-grace-company"
       },
       "weightLb": {
-        "value": null,
-        "source": null
+        "value": 41.5,
+        "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
       },
       "dimensionsIn": {
-        "value": null,
-        "source": null
+        "value": "Body 32.8 L x 15.6 W x 26.8 H in; quilting arm 19 W x 8.9 H in",
+        "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
       },
       "includedFeet": {
-        "value": "Hopping foot; 20 needles; dealer bonus kits vary and are not manufacturer box contents",
-        "source": "https://meissnersewing.com/products/grace-19x-long-arm-machine"
+        "value": "Hopping foot with height tool; 10 size 16 and 10 size 18 needles; 3 M class bobbins; oil; sample thread; maintenance tools. Dealer bonus kits vary and are not box contents",
+        "source": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
       },
       "warrantyUs": {
-        "value": "5 yr cast body, 2 yr mechanical parts, 1 yr electrical parts, original owner (dealer statement of Grace warranty)",
-        "source": "https://leahday.com/pages/warranty"
+        "value": "2 yr limited (machine and electronic parts), 5 yr on the cast metal body; original owner only",
+        "source": "https://graceframe.com/en/page/warranty"
       }
     },
     "claims": [
@@ -3447,11 +3549,15 @@ export const catalogData: Record<string, CatalogEntry> = {
       "\"For quilters who want to transition from a shortarm or midarm machine but are concerned about the weight, size, and complexity of longarm machines\" (retailer positioning, sewingmachinesplus.com, about the 19X Elite)"
     ],
     "conflicts": [
-      "Model naming: Grace's current product pages call the machine the Grace 19X and Grace 19X Elite, while dealers and Sewing Machines Plus still list it as Q'nique 19X. Same machine; the catalog keeps Q'nique in the model name and notes the rename.",
-      "Speed: 2,000 spm for the 19X vs 2,600 spm for the 19X Elite (sewingpartsonline.com). This entry covers the 19X; the Elite adds the faster motor, 7 in touchscreen, dimmable LEDs and a built in bobbin winder and must not be mixed into the 19X spec table.",
-      "Price: Rocky Mountain Sewing shows $5,499 to $7,599 for the 19X depending on frame option; another dealer range of $6,988 to $8,499.95 appeared in a snippet without a page attribution. 19X Elite ranges $7,999.95 to $10,499.95 at Rocky Mountain, and Ken's Sewing Center listed the Elite with a Q-Zone Hoop frame at $6,359.20. Catalog will use $5,499 as machine-side low and flag frame bundles as [verify].",
-      "Needle system: dealers list included needle sizes (16 and 18) but not the system. The Q'nique 15R manual lists 135x5 / DPx5 with 134 as equivalent; the 19X system is not confirmed in results and is left null.",
-      "Weight, dimensions, throat height and motor rating: not published on any page found. Render as [verify]."
+      "Model naming: Grace's recertified listing is titled 'Grace 19X' and lists the brand as Q'nique, its manual is titled 'Q'nique 19 X', and dealers say Q'nique 19X. Grace's warranty page also lists an earlier 'Q'nique 19' as a separate model.",
+      "Availability: Grace's own site no longer has a new 19X product page or shop listing (the old page redirects to the home page), but still sells it recertified and still shows it in the 19X Elite comparison table. Dealers still list new units, some marked closeout.",
+      "Screen: Grace and its manual say 2.4 in color touch display; dealer copy says full color OLED. This entry uses the Grace wording.",
+      "Warranty: Grace's warranty page gives 2 years on the machine and its electronic parts and 5 years on the cast body; a Grace dealer page says 1 year on electrical parts.",
+      "Needle light: dealer copy for the 19X says the needle light dims; the Grace manual describes the lamp as on or off, and Grace lists dimmable LEDs under the 19X Elite.",
+      "Bobbin winder: the 19X manual lists a built-in winder; dealer copy for the Elite lists the winder as an Elite extra.",
+      "Block size: Grace pages say blocks up to 17 in on the 19X recertified page and up to 15 in on the Elite page, while Leah Day writes about 12 to 14 in blocks. Block size is not throat space; throat is 19 in.",
+      "Speed: 2,000 spm for the 19X against 2,600 for the 19X Elite at Grace; one Canadian dealer chart gives the Elite 1,700. The Elite must not be mixed into the 19X table.",
+      "Price: Grace's comparison table shows $5,999.00 for the 19X and the recertified unit is $4,999.00; Moore's Sewing showed $3,999.00 on closeout, and earlier dealer ranges ran higher. Frame bundles change the figure."
     ],
     "ownerThemes": [
       {
@@ -3475,7 +3581,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm/"
       }
     ],
-    "evidence": "owner",
+    "evidence": "positioning",
     "buyerQuestions": [
       "Is the Q'nique 19X the same as the Grace 19X?",
       "What is the difference between the Q'nique 19X and the 19X Elite?",
@@ -3509,82 +3615,72 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The Q'nique 19X (now sold as the Grace 19X) gives the most throat per dollar in the entry frame class, 19 in and 2,000 spm with regulation built in from about $5,499, provided you price the Grace frame separately and accept a shorter warranty than Handi Quilter's.",
-      "whoFor": "A home quilter who wants nearly long-arm throat on a hoop or rail frame that fits a spare room, and who is comfortable with phone support and self assembly rather than a dealer install.",
-      "skipIf": "You want the frame, delivery and setup in one dealer price, you need a 24 in or wider throat for customer work, or the Elite's faster motor and bigger screen matter enough to justify its higher price.",
-      "keySpec": "19 in throat · 2,000 spm · M class bobbin · fits all Grace frames · regulation built in",
+      "verdict": "The 19X gives 19 in of throat, 2,000 spm and built in regulation, but Grace no longer lists it new and we found no first-hand owner write-up of this exact model.",
+      "whoFor": "A buyer who wants 19 in of throat on a hoop or rail frame and will pick up a dealer closeout or a recertified unit, comfortable with Grace phone support and owner assembly.",
+      "skipIf": "You want a machine Grace still sells new, a dealer installed package, a 7 in screen or the faster motor, in which case price the 19X Elite instead.",
+      "keySpec": "19 in throat · 2,000 spm · M class bobbin · 41.5 lb body · regulation built in",
       "strengths": [
-        "19 in of throat is 4 in more than the Moxie and Q'nique 15R at a similar machine price",
-        "Stitch regulator, OLED touchscreen and M class bobbin are standard on the base 19X, not reserved for the Elite",
-        "Works on every current Grace frame from the 54 in Q-Zone Hoop to 8 to 12 ft Continuum rails, so the frame can grow with the room"
+        "Grace publishes 19 in of arm width and 8.9 in of arm height in the manual, which is 4 in more throat than a 15 in head",
+        "Regulated stitching with four stitch modes (Manual, Cruise, Precise, Baste) and Edge Warning is listed for the base 19X, not only the Elite",
+        "Grace says all current Grace frames work with its X Series machines, so the frame can grow with the room"
       ],
       "weaknesses": [
-        "Grace's warranty is 5 yr casting, 2 yr mechanical, 1 yr electrical, against Handi Quilter's 10, 5 and 5",
-        "Weight, dimensions, throat height, needle system and motor rating are not published on pages found",
-        "Dealer bundle pricing runs from $5,499 to over $8,000 for the same head depending on the frame, and the Elite is often quoted in the same breath"
+        "Grace's own site no longer lists the base 19X as a new machine; it sells it recertified and shows it in the Elite comparison table",
+        "Buyer signals for this exact model are thin: one dealer page shows 3 buyer reviews (5.0, 2023), none naming a model, one noting the power switch is hard to reach on a Cutie frame; one shopper reports reading mixed reviews",
+        "Grace gives the 19X a 2 year limited warranty and the 19X Elite a 10 year cast body warranty, and the warranty does not transfer to a second owner"
       ],
       "checks": [
         {
-          "title": "Confirm 19X versus 19X Elite on the quote",
-          "body": "Same body, different motor (2,000 vs 2,600 spm), screen (OLED vs 7 in) and extras (dimmable LEDs, built in bobbin winder on the Elite). Dealers list both and recertified units of each; make sure the price matches the model."
+          "title": "Confirm 19X, not 19X Elite, on the quote",
+          "body": "Grace lists 2,000 spm and a 2.4 in color touchscreen for the 19X, against 2,600 spm and a 7 in display for the Elite. Dealers carry both, plus recertified units of each."
         },
         {
-          "title": "Price the frame as a separate line",
-          "body": "Rocky Mountain shows $5,499 to $7,599 depending on frame option. The Q-Zone Hoop was seen at $1,399 and the Q-Zone Queen at $1,899; the Continuum II price was not visible. Ask which frame is in the bundle and what it costs alone."
+          "title": "Ask whether the frame is in the price",
+          "body": "Grace's recertified listing sells the frame as a separate choice: Cutie, Q-Zone Hoop-Frame, Q-Zone Queen, Quilter's Evolution Hoop-Frame or an Evolution Elite rolling frame. Ask which one a bundle includes and what it costs alone."
         },
         {
-          "title": "Ask what Grace publishes for weight and needle system",
-          "body": "No dealer page found lists head weight, throat height or the needle system, only included sizes 16 and 18. Get these from the manual before buying rulers, needles or a lift frame."
+          "title": "Check the warranty terms before a dealer or closeout buy",
+          "body": "Grace's page says the warranty is for the original owner only and that machines go back in the original box at the owner's cost. A Grace dealer page quotes 1 year on electrical parts where Grace's own page says 2 years on electronic parts [verify]."
         }
       ],
       "realCost": [
-        "Frame: not included at the machine only price; Q-Zone Hoop $1,399, Q-Zone Queen $1,899 to $2,199.95, Continuum II price not published",
-        "Stitch regulator: included; no add-on cost",
-        "Robotics: Quilter's Creative Touch; QCT5 was seen at $2,294.15 to $3,654.15 and is discontinued in favor of QCT6, whose price was not published",
-        "Delivery and setup: frames ship flat for owner assembly; some online dealers advertise free shipping on bundles",
-        "Consumables: M class bobbins; needles in sizes 16 and 18 are included, system to be confirmed from the manual",
-        "Warranty gap: 1 yr electrical and 2 yr mechanical coverage means a service plan or dealer relationship may be worth pricing"
+        "Frame: not in the machine only price; Grace's recertified listing shows choices from the Cutie tabletop to the Evolution Elite 8, 10 or 12 ft rolling frame as add-ons",
+        "Hopping feet: one hopping foot is in the box; Grace sells a 3 piece hopping foot set for $127.46 on the recertified page",
+        "Needles and oil: 10 size 16 and 10 size 18 needles and oil are in the box; the manual says change the needle after 8 hours of use and oil after 20 hours",
+        "Return shipping: Grace's warranty says machines go back in the original box, or the owner buys a box from Grace"
       ],
       "faqs": [
         {
+          "q": "What do owners say about the Grace Q'nique 19X?",
+          "a": "Very little that names this exact model. We found no first-hand write-up that names the base 19X; the closest is a dealer page with 3 buyer reviews from 2023, rated 5.0, which name no model. One of them dislikes the power switch at the far end of the machine, hard to reach on a Cutie frame. Most owner talk online is about the 19X Elite, the 21 or an earlier Q'nique 19, and is not counted here. Treat this as thin evidence."
+        },
+        {
           "q": "Is the Q'nique 19X the same machine as the Grace 19X?",
-          "a": "Yes. Grace's current product pages call it the Grace 19X and Grace 19X Elite; dealers and Sewing Machines Plus still list it as the Q'nique 19X. The specs quoted are the same."
+          "a": "Grace's recertified listing is titled Grace 19X and lists the brand as Q'nique, and its manual is titled Q'nique 19 X, so the names point to one machine. Dealers still sell it as the Q'nique 19X. Grace's warranty page also lists an earlier Q'nique 19 as a separate model."
         },
         {
-          "q": "What is the difference between the 19X and the 19X Elite?",
-          "a": "The Elite has a stronger motor rated to 2,600 spm against 2,000 on the 19X, a 7 in touchscreen instead of the OLED screen, dimmable LED needle lights and a built in M class bobbin winder. Throat is 19 in on both."
+          "q": "What is the difference between the Q'nique 19X and the 19X Elite?",
+          "a": "Grace lists 2,000 spm and a 2.4 in color touchscreen for the 19X, and 2,600 spm and a 7 in display for the Elite. Grace lists dimmable LED lights as an Elite feature, while the 19X manual describes the lamp as on or off. Grace's warranty page gives the Elite 10 years on the cast body against 5 for the 19X. Throat is 19 in on both."
         },
         {
-          "q": "Does the 19X price include a frame?",
-          "a": "Usually not. Dealer prices from $5,499 to $7,599 differ by frame option. The 19X fits all Grace frames including the Cutie, Q-Zone Hoop, Q-Zone Queen and Continuum."
+          "q": "Does the Q'nique 19X price include a frame?",
+          "a": "Not on Grace's own listing: the recertified 19X sells the frame as a separate choice, from a Cutie tabletop frame to Evolution Elite rolling frames. Some dealers bundle a frame, so ask what is in the price. Grace says all current Grace frames work with its X Series machines, except the 21X Elite."
         },
         {
-          "q": "Does the 19X have a built in stitch regulator?",
-          "a": "Yes. Encoders on the carriage read your movement and set the motor speed for even stitches. There is also a manual speed mode."
+          "q": "Does the Q'nique 19X have a built in stitch regulator?",
+          "a": "Yes. Grace's manual lists regulated stitching with a speed range of 90 to 2000 stitches per minute, and Grace lists four stitch modes: Manual, Cruise, Precise and Baste. It also lists Edge Warning on the 19X."
         },
         {
-          "q": "How big is the 19X throat?",
-          "a": "Grace states 19 in of throat space, needle to body. Throat height is not published in results found."
+          "q": "How much does the Q'nique 19X weigh?",
+          "a": "The Grace manual gives the body as 41.5 lb (18.8 kg), 32.8 in long, 15.6 in wide and 26.8 in high. That is the machine body, not a shipped weight with packaging."
         },
         {
-          "q": "What bobbin and needles does the 19X use?",
-          "a": "M class bobbins. Dealers list 10 size 18 and 10 size 16 needles in the box; the needle system itself is not published in results found."
+          "q": "What warranty comes with the Q'nique 19X?",
+          "a": "Grace's warranty page lists the Q'nique 19X at 2 years limited and 5 years on the cast metal body, for the original owner only. A Grace dealer page says 1 year on electrical parts, where Grace's page puts electronic parts at 2 years [verify]."
         },
         {
-          "q": "How much does the 19X weigh?",
-          "a": "Not published on any page found."
-        },
-        {
-          "q": "What is the Grace warranty?",
-          "a": "A Grace dealer states 5 years on the cast body, 2 years on mechanical parts and 1 year on electrical parts for the original owner."
-        },
-        {
-          "q": "Can I add computerized quilting to the 19X?",
-          "a": "Yes, Grace's Quilter's Creative Touch robotics fit Q'nique machines. QCT5 was seen at $2,294.15 to $3,654.15 and has been replaced by QCT6, whose price was not published."
-        },
-        {
-          "q": "How does the 19X compare with the Handi Quilter Moxie?",
-          "a": "The 19X has 4 in more throat and 200 spm more, but the Moxie's $5,995 MSRP includes an 8 ft Loft frame and a longer warranty. Compare bundle to bundle, not head to head."
+          "q": "What bobbin and needles does the Q'nique 19X use?",
+          "a": "It takes M class bobbins, and the box holds three. The manual lists DPX5 MR, 134 MR and 1955 MR needle styles, and the box holds 10 size 16 and 10 size 18 needles. The manual says to change the needle after 8 hours of use."
         }
       ]
     },
@@ -3610,7 +3706,14 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://www.quiltingboard.com/main-f1/help-advice-longarm-machine-t321795.html",
       "https://forum.missouriquiltco.com/forum/we-don-t-know-much-but-we-know-quilters/general-discussion/76114-grace-q-nique-long-arm",
       "https://www.quiltingboard.com/main-f1/having-problems-stitch-regulator-thread-cutter-t298173.html",
-      "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm/"
+      "https://freemotionproject.com/2019/03/troubleshoot-tension-issues-on-a-grace-qnique-longarm/",
+      "https://graceframe.com/en/page/warranty",
+      "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine",
+      "https://graceframe.com/en/shop/quilting-machines",
+      "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf",
+      "https://leahday.com/blogs/machinequilting/how-does-the-grace-qnique-19-compare-with-the-qnique-15r-and-15pro",
+      "https://quiltingroomwithmel.com/long-arm-quilting-machines/",
+      "https://www.moores-sew.com/shop/grace-qnique-19x-quilting-machine/"
     ]
   },
   "handi-quilter-amara": {
@@ -3626,9 +3729,9 @@ export const catalogData: Record<string, CatalogEntry> = {
     "manufacturerUrl": "https://handiquilter.com/product/hq-amara-20/",
     "retailerUrl": "https://www.sewingmachinesplus.com/hq-amara.php",
     "priceUsdSeen": 12995,
-    "priceSeenDate": "2026-09-29",
+    "priceSeenDate": "2026-10-02",
     "priceSeenAt": "another dealer",
-    "priceNote": "Village Sewing (listed as from $12,995 with HQ Studio3 frame; Fig Leaf Quilting showed $12,495 on the same date)",
+    "priceNote": "Handi Quilter product page (range $12,995 to $27,990 across frame and Pro-Stitcher options, default frame selector Little Foot); dealer listings the same day show $12,995 on Little Foot packages and $14,995 with the 12 ft Studio3 at MK Quilts",
     "specs": {
       "stitchTypes": {
         "value": "Straight stitch only; stitch regulation modes Precision and Cruise plus Manual; five built in tie-off stitches",
@@ -3655,8 +3758,8 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://handiquilter.com/product/hq-amara-20/"
       },
       "needleSystem": {
-        "value": "134 (135x7), sizes 12/80 to 20/125",
-        "source": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
+        "value": "134 (135x7). Maker manual: recommended sizes 80/12 to 130/21; maker support article: 12/80 to 20/125",
+        "source": "https://handiquilter.com/download/158320/"
       },
       "presserFootLift": {
         "value": null,
@@ -3679,7 +3782,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://support.handiquilter.com/hc/en-us/articles/360057714632-Amara-Specifications"
       },
       "frame": {
-        "value": "HQ Studio3 frame, 10 ft or 12 ft, in the standard system",
+        "value": "HQ Studio3 frame, 10 ft or 12 ft, included per the maker page; the 5 ft Little Foot frame is listed as compatible and is the page's default selector",
         "source": "https://handiquilter.com/product/hq-amara-20/"
       },
       "weightLb": {
@@ -3691,26 +3794,29 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": null
       },
       "includedFeet": {
-        "value": "Stand alone bobbin winder; QuiltMaster adjustable front handlebars with programmable buttons; full accessory list not published in results",
-        "source": "https://handiquilter.com/product/hq-amara-20/"
+        "value": "Closed-toe Handi Foot installed and open-toe Handi Foot, 5 bobbins, bobbin case, needles 134 size 100/16 and 110/18 (10 each), thread tray and mast, EZ Pen Oiler, power cord, hex wrenches, screwdriver, HQ Longarm Quilting Pins, Quick Reference Card, HQ Bobbin Winder. Sure Foot for rulers and the Steady-Fit Ruler Base are optional",
+        "source": "https://handiquilter.com/download/158320/"
       },
       "warrantyUs": {
-        "value": "10 yr casting, 5 yr electrical, 5 yr mechanical",
-        "source": "https://handiquilter.com/warranty/"
+        "value": "10 yr casting, 5 yr mechanical, 5 yr electrical; 90 day parts and labor; parts are free after 90 days but labor and shipping are the owner's cost",
+        "source": "https://handiquilter.com/download/158320/"
       }
     },
     "claims": [
-      "\"Everything you need for free-motion quilting comes right out of the box\" (manufacturer claim, product page)",
-      "\"Pinpoint accurate needle laser that shows exactly where your next stitch will land\" (manufacturer claim, product page)",
-      "\"Easy-Set Tension\" (manufacturer feature name, product page)",
-      "\"Designed by a Quilter, for Quilters\" (manufacturer tagline, user manual)"
+      "\"Everything you need for free-motion quilting right out of the box\" (Handi Quilter product page claim)",
+      "\"Pinpoint accurate needle laser\" and \"Easy-Set Tension\" (Handi Quilter feature names, product page)",
+      "\"perfect stitches, every time\" (Handi Quilter claim about QuiltMaster stitch regulation)",
+      "\"Designed by a Quilter, for Quilters\" (Handi Quilter manual cover)"
     ],
     "conflicts": [
-      "Price: Village Sewing lists the Amara 20 from $12,995; Fig Leaf Quilting lists $12,495; Pocono Sew and Vac lists $14,995 for the Amara with a 12 ft table. Frame length is the likely variable. Catalog will use $12,995 as the 10 ft system price and flag 12 ft as [verify].",
-      "Speed: 2,500 spm is the manual mode maximum on the Handi Quilter spec page; dealer copy repeats up to 2,500 spm. Regulated working speed is set by hand speed and is not published as a range.",
-      "Throat: Handi Quilter markets 20 in of throat space; the spec page gives the sewing opening as 9 x 20.5 in. Catalog will use 20 in width and 9 in height and note the 20.5 in opening figure.",
-      "Weight and head dimensions: not published on any page found. Render as [verify]. One owner review calls the head heavy compared with the Moxie.",
-      "Naming: Handi Quilter renamed the Forte 24 as the Amara 24. The Amara ST is the sit down version. This entry covers the Amara 20 stand up machine only."
+      "Needle sizes: Handi Quilter's support article gives 12/80 to 20/125 and the Amara 20 and 24 manual v1.6 gives 80/12 to 130/21; both are maker documents, so the range is shown with both figures.",
+      "Price: the maker page range is $12,995 to $27,990 across frame and Pro-Stitcher options, and its default selector is the Little Foot frame. Dealer listings seen 2026-10-02 put $12,995 on a Little Foot frame package and $14,995 on the 12 ft Studio3 at MK Quilts, so our earlier reading of $12,995 as the 10 ft Studio3 price is soft; the Studio3 price is [verify].",
+      "Included frame: the maker page says a Studio3 frame in 10 or 12 ft is included, while Craftyolo says a 5 ft Studio2 frame is included with 10 and 12 ft optional; the maker page is used and the Craftyolo claim is not.",
+      "Included foot: the maker manual says a closed-toe foot is installed with an open-toe foot in the box, while the String & Story review lists an open-toe foot with a ruler foot installed; the manual is used.",
+      "Frame model: Handi Quilter's comparison page describes the Amara 24 frame as Gallery3 in 10, 12 or 15 ft in one place and Gallery2 in 10, 12 or 14 ft in its table; this is the Amara 24, not the Amara 20, and is noted only as a soft figure.",
+      "Service interval: a forum poster relays a Handi Quilter rep suggesting yearly service, while the maker support article says every 24 months or 10 million stitches; the maker article is used.",
+      "Throat: Handi Quilter markets 20 in of throat space and gives the sewing opening as 9 x 20.5 in; the maker puts safe usable quilting area on a frame at about 14 in and one owner says 15 to 18 in.",
+      "Weight: the maker page shows 98 lb packaging weight, which is box weight; no machine weight is published, so weight stays [verify]."
     ],
     "ownerThemes": [
       {
@@ -3729,7 +3835,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://craftyolo.com/handi-quilter-amara-review/"
       }
     ],
-    "evidence": "owner",
+    "evidence": "mixed",
     "buyerQuestions": [
       "Does the Amara 20 price include the frame?",
       "How much room does an Amara on a 10 ft or 12 ft Studio3 frame need?",
@@ -3763,82 +3869,77 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The Amara 20 is Handi Quilter's entry point into true long-arm throat: 20 in, 2,500 spm and built in regulation on a 10 or 12 ft Studio3 frame for about $13,000, which is the first tier where quilting for others becomes practical.",
-      "whoFor": "A quilter with a 14 by 8 ft room who wants to finish queen and king tops in fewer passes, do ruler and custom work, and possibly take in customer quilts.",
-      "skipIf": "You only quilt your own lap and throw sizes (a Moxie or a sit down machine costs far less), you have no room for a 10 ft frame, or you want computerized quilting from day one and have not priced Pro-Stitcher into the total.",
-      "keySpec": "20 in throat · 2,500 spm · Studio3 10 or 12 ft frame · stitch regulation built in",
+      "verdict": "A 20 in head on a frame with built in regulation and 2,500 spm, but owners report finicky tension, uneven dealer support and less usable space than 20 in.",
+      "whoFor": "A quilter with room for a 10 or 12 ft frame who wants a long-arm throat and built in regulation, has a dealer within reach for service, and may add Pro-Stitcher later.",
+      "skipIf": "You only quilt lap and throw sizes, have no dealer within a few hours for service, or want a larger throat for custom work (the maker puts usable area at about 14 in).",
+      "keySpec": "20 in throat (about 14 in usable per the maker) · 2,500 spm · Studio3 10 or 12 ft frame · stitch regulation built in",
       "strengths": [
-        "20 in throat with a 9 in high sewing opening clears the mid-arm band and sits in the published long-arm tier",
-        "QuiltMaster stitch regulation, needle laser, 7 in touchscreen and a stand alone M class bobbin winder are in the standard system",
-        "Same 134 needle and M class bobbin consumables as the rest of the Handi Quilter frame lineup"
+        "Handi Quilter lists QuiltMaster regulation with Precision, Cruise and Manual modes, a 7 in touchscreen and up to 2,500 spm on the machine, so regulation is not an add-on",
+        "Owners who like it report that tension stays put once set and that free motion and ruler work both feel easy, though this rests on a handful of voices",
+        "Upkeep is light on paper: the manual calls for oil on the hook at each bobbin change and technician service every 24 months or 10 million stitches, and owners describe the same routine"
       ],
       "weaknesses": [
-        "Head weight and dimensions are not published; one owner moving up from a Moxie reports real arm fatigue at first",
-        "Dealer prices span $12,495 to $14,995 depending on frame length, and the frame length is not always stated in the price",
-        "Pro-Stitcher robotics roughly double the system price; dealer bundles were seen at $25,990 to $28,990"
+        "Owners report tension that drifts or needs constant adjustment, and one Sewing Machines Plus reviewer calls it a learning curve",
+        "Dealer support after the sale is the most repeated complaint among owners, and the dealer is often also the service point",
+        "Usable space is well under 20 in on a frame (the maker says about 14 in, one owner says 15 to 18 in), a head one reviewer calls heavy has no published weight, and some owners say they outgrew the regulator and top speed"
       ],
       "checks": [
         {
-          "title": "Get the frame length in the quote",
-          "body": "Handi Quilter sells the Amara 20 with a 10 ft or 12 ft Studio3 frame. Dealer prices from $12,495 to $14,995 appear to track frame length. Confirm which one is priced and whether the bobbin winder is included."
+          "title": "Get the frame and price in writing",
+          "body": "Handi Quilter's page runs from $12,995 to $27,990 across frame and Pro-Stitcher options and defaults to the Little Foot frame. Ask the dealer which frame the quote covers: Studio3 10 ft, Studio3 12 ft or Little Foot."
         },
         {
-          "title": "Measure for a 12 ft frame before choosing it",
-          "body": "A dealer size guide says a 10 ft frame wants 12 by 8 ft of floor and a 12 ft frame wants 14 by 8 ft, with 2 ft of walking room on every side. Only a 12 ft frame loads a king quilt in one width."
+          "title": "Check dealer support before the machine",
+          "body": "Owners in the threads we read describe the dealer as the service point and some describe poor support after the sale. Ask who services it, how far away they are and what travel or labor costs, since the warranty gives free parts but not free labor or shipping."
         },
         {
-          "title": "Price Pro-Stitcher now, even if you buy it later",
-          "body": "Authorized dealers list Pro-Stitcher at $10,995 and Amara plus Pro-Stitcher bundles at $25,990 to $28,990. Ask whether the bundle discount survives if you add it in a year."
+          "title": "Measure the room and price Pro-Stitcher now",
+          "body": "Handi Quilter's FAQ gives about 12 by 7 ft for a 10 ft frame and about 14 by 7 ft for a 12 ft frame before walking room. Price Pro-Stitcher as part of the decision, since it moves the total toward $27,990."
         }
       ],
       "realCost": [
-        "Frame: included; 10 ft or 12 ft Studio3 in the standard system, and the 12 ft length was seen priced about $2,000 higher at one dealer",
-        "Stitch regulator: included; no add-on cost",
-        "Robotics: Pro-Stitcher listed at $10,995 by an authorized dealer; Amara plus Pro-Stitcher systems seen at $25,990 to $28,990",
-        "Delivery and setup: not published; Handi Quilter dealers quote freight and setup individually",
-        "Consumables: M class bobbins and 134 system needles, sizes 12 to 20, widely stocked",
-        "Rulers, ruler base and Handi Feet: optional and priced separately by dealers"
+        "Frame and price: Studio3 10 ft or 12 ft is listed as included; the page range is $12,995 to $27,990 and the frame behind the lowest figure is [verify]",
+        "Pro-Stitcher: Optional; listed by the maker as compatible, with the top of the page range at $27,990 with it, and an authorized dealer listing of $10,995 in our earlier spec [verify]",
+        "Rear handlebars and rulers: Quilt from the Back kit and the Steady-Fit Ruler Base are optional extras; one owner says the rear handlebars were an extra cost",
+        "Needles and bobbins: System 134 needles and M class bobbins; the box has 5 bobbins and two packs of 10 needles in sizes 100/16 and 110/18",
+        "Delivery and setup: Not published by the maker; one retailer review reports easy assembly with two people and a reviewer advises 2 to 3 helpers and dealer assembly for the Studio3 frame"
       ],
       "faqs": [
         {
+          "q": "What is the price of the Handi Quilter Amara 20?",
+          "a": "Handi Quilter's page shows $12,995 to $27,990 depending on the frame (Studio3 10 ft, Studio3 12 ft or Little Foot) and whether Pro-Stitcher is added, seen 2026-10-02. Dealer listings the same day put $12,995 on Little Foot packages and $14,995 on a 12 ft Studio3 at MK Quilts, so the Studio3 starting price is [verify]."
+        },
+        {
           "q": "Does the Amara 20 price include a frame?",
-          "a": "Yes. Handi Quilter sells the Amara 20 as a system with the HQ Studio3 frame in 10 ft or 12 ft. Dealer prices from $12,495 to $14,995 appear to differ by frame length, so confirm which length is quoted."
-        },
-        {
-          "q": "Is stitch regulation built into the Amara?",
-          "a": "Yes. Handi Quilter's QuiltMaster stitch regulation with Precision and Cruise modes is standard, with 4 to 24 stitches per inch. There is also a manual mode."
-        },
-        {
-          "q": "How fast does the Amara sew?",
-          "a": "Handi Quilter's spec page gives a manual mode range of 25 to 2,500 stitches per minute. On a frame the working speed is governed by the regulator and your hand speed."
-        },
-        {
-          "q": "How big is the Amara throat?",
-          "a": "Handi Quilter states 20 in of throat space and a sewing opening of 9 x 20.5 in (228 x 521 mm). That is needle to body width; usable quilting depth per pass on a frame is less because of the take up roller."
-        },
-        {
-          "q": "How heavy is the Amara head?",
-          "a": "Not published on any page found. One owner who moved up from a Moxie describes it as noticeably heavier to push."
-        },
-        {
-          "q": "What needle and bobbin does the Amara use?",
-          "a": "Needle system 134 (135x7) in sizes 12/80 to 20/125, and M class bobbins in a high speed rotary hook. A stand alone bobbin winder is included."
-        },
-        {
-          "q": "How much room does an Amara need?",
-          "a": "A dealer frame size guide says a 10 ft frame needs about 12 by 8 ft of floor and a 12 ft frame about 14 by 8 ft, leaving 2 ft of walking room on each side."
-        },
-        {
-          "q": "Can I add Pro-Stitcher to the Amara later?",
-          "a": "Yes, Pro-Stitcher is the compatible robotics. An authorized dealer lists it at $10,995, and Amara plus Pro-Stitcher systems were seen at $25,990 to $28,990."
+          "a": "Yes. Handi Quilter says a Studio3 frame in 10 or 12 ft is included, and it lists the 5 ft Little Foot frame as compatible; the page's frame selector defaults to Little Foot. Ask which frame the quote covers, because the price depends on it [verify]."
         },
         {
           "q": "What is the difference between the Amara 20 and the Amara 24?",
-          "a": "Throat width. The Amara 24 is the renamed Forte 24 with a 24 in throat; the Amara 20 is 20 in. The Amara ST is the sit down version."
+          "a": "Throat space. Handi Quilter lists 20 in on the Amara 20 and 24 in on the Amara 24, and its manual gives the sewing opening as 9 x 20.5 in against 9 x 24.5 in. The Amara 24 is on a Gallery frame in 10, 12 or 15 ft per Handi Quilter's description, though its comparison table lists 10, 12 and 14 ft [verify]."
         },
         {
-          "q": "What is the Amara warranty?",
-          "a": "Handi Quilter's longarm warranty is 10 years on the casting, 5 years electrical and 5 years mechanical."
+          "q": "What is the difference between the Amara 20 and the Amara ST?",
+          "a": "The Amara ST is the 20 in sit down version: the quilt stays still on a lift table or InSight table while you guide it, and Handi Quilter says sit down models do not work with Pro-Stitcher. The Amara 20 is frame mounted and Pro-Stitcher Premium compatible. Handi Quilter lists the ST from $8,495 and the Amara 20 from $12,995."
+        },
+        {
+          "q": "Should I buy the Moxie or the Amara 20?",
+          "a": "Handi Quilter lists the Moxie at 15 in, 1,800 spm and 4 to 18 stitches per inch from $5,495, and the Amara 20 at 20 in, 2,500 spm and 4 to 24 from $12,995, with about 10 in against about 14 in of safe usable area. One Amara owner said she would have outgrown a Moxie quickly; a reviewer with both, whose Amara is on loan from Handi Quilter, called the Amara a clear step up."
+        },
+        {
+          "q": "Can Pro-Stitcher be added to the Amara 20 later?",
+          "a": "Handi Quilter says the Amara 20 is Pro-Stitcher ready with the cabling pre-installed, and lists it as Pro-Stitcher Premium compatible. The page range reaches $27,990 with it, and Pro-Stitcher's separate price is not on the pages read [verify]. One forum owner said she had not mastered it after two years."
+        },
+        {
+          "q": "What do owners say about the Handi Quilter Amara 20?",
+          "a": "Happy owners say that once tension is set they are good to go and that free motion and ruler work both feel easy. Complaints are about tension that drifts, a regulator and top speed some say they outgrew, usable space under 20 in, a heavy head and uneven dealer support. This is a small sample of 14 voices from 2018 to 2026."
+        },
+        {
+          "q": "How much room does an Amara 20 need?",
+          "a": "Handi Quilter's FAQ gives about 12 by 7 ft for a 10 ft frame and about 14 by 7 ft for a 12 ft frame, with room at the front and back for movement. A dealer size guide gives 12 by 8 ft and 14 by 8 ft with 2 ft of walking room on each side [verify]."
+        },
+        {
+          "q": "What needle and bobbin does the Amara 20 use?",
+          "a": "Needle system 134 and M class bobbins in a rotary hook with a type MF bobbin case. Handi Quilter's manual recommends sizes 80/12 to 130/21 while its support article says 12/80 to 20/125. The box has 5 bobbins and two packs of 10 needles, sizes 100/16 and 110/18."
         }
       ]
     },
@@ -3859,7 +3960,12 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://rockymountainsewing.com/longarm-quilting-frame-size-guide/",
       "https://sewing.patternreview.com/SewingDiscussions/topic/127484",
       "https://www.stringandstory.com/blog/hqamara",
-      "https://craftyolo.com/handi-quilter-amara-review/"
+      "https://craftyolo.com/handi-quilter-amara-review/",
+      "https://handiquilter.com/download/158320/",
+      "https://handiquilter.com/compare/hq-machine-comparison/",
+      "https://handiquilter.com/machine-comparison-should-i-buy-the-moxie-or-the-amara/",
+      "https://www.quiltingboard.com/main-f1/help-advice-longarm-machine-t321795.html",
+      "https://www.reddit.com/r/quilting/comments/la4q1q/"
     ]
   },
   "handi-quilter-moxie": {
@@ -4624,7 +4730,7 @@ export const catalogData: Record<string, CatalogEntry> = {
     "manufacturerUrl": "https://www.janome.com/product/coverpro-2000cpx/",
     "retailerUrl": "https://www.sewingmachinesplus.com/janome-2000cpx.php",
     "priceUsdSeen": 799,
-    "priceSeenDate": "2026-09-29",
+    "priceSeenDate": "2026-10-02",
     "priceSeenAt": "Sewing Machines Plus",
     "priceNote": null,
     "specs": {
@@ -4646,23 +4752,23 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "differentialFeed": {
         "value": "0.5 to 2.25",
-        "source": "https://www.qualitysewing.com/products/janome-coverpro-2000cpx-coverstitch-machine"
+        "source": "https://www.janome.com/product/coverpro-2000cpx/"
       },
       "throatIn": {
         "value": null,
         "source": null
       },
       "needleSystem": {
-        "value": "SCHMETZ ELx705, 90/14 supplied",
-        "source": "https://www.janome.com/product/coverpro-2000cpx/"
+        "value": "Organ or Schmetz ELx705, size 80/12 or 90/14. Machine arrives with 80/12 installed; the standard set in the manual is 2 x 80/12 and 3 x 90/14",
+        "source": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf"
       },
       "presserFootLift": {
-        "value": "Snap-on foot; lift height not published",
-        "source": "https://www.janome.com/product/coverpro-2000cpx/"
+        "value": "Snap-on foot; the presser foot lifter also releases thread tension (manual); lift height not published",
+        "source": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf"
       },
       "threadTrimmer": {
-        "value": null,
-        "source": null
+        "value": "Manual thread cutter on the machine (manual parts list); no automatic trimmer listed",
+        "source": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf"
       },
       "feedSystem": {
         "value": "Differential feed; Seam Tightening System (STS); Tension Level Control (TLC); no knife",
@@ -4682,30 +4788,39 @@ export const catalogData: Record<string, CatalogEntry> = {
       },
       "weightLb": {
         "value": 19,
-        "source": "https://www.sewingpartsonline.com/products/janome-coverpro-2000cpx-coverstitch-machine"
+        "source": "https://www.janome.com/product/coverpro-2000cpx/"
       },
       "dimensionsIn": {
         "value": null,
         "source": null
       },
       "includedFeet": {
-        "value": "Standard foot; needle set ELx705; electronic foot control; dust cover (standard accessories per dealer listing)",
-        "source": "https://www.qualitysewing.com/products/janome-coverpro-2000cpx-coverstitch-machine"
+        "value": "Snap-on presser foot on the machine. Janome page standard accessories: foot control, lint brush, needle threader, large and small screwdriver, large spool holder, with 4 cones of thread and a dust cover. Manual standard set: needles (2 x 80/12, 3 x 90/14), screwdrivers, tweezers, nets, spool holder caps, lint brush, needle threader, attachment screws, accessory box. Seam guide, binder, gathering attachments, clear view foot and extension table are listed as optional on the page",
+        "source": "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf"
       },
       "warrantyUs": {
-        "value": "25 yr parts, 2 yr electrical, 1 yr labor (Janome America)",
-        "source": "https://www.kenssewingcenter.com/janome-coverpro-2000cpx-coverhem-machine.html"
+        "value": "25 years against defects in materials or workmanship; electronic component parts 5 years; labor 1 year; commercial use 1 year; void if not bought from an authorized Janome dealer in the United States (Janome America limited warranty PDF, OCR reading)",
+        "source": "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf"
       }
     },
     "claims": [
       "\"Seam Tightening System\" and \"Tension Level Control\" (manufacturer trademarks, product page)",
       "\"Extra large bed space\" (manufacturer claim, product page)",
-      "\"Advanced coverstitch machine\" (dealer listing title)"
+      "\"Advanced coverstitch machine\" (dealer listing title)",
+      "\"Long arm, heavy-duty cover hem machine\" (Janome product page; the bed is 4 x 5.5 in, not a quilting long arm and not a needle-to-body throat)",
+      "\"The most advanced Cover Hem machine available\" (Janome product page)"
     ],
     "conflicts": [
-      "Weight: dealer listing 19 lb (8.6 kg); Janome page value not captured. Catalog will use 19 lb flagged [verify].",
-      "Top cover stitch: the 2000CPX does not do a top cover; reviewers note the 3000CPX-class machines add it. Confirm if a listing implies otherwise.",
-      "Throat space: a dealer snippet gave Sewing area 4 x 5.5 in with built-in free arm which is not a needle-to-body throat figure (likely bed width or a metric value). Catalog leaves throat null for this coverstitch until a manufacturer sheet confirms."
+      "Weight: Janome's page says 19 lb; a dealer comparison chart prints 17.8 lb under the 2000CPX and 19 lb under the 1000CPX, and an Amazon listing says 23 lb, probably a shipping weight. The Janome figure is used.",
+      "Needles in the box: our earlier spec said 90/14 supplied. Janome's manual says the machine arrives with 80/12 installed and the standard set is 2 x 80/12 and 3 x 90/14; Janome's page lists assorted ELx705 needles as optional; two dealers list five 80/12 and five 90/14. The manual is used.",
+      "Warranty: our earlier spec and one dealer say 2 years on electrical parts; Janome's warranty PDF says 5 years for electronic component parts (OCR reading) and two other dealers say 5. The Janome figure is used, and the warranty is void without an authorized-dealer purchase.",
+      "Throat: Janome publishes a 4 x 5.5 in bed (sewing area), not a needle-to-body throat; a dealer calls 5.5 in throat space to the right of the needle. One review puts free arm clearance at no more than an inch. Throat stays null.",
+      "Differential feed: Janome says 0.5 to 2.25; one dealer page prints 0.5 to 2.5. The Janome figure is used.",
+      "Tension lever: a dealer chart marks Tension Level Control for the 2000CPX only and a tension release device for the 2000CPX, 1000CPX and 900CPX; one forum member says her 900CPX has the tension lever too; Janome's manual lists a looper thread tension switching lever on the 2000CPX. Sibling features are dealer and owner statements, not Janome documents.",
+      "Lighting: Janome's page lists an LED light, one forum member says the 1000CPX has an incandescent bulb, and the instruction book parts list names no lamp.",
+      "Stitch types: one blogger describes two and three thread overlock stitches on the machine's chart; Janome lists chain, cover and triple cover stitch only, and says cutting width adjustment is not available (no knife).",
+      "Naming: Janome's page and manual cover the CoverPro 2000CPX. A few posts mention a plain Cover Pro 2000 or a 2 needle 2000CPX; no Janome document we read lists either, and the page lists 1, 2 or 3 needles on one machine.",
+      "Ratings: Amazon's 4.5 from 67 ratings sits on a listing that shares a parent with the CoverPro 1000CPX and its reviews name the 900CPX and 1000CPX, so it is not quoted as a 2000CPX rating."
     ],
     "ownerThemes": [
       {
@@ -4724,7 +4839,7 @@ export const catalogData: Record<string, CatalogEntry> = {
         "source": "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx/"
       }
     ],
-    "evidence": "owner",
+    "evidence": "mixed",
     "buyerQuestions": [
       "What is the difference between the Janome 1000CPX, 2000CPX and 3000CPX?",
       "Can the 2000CPX do a top cover stitch?",
@@ -4749,41 +4864,78 @@ export const catalogData: Record<string, CatalogEntry> = {
     "discontinued": false,
     "replacedBy": null,
     "editorial": {
-      "verdict": "The CoverPro 2000CPX is the dedicated coverstitch with the largest published work area in its class, a free arm and a tension release lever, at about $799.",
-      "whoFor": "A garment sewist hemming knits regularly who wants room to the right of the needle and industrial-style ELx705 needles.",
-      "skipIf": "You hem occasionally and the Brother 2340CV at a lower price covers it, or you want a top cover stitch.",
+      "verdict": "A dedicated coverstitch with a 4 x 5.5 in bed and a free arm, but owners are split on skipped stitches and setup, so budget time for needles and tension.",
+      "whoFor": "A knit sewist who hems often, already owns a serger and will spend time on needles, threading and tension to get clean cover hems.",
+      "skipIf": "You want a top cover stitch (a dealer points to the CoverPro 3000P), you need a knife, or you cannot buy from an authorized Janome dealer, because the warranty is void without one.",
       "keySpec": "1/2/3 needle · 3 or 6 mm cover · 4 x 5.5 in bed · 1,000 spm",
       "strengths": [
-        "4 x 5.5 in sewing area with a free arm, published by Janome.",
-        "Differential feed 0.5 to 2.25, the widest range in this set.",
-        "Tension release lever and Janome's TLC and STS tension aids, per the product page."
+        "Owners who report no trouble describe a quiet machine that gives clean cover hems once ELx705 needles and tension are right; the reliability theme is split, with several saying they never saw a skipped stitch.",
+        "Janome's page and manual confirm a free arm, a 4 x 5.5 in bed, differential feed 0.5 to 2.25 and 1 to 4 mm stitch length, 1,000 spm and a snap-on foot.",
+        "Janome's manual lists a looper thread tension switching lever and tension released when the presser foot lifter is raised; owners and a shop owner credit the lever as the main change over the 1000CPX."
       ],
       "weaknesses": [
-        "1,000 spm is the slowest of the coverstitch options here.",
-        "ELx705 needles are a specialty item compared with 130/705H household needles.",
-        "Weight and dimensions are not published on the Janome page captured."
+        "Owners report skipped stitches and tunnelling as the repeated complaint, from none at all to years of trouble, and some moved to another brand; the sample skews toward people asking for help.",
+        "Owners report tension and setup take time: tension a little off out of the box, ELx705 needles to hunt down, and manual settings that may not work; Janome's manual has no oiling section, and one owner says oiling a new machine cured her skipping.",
+        "Owners call the free arm too small to be useful and the manual too basic; Janome publishes no throat, dimensions, motor power or frame, so those stay [verify]."
       ],
       "checks": [
         {
-          "title": "ELx705 needle supply",
-          "body": "The machine ships with 90/14 ELx705 needles. Stock spares before the first project; big-box stores rarely carry them."
+          "title": "Authorized dealer and warranty",
+          "body": "Janome says it sells through authorized dealers and does not sell direct. Its warranty PDF says the 25 year coverage is void if the machine was not bought from an authorized US dealer. Marketplace listings are not shown by Janome as authorized, so ask the seller before you buy."
         },
         {
-          "title": "Standard versus bonus kit",
-          "body": "Standard accessories per dealers are a needle set, foot control and dust cover. Seam guides, gathering attachments and binders are dealer bonuses."
+          "title": "Needles and box contents",
+          "body": "Janome's manual says the machine arrives with 80/12 ELx705 needles installed and a set of 2 x 80/12 and 3 x 90/14, while the product page lists assorted ELx705 needles as optional and dealers list five of each. Owners advise ELx705 needles, ballpoint SUK for knits, and a few say the supplied needles skipped on knits."
         },
         {
-          "title": "No top cover stitch",
-          "body": "The 2000CPX does chain, narrow and wide cover and triple cover. If you want a decorative top side, look at the 3000-series."
+          "title": "Name check across the CoverPro line",
+          "body": "Janome's page and manual cover the 2000CPX only. A dealer chart gives the 1000CPX the same 4 x 5.5 in bed and 1,000 spm and marks Tension Level Control for the 2000CPX only; a few posts mention a 2 needle 2000CPX or a plain Cover Pro 2000 that no Janome document we read lists. Amazon's 4.5 from 67 ratings pools the 1000CPX listing."
         }
       ],
       "realCost": [
-        "3 to 4 cones of thread",
-        "ELx705 needles, 90/14",
-        "Sewing machine oil for the points Janome specifies",
-        "Stabilizer tape for light knits"
+        "ELx705 needles in 80/12 and 90/14 (ballpoint SUK for knits per owners); Janome's page lists extra needles as optional",
+        "Thread: Janome's page says 4 cones are included; a 3 needle cover hem uses four spools",
+        "Optional accessories listed by Janome: seam guide, extension table, clear view foot, elastic gathering attachment and tape binder",
+        "Oil: Janome's manual gives no oiling schedule; one owner reports oiling helped"
       ],
-      "faqs": []
+      "faqs": [
+        {
+          "q": "What is the difference between the CoverPro 2000CPX and the 1000CPX?",
+          "a": "A shop owner quoted by Sewing Insight, a dealer page and a forum member say the main change is the looper tension switching lever, sold as Tension Level Control. A dealer chart marks Tension Level Control for the 2000CPX only and gives both the same 4 x 5.5 in bed and 1,000 spm [verify]. One forum post says the 1000CPX has an incandescent bulb and the 2000CPX an LED, while Janome lists LED for the 2000CPX; we read no Janome 1000CPX document, so treat these as dealer and owner figures [verify]."
+        },
+        {
+          "q": "Can the CoverPro 2000CPX do a top cover stitch?",
+          "a": "No Janome document we read lists a top cover (decorative looper) stitch for the 2000CPX. Janome lists a 2 thread chain stitch, a 3 thread cover stitch (3 or 6 mm) and a 4 thread triple cover stitch (6 mm). A dealer page says buyers who want a top cover hem should look at the CoverPro 3000P; we did not read a Janome page for it [verify]."
+        },
+        {
+          "q": "Can the CoverPro 2000CPX serge or cut fabric?",
+          "a": "No. Janome lists cutting width adjustment as not available, a dealer says the machine does not cut the material, and no overlock stitch is listed. Janome's manual names a thread cutter on the frame, which is a hand cutter, not an automatic trimmer. You still need a serger or a sewing machine for seams."
+        },
+        {
+          "q": "What needles does the CoverPro 2000CPX use?",
+          "a": "Janome's manual says to use Organ ELx705 needles in size 80/12 or 90/14. The machine arrives with 80/12 installed and the standard set is 2 x 80/12 and 3 x 90/14, while Janome's page lists assorted ELx705 needles as optional. Owners say wrong needles are a common cause of skipped stitches, and some use ballpoint SUK ELx705 needles for knits."
+        },
+        {
+          "q": "Why do some owners report skipped stitches on the CoverPro 2000CPX?",
+          "a": "Reports split: some owners say they never see skipped stitches, others call them their biggest problem, especially over seams and thicker layers. Owners most often point to needles (ELx705, ballpoint for knits), threading and seating thread in the tension discs, tension settings and foot pressure. One owner says oiling a new machine fixed it, though Janome's manual has no oiling section. Reddit and forum threads lean toward people asking for help, so problems are over-represented here."
+        },
+        {
+          "q": "How much does the CoverPro 2000CPX weigh?",
+          "a": "Janome's page lists 19 lb. A dealer comparison chart prints 17.8 lb under the 2000CPX and 19 lb under the 1000CPX, and an Amazon listing says 23 lb, probably a shipping weight [verify]. Janome publishes no dimensions, so those stay [verify]."
+        },
+        {
+          "q": "Does the CoverPro 2000CPX have a free arm, and how much room is there?",
+          "a": "Yes. Janome lists a free arm and a 4 x 5.5 in bed it calls extra large; that is bed area, not a needle-to-body throat, and Janome publishes no throat figure. Owners are lukewarm on the free arm: one reviewer puts its clearance at no more than an inch, another calls it not much use, and a blogger skips it and sews small circles inside out."
+        },
+        {
+          "q": "Does the thread tension release when the presser foot is raised on the 2000CPX?",
+          "a": "Yes. Janome's manual says thread tension is released when the presser foot lifter is raised. One owner notes that lifting the foot mid seam can cause a skipped stitch. The machine also has a looper thread tension switching lever, sold as Tension Level Control, and Janome's page lists a tension release lever."
+        },
+        {
+          "q": "Is there a binder attachment for the CoverPro 2000CPX?",
+          "a": "Yes. Janome lists a tape binder for 3 needle use, a binder foot with guide and a tape stand as optional accessories. A blogger who bought the binder calls it fast but a steep learning curve and not cheap, and a commenter says theirs came without instructions and was hard to position."
+        }
+      ]
     },
     "sources": [
       "https://www.janome.com/product/coverpro-2000cpx/",
@@ -4794,7 +4946,16 @@ export const catalogData: Record<string, CatalogEntry> = {
       "https://sewing.patternreview.com/SewingDiscussions/topic/105008",
       "https://sewing.patternreview.com/review/machine/6332",
       "https://lladybird.com/2018/01/17/machine-review-janome-coverpro-2000cpx/",
-      "https://www.thelaststitch.com/janome-coverpro-2000-review/"
+      "https://www.thelaststitch.com/janome-coverpro-2000-review/",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/116862",
+      "https://sewing.patternreview.com/SewingDiscussions/topic/117042",
+      "https://sewing.patternreview.com/review/machine/6869",
+      "https://sewinginsight.com/reviews/janome-cover-pro-2000-cpx-review/",
+      "https://www.bohofabrics.com/products/janome-coverpro-2000cpx-coverstitch-machine",
+      "https://www.janome.com/support/warranty/",
+      "https://www.janome.com/wp-content/uploads/2019/11/inst-book-2000cpxenspfr.pdf",
+      "https://www.janome.com/wp-content/uploads/2024/11/25-year-warranty-2023.pdf",
+      "https://www.kenssewingcenter.com/media/sparsh/product_attachment/CoverPro_Comp_Chart.pdf"
     ]
   },
   "janome-hd1000": {

@@ -63,7 +63,6 @@
       "note": "The manual gives arm height 8.9 in, which fills throatHeightIn (null in spec). The Elite page's 'blocks up to 15 in' and the recertified page's 'block size up to 17 in' are block sizes, not throat.",
       "site": {
         "label": "Throat",
-        "grace": "19 in arm width, 8.9 in arm height (manual).",
         "others": "Dealers say 19 in. One Grace page says blocks up to 17 in, another up to 19 in; block size is not throat space.",
         "status": "confirmed",
         "links": [
@@ -75,7 +74,8 @@
             "label": "Grace recertified 19X page",
             "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
           }
-        ]
+        ],
+        "juki": "19 in arm width, 8.9 in arm height (manual)."
       }
     },
     {
@@ -93,7 +93,6 @@
       "spec_value": 2000,
       "site": {
         "label": "Speed",
-        "grace": "90 to 2000 stitches per minute (manual). The Elite is 2600.",
         "others": "Dealers agree on 2000.",
         "status": "confirmed",
         "links": [
@@ -105,7 +104,8 @@
             "label": "Grace 19X Elite comparison",
             "url": "https://graceframe.com/en/sewing-machines/qnique19xelite"
           }
-        ]
+        ],
+        "juki": "90 to 2000 stitches per minute (manual). The Elite is 2600."
       }
     },
     {
@@ -116,7 +116,6 @@
       "spec_value": null,
       "site": {
         "label": "Weight and body size",
-        "grace": "41.5 lb (18.8 kg). Body 26.8 high x 15.6 wide x 32.8 long in.",
         "others": "No dealer page found lists weight.",
         "status": "confirmed",
         "links": [
@@ -124,7 +123,8 @@
             "label": "Grace manual p.9",
             "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
           }
-        ]
+        ],
+        "juki": "41.5 lb (18.8 kg). Body 26.8 high x 15.6 wide x 32.8 long in."
       }
     },
     {
@@ -151,7 +151,6 @@
       "note": "Spec cites a dealer for 'OLED'. Grace and its manual say 2.4 in color touch display and never say OLED. Use the Grace wording.",
       "site": {
         "label": "Screen",
-        "grace": "2.4 in color touch display.",
         "others": "Dealer copy says 'full color OLED touchscreen'; Grace does not.",
         "status": "differs",
         "links": [
@@ -163,7 +162,8 @@
             "label": "Grace recertified 19X page",
             "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
           }
-        ]
+        ],
+        "juki": "2.4 in color touch display."
       }
     },
     {
@@ -174,7 +174,6 @@
       "spec_value": null,
       "site": {
         "label": "Needle",
-        "grace": "DPX5 MR, 134 MR or 1955 MR (multi-directional); size 16 for 60 wt, size 18 for 50 wt polyester.",
         "others": "Dealers list only the included sizes 16 and 18.",
         "status": "confirmed",
         "links": [
@@ -182,7 +181,8 @@
             "label": "Grace manual p.92",
             "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
           }
-        ]
+        ],
+        "juki": "DPX5 MR, 134 MR or 1955 MR (multi-directional); size 16 for 60 wt, size 18 for 50 wt polyester."
       }
     },
     {
@@ -201,7 +201,6 @@
       "note": "The 19X manual lists a built-in bobbin winder (with automatic stop) and a dual thread mast. The spec's dealer source treats the built-in winder as an Elite addition. Maker document wins; the dealer version is kept as the disagreement.",
       "site": {
         "label": "Bobbin winder",
-        "grace": "Built-in winder with automatic stop (19X manual).",
         "others": "Dealer copy treats the built-in winder as an Elite feature.",
         "status": "differs",
         "links": [
@@ -209,7 +208,8 @@
             "label": "Grace manual p.9 and p.48",
             "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
           }
-        ]
+        ],
+        "juki": "Built-in winder with automatic stop (19X manual)."
       }
     },
     {
@@ -259,7 +259,6 @@
       "spec_value": null,
       "site": {
         "label": "Oiling",
-        "grace": "After 20 hours of use, at project start and after 30 days idle; hook every other bobbin change.",
         "others": "Not stated at dealers.",
         "status": "confirmed",
         "links": [
@@ -267,7 +266,8 @@
             "label": "Grace manual p.81 and p.88",
             "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
           }
-        ]
+        ],
+        "juki": "After 20 hours of use, at project start and after 30 days idle; hook every other bobbin change."
       }
     },
     {
@@ -279,7 +279,6 @@
       "note": "The spec's dealer statement says 1 yr electrical; Grace's own page puts electronic parts at 2 yr. Warranty is the original owner only and does not transfer. The shipping and box-return conditions are the owner's. Direct purchases only carry a 30 day money-back guarantee; dealer sales do not.",
       "site": {
         "label": "Warranty",
-        "grace": "2 yr limited on the machine and its electronic parts; 5 yr on the cast metal body; original owner only. (19X Elite: 10 yr cast body.)",
         "others": "Grace dealer page says 5 / 2 / 1 yr (casting, mechanical, electrical).",
         "status": "differs",
         "links": [
@@ -287,7 +286,8 @@
             "label": "Grace warranty page",
             "url": "https://graceframe.com/en/page/warranty"
           }
-        ]
+        ],
+        "juki": "2 yr limited on the machine and its electronic parts; 5 yr on the cast metal body; original owner only. (19X Elite: 10 yr cast body.)"
       }
     },
     {
@@ -307,7 +307,6 @@
       "note": "Grace does not say the 19X is discontinued. We cannot call it discontinued; the spec's discontinued flag stays as is.",
       "site": {
         "label": "Availability",
-        "grace": "No new 19X listing on graceframe.com; recertified units and the Elite comparison page remain.",
         "others": "Dealers still list new 19X units.",
         "status": "differs",
         "links": [
@@ -319,7 +318,8 @@
             "label": "Grace recertified 19X page",
             "url": "https://graceframe.com/en/product/recertified-grace-19x-quilting-machine"
           }
-        ]
+        ],
+        "juki": "No new 19X listing on graceframe.com; recertified units and the Elite comparison page remain."
       }
     },
     {
@@ -339,7 +339,6 @@
       "note": "Dealer pages (Moore's, Tops) say the 19X needle light dims; Grace's 19X Elite page lists 'dimmable LED lights' as an Elite feature. The 19X manual says on or off only. Treat dimming as unconfirmed for the 19X.",
       "site": {
         "label": "Needle light",
-        "grace": "On or off from the touch display (manual); dimming is listed for the 19X Elite.",
         "others": "Dealer copy for the 19X says the needle light dims.",
         "status": "differs",
         "links": [
@@ -347,7 +346,8 @@
             "label": "Grace manual",
             "url": "https://graceframe.com/storage/instruction_files/o1og1WriUmfZW9n453mJCG0uq7cZiewCchfZQaD9.pdf"
           }
-        ]
+        ],
+        "juki": "On or off from the touch display (manual); dimming is listed for the 19X Elite."
       }
     }
   ]
