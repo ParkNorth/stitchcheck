@@ -727,9 +727,9 @@ const siteFields: Record<string, SiteFields> = {
       { slug: "juki-tl-2010q", label: "Portable", note: "1,500 spm on a domestic body." },
     ],
     imageAlt: "Juki DDL-5550 industrial sewing machine head on a table",
-    lastUpdated: "2026-10-02",
+    lastUpdated: "2026-10-03",
     verdict: "A Juki industrial straight stitch head with a 13 mm knee lift and automatic oiling that needs a table, a motor and floor space, and whose throat, head weight and origin Juki does not publish.",
-    specsVerified: "2026-10-02",
+    specsVerified: "2026-10-03",
   },
   "juki-mo-644d": {
     score: 7.9,
