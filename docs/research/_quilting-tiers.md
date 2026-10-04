@@ -64,6 +64,7 @@ Note: speed on a frame is governed by the stitch regulator and hand speed; the M
 - Entry frame long-arms 15 to 19 in with frame: about $5,000 to $7,600 (Q'nique 15R bundle, Moxie MSRP, Q'nique 19X).
 - 20 in and up systems: about $12,500 to $52,999 (HQ Amara 20 to Gammill Statler 26).
 - All figures are the seen prices in _long-arm-cost.md with their URLs; none are averages.
+- Entry sewing machines, about $329 to $599: Singer 6800C $329 and Baby Lock Jubilant $599, supplied by the editor on 2026-10-04; retailer URL and exact date seen not recorded. Re-check at the retailer and add the source before relying on it.
 
 ## 7. Wording rules for the guide
 
