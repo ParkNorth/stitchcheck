@@ -18,6 +18,7 @@ import { comparisons } from "../src/lib/comparisons";
 import { glanceFor } from "../src/lib/glance";
 import { guides } from "../src/lib/guides";
 import { hubs, allHubEntries } from "../src/lib/hubs";
+import { BUY_SHORT_LINKS } from "../src/lib/buy-links";
 import { bandForPrice } from "../src/lib/price-bands";
 import { MACHINE_TYPES, SPEC_KEYS, products, getProduct } from "../src/lib/products";
 import { getRollup } from "../src/lib/rollups";
@@ -280,6 +281,14 @@ if (/new Date\(\)/.test(sitemapSrc)) fail("sitemap", "sitemap.ts", "never stamp 
 const buySrc = read(path.join(ROOT, "src", "components", "ui", "BuyButton.tsx"));
 if (!/Affiliate/.test(buySrc)) fail("affiliate-label", "BuyButton.tsx", "buy button must carry the word affiliate");
 if (!/sponsored nofollow noopener/.test(read(path.join(ROOT, "src", "lib", "affiliates.ts")))) fail("affiliate-rel", "affiliates.ts", "retailer links need rel=sponsored nofollow noopener");
+
+// Linkly short links: only for retailer buy routes, and each must carry our Awin IDs and the product slug.
+for (const [slug, url] of Object.entries(BUY_SHORT_LINKS)) {
+  const prod = getProduct(slug);
+  if (!prod) fail("short-link", slug, "short link for a product that is not in the catalog");
+  else if (prod.buy.kind !== "retailer") fail("short-link", slug, "short link on a product with no retailer buy route");
+  if (!/^https:\/\/update\.stitchcheck\.com\/[A-Za-z0-9_-]+$/.test(url)) fail("short-link", slug, `unexpected short link shape: ${url}`);
+}
 
 // ------------------------------------------------------------------ report
 if (!QUIET || errors.length || warnings.length) {

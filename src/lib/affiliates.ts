@@ -1,7 +1,10 @@
 /**
  * Money plumbing. One retailer: Sewing Machines Plus (SMP).
  *
- * Every purchase link on the site goes through `/out/{slug}` so the network
+ * Retailer buy buttons point at a Linkly short link (`src/lib/buy-links.ts`) that
+ * redirects through Awin to the SMP product page. A model with no short link falls
+ * back to `/out/{slug}`, and `/out/{slug}` forwards to the short link for old URLs.
+ * Every purchase link goes through here so the network
  * (Awin or ShareASale) and the IDs live in one place. Until the program is
  * approved and the env vars are set, `/out/` 302s to the plain SMP product URL
  * with the same rel attributes, so nothing on the page changes when money
@@ -11,6 +14,8 @@
  * get a "Find a dealer" link to the manufacturer locator, `rel="nofollow"`,
  * and no buy button. Never fake an affiliate relationship.
  */
+
+import { BUY_SHORT_LINKS } from "@/lib/buy-links";
 
 export type Network = "awin" | "shareasale" | "direct";
 
@@ -65,8 +70,9 @@ function shareasaleDeepLink(productUrl: string, slug: string): string {
   return `https://www.shareasale.com/r.cfm?${q.toString()}`;
 }
 
-/** Final destination for `/out/{slug}`. */
+/** Final destination for `/out/{slug}`. A Linkly short link wins over the env-driven deep link. */
 export function affiliateDestination(slug: string, retailerUrl: string): string {
+  if (BUY_SHORT_LINKS[slug]) return BUY_SHORT_LINKS[slug];
   if (NETWORK === "awin" && AFFILIATE_ACTIVE) return awinDeepLink(retailerUrl, slug);
   if (NETWORK === "shareasale" && AFFILIATE_ACTIVE) return shareasaleDeepLink(retailerUrl, slug);
   return retailerUrl;
@@ -78,7 +84,7 @@ export function outboundLinkProps(
   target: BuyTarget,
 ): { href: string; rel: string; target: "_blank" } | null {
   if (target.kind === "retailer") {
-    return { href: `/out/${slug}`, rel: "sponsored nofollow noopener", target: "_blank" };
+    return { href: BUY_SHORT_LINKS[slug] ?? `/out/${slug}`, rel: "sponsored nofollow noopener", target: "_blank" };
   }
   if (target.kind === "dealer") {
     return { href: target.url, rel: "nofollow noopener external", target: "_blank" };

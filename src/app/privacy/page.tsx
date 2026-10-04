@@ -3,7 +3,7 @@ import { UtilityLayout } from "@/components/layout/UtilityLayout";
 import { pageMeta } from "@/lib/seo-meta";
 import { longDate, site } from "@/lib/site";
 
-const UPDATED = "2026-09-29";
+const UPDATED = "2026-10-04";
 
 export const metadata: Metadata = pageMeta({
   title: "Privacy Policy | Stitch Check",
@@ -28,7 +28,7 @@ export default function PrivacyPage() {
         </ul>
         <h2>Affiliate links</h2>
         <p>
-          Buy buttons go through our own /out/ redirect and then through an affiliate network to {site.retailer.name}. The network sets a cookie so the retailer can credit the sale to us. That cookie is the network&apos;s, governed by its privacy policy, and you can clear it at any time. We receive aggregate reports (clicks, sales, commission) and never your name, address or payment details.
+          Buy buttons go through our own short-link redirect and then through an affiliate network to {site.retailer.name}. The network sets a cookie so the retailer can credit the sale to us. That cookie is the network&apos;s, governed by its privacy policy, and you can clear it at any time. We receive aggregate reports (clicks, sales, commission) and never your name, address or payment details.
         </p>
         <h2>Cookies</h2>
         <p>Google Analytics sets first-party cookies to distinguish sessions. You can block them with a browser setting or extension without losing any part of the site.</p>
